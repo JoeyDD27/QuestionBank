@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Large extracted files (not needed for deployment)
+docx_extracted/
+
+# Large source files
+*.docx
+
+# Environment files
+.env*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+
+# Vercel
+.vercel
+
+# Next.js
+web/.next/
+web/out/
+
+# Logs
+*.log

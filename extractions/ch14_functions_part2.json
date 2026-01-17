@@ -1,0 +1,385 @@
+{
+  "chapter": 14,
+  "title": "Functions Part 2",
+  "source_images": "image1399.png - image1438.png",
+  "topics": [
+    {
+      "name": "Composite Functions",
+      "content": [
+        {
+          "type": "concept",
+          "description": "Algebraically, if f(x) = x^4 and g(x) = 2x + 3 then (f o g)(x) = f(g(x)) = f(2x + 3) = (2x + 3)^4 and (g o f)(x) = g(f(x)) = g(x^4) = 2(x^4) + 3 = 2x^4 + 3. So f(g(x)) != g(f(x)). In general, (f o g)(x) != (g o f)(x)."
+        },
+        {
+          "type": "example",
+          "number": 10,
+          "problem": "Given f: x -> 2x + 1 and g: x -> 3 - 4x, find in simplest form: (a) (f o g)(x), (b) (g o f)(x)",
+          "solution": {
+            "part_a": "(f o g)(x) = f(g(x)) = f(3 - 4x) = 2(3 - 4x) + 1 = 6 - 8x + 1 = 7 - 8x",
+            "part_b": "(g o f)(x) = g(f(x)) = g(2x + 1) = 3 - 4(2x + 1) = 3 - 8x - 4 = -8x - 1"
+          }
+        },
+        {
+          "type": "example",
+          "number": 6,
+          "problem": "If f(x) = 3x + 2 and g(x) = x^2 + 4, find in simplest form: (a) f(g(x)), (b) g(f(x))",
+          "solution": {
+            "part_a": "f(g(x)) = f(x^2 + 4) = 3(x^2 + 4) + 2 = 3x^2 + 12 + 2 = 3x^2 + 14",
+            "part_b": "g(f(x)) = g(3x + 2) = (3x + 2)^2 + 4 = 9x^2 + 12x + 4 + 4 = 9x^2 + 12x + 8"
+          }
+        },
+        {
+          "type": "example",
+          "number": 7,
+          "problem": "If f(x) = 2x - 1, find: (a) f(f(x)), (b) f(f(5))",
+          "solution": {
+            "part_a": "f(f(x)) = f(2x - 1) = 2(2x - 1) - 1 = 4x - 2 - 1 = 4x - 3",
+            "part_b": "f(f(5)) = 4(5) - 3 = 17 {using part a}"
+          }
+        },
+        {
+          "type": "example",
+          "number": 11,
+          "problem": "Given f(x) = 6x - 5 and g(x) = x^2 + x, find: (a) (g o f)(-1), (b) (f o f)(0)",
+          "solution": {
+            "part_a": "(g o f)(-1) = g(f(-1)). Now f(-1) = 6(-1) - 5 = -11. Therefore (g o f)(-1) = g(-11) = (-11)^2 + (-11) = 110",
+            "part_b": "(f o f)(0) = f(f(0)). Now f(0) = 6(0) - 5 = -5. Therefore (f o f)(0) = f(-5) = 6(-5) - 5 = -35"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Exercise 15D - Composite Functions",
+      "exercises": [
+        {
+          "number": 1,
+          "problem": "If f(x) = 3x - 4 and g(x) = 2 - x, find in simplest form: (a) f(g(x)), (b) g(f(x)), (c) f(f(x)), (d) g(g(x))"
+        },
+        {
+          "number": 2,
+          "problem": "If f(x) = sqrt(x) and g(x) = 4x - 3, find in simplest form: (a) f(g(x)), (b) g(f(x)), (c) f(g(7)), (d) g(f(4))"
+        },
+        {
+          "number": 3,
+          "problem": "Find two functions f and g such that: (a) f(g(x)) = sqrt(x) - 3, (b) f(g(x)) = (x + 5)^3, (c) f(g(x)) = 5/(x + 7), (d) g(f(x)) = 1/sqrt(3 - 4x), (e) g(f(x)) = 3^(x^2), (f) g(f(x)) = ((x + 1)/(x - 1))^2"
+        },
+        {
+          "number": 4,
+          "problem": "Suppose f(x) = 3x + 1 and g(x) = x^2 + 2x. (a) Find f(g(x)). (b) Find x such that f(g(x)) = 10."
+        },
+        {
+          "number": 5,
+          "problem": "Suppose f(x) = 4x + 1 and g(x) = 1/(x + 2). (a) Find f(g(x)). (b) Find f(g(-1)). (c) Find x such that f(g(x)) = 3."
+        },
+        {
+          "number": 6,
+          "problem": "Suppose f(x) = 2x + 5 and g(x) = (x - 5)/2. (a) Find: (i) f(4), (ii) g(13), (iii) g(17), (iv) f(6). (b) Find f(g(x)) and g(f(x)). (c) Find: (i) f(g(3)), (ii) g(f(-7))."
+        },
+        {
+          "number": 11,
+          "problem": "Suppose f(x) = sqrt(1 - x) and g(x) = x^2. Find: (a) (f o g)(x), (b) the domain and range of (f o g)(x)."
+        },
+        {
+          "number": 12,
+          "problem": "Suppose f(x) and g(x) are functions. f(x) has domain D_f and range R_f. g(x) has domain D_g and range R_g. (a) Under what circumstance will (f o g)(x) be defined? (b) Assuming (f o g)(x) is defined, find its domain."
+        }
+      ]
+    },
+    {
+      "name": "Inverse Functions",
+      "content": [
+        {
+          "type": "concept",
+          "description": "The operations of + and -, x and ÷, are inverse operations as one 'undoes' what the other does. The function y = 2x + 3 can be 'undone' by its inverse function y = (x - 3)/2. We can think of this as two machines. If the machines are inverses then the second machine undoes what the first machine does."
+        },
+        {
+          "type": "definition",
+          "name": "One-to-one function",
+          "description": "A one-to-one function is any function where: (1) for each x there is only one value of y, and (2) for each y there is only one value of x. Equivalently, a function is one-to-one if f(a) = f(b) only when a = b. One-to-one functions satisfy both the vertical line test and the horizontal line test."
+        },
+        {
+          "type": "concept",
+          "description": "For example, f(x) = x^3 is one-to-one since it passes both the vertical line and horizontal line tests. If the function f(x) is one-to-one, it will have an inverse function which we denote f^(-1)(x)."
+        },
+        {
+          "type": "definition",
+          "name": "Many-to-one function",
+          "description": "Functions that are not one-to-one are called many-to-one. While these functions satisfy the vertical line test, they do not satisfy the horizontal line test. At least one y-value has more than one corresponding x-value. For example, f(x) = x^2 fails the horizontal line test, since if f(x) = 4 then x = -2 or 2. f(x) = x^2 is therefore many-to-one. If a function f(x) is many-to-one, it does not have an inverse function."
+        }
+      ]
+    },
+    {
+      "name": "Properties of the Inverse Function",
+      "content": [
+        {
+          "type": "properties",
+          "items": [
+            "The inverse function is denoted f^(-1)(x)",
+            "The inverse must satisfy the vertical line test",
+            "The graph of the inverse is the reflection of y = f(x) in the line y = x",
+            "The inverse satisfies (f o f^(-1))(x) = x and (f^(-1) o f)(x) = x",
+            "The function y = x is called the identity function because it is its own inverse",
+            "f^(-1)(x) is the inverse of f. In general, f^(-1)(x) != 1/f(x)",
+            "If (x, y) lies on f, then (y, x) must lie on f^(-1)",
+            "The domain of f^(-1) is equal to the range of f",
+            "The range of f^(-1) is equal to the domain of f",
+            "f^(-1)(x) can be found algebraically by interchanging x and y and then making y the subject of the resulting formula"
+          ]
+        },
+        {
+          "type": "example",
+          "description": "For f: y = 5x + 2 becomes f^(-1): x = 5y + 2, which we rearrange to obtain f^(-1): y = (x - 2)/5"
+        }
+      ]
+    },
+    {
+      "name": "Inverse Function Examples",
+      "content": [
+        {
+          "type": "example",
+          "problem": "Consider f(x) = (1/2)x - 1. (a) Find f^(-1)(x). (b) Check that f(f^(-1)(x)) = f^(-1)(f(x)) = x. (c) Sketch y = f(x), y = f^(-1)(x), and y = x on the same set of axes.",
+          "solution": {
+            "part_a": "y = (1/2)x - 1 has inverse function x = (1/2)y - 1 {interchanging x and y}. Therefore 2x = y - 2, so y = 2x + 2. Thus f^(-1)(x) = 2x + 2",
+            "part_b": "f(f^(-1)(x)) = f(2x + 2) = (1/2)(2x + 2) - 1 = x + 1 - 1 = x. f^(-1)(f(x)) = f^(-1)((1/2)x - 1) = 2((1/2)x - 1) + 2 = x - 2 + 2 = x"
+          }
+        },
+        {
+          "type": "example",
+          "number": 12,
+          "problem": "Consider f: x -> 2x + 3. (a) On the same axes, graph f and its inverse function f^(-1). (b) Find f^(-1)(x) using: (i) coordinate geometry and the gradient of y = f^(-1)(x) from part a, (ii) variable interchange. (c) Check that (f o f^(-1))(x) = (f^(-1) o f)(x) = x",
+          "solution": {
+            "part_a": "f(x) = 2x + 3 passes through (0, 3) and (2, 7). Therefore f^(-1)(x) passes through (3, 0) and (7, 2). If f includes point (a, b) then f^(-1) includes point (b, a).",
+            "part_b_i": "y = f^(-1)(x) has gradient (2 - 0)/(7 - 3) = 1/2. Its equation is (y - 0)/(x - 3) = 1/2, so y = (x - 3)/2. Therefore f^(-1)(x) = (x - 3)/2",
+            "part_b_ii": "f is y = 2x + 3, so f^(-1) is x = 2y + 3. Therefore x - 3 = 2y, so (x - 3)/2 = y. Thus f^(-1)(x) = (x - 3)/2",
+            "part_c": "(f o f^(-1))(x) = f(f^(-1)(x)) = f((x - 3)/2) = 2((x - 3)/2) + 3 = x - 3 + 3 = x. (f^(-1) o f)(x) = f^(-1)(f(x)) = f^(-1)(2x + 3) = ((2x + 3) - 3)/2 = 2x/2 = x"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Exercise 15E - Inverse Functions",
+      "exercises": [
+        {
+          "number": 1,
+          "problem": "For each of the following functions: (i) Find f^(-1)(x). (ii) Sketch y = f(x), y = f^(-1)(x), and y = x on the same set of axes. (a) f(x) = x + 3, (b) f(x) = 2x + 5, (c) f(x) = (3 - 2x)/4"
+        },
+        {
+          "number": 2,
+          "problem": "Copy the following graphs and draw the graph of each inverse function."
+        },
+        {
+          "number": 3,
+          "problem": "Consider f(x) = 2x + 7. (a) Find f^(-1)(x). (b) Check that f(f^(-1)(x)) = f^(-1)(f(x)) = x."
+        },
+        {
+          "number": 4,
+          "problem": "Consider f(x) = (2x + 1)/3. (a) Find f^(-1)(x). (b) Check that f(f^(-1)(x)) = f^(-1)(f(x)) = x."
+        },
+        {
+          "number": 5,
+          "problem": "Consider g(x) = 5/(x - 2). (a) Find g^(-1)(x). (b) Check that g(g^(-1)(x)) = x and g^(-1)(g(x)) = x."
+        },
+        {
+          "number": 6,
+          "problem": "Sketch the graph of y = x^2 and reflect it in the line y = x. (a) Does f(x) = x^2 have an inverse function? Explain your answer. (b) Does f(x) = x^2, x >= 0 have an inverse function? Explain your answer."
+        },
+        {
+          "number": 7,
+          "problem": "The horizontal line test says that 'for a function to have an inverse function, no horizontal line can cut it more than once'. (a) Explain why this is a valid test for the existence of an inverse function. (b) Which of the following functions have an inverse function?"
+        },
+        {
+          "number": 8,
+          "problem": "(a) Explain why f(x) = x^2 - 2x + 5 is a function but does not have an inverse function. (b) Explain why f(x) = x^2 - 2x + 5, x >= 1 has an inverse function. (c) Show that the inverse function of b is f^(-1)(x) = 1 + sqrt(x - 4)."
+        }
+      ]
+    },
+    {
+      "name": "Exercise 3F - More Inverse Functions",
+      "exercises": [
+        {
+          "number": 1,
+          "problem": "For each of the following functions f: On the same set of axes, graph y = x, y = f(x), and y = f^(-1)(x). (i) Find f^(-1)(x) using coordinate geometry and the gradient of y = f^(-1)(x) from part a. (ii) Find f^(-1)(x) using variable interchange. (a) f: x -> 3x + 1, (b) f: x -> (x - 2)/4"
+        },
+        {
+          "number": 2,
+          "problem": "For each of the following functions f: (a) Find f^(-1)(x). (b) Show that (f^(-1) o f)(x) = (f o f^(-1))(x) = x, the identity function. (a) f: x -> 3x + 1, (b) f: x -> (3 - 2x)/4"
+        },
+        {
+          "number": 3,
+          "problem": "Copy the graphs of the following functions and draw the graphs of y = x and y = f^(-1)(x) on the same set of axes. In each case, state the domain and range of both f and f^(-1)."
+        },
+        {
+          "number": 4,
+          "problem": "Given f(x) = 2x - 5, find (f^(-1))^(-1)(x). What do you notice?"
+        },
+        {
+          "number": 5,
+          "problem": "Show that the function y = 3 - x is its own inverse."
+        },
+        {
+          "number": 6,
+          "problem": "Which of the following functions have inverses? Where an inverse exists, write down the inverse function."
+        },
+        {
+          "number": 7,
+          "problem": "If the one-to-one function H(x) has domain {x | -2 <= x < 3}, find the range of its inverse H^(-1)(x)."
+        },
+        {
+          "number": 8,
+          "problem": "Sketch the graph of f: x -> x^2 and its inverse function f^(-1)(x)."
+        },
+        {
+          "number": 9,
+          "problem": "Given f(x) = x/x, x != 0, show that f is self-inverse."
+        },
+        {
+          "number": 10,
+          "problem": "The horizontal line test says: For a function to have an inverse function, no horizontal line can cut its graph more than once. (a) Explain why this is a valid test for the existence of an inverse function. (b) Which of the following functions have an inverse function?"
+        },
+        {
+          "number": 11,
+          "problem": "Explain why f: x -> x^2 - 1 does not have an inverse."
+        },
+        {
+          "number": 12,
+          "problem": "Consider f: x -> x^2, x <= 0. (a) Find f^(-1)(x). (b) Sketch y = f(x), y = x, and y = f^(-1)(x) on the same set of axes."
+        },
+        {
+          "number": 13,
+          "problem": "Consider the functions f: x -> 2x + 5 and g: x -> (x + 2)/2. (a) Find g^(-1)(x). (b) Hence solve g(x) = -1. (c) Find x such that (f^(-1) o g)(x) = 0."
+        },
+        {
+          "number": 14,
+          "problem": "Given f: x -> 2x and g: x -> 4x - 1, show that (f^(-1) o g^(-1))(x) = (g o f)^(-1)(x)."
+        },
+        {
+          "number": 15,
+          "problem": "Find the inverse of f: x -> 1/(x - a), x != a, a != 0 by: (a) referring to its graph, (b) using algebra."
+        },
+        {
+          "number": 16,
+          "problem": "B is the image of A under a reflection in the line y = x. If A is (x, f(x)), find the coordinates of B. (a) By substituting your result from part a into y = f^(-1)(x), show that f^(-1)(f(x)) = x. (b) Using a similar method, show that f(f^(-1)(x)) = x."
+        }
+      ]
+    },
+    {
+      "name": "Polynomials and Rational Functions",
+      "content": [
+        {
+          "type": "concept",
+          "description": "Linear and quadratic functions are the first members of a family called the polynomials. The polynomials can all be written in the form y = a_0 + a_1*x + a_2*x^2 + a_3*x^3 + .... When a polynomial is divided by another polynomial, we call it a rational function."
+        }
+      ]
+    },
+    {
+      "name": "Reciprocal Functions",
+      "content": [
+        {
+          "type": "definition",
+          "description": "A reciprocal function is a function of the form y = k/x, k != 0. The graph of a reciprocal function is called a rectangular hyperbola."
+        },
+        {
+          "type": "properties",
+          "name": "Properties of y = 1/x",
+          "items": [
+            "The graph has two branches",
+            "y = 1/x is undefined when x = 0, so the domain is {x | x != 0}",
+            "On a sign diagram, this value is indicated with a dashed line",
+            "The graph includes two asymptotes, which are lines the graph approaches but never reaches",
+            "x = 0 is a vertical asymptote: as x -> 0^-, 1/x -> -infinity; as x -> 0^+, 1/x -> infinity",
+            "y = 0 is a horizontal asymptote: as x -> infinity, 1/x -> 0^+; as x -> -infinity, 1/x -> 0^-"
+          ]
+        },
+        {
+          "type": "concept",
+          "description": "The reciprocal function y = k/x passes through the points (1, k), (k, 1), (-1, -k), and (-k, -1)."
+        }
+      ]
+    },
+    {
+      "name": "Rational Functions of the Form y = (ax + b)/(cx + d)",
+      "content": [
+        {
+          "type": "properties",
+          "items": [
+            "For a function written in the form y = b/(cx + d) + a where b, c != 0: the vertical asymptote is x = -d/c, the horizontal asymptote is y = a",
+            "For a function written in the form y = (ax + b)/(cx + d) where c != 0: the vertical asymptote is x = -d/c, the horizontal asymptote is y = a/c"
+          ]
+        },
+        {
+          "type": "example",
+          "number": 7,
+          "problem": "Consider the function y = 6/(x - 2) + 4. (a) Find the asymptotes of the function. (b) Find the axes intercepts. (c) Use technology to help sketch the function, including the features found in parts a and b.",
+          "solution": {
+            "part_a": "The vertical asymptote is x = 2. The horizontal asymptote is y = 4.",
+            "part_b": "When y = 0, 6/(x - 2) = -4, so -4(x - 2) = 6, -4x + 8 = 6, -4x = -2, x = 1/2. When x = 0, y = 6/(-2) + 4 = 1. So the x-intercept is 1/2 and the y-intercept is 1."
+          }
+        },
+        {
+          "type": "example",
+          "number": 8,
+          "problem": "Draw a sign diagram for (x - 1)/(2x + 1).",
+          "solution": "(x - 1)/(2x + 1) is zero when x = 1 and undefined when x = -1/2. When x = 10, (x - 1)/(2x + 1) = 9/21 > 0. Since (x - 1) and (2x + 1) are single factors, the signs alternate."
+        },
+        {
+          "type": "example",
+          "number": 9,
+          "problem": "Consider the function f(x) = (2x + 1)/(x - 1). (a) Find the vertical asymptote of the function. (b) Find the axes intercepts. (c) Rearrange the function to find the horizontal asymptote. (d) Draw a sign diagram of the function. (e) Hence discuss the behaviour of the function near the asymptotes. (f) Sketch the function, showing the features you have found.",
+          "solution": {
+            "part_a": "The vertical asymptote is x = 1.",
+            "part_b": "f(0) = 1/(-1) = -1, so the y-intercept is -1. f(x) = 0 when 2x + 1 = 0, therefore x = -1/2. The x-intercept is -1/2.",
+            "part_c": "f(x) = (2x + 1)/(x - 1) = (2(x - 1) + 3)/(x - 1) = 2 + 3/(x - 1). The horizontal asymptote is y = 2.",
+            "part_d": "Sign diagram shows signs alternate with critical points at x = -1/2 and x = 1.",
+            "part_e": "As x -> 1^-, f(x) -> -infinity. As x -> 1^+, f(x) -> infinity. As x -> -infinity, f(x) -> 2^-. As x -> infinity, f(x) -> 2^+. As |x| -> infinity, the fraction 3/(x-1) becomes infinitely small."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Exercise 3D.1 - Reciprocal Functions",
+      "exercises": [
+        {
+          "number": 1,
+          "problem": "(a) Sketch the graphs of y = 1/x, y = 2/x, and y = 4/x on the same set of axes. (b) For the function y = k/x, k > 0: (i) Describe the effect of varying k. (ii) State the quadrants in which the graph lies. (iii) Draw a sign diagram for the function."
+        },
+        {
+          "number": 2,
+          "problem": "(a) Sketch the graphs of y = -1/x, y = -2/x, and y = -4/x on the same set of axes. (b) For the function y = k/x, k < 0: (i) Describe the effect of varying k. (ii) State the quadrants in which the graph lies. (iii) Draw a sign diagram for the function."
+        },
+        {
+          "number": 3,
+          "problem": "For the reciprocal function y = k/x, k != 0, state: (a) the domain, (b) the range, (c) the vertical asymptote, (d) the horizontal asymptote."
+        },
+        {
+          "number": 4,
+          "problem": "Determine the equation of each reciprocal function (given graphs with points (6, 1), (-5, -3), and (-9, 4))."
+        }
+      ]
+    },
+    {
+      "name": "Exercise - Rational Functions",
+      "exercises": [
+        {
+          "number": 1,
+          "problem": "For each of the following functions: (i) Find the equations of the asymptotes. (ii) State the domain and range. (iii) Find the axes intercepts. (iv) Discuss the behaviour of the function as it approaches its asymptotes. (v) Sketch the graph of the function. (a) f(x) = 3/(x - 2), (b) f: x -> 2 + 1/(x - 3), (c) f(x) = 2 - 3/(x + 1)"
+        },
+        {
+          "number": 2,
+          "problem": "Draw the sign diagram for the graphs shown."
+        },
+        {
+          "number": 3,
+          "problem": "Draw a sign diagram for: (a) (x + 2)/(x - 1), (b) x/(x + 3), (c) (x + 1)/(x + 5), (d) (x - 2)/(2x + 1), (e) (2x + 3)/(4 - x), (f) (4x - 1)/(2 - x), (g) 3x/(x - 2), (h) -8x/(3 - x)"
+        },
+        {
+          "number": 4,
+          "problem": "For each of the following functions: (i) Find the equation of the vertical asymptote. (ii) Find the axes intercepts. (iii) Rearrange the function to find the horizontal asymptote. (iv) Draw a sign diagram of the function. (v) Hence discuss the behaviour of the function near its asymptotes. (vi) Sketch the graph of the function. (a) f(x) = x/(x - 1), (b) f: x -> (x + 3)/(x - 2), (c) f(x) = (3x - 1)/(x + 2), (d) f(x) = -(2x + 1)/(x - 3), (e) f: x -> (2x + 4)/(3 - x), (f) f(x) = (x + 3)/(2x - 1)"
+        },
+        {
+          "number": 5,
+          "problem": "Consider the function y = (ax + b)/(cx + d), where a, b, c, d are constants and c != 0. (a) State the domain of the function. (b) State the equation of the vertical asymptote. (c) Find the axes intercepts. (d) Show that for c != 0, (ax + b)/(cx + d) = a/c + (b - ad/c)/(cx + d). Hence explain why the horizontal asymptote is y = a/c."
+        }
+      ]
+    }
+  ]
+}

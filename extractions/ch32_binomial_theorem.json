@@ -1,0 +1,1239 @@
+{
+  "chapter": 32,
+  "title": "The Binomial Theorem",
+  "image_range": "image2796.png - image2840.png",
+  "total_images": 45,
+  "sections": [
+    {
+      "title": "Introduction",
+      "subsection": null,
+      "images": ["image2796.png"],
+      "content": [
+        {
+          "image": "image2796.png",
+          "type": "concept",
+          "content": [
+            {
+              "text": "The sum $a + b$ is called a binomial as it contains two terms.",
+              "latex": "a + b"
+            },
+            {
+              "text": "Any expression of the form $(a + b)^n$ is called a power of a binomial.",
+              "latex": "(a + b)^n"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Factorial notation",
+      "subsection": "1A",
+      "images": ["image2797.png", "image2798.png", "image2799.png", "image2800.png", "image2801.png", "image2802.png"],
+      "content": [
+        {
+          "image": "image2797.png",
+          "type": "concept",
+          "content": [
+            {
+              "text": "For $n \\geq 1$, $n!$ is the product of the first $n$ positive integers.",
+              "latex": "n! = n(n-1)(n-2) \\cdots 3 \\times 2 \\times 1"
+            },
+            {
+              "text": "$n!$ is read \"n factorial\"."
+            }
+          ]
+        },
+        {
+          "image": "image2798.png",
+          "type": "concept",
+          "content": [
+            {
+              "text": "For example, $5 \\times 4 \\times 3 \\times 2 \\times 1 = 5!$",
+              "latex": "5 \\times 4 \\times 3 \\times 2 \\times 1 = 5!"
+            },
+            {
+              "text": "An alternative definition of factorial numbers is that $n! = n \\times (n-1)!$ for $n \\geq 1$.",
+              "latex": "n! = n \\times (n-1)! \\text{ for } n \\geq 1"
+            },
+            {
+              "text": "For example, $6! = 6 \\times 5!$",
+              "latex": "6! = 6 \\times 5!"
+            },
+            {
+              "text": "Under this rule we notice that $1! = 1 \\times 0!$",
+              "latex": "1! = 1 \\times 0!"
+            },
+            {
+              "text": "We therefore define $0! = 1$",
+              "latex": "0! = 1"
+            }
+          ]
+        },
+        {
+          "image": "image2799.png",
+          "type": "example",
+          "example_number": 1,
+          "content": [
+            {
+              "text": "Express in factorial form:",
+              "questions": [
+                {
+                  "label": "a",
+                  "question": "$9 \\times 8 \\times 7$",
+                  "latex": "9 \\times 8 \\times 7",
+                  "solution": "$9 \\times 8 \\times 7 = \\frac{9 \\times 8 \\times 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1}{6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1} = \\frac{9!}{6!}$",
+                  "solution_latex": "\\frac{9!}{6!}"
+                },
+                {
+                  "label": "b",
+                  "question": "$\\frac{11 \\times 10 \\times 9 \\times 8}{4 \\times 3 \\times 2 \\times 1}$",
+                  "latex": "\\frac{11 \\times 10 \\times 9 \\times 8}{4 \\times 3 \\times 2 \\times 1}",
+                  "solution": "$\\frac{11 \\times 10 \\times 9 \\times 8}{4 \\times 3 \\times 2 \\times 1} = \\frac{11 \\times 10 \\times 9 \\times 8 \\times 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1}{4 \\times 3 \\times 2 \\times 1 \\times 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1} = \\frac{11!}{4!7!}$",
+                  "solution_latex": "\\frac{11!}{4!7!}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2800.png",
+          "type": "exercise",
+          "exercise_id": "1A",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Evaluate:",
+              "parts": [
+                {"label": "a", "question": "$2!$", "latex": "2!"},
+                {"label": "b", "question": "$3!$", "latex": "3!"},
+                {"label": "c", "question": "$4!$", "latex": "4!"},
+                {"label": "d", "question": "$5!$", "latex": "5!"},
+                {"label": "e", "question": "$6!$", "latex": "6!"},
+                {"label": "f", "question": "$10!$", "latex": "10!"}
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2801.png",
+          "type": "exercise",
+          "exercise_id": "1A",
+          "questions": [
+            {
+              "number": 2,
+              "text": "Express in factorial form:",
+              "parts": [
+                {"label": "a", "question": "$4 \\times 3 \\times 2 \\times 1$", "latex": "4 \\times 3 \\times 2 \\times 1"},
+                {"label": "b", "question": "$7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1$", "latex": "7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1"},
+                {"label": "c", "question": "$6 \\times 5$", "latex": "6 \\times 5"},
+                {"label": "d", "question": "$8 \\times 7 \\times 6$", "latex": "8 \\times 7 \\times 6"},
+                {"label": "e", "question": "$10 \\times 9 \\times 8 \\times 7$", "latex": "10 \\times 9 \\times 8 \\times 7"},
+                {"label": "f", "question": "$15 \\times 14 \\times 13 \\times 12$", "latex": "15 \\times 14 \\times 13 \\times 12"},
+                {"label": "g", "question": "$\\frac{9 \\times 8 \\times 7}{3 \\times 2 \\times 1}$", "latex": "\\frac{9 \\times 8 \\times 7}{3 \\times 2 \\times 1}"},
+                {"label": "h", "question": "$\\frac{13 \\times 12 \\times 11 \\times 10}{4 \\times 3 \\times 2 \\times 1}$", "latex": "\\frac{13 \\times 12 \\times 11 \\times 10}{4 \\times 3 \\times 2 \\times 1}"},
+                {"label": "i", "question": "$\\frac{15 \\times 14 \\times 13 \\times 12 \\times 11}{5 \\times 4 \\times 3 \\times 2 \\times 1}$", "latex": "\\frac{15 \\times 14 \\times 13 \\times 12 \\times 11}{5 \\times 4 \\times 3 \\times 2 \\times 1}"}
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2802.png",
+          "type": "exercise",
+          "exercise_id": "1A",
+          "questions": [
+            {
+              "number": 3,
+              "text": "Simplify without using a calculator:",
+              "parts": [
+                {"label": "a", "question": "$\\frac{7!}{6!}$", "latex": "\\frac{7!}{6!}"},
+                {"label": "b", "question": "$\\frac{8!}{6!}$", "latex": "\\frac{8!}{6!}"},
+                {"label": "c", "question": "$\\frac{12!}{10!}$", "latex": "\\frac{12!}{10!}"},
+                {"label": "d", "question": "$\\frac{120!}{119!}$", "latex": "\\frac{120!}{119!}"},
+                {"label": "e", "question": "$\\frac{10!}{8! \\times 2!}$", "latex": "\\frac{10!}{8! \\times 2!}"},
+                {"label": "f", "question": "$\\frac{100!}{98! \\times 2!}$", "latex": "\\frac{100!}{98! \\times 2!}"}
+              ]
+            },
+            {
+              "number": 4,
+              "text": "Simplify:",
+              "parts": [
+                {"label": "a", "question": "$\\frac{n!}{(n-1)!}$", "latex": "\\frac{n!}{(n-1)!}"},
+                {"label": "b", "question": "$\\frac{(n+2)!}{n!}$", "latex": "\\frac{(n+2)!}{n!}"},
+                {"label": "c", "question": "$\\frac{(n+1)!}{(n-1)!}$", "latex": "\\frac{(n+1)!}{(n-1)!}"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Binomial expansions",
+      "subsection": "1B",
+      "images": ["image2803.png", "image2804.png", "image2805.png", "image2806.png", "image2807.png", "image2808.png", "image2809.png", "image2810.png", "image2811.png"],
+      "content": [
+        {
+          "image": "image2803.png",
+          "type": "concept",
+          "content": [
+            {
+              "text": "We have often used the perfect square expansion: $(a+b)^2 = a^2 + 2ab + b^2$.",
+              "latex": "(a+b)^2 = a^2 + 2ab + b^2"
+            },
+            {
+              "text": "We can use this rule to expand $(a+b)^3$ as follows:",
+              "latex": "(a+b)^3 = (a+b)(a+b)^2 = (a+b)(a^2 + 2ab + b^2) = a^3 + 2a^2b + ab^2 + a^2b + 2ab^2 + b^3 = a^3 + 3a^2b + 3ab^2 + b^3"
+            },
+            {
+              "text": "The binomial expansion of $(a+b)^2$ is $a^2 + 2ab + b^2$.",
+              "latex": "(a+b)^2 = a^2 + 2ab + b^2"
+            },
+            {
+              "text": "The binomial expansion of $(a+b)^3$ is $a^3 + 3a^2b + 3ab^2 + b^3$.",
+              "latex": "(a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3"
+            }
+          ]
+        },
+        {
+          "image": "image2804.png",
+          "type": "concept",
+          "content": [
+            {
+              "text": "Pascal's triangle: The values on the end of each row are always 1. Each of the remaining values is found by adding the two values diagonally above it.",
+              "pascal_triangle": [
+                {"row": 1, "values": [1, 1]},
+                {"row": 2, "values": [1, 2, 1]},
+                {"row": 3, "values": [1, 3, 3, 1]},
+                {"row": 4, "values": [1, 4, 6, 4, 1]},
+                {"row": 5, "values": [1, 5, 10, 10, 5, 1]}
+              ]
+            },
+            {
+              "text": "You should also have found that $(a+b)^4 = a^4 + 4a^3b + 6a^2b^2 + 4ab^3 + b^4$",
+              "latex": "(a+b)^4 = a^4 + 4a^3b + 6a^2b^2 + 4ab^3 + b^4 = a^4b^0 + 4a^3b^1 + 6a^2b^2 + 4a^1b^3 + a^0b^4"
+            }
+          ]
+        },
+        {
+          "image": "image2805.png",
+          "type": "concept",
+          "content": [
+            {
+              "text": "Notice in this expansion that:",
+              "observations": [
+                "As we look from left to right across the expansion, the powers of $a$ decrease by 1, while the powers of $b$ increase by 1.",
+                "The sum of the powers of $a$ and $b$ in each term of the expansion is 4.",
+                "The number of terms in the expansion is $4 + 1 = 5$.",
+                "The coefficients of the terms are row 4 of Pascal's triangle."
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2806.png",
+          "type": "concept",
+          "content": [
+            {
+              "text": "For the expansion of $(a+b)^n$ where $n \\in \\mathbb{N}$:",
+              "observations": [
+                "As we look from left to right across the expansion, the powers of $a$ decrease by 1, while the powers of $b$ increase by 1.",
+                "The sum of the powers of $a$ and $b$ in each term of the expansion is $n$.",
+                "The number of terms in the expansion is $n + 1$.",
+                "The coefficients of the terms are row $n$ of Pascal's triangle."
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2807.png",
+          "type": "example",
+          "example_number": 2,
+          "content": [
+            {
+              "text": "Use $(a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$ to find the binomial expansion of:",
+              "questions": [
+                {
+                  "label": "a",
+                  "question": "$(2x + 3)^3$",
+                  "latex": "(2x + 3)^3",
+                  "solution": "In the expansion of $(a+b)^3$ we substitute $a = (2x)$ and $b = (3)$.\n$(2x + 3)^3 = (2x)^3 + 3(2x)^2(3) + 3(2x)^1(3)^2 + (3)^3 = 8x^3 + 36x^2 + 54x + 27$",
+                  "solution_latex": "8x^3 + 36x^2 + 54x + 27"
+                },
+                {
+                  "label": "b",
+                  "question": "$(x - 5)^3$",
+                  "latex": "(x - 5)^3",
+                  "solution": "We substitute $a = (x)$ and $b = (-5)$.\n$(x - 5)^3 = (x)^3 + 3(x)^2(-5) + 3(x)(-5)^2 + (-5)^3 = x^3 - 15x^2 + 75x - 125$",
+                  "solution_latex": "x^3 - 15x^2 + 75x - 125"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2808.png",
+          "type": "example",
+          "example_number": 3,
+          "content": [
+            {
+              "text": "Find the:",
+              "questions": [
+                {
+                  "label": "a",
+                  "question": "5th row of Pascal's triangle",
+                  "solution": "1, 1 (1st row for $(a+b)^1$)\n1, 2, 1\n1, 3, 3, 1\n1, 4, 6, 4, 1\n1, 5, 10, 10, 5, 1 (5th row for $(a+b)^5$)"
+                },
+                {
+                  "label": "b",
+                  "question": "binomial expansion of $\\left(x - \\frac{2}{x}\\right)^5$",
+                  "latex": "\\left(x - \\frac{2}{x}\\right)^5",
+                  "solution": "Using the coefficients obtained in a, $(a+b)^5 = a^5 + 5a^4b + 10a^3b^2 + 10a^2b^3 + 5ab^4 + b^5$\nLetting $a = (x)$ and $b = \\left(\\frac{-2}{x}\\right)$,\n$\\left(x - \\frac{2}{x}\\right)^5 = (x)^5 + 5(x)^4\\left(\\frac{-2}{x}\\right) + 10(x)^3\\left(\\frac{-2}{x}\\right)^2 + 10(x)^2\\left(\\frac{-2}{x}\\right)^3 + 5(x)\\left(\\frac{-2}{x}\\right)^4 + \\left(\\frac{-2}{x}\\right)^5$\n$= x^5 - 10x^3 + 40x - \\frac{80}{x} + \\frac{80}{x^3} - \\frac{32}{x^5}$",
+                  "solution_latex": "x^5 - 10x^3 + 40x - \\frac{80}{x} + \\frac{80}{x^3} - \\frac{32}{x^5}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2809.png",
+          "type": "exercise",
+          "exercise_id": "1B",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Use the binomial expansion of $(a+b)^3$ to expand and simplify:",
+              "parts": [
+                {"label": "a", "question": "$(p + q)^3$", "latex": "(p + q)^3"},
+                {"label": "b", "question": "$(x + 1)^3$", "latex": "(x + 1)^3"},
+                {"label": "c", "question": "$(x - 3)^3$", "latex": "(x - 3)^3"},
+                {"label": "d", "question": "$(2 + x)^3$", "latex": "(2 + x)^3"},
+                {"label": "e", "question": "$(3x - 1)^3$", "latex": "(3x - 1)^3"},
+                {"label": "f", "question": "$(2x + 5)^3$", "latex": "(2x + 5)^3"},
+                {"label": "g", "question": "$(2a - b)^3$", "latex": "(2a - b)^3"},
+                {"label": "h", "question": "$\\left(3x - \\frac{1}{3}\\right)^3$", "latex": "\\left(3x - \\frac{1}{3}\\right)^3"},
+                {"label": "i", "question": "$\\left(2x + \\frac{1}{x}\\right)^3$", "latex": "\\left(2x + \\frac{1}{x}\\right)^3"},
+                {"label": "j", "question": "$(\\sqrt{x} - 1)^3$", "latex": "(\\sqrt{x} - 1)^3"},
+                {"label": "k", "question": "$(x^2 + 2)^3$", "latex": "(x^2 + 2)^3"},
+                {"label": "l", "question": "$\\left(x^2 - \\frac{1}{x^2}\\right)^3$", "latex": "\\left(x^2 - \\frac{1}{x^2}\\right)^3"}
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2810.png",
+          "type": "exercise",
+          "exercise_id": "1B",
+          "questions": [
+            {
+              "number": 2,
+              "text": "Use $(a+b)^4 = a^4 + 4a^3b + 6a^2b^2 + 4ab^3 + b^4$ to expand and simplify:",
+              "parts": [
+                {"label": "a", "question": "$(1 + x)^4$", "latex": "(1 + x)^4"},
+                {"label": "b", "question": "$(p - q)^4$", "latex": "(p - q)^4"},
+                {"label": "c", "question": "$(x - 2)^4$", "latex": "(x - 2)^4"},
+                {"label": "d", "question": "$(3 - x)^4$", "latex": "(3 - x)^4"},
+                {"label": "e", "question": "$(1 + 2x)^4$", "latex": "(1 + 2x)^4"},
+                {"label": "f", "question": "$(2x - 3)^4$", "latex": "(2x - 3)^4"},
+                {"label": "g", "question": "$(2x + b)^4$", "latex": "(2x + b)^4"},
+                {"label": "h", "question": "$\\left(x + \\frac{1}{x}\\right)^4$", "latex": "\\left(x + \\frac{1}{x}\\right)^4"},
+                {"label": "i", "question": "$\\left(2x - \\frac{1}{x}\\right)^4$", "latex": "\\left(2x - \\frac{1}{x}\\right)^4"}
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2811.png",
+          "type": "exercise",
+          "exercise_id": "1B",
+          "questions": [
+            {
+              "number": 3,
+              "text": "",
+              "parts": [
+                {"label": "a", "question": "Expand and simplify: i $(a - b)^3$ ii $(a - b)^4$", "latex": "(a - b)^3, (a - b)^4"},
+                {"label": "b", "question": "Compare the expansions in a with those of $(a + b)^3$ and $(a + b)^4$. Discuss the signs of the corresponding terms."}
+              ]
+            },
+            {
+              "number": 4,
+              "text": "",
+              "parts": [
+                {"label": "a", "question": "Write down the 5th row of Pascal's triangle."},
+                {"label": "b", "question": "Hence copy and complete: $(a + b)^5 = \\ldots$", "latex": "(a + b)^5 = \\ldots"},
+                {"label": "c", "question": "Find the binomial expansion of: i $(x + 2)^5$ ii $(1 - x)^5$ iii $(1 + 2x)^5$ iv $(x - 2y)^5$ v $(x^2 + 1)^5$ vi $\\left(x - \\frac{1}{x}\\right)^5$", "latex": "(x + 2)^5, (1 - x)^5, (1 + 2x)^5, (x - 2y)^5, (x^2 + 1)^5, \\left(x - \\frac{1}{x}\\right)^5"}
+              ]
+            },
+            {
+              "number": 5,
+              "text": "",
+              "parts": [
+                {"label": "a", "question": "Write down the 6th row of Pascal's triangle."},
+                {"label": "b", "question": "Hence copy and complete: $(a + b)^6 = \\ldots$", "latex": "(a + b)^6 = \\ldots"},
+                {"label": "c", "question": "Find the binomial expansion of: i $(x + 2)^6$ ii $(2x - 1)^6$ iii $\\left(x + \\frac{1}{x}\\right)^6$", "latex": "(x + 2)^6, (2x - 1)^6, \\left(x + \\frac{1}{x}\\right)^6"}
+              ]
+            },
+            {
+              "number": 6,
+              "text": "Expand and simplify:",
+              "parts": [
+                {"label": "a", "question": "$\\left(1 + \\sqrt{2}\\right)^3$", "latex": "\\left(1 + \\sqrt{2}\\right)^3"},
+                {"label": "b", "question": "$\\left(\\sqrt{5} + 2\\right)^4$", "latex": "\\left(\\sqrt{5} + 2\\right)^4"},
+                {"label": "c", "question": "$\\left(2 - \\sqrt{2}\\right)^5$", "latex": "\\left(2 - \\sqrt{2}\\right)^5"}
+              ]
+            },
+            {
+              "number": 7,
+              "text": "",
+              "parts": [
+                {"label": "a", "question": "Expand $(2 + x)^6$.", "latex": "(2 + x)^6"},
+                {"label": "b", "question": "Hence find the value of $(2.01)^6$."}
+              ]
+            },
+            {
+              "number": 8,
+              "text": "Expand and simplify:",
+              "parts": [
+                {"label": "a", "question": "$(2x + 3)(x + 1)^4$", "latex": "(2x + 3)(x + 1)^4"},
+                {"label": "b", "question": "$(x - 1)(2x + 1)^3$", "latex": "(x - 1)(2x + 1)^3"}
+              ]
+            },
+            {
+              "number": 9,
+              "text": "Find the coefficient of:",
+              "parts": [
+                {"label": "a", "question": "$a^3b^2$ in the expansion of $(3a + b)^5$", "latex": "a^3b^2 \\text{ in } (3a + b)^5"},
+                {"label": "b", "question": "$a^3b^3$ in the expansion of $(2a + 3b)^6$", "latex": "a^3b^3 \\text{ in } (2a + 3b)^6"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The binomial theorem",
+      "subsection": "1C",
+      "images": ["image2812.png", "image2813.png", "image2814.png", "image2815.png", "image2816.png", "image2817.png", "image2818.png", "image2819.png", "image2820.png", "image2821.png", "image2822.png", "image2823.png", "image2824.png", "image2825.png", "image2826.png", "image2827.png", "image2828.png", "image2829.png", "image2830.png", "image2831.png"],
+      "content": [
+        {
+          "image": "image2812.png",
+          "type": "concept",
+          "content": [
+            {
+              "text": "Consider the expansion of $(a+b)^n = (a+b)(a+b)(a+b)\\ldots(a+b)$.",
+              "questions": [
+                {"number": 1, "question": "Suppose you expanded the brackets completely without simplifying \"like\" terms. How many terms would there be?"},
+                {"number": 2, "question": "Each of these terms is generated by selecting one term, either $a$ or $b$, from each of the $n$ sets of brackets.", "parts": [
+                  {"label": "a", "question": "If $b$ is chosen $r$ times, how many times is $a$ chosen?"},
+                  {"label": "b", "question": "In how many ways could $b$ be chosen $r$ times from the $n$ sets of brackets?"},
+                  {"label": "c", "question": "When you collect the \"like\" terms, how many terms of the form $a^{n-r}b^r$ will there be?"}
+                ]},
+                {"number": 3, "question": "Evaluate this triangle of numbers: $\\binom{0}{0}$, $\\binom{1}{0}$, $\\binom{1}{1}$, $\\binom{2}{0}$, $\\binom{2}{1}$, $\\binom{2}{2}$, etc.", "parts": [
+                  {"label": "b", "question": "Copy and complete: The $r$th number in the $n$th row of Pascal's triangle is $\\ldots$"}
+                ]}
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2813.png",
+          "type": "concept",
+          "content": [
+            {
+              "text": "In the expansion of $(a+b)^n$, the coefficient of $a^{n-r}b^r$ is $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$.",
+              "latex": "\\binom{n}{r} = \\frac{n!}{r!(n-r)!}"
+            },
+            {
+              "text": "$\\binom{n}{r}$ is hence called the binomial coefficient."
+            },
+            {
+              "text": "$\\binom{n}{r}$ is the $r$th number of the $n$th row of Pascal's triangle, for $n \\in \\mathbb{Z}^+$, $r \\in \\mathbb{N}$, $r \\leq n$."
+            }
+          ]
+        },
+        {
+          "image": "image2814.png",
+          "type": "concept",
+          "content": [
+            {
+              "text": "For $n \\in \\mathbb{Z}^+$,",
+              "latex": "(a+b)^n = a^n + \\binom{n}{1}a^{n-1}b + \\ldots + \\binom{n}{r}a^{n-r}b^r + \\ldots + b^n = \\sum_{r=0}^{n}\\binom{n}{r}a^{n-r}b^r"
+            },
+            {
+              "text": "where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$ is the binomial coefficient for $n \\in \\mathbb{Z}^+$, $r \\in \\mathbb{N}$, $r \\leq n$.",
+              "latex": "\\binom{n}{r} = \\frac{n!}{r!(n-r)!}"
+            }
+          ]
+        },
+        {
+          "image": "image2815.png",
+          "type": "concept",
+          "content": [
+            {
+              "text": "The general term or $(r+1)$th term in the binomial expansion $(a+b)^n$ is $T_{r+1} = \\binom{n}{r}a^{n-r}b^r$.",
+              "latex": "T_{r+1} = \\binom{n}{r}a^{n-r}b^r"
+            }
+          ]
+        },
+        {
+          "image": "image2816.png",
+          "type": "example",
+          "example_number": 4,
+          "content": [
+            {
+              "text": "Write down the first three and last two terms of the expansion of $\\left(2x + \\frac{1}{x}\\right)^{12}$. Do not simplify your answer.",
+              "latex": "\\left(2x + \\frac{1}{x}\\right)^{12}",
+              "solution": "$\\left(2x + \\frac{1}{x}\\right)^{12} = \\sum_{r=0}^{12}\\binom{12}{r}(2x)^{n-r}\\left(\\frac{1}{x}\\right)^r$\n$= (2x)^{12} + \\binom{12}{1}(2x)^{11}\\left(\\frac{1}{x}\\right)^1 + \\binom{12}{2}(2x)^{10}\\left(\\frac{1}{x}\\right)^2 + \\ldots + \\binom{12}{11}(2x)^1\\left(\\frac{1}{x}\\right)^{11} + \\left(\\frac{1}{x}\\right)^{12}$"
+            }
+          ]
+        },
+        {
+          "image": "image2817.png",
+          "type": "example",
+          "example_number": 5,
+          "content": [
+            {
+              "text": "Find the 7th term of $\\left(3x - \\frac{4}{x^2}\\right)^{14}$. Do not simplify your answer.",
+              "latex": "\\left(3x - \\frac{4}{x^2}\\right)^{14}",
+              "solution": "$a = (3x)$, $b = \\left(\\frac{-4}{x^2}\\right)$, and $n = 14$\nGiven the general term $T_{r+1} = \\binom{n}{r}a^{n-r}b^r$, we let $r = 6$\n$\\therefore T_7 = \\binom{14}{6}(3x)^8\\left(\\frac{-4}{x^2}\\right)^6$"
+            }
+          ]
+        },
+        {
+          "image": "image2818.png",
+          "type": "example",
+          "example_number": 6,
+          "content": [
+            {
+              "text": "In the expansion of $\\left(x^2 + \\frac{4}{x}\\right)^{12}$, find:",
+              "questions": [
+                {
+                  "label": "a",
+                  "question": "the coefficient of $x^6$",
+                  "solution": "$a = (x^2)$, $b = \\left(\\frac{4}{x}\\right)$, and $n = 12$\n$\\therefore$ the general term $T_{r+1} = \\binom{12}{r}(x^2)^{12-r}\\left(\\frac{4}{x}\\right)^r = \\binom{12}{r}x^{24-2r} \\times \\frac{4^r}{x^r} = \\binom{12}{r}4^rx^{24-3r}$\nIf $24 - 3r = 6$ then $3r = 18$, $\\therefore r = 6$\n$\\therefore T_7 = \\binom{12}{6}4^6x^6$\n$\\therefore$ the coefficient of $x^6$ is $\\binom{12}{6}4^6$ or $3\\,784\\,704$.",
+                  "solution_latex": "\\binom{12}{6}4^6 = 3\\,784\\,704"
+                },
+                {
+                  "label": "b",
+                  "question": "the constant term",
+                  "solution": "If $24 - 3r = 0$ then $3r = 24$, $\\therefore r = 8$\n$\\therefore T_9 = \\binom{12}{8}4^8x^0$\n$\\therefore$ the constant term is $\\binom{12}{8}4^8$ or $32\\,440\\,320$.",
+                  "solution_latex": "\\binom{12}{8}4^8 = 32\\,440\\,320"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2819.png",
+          "type": "exercise",
+          "exercise_id": "1C",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Write down the first three and last two terms of the following binomial expansions. Do not simplify your answers.",
+              "parts": [
+                {"label": "a", "question": "$(1 + 2x)^{11}$", "latex": "(1 + 2x)^{11}"},
+                {"label": "b", "question": "$\\left(3x + \\frac{2}{x}\\right)^{15}$", "latex": "\\left(3x + \\frac{2}{x}\\right)^{15}"},
+                {"label": "c", "question": "$\\left(2x - \\frac{3}{x}\\right)^{20}$", "latex": "\\left(2x - \\frac{3}{x}\\right)^{20}"}
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2820.png",
+          "type": "exercise",
+          "exercise_id": "1C",
+          "questions": [
+            {
+              "number": 2,
+              "text": "Without simplifying, write down:",
+              "parts": [
+                {"label": "a", "question": "the 6th term of $(2x + 5)^{15}$", "latex": "(2x + 5)^{15}"},
+                {"label": "b", "question": "the 4th term of $\\left(x^2 + y\\right)^9$", "latex": "\\left(x^2 + y\\right)^9"},
+                {"label": "c", "question": "the 10th term of $\\left(x - \\frac{2}{x}\\right)^{17}$", "latex": "\\left(x - \\frac{2}{x}\\right)^{17}"},
+                {"label": "d", "question": "the 9th term of $\\left(2x^2 - \\frac{1}{x}\\right)^{21}$", "latex": "\\left(2x^2 - \\frac{1}{x}\\right)^{21}"}
+              ]
+            },
+            {
+              "number": 3,
+              "text": "Show that $(a - b)^n = \\sum_{r=0}^{n}\\binom{n}{r}(-1)^ra^{n-r}b^r$.",
+              "latex": "(a - b)^n = \\sum_{r=0}^{n}\\binom{n}{r}(-1)^ra^{n-r}b^r"
+            }
+          ]
+        },
+        {
+          "image": "image2821.png",
+          "type": "exercise",
+          "exercise_id": "1C",
+          "questions": [
+            {
+              "number": 4,
+              "text": "Consider the expansion of $(x + 2)^8$.",
+              "parts": [
+                {"label": "a", "question": "Write down the general term of the expansion."},
+                {"label": "b", "question": "Find the coefficient of $x^5$."}
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2822.png",
+          "type": "exercise",
+          "exercise_id": "1C",
+          "questions": [
+            {
+              "number": 5,
+              "text": "Consider the expansion of $(x + b)^7$.",
+              "parts": [
+                {"label": "a", "question": "Write down the general term of the expansion."},
+                {"label": "b", "question": "Find $b$ given that the coefficient of $x^4$ is $-280$."}
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2823.png",
+          "type": "exercise",
+          "exercise_id": "1C",
+          "questions": [
+            {
+              "number": 6,
+              "text": "Find the constant term in the expansion of:",
+              "parts": [
+                {"label": "a", "question": "$\\left(x + \\frac{2}{x^2}\\right)^{15}$", "latex": "\\left(x + \\frac{2}{x^2}\\right)^{15}"},
+                {"label": "b", "question": "$\\left(x - \\frac{3}{x^2}\\right)^9$", "latex": "\\left(x - \\frac{3}{x^2}\\right)^9"}
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2824.png",
+          "type": "exercise",
+          "exercise_id": "1C",
+          "questions": [
+            {
+              "number": 7,
+              "text": "Find the coefficient of:",
+              "parts": [
+                {"label": "a", "question": "$x^{10}$ in the expansion of $(3 + 2x^2)^{10}$", "latex": "x^{10} \\text{ in } (3 + 2x^2)^{10}"},
+                {"label": "b", "question": "$x^3$ in the expansion of $\\left(2x^2 - \\frac{3}{x}\\right)^6$", "latex": "x^3 \\text{ in } \\left(2x^2 - \\frac{3}{x}\\right)^6"},
+                {"label": "c", "question": "$x^6y^3$ in the expansion of $\\left(2x^2 - 3y\\right)^6$", "latex": "x^6y^3 \\text{ in } \\left(2x^2 - 3y\\right)^6"},
+                {"label": "d", "question": "$x^{12}$ in the expansion of $\\left(2x^2 - \\frac{1}{x}\\right)^{12}$", "latex": "x^{12} \\text{ in } \\left(2x^2 - \\frac{1}{x}\\right)^{12}"}
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2825.png",
+          "type": "exercise",
+          "exercise_id": "1C",
+          "questions": [
+            {
+              "number": 8,
+              "text": "Consider the expression $\\left(x^2y - 2y^2\\right)^6$. Find the term in which $x$ and $y$ are raised to the same power."
+            },
+            {
+              "number": 9,
+              "text": "The third term of $(1 + x)^n$ is $36x^2$. Find $n$, and hence find the fourth term."
+            },
+            {
+              "number": 10,
+              "text": "Find $a$ if the coefficient of $x^{11}$ in the expansion of $\\left(x^2 + \\frac{1}{ax}\\right)^{10}$ is $15$."
+            }
+          ]
+        },
+        {
+          "image": "image2826.png",
+          "type": "exercise",
+          "exercise_id": "1C",
+          "questions": [
+            {
+              "number": 11,
+              "text": "Find:",
+              "parts": [
+                {"label": "a", "question": "the coefficient of $x^4$ in the expansion of $(x + 4)(x - 3)^6$", "latex": "x^4 \\text{ in } (x + 4)(x - 3)^6"},
+                {"label": "b", "question": "the coefficient of $x^5$ in the expansion of $(x + 2)(x^2 + 1)^8$", "latex": "x^5 \\text{ in } (x + 2)(x^2 + 1)^8"},
+                {"label": "c", "question": "the term containing $x^6$ in the expansion of $(2 - x)(3x + 1)^9$", "latex": "x^6 \\text{ in } (2 - x)(3x + 1)^9"}
+              ]
+            },
+            {
+              "number": 12,
+              "text": "If $(1 + kx)^n = 1 - 12x + 60x^2 - \\ldots$, $n \\in \\mathbb{Z}^+$, find the values of $k$ and $n$."
+            },
+            {
+              "number": 13,
+              "text": "",
+              "parts": [
+                {"label": "a", "question": "Write down the first 5 rows of Pascal's triangle."},
+                {"label": "b", "question": "Find the sum of the numbers in: i row 1, ii row 2, iii row 3, iv row 4, v row 5."},
+                {"label": "c", "question": "Copy and complete: \"The sum of the numbers in row $n$ of Pascal's triangle is $\\ldots$\""},
+                {"label": "d", "question": "Show that $(1 + x)^n = \\binom{n}{0} + \\binom{n}{1}x + \\binom{n}{2}x^2 + \\ldots + \\binom{n}{n-1}x^{n-1} + \\binom{n}{n}x^n$."},
+                {"label": "e", "question": "Hence deduce that: i $\\binom{n}{0} + \\binom{n}{1} + \\binom{n}{2} + \\ldots + \\binom{n}{n-1} + \\binom{n}{n} = 2^n$ ii $\\binom{n}{0} - \\binom{n}{1} + \\binom{n}{2} - \\binom{n}{3} + \\ldots + (-1)^n\\binom{n}{n} = 0$"},
+                {"label": "f", "question": "By considering the binomial expansion of $(1 + x)^n$, find $\\sum_{r=0}^{n}2^r\\binom{n}{r}$."}
+              ]
+            },
+            {
+              "number": 14,
+              "text": "",
+              "parts": [
+                {"label": "a", "question": "Write down the first four and last two terms of the binomial expansion $(3 + x)^n$."},
+                {"label": "b", "question": "Hence simplify $3^n + \\binom{n}{1}3^{n-1} + \\binom{n}{2}3^{n-2} + \\binom{n}{3}3^{n-3} + \\ldots + 3n + 1$."}
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2827.png",
+          "type": "exercise",
+          "exercise_id": "Review Set 1A",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Express in factorial form:",
+              "parts": [
+                {"label": "a", "question": "$8 \\times 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1$", "latex": "8 \\times 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1"},
+                {"label": "b", "question": "$10 \\times 9 \\times 8$", "latex": "10 \\times 9 \\times 8"}
+              ]
+            },
+            {
+              "number": 2,
+              "text": "Simplify:",
+              "parts": [
+                {"label": "a", "question": "$\\frac{n!}{(n-2)!}$", "latex": "\\frac{n!}{(n-2)!}"},
+                {"label": "b", "question": "$\\frac{n! + (n+1)!}{n!}$", "latex": "\\frac{n! + (n+1)!}{n!}"}
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2828.png",
+          "type": "exercise",
+          "exercise_id": "Review Set 1A",
+          "questions": [
+            {
+              "number": 3,
+              "text": "Use the binomial expansion to expand and simplify:",
+              "parts": [
+                {"label": "a", "question": "$(x + 3)^3$", "latex": "(x + 3)^3"},
+                {"label": "b", "question": "$(x - 2)^5$", "latex": "(x - 2)^5"}
+              ]
+            },
+            {
+              "number": 4,
+              "text": "Without simplifying, write down:",
+              "parts": [
+                {"label": "a", "question": "the 5th term of $(2x + 3)^9$", "latex": "(2x + 3)^9"},
+                {"label": "b", "question": "the 8th term of $\\left(3x - \\frac{1}{x}\\right)^{12}$", "latex": "\\left(3x - \\frac{1}{x}\\right)^{12}"}
+              ]
+            },
+            {
+              "number": 5,
+              "text": "Expand and simplify:",
+              "parts": [
+                {"label": "a", "question": "$\\left(5 + \\sqrt{3}\\right)^3$", "latex": "\\left(5 + \\sqrt{3}\\right)^3"},
+                {"label": "b", "question": "$(x + 3)(x - 1)^4$", "latex": "(x + 3)(x - 1)^4"}
+              ]
+            },
+            {
+              "number": 6,
+              "text": "Use the expansion of $(4 + x)^3$ to find the exact value of $(4.02)^3$."
+            },
+            {
+              "number": 7,
+              "text": "Use Pascal's triangle to expand $(a + b)^6$. Hence find the binomial expansion of:",
+              "parts": [
+                {"label": "a", "question": "$(x - 3)^6$", "latex": "(x - 3)^6"},
+                {"label": "b", "question": "$\\left(2 + \\frac{1}{x}\\right)^6$", "latex": "\\left(2 + \\frac{1}{x}\\right)^6"}
+              ]
+            },
+            {
+              "number": 8,
+              "text": "Find the coefficient of $x^{-6}$ in the expansion of $\\left(2x - \\frac{3}{x^2}\\right)^{12}$."
+            },
+            {
+              "number": 9,
+              "text": "Find the coefficient of $x^5$ in the expansion of $(2x + 3)(x - 2)^6$."
+            },
+            {
+              "number": 10,
+              "text": "Find $c$ given that the expansion $(1 + cx)(1 + x)^4$ includes the term $22x^3$."
+            },
+            {
+              "number": 11,
+              "text": "",
+              "parts": [
+                {"label": "a", "question": "Write down the first four and last two terms of the binomial expansion $(2 + x)^n$."},
+                {"label": "b", "question": "Hence simplify $2^n + \\binom{n}{1}2^{n-1} + \\binom{n}{2}2^{n-2} + \\binom{n}{3}2^{n-3} + \\ldots + 2n + 1$."}
+              ]
+            },
+            {
+              "number": 12,
+              "text": "Find the possible values of $a$ if the coefficient of $x^3$ in $\\left(2x + \\frac{1}{ax^2}\\right)^9$ is 288."
+            }
+          ]
+        },
+        {
+          "image": "image2829.png",
+          "type": "exercise",
+          "exercise_id": "Review Set 1B",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Simplify:",
+              "parts": [
+                {"label": "a", "question": "$\\frac{9!}{7!}$", "latex": "\\frac{9!}{7!}"},
+                {"label": "b", "question": "$\\frac{8!}{3!5!}$", "latex": "\\frac{8!}{3!5!}"}
+              ]
+            },
+            {
+              "number": 2,
+              "text": "Express in factorial form:",
+              "parts": [
+                {"label": "a", "question": "$7 \\times 6 \\times 5 \\times 4$", "latex": "7 \\times 6 \\times 5 \\times 4"},
+                {"label": "b", "question": "$\\frac{11 \\times 10 \\times 9}{3 \\times 2 \\times 1}$", "latex": "\\frac{11 \\times 10 \\times 9}{3 \\times 2 \\times 1}"}
+              ]
+            },
+            {
+              "number": 3,
+              "text": "Use the binomial expansion to find:",
+              "parts": [
+                {"label": "a", "question": "$(x - 2y)^3$", "latex": "(x - 2y)^3"},
+                {"label": "b", "question": "$(3x + 2)^4$", "latex": "(3x + 2)^4"}
+              ]
+            },
+            {
+              "number": 4,
+              "text": "Find the coefficient of $x^3$ in the expansion of $(2x + 5)^6$."
+            },
+            {
+              "number": 5,
+              "text": "Find the constant term in the expansion of $\\left(2x^2 - \\frac{1}{x}\\right)^6$."
+            },
+            {
+              "number": 6,
+              "text": "Expand and simplify:",
+              "parts": [
+                {"label": "a", "question": "$\\left(2 - \\sqrt{2}\\right)^6$", "latex": "\\left(2 - \\sqrt{2}\\right)^6"},
+                {"label": "b", "question": "$(x + 3)(2x + 1)^3$", "latex": "(x + 3)(2x + 1)^3"}
+              ]
+            },
+            {
+              "number": 7,
+              "text": "Write down the first three and last two terms of the following binomial expansions. Do not simplify your answers.",
+              "parts": [
+                {"label": "a", "question": "$(2x - 7)^{10}$", "latex": "(2x - 7)^{10}"},
+                {"label": "b", "question": "$\\left(3x + \\frac{4}{x}\\right)^{13}$", "latex": "\\left(3x + \\frac{4}{x}\\right)^{13}"}
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2830.png",
+          "type": "exercise",
+          "exercise_id": "Review Set 1B",
+          "questions": [
+            {
+              "number": 8,
+              "text": "Find the coefficient of $x^{10}$ in the expansion of $\\left(\\frac{3}{x^2} - 4x\\right)^{10}$."
+            }
+          ]
+        },
+        {
+          "image": "image2831.png",
+          "type": "exercise",
+          "exercise_id": "Review Set 1B",
+          "questions": [
+            {
+              "number": 9,
+              "text": "In the expansion of $\\left(3x^2 + \\frac{1}{x}\\right)^9$, find:",
+              "parts": [
+                {"label": "a", "question": "the coefficient of $x^{12}$"},
+                {"label": "b", "question": "the constant term"}
+              ]
+            },
+            {
+              "number": 10,
+              "text": "The first three terms in the expansion of $(1 + kx)^n$, $n \\in \\mathbb{Z}^+$, are $1 - 4x + \\frac{15}{2}x^2$. Find $k$ and $n$."
+            },
+            {
+              "number": 11,
+              "text": "Find $k$ in the expansion $(m - 2n)^{10} = m^{10} - 20m^9n + km^8n^2 - \\ldots + 1024n^{10}$."
+            },
+            {
+              "number": 12,
+              "text": "Find the possible values of $q$ if the constant terms in the expansions of $\\left(x^3 + \\frac{q}{x^3}\\right)^8$ and $\\left(x^3 + \\frac{q}{x^3}\\right)^4$ are equal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The binomial theorem for n in Q",
+      "subsection": "8C",
+      "images": ["image2832.png", "image2833.png", "image2834.png", "image2835.png", "image2836.png", "image2837.png", "image2838.png", "image2839.png", "image2840.png"],
+      "content": [
+        {
+          "image": "image2832.png",
+          "type": "concept",
+          "content": [
+            {
+              "text": "The binomial expansion for $n \\in \\mathbb{Q}$ is $(a+b)^n = \\sum_{r=0}^{\\infty}\\binom{n}{r}a^{n-r}b^r$",
+              "latex": "(a+b)^n = \\sum_{r=0}^{\\infty}\\binom{n}{r}a^{n-r}b^r"
+            },
+            {
+              "text": "where $\\binom{n}{r} = \\frac{n(n-1)(n-2)\\ldots(n-r+1)}{r!}$ is the binomial coefficient for $n \\in \\mathbb{Q}$, $r \\in \\mathbb{Z}^+$,",
+              "latex": "\\binom{n}{r} = \\frac{n(n-1)(n-2)\\ldots(n-r+1)}{r!}"
+            },
+            {
+              "text": "and $\\binom{n}{0} = 1$."
+            }
+          ]
+        },
+        {
+          "image": "image2833.png",
+          "type": "concept",
+          "content": [
+            {
+              "text": "The binomial expansion of $(a + bx)^n$ for $n \\in \\mathbb{Q}$",
+              "latex": "(a + bx)^n = a^n\\left(1 + \\frac{b}{a}x\\right)^n"
+            },
+            {
+              "text": "For $n \\in \\mathbb{Q}$, $(a + bx)^n = a^n\\sum_{r=0}^{\\infty}\\binom{n}{r}\\left(\\frac{bx}{a}\\right)^r$",
+              "latex": "(a + bx)^n = a^n\\sum_{r=0}^{\\infty}\\binom{n}{r}\\left(\\frac{bx}{a}\\right)^r"
+            },
+            {
+              "text": "where $\\binom{n}{r} = \\frac{n(n-1)(n-2)\\ldots(n-r+1)}{r!}$ is the binomial coefficient for $n \\in \\mathbb{Q}$, $r \\in \\mathbb{Z}^+$, and $\\binom{n}{0} = 1$."
+            },
+            {
+              "text": "The interval of convergence for which the expansion converges is $\\left|\\frac{bx}{a}\\right| < 1$, which means $-\\left|\\frac{a}{b}\\right| < x < \\left|\\frac{a}{b}\\right|$."
+            }
+          ]
+        },
+        {
+          "image": "image2834.png",
+          "type": "example",
+          "example_number": 7,
+          "content": [
+            {
+              "text": "Consider the binomial expansion of $\\frac{1}{\\sqrt{2+x}}$.",
+              "questions": [
+                {
+                  "label": "a",
+                  "question": "Write down the first 4 terms of the expansion.",
+                  "solution": "$\\frac{1}{\\sqrt{2+x}} = (2+x)^{-\\frac{1}{2}} = 2^{-\\frac{1}{2}}\\left(1 + \\frac{x}{2}\\right)^{-\\frac{1}{2}}$\n$= \\frac{1}{\\sqrt{2}}\\sum_{r=0}^{\\infty}\\binom{-\\frac{1}{2}}{r}\\left(\\frac{x}{2}\\right)^r$\n$= \\frac{1}{\\sqrt{2}}\\left(1 + \\left(-\\frac{1}{2}\\right)\\left(\\frac{x}{2}\\right) + \\frac{(-\\frac{1}{2})(-\\frac{3}{2})}{2!}\\left(\\frac{x}{2}\\right)^2 + \\frac{(-\\frac{1}{2})(-\\frac{3}{2})(-\\frac{5}{2})}{3!}\\left(\\frac{x}{2}\\right)^3 + \\ldots\\right)$\n$= \\frac{1}{\\sqrt{2}}\\left(1 - \\frac{1}{4}x + \\frac{3}{32}x^2 - \\frac{5}{128}x^3 + \\ldots\\right)$"
+                },
+                {
+                  "label": "b",
+                  "question": "State the interval of convergence for the complete expansion.",
+                  "solution": "The series converges provided $\\left|\\frac{x}{2}\\right| < 1$, which is the interval $-2 < x < 2$."
+                },
+                {
+                  "label": "c",
+                  "question": "Use the expansion to estimate $\\frac{1}{\\sqrt{2.1}}$. Check your answer by direct calculation.",
+                  "solution": "Letting $x = 0.1$, $\\frac{1}{\\sqrt{2.1}} \\approx \\frac{1}{\\sqrt{2}}\\left(1 - \\frac{1}{4}(0.1) + \\frac{3}{32}(0.1)^2 - \\frac{5}{128}(0.1)^3\\right) \\approx 0.690064$\nUsing technology, $\\frac{1}{\\sqrt{2.1}} \\approx 0.690066$."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2835.png",
+          "type": "exercise",
+          "exercise_id": "8C",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Evaluate:",
+              "parts": [
+                {"label": "a", "question": "$\\binom{\\frac{1}{2}}{1}$", "latex": "\\binom{\\frac{1}{2}}{1}"},
+                {"label": "b", "question": "$\\binom{-\\frac{1}{2}}{2}$", "latex": "\\binom{-\\frac{1}{2}}{2}"},
+                {"label": "c", "question": "$\\binom{-2}{2}$", "latex": "\\binom{-2}{2}"},
+                {"label": "d", "question": "$\\binom{-\\frac{1}{3}}{0}$", "latex": "\\binom{-\\frac{1}{3}}{0}"},
+                {"label": "e", "question": "$\\binom{-1}{3}$", "latex": "\\binom{-1}{3}"},
+                {"label": "f", "question": "$\\binom{\\frac{1}{3}}{3}$", "latex": "\\binom{\\frac{1}{3}}{3}"}
+              ]
+            },
+            {
+              "number": 2,
+              "text": "Consider the binomial expansion of $\\frac{1}{1+x}$.",
+              "parts": [
+                {"label": "a", "question": "Write down the first 4 terms."},
+                {"label": "b", "question": "State the interval of convergence for the complete expansion."},
+                {"label": "c", "question": "Use the expansion to estimate $\\frac{1}{1.1}$. Check your answer by direct calculation."}
+              ]
+            },
+            {
+              "number": 3,
+              "text": "Consider the binomial expansion of $\\frac{1}{\\sqrt{4-x}}$.",
+              "parts": [
+                {"label": "a", "question": "Write down the first 4 terms."},
+                {"label": "b", "question": "State the interval of convergence for the complete expansion."},
+                {"label": "c", "question": "Use the expansion to estimate $\\frac{1}{\\sqrt{3.6}}$. Check your answer by direct calculation."}
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2836.png",
+          "type": "exercise",
+          "exercise_id": "8C",
+          "questions": [
+            {
+              "number": 4,
+              "text": "Consider the binomial expansion of $\\sqrt{1 + 3x}$.",
+              "parts": [
+                {"label": "a", "question": "Write down the first 5 terms."},
+                {"label": "b", "question": "State the interval of convergence for the complete expansion."},
+                {"label": "c", "question": "Estimate $\\sqrt{1.3}$."},
+                {"label": "d", "question": "Compare your estimate with the actual value of $\\sqrt{1.3}$."}
+              ]
+            },
+            {
+              "number": 5,
+              "text": "Expand $\\frac{1}{(1-2x)^2}$ up to the term in $x^3$. State the values of $x$ for which the complete expansion of $\\frac{1}{(1-2x)^2}$ converges. Use the expansion to estimate $\\frac{1}{0.64}$."
+            },
+            {
+              "number": 6,
+              "text": "Expand $\\sqrt{1+x}$ up to the term in $x^3$. State the values of $x$ for which the complete expansion of $\\sqrt{1+x}$ converges.",
+              "parts": [
+                {"label": "a", "question": "Estimate $\\sqrt{37}$ by first letting $\\sqrt{37} = 6\\sqrt{1 + \\frac{1}{36}} = 6\\sqrt{1 + a}$."},
+                {"label": "b", "question": "Explain why you should not simply substitute $x = 36$."},
+                {"label": "c", "question": "Hence obtain an approximation for $\\sqrt{37}$."},
+                {"label": "d", "question": "Expand $\\sqrt{1+x}$ up to the term in $x^3$."},
+                {"label": "e", "question": "Write $\\frac{\\sqrt{1+x}}{1-x}$ in the form $\\frac{A}{1-x} + \\frac{B}{\\sqrt{1+x}}$, where $A$ and $B$ are constants."},
+                {"label": "f", "question": "Hence write an expansion for $\\frac{\\sqrt{1+x}}{1-x}$ up to the term in $x^3$."},
+                {"label": "g", "question": "For what values of $x$ does the complete expansion of $\\frac{\\sqrt{1+x}}{1-x}$ converge?"}
+              ]
+            },
+            {
+              "number": 7,
+              "text": "Expand $(1+x)^{-1}$ up to the term in $x^3$. Hence find the coefficient of $x^2$ in the expansion of $\\frac{(1-3x)^2}{1+x}$."
+            },
+            {
+              "number": 8,
+              "text": "Use your expansion to estimate the value of $\\frac{(0.97)^2}{1.01}$ when $x = 0.01$."
+            },
+            {
+              "number": 9,
+              "text": "For what values of $x$ does the complete expansion of $\\sqrt{1+x}$ converge?"
+            }
+          ]
+        },
+        {
+          "image": "image2837.png",
+          "type": "exercise",
+          "exercise_id": "8C",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "parts": [
+                {"label": "a", "question": "Expand each expression up to the term in $x^3$, and state the interval of convergence for the complete expansion: i $(1 + 3x)^{\\frac{1}{4}}$ ii $(2 - x)^{-\\frac{1}{4}}$"},
+                {"label": "b", "question": "Hence write an expansion for $\\sqrt[4]{\\frac{1 + 3x}{2 - x}}$ up to the term $x^3$."}
+              ]
+            },
+            {
+              "number": 11,
+              "text": "Let $f(x) = \\frac{1}{\\sqrt[4]{1+x}}$.",
+              "parts": [
+                {"label": "a", "question": "Write $f(x)$ as a binomial expansion up to the term in $x^3$."},
+                {"label": "b", "question": "State the values of $x$ for which the complete expansion of $f(x)$ converges."},
+                {"label": "c", "question": "By considering $f(3x^2)$, write an expansion for $\\frac{1}{\\sqrt[4]{1 + 3x^2}}$ up to the term in $x^6$."}
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2838.png",
+          "type": "exercise",
+          "exercise_id": "Review Set 8A",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Use the binomial expansion to find:",
+              "parts": [
+                {"label": "a", "question": "$(x + 3)^3$", "latex": "(x + 3)^3"},
+                {"label": "b", "question": "$(3x + 2)^4$", "latex": "(3x + 2)^4"}
+              ]
+            },
+            {
+              "number": 2,
+              "text": "Without simplifying, write down:",
+              "parts": [
+                {"label": "a", "question": "the 5th term of $(2x - 3)^9$", "latex": "(2x - 3)^9"},
+                {"label": "b", "question": "the 6th term of $(y - 3x)^{10}$", "latex": "(y - 3x)^{10}"}
+              ]
+            },
+            {
+              "number": 3,
+              "text": "Find the constant term in the expansion of:",
+              "parts": [
+                {"label": "a", "question": "$\\left(2x^2 - \\frac{1}{x}\\right)^6$", "latex": "\\left(2x^2 - \\frac{1}{x}\\right)^6"},
+                {"label": "b", "question": "$\\left(\\sqrt{x} + \\frac{2}{x^2}\\right)^{10}$", "latex": "\\left(\\sqrt{x} + \\frac{2}{x^2}\\right)^{10}"}
+              ]
+            },
+            {
+              "number": 4,
+              "text": "Expand and simplify:",
+              "parts": [
+                {"label": "a", "question": "$\\left(2 - \\sqrt{2}\\right)^4$", "latex": "\\left(2 - \\sqrt{2}\\right)^4"},
+                {"label": "b", "question": "$(x + 3)(2x + 1)^3$", "latex": "(x + 3)(2x + 1)^3"}
+              ]
+            },
+            {
+              "number": 5,
+              "text": "Use the expansion of $(4 + x)^3$ to find the exact value of $(4.02)^3$."
+            },
+            {
+              "number": 6,
+              "text": "Find the coefficient of:",
+              "parts": [
+                {"label": "a", "question": "$x^{-8}$ in the expansion of $\\left(2x - \\frac{3}{x^2}\\right)^7$", "latex": "x^{-8} \\text{ in } \\left(2x - \\frac{3}{x^2}\\right)^7"},
+                {"label": "b", "question": "$x^4$ in the expansion of $(2x + 3)(x - 2)^6$", "latex": "x^4 \\text{ in } (2x + 3)(x - 2)^6"}
+              ]
+            },
+            {
+              "number": 7,
+              "text": "Find the coefficient of $x^{-1}$ in the expansion of $\\left(2x + \\frac{1}{x}\\right)^5\\left(x^2 - \\frac{3}{x}\\right)^4$."
+            },
+            {
+              "number": 8,
+              "text": "Find $c$ given that the expansion $(1 + cx)(1 + x)^4$ includes the term $22x^3$."
+            },
+            {
+              "number": 9,
+              "text": "",
+              "parts": [
+                {"label": "a", "question": "Write down the first four and last two terms of the binomial expansion $(2 + x)^n$."},
+                {"label": "b", "question": "Hence simplify $2^n + \\binom{n}{1}2^{n-1} + \\binom{n}{2}2^{n-2} + \\binom{n}{3}2^{n-3} + \\ldots + 2n + 1$."}
+              ]
+            },
+            {
+              "number": 10,
+              "text": "Find the possible values of $a$ if the coefficient of $x^3$ in $(2x + a)$ is 288."
+            },
+            {
+              "number": 11,
+              "text": "Consider the binomial expansion of $\\frac{1}{1-x}$.",
+              "parts": [
+                {"label": "a", "question": "Write down the first 4 terms of the expansion."},
+                {"label": "b", "question": "For what values of $x$ does the infinite series expansion converge?"},
+                {"label": "c", "question": "Use the expansion to estimate $\\frac{1}{0.96}$. Check your answer by direct calculation."}
+              ]
+            },
+            {
+              "number": 12,
+              "text": "Consider the binomial expansion of $\\frac{1}{\\sqrt{4-x}}$.",
+              "parts": [
+                {"label": "a", "question": "Write down the first 4 terms of the expansion."},
+                {"label": "b", "question": "For what values of $x$ does the infinite series expansion converge?"},
+                {"label": "c", "question": "Use the expansion to estimate $\\frac{1}{\\sqrt{3.2}}$. Comment on the accuracy of your estimate."}
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2839.png",
+          "type": "exercise",
+          "exercise_id": "Review Set 8B",
+          "questions": [
+            {
+              "number": 13,
+              "text": "",
+              "parts": [
+                {"label": "a", "question": "Expand $\\sqrt{1 - x}$ up to the term in $x^3$."},
+                {"label": "b", "question": "State the values of $x$ for which the infinite series binomial expansion of $\\sqrt{1 - x}$ converges."},
+                {"label": "c", "question": "Hence estimate $\\sqrt{15}$."}
+              ]
+            },
+            {
+              "number": 14,
+              "text": "",
+              "parts": [
+                {"label": "a", "question": "Expand $\\frac{1}{(1 - 3x)^2}$ up to the term in $x^3$."},
+                {"label": "b", "question": "Hence find the coefficient of $x^2$ in the expansion of $\\frac{(1 + 4x)^2}{(1 - 3x)^2}$."}
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2840.png",
+          "type": "exercise",
+          "exercise_id": "Review Set 8B",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Use the binomial expansion to find:",
+              "parts": [
+                {"label": "a", "question": "$(x - 2)^4$", "latex": "(x - 2)^4"},
+                {"label": "b", "question": "$(3x + 2)^4$", "latex": "(3x + 2)^4"}
+              ]
+            },
+            {
+              "number": 2,
+              "text": "Find the coefficient of $x^3$ in the expansion of $(2x + 5)^6$."
+            },
+            {
+              "number": 3,
+              "text": "Find the constant term in the expansion of:",
+              "parts": [
+                {"label": "a", "question": "$\\left(2x^2 - \\frac{1}{x}\\right)^6$", "latex": "\\left(2x^2 - \\frac{1}{x}\\right)^6"},
+                {"label": "b", "question": "$\\left(\\sqrt{x} - \\frac{2}{x^2}\\right)^{10}$", "latex": "\\left(\\sqrt{x} - \\frac{2}{x^2}\\right)^{10}"}
+              ]
+            },
+            {
+              "number": 4,
+              "text": "Expand and simplify:",
+              "parts": [
+                {"label": "a", "question": "$\\left(2 - \\sqrt{2}\\right)^4$", "latex": "\\left(2 - \\sqrt{2}\\right)^4"},
+                {"label": "b", "question": "$(x + 3)(2x + 1)^3$", "latex": "(x + 3)(2x + 1)^3"}
+              ]
+            },
+            {
+              "number": 5,
+              "text": "Find the coefficient of:",
+              "parts": [
+                {"label": "a", "question": "$x^{25}$ in the expansion of $(x - 1)^{30}$", "latex": "x^{25} \\text{ in } (x - 1)^{30}"},
+                {"label": "b", "question": "$x^4$ in the expansion of $(3x - 1)(5 + 2x)^6$", "latex": "x^4 \\text{ in } (3x - 1)(5 + 2x)^6"}
+              ]
+            },
+            {
+              "number": 6,
+              "text": "In the expansion of $\\left(3x^2 + \\frac{1}{x}\\right)^9$, find:",
+              "parts": [
+                {"label": "a", "question": "the coefficient of $x^{12}$"},
+                {"label": "b", "question": "the constant term"}
+              ]
+            },
+            {
+              "number": 7,
+              "text": "Find the coefficient of $x^{-1}$ in the expansion of $(2x + \\frac{1}{x})^5(x^2 - \\frac{3}{x})^4$."
+            },
+            {
+              "number": 8,
+              "text": "Find $c$ given that the expansion $(1 + cx)(1 + x)^4$ includes the term $22x^3$."
+            },
+            {
+              "number": 9,
+              "text": "",
+              "parts": [
+                {"label": "a", "question": "Write down the first four and last two terms of the binomial expansion $(2 + x)^n$."},
+                {"label": "b", "question": "Hence simplify $2^n + \\binom{n}{1}2^{n-1} + \\binom{n}{2}2^{n-2} + \\binom{n}{3}2^{n-3} + \\ldots + 2n + 1$."}
+              ]
+            },
+            {
+              "number": 10,
+              "text": "Find the possible values of $q$ if the constant terms in the expansions of $(x^3 + \\frac{q}{x^3})^8$ and $(x^3 + \\frac{q}{x^3})^4$ are equal."
+            },
+            {
+              "number": 11,
+              "text": "Find the value of $a$ given:",
+              "parts": [
+                {"label": "a", "question": "the coefficient of $x^3$ in the expansion of $(a - 2x)^7$ is $-42$."},
+                {"label": "b", "question": "the fifth term in the expansion of $\\left(\\frac{2}{\\sqrt{x}} - \\frac{x}{4}\\right)^8$ is $\\frac{1120}{x^3}$."}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

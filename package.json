@@ -1,0 +1,14 @@
+{
+  "name": "questionbank",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "upload-images": "node scripts/upload-images.js",
+    "extract": "node scripts/extract-chapter.js",
+    "import": "node scripts/import-extractions.js",
+    "import:dry": "node scripts/import-extractions.js --dry-run"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.47.0"
+  }
+}

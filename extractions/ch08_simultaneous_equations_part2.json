@@ -1,0 +1,677 @@
+{
+  "chapter": "Simultaneous equations",
+  "part": 2,
+  "image_range": "770-809",
+  "subsections": [
+    {
+      "type": "exercise",
+      "title": "Word Problems (continued)",
+      "source_images": ["image770.png"],
+      "problems": [
+        {
+          "number": "3",
+          "content": "Samantha bought apples and oranges. She bought a total of 6 fruit. The apples cost $3 each, and the oranges cost $2 dollars each. If she spent a total of $20, how many apples and how many oranges did she buy?"
+        },
+        {
+          "number": "4",
+          "content": "A bakery sells muffins and cupcakes. The total number of muffins and cupcakes sold is 27. Muffins cost $4 each, cupcakes cost $6 each. Total revenue was $117. How many muffins and how many cupcakes were sold?"
+        },
+        {
+          "number": "5",
+          "content": "A bookshop sells paperbacks and hardcover books. The total number of books sold is 12. Paperbacks cost $20 each and hardcovers $40 each. The total revenue was $940 dollars. How many paperbacks and how many hardcovers were sold?"
+        },
+        {
+          "number": "6",
+          "content": "A store sells pens and pencils. The total number of writing instruments sold is 18. Pens cost $12 dollars each, and pencils cost $1 each. Total revenue was $123 dollars. How many pens and how many pencils were sold?"
+        },
+        {
+          "number": "7",
+          "content": "A box contains red and blue marbles. The total number of marbles is 505. Red marbles are priced at $0.30 each, and blue marbles $0.50 each. Total value is $195.70. How many red marbles and blue marbles are in the box?"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "source_images": ["image771.png"],
+      "problems": [
+        {
+          "number": "8",
+          "content": "1000 tickets to the Selwyn Benefit Concert were sold. Adult tickets cost $20, children's cost $12, and a total of $17,600 was collected. How many tickets of each kind were sold?"
+        },
+        {
+          "number": "9",
+          "content": "Mrs. B. invested $30,000; part at 5%, and part at 8%. Total interest on the investment was $2,100. How much did she invest at each rate?"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "source_images": ["image772.png"],
+      "problems": [
+        {
+          "number": "10",
+          "content": "A mother is now 30 years older than her son. 15 years ago, she was twice as old. What are the present ages of the mother and her son?"
+        },
+        {
+          "number": "11",
+          "content": "A total of 725 concert tickets were sold for $11,500. If adult tickets cost $18.50, and children's tickets cost $10, how many tickets of each kind were sold?"
+        },
+        {
+          "number": "12",
+          "content": "Mr. Barlow has $20,000 to invest. He invests part at 6%, the rest at 7%. He earns $1,280 interest. How much did he invest at each rate?"
+        },
+        {
+          "number": "13",
+          "content": "How many litres of 20% alcohol solution and how many litres of 50% alcohol solution must be mixed to produce 9 litres of 30% alcohol solution?"
+        },
+        {
+          "number": "14",
+          "content": "It takes a boat 2 hours to travel 24 km and 3 hours to travel 18 km upstream. What is the speed of the boat in still water, and how fast is the current?"
+        },
+        {
+          "number": "15",
+          "content": "Andre has more money than Bob. If Andre gave Bob $20, they would have the same amount. While if Bob gave Andre $22, Andre would then have twice as much as Bob. How much does each one actually have?"
+        }
+      ]
+    },
+    {
+      "type": "review_set",
+      "title": "REVIEW SET 14A",
+      "source_images": ["image773.png"],
+      "problems": [
+        {
+          "number": "1",
+          "content": "On the same set of axes draw accurate graphs of the lines with equations y = 2x - 1 and y = x - 2. From your graphs, find the simultaneous solution of y = 2x - 1 and y = x - 2."
+        },
+        {
+          "number": "2",
+          "content": "Solve by substitution: y = 2x - 3 and 3x - 2y = 4"
+        },
+        {
+          "number": "3",
+          "content": "Solve by elimination: 3x + 2y = 3 and 5x + 3y = 4"
+        },
+        {
+          "number": "4",
+          "parts": [
+            {
+              "label": "a",
+              "content": "Two pencils and a ruler cost 49 cents in total. One pencil and two rulers cost 62 cents in total. Find the cost of each item."
+            },
+            {
+              "label": "b",
+              "content": "I have only 2 cent and 5 cent coins. The total number of coins is 25, and their total value is 92 cents. How many of each coin do I have?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review_set",
+      "title": "REVIEW SET 14B",
+      "source_images": ["image774.png"],
+      "problems": [
+        {
+          "number": "1",
+          "content": "On the same set of axes draw accurate graphs of the lines with equations y = 2x - 3 and y = 2 - 3x.",
+          "parts": [
+            {
+              "label": "a",
+              "content": "Use your graph to solve simultaneously: y = 2x - 3 and y = 2 - 3x"
+            },
+            {
+              "label": "b",
+              "content": "Check your answer to a by substitution."
+            }
+          ]
+        },
+        {
+          "number": "2",
+          "content": "Find the simultaneous solution of y + 3x = 16 and y = 2x - 4 using the substitution method."
+        },
+        {
+          "number": "3",
+          "content": "Use elimination to solve: y = 2x + 1 and y = -x - 5. Do the lines with equations y = 2x + 1, y = -x - 5 and y = -3x - 9 meet at a common point of intersection?"
+        },
+        {
+          "number": "4",
+          "parts": [
+            {
+              "label": "a",
+              "content": "John is two years older than Paula. Three times John's age plus four times Paula's age is 55 years. How old are John and Paula?"
+            },
+            {
+              "label": "b",
+              "content": "A baker's basket contains bread rolls and sandwich loaves. The loaves weigh 750 g and the rolls 150 g. The total number of loaves and rolls is 16 and their total weight is 6 kg. How many rolls and how many loaves are in the basket?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Point of Intersection",
+      "source_images": ["image775.png", "image776.png"],
+      "content": "The point of intersection is the only point common to both lines. Not all line pairs meet at one point. Two other situations could occur, both resulting from the lines being parallel: parallel lines (no solution) and coincident lines (infinitely many solutions)."
+    },
+    {
+      "type": "section",
+      "title": "A QUADRATIC MEETING A LINEAR FUNCTION",
+      "source_images": ["image777.png"],
+      "content": "So far we have only considered simultaneous equations that are linear. This means that both equations can be written in the form ax + by = c where a, b and c are constants. In this section we consider non-linear equations. In some situations we can still solve the equations simultaneously by substitution. In other situations we can solve the equations simultaneously using a computer graphing package. Consider the graphs of a quadratic function and a linear function on the same set of axes. There are three possible scenarios: cutting (2 points of intersection), touching (1 point of intersection), missing (no points of intersection). The coordinates of any points of intersection can be found by solving the two equations simultaneously."
+    },
+    {
+      "type": "example",
+      "number": "9",
+      "title": "Example 9",
+      "source_images": ["image778.png", "image779.png"],
+      "problem": "Find algebraically the coordinates of the points of intersection of the graphs with equations y = x^2 - x - 18 and y = x - 3.",
+      "solution": {
+        "steps": [
+          "y = x^2 - x - 18 meets y = x - 3 where x^2 - x - 18 = x - 3",
+          "x^2 - 2x - 15 = 0 {writing with RHS = 0}",
+          "(x - 5)(x + 3) = 0 {factorising}",
+          "x = 5 or x = -3",
+          "Substituting into y = x - 3, when x = 5, y = 2 and when x = -3, y = -6",
+          "The graphs meet at (5, 2) and (-3, -6)."
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "title": "EXERCISE 17C.1",
+      "source_images": ["image780.png"],
+      "problems": [
+        {
+          "number": "1",
+          "content": "Find algebraically the coordinates of the points of intersection of the graphs with equations:",
+          "parts": [
+            {
+              "label": "a",
+              "equations": ["y = x^2 - 3x + 2", "y = 2x - 4"]
+            },
+            {
+              "label": "b",
+              "equations": ["y = -x^2 + 2x + 3", "y = 9x - 5"]
+            },
+            {
+              "label": "c",
+              "equations": ["y = x^2 + 9x + 7", "y = 3x - 2"]
+            },
+            {
+              "label": "d",
+              "equations": ["y = x^2 - x - 5", "y = 3x - 9"]
+            }
+          ]
+        },
+        {
+          "number": "2",
+          "content": "Show that the graphs of y = x^2 + 7 and y = -6x - 3 do not intersect. Hint: Use 'completing the square'."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "EXERCISE 17C.2",
+      "source_images": ["image781.png"],
+      "problems": [
+        {
+          "number": "1",
+          "content": "Find algebraically the coordinates of the points of intersection of the graphs with equations:",
+          "parts": [
+            {
+              "label": "a",
+              "equations": ["y = 2x^2 - 4x + 3", "y = x^2 + 2x - 6"]
+            },
+            {
+              "label": "b",
+              "equations": ["y = x^2 + 2x - 2", "y = 2x^2 + 5x - 6"]
+            },
+            {
+              "label": "c",
+              "equations": ["y = 2x + 2", "y = 4/x"]
+            },
+            {
+              "label": "d",
+              "equations": ["y = 3x - 1", "y = 3 + 2/(x - 1)"]
+            }
+          ]
+        },
+        {
+          "number": "2",
+          "content": "Solve simultaneously:",
+          "parts": [
+            {
+              "label": "a",
+              "equations": ["y - y^2 = x", "x - y = -1"]
+            },
+            {
+              "label": "b",
+              "equations": ["x^2 = 1 + y^2 - 4y", "y + x = 2"]
+            },
+            {
+              "label": "c",
+              "equations": ["2x^2 + y^2 = 24", "y = x^2"]
+            },
+            {
+              "label": "d",
+              "equations": ["(x - y)^2 = 4y", "2x + y = 7"]
+            },
+            {
+              "label": "e",
+              "equations": ["y = 2/x", "y = (x - 1)/(x + 2)"]
+            }
+          ],
+          "note": "Do not forget to check your answers by substituting them in both equations."
+        }
+      ]
+    },
+    {
+      "type": "review_set",
+      "title": "REVIEW SET 17A",
+      "source_images": ["image782.png", "image783.png"],
+      "problems": [
+        {
+          "number": "1",
+          "content": "Solve by substitution: y = 2x - 7 and 2x + 3y = 11."
+        },
+        {
+          "number": "2",
+          "content": "Solve simultaneously:",
+          "parts": [
+            {
+              "label": "a",
+              "equations": ["y = 2x - 5", "3x - 2y = 1"]
+            },
+            {
+              "label": "b",
+              "equations": ["x + y = 1", "4x - 3y = 11"]
+            }
+          ]
+        },
+        {
+          "number": "3",
+          "content": "Flour is sold in 5 kg and 2 kg packets. The 5 kg packets cost £2.75 each and the 2 kg packets cost £1.25 each. If I bought 67 kg of flour and the total cost was £38.50, how many of each size of packet did I buy?"
+        },
+        {
+          "number": "4",
+          "content": "Find the coordinates of any point where these line pairs meet:",
+          "parts": [
+            {
+              "label": "a",
+              "equations": ["y = 3x + 2", "y = 3x - 1"]
+            },
+            {
+              "label": "b",
+              "equations": ["2x - 3y = 18", "4x + 5y = -8"]
+            }
+          ]
+        },
+        {
+          "number": "5",
+          "content": "Find the perimeter of the given rectangle. Your answer must not contain x or y.",
+          "diagram": "Rectangle with sides labeled: top: 2x + 3y + 5, right: 2x - y + 6, bottom: 3x - y + 16, left: x + y + 3"
+        },
+        {
+          "number": "6",
+          "content": "Sally has only 10-pence and 50-pence coins in her purse. She has 21 coins altogether with a total value of £5.30. How many of each coin type does she have?"
+        },
+        {
+          "number": "7",
+          "content": "Find algebraically where the line with equation y = 2x - 3 meets the parabola with equation y = 2x^2 - 3x - 10."
+        }
+      ]
+    },
+    {
+      "type": "review_set",
+      "title": "REVIEW SET 17B",
+      "source_images": ["image784.png", "image785.png"],
+      "problems": [
+        {
+          "number": "1",
+          "content": "Solve by substitution: y = 11 - 3x and 4x + 3y = -7"
+        },
+        {
+          "number": "2",
+          "content": "Solve simultaneously:",
+          "parts": [
+            {
+              "label": "a",
+              "equations": ["3x - 2y = 16", "y = 2x - 10"]
+            },
+            {
+              "label": "b",
+              "equations": ["3x - 5y = 11", "4x + 3y = 5"]
+            }
+          ]
+        },
+        {
+          "number": "3",
+          "content": "A bus company uses two different sized buses. The company needs 7 small buses and 5 large buses to transport 331 people, but needs 4 small buses and 9 large buses to carry 398 people. In these situations all of the buses are full. Determine the number of people each bus can carry."
+        },
+        {
+          "number": "4",
+          "content": "Find the coordinates of any point where these line pairs meet:",
+          "parts": [
+            {
+              "label": "a",
+              "equations": ["y = 2x + 5", "y = 2x + 15"]
+            },
+            {
+              "label": "b",
+              "equations": ["3x + 7y = -6", "6x + 5y = 15"]
+            }
+          ]
+        },
+        {
+          "number": "5",
+          "content": "Orange juice can be purchased in 2 L cartons or in 600 mL bottles. The 2 L cartons cost $1.50 each and the 600 mL bottles cost $0.60 each. A consumer purchases 73 L of orange juice for a total cost of $57. How many of each container did the consumer buy?"
+        },
+        {
+          "number": "6",
+          "content": "The perimeter of this isosceles triangle is 29 cm. Find the length of the equal sides. Your answer must not contain x or y.",
+          "diagram": "Isosceles triangle with sides labeled: top left: 2x - y + 4, top right: x + y + 1, bottom: 3x - 2y + 14"
+        },
+        {
+          "number": "7",
+          "content": "Find algebraically the points of intersection of the parabolas with equations y = 2x^2 + 3x - 1 and y = 5 - x^2."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "Exercises 5.2",
+      "source_images": ["image786.png", "image787.png", "image788.png"],
+      "problems": [
+        {
+          "number": "5.2.1",
+          "content": "Solve each of the following systems of equations:",
+          "parts": [
+            {
+              "label": "a",
+              "equations": ["2x + y = 10", "3x - 4y = 37"]
+            },
+            {
+              "label": "b",
+              "equations": ["5x = 6y - 4", "2y = 3x + 4"]
+            },
+            {
+              "label": "c",
+              "equations": ["2r/3 + 5s/6 = 11/2", "2s/3 = 7/3 + r/2"]
+            },
+            {
+              "label": "d",
+              "equations": ["2x - 3y = -3.2 - 0.2x + 0.1y", "x = 0.6x - y + 8.8"]
+            }
+          ]
+        },
+        {
+          "number": "5.2.2",
+          "content": "Suppose that x = 2 - t and y = 4t + 7.",
+          "parts": [
+            {
+              "label": "a",
+              "content": "If x = 7, what is y?"
+            },
+            {
+              "label": "b",
+              "content": "If x = -3, what is y?"
+            },
+            {
+              "label": "c",
+              "content": "Find y in terms of x."
+            }
+          ]
+        },
+        {
+          "number": "5.2.3",
+          "content": "In the Exercise 5.1.4, we found several ordered pairs that satisfy both of the equations: 5x - 6y = 1 and 15x - 18y = 3.",
+          "parts": [
+            {
+              "label": "a",
+              "content": "Solve the first equation for x."
+            },
+            {
+              "label": "b",
+              "content": "Substitute your result from part (a) into the second equation. After you simplify as much as possible, do you still have an x in your equation? Is the equation you have after simplifying true?"
+            },
+            {
+              "label": "c",
+              "content": "(starred) How does the result of part (b) tell us that every ordered pair (x, y) that satisfies the first equation also satisfies the second equation?"
+            }
+          ]
+        },
+        {
+          "number": "5.2.4",
+          "content": "(starred) Solve the system of equations: 13p - 92q = 273 and 12p - 91q = 273."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "Exercises 5.3",
+      "source_images": ["image788.png", "image789.png"],
+      "problems": [
+        {
+          "number": "5.3.1",
+          "content": "Solve each of the following systems of equations:",
+          "parts": [
+            {
+              "label": "a",
+              "equations": ["3x - 7y = 14", "2x + 7y = 6"]
+            },
+            {
+              "label": "b",
+              "equations": ["5u = -7 - 2v", "3u = 4v - 25"]
+            },
+            {
+              "label": "c",
+              "equations": ["2x/13 + 2y = -2(y + 1)", "-3x/13 = -5(6 - y)"]
+            },
+            {
+              "label": "d",
+              "equations": ["-2.5a + 5b = 25", "42 + 10b = 15 + 3.75a + 4b"]
+            }
+          ]
+        },
+        {
+          "number": "5.3.2",
+          "content": "Describe all solutions to each of the following systems of equations:",
+          "parts": [
+            {
+              "label": "a",
+              "equations": ["2x + 3y = 7", "14x = 49 - 21y"]
+            },
+            {
+              "label": "b",
+              "equations": ["3x/5 - 4y/5 = 3", "8y - 6x = 5"]
+            }
+          ]
+        },
+        {
+          "number": "5.3.3",
+          "content": "For what value of the constant a does the system of equations below have infinitely many solutions? 2x + 5y = -8 and 6x = 16 + a - 15y."
+        },
+        {
+          "number": "5.3.4",
+          "content": "(starred) Let a, b, c, d, and e be constants in the system of equations: ax + by = d and ax + cy = e. Suppose b and c are not equal and a is not 0. Must the system of equations have exactly one solution (x, y)?"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "Word Problems 5.4",
+      "source_images": ["image790.png"],
+      "problems": [
+        {
+          "number": "5.4.2",
+          "content": "My parents started a small farm after they retired. On their farm, they have chickens and pigs. In total, there are 40 animal legs among the chickens and the pigs, and there are 16 animal heads. How many chickens do my parents have?"
+        },
+        {
+          "number": "5.4.3",
+          "content": "The sum of Eric's and Bob's weights is 9 times greater than the difference of their weights. The positive difference of their weights is also 240 pounds less than the sum. If Eric weighs less than Bob, find Bob's weight."
+        },
+        {
+          "number": "5.4.4",
+          "content": "5 green balls and 2 red balls together weigh 10 pounds, and 1 green ball and 4 red balls together weigh 7 pounds. If all red balls weigh the same amount and all green balls weigh the same, then what is the weight of 8 red and 8 green balls together?"
+        },
+        {
+          "number": "5.4.5",
+          "content": "At a certain time, Janice notices that her digital watch reads a minutes after two o'clock. Fifteen minutes later, it reads b minutes after three o'clock. She is amused to note that a is six times greater than b. What time was it when she looked at her watch for the second time? (Source: Mandelbrot)"
+        }
+      ]
+    },
+    {
+      "type": "problem_with_solution",
+      "title": "Problem 5.14",
+      "source_images": ["image791.png", "image792.png", "image793.png"],
+      "problem": "In this problem we find all possible values of a and b such that the sum of their square roots is 37 and the square root of a is 10 more than twice the square root of b.",
+      "parts": [
+        {
+          "label": "a",
+          "content": "Convert the words to math. Write two equations for the given information."
+        },
+        {
+          "label": "b",
+          "content": "Find sqrt(a) and sqrt(b), then find a and b."
+        }
+      ],
+      "solution": {
+        "steps": [
+          "We first convert the words to math, writing equations for the information given in the problem:",
+          "sqrt(a) + sqrt(b) = 37",
+          "sqrt(a) = 2*sqrt(b) + 10",
+          "We can organize these equations a little more clearly by putting all the variables on one side:",
+          "sqrt(a) + sqrt(b) = 37",
+          "sqrt(a) - 2*sqrt(b) = 10",
+          "These equations are not linear; however, we can still use our tactics for solving systems of linear equations to solve this system of equations. We can eliminate sqrt(a) by subtracting the second equation from the first:",
+          "sqrt(a) + sqrt(b) = 37",
+          "-(sqrt(a) - 2*sqrt(b)) = -(10)",
+          "3*sqrt(b) = 27",
+          "Dividing this result by 3 gives sqrt(b) = 9. We can substitute this into either of our original equations to find sqrt(a) = 28. However, we want a and b, not sqrt(a) and sqrt(b). Squaring our equations for sqrt(a) and sqrt(b) give us a = 28^2 = 784 and b = 9^2 = 81."
+        ]
+      }
+    },
+    {
+      "type": "problem_with_solution",
+      "title": "Problem 5.15",
+      "source_images": ["image794.png", "image795.png", "image796.png", "image797.png", "image798.png", "image799.png"],
+      "problem": "Find all pairs (x, y) that satisfy both of the equations below: 3/x - 2/y = -7/2 and 6/x + 4/y = 9.",
+      "solution": {
+        "method_1": {
+          "description": "Multiply to eliminate fractions",
+          "steps": [
+            "We multiply the first equation by 2xy and the second by xy to get:",
+            "2xy(3/x - 2/y) = 2xy(-7/2), which gives -4x + 6y = -7xy",
+            "xy(6/x + 4/y) = xy(9), which gives 4x + 6y = 9xy",
+            "Adding the two equations gives us: 12y = 2xy",
+            "We know that y cannot be 0 (because then the initial equations would have division by 0, which isn't allowed), so we can divide this equation by y. This gives 12 = 2x, so x = 6.",
+            "We substitute x = 6 into either equation above to find y = 1/2."
+          ]
+        },
+        "method_2": {
+          "description": "Substitution with reciprocals",
+          "steps": [
+            "Both equations include the reciprocal of x and the reciprocal of y, so we let r = 1/x and s = 1/y. Our equations then become:",
+            "3r - 2s = -7/2",
+            "6r + 4s = 9",
+            "These are two-variable linear equations. We know how to solve this system. Using either elimination or substitution, we find (r, s) = (1/6, 2). We then use our definitions of r and s to find (x, y) = (6, 1/2)."
+          ]
+        },
+        "concept": "Experimentation and exploration are very important for solving problems. Don't be afraid to take a step in a problem just because you don't know for sure what you'll do after that step. For most problems there is more than one way to find the answer."
+      }
+    },
+    {
+      "type": "exercise",
+      "title": "Exercises 5.5",
+      "source_images": ["image800.png", "image801.png"],
+      "problems": [
+        {
+          "number": "5.5.1",
+          "content": "Solve the following system of equations for x and y: 6/x + 7/y = 4 and 2/x - 5/y = 16."
+        },
+        {
+          "number": "5.5.2",
+          "content": "The area of a square equals the square of a length of the side of the square. The perimeter of a square equals the sum of the lengths of all four sides. The sum of the areas of two squares is 65, while the difference in their areas is 33. Find the sum of their perimeters."
+        },
+        {
+          "number": "5.5.3",
+          "content": "(starred) Find r and s if cube_root(r) + 9*sqrt(s) = 21 and 10*cube_root(r) - sqrt(s) = 28."
+        }
+      ]
+    },
+    {
+      "type": "problem_with_solution",
+      "title": "Problem 5.16",
+      "source_images": ["image802.png", "image803.png", "image804.png", "image805.png"],
+      "problem": "Consider the system of equations: x + 3y - 4z = 25, -2x + 5y + 7z = -66, 3x - 2y + 3z = 7.",
+      "parts": [
+        {
+          "label": "a",
+          "content": "Solve the first equation for x."
+        },
+        {
+          "label": "b",
+          "content": "Use your answer to (a) to turn the second and third equations into a system of two-variable linear equations."
+        },
+        {
+          "label": "c",
+          "content": "Solve the system of equations you created in part (b) for y and z, then find x."
+        }
+      ],
+      "solution": {
+        "steps": [
+          "We can reduce our system to one with two variables by solving the first equation for x: x = -3y + 4z + 25.",
+          "When we substitute this into the second and third given equations, we have:",
+          "-2(-3y + 4z + 25) + 5y + 7z = -66",
+          "3(-3y + 4z + 25) - 2y + 3z = 7",
+          "Expanding then simplifying the left sides of these two equations gives:",
+          "11y - z = -16",
+          "-11y + 15z = -68",
+          "We know how to solve this system! Adding the two equations gives 14z = -84, so z = -6.",
+          "Substituting z = -6 into either of these equations gives y = -2.",
+          "Finally, we can substitute y = -2 and z = -6 into x = -3y + 4z + 25 to find x = -3(-2) + 4(-6) + 25 = 7.",
+          "Therefore, the solution to the given system of equations is (x, y, z) = (7, -2, -6)."
+        ],
+        "concept": "When facing a new type of problem, try to convert it into a problem you know how to do. Substitution isn't just for systems of two-variable equations. We can also use substitution to tackle larger systems with more variables."
+      }
+    },
+    {
+      "type": "problem_with_solution",
+      "title": "Problem 5.17",
+      "source_images": ["image806.png", "image807.png"],
+      "problem": "Solve the following system of linear equations: 2x - 3y + 6z = -12, 5x + 2y - 8z = 29, 7x + 6y + 4z = 49.",
+      "solution": {
+        "method": "Elimination",
+        "steps": [
+          "We can eliminate a variable from two linear equations when the coefficients in the two equations are opposites (adding the equations eliminates the variable), or when their coefficients are the same (subtracting the equations eliminates the variable). Using this as a guide, we focus on eliminating y, because multiplying the first equation by 2 and the second equation by 3 makes each coefficient of y equal to either 6 or -6.",
+          "4x - 6y + 12z = -24",
+          "15x + 6y - 24z = 87",
+          "21x + 6y + 12z = 147",
+          "We can add the first two equations to eliminate y:",
+          "4x - 6y + 12z = -24",
+          "15x + 6y - 24z = 87",
+          "19x - 12z = 63",
+          "Adding the first and third equations also eliminates y and leaves a two-variable linear equation:",
+          "4x - 6y + 12z = -24",
+          "21x + 6y + 12z = 147",
+          "25x + 24z = 123",
+          "These two equations together are a system of two variable linear equations:",
+          "19x - 12z = 63",
+          "25x + 24z = 123",
+          "Multiplying the first equation by 4 and the second by 3 allows us to eliminate z by adding the resulting equations:",
+          "76x - 48z = 252",
+          "75x + 72z = 369",
+          "Adding after multiplying first by 2: 76x + 75x = 252 + 246 = 498 (after adjustment)",
+          "Therefore, x = 3. Substituting this into 19x - 12z = 63 gives z = -1/2. Finally, we let x = 3 and z = -1/2 in any of our original three equations to find y = 5, so our solution is (x, y, z) = (3, 5, -1/2)."
+        ]
+      }
+    },
+    {
+      "type": "problem",
+      "title": "Problem 5.18",
+      "source_images": ["image808.png"],
+      "content": "At the Word Store, each vowel sells for a different price, but all consonants are free. The word 'triangle' sells for $6, 'square' sells for $9, 'pentagon' sells for $7, 'cube' sells for $7 and 'tetrahedron' sells for $8. What is the dollar cost of the word 'octahedron'? (Source: MATHCOUNTS)"
+    }
+  ]
+}

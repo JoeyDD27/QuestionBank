@@ -1,0 +1,484 @@
+{
+  "chapter": "Reasoning and proof",
+  "part": 1,
+  "image_range": "2841-2880",
+  "subsections": [
+    {
+      "title": "What is Proof?",
+      "items": [
+        {
+          "type": "concept",
+          "content_latex": "Science relies on experimental evidence. Mathematics relies on logic and reasoning.\n\nA \\textbf{mathematical proof} is a correct argument which establishes the truth of a mathematical statement.\n\nA mathematical proof:\n\\begin{itemize}\n\\item starts with assumptions called \\textbf{hypotheses}\n\\item is a sequence of correct mathematical steps\n\\item ends in a \\textbf{conclusion}\n\\end{itemize}",
+          "source_images": ["image2841.png"]
+        },
+        {
+          "type": "example",
+          "content_latex": "A group of people are involved in a business meeting. Alice looks at Bob and Bob looks at Clare. Alice is married but Clare is not.\n\n\\textbf{Things to think about:}\n\\begin{enumerate}\n\\item[a] Do we know whether Bob is married?\n\\item[b] Can we \\textit{prove} that a married person looks at an unmarried person?\n\\item[c] What is necessary for a mathematical argument to be convincing and complete?\n\\end{enumerate}",
+          "source_images": ["image2842.png"]
+        },
+        {
+          "type": "concept",
+          "content_latex": "\\textbf{Proof:}\n\nBob is either married or he is not married.\n\\begin{itemize}\n\\item If Bob is married, then when Bob looks at Clare, a married person looks at an unmarried person.\n\\item If Bob is \\textit{not} married, then when Alice looks at Bob, a married person looks at an unmarried person.\n\\end{itemize}\n\nIn both cases, a married person looks at an unmarried person.\n\nThese cases exhaust all possibilities, so a married person always looks at an unmarried person.",
+          "source_images": ["image2843.png"]
+        },
+        {
+          "type": "concept",
+          "content_latex": "In this proof, notice that:\n\\begin{itemize}\n\\item ``Alice is married'' is a \\textit{hypothesis}.\n\\item The \\textit{conclusion} is that a married person looks at an unmarried person.\n\\item This \\textit{style} of proof is called \\textbf{proof by exhaustion}, because we have considered all possible cases: Bob is married, and Bob is not married.\n\\item This proof contains logic only. There is no calculation.\n\\end{itemize}",
+          "source_images": ["image2844.png"]
+        }
+      ]
+    },
+    {
+      "title": "The Purposes of Proof",
+      "items": [
+        {
+          "type": "concept",
+          "content_latex": "Mathematical proof is important:\n\\begin{itemize}\n\\item \\textbf{to convince} - Proofs help you decide if and why a statement is true or false. This is important when the result seems strange.\n\\item \\textbf{to understand} - Proofs help you understand how and why all the different assumptions play a part in the result.\n\\item \\textbf{to communicate} - Mathematicians use proofs to communicate and debate ideas with each other.\n\\item \\textbf{to organise} - Proofs help you organise your thoughts.\n\\item \\textbf{to discover new mathematics} - By carefully examining each step of a proof, mathematicians discover new mathematics.\n\\end{itemize}",
+          "source_images": ["image2845.png"]
+        }
+      ]
+    },
+    {
+      "title": "Advice on Writing Proofs",
+      "items": [
+        {
+          "type": "concept",
+          "content_latex": "\\begin{itemize}\n\\item State what you are proving. Make it clear when you have reached your conclusion.\n\\item Include enough detail to make your proof easy to check.\n\\item Your proof should be written in good English, including simple, complete, correct sentences.\n\\item Present your calculations on the page in a manner which makes them easy to follow. Use your layout to clearly separate the parts or different cases considered in your proof.\n\\item Use diagrams when appropriate to give a visual representation of the situation.\n\\item It is often useful to use examples when exploring a problem. However, a single example is usually not sufficient to complete a proof.\n\\item Check to see where you have used each hypothesis. If you have not used a particular hypothesis then either:\n  \\begin{itemize}\n  \\item you did not need it, or\n  \\item your proof should have made use of it, and is incorrect!\n  \\end{itemize}\n\\item Do not expect to write a complete proof the first time. Expect to use rough working first, and then write a neat version.\n\\end{itemize}",
+          "source_images": ["image2846.png"]
+        }
+      ]
+    },
+    {
+      "title": "Logical Connectives",
+      "items": [
+        {
+          "type": "concept",
+          "content_latex": "Mathematical language uses \\textbf{logical connectives} to link mathematical statements together:\n\n\\begin{tabular}{|c|c|c|}\n\\hline\n\\textit{Connective} & \\textit{Symbol} & \\textit{Formal name} \\\\\n\\hline\nand & $\\wedge$ & conjunction \\\\\nor & $\\vee$ & disjunction \\\\\nnot & $\\neg$ & negation \\\\\nif .... then .... & $\\Rightarrow$ & implication \\\\\nif, and only if & $\\Leftrightarrow$ & equivalence \\\\\n\\hline\n\\end{tabular}",
+          "source_images": ["image2847.png"]
+        },
+        {
+          "type": "concept",
+          "content_latex": "We can illustrate the use of these connectives using \\textit{variables} such as $A$, $B$, $C$, ....\n\nFor example, $(A \\wedge B) \\Rightarrow C$ means ``$A$ and $B$ implies $C$''. The two arguments $(A \\wedge B)$ and $C$ are connected by the connective $\\Rightarrow$. The argument $(A \\wedge B)$ is itself made up of arguments $A$ and $B$, connected by the connective $\\wedge$. It is therefore helpful to think of statements as mathematical trees, connected by the logical connectives.",
+          "source_images": ["image2848.png"]
+        }
+      ]
+    },
+    {
+      "title": "Negation",
+      "items": [
+        {
+          "type": "concept",
+          "content_latex": "The negation of a variable $A$ is its opposite. If $A$ is true then $\\neg A$ is false, and vice versa.\n\nFor example:\n\\begin{itemize}\n\\item the negation of ``Today is Wednesday'' is ``Today is not Wednesday''\n\\item if we know $x \\in \\mathbb{Z}$, the negation of ``$x$ is an even integer'' is ``$x$ is an odd integer''\n\\item if we know $x \\in \\mathbb{R}$, the negation of ``$x$ is an even integer'' is ``$x$ is not an even integer'', since $x$ might be an odd integer, or it might also be a non-integer.\n\\end{itemize}",
+          "source_images": ["image2849.png"]
+        }
+      ]
+    },
+    {
+      "title": "Implications",
+      "items": [
+        {
+          "type": "concept",
+          "content_latex": "Implications commonly arise when we deduce one thing from another.\n\nFor the implication $A \\Rightarrow B$, we start with the statement $A$, and from it we deduce the statement $B$. The statement $A$ is called the \\textbf{hypothesis}, and $B$ is called the \\textbf{conclusion}.\n\nIn English there are many words we can use to show an implication.\n\nFor example: $A \\begin{cases} \\text{implies} \\\\ \\text{so} \\\\ \\text{hence} \\\\ \\text{thus} \\\\ \\text{therefore} \\end{cases} B.$\n\nWe use $\\therefore$ to mean ``therefore''.\n\nThe \\textbf{converse} of the implication $A \\Rightarrow B$ is the statement $B \\Rightarrow A$.\n\nIt is important to recognise that while the implication $A \\Rightarrow B$ may be true, its converse may not be true.\n\nFor example, the statement ``If $x = 2$ then $x^2 = 4$'' is true. However, its converse ``If $x^2 = 4$ then $x = 2$'' is false, since $x$ may be $-2$.",
+          "source_images": ["image2850.png"]
+        }
+      ]
+    },
+    {
+      "title": "Equivalence",
+      "items": [
+        {
+          "type": "concept",
+          "content_latex": "Two statements $A$ and $B$ are \\textbf{equivalent} if both $A \\Rightarrow B$ \\textit{and} $B \\Rightarrow A$. In this case we can say $A$ is true if and only if $B$ is true.\n\nFor example, the statement ``If $x = -2$ or $2$, then $x^2 = 4$'' is true. The statement ``If $x^2 = 4$ then $x = -2$ or $2$'' is also true. Therefore, $x = -2$ or $2 \\Leftrightarrow x^2 = 4$.",
+          "source_images": ["image2851.png"]
+        }
+      ]
+    },
+    {
+      "title": "Exercise 10A",
+      "items": [
+        {
+          "type": "exercise",
+          "content_latex": "Exercise 10A",
+          "questions": [
+            {
+              "label": "1",
+              "problem_latex": "For each statement, state its negation:\n\\begin{enumerate}\n\\item[a] The cat is black.\n\\item[b] $x$ is prime.\n\\item[c] The tree is deciduous.\n\\end{enumerate}"
+            },
+            {
+              "label": "2",
+              "problem_latex": "State, with justification, whether each statement is true or false:\n\\begin{enumerate}\n\\item[a] If $n^2 > 9$ then $n > 3$.\n\\item[b] If $x > 3$ then $x^2 > 9$.\n\\item[c] $x = 3$ if and only if $x^2 = 9$.\n\\end{enumerate}"
+            },
+            {
+              "label": "3",
+              "problem_latex": "State, with justification, whether each statement is true or false:\n\\begin{enumerate}\n\\item[a] If $x$ is positive then $\\sqrt{x} \\in \\mathbb{R}$.\n\\item[b] If $\\sqrt{x} \\in \\mathbb{R}$, then $x$ is positive.\n\\item[c] $x$ is positive if and only if $\\sqrt{x} \\in \\mathbb{R}$.\n\\end{enumerate}"
+            },
+            {
+              "label": "4",
+              "problem_latex": "Write the converse of the statement ``If Socrates is a cat then Socrates is an animal''. Is this converse true or false?"
+            },
+            {
+              "label": "5",
+              "problem_latex": "Determine whether $A$ and $B$ are equivalent:\n\\begin{enumerate}\n\\item[a] $A$: $xy = 0$. $B$: $(x = 0) \\vee (y = 0)$ $(x = 0)$\n\\item[b] $A$: $x$ is even. $B$: $x^2$ is even.\n\\end{enumerate}"
+            },
+            {
+              "label": "6",
+              "problem_latex": "There are four cards on a table. Every card has a letter set on one side and a number on the other. With the cards placed, you see:\n\\begin{center}\nD \\quad 3 \\quad K \\quad 7\n\\end{center}\nIdentify precisely which cards you need to turn over, and which you do not, to establish the truth of the statement: ``Every card which has a D on one side has a 7 on the other''. (This problem was studied in 1966 by Peter Wason.)"
+            }
+          ],
+          "source_images": ["image2852.png"]
+        }
+      ]
+    },
+    {
+      "title": "Proof by Deduction",
+      "items": [
+        {
+          "type": "concept",
+          "content_latex": "Throughout the course already, we have used algebra to show different results. In cases where we are given some information (the hypothesis) and are asked to prove something, we use a chain of implications. This is called \\textbf{proof by deduction}.\n\nProof by deduction is called a \\textbf{direct proof} because we start with the hypothesis and work forward towards the conclusion.\n\nWe have mostly used the therefore symbol ``$\\therefore$'' to indicate our implications, but we could have also used the implication symbol ``$\\Rightarrow$''.\n\nSince these arguments only need to go from the starting information to the conclusion, we also call this type of proof a ``left-to-right'' proof.",
+          "source_images": ["image2853.png"]
+        },
+        {
+          "type": "example",
+          "content_latex": "\\textbf{Example 1}\n\n\\textbf{a} Prove by deduction: ``If $x < -5$ then $x^2 > 25$.''\n\\textbf{b} Explain why the converse is \\textit{not} true.",
+          "questions": [
+            {
+              "label": "a",
+              "problem_latex": "Prove by deduction: ``If $x < -5$ then $x^2 > 25$.''",
+              "answer_latex": "If $x < -5$ then $|x| > 5$ \\quad \\{geometric definition of absolute value\\}\n$\\therefore |x|^2 > 5^2$ \\quad \\{squaring both sides\\}\n$\\therefore x^2 > 25$ \\quad \\{$|x|^2 = x^2$\\}"
+            },
+            {
+              "label": "b",
+              "problem_latex": "Explain why the converse is not true.",
+              "answer_latex": "The converse would be: ``If $x^2 > 25$ then $x < -5$.''\nThis is not necessarily true because $6^2 > 25$, but $6 > -5$."
+            }
+          ],
+          "source_images": ["image2854.png"]
+        }
+      ]
+    },
+    {
+      "title": "Exercise 10B",
+      "items": [
+        {
+          "type": "exercise",
+          "content_latex": "Exercise 10B",
+          "questions": [
+            {
+              "label": "1",
+              "problem_latex": "\\textbf{a} Prove by deduction: ``If $x = -2$ then $x^2 - x - 6 = 0$.''\n\\textbf{b} Explain why the converse is \\textit{not} true."
+            },
+            {
+              "label": "2",
+              "problem_latex": "In the diagram alongside, three semi-circles have been constructed using the sides of a right angled triangle as diameters. The areas of the semi-circles are $A$, $B$, and $C$ as shown. Prove that $A + B = C$."
+            },
+            {
+              "label": "3",
+              "problem_latex": "Suppose $a, b \\in \\mathbb{N}$. Let $x = a^2 - b^2$, $y = 2ab$, and $z = a^2 + b^2$. Prove that $x^2 + y^2 = z^2$. (This result allows us to make right angled triangles with sides which are all integers.)"
+            },
+            {
+              "label": "4",
+              "problem_latex": "Prove that the sum of three consecutive integers is divisible by 3."
+            },
+            {
+              "label": "5",
+              "problem_latex": "The product of three consecutive integers is increased by the middle integer. Prove that the result is a perfect cube.\n\\textbf{Hint:} Let the middle number be $x$."
+            },
+            {
+              "label": "6",
+              "problem_latex": "Prove that $\\displaystyle\\frac{a^2 + b^2}{2} \\geqslant ab$ for all $a, b \\in \\mathbb{R}$."
+            },
+            {
+              "label": "7",
+              "problem_latex": "Prove by deduction that $\\sin 2\\theta \\tan \\theta = 2\\sin^2 \\theta$."
+            },
+            {
+              "label": "8",
+              "problem_latex": "Consider a 3-digit number ``$abc$'', $a \\neq c$. Written backwards, it is ``$cba$''. Let $S$ be the result when the smaller of the two numbers is subtracted from the larger. When $S$ is written backwards and the result is added to $S$, prove that the sum is always 1089.\nFor example: 276 backwards is 672, so $S = 396$ and $396 + 693 = 1089$."
+            },
+            {
+              "label": "9",
+              "problem_latex": "The following ``proofs'' by deduction are incorrect. Identify the incorrect step(s) in each case:\n\\textbf{a} $4x^2 = 3x$\n$\\therefore 4x = 3$\n$\\therefore x = \\frac{3}{4}$\n\n\\textbf{b} $(x + 3)(2 - x) = 4$\n$\\therefore x + 3 = 4$ or $2 - x = 4$\n$\\therefore x = 1$ or $x = -2$"
+            }
+          ],
+          "source_images": ["image2855.png", "image2856.png", "image2857.png"]
+        }
+      ]
+    },
+    {
+      "title": "Reasoning by Equivalence",
+      "items": [
+        {
+          "type": "concept",
+          "content_latex": "In proof by deduction, we were only concerned with moving in one direction.\n\nThis means that if we want to show that two statements $A$ and $B$ are \\textit{equivalent}, then we would need to prove both $A \\Rightarrow B$ and $B \\Rightarrow A$ separately.\n\nHowever, if we can construct an argument so that each deductive step is an equivalence, then we will prove $A \\Rightarrow B$ and $B \\Rightarrow A$ at the same time.\n\nFor example, to deduce the solutions of $(x+1)^3 = x^3 + 1$ we can write the following series of equivalent statements:\n\n$(x + 1)^3 = x^3 + 1$\n$\\Leftrightarrow x^3 + 3x^2 + 3x + 1 = x^3 + 1$\n$\\Leftrightarrow 3x^2 + 3x = 0$\n$\\Leftrightarrow 3x(x + 1) = 0$\n$\\Leftrightarrow x = 0$ or $x = -1$\n\nReasoning by equivalence is stronger than deduction because the converse must also be true in every step.\n\nThis chain of reasoning relies on the facts that:\n\\begin{itemize}\n\\item two equations are equivalent if they have precisely the same solutions\n\\item two functions $p(x)$ and $q(x)$ are equivalent if $p(x) = q(x)$ for all $x \\in \\mathbb{R}$.\n\\end{itemize}",
+          "source_images": ["image2858.png"]
+        },
+        {
+          "type": "concept",
+          "content_latex": "To maintain mathematical equivalence, we can:\n\\begin{itemize}\n\\item add or subtract the same term from both sides of an equation\n\\item multiply or divide both sides of an equation by a non-zero term\n\\item substitute for an equivalent sub-term, for example by replacing a term by its factored or expanded form.\n\\end{itemize}",
+          "source_images": ["image2859.png"]
+        },
+        {
+          "type": "concept",
+          "content_latex": "There are some other operations which maintain equivalence, for example some of the rules of logarithms with positive terms.\n\nHowever, squaring or taking square roots of both sides of an equation does not maintain equivalence!\n\nGiven $a^2 = b^2$, taking the square root of both sides gives $a = b$. However, in doing this we have ignored the possibility that $a = -b$.\n\nInstead, we use the difference between two squares result as follows:\n\n$a^2 = b^2$\n$\\Leftrightarrow a^2 - b^2 = 0$\n$\\Leftrightarrow (a - b)(a + b) = 0$ \\quad \\{difference between two squares\\}\n$\\Leftrightarrow a - b = 0$ or $a + b = 0$ \\quad \\{null factor law\\}\n$\\Leftrightarrow a = b$ or $a = -b$\n$\\Leftrightarrow a = \\pm b$",
+          "source_images": ["image2860.png", "image2861.png"]
+        },
+        {
+          "type": "example",
+          "content_latex": "\\textbf{Example 2}\n\nFind the smallest positive integer $a$ for which $x^2 + (a - 2)x + a = 0$ has real solutions.",
+          "questions": [
+            {
+              "label": "",
+              "problem_latex": "Find the smallest positive integer $a$ for which $x^2 + (a - 2)x + a = 0$ has real solutions.",
+              "answer_latex": "$x^2 + (a - 2)x + a = 0$\n$\\Leftrightarrow \\left(x + \\frac{a-2}{2}\\right)^2 - \\left(\\frac{a-2}{2}\\right)^2 + a = 0$ \\quad \\{completing the square\\}\n$\\Leftrightarrow \\left(x + \\frac{a-2}{2}\\right)^2 = \\frac{(a-2)^2}{4} - a$\n\nThe equation has real solutions if and only if\n$\\frac{(a-2)^2}{4} - a \\geqslant 0$\n$\\Leftrightarrow (a-2)^2 - 4a \\geqslant 0$\n$\\Leftrightarrow a^2 - 8a + 4 \\geqslant 0$\n$\\Leftrightarrow (a-4)^2 - 16 + 4 \\geqslant 0$\n$\\Leftrightarrow (a-4)^2 \\geqslant 12$\n$\\Leftrightarrow a - 4 \\geqslant \\sqrt{12}$ or $a - 4 \\leqslant -\\sqrt{12}$\n$\\Leftrightarrow a \\geqslant 4 + \\sqrt{12} \\approx 7.46$ or $a \\leqslant 4 - \\sqrt{12} \\approx 0.536$\n\n$\\therefore$ the smallest positive integer $a$ for which the equation has real solutions is $a = 8$."
+            }
+          ],
+          "source_images": ["image2862.png"]
+        }
+      ]
+    },
+    {
+      "title": "Exercise 10C",
+      "items": [
+        {
+          "type": "exercise",
+          "content_latex": "Exercise 10C",
+          "questions": [
+            {
+              "label": "1",
+              "problem_latex": "Prove that:\n\\textbf{a} $(a + b)^2 - (a - b)^2 = 4ab$\n\\textbf{b} $(a + b)^2 - 4(a - b)^2 = (3b - a)(3a - b)$"
+            },
+            {
+              "label": "2",
+              "problem_latex": "Find the smallest positive integer $a$ for which $x^2 + (a - 3)x + 2a = 0$ has real solutions."
+            },
+            {
+              "label": "3",
+              "problem_latex": "Prove that $(x - y)^5 + (x - y)^3 = 0$ if and only if $x = y$."
+            },
+            {
+              "label": "4",
+              "problem_latex": "\\textbf{a} Expand and collect like terms: $(n^2 - 2n + 2)(n^2 + 2n + 2)$\n\\textbf{b} Hence find all integers $n$ such that $n^4 + 4$ is prime."
+            },
+            {
+              "label": "5",
+              "problem_latex": "\\textbf{a} Prove that $(k + 1)^2 - (k - 1)^2 = 4k$.\n\\textbf{b} Hence find two square numbers that have difference:\n\\textbf{i} 40 \\quad \\textbf{ii} 100."
+            },
+            {
+              "label": "6",
+              "problem_latex": "The following ``proofs'' end in nonsensical results. Identify the incorrect step(s) in each case:\n\\textbf{a} $a = b$\n$\\Leftrightarrow a^2 = ab$\n$\\Leftrightarrow a^2 - b^2 = ab - b^2$\n$\\Leftrightarrow (a - b)(a + b) = b(a - b)$\n$\\Leftrightarrow a + b = b$\n$\\Leftrightarrow 2a = a$\n$\\Leftrightarrow 2 = 1$\n\n\\textbf{b} $\\frac{x + 10}{x - 6} - 5 = \\frac{4x - 40}{13 - x}$\n$\\Leftrightarrow \\frac{x + 10 - 5(x - 6)}{x - 6} = \\frac{4x - 40}{13 - x}$\n$\\Leftrightarrow \\frac{4x - 40}{6 - x} = \\frac{4x - 40}{13 - x}$\n$\\Leftrightarrow 6 - x = 13 - x$\n$\\Leftrightarrow 6 = 13$"
+            },
+            {
+              "label": "7",
+              "problem_latex": "The following ``proofs'' give correct results but their methods are incorrect. Identify the incorrect step(s) in each case:\n\\textbf{a} $6x - 12 = 3(x - 2)$\n$\\Leftrightarrow 6x - 12 + 3(x - 2) = 0$\n$\\Leftrightarrow 12x - 24 = 0$\n$\\Leftrightarrow x = 2$\n\n\\textbf{b} $x^2 - 6x + 9 = 0$\n$\\Leftrightarrow x^2 - 6x = -9$\n$\\Leftrightarrow x(x - 6) = 3(-3)$\n$\\Leftrightarrow x = 3$ or $x - 6 = -3$\n$\\Leftrightarrow x = 3$"
+            },
+            {
+              "label": "8",
+              "problem_latex": "The sum of fractions $\\frac{1}{4} + \\frac{1}{12} = \\frac{1}{3}$ has the form $\\frac{1}{m} + \\frac{1}{3m} = \\frac{4}{3m}$ where $m = 4$, or alternatively the form $\\frac{1}{n+1} + \\frac{1}{n^2+n} = \\frac{1}{n}$ where $n = 3$.\n\\textbf{a} Prove by equivalence: \\textbf{i} $\\frac{1}{m} + \\frac{1}{3m} = \\frac{4}{3m}$ \\quad \\textbf{ii} $\\frac{1}{n+1} + \\frac{1}{n^2+n} = \\frac{1}{n}$ for $n \\neq 0, -1$.\n\\textbf{b} Is it accurate to say that $\\frac{1}{n+1} + \\frac{1}{n^2+n}$ is equivalent to $\\frac{1}{n}$? Explain your answer."
+            }
+          ],
+          "source_images": ["image2863.png", "image2864.png", "image2865.png"]
+        }
+      ]
+    },
+    {
+      "title": "Direct and Indirect Proofs",
+      "items": [
+        {
+          "type": "concept",
+          "content_latex": "In a \\textbf{direct proof} we start with the hypothesis and work forward to the conclusion.\n\nFor example, here is a direct proof that if $a < b$ then $a < \\frac{a+b}{2}$.\n\n\\textbf{Proof:}\n$a < b$\n$\\Rightarrow 2a < a + b$ \\quad \\{dividing by 2 which is $> 0$\\}\n$\\Rightarrow a < \\frac{a+b}{2}$ \\quad \\{adding $a$ to both sides\\}\n\nIn \\textbf{proof by contradiction} we deliberately assume the opposite to what we are trying to prove. By a series of correct steps we show that this is impossible, hence our assumption must be false, and so its opposite is true. We call this an \\textbf{indirect proof} because we do not start with the hypothesis.\n\nFor example, here is a proof by contradiction that if $a < b$ then $a < \\frac{a+b}{2}$.\n\n\\textbf{Proof (by contradiction):}\nFor $a < b$, suppose that $a \\geqslant \\frac{a+b}{2}$.\n$\\Rightarrow 2a \\geqslant a + b$ \\quad \\{multiplying both sides by 2\\}\n$\\Rightarrow 2a - a \\geqslant b$ \\quad \\{subtracting $a$ from both sides\\}\nThis is a contradiction to our assumption, so the supposition must be false and the alternative, $a < \\frac{a+b}{2}$, must be true.",
+          "source_images": ["image2866.png"]
+        }
+      ]
+    },
+    {
+      "title": "Theory of Knowledge - Definitions",
+      "items": [
+        {
+          "type": "concept",
+          "content_latex": "In mathematics we clearly \\textit{define} terms so there is no misunderstanding of their exact meaning.\n\nFor example:\n\\begin{itemize}\n\\item A \\textbf{rational number} is a number which can be written in the form $\\frac{p}{q}$ where $p, q \\in \\mathbb{Z}$, $q \\neq 0$.\n\\item An \\textbf{integer} is even if $n = 2k$ for some integer $k$.\n\\item An \\textbf{integer} is odd if $n = 2k + 1$ for some integer $k$.\n\\end{itemize}\n\nWe can understand the need for specific definitions by considering integers and rational numbers:\n\\begin{itemize}\n\\item 2 is an integer, and is also a rational number since $2 = \\frac{2}{1}$.\n\\item $\\frac{1}{2}$ is a rational number, and is also an integer since $\\frac{1}{2} = \\frac{2}{4}$.\n\\end{itemize}\n\n\\textbf{Discussion questions:}\n\\begin{enumerate}\n\\item Why is it important that mathematicians use the same definitions?\n\\item Words such as \\textit{similar}, or \\textit{function}, \\textit{domain}, \\textit{range}, and \\textit{wave} are common words in English, but also have different or more specific mathematical definitions. For each of these words, discuss the difference between their mathematical definition and their common use in English.\n\\item What is the difference between \\textit{equal}, \\textit{equivalence}, and \\textit{the same}? Why is it important to distinguish between these terms?\n\\item Are there any words which we use only in mathematics? What does this tell us about the nature of mathematics and the world around us?\n\\end{enumerate}",
+          "source_images": ["image2867.png"]
+        }
+      ]
+    },
+    {
+      "title": "Direct Proofs - Examples",
+      "items": [
+        {
+          "type": "example",
+          "content_latex": "\\textbf{Example 3}\n\nProve that $0.\\overline{13} \\in \\mathbb{Q}$.",
+          "questions": [
+            {
+              "label": "",
+              "problem_latex": "Prove that $0.\\overline{13} \\in \\mathbb{Q}$.",
+              "answer_latex": "Let $x = 0.\\overline{13} = 0.1313131313....$\n$\\Rightarrow 100x = 13.13131313....$\n$\\Rightarrow 100x = 13 + x$\n$\\Rightarrow 99x = 13$\n$\\Rightarrow x = \\frac{13}{99}$\n$\\Rightarrow x \\in \\mathbb{Q}$\n$\\Rightarrow 0.\\overline{13} \\in \\mathbb{Q}$\n\nThis Example requires the definition of rational numbers."
+            }
+          ],
+          "source_images": ["image2868.png"]
+        },
+        {
+          "type": "example",
+          "content_latex": "\\textbf{Example 4}\n\nProve that the sum of any two rational numbers is also a rational number.",
+          "questions": [
+            {
+              "label": "",
+              "problem_latex": "Prove that the sum of any two rational numbers is also a rational number.",
+              "answer_latex": "\\textbf{Proof:}\nLet $x$ and $y$ be two rational numbers.\nBy definition, there exists $p, q \\in \\mathbb{Z}$, $q \\neq 0$ so that $x = \\frac{p}{q}$.\nBy definition, there exists $r, s \\in \\mathbb{Z}$, $s \\neq 0$ so that $y = \\frac{r}{s}$.\n\nSo, $x + y = \\frac{p}{q} + \\frac{r}{s} = \\frac{ps + rq}{qs}$\n\nSince $p, q, r, s$ are all integers, $ps + rq$ is an integer which we call $P$.\nSince $q, s$ are non-zero integers, $qs$ is a non-zero integer which we call $Q$.\n$\\therefore x + y = \\frac{ps + rq}{qs} = \\frac{P}{Q}$ where $P, Q \\in \\mathbb{Z}$, $Q \\neq 0$\n$\\therefore$ by definition, $x + y$ is a rational number."
+            }
+          ],
+          "source_images": ["image2869.png", "image2870.png"]
+        }
+      ]
+    },
+    {
+      "title": "Exercise 10D",
+      "items": [
+        {
+          "type": "exercise",
+          "content_latex": "Exercise 10D",
+          "questions": [
+            {
+              "label": "1",
+              "problem_latex": "Prove that $0.\\overline{9} \\in \\mathbb{Z}$."
+            },
+            {
+              "label": "2",
+              "problem_latex": "Prove that:\n\\textbf{a} $0.\\overline{4} \\in \\mathbb{Q}$ \\quad \\textbf{b} $0.\\overline{23} \\in \\mathbb{Q}$ \\quad \\textbf{c} $0.0\\overline{79} \\in \\mathbb{Q}$"
+            },
+            {
+              "label": "3",
+              "problem_latex": "Prove that the infinite geometric series $(4 - \\sqrt{2}) + \\frac{4 - \\sqrt{2}}{3 - \\sqrt{2}} + \\frac{4 - \\sqrt{2}}{(3 - \\sqrt{2})^2} + \\frac{4 - \\sqrt{2}}{(3 - \\sqrt{2})^3} + .... \\in \\mathbb{Z}$."
+            },
+            {
+              "label": "4",
+              "problem_latex": "Prove that the difference between any two rational numbers is also a rational number."
+            },
+            {
+              "label": "5",
+              "problem_latex": "Prove that the product of any two rational numbers is also a rational number."
+            },
+            {
+              "label": "6",
+              "problem_latex": "Prove that the product of two odd integers is odd."
+            },
+            {
+              "label": "7",
+              "problem_latex": "Prove that if $p$ and $q$ are odd integers then $p^2 - q^2$ is divisible by 8."
+            },
+            {
+              "label": "8",
+              "problem_latex": "Prove that if $p$ and $q$ are consecutive odd integers, $p > q$, then $p^3 - q^3 - 2$ is divisible by 24."
+            },
+            {
+              "label": "9",
+              "problem_latex": "If $a$, $b$, $c$ are integers and $ax^2 + bx + c = 0$ has rational root $\\frac{r}{s}$ in lowest terms, prove that $s$ is a factor of $a$, and $r$ is a factor of $c$."
+            }
+          ],
+          "source_images": ["image2871.png"]
+        }
+      ]
+    },
+    {
+      "title": "Theory of Knowledge - Axioms",
+      "items": [
+        {
+          "type": "concept",
+          "content_latex": "An \\textbf{axiom} is a statement that is taken to always be true. Axioms form the foundation for proofs of all results and theorems in mathematics.\n\nFor example, these are the axioms for addition and multiplication on the real numbers:\n\n\\textit{Axiom 1:} Associativity: $a + (b + c) = (a + b) + c$ and $a \\times (b \\times c) = (a \\times b) \\times c$\n\n\\textit{Axiom 2:} Commutativity: $a + b = b + a$ and $a \\times b = b \\times a$\n\n\\textit{Axiom 3:} Distributivity: $a \\times (b + c) = a \\times b + a \\times c$\n\n\\textit{Axiom 4:} Additive identity: $a + 0 = a$ and Multiplicative identity: $a \\times 1 = a$\n\n\\textit{Axiom 5:} Additive inverse: $a + (-a) = 0$ and Multiplicative inverse: $a \\times a^{-1} = 1$.\n\nUsing only these axioms, we can prove that $0 \\times x = x \\times 0 = 0$ for all $x \\in \\mathbb{R}$.",
+          "source_images": ["image2872.png"]
+        },
+        {
+          "type": "concept",
+          "content_latex": "\\textbf{Proof:}\n$0 = 0 + 0$\n$\\therefore 0 \\times x = (0 + 0) \\times x$ \\quad \\{multiplying both sides by $x$\\}\n$\\therefore 0 \\times x = 0 \\times x + 0 \\times x$ \\quad \\{Axiom 3\\}\n$\\therefore 0 \\times x + (-(0 \\times x)) = (0 \\times x + 0 \\times x) + (-(0 \\times x))$ \\quad \\{adding the additive inverse of $0 \\times x$\\}\n$\\therefore 0 \\times x + (-(0 \\times x)) = (0 \\times x) + [0 \\times x + (-(0 \\times x))]$ \\quad \\{Axiom 1\\}\n$\\therefore 0 = 0 \\times x + 0$\n$\\therefore 0 = 0 \\times x$ \\quad \\{Axiom 4\\}\n$\\therefore 0 \\times x = 0 = x \\times 0$ \\quad \\{Axiom 2\\}",
+          "source_images": ["image2873.png"]
+        }
+      ]
+    },
+    {
+      "title": "Proof by Exhaustion",
+      "items": [
+        {
+          "type": "concept",
+          "content_latex": "A proof can sometimes be split into a finite number of cases, each of which is then proven separately. It is important to justify why the list of cases covers \\textit{all} possible cases. Since the list \\textit{exhausts} all possibilities, we call this style of proof a \\textbf{proof by exhaustion}.\n\nFor example, every natural number $n \\in \\mathbb{Z}$ is either even or odd.\n\\begin{itemize}\n\\item If $n$ is even it is divisible by two, and so $n = 2k$ for some $k \\in \\mathbb{Z}$.\n\\item If $n$ is odd, it has remainder 1 when divided by 2. In this case $n = 2k + 1$ for some $k \\in \\mathbb{Z}$.\n\\end{itemize}",
+          "source_images": ["image2874.png"]
+        },
+        {
+          "type": "example",
+          "content_latex": "\\textbf{Example 5}\n\nGiven that $n^5 - n = (n-1)n(n+1)(n^2+1)$, prove that $n^5 - n$ is divisible by 5 for all $n \\in \\mathbb{Z}$.",
+          "questions": [
+            {
+              "label": "",
+              "problem_latex": "Given that $n^5 - n = (n-1)n(n+1)(n^2+1)$, prove that $n^5 - n$ is divisible by 5 for all $n \\in \\mathbb{Z}$.",
+              "answer_latex": "\\textbf{Proof by exhaustion:}\nIf we divide $n$ by 5 then the remainder will be 0, 1, 2, 3, or 4. Hence every integer can be written in one of the forms $5k$, $5k+1$, $5k+2$, $5k+3$, or $5k+4$, for some $k \\in \\mathbb{Z}$.\n\nLet $N = n^5 - n = (n-1)n(n+1)(n^2+1)$.\n\nIf $n = 5k$ then the factor $n$ is divisible by 5, and so $N$ is divisible by 5.\n\nIf $n = 5k + 1$ then the factor $(n - 1) = 5k$ is divisible by 5, so $N$ is divisible by 5.\n\nIf $n = 5k + 2$ then the factor $(n^2 + 1) = (5k + 2)^2 + 1$\n$= 25k^2 + 20k + 5$\n$= 5(5k^2 + 4k + 1)$\nwhich is divisible by 5, so $N$ is divisible by 5.\n\nIf $n = 5k + 3$ then the factor $(n^2 + 1) = (5k + 3)^2 + 1$\n$= 25k^2 + 30k + 10$\n$= 5(5k^2 + 6k + 2)$\nwhich is divisible by 5, so $N$ is divisible by 5.\n\nIf $n = 5k + 4$ then the factor $(n + 1) = 5(k + 1)$ which is divisible by 5, so $N$ is divisible by 5.\n\nIn all cases, $N$ is divisible by 5, so $n^5 - n$ is divisible by 5 for all $n \\in \\mathbb{Z}$."
+            }
+          ],
+          "source_images": ["image2875.png", "image2876.png"]
+        }
+      ]
+    },
+    {
+      "title": "Exercise 9E",
+      "items": [
+        {
+          "type": "exercise",
+          "content_latex": "Exercise 9E",
+          "questions": [
+            {
+              "label": "1",
+              "problem_latex": "Prove that if $n$ is an integer such that $n^2$ is even, then $n$ is even. (``$a$ divides $b$'' means that $b$ is divisible by $a$.)"
+            },
+            {
+              "label": "2",
+              "problem_latex": "Prove that $n^3 - n$ is divisible by 3 for all $n \\in \\mathbb{Z}$."
+            },
+            {
+              "label": "3",
+              "problem_latex": "Prove that $n^3 + 2n$ is divisible by 3 for all $n \\in \\mathbb{Z}$."
+            },
+            {
+              "label": "4",
+              "problem_latex": "Prove that $n^2 - 1$ is divisible by 8 for all odd integers $n$."
+            },
+            {
+              "label": "5",
+              "problem_latex": "Prove that 7 never divides $n^2 + 4$ for all $n \\in \\mathbb{Z}$."
+            },
+            {
+              "label": "6",
+              "problem_latex": "Let $n$ be a positive integer and define $x = (n+1)! + 2$. Prove that none of $x$, $x + 1$, $x + 2$, ...., $x + n - 1$ are prime."
+            },
+            {
+              "label": "7",
+              "problem_latex": "You are presented with 3 boxes, A, B, and C, one of which contains a prize. On the lid of each box there is a statement, and you are told that only one of the statements is true. They say:\n\\begin{center}\n\\begin{tabular}{|c|c|c|}\n\\hline\nA & B & C \\\\\n\\hline\nThe prize is in this box. & The prize is not in this box. & The prize is in box A. \\\\\n\\hline\n\\end{tabular}\n\\end{center}\nWhich box contains the prize?"
+            },
+            {
+              "label": "8",
+              "problem_latex": "13 points are equally spaced around a circle. Prove that if any 5 are chosen, then the set will include 3 points which form an isosceles triangle."
+            }
+          ],
+          "source_images": ["image2877.png", "image2878.png"]
+        }
+      ]
+    },
+    {
+      "title": "Counter Examples",
+      "items": [
+        {
+          "type": "concept",
+          "content_latex": "Experimental evidence is very convincing, and scientific research relies on experimental evidence. However, in mathematics we do not consider experimental evidence to be sufficient to constitute a \\textit{proof}. The reason for this is that one single \\textbf{counter example} which shows a general statement to be false, is sufficient to \\textit{disprove} the statement.",
+          "source_images": ["image2879.png"]
+        },
+        {
+          "type": "example",
+          "content_latex": "\\textbf{Example 6}\n\nThe values of $n^2 - n + 41$ for some values of $n \\in \\mathbb{N}$ are shown in the table alongside. We observe that all of these values are primes, so we conjecture that:\n\n$n^2 - n + 41$ is prime for all $n \\in \\mathbb{N}$.\n\nFind an example which proves this conjecture is false.\n\n\\begin{tabular}{|c|c|}\n\\hline\n$n$ & $n^2 - n + 41$ \\\\\n\\hline\n1 & 41 \\\\\n2 & 43 \\\\\n3 & 47 \\\\\n4 & 53 \\\\\n5 & 61 \\\\\n6 & 71 \\\\\n7 & 83 \\\\\n8 & 97 \\\\\n9 & 113 \\\\\n10 & 131 \\\\\n\\hline\n\\end{tabular}\n\\quad\n\\begin{tabular}{|c|c|}\n\\hline\n$n$ & $n^2 - n + 41$ \\\\\n\\hline\n11 & 151 \\\\\n12 & 173 \\\\\n13 & 197 \\\\\n14 & 223 \\\\\n$\\vdots$ & $\\vdots$ \\\\\n30 & 911 \\\\\n$\\vdots$ & $\\vdots$ \\\\\n99 & 9743 \\\\\n$\\vdots$ & $\\vdots$ \\\\\n\\hline\n\\end{tabular}",
+          "questions": [
+            {
+              "label": "",
+              "problem_latex": "Find an example which proves this conjecture is false.",
+              "answer_latex": "For $n = 41$, we have $n^2 - n + 41 = 41^2 - 41 + 41 = 41^2$ which is not prime.\n$\\therefore$ the conjecture is false."
+            }
+          ],
+          "source_images": ["image2880.png"]
+        }
+      ]
+    }
+  ]
+}

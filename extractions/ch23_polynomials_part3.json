@@ -1,0 +1,659 @@
+{
+  "chapter": 23,
+  "chapter_title": "Polynomials",
+  "part": 3,
+  "image_range": "2293-2333",
+  "content": [
+    {
+      "type": "exercise_problems",
+      "description": "Continuation of polynomial problems",
+      "problems": [
+        {
+          "number": 7,
+          "content": "2x^2 + kx - 5 has remainder 3 when divided by (x + 4). Find k."
+        },
+        {
+          "number": 8,
+          "content": "(x - 2) and (x + 3) are factors of ax^3 - 3x^2 - 11x + b. Find a and b."
+        },
+        {
+          "number": 9,
+          "content": "Suppose f(x) = x^3 - 4x^2 + 3x - 1 and g(x) = 3x^2 + x - 5.",
+          "parts": [
+            {
+              "part": "a",
+              "content": "Find: i) f(3), ii) the degree of g(x), iii) f(x) + g(x)"
+            },
+            {
+              "part": "b",
+              "content": "Find the quotient and remainder when f(x) is divided by (x - 3). Comment on the connection between your answer and the answer to a i."
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "content": "Consider the cubic polynomial f(x) = x^3 + x^2 - 17x + 15.",
+          "parts": [
+            {
+              "part": "a",
+              "content": "Show that (x + 5) is a factor of f(x)."
+            },
+            {
+              "part": "b",
+              "content": "Find (x^3 + x^2 - 17x + 15)/(x + 5)."
+            },
+            {
+              "part": "c",
+              "content": "Hence, write f(x) in the form f(x) = (x + 5)Q(x), where Q(x) is a quadratic polynomial."
+            },
+            {
+              "part": "d",
+              "content": "By factorising Q(x), write f(x) in fully factorised form."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review_set",
+      "title": "REVIEW SET 24B",
+      "problems": [
+        {
+          "number": 1,
+          "content": "State the degree of the polynomial f(x) = (x - 2)(x^2 + 5)."
+        },
+        {
+          "number": 2,
+          "content": "For f(x) = x^3 - kx - 5 and g(x) = 6x - x^2, find f(x) - g(x)."
+        },
+        {
+          "number": 3,
+          "content": "Find x^3 + x^2 + x^2 - 22."
+        },
+        {
+          "number": 4,
+          "content": "Find the constant term of the polynomial: a) f(x) = 3x^3 - 2x^2 + x - 4, b) g(x) = 2(3x - 3)(x - 4)."
+        },
+        {
+          "number": 5,
+          "content": "Use the Remainder theorem to find the remainder when 2x^3 - 3x + 7 is divided by (x - 7)."
+        },
+        {
+          "number": 6,
+          "content": "For p(x) = 2x^3 - 3x^2 - 1 and q(x) = x^2 - 5x - 2, find pq."
+        },
+        {
+          "number": 7,
+          "content": "Find a given that (x - 2) is a factor of 2x^3 - ax^2 - 7x + a."
+        },
+        {
+          "number": 8,
+          "content": "Use the Factor theorem to determine whether (x - 5) is a factor of x^3 - x^2 - 11x - 14."
+        },
+        {
+          "number": 9,
+          "content": "x^3 - 5x^2 + x + b has remainder 7 when divided by (x - 1), and remainder -11 when divided by (x + 2). Find b and h."
+        },
+        {
+          "number": 10,
+          "content": "Suppose f(x) = x^3 + x^2 - 4x - 4. a) Show that 2 is also a factor of f(x). b) Show that (x + 2)(x - 2)(x + 4) = x^3 + expanding RHS. c) Hence, write f(x) in fully factorised form."
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Fundamental Theorem of Algebra",
+      "content": "If P(x) is a polynomial of degree n, then P(x) has exactly n zeros, each of which may be written in the form a + bi where a, b are real, and some of which may be repeated."
+    },
+    {
+      "type": "theory",
+      "title": "Properties of Real Polynomials",
+      "content": [
+        "Every real polynomial of degree n can be factorised into n complex linear factors, some of which may be repeated.",
+        "Every real polynomial can be expressed as a product of real linear and real irreducible quadratic factors (where Delta < 0).",
+        "Every real polynomial of degree n has exactly n zeros, some of which may be repeated.",
+        "If p + qi (q != 0) is a zero of a real polynomial then its complex conjugate p - qi is also a zero.",
+        "Every real polynomial of odd degree has at least one real zero."
+      ]
+    },
+    {
+      "type": "example",
+      "number": 18,
+      "title": "Finding zeros using complex conjugate pairs",
+      "problem": "Suppose -3 + i is a zero of P(x) = ax^3 + 9x^2 + ax - 30 where a is real. Find a and hence find all zeros of the cubic.",
+      "solution": {
+        "steps": [
+          "Since P(x) is real, both -3 + i and -3 - i are zeros.",
+          "These have sum = -6 and product = (-3 + i)(-3 - i) = 10.",
+          "Therefore the zeros -3 +/- i come from the quadratic x^2 + 6x + 10.",
+          "The coefficient of x^3 is a. The constant term is 10 x (-3) = -30.",
+          "Consequently, ax^3 + 9x^2 + ax - 30 = (x^2 + 6x + 10)(ax - 3)",
+          "= ax^3 + (6a - 3)x^2 + (10a - 18)x - 30",
+          "Equating coefficients of x^2 gives: 6a - 3 = 9, therefore a = 2",
+          "Equating coefficients of x gives: 10a - 18 = a, therefore a = 2",
+          "Therefore a = 2 and the linear factor is (2x - 3)",
+          "P(x) has zeros -3 +/- i and 3/2."
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "title": "EXERCISE 5H",
+      "problems": [
+        {
+          "number": 1,
+          "content": "2 - i*sqrt(3) is a root of x^2 + ax + b = 0, where a, b are real. Find a and b."
+        },
+        {
+          "number": 2,
+          "content": "Find all real polynomials of degree 3 with zeros -1/2 and 1 - 3i."
+        },
+        {
+          "number": 3,
+          "content": "p(x) is a real cubic polynomial for which p(1) = p(2 + i) = 0 and p(0) = -20. Find p(x) in expanded form."
+        },
+        {
+          "number": 4,
+          "content": "2 - 3i is a zero of P(z) = z^3 + pz + q where p and q are real.",
+          "parts": [
+            {
+              "part": "a",
+              "content": "Using conjugate pairs, find p and q and the other two zeros."
+            },
+            {
+              "part": "b",
+              "content": "Check your answer by solving for p and q using P(2 - 3i) = 0."
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "content": "3 + i is a root of z^4 - 2z^3 + az^2 + bz + 10 = 0, where a and b are real. Find a and b and the other roots of the equation."
+        },
+        {
+          "number": 6,
+          "content": "2 + i is a root of x^4 + ax^3 + 8x^2 + 3ax + b = 0, a, b are real. Find a and b and the other roots of the equation."
+        },
+        {
+          "number": 7,
+          "content": "One zero of P(z) = z^3 + az^2 + 3z + 9, a is real, is purely imaginary. Find a, and hence factorise P(z) into the product of linear factors."
+        },
+        {
+          "number": 8,
+          "content": "At least one zero of P(x) = 3x^3 + kx^2 + 15x + 10, k is real, is purely imaginary. Find k, and hence factorise P(x) into the product of linear factors."
+        },
+        {
+          "number": 9,
+          "content": "A real polynomial P(x) = x^4 + ax^3 + bx^2 + cx - 10 has two integer zeros p and q, and a complex zero 1 + ki, k is in Z, k != 0.",
+          "parts": [
+            {
+              "part": "a",
+              "content": "Use the zero 1 + ki to find a real quadratic factor of P(x)."
+            },
+            {
+              "part": "b",
+              "content": "State all possible values of k."
+            },
+            {
+              "part": "c",
+              "content": "Use p and q to write another real quadratic factor of P(x). Hence list all possible values of pq."
+            },
+            {
+              "part": "d",
+              "content": "Given that p + q = -1, show that there is only one possible value for pq. Hence find all zeros of P(x)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "example",
+      "number": 19,
+      "title": "Finding zeros with purely imaginary zero",
+      "problem": "One zero of ax^3 + (a + 1)x^2 + 10x + 15, a is real, is purely imaginary. Find a and the zeros of the polynomial.",
+      "solution": {
+        "steps": [
+          "Let the purely imaginary zero be bi, b != 0.",
+          "Since P(x) is real, both bi and -bi are zeros.",
+          "These have sum = 0 and product = -b^2*i^2 = b^2",
+          "Therefore the zeros +/- bi come from the quadratic x^2 + b^2.",
+          "The coefficient of x^3 is a. The constant term is b^2 x 15/b^2 = 15.",
+          "Consequently, ax^3 + (a+1)x^2 + 10x + 15 = (x^2 + b^2)(ax + 15/b^2)",
+          "= ax^3 + (15/b^2)x^2 + ab^2x + 15",
+          "Equating coefficients of x^2 gives: a + 1 = 15/b^2 ... (1)",
+          "Equating coefficients of x gives: ab^2 = 10 ... (2)",
+          "Therefore ab^2 + b^2 = 15 {using (1)}",
+          "10 + b^2 = 15 {using (2)}",
+          "Therefore b^2 = 5",
+          "b = +/- sqrt(5)",
+          "In (2), since b^2 = 5, 5a = 10, therefore a = 2.",
+          "The linear factor ax + 15/b^2 becomes 2x + 3",
+          "Therefore a = 2 and the zeros are +/- i*sqrt(5), -3/2."
+        ]
+      }
+    },
+    {
+      "type": "theory",
+      "title": "Sum and Product of Roots",
+      "content": "For the polynomial equation sum(a_r * x^r, r=0 to n) = 0, a_n != 0, the sum of the roots is -a_{n-1}/a_n, and the product of the roots is (-1)^n * a_0/a_n."
+    },
+    {
+      "type": "theory",
+      "title": "Derivation of Sum and Product Formulas",
+      "content": "Consider the polynomial equation a_n(x - alpha_1)(x - alpha_2)(x - alpha_3)...(x - alpha_n) = 0 with roots alpha_1, alpha_2, alpha_3, ..., alpha_n. Expanding the LHS and equating coefficients gives: a_{n-1} = -a_n[alpha_1 + alpha_2 + alpha_3 + ... + alpha_n] and a_0 = (-1)^n * alpha_1 * alpha_2 * alpha_3 * ... * alpha_n. Therefore -a_{n-1}/a_n = alpha_1 + alpha_2 + ... + alpha_n and (-1)^n * a_0/a_n = alpha_1 * alpha_2 * ... * alpha_n."
+    },
+    {
+      "type": "example",
+      "number": 20,
+      "title": "Finding sum and product of roots",
+      "problem": "Find the sum and product of the roots of 2x^3 - 7x^2 + 8x - 1 = 0.",
+      "solution": {
+        "steps": [
+          "The sum of the roots = -(-7)/2 = 7/2",
+          "The polynomial equation has degree 3.",
+          "Therefore the product of the roots = (-1)^3(-1)/2 = 1/2"
+        ]
+      }
+    },
+    {
+      "type": "example",
+      "number": 21,
+      "title": "Using sum and product formulas with complex zeros",
+      "problem": "A real polynomial has the form P(x) = 3x^4 - 12x^3 + cx^2 + dx + e. The graph of y = P(x) has y-intercept 180, cuts the x-axis at 2 and 6, and does not meet the x-axis anywhere else. Suppose the other two zeros are m +/- ni, n > 0. Use the sum and product formulae to find m and n.",
+      "solution": {
+        "steps": [
+          "The constant term e is the y-intercept, so e = 180.",
+          "If the other two zeros are m +/- ni, the sum of the zeros is:",
+          "2 + 6 + (m + ni) + (m - ni) = -(-12)/3",
+          "Therefore 2m + 8 = 4",
+          "Therefore m = -2",
+          "The product of the zeros is 2 x 6 x (-2 + ni)(-2 - ni) = (-1)^4 * 180/3 = 60",
+          "Therefore 12(4 + n^2) = 60",
+          "Therefore 4 + n^2 = 5",
+          "Therefore n^2 = 1",
+          "Therefore n = 1 {as n > 0}",
+          "So, m = -2 and n = 1."
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "title": "EXERCISE 5I",
+      "problems": [
+        {
+          "number": 1,
+          "content": "Find the sum and product of the roots of:",
+          "parts": [
+            {"part": "a", "content": "2x^2 - 3x + 4 = 0"},
+            {"part": "b", "content": "3x^3 - 4x^2 + 8x - 5 = 0"},
+            {"part": "c", "content": "x^4 - x^3 + 2x^2 + 3x - 4 = 0"},
+            {"part": "d", "content": "2x^5 - 3x^4 + x^2 - 8 = 0"},
+            {"part": "e", "content": "x^7 - x^5 + 2x - 9 = 0"},
+            {"part": "f", "content": "x^6 - 1 = 0"}
+          ]
+        },
+        {
+          "number": 2,
+          "content": "A real cubic polynomial P(x) has zeros 3 +/- sqrt(2) and 2/3, and its leading coefficient is 6. Find:",
+          "parts": [
+            {"part": "a", "content": "the sum and product of its zeros"},
+            {"part": "b", "content": "the coefficient of x^2"},
+            {"part": "c", "content": "the constant term"}
+          ]
+        },
+        {
+          "number": 3,
+          "content": "A real cubic polynomial P(x) has zeros 1 +/- i*sqrt(2) and 1, and its leading coefficient is 5/3. Find:",
+          "parts": [
+            {"part": "a", "content": "the sum and product of its zeros"},
+            {"part": "b", "content": "the coefficient of x^2"},
+            {"part": "c", "content": "the constant term"}
+          ]
+        },
+        {
+          "number": 4,
+          "content": "A real polynomial of degree 4 has leading coefficient -1. Its zeros are -2, 3, and sqrt(k) +/- 1, and its graph has y-intercept 18. Find:",
+          "parts": [
+            {"part": "a", "content": "k"},
+            {"part": "b", "content": "the coefficient of x^3"}
+          ]
+        },
+        {
+          "number": 5,
+          "content": "A real polynomial of degree 5 has leading coefficient 2, and the coefficient of x^4 is 3. Its graph has y-intercept 5, and it cuts the x-axis at 1/2 and 1 +/- sqrt(2) only. Suppose the other two zeros are m +/- ni, n > 0. Use the sum and product formulae to find m and n."
+        },
+        {
+          "number": 6,
+          "content": "A real quartic polynomial has leading coefficient 1 and constant term 25. Its zeros have the form a +/- i and 3 +/- a, where a is real. Find the possible values that a may take."
+        },
+        {
+          "number": 7,
+          "content": "x^3 - px^2 + qx - r = 0 has non-zero roots p, q, and r, where p, q, r are real.",
+          "parts": [
+            {"part": "a", "content": "Show that q = -r and p = -1/r."},
+            {"part": "b", "content": "Hence find p, q, and r."}
+          ]
+        },
+        {
+          "number": 8,
+          "content": "x^2 + ax + bc = 0 and x^2 + bx + ca = 0 where a != 0, b != 0, c != 0, have a single common root. Prove that the other roots satisfy x^2 + cx + ab = 0."
+        },
+        {
+          "number": 9,
+          "content": "f(x) is a polynomial of degree n with leading coefficient 1. The sum of its roots is 5, and the product of its roots is -3. Suppose g(x) = [f(x)]^2. Find:",
+          "parts": [
+            {"part": "a", "content": "the degree of g(x)"},
+            {"part": "b", "content": "the sum of the roots of g(x)"},
+            {"part": "c", "content": "the product of the roots of g(x)"},
+            {"part": "d", "content": "the y-intercept of y = g(x)"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Cubic Functions",
+      "content": "The most basic cubic function is y = x^3. Its graph is shown with points (-2, -8), (-1, -1), (0, 0), (1, 1), (2, 8). Notice that: the graph is horizontal at (0, 0); as x approaches infinity, y approaches infinity; as x approaches negative infinity, y approaches negative infinity."
+    },
+    {
+      "type": "theory",
+      "title": "Properties of y = ax^3",
+      "content": [
+        "The graph of y = ax^3 has shape curving up-right if a > 0, or curving down-right if a < 0.",
+        "As the size of a increases, the graph of y = ax^3 becomes steeper.",
+        "The graph of y = a(x - b)^3 + c is obtained by translating the graph of y = ax^3 by the vector (b, c)."
+      ]
+    },
+    {
+      "type": "example",
+      "number": 22,
+      "title": "Graphing cubic transformations",
+      "problem": "On the same set of axes, sketch the graph of y = x^3 and y = (x - 2)^3 - 1.",
+      "solution": "The graph shows y = x^3 as a dashed curve through the origin, and y = (x - 2)^3 - 1 as a solid curve passing through (2, -1), which is the translation of y = x^3 by 2 units right and 1 unit down."
+    },
+    {
+      "type": "theory",
+      "title": "Behavior of Cubic Graphs at Zeros",
+      "content": [
+        "If a > 0, the graph has shape curving up-right from bottom-left to top-right. If a < 0 it is reversed.",
+        "Every cubic polynomial must cut the x-axis at least once, and so has at least one real zero.",
+        "For a cubic of the form P(x) = a(x - alpha)(x - beta)(x - gamma) where alpha, beta, gamma are real and distinct, the graph has three distinct x-intercepts corresponding to the three distinct zeros alpha, beta, and gamma. The graph crosses or cuts the x-axis at these points.",
+        "For a cubic of the form P(x) = a(x - alpha)^2(x - beta) where alpha, beta are real, the graph touches the x-axis at alpha and cuts it at beta.",
+        "For a cubic of the form P(x) = a(x - alpha)^3, x is real, the graph has only one x-intercept, alpha. The graph is horizontal at this point.",
+        "For a cubic of the form P(x) = (x - alpha)(ax^2 + bx + c) where Delta < 0, there is only one x-intercept, alpha. The graph cuts the x-axis at this point."
+      ]
+    },
+    {
+      "type": "example",
+      "number": 23,
+      "title": "Using axis intercepts to sketch cubic graphs",
+      "description": "Example showing how to sketch: a) y = 2(x + 3)(x - 1)(x - 3), b) y = -(x - 2)^2(2x + 1)",
+      "solutions": [
+        {
+          "part": "a",
+          "content": "The graph cuts the x-axis at -3, 1, and 3. When x = 0, y = 2(3)(-1)(-3) = 18, so the y-intercept is 18."
+        },
+        {
+          "part": "b",
+          "content": "The graph touches the x-axis at 2 and cuts the x-axis at -1/2. When x = 0, y = -(0 - 2)^2(1) = -4, so the y-intercept is -4."
+        }
+      ]
+    },
+    {
+      "type": "example",
+      "number": 24,
+      "title": "Finding the equation of a cubic from its graph",
+      "description": "Two cubic graphs are shown with various features like x-intercepts and points the curve passes through.",
+      "solutions": [
+        {
+          "part": "a",
+          "content": "The x-intercepts are -1, 2, 4. But when x = 0, y = -8. So, y = a(x + 1)(x - 2)(x - 4). Finding a = 1."
+        },
+        {
+          "part": "b",
+          "content": "The graph touches the x-axis at 1/2, indicating a squared factor (3x - 2)^2. The other x-intercept is -3. So, y = (1/3)(3x - 2)^2(x + 3)."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "EXERCISE 5J",
+      "problems": [
+        {
+          "number": 1,
+          "content": "Sketch the following graphs. Use a separate set of axes for each part.",
+          "parts": [
+            {"part": "a", "content": "y = x^3 and y = (x + 3)^3 + 2"},
+            {"part": "b", "content": "y = -x^3 and y = -(x - 1)^3 - 4"},
+            {"part": "c", "content": "y = 3x^3 and y = 3(x - 2)^3 + 5"},
+            {"part": "d", "content": "y = -1/2 x^3 and y = -1/2(x + 4)^3 - 3"}
+          ]
+        },
+        {
+          "number": 2,
+          "content": "Use axes intercepts to sketch the graph of:",
+          "parts": [
+            {"part": "a", "content": "y = (x + 4)(x + 1)(x - 2)"},
+            {"part": "b", "content": "y = (x - 1)^2(x + 3)"},
+            {"part": "c", "content": "y = (x + 2)^3"},
+            {"part": "d", "content": "f(x) = -(x + 2)^2(2x - 3)"},
+            {"part": "e", "content": "y = 3x(x + 4)(x - 2)"},
+            {"part": "f", "content": "f(x) = -2(x - 4)^3"},
+            {"part": "g", "content": "y = 1/2(x + 4)^2(3x - 2)"},
+            {"part": "h", "content": "f(x) = 1/3(2x - 1)(x + 3)(x - 2)"},
+            {"part": "i", "content": "y = (x - 3)(x^2 - 4x + 5)"},
+            {"part": "j", "content": "y = (x - 3)(x^2 + 2x + 3)"},
+            {"part": "k", "content": "f(x) = -4(2x + 5)^2(3x - 1)"},
+            {"part": "l", "content": "y = (x + 2)(x^2 + 6x + 9)"}
+          ]
+        },
+        {
+          "number": 3,
+          "content": "Find the equation of the cubic with graph (9 graphs shown labeled a through i with various x-intercepts and passing through specific points)."
+        },
+        {
+          "number": 4,
+          "parts": [
+            {"part": "a", "content": "Show that -2 is an x-intercept of the graph of f(x) = 2x^3 - 3x^2 - 11x + 6."},
+            {"part": "b", "content": "Fully factorise 2x^3 - 3x^2 - 11x + 6."},
+            {"part": "c", "content": "Hence sketch the graph of f(x) = 2x^3 - 3x^2 - 11x + 6."},
+            {"part": "d", "content": "State the domain and range of the function."},
+            {"part": "e", "content": "Describe the behaviour of the graph as x approaches infinity and x approaches negative infinity."}
+          ]
+        },
+        {
+          "number": 5,
+          "content": "Find the equation of the cubic whose graph:",
+          "parts": [
+            {"part": "a", "content": "cuts the x-axis at 3, 1, and -2, and passes through (2, -4)"},
+            {"part": "b", "content": "cuts the x-axis at -2, 0, and 1/2, and passes through (-1, 9)"},
+            {"part": "c", "content": "touches the x-axis at 1, cuts the x-axis at -2, and passes through (4, 54)"},
+            {"part": "d", "content": "touches the x-axis at -2/3, cuts the x-axis at 4, and passes through (1, 25)"}
+          ]
+        },
+        {
+          "number": 6,
+          "parts": [
+            {"part": "a", "content": "Given that 1 is a zero of -2x^3 - 2x^2 + 10x - 6, fully factorise the polynomial."},
+            {"part": "b", "content": "Hence sketch the graph of y = -2x^3 - 2x^2 + 10x - 6."},
+            {"part": "c", "content": "Describe the behaviour of the graph as x approaches infinity and x approaches negative infinity."}
+          ]
+        },
+        {
+          "number": 7,
+          "content": "Find the equation of a real cubic polynomial which:",
+          "parts": [
+            {"part": "a", "content": "cuts the x-axis at 1/2 and -3, cuts the y-axis at 30, and passes through (1, -20)"},
+            {"part": "b", "content": "touches the x-axis at -2, cuts the y-axis at 8, and passes through (-1, 4)"},
+            {"part": "c", "content": "cuts the x-axis at 2, cuts the y-axis at -4, and passes through (1, -1) and (-1, -21)"}
+          ]
+        },
+        {
+          "number": 8,
+          "content": "A scientist is trying to design a crash test barrier with the characteristics shown in the graph below. The independent variable t is the time after impact, measured in milliseconds with 0 <= t <= 700. The dependent variable is the distance the barrier is depressed during the impact, measured in millimetres.",
+          "parts": [
+            {"part": "a", "content": "The equation for this graph has the form f(t) = kt(t - a)^2, 0 <= t <= 700. Use the graph to find a. Discuss the significance of this value."},
+            {"part": "b", "content": "The ideal crash barrier is depressed by 85 mm after 100 milliseconds. Find the value of k which gives this result, and hence find the equation of the graph given."}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "example",
+      "number": 25,
+      "title": "Finding cubic equation from intercepts and a point",
+      "problem": "Find the equation of the cubic which cuts the x-axis at 2 and -3, cuts the y-axis at -48, and which passes through the point (1, -40).",
+      "solution": {
+        "steps": [
+          "The zeros are 2 and -3, so y = (x - 2)(x + 3)(ax + b), a != 0.",
+          "When x = 0, y = -48: (-2)(3)b = -48, therefore b = 8",
+          "When x = 1, y = -40: (-1)(4)(a + 8) = -40, therefore a + 8 = 10, therefore a = 2",
+          "So, the equation is y = (x - 2)(x + 3)(2x + 8)",
+          "which we can write as y = 2(x - 2)(x + 3)(x + 4)"
+        ]
+      }
+    },
+    {
+      "type": "theory",
+      "title": "Quartic Functions",
+      "content": "A quartic function is a function of the form y = ax^4 + bx^3 + cx^2 + dx + e where a, b, c, d, and e are constants, a != 0. The simplest quartic function is y = x^4. Notice that: the graph opens upwards; the graph is 'flat' at (0, 0); as x approaches infinity, y approaches infinity; as x approaches negative infinity, y approaches infinity."
+    },
+    {
+      "type": "theory",
+      "title": "Properties of Quartic Graphs",
+      "content": [
+        "For a quartic polynomial in which a is the coefficient of x^4: if a > 0 the graph opens upwards; if a < 0 the graph opens downwards.",
+        "If a quartic with a > 0 is fully factorised into real linear factors, then: for a single factor (x - alpha), the graph cuts the x-axis at alpha; for a square factor (x - alpha)^2, the graph touches the x-axis at alpha; for a cubed factor (x - alpha)^3, the graph cuts the x-axis at alpha and is 'flat' at alpha; for a quadruple factor (x - alpha)^4, the graph touches the x-axis and is 'flat' at that point.",
+        "If a quartic with a > 0 has one real quadratic factor with Delta < 0 we could have graphs with different shapes.",
+        "If a quartic with a > 0 has two real quadratic factors both with Delta < 0, the graph does not meet the x-axis at all."
+      ]
+    },
+    {
+      "type": "example",
+      "number": 26,
+      "title": "Sketching quartic graphs",
+      "problem": "Sketch the graph of: a) y = (3x - 2)(x + 3)(x + 1)^2, b) y = -(x - 3)^2(x + 2)^2",
+      "solutions": [
+        {
+          "part": "a",
+          "content": "a > 0, so the graph opens upwards. The graph cuts the x-axis at 2/3 and -3, and touches the x-axis at -1. When x = 0, y = (-2)(3)(1)^2 = -6, therefore the y-intercept is -6."
+        },
+        {
+          "part": "b",
+          "content": "a < 0, so the graph opens downwards. The graph touches the x-axis at 3 and -2. When x = 0, y = -(-3)^2(2)^2 = -36, therefore the y-intercept is -36."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "EXERCISE 5K",
+      "problems": [
+        {
+          "number": 1,
+          "content": "Sketch the graph of:",
+          "parts": [
+            {"part": "a", "content": "y = x^2(x - 1)(2x + 3)"},
+            {"part": "b", "content": "y = 3x^2(x - 2)^2"},
+            {"part": "c", "content": "f(x) = 2(x + 3)(x + 1)(x - 1)(x - 2)"},
+            {"part": "d", "content": "y = -2x(x - 1)^2(x + 3)"},
+            {"part": "e", "content": "f(x) = -(x - 1)(x + 1)^3"},
+            {"part": "f", "content": "f(x) = -2(x + 2)^2(2x - 1)^2"}
+          ]
+        },
+        {
+          "number": 2,
+          "parts": [
+            {"part": "a", "content": "Fully factorise x^4 - x^3 - 2x^2."},
+            {"part": "b", "content": "Hence sketch the graph of f(x) = x^4 - x^3 - 2x^2."}
+          ]
+        },
+        {
+          "number": 3,
+          "content": "Find the equation of the quartic with graph (6 graphs shown labeled a through f with various features)."
+        },
+        {
+          "number": 4,
+          "content": "Find the equation of the quartic whose graph:",
+          "parts": [
+            {"part": "a", "content": "cuts the x-axis at -4 and 1/2, touches it at 2, and passes through the point (1, 5)"},
+            {"part": "b", "content": "touches the x-axis at 2/3 and -3, and passes through the point (-4, 49)"},
+            {"part": "c", "content": "cuts the x-axis at +/- 1/2 and +/- 2, and passes through the point (1, -18)"},
+            {"part": "d", "content": "touches the x-axis at 1, cuts the y-axis at -1, and passes through (-1, -4) and (2, 15)"}
+          ]
+        },
+        {
+          "number": 5,
+          "content": "Find the equation of the following quartics. Give your answers in expanded form.",
+          "description": "Two graphs shown with various intercepts and specific points."
+        },
+        {
+          "number": 6,
+          "content": "The graph of f(x) = x^4 - x^3 - 5x^2 + 12 touches the x-axis at 2.",
+          "parts": [
+            {"part": "a", "content": "By fully factorising x^4 - x^3 - 5x^2 + 12, show that the graph does not meet the x-axis anywhere else."},
+            {"part": "b", "content": "Use technology to help sketch the graph of y = f(x)."}
+          ]
+        },
+        {
+          "number": 7,
+          "content": "The heat radiated from a person is given by the quartic function H(t) approximately equal to (9.5 x 10^-8)t^4 joules per second, where t is the person's body temperature in Kelvins (K). Find the heat radiated by:",
+          "parts": [
+            {"part": "a", "content": "a person with a normal body temperature of 37 degrees C or 310 K"},
+            {"part": "b", "content": "a person who has a fever, with body temperature 39 degrees C or 312 K"}
+          ]
+        },
+        {
+          "number": 8,
+          "parts": [
+            {"part": "a", "content": "Given that x^2 + x + 1 is a factor of x^4 - 4x^3 + 3x^2 + 2x + 7, write x^4 - 4x^3 + 3x^2 + 2x + 7 as a product of two quadratic factors."},
+            {"part": "b", "content": "Hence show that the graph of f(x) = x^4 - 4x^3 + 3x^2 + 2x + 7 does not meet the x-axis at all."},
+            {"part": "c", "content": "Use technology to help sketch the graph of f(x) = x^4 - 4x^3 + 3x^2 + 2x + 7."}
+          ]
+        },
+        {
+          "number": 9,
+          "content": "The graph alongside shows the height (h metres) of a roller coaster above the ground against the horizontal distance travelled (x metres), for 0 <= x <= 200. The equation for this graph has the form h(x) = -x(x - a)^2(x - b)/k, 0 <= x <= 200.",
+          "parts": [
+            {"part": "a", "content": "Use the graph to find a and b."},
+            {"part": "b", "content": "Given that the roller coaster is 4 m above the ground after travelling 100 m, find the value of k."},
+            {"part": "c", "content": "Find the height of the roller coaster above the ground, after it has travelled 150 m."}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "example",
+      "number": 27,
+      "title": "Finding quartic equation from graph",
+      "problem": "Find the equation of the quartic with graph that touches the x-axis at -1 and cuts it at -3 and 3, with y-intercept -3.",
+      "solution": {
+        "steps": [
+          "The graph touches the x-axis at -1 and cuts it at -3 and 3.",
+          "Therefore y = a(x + 1)^2(x + 3)(x - 3), a != 0",
+          "But when x = 0, y = -3",
+          "Therefore -3 = a(1)^2(3)(-3)",
+          "Therefore -3 = -9a",
+          "Therefore a = 1/3",
+          "Therefore y = (1/3)(x + 1)^2(x + 3)(x - 3)"
+        ]
+      }
+    },
+    {
+      "type": "example",
+      "number": 28,
+      "title": "Finding quartic equation from intercepts and points",
+      "problem": "Find the quartic function P(x) which touches the x-axis at 2, cuts the x-axis at -3, and passes through (1, -12) and (3, 6).",
+      "solution": {
+        "steps": [
+          "The graph touches the x-axis at 2, so (x - 2)^2 is a factor.",
+          "The graph cuts the x-axis at -3, so (x + 3) is a factor.",
+          "Therefore P(x) = (x - 2)^2(x + 3)(ax + b) where a and b are constants, a != 0.",
+          "Now P(1) = -12: (-1)^2(4)(a + b) = -12, therefore a + b = -3 .... (1)",
+          "And P(3) = 6: (1)^2(6)(3a + b) = 6, therefore 3a + b = 1 .... (2)",
+          "Solving (1) and (2) simultaneously gives a = 2, b = -5.",
+          "Therefore P(x) = (x - 2)^2(x + 3)(2x - 5)"
+        ]
+      }
+    }
+  ]
+}

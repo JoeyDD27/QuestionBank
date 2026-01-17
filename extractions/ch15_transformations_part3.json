@@ -1,0 +1,1072 @@
+{
+  "chapter": 15,
+  "title": "Transformation of Functions - Part 3",
+  "description": "Partial fractions, rational functions with oblique asymptotes, review sets, and introduction to rational exponents",
+  "image_range": "1622-1661",
+  "content": [
+    {
+      "type": "exercise",
+      "id": "exercise_6D.2",
+      "title": "Exercise 6D.2",
+      "source_image": "image1622.png",
+      "problems": [
+        {
+          "number": "1",
+          "description": "The graph of y = (3x^2 - 2)/(x - 2) is shown alongside",
+          "parts": [
+            {"part": "I", "content": "Find the equation of the vertical asymptote"},
+            {"part": "II", "content": "Find the axis intercepts"},
+            {"part": "III", "content": "Write the function in the form y = px + q + r/(x + s) and hence find the equation of the oblique asymptote"}
+          ]
+        },
+        {
+          "number": "2",
+          "description": "For each of the following functions:",
+          "parts": [
+            {"part": "I", "content": "Find the equation of the vertical asymptote"},
+            {"part": "II", "content": "Find the axes intercepts"},
+            {"part": "III", "content": "Find the oblique asymptote"},
+            {"part": "IV", "content": "Draw a sign diagram of the function"},
+            {"part": "V", "content": "Hence discuss the behaviour of the function near its asymptotes"},
+            {"part": "VI", "content": "Sketch the graph of the function"}
+          ],
+          "functions": [
+            {"part": "a", "function": "y = (x^2 + 4)/(x - a)"},
+            {"part": "b", "function": "f(x) = (x^2 + x)/(x - 1)"},
+            {"part": "c", "function": "f(x) = (x^2 - 19x - 15)/(x - 1)"}
+          ]
+        },
+        {
+          "number": "3",
+          "description": "Consider the graphs of y = f(x) and y = g(x) shown alongside",
+          "parts": [
+            {"part": "a", "content": "For y = f(x), find the equation of the vertical asymptote and oblique asymptote"},
+            {"part": "b", "content": "Copy the graph, and on the same set of axes, graph y = f(x). Indicate clearly where the x-intercept(s) and asymptote(s) occur"}
+          ]
+        },
+        {
+          "number": "4",
+          "content": "Find the equation of the oblique asymptote of y = (ax^2 + bx + c)/(x + 1)"
+        }
+      ]
+    },
+    {
+      "type": "discussion",
+      "source_image": "image1623.png",
+      "content": "You should have noticed that the graph of y = (ax^2 + bx + c)/(dx + e) takes one of the two shapes shown. What determines which shape the graph takes?",
+      "notes": "Two graph shapes shown - one with branches in quadrants 1 and 3, another with branches in quadrants 2 and 4, both with oblique asymptotes"
+    },
+    {
+      "type": "concept",
+      "title": "Adding Algebraic Fractions",
+      "source_image": "image1624.png",
+      "content": "Just like fractions involving numbers, fractions involving algebra can be added by writing them with a common denominator.",
+      "example": {
+        "expression": "3/(x-2) + 4/(x+3)",
+        "steps": [
+          "= 3/(x-2) * (x+3)/(x+3) + 4/(x+3) * (x-2)/(x-2)",
+          "= (3(x+3) + 4(x-2))/((x-2)(x+3))",
+          "= (3x + 9 + 4x - 8)/(x^2 + 3x - 2x - 6)",
+          "= (7x + 1)/(x^2 + x - 6)"
+        ],
+        "conclusion": "which is a rational function"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Partial Fractions Introduction",
+      "source_image": "image1625.png",
+      "content": "When we study calculus later in the course, we are more likely to want to reverse this process. We need to decompose a function such as (7x + 1)/(x^2 + x - 6) into the sum of partial fractions 3/(x - 2) + 4/(x + 3) so it can be integrated."
+    },
+    {
+      "type": "procedure",
+      "title": "Decomposing into Partial Fractions",
+      "source_image": "image1626.png",
+      "steps": [
+        "Step 1: Factorise the denominator",
+        "Step 2: Write a sum of partial fractions with the factors as denominators and unknown numerators",
+        "Step 3: Multiply both sides by the denominator",
+        "Step 4: Find the unknown numerators by substituting the zeros of the denominators"
+      ]
+    },
+    {
+      "type": "worked_example",
+      "number": 14,
+      "source_image": "image1627.png",
+      "problem": "Write as a sum of partial fractions: (7x + 1)/(x^2 + x - 6)",
+      "solution": {
+        "step1": {
+          "description": "Factorise denominator",
+          "work": "x^2 + x - 6 = (x - 2)(x + 3)"
+        },
+        "step2": {
+          "description": "Set up partial fractions",
+          "work": "Let (7x + 1)/(x^2 + x - 6) = A/(x - 2) + B/(x + 3)"
+        },
+        "step3": {
+          "description": "Multiply both sides by denominator",
+          "work": "7x + 1 = A(x + 3) + B(x - 2)"
+        },
+        "step4": {
+          "description": "Substitute zeros",
+          "substitutions": [
+            {"x": -3, "work": "7(-3) + 1 = B(-3 - 2), so -5B = -20, B = 4"},
+            {"x": 2, "work": "7(2) + 1 = A(2 + 3), so 5A = 15, A = 3"}
+          ]
+        },
+        "answer": "(7x + 1)/(x^2 + x - 6) = 3/(x - 2) + 4/(x + 3)"
+      }
+    },
+    {
+      "type": "worked_example",
+      "number": 15,
+      "source_image": "image1628.png",
+      "problem": "Write (33 - 12x)/((x + 1)(x - 2)^2) as the sum of partial fractions in the form A/(x + 1) + B/(x - 2) + C/(x - 2)^2",
+      "solution": {
+        "setup": "Let (33 - 12x)/((x + 1)(x - 2)^2) = A/(x + 1) + B/(x - 2) + C/(x - 2)^2",
+        "multiply": "33 - 12x = A(x - 2)^2 + B(x + 1)(x - 2) + C(x + 1)",
+        "substitutions": [
+          {"x": -1, "work": "33 - 12(-1) = A(-1 - 2)^2, so 45 = 9A, A = 5"},
+          {"x": 2, "work": "33 - 12(2) = C(2 + 1), so C = 3"},
+          {"x": 0, "work": "33 - 12(0) = 5(-2)^2 + B(1)(-2) + 3(1), so 33 = 20 - 2B + 3, 2B = -10, B = -5"}
+        ],
+        "answer": "(33 - 12x)/((x + 1)(x - 2)^2) = 5/(x + 1) - 5/(x - 2) + 3/(x - 2)^2",
+        "note": "There are 3 unknowns but only 2 zeros in the denominator, so we must perform another substitution to find B"
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "exercise_6E",
+      "title": "Exercise 6E",
+      "source_image": "image1629.png",
+      "problems": [
+        {
+          "number": "1",
+          "description": "Show that:",
+          "parts": [
+            {"part": "a", "content": "3/(x^2 + 5x + 4) can be written as the sum of partial fractions -1/(x + 4) + 1/(x + 1)"},
+            {"part": "b", "content": "(9 - x)/(x^2 + 3x - 10) can be written as the sum of partial fractions -2/(x + 5) + 1/(x - 2)"},
+            {"part": "c", "content": "(3x - 23)/(2x^2 - 5x - 12) can be written as the sum of partial fractions 5/(2x + 3) - 1/(x - 4)"}
+          ]
+        },
+        {
+          "number": "2",
+          "description": "Write as the sum of partial fractions:",
+          "parts": [
+            {"part": "a", "function": "1/(x^2 + 3x + 2)"},
+            {"part": "b", "function": "x/(x^2 - 5x + 6)"},
+            {"part": "c", "function": "3x/(x^2 - 2x - 8)"},
+            {"part": "d", "function": "(3x + 2)/(x^2 - 4)"},
+            {"part": "e", "function": "(2x - 1)/(x^2 - 2x - 3)"},
+            {"part": "f", "function": "(2 - 5x)/(x^2 + 4x - 12)"},
+            {"part": "g", "function": "(7x + 10)/(2x^2 + 5x + 3)"},
+            {"part": "h", "function": "(x + 9)/(3x^2 - 5x - 2)"},
+            {"part": "i", "function": "(2x + 27)/(8x^2 + 18x - 5)"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise_continuation",
+      "source_image": "image1630.png",
+      "problems": [
+        {
+          "number": "3",
+          "description": "Show that (5x^2 + 11x + 16)/((x - 5)(x + 2)^2) can be written as the sum of partial fractions 4/(x - 5) + 1/(x + 2) - 2/(x + 2)^2"
+        },
+        {
+          "number": "4",
+          "description": "Write (-3x - 4)/((x + 2)(x + 3)^2) as the sum of partial fractions in the form A/(x + 2) + B/(x + 3) + C/(x + 3)^2"
+        },
+        {
+          "number": "5",
+          "parts": [
+            {"part": "a", "content": "Show that (x + 3)(x - 1)^2 = x^3 + x^2 - 5x + 3"},
+            {"part": "b", "content": "Write (19x + 9)/(x^3 + x^2 - 5x + 3) as the sum of partial fractions"}
+          ]
+        },
+        {
+          "number": "6",
+          "parts": [
+            {"part": "a", "content": "Show that (2x - 1)(x^2 + x + 4) = 2x^3 + x^2 + 7x - 4"},
+            {"part": "b", "content": "Write (10x^2 - 3x + 18)/(2x^3 + x^2 + 7x - 4) in the form A/(2x - 1) + (Bx + C)/(x^2 + x + 4)"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review_set",
+      "id": "review_set_6A",
+      "title": "Review Set 6A",
+      "source_image": "image1632.png",
+      "problems": [
+        {
+          "number": "1",
+          "description": "Determine whether each function is even, odd, or neither:",
+          "parts": [
+            {"part": "a", "function": "f(x) = -4/x"},
+            {"part": "b", "function": "f(x) = (2x - 3)/(x + 1)"},
+            {"part": "c", "function": "f(x) = sqrt(x^2 - 5)"}
+          ]
+        },
+        {
+          "number": "2",
+          "description": "For what values of k is f(x) = sin(x - k):",
+          "parts": [
+            {"part": "a", "content": "even"},
+            {"part": "b", "content": "odd"},
+            {"part": "c", "content": "neither?"}
+          ]
+        },
+        {
+          "number": "3",
+          "content": "Given that f(x) is an odd function, determine whether (f o f)(x) is even, odd, or neither"
+        },
+        {
+          "number": "4",
+          "content": "Suppose f(x) = (x^2 - 3x)(x + b), b in R is an odd function. Find the value of b"
+        },
+        {
+          "number": "5",
+          "description": "The graph of y = f(x) is given. On the same set of axes, graph the functions:",
+          "graph_info": "Given graph passes through (-2, 5/2) and (2, -1/2)",
+          "parts": [
+            {"part": "a", "content": "y = f(x) and y = f(|x|)"},
+            {"part": "b", "content": "y = f(x) and y = [f(x)]^2"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review_set_continuation",
+      "source_image": "image1633.png",
+      "problems": [
+        {
+          "number": "6",
+          "description": "Suppose f(x) has domain 0 <= x < 5 and range -5 <= y <= 2. Find:",
+          "parts": [
+            {"part": "a", "content": "the domain of f(|x|)"},
+            {"part": "b", "content": "the range of |f(x)|"}
+          ]
+        },
+        {
+          "number": "7",
+          "description": "Suppose f(x) is an odd function. Determine whether the following are even, odd, or neither:",
+          "parts": [
+            {"part": "a", "function": "f(2x)"},
+            {"part": "b", "function": "f(x^2)"},
+            {"part": "c", "function": "f(x) + 2"},
+            {"part": "d", "function": "[f(x)]^2"},
+            {"part": "e", "function": "|f(x)|"},
+            {"part": "f", "function": "1/f(x)"}
+          ]
+        },
+        {
+          "number": "8",
+          "description": "Suppose f(x) = e^x - 1",
+          "parts": [
+            {"part": "a", "content": "On the same set of axes, sketch y = f(x) and y = [f(x)]^2"},
+            {"part": "b", "content": "Find the invariant points when y = f(x) is transformed to y = [f(x)]^2"}
+          ]
+        },
+        {
+          "number": "9",
+          "description": "Draw the graph of:",
+          "parts": [
+            {"part": "a", "function": "y = |(x - 1)(x - 4)|"},
+            {"part": "b", "function": "y = 2x - |x - 2|"}
+          ]
+        },
+        {
+          "number": "10",
+          "description": "Solve for x:",
+          "parts": [
+            {"part": "a", "equation": "|(2x + 1)/(x - 2)| = 3"},
+            {"part": "b", "equation": "|3x + 5| = |x - 7|"}
+          ]
+        },
+        {
+          "number": "11",
+          "description": "Solve for x:",
+          "parts": [
+            {"part": "a", "inequality": "|x + 3| <= 6"},
+            {"part": "b", "inequality": "|3 - 2x| > 1"},
+            {"part": "c", "inequality": "|3x + 2| < |x - 5|"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review_set_continuation",
+      "source_image": "image1634.png",
+      "problems": [
+        {
+          "number": "12",
+          "description": "Solve graphically:",
+          "parts": [
+            {"part": "a", "inequality": "|2x - 6| > x + 3"},
+            {"part": "b", "inequality": "sqrt(x^2 + x + 5) <= |7 - 2^x|"}
+          ]
+        },
+        {
+          "number": "13",
+          "description": "The graph of f(x) = (x + 1)/(x^2 - x - 6) is shown alongside",
+          "parts": [
+            {"part": "a", "content": "Find the asymptotes of the function"},
+            {"part": "b", "content": "Find the axes intercepts"},
+            {"part": "c", "content": "Sketch the graph of y = |f(x)|"}
+          ]
+        },
+        {
+          "number": "14",
+          "description": "Consider the function f(x) = (2x^2 + 3x - 5)/(2x - 3)",
+          "parts": [
+            {"part": "a", "content": "Find the equation of the vertical asymptote"},
+            {"part": "b", "content": "Find the axes intercepts"},
+            {"part": "c", "content": "Find the oblique asymptote"},
+            {"part": "d", "content": "Draw a sign diagram of the function"},
+            {"part": "e", "content": "Hence discuss the behaviour of the function near its asymptotes"},
+            {"part": "f", "content": "Sketch the graph of the function"}
+          ]
+        },
+        {
+          "number": "15",
+          "description": "Write as the sum of partial fractions:",
+          "parts": [
+            {"part": "a", "function": "(x + 1)/(x^2 + 4x - 5)"},
+            {"part": "b", "function": "(2x - 4)/(2x^2 + 7x + 3)"}
+          ]
+        },
+        {
+          "number": "16",
+          "content": "Write (13x + 2)/((x + 4)(x - 1)^2) in the form A/(x + 4) + B/(x - 1) + C/(x - 1)^2"
+        }
+      ]
+    },
+    {
+      "type": "review_set",
+      "id": "review_set_6B",
+      "title": "Review Set 6B",
+      "source_image": "image1635.png",
+      "problems": [
+        {
+          "number": "1",
+          "content": "Suppose f(x) is an even function, and (-2, 6) and (1, -4) lie on the graph of y = f(x). Write down two other points which lie on the graph of y = f(x)"
+        },
+        {
+          "number": "2",
+          "parts": [
+            {"part": "a", "content": "Prove that the product of two even functions is an even function"},
+            {"part": "b", "content": "Give an example of two functions, both of which are neither odd nor even, whose product is an even function"}
+          ]
+        },
+        {
+          "number": "3",
+          "content": "f(x) = cos(2(x - a)) + b is an odd function. Find the possible values of a and b"
+        },
+        {
+          "number": "4",
+          "description": "The graph of y = f(x) is given. On the same set of axes, graph the functions y = f(x) and y = [f(x)]^2",
+          "graph_info": "Graph shows a curve with maximum at y = 3, passing through (-2, 0) and (2, 0), with horizontal asymptote y = -1"
+        }
+      ]
+    },
+    {
+      "type": "review_set_continuation",
+      "source_image": "image1636.png",
+      "problems": [
+        {
+          "number": "5",
+          "content": "For any function f(x), prove that f(|x|) is an even function"
+        },
+        {
+          "number": "6",
+          "description": "The graph of y = f(x) has 3 turning points and 2 x-intercepts. If possible, state how many turning points and x-intercepts each of the following graphs has:",
+          "parts": [
+            {"part": "a", "function": "y = |f(x)|"},
+            {"part": "b", "function": "y = f(|x|)"},
+            {"part": "c", "function": "y = [f(x)]^2"}
+          ]
+        },
+        {
+          "number": "7",
+          "description": "Draw the graph of y = |f(x)| and y = f(|x|) for:",
+          "graphs_given": "Two graphs shown with y = f(x) curves"
+        },
+        {
+          "number": "8",
+          "description": "Solve for x:",
+          "parts": [
+            {"part": "a", "equation": "|2 - 5x| = 6"},
+            {"part": "b", "equation": "|4x - 2| = |x + 7|"}
+          ]
+        },
+        {
+          "number": "9",
+          "description": "Solve for x:",
+          "parts": [
+            {"part": "a", "inequality": "|3x + 2| > 3"},
+            {"part": "b", "inequality": "(1/4)|2x + 5| >= |x - 1|"},
+            {"part": "c", "inequality": "|x/(x + 4)| <= 2"}
+          ]
+        },
+        {
+          "number": "10",
+          "description": "Solve graphically:",
+          "parts": [
+            {"part": "a", "inequality": "|4/(x - 1)| = 6 - x/2"},
+            {"part": "b", "inequality": "x/(|x| + 1) >= 1/3"}
+          ]
+        },
+        {
+          "number": "11",
+          "description": "The graph of y = (ax + b)/(2x^2 + dx + e) is shown alongside. Find the value of a, b, d, and e",
+          "graph_info": "Graph shows asymptotes at x = -3/2 and x = 4, with y approaching 0"
+        }
+      ]
+    },
+    {
+      "type": "review_set_continuation",
+      "source_image": "image1637.png",
+      "problems": [
+        {
+          "number": "12",
+          "description": "Consider the function f(x) = (2x - 5)/(x^2 - 4)",
+          "parts": [
+            {"part": "a", "content": "Find the equations of the asymptotes"},
+            {"part": "b", "content": "Find the axes intercepts"},
+            {"part": "c", "content": "Draw a sign diagram of the function"},
+            {"part": "d", "content": "Hence discuss the behaviour of the function near its asymptotes"},
+            {"part": "e", "content": "Sketch the graph of the function"}
+          ]
+        },
+        {
+          "number": "13",
+          "description": "Consider the function g(x) = (3x^2 - 11x - 4)/(x - 4)",
+          "parts": [
+            {"part": "a", "content": "Find the equation of the vertical asymptote"},
+            {"part": "b", "content": "Find the axis intercepts"},
+            {"part": "c", "content": "Find the oblique asymptote"},
+            {"part": "d", "content": "Draw a sign diagram of the function"},
+            {"part": "e", "content": "Discuss the behaviour of the function near its asymptotes"},
+            {"part": "f", "content": "Sketch the graph of the function"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review_set_continuation",
+      "source_image": "image1638.png",
+      "problems": [
+        {
+          "number": "14",
+          "description": "Write as the sum of partial fractions:",
+          "parts": [
+            {"part": "a", "function": "2x/(-x^2 + 4x - 3)"},
+            {"part": "b", "function": "(x - 7)/(x^2 + 7x + 12)"}
+          ]
+        },
+        {
+          "number": "15",
+          "parts": [
+            {"part": "a", "content": "Show that (2x - 3)(x + 2)^2 = 2x^3 + 5x^2 - 4x - 12"},
+            {"part": "b", "content": "Hence write (9x^2 - 2x - 5)/(2x^3 + 5x^2 - 4x - 12) as the sum of partial fractions"}
+          ]
+        },
+        {
+          "number": "16",
+          "description": "Consider a function f(x) with domain x in R",
+          "parts": [
+            {
+              "part": "a",
+              "description": "Determine whether each of the following is even, odd, or neither:",
+              "subparts": [
+                {"subpart": "i", "function": "(f(x) + f(-x))/2"},
+                {"subpart": "ii", "function": "(f(x) - f(-x))/2"}
+              ]
+            },
+            {"part": "b", "content": "Prove that f(x) can be written as the sum of an even function and an odd function"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review_problems",
+      "title": "Review Problems",
+      "source_image": "image1639.png",
+      "problems": [
+        {
+          "number": "17.15",
+          "description": "For each of the following, graph the equation y = f(x)",
+          "parts": [
+            {"part": "a", "function": "f(x) = -2"},
+            {"part": "b", "function": "f(x) = -2x + 5"},
+            {"part": "c", "function": "f(x) = x^2"},
+            {"part": "d", "function": "f(x) = 1/(x + 3)"},
+            {"part": "e", "function": "f(x) = 3x^2 + 1"},
+            {"part": "f", "function": "f(x) = 2(x + 3), where g(x) = -x^2"}
+          ]
+        },
+        {
+          "number": "17.16",
+          "description": "For each of the following graphs below, determine if the graph represents a function. If the graph does represent a function, determine whether or not the function has an inverse",
+          "graphs": "Six graphs (a) through (f) shown"
+        },
+        {
+          "number": "17.17",
+          "description": "The graph of y = f(x) is shown at right",
+          "parts": [
+            {"part": "a", "content": "Find f(2)"},
+            {"part": "b", "content": "Find f(3)"},
+            {"part": "c", "content": "Find f(f(-3))"},
+            {"part": "d", "content": "Find all values of a such that f(a) = 4"},
+            {"part": "e", "content": "Find all values of b such that f(f(b))) = -1"}
+          ]
+        },
+        {
+          "number": "17.18",
+          "parts": [
+            {"part": "a", "content": "Graph the functions f(x) = x + 3 and g(x) = x^2 + 1 on the same Cartesian coordinate plane"},
+            {"part": "b", "content": "What are the solutions to the equation x + 3 = x^2 + 1? How could you have used your graphs from part (a) to answer this question?"},
+            {"part": "c", "content": "How many real solutions does the equation 1/3 = x^2 have?"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review_problems_continuation",
+      "source_image": "image1640.png",
+      "problems": [
+        {
+          "number": "17.19",
+          "description": "Determine whether each of the following statements is true or false. Provide explanations for your answers",
+          "statements": [
+            {"part": "a", "content": "If a graph on the Cartesian plane is the graph of a function, then every vertical line passes through exactly one point"},
+            {"part": "b", "content": "A graph on the Cartesian plane is the graph of a function if and only if every vertical line passes through at most one point"},
+            {"part": "c", "content": "If no horizontal line passes through more than one point on a given graph on the coordinate plane, then the graph is the graph of a function that has an inverse"},
+            {"part": "d", "content": "If no horizontal line passes through more than one point of the graph of a function, then the function has an inverse"},
+            {"part": "e", "content": "The graph of y = f(x + 2) is the graph of y = f(x) shifted two units to the left"},
+            {"part": "f", "content": "The graph of y = f(3x) + 4 is the result of stretching the graph of y = f(x) vertically by a factor of 3, then shifting the result 4 units up"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review_problems_continuation",
+      "source_image": "image1641.png",
+      "problems": [
+        {
+          "number": "17.20",
+          "description": "The graph of y = g(x) is shown at left below. Graph y = g(2x), y = g(-x), y = -g(2x), and y = g(x)",
+          "figures": "Figure 17.1: Diagram for Problem 17.20, Figure 17.2: Diagram for Problem 17.21"
+        },
+        {
+          "number": "17.21",
+          "description": "The graph of y = h(x) is shown at right above. Graph y = h(x) + 4, y = h(x + 4), and y = h(x - 2) + 3"
+        },
+        {
+          "number": "17.22",
+          "description": "Suppose the point (2, 5) is on the graph of y = f(x). For each of the parts below, find a point that must be on the graph of the given equation",
+          "parts": [
+            {"part": "a", "equation": "y = f(2x)"},
+            {"part": "b", "equation": "y = f(x + 1)"},
+            {"part": "c", "equation": "y = 2f(x) + 5"},
+            {"part": "d", "equation": "y = f(x - 3) + 5"}
+          ]
+        },
+        {
+          "number": "17.23",
+          "description": "Suppose f is a function such that the graph of y = f(x) has at least one x-intercept. State whether each of the following is true or false, and explain your answer",
+          "statements": [
+            {"part": "a", "content": "The graph of y = f(2x) must have the same x-intercepts as the graph of y = f(x)"},
+            {"part": "b", "content": "The graph of y = f(x) + 2 must have the same x-intercepts as the graph of y = f(x)"},
+            {"part": "c", "content": "The graph of y = 2f(x) must have the same x-intercepts as the graph of y = f(x)"},
+            {"part": "d", "content": "It is possible for the graph of y = f(x) + 3 to have the same x-intercepts as the graph of y = f(x)"},
+            {"part": "e", "content": "It is possible for the graph of y = f(x - 3) to have the same x-intercepts as the graph of y = f(x)"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review_problems_continuation",
+      "source_image": "image1642.png",
+      "problems": [
+        {
+          "number": "17.24",
+          "content": "Suppose the graph of y = f(x) has a y-intercept. Which of the graphs of y = f(2x), y = 2f(x), y = f(x + 2) and y = f(x) + 2 must have the same y-intercept as the graph of y = f(x)?"
+        },
+        {
+          "number": "17.25",
+          "parts": [
+            {"part": "a", "content": "Sketch the graph of a function f such that f(2) = 5"},
+            {"part": "b", "content": "Sketch the graph of a function f such that f(f(2)) = 5, but f(2) != 5"}
+          ]
+        },
+        {
+          "number": "17.26",
+          "description": "The graph of y = f(x) is shown at right",
+          "graph_info": "Piecewise linear graph shown",
+          "parts": [
+            {"part": "a", "content": "Find f^(-1)(3)"},
+            {"part": "b", "content": "Find f^(-1)(-5)"},
+            {"part": "c", "content": "Find a if f^(-1)(a) = 5"}
+          ]
+        },
+        {
+          "number": "17.27",
+          "content": "Suppose a, b, and c are constants such that a != 0 and f is the function defined by f(x) = ax^2 + bx + c. Does f have an inverse? Why or why not?"
+        }
+      ]
+    },
+    {
+      "type": "opening_problem",
+      "title": "Opening Problem - Exponential Functions Chapter",
+      "source_image": "image1643.png",
+      "content": "At an antiques fair, Bernard purchases a clock for 500 pounds and a vase for 400 pounds. The clock increases in value by 5% each year, and the vase increases in value by 7% each year.",
+      "things_to_think_about": [
+        {"part": "a", "content": "What is the value of each item 1 year after purchase?"},
+        {"part": "b", "content": "Can you write a formula for the value of each item t years after purchase?"},
+        {"part": "c", "content": "Which item is more valuable 15 years after purchase?"},
+        {"part": "d", "content": "How can we determine when the items are equal in value?"}
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Review of Exponents",
+      "source_image": "image1644.png",
+      "content": "We have seen previously how exponents are used to indicate when a number is raised to a power.",
+      "examples": {
+        "positive_exponents": [
+          "2^3 = 2 x 2 x 2 = 8",
+          "2^2 = 2 x 2 = 4",
+          "2^1 = 2",
+          "2^0 = 1"
+        ],
+        "negative_exponents": [
+          "2^(-1) = 1/2",
+          "2^(-2) = 1/(2 x 2) = 1/4",
+          "2^(-3) = 1/(2 x 2 x 2) = 1/8"
+        ],
+        "rules": [
+          "For a positive integer exponent, the exponent tells us how many of the base are multiplied together",
+          "Any non-zero base to the power 0 is defined as 1, to give consistency to the exponent laws",
+          "For a negative integer exponent, we take the reciprocal of the corresponding positive integer power"
+        ]
+      }
+    },
+    {
+      "type": "section_header",
+      "title": "A - Rational Exponents",
+      "source_image": "image1645.png"
+    },
+    {
+      "type": "concept",
+      "title": "Rational Exponents",
+      "source_image": "image1646.png",
+      "content": "The laws of exponents used previously can also be applied to rational exponents, or exponents in Q.",
+      "derivation": [
+        "For any a > 0, notice that a^(1/2) x a^(1/2) = a^(1/2 + 1/2) = a^1 = a {exponent laws}",
+        "and sqrt(a) x sqrt(a) = a also",
+        "Likewise, a^(1/3) x a^(1/3) x a^(1/3) = a^1 = a",
+        "and cbrt(a) x cbrt(a) x cbrt(a) = a also",
+        "By direct comparison, we conclude that a^(1/2) = sqrt(a) and a^(1/3) = cbrt(a)"
+      ],
+      "general_rule": "In general, a^(1/n) = n-th root of a, where n-th root reads 'the nth root of a' for n in Z+"
+    },
+    {
+      "type": "concept_continuation",
+      "source_image": "image1647.png",
+      "content": "We can now determine that n-th root of a^m = (a^m)^(1/n) = a^(m/n)",
+      "formula": "a^(m/n) = n-th root of a^m for a > 0, n in Z+, m in Z"
+    },
+    {
+      "type": "worked_example",
+      "number": 1,
+      "source_image": "image1648.png",
+      "problem": "Write as a single power of 2:",
+      "parts": [
+        {
+          "part": "a",
+          "expression": "cbrt(2)",
+          "solution": "= 2^(1/3)"
+        },
+        {
+          "part": "b",
+          "expression": "1/sqrt(2)",
+          "solution": "= 1/2^(1/2) = 2^(-1/2)"
+        },
+        {
+          "part": "c",
+          "expression": "5th root of 4",
+          "solution": "= (2^2)^(1/5) = 2^(2 x 1/5) = 2^(2/5)"
+        }
+      ]
+    },
+    {
+      "type": "worked_example",
+      "number": 2,
+      "source_image": "image1649.png",
+      "problem": "Without using a calculator, write in simplest rational form:",
+      "parts": [
+        {
+          "part": "a",
+          "expression": "8^(4/3)",
+          "solution": [
+            "= (2^3)^(4/3)",
+            "= 2^(3 x 4/3) {(a^m)^n = a^(mn)}",
+            "= 2^4",
+            "= 16"
+          ]
+        },
+        {
+          "part": "b",
+          "expression": "27^(-2/3)",
+          "solution": [
+            "= (3^3)^(-2/3)",
+            "= 3^(3 x (-2/3))",
+            "= 3^(-2)",
+            "= 1/9"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Algebraic Expansion with Exponents",
+      "source_image": "image1650.png",
+      "content": "We can use the standard rules of algebra, together with the laws of exponents, to simplify expressions containing rational or variable exponents:",
+      "formulas": [
+        "a(b + c) = ab + ac",
+        "(a + b)(c + d) = ac + ad + bc + bd",
+        "(a + b)(a - b) = a^2 - b^2",
+        "(a + b)^2 = a^2 + 2ab + b^2",
+        "(a - b)^2 = a^2 - 2ab + b^2"
+      ]
+    },
+    {
+      "type": "worked_example",
+      "number": 3,
+      "source_image": "image1651.png",
+      "problem": "Expand and simplify: x^(-1/2)(x^(3/2) + 2x^(1/2) - 3x^(-1/2))",
+      "solution": [
+        "x^(-1/2)(x^(3/2) + 2x^(1/2) - 3x^(-1/2))",
+        "= x^(-1/2) x x^(3/2) + x^(-1/2) x 2x^(1/2) - x^(-1/2) x 3x^(-1/2) {each term is multiplied by x^(-1/2)}",
+        "= x^1 + 2x^0 - 3x^(-1) {adding indices}",
+        "= x + 2 - 3/x"
+      ]
+    },
+    {
+      "type": "worked_example",
+      "number": 4,
+      "source_image": "image1652.png",
+      "problem": "Expand and simplify:",
+      "parts": [
+        {
+          "part": "a",
+          "expression": "(2^x + 3)(2^x + 1)",
+          "solution": [
+            "= 2^x x 2^x + 2^x + 3 x 2^x + 3",
+            "= 2^(2x) + 4 x 2^x + 3"
+          ]
+        },
+        {
+          "part": "b",
+          "expression": "(7^x + 7^(-x))^2",
+          "solution": [
+            "= (7^x)^2 + 2 x 7^x x 7^(-x) + (7^(-x))^2",
+            "= 7^(2x) + 2 x 7^0 + 7^(-2x)",
+            "= 7^(2x) + 2 + 7^(-2x)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "worked_example",
+      "number": 5,
+      "source_image": "image1653.png",
+      "problem": "Factorise:",
+      "parts": [
+        {
+          "part": "a",
+          "expression": "2^(n+3) + 2^n",
+          "solution": [
+            "= 2^n * 2^3 + 2^n",
+            "= 2^n(2^3 + 1)",
+            "= 2^n x 9"
+          ]
+        },
+        {
+          "part": "b",
+          "expression": "2^(n+3) + 8",
+          "solution": [
+            "= 2^n * 2^3 + 8",
+            "= 8(2^n) + 8",
+            "= 8(2^n + 1)"
+          ]
+        },
+        {
+          "part": "c",
+          "expression": "2^(3n) + 2^(2n)",
+          "solution": [
+            "= 2^(2n) * 2^n + 2^(2n)",
+            "= 2^(2n)(2^n + 1)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "worked_example",
+      "number": 6,
+      "source_image": "image1654.png",
+      "problem": "Factorise:",
+      "parts": [
+        {
+          "part": "a",
+          "expression": "4^x - 9",
+          "solution": [
+            "= (2^x)^2 - 3^2 {compare a^2 - b^2 = (a + b)(a - b)}",
+            "= (2^x + 3)(2^x - 3)"
+          ]
+        },
+        {
+          "part": "b",
+          "expression": "9^x + 4(3^x) + 4",
+          "solution": [
+            "= (3^x)^2 + 4(3^x) + 4 {compare a^2 + 4a + 4}",
+            "= (3^x + 2)^2 {as a^2 + 4a + 4 = (a + 2)^2}"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "worked_example",
+      "number": 7,
+      "source_image": "image1655.png",
+      "problem": "Simplify:",
+      "parts": [
+        {
+          "part": "a",
+          "expression": "6^n / 3^n",
+          "solution": [
+            "= (2^n * 3^n) / 3^n = (6/3)^n",
+            "= 2^n"
+          ]
+        },
+        {
+          "part": "b",
+          "expression": "4^n / 6^n",
+          "solution": [
+            "= (2^(2n)) / (2^n * 3^n) = (4/6)^n",
+            "= (2^n) / (3^n) = (2/3)^n"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "worked_example",
+      "number": 8,
+      "source_image": "image1656.png",
+      "problem": "Simplify:",
+      "parts": [
+        {
+          "part": "a",
+          "expression": "(3^n + 6^n) / 3^n",
+          "solution": [
+            "= (3^n + 2^n * 3^n) / 3^n",
+            "= 3^n(1 + 2^n) / 3^n",
+            "= 1 + 2^n"
+          ]
+        },
+        {
+          "part": "b",
+          "expression": "(2^(m+2) - 2^m) / 2^m",
+          "solution": [
+            "= (2^m * 2^2 - 2^m) / 2^m",
+            "= 2^m(4 - 1) / 2^m",
+            "= 3"
+          ]
+        },
+        {
+          "part": "c",
+          "expression": "(2^(m+3) + 2^m) / 9",
+          "solution": [
+            "= (2^m * 2^3 + 2^m) / 9",
+            "= 2^m(8 + 1) / 9",
+            "= 2^m"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "exercise_5A",
+      "title": "Exercise 5A",
+      "source_image": "image1657.png",
+      "problems": [
+        {
+          "number": "1",
+          "description": "Write as a single power of 2:",
+          "parts": [
+            {"part": "a", "expression": "sqrt(2)"},
+            {"part": "b", "expression": "1/sqrt(2)"},
+            {"part": "c", "expression": "2*sqrt(2)"},
+            {"part": "d", "expression": "4*sqrt(2)"},
+            {"part": "e", "expression": "1/(sqrt(2))"},
+            {"part": "f", "expression": "2 x sqrt(2)"},
+            {"part": "g", "expression": "4/sqrt(2)"},
+            {"part": "h", "expression": "(sqrt(2))^3"},
+            {"part": "i", "expression": "1/(4th root of 16)"},
+            {"part": "j", "expression": "1/(8th root of 8)"}
+          ]
+        },
+        {
+          "number": "2",
+          "description": "Write as a single power of 3:",
+          "parts": [
+            {"part": "a", "expression": "cbrt(3)"},
+            {"part": "b", "expression": "1/cbrt(3)"},
+            {"part": "c", "expression": "sqrt(3)"},
+            {"part": "d", "expression": "3*sqrt(3)"},
+            {"part": "e", "expression": "1/(9*sqrt(3))"}
+          ]
+        },
+        {
+          "number": "3",
+          "description": "Write in the form a^k, where a is a prime number and k is rational:",
+          "parts": [
+            {"part": "a", "expression": "sqrt(7)"},
+            {"part": "b", "expression": "cbrt(27)"},
+            {"part": "c", "expression": "4th root of 16"},
+            {"part": "d", "expression": "5th root of 32"},
+            {"part": "e", "expression": "6th root of 49"},
+            {"part": "f", "expression": "1/(7th root of 7)"},
+            {"part": "g", "expression": "1/cbrt(27)"},
+            {"part": "h", "expression": "1/(4th root of 16)"},
+            {"part": "i", "expression": "1/sqrt(32)"},
+            {"part": "j", "expression": "1/(6th root of 49)"}
+          ]
+        },
+        {
+          "number": "4",
+          "description": "Write in the form x^k, where k is rational:",
+          "parts": [
+            {"part": "a", "expression": "sqrt(x)"},
+            {"part": "b", "expression": "x*sqrt(x)"},
+            {"part": "c", "expression": "1/sqrt(x)"},
+            {"part": "d", "expression": "x^2*sqrt(x)"},
+            {"part": "e", "expression": "1/(x*sqrt(x))"}
+          ]
+        },
+        {
+          "number": "5",
+          "description": "Use your calculator to find, correct to 3 significant figures:",
+          "parts": [
+            {"part": "a", "expression": "3^(3/4)"},
+            {"part": "b", "expression": "4^(-3/5)"},
+            {"part": "c", "expression": "8th root of 8"},
+            {"part": "d", "expression": "cbrt(27)"},
+            {"part": "e", "expression": "1/sqrt(7)"}
+          ]
+        },
+        {
+          "number": "6",
+          "description": "Write without rational exponents:",
+          "parts": [
+            {"part": "a", "expression": "5^(1/3)"},
+            {"part": "b", "expression": "3^(-1/2)"},
+            {"part": "c", "expression": "3^(2/3)"},
+            {"part": "d", "expression": "m^(2/3)"},
+            {"part": "e", "expression": "x^(-3/2)"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise_continuation",
+      "source_image": "image1658.png",
+      "problems": [
+        {
+          "number": "7",
+          "description": "Without using a calculator, write in simplest rational form:",
+          "parts": [
+            {"part": "a", "expression": "4^(3/2)"},
+            {"part": "b", "expression": "8^(5/3)"},
+            {"part": "c", "expression": "16^(3/4)"},
+            {"part": "d", "expression": "25^(3/2)"},
+            {"part": "e", "expression": "32^(2/5)"},
+            {"part": "f", "expression": "4^(-1/2)"},
+            {"part": "g", "expression": "9^(-3/2)"},
+            {"part": "h", "expression": "8^(-4/3)"},
+            {"part": "i", "expression": "27^(-4/3)"},
+            {"part": "j", "expression": "125^(-2/3)"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "exercise_5B",
+      "title": "Exercise 5B",
+      "source_image": "image1659.png",
+      "problems": [
+        {
+          "number": "1",
+          "description": "Simplify:",
+          "parts": [
+            {"part": "a", "expression": "x^(1/2) x x^(-1/2)"},
+            {"part": "b", "expression": "x^(3/2) x x^(-1/2)"},
+            {"part": "c", "expression": "x^2 x x^(-3/2)"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise_continuation",
+      "source_image": "image1660.png",
+      "problems": [
+        {
+          "number": "2",
+          "description": "Expand and simplify:",
+          "parts": [
+            {"part": "a", "expression": "x^2(x^3 + 2x^2 + 1)"},
+            {"part": "b", "expression": "2^x(2^x + 1)"},
+            {"part": "c", "expression": "x^(1/2)(x^(1/2) + x^(-1/2))"},
+            {"part": "d", "expression": "7^x(7^x + 2)"},
+            {"part": "e", "expression": "3^x(2 - 3^(-x))"},
+            {"part": "f", "expression": "x^(1/2)(x^(3/2) + 2x^(1/2) + 3x^(-1/2))"},
+            {"part": "g", "expression": "2^(-x)(2^x + 5)"},
+            {"part": "h", "expression": "5^(-x)(5^(2x) + 5^x)"},
+            {"part": "i", "expression": "x^(-1/2)(x^2 + x + x^(1/2))"},
+            {"part": "j", "expression": "3^x(3^x + 5 + 3^(-x))"},
+            {"part": "k", "expression": "x^(-1/2)(2x^2 - x + 5x^(1/2))"},
+            {"part": "l", "expression": "2^(2x)(2^x - 3 - 2^(-2x))"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise_continuation",
+      "source_image": "image1661.png",
+      "problems": [
+        {
+          "number": "3",
+          "description": "Expand and simplify:",
+          "parts": [
+            {"part": "a", "expression": "(2^x - 1)(2^x + 3)"},
+            {"part": "b", "expression": "(3^x + 2)(3^x + 5)"},
+            {"part": "c", "expression": "(5^x - 2)(5^x - 4)"},
+            {"part": "d", "expression": "(2^x + 3)^2"},
+            {"part": "e", "expression": "(3^x - 1)^2"},
+            {"part": "f", "expression": "(4^x + 7)^2"},
+            {"part": "g", "expression": "(x^(1/2) + 2)(x^(1/2) - 2)"},
+            {"part": "h", "expression": "(2^x + 3)(2^x - 3)"},
+            {"part": "i", "expression": "(x^(1/2) + x^(-1/2))(x^(1/2) - x^(-1/2))"},
+            {"part": "j", "expression": "(x + 2/x)^2"},
+            {"part": "k", "expression": "(7^x - 7^(-x))^2"},
+            {"part": "l", "expression": "(5 - 2^(-x))^2"}
+          ]
+        }
+      ]
+    }
+  ]
+}

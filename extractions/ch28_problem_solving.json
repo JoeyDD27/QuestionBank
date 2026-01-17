@@ -1,0 +1,939 @@
+{
+  "chapter": 28,
+  "title": "Problem solving",
+  "image_range": "image2548.png - image2598.png",
+  "total_images": 51,
+  "sections": [
+    {
+      "section_title": "Writing equations using symbols",
+      "images": ["image2548.png", "image2549.png", "image2550.png", "image2551.png", "image2552.png", "image2553.png", "image2554.png", "image2555.png", "image2556.png", "image2557.png", "image2558.png"],
+      "content": [
+        {
+          "image": "image2548.png",
+          "type": "concept",
+          "content": "One of the hardest things to do when solving problems is to write the information as an equation using the language of algebra."
+        },
+        {
+          "image": "image2549.png",
+          "type": "example",
+          "label": "Example 1",
+          "problem": "When a number multiplied by 3 is added to 5, the result is 23. Write this as an algebraic equation.",
+          "solution": {
+            "steps": [
+              "Suppose we represent the number with the letter $n$.",
+              "Start with a number: $n$",
+              "Multiply it by 3: $3n$",
+              "Add 5: $3n + 5$",
+              "The result is 23: $3n + 5 = 23$"
+            ],
+            "answer": "So, the algebraic equation which represents the problem is $3n + 5 = 23$."
+          }
+        },
+        {
+          "image": "image2550.png",
+          "type": "example",
+          "label": "Example 2",
+          "problem": "Express the following problem algebraically: \"Start with a number, add 4, multiply by 3, and the result is 33.\"",
+          "solution": {
+            "steps": [
+              "Start with a number: $n$",
+              "Add 4: $n + 4$",
+              "Multiply by 3: $3(n + 4)$",
+              "The result is 33: $3(n + 4) = 33$"
+            ],
+            "answer": "So, the equation $3(n + 4) = 33$ represents the problem."
+          }
+        },
+        {
+          "image": "image2551.png",
+          "type": "example",
+          "label": "Example 3",
+          "problem": "Rewrite the equation $3(n + 1) + 4 = 16$ as a sentence.",
+          "solution": {
+            "steps": [
+              "We start with the unknown number, $n$.",
+              "$n$ - I think of a number",
+              "$n + 1$ - add 1 to it",
+              "$3(n + 1)$ - multiply the result by 3",
+              "$3(n + 1) + 4$ - add 4 to the new result",
+              "$3(n + 1) + 4 = 16$ - and the answer is 16"
+            ],
+            "answer": "I think of a number, add 1 to it, multiply the result by 3, add 4 to the new result, and the answer is 16."
+          }
+        },
+        {
+          "image": "image2552.png",
+          "type": "exercise",
+          "label": "Exercise 16A",
+          "questions": [
+            {
+              "number": "1",
+              "text": "Starting with the number $n$, rewrite the following in algebraic form:",
+              "parts": [
+                {"label": "a", "text": "I think of a number and subtract 5 from it, getting an answer of 16.", "latex": "$n - 5 = 16$"},
+                {"label": "b", "text": "I think of a number, multiply it by 4 and then add 6. The result is 18.", "latex": "$4n + 6 = 18$"},
+                {"label": "c", "text": "I think of a number and divide it by 5, getting an answer of 7.", "latex": "$\\frac{n}{5} = 7$"},
+                {"label": "d", "text": "I think of a number, add 5, multiply the result by 3 then add 4. The result is 40.", "latex": "$3(n + 5) + 4 = 40$"},
+                {"label": "e", "text": "I think of a number, add 6 to it, divide the result by 2, and get an answer of 9.", "latex": "$\\frac{n + 6}{2} = 9$"},
+                {"label": "f", "text": "I think of a number, add 10, multiply the result by 4 then add 2. The answer is 50.", "latex": "$4(n + 10) + 2 = 50$"},
+                {"label": "g", "text": "I think of a number, multiply it by 3, add 5, then multiply the result by 3. The answer is 51.", "latex": "$3(3n + 5) = 51$"},
+                {"label": "h", "text": "I think of a number, add 12, then divide the result by 2. The answer is 7.", "latex": "$\\frac{n + 12}{2} = 7$"},
+                {"label": "i", "text": "I think of a number, divide it by 2 and add 7 to the result, getting an answer of 23.", "latex": "$\\frac{n}{2} + 7 = 23$"},
+                {"label": "j", "text": "I think of a number, multiply it by 7 and then subtract 6. The result is 64.", "latex": "$7n - 6 = 64$"}
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2553.png",
+          "type": "exercise",
+          "label": "Exercise 16A (continued)",
+          "questions": [
+            {
+              "number": "2",
+              "text": "Write the following equations about the number $n$ in English sentences:",
+              "parts": [
+                {"label": "a", "latex": "$n + 5 = 2$"},
+                {"label": "b", "latex": "$n - 9 = 3$"},
+                {"label": "c", "latex": "$2n - 5 = 7$"},
+                {"label": "d", "latex": "$3n + 6 = 21$"},
+                {"label": "e", "latex": "$2(n + 1) = 16$"},
+                {"label": "f", "latex": "$3(n - 4) = 9$"},
+                {"label": "g", "latex": "$3(2n + 3) = 15$"},
+                {"label": "h", "latex": "$9(4n - 1) = 27$"},
+                {"label": "i", "latex": "$2(n + 3) + 4 = 24$"},
+                {"label": "j", "latex": "$3(2n - 4) - 5 = 25$"},
+                {"label": "k", "latex": "$4(3n - 9) - 8 = 40$"},
+                {"label": "l", "latex": "$5(2n + 1) - 4 = 41$"},
+                {"label": "m", "latex": "$\\frac{3(n + 1)}{7} = 6$"},
+                {"label": "n", "latex": "$\\frac{4(2n - 5)}{3} = 20$"},
+                {"label": "o", "latex": "$\\frac{3(2 - n)}{7} = 6$"}
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2554.png",
+          "type": "example",
+          "label": "Example 4",
+          "problem": "Find the unknown numbers using equations:\na) A number plus 6 is equal to 11.\nb) When a number is divided by 5, the answer is 11."
+        },
+        {
+          "image": "image2555.png",
+          "type": "example",
+          "label": "Example 4 (solution)",
+          "solution": {
+            "part_a": {
+              "steps": [
+                "Let $x$ be the number.",
+                "The number plus 6 is $x + 6$.",
+                "$\\therefore x + 6 = 11$",
+                "$\\therefore x + 6 - 6 = 11 - 6$",
+                "$\\therefore x = 5$"
+              ],
+              "answer": "The number is 5.",
+              "check": "$5 + 6 = 11$ \\checkmark"
+            },
+            "part_b": {
+              "steps": [
+                "Let $y$ be the number.",
+                "The number divided by 5 is $\\frac{y}{5}$.",
+                "$\\therefore \\frac{y}{5} = 11$",
+                "$\\therefore \\frac{y}{5} \\times 5 = 11 \\times 5$",
+                "$\\therefore y = 55$"
+              ],
+              "answer": "The number is 55.",
+              "check": "$55 \\div 5 = 11$ \\checkmark"
+            }
+          }
+        },
+        {
+          "image": "image2556.png",
+          "type": "example",
+          "label": "Example 5",
+          "problem": "I think of a number, treble it, then subtract 7. Find the number given the result is 10.",
+          "solution": {
+            "steps": [
+              "Let $x$ be the number, so $3x$ is the number trebled.",
+              "$\\therefore 3x - 7$ is the number trebled, minus 7.",
+              "$\\therefore 3x - 7 = 10$",
+              "$\\therefore 3x - 7 + 7 = 10 + 7$",
+              "$\\therefore 3x = 17$",
+              "$\\therefore \\frac{3x}{3} = \\frac{17}{3}$",
+              "$\\therefore x = 5\\frac{2}{3}$"
+            ],
+            "answer": "Thus, the number is $5\\frac{2}{3}$.",
+            "check": "LHS $= 3 \\times 5\\frac{2}{3} - 7 = (3 \\times \\frac{17}{3}) - 7 = 17 - 7 = 10 = $ RHS"
+          }
+        },
+        {
+          "image": "image2557.png",
+          "type": "exercise",
+          "label": "Exercise 16B",
+          "questions": [
+            {
+              "number": "1",
+              "text": "Find the unknown numbers using equations:",
+              "parts": [
+                {"label": "a", "text": "If a certain number is doubled, the result is $-6$. Find the number."},
+                {"label": "b", "text": "A quarter of a number is 13. Find the number."},
+                {"label": "c", "text": "7 more than a number is 22. Find the number."},
+                {"label": "d", "text": "When a number is decreased by 16, the result is 31."},
+                {"label": "e", "text": "When a number is doubled, the result is 9."},
+                {"label": "f", "text": "When a number is subtracted from 13, the result is 7."}
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2558.png",
+          "type": "exercise",
+          "label": "Exercise 16B (continued)",
+          "questions": [
+            {
+              "number": "2",
+              "text": "Use equations to solve the following problems:",
+              "parts": [
+                {"label": "a", "text": "I think of a number, double it, then subtract 5. The result is $-6$. Find the number."},
+                {"label": "b", "text": "From twice a certain number, 11 is subtracted, giving a result of 6. Find the number."},
+                {"label": "c", "text": "When twice a certain number is increased by 3, the result is 37. Find the number."},
+                {"label": "d", "text": "When one is added to a certain number and the result is halved, 7 results. What is the number?"},
+                {"label": "e", "text": "When a number is halved and one is added, the result is 7. What is the number?"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Measurement problems",
+      "images": ["image2559.png", "image2560.png", "image2561.png", "image2562.png", "image2563.png", "image2564.png"],
+      "content": [
+        {
+          "image": "image2559.png",
+          "type": "example",
+          "label": "Example 6",
+          "problem": "The perimeter of the rectangle is 40 cm. Find $x$.",
+          "figure_description": "Rectangle with width $(x + 7)$ cm and length $(3x + 5)$ cm"
+        },
+        {
+          "image": "image2560.png",
+          "type": "example",
+          "label": "Example 6 (solution)",
+          "solution": {
+            "steps": [
+              "The two sides will add to half the perimeter.",
+              "$\\therefore 3x + 5 + x + 7 = \\frac{1}{2} \\times 40$",
+              "$\\therefore 4x + 12 = 20$ {simplifying}",
+              "$\\therefore 4x = 8$ {subtracting 12 from both sides}",
+              "$\\therefore x = 2$ {dividing both sides by 4}"
+            ]
+          }
+        },
+        {
+          "image": "image2561.png",
+          "type": "exercise",
+          "label": "Exercise 16C",
+          "questions": [
+            {
+              "number": "1",
+              "text": "Set up an equation and hence find the value of $x$:",
+              "parts": [
+                {"label": "a", "figure": "Rectangle with sides $(2x + 3)$ cm and $(x + 1)$ cm, Perimeter = 26 cm"},
+                {"label": "b", "figure": "Triangle with sides $(x + 3)$ cm, $(x + 3)$ cm, and $x$ cm, Perimeter = 27 cm"},
+                {"label": "c", "figure": "Pentagon with sides $(x + 5)$ cm, $(x + 2)$ cm, and $(x + 4)$ cm, Perimeter = 23 cm"}
+              ]
+            },
+            {
+              "number": "2",
+              "text": "Write an equation and hence find the value of $x$ in these figures:",
+              "parts": [
+                {"label": "a", "figure": "Triangle with angles $2x^\\circ$, $x^\\circ$, and $69^\\circ$"},
+                {"label": "b", "figure": "Triangle with angles $(2x + 10)^\\circ$, $x^\\circ$, and $x^\\circ$"},
+                {"label": "c", "figure": "Triangle with angles $2x^\\circ$, $(4x - 40)^\\circ$, and $x^\\circ$"},
+                {"label": "d", "figure": "Quadrilateral with angles $(2x - 10)^\\circ$, $x^\\circ$, $x^\\circ$"},
+                {"label": "e", "figure": "Quadrilateral with angles $3x^\\circ$, $2x^\\circ$, $x^\\circ$, and $(x + 20)^\\circ$"},
+                {"label": "f", "figure": "Angles on a line: $(x + 28)^\\circ$ and $(x - 13)^\\circ$"}
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2562.png",
+          "type": "example",
+          "label": "Example 7",
+          "problem": "A rectangle has length 2 cm longer than its width. If the rectangle has perimeter 52 cm, find its width."
+        },
+        {
+          "image": "image2563.png",
+          "type": "example",
+          "label": "Example 7 (solution)",
+          "solution": {
+            "steps": [
+              "Let the width be $x$ cm, so the length is $(x + 2)$ cm.",
+              "$\\therefore 2x + 2(x + 2) = 52$ {the perimeter is 52 cm}",
+              "$\\therefore 2x + 2x + 4 = 52$ {expanding}",
+              "$\\therefore 4x + 4 = 52$ {simplifying}",
+              "$\\therefore 4x + 4 - 4 = 52 - 4$ {subtracting 4 from both sides}",
+              "$\\therefore 4x = 48$ {simplifying}",
+              "$\\therefore x = 12$ {dividing both sides by 4}"
+            ],
+            "answer": "So, the width of the rectangle is 12 cm."
+          }
+        },
+        {
+          "image": "image2564.png",
+          "type": "exercise",
+          "label": "Exercise 16C (continued)",
+          "questions": [
+            {
+              "number": "3",
+              "text": "A triangle has sides of length $x$ cm, $2x$ cm and $(x + 3)$ cm. Find $x$ given that the perimeter is 23 cm."
+            },
+            {
+              "number": "4",
+              "text": "A rectangle has length 5 cm longer than its width. Its perimeter is 82 cm. Find the width of the rectangle."
+            },
+            {
+              "number": "5",
+              "text": "A rectangle has length 3 times its width, and its perimeter is 36 cm. Find the width of the rectangle."
+            },
+            {
+              "number": "6",
+              "text": "Find $x$ given that the square and the rectangle have equal areas.",
+              "figure": "Square with side $x$ cm; Rectangle with sides $(x + 6)$ cm and $(x - 2)$ cm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Money problems",
+      "images": ["image2565.png", "image2566.png", "image2567.png", "image2568.png"],
+      "content": [
+        {
+          "image": "image2565.png",
+          "type": "concept",
+          "content": "When we solve problems involving money, we need to make sure we use the same units on both sides of the equation."
+        },
+        {
+          "image": "image2566.png",
+          "type": "example",
+          "label": "Example 8",
+          "problem": "I have two identical shovels and one rake for sale. Each shovel is worth $7 more than the rake. If the total value is $59, find the value of the rake.",
+          "solution": {
+            "steps": [
+              "Let the rake cost $r. $\\therefore$ each shovel costs $(r + 7)$.",
+              "$\\therefore r + 2(r + 7) = 59$",
+              "$\\therefore r + 2r + 14 = 59$ {expanding}",
+              "$\\therefore 3r + 14 = 59$ {simplifying}",
+              "$\\therefore 3r + 14 - 14 = 59 - 14$ {subtracting 14 from both sides}",
+              "$\\therefore 3r = 45$",
+              "$\\therefore r = 15$ {dividing both sides by 3}"
+            ],
+            "answer": "$\\therefore$ the rake is for sale at $15.",
+            "check": "LHS $= 15 + 2(15 + 7) = 59 = $ RHS."
+          }
+        },
+        {
+          "image": "image2567.png",
+          "type": "example",
+          "label": "Example 9",
+          "problem": "I have twice as many 20-cent coins as 50-cent coins, and the total value of all these coins is $27.00. How many 50-cent coins do I have?",
+          "solution": {
+            "setup": "Let the number of 50-cent coins be $x$.",
+            "table": {
+              "headers": ["Type of coin", "Number of coins", "Total value"],
+              "rows": [
+                ["50-cent", "$x$", "$50x$ cents"],
+                ["20-cent", "$2x$", "$40x$ cents"],
+                ["Total", "", "2700 cents"]
+              ]
+            },
+            "steps": [
+              "Now $50x + 40x = 2700$",
+              "$\\therefore 90x = 2700$",
+              "$\\therefore \\frac{90x}{90} = \\frac{2700}{90}$",
+              "$\\therefore x = 30$"
+            ],
+            "check": "LHS $= 50 \\times 30 + 40 \\times 30 = 2700 = $ RHS",
+            "answer": "So, there are thirty 50-cent coins."
+          }
+        },
+        {
+          "image": "image2568.png",
+          "type": "exercise",
+          "label": "Exercise 16D",
+          "questions": [
+            {
+              "number": "1",
+              "text": "An orange costs twice as much as an apple. The cost of two of them cost a total of 72 cents. Find the cost of an apple."
+            },
+            {
+              "number": "2",
+              "text": "If the cost of two DVD and a cost of $54, find the cost of the TV and DVD player."
+            },
+            {
+              "number": "3",
+              "text": "A handbag costs twice as much as a purse. If Jody buys 2 handbags and a purse, the total bill is $87.50. Find the cost of the purse."
+            },
+            {
+              "number": "4",
+              "text": "A bowl of noodles cost half as much as a chicken and mushroom hot pot. If I buy 3 bowls of noodles and 2 hot pots, the total cost is RM14.65. Find the cost of one chicken and mushroom hot pot."
+            },
+            {
+              "number": "5",
+              "text": "I have three times as many 10-cent coins as 20-cent coins, and their total value is $30.00. How many 20-cent coins do I have?"
+            },
+            {
+              "number": "6",
+              "text": "John has only 20-pence and 50-pence coins. He has 23 more 20-pence coins than 50-pence coins, and their total value is $27.20. How many 50-pence coins does John have?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Miscellaneous problem solving",
+      "images": ["image2569.png", "image2570.png", "image2571.png", "image2572.png", "image2573.png", "image2574.png", "image2575.png", "image2576.png", "image2577.png"],
+      "content": [
+        {
+          "image": "image2569.png",
+          "type": "exercise",
+          "label": "Exercise 16E",
+          "questions": [
+            {
+              "number": "1",
+              "text": "I am thinking of two numbers. One of them is 11 more than the other, and their sum is 131. What are the numbers?"
+            },
+            {
+              "number": "2",
+              "text": "One number is twice as large as another, and a third number is 11 more than the smaller one. If the sum of the three numbers is 79, find the smallest number."
+            }
+          ]
+        },
+        {
+          "image": "image2570.png",
+          "type": "exercise",
+          "label": "Exercise 16E (continued)",
+          "questions": [
+            {
+              "number": "3",
+              "text": "The figure shown is a rectangle. Find the value of $x$.",
+              "figure": "Rectangle with sides $(2x + 15)$ and $(8x - 15)$"
+            },
+            {
+              "number": "4",
+              "text": "A triangle has sides of length $a$ cm, $(25 - a)$ cm and $(2a + 3)$ cm. If its perimeter is 40 cm, find the length of the longest side."
+            },
+            {
+              "number": "5",
+              "text": "The equal sides of an isosceles triangle are 3 cm longer than the third side. If the perimeter is 18.9 cm, find the length of the third side."
+            },
+            {
+              "number": "6",
+              "text": "A rectangular paddock has a length 300 m greater than its width. If the perimeter of the paddock is 1400 m, find: a) the width b) the length."
+            },
+            {
+              "number": "7",
+              "text": "Find the perimeter of the rectangle shown. Your answer must not contain $x$.",
+              "figure": "Rectangle with sides $(2x + 7)$ cm, $7$ cm, and $(x + 20)$ cm"
+            }
+          ]
+        },
+        {
+          "image": "image2571.png",
+          "type": "exercise",
+          "label": "Exercise 16E (continued)",
+          "questions": [
+            {
+              "number": "8",
+              "text": "The perimeter of this pentagon is 70 units.",
+              "parts": [
+                {"label": "a", "text": "What is the value of $x$?"},
+                {"label": "b", "text": "What is the length of the shortest side?"}
+              ],
+              "figure": "Pentagon with sides $(2x - 10)$, $(2x + 3)$, $(x + 1)$, $3x$, and $(3x - 12)$"
+            }
+          ]
+        },
+        {
+          "image": "image2572.png",
+          "type": "exercise",
+          "label": "Exercise 16E (continued)",
+          "questions": [
+            {
+              "number": "9",
+              "text": "Adjacent sides of a rhombus have lengths $(2x + 11)$ cm and $(4x - 5)$ cm. Find $x$ and hence find the perimeter of the rhombus."
+            },
+            {
+              "number": "10",
+              "text": "Jane has saved $12 less than twice the amount Jason has saved. Together they have $144. How much has each saved by: a) Jane b) Jaco?"
+            },
+            {
+              "number": "11",
+              "text": "A Siamese kitten costs $150 less than a Burmese kitten. If three Siamese and two Burmese kittens cost $1850 in total, find the cost of: a) a Siamese kitten b) a Burmese kitten."
+            },
+            {
+              "number": "12",
+              "text": "The isosceles triangle illustrated has a base of length 18 cm.",
+              "parts": [
+                {"label": "a", "text": "What is the value of $x$?"},
+                {"label": "b", "text": "Is the triangle equilateral? Explain your answer."}
+              ],
+              "figure": "Isosceles triangle with sides $(2x - 4)$ cm, $(3x - 11)$ cm, and base 18 cm"
+            },
+            {
+              "number": "13",
+              "text": "Four less than a certain number is half the number. What is the number?"
+            },
+            {
+              "number": "14",
+              "text": "When nine is added to a certain number the result is divided by three, the answer is eight. What is the number?"
+            }
+          ]
+        },
+        {
+          "image": "image2573.png",
+          "type": "exercise",
+          "label": "Exercise 16E (continued)",
+          "questions": [
+            {
+              "number": "15",
+              "text": "Juan has two sets of metallic balls. The balls in one set each weigh twice as much as each ball in the other set. He knows that two of the heavier balls plus a five gram weight balance three of the lighter balls plus an eight gram weight. Find the weight of one of the heavier balls.",
+              "figure": "Balance scale with 2 heavy balls + 5g weight on one side, 3 light balls + 8g weight on the other"
+            }
+          ]
+        },
+        {
+          "image": "image2574.png",
+          "type": "exercise",
+          "label": "Exercise 16E (continued)",
+          "questions": [
+            {
+              "number": "16",
+              "text": "A one kilogram box of chocolates costs 0.90 euros less than twice the cost of a 500 g box. Two one kilogram boxes and three 500 g boxes cost 34.60 euros. Find the cost of a:",
+              "parts": [
+                {"label": "a", "text": "one kilogram box"},
+                {"label": "b", "text": "500 g box"}
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2575.png",
+          "type": "exercise",
+          "label": "Exercise 16E (continued)",
+          "questions": [
+            {
+              "number": "17",
+              "text": "5 times an unknown number is the same as twice the number subtracted from 35. What is the number?"
+            }
+          ]
+        },
+        {
+          "image": "image2576.png",
+          "type": "exercise",
+          "label": "Exercise 16E (continued)",
+          "questions": [
+            {
+              "number": "18",
+              "text": "Six less than a certain number is 11 more than treble the number. Find the number."
+            }
+          ]
+        },
+        {
+          "image": "image2577.png",
+          "type": "exercise",
+          "label": "Exercise 16E (continued)",
+          "questions": [
+            {
+              "number": "19",
+              "text": "Three less than a number is 8 less than a third of the number. Find the number."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Problem solving by search",
+      "images": ["image2578.png", "image2579.png", "image2580.png", "image2581.png", "image2582.png", "image2583.png", "image2584.png", "image2585.png"],
+      "content": [
+        {
+          "image": "image2578.png",
+          "type": "concept",
+          "content": "For some problems it is either difficult to write down an equation, or the equation may be difficult to solve. In some cases the equation may have more than one solution.\n\nIf the number of possibilities for the solution is small, it may be quickest to search through them all to find the solutions which work. In other cases a search through particular values may reveal what the correct solution must be."
+        },
+        {
+          "image": "image2579.png",
+          "type": "example",
+          "label": "Example 10",
+          "problem": "What rectangle with perimeter 24 cm has the greatest area?",
+          "solution": {
+            "setup": "Draw a diagram to show all given information. We notice that length + width = 12.",
+            "table": {
+              "headers": ["Length", "Width", "Area"],
+              "rows": [
+                ["1", "11", "$1 \\times 11 = 11$"],
+                ["2", "10", "$2 \\times 10 = 20$"],
+                ["3", "9", "$3 \\times 9 = 27$"],
+                ["4", "8", "$4 \\times 8 = 32$"],
+                ["5", "7", "$5 \\times 7 = 35$"],
+                ["6", "6", "$6 \\times 6 = 36$"],
+                ["7", "5", "$7 \\times 5 = 35$"],
+                ["8", "4", "$8 \\times 4 = 32$"]
+              ]
+            },
+            "answer": "It appears that the area is largest when the rectangle is a 6 cm by 6 cm square."
+          }
+        },
+        {
+          "image": "image2580.png",
+          "type": "exercise",
+          "label": "Exercise 16F",
+          "questions": [
+            {
+              "number": "1",
+              "text": "Consider the equation $5x + 2y = 50$ where $x$ is a positive integer and $y$ is positive.",
+              "parts": [
+                {"label": "a", "text": "Explain why $x$ cannot be greater than 10."},
+                {"label": "b", "text": "Copy and complete the following table for possible values of $x$ and $y$. For example, when $x = 1$, $5 \\times 1 + 2 \\times y = 50$, $\\therefore 2 \\times y = 45$, $\\therefore y = 22\\frac{1}{2}$"},
+                {"label": "c", "text": "If $x$ and $y$ are both positive integers, what are their values?"}
+              ],
+              "table": {
+                "headers": ["$x$", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+                "rows": [["$y$", "$22\\frac{1}{2}$", "", "", "", "", "", "", "", "", ""]]
+              }
+            }
+          ]
+        },
+        {
+          "image": "image2581.png",
+          "type": "exercise",
+          "label": "Exercise 16F (continued)",
+          "questions": [
+            {
+              "number": "2",
+              "text": "Find positive integers $x$ and $y$ that satisfy the rule $12x + 5y = 100$."
+            },
+            {
+              "number": "3",
+              "text": "Find the smallest positive whole number greater than 2 which, when divided by 3 and 5, leaves a remainder of 2. Try 3, 4, 5, 6, ...... in that order until you find the answer."
+            }
+          ]
+        },
+        {
+          "image": "image2582.png",
+          "type": "exercise",
+          "label": "Exercise 16F (continued)",
+          "questions": [
+            {
+              "number": "4",
+              "text": "Find all positive integers less than 40 which cannot be written as a sum of a perfect square and a perfect cube. Do not forget that $0^2 = 0$ and $0^3 = 0$.",
+              "hint": "Be systematic. Try: $0^2 + 1^3$, $1^2 + 1^3$, and so on. $0^2 + 2^3$, $1^2 + 2^3$, $0^2 + 3^3$, $1^2 + 3^3$, $0^2 + 4^3$"
+            }
+          ]
+        },
+        {
+          "image": "image2583.png",
+          "type": "exercise",
+          "label": "Exercise 16F (continued)",
+          "questions": [
+            {
+              "number": "5",
+              "text": "Three sides of a rectangle have lengths which add to 24 cm. What are the dimensions of the rectangle if its area is as large as possible?",
+              "hint": "Copy and complete:",
+              "table": {
+                "headers": ["Width", "Length", "Area"],
+                "rows": [
+                  ["1", "22", ""],
+                  ["2", "20", ""],
+                  ["...", "...", ""]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "image": "image2584.png",
+          "type": "exercise",
+          "label": "Exercise 16F (continued)",
+          "questions": [
+            {
+              "number": "6",
+              "text": "A rectangle has area 60 cm$^2$. Copy and complete the table below, stopping when you have discovered something. Write down exactly what you have discovered.",
+              "table": {
+                "headers": ["Area", "Length", "Width", "Perimeter"],
+                "rows": [
+                  ["60", "1", "60", "$2 \\times (1 + 60) = 122$ cm"],
+                  ["60", "2", "30", ""],
+                  ["60", "3", "", ""],
+                  ["...", "...", "...", ""]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "image": "image2585.png",
+          "type": "exercise",
+          "label": "Exercise 16F (continued)",
+          "questions": [
+            {
+              "number": "7",
+              "text": "If $a$ and $b$ are positive integers and $2a + b = 40$, find the greatest possible value of $ab^2$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Problem solving by working backwards",
+      "images": ["image2586.png", "image2587.png", "image2588.png", "image2589.png", "image2590.png", "image2591.png", "image2592.png", "image2593.png", "image2594.png", "image2595.png", "image2596.png", "image2597.png", "image2598.png"],
+      "content": [
+        {
+          "image": "image2586.png",
+          "type": "example",
+          "label": "Example 11",
+          "problem": "My friend lost $5 from her wallet, but she then doubled the amount in her wallet by selling a book to me. She then had $30 in her wallet. How much did she have in her wallet initially?",
+          "solution": {
+            "steps": [
+              "My friend doubled her money to reach $30.",
+              "Double means multiply by 2, so working backwards we need to divide by 2.",
+              "So, she had $25 in her wallet before selling the book to me.",
+              "Before losing the $5 she must have had $25 + $5 = $30.",
+              "She had $30 in her wallet initially."
+            ]
+          }
+        },
+        {
+          "image": "image2586.png",
+          "type": "example",
+          "label": "Example 12",
+          "problem": "A teacher offers members of the class a peppermint for every problem they get right, but he takes back two for each incorrect answer. Barry stored up his peppermints over a week. On Thursday he got 8 questions right and 2 wrong. On Friday he got 9 questions right and 1 wrong. He finished the week with 16 peppermints. How many did he have at the start of Thursday?"
+        },
+        {
+          "image": "image2587.png",
+          "type": "example",
+          "label": "Example 12 (solution)",
+          "solution": {
+            "steps": [
+              "Friday: 9 right and 1 wrong is a gain of $9 - 2 = 7$ peppermints.",
+              "$\\therefore$ he had $16 - 7 = 9$ peppermints at the start of Friday.",
+              "Thursday: 8 right and 2 wrong is a gain of $8 - 2 \\times 2 = 4$ peppermints.",
+              "$\\therefore$ he had $9 - 4 = 5$ peppermints at the start of Thursday."
+            ],
+            "answer": "Barry had 5 peppermints at the start of Thursday."
+          }
+        },
+        {
+          "image": "image2588.png",
+          "type": "example",
+          "label": "Example 13",
+          "problem": "Eduardo wishes to fly to Barcelona to visit his grandparents. He saves $\\frac{1}{4}$ of the money, and his grandfather gives him the remaining 120 euros. How much does Eduardo's flight cost?",
+          "solution": {
+            "steps": [
+              "Eduardo saves $\\frac{1}{4}$ of the cost so his grandfather gives him $\\frac{3}{4}$.",
+              "$\\therefore \\frac{3}{4}$ of the cost is 120 euros.",
+              "$\\therefore \\frac{1}{4}$ of the cost is 40 euros.",
+              "$\\therefore$ the cost of Eduardo's flight is $4 \\times 40 = 160$ euros."
+            ]
+          }
+        },
+        {
+          "image": "image2589.png",
+          "type": "exercise",
+          "label": "Exercise 16G",
+          "questions": [
+            {
+              "number": "1",
+              "text": "Mrs Smith bought some chocolates at the supermarket. Her children ate $\\frac{1}{3}$ of them and her husband ate 5 chocolates. When she came to eat some herself she found only 7 left. How many chocolates did she buy?"
+            }
+          ]
+        },
+        {
+          "image": "image2590.png",
+          "type": "exercise",
+          "label": "Exercise 16G (continued)",
+          "questions": [
+            {
+              "number": "2",
+              "text": "A breeder sold half of his horses, then sold half of his remaining horses, then another two. He then only had his one favourite horse left. How many horses did he have initially?"
+            },
+            {
+              "number": "3",
+              "text": "Nan and Xia are sisters. Xia grew 4 cm in 2004 and Xuan grew 3 cm more than Xia that year. In 2005 Xuan grew 5 cm and Xia grew 2 cm. When measured at the end of 2005 both were 140 cm tall. What was the height of each girl in 2003?"
+            },
+            {
+              "number": "4",
+              "text": "If you were to continue this number pattern until you got to the star, what number would you put in the star's square? Can you determine this without filling in the numbers or counting all the numbers between?"
+            }
+          ]
+        },
+        {
+          "image": "image2591.png",
+          "type": "exercise",
+          "label": "Exercise 16G (continued)",
+          "questions": [
+            {
+              "number": "6",
+              "text": "Two bottles X and Y contain some water. Bottle X contains more than bottle Y. From bottle X we pour into bottle Y twice as much water as bottle Y already contains. We then pour from bottle Y into bottle X as much water as bottle X now contains. Both bottles now contain 200 mL. How much water was in each bottle to start with?"
+            },
+            {
+              "number": "7",
+              "text": "Joe and Jerry went for a bike trek during the holidays. On the first day they rode $\\frac{1}{3}$ of the total distance. On the second day they were tired and only rode $\\frac{1}{4}$ of the remaining distance. On the third day they rode half of the distance left. The last day they rode the remaining 18 km. How far did they ride altogether?"
+            }
+          ]
+        },
+        {
+          "image": "image2592.png",
+          "type": "exercise",
+          "label": "Review Set 16A",
+          "questions": [
+            {
+              "number": "1",
+              "text": "Use equations to solve the following problems:",
+              "parts": [
+                {"label": "a", "text": "I think of a number, treble it, then add 4. If the result is 28, find the number."},
+                {"label": "b", "text": "When twice a certain number is subtracted from 21, the result is 9. Find the number."}
+              ]
+            },
+            {
+              "number": "2",
+              "text": "Set up an equation and hence find the value of $x$:",
+              "parts": [
+                {"label": "a", "figure": "Triangle with sides $(3x - 5)$ m, perimeter = 24 m"},
+                {"label": "b", "figure": "Rectangle with sides $(x + 1)$ m and $(2x + 9)^\\circ$"}
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2593.png",
+          "type": "exercise",
+          "label": "Review Set 16A (continued)",
+          "questions": [
+            {
+              "number": "3",
+              "text": "A rectangle has length 6 cm longer than its width. If its perimeter is 56 cm, find its length."
+            },
+            {
+              "number": "4",
+              "text": "A CD costs twice as much as a book. If I buy 3 CDs and 2 books for a total of 120 euros, find the cost of each item."
+            },
+            {
+              "number": "5",
+              "text": "Find the perimeter of the rectangle. Your answer must not contain $x$.",
+              "figure": "Rectangle with sides $(x + 14)$ cm, $(x + 6)$ cm, and $(3x - 4)$ cm"
+            },
+            {
+              "number": "6",
+              "text": "The sum of three consecutive numbers is 72. Find the largest of the three numbers."
+            },
+            {
+              "number": "7",
+              "text": "Scott has 12 more 50-pence coins than 20-pence coins, and their total value is 10.20 pounds. How many 20-pence coins does Scott have?"
+            }
+          ]
+        },
+        {
+          "image": "image2594.png",
+          "type": "exercise",
+          "label": "Review Set 16A (continued)",
+          "questions": [
+            {
+              "number": "8",
+              "text": "Find positive integers $x$ and $y$ that satisfy the rule $7x + 9y = 60$."
+            },
+            {
+              "number": "9",
+              "text": "Jake has a brother named Phil. Their mother's name is Sue. A year ago, Sue was three times as old as Jake. Four years ago, Sue was four times as old as Phil. If Phil is 13 years old, how old is Jake?"
+            },
+            {
+              "number": "10",
+              "text": "Find $x$ if the square and the triangle have the same area:",
+              "figure": "Square with side $(x + 5)$ m; Triangle with base $2x$ m and height $(x + 2)$ m"
+            }
+          ]
+        },
+        {
+          "image": "image2595.png",
+          "type": "exercise",
+          "label": "Review Set 16B",
+          "questions": [
+            {
+              "number": "1",
+              "parts": [
+                {"label": "a", "text": "When a certain number is trebled, the result is 21. Find the number."},
+                {"label": "b", "text": "I think of a number, halve it, then add 3. The result is 11. What is the number?"}
+              ]
+            },
+            {
+              "number": "2",
+              "text": "At the supermarket a carton of juice costs 1.50 pounds more than a bottle of milk. If 3 bottles of milk and 2 cartons of juice cost 8 pounds, how much does a carton of juice cost?"
+            }
+          ]
+        },
+        {
+          "image": "image2596.png",
+          "type": "exercise",
+          "label": "Review Set 16B (continued)",
+          "questions": [
+            {
+              "number": "3",
+              "text": "Set up an equation and hence find the value of $x$:",
+              "parts": [
+                {"label": "a", "figure": "Quadrilateral with angles $(4x + 5)^\\circ$, $(3x + 10)^\\circ$, and $(3x + 5)^\\circ$"},
+                {"label": "b", "figure": "Rectangle with sides $(4x - 1)$ cm and $(2x + 2)$ cm, perimeter = 62 cm"},
+                {"label": "c", "figure": "Pentagon with sides $x$ cm, $(x - 5)$ cm, and $(x + 3)$ cm, perimeter = 53 cm"}
+              ]
+            },
+            {
+              "number": "4",
+              "text": "The equal sides of an isosceles triangle are 2 cm shorter than the length of the third side. If the perimeter of the triangle is 35 cm, find the length of the third side."
+            },
+            {
+              "number": "5",
+              "text": "When a certain number is trebled, the result is the same as when the number is subtracted from 56. What is the number?"
+            }
+          ]
+        },
+        {
+          "image": "image2597.png",
+          "type": "exercise",
+          "label": "Review Set 16B (continued)",
+          "questions": [
+            {
+              "number": "6",
+              "text": "George has three times as many marbles as Sam. If George gives 5 of his marbles to Sam, George will have twice as many marbles as Sam. How many marbles does Sam have?"
+            },
+            {
+              "number": "7",
+              "text": "I have three times as many 20-cent coins as 10-cent coins, and their total value is $4.20. How many 10-cent coins do I have?"
+            },
+            {
+              "number": "8",
+              "text": "If $x$ and $y$ are positive integers and $3x + y = 50$, find the greatest possible value of $xy^2$."
+            },
+            {
+              "number": "9",
+              "text": "Vincent spent half of the money in his wallet on a new jumper. He then spent $15 on lunch. After lunch he spent two thirds of the money remaining in his wallet on a hat. If he is left with $10 in his wallet, how much did he have in his wallet initially?"
+            }
+          ]
+        },
+        {
+          "image": "image2598.png",
+          "type": "exercise",
+          "label": "Review Set 16B (continued)",
+          "questions": [
+            {
+              "number": "10",
+              "text": "Find $x$ if the two rectangles have the same area:",
+              "figure": "Rectangle 1 with sides $(x + 5)$ mm and $(x - 2)$ mm; Rectangle 2 with sides $(x + 3)$ mm and $(x - 1)$ mm"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

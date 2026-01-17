@@ -1,0 +1,352 @@
+{
+  "chapter": 15,
+  "title": "Transformation of functions",
+  "part": 6,
+  "source_images": "image1742.png - image1758.png",
+  "content": [
+    {
+      "type": "example",
+      "id": "example_10",
+      "title": "Example 10 - Depreciation",
+      "problem": "Photocopiers depreciate in value by 15% per year. Suppose a photocopier was purchased for $18,500.\na) Find the value of the photocopier after 5 years.\nb) By how much has its value depreciated?",
+      "solution": {
+        "part_a": {
+          "given": {
+            "P_v": 18500,
+            "i": 0.15,
+            "n": 5
+          },
+          "formula": "F_v = P_v(1-i)^n",
+          "calculation": "F_v = 18500(1-0.15)^5 = 18500(0.85)^5 ≈ $8208.55"
+        },
+        "part_b": {
+          "formula": "Depreciation = P_v - F_v",
+          "calculation": "Depreciation = $18,500 - $8208.55 = $10,291.45"
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "exercise_18E",
+      "title": "Exercise 18E",
+      "problems": [
+        {
+          "number": 1,
+          "problem": "A car was purchased for $32,500, and its value depreciated annually by 16%. Find the value of the car after 10 years."
+        },
+        {
+          "number": 2,
+          "problem": "A motorbike was purchased for £8495, and its value depreciated at 12% each year.",
+          "parts": [
+            {
+              "part": "a",
+              "problem": "Copy and complete the following table:",
+              "table": {
+                "headers": ["Number of years owned", "Depreciation or annual loss in value", "Value after n years"],
+                "data": [
+                  ["0", "-", "£8495"],
+                  ["1", "£1019.40", "£7475.60"],
+                  ["2", "", ""],
+                  ["3", "", ""],
+                  ["4", "", ""]
+                ]
+              }
+            },
+            {
+              "part": "b",
+              "problem": "The motorbike is used for a delivery service, and so the depreciation each year can be claimed as a tax deduction. How much can be 'claimed' during the 4th year?"
+            },
+            {
+              "part": "c",
+              "problem": "Find the value of the motorbike at the end of the 8th year."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "problem": "Kevin bought a truck for $38,500. It depreciated at a rate of 20% p.a.",
+          "parts": [
+            {
+              "part": "a",
+              "problem": "Find the truck's value after 3 years."
+            },
+            {
+              "part": "b",
+              "problem": "By how much has it lost value?"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "problem": "A cabin cruiser was bought for €120,000 in April 2005, and was sold for €45,000 in April 2013. Find the annual rate of depreciation of the boat."
+        }
+      ]
+    },
+    {
+      "type": "theory",
+      "topic": "Exponential Functions and the Natural Base e",
+      "content": [
+        {
+          "text": "We have seen that the simplest exponential functions have the form f(x) = a^x where a > 0, a ≠ 1.",
+          "key_result": "a^x > 0 for all a > 0",
+          "graphs_described": "Graphs of y = (0.2)^x, y = (0.5)^x, y = (1.2)^x, y = 2^x, y = 5^x all pass through (0, 1) and are always positive"
+        },
+        {
+          "text": "However, where exponential data is examined in science, engineering, and finance, the base e ≈ 2.7183 is commonly used.",
+          "about_e": "e is a special number in mathematics. It is irrational like π, and just as π is the ratio of a circle's circumference to its diameter, e also has a physical meaning."
+        }
+      ]
+    },
+    {
+      "type": "investigation",
+      "id": "investigation_2",
+      "title": "Investigation 2 - Continuous Compound Interest",
+      "description": "A discrete formula for calculating the amount to which an investment grows under compound interest is u_n = u_0(1+i)^n where u_n is the final amount, u_0 is the initial amount, i is the interest rate per compounding period, n is the number of periods.",
+      "tasks": [
+        {
+          "number": 1,
+          "problem": "Suppose $1000 is invested for one year at a fixed rate of 6% per annum. Use your calculator to find the final amount or maturing value if the interest is paid:\na) annually (n=1, i=6%=0.06)\nb) quarterly (n=4, i=6%/4=0.015)\nc) monthly\nd) by the day\ne) by the millisecond\nComment on your answers."
+        },
+        {
+          "number": 2,
+          "problem": "If r is the percentage rate per year, t is the number of years, and N is the number of interest payments per year, then n = Nt and i = r/N. Show that the growth formula becomes u_n = u_0(1 + r/N)^(Nt)"
+        },
+        {
+          "number": 3,
+          "problem": "For continuous compound growth, the number of interest payments per year N gets very large.",
+          "parts": [
+            {
+              "part": "a",
+              "problem": "Explain why a gets very large as N gets very large."
+            },
+            {
+              "part": "b",
+              "problem": "Copy and complete the table, giving your answers as accurately as technology permits.",
+              "table": {
+                "expression": "(1 + 1/a)^a",
+                "values": [10, 100, 1000, 10000, 100000, 1000000, 10000000]
+              }
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "problem": "You should have found that for very large values of a, (1 + 1/a)^a ≈ 2.718281828459.... Use the e^x key of your calculator to find the value of e^1. What do you notice?"
+        },
+        {
+          "number": 5,
+          "problem": "For continuous growth, u_n = u_0e^(rt) where u_0 is the initial amount, r is the annual percentage rate, and t is the number of years. Use this formula to find the final amount if $1000 is invested for 4 years at a fixed rate of 6% per annum, where the interest is paid continuously."
+        }
+      ],
+      "key_result": "If interest is paid continuously or instantaneously then the formula for calculating a compounding amount u_n = u_0(1+i)^n can be replaced by u_n = u_0e^(rt), where r is the percentage rate per annum and t is the number of years."
+    },
+    {
+      "type": "historical_note",
+      "title": "Historical Note - The Natural Exponential e",
+      "content": [
+        "The natural exponential e was first described in 1683 by Swiss mathematician Jacob Bernoulli. He discovered the number while studying compound interest, just as we did in Investigation 2.",
+        "The natural exponential was first called e by Swiss mathematician and physicist Leonhard Euler in a letter to the German mathematician Christian Goldbach in 1731. The number was then published with this notation in 1736.",
+        "In 1748, Euler evaluated e correct to 18 decimal places.",
+        "Euler also discovered some patterns in continued fraction expansions of e. He wrote that e = 2 + 1/(1 + 1/(2 + 1/(1 + ...))) and e - 1 = 1 + 1/(1 + 1/(2 + 1/(1 + ...)))",
+        "One may think that e was chosen because it was the first letter of Euler's name or for the word exponential, but it is likely that it was just the next vowel available since he had already used a in his work."
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "exercise_5F",
+      "title": "Exercise 5F",
+      "problems": [
+        {
+          "number": 1,
+          "problem": "Sketch, on the same set of axes, the graphs of y = 2^x, y = e^x, and y = 3^x. Comment on any observations."
+        },
+        {
+          "number": 2,
+          "problem": "Sketch, on the same set of axes, the graphs of y = e^x and y = e^(-x). What is the geometric connection between these two graphs?"
+        },
+        {
+          "number": 3,
+          "problem": "For the general exponential function y = pe^(kx), what is the y-intercept?"
+        },
+        {
+          "number": 4,
+          "problem": "Consider y = 2e^x.\na) Explain why y can never be negative.\nb) Find y if: i) x = -20, ii) x = 20"
+        },
+        {
+          "number": 5,
+          "problem": "Find, to 3 significant figures, the value of:\na) e^2, b) e^(-1), c) e^(0.8), d) √e"
+        },
+        {
+          "number": 6,
+          "problem": "Write the following as powers of e:\na) e^2, b) 1/e^3, c) √(e^3), d) 1/√e"
+        },
+        {
+          "number": 7,
+          "problem": "Evaluate, to five significant figures:\na) e^(3.16), b) 50e^(-0.432), c) 1000e^(0.0614), d) 25e^(-0.8742)"
+        },
+        {
+          "number": 8,
+          "problem": "Expand and simplify:\na) e^x + 1/e^x, b) (1 + e^x)(1 - e^(-x)), c) e^(-x)(e^(2x) + e^x)"
+        },
+        {
+          "number": 9,
+          "problem": "Factorise:\na) e^(2x) - 1, b) e^(2x) - 16"
+        },
+        {
+          "number": 10,
+          "problem": "On the same set of axes, sketch and clearly label the graphs of:\na) f: x → e^x, b) g: x → e^(-x), c) h: x → -e^x, d) j: x → 3 - e^x\nState the domain and range of each function."
+        },
+        {
+          "number": 11,
+          "problem": "On the same set of axes, sketch and clearly label the graphs of:\na) f: x → e^x - 4, b) g: x → e^(x-4), c) h: x → 10 - e^x\nState the domain and range of each function.\nDescribe the behaviour of each function as x → ±∞."
+        },
+        {
+          "number": 12,
+          "problem": "The weight of bacteria in a culture is given by W(t) = 2e^t grams where t is the time in hours after the culture was set to grow.\na) Find the weight of the culture: i) initially, ii) after 30 minutes, iii) after 6 hours\nb) Draw the graph of W against t for t ≥ 0, using a and b or technology.\nc) Hence find the time taken for the temperature of the dish to fall to 25°C."
+        },
+        {
+          "number": 13,
+          "problem": "A phycologist investigates an algal bloom in a lake. Initially it covers 10 square metres of water. Each day after it was discovered, the area covered increases by 15%.\na) Write a formula for the area A(t) covered after t days.\nb) Find the area covered after: i) 5 days\nc) Sketch the graph of A(t).\nd) How long will it take for the affected area to reach 300 m²?"
+        },
+        {
+          "number": 14,
+          "problem": "The current flowing in an electrical circuit t seconds after it is switched off is given by I(t) = 75e^(-0.15t) amps.\na) What current is still flowing in the circuit after: i) 1 second, ii) 10 seconds?\nb) Use your graphics calculator to help sketch the graph of I(t) = 75e^(-0.15t).\nc) How long will it take for the current to fall to 1 amp?"
+        },
+        {
+          "number": 15,
+          "problem": "Consider the function f(x) = e^x.\na) On the same set of axes, sketch y = f(x), y = x, and y = f^(-1)(x).\nb) State the domain and range of f^(-1)."
+        },
+        {
+          "number": 16,
+          "problem": "It can be shown that e^x = 1 + x + (1/2)x² + (1/(2×3))x³ + (1/(2×3×4))x⁴ + .... = Σ(i=0 to ∞) (1/i!)x^i which is an infinite polynomial expansion.\nCheck this statement by finding an approximation for e^1 using its first 20 terms."
+        }
+      ]
+    },
+    {
+      "type": "review_set",
+      "id": "review_set_5A",
+      "title": "Review Set 5A",
+      "problems": [
+        {
+          "number": 1,
+          "problem": "Evaluate:\na) 8^(2/3), b) 27^(-2/3), c) 81^(-1/4)"
+        },
+        {
+          "number": 2,
+          "problem": "Solve for x:\na) 2^(x-3) = 1/32, b) 9^x = 27^(2-2x), c) e^(2x) = 1/√e"
+        },
+        {
+          "number": 3,
+          "problem": "Consider the graph of y = 3^x alongside.\na) Use the graph to estimate the value of: i) 3^(0.7), ii) 3^(-0.5)\nb) Use the graph to estimate the solution to: i) 3^x = 5, ii) 3^x = 1/2, iii) 6 × 3^x = 20"
+        },
+        {
+          "number": 4,
+          "problem": "Expand and simplify:\na) e^x(e^(-x) + e^x), b) (2^x + 5)², c) (x^(1/2) - 7)(x^(1/2) + 7)"
+        },
+        {
+          "number": 5,
+          "problem": "Solve for x:\na) 6 × 2^x = 192, b) 4 × (1/3)^x = 324"
+        },
+        {
+          "number": 6,
+          "problem": "The point (1, √8) lies on the graph of y = 2^(kx). Find the value of k."
+        },
+        {
+          "number": 7,
+          "problem": "If f(x) = 3 × 2^x, find the value of:\na) f(0), b) f(3), c) f(-2)"
+        },
+        {
+          "number": 8,
+          "problem": "On the same set of axes, draw the graphs of y = 2^x and y = 2^x - 4. Include on your graph the y-intercept and the equation of the horizontal asymptote of each function."
+        },
+        {
+          "number": 9,
+          "problem": "Consider y = 3^x - 5.\na) Find y when x = 0, 1, 2.\nb) Sketch the graph of y = 3^x - 5.\nc) State the equation of any asymptote."
+        },
+        {
+          "number": 10,
+          "problem": "Consider y = 3 - 2^x.\na) Find y when x = -1, 0, 1, 2.\nb) Discuss y as x → ∞.\nc) Sketch the graph of y = 3 - 2^x.\nd) State the equation of any asymptote."
+        },
+        {
+          "number": 11,
+          "problem": "On the same set of axes, sketch and clearly label the graphs of: y = e^x, y = e^x - 3, y = e^(x-3)\na) State the domain and range of each function in 4.\nb) Describe the behaviour of each function as x → ±∞."
+        },
+        {
+          "number": 12,
+          "problem": "The temperature of a dish t minutes after it is removed from the microwave, is given by T(t) = 90 × (0.913)^t °C.\na) Find the initial temperature of the dish.\nb) Find the temperature after: i) 12 minutes, ii) 21 minutes, iii) 36 minutes\nc) Draw the graph of T against t for t ≥ 0, using a and b or technology.\nd) Hence find the time taken for the temperature of the dish to fall to 25°C."
+        },
+        {
+          "number": 13,
+          "problem": "A phycologist investigates an algal bloom in a lake. Initially it covers 10 square metres of water. Each day after it was discovered, the area covered increases by 15%.\na) Write a formula for the area A(t) covered after t days.\nb) Find the area covered after: i) 5 days\nc) Sketch the graph of A(t).\nd) How long will it take for the affected area to reach 300 m²?"
+        },
+        {
+          "number": 14,
+          "problem": "The current flowing in an electrical circuit t seconds after it is switched off is given by I(t) = 75e^(-0.15t) amps.\na) What current is still flowing in the circuit after: i) 1 second, ii) 10 seconds?\nb) Use your graphics calculator to help sketch the graph of I(t) = 75e^(-0.15t).\nc) How long will it take for the current to fall to 1 amp?"
+        },
+        {
+          "number": 15,
+          "problem": "Consider the function f(x) = e^x.\na) On the same set of axes, sketch y = f(x), y = x, and y = f^(-1)(x).\nb) State the domain and range of f^(-1)."
+        },
+        {
+          "number": 16,
+          "problem": "It can be shown that e^x = 1 + x + (1/2)x² + (1/(2×3))x³ + (1/(2×3×4))x⁴ + .... = Σ(i=0 to ∞) (1/i!)x^i which is an infinite polynomial expansion.\nCheck this statement by finding an approximation for e^1 using its first 20 terms."
+        }
+      ]
+    },
+    {
+      "type": "review_set",
+      "id": "review_set_5B",
+      "title": "Review Set 5B",
+      "problems": [
+        {
+          "number": 1,
+          "problem": "Evaluate, correct to 3 significant figures:\na) e^4, b) 2e^(-3), c) e/√10"
+        },
+        {
+          "number": 2,
+          "problem": "Expand and simplify:\na) (3 - e^x)², b) (1/2)(e^x - 2e^(-x) - e), c) 2e^(-2x)(2e^x + 2^x)"
+        },
+        {
+          "number": 3,
+          "problem": "Factorise:\na) e^(2x) - 3^x, b) e^x - 2 - 12, c) e^x - 2e^(-x) - 15"
+        },
+        {
+          "number": 4,
+          "problem": "Solve for x:\na) 2^(x+1) = 32, b) 3 × (4)^(x+1) = 1029, c) 9^x - 10(3)^x + 9 = 0"
+        },
+        {
+          "number": 5,
+          "problem": "Consider the graph of y = 4^x alongside.\na) Use the graph to estimate the value of: i) 4^(0.8), ii) 4^(-1.1)\nb) Use the graph to estimate the solution to: i) 4^x = 3"
+        },
+        {
+          "number": 6,
+          "problem": "Suppose f(x) = 2^(-x) + 1.\na) Find f(1/2).\nb) Find a such that f(a) = 3."
+        },
+        {
+          "number": 7,
+          "problem": "Consider y = 3e^(-x) + 1.\na) Find y when x = 0, 0.1, 0.2.\nb) Discuss y as x → ∞.\nc) Sketch the graph of y = 3e^(-x) + 1.\nd) State the equation of any asymptote."
+        },
+        {
+          "number": 8,
+          "problem": "Match each equation to its corresponding graph.\na) y = e^x, b) y = 3 + e^(-x), c) y = e^(x+1), d) y = 3 - e^x\n[Graphs A, B, C, D, E shown]"
+        },
+        {
+          "number": 9,
+          "problem": "Let f(x) = 3^x.\na) Write down the value of: i) f(4), ii) f(-1)\nb) Find the value of k such that f(x+2) = k·f(x), k ∈ Z."
+        },
+        {
+          "number": 10,
+          "problem": "Suppose y = a^x. Express in terms of y:\na) a^(2x), b) a^(-x), c) 1/√(a^x)"
+        },
+        {
+          "number": 11,
+          "problem": "Answer the Opening Problem on page 120."
+        },
+        {
+          "number": 12,
+          "problem": "The weight of a radioactive substance after t years is given by W = 1500 × (0.993)^t grams.\na) Find the original amount of radioactive material.\nb) Find the amount of radioactive material remaining after: i) 400 years, ii) 800 years.\nc) Sketch the graph of W against t for t ≥ 0.\nd) Hence find the time taken for the weight to reduce to 100 grams."
+        }
+      ]
+    }
+  ]
+}

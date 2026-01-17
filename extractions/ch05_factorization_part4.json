@@ -1,0 +1,521 @@
+{
+  "chapter": 5,
+  "chapter_title": "Factorization",
+  "part": 4,
+  "description": "Difference of squares applications, sum and difference of cubes, and rationalizing denominators (images 421-460)",
+  "image_range": "421-460",
+  "content": [
+    {
+      "type": "example",
+      "source_image": "image421.png",
+      "content": {
+        "description": "Factoring difference of squares example",
+        "equation": "$4t^2 - 121 = (2t)^2 - 11^2 = (2t - 11)(2t + 11)$"
+      }
+    },
+    {
+      "type": "example",
+      "source_image": "image422.png",
+      "content": {
+        "description": "Factoring with common factor and difference of squares",
+        "equation": "$3r^2 - 147 = 3(r^2 - 49) = 3(r^2 - 7^2) = 3(r - 7)(r + 7)$"
+      }
+    },
+    {
+      "type": "example",
+      "source_image": "image423.png",
+      "content": {
+        "description": "Factoring difference of fourth powers",
+        "equation": "$z^4 - 1 = (z^2 - 1)(z^2 + 1) = (z - 1)(z + 1)(z^2 + 1)$"
+      }
+    },
+    {
+      "type": "problem",
+      "source_image": "image424.png",
+      "content": {
+        "problem_id": "11.10",
+        "title": "Problem 11.10",
+        "parts": [
+          {
+            "part": "(a)",
+            "problem": "Evaluate $5^2 - 4^2$."
+          },
+          {
+            "part": "(b)",
+            "problem": "Evaluate $6^2 - 5^2$."
+          },
+          {
+            "part": "(c)",
+            "problem": "Evaluate $7^2 - 6^2$."
+          },
+          {
+            "part": "(d)",
+            "problem": "Evaluate $8^2 - 7^2$."
+          }
+        ]
+      }
+    },
+    {
+      "type": "solution",
+      "source_image": "image425.png",
+      "content": {
+        "for_problem": "11.10",
+        "calculations": [
+          "$5^2 - 4^2 = 9 = 5 + 4$",
+          "$6^2 - 5^2 = 11 = 6 + 5$",
+          "$7^2 - 6^2 = 13 = 7 + 6$",
+          "$8^2 - 7^2 = 15 = 8 + 7$"
+        ]
+      }
+    },
+    {
+      "type": "concept",
+      "source_image": "image426.png",
+      "content": {
+        "description": "Using difference of squares to explain the pattern",
+        "text": "Since we have differences of squares on the left side, we can use our new factorization to determine why this pattern holds:",
+        "equation": "$(n + 1)^2 - n^2 = [(n + 1) - n][(n + 1) + n] = (n + 1) + n$",
+        "alternative": "We could also have seen why this pattern holds by expanding $(n + 1)^2$:",
+        "expansion": "$(n + 1)^2 - n^2 = n^2 + 2n + 1 - n^2 = 2n + 1 = (n + 1) + n$"
+      }
+    },
+    {
+      "type": "problem",
+      "source_image": "image427.png",
+      "content": {
+        "problem_id": "11.11",
+        "title": "Problem 11.11",
+        "problem": "Find all pairs of positive integers $m$ and $n$ such that $m^2$ is 105 greater than $n^2$."
+      }
+    },
+    {
+      "type": "solution",
+      "source_image": "image428.png",
+      "content": {
+        "for_problem": "11.11",
+        "text": "Turning the words into math is easy:",
+        "equation": "$m^2 = n^2 + 105$",
+        "explanation": "It's not at all clear what to do with this equation, but if we subtract $n^2$ from both sides, we have $m^2 - n^2 = 105$. We like this because we can factor the left side:",
+        "factored": "$(m - n)(m + n) = 105$",
+        "reasoning": "Because $m$ and $n$ are integers, so are $m - n$ and $m + n$. Therefore, both $m - n$ and $m + n$ are factors of 105. We can use the different possible factorizations of 105 to give us the different possible values of $m - n$ and $m + n$:",
+        "factorizations": "$(m - n)(m + n) = 1 \\cdot 105 = 3 \\cdot 35 = 5 \\cdot 21 = 7 \\cdot 15$",
+        "cases": [
+          {"m_minus_n": 1, "m_plus_n": 105},
+          {"m_minus_n": 3, "m_plus_n": 35},
+          {"m_minus_n": 5, "m_plus_n": 21},
+          {"m_minus_n": 7, "m_plus_n": 15}
+        ]
+      }
+    },
+    {
+      "type": "solution_continuation",
+      "source_image": "image429.png",
+      "content": {
+        "for_problem": "11.11",
+        "text": "Each of these systems of equations gives us a solution $(m, n)$. Adding the equations in the first case gives us $2m = 106$, so $m = 53$. Substitution then gives $n = 52$. Similarly, we can work through each of the other three cases to find the four solutions $(m, n) = (53, 52); (19, 16); (13, 8); (11, 4)$."
+      }
+    },
+    {
+      "type": "problem",
+      "source_image": "image430.png",
+      "content": {
+        "problem_id": "11.12",
+        "title": "Problem 11.12",
+        "problem": "Suppose $x = z - \\sqrt{z^2 - 5}$ and $5y = z + \\sqrt{z^2 - 5}$. Find $x$ when $y = 2/3$."
+      }
+    },
+    {
+      "type": "solution",
+      "source_image": "image431.png",
+      "content": {
+        "for_problem": "11.12",
+        "text": "One approach would be to substitute $y = 2/3$ in the second equation, solve for $z$, then substitute that solution into the first equation. Solving that second equation for $z$ looks scary though. Moreover, if $z$ is in a nasty expression, it may not be easy to evaluate.",
+        "concept_box": {
+          "title": "Concept",
+          "text": "Focusing on what makes a problem tricky helps identify what strategies might best solve the problem."
+        },
+        "reasoning": "We know that squaring gets rid of square roots, but squaring either of our equations doesn't look too helpful. However, we notice that the right sides of our equations are of the form $a + b$ and $a - b$, where $a = z$ and $b = \\sqrt{z^2 - 5}$. So if we multiply the two equations together, we'll be rid of the square roots. Because $a + b$ and $a - b$ multiply to $a^2 - b^2$, we're back to our factorizations again.",
+        "calculation": "The right side is the factorization of a difference of squares, so we have $5xy = z^2 - (z^2 - 5) = 5$",
+        "answer": "Therefore, $xy = 1$. Since $y = 2/3$, we conclude that $x = 3/2$."
+      }
+    },
+    {
+      "type": "problem",
+      "source_image": "image432.png",
+      "content": {
+        "problem_id": "11.13",
+        "title": "Problem 11.13",
+        "problem": "Compute $\\sqrt{1998 \\cdot 1996 \\cdot 1994 \\cdot 1992 + 16}$ without a calculator.",
+        "source": "Mandelbrot"
+      }
+    },
+    {
+      "type": "solution",
+      "source_image": "image433.png",
+      "content": {
+        "for_problem": "11.13",
+        "text": "We can start by computing a few simpler expressions that follow the same pattern as the expression we must evaluate:",
+        "pattern_exploration": [
+          "$\\sqrt{7 \\cdot 5 \\cdot 3 \\cdot 1 + 16} = \\sqrt{121} = 11$",
+          "$\\sqrt{8 \\cdot 6 \\cdot 4 \\cdot 2 + 16} = \\sqrt{400} = 20$",
+          "$\\sqrt{9 \\cdot 7 \\cdot 5 \\cdot 3 + 16} = \\sqrt{961} = 31$",
+          "$\\sqrt{10 \\cdot 8 \\cdot 6 \\cdot 4 + 16} = \\sqrt{1936} = 44$"
+        ],
+        "pattern_analysis": "We have a hint of a pattern. The difference between the second and first results is $20 - 11 = 9$. The difference between the third and second results is $31 - 20 = 11$, and between the fourth and third is $44 - 31 = 13$. We might be able to guess that the next term is $44 + 15 = 59$, then the next is $59 + 17 = 76$, and so on. But how do we know our pattern will always hold?",
+        "variable_substitution": "As we've done before when facing large numbers, we use a variable to represent one of the numbers in the hopes of then simplifying the resulting expression. If we let $x = 1992$, our expression is $\\sqrt{(x + 6)(x + 4)(x + 2)x + 16}$."
+      }
+    },
+    {
+      "type": "solution_continuation",
+      "source_image": "image434.png",
+      "content": {
+        "for_problem": "11.13",
+        "text": "Multiplying that out looks like a bit of a headache. Before we do so, we consider whether we might make a different variable substitution that will allow us to use one of our special factorizations. We know products like $(z - a)(z + a)$ are easy to handle, so if we let $z = 1995$, which is right in the middle of our four big numbers, we'll have something that's easier to expand:"
+      }
+    },
+    {
+      "type": "solution_continuation",
+      "source_image": "image435.png",
+      "content": {
+        "for_problem": "11.13",
+        "calculation": [
+          "$\\sqrt{(z + 3)(z + 1)(z - 1)(z - 3) + 16} = \\sqrt{(z + 3)(z - 3)(z + 1)(z - 1) + 16}$",
+          "$= \\sqrt{(z^2 - 9)(z^2 - 1) + 16}$",
+          "$= \\sqrt{z^4 - 10z^2 + 9 + 16}$",
+          "$= \\sqrt{z^4 - 10z^2 + 25}$"
+        ]
+      }
+    },
+    {
+      "type": "solution_continuation",
+      "source_image": "image436.png",
+      "content": {
+        "for_problem": "11.13",
+        "recognition": "We recognize $z^4 - 10z^2 + 25$ as the square of $z^2 - 5$, so",
+        "formula": "$\\sqrt{(z + 3)(z + 1)(z - 1)(z - 3) + 16} = \\sqrt{z^4 - 10z^2 + 25} = z^2 - 5$",
+        "final_calculation": "For $z = 1995$, we have",
+        "computation": "$1995^2 - 5 = (2000 - 5)^2 - 5 = 2000^2 - 2(2000)(5) + 5^2 - 5 = 4000000 - 20000 + 25 - 5 = 3{,}980{,}020$",
+        "note": "Notice our varied use of our knowledge of special factorizations throughout this problem."
+      }
+    },
+    {
+      "type": "exercises",
+      "source_image": "image437.png",
+      "content": {
+        "section": "11.2",
+        "title": "Exercises",
+        "exercises": [
+          {
+            "id": "11.2.1",
+            "problem": "Factor each of the following expressions:",
+            "parts": [
+              {"part": "(a)", "expression": "$t^2 - 49$"},
+              {"part": "(b)", "expression": "$36 - 9x^2$"},
+              {"part": "(c)", "expression": "$121a^2b^4 - c^2$"},
+              {"part": "(d)", "expression": "$800x^4 - 72x^2y^2$"}
+            ]
+          },
+          {
+            "id": "11.2.2",
+            "problem": "Given that $55555^2 = 3086358025$, calculate $55556^2$ without a calculator.",
+            "source": "Mandelbrot"
+          },
+          {
+            "id": "11.2.3",
+            "parts": [
+              {"part": "(a)", "problem": "Are $3^8$ and $2^6$ perfect squares?"},
+              {"part": "(b)", "problem": "Find the prime factorization of $3^8 - 2^6$. Challenge: See if you can do it in your head!"}
+            ]
+          },
+          {
+            "id": "11.2.4",
+            "problem": "Factor $w^4 - 16$ as much as possible."
+          },
+          {
+            "id": "11.2.5",
+            "difficulty": "challenge",
+            "problem": "In the diagram, a square of side length $b$ is cut out of the corner of the square of side length $a$. Show that $a^2 - b^2 = (a - b)(a + b)$ geometrically, by finding the area of the remaining figure in two ways.",
+            "hints": "105"
+          },
+          {
+            "id": "11.2.6",
+            "difficulty": "challenge",
+            "problem": "Find $x - y$ given that $x^4 = y^4 + 18\\sqrt{3}$, $x^2 + y^2 = 6$, and $x + y = 3$.",
+            "source": "HMMT",
+            "hints": "141"
+          }
+        ]
+      }
+    },
+    {
+      "type": "section_header",
+      "source_image": "image438.png",
+      "content": {
+        "section": "11.3",
+        "title": "Sum and Difference of Cubes"
+      }
+    },
+    {
+      "type": "formula",
+      "source_image": "image439.png",
+      "content": {
+        "name": "Difference of Cubes",
+        "formula": "$x^3 - y^3 = (x - y)(x^2 + xy + y^2)$"
+      }
+    },
+    {
+      "type": "formula",
+      "source_image": "image440.png",
+      "content": {
+        "name": "Sum of Cubes",
+        "formula": "$x^3 + y^3 = (x + y)(x^2 - xy + y^2)$"
+      }
+    },
+    {
+      "type": "verification",
+      "source_image": "image441.png",
+      "content": {
+        "description": "Verification of difference of cubes formula",
+        "text": "We check this by expanding the product on the right side:",
+        "expansion": [
+          "$(x - y)(x^2 + xy + y^2) = x(x^2 + xy + y^2) - y(x^2 + xy + y^2)$",
+          "$= x^3 + x^2y + xy^2 - x^2y - xy^2 - y^3$",
+          "$= x^3 - y^3$"
+        ]
+      }
+    },
+    {
+      "type": "verification",
+      "source_image": "image442.png",
+      "content": {
+        "description": "Verification of sum of cubes formula",
+        "expansion": [
+          "$(x + y)(x^2 - xy + y^2) = x(x^2 - xy + y^2) + y(x^2 - xy + y^2)$",
+          "$= x^3 - x^2y + xy^2 + x^2y - xy^2 + y^3$",
+          "$= x^3 + y^3$"
+        ]
+      }
+    },
+    {
+      "type": "problem",
+      "source_image": "image443.png",
+      "content": {
+        "problem_id": "11.16",
+        "title": "Problem 11.16",
+        "problem": "Factor each of the following:",
+        "parts": [
+          {"part": "(a)", "expression": "$r^3 - 125$"},
+          {"part": "(b)", "expression": "$x^3 + 1000$"},
+          {"part": "(c)", "expression": "$27y^3 + 1$"},
+          {"part": "(d)", "expression": "$32t^3 - 108$"}
+        ]
+      }
+    },
+    {
+      "type": "solution",
+      "source_image": "image444.png",
+      "content": {
+        "for_problem": "11.16",
+        "part": "(a)",
+        "calculation": "$r^3 - 125 = r^3 - 5^3 = (r - 5)[r^2 + (r)(5) + 5^2] = (r - 5)(r^2 + 5r + 25)$"
+      }
+    },
+    {
+      "type": "solution",
+      "source_image": "image445.png",
+      "content": {
+        "for_problem": "11.16",
+        "part": "(b)",
+        "calculation": "$x^3 + 1000 = x^3 + 10^3 = (x + 10)[x^2 - (x)(10) + 10^2] = (x + 10)(x^2 - 10x + 100)$"
+      }
+    },
+    {
+      "type": "solution",
+      "source_image": "image446.png",
+      "content": {
+        "for_problem": "11.16",
+        "part": "(c)",
+        "calculation": "$27y^3 + 1 = (3y)^3 + 1^3 = (3y + 1)[(3y)^2 - (3y)(1) + 1^2] = (3y + 1)(9y^2 - 3y + 1)$"
+      }
+    },
+    {
+      "type": "solution",
+      "source_image": "image447.png",
+      "content": {
+        "for_problem": "11.16",
+        "part": "(d)",
+        "calculation": "$32t^3 - 108 = 4(8t^3 - 27) = 4[(2t)^3 - 3^3] = 4(2t - 3)[(2t)^2 + (2t)(3) + 3^2] = 4(2t - 3)(4t^2 + 6t + 9)$"
+      }
+    },
+    {
+      "type": "problem",
+      "source_image": "image448.png",
+      "content": {
+        "problem_id": "11.17",
+        "title": "Problem 11.17",
+        "problem": "The number 7,999,999,999 has two prime factors. Find them.",
+        "source": "HMMT"
+      }
+    },
+    {
+      "type": "solution",
+      "source_image": "image448.png",
+      "content": {
+        "for_problem": "11.17",
+        "text": "We need to write our giant number as a product, and it's not at all obvious what primes divide it. Since we are trying to factor the number, let's approach it as a factoring problem. We do have some powerful factoring tools in the difference of squares and difference of cubes factorizations. And the number we're given is tellingly close to 8,000,000,000. 8 is a perfect cube, and 1,000,000,000 is the cube of 1000, so",
+        "calculation": [
+          "$8{,}000{,}000{,}000 = (8)(1{,}000{,}000{,}000) = (2^3)(1000^3) = (2000)^3$",
+          "$7{,}999{,}999{,}999 = 8{,}000{,}000{,}000 - 1$",
+          "$= 2000^3 - 1^3$",
+          "$= (2000 - 1)(2000^2 + 2000 + 1)$",
+          "$= (1999)(4002001)$"
+        ]
+      }
+    },
+    {
+      "type": "solution_continuation",
+      "source_image": "image449.png",
+      "content": {
+        "for_problem": "11.17",
+        "conclusion": "Since we are told that 7,999,999,999 has two prime factors, they must be 1999 and 4002001."
+      }
+    },
+    {
+      "type": "problem",
+      "source_image": "image450.png",
+      "content": {
+        "problem_id": "11.18",
+        "title": "Problem 11.18",
+        "problem": "The unknown real numbers $x$, $y$, $z$ satisfy the equations\n$$\\frac{x + y}{1 + z} = \\frac{1 - z + z^2}{x^2 - xy + y^2},$$\n$$\\frac{x - y}{3 - z} = \\frac{9 + 3z + z^2}{x^2 + xy + y^2}.$$\nFind $x$.",
+        "source": "HMMT"
+      }
+    },
+    {
+      "type": "solution",
+      "source_image": "image451.png",
+      "content": {
+        "for_problem": "11.18",
+        "text": "Just as important as recognizing the difference or sum of cubes in a problem is recognizing the factors. Typically, the quadratic factor is the easier one to spot in the sum and difference of cubes factorizations. Here, the $x^2 - xy + y^2$ and $x^2 + xy + y^2$ are giveaways. We see that when we cross-multiply the first equation, we'll have two factored sums of cubes:",
+        "equation1": "$(x + y)(x^2 - xy + y^2) = (1 + z)(1 - z + z^2)$",
+        "recognition": "We recognize these as the factorizations of sums of cubes, so we don't have to go through the steps of multiplying both sides out. We know the result is",
+        "result1": "$x^3 + y^3 = 1^3 + z^3$",
+        "equation2": "After cross-multiplying, the second equation is a pair of factored differences of cubes:",
+        "factored2": "$(x - y)(x^2 + xy + y^2) = (3 - z)(9 + 3z + z^2)$",
+        "result2": "Once again, we recognize these factors, and we immediately see that $x^3 - y^3 = 27 - z^3$. We now have a much simpler system of equations:",
+        "system": [
+          "$x^3 + y^3 = 1 + z^3$",
+          "$x^3 - y^3 = 27 - z^3$"
+        ],
+        "final": "We're looking for $x$, and adding these equations eliminates $y$ and $z$ to give $2x^3 = 28$, from which we find $x = \\sqrt[3]{14}$."
+      }
+    },
+    {
+      "type": "exercises",
+      "source_image": "image452.png",
+      "content": {
+        "section": "11.3",
+        "title": "Exercises",
+        "exercises": [
+          {
+            "id": "11.3.1",
+            "problem": "Factor each of the following:",
+            "parts": [
+              {"part": "(a)", "expression": "$x^3 - 1000$"},
+              {"part": "(b)", "expression": "$27r^3 + 64$"},
+              {"part": "(c)", "expression": "$2z^3 - 16z^6$"},
+              {"part": "(d)", "expression": "$-a^3b^3 - 8$"}
+            ]
+          },
+          {
+            "id": "11.3.2",
+            "problem": "Find the prime factorization of $3^6 + 2^9$ without a calculator."
+          },
+          {
+            "id": "11.3.3",
+            "problem": "Express $x^6 - 64$ as the product of four factors."
+          },
+          {
+            "id": "11.3.4",
+            "parts": [
+              {"part": "(a)", "problem": "The expression $x^4 - y^4$ can be written as the product of $x - y$ and another factor. Find that other factor."},
+              {"part": "(b)", "problem": "The expression $x^5 - y^5$ can be written as the product of $x - y$ and another factor. Find that other factor."},
+              {"part": "(c)", "difficulty": "challenge", "problem": "Write $x^k - y^k$ as the product of two factors."}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "source_image": "image453.png",
+      "content": {
+        "id": "11.3.5",
+        "difficulty": "challenge",
+        "problem": "Let $x$ and $y$ be numbers such that $|x| \\neq |y|$, $x^3 = 15x + 4y$, and $y^3 = 4x + 15y$. In this problem we find $x^2 + y^2$.",
+        "source": "Dropped AIME",
+        "parts": [
+          {"part": "(a)", "problem": "Combine the equations for $x^3$ and $y^3$ in ways that allow you to use the sum and difference of cubes factorization.", "hints": "177"},
+          {"part": "(b)", "problem": "Use your results from part (a) to find $x^2 + y^2$."}
+        ]
+      }
+    },
+    {
+      "type": "section_header",
+      "source_image": "image454.png",
+      "content": {
+        "title": "Rationalizing Denominators"
+      }
+    },
+    {
+      "type": "concept",
+      "source_image": "image455.png",
+      "content": {
+        "type": "important",
+        "title": "Rationalizing Simple Square Root Denominators",
+        "text": "To rationalize the denominator of a fraction of the form $\\frac{a}{\\sqrt{b}}$, multiply the numerator and denominator of the fraction by $\\sqrt{b}$:",
+        "formula": "$\\frac{a}{\\sqrt{b}} = \\frac{a}{\\sqrt{b}} \\cdot \\frac{\\sqrt{b}}{\\sqrt{b}} = \\frac{a\\sqrt{b}}{\\sqrt{b^2}} = \\frac{a\\sqrt{b}}{b}$"
+      }
+    },
+    {
+      "type": "example",
+      "source_image": "image456.png",
+      "content": {
+        "description": "Rationalizing a simple square root denominator",
+        "calculation": "$\\frac{1}{\\sqrt{2}} = \\frac{1}{\\sqrt{2}} \\cdot \\frac{\\sqrt{2}}{\\sqrt{2}} = \\frac{\\sqrt{2}}{2}$"
+      }
+    },
+    {
+      "type": "example",
+      "source_image": "image457.png",
+      "content": {
+        "description": "Rationalizing a cube root denominator",
+        "calculation": "$\\frac{6}{\\sqrt[3]{3}} = \\frac{6}{\\sqrt[3]{3}} \\cdot \\frac{\\sqrt[3]{3^2}}{\\sqrt[3]{3^2}} = \\frac{6\\sqrt[3]{9}}{\\sqrt[3]{3^3}} = \\frac{6\\sqrt[3]{9}}{3} = 2\\sqrt[3]{9}$"
+      }
+    },
+    {
+      "type": "example",
+      "source_image": "image458.png",
+      "content": {
+        "description": "Rationalizing using difference of squares (conjugate)",
+        "calculation": "$\\frac{1}{\\sqrt{7} - \\sqrt{6}} = \\frac{1}{\\sqrt{7} - \\sqrt{6}} \\cdot \\frac{\\sqrt{7} + \\sqrt{6}}{\\sqrt{7} + \\sqrt{6}} = \\frac{\\sqrt{7} + \\sqrt{6}}{1} = \\sqrt{7} + \\sqrt{6}$"
+      }
+    },
+    {
+      "type": "concept",
+      "source_image": "image459.png",
+      "content": {
+        "description": "Rationalizing binomial radical denominators",
+        "text": "If the denominator of a fraction is $a\\sqrt{b} + c\\sqrt{d}$, then we can rationalize the denominator by multiplying by $a\\sqrt{b} - c\\sqrt{d}$."
+      }
+    },
+    {
+      "type": "problem",
+      "source_image": "image460.png",
+      "content": {
+        "problem_id": "11.21",
+        "title": "Problem 11.21",
+        "problem": "Rationalize the denominator of $\\frac{1}{\\sqrt{2} + \\sqrt{3} + \\sqrt{5}}$."
+      }
+    }
+  ]
+}

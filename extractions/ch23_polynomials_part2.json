@@ -1,0 +1,592 @@
+{
+  "chapter": 23,
+  "title": "Polynomials",
+  "part": 2,
+  "image_range": "2253-2292",
+  "content": [
+    {
+      "type": "example",
+      "number": 5,
+      "title": "Factorise",
+      "problems": [
+        {
+          "part": "a",
+          "problem": "2x^3 + 5x^2 - 3x",
+          "solution": "2x^3 + 5x^2 - 3x = x(2x^2 + 5x - 3) = x(2x - 1)(x + 3)"
+        },
+        {
+          "part": "b",
+          "problem": "z^2 + 4z + 9",
+          "solution": "z^2 + 4z + 9 is zero when z = (-4 +/- sqrt(16 - 36))/2 = (-4 +/- sqrt(-20))/2 = (-4 +/- 2i*sqrt(5))/2 = -2 +/- i*sqrt(5). Therefore z^2 + 4z + 9 = (z - [-2 + i*sqrt(5)])(z - [-2 - i*sqrt(5)]) = (z + 2 - i*sqrt(5))(z + 2 + i*sqrt(5))"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "number": "5 (continued)",
+      "problems": [
+        {
+          "number": 5,
+          "description": "Factorise into the product of linear factors",
+          "parts": [
+            {"part": "a", "expression": "2x^2 - 7x - 15"},
+            {"part": "b", "expression": "z^2 - 6z + 16"},
+            {"part": "c", "expression": "x^3 + 2x^2 - 4x"},
+            {"part": "d", "expression": "6z^3 - z^2 - 2z"},
+            {"part": "e", "expression": "z^4 - 6z^2 + 5"},
+            {"part": "f", "expression": "z^4 - z^2 - 2"}
+          ]
+        },
+        {
+          "number": 6,
+          "description": "Find the real linear factors and corresponding zeros of",
+          "parts": [
+            {"part": "a", "expression": "x^2 - 6x - 16"},
+            {"part": "b", "expression": "2x^2 - 7x - 15"},
+            {"part": "c", "expression": "x^2 + 3x + 4"},
+            {"part": "d", "expression": "x^3 + 2x^2 - 4x"},
+            {"part": "e", "expression": "6z^3 - z^2 - 2z"},
+            {"part": "f", "expression": "z^4 + 3z^2 - 18"}
+          ]
+        },
+        {
+          "number": 7,
+          "description": "If P(x) = a(x - alpha)(x - beta)(x - gamma) then alpha, beta, and gamma are its zeros. Verify this statement by finding P(alpha), P(beta), and P(gamma)."
+        },
+        {
+          "number": 8,
+          "description": "The graph of the polynomial P(x) has three x-intercepts, alpha, beta, and gamma.",
+          "parts": [
+            {"part": "a", "question": "State the values of P(alpha), P(beta), and P(gamma)."},
+            {"part": "b", "question": "Explain why P(x) cannot have a factor (x - a) such that a != alpha, beta, or gamma."}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "example",
+      "number": 6,
+      "title": "Find all real cubic polynomials with zeros 1/2 and -3 +/- 2i",
+      "solution": "The zeros -3 +/- 2i have sum = -3 + 2i - 3 - 2i = -6 and product = (-3 + 2i)(-3 - 2i) = 13. Therefore they come from the quadratic factor x^2 + 6x + 13. 1/2 comes from the linear factor 2x - 1. Therefore P(x) = a(2x - 1)(x^2 + 6x + 13), a != 0."
+    },
+    {
+      "type": "example",
+      "number": 7,
+      "title": "Find all real quartic polynomials with zeros 2, -1/3, and -1 +/- sqrt(5)",
+      "solution": "The zeros -1 +/- sqrt(5) have sum = -1 + sqrt(5) - 1 - sqrt(5) = -2 and product = (-1 + sqrt(5))(-1 - sqrt(5)) = -4. Therefore they come from the quadratic factor x^2 + 2x - 4. The zeros 2 and -1/3 come from the linear factors (x - 2) and (3x + 1). Therefore P(x) = a(x - 2)(3x + 1)(x^2 + 2x - 4), a != 0."
+    },
+    {
+      "type": "exercise",
+      "number": "5 (continued)",
+      "problems": [
+        {
+          "number": 9,
+          "description": "Find all real quadratic functions with zeros",
+          "parts": [
+            {"part": "a", "zeros": "0 and -2/3"},
+            {"part": "b", "zeros": "2 +/- sqrt(3)"},
+            {"part": "c", "zeros": "-1 and 1 - sqrt(2)"},
+            {"part": "d", "zeros": "3 +/- i"},
+            {"part": "e", "zeros": "1 +/- 3i"},
+            {"part": "f", "zeros": "-2 +/- 5i"},
+            {"part": "g", "zeros": "-3 +/- sqrt(2)"},
+            {"part": "h", "zeros": "+/- i*sqrt(2)"},
+            {"part": "i", "zeros": "sqrt(2) +/- i"}
+          ]
+        },
+        {
+          "number": 10,
+          "description": "Show that if the zeros of the quadratic function P(x) are p +/- qi, then the function has the form P(x) = a(x^2 - 2px + (p^2 + q^2)) for some constant a != 0."
+        },
+        {
+          "number": 11,
+          "description": "Find all real cubic polynomials with zeros",
+          "parts": [
+            {"part": "a", "zeros": "+/- 2, 3"},
+            {"part": "b", "zeros": "-2, +/- 4i"},
+            {"part": "c", "zeros": "3, -1 +/- i"},
+            {"part": "d", "zeros": "-5, -3 +/- 2i"},
+            {"part": "e", "zeros": "-1, 3 +/- sqrt(2)"},
+            {"part": "f", "zeros": "sqrt(2), -2 +/- i*sqrt(2)"}
+          ]
+        },
+        {
+          "number": 12,
+          "description": "Find all real quartic polynomials with zeros",
+          "parts": [
+            {"part": "a", "zeros": "-2, 0, 1, 5"},
+            {"part": "b", "zeros": "+/- 1, +/- sqrt(2)"},
+            {"part": "c", "zeros": "2, -1, +/- i*sqrt(3)"},
+            {"part": "d", "zeros": "2 +/- sqrt(3), 4, 0"},
+            {"part": "e", "zeros": "+/- sqrt(3), 1 +/- i"},
+            {"part": "f", "zeros": "2 +/- sqrt(5), -2 +/- 3i"}
+          ]
+        },
+        {
+          "number": 13,
+          "parts": [
+            {"part": "a", "description": "Suppose a quadratic function with rational coefficients has the irrational zero p + q*sqrt(n). Prove that the other zero must be the radical conjugate p - q*sqrt(n)."},
+            {"part": "b", "description": "1 - sqrt(2) is a zero of x^2 + ax + b where a, b in Q. Find a and b."},
+            {"part": "c", "description": "Find all real quadratic functions with rational coefficients and one zero 2 + sqrt(5)."}
+          ]
+        },
+        {
+          "number": 14,
+          "parts": [
+            {"part": "a", "description": "Prove that if a real quadratic function has one zero p + qi, then the other zero must be complex conjugate p - qi."},
+            {"part": "b", "description": "3 + i is a zero of x^2 + ax + b where a, b in R. Find a and b."},
+            {"part": "c", "description": "Find all real quadratic functions with one zero sqrt(2) + i."},
+            {"part": "d", "description": "a + ai is a zero of x^2 + 4x + b where a, b in R. Find a and b."}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Equality of Polynomials",
+      "content": "Two polynomials are equal if and only if they have the same degree (order) and corresponding terms have equal coefficients. If we know two polynomials are equal, we can equate coefficients to find unknown coefficients. For example, if x^3 - 2x^2 + 3x + 7 = ax^3 + bx^2 + cx + d, where a, b, c, d in R, then a = 1, b = -2, c = 3, and d = 7."
+    },
+    {
+      "type": "example",
+      "number": 8,
+      "title": "Find constants a, b, and c given that: 4x^3 + 10x^2 - x + 15 = (x + 3)(ax^2 + bx + c) for all x",
+      "solution": "4x^3 + 10x^2 - x + 15 = (x + 3)(ax^2 + bx + c) = ax^3 + bx^2 + cx + 3ax^2 + 3bx + 3c = ax^3 + (3a + b)x^2 + (3b + c)x + 3c. Since this is true for all x, we equate coefficients: a = 4 (x^3 terms), 3a + b = 10 (x^2 terms), 3b + c = -1 (x terms), and 3c = 15 (constant terms). Therefore a = 4 and c = 5. From 12 + b = 10 and 3b + 5 = -1, we get b = -2 in both equations. So, a = 4, b = -2, and c = 5."
+    },
+    {
+      "type": "example",
+      "number": 9,
+      "title": "Find constants a and b if z^4 + 9 = (z^2 + az + 3)(z^2 + bz + 3) for all z",
+      "solution": "z^4 + 9 = (z^2 + az + 3)(z^2 + bz + 3) for all z. Expanding: = z^4 + bz^3 + 3z^2 + az^3 + abz^2 + 3az + 3z^2 + 3bz + 9 = z^4 + (a + b)z^3 + (ab + 6)z^2 + (3a + 3b)z + 9 for all z. Equating coefficients gives: a + b = 0 (equation 1), ab + 6 = 0 (equation 2), 3a + 3b = 0 (equation 3). From (1) and (3), b = -a. In (2), a(-a) + 6 = 0, so a^2 = 6. Therefore a = +/- sqrt(6) and so b = -/+ sqrt(6). Thus a = sqrt(6), b = -sqrt(6) or a = -sqrt(6), b = sqrt(6)."
+    },
+    {
+      "type": "exercise",
+      "number": "5D",
+      "problems": [
+        {
+          "number": 1,
+          "description": "Find constants a, b, and c given that",
+          "parts": [
+            {"part": "a", "equation": "2x^2 + 4x + 5 = ax^2 + (2b - 6)x + c for all x"},
+            {"part": "b", "equation": "x^3 + 2x^2 - 3x + 4 = (x - 2)(x^2 + ax + b) + c for all x"},
+            {"part": "c", "equation": "2x^3 - x^2 + 6 = (x - 1)^2(2x + a) + bx + c for all x"}
+          ]
+        },
+        {
+          "number": 2,
+          "description": "Find constants a and b if",
+          "parts": [
+            {"part": "a", "equation": "z^4 + 4 = (z^2 + az + 2)(z^2 + bz + 2) for all z"},
+            {"part": "b", "equation": "z^4 + z^3 + z^2 - 9z - 10 = (z^2 + az + 5)(z^2 + bz - 2) for all z"},
+            {"part": "c", "equation": "2z^4 + 5z^3 + 4z^2 + 7z + 6 = (z^2 + az + 2)(2z^2 + bz + 3) for all z"}
+          ]
+        },
+        {
+          "number": 3,
+          "description": "Show that z^4 + 64 can be factorised into two real quadratic factors of the form z^2 + az + 8 and z^2 + bz + 8, but cannot be factorised into two real quadratic factors of the form z^2 + az + 16 and z^2 + bz + 4."
+        },
+        {
+          "number": 4,
+          "description": "Find real numbers a and b such that x^4 - 4x^2 + 8x - 4 = (x^2 + ax + 2)(x^2 + bx - 2). Hence find x in R such that x^4 + 8x = 4x^2 + 4."
+        },
+        {
+          "number": 5,
+          "description": "Find real numbers c and d such that x^4 - 10x^2 + 1 = (x^2 + cx + 1)(x^2 + dx + 1). Hence find x in R such that x^4 + 1 = 10x^2."
+        }
+      ]
+    },
+    {
+      "type": "example",
+      "number": 10,
+      "title": "(2x + 3) and (x - 1) are factors of 2x^4 + ax^3 - 3x^2 + bx + 3. Find constants a and b, and all zeros of the polynomial.",
+      "solution": "Since (2x + 3) and (x - 1) are factors, the coefficient of x^4 is 2 * 1 * 1 = 2 and the constant term is 3 * -1 * -1 = 3. So 2x^4 + ax^3 - 3x^2 + bx + 3 = (2x + 3)(x - 1)(x^2 + cx - 1) for some c. Expanding: = (2x^2 + x - 3)(x^2 + cx - 1) = 2x^4 + 2cx^3 - 2x^2 + x^3 + cx^2 - x - 3x^2 - 3cx + 3 = 2x^4 + (2c + 1)x^3 + (c - 5)x^2 + (-1 - 3c)x + 3. Equating coefficients gives 2c + 1 = a, c - 5 = -3, and -1 - 3c = b. Therefore c = 2. So a = 5 and b = -7. Thus P(x) = 2x^4 + 5x^3 - 3x^2 - 7x + 3 = (2x + 3)(x - 1)(x^2 + 2x - 1). Now x^2 + 2x - 1 has zeros (-2 +/- sqrt(4 + 4))/2 = (-2 +/- 2*sqrt(2))/2 = -1 +/- sqrt(2)."
+    },
+    {
+      "type": "exercise",
+      "number": "5D (continued)",
+      "problems": [
+        {
+          "number": 6,
+          "parts": [
+            {"part": "a", "description": "(2z - 3) is a factor of 2z^3 + az^2 - 17z + 12. Find a in R and all zeros of the cubic."},
+            {"part": "b", "description": "(3z + 2) is a factor of 3z^3 - z^2 + (a - 4)z + a. Find a in R and all the zeros of the cubic."}
+          ]
+        },
+        {
+          "number": 7,
+          "parts": [
+            {"part": "a", "description": "(2x + 1) and (x - 2) are factors of P(x) = 2x^4 + ax^3 + bx^2 + 18x + 8. Find constants a and b, and all zeros of P(x)."},
+            {"part": "b", "description": "(x + 3) and (2x - 1) are factors of 2x^4 + ax^3 + bx^2 + ax + 3. Find constants a and b, and hence determine all zeros of the quartic."}
+          ]
+        },
+        {
+          "number": 8,
+          "description": "Find k given that 4x^4 - 4x^3 + kx^2 - 6x + 9 is a perfect square."
+        },
+        {
+          "number": 9,
+          "description": "Write x^4 - 2x^3 - 3x^2 + 4x + 3 in the form a(x^2 - x)^2 + b(x^2 - x) + c where a, b, c are constants. Hence find all zeros of the polynomial."
+        },
+        {
+          "number": 10,
+          "parts": [
+            {"part": "a", "description": "x^3 + x^2 - 16x + k, k in R, has two identical linear factors. Find k, and hence factorise the cubic into linear factors."},
+            {"part": "b", "description": "x^3 + 3x^2 - 9x + c, c in R, has two identical linear factors. Prove that c is either 5 or -27, and factorise the cubic into linear factors in each case."},
+            {"part": "c", "description": "3x^3 + 4x^2 - x + m, m in R, has two identical linear factors. Find the possible values of m, and find the zeros of the polynomial in each case."}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "The Remainder Theorem",
+      "content": "Consider the real cubic polynomial P(x) = x^3 + 5x^2 - 11x + 3. If we divide P(x) by x - 2, we find that (x^3 + 5x^2 - 11x + 3)/(x - 2) = x^2 + 7x + 3 + 9/(x - 2). So, when P(x) is divided by x - 2, the remainder is 9. Notice that P(2) = 8 + 20 - 22 + 3 = 9, which is the remainder. By considering other examples like the one above, we formulate the Remainder theorem: When a polynomial P(x) is divided by x - k until a constant remainder R is obtained, then R = P(k)."
+    },
+    {
+      "type": "theorem",
+      "name": "Remainder Theorem",
+      "statement": "When a polynomial P(x) is divided by x - k until a constant remainder R is obtained, then R = P(k).",
+      "proof": "By the division algorithm, P(x) = Q(x)(x - k) + R. Letting x = k, P(k) = Q(k) * 0 + R. Therefore P(k) = R."
+    },
+    {
+      "type": "concept",
+      "title": "Equivalent Statements for Remainder Theorem",
+      "content": "When using the Remainder theorem, it is important to realise that the following statements are equivalent: P(x) = (x - k)Q(x) + R; P(k) = R; P(x) divided by x - k leaves a remainder of R."
+    },
+    {
+      "type": "example",
+      "number": 14,
+      "title": "Use the Remainder theorem to find the remainder when x^4 - 3x^3 + x - 4 is divided by x + 2",
+      "solution": "If P(x) = x^4 - 3x^3 + x - 4, then P(-2) = (-2)^4 - 3(-2)^3 + (-2) - 4 = 16 + 24 - 2 - 4 = 34. Therefore when x^4 - 3x^3 + x - 4 is divided by x + 2, the remainder is 34. {Remainder theorem}"
+    },
+    {
+      "type": "example",
+      "number": 15,
+      "title": "When x^3 + 4x^2 + ax + b is divided by x - 2 the remainder is 20, and when divided by x + 5 the remainder is 6. Find a and b.",
+      "solution": "Let P(x) = x^3 + 4x^2 + ax + b. Therefore P(2) = 20 and P(-5) = 6 {Remainder theorem}. So, (2)^3 + 4(2)^2 + a(2) + b = 20, which gives 8 + 16 + 2a + b = 20, so 2a + b = -4 ... (1). And (-5)^3 + 4(-5)^2 + a(-5) + b = 6, which gives -125 + 100 - 5a + b = 6, so -5a + b = 31 ... (2). Solving simultaneously: 2a + b = -4 {(1)} and 5a - b = -31 {-(2)}. Adding, 7a = -35, so a = -5. Substituting a = -5 into (1), 2(-5) + b = -4, so b = 6."
+    },
+    {
+      "type": "example",
+      "number": 16,
+      "title": "When P(x) is divided by x^2 - 3x + 7, the quotient is x^2 + x - 1 and the remainder R(x) is unknown. When P(x) is divided by x - 2 the remainder is 29. When P(x) is divided by x + 1 the remainder is -16. Find R(x) in the form ax + b.",
+      "solution": "When the divisor is x^2 - 3x + 7, P(x) = (x^2 + x - 1)(x^2 - 3x + 7) + ax + b, where Q(x) = x^2 + x - 1, D(x) = x^2 - 3x + 7, and R(x) = ax + b. Now P(2) = 29 {Remainder theorem}. So (2^2 + 2 - 1)(2^2 - 6 + 7) + 2a + b = 29, giving (5)(5) + 2a + b = 29, so 2a + b = 4 ... (1). Also, P(-1) = -16 {Remainder theorem}. So ((-1)^2 + (-1) - 1)((-1)^2 - 3(-1) + 7) + (-a + b) = -16, giving (-1)(11) - a + b = -16, so -a + b = -5 ... (2). Solving (1) and (2) simultaneously gives a = 3 and b = -2. Therefore R(x) = 3x - 2."
+    },
+    {
+      "type": "exercise",
+      "number": "5F",
+      "problems": [
+        {
+          "number": 1,
+          "description": "For P(x) a real polynomial, write two equivalent statements for each of",
+          "parts": [
+            {"part": "a", "statement": "If P(2) = 7, then ......"},
+            {"part": "b", "statement": "If P(x) = Q(x)(x + 3) - 8, then ......"},
+            {"part": "c", "statement": "If P(x) divided by x - 5 has a remainder of 11 then ......"}
+          ]
+        },
+        {
+          "number": 2,
+          "description": "Without performing division, find the remainder when",
+          "parts": [
+            {"part": "a", "expression": "x^3 + 2x^2 - 7x + 5 is divided by x - 1"},
+            {"part": "b", "expression": "2x^3 - 8x + 11 is divided by x + 3"},
+            {"part": "c", "expression": "x^4 - 2x^2 + 3x - 1 is divided by x + 2"}
+          ]
+        },
+        {
+          "number": 3,
+          "description": "Find a in R given that",
+          "parts": [
+            {"part": "a", "condition": "when x^3 - 2x + a is divided by x - 2, the remainder is 7"},
+            {"part": "b", "condition": "when 2x^3 + x^2 + ax - 5 is divided by x + 1, the remainder is -8"}
+          ]
+        },
+        {
+          "number": 4,
+          "description": "When x^3 + 2x^2 + ax + b is divided by x - 1 the remainder is 4, and when divided by x + 2 the remainder is 16. Find constants a and b."
+        },
+        {
+          "number": 5,
+          "description": "2x^n + ax^2 - 6 leaves a remainder of -7 when divided by x - 1, and 129 when divided by x + 3. Find a and n given that n in Z^+."
+        },
+        {
+          "number": 6,
+          "description": "Consider f(x) = 2x^3 + ax^2 - 3x + b. When f(x) is divided by x + 1, the remainder is 7. When f(x) is divided by x - 2, the remainder is 28. Find the remainder when f(x) is divided by x + 3."
+        },
+        {
+          "number": 7,
+          "parts": [
+            {"part": "a", "description": "Suppose a polynomial P(x) is divided by 2x - 1 until a constant remainder R is obtained. Show that R = P(1/2). Hint: P(x) = Q(x)(2x - 1) + R."},
+            {"part": "b", "description": "Hence find the remainder when: i) 4x^2 - 10x + 1 is divided by 2x - 1, ii) 2x^3 - 5x^2 + 8 is divided by 2x - 1."}
+          ]
+        },
+        {
+          "number": 8,
+          "description": "Find the remainder when 4x^3 + 7x - 3 is divided by 2x + 1."
+        },
+        {
+          "number": 9,
+          "description": "When 2x^3 + ax^2 + bx + 4 is divided by x + 1 the remainder is -5, and when divided by 2x - 1 the remainder is 10. Find a and b."
+        },
+        {
+          "number": 10,
+          "description": "When P(z) is divided by z^2 - 3z + 2 the remainder is 4z - 7. Find the remainder when P(z) is divided by: a) z - 1, b) z - 2."
+        },
+        {
+          "number": 11,
+          "description": "When P(x) is divided by x^2 - x + 3, the quotient is x^2 + 4x - 1 and the remainder R(x) is unknown. When P(x) is divided by x - 1, the remainder is 10. When P(x) is divided by x + 3, the remainder is -42. Find R(x) in the form ax + b."
+        },
+        {
+          "number": 12,
+          "description": "When P(z) is divided by z + 1 the remainder is -8, and when divided by z - 3 the remainder is 4. Find the remainder when P(z) is divided by (z - 3)(z + 1)."
+        },
+        {
+          "number": 13,
+          "description": "If P(x) is divided by (x - a)(x - b), where a != b, a, b in R, prove that the remainder is: ((P(b) - P(a))/(b - a)) * (x - a) + P(a)."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "number": "24C",
+      "problems": [
+        {
+          "number": 1,
+          "description": "Use the Remainder theorem to find the remainder when",
+          "parts": [
+            {"part": "a", "expression": "3x^2 - 4x + 7 is divided by (x - 2)"},
+            {"part": "b", "expression": "x^3 + 2x^2 - 5x + 2 is divided by (x + 4)"},
+            {"part": "c", "expression": "2x^3 - 7x + 13 is divided by (x - 3)"}
+          ]
+        },
+        {
+          "number": 3,
+          "description": "Find a given that",
+          "parts": [
+            {"part": "a", "condition": "x^2 + 5x + a divided by (x + 1) has remainder -6"},
+            {"part": "b", "condition": "-2x^2 + ax + 8 divided by (x - 3) has remainder 2"},
+            {"part": "c", "condition": "x^3 + ax^2 + 3x - 1 divided by (x + 4) has remainder 3"}
+          ]
+        },
+        {
+          "number": 4,
+          "description": "Find a and b given that",
+          "parts": [
+            {"part": "a", "condition": "x^2 + ax + b has remainder 4 when divided by (x - 3), and remainder 19 when divided by (x + 2)"},
+            {"part": "b", "condition": "x^3 + 4x^2 + ax + b has remainder 20 when divided by (x - 2), and remainder 6 when divided by (x + 5)"},
+            {"part": "c", "condition": "ax^4 + 2x^3 + bx - 8 has remainder 0 when divided by either (x - 1) or (x + 2)"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "theorem",
+      "name": "Factor Theorem",
+      "statement": "For any polynomial P(x), k is a zero of P(x) if and only if (x - k) is a factor of P(x).",
+      "proof": "k is a zero of P(x) <=> P(k) = 0 {definition of a zero} <=> R = 0 {Remainder theorem} <=> P(x) = Q(x)(x - k) {division algorithm} <=> (x - k) is a factor of P(x) {definition of a factor}",
+      "note": "The Factor theorem says that if 2 is a zero of P(x) then (x - 2) is a factor of P(x), and vice versa."
+    },
+    {
+      "type": "example",
+      "number": 17,
+      "title": "Find k given that (x - 2) is a factor of x^3 + kx^2 - 3x + 6. Hence fully factorise x^3 + kx^2 - 3x + 6.",
+      "solution": "Let P(x) = x^3 + kx^2 - 3x + 6. Since (x - 2) is a factor, P(2) = 0 {Factor theorem}. Therefore (2)^3 + k(2)^2 - 3(2) + 6 = 0, so 8 + 4k = 0, hence k = -2. We now use division to find the other factors of P(x): Using division algorithm or synthetic division: x^3 - 2x^2 - 3x + 6 divided by (x - 2) gives x^2 - 3. Therefore P(x) = (x - 2)(x^2 - 3) = (x - 2)(x + sqrt(3))(x - sqrt(3))."
+    },
+    {
+      "type": "example",
+      "number": "10 (alternate)",
+      "title": "Determine whether: a) (x - 2) is a factor of x^3 + 3x^2 - 13x + 6, b) (x + 3) is a factor of x^3 - 8x + 7",
+      "solution": [
+        {
+          "part": "a",
+          "work": "Let P(x) = x^3 + 3x^2 - 13x + 6. Therefore P(2) = (2)^3 + 3(2)^2 - 13(2) + 6 = 8 + 12 - 26 + 6 = 0. Since P(2) = 0, (x - 2) is a factor of x^3 + 3x^2 - 13x + 6. {Factor theorem}"
+        },
+        {
+          "part": "b",
+          "work": "Let P(x) = x^3 - 8x + 7. Therefore P(-3) = (-3)^3 - 8(-3) + 7 = -27 + 24 + 7 = 4. Since P(-3) != 0, (x + 3) is not a factor of x^3 - 8x + 7. {Factor theorem}. When x^3 - 8x + 7 is divided by (x + 3), a remainder of 4 is left over."
+        }
+      ]
+    },
+    {
+      "type": "example",
+      "number": 11,
+      "title": "Find c given that (x + 2) is a factor of x^3 + 7x^2 + cx - 12",
+      "solution": "Let P(x) = x^3 + 7x^2 + cx - 12. Now P(-2) = 0 {Factor theorem}. Therefore (-2)^3 + 7(-2)^2 + c(-2) - 12 = 0, so -8 + 28 - 2c - 12 = 0, hence 8 = 2c, and c = 4."
+    },
+    {
+      "type": "exercise",
+      "number": "24D",
+      "problems": [
+        {
+          "number": 1,
+          "description": "Use the Factor theorem to determine whether",
+          "parts": [
+            {"part": "a", "question": "(x - 1) is a factor of 4x^3 - 7x^2 + 5x - 2"},
+            {"part": "b", "question": "(x - 3) is a factor of x^4 - x^3 - 4x^2 - 15"},
+            {"part": "c", "question": "(x + 2) is a factor of 3x^3 + 5x^2 - 6x - 8"},
+            {"part": "d", "question": "(x + 4) is a factor of 2x^3 + 6x^2 + 4x + 16"}
+          ]
+        },
+        {
+          "number": 2,
+          "parts": [
+            {"part": "a", "description": "Find c given that (x + 1) is a factor of 5x^3 - 3x^2 + cx + 10."},
+            {"part": "b", "description": "Find c given that (x - 3) is a factor of x^4 - 2x^3 + cx^2 - 4x + 3."},
+            {"part": "c", "description": "Find b given that (x + 2) is a factor of x^6 + bx^5 - 2x^3 - 5x + 6."}
+          ]
+        },
+        {
+          "number": 3,
+          "parts": [
+            {"part": "a", "description": "Find a and b given that (x - 1) and (x + 2) are factors of ax^3 - 4x^2 - 7x + b."},
+            {"part": "b", "description": "Find p and q given that (x + 1) and (x - 3) are factors of px^4 - 5x^3 - 5x^2 + qx + 9."}
+          ]
+        },
+        {
+          "number": 4,
+          "description": "Consider the cubic polynomial f(x) = x^3 - 2x^2 - 23x + 60.",
+          "parts": [
+            {"part": "a", "question": "Show that (x - 3) is a factor of f(x)."},
+            {"part": "b", "question": "Find (x^3 - 2x^2 - 23x + 60)/(x - 3)."},
+            {"part": "c", "question": "Hence, write f(x) in the form f(x) = (x - 3)Q(x), where Q(x) is a quadratic polynomial."},
+            {"part": "d", "question": "By factorising Q(x), write f(x) in fully factorised form."}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "number": "5G",
+      "problems": [
+        {
+          "number": 1,
+          "description": "Use the Factor theorem to determine whether",
+          "parts": [
+            {"part": "a", "question": "(x - 2) is a factor of x^3 - 3x^2 + 3x - 2"},
+            {"part": "b", "question": "(x + 1) is a factor of x^4 - 2x^3 + 3x^2 - 4"},
+            {"part": "c", "question": "(x + 3) is a factor of 2x^3 + 5x^2 + x + 12"}
+          ]
+        },
+        {
+          "number": 2,
+          "description": "Find a given that",
+          "parts": [
+            {"part": "a", "condition": "(x - 1) is a factor of 2x^3 - 3x^2 + ax - 4"},
+            {"part": "b", "condition": "(x + 2) is a factor of 3x^5 + ax^3 - 7x + 3"}
+          ]
+        },
+        {
+          "number": 3,
+          "description": "Find the constant k and hence factorise the polynomial if",
+          "parts": [
+            {"part": "a", "condition": "2x^3 + x^2 + kx - 4 has the factor (x + 2)"},
+            {"part": "b", "condition": "x^4 - 3x^3 - kx^2 + 6x has the factor (x - 3)"}
+          ]
+        },
+        {
+          "number": 4,
+          "description": "(x - 4) is a factor of P(x) = 3x^3 - 17x^2 + kx + 8.",
+          "parts": [
+            {"part": "a", "question": "Find k."},
+            {"part": "b", "question": "Write P(x) in the form P(x) = (x - 4)(ax^2 + bx + c)."},
+            {"part": "c", "question": "Hence find the roots of P(x) = 0."}
+          ]
+        },
+        {
+          "number": 5,
+          "description": "Find constants a and b given that 2x^3 + ax^2 + bx + 5 has factors (x - 1) and (x + 5)."
+        },
+        {
+          "number": 6,
+          "description": "Suppose 3 is a zero of P(z) = z^3 - z^2 + (k - 5)z + (k^2 - 1). Find the possible values of k in R and all the corresponding zeros of P(z)."
+        },
+        {
+          "number": 7,
+          "description": "Show that (z - 2) is a factor of P(z) = z^3 + mz^2 + (3m - 2)z - 10m - 4 for all values of m in R. For what value of m is (z - 2)^2 a factor of P(z)?"
+        },
+        {
+          "number": 8,
+          "description": "(x + 3) is a factor of P(x) = 2x^3 + 9x^2 + ax + b. When P(x) is divided by x + 4, the remainder is -18.",
+          "parts": [
+            {"part": "a", "question": "Find a and b."},
+            {"part": "b", "question": "Find the remainder when P(x) is divided by x - 2."},
+            {"part": "c", "question": "Write P(x) in the form P(x) = (x + 3)(px^2 + qx + r)."},
+            {"part": "d", "question": "Find the zeros of P(x)."}
+          ]
+        },
+        {
+          "number": 9,
+          "description": "(2x - 1) is a factor of P(x) = 2x^3 + ax^2 - 8x + b. When P(x) is divided by x - 1, the remainder is 3.",
+          "parts": [
+            {"part": "a", "question": "Find a and b."},
+            {"part": "b", "question": "Find the irrational roots of P(x) = 0, giving your answer in the form x = p +/- sqrt(q) where p, q in Z."}
+          ]
+        },
+        {
+          "number": 10,
+          "description": "Prove that (x + 1) is a factor of x^n + 1, n in Z <=> n is odd."
+        },
+        {
+          "number": 11,
+          "description": "Find the real number a such that (x - 1 - a) is a factor of P(x) = x^3 - 3ax - 9."
+        }
+      ]
+    },
+    {
+      "type": "review_exercise",
+      "title": "Review Set (partial)",
+      "problems": [
+        {
+          "number": 1,
+          "description": "Which of the following are polynomial expressions?",
+          "parts": [
+            {"part": "a", "expression": "f(x) = 5x^4 - (1/2)x^2 + 2/5"},
+            {"part": "b", "expression": "g(x) = 2x^3 - 5x + 4x^(-1)"},
+            {"part": "c", "expression": "h(x) = 3x^5 + x^(1/2) - 7"}
+          ]
+        },
+        {
+          "number": 2,
+          "description": "Given p(x) = 5x^2 - x + 4 and q(x) = 3x^2 + 7x - 1, find",
+          "parts": [
+            {"part": "a", "expression": "p(x) + q(x)"},
+            {"part": "b", "expression": "2p(x) - q(x)"},
+            {"part": "c", "expression": "p(x)q(x)"}
+          ]
+        },
+        {
+          "number": 3,
+          "description": "Use the Remainder theorem to find the remainder when",
+          "parts": [
+            {"part": "a", "expression": "x^3 - 4x^2 + 5x - 1 is divided by (x - 2)"},
+            {"part": "b", "expression": "2x^3 + 6x^2 - 7x + 12 is divided by (x + 5)"}
+          ]
+        },
+        {
+          "number": 4,
+          "description": "For f(x) = x^3 - 5x + 7 and g(x) = 2x^2 + 4x - 3, find",
+          "parts": [
+            {"part": "a", "expression": "f(x) - g(x)"},
+            {"part": "b", "expression": "-5g(x)"},
+            {"part": "c", "expression": "f(x)g(x)"}
+          ]
+        },
+        {
+          "number": 5,
+          "description": "Find the quotient and remainder of",
+          "parts": [
+            {"part": "a", "expression": "(2x^2 + 11x + 18)/(x + 3)"},
+            {"part": "b", "expression": "(x^3 - 6x^2 + 10x - 9)/(x - 2)"}
+          ]
+        },
+        {
+          "number": 6,
+          "description": "Use the Factor theorem to determine whether",
+          "parts": [
+            {"part": "a", "question": "(x + 1) is a factor of 2x^4 - 9x^2 - 6x - 1"},
+            {"part": "b", "question": "(x - 3) is a factor of x^4 - 2x^3 - 4x^2 + 5x - 6"}
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,536 @@
+{
+  "chapter": "Quadratic function",
+  "part": 1,
+  "image_range": "977-1016",
+  "subsections": [
+    {
+      "title": "Definition of Quadratic Function",
+      "items": [
+        {
+          "type": "concept",
+          "content_latex": "A **quadratic function** is a relationship between two variables which can be written in the form $y = ax^2 + bx + c$ where $x$ and $y$ are the variables and $a$, $b$, and $c$ represent constants with $a \\neq 0$.",
+          "source_images": ["image977.png"]
+        },
+        {
+          "type": "concept",
+          "content_latex": "Using function notation, $y = ax^2 + bx + c$ can be written as $f(x) = ax^2 + bx + c$.",
+          "source_images": ["image978.png"]
+        },
+        {
+          "type": "concept",
+          "content_latex": "For example:\n- $y = 3x^2 - 2x + 1$ is a quadratic function with $a = 3$, $b = -2$, $c = 1$\n- $y = 2x^2 + 3x$ is a quadratic function with $a = 2$, $b = 3$, $c = 0$",
+          "source_images": ["image979.png"]
+        },
+        {
+          "type": "example",
+          "content_latex": "Are the following quadratic functions?",
+          "questions": [
+            {
+              "label": "a",
+              "problem_latex": "$y = -x^2 + 3x - 4$",
+              "answer_latex": "Yes, with $a = -1$, $b = 3$, $c = -4$"
+            },
+            {
+              "label": "b",
+              "problem_latex": "$y = 2x^2 + 1$",
+              "answer_latex": "Yes, with $a = 2$, $b = 0$, $c = 1$"
+            },
+            {
+              "label": "c",
+              "problem_latex": "$y = x^3 + 2x + 7$",
+              "answer_latex": "No, as it has an $x^3$ term rather than an $x^2$ term."
+            }
+          ],
+          "source_images": ["image980.png"]
+        }
+      ]
+    },
+    {
+      "title": "Finding y Given x",
+      "items": [
+        {
+          "type": "concept",
+          "content_latex": "FINDING $y$ GIVEN $x$",
+          "source_images": ["image981.png"]
+        },
+        {
+          "type": "example",
+          "content_latex": "If $y = 2x^2 - 3x + 4$, find $y$ when:",
+          "questions": [
+            {
+              "label": "a",
+              "problem_latex": "$x = 2$",
+              "answer_latex": "When $x = 2$,\n$y = 2(2)^2 - 3(2) + 4$\n$= 8 - 6 + 4$\n$= 6$"
+            },
+            {
+              "label": "b",
+              "problem_latex": "$x = -1$",
+              "answer_latex": "When $x = -1$,\n$y = 2(-1)^2 - 3(-1) + 4$\n$= 2 \\times 1 + 3 + 4$\n$= 2 + 3 + 4$\n$= 9$"
+            }
+          ],
+          "source_images": ["image982.png"]
+        },
+        {
+          "type": "example",
+          "content_latex": "Do A(2, -8) and B(-3, 4) satisfy the quadratic function $y = -x^2 - 3x + 2$?",
+          "questions": [
+            {
+              "label": "a",
+              "problem_latex": "Point A(2, -8)",
+              "answer_latex": "When $x = 2$,\n$y = -(2)^2 - 3(2) + 2$\n$= -4 - 6 + 2$\n$= -8$\n$\\therefore$ A satisfies the function, so A lies on its graph."
+            },
+            {
+              "label": "b",
+              "problem_latex": "Point B(-3, 4)",
+              "answer_latex": "When $x = -3$,\n$y = -(-3)^2 - 3(-3) + 2$\n$= -9 + 9 + 2$\n$= 2$ which is $\\neq 4$\n$\\therefore$ B does not satisfy the function, so B does not lie on its graph."
+            }
+          ],
+          "source_images": ["image983.png"]
+        }
+      ]
+    },
+    {
+      "title": "Finding x Given y",
+      "items": [
+        {
+          "type": "concept",
+          "content_latex": "FINDING $x$ GIVEN $y$",
+          "source_images": ["image984.png"]
+        },
+        {
+          "type": "example",
+          "content_latex": "If $y = x^2 + 4x - 5$ find the value(s) of $x$ when:",
+          "questions": [
+            {
+              "label": "a",
+              "problem_latex": "$y = 0$",
+              "answer_latex": "When $y = 0$,\n$x^2 + 4x - 5 = 0$\n$\\therefore (x + 5)(x - 1) = 0$\n$\\therefore x = -5$ or $x = 1$\nSo, there are 2 solutions."
+            },
+            {
+              "label": "b",
+              "problem_latex": "$y = -9$",
+              "answer_latex": "When $y = -9$,\n$x^2 + 4x - 5 = -9$\n$\\therefore x^2 + 4x + 4 = 0$\n$\\therefore (x + 2)^2 = 0$\n$\\therefore x = -2$\nSo, there is only one solution."
+            }
+          ],
+          "source_images": ["image985.png"]
+        },
+        {
+          "type": "example",
+          "content_latex": "A stone is thrown into the air. Its height above the ground is given by the function $h(t) = -5t^2 + 30t + 2$ metres, where $t$ is the time in seconds from when the stone is thrown.",
+          "questions": [
+            {
+              "label": "a",
+              "problem_latex": "How high is the stone above the ground after 3 seconds?",
+              "answer_latex": "$h(3) = -5(3)^2 + 30(3) + 2$\n$= -45 + 90 + 2$\n$= 47$\n$\\therefore$ the stone is 47 m above the ground."
+            },
+            {
+              "label": "b",
+              "problem_latex": "From what height above the ground was the stone released?",
+              "answer_latex": "The stone was released when $t = 0$ s.\nNow $h(0) = -5(0)^2 + 30(0) + 2 = 2$\n$\\therefore$ the stone was released from 2 m above ground level."
+            },
+            {
+              "label": "c",
+              "problem_latex": "At what times is the stone 27 m above the ground?",
+              "answer_latex": "When $h(t) = 27$,\n$-5t^2 + 30t + 2 = 27$\n$\\therefore -5t^2 + 30t - 25 = 0$\n$\\therefore t^2 - 6t + 5 = 0$\n$\\therefore (t - 1)(t - 5) = 0$\n$\\therefore t = 1$ or $5$\n$\\therefore$ the stone is 27 m above the ground after 1 second and after 5 seconds."
+            }
+          ],
+          "source_images": ["image986.png"]
+        }
+      ]
+    },
+    {
+      "title": "Exercise 19A",
+      "items": [
+        {
+          "type": "exercise",
+          "content_latex": "EXERCISE 19A",
+          "questions": [
+            {
+              "label": "1",
+              "problem_latex": "Are the following quadratic functions? Give values for $a$, $b$, $c$ if they are, and a reason if they are not.\n**a** $y = 2x^2 + x + 4$\n**b** $y = 3x + 8$\n**c** $y = -x^2 - x - 1$\n**d** $y = x^2$\n**e** $y = \\frac{1}{2}x^2 - 6$\n**f** $y = -2x + 5x^3$\n**g** $y = -3x^2$\n**h** $y = -x^{-2} - 4x$\n**i** $2y + 4x^2 + 5 = 0$",
+              "answer_latex": ""
+            },
+            {
+              "label": "2",
+              "problem_latex": "If $y = x^2 + 2x - 5$, find $y$ when:\n**a** $x = 3$  **b** $x = 0$  **c** $x = -2$",
+              "answer_latex": ""
+            },
+            {
+              "label": "3",
+              "problem_latex": "If $y = 3x^2 - x + 4$, find $y$ when:\n**a** $x = 0$  **b** $x = 2$  **c** $x = -3$",
+              "answer_latex": ""
+            },
+            {
+              "label": "4",
+              "problem_latex": "If $y = -2x^2 - 4x + 7$, find $y$ when:\n**a** $x = 1$  **b** $x = -3$  **c** $x = \\frac{1}{2}$",
+              "answer_latex": ""
+            },
+            {
+              "label": "5",
+              "problem_latex": "**a** Do A(3, 10) and B(-2, 13) lie on $y = 2x^2 - 3x - 1$?\n**b** Do P(0, 2), Q(2, 7) and R(-1, -4) lie on $y = -x^2 + 5x + 2$?",
+              "answer_latex": ""
+            },
+            {
+              "label": "6",
+              "problem_latex": "**a** The point C(2, $k$) lies on $y = x^2 + 3x - 7$. Find $k$.\n**b** The point D(-3, $d$) lies on $y = 4x - 3x^2$. Find $d$.\n**c** The point E($m$, 7) lies on $y = x^2 + 3x - 3$. Find $m$.\n**d** The point F($n$, 29) lies on $y = 2x^2 + x + 8$. Find $n$.",
+              "answer_latex": ""
+            },
+            {
+              "label": "7",
+              "problem_latex": "If $y = x^2 + 2x + 3$, find $x$ when:\n**a** $y = 0$  **b** $y = 2$",
+              "answer_latex": ""
+            },
+            {
+              "label": "8",
+              "problem_latex": "If $y = x^2 - 4x + 6$, find $x$ when:\n**a** $y = 2$  **b** $y = 0$  **c** $y = 11$",
+              "answer_latex": ""
+            },
+            {
+              "label": "9",
+              "problem_latex": "**a** If $y = x^2 + 6x + 7$, find $x$ when $y = 7$.\n**b** If $y = x^2 - 4x - 1$, find $x$ when $y = 11$.\n**c** If $y = 3x^2 - 5x$, find $x$ when $y = -2$.",
+              "answer_latex": ""
+            },
+            {
+              "label": "10",
+              "problem_latex": "A cannonball is fired into the air. Its height is given by $H = 60t - 5t^2$ metres where $t$ is the time in seconds after its release.\n**a** Find the height of the cannonball when:\n  **i** $t = 0$  **ii** $t = 1$  **iii** $t = 3$  **iv** $t = 8$\n**b** Find the time at which the height:\n  **i** $H = 0$  **ii** $H = 100$  **iii** $H = 160$\n**c** Graph $H = 60t - 5t^2$ using the information from **a** and **b** only. Connect points using a smooth curve.",
+              "answer_latex": ""
+            },
+            {
+              "label": "11",
+              "problem_latex": "A stone is thrown into the air. Its height above the ground is given by the function $H = -5t^2 + 30t + 2$ metres where $t$ is the time in seconds from when the stone is released.\n**a** How high above the ground was the stone released?\n**b** How high above the ground is the stone at time $t = 3$ seconds?\n**c** At what times was the stone's height above the ground: **i** 27 m  **ii** 42 m?\n**d** Draw the graph of $H$ against $t$ using **a**, **b** and **c** only.",
+              "answer_latex": ""
+            },
+            {
+              "label": "12",
+              "problem_latex": "Bjorn makes wooden display cabinets. He finds that the profit in euros for making $x$ cabinets per day is given by $P = 320x - 20x^2 - 320$ euro.\n**a** Calculate Bjorn's profit if he makes:\n  **i** 0  **ii** 4  **iii** 10 cabinets per day.\n**b** How many cabinets per day must Bjorn make to receive a 460 euro profit?",
+              "answer_latex": ""
+            }
+          ],
+          "source_images": ["image987.png", "image988.png", "image989.png", "image990.png"]
+        }
+      ]
+    },
+    {
+      "title": "Exercise 20A",
+      "items": [
+        {
+          "type": "exercise",
+          "content_latex": "EXERCISE 20A",
+          "questions": [
+            {
+              "label": "1",
+              "problem_latex": "Which of the following are quadratic functions?\n**a** $y = 15x - 8$  **b** $y = \\frac{1}{3}x^2 + 6$  **c** $3y + 2x^2 - 7 = 0$  **d** $y = 15x^3 + 2x - 16$",
+              "answer_latex": ""
+            },
+            {
+              "label": "2",
+              "problem_latex": "For each of the following functions, find the value of $y$ for the given value of $x$:\n**a** $y = x^2 + 5x - 14$ when $x = 2$\n**b** $y = 2x^2 + 9x$ when $x = -5$\n**c** $y = -2x^2 + 3x - 6$ when $x = 3$\n**d** $y = 4x^2 + 7x + 10$ when $x = -2$",
+              "answer_latex": ""
+            },
+            {
+              "label": "3",
+              "problem_latex": "State whether the following quadratic functions are satisfied by the given ordered pairs:\n**a** $y = 6x^2 - 10$ $(0, 4)$\n**b** $y = 2x^2 - 5x - 3$ $(4, 9)$\n**c** $y = -4x^2 + 6x$ $(-\\frac{1}{2}, -4)$\n**d** $y = -7x^2 + 9x + 11$ $(-1, -6)$\n**e** $y = 3x^2 - 11x + 20$ $(2, -10)$\n**f** $y = -3x^2 + x + 6$ $(\\frac{1}{3}, 4)$",
+              "answer_latex": ""
+            },
+            {
+              "label": "4",
+              "problem_latex": "For each of the following quadratic functions, find the value(s) of $x$ for the given value of $y$:\n**a** $y = x^2 + 6x + 10$ when $y = 1$\n**b** $y = x^2 + 5x + 8$ when $y = 2$\n**c** $y = x^2 - 5x + 1$ when $y = -3$\n**d** $y = 3x^2$ when $y = -3$",
+              "answer_latex": ""
+            },
+            {
+              "label": "5",
+              "problem_latex": "Find the value(s) of $x$ for which:\n**a** $f(x) = 3x^2 - 3x + 6$ takes the value 6\n**b** $f(x) = x^2 - 2x - 7$ takes the value $-4$\n**c** $f(x) = -2x^2 - 13x + 3$ takes the value $-4$\n**d** $f(x) = 2x^2 - 10x + 1$ takes the value $-11$",
+              "answer_latex": ""
+            },
+            {
+              "label": "6",
+              "problem_latex": "An object is projected into the air with a velocity of 80 m s$^{-1}$. Its height after $t$ seconds is given by the function $h(t) = 80t - 5t^2$ metres.\n**a** Calculate the height of the object after:\n  **i** 1 second  **ii** 3 seconds  **iii** 5 seconds.\n**b** Calculate the time(s) at which the height of the object is:\n  **i** 140 m  **ii** 0 m.\n**c** Explain your answers in part **b**.",
+              "answer_latex": ""
+            },
+            {
+              "label": "7",
+              "problem_latex": "A cake manufacturer finds that the profit from making $x$ cakes per day is given by the function $P(x) = -\\frac{1}{2}x^2 + 36x - 40$ dollars.\n**a** Calculate the profit if **i** 0 cakes  **ii** 20 cakes are made per day.\n**b** How many cakes need to be made per day to achieve a profit of $270?",
+              "answer_latex": ""
+            }
+          ],
+          "source_images": ["image991.png", "image992.png"]
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2A",
+      "items": [
+        {
+          "type": "exercise",
+          "content_latex": "EXERCISE 2A",
+          "questions": [
+            {
+              "label": "1",
+              "problem_latex": "Which of the following are quadratic functions?\n**a** $y = 2x^2 - 4x + 10$  **b** $y = 8x + 3$\n**c** $y = -2x^2$  **d** $y = \\frac{1}{3}x + 6 - x^2$\n**e** $2y + x - 3 = 0$  **f** $y - 2x^2 = 3x - 1$",
+              "answer_latex": ""
+            },
+            {
+              "label": "2",
+              "problem_latex": "For each of the following functions, find the value of $y$ for the given value of $x$:\n**a** $y = x^2 + 3x - 7$ when $x = 1$\n**b** $y = -2x^2 + 5x + 2$ when $x = -2$\n**c** $y = 3x^2 - 2x - 5$ when $x = 3$\n**d** $y = -3x^2 + 7x - 2$ when $x = -1$",
+              "answer_latex": ""
+            },
+            {
+              "label": "3",
+              "problem_latex": "Copy and complete each table of values:\n**a** $y = x^2 - 3x + 1$\n| $x$ | $-2$ | $-1$ | $0$ | $1$ | $2$ |\n| $y$ |  |  |  |  |  |\n**b** $y = x^2 + 2x - 5$\n| $x$ | $-2$ | $-1$ | $0$ | $1$ | $2$ |\n| $y$ |  |  |  |  |  |\n**c** $y = 2x^2 - x + 3$\n| $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |\n| $y$ |  |  |  |  |  |\n**d** $y = -3x^2 + 2x + 4$\n| $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |\n| $y$ |  |  |  |  |  |",
+              "answer_latex": ""
+            },
+            {
+              "label": "4",
+              "problem_latex": "Determine whether the given point satisfies the quadratic function:\n**a** $y = 2x^2 + 5$ $(0, 4)$  **b** $y = x^2 - 3x + 2$ $(2, 0)$\n**c** $y = -x^2 + 2x - 5$ $(-1, -8)$  **d** $y = -2x^2 - x + 6$ $(3, -15)$\n**e** $y = 3x^2 - 4x + 10$ $(2, 10)$  **f** $y = -\\frac{1}{2}x^2 + 4x - 1$ $(2, 5)$",
+              "answer_latex": ""
+            },
+            {
+              "label": "5",
+              "problem_latex": "For each of the following quadratic functions, find the value(s) of $x$ for the given value of $y$:\n**a** $y = x^2 + 3x + 6$ when $y = 4$  **b** $y = x^2 - 4x + 7$ when $y = 3$\n**c** $y = x^2 - 6x + 1$ when $y = -4$  **d** $y = 2x^2 + 5x + 1$ when $y = 4$\n**e** $y = \\frac{1}{2}x^2 + \\frac{1}{2}x - 2$ when $y = 1$  **f** $y = -\\frac{1}{2}x^2 + 2x - 1$ when $y = 2$",
+              "answer_latex": ""
+            }
+          ],
+          "source_images": ["image993.png", "image994.png"]
+        }
+      ]
+    },
+    {
+      "title": "Graphs of Quadratic Functions - Introduction",
+      "items": [
+        {
+          "type": "concept",
+          "content_latex": "The graphs of all quadratic functions are **parabolas**. The parabola is one of the **conic sections**.",
+          "source_images": ["image995.png"]
+        },
+        {
+          "type": "concept",
+          "content_latex": "The simplest quadratic function is $y = x^2$. Its graph can be drawn from a table of values.\n\n| $x$ | $-3$ | $-2$ | $-1$ | $0$ | $1$ | $2$ | $3$ |\n| $y$ | $9$ | $4$ | $1$ | $0$ | $1$ | $4$ | $9$ |",
+          "source_images": ["image996.png"]
+        },
+        {
+          "type": "concept",
+          "content_latex": "The graph of a quadratic function is called a **parabola**.\n\nThe point where the graph \"turns\" is called the **vertex**.\n\nIf the graph opens upwards, the vertex is the **minimum** or **minimum turning point**, and the graph is **concave upwards**.\n\nIf the graph opens downwards, the vertex is the **maximum** or **maximum turning point**, and the graph is **concave downwards**.\n\nThe vertical line that passes through the vertex is called the **axis of symmetry**. Every parabola is symmetrical about its axis of symmetry.\n\nThe value of $y$ where the graph crosses the $y$-axis is the **$y$-intercept**.\n\nThe values of $x$ (if they exist) where the graph crosses the $x$-axis are called the **$x$-intercepts**. They correspond to the **roots** of the quadratic equation $ax^2 + bx + c = 0$.",
+          "source_images": ["image997.png"]
+        },
+        {
+          "type": "example",
+          "content_latex": "Draw the graph of $y = x^2 + 2x - 3$ using a table of values from $x = -3$ to $x = 3$.",
+          "questions": [
+            {
+              "label": "",
+              "problem_latex": "",
+              "answer_latex": "Consider $f(x) = x^2 + 2x - 3$\nNow, $f(-3) = (-3)^2 + 2(-3) - 3$\n$= 9 - 6 - 3$\n$= 0$\n\nWe can do the same for the other values of $x$:\n\n| $x$ | $-3$ | $-2$ | $-1$ | $0$ | $1$ | $2$ | $3$ |\n| $y$ | $0$ | $-3$ | $-4$ | $-3$ | $0$ | $5$ | $12$ |"
+            }
+          ],
+          "source_images": ["image998.png"]
+        }
+      ]
+    },
+    {
+      "title": "Exercise 19B",
+      "items": [
+        {
+          "type": "exercise",
+          "content_latex": "EXERCISE 19B",
+          "questions": [
+            {
+              "label": "1",
+              "problem_latex": "Use a table of values from $x = -3$ to $x = 3$ to draw the graph of:\n**a** $y = x^2$  **b** $y = x^2 - 2x$  **c** $y = x^2 - 2x - 2$\n**d** $y = 2x^2$  **e** $y = 2x^2 + 1$  **f** $y = \\frac{1}{2}x^2 - 2$\n**g** $y = -x^2$  **h** $y = -x^2 + x$  **i** $y = -x^2 + 2x + 1$",
+              "answer_latex": ""
+            }
+          ],
+          "source_images": ["image999.png"]
+        }
+      ]
+    },
+    {
+      "title": "Exercise 20B.1",
+      "items": [
+        {
+          "type": "exercise",
+          "content_latex": "EXERCISE 20B.1",
+          "questions": [
+            {
+              "label": "1",
+              "problem_latex": "Using a table of values from $x = -3$ to $x = 3$, draw the graph of:\n**a** $y = x^2 - 2x + 8$  **b** $f(x) = -x^2 + 2x + 1$  **c** $y = 2x^2 + 3x$\n**d** $y = -2x^2 + 4$  **e** $y = x^2 + x + 4$  **f** $f(x) = -x^2 + 4x - 9$",
+              "answer_latex": ""
+            }
+          ],
+          "source_images": ["image1000.png"]
+        }
+      ]
+    },
+    {
+      "title": "Using Transformations to Graph Quadratics",
+      "items": [
+        {
+          "type": "concept",
+          "content_latex": "USING TRANSFORMATIONS TO GRAPH QUADRATICS\n\nBy observing how a quadratic function is related to $f(x) = x^2$, we can transform the graph of $y = x^2$ to produce the graph of the function.",
+          "source_images": ["image1001.png"]
+        }
+      ]
+    },
+    {
+      "title": "Investigation 1: Graphs of Quadratic Functions",
+      "items": [
+        {
+          "type": "concept",
+          "content_latex": "INVESTIGATION 1: GRAPHS OF QUADRATIC FUNCTIONS\n\nIn this Investigation we consider different forms of quadratic functions, and how the form of the quadratic affects its graph. You can use either the graphing package or your graphics calculator to draw the graphs.",
+          "source_images": ["image1002.png"]
+        },
+        {
+          "type": "concept",
+          "content_latex": "**Part 1: Graphs of the form $y = x^2 + k$**\n\nWhat to do:\n1. Graph the two functions on the same set of axes, and observe the coordinates of the vertex of each function.\n  **a** $y = x^2$ and $y = x^2 + 2$  **b** $y = x^2$ and $y = x^2 - 2$\n  **c** $y = x^2$ and $y = x^2 + 4$  **d** $y = x^2$ and $y = x^2 - 4$\n2. What effect does the value of $k$ have on:\n  **a** the position of the graph  **b** the shape of the graph?\n3. What transformation is needed to graph $y = x^2 + k$ from $y = x^2$?",
+          "source_images": ["image1003.png", "image1004.png"]
+        },
+        {
+          "type": "concept",
+          "content_latex": "**Part 2: Graphs of the form $y = (x - h)^2$**\n\nWhat to do:\n1. Graph the two functions on the same set of axes, and observe the coordinates of the vertex of each function.\n  **a** $y = x^2$ and $y = (x - 2)^2$  **b** $y = x^2$ and $y = (x + 2)^2$\n  **c** $y = x^2$ and $y = (x - 4)^2$  **d** $y = x^2$ and $y = (x + 4)^2$\n2. What effect does the value of $h$ have on:\n  **a** the position of the graph  **b** the shape of the graph?\n3. What transformation is needed to graph $y = (x - h)^2$ from $y = x^2$?",
+          "source_images": ["image1005.png"]
+        },
+        {
+          "type": "concept",
+          "content_latex": "**Part 3: Graphs of the form $y = (x - h)^2 + k$**\n\nWhat to do:\n1. Graph the two functions on the same set of axes, and observe the coordinates of the vertex of each function.\n  **a** $y = x^2$ and $y = (x - 2)^2 + 3$  **b** $y = x^2$ and $y = (x + 4)^2 - 1$\n  **c** $y = x^2$ and $y = (x - 5)^2 - 2$  **d** $y = x^2$ and $y = (x + 1)^2 + 5$\n2. Copy and complete:\n  - The graph of $y = (x - h)^2 + k$ is the same shape as the graph of ......\n  - The graph of $y = (x - h)^2 + k$ is found by translating $y = x^2$ ...... units horizontally and ...... units vertically. This is a translation through $\\begin{pmatrix} ...... \\\\ ...... \\end{pmatrix}$.\n  - The vertex of the graph of $y = (x - h)^2 + k$ is at (......, ......).",
+          "source_images": ["image1005.png"]
+        },
+        {
+          "type": "concept",
+          "content_latex": "**Part 4: Graphs of the form $y = ax^2$, $a \\neq 0$**\n\nWhat to do:\n1. Graph the two functions on the same set of axes, and observe the coordinates of the vertex of each function.\n  **a** $y = x^2$ and $y = 2x^2$  **b** $y = x^2$ and $y = 4x^2$  **c** $y = x^2$ and $y = \\frac{1}{2}x^2$\n  **d** $y = x^2$ and $y = -x^2$  **e** $y = x^2$ and $y = -2x^2$  **f** $y = x^2$ and $y = -\\frac{1}{2}x^2$\n2. These functions are all members of the family $y = ax^2$. What effect does $a$ have on:\n  **a** the position of the graph  **b** the shape of the graph  **c** the direction in which the graph opens?",
+          "source_images": ["image1006.png"]
+        },
+        {
+          "type": "concept",
+          "content_latex": "**Part 5: Graphs of the form $y = a(x - h)^2 + k$, $a \\neq 0$**\n\nWhat to do:\n1. Graph the two functions on the same set of axes, and observe the coordinates of the vertex of each function.\n  **a** $y = 2x^2$ and $y = 2(x - 1)^2 + 3$  **b** $y = -x^2$ and $y = -(x + 2)^2 - 1$\n  **c** $y = \\frac{1}{2}x^2$ and $y = \\frac{1}{2}(x - 3)^2 - 2$  **d** $y = -3x^2$ and $y = -3(x + 1)^2 + 4$\n2. Copy and complete:\n  - The graph of $y = a(x - h)^2 + k$ has the same shape and opens in the same direction as the graph of ......\n  - The graph of $y = a(x - h)^2 + k$ is found by translating $y = ax^2$ ...... units horizontally and ...... units vertically. This is a translation through $\\begin{pmatrix} ...... \\\\ ...... \\end{pmatrix}$.",
+          "source_images": ["image1007.png"]
+        }
+      ]
+    },
+    {
+      "title": "Summary of Transformations",
+      "items": [
+        {
+          "type": "concept",
+          "content_latex": "From the **Investigation** you should have discovered the following important facts:\n\n- Graphs of the form $y = x^2 + k$ have the same shape as the graph of $y = x^2$.\n  The graph of $y = x^2$ is translated through $\\begin{pmatrix} 0 \\\\ k \\end{pmatrix}$ to give the graph of $y = x^2 + k$.\n\n- Graphs of the form $y = (x - h)^2$ have the same shape as the graph of $y = x^2$.\n  The graph of $y = x^2$ is translated through $\\begin{pmatrix} h \\\\ 0 \\end{pmatrix}$ to give the graph of $y = (x - h)^2$.\n\n- Graphs of the form $y = (x - h)^2 + k$ have the same shape as the graph of $y = x^2$.\n  The graph of $y = x^2$ is translated through $\\begin{pmatrix} h \\\\ k \\end{pmatrix}$ to give the graph of $y = (x - h)^2 + k$.\n  The vertex is shifted to $(h, k)$.\n\n- If $a > 0$, $y = ax^2$ opens upwards.\n  If $a < 0$, $y = ax^2$ opens downwards.\n  If $a < -1$ or $a > 1$, then $y = ax^2$ is 'thinner' than $y = x^2$.\n  If $-1 < a < 1$, $a \\neq 0$, then $y = ax^2$ is 'wider' than $y = x^2$.",
+          "source_images": ["image1008.png"]
+        },
+        {
+          "type": "concept",
+          "content_latex": "Summary diagram for $y = a(x - h)^2 + k$:\n\n- $a > 0$: parabola opens upwards\n- $a < 0$: parabola opens downwards\n- $a < -1$ or $a > 1$: thinner than $y = x^2$\n- $-1 < a < 1$, $a \\neq 0$: wider than $y = x^2$\n- vertical translation of $k$ units:\n  - if $k > 0$ it goes up\n  - if $k < 0$ it goes down\n- horizontal translation of $h$ units:\n  - if $h > 0$ it goes right\n  - if $h < 0$ it goes left",
+          "source_images": ["image1009.png"]
+        }
+      ]
+    },
+    {
+      "title": "Examples of Transformations",
+      "items": [
+        {
+          "type": "example",
+          "content_latex": "Sketch each of the following functions on the same set of axes as $y = x^2$. In each case state the coordinates of the vertex.",
+          "questions": [
+            {
+              "label": "a",
+              "problem_latex": "$y = x^2 + 3$",
+              "answer_latex": "We draw $y = x^2$, then translate it 3 units upwards.\nThe vertex is at $(0, 3)$."
+            },
+            {
+              "label": "b",
+              "problem_latex": "$y = (x + 3)^2$",
+              "answer_latex": "We draw $y = x^2$, then translate it 3 units to the left.\nThe vertex is at $(-3, 0)$."
+            }
+          ],
+          "source_images": ["image1010.png"]
+        },
+        {
+          "type": "example",
+          "content_latex": "Sketch each of the following functions on the same set of axes as $y = x^2$. In each case state the coordinates of the vertex.",
+          "questions": [
+            {
+              "label": "a",
+              "problem_latex": "$y = (x - 2)^2 + 3$",
+              "answer_latex": "We draw $y = x^2$, then translate it 2 units to the right and 3 units upwards.\nThe vertex is at $(2, 3)$."
+            },
+            {
+              "label": "b",
+              "problem_latex": "$y = (x + 2)^2 - 5$",
+              "answer_latex": "We draw $y = x^2$, then translate it 2 units to the left and 5 units downwards.\nThe vertex is at $(-2, -5)$."
+            }
+          ],
+          "source_images": ["image1011.png"]
+        },
+        {
+          "type": "example",
+          "content_latex": "Sketch $y = x^2$ on a set of axes and hence sketch:",
+          "questions": [
+            {
+              "label": "a",
+              "problem_latex": "$y = 3x^2$",
+              "answer_latex": "$y = 3x^2$ is 'thinner' than $y = x^2$."
+            },
+            {
+              "label": "b",
+              "problem_latex": "$y = -3x^2$",
+              "answer_latex": "$y = -3x^2$ has the same shape as $y = 3x^2$, but opens downwards."
+            }
+          ],
+          "source_images": ["image1012.png"]
+        },
+        {
+          "type": "example",
+          "content_latex": "Sketch the graph of $y = -(x - 2)^2 - 3$ from the graph of $y = x^2$, and hence state the coordinates of its vertex.",
+          "questions": [
+            {
+              "label": "",
+              "problem_latex": "",
+              "answer_latex": "$y = -(x - 2)^2 - 3$\n\nreflect in $x$-axis, horizontal translation 2 units right, vertical translation 3 units down\n\nWe start with $y = x^2$, then reflect it in the $x$-axis to give $y = -x^2$.\nWe then translate $y = -x^2$ 2 units to the right and 3 units down.\nThe vertex of $y = -(x - 2)^2 - 3$ is $(2, -3)$."
+            }
+          ],
+          "source_images": ["image1013.png"]
+        }
+      ]
+    },
+    {
+      "title": "Exercise 19C",
+      "items": [
+        {
+          "type": "exercise",
+          "content_latex": "EXERCISE 19C",
+          "questions": [
+            {
+              "label": "1",
+              "problem_latex": "On separate axes, sketch the graphs of the following using transformations:\n**a** $y = x^2 + 1$  **b** $y = x^2 + 3$  **c** $y = x^2 - 1$\n**d** $y = 2x^2$  **e** $y = -3x^2$  **f** $y = \\frac{1}{2}x^2$\n**g** $y = -x^2 + 2$  **h** $y = -x^2 - 1$  **i** $y = -4x^2$\nCheck your answers using the **graphing package** or a **graphics calculator**.",
+              "answer_latex": ""
+            },
+            {
+              "label": "2",
+              "problem_latex": "On separate axes, sketch the graphs and find the vertices of:\n**a** $y = (x - 1)^2 + 2$  **b** $y = (x + 1)^2 + 3$  **c** $y = (x - 2)^2 + 1$\n**d** $y = (x + 2)^2 - 1$  **e** $y = (x + 3)^2$  **f** $y = (x - 4)^2$\n**g** $y = -(x - 1)^2 + 3$  **h** $y = -(x + 1)^2 - 1$  **i** $y = -(x - 2)^2 + 1$\n**j** $y = -(x + 4)^2 + 2$  **k** $y = -(x - 3)^2 - 2$  **l** $y = -(x + 4)^2 + 10$\nCheck your answers using the **graphing package** or a **graphics calculator**.",
+              "answer_latex": ""
+            }
+          ],
+          "source_images": ["image1014.png"]
+        }
+      ]
+    },
+    {
+      "title": "Exercise 20B.2",
+      "items": [
+        {
+          "type": "exercise",
+          "content_latex": "EXERCISE 20B.2",
+          "questions": [
+            {
+              "label": "1",
+              "problem_latex": "Sketch each of the following functions on the same set of axes as $y = x^2$. Use a separate set of axes for each part, and in each case state the coordinates of the vertex.\n**a** $y = x^2 - 3$  **b** $y = x^2 - 1$  **c** $y = x^2 + 2$\n**d** $y = x^2 - 5$  **e** $y = x^2 + 5$  **f** $y = x^2 - \\frac{1}{2}$",
+              "answer_latex": ""
+            },
+            {
+              "label": "2",
+              "problem_latex": "Sketch each of the following functions on the same set of axes as $y = x^2$. Use a separate set of axes for each part, and in each case state the coordinates of the vertex.\n**a** $y = (x - 3)^2$  **b** $y = (x + 1)^2$  **c** $y = (x - 2)^2$\n**d** $y = (x - 5)^2$  **e** $y = (x + 5)^2$  **f** $y = (x - \\frac{3}{2})^2$",
+              "answer_latex": ""
+            }
+          ],
+          "source_images": ["image1015.png", "image1016.png"]
+        }
+      ]
+    }
+  ]
+}

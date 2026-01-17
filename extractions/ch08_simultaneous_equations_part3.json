@@ -1,0 +1,297 @@
+{
+  "chapter": "Simultaneous equations",
+  "part": 3,
+  "image_range": "810-829",
+  "subsections": [
+    {
+      "type": "solution",
+      "problem_number": "5.18",
+      "content": [
+        {
+          "text": "Solution for Problem 5.18: We start by turning the words into equations. We let a, e, i, o, and u stand for the price of a, e, i, o, and u, respectively. The information in the problem gives us five equations:",
+          "equations": [
+            "a + e + i = 6",
+            "a + e + u = 9",
+            "a + e + o = 7",
+            "e + u = 7",
+            "a + 2e + o = 8"
+          ]
+        },
+        {
+          "text": "Notice that we put the variables in alphabetical order so we can compare the equations more easily. We almost always do this with linear equations that have multiple variables."
+        },
+        {
+          "text": "Five variables are a lot to handle. We could solve one equation for one variable and substitute into the others. However, before doing so we look for simpler ways to combine some of the equations to solve for some of the variables. We see that e + u = 7 and a + e + u = 9, so we must have a + 7 = 9. Therefore, we have a = 2."
+        },
+        {
+          "text": "Substituting a = 2 into our equations and simplifying gives",
+          "equations": [
+            "e + i = 4",
+            "e + o = 5",
+            "e + u = 7",
+            "2e + o = 6"
+          ]
+        },
+        {
+          "text": "(Make sure you see why we don't need to list e + u = 7 twice.)"
+        },
+        {
+          "text": "Again, we could use substitution to reduce the number of variables we are working with, but we can get more information with a quick elimination. Subtracting the second equation from the fourth equation gives e = 1. We can then substitute e = 1 into each of the first three equations to find i = 3, o = 4, and u = 6. Therefore, our solution is (a, e, i, o, u) = (2, 1, 3, 4, 6)."
+        },
+        {
+          "text": "Our last step is to make sure we answer the question. The dollar cost of \"octahedron\" is a + e + 2o = $11. (Notice that we didn't have to find i or u to answer the question.)"
+        }
+      ]
+    },
+    {
+      "type": "problem",
+      "problem_number": "5.19",
+      "content": "Suppose that A, B, C, and D are constants such that Ax + B = Cx + D for all values of x. Must we have A = C and B = D?",
+      "solution": [
+        {
+          "text": "Trying x = -2, -1, 0, 1, and 2, we find:",
+          "equations": [
+            "x = -2 => -2A + B = -2C + D",
+            "x = -1 => -A + B = -C + D",
+            "x = 0 => B = D",
+            "x = 1 => A + C = B + D",
+            "x = 2 => 2A + C = 2B + D"
+          ]
+        },
+        {
+          "text": "While at first this looks like a scary system with lots of variables, we see that the substitution x = 0 gives us B = D. We can then substitute B = D into any of our other equations to show that A = C, as well. We can't draw any further conclusions about the variables."
+        },
+        {
+          "text": "Clearly, we must have Ax + B = Cx + D for all x if A = C and B = D, since then the two sides are the same."
+        }
+      ]
+    },
+    {
+      "type": "important_concept",
+      "content": "If two linear expressions are equal for all values of x, then their constants must be equal and the coefficients of the linear terms must be equal. In other words, if A, B, C, and D are constants and Ax + B = Cx + D for all x, then we must have A = C and B = D."
+    },
+    {
+      "type": "exercises",
+      "section": "5.6",
+      "problems": [
+        {
+          "problem_number": "5.6.1",
+          "content": "Find all solutions to the following system of equations:",
+          "equations": [
+            "x + 3y + 2z = 6",
+            "-3x + y + 5z = 29",
+            "-2x - 3y + z = 14"
+          ]
+        },
+        {
+          "problem_number": "5.6.2",
+          "content": "Find all solutions to the following system of equations:",
+          "equations": [
+            "2x - 5y + 3z = 25",
+            "-x - y + 4z = -6",
+            "3x + 3y - z = -4"
+          ]
+        },
+        {
+          "problem_number": "5.6.3",
+          "content": "In the magic square shown, the sum of the numbers in each row, column, and diagonal are the same. Five of these numbers are represented by v, w, x, y, and z. Find y + z.",
+          "source": "AMC 12",
+          "table": {
+            "row1": ["v", "24", "w"],
+            "row2": ["18", "x", "y"],
+            "row3": ["25", "z", "21"]
+          }
+        },
+        {
+          "problem_number": "5.6.4",
+          "content": "Consider the system of equations:",
+          "equations": [
+            "2a + 3b - 4c = 7",
+            "a - b + 2c = 6"
+          ],
+          "parts": [
+            "(a) Find an ordered triple of numbers (a, b, c) that satisfies both equations.",
+            "(b) Can you find a second ordered triple that satisfies both equations?",
+            "(c) Solve for b in terms of a, and solve for c in terms of a. How many solutions does this system have?"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review_problems",
+      "problems": [
+        {
+          "problem_number": "5.20",
+          "content": "Find three ordered pairs (a, b) that satisfy the equation 3a - 5b = 9."
+        },
+        {
+          "problem_number": "5.21",
+          "content": "Use substitution to solve the two systems of equations below:",
+          "parts": [
+            {
+              "part": "(a)",
+              "equations": ["x + 4y = -5", "3x - 8y = 45"]
+            },
+            {
+              "part": "(b)",
+              "equations": ["3a - b = 11", "6a + 4b = 1"]
+            }
+          ]
+        },
+        {
+          "problem_number": "5.22",
+          "content": "Use elimination to solve the two systems of equations below:",
+          "parts": [
+            {
+              "part": "(a)",
+              "equations": ["5x - 6y = -64", "7x + 3y = -44"]
+            },
+            {
+              "part": "(b)",
+              "equations": ["3x + 8y = -7", "6x + 16y = 4"]
+            }
+          ]
+        },
+        {
+          "problem_number": "5.23",
+          "content": "Use any technique to solve each of the systems of equations below:",
+          "parts": [
+            {
+              "part": "(a)",
+              "equations": ["3x - 4y = 26", "5x + 8y = 3"]
+            },
+            {
+              "part": "(b)",
+              "equations": ["r/3 - s/6 = 1/2", "r + 2s + 4 = -3s + 6r + 14"]
+            },
+            {
+              "part": "(c)",
+              "equations": ["5a + 5b + 4 = 17 + 3b", "16a - 40 = 6a - 4b - 14"]
+            },
+            {
+              "part": "(d)",
+              "equations": ["5 = -5x + 6y + 17", "2x - 4y + 3 = 3y + 17"]
+            }
+          ]
+        },
+        {
+          "problem_number": "5.24",
+          "content": "Find the value of the constant a such that the system of equations has infinitely many solutions (x, y).",
+          "equations": [
+            "3x + 2y = 8",
+            "6x = 2a - 7 - 4y"
+          ]
+        },
+        {
+          "problem_number": "5.25",
+          "content": "For what value of the constant c does the system of equations below have no solutions (x, y)?",
+          "equations": [
+            "3x - 5y = -2.3",
+            "6x = cy + 9.3"
+          ]
+        },
+        {
+          "problem_number": "5.26",
+          "content": "The sum of the charges of the quarks in a particle gives the overall charge of the particle. Two up quarks and a down quark make a proton, which has charge 1. On the other hand, two down quarks and an up quark make a neutron, which has charge 0. What is the charge of an up quark?",
+          "source": "Mandelbrot"
+        },
+        {
+          "problem_number": "5.27",
+          "content": "My father's age 5 years ago plus twice my age now gives 65, while my age 5 years ago plus three times my father's age now gives 130. What is my father's age?"
+        },
+        {
+          "problem_number": "5.29",
+          "content": "Find all ordered pairs (x, y) that satisfy the system of equations:",
+          "equations": [
+            "x/y - 3 = 2/y",
+            "2x - 9y = -8"
+          ]
+        },
+        {
+          "problem_number": "5.30",
+          "content": "Solve the system of equations below:",
+          "equations": [
+            "p + 3q - 2r = 19",
+            "-2p + 7q - 6r = 26",
+            "-p - 2q + 8r = -31"
+          ]
+        },
+        {
+          "problem_number": "5.31",
+          "content": "A box containing 3 oranges, 2 apples, and one banana weighs 15 units. Another box containing 5 oranges, 7 apples, and 2 bananas weighs 44 units. A third box containing 1 orange, 3 apples, and 5 bananas weighs 26 units. How much does each fruit weigh?"
+        }
+      ]
+    },
+    {
+      "type": "challenge_problems",
+      "problems": [
+        {
+          "problem_number": "5.32",
+          "content": "I am thinking of a two-digit number. If the digits of my number are reversed, the new number is 36 greater than my original number. If the tens digit of my original number is doubled and the units digit is halved, the new number is 17 greater than my original number. What is my original number?",
+          "hints": "149"
+        },
+        {
+          "problem_number": "5.33",
+          "content": "Suppose that x = 3 - 4t and y = 5 + 2t. Find x in terms of y."
+        },
+        {
+          "problem_number": "5.34",
+          "content": "Find x and y if sqrt(x) + 2*sqrt(y) = 3 and 2*sqrt(x) + sqrt(y) = 0."
+        },
+        {
+          "problem_number": "5.35",
+          "content": "The product of two nonzero numbers is equal to twice the sum. Find the sum of their reciprocals.",
+          "hints": "184"
+        },
+        {
+          "problem_number": "5.36",
+          "content": "Find all ordered pairs (x, y) that satisfy both (3x - 4y)/(xy) = -8 and (2x + 7y)/(xy) = 43.",
+          "hints": "20"
+        },
+        {
+          "problem_number": "5.37",
+          "content": "Compute x + 1/y if x + 1/y = 4 and y + 1/x = 1/4.",
+          "source": "ARML",
+          "hints": "120"
+        },
+        {
+          "problem_number": "5.38",
+          "difficulty": "star",
+          "content": "One morning each member of Angela's family drank an 8-ounce mixture of coffee with milk. The amounts of coffee and milk varied from cup to cup, but were never zero. Angela drank a quarter of the total amount of milk and a sixth of the total amount of coffee. How many people are in the family?",
+          "source": "AMC 12",
+          "hints": "21, 92"
+        },
+        {
+          "problem_number": "5.39",
+          "difficulty": "star",
+          "content": "Solve the system of equations:",
+          "equations": [
+            "2a - 3b + 5c + d = -41",
+            "7a + 2b - c = -28",
+            "-a + 2b - 7c - 2d = 46",
+            "3a + 7b - 6c + d = 31"
+          ]
+        },
+        {
+          "problem_number": "5.40",
+          "difficulty": "star",
+          "content": "When we place four numbers in a 2x2 grid, we form a matrix. We find the determinant of such a 2x2 matrix as follows: |a b; c d| = ad - bc. For example, |3 -2; 5 7| = (3)(7) - (-2)(5) = 31.",
+          "additional_content": "Suppose a, b, c, d, e, and f are constants in the system of linear equations: ax + by = e, cx + dy = f. Cramer's Rule states that if |a b; c d| is nonzero, then the solution to this system is x = |e b; f d| / |a b; c d| and y = |a e; c f| / |a b; c d|. Prove Cramer's Rule. What happens if the determinant |a b; c d| equals 0?",
+          "hints": "193"
+        },
+        {
+          "problem_number": "5.41",
+          "difficulty": "star",
+          "content": "Assume that x_1, x_2, ..., x_7 are real numbers such that:",
+          "equations": [
+            "x_1 + 4x_2 + 9x_3 + 16x_4 + 25x_5 + 36x_6 + 49x_7 = 1",
+            "4x_1 + 9x_2 + 16x_3 + 25x_4 + 36x_5 + 49x_6 + 64x_7 = 12",
+            "9x_1 + 16x_2 + 25x_3 + 36x_4 + 49x_5 + 64x_6 + 81x_7 = 123"
+          ],
+          "question": "Find the value of 16x_1 + 25x_2 + 36x_3 + 49x_4 + 64x_5 + 81x_6 + 100x_7.",
+          "source": "AIME"
+        }
+      ]
+    }
+  ]
+}

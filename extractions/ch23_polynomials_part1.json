@@ -1,0 +1,626 @@
+{
+  "chapter": 23,
+  "title": "Polynomials",
+  "part": 1,
+  "image_range": "2213-2252",
+  "sections": [
+    {
+      "title": "Introduction to Polynomials",
+      "concepts": [
+        {
+          "name": "Definition of Polynomial",
+          "content": "A polynomial is a function that can be written as the sum of terms using non-negative integer powers of the variable.",
+          "examples": [
+            "p(x) = 3x^2 + 5x - 4 and q(x) = -x^7 + (1/2)x^4 + 6x are polynomials",
+            "f(x) = 3x + x^(1/2) is not a polynomial as the index in the second term is not an integer",
+            "g(x) = 3^x + 6x is not a polynomial because one of the terms has x as the index",
+            "h(x) = 2x^2 - x + 3x^(-1) is not a polynomial because the last term has a negative index"
+          ]
+        },
+        {
+          "name": "Degree of a Polynomial",
+          "content": "The degree of a polynomial is the highest power of the variable."
+        },
+        {
+          "name": "Types of Polynomials by Degree",
+          "table": [
+            {"polynomial": "ax + b, a != 0", "degree": 1, "name": "linear"},
+            {"polynomial": "ax^2 + bx + c, a != 0", "degree": 2, "name": "quadratic"},
+            {"polynomial": "ax^3 + bx^2 + cx + d, a != 0", "degree": 3, "name": "cubic"},
+            {"polynomial": "ax^4 + bx^3 + cx^2 + dx + e, a != 0", "degree": 4, "name": "quartic"}
+          ]
+        },
+        {
+          "name": "General Form of Polynomial",
+          "content": "P(x) = a_n*x^n + a_(n-1)*x^(n-1) + ... + a_2*x^2 + a_1*x + a_0 = sum(a_r*x^r, r=0 to n)",
+          "terminology": [
+            "x is the variable",
+            "a_0 is the constant term",
+            "a_n is the leading coefficient",
+            "a_r is the coefficient of x^r for r = 0, 1, 2, ..., n",
+            "n is the degree of the polynomial",
+            "a_r*x^r is the term of the polynomial with degree r"
+          ]
+        },
+        {
+          "name": "Real Polynomial",
+          "content": "A real polynomial P(x) is a polynomial for which a_r is in R, r = 0, 1, 2, ..., n."
+        }
+      ]
+    },
+    {
+      "title": "Addition and Subtraction",
+      "concepts": [
+        {
+          "name": "Adding and Subtracting Polynomials",
+          "content": "To add or subtract two polynomials, we collect 'like' terms. To make it easier to collect 'like' terms, we often write them one above the other."
+        }
+      ],
+      "examples": [
+        {
+          "id": "example_1_addition_subtraction",
+          "problem": "If P(x) = x^3 - 2x^2 + 3x - 5 and Q(x) = 2x^3 + x^2 - 11, find: a) P(x) + Q(x), b) P(x) - Q(x)",
+          "solution": {
+            "a": "P(x) + Q(x) = 3x^3 - x^2 + 3x - 16",
+            "b": "P(x) - Q(x) = -x^3 - 3x^2 + 3x + 6"
+          }
+        },
+        {
+          "id": "example_1_alt",
+          "problem": "Let p(x) = x^3 + 2x^2 - 4x + 3 and q(x) = 5x^2 + x - 2. Find: a) p(x) + q(x), b) p(x) - q(x)",
+          "solution": {
+            "a": "p(x) + q(x) = x^3 + 7x^2 - 3x + 1",
+            "b": "p(x) - q(x) = x^3 - 3x^2 - 5x + 5"
+          }
+        },
+        {
+          "id": "example_2",
+          "problem": "If P(x) = x^2 + 4x - 5 and Q(x) = 3x^3 - 6x^2 - 2, find: a) 2P(x), b) -4Q(x), c) 3P(x) + 2Q(x)",
+          "solution": {
+            "a": "2P(x) = 2x^2 + 8x - 10",
+            "b": "-4Q(x) = -12x^3 + 24x^2 + 8",
+            "c": "3P(x) + 2Q(x) = 6x^3 - 9x^2 + 12x - 19"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Multiplication of Polynomials",
+      "examples": [
+        {
+          "id": "example_3",
+          "problem": "If P(x) = x^3 - 2x + 4 and Q(x) = 2x^2 + 3x - 5, find P(x)Q(x).",
+          "solution": "P(x)Q(x) = 2x^5 + 3x^4 - 9x^3 + 2x^2 + 22x - 20",
+          "method": "We line up the 'like' terms so we can add them in columns."
+        },
+        {
+          "id": "example_3_alt",
+          "problem": "If p(x) = 2x^3 - x^2 + 6 and q(x) = x^2 - 3x + 4, find p(x)q(x).",
+          "solution": "p(x)q(x) = 2x^5 - 7x^4 + 11x^3 + 2x^2 - 18x + 24"
+        }
+      ],
+      "concepts": [
+        {
+          "name": "Synthetic Multiplication",
+          "content": "Polynomial multiplication can also be performed using synthetic multiplication where we just use the coefficients.",
+          "note": "Unlike long multiplication with numbers, we do not 'carry' tens, and we can have negative coefficients.",
+          "example": {
+            "polynomials": ["x^3 - 2x + 4", "2x^2 + 3x - 5"],
+            "coefficients": ["1, 0, -2, 4", "2, 3, -5"],
+            "result": "2x^5 + 3x^4 - 9x^3 + 2x^2 + 22x - 20"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Division of Polynomials",
+      "concepts": [
+        {
+          "name": "Division Algorithm",
+          "content": "If P(x) is divided by ax + b until a constant remainder R is obtained, then P(x)/(ax + b) = Q(x) + R/(ax + b)",
+          "terminology": [
+            "ax + b is the divisor, D(x)",
+            "Q(x) is the quotient",
+            "R is the remainder"
+          ],
+          "relationship": "P(x) = Q(x) * (ax + b) + R"
+        },
+        {
+          "name": "Division by Quadratic",
+          "content": "If P(x) is divided by ax^2 + bx + c then P(x)/(ax^2 + bx + c) = Q(x) + (ex + f)/(ax^2 + bx + c)",
+          "terminology": [
+            "ax^2 + bx + c is the divisor",
+            "Q(x) is the quotient",
+            "ex + f is the remainder"
+          ],
+          "note": "The remainder will be linear if e != 0, and constant if e = 0."
+        }
+      ],
+      "examples": [
+        {
+          "id": "example_4",
+          "problem": "Find the quotient and remainder of (2x^3 - 5x^2 + x + 7)/(x - 3).",
+          "solution": {
+            "quotient": "2x^2 + x + 4",
+            "remainder": "19"
+          },
+          "method": "Long division"
+        },
+        {
+          "id": "example_5",
+          "problem": "Find (x^4 - 17x^2 + 12x - 6)/(x + 5).",
+          "solution": {
+            "quotient": "x^3 - 5x^2 + 8x - 28",
+            "remainder": "134"
+          },
+          "note": "We insert +0x^3 to fill the empty spot."
+        },
+        {
+          "id": "example_11",
+          "problem": "Perform the division (x^4 + 2x^2 - 1)/(x + 3). Hence write x^4 + 2x^2 - 1 in the form Q(x) * (x + 3) + R.",
+          "solution": {
+            "quotient": "x^3 - 3x^2 + 11x - 33",
+            "remainder": "98",
+            "expanded_form": "x^4 + 2x^2 - 1 = (x^3 - 3x^2 + 11x - 33)(x + 3) + 98"
+          }
+        },
+        {
+          "id": "example_12",
+          "problem": "Carry out the division (2x^3 - x^2 - 13x - 6)/(x - 3), and hence factorise the numerator into linear factors.",
+          "solution": {
+            "quotient": "2x^2 + 5x + 2",
+            "remainder": "0",
+            "factorisation": "2x^3 - x^2 - 13x - 6 = (x - 3)(2x^2 + 5x + 2) = (x - 3)(2x + 1)(x + 2)"
+          }
+        },
+        {
+          "id": "example_13",
+          "problem": "Find the quotient and remainder for (x^4 + 4x^3 - x + 1)/(x^2 - x + 1). Hence write x^4 + 4x^3 - x + 1 in the form Q(x) * (x^2 - x + 1) + R(x).",
+          "solution": {
+            "quotient": "x^2 + 5x + 4",
+            "remainder": "-2x - 3",
+            "expanded_form": "x^4 + 4x^3 - x + 1 = (x^2 + 5x + 4)(x^2 - x + 1) - 2x - 3"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Synthetic Division (Extension)",
+      "concepts": [
+        {
+          "name": "Synthetic Division",
+          "content": "Division of a polynomial by the linear factor x - k can be performed quickly by a process called synthetic division.",
+          "steps": [
+            "Step 1: Write coefficients of P(x) in a row with k written to the left (when dividing by x - k, write k)",
+            "Step 2: Write 0 in the first position of the second row, then multiply by k and add",
+            "Step 3: Repeat the process: continue adding then multiplying by k across the array",
+            "Step 4: The numbers along the bottom row are the coefficients of the quotient, and the remainder"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "synthetic_example",
+          "problem": "Divide 2x^3 + x^2 + 3x + 5 by x - 3",
+          "solution": "(2x^3 + x^2 + 3x + 5)/(x - 3) = 2x^2 + 7x + 24 + 77/(x - 3)"
+        },
+        {
+          "id": "example_6",
+          "problem": "Find (4x^3 + 5x - 3)/(x + 1).",
+          "solution": "(4x^3 + 5x - 3)/(x + 1) = 4x^2 - 4x + 9 - 12/(x + 1)"
+        }
+      ]
+    },
+    {
+      "title": "Zeros and Roots",
+      "concepts": [
+        {
+          "name": "Zero of a Polynomial",
+          "content": "A zero of a polynomial is a value of the variable which makes the polynomial equal to zero.",
+          "notation": "alpha is a zero of polynomial P(x) if and only if P(alpha) = 0"
+        },
+        {
+          "name": "Root of a Polynomial Equation",
+          "content": "The roots of a polynomial equation are the solutions to the equation.",
+          "notation": "alpha is a root (or solution) of P(x) = 0 if and only if P(alpha) = 0"
+        },
+        {
+          "name": "Relationship",
+          "content": "The roots of P(x) = 0 are the zeros of P(x) and the x-intercepts of the graph of y = P(x)."
+        }
+      ],
+      "examples": [
+        {
+          "id": "zeros_example",
+          "problem": "Consider P(x) = x^3 - 2x^2 + x - 12. Show that 3 is a zero.",
+          "solution": "P(3) = 3^3 - 2(3)^2 + 3 - 12 = 27 - 18 + 3 - 12 = 0",
+          "conclusions": [
+            "3 is a zero of x^3 - 2x^2 + x - 12",
+            "3 is a root of x^3 - 2x^2 + x - 12 = 0",
+            "The graph of y = x^3 - 2x^2 + x - 12 has the x-intercept 3"
+          ]
+        },
+        {
+          "id": "example_4_zeros",
+          "problem": "Find the zeros of: a) x^2 - 4x + 53, b) z^3 + 3z",
+          "solution": {
+            "a": {
+              "equation": "x^2 - 4x + 53 = 0",
+              "method": "Quadratic formula",
+              "result": "x = (4 +/- sqrt(-196))/2 = (4 +/- 14i)/2 = 2 +/- 7i",
+              "zeros": ["2 - 7i", "2 + 7i"]
+            },
+            "b": {
+              "equation": "z^3 + 3z = 0",
+              "factorisation": "z(z^2 + 3) = 0, then z(z + i*sqrt(3))(z - i*sqrt(3)) = 0",
+              "zeros": ["-i*sqrt(3)", "0", "i*sqrt(3)"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "title": "Factorisation and Expansion",
+      "concepts": [
+        {
+          "name": "Factorised and Expanded Forms",
+          "content": "Polynomials can be written in factorised form or expanded form.",
+          "example": {
+            "expansion": "(x + 1)(x - 2)(x - 4) = (x^2 - x - 2)(x - 4) = x^3 - 5x^2 + 2x + 8",
+            "factorisation": "Writing x^3 - 5x^2 + 2x + 8 as (x + 1)(x - 2)(x - 4) is called factorisation"
+          }
+        },
+        {
+          "name": "Linear Factors",
+          "content": "If P(x) = (2x + 1)(x - 3)(x - 1), then (2x + 1), (x - 3), and (x - 1) are its linear factors.",
+          "repeated_factors": "P(x) = (x + 2)^2(x - 1) has been factorised into 3 linear factors, one of which is repeated."
+        },
+        {
+          "name": "Linear Factor Definition",
+          "content": "(x - alpha) is a linear factor of polynomial P(x) if and only if there exists a polynomial Q(x) such that P(x) = (x - alpha)Q(x).",
+          "real_linear_factor": "If alpha is in R then (x - alpha) is a real linear factor."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exercise_24A",
+      "title": "Exercise 24A",
+      "problems": [
+        {
+          "number": 1,
+          "instruction": "State whether the following functions are polynomials. If they are not, give a reason.",
+          "parts": [
+            {"label": "a", "expression": "f(x) = 3x^2 + 2"},
+            {"label": "b", "expression": "g(x) = 3x + (1/3)x^2"},
+            {"label": "c", "expression": "h(x) = 2^x - 4x^2 - 7"},
+            {"label": "d", "expression": "p(x) = -8x^5 - 7x^4 + 1"},
+            {"label": "e", "expression": "q(x) = 4x^3 + 2x^(3/2)"},
+            {"label": "f", "expression": "r(x) = 5x^2 - x - 5x^(-2)"}
+          ]
+        },
+        {
+          "number": 2,
+          "instruction": "Find the degree of the following polynomials:",
+          "parts": [
+            {"label": "a", "expression": "f(x) = 3x^4 - x^2 + 7x - 2"},
+            {"label": "b", "expression": "g(x) = 2 - x + (1/5)x^2"},
+            {"label": "c", "expression": "p(x) = (2/3)x^4 - x^5 + 6"},
+            {"label": "d", "expression": "q(x) = (x + 5)(x - 4)"},
+            {"label": "e", "expression": "r(x) = (2x + 1)(x - 2)(x + 3)"},
+            {"label": "f", "expression": "s(x) = (x^2 - 5)(x^2 + 2x - 7)"}
+          ]
+        },
+        {
+          "number": 3,
+          "instruction": "Find the constant term in the following polynomials:",
+          "parts": [
+            {"label": "a", "expression": "f(x) = 9x^4 - 13x^2 + x - 4"},
+            {"label": "b", "expression": "g(x) = 6 - x + 3x^2 - x^3"},
+            {"label": "c", "expression": "p(x) = (x - 3)(x + 4)"},
+            {"label": "d", "expression": "q(x) = x(x + 6)(x - 2)"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exercise_5A",
+      "title": "Exercise 5A",
+      "problems": [
+        {
+          "number": 1,
+          "instruction": "For each of the following polynomials, state the: i) degree, ii) leading coefficient, iii) constant term.",
+          "parts": [
+            {"label": "a", "expression": "P(x) = 2x^3 + x^2 - 2x + 5"},
+            {"label": "b", "expression": "f(x) = x^4 + 5x^2 + 3x - 2"},
+            {"label": "c", "expression": "Q(x) = -3x^5 - x^3 + 4x^2 + 1"},
+            {"label": "d", "expression": "g(x) = 5x^3 - 3x^2 + 4x"},
+            {"label": "e", "expression": "P(x) = 7 + 5x - x^4"},
+            {"label": "f", "expression": "h(x) = 2x^2 - 4x^3 + 7 - 3x"}
+          ]
+        },
+        {
+          "number": 2,
+          "instruction": "State the coefficient of:",
+          "parts": [
+            {"label": "a", "term": "x^2", "polynomial": "P(x) = 4x^3 + 7x^2 - 5x + 2"},
+            {"label": "b", "term": "x", "polynomial": "f(x) = x^4 + 2x^3 - 4x + 1"},
+            {"label": "c", "term": "x^3", "polynomial": "Q(x) = x^5 - 3x^4 + 2x^2 - 7"},
+            {"label": "d", "term": "x^2", "polynomial": "g(x) = (1/3)x^3 - 2x + (1/4)x^2 + 3"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exercise_5B",
+      "title": "Exercise 5B",
+      "problems": [
+        {
+          "number": 1,
+          "instruction": "If P(x) = x^2 + 2x + 3 and Q(x) = 3x^2 - 5x + 6, find in simplest form:",
+          "parts": ["a) 3P(x)", "b) P(x) + Q(x)", "c) P(x) - 2Q(x)", "d) P(x)Q(x)"]
+        },
+        {
+          "number": 2,
+          "instruction": "If f(x) = x^3 - x + 2 and g(x) = x^2 - 3x + 5, find in simplest form:",
+          "parts": ["a) f(x) + g(x)", "b) g(x) - f(x)", "c) 2f(x) + f(x)"]
+        },
+        {
+          "number": 3,
+          "instruction": "Expand and simplify:",
+          "parts": [
+            {"label": "a", "expression": "(x - 2x + 3)(2x - 1)"},
+            {"label": "b", "expression": "(2x^2 + 3)^2"},
+            {"label": "c", "expression": "(x + 2)^3"}
+          ]
+        },
+        {
+          "number": 4,
+          "instruction": "Find the following products:",
+          "parts": [
+            {"label": "a", "expression": "(x - 2)(x^2 + 3x - 1)"},
+            {"label": "b", "expression": "(2x + 3)(x^2 - x + 2)"},
+            {"label": "c", "expression": "(2x^2 + 3x + 2)(x^2 - 1)"},
+            {"label": "d", "expression": "(3x - 2)(x^2 + 2x - 1)"}
+          ]
+        },
+        {
+          "number": 5,
+          "instruction": "Suppose the polynomial P(x) has degree 3. Find the degree of Q(x) = (x - 1)^3P(x). Explain your answer."
+        },
+        {
+          "number": 6,
+          "instruction": "State P(x) = (x^2 - 3x + 5)(x) has degree 5. Find the degree of Q(x)."
+        },
+        {
+          "number": 7,
+          "instruction": "P(x) has degree 2, leading coefficient 3, and constant term 5. Q(x) has degree 4, leading coefficient -5, and constant term -2. Find the degree, leading coefficient, and constant term of P(x)Q(x)."
+        },
+        {
+          "number": 8,
+          "instruction": "If P(x) and Q(x) are polynomials with degrees p and q respectively, state possibilities for the degree of: a) P(x) + Q(x), b) P(x) - Q(x), c) P(x)Q(x). Explain each answer."
+        }
+      ]
+    },
+    {
+      "id": "exercise_24B_1",
+      "title": "Exercise 24B.1",
+      "problems": [
+        {
+          "number": 1,
+          "instruction": "For each of the following pairs of functions, find: i) p(x) + q(x), ii) p(x) - q(x)",
+          "parts": [
+            {"label": "a", "p": "p(x) = x^2 + 1", "q": "q(x) = 2x^2 + 3x - 4"},
+            {"label": "b", "p": "p(x) = x^3 - 4x^2 + 2x + 1", "q": "q(x) = 2x^3 - x^2 - x + 6"},
+            {"label": "c", "p": "p(x) = -5x^4 - x^2 + x", "q": "q(x) = x^3 - 8x^2 - 2x - 4"},
+            {"label": "d", "p": "p(x) = 2x^4 - x^3 + 7x - 3", "q": "q(x) = 8 - 5x - 3x^3"}
+          ]
+        },
+        {
+          "number": 2,
+          "instruction": "If p(x) = x^2 + 3x - 2 and q(x) = -2x^3 + x + 4, find:",
+          "parts": ["a) 3p(x)", "b) 4q(x)", "c) -p(x)", "d) p(x) + 4q(x)", "e) 2p(x) - 3q(x)", "f) 2q(x) - p(x)"]
+        },
+        {
+          "number": 3,
+          "instruction": "Find f(x)g(x) for:",
+          "parts": [
+            {"label": "a", "f": "f(x) = 3x - 1", "g": "g(x) = x + 2"},
+            {"label": "b", "f": "f(x) = 2x^2 - x - 3", "g": "g(x) = x - 4"},
+            {"label": "c", "f": "f(x) = 4x^3 - x^2 + 2", "g": "g(x) = x^2 - 5x + 4"},
+            {"label": "d", "f": "f(x) = -2x^3 + x + 7", "g": "g(x) = x^4 + x^2 - 5x"}
+          ]
+        },
+        {
+          "number": 4,
+          "instruction": "For p(x) = x^4 - 3x^3 + 4x - 1 and q(x) = 2x^3 - 3x^2 + 6, find:",
+          "parts": ["a) 3p(x)", "b) -5q(x)", "c) 2p(x) + 3q(x)", "d) 4q(x) - p(x)", "e) 4p(x) - 2q(x)", "f) p(x)q(x)"]
+        }
+      ]
+    },
+    {
+      "id": "exercise_24B_2",
+      "title": "Exercise 24B.2",
+      "problems": [
+        {
+          "number": 1,
+          "instruction": "Find the quotient and remainder of:",
+          "parts": [
+            {"label": "a", "expression": "(x^2 + 5x + 6)/(x + 4)"},
+            {"label": "b", "expression": "(2x^2 - 3x + 1)/(x - 2)"},
+            {"label": "c", "expression": "(x^2 - x + 2)/(x + 3)"},
+            {"label": "d", "expression": "(x^3 + 3x^2 + 5x + 11)/(x + 2)"},
+            {"label": "e", "expression": "(x^3 + 2x^2 - 7x - 1)/(x - 1)"},
+            {"label": "f", "expression": "(x^3 + 4x^2 - 2x + 3)/(x + 4)"}
+          ]
+        },
+        {
+          "number": 2,
+          "instruction": "Find:",
+          "parts": [
+            {"label": "a", "expression": "(x^2 - 4x + 5)/(x - 3)"},
+            {"label": "b", "expression": "(3x^2 + x - 5)/(x + 1)"},
+            {"label": "c", "expression": "(x^2 + 9)/(x - 2)"},
+            {"label": "d", "expression": "(x^3 - 9x^2 + 6x - 7)/(x - 4)"},
+            {"label": "e", "expression": "(x^3 + 5x - 4)/(x + 2)"},
+            {"label": "f", "expression": "(2x^4 + 5x^3 + x^2 + 2x - 4)/(x + 3)"}
+          ]
+        },
+        {
+          "number": "2 (synthetic)",
+          "instruction": "Use synthetic division to find:",
+          "parts": [
+            {"label": "a", "expression": "(x^2 - 3x + 5)/(x - 1)"},
+            {"label": "b", "expression": "(x^2 + 4)/(x + 3)"},
+            {"label": "c", "expression": "(2x^3 - x^2 + 4x - 3)/(x - 2)"},
+            {"label": "d", "expression": "(3x^3 + x^2 - 2)/(x + 1)"},
+            {"label": "e", "expression": "(2x^3 - 8x + 10)/(x + 5)"},
+            {"label": "f", "expression": "(x^4 - 5x^3 + 9x^2 - 7x)/(x - 3)"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exercise_5E_1",
+      "title": "Exercise 5E.1",
+      "problems": [
+        {
+          "number": 1,
+          "instruction": "Find the quotient and remainder for the following, and hence write the division in the form P(x) = Q(x)D(x) + R, where D(x) is the divisor.",
+          "parts": [
+            {"label": "a", "expression": "(x^2 + 2x - 3)/(x + 2)"},
+            {"label": "b", "expression": "(x^2 - 5x + 1)/(x - 1)"},
+            {"label": "c", "expression": "(2x^3 + 6x^2 - 4x + 3)/(x - 2)"}
+          ]
+        },
+        {
+          "number": 2,
+          "instruction": "Perform the following divisions, and hence write the division in the form P(x) = Q(x)D(x) + R.",
+          "parts": [
+            {"label": "a", "expression": "(x^2 - 3x + 6)/(x - 4)"},
+            {"label": "b", "expression": "(x^2 + 4x - 11)/(x + 3)"},
+            {"label": "c", "expression": "(2x^2 - 7x + 2)/(x - 2)"},
+            {"label": "d", "expression": "(2x^3 + 3x^2 - 3x - 2)/(2x + 1)"},
+            {"label": "e", "expression": "(3x^3 + 11x^2 + 8x + 7)/(3x - 1)"},
+            {"label": "f", "expression": "(2x^4 - x^3 - x^2 + 7x + 4)/(2x + 3)"}
+          ]
+        },
+        {
+          "number": 3,
+          "instruction": "Perform the divisions:",
+          "parts": [
+            {"label": "a", "expression": "(x^2 + 5)/(x - 2)"},
+            {"label": "b", "expression": "(2x^2 + 3x)/(x + 1)"},
+            {"label": "c", "expression": "(3x^2 + 2x - 5)/(x + 2)"},
+            {"label": "d", "expression": "(x^3 + 2x^2 - 5x + 2)/(x - 1)"},
+            {"label": "e", "expression": "(2x^3 - x)/(x + 4)"},
+            {"label": "f", "expression": "(x^3 + x^2 - 5)/(x - 2)"}
+          ]
+        },
+        {
+          "number": 4,
+          "instruction": "Carry out the division, and hence factorise the numerator into linear factors:",
+          "parts": [
+            {"label": "a", "expression": "(3x^3 - 5x^2 - 4x + 4)/(x + 1)"},
+            {"label": "b", "expression": "(2x^3 + 7x^2 - 10x - 24)/(x - 2)"},
+            {"label": "c", "expression": "(4x^3 + 21x^2 + 2x - 15)/(x + 5)"}
+          ]
+        },
+        {
+          "number": 5,
+          "instruction": "a) Use the division process to divide (x^3 + a^3)/(x + a). Check your answer by expanding and simplifying (x^2 - ax + a^2)(x + a). b) Hence factorise into two factors: i) x^3 + 1, ii) x^3 + 8, iii) x^3 + 125"
+        },
+        {
+          "number": 6,
+          "instruction": "a) Carry out the following divisions: i) (x^2 - a^2)/(x - a), ii) (x^3 - a^3)/(x - a), iii) (x^4 - a^4)/(x - a), iv) (x^5 - a^5)/(x - a). b) Hence deduce the factorisation of x^n - a^n into two factors, one of which is linear. c) Write as a product of two factors, one of which is linear: i) x^3 - 8, ii) x^4 - 1, iii) x^4 - 16, iv) x^5 - 243"
+        }
+      ]
+    },
+    {
+      "id": "exercise_5E_2",
+      "title": "Exercise 5E.2",
+      "problems": [
+        {
+          "number": 1,
+          "instruction": "Find the quotient and remainder for:",
+          "parts": [
+            {"label": "a", "expression": "(x^3 + 2x^2 + x - 3)/(x^2 + x + 1)"},
+            {"label": "b", "expression": "(3x^2 - x)/(x^2 - 1)"},
+            {"label": "c", "expression": "(3x^3 + x - 1)/(x^2 + 1)"},
+            {"label": "d", "expression": "(x - 4)/(x^2 + 2x - 1)"}
+          ]
+        },
+        {
+          "number": 2,
+          "instruction": "Carry out the following divisions and write each in the form P(x) = Q(x)D(x) + R(x):",
+          "parts": [
+            {"label": "a", "expression": "(x^2 - x + 1)/(x^2 + x + 1)"},
+            {"label": "b", "expression": "x^3/(x^2 + 2)"},
+            {"label": "c", "expression": "(x^4 + 3x^2 + x - 1)/(x^2 - x + 1)"},
+            {"label": "d", "expression": "(2x^3 - x + 6)/((x - 1)^2)"},
+            {"label": "e", "expression": "x^4/((x + 1)^2)"},
+            {"label": "f", "expression": "(x^4 - 2x^3 + x + 5)/((x - 1)(x + 2))"}
+          ]
+        },
+        {
+          "number": 3,
+          "instruction": "Suppose P(x) = (x - 2)(x^2 + 2x + 3) + 7. Find the quotient and remainder when P(x) is divided by x - 2."
+        },
+        {
+          "number": 4,
+          "instruction": "Suppose f(x) = (x - 1)(x + 2)(x^2 - 3x + 5) + 15 - 10x. Find the quotient and remainder when f(x) is divided by x^2 + x - 2."
+        }
+      ]
+    },
+    {
+      "id": "exercise_5C",
+      "title": "Exercise 5C",
+      "problems": [
+        {
+          "number": 1,
+          "instruction": "Decide whether:",
+          "parts": [
+            {"label": "a", "statement": "3 is a zero of x^2 - 5x + 6"},
+            {"label": "b", "statement": "-1 is a zero of x^3 + 2x^2 - 4x + 3"},
+            {"label": "c", "statement": "2 is a root of 3x^2 - 5x - 4 = 0"},
+            {"label": "d", "statement": "-2 is a root of x^3 + 3x^2 + 5x + 6 = 0"}
+          ]
+        },
+        {
+          "number": 2,
+          "instruction": "Find the zeros of:",
+          "parts": [
+            {"label": "a", "expression": "3x^2 - 2x - 5"},
+            {"label": "b", "expression": "x^2 + 6x + 10"},
+            {"label": "c", "expression": "z^2 - 6z + 6"},
+            {"label": "d", "expression": "x^3 - 4x"},
+            {"label": "e", "expression": "z^3 + 2z"},
+            {"label": "f", "expression": "z^4 + 4z^2 - 5"}
+          ]
+        },
+        {
+          "number": 3,
+          "instruction": "Find the roots of:",
+          "parts": [
+            {"label": "a", "equation": "5x^2 = 3x + 2"},
+            {"label": "b", "equation": "(2x + 1)(x^2 + 3) = 0"},
+            {"label": "c", "equation": "x^3 = 5x"},
+            {"label": "d", "equation": "x^3 + 5z = 0"},
+            {"label": "e", "equation": "z^4 = 3z^2 + 10"},
+            {"label": "f", "equation": "-2z(z^2 - 2z + 2) = 0"}
+          ]
+        },
+        {
+          "number": 4,
+          "instruction": "Use expansion to verify that:",
+          "parts": [
+            {"label": "a", "statement": "(x - 4)(x - 2)(x + 3) is the factorised form of x^3 - 3x^2 - 10x + 24"},
+            {"label": "b", "statement": "(3x + 1)(x + 3)(x - 4) is the factorised form of 3x^3 - 2x^2 - 37x - 12"},
+            {"label": "c", "statement": "(2x + 1)(2x - 3)(x + 2) is the factorised form of 4x^3 + 4x^2 - 11x - 6"}
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1135 @@
+{
+  "chapter": "Expansion and Factorisation",
+  "subsections": [
+    {
+      "title": "THE DISTRIBUTIVE LAW",
+      "items": [
+        {
+          "type": "concept",
+          "title": "The Distributive Law",
+          "content_latex": "The perimeter of a rectangle can be found by either adding all four side lengths, or doubling the sum of length and width. For example, the perimeter of the rectangle alongside is $7 + 3 + 7 + 3 = 20$ cm or $2 \\times (7 + 3) = 20$ cm. If we apply these methods to a rectangle with sides in terms of a variable or variables we discover a useful algebraic result.",
+          "formula_latex": "$a(b + c) = ab + ac$",
+          "source_images": ["image195.png", "image196.png", "image197.png"]
+        },
+        {
+          "type": "example",
+          "title": "Example 1",
+          "instruction": "Expand:",
+          "questions": [
+            {
+              "label": "a",
+              "problem_latex": "$4(3x + 1)$",
+              "answer_latex": "$= 4 \\times 3x + 4 \\times 1 = 12x + 4$"
+            },
+            {
+              "label": "b",
+              "problem_latex": "$5(7 + 2x)$",
+              "answer_latex": "$= 5 \\times 7 + 5 \\times 2x = 35 + 10x$"
+            },
+            {
+              "label": "c",
+              "problem_latex": "$2(3y + 4z)$",
+              "answer_latex": "$= 2 \\times 3y + 2 \\times 4z = 6y + 8z$"
+            }
+          ],
+          "source_images": ["image198.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3A - Question 1",
+          "instruction": "Complete these expansions:",
+          "questions": [
+            {"label": "a", "problem_latex": "$2(x + 5) = 2x + \\ldots$", "answer_latex": "$2x + 10$"},
+            {"label": "b", "problem_latex": "$5(y + 3) = \\ldots + 15$", "answer_latex": "$5y + 15$"},
+            {"label": "c", "problem_latex": "$6(3 + a) = \\ldots + 6a$", "answer_latex": "$18 + 6a$"},
+            {"label": "d", "problem_latex": "$7(4 + b) = 28 + \\ldots$", "answer_latex": "$28 + 7b$"},
+            {"label": "e", "problem_latex": "$3(z + 4) = 3z + \\ldots$", "answer_latex": "$3z + 12$"},
+            {"label": "f", "problem_latex": "$8(a + 3) = \\ldots + 24$", "answer_latex": "$8a + 24$"}
+          ],
+          "source_images": ["image200.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3A - Question 2",
+          "instruction": "Expand these expressions:",
+          "questions": [
+            {"label": "a", "problem_latex": "$3(a + 2)$", "answer_latex": "$3a + 6$"},
+            {"label": "b", "problem_latex": "$2(x + 5)$", "answer_latex": "$2x + 10$"},
+            {"label": "c", "problem_latex": "$5(a + 4)$", "answer_latex": "$5a + 20$"},
+            {"label": "d", "problem_latex": "$7(2x + 3)$", "answer_latex": "$14x + 21$"},
+            {"label": "e", "problem_latex": "$3(2y + 1)$", "answer_latex": "$6y + 3$"},
+            {"label": "f", "problem_latex": "$4(4c + 7)$", "answer_latex": "$16c + 28$"},
+            {"label": "g", "problem_latex": "$3(10 + y)$", "answer_latex": "$30 + 3y$"},
+            {"label": "h", "problem_latex": "$5(2 + x)$", "answer_latex": "$10 + 5x$"},
+            {"label": "i", "problem_latex": "$2(2 + b)$", "answer_latex": "$4 + 2b$"},
+            {"label": "j", "problem_latex": "$4(m + n)$", "answer_latex": "$4m + 4n$"},
+            {"label": "k", "problem_latex": "$4(2a + b)$", "answer_latex": "$8a + 4b$"},
+            {"label": "l", "problem_latex": "$3(2x + 3y)$", "answer_latex": "$6x + 9y$"}
+          ],
+          "source_images": ["image200.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3A - Question 3",
+          "instruction": "Expand:",
+          "questions": [
+            {"label": "a", "problem_latex": "$a(a - 4)$", "answer_latex": "$a^2 - 4a$"},
+            {"label": "b", "problem_latex": "$2a(a - 3)$", "answer_latex": "$2a^2 - 6a$"},
+            {"label": "c", "problem_latex": "$a(a - 6)$", "answer_latex": "$a^2 - 6a$"},
+            {"label": "d", "problem_latex": "$y(4y - 10)$", "answer_latex": "$4y^2 - 10y$"},
+            {"label": "e", "problem_latex": "$3p(2p - 6)$", "answer_latex": "$6p^2 - 18p$"},
+            {"label": "f", "problem_latex": "$r(r - 2)$", "answer_latex": "$r^2 - 2r$"},
+            {"label": "g", "problem_latex": "$z(5 - z)$", "answer_latex": "$5z - z^2$"},
+            {"label": "h", "problem_latex": "$k(k - 1)$", "answer_latex": "$k^2 - k$"},
+            {"label": "i", "problem_latex": "$y(1 - y)$", "answer_latex": "$y - y^2$"},
+            {"label": "j", "problem_latex": "$5x(3x - 2)$", "answer_latex": "$15x^2 - 10x$"},
+            {"label": "k", "problem_latex": "$7p(2p - 4)$", "answer_latex": "$14p^2 - 28p$"},
+            {"label": "l", "problem_latex": "$q(q - 1)$", "answer_latex": "$q^2 - q$"}
+          ],
+          "source_images": ["image201.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3A - Question 4",
+          "instruction": "Expand:",
+          "questions": [
+            {"label": "a", "problem_latex": "$(x + 2)3$", "answer_latex": "$3x + 6$"},
+            {"label": "b", "problem_latex": "$(x + y)4$", "answer_latex": "$4x + 4y$"},
+            {"label": "c", "problem_latex": "$(2 + y)3$", "answer_latex": "$6 + 3y$"},
+            {"label": "d", "problem_latex": "$(a + b)c$", "answer_latex": "$ac + bc$"},
+            {"label": "e", "problem_latex": "$(m + n)d$", "answer_latex": "$md + nd$"},
+            {"label": "f", "problem_latex": "$(k + 7)7$", "answer_latex": "$7k + 49$"},
+            {"label": "g", "problem_latex": "$(k + 7)k$", "answer_latex": "$k^2 + 7k$"},
+            {"label": "h", "problem_latex": "$(p + 4)p$", "answer_latex": "$p^2 + 4p$"}
+          ],
+          "source_images": ["image201.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3A - Question 5",
+          "instruction": "Expand:",
+          "questions": [
+            {"label": "a", "problem_latex": "$k(l + 3)$", "answer_latex": "$kl + 3k$"},
+            {"label": "b", "problem_latex": "$k(l - 1)$", "answer_latex": "$kl - k$"},
+            {"label": "c", "problem_latex": "$k(l + 5)$", "answer_latex": "$kl + 5k$"},
+            {"label": "d", "problem_latex": "$x(y - 2)$", "answer_latex": "$xy - 2x$"},
+            {"label": "e", "problem_latex": "$(a - 2)b$", "answer_latex": "$ab - 2b$"},
+            {"label": "f", "problem_latex": "$(x + 6)y$", "answer_latex": "$xy + 6y$"},
+            {"label": "g", "problem_latex": "$(k + 7)l$", "answer_latex": "$kl + 7l$"},
+            {"label": "h", "problem_latex": "$(z - 1)p$", "answer_latex": "$zp - p$"},
+            {"label": "i", "problem_latex": "$5x(2y - 3)$", "answer_latex": "$10xy - 15x$"},
+            {"label": "j", "problem_latex": "$2a(a + c)$", "answer_latex": "$2a^2 + 2ac$"},
+            {"label": "k", "problem_latex": "$4k(k - 2l)$", "answer_latex": "$4k^2 - 8kl$"},
+            {"label": "l", "problem_latex": "$2x(3x - 4y)$", "answer_latex": "$6x^2 - 8xy$"}
+          ],
+          "source_images": ["image201.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3A - Question 6",
+          "instruction": "Use the distributive law to expand:",
+          "questions": [
+            {"label": "a", "problem_latex": "$3(z + 2)$", "answer_latex": "$3z + 6$"},
+            {"label": "b", "problem_latex": "$3(3z - 2)$", "answer_latex": "$9z - 6$"},
+            {"label": "c", "problem_latex": "$10(2z - 3y)$", "answer_latex": "$20z - 30y$"},
+            {"label": "d", "problem_latex": "$7(x + 3z + 1)$", "answer_latex": "$7x + 21z + 7$"},
+            {"label": "e", "problem_latex": "$6(2 - 3a - 5b)$", "answer_latex": "$12 - 18a - 30b$"},
+            {"label": "f", "problem_latex": "$4(5z - 2x + 3y)$", "answer_latex": "$20z - 8x + 12y$"},
+            {"label": "g", "problem_latex": "$2a(3x - 4y + 7)$", "answer_latex": "$6ax - 8ay + 14a$"},
+            {"label": "h", "problem_latex": "$x(5 - 2x + 3y)$", "answer_latex": "$5x - 2x^2 + 3xy$"},
+            {"label": "i", "problem_latex": "$4(2x - 5y - 2)$", "answer_latex": "$8x - 20y - 8$"},
+            {"label": "j", "problem_latex": "$6(m + 2n + 8)$", "answer_latex": "$6m + 12n + 48$"},
+            {"label": "k", "problem_latex": "$7x(x + 3y + 4)$", "answer_latex": "$7x^2 + 21xy + 28x$"},
+            {"label": "l", "problem_latex": "$8x(a - 3b + c)$", "answer_latex": "$8ax - 24bx + 8cx$"},
+            {"label": "m", "problem_latex": "$5x(x + 3y + 7z)$", "answer_latex": "$5x^2 + 15xy + 35xz$"},
+            {"label": "n", "problem_latex": "$9y(x - z + p)$", "answer_latex": "$9xy - 9yz + 9yp$"},
+            {"label": "o", "problem_latex": "$10x(x + 5) + 1$", "answer_latex": "$10x^2 + 50x + 1$"},
+            {"label": "p", "problem_latex": "$6a(a + 5b + 2c)$", "answer_latex": "$6a^2 + 30ab + 12ac$"},
+            {"label": "q", "problem_latex": "$3x(x^2 + 3x + 9)$", "answer_latex": "$3x^3 + 9x^2 + 27x$"},
+            {"label": "r", "problem_latex": "$2p(3 + x - 2q)$", "answer_latex": "$6p + 2px - 4pq$"}
+          ],
+          "source_images": ["image201.png"]
+        },
+        {
+          "type": "example",
+          "title": "Example 3",
+          "instruction": "Expand the brackets and then simplify by collecting like terms:",
+          "questions": [
+            {
+              "label": "a",
+              "problem_latex": "$6y + 2(y - 4)$",
+              "answer_latex": "$= 6y + 2y - 8 = 8y - 8$"
+            },
+            {
+              "label": "b",
+              "problem_latex": "$2(2x + 1) + 3(x - 2)$",
+              "answer_latex": "$= 4x + 2 + 3x - 6 = 7x - 4$"
+            }
+          ],
+          "source_images": ["image202.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3B - Question 1",
+          "instruction": "Expand and then simplify by collecting like terms:",
+          "questions": [
+            {"label": "a", "problem_latex": "$2 + 3(x + 2)$", "answer_latex": "$3x + 8$"},
+            {"label": "b", "problem_latex": "$2 + 5(a + 7)$", "answer_latex": "$5a + 37$"},
+            {"label": "c", "problem_latex": "$3(n + 1) + 2(n + 3)$", "answer_latex": "$5n + 9$"},
+            {"label": "d", "problem_latex": "$3n + 2(n + 3)$", "answer_latex": "$5n + 6$"},
+            {"label": "e", "problem_latex": "$2(x - 6) + 5(x - 1)$", "answer_latex": "$7x - 17$"},
+            {"label": "f", "problem_latex": "$8(y - 2) + 3(y + 6)$", "answer_latex": "$11y + 2$"},
+            {"label": "g", "problem_latex": "$3(x + 4) + 6(5 + x)$", "answer_latex": "$9x + 42$"},
+            {"label": "h", "problem_latex": "$6(2 + y) + 8(y + 1)$", "answer_latex": "$14y + 20$"},
+            {"label": "i", "problem_latex": "$4(x + 7) + 11(2 + x)$", "answer_latex": "$15x + 50$"},
+            {"label": "j", "problem_latex": "$12(y + 3) + 3(3 + y)$", "answer_latex": "$15y + 45$"},
+            {"label": "k", "problem_latex": "$2(x - 4) + (x - 4)x$", "answer_latex": "$x^2 - 2x - 8$"}
+          ],
+          "source_images": ["image204.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3B - Question 2",
+          "instruction": "Expand and then simplify by collecting like terms:",
+          "questions": [
+            {"label": "a", "problem_latex": "$m(m + 2) + m(2m + 1)$", "answer_latex": "$3m^2 + 3m$"},
+            {"label": "b", "problem_latex": "$x(x + 2) - x^2$", "answer_latex": "$2x$"},
+            {"label": "c", "problem_latex": "$3a(a + 2) - 2a^2$", "answer_latex": "$a^2 + 6a$"},
+            {"label": "d", "problem_latex": "$5x(x + 2) - 2$", "answer_latex": "$5x^2 + 10x - 2$"},
+            {"label": "e", "problem_latex": "$3a(a + 2) + 5a(a + 1)$", "answer_latex": "$8a^2 + 11a$"},
+            {"label": "f", "problem_latex": "$4(p + 3q) + 2(p + 2q)$", "answer_latex": "$6p + 16q$"},
+            {"label": "g", "problem_latex": "$x(x + 3y) + 2x(x + y)$", "answer_latex": "$3x^2 + 5xy$"},
+            {"label": "h", "problem_latex": "$4(3 + 2x) + 4x(x + 1)$", "answer_latex": "$4x^2 + 12x + 12$"}
+          ],
+          "source_images": ["image205.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3B.1 - Question 1",
+          "instruction": "Expand and simplify:",
+          "questions": [
+            {"label": "a", "problem_latex": "$2(x + 7)$", "answer_latex": "$2x + 14$"},
+            {"label": "b", "problem_latex": "$3(x - 2)$", "answer_latex": "$3x - 6$"},
+            {"label": "c", "problem_latex": "$4(a + 3)$", "answer_latex": "$4a + 12$"},
+            {"label": "d", "problem_latex": "$5(a + c)$", "answer_latex": "$5a + 5c$"},
+            {"label": "e", "problem_latex": "$6(b - 3)$", "answer_latex": "$6b - 18$"},
+            {"label": "f", "problem_latex": "$7(m + 4)$", "answer_latex": "$7m + 28$"},
+            {"label": "g", "problem_latex": "$2(n - p)$", "answer_latex": "$2n - 2p$"},
+            {"label": "h", "problem_latex": "$4(p - q)$", "answer_latex": "$4p - 4q$"},
+            {"label": "i", "problem_latex": "$3(5 + x)$", "answer_latex": "$15 + 3x$"},
+            {"label": "j", "problem_latex": "$5(y - x)$", "answer_latex": "$5y - 5x$"},
+            {"label": "k", "problem_latex": "$8(t - 8)$", "answer_latex": "$8t - 64$"},
+            {"label": "l", "problem_latex": "$4(7 + m)$", "answer_latex": "$28 + 4m$"},
+            {"label": "m", "problem_latex": "$6(d + e)$", "answer_latex": "$6d + 6e$"},
+            {"label": "n", "problem_latex": "$2(x - 11)$", "answer_latex": "$2x - 22$"},
+            {"label": "o", "problem_latex": "$3(7 + k)$", "answer_latex": "$21 + 3k$"},
+            {"label": "p", "problem_latex": "$5(p - q)$", "answer_latex": "$5p - 5q$"},
+            {"label": "q", "problem_latex": "$4(10 - j)$", "answer_latex": "$40 - 4j$"},
+            {"label": "r", "problem_latex": "$7(y + n)$", "answer_latex": "$7y + 7n$"},
+            {"label": "s", "problem_latex": "$2(n - 12)$", "answer_latex": "$2n - 24$"},
+            {"label": "t", "problem_latex": "$8(11 - d)$", "answer_latex": "$88 - 8d$"}
+          ],
+          "source_images": ["image206.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3B.1 - Question 2",
+          "instruction": "Expand and simplify:",
+          "questions": [
+            {"label": "a", "problem_latex": "$9(2x + 1)$", "answer_latex": "$18x + 9$"},
+            {"label": "b", "problem_latex": "$3(1 - 3x)$", "answer_latex": "$3 - 9x$"},
+            {"label": "c", "problem_latex": "$5(2a + 3)$", "answer_latex": "$10a + 15$"},
+            {"label": "d", "problem_latex": "$11(1 - 2n)$", "answer_latex": "$11 - 22n$"},
+            {"label": "e", "problem_latex": "$6(3x + y)$", "answer_latex": "$18x + 6y$"},
+            {"label": "f", "problem_latex": "$5(x - 2y)$", "answer_latex": "$5x - 10y$"},
+            {"label": "g", "problem_latex": "$4(3b + c)$", "answer_latex": "$12b + 4c$"},
+            {"label": "h", "problem_latex": "$2(a - 2b)$", "answer_latex": "$2a - 4b$"},
+            {"label": "i", "problem_latex": "$7(a - 5b)$", "answer_latex": "$7a - 35b$"},
+            {"label": "j", "problem_latex": "$12(2 + 3d)$", "answer_latex": "$24 + 36d$"},
+            {"label": "k", "problem_latex": "$8(3 - 4y)$", "answer_latex": "$24 - 32y$"},
+            {"label": "l", "problem_latex": "$6(5b + 3a)$", "answer_latex": "$30b + 18a$"},
+            {"label": "m", "problem_latex": "$11(2x - y)$", "answer_latex": "$22x - 11y$"},
+            {"label": "n", "problem_latex": "$4(p + 9q)$", "answer_latex": "$4p + 36q$"},
+            {"label": "o", "problem_latex": "$5(a - 8b)$", "answer_latex": "$5a - 40b$"},
+            {"label": "p", "problem_latex": "$2(9 + 8x)$", "answer_latex": "$18 + 16x$"},
+            {"label": "q", "problem_latex": "$3(9x + y)$", "answer_latex": "$27x + 3y$"},
+            {"label": "r", "problem_latex": "$7(c - 9d)$", "answer_latex": "$7c - 63d$"},
+            {"label": "s", "problem_latex": "$6(m + 7n)$", "answer_latex": "$6m + 42n$"},
+            {"label": "t", "problem_latex": "$8(8a - c)$", "answer_latex": "$64a - 8c$"}
+          ],
+          "source_images": ["image206.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3B.1 - Question 3",
+          "instruction": "Expand and simplify:",
+          "questions": [
+            {"label": "a", "problem_latex": "$x(x + 2)$", "answer_latex": "$x^2 + 2x$"},
+            {"label": "b", "problem_latex": "$x(5 - x)$", "answer_latex": "$5x - x^2$"},
+            {"label": "c", "problem_latex": "$a(2a + 4)$", "answer_latex": "$2a^2 + 4a$"},
+            {"label": "d", "problem_latex": "$b(5 - 3b)$", "answer_latex": "$5b - 3b^2$"},
+            {"label": "e", "problem_latex": "$a(b + 2c)$", "answer_latex": "$ab + 2ac$"},
+            {"label": "f", "problem_latex": "$a(a^2 + 1)$", "answer_latex": "$a^3 + a$"},
+            {"label": "g", "problem_latex": "$a^2(2 - a)$", "answer_latex": "$2a^2 - a^3$"},
+            {"label": "h", "problem_latex": "$2x(3 - 4x)$", "answer_latex": "$6x - 8x^2$"},
+            {"label": "i", "problem_latex": "$3x(6 - x)$", "answer_latex": "$18x - 3x^2$"},
+            {"label": "j", "problem_latex": "$5x(x - 4)$", "answer_latex": "$5x^2 - 20x$"},
+            {"label": "k", "problem_latex": "$4a(1 - a)$", "answer_latex": "$4a - 4a^2$"},
+            {"label": "l", "problem_latex": "$7b(b + 2)$", "answer_latex": "$7b^2 + 14b$"},
+            {"label": "m", "problem_latex": "$(2x + 3)x$", "answer_latex": "$2x^2 + 3x$"},
+            {"label": "n", "problem_latex": "$(5 - 2x)x$", "answer_latex": "$5x - 2x^2$"},
+            {"label": "o", "problem_latex": "$ab(a + b)$", "answer_latex": "$a^2b + ab^2$"},
+            {"label": "p", "problem_latex": "$a^2b(3 - b)$", "answer_latex": "$3a^2b - a^2b^2$"},
+            {"label": "q", "problem_latex": "$mn(m - n)$", "answer_latex": "$m^2n - mn^2$"},
+            {"label": "r", "problem_latex": "$ac(c - 4a)$", "answer_latex": "$ac^2 - 4a^2c$"},
+            {"label": "s", "problem_latex": "$6p(4 - 7pq)$", "answer_latex": "$24p - 42p^2q$"},
+            {"label": "t", "problem_latex": "$(3k + 5l^2)k$", "answer_latex": "$3k^2 + 5kl^2$"},
+            {"label": "u", "problem_latex": "$(7a^2 - 5b)b$", "answer_latex": "$7a^2b - 5b^2$"},
+            {"label": "v", "problem_latex": "$xy(x + 9y)$", "answer_latex": "$x^2y + 9xy^2$"},
+            {"label": "w", "problem_latex": "$(7 - 4x)xy$", "answer_latex": "$7xy - 4x^2y$"},
+            {"label": "x", "problem_latex": "$(3t - 5s^2)t$", "answer_latex": "$3t^2 - 5s^2t$"}
+          ],
+          "source_images": ["image207.png"]
+        },
+        {
+          "type": "example",
+          "title": "Example 5",
+          "instruction": "Expand:",
+          "questions": [
+            {
+              "label": "a",
+              "problem_latex": "$-3(x + 4)$",
+              "answer_latex": "$= (-3) \\times x + (-3) \\times 4 = -3x + (-12) = -3x - 12$"
+            },
+            {
+              "label": "b",
+              "problem_latex": "$-(5 - x)$",
+              "answer_latex": "$= -1(5 + -x) = (-1) \\times 5 + (-1) \\times (-x) = -5 + x = x - 5$"
+            }
+          ],
+          "source_images": ["image209.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3C - Question 1",
+          "instruction": "Expand and simplify:",
+          "questions": [
+            {"label": "a", "problem_latex": "$3(x + 1)$", "answer_latex": "$3x + 3$"},
+            {"label": "b", "problem_latex": "$2(5 - x)$", "answer_latex": "$10 - 2x$"},
+            {"label": "c", "problem_latex": "$-(x + 2)$", "answer_latex": "$-x - 2$"},
+            {"label": "d", "problem_latex": "$-(3 - x)$", "answer_latex": "$-3 + x$"},
+            {"label": "e", "problem_latex": "$4(a + 2b)$", "answer_latex": "$4a + 8b$"},
+            {"label": "f", "problem_latex": "$3(2x + y)$", "answer_latex": "$6x + 3y$"},
+            {"label": "g", "problem_latex": "$5(x - y)$", "answer_latex": "$5x - 5y$"},
+            {"label": "h", "problem_latex": "$6(-x^2 + y^2)$", "answer_latex": "$-6x^2 + 6y^2$"},
+            {"label": "i", "problem_latex": "$-2(x + 4)$", "answer_latex": "$-2x - 8$"},
+            {"label": "j", "problem_latex": "$-3(2x - 1)$", "answer_latex": "$-6x + 3$"},
+            {"label": "k", "problem_latex": "$x(x + 3)$", "answer_latex": "$x^2 + 3x$"},
+            {"label": "l", "problem_latex": "$2x(x - 5)$", "answer_latex": "$2x^2 - 10x$"},
+            {"label": "m", "problem_latex": "$-3(x + 2)$", "answer_latex": "$-3x - 6$"},
+            {"label": "n", "problem_latex": "$-4(x - 3)$", "answer_latex": "$-4x + 12$"},
+            {"label": "o", "problem_latex": "$-(3 - x)$", "answer_latex": "$-3 + x$"},
+            {"label": "p", "problem_latex": "$-2(x - y)$", "answer_latex": "$-2x + 2y$"},
+            {"label": "q", "problem_latex": "$a(a + b)$", "answer_latex": "$a^2 + ab$"},
+            {"label": "r", "problem_latex": "$-a(a - b)$", "answer_latex": "$-a^2 + ab$"},
+            {"label": "s", "problem_latex": "$x(2x - 1)$", "answer_latex": "$2x^2 - x$"},
+            {"label": "t", "problem_latex": "$2x(x^2 - x - 2)$", "answer_latex": "$2x^3 - 2x^2 - 4x$"}
+          ],
+          "source_images": ["image208.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3C - Question 2",
+          "instruction": "Expand and simplify:",
+          "questions": [
+            {"label": "a", "problem_latex": "$1 + 2(x + 2)$", "answer_latex": "$2x + 5$"},
+            {"label": "b", "problem_latex": "$13 - 4(x + 3)$", "answer_latex": "$1 - 4x$"},
+            {"label": "c", "problem_latex": "$3(x - 2) + 5$", "answer_latex": "$3x - 1$"},
+            {"label": "d", "problem_latex": "$4(3 - x) - 10$", "answer_latex": "$2 - 4x$"},
+            {"label": "e", "problem_latex": "$x(x - 1) + x$", "answer_latex": "$x^2$"},
+            {"label": "f", "problem_latex": "$2x(3 - x) + x^2$", "answer_latex": "$6x - x^2$"},
+            {"label": "g", "problem_latex": "$2a(b - a) + 3a^2$", "answer_latex": "$2ab + a^2$"},
+            {"label": "h", "problem_latex": "$4x - 3x(x - 1)$", "answer_latex": "$7x - 3x^2$"},
+            {"label": "i", "problem_latex": "$7x^2 - 5x(x + 2)$", "answer_latex": "$2x^2 - 10x$"}
+          ],
+          "source_images": ["image208.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3C - Question 3",
+          "instruction": "Expand and simplify:",
+          "questions": [
+            {"label": "a", "problem_latex": "$3(x - 4) + 2(5 + x)$", "answer_latex": "$5x - 2$"},
+            {"label": "b", "problem_latex": "$2a + (a - 2b)$", "answer_latex": "$3a - 2b$"},
+            {"label": "c", "problem_latex": "$2a - (a - 2b)$", "answer_latex": "$a + 2b$"},
+            {"label": "d", "problem_latex": "$3(y + 1) + 6(2 - y)$", "answer_latex": "$15 - 3y$"},
+            {"label": "e", "problem_latex": "$2(y - 3) - 4(2y + 1)$", "answer_latex": "$-6y - 10$"},
+            {"label": "f", "problem_latex": "$3x - 4(2 - 3x)$", "answer_latex": "$15x - 8$"},
+            {"label": "g", "problem_latex": "$2(b - a) + 3(a + b)$", "answer_latex": "$a + 5b$"},
+            {"label": "h", "problem_latex": "$x(x + 4) + 2(x - 3)$", "answer_latex": "$x^2 + 6x - 6$"},
+            {"label": "i", "problem_latex": "$x(x + 4) - 2(x - 3)$", "answer_latex": "$x^2 + 2x + 6$"},
+            {"label": "j", "problem_latex": "$x^2 + x(x - 1)$", "answer_latex": "$2x^2 - x$"},
+            {"label": "k", "problem_latex": "$-x^2 - x(x - 2)$", "answer_latex": "$-2x^2 + 2x$"},
+            {"label": "l", "problem_latex": "$x(x + y) - y(x + y)$", "answer_latex": "$x^2 - y^2$"},
+            {"label": "m", "problem_latex": "$-4(x - 2) - (3 - x)$", "answer_latex": "$-3x + 5$"},
+            {"label": "n", "problem_latex": "$5(2x - 1) - (2x + 3)$", "answer_latex": "$8x - 8$"},
+            {"label": "o", "problem_latex": "$4x(x - 3) - 2x(5 - x)$", "answer_latex": "$6x^2 - 22x$"}
+          ],
+          "source_images": ["image208.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3D - Question 1",
+          "instruction": "Complete the following expansions:",
+          "questions": [
+            {"label": "a", "problem_latex": "$-2(x + 5) = -2x - \\ldots$", "answer_latex": "$-2x - 10$"},
+            {"label": "b", "problem_latex": "$-2(x - 5) = -2x + \\ldots$", "answer_latex": "$-2x + 10$"},
+            {"label": "c", "problem_latex": "$-3(y + 2) = -3y - \\ldots$", "answer_latex": "$-3y - 6$"},
+            {"label": "d", "problem_latex": "$-3(y - 2) = -3y + \\ldots$", "answer_latex": "$-3y + 6$"},
+            {"label": "e", "problem_latex": "$-(b + 3) = -b - \\ldots$", "answer_latex": "$-b - 3$"},
+            {"label": "f", "problem_latex": "$-(b - 3) = -b + \\ldots$", "answer_latex": "$-b + 3$"},
+            {"label": "g", "problem_latex": "$-4(2m + 3) = \\ldots - 12$", "answer_latex": "$-8m - 12$"},
+            {"label": "h", "problem_latex": "$-4(2m - 3) = \\ldots + 12$", "answer_latex": "$-8m + 12$"}
+          ],
+          "source_images": ["image211.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3D - Question 2",
+          "instruction": "Expand:",
+          "questions": [
+            {"label": "a", "problem_latex": "$-2(x + 5)$", "answer_latex": "$-2x - 10$"},
+            {"label": "b", "problem_latex": "$-3(2x + 1)$", "answer_latex": "$-6x - 3$"},
+            {"label": "c", "problem_latex": "$-3(4 - x)$", "answer_latex": "$-12 + 3x$"},
+            {"label": "d", "problem_latex": "$-6(a + b)$", "answer_latex": "$-6a - 6b$"},
+            {"label": "e", "problem_latex": "$-(x + 6)$", "answer_latex": "$-x - 6$"},
+            {"label": "f", "problem_latex": "$-(x - 3)$", "answer_latex": "$-x + 3$"},
+            {"label": "g", "problem_latex": "$-(5 + x)$", "answer_latex": "$-5 - x$"},
+            {"label": "h", "problem_latex": "$-(8 - x)$", "answer_latex": "$-8 + x$"},
+            {"label": "i", "problem_latex": "$-5(x + 1)$", "answer_latex": "$-5x - 5$"},
+            {"label": "j", "problem_latex": "$-4(3 + x)$", "answer_latex": "$-12 - 4x$"},
+            {"label": "k", "problem_latex": "$-(3b - 2)$", "answer_latex": "$-3b + 2$"},
+            {"label": "l", "problem_latex": "$-2(5 - c)$", "answer_latex": "$-10 + 2c$"}
+          ],
+          "source_images": ["image211.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3D - Question 3",
+          "instruction": "Expand and simplify:",
+          "questions": [
+            {"label": "a", "problem_latex": "$3(x + 2) - 2(x + 1)$", "answer_latex": "$x + 4$"},
+            {"label": "b", "problem_latex": "$4(x - 7) - 2(3 - x)$", "answer_latex": "$6x - 34$"},
+            {"label": "c", "problem_latex": "$3(x - 2) - 2(x + 2)$", "answer_latex": "$x - 10$"},
+            {"label": "d", "problem_latex": "$3(y - 4) - 2(y + 3)$", "answer_latex": "$y - 18$"},
+            {"label": "e", "problem_latex": "$5(y + 2) - 2(y - 3)$", "answer_latex": "$3y + 16$"},
+            {"label": "f", "problem_latex": "$6(b - 3) - 3(b - 1)$", "answer_latex": "$3b - 15$"}
+          ],
+          "source_images": ["image212.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3D - Question 4",
+          "instruction": "Expand and simplify:",
+          "questions": [
+            {"label": "a", "problem_latex": "$x(x + 4) - x(x + 2)$", "answer_latex": "$2x$"},
+            {"label": "b", "problem_latex": "$x(2x - 1) - x(7 - x)$", "answer_latex": "$3x^2 - 8x$"},
+            {"label": "c", "problem_latex": "$-(x + 6) - 2(x + 1)$", "answer_latex": "$-3x - 8$"},
+            {"label": "d", "problem_latex": "$-2(x - 1) - 3(5 - x)$", "answer_latex": "$x - 13$"},
+            {"label": "e", "problem_latex": "$-a(a + 2) - 2a(1 - a)$", "answer_latex": "$a^2 - 4a$"},
+            {"label": "f", "problem_latex": "$-(11 - a) - 2(a + 6)$", "answer_latex": "$-a - 23$"}
+          ],
+          "source_images": ["image212.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3D - Question 4 (continued)",
+          "instruction": "Expand and simplify:",
+          "questions": [
+            {"label": "a", "problem_latex": "$-2(x + 2)$", "answer_latex": "$-2x - 4$"},
+            {"label": "b", "problem_latex": "$-3(x + 4)$", "answer_latex": "$-3x - 12$"},
+            {"label": "c", "problem_latex": "$-4(x - 2)$", "answer_latex": "$-4x + 8$"},
+            {"label": "d", "problem_latex": "$-5(5 - x)$", "answer_latex": "$-25 + 5x$"},
+            {"label": "e", "problem_latex": "$-(a + 2)$", "answer_latex": "$-a - 2$"},
+            {"label": "f", "problem_latex": "$-(x - 3)$", "answer_latex": "$-x + 3$"},
+            {"label": "g", "problem_latex": "$-(5 - x)$", "answer_latex": "$-5 + x$"},
+            {"label": "h", "problem_latex": "$-(2x + 1)$", "answer_latex": "$-2x - 1$"},
+            {"label": "i", "problem_latex": "$-3(4 - x)$", "answer_latex": "$-12 + 3x$"},
+            {"label": "j", "problem_latex": "$-4(5x - 2)$", "answer_latex": "$-20x + 8$"},
+            {"label": "k", "problem_latex": "$-5(3 - 4c)$", "answer_latex": "$-15 + 20c$"},
+            {"label": "l", "problem_latex": "$-(x - 2)$", "answer_latex": "$-x + 2$"}
+          ],
+          "source_images": ["image213.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3D - Question 5 (continued)",
+          "instruction": "Expand and simplify:",
+          "questions": [
+            {"label": "a", "problem_latex": "$-a(a + 1)$", "answer_latex": "$-a^2 - a$"},
+            {"label": "b", "problem_latex": "$-b(b + 4)$", "answer_latex": "$-b^2 - 4b$"},
+            {"label": "c", "problem_latex": "$-c(5 - c)$", "answer_latex": "$-5c + c^2$"},
+            {"label": "d", "problem_latex": "$-x(2x + 4)$", "answer_latex": "$-2x^2 - 4x$"},
+            {"label": "e", "problem_latex": "$-2x(1 - x)$", "answer_latex": "$-2x + 2x^2$"},
+            {"label": "f", "problem_latex": "$-3y(y + 2)$", "answer_latex": "$-3y^2 - 6y$"},
+            {"label": "g", "problem_latex": "$-4a(5 - a)$", "answer_latex": "$-20a + 4a^2$"},
+            {"label": "h", "problem_latex": "$-6b(3 - 2b)$", "answer_latex": "$-18b + 12b^2$"}
+          ],
+          "source_images": ["image214.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3D - Question 6",
+          "instruction": "Expand and simplify:",
+          "questions": [
+            {"label": "a", "problem_latex": "$3(x + 2) + 2(x + 3)$", "answer_latex": "$5x + 12$"},
+            {"label": "b", "problem_latex": "$5(x + 3) + 4(x + 3)$", "answer_latex": "$9x + 27$"},
+            {"label": "c", "problem_latex": "$4(x - 2) + 5(x - 4)$", "answer_latex": "$9x - 28$"},
+            {"label": "d", "problem_latex": "$3(2x - 7) + 2(1 - x)$", "answer_latex": "$4x - 19$"},
+            {"label": "e", "problem_latex": "$5(m + 4) - 3(m - 2)$", "answer_latex": "$2m + 26$"},
+            {"label": "f", "problem_latex": "$5(m - 3) - 2(m + 1)$", "answer_latex": "$3m - 17$"},
+            {"label": "g", "problem_latex": "$3(x - 1) - 2(2x - 4)$", "answer_latex": "$-x + 5$"},
+            {"label": "h", "problem_latex": "$7(1 - x) - (3x + 2)$", "answer_latex": "$5 - 10x$"},
+            {"label": "i", "problem_latex": "$8x + 1 - 2(3 - 2x)$", "answer_latex": "$12x - 5$"},
+            {"label": "j", "problem_latex": "$3(4 - 3x) - 2(2 - 3x)$", "answer_latex": "$8 - 3x$"},
+            {"label": "k", "problem_latex": "$2(x - 4)^2 - 5(1 + 2x)^2$", "answer_latex": "$-18x^2 - 36x + 27$"},
+            {"label": "l", "problem_latex": "$8 - 5(11 - 3x)$", "answer_latex": "$15x - 47$"}
+          ],
+          "source_images": ["image215.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3D - Question 7",
+          "instruction": "Expand and simplify:",
+          "questions": [
+            {"label": "a", "problem_latex": "$3x - (2x + 1)$", "answer_latex": "$x - 1$"},
+            {"label": "b", "problem_latex": "$5 - 3(x + 2)$", "answer_latex": "$-3x - 1$"},
+            {"label": "c", "problem_latex": "$7 - 6(2x - 3)$", "answer_latex": "$25 - 12x$"},
+            {"label": "d", "problem_latex": "$11x - (2 - x)$", "answer_latex": "$12x - 2$"},
+            {"label": "e", "problem_latex": "$6 - 5(1 - 2x)$", "answer_latex": "$10x + 1$"},
+            {"label": "f", "problem_latex": "$11 - (3 - 2x)$", "answer_latex": "$8 + 2x$"},
+            {"label": "g", "problem_latex": "$16 - 7(1 - 3x)$", "answer_latex": "$21x + 9$"},
+            {"label": "h", "problem_latex": "$x + 6 - 3(4 - x)$", "answer_latex": "$4x - 6$"},
+            {"label": "i", "problem_latex": "$8x + 1 - 2(3 - 2x)$", "answer_latex": "$12x - 5$"},
+            {"label": "j", "problem_latex": "$7 - (1 - 2x)$", "answer_latex": "$6 + 2x$"},
+            {"label": "k", "problem_latex": "$2x - (8 - 7x) + 3$", "answer_latex": "$9x - 5$"},
+            {"label": "l", "problem_latex": "$8 - 5(11 - 3x)$", "answer_latex": "$15x - 47$"}
+          ],
+          "source_images": ["image216.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3D - Question 8",
+          "instruction": "Expand and simplify:",
+          "questions": [
+            {"label": "a", "problem_latex": "$x(x + 1) + 2x(x - 4)$", "answer_latex": "$3x^2 - 7x$"},
+            {"label": "b", "problem_latex": "$x(1 - x) - x(2 + x)$", "answer_latex": "$-2x^2 - x$"},
+            {"label": "c", "problem_latex": "$4(a + b) - 3(a - b)$", "answer_latex": "$a + 7b$"},
+            {"label": "d", "problem_latex": "$x^2(x + 2) - 2x^2(1 - x)$", "answer_latex": "$3x^3$"},
+            {"label": "e", "problem_latex": "$x(x^2 - 5) - 2x(1 - x^2)$", "answer_latex": "$3x^3 - 7x$"},
+            {"label": "f", "problem_latex": "$5(a + b - 2) - 4(5 - a + 2b)$", "answer_latex": "$9a - 3b - 30$"}
+          ],
+          "source_images": ["image217.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3D - Question 9",
+          "instruction": "Expand and simplify:",
+          "questions": [
+            {"label": "a", "problem_latex": "$2(y^2 + 2y + 3)$", "answer_latex": "$2y^2 + 4y + 6$"},
+            {"label": "b", "problem_latex": "$5(a^2 - 4a - 2)$", "answer_latex": "$5a^2 - 20a - 10$"},
+            {"label": "c", "problem_latex": "$3(2x^2 + 3x - 1)$", "answer_latex": "$6x^2 + 9x - 3$"},
+            {"label": "d", "problem_latex": "$4(-3b^2 - 2b + 3)$", "answer_latex": "$-12b^2 - 8b + 12$"},
+            {"label": "e", "problem_latex": "$3y(y^2 - 2y + 7)$", "answer_latex": "$3y^3 - 6y^2 + 21y$"},
+            {"label": "f", "problem_latex": "$2a(4a^2 + a - 1)$", "answer_latex": "$8a^3 + 2a^2 - 2a$"},
+            {"label": "g", "problem_latex": "$2x(-5x^2 - x + 4)$", "answer_latex": "$-10x^3 - 2x^2 + 8x$"},
+            {"label": "h", "problem_latex": "$-3b(2b^2 + 4b - 2)$", "answer_latex": "$-6b^3 - 12b^2 + 6b$"},
+            {"label": "i", "problem_latex": "$-2y(3y^2 - y + 5)$", "answer_latex": "$-6y^3 + 2y^2 - 10y$"}
+          ],
+          "source_images": ["image218.png"]
+        }
+      ]
+    },
+    {
+      "title": "The product (a+b)(c+d)",
+      "items": [
+        {
+          "type": "concept",
+          "title": "The product (a+b)(c+d)",
+          "content_latex": "The expression $(a + b)(c + d)$ can be expanded by using the distributive law three times.",
+          "formula_latex": "$(a + b)(c + d) = (a + b)c + (a + b)d = c(a + b) + d(a + b) = ac + bc + ad + bd$",
+          "source_images": ["image219.png"]
+        },
+        {
+          "type": "example",
+          "title": "Example 7",
+          "instruction": "Expand and simplify:",
+          "questions": [
+            {
+              "label": "a",
+              "problem_latex": "$(x + y)(p + q)$",
+              "answer_latex": "$= (x + y)p + (x + y)q = p(x + y) + q(x + y) = px + py + qx + qy$"
+            },
+            {
+              "label": "b",
+              "problem_latex": "$(x + 2)(x + 5)$",
+              "answer_latex": "$= (x + 2)x + (x + 2)5 = x(x + 2) + 5(x + 2) = x^2 + 2x + 5x + 10 = x^2 + 7x + 10$"
+            }
+          ],
+          "source_images": ["image220.png"]
+        },
+        {
+          "type": "example",
+          "title": "Example (Expand using distributive law repeatedly)",
+          "instruction": "Expand using the distributive law repeatedly:",
+          "questions": [
+            {
+              "label": "a",
+              "problem_latex": "$(x + 5)^2$",
+              "answer_latex": "$= (x + 5)(x + 5) = (x + 5)x + (x + 5)5 = x(x + 5) + 5(x + 5) = x^2 + 5x + 5x + 25 = x^2 + 10x + 25$"
+            },
+            {
+              "label": "b",
+              "problem_latex": "$(x - 5)^2$",
+              "answer_latex": "$= (x - 5)(x - 5) = (x - 5)x + (x - 5)(-5) = x(x - 5) - 5(x - 5) = x^2 - 5x - 5x + 25 = x^2 - 10x + 25$"
+            }
+          ],
+          "source_images": ["image221.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 4C - Question 1",
+          "instruction": "Expand and simplify:",
+          "questions": [
+            {"label": "a", "problem_latex": "$(a + b)(m + n)$", "answer_latex": "$am + an + bm + bn$"},
+            {"label": "b", "problem_latex": "$(p + q)(c + d)$", "answer_latex": "$pc + pd + qc + qd$"},
+            {"label": "c", "problem_latex": "$(x + y)(a + b)$", "answer_latex": "$xa + xb + ya + yb$"},
+            {"label": "d", "problem_latex": "$(a - b)(c + d)$", "answer_latex": "$ac + ad - bc - bd$"},
+            {"label": "e", "problem_latex": "$(c - d)(r + s)$", "answer_latex": "$cr + cs - dr - ds$"},
+            {"label": "f", "problem_latex": "$(x - y)(a + 2)$", "answer_latex": "$xa + 2x - ya - 2y$"},
+            {"label": "g", "problem_latex": "$(a + b)(m - n)$", "answer_latex": "$am - an + bm - bn$"},
+            {"label": "h", "problem_latex": "$(c + d)(x - 3)$", "answer_latex": "$cx - 3c + dx - 3d$"},
+            {"label": "i", "problem_latex": "$(r + s)(p - 4)$", "answer_latex": "$rp - 4r + sp - 4s$"}
+          ],
+          "source_images": ["image223.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 4C - Question 2",
+          "instruction": "Expand and simplify:",
+          "questions": [
+            {"label": "a", "problem_latex": "$(x + 2)(x + 3)$", "answer_latex": "$x^2 + 5x + 6$"},
+            {"label": "b", "problem_latex": "$(x + 5)(x + 3)$", "answer_latex": "$x^2 + 8x + 15$"},
+            {"label": "c", "problem_latex": "$(x + 6)(x + 8)$", "answer_latex": "$x^2 + 14x + 48$"},
+            {"label": "d", "problem_latex": "$(2x + 1)(x + 2)$", "answer_latex": "$2x^2 + 5x + 2$"},
+            {"label": "e", "problem_latex": "$(3x + 2)(x + 6)$", "answer_latex": "$3x^2 + 20x + 12$"},
+            {"label": "f", "problem_latex": "$(4x + 1)(x + 2)$", "answer_latex": "$4x^2 + 9x + 2$"},
+            {"label": "g", "problem_latex": "$(x - 1)(x + 5)$", "answer_latex": "$x^2 + 4x - 5$"},
+            {"label": "h", "problem_latex": "$(x - 4)(x + 7)$", "answer_latex": "$x^2 + 3x - 28$"},
+            {"label": "i", "problem_latex": "$(x - 6)(x + 3)$", "answer_latex": "$x^2 - 3x - 18$"},
+            {"label": "j", "problem_latex": "$(x - y)(x + 3)$", "answer_latex": "$x^2 + 3x - xy - 3y$"},
+            {"label": "k", "problem_latex": "$(x + 2)(x - 3)$", "answer_latex": "$x^2 - x - 6$"},
+            {"label": "l", "problem_latex": "$(x + 3)(x - 7)$", "answer_latex": "$x^2 - 4x - 21$"},
+            {"label": "m", "problem_latex": "$(x - 4)(x - 3)$", "answer_latex": "$x^2 - 7x + 12$"},
+            {"label": "n", "problem_latex": "$(x - 5)(x - 8)$", "answer_latex": "$x^2 - 13x + 40$"},
+            {"label": "o", "problem_latex": "$(x - 6)(x - 4)$", "answer_latex": "$x^2 - 10x + 24$"},
+            {"label": "p", "problem_latex": "$(a + 2)^2$", "answer_latex": "$a^2 + 4a + 4$"},
+            {"label": "q", "problem_latex": "$(b + 5)^2$", "answer_latex": "$b^2 + 10b + 25$"},
+            {"label": "r", "problem_latex": "$(c + 7)^2$", "answer_latex": "$c^2 + 14c + 49$"},
+            {"label": "s", "problem_latex": "$(x - 1)^2$", "answer_latex": "$x^2 - 2x + 1$"},
+            {"label": "t", "problem_latex": "$(x - 4)^2$", "answer_latex": "$x^2 - 8x + 16$"},
+            {"label": "u", "problem_latex": "$(y - d)^2$", "answer_latex": "$y^2 - 2yd + d^2$"}
+          ],
+          "source_images": ["image223.png", "image224.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 4C.1 - Question 1",
+          "instruction": "Expand and simplify by repeated use of the distributive law:",
+          "questions": [
+            {"label": "a", "problem_latex": "$(x + 2)(x + 3)$", "answer_latex": "$x^2 + 5x + 6$"},
+            {"label": "b", "problem_latex": "$(a + 4)(a + 5)$", "answer_latex": "$a^2 + 9a + 20$"},
+            {"label": "c", "problem_latex": "$(b + 2)(b - 5)$", "answer_latex": "$b^2 - 3b - 10$"},
+            {"label": "d", "problem_latex": "$(a - 3)(a - 4)$", "answer_latex": "$a^2 - 7a + 12$"},
+            {"label": "e", "problem_latex": "$(x + y)(a + b)$", "answer_latex": "$xa + xb + ya + yb$"},
+            {"label": "f", "problem_latex": "$(a + b)(p + q)$", "answer_latex": "$ap + aq + bp + bq$"},
+            {"label": "g", "problem_latex": "$(x + 1)(2x + 3)$", "answer_latex": "$2x^2 + 5x + 3$"},
+            {"label": "h", "problem_latex": "$(x - 1)(2x + 3)$", "answer_latex": "$2x^2 + x - 3$"},
+            {"label": "i", "problem_latex": "$(3x + 4)(x - 5)$", "answer_latex": "$3x^2 - 11x - 20$"},
+            {"label": "j", "problem_latex": "$(3x - 4)(x + 5)$", "answer_latex": "$3x^2 + 11x - 20$"},
+            {"label": "k", "problem_latex": "$(5x - 7)(2x - 1)$", "answer_latex": "$10x^2 - 19x + 7$"},
+            {"label": "l", "problem_latex": "$(x + 1)(x^2 + 4)$", "answer_latex": "$x^3 + x^2 + 4x + 4$"}
+          ],
+          "source_images": ["image225.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 4C.1 - Question 2",
+          "instruction": "Expand by repeated use of the distributive law:",
+          "questions": [
+            {"label": "a", "problem_latex": "$(x + 3)^2$", "answer_latex": "$x^2 + 6x + 9$"},
+            {"label": "b", "problem_latex": "$(x - 3)^2$", "answer_latex": "$x^2 - 6x + 9$"},
+            {"label": "c", "problem_latex": "$(x + 7)^2$", "answer_latex": "$x^2 + 14x + 49$"},
+            {"label": "d", "problem_latex": "$(x - 7)^2$", "answer_latex": "$x^2 - 14x + 49$"},
+            {"label": "e", "problem_latex": "$(2x + 5)^2$", "answer_latex": "$4x^2 + 20x + 25$"},
+            {"label": "f", "problem_latex": "$(2x - 5)^2$", "answer_latex": "$4x^2 - 20x + 25$"},
+            {"label": "g", "problem_latex": "$(x + y)^2$", "answer_latex": "$x^2 + 2xy + y^2$"},
+            {"label": "h", "problem_latex": "$(x - y)^2$", "answer_latex": "$x^2 - 2xy + y^2$"},
+            {"label": "i", "problem_latex": "$(x - 4)^2$", "answer_latex": "$x^2 - 8x + 16$"},
+            {"label": "j", "problem_latex": "$(10 + x)^2$", "answer_latex": "$100 + 20x + x^2$"},
+            {"label": "k", "problem_latex": "$(2 - 3x)^2$", "answer_latex": "$4 - 12x + 9x^2$"},
+            {"label": "l", "problem_latex": "$(1 + 4x)^2$", "answer_latex": "$1 + 8x + 16x^2$"}
+          ],
+          "source_images": ["image225.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 4C.1 - Question 3",
+          "instruction": "Use the distributive law to expand and simplify:",
+          "questions": [
+            {"label": "a", "problem_latex": "$(x + 1)(x^2 + x + 3)$", "answer_latex": "$x^3 + 2x^2 + 4x + 3$"},
+            {"label": "b", "problem_latex": "$(x + 2)(2x^2 + x + 5)$", "answer_latex": "$2x^3 + 5x^2 + 7x + 10$"},
+            {"label": "c", "problem_latex": "$(x - 2)(x^2 - x - 3)$", "answer_latex": "$x^3 - 3x^2 - x + 6$"},
+            {"label": "d", "problem_latex": "$(x^2 + x + 1)(x + 4)$", "answer_latex": "$x^3 + 5x^2 + 5x + 4$"},
+            {"label": "e", "problem_latex": "$(x^2 - x + 2)(2x - 3)$", "answer_latex": "$2x^3 - 5x^2 + 7x - 6$"},
+            {"label": "f", "problem_latex": "$(2x^2 + x - 1)(3x + 7)$", "answer_latex": "$6x^3 + 17x^2 + 4x - 7$"},
+            {"label": "g", "problem_latex": "$(2x + 7)(5 - x + x^2)$", "answer_latex": "$2x^3 + 5x^2 + 3x + 35$"},
+            {"label": "h", "problem_latex": "$(x + 9)(x^2 + 7 - 2x)$", "answer_latex": "$x^3 + 7x^2 - 11x + 63$"}
+          ],
+          "source_images": ["image226.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 4C.1",
+          "instruction": "Use the rule $(a + b)(c + d) = ac + ad + bc + bd$ to expand, and then simplify if possible:",
+          "questions": [
+            {"label": "a", "problem_latex": "$(p + q)(m + n)$", "answer_latex": "$pm + pn + qm + qn$"},
+            {"label": "b", "problem_latex": "$(x + y)(r + s)$", "answer_latex": "$xr + xs + yr + ys$"},
+            {"label": "c", "problem_latex": "$(x + 4)(x + 7)$", "answer_latex": "$x^2 + 11x + 28$"},
+            {"label": "d", "problem_latex": "$(x + 3)(x + 1)$", "answer_latex": "$x^2 + 4x + 3$"},
+            {"label": "e", "problem_latex": "$(y + 3)(y + 2)$", "answer_latex": "$y^2 + 5y + 6$"},
+            {"label": "f", "problem_latex": "$(a + 3)(a + 7)$", "answer_latex": "$a^2 + 10a + 21$"},
+            {"label": "g", "problem_latex": "$(x + 2)(x - 2)$", "answer_latex": "$x^2 - 4$"},
+            {"label": "h", "problem_latex": "$(x - 4)(x + 2)$", "answer_latex": "$x^2 - 2x - 8$"},
+            {"label": "i", "problem_latex": "$(x + 7)(x - 3)$", "answer_latex": "$x^2 + 4x - 21$"},
+            {"label": "j", "problem_latex": "$(x - 9)(x + 2)$", "answer_latex": "$x^2 - 7x - 18$"},
+            {"label": "k", "problem_latex": "$(x - 4)(x + 3)$", "answer_latex": "$x^2 - x - 12$"},
+            {"label": "l", "problem_latex": "$(x + 6)(x - 2)$", "answer_latex": "$x^2 + 4x - 12$"},
+            {"label": "m", "problem_latex": "$(x - 4)(x - 3)$", "answer_latex": "$x^2 - 7x + 12$"},
+            {"label": "n", "problem_latex": "$(x - 5)(x - 8)$", "answer_latex": "$x^2 - 13x + 40$"},
+            {"label": "o", "problem_latex": "$(x - 11)(x - 4)$", "answer_latex": "$x^2 - 15x + 44$"},
+            {"label": "p", "problem_latex": "$(2x + 3)(x - 1)$", "answer_latex": "$2x^2 + x - 3$"},
+            {"label": "q", "problem_latex": "$(2x + 3)(3x + 2)$", "answer_latex": "$6x^2 + 13x + 6$"},
+            {"label": "r", "problem_latex": "$(2x + 3)(3x - 4)$", "answer_latex": "$6x^2 - x - 12$"}
+          ],
+          "source_images": ["image227.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 4C.1 - Question 2",
+          "instruction": "Expand and simplify using the rule $(a + b)(c + d) = ac + ad + bc + bd$:",
+          "questions": [
+            {"label": "a", "problem_latex": "$(x + 1)^2$", "answer_latex": "$x^2 + 2x + 1$"},
+            {"label": "b", "problem_latex": "$(x + 4)^2$", "answer_latex": "$x^2 + 8x + 16$"},
+            {"label": "c", "problem_latex": "$(x - 2)^2$", "answer_latex": "$x^2 - 4x + 4$"},
+            {"label": "d", "problem_latex": "$(x - 5)^2$", "answer_latex": "$x^2 - 10x + 25$"},
+            {"label": "e", "problem_latex": "$(3 + y)^2$", "answer_latex": "$9 + 6y + y^2$"},
+            {"label": "f", "problem_latex": "$(3 - y)^2$", "answer_latex": "$9 - 6y + y^2$"},
+            {"label": "g", "problem_latex": "$(2x + 1)^2$", "answer_latex": "$4x^2 + 4x + 1$"},
+            {"label": "h", "problem_latex": "$(2x - 1)^2$", "answer_latex": "$4x^2 - 4x + 1$"},
+            {"label": "i", "problem_latex": "$(1 + 4a)^2$", "answer_latex": "$1 + 8a + 16a^2$"},
+            {"label": "j", "problem_latex": "$(1 - 4a)^2$", "answer_latex": "$1 - 8a + 16a^2$"},
+            {"label": "k", "problem_latex": "$(a + b)^2$", "answer_latex": "$a^2 + 2ab + b^2$"},
+            {"label": "l", "problem_latex": "$(a - b)^2$", "answer_latex": "$a^2 - 2ab + b^2$"},
+            {"label": "m", "problem_latex": "$(3x + 2)^2$", "answer_latex": "$9x^2 + 12x + 4$"},
+            {"label": "n", "problem_latex": "$(4x - 3)^2$", "answer_latex": "$16x^2 - 24x + 9$"},
+            {"label": "o", "problem_latex": "$(9x - 5)^2$", "answer_latex": "$81x^2 - 90x + 25$"},
+            {"label": "p", "problem_latex": "$(7x + 2)^2$", "answer_latex": "$49x^2 + 28x + 4$"}
+          ],
+          "source_images": ["image227.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 4C.1 - Question 3",
+          "instruction": "Expand and simplify using the rule $(a + b)(c + d) = ac + ad + bc + bd$:",
+          "questions": [
+            {"label": "a", "problem_latex": "$(x + 2)(x - 2)$", "answer_latex": "$x^2 - 4$"},
+            {"label": "b", "problem_latex": "$(y - 5)(y + 5)$", "answer_latex": "$y^2 - 25$"},
+            {"label": "c", "problem_latex": "$(3 + x)(3 - x)$", "answer_latex": "$9 - x^2$"},
+            {"label": "d", "problem_latex": "$(b - 4)(b + 4)$", "answer_latex": "$b^2 - 16$"},
+            {"label": "e", "problem_latex": "$(6 - y)(6 + y)$", "answer_latex": "$36 - y^2$"},
+            {"label": "f", "problem_latex": "$(1 + a)(1 - a)$", "answer_latex": "$1 - a^2$"},
+            {"label": "g", "problem_latex": "$(7 + x)(7 - x)$", "answer_latex": "$49 - x^2$"},
+            {"label": "h", "problem_latex": "$(8 - b)(8 + b)$", "answer_latex": "$64 - b^2$"},
+            {"label": "i", "problem_latex": "$(3a - 2)(3a + 2)$", "answer_latex": "$9a^2 - 4$"},
+            {"label": "j", "problem_latex": "$(5a - 2)(5a + 2)$", "answer_latex": "$25a^2 - 4$"},
+            {"label": "k", "problem_latex": "$(3 + 5b)(3 - 5b)$", "answer_latex": "$9 - 25b^2$"},
+            {"label": "l", "problem_latex": "$(5 - 4y)(5 + 4y)$", "answer_latex": "$25 - 16y^2$"}
+          ],
+          "source_images": ["image227.png"]
+        }
+      ]
+    },
+    {
+      "title": "Perfect squares",
+      "items": [
+        {
+          "type": "concept",
+          "title": "Perfect Squares",
+          "content_latex": "Perfect squares have form $(a + b)^2$, and because we see them often in algebraic expressions we use a rule for writing down their expansions. This rule is easily established by repeated use of the distributive law. $(a+b)^2 = a^2 + 2ab + b^2$ can be demonstrated using areas.",
+          "formula_latex": "$(a + b)^2 = a^2 + 2ab + b^2$",
+          "explanation": "The following is a useful way of remembering the perfect square rules: $(a+b)^2 = a^2 + 2ab + b^2$ where $a^2$ is the square of first term, $2ab$ is twice the product of the 2 terms, and $b^2$ is the square of second term.",
+          "source_images": ["image228.png"]
+        },
+        {
+          "type": "example",
+          "title": "Example (Perfect Square Expansion)",
+          "instruction": "Expand and simplify:",
+          "questions": [
+            {
+              "label": "a",
+              "problem_latex": "$(x + 6)^2$",
+              "answer_latex": "$= x^2 + 2 \\times x \\times 6 + 6^2 = x^2 + 12x + 36$"
+            },
+            {
+              "label": "b",
+              "problem_latex": "$(2x + 5)^2$",
+              "answer_latex": "$= (2x)^2 + 2 \\times 2x \\times 5 + 5^2 = 4x^2 + 20x + 25$"
+            }
+          ],
+          "source_images": ["image229.png"]
+        },
+        {
+          "type": "example",
+          "title": "Example (Perfect Square with Subtraction)",
+          "instruction": "Expand and simplify:",
+          "questions": [
+            {
+              "label": "a",
+              "problem_latex": "$(5 - x)^2$",
+              "answer_latex": "$= (5 + -x)^2 = 5^2 + 2 \\times 5 \\times (-x) + (-x)^2 = 25 - 10x + x^2$"
+            },
+            {
+              "label": "b",
+              "problem_latex": "$(3x - 7)^2$",
+              "answer_latex": "$= (3x + -7)^2 = (3x)^2 + 2 \\times 3x \\times (-7) + (-7)^2 = 9x^2 - 42x + 49$"
+            }
+          ],
+          "source_images": ["image230.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 4C.2 - Question 1",
+          "instruction": "Expand and simplify using the rule $(a + b)^2 = a^2 + 2ab + b^2$:",
+          "questions": [
+            {"label": "a", "problem_latex": "$(c + d)^2$", "answer_latex": "$c^2 + 2cd + d^2$"},
+            {"label": "b", "problem_latex": "$(r + s)^2$", "answer_latex": "$r^2 + 2rs + s^2$"},
+            {"label": "c", "problem_latex": "$(m + n)^2$", "answer_latex": "$m^2 + 2mn + n^2$"},
+            {"label": "d", "problem_latex": "$(a + 3)^2$", "answer_latex": "$a^2 + 6a + 9$"},
+            {"label": "e", "problem_latex": "$(x + 5)^2$", "answer_latex": "$x^2 + 10x + 25$"},
+            {"label": "f", "problem_latex": "$(x + 11)^2$", "answer_latex": "$x^2 + 22x + 121$"},
+            {"label": "g", "problem_latex": "$(2x + 1)^2$", "answer_latex": "$4x^2 + 4x + 1$"},
+            {"label": "h", "problem_latex": "$(3x + 2)^2$", "answer_latex": "$9x^2 + 12x + 4$"},
+            {"label": "i", "problem_latex": "$(4x + 3)^2$", "answer_latex": "$16x^2 + 24x + 9$"},
+            {"label": "j", "problem_latex": "$(5 + 3x)^2$", "answer_latex": "$25 + 30x + 9x^2$"},
+            {"label": "k", "problem_latex": "$(7x + 1)^2$", "answer_latex": "$49x^2 + 14x + 1$"},
+            {"label": "l", "problem_latex": "$(2x + y)^2$", "answer_latex": "$4x^2 + 4xy + y^2$"},
+            {"label": "m", "problem_latex": "$(6 + x)^2$", "answer_latex": "$36 + 12x + x^2$"},
+            {"label": "n", "problem_latex": "$(3 + 5x)^2$", "answer_latex": "$9 + 30x + 25x^2$"},
+            {"label": "o", "problem_latex": "$(x^2 + 1)^2$", "answer_latex": "$x^4 + 2x^2 + 1$"},
+            {"label": "p", "problem_latex": "$(x^2 + x)^2$", "answer_latex": "$x^4 + 2x^3 + x^2$"}
+          ],
+          "source_images": ["image231.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 4C.2 - Question 2",
+          "instruction": "Expand and simplify using the rule $(a + b)^2 = a^2 + 2ab + b^2$:",
+          "questions": [
+            {"label": "a", "problem_latex": "$(x - y)^2$", "answer_latex": "$x^2 - 2xy + y^2$"},
+            {"label": "b", "problem_latex": "$(r - s)^2$", "answer_latex": "$r^2 - 2rs + s^2$"},
+            {"label": "c", "problem_latex": "$(d - c)^2$", "answer_latex": "$d^2 - 2dc + c^2$"},
+            {"label": "d", "problem_latex": "$(d - 3)^2$", "answer_latex": "$d^2 - 6d + 9$"},
+            {"label": "e", "problem_latex": "$(4 - a)^2$", "answer_latex": "$16 - 8a + a^2$"},
+            {"label": "f", "problem_latex": "$(7 - x)^2$", "answer_latex": "$49 - 14x + x^2$"},
+            {"label": "g", "problem_latex": "$(3x - 1)^2$", "answer_latex": "$9x^2 - 6x + 1$"},
+            {"label": "h", "problem_latex": "$(5 - d)^2$", "answer_latex": "$25 - 10d + d^2$"},
+            {"label": "i", "problem_latex": "$(2x - 5)^2$", "answer_latex": "$4x^2 - 20x + 25$"},
+            {"label": "j", "problem_latex": "$(3 - 4a)^2$", "answer_latex": "$9 - 24a + 16a^2$"},
+            {"label": "k", "problem_latex": "$(3a - 2b)^2$", "answer_latex": "$9a^2 - 12ab + 4b^2$"},
+            {"label": "l", "problem_latex": "$(x^2 - 2)^2$", "answer_latex": "$x^4 - 4x^2 + 4$"},
+            {"label": "m", "problem_latex": "$(6 - x)^2$", "answer_latex": "$36 - 12x + x^2$"},
+            {"label": "n", "problem_latex": "$(3 - 5x)^2$", "answer_latex": "$9 - 30x + 25x^2$"},
+            {"label": "o", "problem_latex": "$(x^2 - x)^2$", "answer_latex": "$x^4 - 2x^3 + x^2$"},
+            {"label": "p", "problem_latex": "$(x - 2x^2)^2$", "answer_latex": "$x^2 - 4x^3 + 4x^4$"}
+          ],
+          "source_images": ["image231.png"]
+        },
+        {
+          "type": "concept",
+          "title": "Difference of Two Squares",
+          "content_latex": "An expression of the form $(a + b)(a - b)$ is called a difference of two squares. Expanding this expression using the FOIL rule: $(a + b)(a - b) = a^2 + a(-b) + ba - b^2 = a^2 - ab + ab - b^2 = a^2 - b^2$",
+          "formula_latex": "$(a + b)(a - b) = a^2 - b^2$",
+          "source_images": ["image232.png"]
+        },
+        {
+          "type": "example",
+          "title": "Example 18",
+          "instruction": "Expand and simplify using the rule $(a + b)(a - b) = a^2 - b^2$:",
+          "questions": [
+            {
+              "label": "a",
+              "problem_latex": "$(x + 3)(x - 3)$",
+              "answer_latex": "$= (x)^2 - (3)^2 = x^2 - 9$"
+            },
+            {
+              "label": "b",
+              "problem_latex": "$(2x - 5)(2x + 5)$",
+              "answer_latex": "$= (2x)^2 - (5)^2 = 4x^2 - 25$"
+            }
+          ],
+          "source_images": ["image233.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 4C.3 - Question 1",
+          "instruction": "Expand and simplify using the rule $(a + b)(a - b) = a^2 - b^2$:",
+          "questions": [
+            {"label": "a", "problem_latex": "$(y + 4)(y - 4)$", "answer_latex": "$y^2 - 16$"},
+            {"label": "b", "problem_latex": "$(b + 1)(b - 1)$", "answer_latex": "$b^2 - 1$"},
+            {"label": "c", "problem_latex": "$(x - 9)(x + 9)$", "answer_latex": "$x^2 - 81$"},
+            {"label": "d", "problem_latex": "$(a - 8)(a + 8)$", "answer_latex": "$a^2 - 64$"},
+            {"label": "e", "problem_latex": "$(5 - b)(5 + b)$", "answer_latex": "$25 - b^2$"},
+            {"label": "f", "problem_latex": "$(2 - x)(2 + x)$", "answer_latex": "$4 - x^2$"},
+            {"label": "g", "problem_latex": "$(10 + a)(10 - a)$", "answer_latex": "$100 - a^2$"},
+            {"label": "h", "problem_latex": "$(7 + y)(7 - y)$", "answer_latex": "$49 - y^2$"},
+            {"label": "i", "problem_latex": "$(3x - 2)(3x + 2)$", "answer_latex": "$9x^2 - 4$"},
+            {"label": "j", "problem_latex": "$(4x + 3)(4x - 3)$", "answer_latex": "$16x^2 - 9$"},
+            {"label": "k", "problem_latex": "$(1 - 2y)(1 + 2y)$", "answer_latex": "$1 - 4y^2$"},
+            {"label": "l", "problem_latex": "$(5 - 3a)(5 + 3a)$", "answer_latex": "$25 - 9a^2$"}
+          ],
+          "source_images": ["image234.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 4C.4 - Question 1",
+          "instruction": "Expand and simplify using expansion rules:",
+          "questions": [
+            {"label": "a", "problem_latex": "$(x + 4)(x - 2)$", "answer_latex": "$x^2 + 2x - 8$"},
+            {"label": "b", "problem_latex": "$(x - 3)(x + 2)$", "answer_latex": "$x^2 - x - 6$"},
+            {"label": "c", "problem_latex": "$(x + 3)^2$", "answer_latex": "$x^2 + 6x + 9$"},
+            {"label": "d", "problem_latex": "$(1 - x)(2 - x)$", "answer_latex": "$2 - 3x + x^2$"},
+            {"label": "e", "problem_latex": "$(4 - x)(x - 2)$", "answer_latex": "$-x^2 + 6x - 8$"},
+            {"label": "f", "problem_latex": "$(x - 7)^2$", "answer_latex": "$x^2 - 14x + 49$"},
+            {"label": "g", "problem_latex": "$(x + 6)(x - 6)$", "answer_latex": "$x^2 - 36$"},
+            {"label": "h", "problem_latex": "$(x + 10)^2$", "answer_latex": "$x^2 + 20x + 100$"},
+            {"label": "i", "problem_latex": "$(2x + 7)(2x - 7)$", "answer_latex": "$4x^2 - 49$"},
+            {"label": "j", "problem_latex": "$(x - 5)(2x + 3)$", "answer_latex": "$2x^2 - 7x - 15$"},
+            {"label": "k", "problem_latex": "$(2x + 11)^2$", "answer_latex": "$4x^2 + 44x + 121$"},
+            {"label": "l", "problem_latex": "$(x + a)(x - a)$", "answer_latex": "$x^2 - a^2$"},
+            {"label": "m", "problem_latex": "$(3x + 2)(x - 5)$", "answer_latex": "$3x^2 - 13x - 10$"},
+            {"label": "n", "problem_latex": "$(2x - 9)^2$", "answer_latex": "$4x^2 - 36x + 81$"},
+            {"label": "o", "problem_latex": "$(3x + 5)(3x - 5)$", "answer_latex": "$9x^2 - 25$"},
+            {"label": "p", "problem_latex": "$(3x + 4)(2 - x)$", "answer_latex": "$-3x^2 + 2x + 8$"},
+            {"label": "q", "problem_latex": "$(5 - x)^2$", "answer_latex": "$25 - 10x + x^2$"},
+            {"label": "r", "problem_latex": "$(3 + 2x)(5x - 1)$", "answer_latex": "$10x^2 + 13x - 3$"}
+          ],
+          "source_images": ["image235.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 4C.4 - Question 2",
+          "instruction": "Show that $(n + \\frac{1}{2})^2 = n^2 + n + \\frac{1}{4}$ using the perfect square expansion rule.",
+          "questions": [
+            {"label": "a", "problem_latex": "Show that $(n + \\frac{1}{2})^2 = n^2 + n + \\frac{1}{4}$ using the perfect square expansion rule.", "answer_latex": "$(n + \\frac{1}{2})^2 = n^2 + 2 \\cdot n \\cdot \\frac{1}{2} + (\\frac{1}{2})^2 = n^2 + n + \\frac{1}{4}$"},
+            {"label": "b", "problem_latex": "Hence, find the value of $(2\\frac{1}{2})^2$. Hint: Let $n = 2$.", "answer_latex": "$6\\frac{1}{4}$"},
+            {"label": "c.i", "problem_latex": "Find $(3\\frac{1}{2})^2$", "answer_latex": "$12\\frac{1}{4}$"},
+            {"label": "c.ii", "problem_latex": "Find $(10\\frac{1}{2})^2$", "answer_latex": "$110\\frac{1}{4}$"},
+            {"label": "c.iii", "problem_latex": "Find $(20\\frac{1}{2})^2$", "answer_latex": "$420\\frac{1}{4}$"}
+          ],
+          "source_images": ["image236.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 4C.5 - Question 1",
+          "instruction": "Expand and simplify:",
+          "questions": [
+            {"label": "a", "problem_latex": "$2(x + 1)(x + 4)$", "answer_latex": "$2x^2 + 10x + 8$"},
+            {"label": "b", "problem_latex": "$3(x + 4)(x + 5)$", "answer_latex": "$3x^2 + 27x + 60$"},
+            {"label": "c", "problem_latex": "$4(x - 1)(x - 5)$", "answer_latex": "$4x^2 - 24x + 20$"},
+            {"label": "d", "problem_latex": "$2(2 - x)(3 - x)$", "answer_latex": "$2x^2 - 10x + 12$"},
+            {"label": "e", "problem_latex": "$-5(x + 2)(x + 7)$", "answer_latex": "$-5x^2 - 45x - 70$"},
+            {"label": "f", "problem_latex": "$-3(x + 2)(x - 3)$", "answer_latex": "$-3x^2 + 3x + 18$"},
+            {"label": "g", "problem_latex": "$-4(2 - x)(1 - x)$", "answer_latex": "$-4x^2 + 12x - 8$"},
+            {"label": "h", "problem_latex": "$-(3 - x)(x + 2)$", "answer_latex": "$x^2 - x - 6$"},
+            {"label": "i", "problem_latex": "$-(5 - x)(2 + x)$", "answer_latex": "$x^2 + 3x - 10$"},
+            {"label": "j", "problem_latex": "$-7(x - 3)(x + 3)$", "answer_latex": "$-7x^2 + 63$"},
+            {"label": "k", "problem_latex": "$-2(5 + x)(5 - x)$", "answer_latex": "$2x^2 - 50$"},
+            {"label": "l", "problem_latex": "$-3(x - 4)^2$", "answer_latex": "$-3x^2 + 24x - 48$"}
+          ],
+          "source_images": ["image237.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 4C.5 - Question 2",
+          "instruction": "Expand and simplify:",
+          "questions": [
+            {"label": "a", "problem_latex": "$2(x + 3)^2$", "answer_latex": "$2x^2 + 12x + 18$"},
+            {"label": "b", "problem_latex": "$3(2 - x)^2$", "answer_latex": "$3x^2 - 12x + 12$"},
+            {"label": "c", "problem_latex": "$5(a + b)^2$", "answer_latex": "$5a^2 + 10ab + 5b^2$"},
+            {"label": "d", "problem_latex": "$-4(x + 1)^2$", "answer_latex": "$-4x^2 - 8x - 4$"},
+            {"label": "e", "problem_latex": "$-(x + 2)^2$", "answer_latex": "$-x^2 - 4x - 4$"},
+            {"label": "f", "problem_latex": "$2(2x + 1)^2$", "answer_latex": "$8x^2 + 8x + 2$"},
+            {"label": "g", "problem_latex": "$4 + 2(x - 2)^2$", "answer_latex": "$2x^2 - 8x + 12$"},
+            {"label": "h", "problem_latex": "$1 - 3(x + 2)^2$", "answer_latex": "$-3x^2 - 12x - 11$"},
+            {"label": "i", "problem_latex": "$8 - 2(4 - x)^2$", "answer_latex": "$-2x^2 + 16x - 24$"}
+          ],
+          "source_images": ["image238.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 4C.5 - Question 3",
+          "instruction": "Expand and simplify:",
+          "questions": [
+            {"label": "a", "problem_latex": "$(x + 2)^2 + 3(x + 1)$", "answer_latex": "$x^2 + 7x + 7$"},
+            {"label": "b", "problem_latex": "$(x + 3)^2 - 8(2 - x)$", "answer_latex": "$x^2 + 14x - 7$"},
+            {"label": "c", "problem_latex": "$(x - 1)^2 + 2(x + 1)^2$", "answer_latex": "$3x^2 + 2x + 3$"},
+            {"label": "d", "problem_latex": "$4 + 3(x + 1)(x + 4)$", "answer_latex": "$3x^2 + 15x + 16$"},
+            {"label": "e", "problem_latex": "$(x + 2)(x - 2) - (x - 1)^2$", "answer_latex": "$2x - 5$"},
+            {"label": "f", "problem_latex": "$(x + 1)^2 + 3(x - 1)^2$", "answer_latex": "$4x^2 - 4x + 4$"},
+            {"label": "g", "problem_latex": "$3(x + 1)^2 + 2(x - 2)^2$", "answer_latex": "$5x^2 - 2x + 11$"},
+            {"label": "h", "problem_latex": "$3(2 - x)^2 - 5(x + 1)^2$", "answer_latex": "$-2x^2 - 22x + 7$"},
+            {"label": "i", "problem_latex": "$2(x + 3)(x + 5) - 3(x - 1)^2$", "answer_latex": "$-x^2 + 22x + 27$"},
+            {"label": "j", "problem_latex": "$2(x - 1)^2 + 3(4 - x)$", "answer_latex": "$2x^2 - 7x + 14$"},
+            {"label": "k", "problem_latex": "$2(x - 4)^2 - 5(1 + 2x)^2$", "answer_latex": "$-18x^2 - 36x + 27$"},
+            {"label": "l", "problem_latex": "$3(x + 1)^2 - 2(x - 2)^2$", "answer_latex": "$x^2 + 14x - 5$"}
+          ],
+          "source_images": ["image239.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3E - Question 1",
+          "instruction": "Expand and simplify using the rule $(a + b)(a - b) = a^2 - b^2$:",
+          "questions": [
+            {"label": "a", "problem_latex": "$(x + 2)(x - 2)$", "answer_latex": "$x^2 - 4$"},
+            {"label": "b", "problem_latex": "$(x - 2)(x + 2)$", "answer_latex": "$x^2 - 4$"},
+            {"label": "c", "problem_latex": "$(2 + x)(2 - x)$", "answer_latex": "$4 - x^2$"},
+            {"label": "d", "problem_latex": "$(2 - x)(2 + x)$", "answer_latex": "$4 - x^2$"},
+            {"label": "e", "problem_latex": "$(x + 1)(x - 1)$", "answer_latex": "$x^2 - 1$"},
+            {"label": "f", "problem_latex": "$(1 - x)(1 + x)$", "answer_latex": "$1 - x^2$"},
+            {"label": "g", "problem_latex": "$(x + 7)(x - 7)$", "answer_latex": "$x^2 - 49$"},
+            {"label": "h", "problem_latex": "$(c + 8)(c - 8)$", "answer_latex": "$c^2 - 64$"},
+            {"label": "i", "problem_latex": "$(d - 5)(d + 5)$", "answer_latex": "$d^2 - 25$"},
+            {"label": "j", "problem_latex": "$(x + y)(x - y)$", "answer_latex": "$x^2 - y^2$"},
+            {"label": "k", "problem_latex": "$(4 + d)(4 - d)$", "answer_latex": "$16 - d^2$"},
+            {"label": "l", "problem_latex": "$(5 + e)(5 - e)$", "answer_latex": "$25 - e^2$"}
+          ],
+          "source_images": ["image240.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3E - Question 2",
+          "instruction": "Expand and simplify using the rule $(a + b)(a - b) = a^2 - b^2$:",
+          "questions": [
+            {"label": "a", "problem_latex": "$(2x - 1)(2x + 1)$", "answer_latex": "$4x^2 - 1$"},
+            {"label": "b", "problem_latex": "$(3x + 2)(3x - 2)$", "answer_latex": "$9x^2 - 4$"},
+            {"label": "c", "problem_latex": "$(4y - 5)(4y + 5)$", "answer_latex": "$16y^2 - 25$"},
+            {"label": "d", "problem_latex": "$(2y + 5)(2y - 5)$", "answer_latex": "$4y^2 - 25$"},
+            {"label": "e", "problem_latex": "$(3x + 1)(3x - 1)$", "answer_latex": "$9x^2 - 1$"},
+            {"label": "f", "problem_latex": "$(1 - 3x)(1 + 3x)$", "answer_latex": "$1 - 9x^2$"},
+            {"label": "g", "problem_latex": "$(2 - 5y)(2 + 5y)$", "answer_latex": "$4 - 25y^2$"},
+            {"label": "h", "problem_latex": "$(3 + 4a)(3 - 4a)$", "answer_latex": "$9 - 16a^2$"},
+            {"label": "i", "problem_latex": "$(4 + 3a)(4 - 3a)$", "answer_latex": "$16 - 9a^2$"}
+          ],
+          "source_images": ["image240.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3E - Question 3",
+          "instruction": "Expand and simplify using the rule $(a + b)(a - b) = a^2 - b^2$:",
+          "questions": [
+            {"label": "a", "problem_latex": "$(2a + b)(2a - b)$", "answer_latex": "$4a^2 - b^2$"},
+            {"label": "b", "problem_latex": "$(a - 2b)(a + 2b)$", "answer_latex": "$a^2 - 4b^2$"},
+            {"label": "c", "problem_latex": "$(4x + y)(4x - y)$", "answer_latex": "$16x^2 - y^2$"},
+            {"label": "d", "problem_latex": "$(4x + 5y)(4x - 5y)$", "answer_latex": "$16x^2 - 25y^2$"},
+            {"label": "e", "problem_latex": "$(2x + 3y)(2x - 3y)$", "answer_latex": "$4x^2 - 9y^2$"},
+            {"label": "f", "problem_latex": "$(7x - 2y)(7x + 2y)$", "answer_latex": "$49x^2 - 4y^2$"}
+          ],
+          "source_images": ["image240.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3F - Question 1",
+          "instruction": "Consider the figure alongside: Give an expression for the area of: a) square 1, b) rectangle 2, c) rectangle 3, d) square 4, e) the overall square. What can you conclude?",
+          "questions": [
+            {"label": "a", "problem_latex": "Area of square 1", "answer_latex": "$a^2$"},
+            {"label": "b", "problem_latex": "Area of rectangle 2", "answer_latex": "$ab$"},
+            {"label": "c", "problem_latex": "Area of rectangle 3", "answer_latex": "$ab$"},
+            {"label": "d", "problem_latex": "Area of square 4", "answer_latex": "$b^2$"},
+            {"label": "e", "problem_latex": "Area of the overall square", "answer_latex": "$(a + b)^2 = a^2 + 2ab + b^2$"}
+          ],
+          "source_images": ["image241.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3F - Question 2",
+          "instruction": "Use the rule $(a+b)^2 = a^2 + 2ab + b^2$ to expand and simplify:",
+          "questions": [
+            {"label": "a", "problem_latex": "$(x + 5)^2$", "answer_latex": "$x^2 + 10x + 25$"},
+            {"label": "b", "problem_latex": "$(x + 4)^2$", "answer_latex": "$x^2 + 8x + 16$"},
+            {"label": "c", "problem_latex": "$(x + 7)^2$", "answer_latex": "$x^2 + 14x + 49$"},
+            {"label": "d", "problem_latex": "$(a + 2)^2$", "answer_latex": "$a^2 + 4a + 4$"},
+            {"label": "e", "problem_latex": "$(3 + c)^2$", "answer_latex": "$9 + 6c + c^2$"},
+            {"label": "f", "problem_latex": "$(5 + x)^2$", "answer_latex": "$25 + 10x + x^2$"}
+          ],
+          "source_images": ["image241.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3F - Question 3",
+          "instruction": "Expand and simplify using the perfect square expansion rule:",
+          "questions": [
+            {"label": "a", "problem_latex": "$(x - 3)^2$", "answer_latex": "$x^2 - 6x + 9$"},
+            {"label": "b", "problem_latex": "$(x - 2)^2$", "answer_latex": "$x^2 - 4x + 4$"},
+            {"label": "c", "problem_latex": "$(y - 8)^2$", "answer_latex": "$y^2 - 16y + 64$"},
+            {"label": "d", "problem_latex": "$(a - 7)^2$", "answer_latex": "$a^2 - 14a + 49$"},
+            {"label": "e", "problem_latex": "$(5 - x)^2$", "answer_latex": "$25 - 10x + x^2$"},
+            {"label": "f", "problem_latex": "$(4 - y)^2$", "answer_latex": "$16 - 8y + y^2$"}
+          ],
+          "source_images": ["image241.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3F - Question 4",
+          "instruction": "Expand and simplify using the perfect square expansion rule:",
+          "questions": [
+            {"label": "a", "problem_latex": "$(3x + 4)^2$", "answer_latex": "$9x^2 + 24x + 16$"},
+            {"label": "b", "problem_latex": "$(2a - 3)^2$", "answer_latex": "$4a^2 - 12a + 9$"},
+            {"label": "c", "problem_latex": "$(3y + 1)^2$", "answer_latex": "$9y^2 + 6y + 1$"},
+            {"label": "d", "problem_latex": "$(2x - 5)^2$", "answer_latex": "$4x^2 - 20x + 25$"},
+            {"label": "e", "problem_latex": "$(3y - 5)^2$", "answer_latex": "$9y^2 - 30y + 25$"},
+            {"label": "f", "problem_latex": "$(7 + 2a)^2$", "answer_latex": "$49 + 28a + 4a^2$"},
+            {"label": "g", "problem_latex": "$(1 + 5x)^2$", "answer_latex": "$1 + 10x + 25x^2$"},
+            {"label": "h", "problem_latex": "$(7 - 3y)^2$", "answer_latex": "$49 - 42y + 9y^2$"},
+            {"label": "i", "problem_latex": "$(3 + 4a)^2$", "answer_latex": "$9 + 24a + 16a^2$"}
+          ],
+          "source_images": ["image241.png"]
+        },
+        {
+          "type": "exercise",
+          "title": "Exercise 3F - Question 5",
+          "instruction": "Expand and simplify:",
+          "questions": [
+            {"label": "a", "problem_latex": "$(x^2 + 2)^2$", "answer_latex": "$x^4 + 4x^2 + 4$"},
+            {"label": "b", "problem_latex": "$(y^2 - 3)^2$", "answer_latex": "$y^4 - 6y^2 + 9$"},
+            {"label": "c", "problem_latex": "$(3a^2 + 4)^2$", "answer_latex": "$9a^4 + 24a^2 + 16$"},
+            {"label": "d", "problem_latex": "$(1 - 2x^2)^2$", "answer_latex": "$1 - 4x^2 + 4x^4$"},
+            {"label": "e", "problem_latex": "$(x^2 + y^2)^2$", "answer_latex": "$x^4 + 2x^2y^2 + y^4$"},
+            {"label": "f", "problem_latex": "$(x^2 - a^2)^2$", "answer_latex": "$x^4 - 2x^2a^2 + a^4$"}
+          ],
+          "source_images": ["image242.png"]
+        }
+      ]
+    }
+  ]
+}

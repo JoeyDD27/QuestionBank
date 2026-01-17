@@ -1,0 +1,1170 @@
+{
+  "chapter": "Simplifying algebraic fractions",
+  "items": [
+    {
+      "type": "concept",
+      "title": "Definition of Algebraic Fractions",
+      "source_image": "image243.png",
+      "content": [
+        {
+          "description": "An algebraic fraction is a fraction that contains an unknown variable or letter.",
+          "examples_latex": [
+            "\\frac{x}{4}",
+            "\\frac{y}{2}",
+            "\\frac{8}{z}",
+            "\\frac{2a}{3}",
+            "\\frac{5}{4b}"
+          ]
+        },
+        {
+          "description": "Reading algebraic fractions",
+          "examples": [
+            {"latex": "\\frac{x}{4}", "reading": "x over 4 or one-quarter of x", "equivalent": "\\frac{1}{4}x"},
+            {"latex": "\\frac{2a}{3}", "reading": "2a over 3 or two-thirds of a", "equivalent": "\\frac{2}{3}a"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example 1 - Adding and Subtracting Algebraic Fractions",
+      "source_image": "image244.png",
+      "questions": [
+        {
+          "label": "a",
+          "problem_latex": "\\frac{x}{6} + \\frac{x}{6}",
+          "answer_latex": "\\frac{x}{2}",
+          "solution_steps": [
+            "\\frac{2x}{6} + \\frac{x}{6} = \\frac{2x + x}{6}",
+            "= \\frac{3x}{6}",
+            "= \\frac{x}{2}"
+          ]
+        },
+        {
+          "label": "b",
+          "problem_latex": "\\frac{4}{x} - \\frac{5}{2x}",
+          "answer_latex": "\\frac{3}{2y}",
+          "solution_steps": [
+            "\\frac{4}{y} - \\frac{5}{2y} = \\frac{8}{2y} - \\frac{5}{2y}",
+            "= \\frac{8-5}{2y}",
+            "= \\frac{3}{2y}"
+          ]
+        },
+        {
+          "label": "c",
+          "problem_latex": "\\frac{n}{5} + \\frac{2}{3p}",
+          "answer_latex": "\\frac{3np + 10}{15p}",
+          "solution_steps": [
+            "\\frac{n}{5} + \\frac{2}{3p} = \\frac{n \\times 3p}{5 \\times 3p} + \\frac{2 \\times 5}{3p \\times 5}",
+            "= \\frac{3np}{15p} + \\frac{10}{15p}",
+            "= \\frac{3np + 10}{15p}"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Simplifying by Cancelling Common Factors",
+      "source_image": "image246.png",
+      "content": [
+        {
+          "description": "If the numerator and denominator of an algebraic fraction are both written in factored form and common factors are found, we can simplify by cancelling the common factors.",
+          "example_latex": "\\frac{6bc}{3c} = \\frac{2 \\times 3 \\times b \\times c}{3 \\times c} = \\frac{2b}{1} = 2b"
+        },
+        {
+          "description": "Fractions that cannot be simplified",
+          "example_latex": "\\frac{3xy}{7z}",
+          "note": "Cannot be simplified since the numerator and denominator do not have any common factors."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Illegal Cancellation Warning",
+      "source_image": "image247.png",
+      "content": [
+        {
+          "description": "Take care with fractions such as (x+4)/2. The expression x+4 cannot be written as the product of factors other than 1 x (x+4). x and 4 are terms of the expression, not factors."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Illegal Cancellation Example",
+      "source_image": "image248.png",
+      "content": [
+        {
+          "description": "A typical error is the illegal cancellation",
+          "incorrect_example": "\\frac{x+4}{2} = \\frac{x+2}{1} = x+2",
+          "verification": "For x=2: \\frac{x+4}{2} = \\frac{2+4}{2} = 3, but x+2 = 2+2 = 4"
+        }
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example 2 - Simplifying Algebraic Fractions",
+      "source_image": "image249.png",
+      "questions": [
+        {
+          "label": "a",
+          "problem_latex": "\\frac{a^2}{2a}",
+          "answer_latex": "\\frac{a}{2}",
+          "solution_steps": [
+            "\\frac{a^2}{2a} = \\frac{a \\times a}{2 \\times a} = \\frac{a}{2}"
+          ]
+        },
+        {
+          "label": "b",
+          "problem_latex": "\\frac{6a^2b}{3b}",
+          "answer_latex": "2a^2",
+          "solution_steps": [
+            "\\frac{6a^2b}{3b} = \\frac{6 \\times a \\times a \\times b}{3 \\times b} = \\frac{2 \\times a \\times a}{1} = 2a^2"
+          ]
+        },
+        {
+          "label": "c",
+          "problem_latex": "\\frac{a+b}{a}",
+          "answer_latex": "\\frac{a+b}{a}",
+          "note": "Cannot be simplified as a+b is a sum, not a product."
+        }
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example 3 - Simplifying with Squared Terms",
+      "source_image": "image250.png",
+      "questions": [
+        {
+          "label": "a",
+          "problem_latex": "\\frac{(-4b)^2}{2b}",
+          "answer_latex": "8b",
+          "solution_steps": [
+            "\\frac{(-4b)^2}{2b} = \\frac{(-4b) \\times (-4b)}{2 \\times b}",
+            "= \\frac{16 \\times b \\times b}{2 \\times b}",
+            "= 8b"
+          ]
+        },
+        {
+          "label": "b",
+          "problem_latex": "\\frac{3(x+4)^2}{x+4}",
+          "answer_latex": "3(x+4)",
+          "solution_steps": [
+            "\\frac{3(x+4)^2}{x+4} = \\frac{3(x+4)(x+4)}{x+4} = 3(x+4)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example 4 - Simplifying with Factored Forms",
+      "source_image": "image251.png",
+      "questions": [
+        {
+          "label": "a",
+          "problem_latex": "\\frac{(2x+3)(x+4)}{5(2x+3)}",
+          "answer_latex": "\\frac{x+4}{5}",
+          "solution_steps": [
+            "\\frac{(2x+3)(x+4)}{5(2x+3)} = \\frac{(x+4)}{5} = \\frac{x+4}{5}"
+          ]
+        },
+        {
+          "label": "b",
+          "problem_latex": "\\frac{4(x+2)(x-1)}{2(x-1)}",
+          "answer_latex": "2(x+2)",
+          "solution_steps": [
+            "\\frac{4(x+2)(x-1)}{2(x-1)} = \\frac{2(x+2)}{1} = 2(x+2)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example 5 - Simplify if Possible",
+      "source_image": "image252.png",
+      "questions": [
+        {
+          "label": "a",
+          "problem_latex": "\\frac{4(x+8)}{2}",
+          "answer_latex": "2(x+8)",
+          "solution_steps": [
+            "\\frac{4(x+8)}{2} = \\frac{2 \\times 2 \\times (x+8)}{2} = 2(x+8)"
+          ]
+        },
+        {
+          "label": "b",
+          "problem_latex": "\\frac{x+8}{2}",
+          "answer_latex": "\\frac{x+8}{2}",
+          "note": "Cannot be simplified because the coefficient of x is not a multiple of 2, and so we cannot cancel the denominator."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "Exercise 21B.1",
+      "source_image": "image253.png",
+      "questions": [
+        {
+          "label": "1",
+          "instruction": "Check the following simplifications using the given substitutions",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{3x+8}{4} = 3x+2", "substitution": "x=4"},
+            {"label": "b", "problem_latex": "\\frac{4x+2}{2} = 2x+1", "substitution": "x=1, 2, 3"},
+            {"label": "c", "problem_latex": "\\frac{4x+3}{2} = 2x+3", "substitution": "x=3"},
+            {"label": "d", "problem_latex": "\\frac{2a+b+10}{5} = 2a+b+2", "substitution": "a=2, b=1"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "Exercise 21B.1 - Question 2",
+      "source_image": "image254.png",
+      "questions": [
+        {
+          "label": "2",
+          "instruction": "Simplify",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{2a}{4}"},
+            {"label": "b", "problem_latex": "\\frac{4m}{2}"},
+            {"label": "c", "problem_latex": "\\frac{6a}{a}"},
+            {"label": "d", "problem_latex": "\\frac{6a}{2a}"},
+            {"label": "e", "problem_latex": "\\frac{2a^2}{a}"},
+            {"label": "f", "problem_latex": "\\frac{2x^3}{2x}"},
+            {"label": "g", "problem_latex": "\\frac{2x^3}{x^2}"},
+            {"label": "h", "problem_latex": "\\frac{2x^3}{x^3}"},
+            {"label": "i", "problem_latex": "\\frac{2a^2}{4a^3}"},
+            {"label": "j", "problem_latex": "\\frac{8m^2}{4m}"},
+            {"label": "k", "problem_latex": "\\frac{4a^2}{a^2}"},
+            {"label": "l", "problem_latex": "\\frac{6t}{3t^2}"},
+            {"label": "m", "problem_latex": "\\frac{4d^2}{2d}"},
+            {"label": "n", "problem_latex": "\\frac{ab^2}{2ab}"},
+            {"label": "o", "problem_latex": "\\frac{4ab^2}{6a^2b}"}
+          ]
+        },
+        {
+          "label": "3",
+          "instruction": "Simplify if possible",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{2t}{2}"},
+            {"label": "b", "problem_latex": "\\frac{2+t}{2}"},
+            {"label": "c", "problem_latex": "\\frac{xy}{x}"},
+            {"label": "d", "problem_latex": "\\frac{x+y}{x}"},
+            {"label": "e", "problem_latex": "\\frac{x+y}{y}"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "Exercise 21B.1 - Questions 3-4",
+      "source_image": "image255.png",
+      "questions": [
+        {
+          "label": "3 continued",
+          "sub_questions": [
+            {"label": "f", "problem_latex": "\\frac{ac}{bc}"},
+            {"label": "g", "problem_latex": "\\frac{a+c}{b+c}"},
+            {"label": "h", "problem_latex": "\\frac{2a^2}{4a}"},
+            {"label": "i", "problem_latex": "\\frac{2+a^2}{4a}"},
+            {"label": "j", "problem_latex": "\\frac{(2a)^2}{4a}"}
+          ]
+        },
+        {
+          "label": "4",
+          "instruction": "Split these expressions into two parts and if possible simplify",
+          "example_latex": "\\frac{x+4}{2} = \\frac{x}{2} + \\frac{4}{2} = \\frac{x}{2} + 2",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{a+4}{2}"},
+            {"label": "b", "problem_latex": "\\frac{2a+4}{2}"},
+            {"label": "c", "problem_latex": "\\frac{2x+3}{2}"},
+            {"label": "d", "problem_latex": "\\frac{2x+8}{2}"},
+            {"label": "e", "problem_latex": "\\frac{4x+3}{2}"},
+            {"label": "f", "problem_latex": "\\frac{2x^2+4x}{2}"},
+            {"label": "g", "problem_latex": "\\frac{2x^2+4x}{4}"},
+            {"label": "h", "problem_latex": "\\frac{x^2-6x}{x^2}"},
+            {"label": "i", "problem_latex": "\\frac{x^2-6x}{x}"},
+            {"label": "j", "problem_latex": "\\frac{x^2-6x}{6}"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "Exercise 21B.1 - Question 5",
+      "source_image": "image256.png",
+      "questions": [
+        {
+          "label": "5",
+          "instruction": "Simplify",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{(2a)^2}{a^2}"},
+            {"label": "b", "problem_latex": "\\frac{(4n)^2}{8n}"},
+            {"label": "c", "problem_latex": "\\frac{(-a)^2}{a}"},
+            {"label": "d", "problem_latex": "\\frac{a^2}{(-a)^2}"},
+            {"label": "e", "problem_latex": "\\frac{(-2a)^2}{4}"},
+            {"label": "f", "problem_latex": "\\frac{(-3n)^2}{6n}"},
+            {"label": "g", "problem_latex": "\\frac{(x+y)^2}{x+y}"},
+            {"label": "h", "problem_latex": "\\frac{2(x+2)}{(x+2)^2}"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "Exercise 21B.1 - Questions 6-7",
+      "source_image": "image257.png",
+      "questions": [
+        {
+          "label": "6",
+          "instruction": "Simplify",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{2(a+3)}{2}"},
+            {"label": "b", "problem_latex": "\\frac{4(x+2)}{2}"},
+            {"label": "c", "problem_latex": "\\frac{6(c+3)}{3}"},
+            {"label": "d", "problem_latex": "\\frac{2(d-3)}{6}"},
+            {"label": "e", "problem_latex": "\\frac{4}{2(x+1)}"},
+            {"label": "f", "problem_latex": "\\frac{12}{4(2-x)}"},
+            {"label": "g", "problem_latex": "\\frac{3(x+4)}{9(x+4)}"},
+            {"label": "h", "problem_latex": "\\frac{12(a-3)}{6(a-3)}"},
+            {"label": "i", "problem_latex": "\\frac{(x+y)(x-y)}{3(x-y)}"},
+            {"label": "j", "problem_latex": "\\frac{2xy(x-y)}{6x(x-y)}"},
+            {"label": "k", "problem_latex": "\\frac{5(y+2)(y-3)}{15(y+2)}"},
+            {"label": "l", "problem_latex": "\\frac{x(x+1)(x+2)}{3x(x+2)}"}
+          ]
+        },
+        {
+          "label": "7",
+          "instruction": "Simplify if possible",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{3(x+2)}{6}"},
+            {"label": "b", "problem_latex": "\\frac{6(x+2)}{3}"},
+            {"label": "c", "problem_latex": "\\frac{x+6}{3}"},
+            {"label": "d", "problem_latex": "\\frac{x-4}{2}"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "Exercise 21B.1 - Question 7 continued",
+      "source_image": "image258.png",
+      "questions": [
+        {
+          "label": "7 continued",
+          "sub_questions": [
+            {"label": "e", "problem_latex": "\\frac{2(x-1)}{4(x+1)}"},
+            {"label": "f", "problem_latex": "\\frac{2x+5}{10}"},
+            {"label": "g", "problem_latex": "\\frac{2x+6}{10}"},
+            {"label": "h", "problem_latex": "\\frac{3}{3a+9}"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Factorisation and Simplification",
+      "source_image": "image259.png",
+      "content": [
+        {
+          "description": "It is often necessary to factorise either the numerator or denominator before simplification can be done. To do this we use the rules for factorisation that we have seen previously."
+        }
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example 6 - Simplify by Factorising",
+      "source_image": "image261.png",
+      "questions": [
+        {
+          "label": "a",
+          "problem_latex": "\\frac{3a+9}{3}",
+          "answer_latex": "a+3",
+          "solution_steps": [
+            "\\frac{3a+9}{3} = \\frac{3(a+3)}{3} = a+3"
+          ]
+        },
+        {
+          "label": "b",
+          "problem_latex": "\\frac{4a+12}{8}",
+          "answer_latex": "\\frac{a+3}{2}",
+          "solution_steps": [
+            "\\frac{4a+12}{8} = \\frac{4(a+3)}{8} = \\frac{a+3}{2}"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example 7 - Simplify by Factorising",
+      "source_image": "image262.png",
+      "questions": [
+        {
+          "label": "a",
+          "problem_latex": "\\frac{ab+ac}{b+c}",
+          "answer_latex": "a",
+          "solution_steps": [
+            "\\frac{ab+ac}{b+c} = \\frac{a(b+c)}{b+c} = a"
+          ]
+        },
+        {
+          "label": "b",
+          "problem_latex": "\\frac{6x^2-6xy}{3x-3y}",
+          "answer_latex": "2x",
+          "solution_steps": [
+            "\\frac{6x^2-6xy}{3x-3y} = \\frac{6x(x-y)}{3(x-y)}",
+            "= \\frac{6 \\times x \\times (x-y)}{3 \\times (x-y)}",
+            "= 2x"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Useful Rule for Cancellation",
+      "source_image": "image263.png",
+      "content": [
+        {
+          "formula_latex": "b - a = -1(a - b)",
+          "description": "This is a useful rule for converting b-a into a-b. It can sometimes allow us to cancel common factors."
+        }
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example 8 - Using b-a = -1(a-b)",
+      "source_image": "image264.png",
+      "questions": [
+        {
+          "label": "a",
+          "problem_latex": "\\frac{6a-6b}{b-a}",
+          "answer_latex": "-6",
+          "solution_steps": [
+            "\\frac{6a-6b}{b-a} = \\frac{6(a-b)}{-1(a-b)} = -6"
+          ]
+        },
+        {
+          "label": "b",
+          "problem_latex": "\\frac{xy^2-xy}{1-y}",
+          "answer_latex": "-xy",
+          "solution_steps": [
+            "\\frac{xy^2-xy}{1-y} = \\frac{xy(y-1)}{-1(y-1)} = -xy"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example 9 - Factorising Quadratics",
+      "source_image": "image265.png",
+      "questions": [
+        {
+          "label": "",
+          "problem_latex": "\\frac{x^2-1}{x^2+3x+2}",
+          "answer_latex": "\\frac{x-1}{x+2}",
+          "solution_steps": [
+            "\\frac{x^2-1}{x^2+3x+2} = \\frac{(x-1)(x+1)}{(x+2)(x+1)} = \\frac{x-1}{x+2}"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "Exercise 21B.2",
+      "source_image": "image266.png",
+      "questions": [
+        {
+          "label": "1",
+          "instruction": "Simplifying by removing common factors",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{4}{2(x+1)}"},
+            {"label": "b", "problem_latex": "\\frac{12}{4(2-x)}"},
+            {"label": "c", "problem_latex": "\\frac{2x+4}{2}"},
+            {"label": "d", "problem_latex": "\\frac{3x+6}{3}"},
+            {"label": "e", "problem_latex": "\\frac{3x+6}{6}"},
+            {"label": "f", "problem_latex": "\\frac{4x+20}{8}"},
+            {"label": "g", "problem_latex": "\\frac{4y+12}{12}"},
+            {"label": "h", "problem_latex": "\\frac{ax+bx}{x}"},
+            {"label": "i", "problem_latex": "\\frac{ax+bx}{cx+dx}"},
+            {"label": "j", "problem_latex": "\\frac{(a+2)^2}{2(a+2)}"},
+            {"label": "k", "problem_latex": "\\frac{3(b-4)}{6(b-4)^2}"},
+            {"label": "l", "problem_latex": "\\frac{8(p+q)^2}{12(p+q)}"}
+          ]
+        },
+        {
+          "label": "2",
+          "instruction": "Simplify by factorising",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{3x+6}{4x+8}"},
+            {"label": "b", "problem_latex": "\\frac{ax+bx}{2x}"},
+            {"label": "c", "problem_latex": "\\frac{ax+bx}{a+b}"},
+            {"label": "d", "problem_latex": "\\frac{x}{ax+bx}"},
+            {"label": "e", "problem_latex": "\\frac{a+b}{ay+by}"},
+            {"label": "f", "problem_latex": "\\frac{ax+bx}{ay+by}"},
+            {"label": "g", "problem_latex": "\\frac{4x^2+8x}{x+2}"},
+            {"label": "h", "problem_latex": "\\frac{3x^2+9x}{x+3}"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "Exercise 21B.2 - Questions 3-4",
+      "source_image": "image267.png",
+      "questions": [
+        {
+          "label": "3",
+          "instruction": "Simplify, if possible",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{2x-2y}{y-x}"},
+            {"label": "b", "problem_latex": "\\frac{3x-3y}{2y-2x}"},
+            {"label": "c", "problem_latex": "\\frac{m+n}{n-m}"},
+            {"label": "d", "problem_latex": "\\frac{m-n}{n-m}"},
+            {"label": "e", "problem_latex": "\\frac{r-2s}{4s-2r}"},
+            {"label": "f", "problem_latex": "\\frac{3r-6s}{2s-r}"},
+            {"label": "g", "problem_latex": "\\frac{2x-2}{x-x^2}"},
+            {"label": "h", "problem_latex": "\\frac{ab^2-ab}{2-2b}"},
+            {"label": "i", "problem_latex": "\\frac{4x^2-4x}{2-2x}"},
+            {"label": "j", "problem_latex": "\\frac{4x+6}{2}"},
+            {"label": "k", "problem_latex": "\\frac{4x+6}{3}"},
+            {"label": "l", "problem_latex": "\\frac{4x+6}{4}"},
+            {"label": "m", "problem_latex": "\\frac{4x+6}{5}"},
+            {"label": "n", "problem_latex": "\\frac{4x+6}{6}"},
+            {"label": "o", "problem_latex": "\\frac{6a+1}{2}"},
+            {"label": "p", "problem_latex": "\\frac{6a+1}{3}"},
+            {"label": "q", "problem_latex": "\\frac{6a+2}{4}"},
+            {"label": "r", "problem_latex": "\\frac{3b+9}{2}"},
+            {"label": "s", "problem_latex": "\\frac{3b+9}{6}"},
+            {"label": "t", "problem_latex": "\\frac{4x-2}{2-x}"}
+          ]
+        },
+        {
+          "label": "4",
+          "instruction": "Simplify",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{x^2-1}{x-1}"},
+            {"label": "b", "problem_latex": "\\frac{x^2-1}{x+1}"},
+            {"label": "c", "problem_latex": "\\frac{x^2-1}{1-x}"},
+            {"label": "d", "problem_latex": "\\frac{x+2}{x^2-4}"},
+            {"label": "e", "problem_latex": "\\frac{a^2-b^2}{a+b}"},
+            {"label": "f", "problem_latex": "\\frac{a^2-b^2}{b-a}"},
+            {"label": "g", "problem_latex": "\\frac{2x+2}{x^2-1}"},
+            {"label": "h", "problem_latex": "\\frac{9-x^2}{3x-x^2}"},
+            {"label": "i", "problem_latex": "\\frac{3x^2-3y^2}{2xy-2y^2}"},
+            {"label": "j", "problem_latex": "\\frac{2b^2-2a^2}{a^2-ab}"},
+            {"label": "k", "problem_latex": "\\frac{4xy-y^2}{16x^2-y^2}"},
+            {"label": "l", "problem_latex": "\\frac{4x(x-4)}{16-x^2}"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "Exercise 21B.2 - Question 5",
+      "source_image": "image268.png",
+      "questions": [
+        {
+          "label": "5",
+          "instruction": "Simplify by factorising and cancelling common factors",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{x^2-x-2}{x-2}"},
+            {"label": "b", "problem_latex": "\\frac{x+3}{x^2-2x-15}"},
+            {"label": "c", "problem_latex": "\\frac{2x^2+2x}{x^2-4x-5}"},
+            {"label": "d", "problem_latex": "\\frac{x^2-4}{x^2+4x+4}"},
+            {"label": "e", "problem_latex": "\\frac{x^2-x-12}{x^2-5x+4}"},
+            {"label": "f", "problem_latex": "\\frac{x^2+2x+1}{1-x^2}"},
+            {"label": "g", "problem_latex": "\\frac{x^2-x-20}{x^2+7x+12}"},
+            {"label": "h", "problem_latex": "\\frac{2x^2+5x+2}{2x^2+7x+3}"},
+            {"label": "i", "problem_latex": "\\frac{3x^2+7x+2}{6x^2-x-1}"},
+            {"label": "j", "problem_latex": "\\frac{8x^2+2x-1}{4x^2-5x+1}"},
+            {"label": "k", "problem_latex": "\\frac{12x^2-5x-3}{6x^2+5x+1}"},
+            {"label": "l", "problem_latex": "\\frac{15x^2+17x-4}{5x^2+9x-2}"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Multiplication and Division Rules",
+      "source_image": "image269.png",
+      "content": [
+        {
+          "multiplication_rule": "\\frac{a}{b} \\times \\frac{c}{d} = \\frac{a \\times c}{b \\times d} = \\frac{ac}{bd}",
+          "division_rule": "\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c} = \\frac{ad}{bc}"
+        }
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example 10 - Multiplication",
+      "source_image": "image270.png",
+      "questions": [
+        {
+          "label": "a",
+          "problem_latex": "\\frac{3}{m} \\times \\frac{m}{6}",
+          "answer_latex": "\\frac{1}{2}",
+          "solution_steps": [
+            "\\frac{3}{m} \\times \\frac{m}{6} = \\frac{3 \\times m}{m \\times 6} = \\frac{1}{2}"
+          ]
+        },
+        {
+          "label": "b",
+          "problem_latex": "\\frac{3}{m} \\times m^2",
+          "answer_latex": "3m",
+          "solution_steps": [
+            "\\frac{3}{m} \\times m^2 = \\frac{3}{m} \\times \\frac{m^2}{1} = \\frac{3m^2}{m} = \\frac{3 \\times m \\times m}{m} = \\frac{3m}{1} = 3m"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Division Steps",
+      "source_image": "image271.png",
+      "content": [
+        {
+          "steps": [
+            "Step 1: To divide by a fraction, multiply by its reciprocal.",
+            "Step 2: Multiply numerators and multiply denominators.",
+            "Step 3: Cancel any common factors.",
+            "Step 4: Write in simplest form."
+          ],
+          "example_latex": "\\frac{a}{2} \\div \\frac{b}{4} = \\frac{a}{2} \\times \\frac{4}{b} = \\frac{a \\times 4}{2 \\times b} = \\frac{2a}{b}"
+        }
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example 11 - Division",
+      "source_image": "image272.png",
+      "questions": [
+        {
+          "label": "a",
+          "problem_latex": "\\frac{4}{n} \\div \\frac{2}{n^2}",
+          "answer_latex": "2n",
+          "solution_steps": [
+            "\\frac{4}{n} \\div \\frac{2}{n^2} = \\frac{4}{n} \\times \\frac{n^2}{2}",
+            "= \\frac{4 \\times n^2}{n \\times 2}",
+            "= \\frac{2 \\times 2 \\times n \\times n}{n \\times 2}",
+            "= 2n"
+          ]
+        },
+        {
+          "label": "b",
+          "problem_latex": "\\frac{3}{a} \\div 2",
+          "answer_latex": "\\frac{3}{2a}",
+          "solution_steps": [
+            "\\frac{3}{a} \\div 2 = \\frac{3}{a} \\times \\frac{1}{2} = \\frac{3 \\times 1}{a \\times 2} = \\frac{3}{2a}"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Addition and Subtraction Rules",
+      "source_image": "image273.png",
+      "content": [
+        {
+          "addition_rule": "\\frac{a}{c} + \\frac{b}{c} = \\frac{a+b}{c}",
+          "subtraction_rule": "\\frac{a}{c} - \\frac{d}{c} = \\frac{a-d}{c}",
+          "examples": [
+            "\\frac{2}{5} + \\frac{4}{5} = \\frac{2+4}{5}",
+            "\\frac{7}{9} - \\frac{5}{9} = \\frac{7-5}{9}"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example 12 - Addition with Different Denominators",
+      "source_image": "image274.png",
+      "questions": [
+        {
+          "label": "a",
+          "problem_latex": "\\frac{x}{2} + \\frac{3x}{4}",
+          "answer_latex": "\\frac{5x}{4}",
+          "solution_steps": [
+            "\\frac{x}{2} + \\frac{3x}{4} \\quad \\{\\text{LCD} = 4\\}",
+            "= \\frac{x \\times 2}{2 \\times 2} + \\frac{3x}{4}",
+            "= \\frac{2x}{4} + \\frac{3x}{4}",
+            "= \\frac{2x + 3x}{4}",
+            "= \\frac{5x}{4}"
+          ]
+        },
+        {
+          "label": "b",
+          "problem_latex": "\\frac{a}{3} - \\frac{2a}{5}",
+          "answer_latex": "-\\frac{a}{15}",
+          "solution_steps": [
+            "\\frac{a}{3} - \\frac{2a}{5} \\quad \\{\\text{LCD} = 15\\}",
+            "= \\frac{a \\times 5}{3 \\times 5} - \\frac{2a \\times 3}{5 \\times 3}",
+            "= \\frac{5a}{15} - \\frac{6a}{15}",
+            "= \\frac{-a}{15} \\text{ or } -\\frac{a}{15}"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example 13 - Addition with Variable Denominators",
+      "source_image": "image275.png",
+      "questions": [
+        {
+          "label": "a",
+          "problem_latex": "\\frac{4}{a} + \\frac{3}{b}",
+          "answer_latex": "\\frac{4b+3a}{ab}",
+          "solution_steps": [
+            "\\frac{4}{a} + \\frac{3}{b} \\quad \\{\\text{LCD} = ab\\}",
+            "= \\frac{4 \\times b}{a \\times b} + \\frac{3 \\times a}{b \\times a}",
+            "= \\frac{4b}{ab} + \\frac{3a}{ab}",
+            "= \\frac{4b + 3a}{ab}"
+          ]
+        },
+        {
+          "label": "b",
+          "problem_latex": "\\frac{5}{x} - \\frac{4}{3x}",
+          "answer_latex": "\\frac{11}{3x}",
+          "solution_steps": [
+            "\\frac{5}{x} - \\frac{4}{3x} \\quad \\{\\text{LCD} = 3x\\}",
+            "= \\frac{5 \\times 3}{x \\times 3} - \\frac{4}{3x}",
+            "= \\frac{15}{3x} - \\frac{4}{3x}",
+            "= \\frac{11}{3x}"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example 14 - Addition with Constants",
+      "source_image": "image276.png",
+      "questions": [
+        {
+          "label": "a",
+          "problem_latex": "\\frac{b}{3} + 1",
+          "answer_latex": "\\frac{b+3}{3}",
+          "solution_steps": [
+            "\\frac{b}{3} + 1 = \\frac{b}{3} + \\frac{3}{3} = \\frac{b+3}{3}"
+          ]
+        },
+        {
+          "label": "b",
+          "problem_latex": "\\frac{a}{4} - a",
+          "answer_latex": "-\\frac{3a}{4}",
+          "solution_steps": [
+            "\\frac{a}{4} - a = \\frac{a}{4} - \\frac{a \\times 4}{1 \\times 4}",
+            "= \\frac{a}{4} - \\frac{4a}{4}",
+            "= \\frac{-3a}{4} \\text{ or } -\\frac{3a}{4}"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "Exercise 21C - Multiplication",
+      "source_image": "image277.png",
+      "questions": [
+        {
+          "label": "1",
+          "instruction": "Simplify",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{x}{2} \\times \\frac{y}{5}"},
+            {"label": "b", "problem_latex": "\\frac{a}{2} \\times \\frac{3}{a}"},
+            {"label": "c", "problem_latex": "\\frac{a}{2} \\times a"},
+            {"label": "d", "problem_latex": "\\frac{a}{4} \\times \\frac{2}{3a}"},
+            {"label": "e", "problem_latex": "\\frac{c}{5} \\times \\frac{1}{c}"},
+            {"label": "f", "problem_latex": "\\frac{c}{5} \\times \\frac{c}{2}"},
+            {"label": "g", "problem_latex": "\\frac{a}{b} \\times \\frac{c}{d}"},
+            {"label": "h", "problem_latex": "\\frac{a}{b} \\times \\frac{b}{a}"},
+            {"label": "i", "problem_latex": "\\frac{1}{m^2} \\times \\frac{m}{2}"},
+            {"label": "j", "problem_latex": "\\frac{m}{2} \\times \\frac{4}{m}"},
+            {"label": "k", "problem_latex": "\\frac{a}{x} \\times \\frac{x}{b}"},
+            {"label": "l", "problem_latex": "m \\times \\frac{4}{m}"},
+            {"label": "m", "problem_latex": "\\frac{3}{m^2} \\times m"},
+            {"label": "n", "problem_latex": "\\left(\\frac{a}{b}\\right)^2"},
+            {"label": "o", "problem_latex": "\\left(\\frac{2}{x}\\right)^2"},
+            {"label": "p", "problem_latex": "\\frac{1}{a} \\times \\frac{a}{b} \\times \\frac{b}{c}"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "Exercise 21C - Division",
+      "source_image": "image278.png",
+      "questions": [
+        {
+          "label": "2",
+          "instruction": "Simplify",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{a}{2} \\div \\frac{a}{3}"},
+            {"label": "b", "problem_latex": "\\frac{2}{a} \\div \\frac{2}{3}"},
+            {"label": "c", "problem_latex": "\\frac{3}{4} \\div \\frac{4}{x}"},
+            {"label": "d", "problem_latex": "\\frac{3}{x} \\div \\frac{4}{x}"},
+            {"label": "e", "problem_latex": "\\frac{2}{n} \\div \\frac{1}{n}"},
+            {"label": "f", "problem_latex": "\\frac{c}{5} \\div 5"},
+            {"label": "g", "problem_latex": "\\frac{c}{5} \\div c"},
+            {"label": "h", "problem_latex": "m \\div \\frac{2}{m}"},
+            {"label": "i", "problem_latex": "m \\div \\frac{m}{2}"},
+            {"label": "j", "problem_latex": "1 \\div \\frac{m}{n}"},
+            {"label": "k", "problem_latex": "\\frac{3}{g} \\div 4"},
+            {"label": "l", "problem_latex": "\\frac{3}{g} \\div \\frac{9}{g^2}"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "Exercise 21D - Addition and Subtraction",
+      "source_image": "image279.png",
+      "questions": [
+        {
+          "label": "1",
+          "instruction": "Simplify by writing as a single fraction",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{a}{2} + \\frac{a}{3}"},
+            {"label": "b", "problem_latex": "\\frac{b}{5} - \\frac{b}{10}"},
+            {"label": "c", "problem_latex": "\\frac{c}{4} + \\frac{3c}{2}"},
+            {"label": "d", "problem_latex": "\\frac{x}{7} - \\frac{x}{2}"},
+            {"label": "e", "problem_latex": "\\frac{a}{3} + \\frac{b}{4}"},
+            {"label": "f", "problem_latex": "\\frac{t}{3} - \\frac{5t}{9}"},
+            {"label": "g", "problem_latex": "\\frac{m}{7} + \\frac{2m}{21}"},
+            {"label": "h", "problem_latex": "\\frac{5d}{6} - \\frac{d}{3}"},
+            {"label": "i", "problem_latex": "\\frac{3p}{5} - \\frac{2p}{7}"},
+            {"label": "j", "problem_latex": "\\frac{m}{2} + \\frac{m}{3} + \\frac{m}{6}"},
+            {"label": "k", "problem_latex": "\\frac{a}{2} - \\frac{a}{3} + \\frac{a}{4}"},
+            {"label": "l", "problem_latex": "\\frac{x}{4} - \\frac{x}{3} + \\frac{x}{6}"}
+          ]
+        },
+        {
+          "label": "2",
+          "instruction": "Simplify",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{7}{a} + \\frac{3}{b}"},
+            {"label": "b", "problem_latex": "\\frac{3}{a} + \\frac{2}{c}"},
+            {"label": "c", "problem_latex": "\\frac{4}{a} + \\frac{5}{d}"},
+            {"label": "d", "problem_latex": "\\frac{2a}{m} - \\frac{a}{m}"},
+            {"label": "e", "problem_latex": "\\frac{a}{x} + \\frac{b}{2x}"},
+            {"label": "f", "problem_latex": "\\frac{3}{a} - \\frac{1}{2a}"},
+            {"label": "g", "problem_latex": "\\frac{4}{x} - \\frac{1}{xy}"},
+            {"label": "h", "problem_latex": "\\frac{a}{b} + \\frac{c}{d}"},
+            {"label": "i", "problem_latex": "\\frac{a}{b} - \\frac{x}{y}"},
+            {"label": "j", "problem_latex": "\\frac{2}{3} + \\frac{a}{2}"},
+            {"label": "k", "problem_latex": "\\frac{x}{3} + \\frac{3}{4}"},
+            {"label": "l", "problem_latex": "\\frac{x}{y} + \\frac{2}{3}"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "Exercise 21D - Questions 3-4",
+      "source_image": "image280.png",
+      "questions": [
+        {
+          "label": "3",
+          "instruction": "Simplify",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{x}{2} + 1"},
+            {"label": "b", "problem_latex": "\\frac{y}{3} - 1"},
+            {"label": "c", "problem_latex": "\\frac{a}{2} + a"},
+            {"label": "d", "problem_latex": "\\frac{b}{4} - 3"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "Exercise 21D - Questions 3-4 continued",
+      "source_image": "image281.png",
+      "questions": [
+        {
+          "label": "3 continued",
+          "sub_questions": [
+            {"label": "e", "problem_latex": "\\frac{x}{2} - 4"},
+            {"label": "f", "problem_latex": "2 + \\frac{a}{3}"},
+            {"label": "g", "problem_latex": "3 - \\frac{x}{5}"},
+            {"label": "h", "problem_latex": "2 + \\frac{1}{x}"},
+            {"label": "i", "problem_latex": "5 - \\frac{2}{x}"},
+            {"label": "j", "problem_latex": "a + \\frac{2}{a}"},
+            {"label": "k", "problem_latex": "\\frac{3}{b} + b"},
+            {"label": "l", "problem_latex": "\\frac{x}{3} - 2x"}
+          ]
+        },
+        {
+          "label": "4",
+          "instruction": "Simplify",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{x}{2} + \\frac{2x}{5}"},
+            {"label": "b", "problem_latex": "\\frac{4x}{5} - \\frac{3x}{2}"},
+            {"label": "c", "problem_latex": "\\frac{3}{a} + \\frac{2}{3a}"},
+            {"label": "d", "problem_latex": "\\frac{4}{y} - \\frac{3}{2y}"},
+            {"label": "e", "problem_latex": "\\frac{5}{a} + \\frac{3}{b}"},
+            {"label": "f", "problem_latex": "\\frac{4}{3a} - \\frac{5}{b}"},
+            {"label": "g", "problem_latex": "\\frac{x}{7} + 2"},
+            {"label": "h", "problem_latex": "3 - \\frac{x}{4}"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example 15 - More Complicated Fractions",
+      "source_image": "image282.png",
+      "questions": [
+        {
+          "label": "a",
+          "problem_latex": "\\frac{x}{6} + \\frac{x-2}{3}",
+          "answer_latex": "\\frac{3x-4}{6}",
+          "solution_steps": [
+            "\\frac{x}{6} + \\frac{x-2}{3}",
+            "= \\frac{x}{6} + \\frac{2}{2}\\left(\\frac{x-2}{3}\\right)",
+            "= \\frac{x + 2(x-2)}{6}",
+            "= \\frac{x + 2x - 4}{6}",
+            "= \\frac{3x - 4}{6}"
+          ]
+        },
+        {
+          "label": "b",
+          "problem_latex": "\\frac{x+1}{2} - \\frac{x-2}{3}",
+          "answer_latex": "\\frac{x+7}{6}",
+          "solution_steps": [
+            "\\frac{x+1}{2} - \\frac{x-2}{3}",
+            "= \\frac{3}{3}\\left(\\frac{x+1}{2}\\right) - \\frac{2}{2}\\left(\\frac{x-2}{3}\\right)",
+            "= \\frac{3(x+1)}{6} - \\frac{2(x-2)}{6}",
+            "= \\frac{3(x+1) - 2(x-2)}{6}",
+            "= \\frac{3x + 3 - 2x + 4}{6}",
+            "= \\frac{x + 7}{6}"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example 16 - Fractions with Linear Denominators",
+      "source_image": "image283.png",
+      "questions": [
+        {
+          "label": "a",
+          "problem_latex": "\\frac{1}{x} + \\frac{2}{x-1}",
+          "answer_latex": "\\frac{3x-1}{x(x-1)}",
+          "solution_steps": [
+            "\\frac{1}{x} + \\frac{2}{x-1}",
+            "= \\frac{1}{x}\\left(\\frac{x-1}{x-1}\\right) + \\left(\\frac{2}{x-1}\\right)\\frac{x}{x}",
+            "= \\frac{1(x-1) + 2x}{x(x-1)}",
+            "= \\frac{x - 1 + 2x}{x(x-1)}",
+            "= \\frac{3x - 1}{x(x-1)}"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example 16b - Fractions with Linear Denominators",
+      "source_image": "image284.png",
+      "questions": [
+        {
+          "label": "b",
+          "problem_latex": "\\frac{2}{x-1} - \\frac{3}{x+1}",
+          "answer_latex": "\\frac{5-x}{(x-1)(x+1)}",
+          "solution_steps": [
+            "\\frac{2}{x-1} - \\frac{3}{x+1}",
+            "= \\left(\\frac{2}{x-1}\\right)\\left(\\frac{x+1}{x+1}\\right) - \\left(\\frac{3}{x+1}\\right)\\left(\\frac{x-1}{x-1}\\right)",
+            "= \\frac{2(x+1) - 3(x-1)}{(x-1)(x+1)}",
+            "= \\frac{2x + 2 - 3x + 3}{(x-1)(x+1)}",
+            "= \\frac{-x + 5}{(x-1)(x+1)} \\text{ or } \\frac{5-x}{(x-1)(x+1)}"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "Exercise 21E - More Complicated Fractions",
+      "source_image": "image285.png",
+      "questions": [
+        {
+          "label": "1",
+          "instruction": "Write as a single fraction",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{x}{2} + \\frac{x+1}{3}"},
+            {"label": "b", "problem_latex": "\\frac{x-1}{4} - \\frac{x}{2}"},
+            {"label": "c", "problem_latex": "\\frac{2x}{3} + \\frac{x+3}{4}"},
+            {"label": "d", "problem_latex": "\\frac{x+1}{2} + \\frac{x-1}{3}"},
+            {"label": "e", "problem_latex": "\\frac{x-1}{3} + \\frac{1-2x}{4}"},
+            {"label": "f", "problem_latex": "\\frac{2x+3}{2} + \\frac{2x-3}{3}"}
+          ]
+        },
+        {
+          "label": "2",
+          "instruction": "Simplify",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{x}{3} + \\frac{x+1}{4}"},
+            {"label": "b", "problem_latex": "\\frac{3x+2}{4} + \\frac{x}{2}"},
+            {"label": "c", "problem_latex": "\\frac{x}{6} + \\frac{3x-1}{5}"},
+            {"label": "d", "problem_latex": "\\frac{a+b}{3} + \\frac{b-a}{2}"},
+            {"label": "e", "problem_latex": "\\frac{x+1}{5} + \\frac{2x-1}{4}"},
+            {"label": "f", "problem_latex": "\\frac{x+1}{7} + \\frac{3-x}{2}"},
+            {"label": "g", "problem_latex": "\\frac{x}{6} - \\frac{2-x}{5}"},
+            {"label": "h", "problem_latex": "\\frac{2x-1}{5} - \\frac{x}{4}"},
+            {"label": "i", "problem_latex": "\\frac{x}{8} - \\frac{1-x}{4}"},
+            {"label": "j", "problem_latex": "\\frac{x}{5} - \\frac{2-x}{10}"},
+            {"label": "k", "problem_latex": "\\frac{x-1}{5} - \\frac{2x-7}{3}"},
+            {"label": "l", "problem_latex": "\\frac{1-3x}{4} - \\frac{2x+1}{3}"},
+            {"label": "m", "problem_latex": "\\frac{x}{30} - \\frac{4x-1}{10}"},
+            {"label": "n", "problem_latex": "\\frac{3}{x} + \\frac{4}{x+1}"},
+            {"label": "o", "problem_latex": "\\frac{5}{x+2} - \\frac{3}{x}"},
+            {"label": "p", "problem_latex": "\\frac{4}{x+1} - \\frac{3}{x-1}"},
+            {"label": "q", "problem_latex": "3 + \\frac{1}{x+2}"},
+            {"label": "r", "problem_latex": "\\frac{1}{x} + \\frac{4}{x-4}"},
+            {"label": "s", "problem_latex": "\\frac{2}{x+3} - 4"},
+            {"label": "t", "problem_latex": "\\frac{x+1}{x-1} + \\frac{x}{x+1}"},
+            {"label": "u", "problem_latex": "\\frac{5}{x} + \\frac{6}{x-2}"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "Review Set 21A",
+      "source_image": "image286.png",
+      "questions": [
+        {
+          "label": "1",
+          "instruction": "If p=5, q=-3 and r=6, evaluate",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{r}{q}"},
+            {"label": "b", "problem_latex": "\\frac{p-q}{p+q}"},
+            {"label": "c", "problem_latex": "\\frac{\\sqrt{p^2-16}}{r-q}"},
+            {"label": "d", "problem_latex": "\\frac{p+2q-2r}{r^2-p^2}"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "Review Set 21A - Questions 2-6",
+      "source_image": "image287.png",
+      "questions": [
+        {
+          "label": "2",
+          "instruction": "Simplify",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{(2t)^2}{6t}"},
+            {"label": "b", "problem_latex": "\\frac{16a+8b}{6a+3b}"},
+            {"label": "c", "problem_latex": "\\frac{x(x-4)}{3(x-4)}"},
+            {"label": "d", "problem_latex": "\\frac{8}{4x+8}"}
+          ]
+        },
+        {
+          "label": "3",
+          "instruction": "Simplify",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{2a-2b}{b-a}"},
+            {"label": "b", "problem_latex": "\\frac{2x+6}{x^2-9}"},
+            {"label": "c", "problem_latex": "\\frac{x^2+4x+4}{x^2+2x}"},
+            {"label": "d", "problem_latex": "\\frac{3x^2-6x}{3x^2-5x-2}"}
+          ]
+        },
+        {
+          "label": "4",
+          "instruction": "Simplify",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{a}{b} \\times \\frac{b}{3}"},
+            {"label": "b", "problem_latex": "\\frac{a}{b} \\div \\frac{b}{3}"},
+            {"label": "c", "problem_latex": "\\frac{a}{b} + \\frac{b}{3}"},
+            {"label": "d", "problem_latex": "\\frac{a}{b} - \\frac{b}{3}"}
+          ]
+        },
+        {
+          "label": "5",
+          "instruction": "Write as a single fraction",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{2x}{3} + \\frac{x}{4}"},
+            {"label": "b", "problem_latex": "2 + \\frac{x}{7}"},
+            {"label": "c", "problem_latex": "\\frac{x}{4} - 1"},
+            {"label": "d", "problem_latex": "\\frac{x}{2} + \\frac{x}{4} - \\frac{x}{3}"}
+          ]
+        },
+        {
+          "label": "6",
+          "instruction": "Simplify",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{x}{3} + \\frac{x-1}{4}"},
+            {"label": "b", "problem_latex": "\\frac{x+2}{3} - \\frac{2-x}{6}"},
+            {"label": "c", "problem_latex": "\\frac{1}{x+1} + \\frac{2}{x-2}"},
+            {"label": "d", "problem_latex": "\\frac{2x+1}{5} - \\frac{x-1}{10}"},
+            {"label": "e", "problem_latex": "\\frac{5}{x-1} - \\frac{4}{x+1}"},
+            {"label": "f", "problem_latex": "\\frac{1}{x^2} + \\frac{1}{x+1}"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "Review Set 21B",
+      "source_image": "image288.png",
+      "questions": [
+        {
+          "label": "1",
+          "instruction": "If m=-4, n=3 and p=6, evaluate",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{p}{m+n}"},
+            {"label": "b", "problem_latex": "\\frac{p-m}{\\sqrt{m^2+n^2}}"},
+            {"label": "c", "problem_latex": "\\frac{p-2n}{m+n}"},
+            {"label": "d", "problem_latex": "\\frac{2p+n}{p-2n}"}
+          ]
+        },
+        {
+          "label": "2",
+          "instruction": "Simplify",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{(3x)^2}{6x^3}"},
+            {"label": "b", "problem_latex": "\\frac{3a+6b}{3}"},
+            {"label": "c", "problem_latex": "\\frac{(x+2)^2}{x^2+2x}"},
+            {"label": "d", "problem_latex": "\\frac{9}{3x+6y}"}
+          ]
+        },
+        {
+          "label": "3",
+          "instruction": "Simplify",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{a+b}{3b+3a}"},
+            {"label": "b", "problem_latex": "\\frac{2x^2-8}{x+2}"},
+            {"label": "c", "problem_latex": "\\frac{x^2-6x+9}{4x-12}"},
+            {"label": "d", "problem_latex": "\\frac{2x^2+3x-2}{3x^2+7x+2}"}
+          ]
+        },
+        {
+          "label": "4",
+          "instruction": "Simplify",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{m}{n} \\times \\frac{2}{n}"},
+            {"label": "b", "problem_latex": "\\frac{m}{n} \\div \\frac{2}{n}"},
+            {"label": "c", "problem_latex": "\\frac{3}{x} + \\frac{5}{2x}"},
+            {"label": "d", "problem_latex": "\\frac{6}{y} - \\frac{a}{b}"}
+          ]
+        },
+        {
+          "label": "5",
+          "instruction": "Simplify",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{3x}{7} - \\frac{x}{14}"},
+            {"label": "b", "problem_latex": "5 + \\frac{x}{2}"},
+            {"label": "c", "problem_latex": "3 - \\frac{y}{x}"},
+            {"label": "d", "problem_latex": "1 + \\frac{x}{2} + \\frac{y}{3}"}
+          ]
+        },
+        {
+          "label": "6",
+          "instruction": "Simplify",
+          "sub_questions": [
+            {"label": "a", "problem_latex": "\\frac{x}{4} - \\frac{2-x}{8}"},
+            {"label": "b", "problem_latex": "\\frac{x+5}{2} + \\frac{2x+1}{5}"},
+            {"label": "c", "problem_latex": "\\frac{2}{x-1} - \\frac{3}{x+2}"},
+            {"label": "d", "problem_latex": "\\frac{3x-1}{2} - \\frac{1-x}{4}"},
+            {"label": "e", "problem_latex": "\\frac{2}{x-3} - \\frac{3}{x+3}"},
+            {"label": "f", "problem_latex": "\\frac{1}{x-1} - \\frac{2}{x^2}"}
+          ]
+        }
+      ]
+    }
+  ]
+}

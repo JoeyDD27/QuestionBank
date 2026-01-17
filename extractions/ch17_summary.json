@@ -1,0 +1,330 @@
+{
+  "chapter": "17",
+  "section": "summary",
+  "source_images": [
+    "image1863.png",
+    "image1864.png",
+    "image1865.png",
+    "image1866.png",
+    "image1867.png",
+    "image1868.png",
+    "image1869.png",
+    "image1870.png"
+  ],
+  "extractions": [
+    {
+      "image": "image1863.png",
+      "type": "concept",
+      "content": [
+        {
+          "label": "Simple Interest Formula",
+          "text": "If $k is invested at a simple interest rate of r% for n years, the total amount of money at the end is",
+          "latex": "\\left(1 + \\frac{nr}{100}\\right)(\\$k)"
+        },
+        {
+          "label": "Compound Interest (Annual)",
+          "text": "If $k is invested at an interest rate of r% for n years, compounded annually, then the total amount at the end of n years is",
+          "latex": "\\left(1 + \\frac{r}{100}\\right)^n (\\$k)"
+        },
+        {
+          "label": "Compound Interest (m times per year)",
+          "text": "If $k is invested at an interest rate of r% for n years, compounded m times a year, then the total amount at the end of n years is",
+          "latex": "\\left(1 + \\frac{r}{100m}\\right)^{mn} (\\$k)"
+        }
+      ]
+    },
+    {
+      "image": "image1864.png",
+      "type": "concept",
+      "content": [
+        {
+          "label": "Present Value Formula",
+          "text": "If the current annually compounded interest rate is r%, then the present value of $m paid n years from now is",
+          "latex": "\\frac{\\$m}{\\left(1 + \\frac{r}{100}\\right)^n}"
+        }
+      ]
+    },
+    {
+      "image": "image1865.png",
+      "type": "concept",
+      "content": [
+        {
+          "label": "Logarithm Definition",
+          "text": "If a > 0 and a != 1, then",
+          "latex": "\\log_a b = c \\quad \\text{and} \\quad a^c = b",
+          "note": "are equivalent"
+        }
+      ]
+    },
+    {
+      "image": "image1866.png",
+      "type": "concept",
+      "content": [
+        {
+          "label": "Logarithm of Power",
+          "latex": "\\log_a a^p = p"
+        }
+      ]
+    },
+    {
+      "image": "image1867.png",
+      "type": "exercise",
+      "content": [
+        {
+          "label": "19.19",
+          "text": "Find the domain and range of the function",
+          "latex": "g(x) = 7 - 4^x"
+        },
+        {
+          "label": "19.20",
+          "text": "Find all values of c such that",
+          "latex": "6^{3c-1} = \\frac{1}{36}"
+        },
+        {
+          "label": "19.21",
+          "text": "Find 4^{x+3} if 2^x = 9",
+          "latex": "4^{x+3} \\text{ if } 2^x = 9"
+        },
+        {
+          "label": "19.22",
+          "text": "Find all values of x such that",
+          "latex": "\\frac{3^{x^2}}{3^{2x}} = 27"
+        }
+      ]
+    },
+    {
+      "image": "image1868.png",
+      "type": "exercise",
+      "content": [
+        {
+          "label": "19.23",
+          "text": "Find all values of x such that 2^x - 8 - 2^{-x} = 0",
+          "latex": "2^x - 8 - 2^{-x} = 0",
+          "source": "AFSME"
+        },
+        {
+          "label": "19.24",
+          "text": "Alan borrows $5,000 at 14% interest, compounded twice a year. How much does she owe at the end of 6 years?"
+        },
+        {
+          "label": "19.25",
+          "text": "Jake invested his whole life savings today in an investment that pays 6% interest, compounded annually. In ten years, the investment will be worth $35,817. What is Jake's life savings today?"
+        },
+        {
+          "label": "19.26",
+          "text": "Rate these 10-year investments from best to worst:",
+          "parts": [
+            {
+              "label": "a",
+              "text": "Receive 10% simple interest for 10 years"
+            },
+            {
+              "label": "b",
+              "text": "Receive 7.7% interest, compounded 4 times a year for 10 years"
+            },
+            {
+              "label": "c",
+              "text": "Receive 8% interest, compounded twice a year for 10 years"
+            },
+            {
+              "label": "d",
+              "text": "Receive 11% simple interest for the first 5 years, then receive 7% interest, compounded annually, for the next 5 years. (The latter interest is paid on the whole value of the investment after the first 5 years.)"
+            }
+          ]
+        },
+        {
+          "label": "19.27",
+          "text": "Geri invests all of her money at the beginning of 2001. At the end of each year, she checks the value of her investment. At the end of what year will she first find she's doubled her money in each of the following cases:",
+          "parts": [
+            {
+              "label": "a",
+              "text": "Geri invests all of her money at 5% simple interest"
+            },
+            {
+              "label": "b",
+              "text": "Geri invests all of her money at 5% interest, compounded annually"
+            },
+            {
+              "label": "c",
+              "text": "Geri invests all of her money at 5% interest, compounded twice a year"
+            },
+            {
+              "label": "d",
+              "text": "Geri invests all of her money at 5% interest, compounded monthly"
+            }
+          ]
+        },
+        {
+          "label": "19.28",
+          "text": "I have just won a lottery that will pay me $1,100,000 in 10 years. A company offers to buy my lottery ticket today for $650,000.",
+          "parts": [
+            {
+              "label": "a",
+              "text": "If the annually compounded interest rate is 9%, should I take the offer?"
+            },
+            {
+              "label": "b",
+              "text": "For what annually compounded interest rate is my lottery ticket worth $300,000 today?"
+            }
+          ]
+        },
+        {
+          "label": "19.29",
+          "text": "Suppose the annually compounded interest rate is 8%. Order the following from most valuable to least valuable:",
+          "parts": [
+            "$2,500 paid today",
+            "$3,500 paid 3 years from now",
+            "$4,500 paid 5 years from now",
+            "$6,000 paid 8 years from now"
+          ]
+        },
+        {
+          "label": "19.30",
+          "text": "Claire has borrowed $5,000. She will make one payment in 3 years, then another payment in 7. The second payment will be exactly double the amount of the first payment. How much is the first payment if the interest rate of the loan is 8.5%, compounded annually?"
+        }
+      ]
+    },
+    {
+      "image": "image1869.png",
+      "type": "exercise",
+      "content": [
+        {
+          "label": "19.31",
+          "text": "Evaluate each of the following:",
+          "parts": [
+            {
+              "label": "a",
+              "latex": "\\log_3 243"
+            },
+            {
+              "label": "b",
+              "latex": "\\log_{1/2} \\frac{1}{8}"
+            },
+            {
+              "label": "c",
+              "latex": "\\log_2 4\\sqrt[3]{2}"
+            },
+            {
+              "label": "d",
+              "latex": "\\log_9 27"
+            },
+            {
+              "label": "e",
+              "latex": "\\log_7 \\frac{1}{343}"
+            },
+            {
+              "label": "f",
+              "latex": "\\log_{\\sqrt{5}} 125\\sqrt{5}"
+            }
+          ]
+        },
+        {
+          "label": "19.32",
+          "text": "Find the base n such that",
+          "latex": "\\log_n 4\\sqrt{2} = 10"
+        },
+        {
+          "label": "19.33",
+          "text": "Suppose a is a constant and f is a function such that f(x) = log_a(x). Why can we not have a = 1? (In other words, why are we not allowed to let 1 be the base of a logarithmic function?)",
+          "latex": "f(x) = \\log_a x"
+        },
+        {
+          "label": "19.34",
+          "text": "Find x if",
+          "latex": "\\log_9(2x - 7) = \\frac{3}{2}"
+        },
+        {
+          "label": "19.35",
+          "text": "For how many positive integers b is log_b(729) a positive integer?",
+          "latex": "\\log_b 729",
+          "source": "AMC 12"
+        }
+      ]
+    },
+    {
+      "image": "image1870.png",
+      "type": "exercise",
+      "content": [
+        {
+          "label": "19.36",
+          "text": "If log_2(log_2(log_2(n))) = 2, then how many digits are in n?",
+          "latex": "\\log_2(\\log_2(\\log_2(n))) = 2",
+          "source": "AHSME"
+        },
+        {
+          "label": "19.37",
+          "text": "I invested all of my money in an investment that pays the same annually compounded interest rate for 30 years. At the end of the first 10 years, my investment had doubled in value.",
+          "parts": [
+            {
+              "label": "a",
+              "text": "After how many years will my original investment have multiplied by 4 in value?"
+            },
+            {
+              "label": "b",
+              "text": "If I initially invested $5,000, how much will my investment be worth at the end of the 30 years?"
+            }
+          ]
+        },
+        {
+          "label": "19.38",
+          "text": "Find the domain and range of",
+          "latex": "f(x) = 2\\log_3(x^2 - 4x - 5)"
+        },
+        {
+          "label": "19.39",
+          "text": "Find the domain and range of the function",
+          "latex": "f(x) = \\frac{2}{\\log_{10} x}"
+        },
+        {
+          "label": "19.40",
+          "text": "The graph at right is the graph of the equation y = f(x), where f(x) = log_a(bx + c) and a, b are positive. Find a and b. Hints: 46",
+          "latex": "f(x) = \\log_a(bx + c)"
+        },
+        {
+          "label": "19.41",
+          "text": "If 8^x = 27, then what is 4^{-x}?",
+          "latex": "8^x = 27 \\text{, then } 4^{-x} = ?",
+          "hint": "Hints: 66"
+        },
+        {
+          "label": "19.42",
+          "text": "If 2^x = 8 and 243^y = 3, where x and y are real numbers, then what is the ordered pair (x, y)?",
+          "latex": "2^x = 8 \\text{ and } 243^y = 3",
+          "source": "AHSME"
+        },
+        {
+          "label": "19.43",
+          "parts": [
+            {
+              "label": "a",
+              "text": "Evaluate",
+              "latex": "\\log_4 8, \\log_8 16, \\text{ and } \\log_8 16"
+            },
+            {
+              "label": "b",
+              "text": "Evaluate",
+              "latex": "\\log_2 \\sqrt{8}, \\log_4 \\sqrt[4]{8}, \\text{ and } \\log_8(\\frac{1}{8} \\cdot \\sqrt{5})"
+            },
+            {
+              "label": "c",
+              "text": "Do you notice a relationship among log_a b, log_{a^2} b, and log_{a^3} b? Can you prove it?",
+              "hint": "Hints: 4"
+            }
+          ]
+        },
+        {
+          "label": "19.44",
+          "text": "Alice invests some money at x% annually compounded interest rate of r%. Bob invests the same amount at a simple interest rate of r%. If their investments are worth the same amount after 10 years, then what are their investments worth after 11 years?",
+          "hint": "Hints: 35"
+        },
+        {
+          "label": "19.45",
+          "text": "Compute the number of real values of x such that",
+          "latex": "4^{x^2 - 1} - x^2 + x - 4 = 0",
+          "source": "ARML",
+          "hint": "Hints: 51"
+        }
+      ]
+    }
+  ]
+}

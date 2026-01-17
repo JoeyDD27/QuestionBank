@@ -1,0 +1,568 @@
+{
+  "chapter": 25,
+  "title": "Percentage (Part 2)",
+  "image_range": "image2393.png - image2432.png",
+  "total_images": 40,
+  "sections": [
+    {
+      "title": "Percentage increase and decrease using multipliers",
+      "images": ["image2393.png", "image2394.png", "image2395.png", "image2396.png"],
+      "content": [
+        {
+          "image": "image2393.png",
+          "type": "exercise",
+          "label": "EXERCISE 3E.1",
+          "questions": [
+            {
+              "number": "1",
+              "text": "What multiplier corresponds to a:",
+              "parts": [
+                {"label": "a", "content": "40% increase"},
+                {"label": "b", "content": "6% increase"},
+                {"label": "c", "content": "20% decrease"},
+                {"label": "d", "content": "15% decrease"},
+                {"label": "e", "content": "42% decrease"},
+                {"label": "f", "content": "12% increase?"}
+              ]
+            },
+            {
+              "number": "2",
+              "text": "Perform the following calculations:",
+              "parts": [
+                {"label": "a", "content": "Increase $120 by 15%."},
+                {"label": "b", "content": "Increase 450 kg by 20%."},
+                {"label": "c", "content": "Decrease \\pounds 4800 by 24%."},
+                {"label": "d", "content": "Decrease $720 by 8%."},
+                {"label": "e", "content": "Increase 5000 hectares by 120%."},
+                {"label": "f", "content": "Decrease 1600 tonnes by 12%."},
+                {"label": "g", "content": "Decrease 12500 m^2 by 1.46%."},
+                {"label": "h", "content": "Increase \\euro 125672 by 0.13%."}
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2394.png",
+          "type": "formula",
+          "content": "multiplier = new amount / original amount"
+        },
+        {
+          "image": "image2395.png",
+          "type": "exercise",
+          "label": "EXERCISE 3E.2",
+          "questions": [
+            {
+              "number": "1",
+              "text": "Find the percentage increase in the following, to 1 decimal place if necessary:",
+              "parts": [
+                {"label": "a", "content": "\\pounds 80 changes to \\pounds 96"},
+                {"label": "b", "content": "\\euro 14000 changes to \\euro 16000"},
+                {"label": "c", "content": "32 hours changes to 37.5 hours"},
+                {"label": "d", "content": "180 cm changes to 185 cm"},
+                {"label": "e", "content": "42 kg changes to 49 kg"},
+                {"label": "f", "content": "$156000 changes to $164000"},
+                {"label": "g", "content": "3.5 kg changes to 7 kg"},
+                {"label": "h", "content": "52.4 L changes to 61.7 L"}
+              ]
+            },
+            {
+              "number": "2",
+              "text": "My dairy herd produced a daily average of 467 L of milk last year. This year production has increased to 523 L. What is the percentage increase in milk production?"
+            }
+          ]
+        },
+        {
+          "image": "image2396.png",
+          "type": "exercise",
+          "questions": [
+            {
+              "number": "3",
+              "text": "Find the percentage decrease in the following:",
+              "parts": [
+                {"label": "a", "content": "$80 to $70"},
+                {"label": "b", "content": "95 kg to 90 kg"},
+                {"label": "c", "content": "60 hours to 40 hours"},
+                {"label": "d", "content": "8 km to 4 km"},
+                {"label": "e", "content": "$155 to $140"},
+                {"label": "f", "content": "\\euro 16 to \\euro 4"}
+              ]
+            },
+            {
+              "number": "4",
+              "text": "Increase $1000 by 10% and then decrease your answer by 10%. What do you notice?"
+            },
+            {
+              "number": "5",
+              "text": "My parents increased my pocket money by 10% and then three months later increased it by a further 10%. My father said this was an increase of 21%. Can you explain this?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Profit and loss",
+      "images": ["image2397.png", "image2398.png", "image2399.png", "image2400.png", "image2401.png", "image2402.png", "image2403.png", "image2404.png", "image2405.png", "image2406.png", "image2407.png", "image2408.png", "image2409.png", "image2410.png", "image2411.png"],
+      "content": [
+        {
+          "image": "image2397.png",
+          "type": "concept",
+          "title": "PROFIT AND LOSS",
+          "content": "Profit or loss is the difference between the selling price and the cost price of an item.\nProfit or loss = selling price - cost price.\nA profit occurs if the selling price is higher than the cost price.\nA loss occurs if the selling price is lower than the cost price."
+        },
+        {
+          "image": "image2398.png",
+          "type": "formula",
+          "title": "PERCENTAGE PROFIT OR LOSS",
+          "content": "percentage profit = (profit / cost price) x 100%\npercentage loss = (loss / cost price) x 100%"
+        },
+        {
+          "image": "image2399.png",
+          "type": "example",
+          "label": "Example 14",
+          "problem": "I bought a stereo system for $500 and then sold it for $660. Find:\na) the profit or loss\nb) the percentage profit or loss.",
+          "solution": "a) cost price = $500\nselling price = $660\nSelling price > cost price, so a profit is made.\nThe profit = $660 - $500 = $160\n\nb) percentage profit = (profit / cost price) x 100%\n= (160/500) x 100%\n= 32%"
+        },
+        {
+          "image": "image2400.png",
+          "type": "example",
+          "label": "Example 15",
+          "problem": "A microscope was purchased for $600 and sold two months later for $450. Find the loss as a percentage of the cost price.",
+          "solution": "cost price = $600, selling price = $450\nSelling price < cost price, so a loss is made.\nThe loss = $600 - $450 = $150\n\nPercentage loss = (loss / cost price) x 100%\n= (150/600) x 100%\n= 25%"
+        },
+        {
+          "image": "image2401.png",
+          "type": "example",
+          "label": "Example 12",
+          "problem": "A TV set is purchased for $450 and is marked up by 30%.\nFind: a) the profit  b) the selling price.",
+          "solution": "a) Profit = 30% of cost price\n= 30% of $450\n= (30/100) x $450\n= $135\n\nb) Selling price = cost price + profit\n= $450 + $135\n= $585"
+        },
+        {
+          "image": "image2402.png",
+          "type": "concept",
+          "content": "A retailer will often express their profit or loss as a percentage of the cost price.\nFor a profit we find the percentage increase in the price.\nFor a loss we find the percentage decrease in price."
+        },
+        {
+          "image": "image2403.png",
+          "type": "example",
+          "label": "Example 13",
+          "problem": "A bicycle costs $240 and is sold for $290. Calculate the profit as a percentage of the cost price.",
+          "solution": "Profit = selling price - cost price\n= $290 - $240\n= $50\n\nProfit as a percentage of cost price\n= (profit / cost price) x 100%\n= (50/240) x 100%\n= 20.8%"
+        },
+        {
+          "image": "image2404.png",
+          "type": "example",
+          "label": "Example 14",
+          "problem": "Ali bought shares in Boral at $10.50 per share, but was forced to sell them at $9.30 each. Calculate:\na) her loss per share\nb) the loss per share as a percentage of the cost.",
+          "solution": "a) Loss = selling price - cost price\n= $9.30 - $10.50\n= -$1.20\ni.e., a $1.20 per share loss.\n\nb) % loss = (loss/cost) x 100%\n= ($1.20/$10.50) x 100%\n= 11.4%"
+        },
+        {
+          "image": "image2405.png",
+          "type": "exercise",
+          "label": "EXERCISE 3D.1",
+          "questions": [
+            {
+              "number": "1",
+              "text": "For the following items, find the: i) profit or loss  ii) selling price",
+              "parts": [
+                {"label": "a", "content": "a bicycle is purchased for $300 and marked up 80%"},
+                {"label": "b", "content": "a ring is purchased for \\euro 650 and marked down 45%"},
+                {"label": "c", "content": "a house is purchased for \\pounds 137000 and sold at a 15% profit"},
+                {"label": "d", "content": "a car is purchased for \\yen 2570000 and sold at a 22% loss."}
+              ]
+            },
+            {
+              "number": "2",
+              "text": "A bicycle costs $260 and is sold for $480. Calculate the profit as a percentage of the cost price."
+            },
+            {
+              "number": "3",
+              "text": "A greengrocer buys fruit and vegetables from the market and sells them at a 25% mark up. On one particular morning, her fruit and vegetables cost her \\euro 500. If she sells all of her produce, find:  a) her profit  b) her total income."
+            }
+          ]
+        },
+        {
+          "image": "image2406.png",
+          "type": "exercise",
+          "questions": [
+            {
+              "number": "4",
+              "text": "A 30 m roll of wire mesh was bought wholesale for \\pounds 216. If it is sold for \\pounds 8.50 per metre, find the profit and express it as a percentage of the wholesale or cost price."
+            }
+          ]
+        },
+        {
+          "image": "image2407.png",
+          "type": "exercise",
+          "questions": [
+            {
+              "number": "5",
+              "text": "A used car firm pays $6000 for a car, but because of financial difficulties, has to sell it immediately and receives only $5000 for the sale. Find the loss incurred by the used car firm and express this loss as a percentage of the cost price."
+            },
+            {
+              "number": "6",
+              "text": "Ulrich and Jade purchased a new house for \\pounds 230000. Due to interest rate rises after 3 years they were unable to afford their mortgage repayments and had to sell the house for \\pounds 285000. Find:  a) the loss incurred  b) the loss as a percentage of their total costs."
+            },
+            {
+              "number": "7",
+              "text": "A hardware store has a closing down sale. They advertise an aluminium ladder at $256. If the wholesale or cost price of the ladder was $275, find the loss and express it as a percentage of the cost price."
+            }
+          ]
+        },
+        {
+          "image": "image2408.png",
+          "type": "exercise",
+          "label": "EXERCISE 7H.1",
+          "questions": [
+            {
+              "number": "1",
+              "text": "Copy and complete the following table:",
+              "table": {
+                "headers": ["Cost price", "Selling price", "Profit or loss?", "How much profit or loss?"],
+                "rows": [
+                  {"label": "a", "cost_price": "$45", "selling_price": "$60", "profit_or_loss": "", "amount": ""},
+                  {"label": "b", "cost_price": "\\pounds 125", "selling_price": "\\pounds 95", "profit_or_loss": "", "amount": ""},
+                  {"label": "c", "cost_price": "$255", "selling_price": "$199", "profit_or_loss": "", "amount": ""},
+                  {"label": "d", "cost_price": "\\euro 2225", "selling_price": "\\euro 2555", "profit_or_loss": "", "amount": ""}
+                ]
+              }
+            },
+            {
+              "number": "2",
+              "text": "Copy and complete the following table:",
+              "table": {
+                "headers": ["Cost price", "Selling price", "Profit or loss?"],
+                "rows": [
+                  {"label": "a", "cost_price": "$60", "selling_price": "", "profit_or_loss": "$25 profit"},
+                  {"label": "b", "cost_price": "", "selling_price": "\\euro 195", "profit_or_loss": "\\euro 35 loss"},
+                  {"label": "c", "cost_price": "\\pounds 275", "selling_price": "", "profit_or_loss": "\\pounds 95 loss"},
+                  {"label": "d", "cost_price": "", "selling_price": "$297", "profit_or_loss": "$135 profit"}
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "image": "image2409.png",
+          "type": "exercise",
+          "questions": [
+            {
+              "number": "3",
+              "text": "For each of the following transactions, find:  i) the profit or loss  ii) the percentage profit or loss.",
+              "parts": [
+                {"label": "a", "content": "I bought a CD set for $50 and then sold it for $62.50."},
+                {"label": "b", "content": "Jon bought a bicycle for \\euro 500 and then sold it for \\euro 800."},
+                {"label": "c", "content": "Jade bought a house for \\pounds 230000 and then sold it for \\pounds 285000."},
+                {"label": "d", "content": "Hilda sold for $81 a refrigerator which cost her $868."}
+              ]
+            },
+            {
+              "number": "4",
+              "text": "Frank sold for \\euro 223.50 a kitchen sink which cost him \\euro 323."
+            },
+            {
+              "number": "5",
+              "text": "A second hand dealer purchased a motor vehicle for $2200. It was sold one week later for $2700. Find the profit made on the sale of the car, then express this profit as a percentage of the cost price."
+            },
+            {
+              "number": "6",
+              "text": "A retailer buys forty pairs of running shoes for a total price of $3400. He then sells the shoes for \\euro 122.25 per pair. Calculate the total profit and express this profit as a percentage of the cost price."
+            },
+            {
+              "number": "7",
+              "text": "A newsagent buys 120 magazines for $1.20 each. If only 72 of the magazines are sold at the normal price of $5, calculate whether the newsagent made a profit or a loss. Express your answer as a percentage of the cost price."
+            },
+            {
+              "number": "8",
+              "text": "The second week the rest are sold at the special price of $5. At the end of the second week will the newsagent remain at a profit or a loss?"
+            }
+          ]
+        },
+        {
+          "image": "image2410.png",
+          "type": "example",
+          "label": "Example 16",
+          "problem": "Find the selling price for goods purchased for $150 and sold at a 20% profit.",
+          "solution": "For a 20% profit we must increase $150 by 20%.\n\nTwo step method:\nProfit = 20% of $150\n= 0.2 x $150\n= $30\nSo, the selling price\n= $150 + $30\n= $180\n\nor Using the multiplier:\nTo increase by 20% we multiply by 120%.\nSo, the selling price = 120% of $150\n= 1.20 x $150\n= $180"
+        },
+        {
+          "image": "image2411.png",
+          "type": "exercise",
+          "questions": [
+            {
+              "number": "10",
+              "text": "Find the selling price for goods bought for:",
+              "parts": [
+                {"label": "a", "content": "\\pounds 500 and sold for a 20% profit"},
+                {"label": "b", "content": "$350 and sold at a 25% loss"},
+                {"label": "c", "content": "\\pounds 4500 and sold for a profit of 8%"},
+                {"label": "d", "content": "\\euro 8000 and sold at a loss of 35%"}
+              ]
+            },
+            {
+              "number": "11",
+              "text": "Jacki bought a sewing machine for $560 and sold it for a profit of 18%. At what price did she sell the sewing machine?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Discount",
+      "images": ["image2412.png", "image2413.png", "image2414.png", "image2415.png", "image2416.png", "image2417.png", "image2418.png", "image2419.png", "image2420.png"],
+      "content": [
+        {
+          "image": "image2412.png",
+          "type": "formula",
+          "content": "selling price = marked price - discount"
+        },
+        {
+          "image": "image2413.png",
+          "type": "concept",
+          "content": "When retail stores advertise a sale, they offer a percentage off the marked price of most goods."
+        },
+        {
+          "image": "image2414.png",
+          "type": "example",
+          "label": "Example 15",
+          "problem": "A store offers a discount of 15% off the marked price of a shirt selling for $49. Find the:  a) discount  b) sale price.",
+          "solution": "a) Discount = 15% of $49\n= 0.15 x $49\n= $7.35\n\nb) Sale price = marked price - discount\n= $49 - $7.35\n= $41.65"
+        },
+        {
+          "image": "image2415.png",
+          "type": "example",
+          "label": "Example 17",
+          "problem": "If the marked price of a video projector is $1060 and a 22% discount is offered, find the actual selling price.",
+          "solution": "We have to decrease $1060 by 22%.\nTo decrease by 22% we multiply by 100% - 22% = 78%."
+        },
+        {
+          "image": "image2416.png",
+          "type": "example_continuation",
+          "solution": "So, selling price = 78% of marked price\n= 78% of $1060\n= 0.78 x $1060  {\"of\" indicates x}\n= $826.80"
+        },
+        {
+          "image": "image2417.png",
+          "type": "exercise",
+          "label": "EXERCISE 7H.2",
+          "questions": [
+            {
+              "number": "1",
+              "parts": [
+                {"label": "a", "content": "If the marked price of a golf set is \\euro 1300 and a 12% discount is offered, find the actual selling price."},
+                {"label": "b", "content": "A furniture distributor advertises kitchen tables at a marked price of \\euro 480. It offers a 15% discount for the first 20 customers. What is the actual selling price if you are the first customer?"}
+              ]
+            },
+            {
+              "number": "2",
+              "text": "Copy and complete the following table:",
+              "table": {
+                "headers": ["Marked price", "Discount", "Selling Price", "Discount as % of marked price"],
+                "rows": [
+                  {"label": "a", "marked_price": "\\euro 125", "discount": "\\euro 25", "selling_price": "", "discount_percent": ""},
+                  {"label": "b", "marked_price": "\\pounds 240", "discount": "", "selling_price": "", "discount_percent": "26%"},
+                  {"label": "c", "marked_price": "\\euro 1.85", "discount": "", "selling_price": "", "discount_percent": "20%"},
+                  {"label": "d", "marked_price": "", "discount": "55 cents", "selling_price": "$2.45", "discount_percent": ""},
+                  {"label": "e", "marked_price": "$142", "discount": "", "selling_price": "$127", "discount_percent": ""},
+                  {"label": "f", "marked_price": "", "discount": "\\yen 600", "selling_price": "", "discount_percent": "10%"}
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "image": "image2418.png",
+          "type": "exercise",
+          "label": "EXERCISE 3D.2",
+          "questions": [
+            {
+              "number": "1",
+              "text": "Find the discount offered on the following items and hence find the sale price:",
+              "parts": [
+                {"label": "a", "content": "a pair of shoes marked at \\euro 70 and discounted 40%"},
+                {"label": "b", "content": "a suit marked at \\pounds 150 and discounted 25%"},
+                {"label": "c", "content": "a cap marked at $24 and discounted 12.5%."}
+              ]
+            },
+            {
+              "number": "2",
+              "text": "A plumber buys supplies worth \\euro 220 but is given a 5% discount. What does she save with the discount?"
+            },
+            {
+              "number": "3",
+              "text": "A builder buys timber worth \\euro 4800 but is given a 12% discount. What does he pay for the timber?"
+            },
+            {
+              "number": "4",
+              "text": "A dressmaker buys material in bulk. It is marked at \\yen 13200 but she is given a 7.5% discount. How much does she actually pay for the material?"
+            }
+          ]
+        },
+        {
+          "image": "image2419.png",
+          "type": "example",
+          "label": "Example 16",
+          "problem": "Kylie buys a pair of jeans marked at $90 but only pays $76.50. What percentage discount was she given?",
+          "solution": "Discount = $90 - $76.50 = $13.50\n\n% discount = (discount / marked price) x 100%\n= ($13.50 / $90) x 100%\n= 15%\n\nSo, Kylie was given 15% discount."
+        },
+        {
+          "image": "image2420.png",
+          "type": "exercise",
+          "questions": [
+            {
+              "number": "5",
+              "text": "Ronan purchases a CD marked at \\euro 28 but actually pays \\euro 23.80. What percentage discount was he given?"
+            },
+            {
+              "number": "6",
+              "text": "Nghia saw a car advertised for sale at $17875, having been discounted from $27500. Calculate the percentage discount."
+            },
+            {
+              "number": "7",
+              "text": "A supermarket employee buys groceries worth \\yen 7600 but is only charged \\yen 7030. What employee discount did she receive?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Finding the original amount",
+      "images": ["image2421.png", "image2422.png"],
+      "content": [
+        {
+          "image": "image2421.png",
+          "type": "example",
+          "label": "Example 23",
+          "problem": "The price of a TV set is marked up by 25% for sale. Its selling price is $550. For what price did the shopkeeper buy the TV set?",
+          "solution": "cost price x multiplier = selling price\ncost price x 1.25 = $550  {100% + 25% = 125% = 1.25}\ncost price = $550 / 1.25 = $440\n\nSo, the television set cost the shopkeeper $440."
+        },
+        {
+          "image": "image2422.png",
+          "type": "exercise",
+          "label": "EXERCISE 3F",
+          "questions": [
+            {
+              "number": "1",
+              "text": "Find the original amount given that:",
+              "parts": [
+                {"label": "a", "content": "after an increase of 25% the price was RM250"},
+                {"label": "b", "content": "after an increase of 35% the price was $243"},
+                {"label": "c", "content": "after a decrease of 10% the price was \\pounds 81"},
+                {"label": "d", "content": "after a decrease of 17% the price was \\euro 37.35"},
+                {"label": "e", "content": "after a decrease of 37.5% the price was 115 pesos"},
+                {"label": "f", "content": "after a decrease of 22.5% the price was \\euro 9300"}
+              ]
+            },
+            {
+              "number": "2",
+              "text": "'Blacks Furniture Mart' sells a lounge suite for $3280.50, making a profit of 35% on the cost price. How much did the business pay for the lounge suite?"
+            },
+            {
+              "number": "3",
+              "text": "A retailer sells a microwave oven for \\euro 640. This is a 25% profit on the cost price. How much did the retailer pay for the microwave oven?"
+            },
+            {
+              "number": "4",
+              "text": "An electrical firm sells a washing machine for $383.50, making a 30% profit on the wholesale or cost price. Find the wholesale price of the machine."
+            },
+            {
+              "number": "5",
+              "text": "Jason sells a bicycle for $247 at a loss of 35%. What did Jason pay for the bicycle originally?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Simple interest",
+      "images": ["image2423.png", "image2424.png", "image2425.png", "image2426.png", "image2427.png", "image2428.png", "image2429.png", "image2430.png", "image2431.png", "image2432.png"],
+      "content": [
+        {
+          "image": "image2423.png",
+          "type": "concept",
+          "title": "SIMPLE INTEREST",
+          "content": "If the interest is calculated each year as a fixed percentage on the original amount of money borrowed or invested, then the interest is called simple interest."
+        },
+        {
+          "image": "image2424.png",
+          "type": "formula",
+          "title": "SIMPLE INTEREST FORMULA",
+          "content": "If $C is borrowed or invested for n years at r% p.a. (per annum) simple interest, the simple interest I can be calculated using the formula:\nI = Crn\nwhere C is the principal,\nr is the flat rate of interest per annum,\nn is the time or duration of the loan in years."
+        },
+        {
+          "image": "image2425.png",
+          "type": "concept",
+          "content": "For example, suppose $8000 is invested for 5 years at 10% per annum or per year simple interest.\n\nThe simple interest paid for 1 year = 10% of $8000\n= 0.1 x $8000\n= $800\n\nThus, the simple interest for 2 years = 10% of $8000 x 2\n= 0.1 x $8000 x 2\n= $1600\n\nThus, the simple interest for 5 years = 10% of $8000 x 5\n= 0.1 x $8000 x 5\n= $4000"
+        },
+        {
+          "image": "image2426.png",
+          "type": "example",
+          "label": "Example 24",
+          "problem": "Find the simple interest payable on an investment of $20000 at 12% p.a. over a period of 4 years.",
+          "solution": "C = 20000\nr = 12 / 100 = 0.12\nn = 4\n\nNow I = Crn\nI = 20000 x 0.12 x 4\nI = 9600\n\nSimple interest is $9600."
+        },
+        {
+          "image": "image2427.png",
+          "type": "example",
+          "label": "Example 25",
+          "problem": "Calculate the simple interest payable on an investment of $15000 at 8% p.a. over 9 months.",
+          "solution": "C = 15000\nr = 8 / 100 = 0.08\nn = 9/12 = 0.75\n\nNow I = Crn\nI = 15000 x 0.08 x 0.75\nI = 900\n\nSimple interest is $900."
+        },
+        {
+          "image": "image2428.png",
+          "type": "example",
+          "label": "Example 26",
+          "problem": "Determine the simple interest payable on an investment of $100000 at 15% p.a. from April 28th to July 4th.",
+          "solution": "From April 28th there are 2 days left in April.\n2 days left in April  (we exclude the first day April 28)\n31 days in May\n30 days in June\n4 days in July  (we include the last day July 4)\n67 days"
+        },
+        {
+          "image": "image2429.png",
+          "type": "example_continuation",
+          "solution": "C = 100000\nr = 15 / 100 = 0.15\nn = 67/365 = 0.183562\n\nNow I = Crn\nI = 100000 x 0.15 x 0.183562\nI = 2753.42\n\nSo, the interest payable is $2753.42"
+        },
+        {
+          "image": "image2430.png",
+          "type": "example",
+          "label": "Example 27",
+          "problem": "Calculate the total amount to be repaid if $5000 is borrowed for 3 years at 14% p.a. simple interest.",
+          "solution": "C = 5000\nr = 14 / 100 = 0.14\nn = 3\n\nNow I = Crn\nI = 5000 x 0.14 x 3\nI = 2100\n\nThe total repayment = principal + interest\n= $5000 + $2100\n= $7100"
+        },
+        {
+          "image": "image2431.png",
+          "type": "example",
+          "label": "Example 18",
+          "problem": "Find the simple interest payable on a loan of $60000 borrowed at 9% p.a. for:\na) 4 years\nb) 5 months",
+          "solution": "The simple interest charge for 1 year = 9% of $60000\n= 0.09 x $60000\n= $5400\n\na) The simple interest for 4 years\n= $5400 x 4\n= $21600\n\nb) 5 months is 5/12 of 1 year\nso simple interest for 5 months\n= (5/12) x $5400\n= $2250"
+        },
+        {
+          "image": "image2432.png",
+          "type": "example",
+          "label": "Example 19",
+          "problem": "Find the total amount needed to repay a loan of $40000 at 9% p.a. simple interest over 5 years.",
+          "solution": "The simple interest charge for 1 year = 9% of $40000\n= 0.09 x $40000\n= $3600\n\nThe simple interest charge for 5 years = $3600 x 5\n= $18000\n\nThe total to be repaid = $40000 + $18000\n= $58000"
+        }
+      ]
+    }
+  ],
+  "latex_formulas": {
+    "multiplier_formula": "$\\text{multiplier} = \\frac{\\text{new amount}}{\\text{original amount}}$",
+    "profit_loss": "$\\text{Profit or loss} = \\text{selling price} - \\text{cost price}$",
+    "percentage_profit": "$\\text{percentage profit} = \\frac{\\text{profit}}{\\text{cost price}} \\times 100\\%$",
+    "percentage_loss": "$\\text{percentage loss} = \\frac{\\text{loss}}{\\text{cost price}} \\times 100\\%$",
+    "selling_price_discount": "$\\text{selling price} = \\text{marked price} - \\text{discount}$",
+    "percentage_discount": "$\\% \\text{ discount} = \\frac{\\text{discount}}{\\text{marked price}} \\times 100\\%$",
+    "simple_interest": "$I = Crn$",
+    "total_repayment": "$\\text{total repayment} = \\text{principal} + \\text{interest}$"
+  },
+  "key_concepts": [
+    "A multiplier can be used to calculate percentage increase or decrease",
+    "To increase by x%, multiply by (100 + x)%",
+    "To decrease by x%, multiply by (100 - x)%",
+    "Profit occurs when selling price > cost price",
+    "Loss occurs when selling price < cost price",
+    "Percentage profit or loss is calculated as a percentage of the cost price",
+    "Discount is the amount subtracted from the marked price to get the selling price",
+    "Simple interest is calculated on the original principal only",
+    "Simple interest formula: I = Crn where C is principal, r is rate (as decimal), n is time in years",
+    "For periods in months, convert to years by dividing by 12",
+    "For periods in days, convert to years by dividing by 365"
+  ]
+}

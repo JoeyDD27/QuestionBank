@@ -1,0 +1,648 @@
+{
+  "chapter": "Chapter 6: Solving Equations (Part 2)",
+  "description": "Continuation of solving equations - sum/difference of cubes, rationalizing denominators, Simon's Favorite Factoring Trick, and linear equations",
+  "source_images": "image451.png through image491.png",
+  "extracted_content": [
+    {
+      "image": "image451.png",
+      "type": "solution",
+      "problem_number": "11.18",
+      "content": "Solution for Problem 11.18: Just as important as recognizing the difference or sum of cubes in a problem is recognizing the factors. Typically, the quadratic factor is the easier one to spot in the sum and difference of cubes factorizations. Here, the $x^2 - xy + y^2$ and $x^2 + xy + y^2$ are giveaways. We see that when we cross-multiply the first equation, we'll have two factored sums of cubes:",
+      "equations": [
+        "$(x + y)(x^2 - xy + y^2) = (1 + z)(1 - z + z^2)$",
+        "$x^3 + y^3 = 1^3 + z^3$",
+        "$(x - y)(x^2 + xy + y^2) = (3 - z)(9 + 3z + z^2)$",
+        "$x^3 - y^3 = 27 - z^3$",
+        "$x^3 + y^3 = 1 + z^3$",
+        "$x^3 - y^3 = 27 - z^3$",
+        "$2x^3 = 28$",
+        "$x = \\sqrt[3]{14}$"
+      ]
+    },
+    {
+      "image": "image452.png",
+      "type": "exercises",
+      "section": "11.3",
+      "problems": [
+        {
+          "number": "11.3.1",
+          "content": "Factor each of the following:",
+          "parts": [
+            "(a) $x^3 - 1000$",
+            "(b) $27r^3 + 64$",
+            "(c) $2z^3 - 16z^6$",
+            "(d) $-a^3b^3 - 8$"
+          ]
+        },
+        {
+          "number": "11.3.2",
+          "content": "Find the prime factorization of $3^6 + 2^9$ without a calculator."
+        },
+        {
+          "number": "11.3.3",
+          "content": "Express $x^6 - 64$ as the product of four factors."
+        },
+        {
+          "number": "11.3.4",
+          "parts": [
+            "(a) The expression $x^4 - y^4$ can be written as the product of $x - y$ and another factor. Find that other factor.",
+            "(b) The expression $x^5 - y^5$ can be written as the product of $x - y$ and another factor. Find that other factor.",
+            "(c)* Write $x^k - y^k$ as the product of two factors."
+          ]
+        }
+      ]
+    },
+    {
+      "image": "image453.png",
+      "type": "exercise",
+      "number": "11.3.5*",
+      "content": "Let $x$ and $y$ be numbers such that $|x| \\neq |y|$, $x^3 = 15x + 4y$, and $y^3 = 4x + 15y$. In this problem we find $x^2 + y^2$. (Source: Dropped AIME)",
+      "parts": [
+        "(a) Combine the equations for $x^3$ and $y^3$ in ways that allow you to use the sum and difference of cubes factorization. Hints: 177",
+        "(b) Use your results from part (a) to find $x^2 + y^2$."
+      ]
+    },
+    {
+      "image": "image454.png",
+      "type": "section_header",
+      "content": "Rationalizing Denominators"
+    },
+    {
+      "image": "image455.png",
+      "type": "important_concept",
+      "content": "To rationalize the denominator of a fraction of the form $\\frac{a}{\\sqrt{b}}$, multiply the numerator and denominator of the fraction by $\\sqrt{b}$:",
+      "equation": "$\\frac{a}{\\sqrt{b}} = \\frac{a}{\\sqrt{b}} \\cdot \\frac{\\sqrt{b}}{\\sqrt{b}} = \\frac{a\\sqrt{b}}{\\sqrt{b^2}} = \\frac{a\\sqrt{b}}{b}$"
+    },
+    {
+      "image": "image456.png",
+      "type": "example",
+      "content": "Rationalizing a square root denominator",
+      "equation": "$\\frac{1}{\\sqrt{2}} = \\frac{1}{\\sqrt{2}} \\cdot \\frac{\\sqrt{2}}{\\sqrt{2}} = \\frac{\\sqrt{2}}{2}$"
+    },
+    {
+      "image": "image457.png",
+      "type": "example",
+      "content": "Rationalizing a cube root denominator",
+      "equation": "$\\frac{6}{\\sqrt[3]{3}} = \\frac{6}{\\sqrt[3]{3}} \\cdot \\frac{\\sqrt[3]{3^2}}{\\sqrt[3]{3^2}} = \\frac{6\\sqrt[3]{9}}{\\sqrt[3]{3^3}} = \\frac{6\\sqrt[3]{9}}{3} = 2\\sqrt[3]{9}$"
+    },
+    {
+      "image": "image458.png",
+      "type": "example",
+      "content": "Rationalizing a difference of square roots using conjugate",
+      "equation": "$\\frac{1}{\\sqrt{7} - \\sqrt{6}} = \\frac{1}{\\sqrt{7} - \\sqrt{6}} \\cdot \\frac{\\sqrt{7} + \\sqrt{6}}{\\sqrt{7} + \\sqrt{6}} = \\frac{\\sqrt{7} + \\sqrt{6}}{1} = \\sqrt{7} + \\sqrt{6}$"
+    },
+    {
+      "image": "image459.png",
+      "type": "concept",
+      "content": "If the denominator of a fraction is $a\\sqrt{b} + c\\sqrt{d}$, then we can rationalize the denominator by multiplying by $a\\sqrt{b} - c\\sqrt{d}$."
+    },
+    {
+      "image": "image460.png",
+      "type": "problem",
+      "number": "11.21",
+      "content": "Rationalize the denominator of $\\frac{1}{\\sqrt{2} + \\sqrt{3} + \\sqrt{5}}$."
+    },
+    {
+      "image": "image461.png",
+      "type": "solution",
+      "problem_number": "11.21",
+      "content": "Solution for Problem 11.21: We don't have a nifty factorization that will knock out all three terms, but difference of squares might at least knock out one of them. Instead of viewing the denominator as three terms, we can view it as $a + \\sqrt{5}$, where $a = \\sqrt{2} + \\sqrt{3}$. Multiplying by $a - \\sqrt{5}$ will at least get rid of the $\\sqrt{5}$:",
+      "equations": [
+        "$\\frac{1}{(\\sqrt{2} + \\sqrt{3}) + (\\sqrt{5})} \\cdot \\frac{(\\sqrt{2} + \\sqrt{3}) - (\\sqrt{5})}{(\\sqrt{2} + \\sqrt{3}) - (\\sqrt{5})} = \\frac{\\sqrt{2} + \\sqrt{3} - \\sqrt{5}}{(\\sqrt{2} + \\sqrt{3})^2 - (\\sqrt{5})^2} = \\frac{\\sqrt{2} + \\sqrt{3} - \\sqrt{5}}{(2 + 2\\sqrt{6} + 3) - 5} = \\frac{\\sqrt{2} + \\sqrt{3} - \\sqrt{5}}{2\\sqrt{6}}$",
+        "$\\frac{\\sqrt{2} + \\sqrt{3} - \\sqrt{5}}{2\\sqrt{6}} \\cdot \\frac{\\sqrt{6}}{\\sqrt{6}} = \\frac{\\sqrt{12} + \\sqrt{18} - \\sqrt{30}}{2\\sqrt{36}} = \\frac{2\\sqrt{3} + 3\\sqrt{2} - \\sqrt{30}}{12}$"
+      ]
+    },
+    {
+      "image": "image462.png",
+      "type": "problem",
+      "number": "11.22",
+      "content": "Rationalize the denominator of $\\frac{1}{2 - \\sqrt[3]{2}}$."
+    },
+    {
+      "image": "image463.png",
+      "type": "solution",
+      "problem_number": "11.22",
+      "content": "Solution for Problem 11.22: The cube root makes us think of cubes, and the difference $2 - \\sqrt[3]{2}$ leads us to the difference of cubes factorization:",
+      "equations": [
+        "$(a - b)(a^2 + ab + b^2) = a^3 - b^3$",
+        "Here, we have $a = 2$ and $b = \\sqrt[3]{2}$, so the factor we wish to multiply by is",
+        "$a^2 + ab + b^2 = 4 + 2\\sqrt[3]{2} + (\\sqrt[3]{2})^2 = 4 + 2\\sqrt[3]{2} + \\sqrt[3]{4}$",
+        "$\\frac{1}{2 - \\sqrt[3]{2}} \\cdot \\frac{4 + 2\\sqrt[3]{2} + \\sqrt[3]{4}}{4 + 2\\sqrt[3]{2} + \\sqrt[3]{4}} = \\frac{4 + 2\\sqrt[3]{2} + \\sqrt[3]{4}}{2^3 - (\\sqrt[3]{2})^3} = \\frac{4 + 2\\sqrt[3]{2} + \\sqrt[3]{4}}{8 - 2} = \\frac{4 + 2\\sqrt[3]{2} + \\sqrt[3]{4}}{6}$"
+      ]
+    },
+    {
+      "image": "image464.png",
+      "type": "exercises",
+      "section": "11.4",
+      "problems": [
+        {
+          "number": "11.4.1",
+          "content": "Rationalize the denominators of the following:",
+          "parts": [
+            "(a) $\\frac{3}{\\sqrt{6}}$",
+            "(b) $\\frac{2}{\\sqrt[5]{9}}$"
+          ]
+        },
+        {
+          "number": "11.4.2",
+          "content": "Rationalize the denominators of the following:",
+          "parts": [
+            "(a) $\\frac{2}{1 + \\sqrt{5}}$",
+            "(b) $\\frac{\\sqrt{7}}{3 - 2\\sqrt{7}}$"
+          ]
+        },
+        {
+          "number": "11.4.3",
+          "content": "Rationalize the denominator of $\\frac{4}{9 - 3\\sqrt[3]{3} + \\sqrt[3]{9}}$."
+        },
+        {
+          "number": "11.4.4",
+          "content": "Rationalize the denominator of $\\frac{2}{\\sqrt{2} - \\sqrt{5} + \\sqrt{7}}$."
+        },
+        {
+          "number": "11.4.5*",
+          "content": "Simplify $\\frac{1}{\\sqrt{100} + \\sqrt{99}} + \\frac{1}{\\sqrt{99} + \\sqrt{98}} + \\frac{1}{\\sqrt{98} + \\sqrt{97}} + \\cdots + \\frac{1}{\\sqrt{3} + \\sqrt{2}} + \\frac{1}{\\sqrt{2} + \\sqrt{1}}$."
+        }
+      ]
+    },
+    {
+      "image": "image465.png",
+      "type": "section_header",
+      "content": "Simon's Favorite Factoring Trick"
+    },
+    {
+      "image": "image466.png",
+      "type": "formula",
+      "content": "Simon's Favorite Factoring Trick",
+      "equation": "$ab + ay + bx + xy = (a + x)(b + y)$"
+    },
+    {
+      "image": "image467.png",
+      "type": "problem",
+      "number": "11.23",
+      "content": "Find all pairs of positive integers $m$ and $n$ such that $mn + m + n = 76$."
+    },
+    {
+      "image": "image468.png",
+      "type": "solution",
+      "problem_number": "11.23",
+      "content": "Solution for Problem 11.23: Since we have a Diophantine equation (meaning we are looking only for integer solutions), we look for a way to factor the left side. Unfortunately, we can't factor $mn + m + n$, but we can factor an $m$ from the first two terms:",
+      "equations": [
+        "$m(n + 1) + n = 76$",
+        "While we can't factor the left side as is, we could factor it if the second $n$ were an $n + 1$. This guides us to add 1 to both sides:",
+        "$m(n + 1) + (n + 1) = 76 + 1$",
+        "$m(n + 1) + (n + 1) = m(n + 1) + 1(n + 1) = (m + 1)(n + 1)$",
+        "$(m + 1)(n + 1) = 77$",
+        "$(m + 1)(n + 1) = 77 \\cdot 1 = 11 \\cdot 7$",
+        "The case $(m + 1)(n + 1) = 77 \\cdot 1$ gives $(m, n) = (76, 0)$ and $(m, n) = (0, 76)$ as solutions, but $m$ and $n$ must be positive, so we discard these. The case $(m + 1)(n + 1) = 11 \\cdot 7$ gives $(m, n) = (10, 6)$ and $(m, n) = (6, 10)$ as solutions."
+      ]
+    },
+    {
+      "image": "image469.png",
+      "type": "problem",
+      "number": "11.24",
+      "content": "Find all pairs of integers $b$ and $c$ that satisfy the equation $bc - 7b + 3c = 70$."
+    },
+    {
+      "image": "image470.png",
+      "type": "solution_continuation",
+      "problem_number": "11.24",
+      "content": "These factorizations of 49 give us six cases to consider for solutions (make sure you see why there are six):",
+      "cases": [
+        "$b + 3 = 49$, $c - 7 = 1$",
+        "$b + 3 = -49$, $c - 7 = -1$",
+        "$b + 3 = 7$, $c - 7 = 7$",
+        "$b + 3 = 1$, $c - 7 = 49$",
+        "$b + 3 = -1$, $c - 7 = -49$",
+        "$b + 3 = -7$, $c - 7 = -7$"
+      ]
+    },
+    {
+      "image": "image471.png",
+      "type": "problem",
+      "number": "11.25",
+      "content": "How many ordered pairs $(m, n)$ of positive integers are solutions to $\\frac{4}{m} + \\frac{2}{n} = 1$? (Source: AHSME)"
+    },
+    {
+      "image": "image472.png",
+      "type": "solution",
+      "problem_number": "11.25",
+      "content": "Solution for Problem 11.25: We could try trial and error, but how would we know if we've found all the solutions? Instead, we look for an organized approach. First, we deal with the variables in the denominators. We don't like fractions, so we multiply both sides of the equation by $mn$ to get rid of them. The resulting equation is",
+      "equations": [
+        "$4n + 2m = mn$",
+        "We have the product of two variables, $mn$, and linear terms with those variables, $4n$ and $2m$. This gets us thinking about Simon's Favorite Factoring Trick. We move all the terms to one side, giving",
+        "$mn - 2m - 4n = 0$",
+        "We'd like to factor the left side as $(m + \\_)(n + \\_)$.",
+        "Because we need a $-4n$ term and a $-2m$ term, the factorization we seek is $(m - 4)(n - 2)$. Expanding this product gives",
+        "$(m - 4)(n - 2) = mn - 2m - 4n + 8$"
+      ]
+    },
+    {
+      "image": "image473.png",
+      "type": "solution_continuation",
+      "problem_number": "11.25",
+      "content": "so we must add 8 to both sides of our equation $mn - 2m - 4n = 0$ in order to be able to factor the left side. This gives us $mn - 2m - 4n + 8 = 8$. We found above that $mn - 2m - 4n + 8 = (m - 4)(n - 2)$, so factoring the left side of $mn - 2m - 4n + 8 = 8$ gives us",
+      "equations": [
+        "$(m - 4)(n - 2) = 8$",
+        "$(m - 4)(n - 2) = 8 \\cdot 1 = 4 \\cdot 2$",
+        "We don't have to consider $(-8) \\cdot (-1)$ or $(-4) \\cdot (-2)$ because we are asked for positive integer solutions, and these cases produce nonpositive integers for $m$ and/or $n$ in each case. So, we have 4 cases to consider:",
+        "$m - 4 = 8$, $n - 2 = 1$",
+        "$m - 4 = 1$, $n - 2 = 8$",
+        "$m - 4 = 4$, $n - 2 = 2$",
+        "$m - 4 = 2$, $n - 2 = 4$",
+        "Each case gives a valid solution, so there are 4 ordered pairs that satisfy the original equation."
+      ]
+    },
+    {
+      "image": "image474.png",
+      "type": "exercises",
+      "section": "11.5",
+      "problems": [
+        {
+          "number": "11.5.1",
+          "content": "Factor the expression $ab + 5b + 2a + 10$."
+        },
+        {
+          "number": "11.5.2",
+          "content": "Factor the expression $xy + 8x - 3y - 24$."
+        },
+        {
+          "number": "11.5.3",
+          "content": "Find the prime factorization of $19 \\cdot 13 - 7 \\cdot 13 + 3 \\cdot 19 - 21$. Challenge: Can you do it in your head?"
+        },
+        {
+          "number": "11.5.4",
+          "content": "A unit fraction is a fraction of the form $\\frac{1}{n}$ for some nonzero integer $n$. Compute the number of ways we can write $\\frac{1}{6}$ as the sum of two distinct positive unit fractions. (The order of the fractions in the sum does not matter, so $1/2 + 1/3$ would be considered the same sum as $1/3 + 1/2$.)"
+        },
+        {
+          "number": "11.5.5",
+          "content": "Find all pairs of integers $(p, q)$ such that $pq - 3p + 5q = 0$."
+        },
+        {
+          "number": "11.5.6*",
+          "content": "Factor each of the following:",
+          "parts": [
+            "(a) $x^2y^2 - 4y^2 - x^2 + 4$",
+            "(b) $2cd - 3d - 14c + 21$. Hints: 162"
+          ]
+        }
+      ]
+    },
+    {
+      "image": "image475.png",
+      "type": "summary",
+      "title": "Summary",
+      "content": "The following factorizations are frequently useful:",
+      "formulas": [
+        "$x^2 + 2xy + y^2 = (x + y)^2$",
+        "$x^2 - y^2 = (x - y)(x + y)$",
+        "$x^3 + y^3 = (x + y)(x^2 - xy + y^2)$",
+        "$x^3 - y^3 = (x - y)(x^2 + xy + y^2)$",
+        "$ab + ay + bx + xy = (a + x)(b + y)$"
+      ]
+    },
+    {
+      "image": "image476.png",
+      "type": "summary_continued",
+      "content": "To rationalize the denominator of a fraction of the form $\\frac{a}{\\sqrt{b}}$, multiply the numerator and denominator of the fraction by $\\sqrt{b}$:",
+      "equations": [
+        "$\\frac{a}{\\sqrt{b}} = \\frac{a}{\\sqrt{b}} \\cdot \\frac{\\sqrt{b}}{\\sqrt{b}} = \\frac{a\\sqrt{b}}{\\sqrt{b^2}} = \\frac{a\\sqrt{b}}{b}$",
+        "If the denominator of a fraction is $a\\sqrt{b} + c\\sqrt{d}$, then we can rationalize the denominator by multiplying by $a\\sqrt{b} - c\\sqrt{d}$."
+      ]
+    },
+    {
+      "image": "image477.png",
+      "type": "review_problems",
+      "problems": [
+        {
+          "number": "11.26",
+          "content": "Expand the following:",
+          "parts": [
+            "(a) $(7 - x)^2$",
+            "(b) $(2t - 9)^2$"
+          ]
+        },
+        {
+          "number": "11.27",
+          "content": "Find the squares of the following numbers in your head:",
+          "parts": [
+            "(a) 45",
+            "(b) 91",
+            "(c) 401",
+            "(d) 199"
+          ]
+        },
+        {
+          "number": "11.28",
+          "content": "If $a$ is a constant such that $9x^2 + 24x + a$ is the square of a binomial, then what is $a$?"
+        },
+        {
+          "number": "11.29",
+          "content": "Factor each of the following:",
+          "parts": [
+            "(a) $r^2 - 121$",
+            "(b) $-32t^2 + 50$"
+          ]
+        },
+        {
+          "number": "11.30",
+          "content": "Compute $111^2 - 89^2$ in your head."
+        },
+        {
+          "number": "11.31",
+          "content": "Compute $(207 + 100)^2 - (207 - 100)^2$ without a calculator."
+        },
+        {
+          "number": "11.32",
+          "content": "Which is bigger, $4050607^2$ or $(4050608)(4050606)$?"
+        },
+        {
+          "number": "11.33",
+          "content": "Let $x = 2001^{1002} - 2001^{-1002}$ and $y = 2001^{1002} + 2001^{-1002}$. Find $x^2 - y^2$. (Source: HMMT)"
+        },
+        {
+          "number": "11.34",
+          "content": "Which two consecutive perfect squares have a difference of 63?"
+        },
+        {
+          "number": "11.35",
+          "content": "Factor each of the following:",
+          "parts": [
+            "(a) $a^3 + 27$",
+            "(b) $a^3b^3 + 8c^3$",
+            "(c) $2r^3 - 16$",
+            "(d) $1000 - x^6y^3$"
+          ]
+        },
+        {
+          "number": "11.36",
+          "content": "Expand the product $(\\sqrt[3]{t} - \\sqrt[3]{u})(\\sqrt[3]{t^2} + \\sqrt[3]{tu} + \\sqrt[3]{u^2})$."
+        },
+        {
+          "number": "11.37",
+          "content": "Rationalize the denominators of the following:",
+          "parts": [
+            "(a) $\\frac{21}{\\sqrt{21}}$",
+            "(b) $\\frac{20}{\\sqrt[3]{25}}$",
+            "(c)* $\\frac{4}{\\sqrt[4]{18}}$"
+          ]
+        }
+      ]
+    },
+    {
+      "image": "image478.png",
+      "type": "review_problems_continued",
+      "problems": [
+        {
+          "number": "11.38",
+          "content": "Rationalize the denominators of the following:",
+          "parts": [
+            "(a) $\\frac{8}{\\sqrt{15} - \\sqrt{7}}$",
+            "(b) $\\frac{9}{3\\sqrt{2} - 2\\sqrt{5}}$"
+          ]
+        },
+        {
+          "number": "11.39",
+          "content": "Factor the following:",
+          "parts": [
+            "(a) $pq - 7p + 9q - 63$",
+            "(b) $-rs + 5r + 2s - 10$"
+          ]
+        }
+      ]
+    },
+    {
+      "image": "image479.png",
+      "type": "review_problems_continued",
+      "problems": [
+        {
+          "number": "11.40",
+          "content": "Rationalize the denominator of $\\frac{2}{1 - 2\\sqrt[3]{2}}$."
+        },
+        {
+          "number": "11.41",
+          "content": "Find all pairs of integers $(x, y)$ that satisfy the equation $xy - 2x + 7y = 49$."
+        },
+        {
+          "number": "11.42",
+          "content": "Simplify $\\frac{1}{3 - \\sqrt{8}} - \\frac{1}{\\sqrt{8} - \\sqrt{7}} + \\frac{1}{\\sqrt{7} - \\sqrt{6}} - \\frac{1}{\\sqrt{6} - \\sqrt{5}} + \\frac{1}{\\sqrt{5} - 2}$."
+        }
+      ]
+    },
+    {
+      "image": "image480.png",
+      "type": "challenge_problems",
+      "title": "Challenge Problems",
+      "problems": [
+        {
+          "number": "11.43",
+          "content": "Three consecutive positive odd integers $a$, $b$, and $c$ satisfy $b^2 - a^2 = 344$ and $c^2 - b^2 > 0$. What is the value of $c^2 - b^2$?"
+        },
+        {
+          "number": "11.44",
+          "parts": [
+            "(a) Evaluate $29^2$.",
+            "(b) Evaluate $299^2$.",
+            "(c) Evaluate $2999^2$.",
+            "(d)* What is the sum of the digits of $29999999^2$?"
+          ]
+        },
+        {
+          "number": "11.45",
+          "content": "Compute the product $\\frac{(1998^2 - 1996^2)(1998^2 - 1995^2) \\cdots (1998^2 - 0^2)}{(1997^2 - 1996^2)(1997^2 - 1995^2) \\cdots (1997^2 - 0^2)}$. (Source: Mandelbrot)"
+        },
+        {
+          "number": "11.46",
+          "content": "Rationalize the denominator of $\\frac{2}{2 - \\sqrt[3]{2}}$. Hints: 182"
+        },
+        {
+          "number": "11.47",
+          "content": "Without using a calculator, find the largest prime divisor of $5^{12} - 2 \\cdot 10^6 + 2^{12}$. Hints: 47"
+        },
+        {
+          "number": "11.48",
+          "content": "Two non-zero real numbers, $a$ and $b$, satisfy $ab = a - b$. Find all possible values of $\\frac{a}{b} + \\frac{b}{a} - ab$. (Source: AMC 12) Hints: 82"
+        }
+      ]
+    },
+    {
+      "image": "image481.png",
+      "type": "challenge_problems_continued",
+      "problems": [
+        {
+          "number": "11.49",
+          "parts": [
+            "(a) The expression $x^3 + y^3$ can be written as the product of $x + y$ and another factor. Find that other factor.",
+            "(b) The expression $x^5 + y^5$ can be written as the product of $x + y$ and another factor. Find that other factor."
+          ]
+        },
+        {
+          "number": "11.50",
+          "parts": [
+            "(a)* Why does the factorization in the previous part fail when the powers of $x$ and $y$ are even? In other words, we can not factor out $x + y$ from $x^4 + y^4$ or $x^6 + y^6$ using the patterns we found in the first three parts.",
+            "(b) Use the figure at right to prove that $a^3 + b^3 = a^3 + a^2b + ab^2 + b^3 = ab^2 + 2ab + 2a$ without expanding algebraically."
+          ]
+        },
+        {
+          "number": "11.51",
+          "content": "How many different triples of numbers $(a, b, c)$ satisfy the equation $a + b + c = abc$? (The numbers $a$, $b$, and $c$ are not necessarily different.) (Source: Mandelbrot) Hints: 136"
+        },
+        {
+          "number": "11.52",
+          "content": "A triangle is a right triangle if the sum of the squares of its two smallest sides equals the square of its largest side. If $n$ is a positive integer, describe the triangle with sides $\\frac{n(n+1)}{2}$, $\\frac{(n+1)^2 - 1}{2}$, and $\\frac{n^2 + (n+1)^2}{2}$ be a right triangle? (Source: AHSME) Hints: 75"
+        },
+        {
+          "number": "11.53",
+          "content": "Determine $\\sqrt{1} - 50 \\cdot 51 \\cdot 52 \\cdot 53$ without a calculator. (Source: MATHCOUNTS) Hints: 106, 127"
+        },
+        {
+          "number": "11.54",
+          "content": "Factor $x^{47} + x^{41}$. Hints: 83, 135"
+        },
+        {
+          "number": "11.55",
+          "content": "Express $2^{91} + 1$ as the product of two four-digit numbers. Hints: 187"
+        },
+        {
+          "number": "11.54",
+          "content": "Simplify the expression $(\\sqrt{2} - 1)^{-1}$."
+        },
+        {
+          "number": "11.55*",
+          "content": "Without a calculator, find the sum of the digits of the number $2003^2 - 1997^2$. (Source: Mandelbrot)"
+        }
+      ]
+    },
+    {
+      "image": "image482.png",
+      "type": "definition",
+      "content": "An algebraic equation is an equation which involves at least one variable."
+    },
+    {
+      "image": "image483.png",
+      "type": "section",
+      "title": "LINEAR EQUATIONS",
+      "content": "A linear equation contains at least a variable which can only be raised to the power 1.",
+      "examples": {
+        "linear": "$3x + 5 = 8$, $\\frac{1}{2}x - 3 = 2$, and $\\frac{1 + x}{3} = x$ are linear equations",
+        "not_linear": "$x^2 - 3x + 2 = 0$, $\\frac{1}{x} = \\sqrt{x}$, and $x^3 = 8$ are not linear equations"
+      }
+    },
+    {
+      "image": "image484.png",
+      "type": "definition",
+      "title": "SIDES OF AN EQUATION",
+      "content": "The left hand side (LHS) of an equation is on the left of the = sign. The right hand side (RHS) of an equation is on the right of the = sign.",
+      "example": "For example, $3x + 5 = 8$ has LHS = $3x + 5$ and RHS = $8$"
+    },
+    {
+      "image": "image485.png",
+      "type": "definition",
+      "content": "The solution of a linear equation is the value of the variable which makes the equation true. In other words, it makes the left hand side (LHS) equal to the right hand side (RHS)."
+    },
+    {
+      "image": "image486.png",
+      "type": "method",
+      "title": "ALGEBRAIC SOLUTION TO LINEAR EQUATIONS",
+      "content": "The following steps should be followed to solve linear equations:",
+      "steps": [
+        "Step 1: Decide how the expression containing the unknown has been 'built up'.",
+        "Step 2: Perform inverse operations on both sides of the equation to 'undo' how the equation is 'built up'. In this way we isolate the unknown.",
+        "Step 3: Check your solution by substitution."
+      ]
+    },
+    {
+      "image": "image487.png",
+      "type": "worked_example",
+      "content": "Solve for $x$: (a) $4x - 1 = 7$ (b) $5 - 3x = 6$",
+      "solutions": [
+        {
+          "part": "a",
+          "equation": "$4x - 1 = 7$",
+          "steps": [
+            "$4x - 1 + 1 = 7 + 1$ {adding 1 to both sides}",
+            "$4x = 8$",
+            "$\\frac{4x}{4} = \\frac{8}{4}$ {divide both sides by 4}",
+            "$x = 2$",
+            "Check: $4 \\times 2 - 1 = 8 - 1 = 7$ ✓"
+          ]
+        },
+        {
+          "part": "b",
+          "equation": "$5 - 3x = 6$",
+          "steps": [
+            "$5 - 3x - 5 = 6 - 5$ {subtracting 5 from both sides}",
+            "$-3x = 1$",
+            "$\\frac{-3x}{-3} = \\frac{1}{-3}$ {dividing both sides by $-3$}",
+            "$x = -\\frac{1}{3}$",
+            "Check: $5 - 3 \\times (-\\frac{1}{3}) = 5 + 1 = 6$ ✓"
+          ]
+        }
+      ],
+      "note": "The inverse of $+$ is $-$ and $\\times$ is $\\div$."
+    },
+    {
+      "image": "image488.png",
+      "type": "worked_example",
+      "content": "Solve for $x$: (a) $\\frac{x}{5} - 3 = -1$ (b) $\\frac{1}{5}(x - 3) = -1$",
+      "solutions": [
+        {
+          "part": "a",
+          "equation": "$\\frac{x}{5} - 3 = -1$",
+          "steps": [
+            "$\\frac{x}{5} - 3 + 3 = -1 + 3$ {adding 3 to both sides}",
+            "$\\frac{x}{5} = 2$",
+            "$\\frac{x}{5} \\times 5 = 2 \\times 5$ {multiplying both sides by 5}",
+            "$x = 10$",
+            "Check: $\\frac{10}{5} - 3 = 2 - 3 = -1$ ✓"
+          ]
+        }
+      ]
+    },
+    {
+      "image": "image489.png",
+      "type": "worked_example_continued",
+      "content": "Part (b) of the previous example",
+      "solutions": [
+        {
+          "part": "b",
+          "equation": "$\\frac{1}{5}(x - 3) = -1$",
+          "steps": [
+            "$\\frac{1}{5}(x - 3) \\times 5 = -1 \\times 5$ {multiplying both sides by 5}",
+            "$x - 3 = -5$",
+            "$x - 3 + 3 = -5 + 3$ {adding 3 to both sides}",
+            "$x = -2$",
+            "Check: $\\frac{1}{5}((-2) - 3) = \\frac{1}{5} \\times -5 = -1$ ✓"
+          ]
+        }
+      ]
+    },
+    {
+      "image": "image490.png",
+      "type": "worked_example",
+      "content": "Solve for $x$: $3(2x - 5) - 2(x - 1) = 3$",
+      "solution": {
+        "equation": "$3(2x - 5) - 2(x - 1) = 3$",
+        "steps": [
+          "$3 \\times 2x + 3 \\times (-5) - 2 \\times x - 2 \\times (-1) = 3$ {expanding brackets}",
+          "$6x - 15 - 2x + 2 = 3$",
+          "$4x - 13 = 3$ {collecting like terms}",
+          "$4x - 13 + 13 = 3 + 13$ {adding 13 to both sides}",
+          "$4x = 16$",
+          "$x = 4$ {dividing both sides by 4}",
+          "Check: $3(2 \\times 4 - 5) - 2(4 - 1) = 3 \\times 3 - 2 \\times 3 = 3$ ✓"
+        ]
+      }
+    },
+    {
+      "image": "image491.png",
+      "type": "strategy",
+      "content": "If the unknown appears on both sides of the equation, we:",
+      "steps": [
+        "expand any brackets and collect like terms",
+        "move the unknown to one side of the equation and the remaining terms to the other side",
+        "simplify and then solve the equation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,470 @@
+{
+  "chapter": "Solving equations",
+  "section": "Linear equations",
+  "source_images": ["image483.png", "image484.png", "image485.png", "image486.png", "image487.png", "image488.png", "image489.png", "image490.png", "image491.png", "image492.png", "image493.png", "image494.png", "image495.png", "image496.png", "image497.png", "image498.png", "image499.png", "image500.png", "image501.png", "image502.png", "image503.png", "image504.png", "image505.png", "image506.png", "image507.png"],
+  "concepts": [
+    {
+      "id": "concept_1",
+      "title": "LINEAR EQUATIONS",
+      "image": "image483.png",
+      "content": "A linear equation contains at least a variable which can only be raised to the power 1.",
+      "examples": {
+        "linear": ["3x + 5 = 8", "\\frac{1}{2}x - 3 = 2", "\\frac{1+x}{3} = x"],
+        "not_linear": ["x^2 - 3x + 2 = 0", "\\frac{1}{x} = \\sqrt{x}", "x^3 = 8"]
+      }
+    },
+    {
+      "id": "concept_2",
+      "title": "SIDES OF AN EQUATION",
+      "image": "image484.png",
+      "content": "The left hand side (LHS) of an equation is on the left of the = sign. The right hand side (RHS) of an equation is on the right of the = sign."
+    },
+    {
+      "id": "concept_3",
+      "title": "Solution",
+      "image": "image485.png",
+      "content": "The solution of a linear equation is the value of the variable which makes the equation true. In other words, it makes the left hand side (LHS) equal to the right hand side (RHS)."
+    },
+    {
+      "id": "concept_4",
+      "title": "ALGEBRAIC SOLUTION TO LINEAR EQUATIONS",
+      "image": "image486.png",
+      "steps": [
+        "Step 1: Decide how the expression containing the unknown has been 'built up'.",
+        "Step 2: Perform inverse operations on both sides of the equation to 'undo' how the equation is 'built up'. In this way we isolate the unknown.",
+        "Step 3: Check your solution by substitution."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "id": "example_1",
+      "image": "image487.png",
+      "questions": [
+        {
+          "id": "ex1a",
+          "problem": "4x - 1 = 7",
+          "solution": "x = 2",
+          "steps": ["4x - 1 + 1 = 7 + 1", "4x = 8", "x = 2"],
+          "check": "4 × 2 - 1 = 8 - 1 = 7 ✓"
+        },
+        {
+          "id": "ex1b",
+          "problem": "5 - 3x = 6",
+          "solution": "x = -\\frac{1}{3}",
+          "steps": ["5 - 3x - 5 = 6 - 5", "-3x = 1", "x = -\\frac{1}{3}"],
+          "check": "5 - 3 × (-\\frac{1}{3}) = 5 + 1 = 6 ✓"
+        }
+      ]
+    },
+    {
+      "id": "example_2",
+      "image": "image488.png",
+      "questions": [
+        {
+          "id": "ex2a",
+          "problem": "\\frac{x}{5} - 3 = -1",
+          "solution": "x = 10",
+          "steps": ["\\frac{x}{5} - 3 + 3 = -1 + 3", "\\frac{x}{5} = 2", "x = 10"],
+          "check": "\\frac{10}{5} - 3 = 2 - 3 = -1 ✓"
+        }
+      ]
+    },
+    {
+      "id": "example_3",
+      "image": "image489.png",
+      "questions": [
+        {
+          "id": "ex3b",
+          "problem": "\\frac{1}{5}(x - 3) = -1",
+          "solution": "x = -2",
+          "steps": ["\\frac{1}{5}(x-3) × 5 = -1 × 5", "x - 3 = -5", "x = -2"],
+          "check": "\\frac{1}{5}((-2) - 3) = \\frac{1}{5} × -5 = -1 ✓"
+        }
+      ]
+    },
+    {
+      "id": "example_4",
+      "image": "image490.png",
+      "questions": [
+        {
+          "id": "ex4",
+          "problem": "3(2x - 5) - 2(x - 1) = 3",
+          "solution": "x = 4",
+          "steps": ["6x - 15 - 2x + 2 = 3", "4x - 13 = 3", "4x = 16", "x = 4"],
+          "check": "3(2×4 - 5) - 2(4 - 1) = 3×3 - 2×3 = 3 ✓"
+        }
+      ]
+    },
+    {
+      "id": "example_5",
+      "image": "image492.png",
+      "questions": [
+        {
+          "id": "ex5a",
+          "problem": "3x - 4 = 2x + 6",
+          "solution": "x = 10",
+          "steps": ["3x - 4 - 2x = 2x + 6 - 2x", "x - 4 = 6", "x = 10"],
+          "check": "LHS = 3×10 - 4 = 26, RHS = 2×10 + 6 = 26 ✓"
+        },
+        {
+          "id": "ex5b",
+          "problem": "4 - 3(2 + x) = x",
+          "solution": "x = -\\frac{1}{2}",
+          "steps": ["4 - 6 - 3x = x", "-2 - 3x = x", "-2 = 4x", "x = -\\frac{1}{2}"],
+          "check": "LHS = 4 - 3(2 + (-\\frac{1}{2})) = -\\frac{1}{2} = RHS ✓"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exercise_6A",
+      "image": "image495.png",
+      "questions": [
+        {
+          "id": "6A_1",
+          "instruction": "The solution of each of the following equations is one of the given possibilities. Find the solution by trial and error.",
+          "sub_questions": [
+            {"id": "1a", "latex": "2x - 9 = 5", "choices": [3, 5, 7], "type": "linear_equation", "answer": 7},
+            {"id": "1b", "latex": "3 - a = -1", "choices": [2, 4, 6], "type": "linear_equation", "answer": 4},
+            {"id": "1c", "latex": "\\frac{x+6}{2} = 1", "choices": [-4, -2, 0], "type": "rational_equation", "answer": -4},
+            {"id": "1d", "latex": "\\frac{6}{1+y} = 3", "choices": [1, 2, 3], "type": "rational_equation", "answer": 1}
+          ]
+        },
+        {
+          "id": "6A_2",
+          "instruction": "Which of the following equations are: A-true for exactly one value of x, B-true for two values of x, C-true for all values of x, D-never true, E-true for all values of x except 0?",
+          "sub_questions": [
+            {"id": "2a", "latex": "x + 3 = 5", "type": "classification"},
+            {"id": "2b", "latex": "x^2 = 0", "type": "classification"},
+            {"id": "2c", "latex": "\\frac{1}{x} = 0", "type": "classification"},
+            {"id": "2d", "latex": "2x = 11", "type": "classification"},
+            {"id": "2e", "latex": "x^2 = 9", "type": "classification"},
+            {"id": "2f", "latex": "x - x = 0", "type": "classification"},
+            {"id": "2g", "latex": "x - 1 = x", "type": "classification"},
+            {"id": "2h", "latex": "2 + 5x = 12", "type": "classification"},
+            {"id": "2i", "latex": "x - x^2 = 0", "type": "classification"},
+            {"id": "2j", "latex": "3x \\times 2x = 6x^2", "type": "classification"},
+            {"id": "2k", "latex": "\\frac{1}{x} \\times x = 1", "type": "classification"},
+            {"id": "2l", "latex": "2 - \\frac{1}{x} = 3", "type": "classification"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exercise_1C1",
+      "image": "image493.png",
+      "questions": [
+        {
+          "id": "1C1_1",
+          "instruction": "Solve for x:",
+          "sub_questions": [
+            {"id": "1a", "latex": "x + 9 = 4"},
+            {"id": "1b", "latex": "5x = 45"},
+            {"id": "1c", "latex": "-24 = -6x"},
+            {"id": "1d", "latex": "3 - x = 12"},
+            {"id": "1e", "latex": "2x + 5 = 17"},
+            {"id": "1f", "latex": "3x - 2 = -14"},
+            {"id": "1g", "latex": "3 - 4x = -17"},
+            {"id": "1h", "latex": "8 = 9 - 2x"}
+          ]
+        },
+        {
+          "id": "1C1_2",
+          "instruction": "Solve for x:",
+          "sub_questions": [
+            {"id": "2a", "latex": "\\frac{x}{4} = 12"},
+            {"id": "2b", "latex": "\\frac{1}{2}x = 6"},
+            {"id": "2c", "latex": "5 = \\frac{x}{-2}"},
+            {"id": "2d", "latex": "\\frac{x}{3} + 4 = -2"},
+            {"id": "2e", "latex": "\\frac{x+3}{5} = -2"},
+            {"id": "2f", "latex": "\\frac{1}{3}(x+2) = 3"},
+            {"id": "2g", "latex": "\\frac{2x-1}{3} = 7"},
+            {"id": "2h", "latex": "\\frac{1}{2}(5-x) = -2"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exercise_1C2",
+      "image": "image494.png",
+      "questions": [
+        {
+          "id": "1C2_1",
+          "instruction": "Solve for x:",
+          "sub_questions": [
+            {"id": "1a", "latex": "2(x+8) + 5(x-1) = 60"},
+            {"id": "1b", "latex": "2(x-3) + 3(x+2) = -5"},
+            {"id": "1c", "latex": "3(x+3) - 2(x+1) = 0"},
+            {"id": "1d", "latex": "4(2x-3) + 2(x+2) = 32"},
+            {"id": "1e", "latex": "3(4x+1) - 2(3x-4) = -7"},
+            {"id": "1f", "latex": "5(x+2) - 2(3-2x) = -14"}
+          ]
+        },
+        {
+          "id": "1C2_2",
+          "instruction": "Solve for x:",
+          "sub_questions": [
+            {"id": "2a", "latex": "2x - 3 = 3x + 6"},
+            {"id": "2b", "latex": "3x - 4 = 5 - x"},
+            {"id": "2c", "latex": "4 - 5x = 3x - 8"},
+            {"id": "2d", "latex": "-x = 2x + 4"},
+            {"id": "2e", "latex": "12 - 7x = 3x + 7"},
+            {"id": "2f", "latex": "5x - 9 = 1 - 3x"},
+            {"id": "2g", "latex": "4 - x - 2(2-x) = 6 + x"},
+            {"id": "2h", "latex": "5 - 3(1-x) = 2 - 3x"},
+            {"id": "2i", "latex": "5 - 2x - (2x+1) = -6"},
+            {"id": "2j", "latex": "3(4x+2) - x = -7 + x"}
+          ]
+        },
+        {
+          "id": "1C2_3",
+          "instruction": "Solve for x:",
+          "sub_questions": [
+            {"id": "3a", "latex": "2(3x+1) - 3 = 6x - 1"},
+            {"id": "3b", "latex": "3(4x+1) = 6(2x+1)"},
+            {"id": "3c", "latex": "Comment on your solutions to a and b."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exercise_6D",
+      "images": ["image496.png", "image497.png", "image498.png", "image499.png"],
+      "questions": [
+        {
+          "id": "6D_1",
+          "instruction": "Solve for x:",
+          "sub_questions": [
+            {"id": "1a", "latex": "x + 3 = 0"},
+            {"id": "1b", "latex": "3x = -9"},
+            {"id": "1c", "latex": "3x + 6 = 0"},
+            {"id": "1d", "latex": "3x - 4 = -6"},
+            {"id": "1e", "latex": "5x + 8 = 18"},
+            {"id": "1f", "latex": "4x - 9 = 1"},
+            {"id": "1g", "latex": "8x - 7 = 9"},
+            {"id": "1h", "latex": "3x + 6 = -7"},
+            {"id": "1i", "latex": "6 + 7x = -1"},
+            {"id": "1j", "latex": "9 = 3x + 7"},
+            {"id": "1k", "latex": "6x - 7 = -1"},
+            {"id": "1l", "latex": "-1 = 2x + 6"}
+          ]
+        },
+        {
+          "id": "6D_2",
+          "instruction": "Solve for x:",
+          "sub_questions": [
+            {"id": "2a", "latex": "6 - x = -5"},
+            {"id": "2b", "latex": "-4x = 15"},
+            {"id": "2c", "latex": "3 - 2x = 7"},
+            {"id": "2d", "latex": "5 - 4x = -7"},
+            {"id": "2e", "latex": "3 - 7x = -2"},
+            {"id": "2f", "latex": "17 - 2x = -1"},
+            {"id": "2g", "latex": "11 = 3 - 2x"},
+            {"id": "2h", "latex": "15 - 2x = -1"},
+            {"id": "2i", "latex": "8 = 3 - 2x"},
+            {"id": "2j", "latex": "6 = -1 - 7x"},
+            {"id": "2k", "latex": "-15 = 3 - 6x"},
+            {"id": "2l", "latex": "11 = -4 - 3x"}
+          ]
+        },
+        {
+          "id": "6D_3",
+          "instruction": "Solve for x:",
+          "sub_questions": [
+            {"id": "3a", "latex": "\\frac{x}{2} = 5"},
+            {"id": "3b", "latex": "\\frac{2x}{3} = -4"},
+            {"id": "3c", "latex": "\\frac{x}{4} + 1 = -3"},
+            {"id": "3d", "latex": "\\frac{x}{3} - 2 = 1"},
+            {"id": "3e", "latex": "\\frac{x-1}{2} = 1"},
+            {"id": "3f", "latex": "\\frac{x+5}{3} = -1"}
+          ]
+        },
+        {
+          "id": "6D_4",
+          "instruction": "Solve for x:",
+          "sub_questions": [
+            {"id": "4a", "latex": "\\frac{2x+7}{5} = 0"},
+            {"id": "4b", "latex": "\\frac{1}{2}(1-3x) = -1"},
+            {"id": "4c", "latex": "\\frac{1+4x}{7} = 3"},
+            {"id": "4d", "latex": "\\frac{3x-1}{2} = 4"},
+            {"id": "4e", "latex": "\\frac{1}{5}(4-3x) = -1"},
+            {"id": "4f", "latex": "\\frac{1}{4}(1+2x) = -2"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exercise_6E",
+      "images": ["image500.png", "image501.png", "image502.png", "image503.png", "image504.png", "image505.png"],
+      "questions": [
+        {
+          "id": "6E_1",
+          "instruction": "Solve for x:",
+          "sub_questions": [
+            {"id": "1a", "latex": "4(x-1) - 2x = 2"},
+            {"id": "1b", "latex": "2(x-3) + 3x = 9"},
+            {"id": "1c", "latex": "5(x+2) - 2x = 4"},
+            {"id": "1d", "latex": "3(2x+3) - 4x = -3"},
+            {"id": "1e", "latex": "6(3x+2) - 5x = -1"},
+            {"id": "1f", "latex": "-4(2x-1) + 5x = -12"}
+          ]
+        },
+        {
+          "id": "6E_2",
+          "instruction": "Solve for x:",
+          "sub_questions": [
+            {"id": "2a", "latex": "3(x+1) + 4(x+2) = -3"},
+            {"id": "2b", "latex": "5(x+3) - 2(x-1) = 2"},
+            {"id": "2c", "latex": "4(x-2) - (x+1) = 6"},
+            {"id": "2d", "latex": "2(x+4) + 8(x-2) = 12"},
+            {"id": "2e", "latex": "3(2x+1) - 4(x+2) = 9"},
+            {"id": "2f", "latex": "3(5x-2) - 2(3x-4) = 2"}
+          ]
+        },
+        {
+          "id": "6E_3",
+          "instruction": "Solve for x:",
+          "sub_questions": [
+            {"id": "3a", "latex": "3x + 2 = x + 10"},
+            {"id": "3b", "latex": "7x + 2 = 4x - 8"},
+            {"id": "3c", "latex": "8x + 3 = 4x + 4"},
+            {"id": "3d", "latex": "3x - 1 = 6x - 4"},
+            {"id": "3e", "latex": "4x - 2 = 8x + 10"},
+            {"id": "3f", "latex": "5 + 2x = 18 + 4x"}
+          ]
+        },
+        {
+          "id": "6E_4",
+          "instruction": "Solve for x:",
+          "sub_questions": [
+            {"id": "4a", "latex": "3x + 5 = 1 - x"},
+            {"id": "4b", "latex": "6 + 2x = 15 - x"},
+            {"id": "4c", "latex": "6 + x = 13 - 2x"},
+            {"id": "4d", "latex": "9 - 2x = 12 - 7x"},
+            {"id": "4e", "latex": "4 - 3x = 8 - x"},
+            {"id": "4f", "latex": "9 - 3x = x + 2"}
+          ]
+        },
+        {
+          "id": "6E_5",
+          "instruction": "Solve for x:",
+          "sub_questions": [
+            {"id": "5a", "latex": "3(x+1) - x = 15"},
+            {"id": "5b", "latex": "5(x+2) - 2x = 11"},
+            {"id": "5c", "latex": "6(1-2x) = -4 - 7x"},
+            {"id": "5d", "latex": "2(x+4) + 8(x-2) = 12"},
+            {"id": "5e", "latex": "4(3x+1) + 18 = x"},
+            {"id": "5f", "latex": "7x - 2(x+1) = 13"},
+            {"id": "5g", "latex": "14x - 5(2x+5) = 7"},
+            {"id": "5h", "latex": "19 - (3-x) = 5x"},
+            {"id": "5i", "latex": "2x - 4(4-3x) = x + 10"},
+            {"id": "5j", "latex": "2(x+4) = 7 - (3+x)"},
+            {"id": "5k", "latex": "2(x-6) + 7x = 3(3x-4)"},
+            {"id": "5l", "latex": "5(2x-4) = 4x - 2(1-3x)"}
+          ]
+        },
+        {
+          "id": "6E_6",
+          "instruction": "Solve the following equations:",
+          "sub_questions": [
+            {"id": "6a", "latex": "3(x-2) = x + 4"},
+            {"id": "6b", "latex": "4(t-3) = 3 - t"},
+            {"id": "6c", "latex": "3(2y-1) = 4y - 5"},
+            {"id": "6d", "latex": "2(a+6) = 7 - 2a"},
+            {"id": "6e", "latex": "4(2b+3) = b + 12"},
+            {"id": "6f", "latex": "8(a+2) = 1 + 3a"}
+          ]
+        },
+        {
+          "id": "6E_7",
+          "instruction": "Try to solve and explain:",
+          "sub_questions": [
+            {"id": "7a", "latex": "3(a+2) = 6 + 3a", "note": "What do you notice?"},
+            {"id": "7b", "latex": "How many values of a satisfy the equation?"}
+          ]
+        },
+        {
+          "id": "6E_8",
+          "instruction": "Try to solve and explain:",
+          "sub_questions": [
+            {"id": "8a", "latex": "2(2a+3) = 5 + 4a", "note": "What do you notice?"},
+            {"id": "8b", "latex": "How many values of a satisfy the equation?"}
+          ]
+        },
+        {
+          "id": "6E_9",
+          "instruction": "Solve the following equations:",
+          "sub_questions": [
+            {"id": "9a", "latex": "2 - x = 3(x+3) + 1"},
+            {"id": "9b", "latex": "2x + 1 = 2(1-3x) + 7"},
+            {"id": "9c", "latex": "12 - x = 2(x-2) + x"},
+            {"id": "9d", "latex": "4 + 3p = 2 + 5(1-p)"},
+            {"id": "9e", "latex": "3x + 2(x+1) = 8"},
+            {"id": "9f", "latex": "4x - 1 + 3(2x-2) = 4"},
+            {"id": "9g", "latex": "x + 2 - 4(x-1) = 11"},
+            {"id": "9h", "latex": "2(x-1) - 5(x+2) = -8"},
+            {"id": "9i", "latex": "3(1-x) - 2(2-x) = 4"},
+            {"id": "9j", "latex": "5(x-2) + 3(1-2x) = 6"},
+            {"id": "9k", "latex": "4(2x-3) - 5(3x+1) = -2"},
+            {"id": "9l", "latex": "3 - 2x - (x+4) = -11"},
+            {"id": "9m", "latex": "2(1-3x) - (5-x) = 7"},
+            {"id": "9n", "latex": "4x + 2(x-1) + x = 9"}
+          ]
+        },
+        {
+          "id": "6E_10",
+          "instruction": "Solve the following equations:",
+          "sub_questions": [
+            {"id": "10a", "latex": "12(x-1) = 3(2x+1) + 9"},
+            {"id": "10b", "latex": "3(2p-1) = 5(1-p) + 3"},
+            {"id": "10c", "latex": "2(5x+1) + 2 = 3(x-1)"},
+            {"id": "10d", "latex": "6(x-4) + 2(x+5) = 3(x-1) + 4"},
+            {"id": "10e", "latex": "x - 5 - (2x+1) = 4x + 3"},
+            {"id": "10f", "latex": "3 - 2x = 4(x+1) - 3(1-x)"},
+            {"id": "10g", "latex": "4x + 2(1-x) = 5 - (1-4x)"},
+            {"id": "10h", "latex": "5 - (2-3x) = 11 - (5-4x)"},
+            {"id": "10i", "latex": "x = 3(2x-1) - 4(2-x)"},
+            {"id": "10j", "latex": "2(x-2) - 3(5-x) = 4(2x+1)"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exercise_handwritten",
+      "images": ["image506.png", "image507.png"],
+      "title": "Solve all these equations!",
+      "questions": [
+        {"id": "hw_1", "latex": "a - 5 = 19"},
+        {"id": "hw_2", "latex": "b + 19 = 38"},
+        {"id": "hw_3", "latex": "7c = 91"},
+        {"id": "hw_4", "latex": "\\frac{d}{5} = 20"},
+        {"id": "hw_5", "latex": "11e - 5 = 72"},
+        {"id": "hw_6", "latex": "2f + 4 = 80"},
+        {"id": "hw_7", "latex": "g + 5g = 72"},
+        {"id": "hw_8", "latex": "3h = 90 - 2h"},
+        {"id": "hw_9", "latex": "3j + 2 = 27 - 2j"},
+        {"id": "hw_10", "latex": "36 - 4k = 0"},
+        {"id": "hw_11", "latex": "12m - 5 = 15 + 8m"},
+        {"id": "hw_12", "latex": "2n + 7 = 31 - 4n"},
+        {"id": "hw_13", "latex": "3(p+2) - p = 26"},
+        {"id": "hw_14", "latex": "4(2r-6) + 3(r+5) = 35"},
+        {"id": "hw_15", "latex": "\\frac{1}{2}(t-4) = 12"},
+        {"id": "hw_16", "latex": "\\frac{w+7}{5} = 5"},
+        {"id": "hw_17", "latex": "2(2a-5) + 4(a+7) = 82"},
+        {"id": "hw_18", "latex": "5(c+3) + (c-6) = 27"},
+        {"id": "hw_19", "latex": "2(e+5) - 3(6-e) = 42"},
+        {"id": "hw_20", "latex": "5(f-1) + 3(f-4) = 23"},
+        {"id": "hw_21", "latex": "22 - 5k - (k+10) = 0"},
+        {"id": "hw_22", "latex": "2(3m-4) - 2(m+7) = 0"},
+        {"id": "hw_23", "latex": "3a + 5 = 17 - a"},
+        {"id": "hw_24", "latex": "25 - 7c = -10"},
+        {"id": "hw_25", "latex": "12d - 5 = 15 + 10d"},
+        {"id": "hw_26", "latex": "\\frac{2a-5}{3} = \\frac{a-2}{2}"},
+        {"id": "hw_27", "latex": "\\frac{c-1}{3} = c - \\frac{3(c+2)}{5}"},
+        {"id": "hw_28", "latex": "5n - 2 = n - 3(n+3)"}
+      ]
+    }
+  ]
+}

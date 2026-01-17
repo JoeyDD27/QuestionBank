@@ -1,0 +1,4467 @@
+[
+  {
+    "title": "Algebra (middle and high school)",
+    "para_start": 237,
+    "subsections": [
+      {
+        "title": "Unit 1 expression",
+        "para_start": 238,
+        "images": [
+          "image1.png",
+          "image2.png",
+          "image3.png",
+          "image4.png",
+          "image5.png",
+          "image6.png",
+          "image7.png"
+        ]
+      },
+      {
+        "title": "Key words in algebra",
+        "para_start": 254,
+        "images": [
+          "image8.png",
+          "image9.png",
+          "image10.png",
+          "image11.png",
+          "image11.png",
+          "image12.png",
+          "image13.png",
+          "image14.png",
+          "image15.png",
+          "image16.png",
+          "image17.png",
+          "image17.png",
+          "image18.png",
+          "image19.png",
+          "image20.png",
+          "image21.png",
+          "image22.png",
+          "image23.png"
+        ]
+      },
+      {
+        "title": "Changing words to symbols",
+        "para_start": 275,
+        "images": [
+          "image24.png",
+          "image25.png",
+          "image26.png",
+          "image27.png",
+          "image28.png",
+          "image29.png",
+          "image30.png",
+          "image31.png",
+          "image32.png",
+          "image33.png"
+        ]
+      },
+      {
+        "title": "Generalizing arithmetic",
+        "para_start": 286,
+        "images": [
+          "image34.png",
+          "image35.png",
+          "image36.png",
+          "image37.png"
+        ]
+      },
+      {
+        "title": "Algebraic substitutions",
+        "para_start": 295,
+        "images": [
+          "image38.png",
+          "image39.png",
+          "image40.png",
+          "image41.png",
+          "image42.png",
+          "image43.png",
+          "image44.png",
+          "image45.png",
+          "image46.png"
+        ]
+      },
+      {
+        "title": "Algebraic products and quotients in index notation",
+        "para_start": 307,
+        "images": [
+          "image47.png",
+          "image48.png",
+          "image49.png",
+          "image49.png",
+          "image50.png",
+          "image51.png",
+          "image52.png",
+          "image53.png",
+          "image54.png",
+          "image55.png",
+          "image56.png",
+          "image57.png",
+          "image58.png",
+          "image59.png",
+          "image60.png"
+        ]
+      },
+      {
+        "title": "Significant figures",
+        "para_start": 322,
+        "images": [
+          "image61.png",
+          "image62.png",
+          "image63.png",
+          "image63.png",
+          "image64.png",
+          "image64.png",
+          "image65.png",
+          "image66.png",
+          "image67.png",
+          "image68.png",
+          "image69.png",
+          "image70.png",
+          "image71.png",
+          "image72.png"
+        ]
+      },
+      {
+        "title": "Scientific notation",
+        "para_start": 339,
+        "images": [
+          "image73.png",
+          "image74.png",
+          "image75.png",
+          "image76.png",
+          "image77.png",
+          "image78.png",
+          "image79.png",
+          "image80.png",
+          "image81.png",
+          "image82.png",
+          "image83.png",
+          "image84.png",
+          "image85.png",
+          "image86.png",
+          "image87.png"
+        ]
+      },
+      {
+        "title": "Negative bases",
+        "para_start": 355,
+        "images": [
+          "image88.png",
+          "image89.png",
+          "image90.png",
+          "image91.png",
+          "image92.png",
+          "image93.png"
+        ]
+      },
+      {
+        "title": "Index laws",
+        "para_start": 362,
+        "images": [
+          "image94.png",
+          "image95.png",
+          "image96.png",
+          "image97.png",
+          "image98.png",
+          "image99.png",
+          "image100.png",
+          "image101.png",
+          "image101.png",
+          "image102.png",
+          "image103.png",
+          "image104.png",
+          "image105.png",
+          "image106.png",
+          "image107.png",
+          "image108.png",
+          "image109.png",
+          "image110.png",
+          "image111.png",
+          "image112.png",
+          "image113.png",
+          "image114.png",
+          "image115.png",
+          "image116.png",
+          "image117.png",
+          "image118.png"
+        ]
+      },
+      {
+        "title": "Square roots",
+        "para_start": 389,
+        "images": [
+          "image119.png",
+          "image120.png",
+          "image121.png",
+          "image122.png",
+          "image123.png",
+          "image124.png"
+        ]
+      },
+      {
+        "title": "Rules for square rules",
+        "para_start": 396,
+        "images": [
+          "image125.png",
+          "image126.png",
+          "image127.png",
+          "image128.png",
+          "image129.png",
+          "image130.png",
+          "image131.png",
+          "image132.png",
+          "image133.png",
+          "image134.png",
+          "image135.png",
+          "image136.png",
+          "image137.png",
+          "image138.png",
+          "image139.png",
+          "image140.png",
+          "image141.png",
+          "image142.png",
+          "image143.png",
+          "image144.png",
+          "image145.png",
+          "image146.png",
+          "image147.png",
+          "image148.png",
+          "image149.png",
+          "image150.png",
+          "image151.png",
+          "image152.png",
+          "image153.png",
+          "image154.png",
+          "image154.png",
+          "image155.png",
+          "image155.png",
+          "image156.png",
+          "image157.png",
+          "image158.png",
+          "image159.png"
+        ]
+      },
+      {
+        "title": "More exercise",
+        "para_start": 438,
+        "images": [
+          "image160.png",
+          "image161.png",
+          "image162.png",
+          "image163.png",
+          "image164.png",
+          "image165.png",
+          "image166.png",
+          "image167.png",
+          "image168.png",
+          "image169.png",
+          "image170.png",
+          "image171.png",
+          "image172.png",
+          "image173.png",
+          "image174.png",
+          "image175.png",
+          "image176.png",
+          "image177.png",
+          "image178.png",
+          "image179.png",
+          "image180.png",
+          "image181.png",
+          "image182.png",
+          "image183.png",
+          "image184.png",
+          "image185.png",
+          "image186.png",
+          "image187.png",
+          "image188.png",
+          "image189.png",
+          "image190.png",
+          "image191.png",
+          "image192.png",
+          "image193.png",
+          "image194.png"
+        ]
+      }
+    ],
+    "images": []
+  },
+  {
+    "title": "Expansion and Factorisation",
+    "para_start": 481,
+    "subsections": [
+      {
+        "title": "THE DISTRIBUTIVE LAW",
+        "para_start": 482,
+        "images": [
+          "image195.png",
+          "image196.png",
+          "image197.png",
+          "image198.png",
+          "image199.png",
+          "image200.png",
+          "image201.png",
+          "image202.png",
+          "image203.png",
+          "image204.png",
+          "image205.png",
+          "image206.png",
+          "image206.png",
+          "image207.png",
+          "image208.png",
+          "image209.png",
+          "image210.png",
+          "image211.png",
+          "image212.png",
+          "image213.png",
+          "image214.png",
+          "image215.png",
+          "image215.png",
+          "image216.png",
+          "image217.png",
+          "image218.png"
+        ]
+      },
+      {
+        "title": "The product (a+b)(c+d)",
+        "para_start": 519,
+        "images": [
+          "image219.png",
+          "image220.png",
+          "image221.png",
+          "image222.png",
+          "image223.png",
+          "image224.png",
+          "image225.png",
+          "image226.png",
+          "image227.png",
+          "image227.png"
+        ]
+      },
+      {
+        "title": "Perfect squares",
+        "para_start": 531,
+        "images": [
+          "image228.png",
+          "image229.png",
+          "image230.png",
+          "image231.png",
+          "image232.png",
+          "image233.png",
+          "image234.png",
+          "image235.png",
+          "image236.png",
+          "image237.png",
+          "image238.png",
+          "image239.png",
+          "image240.png",
+          "image241.png",
+          "image242.png"
+        ]
+      }
+    ],
+    "images": []
+  },
+  {
+    "title": "Simplifying algebraic fractions",
+    "para_start": 547,
+    "subsections": [
+      {
+        "title": "Algebraic fractions",
+        "para_start": 580,
+        "images": [
+          "image269.png",
+          "image270.png",
+          "image271.png",
+          "image272.png",
+          "image273.png",
+          "image274.png",
+          "image275.png",
+          "image276.png",
+          "image277.png",
+          "image278.png",
+          "image279.png",
+          "image280.png",
+          "image281.png"
+        ]
+      },
+      {
+        "title": "More complicated fractions",
+        "para_start": 596,
+        "images": [
+          "image282.png",
+          "image283.png",
+          "image284.png",
+          "image285.png",
+          "image286.png",
+          "image287.png",
+          "image288.png"
+        ]
+      }
+    ],
+    "images": [
+      "image243.png",
+      "image244.png",
+      "image245.png",
+      "image246.png",
+      "image247.png",
+      "image248.png",
+      "image249.png",
+      "image250.png",
+      "image251.png",
+      "image252.png",
+      "image253.png",
+      "image254.png",
+      "image255.png",
+      "image256.png",
+      "image257.png",
+      "image258.png",
+      "image259.png",
+      "image260.png",
+      "image261.png",
+      "image262.png",
+      "image263.png",
+      "image264.png",
+      "image265.png",
+      "image266.png",
+      "image267.png",
+      "image268.png"
+    ]
+  },
+  {
+    "title": "Expansion of radical expressions",
+    "para_start": 612,
+    "subsections": [],
+    "images": [
+      "image289.png",
+      "image290.png",
+      "image291.png",
+      "image292.png",
+      "image293.png",
+      "image294.png",
+      "image295.png",
+      "image296.png",
+      "image297.png",
+      "image298.png",
+      "image299.png",
+      "image300.png",
+      "image301.png",
+      "image302.png",
+      "image303.png",
+      "image304.png"
+    ]
+  },
+  {
+    "title": "Factorization and simplication",
+    "para_start": 629,
+    "subsections": [
+      {
+        "title": "Common factors",
+        "para_start": 630,
+        "images": [
+          "image305.png",
+          "image306.png",
+          "image307.png",
+          "image308.png",
+          "image309.png",
+          "image310.png",
+          "image311.png",
+          "image312.png",
+          "image313.png",
+          "image314.png",
+          "image315.png",
+          "image316.png",
+          "image317.png",
+          "image318.png",
+          "image319.png",
+          "image320.png",
+          "image321.png",
+          "image322.png",
+          "image323.png",
+          "image324.png",
+          "image325.png",
+          "image326.png",
+          "image327.png",
+          "image328.png",
+          "image329.png",
+          "image330.png",
+          "image331.png",
+          "image332.png",
+          "image333.png",
+          "image334.png",
+          "image335.png",
+          "image336.png",
+          "image337.png",
+          "image338.png",
+          "image338.png",
+          "image339.png",
+          "image340.png",
+          "image341.png",
+          "image342.png",
+          "image343.png",
+          "image344.png",
+          "image345.png",
+          "image346.png",
+          "image347.png"
+        ]
+      },
+      {
+        "title": "Factorizing quadratic trinomials",
+        "para_start": 688,
+        "images": [
+          "image348.png",
+          "image349.png",
+          "image350.png",
+          "image351.png",
+          "image352.png",
+          "image353.png",
+          "image354.png",
+          "image355.png",
+          "image356.png",
+          "image357.png",
+          "image358.png",
+          "image359.png",
+          "image360.png",
+          "image361.png"
+        ]
+      },
+      {
+        "title": "Miscellaneous factorization",
+        "para_start": 704,
+        "images": [
+          "image362.png",
+          "image363.png",
+          "image363.png",
+          "image364.png",
+          "image365.png",
+          "image366.png",
+          "image367.png",
+          "image368.png",
+          "image369.png",
+          "image370.png",
+          "image371.png",
+          "image372.png",
+          "image373.png",
+          "image374.png",
+          "image375.png",
+          "image376.png",
+          "image377.png",
+          "image378.png",
+          "image379.png",
+          "image380.png",
+          "image381.png",
+          "image382.png",
+          "image383.png",
+          "image384.png",
+          "image385.png",
+          "image386.png",
+          "image385.png",
+          "image387.png",
+          "image388.png",
+          "image389.png",
+          "image390.png",
+          "image391.png",
+          "image392.png",
+          "image392.png",
+          "image393.png",
+          "image394.png",
+          "image395.png",
+          "image396.png"
+        ]
+      },
+      {
+        "title": "Special factorization",
+        "para_start": 752,
+        "images": [
+          "image397.png",
+          "image398.png",
+          "image399.png",
+          "image400.png",
+          "image401.png",
+          "image402.png",
+          "image403.png",
+          "image404.png",
+          "image405.png",
+          "image406.png",
+          "image407.png",
+          "image408.png",
+          "image409.png",
+          "image410.png",
+          "image411.png",
+          "image412.png",
+          "image413.png",
+          "image414.png",
+          "image415.png",
+          "image416.png",
+          "image417.png",
+          "image418.png",
+          "image419.png",
+          "image420.png",
+          "image421.png",
+          "image422.png",
+          "image423.png",
+          "image424.png",
+          "image425.png",
+          "image426.png",
+          "image427.png",
+          "image428.png",
+          "image429.png",
+          "image430.png",
+          "image431.png",
+          "image432.png",
+          "image433.png",
+          "image434.png",
+          "image435.png",
+          "image436.png",
+          "image437.png",
+          "image438.png",
+          "image439.png",
+          "image440.png",
+          "image441.png",
+          "image442.png",
+          "image443.png",
+          "image444.png",
+          "image445.png",
+          "image446.png",
+          "image447.png",
+          "image448.png",
+          "image449.png",
+          "image450.png",
+          "image451.png",
+          "image452.png",
+          "image453.png",
+          "image454.png",
+          "image455.png",
+          "image456.png",
+          "image457.png",
+          "image458.png",
+          "image459.png",
+          "image460.png",
+          "image461.png",
+          "image462.png",
+          "image463.png",
+          "image464.png",
+          "image465.png",
+          "image466.png",
+          "image467.png",
+          "image468.png",
+          "image469.png",
+          "image470.png",
+          "image471.png",
+          "image472.png",
+          "image473.png",
+          "image474.png",
+          "image475.png",
+          "image476.png",
+          "image476.png",
+          "image477.png",
+          "image478.png",
+          "image479.png",
+          "image480.png",
+          "image481.png"
+        ]
+      }
+    ],
+    "images": []
+  },
+  {
+    "title": "Solving equations",
+    "para_start": 793,
+    "subsections": [
+      {
+        "title": "Linear equations",
+        "para_start": 795,
+        "images": [
+          "image483.png",
+          "image484.png",
+          "image485.png",
+          "image486.png",
+          "image487.png",
+          "image488.png",
+          "image489.png",
+          "image490.png",
+          "image490.png",
+          "image491.png",
+          "image492.png",
+          "image493.png",
+          "image494.png",
+          "image495.png",
+          "image496.png",
+          "image497.png",
+          "image498.png",
+          "image499.png",
+          "image500.png",
+          "image501.png",
+          "image502.png",
+          "image502.png",
+          "image503.png",
+          "image504.png",
+          "image505.png",
+          "image506.png",
+          "image507.png"
+        ]
+      },
+      {
+        "title": "Rational equations",
+        "para_start": 825,
+        "images": [
+          "image508.png",
+          "image509.png",
+          "image510.png",
+          "image511.png",
+          "image512.png",
+          "image513.png",
+          "image514.png",
+          "image515.png",
+          "image516.png",
+          "image516.png",
+          "image517.png",
+          "image518.png",
+          "image519.png"
+        ]
+      },
+      {
+        "title": "Power equations",
+        "para_start": 842,
+        "images": [
+          "image520.png",
+          "image521.png",
+          "image522.png",
+          "image523.png",
+          "image524.png",
+          "image525.png",
+          "image526.png",
+          "image527.png",
+          "image528.png",
+          "image529.png"
+        ]
+      },
+      {
+        "title": "Quadratic equations",
+        "para_start": 862,
+        "images": [
+          "image530.png",
+          "image531.png",
+          "image532.png",
+          "image533.png",
+          "image534.png",
+          "image535.png",
+          "image536.png",
+          "image537.png",
+          "image538.png",
+          "image539.png",
+          "image540.png",
+          "image541.png",
+          "image541.png",
+          "image542.png",
+          "image543.png",
+          "image544.png",
+          "image544.png",
+          "image545.png",
+          "image546.png",
+          "image547.png",
+          "image548.png",
+          "image549.png",
+          "image550.png",
+          "image551.png",
+          "image552.png",
+          "image553.png",
+          "image554.png",
+          "image555.png",
+          "image556.png",
+          "image557.png",
+          "image558.png",
+          "image559.png",
+          "image560.png",
+          "image561.png",
+          "image562.png",
+          "image563.png",
+          "image564.png",
+          "image565.png",
+          "image566.png",
+          "image567.png",
+          "image568.png",
+          "image568.png",
+          "image569.png",
+          "image570.png",
+          "image571.png",
+          "image572.png",
+          "image573.png",
+          "image574.png",
+          "image575.png",
+          "image576.png",
+          "image577.png",
+          "image578.png",
+          "image579.png",
+          "image580.png",
+          "image581.png",
+          "image582.png",
+          "image583.png",
+          "image584.png",
+          "image585.png",
+          "image585.png",
+          "image586.png",
+          "image587.png",
+          "image588.png",
+          "image589.png",
+          "image589.png",
+          "image590.png",
+          "image591.png",
+          "image592.png",
+          "image593.png",
+          "image594.png",
+          "image595.png"
+        ]
+      }
+    ],
+    "images": [
+      "image482.png"
+    ]
+  },
+  {
+    "title": "Problem solving with algebra",
+    "para_start": 941,
+    "subsections": [
+      {
+        "title": "Problem solving with quadratic equations",
+        "para_start": 993,
+        "images": [
+          "image629.png",
+          "image630.png",
+          "image631.png",
+          "image632.png",
+          "image633.png",
+          "image634.png",
+          "image635.png",
+          "image636.png",
+          "image637.png",
+          "image638.png",
+          "image639.png",
+          "image640.png",
+          "image641.png",
+          "image642.png",
+          "image643.png",
+          "image644.png",
+          "image645.png",
+          "image646.png",
+          "image647.png",
+          "image648.png",
+          "image649.png",
+          "image650.png"
+        ]
+      },
+      {
+        "title": "Quadratic equations with",
+        "para_start": 1018,
+        "images": [
+          "image651.png",
+          "image652.png",
+          "image653.png",
+          "image654.png",
+          "image655.png",
+          "image656.png",
+          "image657.png",
+          "image658.png",
+          "image659.png",
+          "image660.png",
+          "image661.png",
+          "image662.png",
+          "image663.png",
+          "image664.png",
+          "image665.png",
+          "image666.png",
+          "image666.png"
+        ]
+      },
+      {
+        "title": "Algebraic expressions and equations  puzzles and tricks",
+        "para_start": 1045,
+        "images": [
+          "image667.png",
+          "image668.png",
+          "image668.png",
+          "image669.png",
+          "image670.png",
+          "image671.png",
+          "image672.png",
+          "image673.png",
+          "image674.png",
+          "image675.png",
+          "image676.png",
+          "image677.png",
+          "image678.png",
+          "image679.png",
+          "image680.png",
+          "image681.png",
+          "image682.png",
+          "image683.png",
+          "image684.png",
+          "image685.png",
+          "image686.png",
+          "image687.png"
+        ]
+      },
+      {
+        "title": "Writing equations",
+        "para_start": 1066,
+        "images": [
+          "image688.png",
+          "image689.png",
+          "image690.png",
+          "image691.png"
+        ]
+      },
+      {
+        "title": "Exercise for expression",
+        "para_start": 1084,
+        "images": [
+          "image692.png",
+          "image693.png",
+          "image694.png",
+          "image695.png",
+          "image696.png",
+          "image697.png",
+          "image698.png",
+          "image699.png",
+          "image700.png",
+          "image701.png"
+        ]
+      },
+      {
+        "title": "Exercise for equation",
+        "para_start": 1106,
+        "images": [
+          "image702.png",
+          "image703.png",
+          "image704.png",
+          "image705.png",
+          "image706.png",
+          "image707.png",
+          "image708.png",
+          "image709.png",
+          "image710.png",
+          "image711.png",
+          "image712.png",
+          "image713.png"
+        ]
+      },
+      {
+        "title": "Challenge problems",
+        "para_start": 1118,
+        "images": [
+          "image714.png",
+          "image715.png",
+          "image716.png",
+          "image717.png",
+          "image718.png",
+          "image719.png",
+          "image720.png",
+          "image721.png",
+          "image722.png",
+          "image723.png",
+          "image724.png",
+          "image725.png",
+          "image726.png",
+          "image727.png",
+          "image728.png"
+        ]
+      }
+    ],
+    "images": [
+      "image596.png",
+      "image597.png",
+      "image598.png",
+      "image599.png",
+      "image600.png",
+      "image601.png",
+      "image602.png",
+      "image603.png",
+      "image604.png",
+      "image605.png",
+      "image606.png",
+      "image607.png",
+      "image608.png",
+      "image609.png",
+      "image610.png",
+      "image611.png",
+      "image612.png",
+      "image613.png",
+      "image614.png",
+      "image614.png",
+      "image615.png",
+      "image616.png",
+      "image617.png",
+      "image618.png",
+      "image619.png",
+      "image620.png",
+      "image621.png",
+      "image622.png",
+      "image623.png",
+      "image624.png",
+      "image624.png",
+      "image625.png",
+      "image626.png",
+      "image627.png",
+      "image628.png"
+    ]
+  },
+  {
+    "title": "Simultaneous equations",
+    "para_start": 1134,
+    "subsections": [
+      {
+        "title": "Solution by substitution",
+        "para_start": 1138,
+        "images": [
+          "image733.png",
+          "image734.png",
+          "image735.png",
+          "image736.png",
+          "image737.png",
+          "image738.png",
+          "image739.png",
+          "image740.png",
+          "image741.png"
+        ]
+      },
+      {
+        "title": "Solution by elimination",
+        "para_start": 1148,
+        "images": [
+          "image742.png",
+          "image742.png",
+          "image743.png",
+          "image744.png",
+          "image745.png",
+          "image745.png",
+          "image746.png",
+          "image747.png",
+          "image748.png",
+          "image749.png",
+          "image749.png"
+        ]
+      },
+      {
+        "title": "Problem solving with simultaneous equations",
+        "para_start": 1160,
+        "images": [
+          "image750.png",
+          "image751.png",
+          "image752.png",
+          "image753.png",
+          "image754.png",
+          "image755.png",
+          "image756.png",
+          "image757.png",
+          "image758.png",
+          "image759.png",
+          "image760.png",
+          "image761.png",
+          "image762.png",
+          "image763.png",
+          "image764.png",
+          "image765.png",
+          "image766.png",
+          "image767.png",
+          "image768.png",
+          "image769.png",
+          "image770.png",
+          "image771.png",
+          "image772.png",
+          "image773.png",
+          "image774.png",
+          "image775.png",
+          "image776.png"
+        ]
+      },
+      {
+        "title": "Non-linear simultaneous equations",
+        "para_start": 1181,
+        "images": [
+          "image777.png",
+          "image778.png",
+          "image779.png",
+          "image779.png",
+          "image780.png",
+          "image781.png",
+          "image782.png",
+          "image783.png",
+          "image784.png",
+          "image785.png",
+          "image786.png",
+          "image787.png",
+          "image788.png",
+          "image788.png",
+          "image789.png",
+          "image790.png"
+        ]
+      },
+      {
+        "title": "More linear equations in disguise",
+        "para_start": 1192,
+        "images": [
+          "image791.png",
+          "image792.png",
+          "image793.png",
+          "image794.png",
+          "image795.png",
+          "image796.png",
+          "image797.png",
+          "image798.png",
+          "image799.png",
+          "image800.png",
+          "image801.png",
+          "image802.png"
+        ]
+      },
+      {
+        "title": "More variables for system equations",
+        "para_start": 1197,
+        "images": [
+          "image803.png",
+          "image804.png",
+          "image805.png",
+          "image806.png",
+          "image807.png",
+          "image808.png",
+          "image809.png",
+          "image810.png",
+          "image811.png",
+          "image812.png",
+          "image813.png",
+          "image814.png",
+          "image815.png",
+          "image816.png",
+          "image817.png",
+          "image818.png",
+          "image819.png",
+          "image820.png",
+          "image821.png",
+          "image822.png",
+          "image823.png",
+          "image824.png",
+          "image825.png",
+          "image826.png",
+          "image827.png",
+          "image828.png",
+          "image829.png"
+        ]
+      }
+    ],
+    "images": [
+      "image729.png",
+      "image730.png",
+      "image731.png",
+      "image732.png"
+    ]
+  },
+  {
+    "title": "Inequalities",
+    "para_start": 1212,
+    "subsections": [
+      {
+        "title": "Interval notation",
+        "para_start": 1213,
+        "images": [
+          "image830.png",
+          "image831.png",
+          "image832.png",
+          "image833.png",
+          "image834.png",
+          "image835.png",
+          "image835.png",
+          "image836.png",
+          "image837.png",
+          "image838.png",
+          "image839.png"
+        ]
+      },
+      {
+        "title": "Linear inequalities",
+        "para_start": 1217,
+        "images": [
+          "image840.png",
+          "image841.png",
+          "image842.png",
+          "image843.png",
+          "image844.png",
+          "image845.png",
+          "image846.png",
+          "image847.png",
+          "image848.png",
+          "image849.png",
+          "image850.png",
+          "image851.png",
+          "image852.png",
+          "image853.png",
+          "image854.png",
+          "image855.png"
+        ]
+      },
+      {
+        "title": "Sign diagrams",
+        "para_start": 1225,
+        "images": [
+          "image856.png",
+          "image857.png",
+          "image858.png",
+          "image859.png",
+          "image860.png",
+          "image861.png",
+          "image862.png",
+          "image863.png",
+          "image864.png",
+          "image865.png",
+          "image866.png",
+          "image867.png"
+        ]
+      },
+      {
+        "title": "Non-linear inequalities",
+        "para_start": 1228,
+        "images": [
+          "image868.png",
+          "image869.png",
+          "image870.png",
+          "image871.png",
+          "image872.png",
+          "image873.png",
+          "image874.png",
+          "image875.png",
+          "image876.png",
+          "image877.png",
+          "image878.png",
+          "image879.png",
+          "image880.png",
+          "image881.png",
+          "image882.png",
+          "image883.png"
+        ]
+      }
+    ],
+    "images": []
+  },
+  {
+    "title": "Straight line",
+    "para_start": 1237,
+    "subsections": [
+      {
+        "title": "Cartesian plane",
+        "para_start": 1238,
+        "images": [
+          "image884.png"
+        ]
+      },
+      {
+        "title": "Propertities of a line",
+        "para_start": 1240,
+        "images": [
+          "image885.png",
+          "image886.png",
+          "image887.png",
+          "image888.png",
+          "image889.png",
+          "image890.png",
+          "image891.png",
+          "image892.png",
+          "image893.png",
+          "image894.png",
+          "image895.png",
+          "image896.png",
+          "image897.png",
+          "image898.png",
+          "image899.png",
+          "image900.png",
+          "image901.png",
+          "image902.png",
+          "image903.png",
+          "image904.png",
+          "image905.png",
+          "image906.png",
+          "image907.png",
+          "image908.png",
+          "image909.png",
+          "image910.png",
+          "image911.png"
+        ]
+      },
+      {
+        "title": "Parallel and perpendicular lines",
+        "para_start": 1252,
+        "images": [
+          "image912.png",
+          "image913.png",
+          "image914.png",
+          "image915.png",
+          "image916.png",
+          "image917.png",
+          "image918.png",
+          "image919.png",
+          "image920.png",
+          "image920.png",
+          "image921.png",
+          "image922.png",
+          "image923.png",
+          "image924.png",
+          "image925.png",
+          "image926.png",
+          "image927.png",
+          "image928.png"
+        ]
+      },
+      {
+        "title": "Graphing a straight line",
+        "para_start": 1260,
+        "images": [
+          "image929.png",
+          "image930.png",
+          "image931.png",
+          "image932.png",
+          "image933.png",
+          "image934.png",
+          "image935.png",
+          "image936.png",
+          "image937.png",
+          "image938.png",
+          "image939.png"
+        ]
+      },
+      {
+        "title": "Perpendicular bisectors",
+        "para_start": 1269,
+        "images": [
+          "image940.png",
+          "image941.png",
+          "image942.png",
+          "image942.png",
+          "image943.png",
+          "image944.png",
+          "image945.png",
+          "image946.png",
+          "image947.png",
+          "image948.png",
+          "image949.png",
+          "image950.png",
+          "image951.png",
+          "image952.png",
+          "image953.png",
+          "image954.png",
+          "image955.png",
+          "image956.png",
+          "image957.png",
+          "image958.png",
+          "image959.png",
+          "image960.png",
+          "image961.png",
+          "image962.png",
+          "image963.png",
+          "image964.png",
+          "image965.png",
+          "image966.png",
+          "image967.png",
+          "image968.png",
+          "image969.png",
+          "image970.png",
+          "image970.png",
+          "image970.png",
+          "image971.png",
+          "image972.png",
+          "image973.png",
+          "image974.png",
+          "image975.png",
+          "image976.png"
+        ]
+      }
+    ],
+    "images": []
+  },
+  {
+    "title": "Quadratic function",
+    "para_start": 1282,
+    "subsections": [
+      {
+        "title": "Graphs of quadratic functions",
+        "para_start": 1291,
+        "images": [
+          "image995.png",
+          "image996.png",
+          "image997.png",
+          "image998.png",
+          "image999.png",
+          "image1000.png",
+          "image1001.png",
+          "image1002.png",
+          "image1003.png",
+          "image1004.png",
+          "image1005.png",
+          "image1006.png",
+          "image1007.png",
+          "image1008.png",
+          "image1009.png",
+          "image1010.png",
+          "image1011.png",
+          "image1012.png",
+          "image1013.png",
+          "image1014.png",
+          "image1015.png",
+          "image1016.png",
+          "image1017.png",
+          "image1018.png",
+          "image1019.png",
+          "image1020.png",
+          "image1021.png",
+          "image1022.png",
+          "image1023.png",
+          "image1024.png",
+          "image1025.png",
+          "image1026.png",
+          "image1027.png",
+          "image1028.png",
+          "image1029.png",
+          "image1030.png",
+          "image1031.png",
+          "image1032.png",
+          "image1033.png",
+          "image1034.png",
+          "image1035.png",
+          "image1036.png",
+          "image1037.png"
+        ]
+      },
+      {
+        "title": "The discriminant and the quadratic graph",
+        "para_start": 1304,
+        "images": [
+          "image1038.png",
+          "image1039.png",
+          "image1040.png",
+          "image1041.png",
+          "image1042.png",
+          "image1043.png",
+          "image1044.png",
+          "image1045.png",
+          "image1046.png",
+          "image1047.png",
+          "image1048.png",
+          "image1049.png",
+          "image1050.png",
+          "image1051.png"
+        ]
+      },
+      {
+        "title": "vertex",
+        "para_start": 1307,
+        "images": [
+          "image1052.png",
+          "image1053.png",
+          "image1054.png",
+          "image1055.png",
+          "image1056.png",
+          "image1057.png",
+          "image1058.png",
+          "image1059.png",
+          "image1060.png",
+          "image1061.png",
+          "image1062.png",
+          "image1063.png",
+          "image1064.png",
+          "image1065.png",
+          "image1066.png",
+          "image1067.png",
+          "image1068.png",
+          "image1069.png",
+          "image1070.png",
+          "image1071.png",
+          "image1072.png",
+          "image1073.png",
+          "image1074.png",
+          "image1075.png",
+          "image1076.png",
+          "image1077.png",
+          "image1078.png",
+          "image1078.png"
+        ]
+      },
+      {
+        "title": "Sketching quadratics in the general form",
+        "para_start": 1321,
+        "images": [
+          "image1079.png",
+          "image1080.png",
+          "image1081.png",
+          "image1082.png",
+          "image1083.png",
+          "image1084.png",
+          "image1085.png",
+          "image1086.png",
+          "image1087.png",
+          "image1088.png",
+          "image1089.png",
+          "image1090.png",
+          "image1091.png",
+          "image1092.png",
+          "image1093.png",
+          "image1094.png",
+          "image1095.png",
+          "image1096.png",
+          "image1097.png"
+        ]
+      },
+      {
+        "title": "Finding a quadratic from its graph",
+        "para_start": 1327,
+        "images": [
+          "image1098.png",
+          "image1099.png",
+          "image1100.png",
+          "image1101.png",
+          "image1102.png",
+          "image1103.png",
+          "image1104.png",
+          "image1105.png",
+          "image1106.png"
+        ]
+      },
+      {
+        "title": "The intersection of graphs",
+        "para_start": 1334,
+        "images": [
+          "image1107.png",
+          "image1108.png",
+          "image1109.png",
+          "image1110.png",
+          "image1111.png",
+          "image1112.png",
+          "image1113.png",
+          "image1114.png",
+          "image1115.png"
+        ]
+      },
+      {
+        "title": "Problem solving with quadratic",
+        "para_start": 1338,
+        "images": [
+          "image1116.png",
+          "image1117.png",
+          "image1118.png",
+          "image1119.png",
+          "image1120.png",
+          "image1121.png",
+          "image1122.png",
+          "image1123.png",
+          "image1124.png",
+          "image1125.png",
+          "image1126.png",
+          "image1127.png"
+        ]
+      },
+      {
+        "title": "Quadratic inequalities",
+        "para_start": 1342,
+        "images": [
+          "image1128.png",
+          "image1129.png",
+          "image1130.png",
+          "image1131.png",
+          "image1132.png",
+          "image1133.png",
+          "image1134.png",
+          "image1135.png",
+          "image1136.png",
+          "image1137.png",
+          "image1138.png",
+          "image1138.png",
+          "image1139.png",
+          "image1140.png",
+          "image1141.png",
+          "image1142.png",
+          "image1143.png",
+          "image1144.png",
+          "image1145.png",
+          "image1146.png",
+          "image1147.png",
+          "image1148.png",
+          "image1149.png",
+          "image1150.png",
+          "image1151.png",
+          "image1152.png",
+          "image1153.png",
+          "image1154.png",
+          "image1155.png",
+          "image1156.png",
+          "image1157.png",
+          "image1158.png",
+          "image1159.png",
+          "image1160.png",
+          "image1161.png",
+          "image1162.png",
+          "image1163.png",
+          "image1164.png",
+          "image1165.png",
+          "image1166.png",
+          "image1167.png",
+          "image1168.png",
+          "image1169.png",
+          "image1170.png",
+          "image1171.png",
+          "image1172.png",
+          "image1173.png",
+          "image1174.png",
+          "image1175.png",
+          "image1176.png",
+          "image1177.png",
+          "image1178.png"
+        ]
+      }
+    ],
+    "images": [
+      "image977.png",
+      "image978.png",
+      "image979.png",
+      "image980.png",
+      "image981.png",
+      "image982.png",
+      "image983.png",
+      "image984.png",
+      "image985.png",
+      "image986.png",
+      "image987.png",
+      "image988.png",
+      "image989.png",
+      "image990.png",
+      "image991.png",
+      "image992.png",
+      "image993.png",
+      "image994.png"
+    ]
+  },
+  {
+    "title": "sets",
+    "para_start": 1362,
+    "subsections": [
+      {
+        "title": "set notation",
+        "para_start": 1363,
+        "images": [
+          "image1179.png",
+          "image1180.png",
+          "image1181.png",
+          "image1182.png",
+          "image1183.png",
+          "image1184.png",
+          "image1185.png",
+          "image1186.png",
+          "image1187.png",
+          "image1188.png",
+          "image1189.png",
+          "image1190.png",
+          "image1191.png",
+          "image1192.png"
+        ]
+      },
+      {
+        "title": "Special number sets",
+        "para_start": 1367,
+        "images": [
+          "image1193.png",
+          "image1194.png",
+          "image1195.png",
+          "image1196.png",
+          "image1197.png",
+          "image1198.png",
+          "image1199.png",
+          "image1200.png",
+          "image1201.png",
+          "image1202.png",
+          "image1203.png",
+          "image1204.png",
+          "image1205.png",
+          "image1206.png",
+          "image1206.png",
+          "image1207.png"
+        ]
+      },
+      {
+        "title": "Interval notation",
+        "para_start": 1383,
+        "images": [
+          "image1208.png",
+          "image1209.png",
+          "image1210.png"
+        ]
+      },
+      {
+        "title": "Subsets and complement",
+        "para_start": 1385,
+        "images": [
+          "image1211.png",
+          "image1212.png",
+          "image1213.png",
+          "image1214.png",
+          "image1215.png",
+          "image1216.png",
+          "image1217.png",
+          "image1218.png",
+          "image1219.png",
+          "image1220.png",
+          "image1221.png",
+          "image1222.png",
+          "image1223.png",
+          "image1224.png",
+          "image1225.png",
+          "image1226.png",
+          "image1227.png",
+          "image1228.png",
+          "image1229.png",
+          "image1230.png",
+          "image1231.png"
+        ]
+      }
+    ],
+    "images": []
+  },
+  {
+    "title": "Venn diagrams",
+    "para_start": 1397,
+    "subsections": [
+      {
+        "title": "Union and intersection",
+        "para_start": 1400,
+        "images": [
+          "image1241.png",
+          "image1242.png",
+          "image1243.png",
+          "image1244.png",
+          "image1245.png",
+          "image1246.png",
+          "image1247.png",
+          "image1248.png",
+          "image1249.png",
+          "image1250.png",
+          "image1251.png",
+          "image1252.png",
+          "image1253.png",
+          "image1254.png",
+          "image1255.png",
+          "image1256.png",
+          "image1257.png",
+          "image1258.png",
+          "image1259.png",
+          "image1260.png",
+          "image1261.png",
+          "image1262.png",
+          "image1263.png",
+          "image1264.png",
+          "image1265.png",
+          "image1266.png",
+          "image1266.png",
+          "image1267.png",
+          "image1268.png",
+          "image1268.png",
+          "image1269.png",
+          "image1270.png",
+          "image1270.png",
+          "image1271.png"
+        ]
+      },
+      {
+        "title": "Using venn diagrams to illustrate regions",
+        "para_start": 1408,
+        "images": [
+          "image1272.png",
+          "image1273.png",
+          "image1274.png",
+          "image1275.png",
+          "image1276.png",
+          "image1277.png",
+          "image1278.png",
+          "image1279.png",
+          "image1280.png",
+          "image1281.png",
+          "image1282.png",
+          "image1282.png",
+          "image1283.png",
+          "image1284.png",
+          "image1285.png",
+          "image1286.png"
+        ]
+      },
+      {
+        "title": "Numbers in regions",
+        "para_start": 1412,
+        "images": [
+          "image1287.png",
+          "image1288.png",
+          "image1289.png",
+          "image1290.png"
+        ]
+      },
+      {
+        "title": "Problem solving with venn diagrams",
+        "para_start": 1415,
+        "images": [
+          "image1291.png",
+          "image1292.png",
+          "image1293.png",
+          "image1294.png",
+          "image1295.png",
+          "image1296.png",
+          "image1297.png",
+          "image1298.png",
+          "image1299.png"
+        ]
+      },
+      {
+        "title": "The algebra of sets",
+        "para_start": 1417,
+        "images": [
+          "image1300.png",
+          "image1301.png",
+          "image1302.png",
+          "image1303.png"
+        ]
+      },
+      {
+        "title": "Finding probabilities from venn diagrams",
+        "para_start": 1419,
+        "images": [
+          "image1304.png",
+          "image1305.png",
+          "image1306.png",
+          "image1307.png",
+          "image1308.png",
+          "image1309.png",
+          "image1309.png",
+          "image1310.png",
+          "image1311.png",
+          "image1312.png",
+          "image1313.png",
+          "image1314.png",
+          "image1315.png",
+          "image1316.png",
+          "image1317.png",
+          "image1318.png",
+          "image1319.png",
+          "image1320.png",
+          "image1321.png",
+          "image1322.png",
+          "image1323.png",
+          "image1324.png",
+          "image1325.png",
+          "image1326.png",
+          "image1327.png",
+          "image1328.png",
+          "image1329.png",
+          "image1330.png",
+          "image1331.png",
+          "image1332.png",
+          "image1333.png",
+          "image1334.png",
+          "image1335.png",
+          "image1336.png",
+          "image1337.png",
+          "image1338.png",
+          "image1339.png",
+          "image1340.png",
+          "image1341.png",
+          "image1342.png",
+          "image1343.png",
+          "image1344.png",
+          "image1345.png",
+          "image1346.png",
+          "image1347.png",
+          "image1348.png",
+          "image1349.png",
+          "image1350.png",
+          "image1351.png",
+          "image1352.png",
+          "image1353.png",
+          "image1354.png",
+          "image1355.png",
+          "image1356.png",
+          "image1357.png",
+          "image1358.png"
+        ]
+      }
+    ],
+    "images": [
+      "image1232.png",
+      "image1233.png",
+      "image1234.png",
+      "image1235.png",
+      "image1236.png",
+      "image1237.png",
+      "image1238.png",
+      "image1239.png",
+      "image1240.png"
+    ]
+  },
+  {
+    "title": "Functions",
+    "para_start": 1427,
+    "subsections": [
+      {
+        "title": "Relations and functions",
+        "para_start": 1428,
+        "images": [
+          "image1359.png",
+          "image1360.png",
+          "image1361.png",
+          "image1362.png",
+          "image1363.png",
+          "image1364.png",
+          "image1365.png",
+          "image1366.png",
+          "image1367.png",
+          "image1368.png",
+          "image1369.png",
+          "image1370.png",
+          "image1371.png"
+        ]
+      },
+      {
+        "title": "Function notation",
+        "para_start": 1439,
+        "images": [
+          "image1372.png",
+          "image1373.png",
+          "image1374.png",
+          "image1375.png",
+          "image1376.png",
+          "image1377.png",
+          "image1378.png",
+          "image1378.png",
+          "image1379.png",
+          "image1380.png",
+          "image1381.png",
+          "image1382.png"
+        ]
+      },
+      {
+        "title": "Domain and range",
+        "para_start": 1442,
+        "images": [
+          "image1383.png",
+          "image1384.png",
+          "image1385.png",
+          "image1386.png",
+          "image1387.png",
+          "image1388.png",
+          "image1389.png",
+          "image1390.png",
+          "image1391.png",
+          "image1392.png",
+          "image1392.png",
+          "image1393.png",
+          "image1393.png",
+          "image1394.png",
+          "image1395.png",
+          "image1396.png"
+        ]
+      },
+      {
+        "title": "Composite functions",
+        "para_start": 1448,
+        "images": [
+          "image1397.png",
+          "image1398.png",
+          "image1399.png",
+          "image1400.png",
+          "image1401.png",
+          "image1402.png",
+          "image1403.png",
+          "image1404.png",
+          "image1405.png",
+          "image1406.png",
+          "image1407.png"
+        ]
+      },
+      {
+        "title": "Inverse function",
+        "para_start": 1460,
+        "images": [
+          "image1408.png",
+          "image1409.png",
+          "image1410.png",
+          "image1411.png",
+          "image1412.png",
+          "image1413.png",
+          "image1414.png",
+          "image1415.png",
+          "image1416.png",
+          "image1417.png",
+          "image1418.png",
+          "image1419.png",
+          "image1420.png",
+          "image1421.png",
+          "image1422.png",
+          "image1422.png",
+          "image1423.png"
+        ]
+      },
+      {
+        "title": "Rational functions",
+        "para_start": 1463,
+        "images": [
+          "image1424.png",
+          "image1425.png",
+          "image1426.png",
+          "image1427.png",
+          "image1428.png",
+          "image1429.png",
+          "image1430.png",
+          "image1431.png",
+          "image1432.png",
+          "image1433.png",
+          "image1434.png",
+          "image1435.png",
+          "image1436.png",
+          "image1436.png",
+          "image1437.png",
+          "image1438.png"
+        ]
+      },
+      {
+        "title": "Absolute value functions",
+        "para_start": 1474,
+        "images": [
+          "image1439.png",
+          "image1440.png",
+          "image1441.png",
+          "image1442.png",
+          "image1443.png",
+          "image1444.png",
+          "image1445.png",
+          "image1446.png",
+          "image1447.png",
+          "image1448.png",
+          "image1449.png",
+          "image1450.png",
+          "image1451.png",
+          "image1452.png"
+        ]
+      },
+      {
+        "title": "Where functions meet",
+        "para_start": 1476,
+        "images": [
+          "image1453.png",
+          "image1454.png",
+          "image1455.png",
+          "image1456.png",
+          "image1457.png",
+          "image1458.png",
+          "image1459.png",
+          "image1460.png",
+          "image1461.png",
+          "image1462.png",
+          "image1463.png",
+          "image1464.png",
+          "image1465.png",
+          "image1466.png",
+          "image1467.png",
+          "image1468.png",
+          "image1469.png",
+          "image1470.png",
+          "image1471.png",
+          "image1472.png",
+          "image1473.png",
+          "image1474.png",
+          "image1475.png",
+          "image1476.png",
+          "image1477.png"
+        ]
+      },
+      {
+        "title": "More functions",
+        "para_start": 1488,
+        "images": [
+          "image1478.png",
+          "image1479.png",
+          "image1480.png",
+          "image1481.png",
+          "image1482.png",
+          "image1483.png",
+          "image1484.png",
+          "image1485.png",
+          "image1486.png",
+          "image1487.png",
+          "image1488.png",
+          "image1489.png",
+          "image1490.png"
+        ]
+      },
+      {
+        "title": "Combining functions",
+        "para_start": 1490,
+        "images": [
+          "image1491.png",
+          "image1492.png",
+          "image1493.png",
+          "image1494.png"
+        ]
+      },
+      {
+        "title": "Composite function",
+        "para_start": 1492,
+        "images": [
+          "image1495.png",
+          "image1496.png",
+          "image1497.png",
+          "image1498.png",
+          "image1499.png",
+          "image1500.png",
+          "image1501.png"
+        ]
+      },
+      {
+        "title": "Inverse functions",
+        "para_start": 1494,
+        "images": [
+          "image1502.png",
+          "image1503.png",
+          "image1504.png",
+          "image1505.png",
+          "image1506.png",
+          "image1507.png",
+          "image1508.png",
+          "image1509.png",
+          "image1510.png",
+          "image1511.png",
+          "image1512.png",
+          "image1513.png",
+          "image1513.png",
+          "image1514.png",
+          "image1515.png"
+        ]
+      },
+      {
+        "title": "Problem solving with functions",
+        "para_start": 1503,
+        "images": [
+          "image1516.png",
+          "image1517.png",
+          "image1518.png",
+          "image1519.png",
+          "image1520.png",
+          "image1521.png",
+          "image1522.png",
+          "image1523.png",
+          "image1524.png",
+          "image1525.png",
+          "image1525.png",
+          "image1526.png",
+          "image1527.png",
+          "image1528.png",
+          "image1529.png",
+          "image1530.png"
+        ]
+      },
+      {
+        "title": "operations",
+        "para_start": 1505,
+        "images": [
+          "image1531.png",
+          "image1532.png",
+          "image1533.png",
+          "image1534.png",
+          "image1535.png",
+          "image1536.png",
+          "image1537.png",
+          "image1538.png",
+          "image1539.png",
+          "image1540.png",
+          "image1541.png"
+        ]
+      }
+    ],
+    "images": []
+  },
+  {
+    "title": "Transformation of functions",
+    "para_start": 1513,
+    "subsections": [
+      {
+        "title": "translations",
+        "para_start": 1514,
+        "images": [
+          "image1542.png",
+          "image1543.png",
+          "image1544.png",
+          "image1545.png"
+        ]
+      },
+      {
+        "title": "stretches",
+        "para_start": 1516,
+        "images": [
+          "image1546.png",
+          "image1547.png",
+          "image1547.png",
+          "image1548.png",
+          "image1549.png",
+          "image1550.png",
+          "image1551.png",
+          "image1552.png",
+          "image1553.png",
+          "image1554.png"
+        ]
+      },
+      {
+        "title": "reflections",
+        "para_start": 1518,
+        "images": [
+          "image1555.png",
+          "image1556.png",
+          "image1557.png",
+          "image1558.png",
+          "image1559.png",
+          "image1560.png",
+          "image1561.png",
+          "image1562.png",
+          "image1563.png",
+          "image1564.png",
+          "image1565.png",
+          "image1566.png",
+          "image1567.png",
+          "image1568.png",
+          "image1569.png",
+          "image1570.png",
+          "image1571.png",
+          "image1572.png",
+          "image1573.png",
+          "image1574.png",
+          "image1575.png",
+          "image1576.png"
+        ]
+      },
+      {
+        "title": "Even and odd functions",
+        "para_start": 1520,
+        "images": [
+          "image1577.png",
+          "image1578.png",
+          "image1579.png",
+          "image1580.png",
+          "image1581.png",
+          "image1582.png",
+          "image1583.png",
+          "image1584.png"
+        ]
+      },
+      {
+        "title": "The graph of y=",
+        "para_start": 1533,
+        "images": [
+          "image1585.png",
+          "image1586.png",
+          "image1587.png",
+          "image1588.png",
+          "image1589.png"
+        ]
+      },
+      {
+        "title": "Absolute value functions",
+        "para_start": 1540,
+        "images": [
+          "image1590.png",
+          "image1591.png",
+          "image1592.png",
+          "image1593.png",
+          "image1594.png",
+          "image1595.png",
+          "image1596.png",
+          "image1597.png",
+          "image1598.png"
+        ]
+      },
+      {
+        "title": "Modulus equations",
+        "para_start": 1547,
+        "images": [
+          "image1599.png",
+          "image1600.png",
+          "image1601.png",
+          "image1602.png",
+          "image1603.png",
+          "image1604.png",
+          "image1605.png",
+          "image1606.png",
+          "image1607.png",
+          "image1608.png",
+          "image1609.png",
+          "image1610.png",
+          "image1611.png",
+          "image1612.png"
+        ]
+      },
+      {
+        "title": "Rational functions",
+        "para_start": 1550,
+        "images": [
+          "image1613.png",
+          "image1614.png",
+          "image1615.png",
+          "image1616.png",
+          "image1617.png",
+          "image1618.png",
+          "image1619.png",
+          "image1620.png",
+          "image1621.png",
+          "image1622.png",
+          "image1623.png"
+        ]
+      },
+      {
+        "title": "Partial fractions",
+        "para_start": 1560,
+        "images": [
+          "image1624.png",
+          "image1625.png",
+          "image1626.png",
+          "image1627.png",
+          "image1628.png",
+          "image1629.png",
+          "image1630.png",
+          "image1631.png",
+          "image1632.png",
+          "image1633.png",
+          "image1634.png",
+          "image1635.png",
+          "image1636.png",
+          "image1637.png",
+          "image1638.png",
+          "image1639.png",
+          "image1640.png",
+          "image1641.png",
+          "image1642.png"
+        ]
+      },
+      {
+        "title": "Exponential functions",
+        "para_start": 1565,
+        "images": [
+          "image1643.png",
+          "image1644.png",
+          "image1645.png",
+          "image1646.png",
+          "image1647.png",
+          "image1648.png",
+          "image1649.png",
+          "image1650.png",
+          "image1651.png",
+          "image1652.png",
+          "image1653.png",
+          "image1654.png",
+          "image1655.png",
+          "image1656.png",
+          "image1657.png",
+          "image1658.png",
+          "image1659.png",
+          "image1660.png",
+          "image1661.png",
+          "image1662.png",
+          "image1663.png",
+          "image1664.png",
+          "image1665.png"
+        ]
+      },
+      {
+        "title": "Exponential equations",
+        "para_start": 1567,
+        "images": [
+          "image1666.png",
+          "image1667.png",
+          "image1668.png",
+          "image1669.png",
+          "image1670.png",
+          "image1671.png",
+          "image1672.png",
+          "image1673.png",
+          "image1674.png",
+          "image1675.png",
+          "image1675.png",
+          "image1676.png"
+        ]
+      },
+      {
+        "title": "Exponential functions",
+        "para_start": 1572,
+        "images": [
+          "image1675.png",
+          "image1677.png",
+          "image1678.png",
+          "image1679.png",
+          "image1680.png",
+          "image1681.png",
+          "image1682.png",
+          "image1683.png",
+          "image1684.png",
+          "image1685.png",
+          "image1686.png",
+          "image1687.png",
+          "image1688.png",
+          "image1689.png",
+          "image1690.png",
+          "image1691.png",
+          "image1692.png",
+          "image1693.png",
+          "image1694.png",
+          "image1695.png",
+          "image1696.png",
+          "image1697.png",
+          "image1698.png",
+          "image1699.png",
+          "image1700.png",
+          "image1701.png"
+        ]
+      },
+      {
+        "title": "Growth and decay",
+        "para_start": 1581,
+        "images": [
+          "image1702.png",
+          "image1703.png",
+          "image1704.png",
+          "image1705.png",
+          "image1706.png",
+          "image1707.png",
+          "image1708.png",
+          "image1709.png",
+          "image1710.png",
+          "image1711.png",
+          "image1712.png",
+          "image1713.png",
+          "image1714.png",
+          "image1715.png",
+          "image1716.png"
+        ]
+      },
+      {
+        "title": "decay",
+        "para_start": 1592,
+        "images": [
+          "image1717.png",
+          "image1718.png",
+          "image1719.png",
+          "image1720.png",
+          "image1721.png",
+          "image1722.png",
+          "image1723.png",
+          "image1724.png",
+          "image1725.png",
+          "image1725.png",
+          "image1726.png"
+        ]
+      },
+      {
+        "title": "Compound interest",
+        "para_start": 1596,
+        "images": [
+          "image1727.png",
+          "image1728.png",
+          "image1729.png",
+          "image1730.png",
+          "image1731.png",
+          "image1732.png",
+          "image1733.png",
+          "image1734.png",
+          "image1735.png",
+          "image1736.png"
+        ]
+      },
+      {
+        "title": "depreciation",
+        "para_start": 1598,
+        "images": [
+          "image1737.png",
+          "image1738.png",
+          "image1739.png",
+          "image1740.png",
+          "image1741.png",
+          "image1742.png",
+          "image1743.png",
+          "image1744.png"
+        ]
+      },
+      {
+        "title": "The natural exponential",
+        "para_start": 1609,
+        "images": [
+          "image1745.png",
+          "image1746.png",
+          "image1747.png",
+          "image1748.png",
+          "image1749.png",
+          "image1750.png",
+          "image1751.png",
+          "image1752.png",
+          "image1753.png",
+          "image1754.png",
+          "image1755.png",
+          "image1756.png",
+          "image1757.png",
+          "image1758.png"
+        ]
+      }
+    ],
+    "images": []
+  },
+  {
+    "title": "logarithms",
+    "para_start": 1622,
+    "subsections": [
+      {
+        "title": "Logarithms in base 10",
+        "para_start": 1624,
+        "images": [
+          "image1760.png",
+          "image1761.png",
+          "image1762.png",
+          "image1763.png",
+          "image1764.png",
+          "image1765.png",
+          "image1766.png",
+          "image1767.png",
+          "image1768.png",
+          "image1769.png",
+          "image1770.png",
+          "image1771.png"
+        ]
+      },
+      {
+        "title": "Logarithms in base a",
+        "para_start": 1626,
+        "images": [
+          "image1772.png",
+          "image1773.png",
+          "image1774.png",
+          "image1775.png",
+          "image1776.png",
+          "image1777.png",
+          "image1778.png",
+          "image1779.png",
+          "image1780.png"
+        ]
+      },
+      {
+        "title": "Laws of logarithms",
+        "para_start": 1632,
+        "images": [
+          "image1781.png",
+          "image1782.png",
+          "image1783.png",
+          "image1784.png",
+          "image1785.png",
+          "image1786.png",
+          "image1787.png",
+          "image1788.png",
+          "image1789.png",
+          "image1790.png",
+          "image1791.png"
+        ]
+      },
+      {
+        "title": "Natural logarithms",
+        "para_start": 1643,
+        "images": [
+          "image1792.png",
+          "image1793.png",
+          "image1794.png",
+          "image1795.png",
+          "image1796.png",
+          "image1797.png",
+          "image1798.png",
+          "image1799.png",
+          "image1800.png",
+          "image1801.png",
+          "image1802.png",
+          "image1803.png"
+        ]
+      },
+      {
+        "title": "Logarithmic equations",
+        "para_start": 1645,
+        "images": [
+          "image1804.png",
+          "image1805.png",
+          "image1806.png",
+          "image1807.png",
+          "image1808.png"
+        ]
+      },
+      {
+        "title": "The change of base rule",
+        "para_start": 1651,
+        "images": [
+          "image1809.png",
+          "image1810.png",
+          "image1811.png"
+        ]
+      },
+      {
+        "title": "Solving exponential equations using logarithms",
+        "para_start": 1653,
+        "images": [
+          "image1812.png",
+          "image1813.png",
+          "image1814.png",
+          "image1815.png",
+          "image1816.png",
+          "image1817.png",
+          "image1818.png",
+          "image1819.png",
+          "image1820.png",
+          "image1821.png",
+          "image1822.png",
+          "image1823.png",
+          "image1824.png",
+          "image1825.png"
+        ]
+      },
+      {
+        "title": "Logarithmic functions",
+        "para_start": 1663,
+        "images": [
+          "image1826.png",
+          "image1827.png",
+          "image1828.png",
+          "image1829.png",
+          "image1830.png",
+          "image1831.png",
+          "image1832.png",
+          "image1833.png",
+          "image1834.png",
+          "image1835.png",
+          "image1836.png",
+          "image1837.png",
+          "image1838.png",
+          "image1839.png",
+          "image1840.png",
+          "image1841.png",
+          "image1842.png",
+          "image1843.png",
+          "image1844.png",
+          "image1845.png",
+          "image1846.png",
+          "image1847.png",
+          "image1848.png",
+          "image1849.png",
+          "image1850.png",
+          "image1851.png",
+          "image1852.png",
+          "image1853.png",
+          "image1854.png",
+          "image1855.png",
+          "image1856.png",
+          "image1857.png",
+          "image1858.png",
+          "image1859.png",
+          "image1860.png",
+          "image1861.png",
+          "image1862.png"
+        ]
+      }
+    ],
+    "images": [
+      "image1759.png"
+    ]
+  },
+  {
+    "title": "summary",
+    "para_start": 1665,
+    "subsections": [],
+    "images": [
+      "image1863.png",
+      "image1864.png",
+      "image1865.png",
+      "image1866.png",
+      "image1867.png",
+      "image1868.png",
+      "image1869.png",
+      "image1870.png"
+    ]
+  },
+  {
+    "title": "Number sequences",
+    "para_start": 1671,
+    "subsections": [
+      {
+        "title": "Geometric patterns",
+        "para_start": 1672,
+        "images": [
+          "image1871.png",
+          "image1872.png",
+          "image1873.png",
+          "image1874.png",
+          "image1875.png",
+          "image1876.png",
+          "image1877.png",
+          "image1878.png"
+        ]
+      },
+      {
+        "title": "Using patterns",
+        "para_start": 1675,
+        "images": [
+          "image1879.png",
+          "image1880.png",
+          "image1881.png",
+          "image1882.png"
+        ]
+      },
+      {
+        "title": "Practical problems",
+        "para_start": 1679,
+        "images": [
+          "image1883.png",
+          "image1884.png"
+        ]
+      },
+      {
+        "title": "Number sequences",
+        "para_start": 1681,
+        "images": [
+          "image1885.png",
+          "image1886.png",
+          "image1887.png",
+          "image1888.png",
+          "image1889.png",
+          "image1890.png",
+          "image1891.png",
+          "image1892.png",
+          "image1893.png",
+          "image1894.png",
+          "image1895.png",
+          "image1896.png",
+          "image1897.png",
+          "image1898.png",
+          "image1899.png",
+          "image1900.png",
+          "image1901.png"
+        ]
+      },
+      {
+        "title": "Arithmetic sequences",
+        "para_start": 1694,
+        "images": [
+          "image1902.png",
+          "image1903.png",
+          "image1904.png",
+          "image1905.png",
+          "image1906.png",
+          "image1907.png",
+          "image1908.png",
+          "image1909.png",
+          "image1910.png",
+          "image1911.png",
+          "image1912.png",
+          "image1913.png",
+          "image1914.png",
+          "image1915.png",
+          "image1916.png",
+          "image1917.png",
+          "image1918.png",
+          "image1919.png",
+          "image1920.png",
+          "image1921.png",
+          "image1922.png",
+          "image1923.png",
+          "image1924.png",
+          "image1925.png",
+          "image1926.png",
+          "image1927.png"
+        ]
+      },
+      {
+        "title": "Geometric sequences",
+        "para_start": 1704,
+        "images": [
+          "image1928.png",
+          "image1929.png",
+          "image1930.png",
+          "image1931.png",
+          "image1932.png",
+          "image1933.png",
+          "image1934.png",
+          "image1935.png",
+          "image1936.png",
+          "image1937.png",
+          "image1938.png",
+          "image1939.png",
+          "image1940.png",
+          "image1941.png",
+          "image1942.png",
+          "image1943.png"
+        ]
+      }
+    ],
+    "images": []
+  },
+  {
+    "title": "series",
+    "para_start": 1709,
+    "subsections": [
+      {
+        "title": "Sigma notation",
+        "para_start": 1711,
+        "images": [
+          "image1945.png",
+          "image1946.png",
+          "image1947.png",
+          "image1948.png",
+          "image1949.png",
+          "image1950.png",
+          "image1951.png",
+          "image1952.png",
+          "image1953.png"
+        ]
+      },
+      {
+        "title": "Arithmetic series",
+        "para_start": 1717,
+        "images": [
+          "image1954.png",
+          "image1955.png",
+          "image1956.png",
+          "image1957.png",
+          "image1958.png",
+          "image1959.png",
+          "image1960.png",
+          "image1961.png",
+          "image1962.png",
+          "image1963.png",
+          "image1964.png",
+          "image1965.png",
+          "image1966.png",
+          "image1967.png",
+          "image1968.png"
+        ]
+      },
+      {
+        "title": "Finite geometric series",
+        "para_start": 1727,
+        "images": [
+          "image1969.png",
+          "image1970.png",
+          "image1971.png",
+          "image1972.png",
+          "image1973.png",
+          "image1974.png",
+          "image1975.png",
+          "image1976.png",
+          "image1977.png",
+          "image1978.png",
+          "image1979.png",
+          "image1980.png",
+          "image1981.png"
+        ]
+      },
+      {
+        "title": "Infinite geometric series",
+        "para_start": 1729,
+        "images": [
+          "image1982.png",
+          "image1983.png",
+          "image1984.png",
+          "image1985.png",
+          "image1986.png",
+          "image1987.png",
+          "image1988.png"
+        ]
+      }
+    ],
+    "images": [
+      "image1944.png"
+    ]
+  },
+  {
+    "title": "Applications of geometric sequences",
+    "para_start": 1739,
+    "subsections": [
+      {
+        "title": "growth and decay",
+        "para_start": 1740,
+        "images": [
+          "image1989.png",
+          "image1990.png",
+          "image1991.png"
+        ]
+      },
+      {
+        "title": "Compound interest",
+        "para_start": 1742,
+        "images": [
+          "image1992.png",
+          "image1993.png",
+          "image1994.png",
+          "image1995.png",
+          "image1996.png",
+          "image1997.png",
+          "image1998.png"
+        ]
+      },
+      {
+        "title": "inflation",
+        "para_start": 1744,
+        "images": [
+          "image1999.png",
+          "image2000.png",
+          "image2001.png",
+          "image2002.png"
+        ]
+      },
+      {
+        "title": "depreciation",
+        "para_start": 1746,
+        "images": [
+          "image2003.png",
+          "image2004.png",
+          "image2005.png",
+          "image2006.png",
+          "image2007.png",
+          "image2008.png",
+          "image2009.png",
+          "image2010.png",
+          "image2011.png",
+          "image2012.png",
+          "image2013.png",
+          "image2014.png",
+          "image2015.png",
+          "image2016.png",
+          "image2017.png",
+          "image2018.png",
+          "image2019.png",
+          "image2020.png",
+          "image2021.png",
+          "image2022.png",
+          "image2023.png",
+          "image2024.png",
+          "image2025.png",
+          "image2026.png",
+          "image2027.png",
+          "image2028.png",
+          "image2029.png",
+          "image2030.png",
+          "image2031.png",
+          "image2032.png",
+          "image2033.png",
+          "image2034.png",
+          "image2035.png",
+          "image2036.png",
+          "image2037.png",
+          "image2038.png",
+          "image2039.png",
+          "image2040.png",
+          "image2041.png",
+          "image2042.png",
+          "image2043.png",
+          "image2044.png",
+          "image2045.png",
+          "image2046.png",
+          "image2047.png",
+          "image2048.png"
+        ]
+      }
+    ],
+    "images": []
+  },
+  {
+    "title": "Number",
+    "para_start": 1758,
+    "subsections": [
+      {
+        "title": "Index notation",
+        "para_start": 1759,
+        "images": [
+          "image2049.png",
+          "image2050.png",
+          "image2051.png",
+          "image2052.png"
+        ]
+      },
+      {
+        "title": "Rules for order of operations",
+        "para_start": 1761,
+        "images": [
+          "image2053.png",
+          "image2054.png",
+          "image2055.png",
+          "image2055.png",
+          "image2056.png",
+          "image2057.png",
+          "image2058.png",
+          "image2059.png",
+          "image2060.png",
+          "image2061.png",
+          "image2062.png",
+          "image2063.png",
+          "image2064.png",
+          "image2065.png",
+          "image2066.png"
+        ]
+      },
+      {
+        "title": "Even and odd numbers",
+        "para_start": 1763,
+        "images": [
+          "image2067.png",
+          "image2068.png",
+          "image2069.png",
+          "image2070.png",
+          "image2071.png",
+          "image2072.png",
+          "image2073.png",
+          "image2074.png",
+          "image2075.png"
+        ]
+      },
+      {
+        "title": "Prime factors",
+        "para_start": 1765,
+        "images": [
+          "image2076.png",
+          "image2077.png",
+          "image2078.png"
+        ]
+      },
+      {
+        "title": "HCF",
+        "para_start": 1767,
+        "images": [
+          "image2079.png",
+          "image2080.png",
+          "image2081.png",
+          "image2082.png",
+          "image2083.png",
+          "image2084.png"
+        ]
+      },
+      {
+        "title": "LCM",
+        "para_start": 1769,
+        "images": [
+          "image2085.png",
+          "image2086.png",
+          "image2087.png",
+          "image2088.png",
+          "image2089.png",
+          "image2090.png",
+          "image2091.png",
+          "image2092.png",
+          "image2093.png",
+          "image2094.png"
+        ]
+      },
+      {
+        "title": "INTEGERS",
+        "para_start": 1772,
+        "images": [
+          "image2095.png",
+          "image2096.png",
+          "image2097.png",
+          "image2098.png",
+          "image2098.png",
+          "image2099.png",
+          "image2100.png",
+          "image2101.png",
+          "image2101.png",
+          "image2102.png",
+          "image2103.png",
+          "image2104.png",
+          "image2105.png"
+        ]
+      },
+      {
+        "title": "Combined operations",
+        "para_start": 1774,
+        "images": [
+          "image2106.png",
+          "image2107.png",
+          "image2108.png"
+        ]
+      },
+      {
+        "title": "Square roots",
+        "para_start": 1776,
+        "images": [
+          "image2109.png"
+        ]
+      },
+      {
+        "title": "Cube roots",
+        "para_start": 1780,
+        "images": [
+          "image2110.png",
+          "image2111.png",
+          "image2112.png",
+          "image2113.png",
+          "image2114.png",
+          "image2115.png",
+          "image2116.png",
+          "image2117.png",
+          "image2118.png",
+          "image2119.png",
+          "image2120.png",
+          "image2121.png",
+          "image2122.png",
+          "image2123.png",
+          "image2124.png",
+          "image2125.png",
+          "image2126.png",
+          "image2127.png",
+          "image2128.png",
+          "image2129.png",
+          "image2130.png",
+          "image2131.png",
+          "image2132.png"
+        ]
+      },
+      {
+        "title": "Rational numbers",
+        "para_start": 1787,
+        "images": [
+          "image2133.png",
+          "image2134.png",
+          "image2135.png",
+          "image2136.png",
+          "image2137.png",
+          "image2138.png",
+          "image2139.png",
+          "image2140.png",
+          "image2141.png",
+          "image2142.png",
+          "image2143.png",
+          "image2144.png",
+          "image2145.png",
+          "image2146.png",
+          "image2147.png",
+          "image2148.png",
+          "image2149.png",
+          "image2150.png",
+          "image2151.png",
+          "image2152.png"
+        ]
+      },
+      {
+        "title": "Ratio",
+        "para_start": 1789,
+        "images": [
+          "image2153.png",
+          "image2154.png",
+          "image2155.png",
+          "image2156.png",
+          "image2157.png",
+          "image2158.png",
+          "image2159.png",
+          "image2160.png",
+          "image2161.png",
+          "image2162.png",
+          "image2163.png",
+          "image2164.png",
+          "image2165.png",
+          "image2166.png",
+          "image2167.png",
+          "image2168.png",
+          "image2169.png",
+          "image2170.png"
+        ]
+      },
+      {
+        "title": "Divisibility tests",
+        "para_start": 1799,
+        "images": [
+          "image2171.png",
+          "image2172.png",
+          "image2173.png"
+        ]
+      }
+    ],
+    "images": []
+  },
+  {
+    "title": "matrices",
+    "para_start": 1809,
+    "subsections": [
+      {
+        "title": "matrix size and construction",
+        "para_start": 1810,
+        "images": [
+          "image2174.png",
+          "image2175.png",
+          "image2176.png",
+          "image2177.png",
+          "image2178.png",
+          "image2179.png",
+          "image2180.png",
+          "image2181.png",
+          "image2182.png"
+        ]
+      },
+      {
+        "title": "Matrix equality",
+        "para_start": 1812,
+        "images": [
+          "image2183.png",
+          "image2184.png",
+          "image2185.png"
+        ]
+      },
+      {
+        "title": "Addition and subtraction of matrices",
+        "para_start": 1814,
+        "images": [
+          "image2186.png",
+          "image2187.png",
+          "image2188.png",
+          "image2189.png",
+          "image2190.png",
+          "image2191.png",
+          "image2192.png",
+          "image2193.png"
+        ]
+      },
+      {
+        "title": "Scalar multiplication",
+        "para_start": 1818,
+        "images": [
+          "image2194.png",
+          "image2195.png",
+          "image2196.png",
+          "image2197.png",
+          "image2198.png"
+        ]
+      },
+      {
+        "title": "Matrix multiplication",
+        "para_start": 1820,
+        "images": [
+          "image2199.png",
+          "image2200.png",
+          "image2201.png",
+          "image2202.png",
+          "image2203.png",
+          "image2204.png",
+          "image2205.png",
+          "image2206.png",
+          "image2207.png",
+          "image2208.png",
+          "image2209.png",
+          "image2210.png",
+          "image2211.png",
+          "image2212.png"
+        ]
+      }
+    ],
+    "images": []
+  },
+  {
+    "title": "polynomials",
+    "para_start": 1822,
+    "subsections": [
+      {
+        "title": "notation of polynomials",
+        "para_start": 1823,
+        "images": [
+          "image2213.png",
+          "image2214.png",
+          "image2215.png",
+          "image2216.png",
+          "image2217.png",
+          "image2218.png",
+          "image2219.png"
+        ]
+      },
+      {
+        "title": "Operations with polynomials",
+        "para_start": 1825,
+        "images": [
+          "image2220.png",
+          "image2221.png",
+          "image2222.png",
+          "image2223.png",
+          "image2224.png",
+          "image2225.png",
+          "image2226.png",
+          "image2227.png",
+          "image2228.png",
+          "image2229.png"
+        ]
+      },
+      {
+        "title": "Polynomial division",
+        "para_start": 1834,
+        "images": [
+          "image2230.png",
+          "image2231.png",
+          "image2232.png",
+          "image2233.png",
+          "image2234.png",
+          "image2235.png",
+          "image2236.png"
+        ]
+      },
+      {
+        "title": "Synthetic division",
+        "para_start": 1836,
+        "images": [
+          "image2237.png",
+          "image2238.png",
+          "image2239.png",
+          "image2240.png",
+          "image2241.png",
+          "image2242.png",
+          "image2243.png"
+        ]
+      },
+      {
+        "title": "Division by quadratics",
+        "para_start": 1838,
+        "images": [
+          "image2244.png",
+          "image2245.png",
+          "image2246.png"
+        ]
+      },
+      {
+        "title": "Zeros, roots, and factors",
+        "para_start": 1840,
+        "images": [
+          "image2247.png",
+          "image2248.png",
+          "image2249.png",
+          "image2250.png",
+          "image2251.png",
+          "image2252.png",
+          "image2253.png",
+          "image2254.png",
+          "image2255.png",
+          "image2256.png",
+          "image2257.png",
+          "image2258.png",
+          "image2259.png"
+        ]
+      },
+      {
+        "title": "Polynomial equality",
+        "para_start": 1842,
+        "images": [
+          "image2260.png",
+          "image2261.png",
+          "image2262.png",
+          "image2263.png",
+          "image2264.png",
+          "image2265.png",
+          "image2266.png"
+        ]
+      },
+      {
+        "title": "The remainder theorem",
+        "para_start": 1844,
+        "images": [
+          "image2267.png",
+          "image2268.png",
+          "image2269.png",
+          "image2270.png",
+          "image2271.png",
+          "image2272.png",
+          "image2273.png",
+          "image2274.png",
+          "image2275.png",
+          "image2276.png",
+          "image2277.png",
+          "image2278.png",
+          "image2279.png",
+          "image2280.png",
+          "image2281.png"
+        ]
+      },
+      {
+        "title": "The factor theorem",
+        "para_start": 1846,
+        "images": [
+          "image2282.png",
+          "image2283.png",
+          "image2284.png",
+          "image2285.png",
+          "image2286.png",
+          "image2287.png",
+          "image2288.png",
+          "image2289.png",
+          "image2290.png",
+          "image2291.png",
+          "image2292.png",
+          "image2293.png",
+          "image2294.png",
+          "image2295.png",
+          "image2296.png"
+        ]
+      },
+      {
+        "title": "The fundamental theorem of algebra",
+        "para_start": 1849,
+        "images": [
+          "image2297.png",
+          "image2298.png",
+          "image2299.png",
+          "image2300.png",
+          "image2301.png",
+          "image2302.png"
+        ]
+      },
+      {
+        "title": "Sum and products of roots theorem",
+        "para_start": 1851,
+        "images": [
+          "image2303.png",
+          "image2304.png",
+          "image2305.png",
+          "image2306.png",
+          "image2307.png",
+          "image2308.png",
+          "image2309.png"
+        ]
+      },
+      {
+        "title": "Graphing cubic functions",
+        "para_start": 1853,
+        "images": [
+          "image2310.png",
+          "image2311.png",
+          "image2312.png",
+          "image2313.png",
+          "image2313.png",
+          "image2314.png",
+          "image2315.png",
+          "image2316.png",
+          "image2317.png",
+          "image2318.png",
+          "image2319.png",
+          "image2320.png",
+          "image2321.png",
+          "image2322.png"
+        ]
+      },
+      {
+        "title": "Graphing quartic functions",
+        "para_start": 1857,
+        "images": [
+          "image2323.png",
+          "image2324.png",
+          "image2324.png",
+          "image2325.png",
+          "image2326.png",
+          "image2327.png",
+          "image2328.png",
+          "image2329.png",
+          "image2330.png",
+          "image2331.png",
+          "image2332.png",
+          "image2333.png"
+        ]
+      }
+    ],
+    "images": []
+  },
+  {
+    "title": "Polynomial equations",
+    "para_start": 1860,
+    "subsections": [
+      {
+        "title": "Cubic inequalities",
+        "para_start": 1862,
+        "images": [
+          "image2338.png",
+          "image2339.png",
+          "image2340.png",
+          "image2341.png",
+          "image2342.png",
+          "image2343.png",
+          "image2344.png",
+          "image2345.png",
+          "image2345.png",
+          "image2346.png",
+          "image2347.png",
+          "image2348.png",
+          "image2349.png",
+          "image2350.png",
+          "image2351.png",
+          "image2352.png"
+        ]
+      }
+    ],
+    "images": [
+      "image2334.png",
+      "image2335.png",
+      "image2336.png",
+      "image2337.png"
+    ]
+  },
+  {
+    "title": "Percentage",
+    "para_start": 1867,
+    "subsections": [
+      {
+        "title": "Percentage increase or decrease",
+        "para_start": 1872,
+        "images": [
+          "image2385.png",
+          "image2386.png",
+          "image2387.png",
+          "image2388.png",
+          "image2389.png"
+        ]
+      },
+      {
+        "title": "Percentage change",
+        "para_start": 1874,
+        "images": [
+          "image2390.png",
+          "image2391.png",
+          "image2392.png",
+          "image2393.png",
+          "image2394.png",
+          "image2395.png",
+          "image2396.png"
+        ]
+      },
+      {
+        "title": "Profit and loss",
+        "para_start": 1876,
+        "images": [
+          "image2397.png",
+          "image2398.png",
+          "image2399.png",
+          "image2400.png",
+          "image2401.png",
+          "image2402.png",
+          "image2403.png",
+          "image2404.png",
+          "image2405.png",
+          "image2406.png",
+          "image2407.png",
+          "image2408.png",
+          "image2408.png",
+          "image2409.png",
+          "image2410.png",
+          "image2411.png"
+        ]
+      },
+      {
+        "title": "discount",
+        "para_start": 1878,
+        "images": [
+          "image2412.png",
+          "image2413.png",
+          "image2414.png",
+          "image2415.png",
+          "image2416.png",
+          "image2417.png",
+          "image2418.png",
+          "image2419.png",
+          "image2420.png",
+          "image2421.png",
+          "image2422.png"
+        ]
+      },
+      {
+        "title": "Simple interest",
+        "para_start": 1880,
+        "images": [
+          "image2423.png",
+          "image2424.png",
+          "image2425.png",
+          "image2426.png",
+          "image2427.png",
+          "image2428.png",
+          "image2429.png",
+          "image2430.png",
+          "image2431.png",
+          "image2432.png",
+          "image2433.png",
+          "image2434.png",
+          "image2435.png",
+          "image2436.png"
+        ]
+      },
+      {
+        "title": "Compound interest",
+        "para_start": 1882,
+        "images": [
+          "image2437.png",
+          "image2438.png",
+          "image2439.png",
+          "image2440.png",
+          "image2441.png",
+          "image2442.png",
+          "image2443.png",
+          "image2444.png",
+          "image2445.png",
+          "image2446.png",
+          "image2447.png",
+          "image2448.png",
+          "image2449.png",
+          "image2450.png",
+          "image2451.png",
+          "image2452.png",
+          "image2453.png",
+          "image2454.png"
+        ]
+      }
+    ],
+    "images": [
+      "image2353.png",
+      "image2354.png",
+      "image2355.png",
+      "image2356.png",
+      "image2357.png",
+      "image2358.png",
+      "image2359.png",
+      "image2360.png",
+      "image2361.png",
+      "image2362.png",
+      "image2363.png",
+      "image2364.png",
+      "image2365.png",
+      "image2366.png",
+      "image2367.png",
+      "image2368.png",
+      "image2369.png",
+      "image2370.png",
+      "image2371.png",
+      "image2372.png",
+      "image2373.png",
+      "image2374.png",
+      "image2375.png",
+      "image2376.png",
+      "image2377.png",
+      "image2378.png",
+      "image2379.png",
+      "image2380.png",
+      "image2381.png",
+      "image2382.png",
+      "image2383.png",
+      "image2384.png"
+    ]
+  },
+  {
+    "title": "Ratio and proportion",
+    "para_start": 1884,
+    "subsections": [
+      {
+        "title": "proportions",
+        "para_start": 1886,
+        "images": [
+          "image2472.png",
+          "image2473.png",
+          "image2474.png",
+          "image2475.png",
+          "image2476.png"
+        ]
+      },
+      {
+        "title": "Using ratios to divide quantities",
+        "para_start": 1888,
+        "images": [
+          "image2477.png",
+          "image2478.png",
+          "image2479.png",
+          "image2480.png",
+          "image2481.png",
+          "image2482.png"
+        ]
+      },
+      {
+        "title": "Scale diagrams",
+        "para_start": 1891,
+        "images": [
+          "image2483.png",
+          "image2484.png",
+          "image2485.png",
+          "image2486.png",
+          "image2487.png",
+          "image2488.png",
+          "image2489.png",
+          "image2490.png",
+          "image2491.png",
+          "image2492.png",
+          "image2493.png",
+          "image2494.png",
+          "image2495.png",
+          "image2496.png",
+          "image2497.png",
+          "image2497.png",
+          "image2498.png"
+        ]
+      },
+      {
+        "title": "Gradient of slope",
+        "para_start": 1893,
+        "images": [
+          "image2499.png",
+          "image2500.png",
+          "image2501.png",
+          "image2502.png",
+          "image2503.png",
+          "image2504.png",
+          "image2505.png",
+          "image2506.png",
+          "image2507.png"
+        ]
+      }
+    ],
+    "images": [
+      "image2455.png",
+      "image2456.png",
+      "image2457.png",
+      "image2458.png",
+      "image2459.png",
+      "image2460.png",
+      "image2461.png",
+      "image2462.png",
+      "image2463.png",
+      "image2464.png",
+      "image2465.png",
+      "image2466.png",
+      "image2467.png",
+      "image2468.png",
+      "image2469.png",
+      "image2470.png",
+      "image2471.png"
+    ]
+  },
+  {
+    "title": "rates",
+    "para_start": 1903,
+    "subsections": [
+      {
+        "title": "Comparing prices",
+        "para_start": 1905,
+        "images": [
+          "image2513.png",
+          "image2514.png",
+          "image2515.png"
+        ]
+      },
+      {
+        "title": "Using rates",
+        "para_start": 1908,
+        "images": [
+          "image2516.png",
+          "image2517.png",
+          "image2518.png",
+          "image2519.png",
+          "image2520.png",
+          "image2521.png"
+        ]
+      },
+      {
+        "title": "Average speed",
+        "para_start": 1910,
+        "images": [
+          "image2522.png",
+          "image2523.png",
+          "image2524.png",
+          "image2525.png",
+          "image2526.png"
+        ]
+      },
+      {
+        "title": "density",
+        "para_start": 1912,
+        "images": [
+          "image2527.png",
+          "image2528.png",
+          "image2529.png",
+          "image2530.png",
+          "image2531.png",
+          "image2532.png"
+        ]
+      },
+      {
+        "title": "Converting rates",
+        "para_start": 1916,
+        "images": [
+          "image2533.png",
+          "image2534.png",
+          "image2535.png",
+          "image2536.png",
+          "image2537.png",
+          "image2538.png",
+          "image2539.png",
+          "image2540.png",
+          "image2541.png",
+          "image2542.png",
+          "image2543.png",
+          "image2544.png",
+          "image2545.png",
+          "image2546.png",
+          "image2547.png"
+        ]
+      }
+    ],
+    "images": [
+      "image2508.png",
+      "image2509.png",
+      "image2510.png",
+      "image2511.png",
+      "image2512.png"
+    ]
+  },
+  {
+    "title": "Problem solving",
+    "para_start": 1918,
+    "subsections": [
+      {
+        "title": "Writing equations using symbols",
+        "para_start": 1919,
+        "images": [
+          "image2548.png",
+          "image2549.png",
+          "image2550.png",
+          "image2551.png",
+          "image2552.png",
+          "image2553.png",
+          "image2554.png",
+          "image2555.png",
+          "image2556.png",
+          "image2557.png",
+          "image2558.png"
+        ]
+      },
+      {
+        "title": "Measurement problems",
+        "para_start": 1921,
+        "images": [
+          "image2559.png",
+          "image2560.png",
+          "image2561.png",
+          "image2562.png",
+          "image2563.png",
+          "image2564.png"
+        ]
+      },
+      {
+        "title": "Money problems",
+        "para_start": 1923,
+        "images": [
+          "image2565.png",
+          "image2566.png",
+          "image2567.png",
+          "image2568.png"
+        ]
+      },
+      {
+        "title": "Miscellaneous problem solving",
+        "para_start": 1925,
+        "images": [
+          "image2569.png",
+          "image2570.png",
+          "image2571.png",
+          "image2572.png",
+          "image2573.png",
+          "image2574.png",
+          "image2575.png",
+          "image2576.png",
+          "image2577.png"
+        ]
+      },
+      {
+        "title": "Problem solving by search",
+        "para_start": 1929,
+        "images": [
+          "image2578.png",
+          "image2579.png",
+          "image2580.png",
+          "image2581.png",
+          "image2582.png",
+          "image2583.png",
+          "image2584.png",
+          "image2585.png"
+        ]
+      },
+      {
+        "title": "Problem solving by working backwards",
+        "para_start": 1931,
+        "images": [
+          "image2586.png",
+          "image2586.png",
+          "image2587.png",
+          "image2588.png",
+          "image2589.png",
+          "image2590.png",
+          "image2591.png",
+          "image2592.png",
+          "image2593.png",
+          "image2594.png",
+          "image2595.png",
+          "image2596.png",
+          "image2597.png",
+          "image2598.png"
+        ]
+      }
+    ],
+    "images": []
+  },
+  {
+    "title": "Financial mathematics",
+    "para_start": 1941,
+    "subsections": [
+      {
+        "title": "Business calculations",
+        "para_start": 1942,
+        "images": [
+          "image2599.png",
+          "image2600.png",
+          "image2601.png",
+          "image2602.png",
+          "image2603.png",
+          "image2604.png",
+          "image2605.png",
+          "image2606.png",
+          "image2607.png",
+          "image2608.png",
+          "image2609.png",
+          "image2610.png",
+          "image2611.png",
+          "image2612.png",
+          "image2613.png",
+          "image2614.png",
+          "image2615.png",
+          "image2616.png",
+          "image2617.png",
+          "image2618.png",
+          "image2619.png",
+          "image2620.png",
+          "image2621.png",
+          "image2622.png",
+          "image2623.png",
+          "image2624.png",
+          "image2625.png",
+          "image2626.png",
+          "image2627.png",
+          "image2628.png",
+          "image2629.png"
+        ]
+      },
+      {
+        "title": "appreciation",
+        "para_start": 1946,
+        "images": [
+          "image2630.png",
+          "image2631.png",
+          "image2632.png",
+          "image2633.png",
+          "image2634.png",
+          "image2635.png",
+          "image2636.png",
+          "image2637.png",
+          "image2638.png",
+          "image2639.png",
+          "image2640.png"
+        ]
+      },
+      {
+        "title": "depreciation",
+        "para_start": 1948,
+        "images": [
+          "image2641.png",
+          "image2642.png",
+          "image2643.png",
+          "image2644.png",
+          "image2645.png",
+          "image2646.png",
+          "image2647.png",
+          "image2648.png",
+          "image2649.png",
+          "image2650.png"
+        ]
+      },
+      {
+        "title": "borrowing",
+        "para_start": 1952,
+        "images": [
+          "image2651.png",
+          "image2652.png",
+          "image2653.png",
+          "image2654.png",
+          "image2655.png",
+          "image2656.png",
+          "image2657.png",
+          "image2658.png",
+          "image2659.png",
+          "image2660.png",
+          "image2661.png",
+          "image2662.png",
+          "image2663.png",
+          "image2664.png",
+          "image2665.png",
+          "image2666.png",
+          "image2667.png",
+          "image2668.png",
+          "image2669.png",
+          "image2670.png"
+        ]
+      }
+    ],
+    "images": []
+  },
+  {
+    "title": "Complex numbers",
+    "para_start": 1954,
+    "subsections": [
+      {
+        "title": "Operations with complex numbers",
+        "para_start": 1956,
+        "images": [
+          "image2687.png",
+          "image2688.png",
+          "image2689.png",
+          "image2690.png",
+          "image2691.png",
+          "image2692.png",
+          "image2693.png"
+        ]
+      },
+      {
+        "title": "Equality of complex numbers",
+        "para_start": 1958,
+        "images": [
+          "image2694.png",
+          "image2695.png",
+          "image2696.png"
+        ]
+      },
+      {
+        "title": "Properties of complex conjugates",
+        "para_start": 1960,
+        "images": [
+          "image2697.png",
+          "image2698.png",
+          "image2699.png",
+          "image2700.png",
+          "image2701.png",
+          "image2702.png",
+          "image2703.png"
+        ]
+      },
+      {
+        "title": "The complex plane",
+        "para_start": 1962,
+        "images": [
+          "image2704.png",
+          "image2705.png",
+          "image2706.png",
+          "image2707.png",
+          "image2708.png",
+          "image2709.png",
+          "image2710.png",
+          "image2711.png",
+          "image2712.png",
+          "image2713.png"
+        ]
+      },
+      {
+        "title": "Modulus and argument",
+        "para_start": 1967,
+        "images": [
+          "image2714.png",
+          "image2715.png",
+          "image2716.png",
+          "image2717.png",
+          "image2718.png",
+          "image2719.png",
+          "image2720.png",
+          "image2721.png",
+          "image2722.png",
+          "image2723.png",
+          "image2724.png",
+          "image2725.png",
+          "image2726.png"
+        ]
+      }
+    ],
+    "images": [
+      "image2671.png",
+      "image2672.png",
+      "image2673.png",
+      "image2674.png",
+      "image2675.png",
+      "image2676.png",
+      "image2677.png",
+      "image2678.png",
+      "image2679.png",
+      "image2680.png",
+      "image2681.png",
+      "image2682.png",
+      "image2683.png",
+      "image2684.png",
+      "image2685.png",
+      "image2686.png"
+    ]
+  },
+  {
+    "title": "Geometry in the complex plane",
+    "para_start": 1969,
+    "subsections": [
+      {
+        "title": "distance",
+        "para_start": 1971,
+        "images": [
+          "image2728.png",
+          "image2729.png"
+        ]
+      },
+      {
+        "title": "midpoint",
+        "para_start": 1973,
+        "images": [
+          "image2730.png",
+          "image2731.png",
+          "image2732.png",
+          "image2733.png"
+        ]
+      },
+      {
+        "title": "Polar form",
+        "para_start": 1975,
+        "images": [
+          "image2734.png",
+          "image2735.png",
+          "image2736.png",
+          "image2737.png",
+          "image2738.png",
+          "image2739.png",
+          "image2740.png",
+          "image2741.png"
+        ]
+      },
+      {
+        "title": "Properties of cis",
+        "para_start": 1977,
+        "images": [
+          "image2742.png",
+          "image2743.png",
+          "image2744.png",
+          "image2745.png",
+          "image2746.png",
+          "image2747.png",
+          "image2748.png",
+          "image2749.png",
+          "image2750.png"
+        ]
+      },
+      {
+        "title": "Multiplication of complex numbers",
+        "para_start": 1981,
+        "images": [
+          "image2751.png",
+          "image2752.png",
+          "image2753.png",
+          "image2754.png",
+          "image2755.png",
+          "image2756.png",
+          "image2757.png",
+          "image2758.png",
+          "image2759.png",
+          "image2760.png",
+          "image2761.png",
+          "image2762.png",
+          "image2763.png",
+          "image2764.png",
+          "image2765.png",
+          "image2766.png",
+          "image2767.png",
+          "image2768.png"
+        ]
+      },
+      {
+        "title": "De movire’s theorem",
+        "para_start": 1984,
+        "images": [
+          "image2769.png",
+          "image2770.png",
+          "image2771.png",
+          "image2772.png",
+          "image2773.png",
+          "image2774.png",
+          "image2775.png"
+        ]
+      },
+      {
+        "title": "Roots of complex numbers",
+        "para_start": 1989,
+        "images": [
+          "image2776.png",
+          "image2777.png",
+          "image2778.png",
+          "image2779.png",
+          "image2780.png",
+          "image2781.png",
+          "image2782.png",
+          "image2783.png",
+          "image2784.png",
+          "image2785.png",
+          "image2786.png",
+          "image2787.png",
+          "image2788.png",
+          "image2789.png",
+          "image2790.png",
+          "image2791.png",
+          "image2792.png",
+          "image2793.png",
+          "image2794.png",
+          "image2795.png"
+        ]
+      }
+    ],
+    "images": [
+      "image2727.png"
+    ]
+  },
+  {
+    "title": "The binomial theorem",
+    "para_start": 1993,
+    "subsections": [
+      {
+        "title": "Factorial notation",
+        "para_start": 1995,
+        "images": [
+          "image2797.png",
+          "image2798.png",
+          "image2799.png",
+          "image2800.png",
+          "image2801.png",
+          "image2802.png"
+        ]
+      },
+      {
+        "title": "Binomial expansions",
+        "para_start": 1997,
+        "images": [
+          "image2803.png",
+          "image2804.png",
+          "image2805.png",
+          "image2806.png",
+          "image2807.png",
+          "image2808.png",
+          "image2809.png",
+          "image2810.png",
+          "image2811.png"
+        ]
+      },
+      {
+        "title": "The binomal theorem",
+        "para_start": 1999,
+        "images": [
+          "image2812.png",
+          "image2813.png",
+          "image2814.png",
+          "image2815.png",
+          "image2816.png",
+          "image2817.png",
+          "image2818.png",
+          "image2819.png",
+          "image2820.png",
+          "image2821.png",
+          "image2822.png",
+          "image2823.png",
+          "image2824.png",
+          "image2825.png",
+          "image2826.png",
+          "image2827.png",
+          "image2828.png",
+          "image2829.png",
+          "image2830.png",
+          "image2831.png"
+        ]
+      },
+      {
+        "title": "The binomial theoren for nQ",
+        "para_start": 2001,
+        "images": [
+          "image2832.png",
+          "image2833.png",
+          "image2834.png",
+          "image2835.png",
+          "image2836.png",
+          "image2837.png",
+          "image2838.png",
+          "image2839.png",
+          "image2840.png"
+        ]
+      }
+    ],
+    "images": [
+      "image2796.png"
+    ]
+  },
+  {
+    "title": "Reasoning and proof",
+    "para_start": 2005,
+    "subsections": [
+      {
+        "title": "Logical connectives",
+        "para_start": 2007,
+        "images": [
+          "image2847.png",
+          "image2848.png",
+          "image2849.png",
+          "image2850.png",
+          "image2851.png",
+          "image2852.png"
+        ]
+      },
+      {
+        "title": "Proof by deduction",
+        "para_start": 2009,
+        "images": [
+          "image2853.png",
+          "image2854.png",
+          "image2855.png",
+          "image2856.png",
+          "image2857.png"
+        ]
+      },
+      {
+        "title": "Proof by equivalence",
+        "para_start": 2011,
+        "images": [
+          "image2858.png",
+          "image2859.png",
+          "image2860.png",
+          "image2861.png",
+          "image2862.png",
+          "image2863.png",
+          "image2864.png",
+          "image2865.png",
+          "image2866.png"
+        ]
+      },
+      {
+        "title": "definitions",
+        "para_start": 2013,
+        "images": [
+          "image2867.png",
+          "image2868.png",
+          "image2869.png",
+          "image2870.png",
+          "image2871.png",
+          "image2872.png",
+          "image2873.png"
+        ]
+      },
+      {
+        "title": "Proof by exhaustion",
+        "para_start": 2015,
+        "images": [
+          "image2874.png",
+          "image2875.png",
+          "image2876.png",
+          "image2877.png",
+          "image2878.png"
+        ]
+      },
+      {
+        "title": "Proof by counter example",
+        "para_start": 2017,
+        "images": [
+          "image2879.png",
+          "image2880.png",
+          "image2881.png",
+          "image2882.png"
+        ]
+      },
+      {
+        "title": "Proof by contrapositive",
+        "para_start": 2019,
+        "images": [
+          "image2883.png",
+          "image2884.png",
+          "image2885.png",
+          "image2886.png",
+          "image2887.png",
+          "image2888.png",
+          "image2889.png",
+          "image2890.png",
+          "image2891.png",
+          "image2892.png",
+          "image2893.png",
+          "image2894.png",
+          "image2895.png",
+          "image2896.png",
+          "image2897.png",
+          "image2898.png",
+          "image2899.png",
+          "image2900.png",
+          "image2901.png",
+          "image2902.png",
+          "image2903.png",
+          "image2904.png",
+          "image2905.png"
+        ]
+      },
+      {
+        "title": "Proof by mathematical induction",
+        "para_start": 2021,
+        "images": [
+          "image2906.png",
+          "image2907.png",
+          "image2908.png",
+          "image2909.png",
+          "image2910.png",
+          "image2911.png",
+          "image2912.png",
+          "image2913.png",
+          "image2914.png",
+          "image2915.png",
+          "image2916.png",
+          "image2917.png",
+          "image2918.png",
+          "image2919.png",
+          "image2920.png",
+          "image2921.png",
+          "image2922.png",
+          "image2923.png",
+          "image2924.png",
+          "image2925.png",
+          "image2926.png",
+          "image2927.png",
+          "image2928.png",
+          "image2929.png",
+          "image2930.png",
+          "image2931.png",
+          "image2932.png",
+          "image2933.png",
+          "image2934.png",
+          "image2935.png",
+          "image2936.png",
+          "image2937.png",
+          "image2938.png",
+          "image2939.png",
+          "image2940.png",
+          "image2941.png",
+          "image2942.png",
+          "image2943.png",
+          "image2944.png",
+          "image2945.png",
+          "image2946.png",
+          "image2947.png",
+          "image2948.png",
+          "image2949.png",
+          "image2950.png",
+          "image2951.png",
+          "image2952.png"
+        ]
+      }
+    ],
+    "images": [
+      "image2841.png",
+      "image2842.png",
+      "image2843.png",
+      "image2844.png",
+      "image2845.png",
+      "image2846.png"
+    ]
+  }
+]

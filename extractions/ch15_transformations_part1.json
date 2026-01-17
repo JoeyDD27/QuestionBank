@@ -1,0 +1,328 @@
+{
+  "chapter": 15,
+  "title": "Transformation of Functions",
+  "part": 1,
+  "image_range": "1542-1581",
+  "sections": [
+    {
+      "type": "concept",
+      "title": "Translation of Parabola",
+      "content": "If f(x) = x^2 then f(x-h) + k = (x-h)^2 + k. The graph y = (x-h)^2 + k has the same shape as y = x^2. It can be produced from y = x^2 by a translation h units to the right and k units upwards. This shifts the vertex of the parabola from the origin O(0,0) to (h,k)."
+    },
+    {
+      "type": "concept",
+      "title": "Translation Rules",
+      "content": "For y = f(x) + b, the effect of b is to translate the graph vertically through b units. If b > 0 it moves upwards. If b < 0 it moves downwards. For y = f(x-a), the effect of a is to translate the graph horizontally through a units. If a > 0 it moves to the right. If a < 0 it moves to the left. For y = f(x-a) + b, the graph is translated horizontally a units and vertically b units. We say it is translated by the vector (a, b)."
+    },
+    {
+      "type": "worked_example",
+      "number": 1,
+      "problem": "Consider the graph of y = f(x) alongside. On separate axes, draw the graphs of: a) y = f(x) + 2, b) y = f(x+4)",
+      "solution": {
+        "part_a": "The graph of y = f(x) + 2 is found by translating y = f(x) 2 units upwards.",
+        "part_b": "The graph of y = f(x+4) is found by translating y = f(x) 4 units to the left."
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Stretching Rules",
+      "content": "y = pf(x), p > 0 is a vertical stretch of y = f(x) with scale factor p and invariant x-axis. Each point becomes p times its previous distance from the x-axis. If p > 1, points move further away from the x-axis. If 0 < p < 1, points move closer to the x-axis. y = f(qx), q > 0 is a horizontal stretch of y = f(x) with scale factor 1/q and invariant y-axis. Each point becomes 1/q times its previous distance from the y-axis. If q > 1, points move closer to the y-axis. If 0 < q < 1, points move further away from the y-axis."
+    },
+    {
+      "type": "worked_example",
+      "number": 2,
+      "problem": "Consider the graph of y = f(x) alongside. On separate axes, draw the graphs of: a) y = 3f(x), b) y = f(2x)",
+      "solution": {
+        "part_a": "The graph of y = 3f(x) is a vertical stretch of y = f(x) with scale factor 3.",
+        "part_b": "The graph of y = f(2x) is a horizontal stretch of y = f(x) with scale factor 1/2."
+      }
+    },
+    {
+      "type": "worked_example",
+      "number": 3,
+      "problem": "The function g(x) results when y = 1/x is transformed by a vertical stretch with scale factor 2, followed by a translation of (3, -2). a) Write an expression for g(x) in the form g(x) = (ax+b)/(cx+d). b) Find the asymptotes of y = g(x). c) Sketch y = g(x).",
+      "solution": {
+        "part_a": "Under a vertical stretch with scale factor 2, f(x) becomes 2f(x). So 1/x becomes 2(1/x) = 2/x. Under a translation of (3, -2), f(x) becomes f(x-3) - 2. So 2/x becomes 2/(x-3) - 2 = (2-2(x-3))/(x-3) = (-2x+8)/(x-3). g(x) is a rational function (linear/linear).",
+        "part_b": "The asymptotes of y = 1/x are x = 0 and y = 0. These are unchanged by the stretch, and shifted (3, -2) by the translation. The vertical asymptote is x = 3 and the horizontal asymptote is y = -2."
+      }
+    },
+    {
+      "type": "exercise",
+      "title": "Exercise 4B",
+      "problems": [
+        {
+          "number": 1,
+          "text": "Consider the graph of y = 2f(x) alongside. On separate axes, draw the graphs of: a) y = 2f(x), b) y = f(3x)"
+        },
+        {
+          "number": 2,
+          "text": "Consider the graph of y = h(x) alongside. On separate axes, draw the graphs of: a) y = 4h(x), b) y = h(x/3). Note: If scale factor > 1, the graph is elongated. If 0 < scale factor < 1, the graph is compressed."
+        },
+        {
+          "number": 3,
+          "text": "Write g(x) in terms of f(x)."
+        },
+        {
+          "number": 4,
+          "text": "A linear function with gradient m is vertically stretched with scale factor c. Find the gradient of the resulting line."
+        },
+        {
+          "number": 5,
+          "text": "For each of the following functions f, sketch y = f(x), y = 2f(x), and y = 3f(x) on the same set of axes."
+        },
+        {
+          "number": 6,
+          "text": "For each of the following functions f, sketch y = f(x), y = (1/2)f(x), and y = (1/4)f(x) on the same set of axes: a) f(x) = x - 1, b) f(x) = x^2, c) f(x) = x^3, d) f(x) = 1/x"
+        },
+        {
+          "number": 16,
+          "text": "Write, in the form y = (ax+b)/(cx+d), the function that results when y = 1/x is transformed by: a) a vertical dilation with scale factor 1/2, b) a horizontal dilation with scale factor 3, c) a horizontal translation of -3, d) a vertical translation of 4."
+        },
+        {
+          "number": 17,
+          "text": "The function g(x) results when y = 1/x is transformed by a vertical stretch with scale factor 3, followed by a translation of (1, -1). a) Write an expression for g(x) in the form g(x) = (ax+b)/(cx+d). b) Find the asymptotes of y = g(x). c) State the domain and range of g(x). d) Sketch y = g(x)."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Reflection Rules",
+      "content": "For y = -f(x), we reflect y = f(x) in the x-axis. For y = f(-x), we reflect y = f(x) in the y-axis."
+    },
+    {
+      "type": "worked_example",
+      "number": 4,
+      "problem": "Consider the graph of y = f(x) alongside. On separate axes, draw the graphs of: a) y = -f(x), b) y = f(-x)",
+      "solution": {
+        "part_a": "The graph of y = -f(x) is found by reflecting y = f(x) in the x-axis.",
+        "part_b": "The graph of y = f(-x) is found by reflecting y = f(x) in the y-axis."
+      }
+    },
+    {
+      "type": "worked_example",
+      "number": 5,
+      "problem": "Consider f(x) = (1/2)x + 1. On separate sets of axes graph: a) y = f(x) and y = f(x+2), b) y = f(x) and y = f(x) + 2, c) y = f(x) and y = 2f(x), d) y = f(x) and y = -f(x)"
+    },
+    {
+      "type": "worked_example",
+      "number": 6,
+      "problem": "Consider a function f(x). a) What function results if y = f(x) is reflected in the x-axis, then translated through (3, -1), then stretched vertically with scale factor 2? b) Fully describe the transformations which map y = f(x) onto y = 3f(2(x-1)) - 2.",
+      "solution": {
+        "part_a": "f(x) -> -f(x) [reflection in x-axis] -> -f(x-3) - 1 [translation (3,-1)] -> 2(-f(x-3) - 1) [vertical stretch scale factor 2]. The resulting function is -2f(x-3) - 2.",
+        "part_b": "f(x) -> 3f(x) [vertical stretch scale factor 3] -> 3f(2x) [horizontal stretch scale factor 1/2] -> 3f(2(x-1)) - 2 [translation (1,-2)]."
+      }
+    },
+    {
+      "type": "exercise",
+      "title": "Exercise 4C",
+      "problems": [
+        {
+          "number": 1,
+          "text": "Consider the graph of y = f(x) alongside. On separate axes, draw the graphs of: a) y = -f(x), b) y = f(-x)"
+        },
+        {
+          "number": 2,
+          "text": "Copy the following graphs for y = f(x) and sketch the graphs of y = -f(x) on the same axes."
+        },
+        {
+          "number": 3,
+          "text": "Copy the following graphs of y = f(x) and sketch the graphs of y = f(-x) on the same axes."
+        },
+        {
+          "number": 4,
+          "text": "On the same set of axes, sketch the graphs of y = f(x) and y = -f(x) for: a) f(x) = 3x, b) f(x) = x^2, c) f(x) = x^2 - 2, d) f(x) = (2x+1)^2"
+        },
+        {
+          "number": 5,
+          "text": "The function y = x^2 + ax - 3x^2 + 5x - 7 is reflected in the y-axis to y = g(x). Find g(x)."
+        },
+        {
+          "number": 6,
+          "text": "Consider the function f(x) = (x+1)(x-beta) where beta > 0. A sketch of the function is shown alongside. a) Determine the axes intercepts of the graph of y = f(x). b) Sketch the graphs of f(x) and g(x) = -f(x-1) on the same set of axes. c) Find and label the axes intercepts of y = g(x)."
+        },
+        {
+          "number": 7,
+          "text": "Consider a function f(x). Find the function which results if y = f(x) is: a) translated through (4, -1) then reflected in the y-axis, b) reflected in the y-axis then translated through (4, -1), c) translated through (-2, 1) then stretched vertically with scale factor 1/2, d) stretched vertically with scale factor 1/2 then translated through (-2, 1)."
+        },
+        {
+          "number": 8,
+          "text": "Fully describe the transformations which map y = f(x) onto: a) y = -f(x+1) + 3, b) y = f((1/2)x) - 7, c) y = f(3(x-1)), d) y = -1 + 2f((1/4)(x-4)), e) y = 5 + 2f(3(x-1)), f) y = -4f((1/2)(x+3)) - 1"
+        },
+        {
+          "number": 9,
+          "text": "The graph of y = x^2 is transformed into y = a(x-h)^2 + k using three transformations: a vertical stretch with invariant x-axis, a translation with vector (h, k), a reflection in the x-axis. Discuss what you know about: a) the transformations, b) the function."
+        },
+        {
+          "number": 10,
+          "text": "The function g(x) is transformed to g(x) = -f(x). a) What combination of transformations has taken place? b) If (3, -7) lies on y = f(x), find the transformed point on y = g(x). c) Find the point on f(x) that transforms to the point (-5, 3)."
+        },
+        {
+          "number": 11,
+          "text": "Let f(x) = x + 2. a) Describe the transformation which transforms y = f(x) to y = -f(x). b) Describe the transformation which transforms y = -f(x) to y = -3f(x). c) Hence draw the graphs of y = f(x), y = -f(x), and y = -3f(x) on the same set of axes."
+        },
+        {
+          "number": 12,
+          "text": "Graph on the same set of axes y = x^2, y = -x^2, and y = -(x+2)^2 + 3. Describe the combination of transformations which transform y = x^2 to y = -(x+2)^2 + 3."
+        },
+        {
+          "number": 13,
+          "text": "Graph on the same set of axes y = 1/x, y = -1/x, y = -1/(x-3) + 2. Describe the combination of transformations which transform y = 1/x to y = -1/(x-3) + 2."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "Exercise 4D",
+      "problems": [
+        {
+          "number": 1,
+          "text": "Consider f(x) = x^2. a) Graph y = f(x) and state its axes intercepts. b) Graph each function and describe the transformation which has occurred: i) y = f(x) + 3, ii) y = f(x-1), iii) y = 2f(x), iv) y = -f(x)"
+        },
+        {
+          "number": 2,
+          "text": "In each graph, f(x) is transformed to g(x) using a single transformation. i) Describe the transformation. ii) Write g(x) in terms of f(x)."
+        },
+        {
+          "number": 3,
+          "text": "For the graph of y = f(x) given, sketch the graph of: a) y = 2f(x), b) y = (1/2)f(x), c) y = f(2x), d) y = f((1/2)x)"
+        },
+        {
+          "number": 4,
+          "text": "For the graph of y = g(x) given, sketch the graph of: a) y = g(x) + 2, b) y = g(x+1), c) y = -g(x)"
+        },
+        {
+          "number": 5,
+          "text": "For the graph of y = h(x) given, sketch the graph of: a) y = h(x) + 1, b) y = (1/2)h(x), c) y = h(-x), d) y = h((x/2))"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "Review Set 4A",
+      "problems": [
+        {
+          "number": 1,
+          "text": "For the graph of y = f(x), sketch graphs of: a) y = f(-x), b) y = -f(x), c) y = f(x+2), d) y = f(x) + 2. The graph shows points (-3,3), (5,8), (2,-1)."
+        },
+        {
+          "number": 2,
+          "text": "Consider the function f. Sketch y = f(x), y = 3f(x), and y = 3f(x) on the same set of axes."
+        },
+        {
+          "number": 3,
+          "text": "The function f(x) has domain {x | -2 < x < 3} and range {y | -5 < y < 7}. Find the domain and range of g(x) = f(x+3) - 4. Explain your answers."
+        },
+        {
+          "number": 4,
+          "text": "Sketch the graph of f(x) = (x+1)^(1/2) - 4 and find the coordinates of the corresponding point on the graph. State the range of f."
+        },
+        {
+          "number": 5,
+          "text": "The graph of the function f(x) = x^2 + bx - 4 is translated 2 units to the right and 4 units up. a) Find the coordinates of the vertex corresponding to the translated graph. b) State the range of f."
+        },
+        {
+          "number": 6,
+          "text": "Find the equation of the resulting graph g(x) when: a) f(x) = 4x - 7 is translated 3 units downwards, b) f(x) = x^2 + 4 is vertically stretched with scale factor 5, c) f(x) = 2x^2 - x - 3 is translated 4 units to the left, d) f(x) = x^2 - x + 1 is horizontally stretched with scale factor 3"
+        },
+        {
+          "number": 7,
+          "text": "The graph of f(x) = 3x^2 - 2x + 4 is translated by the vector (1, -2). Write the equation of the image in the form y = ax^2 + bx + c."
+        },
+        {
+          "number": 8,
+          "text": "a) Find the equation of the line that results when the line f(x) = 3x + 2 is translated: i) 2 units to the left, ii) 6 units upwards. b) Show that when the linear function f(x) = ax + b, a > 0 is translated k units to the left, the resulting line is the same as when f(x) is translated ak units upwards."
+        },
+        {
+          "number": 9,
+          "text": "Consider a function f(x). Find the function which results if y = f(x) is: a) reflected in the x-axis then translated through (-2, 3), b) translated through (4, -1) then vertically stretched with scale factor 2."
+        },
+        {
+          "number": 10,
+          "text": "Suppose the graph of y = f(x) has x-intercepts -5 and 1, and y-intercept -3. What can you say about the axes intercepts of: a) y = f(x+4), b) y = 3f(x), c) y = f(x/2), d) y = -f(x)?"
+        },
+        {
+          "number": 11,
+          "text": "The function g(x) results when y = 1/x is transformed by a translation through (-1, 2) followed by a reflection in the y-axis. a) Write an expression for g(x) in the form g(x) = (ax+b)/(cx+d). b) Find the asymptotes of y = g(x). c) State the domain and range of g(x). d) Sketch y = g(x)."
+        },
+        {
+          "number": 12,
+          "text": "Graph on the same set of axes y = x^2, y = (1/4)x^2, and y = (1/4)(x-2)^2 - 1. Describe the combination of transformations which transform y = x^2 to y = (1/4)(x-2)^2 - 1."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "Review Set 4B",
+      "problems": [
+        {
+          "number": 1,
+          "text": "Consider the graph of y = f(x) alongside. On separate axes, draw the graphs of: a) y = f(x-1), b) y = f(2x), c) y = f(x) + 3, d) y = 2f(x), e) y = f(-x), f) y = -f(x)"
+        },
+        {
+          "number": 2,
+          "text": "Find the equation of the resulting graph g(x) when: a) f(x) = x^2 - 3x is reflected in the x-axis, b) f(x) = 14 - x is translated 2 units upwards, c) f(x) = (1/3)x + 2 is horizontally stretched with scale factor 4."
+        },
+        {
+          "number": 3,
+          "text": "and y = 2f(x+2) - 3."
+        },
+        {
+          "number": 4,
+          "text": "The graph of f(x) = x^2 is transformed to the graph of g(x) by a reflection and a translation as illustrated. Find the formula for g(x) in the form g(x) = ax^2 + bx + c."
+        },
+        {
+          "number": 5,
+          "text": "Given the graph of y = f(x), sketch graphs of: a) y = -f(-x), b) y = f(x-1)"
+        },
+        {
+          "number": 6,
+          "text": "Sketch the graph of f(x) = -x^2, and on the same set of axes sketch the graph of: a) y = f(-x), b) y = -f(x), c) y = f(2x), d) y = f(x-2)"
+        },
+        {
+          "number": 7,
+          "text": "The graph of a cubic function y = f(x) is shown alongside. a) Sketch the graph of g(x) = f(x-1). b) State the coordinates of the turning points of y = g(x)."
+        },
+        {
+          "number": 8,
+          "text": "The graph of f(x) = -2x^2 + x + 2 is translated by the vector (1/2, -2). Write the equation of the image in the form y = ax^2 + bx + c."
+        },
+        {
+          "number": 9,
+          "text": "The graph of y = f(x) is shown alongside. On the same diagram, sketch the graph of y = f(x-c) where 0 < c < a. Indicate the x-intercepts of y = f(x-c)."
+        },
+        {
+          "number": 10,
+          "text": "The point (-1, 6) lies on the graph of y = f(x). Find the corresponding point on the graph: a) y = f(2x+1) + 3, b) y = -f(x) - 1"
+        },
+        {
+          "number": 11,
+          "text": "Fully describe the transformations which map y = f(x) onto: a) y = 2f(x+1) + 3, b) y = -f(2x) - 1, c) y = f(1-x) + 2"
+        },
+        {
+          "number": 12,
+          "text": "a) Graph on the same set of axes y = 1/x, y = -1/x, y = -1/(2x), and y = -1/(2(x+1)) - 2. b) Describe the combination of transformations which transform y = 1/x into y = -1/(2(x+1)) - 2. c) Write the resulting function in the form y = (ax+b)/(cx+d), and state its domain and range."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Even Functions",
+      "content": "Consider the function f(x) = x^2. Notice that f(-3) = f(3) = 9. In fact, f(-x) = f(x) for all x. We know this is true since f(-x) = (-x)^2 = x^2 = f(x). We say that f(x) = x^2 is an even function. A function f(x) is even if f(-x) = f(x) for all x in the domain of f. The graph of an even function is symmetrical about the y-axis."
+    },
+    {
+      "type": "concept",
+      "title": "Odd Functions",
+      "content": "Consider the function f(x) = x^3. Notice that f(-2) = -8 and f(2) = 8, so f(-2) = -f(2). In fact, f(-x) = -f(x) for all x. We know this is true since f(-x) = (-x)^3 = (-1)^3 x^3 = -x^3 = -f(x). We say that f(x) = x^3 is an odd function. A function f(x) is odd if f(-x) = -f(x) for all x in the domain of f. The graph of an odd function has rotational symmetry about the origin."
+    },
+    {
+      "type": "worked_example",
+      "number": "5E-1",
+      "problem": "Determine whether each function is even, odd, or neither: a) f(x) = 1/x, b) g(x) = x^4 + x^2, c) h(x) = x^2 - 2x + 3",
+      "solution": {
+        "part_a": "f(x) = 1/x. f(-x) = 1/(-x) = -1/x = -f(x). Therefore f(x) is an odd function.",
+        "part_b": "g(x) = x^4 + x^2. g(-x) = (-x)^4 + (-x)^2 = x^4 + x^2 = g(x). Therefore g(x) is an even function.",
+        "part_c": "h(x) = x^2 - 2x + 3. h(-x) = (-x)^2 - 2(-x) + 3 = x^2 + 2x + 3. This is neither h(x) nor -h(x). Therefore h(x) is neither even nor odd."
+      }
+    }
+  ]
+}

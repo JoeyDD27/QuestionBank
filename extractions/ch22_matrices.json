@@ -1,0 +1,700 @@
+{
+  "chapter": 22,
+  "title": "Matrices",
+  "image_range": "image2174.png - image2212.png",
+  "total_images": 39,
+  "subsections": [
+    {
+      "title": "Matrix Size and Construction",
+      "images": ["image2174.png", "image2175.png", "image2176.png", "image2177.png", "image2178.png", "image2179.png", "image2180.png", "image2181.png", "image2182.png"],
+      "content": [
+        {
+          "image": "image2174.png",
+          "type": "concept",
+          "content": "A matrix is a rectangular array of numbers arranged in rows and columns."
+        },
+        {
+          "image": "image2175.png",
+          "type": "concept",
+          "content": "A calendar is not a matrix because it has rows and columns that are not complete. In this course we will write our matrices with round brackets around the numbers. Elsewhere, square brackets are often used."
+        },
+        {
+          "image": "image2176.png",
+          "type": "concept",
+          "content": "Opening Problem: Gerty has invested in real estate. She owns a block of 10 apartments, 5 units, and 3 houses. She wishes to put new furniture in each of them. In each apartment she puts 4 chairs, 1 table and 2 beds. In each unit she puts 6 chairs, 1 table and 3 beds. In each house she puts 8 chairs, 2 tables and 4 beds. If each chair costs 35 euros, each table 175 euros and each bed 235 euros, how much will the furniture cost in total?"
+        },
+        {
+          "image": "image2177.png",
+          "type": "concept",
+          "content": "One way to solve the Opening Problem is to use a matrix, or rectangular array of numbers. You have been using matrices for many years without realising it. For example, you may have used them to display your school results.",
+          "latex": "\\text{School Results Matrix: } \\begin{pmatrix} 84 & 85 \\\\ 78 & 79 \\\\ 81 & 86 \\\\ 73 & 74 \\\\ 69 & 77 \\end{pmatrix}"
+        },
+        {
+          "image": "image2178.png",
+          "type": "concept",
+          "content": "The information in the Opening Problem can be summarised in tables: Furniture Prices and Furniture Inventory.",
+          "latex": "\\text{Furniture Prices: } \\begin{pmatrix} 35 \\\\ 175 \\\\ 235 \\end{pmatrix} \\quad \\text{Furniture Inventory: } \\begin{pmatrix} 4 & 1 & 2 \\\\ 6 & 1 & 3 \\\\ 8 & 2 & 4 \\end{pmatrix}"
+        },
+        {
+          "image": "image2179.png",
+          "type": "concept",
+          "content": "We could also write the information in detailed matrix form. Provided we can remember what each row and column stands for, we can omit the labels.",
+          "latex": [
+            "\\begin{pmatrix} 35 \\\\ 175 \\\\ 235 \\end{pmatrix} \\text{ has 3 rows and 1 column and we say that this is a } 3 \\times 1 \\text{ column matrix or column vector.}",
+            "\\begin{pmatrix} 1 & 2 & 3 & 4 \\end{pmatrix} \\text{ has 1 row and 4 columns and is called a } 1 \\times 4 \\text{ row matrix or row vector.}",
+            "\\begin{pmatrix} 4 & 1 & 2 \\\\ 6 & 1 & 3 \\\\ 8 & 2 & 4 \\end{pmatrix} \\text{ has 3 rows and 3 columns and is called a } 3 \\times 3 \\text{ square matrix.}",
+            "\\text{An } m \\times n \\text{ matrix has } m \\text{ rows and } n \\text{ columns.}",
+            "\\text{The numbers in the matrix are called its elements.}",
+            "m \\times n \\text{ is called the order of the matrix.}",
+            "\\text{For example: } \\mathbf{A} = \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix} \\text{ or } \\mathbf{B} = \\begin{pmatrix} 3 & 1 \\\\ 0 & -1 \\end{pmatrix}"
+          ]
+        },
+        {
+          "image": "image2180.png",
+          "type": "exercise",
+          "exercise_id": "18A",
+          "questions": [
+            {
+              "number": "1",
+              "content": "State the order of:",
+              "parts": [
+                {
+                  "label": "a",
+                  "latex": "\\begin{pmatrix} 6 & 2 & 3 \\end{pmatrix}"
+                },
+                {
+                  "label": "b",
+                  "latex": "\\begin{pmatrix} 3 \\\\ 5 \\end{pmatrix}"
+                },
+                {
+                  "label": "c",
+                  "latex": "\\begin{pmatrix} 3 & 0 \\\\ 1 & 2 \\end{pmatrix}"
+                },
+                {
+                  "label": "d",
+                  "latex": "\\begin{pmatrix} -1 & 0 & 2 \\\\ 3 & 1 & 1 \\end{pmatrix}"
+                }
+              ]
+            },
+            {
+              "number": "2",
+              "content": "For the matrix, what element is found in:",
+              "latex": "\\begin{pmatrix} 3 & 1 \\\\ 1 & 0 \\\\ 4 & 1 \\end{pmatrix}",
+              "parts": [
+                {
+                  "label": "a",
+                  "content": "row 1, column 2"
+                },
+                {
+                  "label": "b",
+                  "content": "row 3, column 1"
+                },
+                {
+                  "label": "c",
+                  "content": "row 2, column 2?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2181.png",
+          "type": "example",
+          "example_id": "1",
+          "content": "Peter goes to the local newsagent to buy 3 pens at 60 pence each, 2 notepads at 1.20 pounds each, and one folder at 2.30 pounds.",
+          "parts": [
+            "Represent the quantities purchased in a row matrix.",
+            "Represent the costs in a column matrix.",
+            "Construct a column matrix showing the price of each item at the supermarket.",
+            "Construct a cost matrix which shows prices from both stores."
+          ],
+          "latex": "\\text{Quantities: } \\begin{pmatrix} 3 & 2 & 1 \\end{pmatrix} \\quad \\text{Costs: } \\begin{pmatrix} 0.60 \\\\ 1.20 \\\\ 2.30 \\end{pmatrix} \\quad \\text{Supermarket: } \\begin{pmatrix} 0.45 \\\\ 1.10 \\\\ 2.50 \\end{pmatrix} \\quad \\text{Cost Matrix: } \\begin{pmatrix} 0.60 & 0.45 \\\\ 1.20 & 1.10 \\\\ 2.30 & 2.50 \\end{pmatrix}"
+        },
+        {
+          "image": "image2182.png",
+          "type": "exercise",
+          "exercise_id": "18A_continued",
+          "questions": [
+            {
+              "number": "3",
+              "content": "Claude went to a hardware store to purchase items for his home construction business. He bought 6 hammers, 3 punches, 5 screwdrivers, and 4 drill sets. The costs of the items were $12, $35, $1, and $8 respectively.",
+              "parts": [
+                {
+                  "label": "a",
+                  "content": "Construct a row matrix showing the quantities purchased."
+                },
+                {
+                  "label": "b",
+                  "content": "Construct a column matrix showing the price of each item in the appropriate order."
+                }
+              ]
+            },
+            {
+              "number": "4",
+              "content": "A baker produces cakes, slices and scones. On Saturday she produced 30 dozen cakes, 40 dozen slices, and 25 dozen scones. On Sunday she produced 25 dozen cakes, 30 dozen slices, and 35 dozen scones. On the Monday she produced 25 dozen of all three items. Construct a 3 x 3 matrix to display the items made."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Matrix Equality",
+      "images": ["image2183.png", "image2184.png", "image2185.png"],
+      "content": [
+        {
+          "image": "image2183.png",
+          "type": "concept",
+          "content": "Two matrices are equal if and only if: the matrices have the same shape or order, and elements in corresponding positions are equal.",
+          "latex": "\\text{For example, if } \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = \\begin{pmatrix} 2 & 1 \\\\ 3 & 5 \\end{pmatrix}, \\text{ then } a = 2, b = 1, c = 3, \\text{ and } d = 5."
+        },
+        {
+          "image": "image2184.png",
+          "type": "example",
+          "example_id": "2",
+          "content": "Find j, k, l and m.",
+          "latex": "\\text{If } \\begin{pmatrix} j & k+1 \\\\ 2l & m \\end{pmatrix} = \\begin{pmatrix} 2 & -1 \\\\ 6 & 0 \\end{pmatrix}, \\text{ find } j, k, l \\text{ and } m.",
+          "solution": "\\text{Since the matrices are equal, } j = 2, k+1 = -1, 2l = 6, m = 0 \\\\ \\therefore j = 2, k = -2, l = 3, \\text{ and } m = 0"
+        },
+        {
+          "image": "image2185.png",
+          "type": "exercise",
+          "exercise_id": "18B",
+          "questions": [
+            {
+              "number": "1",
+              "content": "Explain why the following pairs of matrices are not equal:",
+              "parts": [
+                {
+                  "label": "a",
+                  "latex": "\\begin{pmatrix} 0 & 1 \\\\ 2 & 0 \\end{pmatrix} \\neq \\begin{pmatrix} 0 & -1 \\\\ 2 & 0 \\end{pmatrix}"
+                },
+                {
+                  "label": "b",
+                  "latex": "\\begin{pmatrix} 1 & 3 \\\\ 2 & 0 \\end{pmatrix} \\neq \\begin{pmatrix} 1 & 3 \\\\ 2 & 0 \\\\ 0 & 0 \\end{pmatrix}"
+                }
+              ]
+            },
+            {
+              "number": "2",
+              "content": "Find the unknowns if:",
+              "parts": [
+                {
+                  "label": "a",
+                  "latex": "\\begin{pmatrix} 1 & a \\\\ b & 0 \\end{pmatrix} = \\begin{pmatrix} 1 & 2 \\\\ 3 & 0 \\end{pmatrix}"
+                },
+                {
+                  "label": "b",
+                  "latex": "\\begin{pmatrix} x & 3 \\\\ 4 & 2y \\end{pmatrix} = \\begin{pmatrix} -2 & 3 \\\\ 4 & 4 \\end{pmatrix}"
+                },
+                {
+                  "label": "c",
+                  "latex": "\\begin{pmatrix} 1 & y-1 \\\\ x & 3 \\end{pmatrix} = \\begin{pmatrix} 1 & x \\\\ 2 & 3 \\end{pmatrix}"
+                },
+                {
+                  "label": "d",
+                  "latex": "\\begin{pmatrix} x^2 & y \\\\ z & 1-x \\end{pmatrix} = \\begin{pmatrix} 1 & 3 \\\\ y-2 & 0 \\end{pmatrix}"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Addition and Subtraction of Matrices",
+      "images": ["image2186.png", "image2187.png", "image2188.png", "image2189.png", "image2190.png", "image2191.png", "image2192.png", "image2193.png"],
+      "content": [
+        {
+          "image": "image2186.png",
+          "type": "concept",
+          "content": "Addition: Harry has three stores (A, B and C). His stock levels for TV sets, microwave ovens and refrigerators are given by the matrix. Some newly ordered stock has just arrived. For each store 30 TVs, 40 microwaves and 50 refrigerators must be added to stock levels.",
+          "latex": "\\text{Stock levels: } \\begin{pmatrix} 23 & 41 & 68 \\\\ 28 & 39 & 79 \\\\ 46 & 17 & 62 \\end{pmatrix}"
+        },
+        {
+          "image": "image2187.png",
+          "type": "concept",
+          "content": "His stock order is given by the matrix. Clearly the new levels are shown as the sum of corresponding elements.",
+          "latex": [
+            "\\text{Stock order: } \\begin{pmatrix} 30 & 30 & 30 \\\\ 40 & 40 & 40 \\\\ 50 & 50 & 50 \\end{pmatrix}",
+            "\\begin{pmatrix} 23 & 41 & 68 \\\\ 28 & 39 & 79 \\\\ 46 & 17 & 62 \\end{pmatrix} + \\begin{pmatrix} 30 & 30 & 30 \\\\ 40 & 40 & 40 \\\\ 50 & 50 & 50 \\end{pmatrix} = \\begin{pmatrix} 53 & 71 & 98 \\\\ 68 & 79 & 119 \\\\ 96 & 67 & 112 \\end{pmatrix}",
+            "\\text{To add two matrices of the same shape, we add corresponding elements.}",
+            "\\text{We cannot add matrices of different shape.}"
+          ]
+        },
+        {
+          "image": "image2188.png",
+          "type": "concept",
+          "content": "Zero Matrix: A zero matrix is one which has all elements zero.",
+          "latex": [
+            "\\text{For example, } \\mathbf{O} = \\begin{pmatrix} 0 & 0 \\\\ 0 & 0 \\end{pmatrix} \\text{ is the } 2 \\times 2 \\text{ zero matrix.}",
+            "\\text{For any matrix } \\mathbf{A}, \\quad \\mathbf{A} + \\mathbf{O} = \\mathbf{O} + \\mathbf{A} = \\mathbf{A}"
+          ]
+        },
+        {
+          "image": "image2189.png",
+          "type": "concept",
+          "content": "Subtraction: If Harry's stock levels were given and his sales matrix for the week is given, what are the current stock levels?",
+          "latex": [
+            "\\text{Stock levels: } \\begin{pmatrix} 39 & 61 & 29 \\\\ 41 & 38 & 42 \\\\ 50 & 27 & 39 \\end{pmatrix}",
+            "\\text{Sales matrix: } \\begin{pmatrix} 16 & 13 & 7 \\\\ 21 & 17 & 20 \\\\ 20 & 9 & 15 \\end{pmatrix}",
+            "\\text{It is clear that we must subtract corresponding elements.}"
+          ]
+        },
+        {
+          "image": "image2190.png",
+          "type": "concept",
+          "content": "Subtraction rule for matrices.",
+          "latex": [
+            "\\begin{pmatrix} 39 & 61 & 29 \\\\ 41 & 38 & 42 \\\\ 50 & 27 & 39 \\end{pmatrix} - \\begin{pmatrix} 16 & 13 & 7 \\\\ 21 & 17 & 20 \\\\ 20 & 9 & 15 \\end{pmatrix} = \\begin{pmatrix} 23 & 48 & 22 \\\\ 20 & 21 & 22 \\\\ 30 & 18 & 24 \\end{pmatrix}",
+            "\\text{To subtract matrices of the same shape, we subtract corresponding elements.}",
+            "\\text{We cannot subtract matrices of different shape.}"
+          ]
+        },
+        {
+          "image": "image2191.png",
+          "type": "example",
+          "example_id": "3",
+          "content": "If A and B are given, find A + B and A - B.",
+          "latex": [
+            "\\text{If } \\mathbf{A} = \\begin{pmatrix} 2 & 1 \\\\ -1 & 0 \\end{pmatrix} \\text{ and } \\mathbf{B} = \\begin{pmatrix} 1 & 0 \\\\ 2 & -1 \\end{pmatrix}, \\text{ find:}",
+            "\\mathbf{A} + \\mathbf{B} = \\begin{pmatrix} 2 & 1 \\\\ -1 & 0 \\end{pmatrix} + \\begin{pmatrix} 1 & 0 \\\\ 2 & -1 \\end{pmatrix} = \\begin{pmatrix} 3 & 1 \\\\ 1 & -1 \\end{pmatrix}",
+            "\\mathbf{A} - \\mathbf{B} = \\begin{pmatrix} 2 & 1 \\\\ -1 & 0 \\end{pmatrix} - \\begin{pmatrix} 1 & 0 \\\\ 2 & -1 \\end{pmatrix} = \\begin{pmatrix} 1 & 1 \\\\ -3 & 1 \\end{pmatrix}"
+          ]
+        },
+        {
+          "image": "image2192.png",
+          "type": "example",
+          "example_id": "4",
+          "content": "At the end of March, Harry's stock matrix was given. His stock order matrix in early April was given and his sales during April were given. What is Harry's stock matrix at the end of April?",
+          "latex": [
+            "\\text{End of March stock: } \\begin{pmatrix} 28 & 13 & 17 \\\\ 19 & 24 & 22 \\\\ 25 & 16 & 10 \\end{pmatrix}",
+            "\\text{April orders: } \\begin{pmatrix} 20 & 37 & 23 \\\\ 21 & 16 & 18 \\\\ 15 & 24 & 30 \\end{pmatrix}",
+            "\\text{April sales: } \\begin{pmatrix} 31 & 28 & 26 \\\\ 20 & 31 & 19 \\\\ 25 & 17 & 32 \\end{pmatrix}",
+            "\\text{Beginning of April: } \\begin{pmatrix} 28 & 13 & 17 \\\\ 19 & 24 & 22 \\\\ 25 & 16 & 10 \\end{pmatrix} + \\begin{pmatrix} 20 & 37 & 23 \\\\ 21 & 16 & 18 \\\\ 15 & 24 & 30 \\end{pmatrix} = \\begin{pmatrix} 48 & 50 & 40 \\\\ 40 & 40 & 40 \\\\ 40 & 40 & 40 \\end{pmatrix}",
+            "\\text{End of April: } \\begin{pmatrix} 48 & 50 & 40 \\\\ 40 & 40 & 40 \\\\ 40 & 40 & 40 \\end{pmatrix} - \\begin{pmatrix} 31 & 28 & 26 \\\\ 20 & 31 & 19 \\\\ 25 & 17 & 32 \\end{pmatrix} = \\begin{pmatrix} 17 & 22 & 14 \\\\ 20 & 9 & 21 \\\\ 15 & 23 & 8 \\end{pmatrix}"
+          ]
+        },
+        {
+          "image": "image2193.png",
+          "type": "exercise",
+          "exercise_id": "18C",
+          "questions": [
+            {
+              "number": "1",
+              "content": "If possible, find:",
+              "parts": [
+                {
+                  "label": "a",
+                  "latex": "\\begin{pmatrix} 1 & 0 & 4 \\end{pmatrix} + \\begin{pmatrix} 2 & 3 & -2 \\end{pmatrix}"
+                },
+                {
+                  "label": "b",
+                  "latex": "\\begin{pmatrix} 3 \\\\ 1 \\end{pmatrix} - \\begin{pmatrix} 5 \\\\ 2 \\end{pmatrix}"
+                },
+                {
+                  "label": "c",
+                  "latex": "\\begin{pmatrix} 2 & 4 \\\\ 1 & 3 \\end{pmatrix} + \\begin{pmatrix} -1 \\\\ 3 \\end{pmatrix}"
+                },
+                {
+                  "label": "d",
+                  "latex": "\\begin{pmatrix} 1 & 2 \\\\ -5 & 0 \\end{pmatrix} - \\begin{pmatrix} 3 & -1 \\\\ 2 & 4 \\end{pmatrix}"
+                }
+              ]
+            },
+            {
+              "number": "2",
+              "content": "If A, B, and C are given, find A + B, B + A - C.",
+              "latex": "\\text{If } \\mathbf{A} = \\begin{pmatrix} 3 \\\\ 2 \\end{pmatrix}, \\mathbf{B} = \\begin{pmatrix} 0 \\\\ -1 \\end{pmatrix}, \\text{ and } \\mathbf{C} = \\begin{pmatrix} -1 \\\\ 4 \\end{pmatrix}, \\text{ find:}"
+            },
+            {
+              "number": "3",
+              "content": "At the end of April, Harry's stock matrix is given. What will be his stock order matrix if he wishes to have 50 of each item in each store at the start of May?",
+              "latex": "\\text{End of April stock: } \\begin{pmatrix} 17 & 22 & 14 \\\\ 20 & 31 & 23 \\\\ 15 & 24 & 30 \\end{pmatrix}"
+            },
+            {
+              "number": "4",
+              "content": "A restaurant served 72 men, 84 women and 43 children on Friday night. On Saturday night they served 96 men, 72 women and 46 children. Express this information in two column matrices. Use the matrices to find the totals of men, women and children served over the two day period."
+            },
+            {
+              "number": "5",
+              "content": "On Tuesday Keong bought shares in five companies and on Friday he sold them. The details are given. Find Keong's cost price column matrix, selling price column matrix. What matrix operation is needed to find Keong's profit or loss matrix? Find Keong's profit or loss matrix."
+            },
+            {
+              "number": "6",
+              "content": "If A = (3/2), find a matrix B such that A + B = O."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Scalar Multiplication",
+      "images": ["image2194.png", "image2195.png", "image2196.png", "image2197.png", "image2198.png"],
+      "content": [
+        {
+          "image": "image2194.png",
+          "type": "concept",
+          "content": "A matrix can be multiplied by a number or scalar to produce another matrix. For example, in the Opening Problem, each of Gerty's 10 apartments has 4 chairs, 1 table and 2 beds.",
+          "latex": [
+            "\\text{If } \\mathbf{F} = \\begin{pmatrix} 4 \\\\ 2 \\\\ 1 \\end{pmatrix} \\text{ represents the furniture in one each apartment, then the matrix representing}",
+            "\\text{the furniture in all apartments can be written as } 10\\mathbf{F} = \\begin{pmatrix} 10 \\times 4 \\\\ 10 \\times 2 \\\\ 10 \\times 1 \\end{pmatrix} \\text{ or } \\begin{pmatrix} 40 \\\\ 20 \\\\ 10 \\end{pmatrix}."
+          ]
+        },
+        {
+          "image": "image2195.png",
+          "type": "concept",
+          "content": "If a scalar k is multiplied by a matrix A the result is matrix kA obtained by multiplying every element of A by k."
+        },
+        {
+          "image": "image2196.png",
+          "type": "example",
+          "example_id": "5",
+          "content": "If A and B are given, find 2A and A - 2B.",
+          "latex": [
+            "\\text{If } \\mathbf{A} = \\begin{pmatrix} 0 & 1 \\\\ 2 & 1 \\end{pmatrix} \\text{ and } \\mathbf{B} = \\begin{pmatrix} 1 & 0 \\\\ -1 & 2 \\end{pmatrix}, \\text{ find:}",
+            "2\\mathbf{A} = 2\\begin{pmatrix} 0 & 1 \\\\ 2 & 1 \\end{pmatrix} = \\begin{pmatrix} 0 & 2 \\\\ 4 & 2 \\end{pmatrix}",
+            "\\mathbf{A} - 2\\mathbf{B} = \\begin{pmatrix} 0 & 1 \\\\ 2 & 1 \\end{pmatrix} - 2\\begin{pmatrix} 1 & 0 \\\\ -1 & 2 \\end{pmatrix} = \\begin{pmatrix} 0 & 1 \\\\ 2 & 1 \\end{pmatrix} - \\begin{pmatrix} 2 & 0 \\\\ -2 & 4 \\end{pmatrix} = \\begin{pmatrix} -2 & 1 \\\\ 4 & -3 \\end{pmatrix}"
+          ]
+        },
+        {
+          "image": "image2197.png",
+          "type": "exercise",
+          "exercise_id": "18D",
+          "questions": [
+            {
+              "number": "1",
+              "content": "If A and B are given, find: 2A, (1/2)B, A + 2B, 3A - B.",
+              "latex": "\\text{If } \\mathbf{A} = \\begin{pmatrix} 1 & -1 \\\\ 0 & 1 \\end{pmatrix} \\text{ and } \\mathbf{B} = \\begin{pmatrix} -2 & 0 \\\\ 1 & 1 \\end{pmatrix}, \\text{ find:}",
+              "parts": [
+                {"label": "a", "content": "2A"},
+                {"label": "b", "content": "(1/2)B"},
+                {"label": "c", "content": "A + 2B"},
+                {"label": "d", "content": "3A - B"}
+              ]
+            },
+            {
+              "number": "2",
+              "content": "Bob's order for hardware items is shown in matrix form as H. Find the matrix if: a) Bob doubles his order, b) Bob halves his order, c) Bob increases his order by 50%.",
+              "latex": "\\mathbf{H} = \\begin{pmatrix} 10 \\\\ 20 \\\\ 100 \\\\ 40 \\end{pmatrix} \\text{ (hammers, screw driver sets, packets of nails, packets of screws)}"
+            }
+          ]
+        },
+        {
+          "image": "image2198.png",
+          "type": "exercise",
+          "exercise_id": "18D_continued",
+          "questions": [
+            {
+              "number": "3",
+              "content": "Sarah sells dresses made by four different companies which we will call A, B, C and D. Her usual monthly order is shown in the matrix opposite. Find her order if: a) she increases her total order by 20%, b) she decreases her total order by 20%.",
+              "latex": "\\begin{pmatrix} 40 & 30 & 30 & 60 \\\\ 50 & 40 & 30 & 60 \\\\ 40 & 60 & 50 & 40 \\\\ 20 & 20 & 20 & 20 \\end{pmatrix} \\text{ (skirt, dress, evening, suit)}"
+            },
+            {
+              "number": "4",
+              "content": "Colin's stock matrix is M. His normal weekly order matrix is N and his sales matrix is S. Unfortunately this time Colin ordered twice. Which of the following will be his actual stock holding at the end of this period?",
+              "parts": [
+                {"label": "A", "content": "M + N + S"},
+                {"label": "B", "content": "M + N - S"},
+                {"label": "C", "content": "M + 2N - S"},
+                {"label": "D", "content": "M + N - 2S"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Matrix Multiplication",
+      "images": ["image2199.png", "image2200.png", "image2201.png", "image2202.png", "image2203.png", "image2204.png", "image2205.png", "image2206.png", "image2207.png", "image2208.png", "image2209.png", "image2210.png", "image2211.png", "image2212.png"],
+      "content": [
+        {
+          "image": "image2199.png",
+          "type": "concept",
+          "content": "In Example 1, Peter bought 3 pens, 2 notepads and 1 folder. At the local newsagent they cost 60 pence, 1.20 pounds, and 2.30 pounds each respectively. At the supermarket they cost 45 pence, 1.10 pounds, and 2.50 pounds each respectively.",
+          "latex": [
+            "\\text{We can represent this information by using a quantities matrix } \\mathbf{Q} = \\begin{pmatrix} 3 & 2 & 1 \\end{pmatrix}",
+            "\\text{and a costs matrix } \\mathbf{C} = \\begin{pmatrix} 0.60 & 0.45 \\\\ 1.20 & 1.10 \\\\ 2.30 & 2.50 \\end{pmatrix}.",
+            "\\text{The total cost at the newsagent is } (3 \\times 0.60 + 2 \\times 1.20 + 1 \\times 2.30) = \\pounds 6.50.",
+            "\\text{The total cost at the supermarket is } (3 \\times 0.45 + 2 \\times 1.10 + 1 \\times 2.50) = \\pounds 6.05.",
+            "\\mathbf{QC} = \\begin{pmatrix} 3 & 2 & 1 \\end{pmatrix} \\begin{pmatrix} 0.60 & 0.45 \\\\ 1.20 & 1.10 \\\\ 2.30 & 2.50 \\end{pmatrix} = \\begin{pmatrix} 3 \\times 0.60 + 2 \\times 1.20 + 1 \\times 2.30 & 3 \\times 0.45 + 2 \\times 1.10 + 1 \\times 2.50 \\end{pmatrix}"
+          ]
+        },
+        {
+          "image": "image2200.png",
+          "type": "concept",
+          "content": "Matrix multiplication has a different meaning to that used for multiplying numbers. In this case we multiply each element of a row by the corresponding element of a column, and then add the results.",
+          "latex": [
+            "\\text{If matrix } \\mathbf{A} \\text{ is } m \\times n \\text{ and matrix } \\mathbf{B} \\text{ is } n \\times p \\text{ then their product } \\mathbf{AB} \\text{ exists and is an } m \\times p \\text{ matrix.}",
+            "\\text{We multiply each member of a row in } \\mathbf{A} \\text{ by each member of a column of } \\mathbf{B} \\text{ and add the results.}",
+            "\\text{If the number of columns in } \\mathbf{A} \\text{ does not equal the number of rows in } \\mathbf{B}, \\text{ then } \\mathbf{AB} \\text{ does not exist.}"
+          ]
+        },
+        {
+          "image": "image2201.png",
+          "type": "concept",
+          "content": "Example of matrix multiplication showing dimension compatibility.",
+          "latex": [
+            "\\begin{pmatrix} 1 & 2 & 1 \\\\ 2 & 1 & 0 \\end{pmatrix} \\begin{pmatrix} 3 \\\\ 1 \\\\ 2 \\end{pmatrix} = \\begin{pmatrix} 1 \\times 3 + 2 \\times 1 + 1 \\times 2 \\\\ 2 \\times 3 + 1 \\times 1 + 0 \\times 2 \\end{pmatrix} = \\begin{pmatrix} 7 \\\\ 7 \\end{pmatrix}",
+            "2 \\times 3 \\quad 3 \\times 1 = 2 \\times 1",
+            "\\text{the same}"
+          ]
+        },
+        {
+          "image": "image2202.png",
+          "type": "example",
+          "example_id": "6",
+          "content": "If A and B are given, find AB.",
+          "latex": [
+            "\\text{If } \\mathbf{A} = \\begin{pmatrix} 1 & 3 & 5 \\\\ 2 & 4 & 6 \\end{pmatrix} \\text{ and } \\mathbf{B} = \\begin{pmatrix} 1 & 1 \\\\ 2 & 0 \\\\ 3 & 4 \\end{pmatrix}, \\text{ find } \\mathbf{AB}.",
+            "\\mathbf{A} \\text{ is } 2 \\times 3 \\text{ and } \\mathbf{B} \\text{ is } 3 \\times 2 \\quad \\therefore \\mathbf{AB} \\text{ is } 2 \\times 2",
+            "\\mathbf{AB} = \\begin{pmatrix} 1 & 3 & 5 \\\\ 2 & 4 & 6 \\end{pmatrix} \\begin{pmatrix} 1 & 1 \\\\ 2 & 0 \\\\ 3 & 4 \\end{pmatrix} = \\begin{pmatrix} 1+6+15 & 1+0+20 \\\\ 2+8+18 & 2+0+24 \\end{pmatrix} = \\begin{pmatrix} 22 & 21 \\\\ 28 & 26 \\end{pmatrix}"
+          ]
+        },
+        {
+          "image": "image2203.png",
+          "type": "exercise",
+          "exercise_id": "18E",
+          "questions": [
+            {
+              "number": "1",
+              "content": "If A is 3 x 2 and B is 2 x 1:",
+              "parts": [
+                {"label": "a", "content": "explain whether AB can be found"},
+                {"label": "b", "content": "find the shape of AB"},
+                {"label": "c", "content": "explain why BA cannot be found."}
+              ]
+            },
+            {
+              "number": "2",
+              "content": "For A and B given, find AB.",
+              "latex": "\\text{For } \\mathbf{A} = \\begin{pmatrix} 1 & 4 \\\\ 2 & 3 \\end{pmatrix} \\text{ and } \\mathbf{B} = \\begin{pmatrix} 5 \\\\ 2 \\end{pmatrix}, \\text{ find } \\mathbf{AB}."
+            },
+            {
+              "number": "3",
+              "content": "For A and B given, find AB and BA.",
+              "latex": "\\text{For } \\mathbf{A} = \\begin{pmatrix} 3 & 1 \\end{pmatrix} \\text{ and } \\mathbf{B} = \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}, \\text{ find: a) } \\mathbf{AB} \\text{ b) } \\mathbf{BA}."
+            },
+            {
+              "number": "4",
+              "content": "Find the following matrix products:",
+              "parts": [
+                {
+                  "label": "a",
+                  "latex": "\\begin{pmatrix} 2 & 1 & 1 \\end{pmatrix} \\begin{pmatrix} 1 & 2 \\\\ 2 & 1 \\\\ 0 & 1 \\end{pmatrix}"
+                },
+                {
+                  "label": "b",
+                  "latex": "\\begin{pmatrix} 1 & 2 \\\\ 0 & 1 \\end{pmatrix} \\begin{pmatrix} 2 & 1 \\\\ 3 & 0 \\end{pmatrix}"
+                },
+                {
+                  "label": "c",
+                  "latex": "\\begin{pmatrix} 0 & 1 & 1 \\\\ 1 & 2 & 0 \\end{pmatrix} \\begin{pmatrix} 1 & 0 \\\\ 0 & 2 \\\\ 2 & 1 \\end{pmatrix}"
+                },
+                {
+                  "label": "d",
+                  "latex": "\\begin{pmatrix} 3 & 1 \\\\ 0 & 2 \\end{pmatrix} \\begin{pmatrix} 1 & 3 & 2 \\\\ 2 & 0 & 1 \\end{pmatrix}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2204.png",
+          "type": "exercise",
+          "exercise_id": "18E_continued",
+          "questions": [
+            {
+              "number": "5",
+              "content": "At the local fair it costs $3 for a pony ride and $3 for a go-cart ride. On day 1 there are 43 pony rides and 57 go-cart rides. On day 2 there are 48 pony rides and 66 go-cart rides. a) Write the costs in the form of a 2 x 1 cost matrix. b) Write down the 2 x 2 numbers matrix N. c) Find NC and interpret your result. d) Find the total income for both rides over the two days."
+            },
+            {
+              "number": "6",
+              "content": "You and your friend each go to your local supermarkets A and B to price items you wish to purchase. You want to buy 1 kg of ham, 1 Christmas Pudding and 3 litres of cola. Your friend wants 1 kg of ham, 2 Christmas puddings and 1 litre of cola. The prices of these goods are given. a) Write the requirements matrix R as a 3 x 2 matrix. b) Write the prices matrix P as a 2 x 3 matrix. c) Find PR. d) What are your costs at A and your friend's costs at B? e) Should you buy from A or B?"
+            }
+          ]
+        },
+        {
+          "image": "image2205.png",
+          "type": "exercise",
+          "exercise_id": "18E_continued2",
+          "questions": [
+            {
+              "number": "7",
+              "content": "Show how to solve the Opening Problem on page 368 by using matrix multiplication."
+            },
+            {
+              "number": "8",
+              "content": "Suppose A is any 2 x 2 matrix. Find a matrix I such that AI = IA = A."
+            },
+            {
+              "number": "9",
+              "content": "Suppose A = (a b c d) where a, b, c and d are four numbers.",
+              "parts": [
+                {"label": "a", "content": "What matrix do we need to multiply A by to find the sum of the four numbers?"},
+                {"label": "b", "content": "Use matrix multiplication to represent the mean of: i) a, b and c  ii) a, b, c and d."}
+              ]
+            },
+            {
+              "number": "10",
+              "content": "A^2 means A x A. If A^2 = 2A and A = (x a; b x) where a and b are non-zero integers, find the possible values of x, a and b."
+            }
+          ]
+        },
+        {
+          "image": "image2206.png",
+          "type": "exercise",
+          "exercise_id": "Review Set 18A",
+          "questions": [
+            {
+              "number": "1",
+              "content": "Consider the matrix. a) What is its order? b) What element is in row 3, column 2?",
+              "latex": "\\begin{pmatrix} 4 & 2 & 7 & 4 \\\\ 3 & 5 & -1 & 4 \\\\ 0 & 2 & 6 & 7 \\end{pmatrix}"
+            },
+            {
+              "number": "2",
+              "content": "Find a, b and c given that:",
+              "latex": "\\begin{pmatrix} a & a^2 \\\\ 2b & b+c \\end{pmatrix} = \\begin{pmatrix} a^2 & 1 \\\\ b & b \\end{pmatrix}"
+            }
+          ]
+        },
+        {
+          "image": "image2207.png",
+          "type": "exercise",
+          "exercise_id": "Review Set 18A_continued",
+          "questions": [
+            {
+              "number": "3",
+              "content": "If A and B are given, find: a) A + B, b) A - B, c) AB, d) BA, e) 3A, f) (1/2)B, g) -2B, h) B - (1/2)A.",
+              "latex": "\\text{If } \\mathbf{A} = \\begin{pmatrix} 2 & 3 \\\\ 4 & -1 \\end{pmatrix} \\text{ and } \\mathbf{B} = \\begin{pmatrix} 5 & -2 \\\\ 0 & 6 \\end{pmatrix}, \\text{ find:}"
+            },
+            {
+              "number": "4",
+              "content": "If A is m x n and B is r x s, what can be said if: a) AB can be found, b) BA can be found?"
+            },
+            {
+              "number": "5",
+              "content": "Suppose A and B are given. Find, if possible: a) A + B, b) AB, c) BA.",
+              "latex": "\\text{Suppose } \\mathbf{A} = \\begin{pmatrix} 2 & 1 & -1 \\\\ 0 & 3 & 1 \\end{pmatrix} \\text{ and } \\mathbf{B} = \\begin{pmatrix} 1 & 0 \\\\ 0 & 2 \\\\ 3 & -2 \\end{pmatrix}. \\text{ Find, if possible:}"
+            }
+          ]
+        },
+        {
+          "image": "image2208.png",
+          "type": "exercise",
+          "exercise_id": "Review Set 18A_continued2",
+          "questions": [
+            {
+              "number": "6",
+              "content": "Peter bought 15 drills, 14 sanders, 8 bench saws, and 18 circular saws for his construction business. Their individual costs were $45, $67, $315, and $56 respectively.",
+              "parts": [
+                {"label": "a", "content": "Write the item numbers as a 1 x 4 matrix N."},
+                {"label": "b", "content": "Write the costs as a 4 x 1 matrix C."},
+                {"label": "c", "content": "Use matrix methods to find the total cost of the power tools."}
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2209.png",
+          "type": "exercise",
+          "exercise_id": "Review Set 18A_continued3",
+          "questions": [
+            {
+              "number": "7",
+              "content": "After the football match on Saturday afternoon, the four friends Jack, Angus, Karaline and Joan decided on a snack. Their order is shown in the matrix opposite. A piece of fish costs 2.30 pounds. A serve of chips is 1.80 pounds. Dim Sims are 50 pence each. Pineapple fritters are 0.65 pounds and drinks are 1.95 pounds each. Represent this information as a cost matrix and hence find: a) each person's cost, b) the total cost.",
+              "latex": "\\begin{pmatrix} 1 & 0 & 2 & 2 \\\\ 1 & 1 & 0 & 1 \\\\ 0 & 3 & 0 & 0 \\\\ 0 & 1 & 1 & 2 \\\\ 1 & 1 & 1 & 1 \\end{pmatrix} \\text{ (Fish, Chips, Dim Sims, Pineapple Fritter, Drink)}"
+            }
+          ]
+        },
+        {
+          "image": "image2210.png",
+          "type": "exercise",
+          "exercise_id": "Review Set 18B",
+          "questions": [
+            {
+              "number": "1",
+              "content": "Write down the order of the following matrices:",
+              "parts": [
+                {
+                  "label": "a",
+                  "latex": "\\begin{pmatrix} 16 & -2 & 5 \\\\ 19 & 8 & -7 \\end{pmatrix}"
+                },
+                {
+                  "label": "b",
+                  "latex": "\\begin{pmatrix} -6 \\\\ 3 \\\\ 7 \\end{pmatrix}"
+                },
+                {
+                  "label": "c",
+                  "latex": "\\begin{pmatrix} 2 & 3 & -4 & 5 \\\\ 10 & 8 & -1 & 0 \\\\ 0 & 3 & 6 & 2 \\end{pmatrix}"
+                }
+              ]
+            },
+            {
+              "number": "2",
+              "content": "Find a, b and c if:",
+              "latex": "\\begin{pmatrix} a & b \\\\ c^2 & -5 \\end{pmatrix} = \\begin{pmatrix} 3a-4 & 2(a+b) \\\\ 9 & c-2 \\end{pmatrix}"
+            }
+          ]
+        },
+        {
+          "image": "image2211.png",
+          "type": "exercise",
+          "exercise_id": "Review Set 18B_continued",
+          "questions": [
+            {
+              "number": "3",
+              "content": "If A and B are given, find: a) A + B, b) -(1/2)A, c) 2A - 5B, d) AB.",
+              "latex": "\\text{If } \\mathbf{A} = \\begin{pmatrix} 1 & -3 \\\\ 2 & 4 \\end{pmatrix} \\text{ and } \\mathbf{B} = \\begin{pmatrix} -4 & -1 \\\\ 2 & 0 \\end{pmatrix}, \\text{ find:}"
+            },
+            {
+              "number": "4",
+              "content": "Find, if possible:",
+              "parts": [
+                {
+                  "label": "a",
+                  "latex": "\\begin{pmatrix} -2 & 0 & 3 \\\\ 1 & 4 & 1 \\end{pmatrix} \\begin{pmatrix} 2 & 4 \\\\ 1 & -2 \\\\ 3 & 0 \\end{pmatrix}"
+                },
+                {
+                  "label": "b",
+                  "latex": "\\begin{pmatrix} -3 & 1 \\\\ 4 & 2 \\end{pmatrix} \\begin{pmatrix} 0 & 3 \\\\ 6 & -2 \\\\ 4 & -1 \\end{pmatrix}"
+                },
+                {
+                  "label": "c",
+                  "latex": "\\begin{pmatrix} 2 \\\\ -3 \\\\ 4 \\end{pmatrix} \\begin{pmatrix} 5 & -1 & 4 \\end{pmatrix}"
+                }
+              ]
+            },
+            {
+              "number": "5",
+              "content": "A cafe sells two types of cola drinks, A and B. The drinks each come in three sizes: small, medium and large. At the beginning of the day the fridge was stocked with the number of units shown in the matrix below. At the end of the day the stock was again counted. The profit in dollars for each item is given by the profit matrix. Use matrix methods to calculate the total profit made for the day from the sale of these drinks.",
+              "latex": [
+                "\\text{Start of the day: } \\begin{pmatrix} 42 & 54 \\\\ 36 & 27 \\\\ 34 & 30 \\end{pmatrix}",
+                "\\text{End of the day: } \\begin{pmatrix} 27 & 31 \\\\ 28 & 15 \\\\ 28 & 22 \\end{pmatrix}",
+                "\\text{Profit per item: } \\begin{pmatrix} 0.75 & 0.55 & 1.20 \\end{pmatrix}"
+              ]
+            }
+          ]
+        },
+        {
+          "image": "image2212.png",
+          "type": "exercise",
+          "exercise_id": "Review Set 18B_continued2",
+          "questions": [
+            {
+              "number": "6",
+              "content": "Matrix A is 3 x 7 and matrix B is n x 4. a) When can matrix AB be calculated? b) If AB can be found, what is its order? c) Can BA be calculated?"
+            },
+            {
+              "number": "7",
+              "content": "Kelly has five women's clothing shops, A, B, C, D and E. At these shops she sells standard item: skirts, dresses, suits and slacks. At the end of week 1 in May her stock holding is given by the matrix. Her sales matrix for week 2 was given. a) Her order matrix at the end of week 2. b) Her stock matrix at the end of week 2."
+            },
+            {
+              "number": "8",
+              "content": "If skirts cost her $26, dresses $75, suits $210 and slacks $16, how much will she have to pay for her end of week 2 order?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

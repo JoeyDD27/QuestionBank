@@ -1,0 +1,646 @@
+{
+  "chapter": 13,
+  "chapter_title": "Venn Diagrams",
+  "part": 2,
+  "image_range": "1272-1311",
+  "content": [
+    {
+      "type": "concept",
+      "title": "Four Regions of a Venn Diagram",
+      "content": "A Venn diagram with two overlapping sets A and B has four regions: 'in A, but not in B', 'in B but not in A', 'in both A and B', and 'neither in A nor in B'",
+      "source_image": "image1272.png"
+    },
+    {
+      "type": "formulas",
+      "title": "Set Complement and De Morgan's Laws",
+      "formulas": [
+        "A ∪ A' = U",
+        "A ∩ A' = ∅",
+        "(A ∪ B)' = A' ∩ B'",
+        "(A ∩ B)' = A' ∪ B'"
+      ],
+      "source_image": "image1273.png"
+    },
+    {
+      "type": "example",
+      "number": 7,
+      "title": "Counting Elements in Venn Diagram Regions",
+      "problem": "If (5) means that there are 5 elements in the set P ∩ Q, how many elements are there in: a) P, b) Q', c) P ∪ Q, d) P, but not Q, e) Q, but not P, f) neither P nor Q?",
+      "venn_diagram": {
+        "sets": ["P", "Q"],
+        "regions": {
+          "P_only": 8,
+          "intersection": 5,
+          "Q_only": 9,
+          "outside": 2
+        }
+      },
+      "solution": {
+        "a": "n(P) = 8 + 5 = 13",
+        "b": "n(Q') = 8 + 2 = 10",
+        "c": "n(P ∪ Q) = 8 + 5 + 9 = 22",
+        "d": "n(P, but not Q) = 8",
+        "e": "n(Q, but not P) = 9",
+        "f": "n(neither P nor Q) = 2"
+      },
+      "source_image": "image1274.png"
+    },
+    {
+      "type": "example",
+      "number": 8,
+      "title": "Finding Set Cardinalities from Given Information",
+      "problem": "Given n(U) = 40, n(A) = 24, n(B) = 27 and n(A ∩ B) = 13, find: a) n(A ∪ B), b) n(A ∩ B')",
+      "solution": {
+        "setup": "Let b = n(A ∩ B) = 13, so a + b = 24 (as n(A) = 24), b + c = 27 (as n(B) = 27), a + b + c + d = 40 (as n(U) = 40)",
+        "solving": "b = 13, a = 11, c = 14, d = 2",
+        "a": "n(A ∪ B) = a + b + c = 38",
+        "b": "n(A ∩ B') = a = 11"
+      },
+      "source_image": "image1275.png"
+    },
+    {
+      "type": "example",
+      "number": 9,
+      "title": "Shading Venn Diagram Regions",
+      "problem": "On separate Venn diagrams, shade the region representing: a) in A or in B but not in both, b) A' ∩ B",
+      "solution": {
+        "a": "Shade both crescents (A only and B only regions)",
+        "b": "Shade the region in B but outside A"
+      },
+      "source_image": "image1276.png"
+    },
+    {
+      "type": "exercise",
+      "exercise_id": "5E.3",
+      "problems": [
+        {
+          "number": 1,
+          "problem": "If (3) means that there are 3 elements in the set A ∩ B, give the number of elements in: a) B, b) A', c) A ∪ B, d) A, but not B, e) B, but not A, f) neither A nor B",
+          "venn_diagram": {
+            "sets": ["A", "B"],
+            "regions": {"A_only": 9, "intersection": 3, "B_only": 6, "outside": 4}
+          }
+        },
+        {
+          "number": 2,
+          "problem": "Give the number of elements in: a) X', b) X ∩ Y, c) X ∪ Y, d) X ∩ Y', e) Y ∩ X', f) X' ∩ Y'",
+          "venn_diagram": {
+            "sets": ["X", "Y"],
+            "regions": {"X_only": 18, "intersection": 16, "Y_only": 8, "outside": 4}
+          }
+        }
+      ],
+      "source_image": "image1277.png"
+    },
+    {
+      "type": "exercise_continuation",
+      "exercise_id": "5E.3",
+      "problems": [
+        {
+          "number": 3,
+          "problem": "(a) means that there are a elements in the shaded region. Find n(Q) and n(P') if n(P ∪ Q) = a and n(P) = a + 2a = 4a"
+        },
+        {
+          "number": 4,
+          "problem": "The Venn diagram shows us that n(P ∩ Q) = a and n(P) = a + 2a = 4a. a) Find n(P ∪ Q), n(Q), n(P'). b) Find a if n(U) = 43"
+        },
+        {
+          "number": 5,
+          "problem": "For the given Venn diagram: i) find n(A ∪ B), ii) find n(A) + n(B) - n(A ∩ B). b) What have you proved in a?"
+        },
+        {
+          "number": 6,
+          "problem": "Given n(U) = 20, n(A) = 8, n(B) = 9 and n(A ∩ B) = 2, find: a) n(A ∪ B), b) n(A' ∩ B)"
+        },
+        {
+          "number": 7,
+          "problem": "Given n(U) = 35, n(N) = 16, n(N ∩ R) = 4, and n(N ∪ R) = 31, find: a) n(N), b) n((M ∪ N)')"
+        },
+        {
+          "number": 8,
+          "problem": "This Venn diagram contains sets A, B and C. Find: a) n(A), b) n(A ∩ B), c) n(A ∪ B ∪ C)"
+        }
+      ],
+      "source_image": "image1278.png"
+    },
+    {
+      "type": "exercise_continuation",
+      "exercise_id": "5E.3",
+      "problems": [
+        {
+          "number": 9,
+          "problem": "On separate Venn diagrams, shade: a) A, b) B, c) C', d) A ∪ B, e) B ∩ C, f) A ∩ B ∩ C, g) (A ∪ B)', h) A' ∪ (B ∩ C)",
+          "diagram_type": "three_sets"
+        }
+      ],
+      "source_image": "image1279.png"
+    },
+    {
+      "type": "example",
+      "number": "9 (Word Problem)",
+      "title": "Tennis Club Members",
+      "problem": "A tennis club has 42 members. 25 have fair hair, 19 have blue eyes and 10 have both fair hair and blue eyes. a) Place this information on a Venn diagram. b) Find the number of members with: i) fair hair or blue eyes, ii) blue eyes, but not fair hair.",
+      "solution": {
+        "setup": "Let F represent the fair hair set and B represent the blue eyes set. a + b + c + d = 42, a + b = 25, b + c = 19, b = 10",
+        "solving": "a = 15, c = 9, d = 8",
+        "b_i": "n(F ∪ B) = 15 + 10 + 9 = 34",
+        "b_ii": "n(B ∩ F') = 9"
+      },
+      "source_image": "image1280.png"
+    },
+    {
+      "type": "exercise",
+      "problems": [
+        {
+          "number": 10,
+          "problem": "In James' apartment block there are 27 apartments with a dog, 33 with a cat, and 17 with a dog and a cat. 35 apartments have neither a cat nor a dog. a) Place the information on a Venn diagram. b) How many apartments are there in the block? c) How many apartments contain: i) a dog but not a cat, ii) a cat but not a dog, iii) no dogs, iv) no cats?"
+        },
+        {
+          "number": 11,
+          "problem": "A riding club has 28 riders, 15 of whom ride dressage and 24 of whom showjump. All but 2 of the riders do at least one of these disciplines. How many members: a) ride dressage only, b) only showjump, c) ride dressage and showjump?"
+        }
+      ],
+      "source_image": "image1281.png"
+    },
+    {
+      "type": "exercise",
+      "problems": [
+        {
+          "number": 12,
+          "problem": "46% of people in a town ride a bicycle and 45% ride a motor scooter. 16% ride neither a bicycle nor a scooter. a) Illustrate this information on a Venn diagram. b) How many people ride: i) both a bicycle and a scooter, ii) at least one of a bicycle or a scooter, iii) a bicycle only, iv) exactly one of a bicycle or a scooter?"
+        },
+        {
+          "number": 13,
+          "problem": "A bookstore sells books, magazines and newspapers. Their sales records indicate that 40% of customers buy books, 43% buy magazines, 40% buy newspapers, 11% buy books and magazines, 9% buy magazines and newspapers, 7% buy books and newspapers, and 4% buy all three."
+        }
+      ],
+      "source_image": "image1282.png"
+    },
+    {
+      "type": "exercise_continuation",
+      "problems": [
+        {
+          "number": "13 (continued)",
+          "problem": "a) Illustrate this information on a Venn diagram like the one shown (with sets B, M, N). b) What percentage of customers buy: i) books only, ii) books or newspapers, iii) books but not magazines?"
+        }
+      ],
+      "source_image": "image1283.png"
+    },
+    {
+      "type": "exercise",
+      "exercise_id": "2E.2",
+      "problems": [
+        {
+          "number": 1,
+          "problem": "On separate Venn diagrams, shade regions for: a) A ∩ B, b) A ∩ B', c) A' ∪ B, d) A ∪ B, e) A' ∩ B, f) A' ∩ B'"
+        },
+        {
+          "number": 2,
+          "problem": "Describe in words, the shaded region of: a) [shaded left crescent], b) [shaded right crescent with A unshaded]"
+        },
+        {
+          "number": 3,
+          "problem": "a) On separate Venn diagrams, shade regions for: i) A ∪ B, ii) (A ∪ B)', iii) A' ∩ B', iv) A ∩ B', v) (A ∩ B)', vi) A' ∪ B', vii) (A' ∪ B')'. b) Hence verify that: i) (A ∩ B)' = A' ∪ B', ii) (A ∪ B)' = A' ∩ B'"
+        }
+      ],
+      "source_image": "image1284.png"
+    },
+    {
+      "type": "exercise_continuation",
+      "exercise_id": "2E.2",
+      "problems": [
+        {
+          "number": 4,
+          "problem": "Suppose A and B are two disjoint sets. Shade on separate Venn diagrams: a) A, b) B', c) A ∪ B, d) A' ∩ B, e) (A ∩ B)'"
+        }
+      ],
+      "source_image": "image1285.png"
+    },
+    {
+      "type": "exercise_continuation",
+      "exercise_id": "2E.2",
+      "problems": [
+        {
+          "number": 5,
+          "problem": "This Venn diagram consists of three intersecting sets. a) Shade on separate Venn diagrams: i) A, ii) B', iii) B ∩ C, iv) A ∪ B, v) A ∩ B ∩ C, vi) A ∪ B ∪ C, vii) (A ∩ B ∩ C)', viii) (B ∩ C) ∪ A, ix) (A ∪ B) ∩ C, x) (A ∩ C) ∪ (B ∩ C), xi) (A ∩ B) ∪ C, xii) (A ∪ C) ∩ (B ∪ C). b) Verify that: i) A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C), ii) A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)"
+        }
+      ],
+      "source_image": "image1286.png"
+    },
+    {
+      "type": "concept",
+      "title": "Number of Elements in Venn Diagram Regions",
+      "content": "We have seen that there are four regions on a Venn diagram which contains two overlapping sets A and B: A ∩ B', A ∩ B, A' ∩ B, and A' ∩ B'. There are many situations where we are only interested in the number of elements of U that are in each region. We do not need to show all the elements on the diagram, so instead we write the number of elements in each region in brackets.",
+      "source_image": "image1287.png"
+    },
+    {
+      "type": "example",
+      "number": 10,
+      "title": "Counting Elements from Venn Diagram",
+      "problem": "In the Venn diagram given, (5) means that there are 5 elements in the set A ∩ B. How many elements are there in: a) A, b) B', c) A ∪ B, d) A, but not B, e) B, but not A, f) neither A nor B?",
+      "venn_diagram": {
+        "sets": ["A", "B"],
+        "regions": {"A_only": 12, "intersection": 5, "B_only": 8, "outside": 6}
+      },
+      "solution": {
+        "a": "n(A) = 12 + 5 = 17",
+        "b": "n(B') = 12 + 6 = 18",
+        "c": "n(A ∪ B) = 12 + 5 + 8 = 25",
+        "d": "n(A, but not B) = 12",
+        "e": "n(B, but not A) = 8",
+        "f": "n(neither A nor B) = 6"
+      },
+      "source_image": "image1288.png"
+    },
+    {
+      "type": "example",
+      "number": 11,
+      "title": "Finding Unknown Values in Venn Diagram",
+      "problem": "Given n(U) = 25, n(P) = 10, n(Q) = 12, and n(P ∩ Q) = 3, find: a) n(P ∪ Q), b) n(P, but not Q)",
+      "solution": {
+        "setup": "We see that b = 3 (as n(P ∩ Q) = 3), a + b = 10 (as n(P) = 10), b + c = 12 (as n(Q) = 12), a + b + c + d = 25 (as n(U) = 25)",
+        "solving": "b = 3, a = 7, and c = 9. Therefore 7 + 3 + 9 + d = 25, so d = 6",
+        "a": "n(P ∪ Q) = a + b + c = 19",
+        "b": "n(P, but not Q) = a = 7"
+      },
+      "source_image": "image1289.png"
+    },
+    {
+      "type": "exercise",
+      "exercise_id": "2F",
+      "problems": [
+        {
+          "number": 1,
+          "problem": "How many elements are there in: a) B, b) A', c) A ∪ B, d) A, but not B, e) B, but not A, f) neither A nor B?",
+          "venn_diagram": {
+            "sets": ["A", "B"],
+            "regions": {"A_only": 4, "intersection": 3, "B_only": 7, "outside": 2}
+          }
+        },
+        {
+          "number": 2,
+          "problem": "In the Venn diagram below, (a) means that there are a elements in that region. a) Write an expression for: i) n(A), ii) n(B), iii) n(A ∩ B), iv) n(A ∪ B). b) Show that: i) n(A ∪ B) = n(A) + n(B) - n(A ∩ B), ii) n(A ∩ B) = n(A) + n(B) - n(A ∪ B), iii) if A and B are disjoint, then n(A ∪ B) = n(A) + n(B)"
+        },
+        {
+          "number": 3,
+          "problem": "Use the Venn diagram to show that: a) n(A ∩ B') = n(A) - n(A ∩ B), b) n(A ∪ B') = n(U) - n(A' ∩ B)"
+        },
+        {
+          "number": 4,
+          "problem": "Given n(U) = 20, n(A) = 12, n(B) = 13, and n(A ∩ B) = 8, find: a) n(A ∪ B), b) n(B, but not A)"
+        },
+        {
+          "number": 5,
+          "problem": "Given n(U) = 28, n(M) = 14, n(M ∩ N) = 3, and n(M ∪ N) = 18, find: a) n(N), b) n((M ∪ N)')"
+        }
+      ],
+      "source_image": "image1290.png"
+    },
+    {
+      "type": "example",
+      "number": 12,
+      "title": "Sporting Club Members",
+      "problem": "The Venn diagram alongside illustrates the number of people in a sporting club who play tennis (T) and hockey (H). Determine the number of people: a) in the club, b) who play hockey, c) who play both sports, d) who play neither sport, e) who play at least one sport.",
+      "venn_diagram": {
+        "sets": ["T", "H"],
+        "regions": {"T_only": 15, "intersection": 27, "H_only": 26, "outside": 7}
+      },
+      "solution": {
+        "a": "n(U) = 15 + 27 + 26 + 7 = 75. There are 75 people in the club.",
+        "b": "n(H) = 27 + 26 = 53. 53 people play hockey.",
+        "c": "n(T ∩ H) = 27. 27 people play both sports.",
+        "d": "n(T' ∩ H') = 7. 7 people play neither sport.",
+        "e": "n(T ∪ H) = 15 + 27 + 26 = 68. 68 people play at least one sport."
+      },
+      "source_image": "image1291.png"
+    },
+    {
+      "type": "example",
+      "number": "10 (Burglar/Smoke Alarms)",
+      "title": "Street Houses with Alarms",
+      "problem": "There are 30 houses on a street. 16 of the houses have a burglar alarm, 22 houses have a smoke alarm, and 10 houses have both a burglar alarm and a smoke alarm. a) Place this information on a Venn diagram. b) How many houses on the street have: i) a burglar alarm but not a smoke alarm, ii) either a burglar alarm or a smoke alarm?",
+      "solution": {
+        "setup": "Let B represent the set of houses with burglar alarms, and S represent the set of houses with smoke alarms. We first place (10) in the intersection to indicate 10 houses have both alarms. Since 22 houses have smoke alarms, there must be 12 houses in this region, so that 12 + 10 = 22. Since 16 houses have burglar alarms, there must be 6 houses so that 6 + 10 = 16. There are 30 houses in total, there are 30 - 28 = 2 houses in neither B nor S.",
+        "b_i": "There are 6 elements in B but not in S. 6 houses have a burglar alarm but not a smoke alarm.",
+        "b_ii": "28 houses have either a burglar alarm or a smoke alarm."
+      },
+      "source_image": "image1292.png"
+    },
+    {
+      "type": "exercise",
+      "exercise_id": "2G",
+      "problems": [
+        {
+          "number": 1,
+          "problem": "The Venn diagram alongside illustrates the number of students in a particular class who study French (F) and Spanish (S). Determine the number of students: a) in the class, b) who study both subjects, c) who study at least one of the subjects, d) who only study Spanish.",
+          "venn_diagram": {
+            "sets": ["F", "S"],
+            "regions": {"F_only": 3, "intersection": 2, "S_only": 12, "outside": 1}
+          }
+        },
+        {
+          "number": 2,
+          "problem": "In a survey at a resort, people were asked whether they went sailing (S) or fishing (F) during their stay. Use the Venn diagram to determine the number of people: a) in the survey, b) who did both activities, c) who did neither activity, d) who did exactly one of the activities.",
+          "venn_diagram": {
+            "sets": ["S", "F"],
+            "regions": {"S_only": 27, "intersection": 9, "F_only": 15, "outside": 24}
+          }
+        }
+      ],
+      "source_image": "image1293.png"
+    },
+    {
+      "type": "exercise_continuation",
+      "exercise_id": "2G",
+      "problems": [
+        {
+          "number": 3,
+          "problem": "In a class of 30 students, 19 study Physics, 17 study Chemistry, and 15 study both. Determine the number of students who study: a) at least one of the subjects, b) Physics, but not Chemistry, c) exactly one of the subjects, d) neither subject"
+        },
+        {
+          "number": 4,
+          "problem": "In a class of 30 students, 19 play tennis, 20 play netball, and 5 play neither sport. Determine the number of students in the class who: a) play at least one of the sports, b) play exactly one of the sports"
+        },
+        {
+          "number": 5,
+          "problem": "In a class of 25 students, 15 play hockey, 16 play basketball, and 4 play neither sport. Determine the number of students who play: a) both sports, b) hockey but not basketball"
+        },
+        {
+          "number": 6,
+          "problem": "In a class of 40 students, 31 like bananas, 22 like pineapples, and 2 dislike both fruits. Find the number of students who: a) like both fruits, b) like at least one fruit"
+        },
+        {
+          "number": 7,
+          "problem": "In a class of 40 students, 23 have dark hair, 18 have brown eyes, and 26 have dark hair, brown eyes or both. Find how many students have: a) dark hair and brown eyes, b) neither dark hair nor brown eyes"
+        },
+        {
+          "number": 8,
+          "problem": "64% of students at a school study a language, and 79% study Mathematics. Every student studies at least one of these subjects. What percentage of students study both a language and Mathematics?"
+        }
+      ],
+      "source_image": "image1294.png"
+    },
+    {
+      "type": "exercise_continuation",
+      "exercise_id": "2G",
+      "problems": [
+        {
+          "number": 9,
+          "problem": "In a circle of music lovers, 14 people play the piano or violin, 8 people are piano players, and 5 people play both instruments. Find the number of violin players."
+        },
+        {
+          "number": 10,
+          "problem": "64% of students at a school study a language, and 79% study Mathematics. Every student studies at least one of these subjects. What percentage of students study both a language and Mathematics?"
+        }
+      ],
+      "source_image": "image1295.png"
+    },
+    {
+      "type": "exercise_continuation",
+      "exercise_id": "2G",
+      "problems": [
+        {
+          "number": 11,
+          "problem": "Our team scored well in the interschool athletics carnival. Each person was allowed to participate in one running and one jumping event. We gained 9 places in running events, 5 of us gained a place in both running and jumping events, and 14 of us gained exactly one place. In total, how many places were gained by the team?"
+        },
+        {
+          "number": 12,
+          "problem": "At a certain school there are 50 students studying for their IB diplomas. They all study at least one of the subjects Physics, French, or History. 30 are studying Physics, 60 are studying French, and 35 are studying History. 30 are studying Physics and French, while 10 students are studying both French and History but not Physics. 20 are studying all three subjects. a) Construct a Venn diagram to illustrate this information. b) How many students are studying both Physics and History, but not French? c) How many students are studying at least two of the three subjects?"
+        }
+      ],
+      "source_image": "image1296.png"
+    },
+    {
+      "type": "exercise",
+      "exercise_id": "21F",
+      "problems": [
+        {
+          "number": 1,
+          "problem": "A group of 15 friends are discussing which foods they like. 10 of them like chocolate, 9 of them like ice cream, and 6 like both these foods. a) Place this information on a Venn diagram. b) How many people in the group like: i) ice cream but not chocolate, ii) chocolate but not ice cream, iii) neither food, iv) chocolate or ice cream?"
+        },
+        {
+          "number": 2,
+          "problem": "Police conducted a safety check of 80 cars. They found that 15 cars had faulty brakes and 25 cars had faulty tyres. 10 of the cars had both faulty tyres and faulty brakes. a) Place this information on a Venn diagram. b) How many cars had: i) faulty tyres but not faulty brakes, ii) neither faulty tyres nor faulty brakes, iii) either faulty tyres or faulty brakes?"
+        }
+      ],
+      "source_image": "image1297.png"
+    },
+    {
+      "type": "exercise_continuation",
+      "exercise_id": "21F",
+      "problems": [
+        {
+          "number": 3,
+          "problem": "In a class of 24 students, 13 own a bike, 9 own a skateboard, and 5 own both items. a) Place this information on a Venn diagram. b) How many students in the class own: i) a bicycle but not a skateboard, ii) neither a bicycle nor a skateboard, iii) a bicycle or a skateboard?"
+        }
+      ],
+      "source_image": "image1298.png"
+    },
+    {
+      "type": "exercise_continuation",
+      "exercise_id": "21F",
+      "problems": [
+        {
+          "number": 4,
+          "problem": "Jane went to the library and borrowed a book which was 40 pages long. Unfortunately her dog ripped 13 of the pages, and a leaking pen stained some of the pages. 6 pages were both ripped and stained, and 22 pages were not damaged at all. a) Copy and complete the Venn diagram alongside. b) How many of the pages were: i) stained, ii) ripped but not stained, iii) ripped or stained?"
+        }
+      ],
+      "source_image": "image1299.png"
+    },
+    {
+      "type": "concept",
+      "title": "Laws for Real Numbers",
+      "content": "For any real numbers a, b, and c: commutative: a + b = b + a and ab = ba; identity: Identity elements 0 and 1 exist such that a + 0 = 0 + a = a and a × 1 = 1 × a = a; associativity: (a + b) + c = a + (b + c) and (ab)c = a(bc); distributive: a(b + c) = ab + ac",
+      "source_image": "image1300.png"
+    },
+    {
+      "type": "concept",
+      "title": "Laws for the Algebra of Sets",
+      "content": "The following are the laws for the algebra of sets under the operations ∪ and ∩",
+      "source_image": "image1301.png"
+    },
+    {
+      "type": "laws",
+      "title": "Algebra of Sets Laws",
+      "content": "For any subsets A, B, and C of the universal set U:",
+      "laws": [
+        {"name": "commutative", "formulas": ["A ∩ B = B ∩ A", "A ∪ B = B ∪ A"]},
+        {"name": "associativity", "formulas": ["A ∩ (B ∩ C) = (A ∩ B) ∩ C", "A ∪ (B ∪ C) = (A ∪ B) ∪ C"]},
+        {"name": "distributive", "formulas": ["A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)", "A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)"]},
+        {"name": "identity", "formulas": ["A ∪ ∅ = A", "A ∩ U = A"]},
+        {"name": "complement", "formulas": ["A ∪ A' = U", "A ∩ A' = ∅"]},
+        {"name": "domination", "formulas": ["A ∪ U = U", "A ∩ ∅ = ∅"]},
+        {"name": "idempotent", "formulas": ["A ∩ A = A", "A ∪ A = A"]},
+        {"name": "DeMorgan's", "formulas": ["(A ∩ B)' = A' ∪ B'", "(A ∪ B)' = A' ∩ B'"]},
+        {"name": "involution", "formulas": ["(A')' = A"]}
+      ],
+      "source_image": "image1302.png"
+    },
+    {
+      "type": "exercise",
+      "exercise_id": "2H",
+      "problems": [
+        {
+          "number": 1,
+          "problem": "With the aid of Venn diagrams, explain why the following laws are valid: a) the commutative laws: A ∩ B = B ∩ A and A ∪ B = B ∪ A, b) the idempotent laws: A ∩ A = A and A ∪ A = A, c) the associative laws: A ∩ (B ∩ C) = (A ∩ B) ∩ C and A ∪ (B ∪ C) = (A ∪ B) ∪ C, d) the complement law: (A')' = A"
+        },
+        {
+          "number": 2,
+          "problem": "Use the laws for the algebra of sets to show that: a) A ∪ (B ∪ A') = U, b) A ∩ (B ∩ A') = ∅, c) A ∪ (B ∩ A') = A ∪ B, d) (A' ∪ B')' = A ∩ B, e) (A ∪ B) ∩ (A' ∩ B') = ∅, f) (A ∪ B) ∩ (C ∪ D) = (A ∩ C) ∪ (A ∩ D) ∪ (B ∩ C) ∪ (B ∩ D)"
+        }
+      ],
+      "source_image": "image1303.png"
+    },
+    {
+      "type": "example",
+      "number": 11,
+      "title": "Probability with Venn Diagrams - Footballer Injuries",
+      "problem": "The Venn diagram shows the injuries sustained by a team of footballers in their careers. Each dot represents one footballer. K represents the footballers who have had an injured knee, and A represents the footballers who have had an injured ankle. a) How many footballers are there in the team? b) If a footballer from the team is selected at random, find the probability that the footballer has had: i) an injured knee, ii) an injured ankle, but not an injured knee, iii) either injury, iv) both injuries.",
+      "source_image": "image1304.png"
+    },
+    {
+      "type": "example_solution",
+      "number": 11,
+      "title": "Probability with Venn Diagrams - Footballer Injuries (Solution)",
+      "venn_diagram": {
+        "sets": ["K", "A"],
+        "regions": {"K_only": 9, "intersection": 4, "A_only": 5, "outside": 3}
+      },
+      "solution": {
+        "a": "There are 9 + 4 + 5 + 3 = 21 footballers in the team.",
+        "b_i": "Of the 21 footballers in the team, 9 + 4 = 13 have had an injured knee. P(randomly selected player has had an injured knee) = 13/21",
+        "b_ii": "5 players have had an injured ankle but not an injured knee. P(random player has had an injured ankle but not an injured knee) = 5/21",
+        "b_iii": "9 + 4 + 5 = 18 players have had either an injured knee or an injured ankle. P(randomly selected player has had either injury) = 18/21",
+        "b_iv": "4 players have had both an injured knee and an injured ankle. P(randomly selected player has had both injuries) = 4/21"
+      },
+      "source_image": "image1305.png"
+    },
+    {
+      "type": "exercise",
+      "exercise_id": "21G",
+      "problems": [
+        {
+          "number": 1,
+          "problem": "The Venn diagram alongside shows the items collected by members of a collectors club. Each dot represents one member. B represents the members who collect baseball cards, and C represents the members who collect coins. a) How many members does the club have? b) If a member of the club is chosen at random, find the probability that the member collects: i) baseball cards but not coins, ii) coins, iii) exactly one of the items"
+        },
+        {
+          "number": 2,
+          "problem": "Ben has put 38 photographs into an album. His friends are in 28 of the photos, and his pets are in 17 of the photos. 8 of the photos contain both his friends and his pets. a) Place this information on a Venn diagram. b) Find the probability that a randomly selected photograph contains: i) his friends but not his pets, ii) either his friends or his pets, iii) neither his friends nor his pets"
+        },
+        {
+          "number": 3,
+          "problem": "A gym has 75 members. 42 members attended the aerobics classes, 24 members attended both the aerobics and weights classes, and 21 members do not attend either class. a) Copy and complete the Venn diagram. b) Find the probability that a randomly selected gym member attends: i) weights classes but not aerobics classes, ii) aerobics classes but not weights classes"
+        }
+      ],
+      "source_image": "image1306.png"
+    },
+    {
+      "type": "exercise_continuation",
+      "exercise_id": "21G",
+      "problems": [
+        {
+          "number": 4,
+          "problem": "30 students took part in a school concert. 23 students had their mother in the audience, 18 students had their father in the audience, and 15 students had both parents in the audience. a) Place this information on a Venn diagram. b) Find the probability that a randomly selected student had: i) their mother but not their father in the audience, ii) neither parent in the audience, iii) exactly one parent in the audience"
+        },
+        {
+          "number": 5,
+          "problem": "There are 18 items on a restaurant menu. 6 of these contain peanuts, 7 contain egg, and 2 contain both peanuts and egg. a) Place this information on a Venn diagram. b) Charles will have an allergic reaction if he eats either peanuts or egg. If he randomly selects an item from the menu to eat, find the probability that he will have an allergic reaction."
+        }
+      ],
+      "source_image": "image1307.png"
+    },
+    {
+      "type": "review",
+      "review_set": "21A",
+      "problems": [
+        {
+          "number": 1,
+          "problem": "List the elements of the set of all multiples of 6 between 20 and 50."
+        },
+        {
+          "number": 2,
+          "problem": "Suppose P = {factors of 36} and Q = {square numbers less than 20}. a) List the elements of P and Q. b) Find: i) n(P), ii) n(Q). c) Is Q ⊆ P? d) True or false: i) 12 ∈ P, ii) 25 ∈ Q, iii) 24 ∉ P?"
+        },
+        {
+          "number": 3,
+          "problem": "Consider the set of uppercase letters in the English alphabet. Let A be the set of letters which consist of straight edges only. Let V be the set of vowels. a) List the elements of: i) A, ii) A', iii) V. b) Find: i) n(A), ii) n(A'), iii) A ∩ V, iv) A' ∩ V."
+        },
+        {
+          "number": 4,
+          "problem": "Suppose S = {multiples of 3 between 8 and 28} and T = {odd numbers between 8 and 28}. a) List the elements of: i) S, ii) T. b) Find: i) S ∩ T, ii) S ∪ T, iii) n(S ∩ T), iv) n(S ∪ T)."
+        }
+      ],
+      "source_image": "image1308.png"
+    },
+    {
+      "type": "review_continuation",
+      "review_set": "21A",
+      "problems": [
+        {
+          "number": 5,
+          "problem": "True or false? a) 1 ∈ {x | x ≤ 5}, b) 25 ∈ T, c) 24 ∈ S ∪ T, d) 16 ∈ S ∩ T?"
+        },
+        {
+          "number": 6,
+          "problem": "True or false? If A and B are disjoint sets, and if A and C are disjoint sets, then A and C are also disjoint?"
+        },
+        {
+          "number": 7,
+          "problem": "Suppose A = {1, 2, 7, 9}, B = {2, 5, 6, 7}, C = {3, 4, 5, 8}, D = {1, 3, 4, 9}, and E = {2, 6, 7, 9}. Which pairs of sets are disjoint?"
+        },
+        {
+          "number": 8,
+          "problem": "Consider the set of whole numbers from 1 to 10. Let P = {odd numbers between 0 and 10} and B' = {prime numbers between 0 and 10}. a) Illustrate the sets A, B and U on a Venn diagram. b) On separate Venn diagrams, shade the regions representing: i) not in X, ii) in X but not in Y"
+        },
+        {
+          "number": 9,
+          "problem": "90 students from one school took part in a Mathematics competition and a Science competition. 12 of the students won a prize in the Mathematics competition, and 17 won a prize in the Science competition. 6 students won prizes in both competitions. a) Display this information on a Venn diagram. b) The students who won a prize all attended an awards presentation. How many students attended the presentation?"
+        },
+        {
+          "number": 10,
+          "problem": "There are 67 paintings hanging in the local art gallery. 18 of these are self-portraits. 32 are paintings from Europe. 10 of the paintings are self-portraits from Europe. a) Display this information on a Venn diagram. b) Determine the probability that a randomly selected painting is: i) a self-portrait but not European, ii) neither a self-portrait nor European."
+        }
+      ],
+      "source_image": "image1309.png"
+    },
+    {
+      "type": "review",
+      "review_set": "21B",
+      "problems": [
+        {
+          "number": 1,
+          "problem": "List the elements of the set of all: a) multiples of 7 between 0 and 50, b) common factors of 50 and 75."
+        },
+        {
+          "number": 2,
+          "problem": "For the following sets, determine whether P ⊆ Q: a) P = {1, 5, 7}, Q = {1, 3, 5, 6, 7, 8}, b) P = ∅, Q = {e, f, g}, c) P = {#, !, ♦}, Q = {@, #, =, ♦, $}"
+        }
+      ],
+      "source_image": "image1310.png"
+    },
+    {
+      "type": "review_continuation",
+      "review_set": "21B",
+      "problems": [
+        {
+          "number": 3,
+          "problem": "d) P = {red, blue, yellow, green}, Q = {yellow, red, green, blue}. e) P = {multiples of 4 less than 100}, Q = {multiples of 8 less than 100}."
+        },
+        {
+          "number": 4,
+          "problem": "U = {1, 2, 3, 4, 5, 6, 7, 8, 9}, A = {2, 9} and B = {1, 2, 8, 9}. a) Find the complement of: i) A, ii) B. b) Is A ⊂ B?"
+        },
+        {
+          "number": 5,
+          "problem": "Suppose P = {multiples of 6 less than 40} and Q = {factors of 48}. Find P ∩ Q and P ∪ Q."
+        },
+        {
+          "number": 6,
+          "problem": "Roger and Stephen are organising a joint birthday party. Each makes a list of people they want to invite to the party. Let R be the set of people Roger wants to invite, and S be the set of people Stephen wants to invite. a) List the elements of R and S. b) Find R ∩ S. What does this set represent? c) Find R ∪ S. How many people will be invited to Roger and Stephen's party?",
+          "venn_diagram_info": "Roger's list: Michael, William, Craig, David, Katie, Alistair, Sam. Stephen's list: Craig, David, Katie."
+        }
+      ],
+      "source_image": "image1311.png"
+    }
+  ]
+}
