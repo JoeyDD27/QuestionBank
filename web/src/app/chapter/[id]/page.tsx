@@ -31,15 +31,23 @@ async function getSubsections(parentId: string): Promise<Chapter[]> {
   return data || [];
 }
 
-async function getImages(chapterId: string): Promise<ImageType[]> {
+async function getImagesBatch(chapterIds: string[]): Promise<Record<string, ImageType[]>> {
+  if (chapterIds.length === 0) return {};
+
   const { data, error } = await supabase
     .from("images")
     .select("*")
-    .eq("chapter_id", chapterId)
+    .in("chapter_id", chapterIds)
     .order("filename");
 
-  if (error) return [];
-  return data || [];
+  if (error) return {};
+
+  const byChapter: Record<string, ImageType[]> = {};
+  for (const img of data || []) {
+    if (!byChapter[img.chapter_id]) byChapter[img.chapter_id] = [];
+    byChapter[img.chapter_id].push(img);
+  }
+  return byChapter;
 }
 
 interface ItemWithQuestions extends Item {
@@ -47,26 +55,32 @@ interface ItemWithQuestions extends Item {
   source_image?: ImageType;
 }
 
-async function getItemsForChapter(chapterId: string): Promise<ItemWithQuestions[]> {
+async function getItemsBatch(chapterIds: string[]): Promise<Record<string, ItemWithQuestions[]>> {
+  if (chapterIds.length === 0) return {};
+
+  // Get all items for all chapters in one query
   const { data: items, error: itemsError } = await supabase
     .from("items")
     .select("*")
-    .eq("chapter_id", chapterId)
+    .in("chapter_id", chapterIds)
     .order("order_index");
 
-  if (itemsError || !items || items.length === 0) return [];
+  if (itemsError || !items || items.length === 0) return {};
 
+  // Get all questions for these items in one query
   const itemIds = items.map(i => i.id);
   const { data: questions } = await supabase
     .from("questions")
     .select("*")
     .in("item_id", itemIds);
 
+  // Get all source images in one query
   const imageIds = items.map(i => i.source_image_id).filter(Boolean);
   const { data: images } = imageIds.length > 0
     ? await supabase.from("images").select("*").in("id", imageIds)
     : { data: [] };
 
+  // Build lookup maps
   const imagesById: Record<string, ImageType> = {};
   for (const img of images || []) {
     imagesById[img.id] = img;
@@ -78,11 +92,18 @@ async function getItemsForChapter(chapterId: string): Promise<ItemWithQuestions[
     questionsByItem[q.item_id].push(q);
   }
 
-  return items.map(i => ({
-    ...i,
-    questions: questionsByItem[i.id] || [],
-    source_image: i.source_image_id ? imagesById[i.source_image_id] : undefined
-  }));
+  // Group items by chapter
+  const byChapter: Record<string, ItemWithQuestions[]> = {};
+  for (const item of items) {
+    if (!byChapter[item.chapter_id]) byChapter[item.chapter_id] = [];
+    byChapter[item.chapter_id].push({
+      ...item,
+      questions: questionsByItem[item.id] || [],
+      source_image: item.source_image_id ? imagesById[item.source_image_id] : undefined
+    });
+  }
+
+  return byChapter;
 }
 
 interface SectionData {
@@ -101,14 +122,22 @@ export default async function ChapterPage({ params }: PageProps) {
   }
 
   const subsections = await getSubsections(id);
-  const isMainChapter = !chapter.parent_id;
+
+  // Collect all chapter IDs (current + subsections) for batch queries
+  const allChapterIds = [id, ...subsections.map(s => s.id)];
+
+  // Fetch all data in parallel with batch queries (2 queries instead of N*3)
+  const [imagesByChapter, itemsByChapter] = await Promise.all([
+    getImagesBatch(allChapterIds),
+    getItemsBatch(allChapterIds)
+  ]);
 
   // Build section data for current chapter and all subsections
   const sections: SectionData[] = [];
 
   // Current chapter's own content
-  const currentImages = await getImages(id);
-  const currentItems = await getItemsForChapter(id);
+  const currentImages = imagesByChapter[id] || [];
+  const currentItems = itemsByChapter[id] || [];
   if (currentItems.length > 0 || currentImages.length > 0) {
     sections.push({
       chapter,
@@ -118,10 +147,10 @@ export default async function ChapterPage({ params }: PageProps) {
     });
   }
 
-  // Each subsection's content
+  // Each subsection's content (no additional queries needed!)
   for (const sub of subsections) {
-    const subImages = await getImages(sub.id);
-    const subItems = await getItemsForChapter(sub.id);
+    const subImages = imagesByChapter[sub.id] || [];
+    const subItems = itemsByChapter[sub.id] || [];
     sections.push({
       chapter: sub,
       images: subImages,
@@ -287,6 +316,7 @@ export default async function ChapterPage({ params }: PageProps) {
                                 height={350}
                                 className="w-full h-auto rounded border bg-white"
                                 style={{ maxHeight: "400px", objectFit: "contain" }}
+                                loading="lazy"
                               />
                             ) : (
                               <div className="text-gray-400 text-sm italic p-8 text-center">
@@ -365,6 +395,7 @@ export default async function ChapterPage({ params }: PageProps) {
                           width={200}
                           height={150}
                           className="w-full h-auto"
+                          loading="lazy"
                         />
                         <div className="px-2 py-1 text-xs text-gray-500 truncate border-t">
                           {img.filename}
