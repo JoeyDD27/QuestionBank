@@ -2,6 +2,8 @@ import Link from "next/link";
 import { supabase } from "@/lib/supabase";
 import { Chapter } from "@/lib/types";
 
+export const dynamic = 'force-dynamic';
+
 async function getChapters(): Promise<Chapter[]> {
   const { data, error } = await supabase
     .from("chapters")
