@@ -164,7 +164,7 @@
     },
     {
       "type": "exercise",
-      "content_latex": "Review Set - Question 12: Sheets of paper are $3.2 \\times 10^{-4}$ m thick. How many sheets are required to make a pile of paper 10 cm high?",
+      "content_latex": "Review Set - Question 12: Sheets of paper are $3.2 \\times 10^{-4}$ (m) thick. How many sheets are required to make a pile of paper 10 cm high?",
       "source_images": ["image179.png"]
     },
     {
@@ -224,17 +224,17 @@
     },
     {
       "type": "exercise",
-      "content_latex": "Review Set B - Question 11: Express as a decimal number:\n\na) Jupiter has a radius of $1.43 \\times 10^5$ km.\nb) The ebola virus is about $8.2 \\times 10^{-8}$ m wide.",
+      "content_latex": "Review Set B - Question 11: Express as a decimal number:\n\na) Jupiter has a radius of $1.43 \\times 10^5$ km.\nb) The ebola virus is about $8.2 \\times 10^{-8}$ (m) wide.",
       "source_images": ["image182.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "Review Set B - Question 12: Sound travels along a telephone cable at $1.91 \\times 10^8$ m s$^{-1}$. Find how long it takes Tetsuo's voice to travel from his office phone in Tokyo to:\n\na) his wife's phone, 3740 m away\nb) his brother in Beijing, $2.1 \\times 10^6$ m away.",
+      "content_latex": "Review Set B - Question 12: Sound travels along a telephone cable at $1.91 \\times 10^8$ (m) s$^{-1}$. Find how long it takes Tetsuo's voice to travel from his office phone in Tokyo to:\n\na) his wife's phone, 3740 (m) away\nb) his brother in Beijing, $2.1 \\times 10^6$ (m) away.",
       "source_images": ["image182.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "Review Set B - Question 13: Gold is special not just for its looks, but also its properties. Just 3 g of gold can be beaten out to form 1 m$^2$ of gold leaf approximately $1.8 \\times 10^{-7}$ m thick. By comparison, a US dime has a thickness of approximately $1.35 \\times 10^{-3}$ m. How many sheets of gold leaf would you need to create a stack the same height as the dime?",
+      "content_latex": "Review Set B - Question 13: Gold is special not just for its looks, but also its properties. Just 3 (g) of gold can be beaten out to form 1 m$^2$ of gold leaf approximately $1.8 \\times 10^{-7}$ (m) thick. By comparison, a US dime has a thickness of approximately $1.35 \\times 10^{-3}$ m. How many sheets of gold leaf would you need to create a stack the same height as the dime?",
       "source_images": ["image182.png"]
     },
     {
@@ -274,17 +274,17 @@
     },
     {
       "type": "exercise",
-      "content_latex": "Work with a partner to answer these questions about coloured rods.\n\nAlice and Razi have rods of four different colours.\nThe blue rods have a length of $x + 1$.\nThe red rods have a length of $x + 2$.\nThe green rods have a length of $2x + 1$.\nThe yellow rods have a length of $3x$.\n\nAlice shows Razi that the total length of 3 red rods and 5 yellow rods is the same as 6 green rods and 2 yellow rods, like this:\n\n$3 \\text{ red} + 5 \\text{ yellow} = 3(x + 2) + 5(3x)$\n$= 3x + 6 + 15x$\n$= 18x + 6$\n\n$6 \\text{ green} + 2 \\text{ yellow} = 6(2x + 1)$\n$= 12x + 6 + 6x$\n$= 18x + 6$\n\na) Show that:\ni) the total length of 2 red rods and 2 yellow rods is the same as 4 green rods\nii) the total length of 3 red rods and 3 yellow rods is the same as 6 green rods\niii) the total length of 4 red rods and 4 yellow rods is the same as 8 green rods.\nb) What do your answers to part a tell you about the connection between the number of red and yellow rods and the number of green rods?\nc) Show that:\ni) the total length of 6 red rods and 2 yellow rods is the same as 12 blue rods\nii) the total length of 9 red rods and 3 yellow rods is the same as 18 blue rods\niii) the total length of 12 red rods and 4 yellow rods is the same as 24 blue rods.\nd) What do your answers to part c tell you about the connection between the number of red and yellow rods and the number of blue rods?\ne) Discuss your answers to parts b and d with other learners in your class.",
+      "content_latex": "Work with a partner to answer these questions about coloured rods.\n\nAlice and Razi have rods of four different colours.\nThe blue rods have a length of $x + 1$.\nThe red rods have a length of $x + 2$.\nThe green rods have a length of $2x + 1$.\nThe yellow rods have a length of $3x$.\n\nAlice shows Razi that the total length of 3 red rods and 5 yellow rods is the same as 6 green rods and 2 yellow rods, like this:\n\n$3 \\text{ red} + 5 \\text{ yellow} = 3(x + 2) + 5(3x)$\n$= 3x + 6 + 15x$\n$= 18x + 6$\n\n$6 \\text{ green} + 2 \\text{ yellow} = 6(2x + 1)$\n$= 12x + 6 + 6x$\n$= 18x + 6$\n\na) Show that:\ni) the total length of 2 red rods and 2 yellow rods is the same as 4 green rods\nii) the total length of 3 red rods and 3 yellow rods is the same as 6 green rods\niii) the total length of 4 red rods and 4 yellow rods is the same as 8 green rods.\nb) What do your answers to part a tell you about the connection between the number of red and yellow rods and the number of green rods?\nc) Show that:\ni) the total length of 6 red rods and 2 yellow rods is the same as 12 blue rods\nii) the total length of 9 red rods and 3 yellow rods is the same as 18 blue rods\niii) the total length of 12 red rods and 4 yellow rods is the same as 24 blue rods.\nd) What do your answers to part (c) tell you about the connection between the number of red and yellow rods and the number of blue rods?\ne) Discuss your answers to parts (b) and (d) with other learners in your class.",
       "source_images": ["image190.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "The diagram shows a triangle. The lengths of the sides of the triangle are written as expressions.\n\nSides: $(3w)^2$, $2v(3v - 2w)$, $5w(w + v)$\n\na) Work out the lengths of the sides of the triangle when $w = 2$ and $v = 3$.\nb) Use your answers to part a to work out the perimeter of the triangle when $w = 2$ and $v = 3$.\nc) Write an expression for the perimeter of the triangle. Show that the expression can be simplified to $14w^2 + vw + 6v^2$.\nd) Substitute $w = 2$ and $v = 3$ into the expression for the perimeter from part c. Check that your answers to parts b and d are the same.",
+      "content_latex": "The diagram shows a triangle. The lengths of the sides of the triangle are written as expressions.\n\nSides: $(3w)^2$, $2v(3v - 2w)$, $5w(w + v)$\n\na) Work out the lengths of the sides of the triangle when $w = 2$ and $v = 3$.\nb) Use your answers to part a to work out the perimeter of the triangle when $w = 2$ and $v = 3$.\nc) Write an expression for the perimeter of the triangle. Show that the expression can be simplified to $14w^2 + vw + 6v^2$.\nd) Substitute $w = 2$ and $v = 3$ into the expression for the perimeter from part c. Check that your answers to parts (b) and (d) are the same.",
       "source_images": ["image191.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "Work with a partner to answer this question.\n\nThe diagram shows a quadrilateral. The lengths of the sides of the quadrilateral are written as expressions.\n\nSides: $3a^2 - 7b$, $8b - 3a$, $a^2 + 6b$, $4(a + 3b)$\n\na) Work out the lengths of the sides of the quadrilateral when $a = -5$ and $b = 2$.\nb) Use your answers to part a to work out the perimeter of the quadrilateral when $a = -5$ and $b = 2$.\nc) Write an expression for the perimeter of the quadrilateral. Show that the expression can be simplified to $a + 4a^2 + 19b$.\nd) Use the expression in part c to work out the perimeter of the quadrilateral when $a = -5$ and $b = 2$. Are your answers to parts b and d the same? If not, check your working.\ne) Work out the perimeter of the quadrilateral when $a = 4$ and $b = -3$.\nf) Is your answer to part e a valid measurement for the perimeter? Explain your answer.\n\nDiscuss your answer with other learners in your class.",
+      "content_latex": "Work with a partner to answer this question.\n\nThe diagram shows a quadrilateral. The lengths of the sides of the quadrilateral are written as expressions.\n\nSides: $3a^2 - 7b$, $8b - 3a$, $a^2 + 6b$, $4(a + 3b)$\n\na) Work out the lengths of the sides of the quadrilateral when $a = -5$ and $b = 2$.\nb) Use your answers to part a to work out the perimeter of the quadrilateral when $a = -5$ and $b = 2$.\nc) Write an expression for the perimeter of the quadrilateral. Show that the expression can be simplified to $a + 4a^2 + 19b$.\nd) Use the expression in part (c) to work out the perimeter of the quadrilateral when $a = -5$ and $b = 2$. Are your answers to parts (b) and (d) the same? If not, check your working.\ne) Work out the perimeter of the quadrilateral when $a = 4$ and $b = -3$.\nf) Is your answer to part (e) a valid measurement for the perimeter? Explain your answer.\n\nDiscuss your answer with other learners in your class.",
       "source_images": ["image192.png", "image193.png"]
     },
     {
@@ -294,7 +294,7 @@
     },
     {
       "type": "exercise",
-      "content_latex": "a) A square has an area of 25 cm$^2$. Show that the perimeter of the square is 20 cm.\nb) A square has an area of 49 cm$^2$. Work out the perimeter of the square.\nc) A square has an area of $x$ cm$^2$. Write an expression for the perimeter of the square. Use your working for parts a and b to help you.",
+      "content_latex": "a) A square has an area of 25 cm$^2$. Show that the perimeter of the square is 20 cm.\nb) A square has an area of 49 cm$^2$. Work out the perimeter of the square.\nc) A square has an area of $x$ cm$^2$. Write an expression for the perimeter of the square. Use your working for parts a and (b) to help you.",
       "source_images": ["image194.png"]
     },
     {

@@ -4,35 +4,35 @@
   "items": [
     {
       "type": "example",
-      "content_latex": "Example 20: Converting to scientific notation provides us with a safe method of rounding off.\n\nWrite:\n- a $278463$ correct to 3 significant figures.\n- b $0.0076584$ correct to 3 significant figures.\n\nSolution:\n- a $278463 = 2.78463 \\times 10^5 \\approx 2.78 \\times 10^5 \\approx 278000$ {4th figure is 4, so 3rd stays as an 8}\n- b $0.0076584 = 7.6584 \\times 10^{-3} \\approx 7.66 \\times 10^{-3} \\approx 0.00766$ {4th figure is 8 and so 3rd goes up by 1}",
+      "content_latex": "Example 20: Converting to scientific notation provides us with a safe method of rounding off.\n\nWrite:\n- (a) $278463$ correct to 3 significant figures.\n- (b) $0.0076584$ correct to 3 significant figures.\n\nSolution:\n- (a) $278463 = 2.78463 \\times 10^5 \\approx 2.78 \\times 10^5 \\approx 278000$ {4th figure is 4, so 3rd stays as an 8}\n- (b) $0.0076584 = 7.6584 \\times 10^{-3} \\approx 7.66 \\times 10^{-3} \\approx 0.00766$ {4th figure is 8 and so 3rd goes up by 1}",
       "source_images": [
         "image81.png"
       ]
     },
     {
       "type": "exercise",
-      "content_latex": "EXERCISE 8F\n\n1 Write correct to 2 significant figures:\n- a 567\n- b 16342\n- c 70.7\n- d 3.001\n- e 0.716\n- f 49.6\n- g 3.046\n- h 1760\n- i 0.0409\n- j 45600\n\n2 Write correct to 3 significant figures:\n- a 43620\n- b 10076\n- c $0.\\overline{6}$\n- d 0.036821\n- e 0.3186\n- f 0.71996\n- g $0.\\overline{63}$\n- h 0.06371\n- i 18.997\n- j 256800\n\nNote: A bar over a digit indicates a recurring decimal. $0.\\overline{6} = 0.666666...$, $0.\\overline{63} = 0.636363...$\n\n3 Write correct to 4 significant figures:\n- a 28.0392\n- b 0.005362\n- c 23683.9\n- d 42366709\n- e 0.038792\n- f 0.0063779\n- g 0.00089995\n- h 43.076321",
+      "content_latex": "EXERCISE 8F\n\n1. Write correct to 2 significant figures:\n- (a) 567\n- (b) 16342\n- (c) 70.7\n- (d) 3.001\n- (e) 0.716\n- (f) 49.6\n- (g) 3.046\n- (h) 1760\n- (i) 0.0409\n- (j) 45600\n\n2. Write correct to 3 significant figures:\n- (a) 43620\n- (b) 10076\n- (c) $0.\\overline{6}$\n- (d) 0.036821\n- (e) 0.3186\n- (f) 0.71996\n- (g) $0.\\overline{63}$\n- (h) 0.06371\n- (i) 18.997\n- (j) 256800\n\nNote: A bar over a digit indicates a recurring decimal. $0.\\overline{6} = 0.666666...$, $0.\\overline{63} = 0.636363...$\n\n3. Write correct to 4 significant figures:\n- (a) 28.0392\n- (b) 0.005362\n- (c) 23683.9\n- (d) 42366709\n- (e) 0.038792\n- (f) 0.0063779\n- (g) 0.00089995\n- (h) 43.076321",
       "source_images": [
         "image82.png"
       ]
     },
     {
       "type": "exercise",
-      "content_latex": "REVIEW SET 8A\n\n1 Simplify using index laws:\n- a $x^8 \\times x^3$\n- b $(a^4)^3$\n- c $\\frac{b^8}{b^3}$\n\n2 Express as powers of 3:\n- a $3^2 \\times 3^3 \\times 3$\n- b $3^{11} \\div 3^7$\n\n3 Write in scientific notation:\n- a 3762\n- b 0.0001043\n- c 8.62\n\n4 Simplify:\n- a $6^0 + 6^1 + 6^2$\n- b $2^{-1} + \\left(\\frac{1}{3}\\right)^{-1}$\n- c $\\left(\\frac{5}{8}\\right)^{-2}$\n\n5 Simplify, giving your answer in scientific notation:\n- a $(4 \\times 10^4)^3$\n- b $\\frac{8.4 \\times 10^4}{1.2 \\times 10^{-3}}$\n- c $(2 \\times 10^{-4}) \\times (8 \\times 10^7)$\n\n6 Simplify:\n- a $2x^3 \\times 4x^{10}$\n- b $\\left(\\frac{2a^2}{b^2}\\right)^3$\n\n7 Round these correct to 3 significant figures:\n- a 2.65831\n- b 0.000620435\n- c $22 \\div 7$\n\n8\n- a Write $34.7 \\times 10^7$ in scientific notation.\n- b A planet travels $5.782 \\times 10^8$ km in its orbit each day. How far will it travel in 800 years? Use 1 year $\\approx 365.25$ days.\n- c A space craft travels $3.45 \\times 10^8$ km in $5 \\times 10^{-3}$ hours. Find its speed.",
+      "content_latex": "REVIEW SET 8A\n\n1. Simplify using index laws:\n- (a) $x^8 \\times x^3$\n- (b) $(a^4)^3$\n- (c) $\\frac{b^8}{b^3}$\n\n2. Express as powers of 3:\n- (a) $3^2 \\times 3^3 \\times 3$\n- (b) $3^{11} \\div 3^7$\n\n3. Write in scientific notation:\n- (a) 3762\n- (b) 0.0001043\n- (c) 8.62\n\n4. Simplify:\n- (a) $6^0 + 6^1 + 6^2$\n- (b) $2^{-1} + \\left(\\frac{1}{3}\\right)^{-1}$\n- (c) $\\left(\\frac{5}{8}\\right)^{-2}$\n\n5. Simplify, giving your answer in scientific notation:\n- (a) $(4 \\times 10^4)^3$\n- (b) $\\frac{8.4 \\times 10^4}{1.2 \\times 10^{-3}}$\n- (c) $(2 \\times 10^{-4}) \\times (8 \\times 10^7)$\n\n6. Simplify:\n- (a) $2x^3 \\times 4x^{10}$\n- (b) $\\left(\\frac{2a^2}{b^2}\\right)^3$\n\n7. Round these correct to 3 significant figures:\n- (a) 2.65831\n- (b) 0.000620435\n- (c) $22 \\div 7$\n\n8\n- a Write $34.7 \\times 10^7$ in scientific notation.\n- b A planet travels $5.782 \\times 10^8$ km in its orbit each day. How far will it travel in 800 years? Use 1 year $\\approx 365.25$ days.\n- c A space craft travels $3.45 \\times 10^8$ km in $5 \\times 10^{-3}$ hours. Find its speed.",
       "source_images": [
         "image83.png"
       ]
     },
     {
       "type": "exercise",
-      "content_latex": "REVIEW SET 8B\n\n1 Simplify the following:\n- a $a^{12} \\div a^3$\n- b $(2x^3)^5$\n- c $6c^3 \\times 7c^5$\n\n2 Write as powers of 7:\n- a 1\n- b $7^2 \\times 7^3$\n\n3 Write in scientific notation:\n- a 0.00315\n- b 413200\n- c 0.8904\n\n4 Simplify:\n- a $\\left(\\frac{3}{2}\\right)^{-2}$\n- b $3^0 - 3^{-1}$\n- c $-(-1)^{10}$\n\n5 Simplify, giving your answers in scientific notation:\n- a $(8 \\times 10^{-3})^2$\n- b $\\frac{4.5 \\times 10^4}{9 \\times 10^{-2}}$\n- c $(4 \\times 10^{-3}) \\times (9 \\times 10^7)$\n\n6 Simplify:\n- a $4d^{13} \\times 5d^{18}$\n- b $\\left(\\frac{4x}{y^3}\\right)^2$\n\n7 Round these correct to 3 significant figures:\n- a 58.049991\n- b 0.008255\n- c $31 \\div 11$\n\n8\n- a Write $32 \\times 10^{-7}$ in scientific notation.\n- b On average a bank receives $\\text{\\texteuro}4.578 \\times 10^7$ per week. How much will it receive in 20 years? Use 1 year $\\approx 365.25$ days.\n- c A sub-atomic particle travels a distance of $5 \\times 10^5$ cm in $8 \\times 10^{-6}$ sec. Find its speed.",
+      "content_latex": "REVIEW SET 8B\n\n1. Simplify the following:\n- (a) $a^{12} \\div a^3$\n- (b) $(2x^3)^5$\n- (c) $6c^3 \\times 7c^5$\n\n2. Write as powers of 7:\n- (a) 1\n- (b) $7^2 \\times 7^3$\n\n3. Write in scientific notation:\n- (a) 0.00315\n- (b) 413200\n- (c) 0.8904\n\n4. Simplify:\n- (a) $\\left(\\frac{3}{2}\\right)^{-2}$\n- (b) $3^0 - 3^{-1}$\n- (c) $-(-1)^{10}$\n\n5. Simplify, giving your answers in scientific notation:\n- (a) $(8 \\times 10^{-3})^2$\n- (b) $\\frac{4.5 \\times 10^4}{9 \\times 10^{-2}}$\n- (c) $(4 \\times 10^{-3}) \\times (9 \\times 10^7)$\n\n6. Simplify:\n- (a) $4d^{13} \\times 5d^{18}$\n- (b) $\\left(\\frac{4x}{y^3}\\right)^2$\n\n7. Round these correct to 3 significant figures:\n- (a) 58.049991\n- (b) 0.008255\n- (c) $31 \\div 11$\n\n8\n- a Write $32 \\times 10^{-7}$ in scientific notation.\n- b On average a bank receives $\\text{\\texteuro}4.578 \\times 10^7$ per week. How much will it receive in 20 years? Use 1 year $\\approx 365.25$ days.\n- c A sub-atomic particle travels a distance of $5 \\times 10^5$ cm in $8 \\times 10^{-6}$ sec. Find its speed.",
       "source_images": [
         "image84.png"
       ]
     },
     {
       "type": "exercise",
-      "content_latex": "EXERCISE (partial header visible)\n\n1 Find the integer equal to:\n- a $2^4$\n- b $5^3$\n- c $2^6$\n- d $7^3$\n- e $2 \\times 3^3 \\times 5^2$\n- f $2^4 \\times 3^2 \\times 7$\n- g $3^3 \\times 5^3 \\times 11$\n- h $2^4 \\times 5^2 \\times 13$\n\n2 By dividing continuously by the primes 2, 3, 5, 7, ..., write as a product of prime factors in index form:\n- a 54\n- b 72\n- c 100\n- d 240\n- e 1890\n- f 882\n- g 1089\n- h 3375\n\n3 Copy and complete the values of these common powers. Try to remember them.\n- a $2^1 = ..., \\quad 2^2 = ..., \\quad 2^3 = ..., \\quad 2^4 = ..., \\quad 2^5 = ..., \\quad 2^6 = ...$\n- b $3^1 = ..., \\quad 3^2 = ..., \\quad 3^3 = ..., \\quad 3^4 = ...$\n- c $5^1 = ..., \\quad 5^2 = ..., \\quad 5^3 = ..., \\quad 5^4 = ...$\n- d $7^1 = ..., \\quad 7^2 = ..., \\quad 7^3 = ...$\n\n4 The following numbers can be written as $2^n$. Find $n$.\n- a 16\n- b 128\n- c 512",
+      "content_latex": "EXERCISE (partial header visible)\n\n1. Find the integer equal to:\n- (a) $2^4$\n- (b) $5^3$\n- (c) $2^6$\n- (d) $7^3$\n- (e) $2 \\times 3^3 \\times 5^2$\n- (f) $2^4 \\times 3^2 \\times 7$\n- (g) $3^3 \\times 5^3 \\times 11$\n- (h) $2^4 \\times 5^2 \\times 13$\n\n2. By dividing continuously by the primes 2, 3, 5, 7, ..., write as a product of prime factors in index form:\n- (a) 54\n- (b) 72\n- (c) 100\n- (d) 240\n- (e) 1890\n- (f) 882\n- (g) 1089\n- (h) 3375\n\n3. Copy and complete the values of these common powers. Try to remember them.\n- (a) $2^1 = ..., \\quad 2^2 = ..., \\quad 2^3 = ..., \\quad 2^4 = ..., \\quad 2^5 = ..., \\quad 2^6 = ...$\n- (b) $3^1 = ..., \\quad 3^2 = ..., \\quad 3^3 = ..., \\quad 3^4 = ...$\n- (c) $5^1 = ..., \\quad 5^2 = ..., \\quad 5^3 = ..., \\quad 5^4 = ...$\n- (d) $7^1 = ..., \\quad 7^2 = ..., \\quad 7^3 = ...$\n\n4. The following numbers can be written as $2^n$. Find $n$.\n- (a) 16\n- (b) 128\n- (c) 512",
       "source_images": [
         "image85.png",
         "image86.png"
@@ -40,7 +40,7 @@
     },
     {
       "type": "exercise",
-      "content_latex": "5 The following numbers can be written as $5^n$. Find $n$.\n- a 125\n- b 625\n- c 15625\n\n6 By considering $2^1, 2^2, 2^3, 2^4, 2^5, ...$ and looking for a pattern, find the last digit of $2^{22}$.",
+      "content_latex": "5. The following numbers can be written as $5^n$. Find $n$.\n- (a) 125\n- (b) 625\n- (c) 15625\n\n6. By considering $2^1, 2^2, 2^3, 2^4, 2^5, ...$ and looking for a pattern, find the last digit of $2^{22}$.",
       "source_images": [
         "image87.png"
       ]
@@ -54,35 +54,35 @@
     },
     {
       "type": "example",
-      "content_latex": "Example: Evaluate:\n- a $(-3)^4$\n- b $-3^4$\n- c $(-3)^5$\n- d $-(-3)^5$\n\nSolution:\n- a $(-3)^4 = 81$\n- b $-3^4 = -1 \\times 3^4 = -81$\n- c $(-3)^5 = -243$\n- d $-(-3)^5 = -1 \\times (-3)^5 = -1 \\times (-243) = 243$\n\nNotice the effect of the brackets.",
+      "content_latex": "Example: Evaluate:\n- (a) $(-3)^4$\n- (b) $-3^4$\n- (c) $(-3)^5$\n- (d) $-(-3)^5$\n\nSolution:\n- (a) $(-3)^4 = 81$\n- (b) $-3^4 = -1 \\times 3^4 = -81$\n- (c) $(-3)^5 = -243$\n- (d) $-(-3)^5 = -1 \\times (-3)^5 = -1 \\times (-243) = 243$\n\nNotice the effect of the brackets.",
       "source_images": [
         "image89.png"
       ]
     },
     {
       "type": "exercise",
-      "content_latex": "1 Simplify:\n- a $(-1)^3$\n- b $(-1)^4$\n- c $(-1)^{12}$\n- d $(-1)^{17}$\n- e $(-1)^6$\n- f $-1^6$\n- g $-(-1)^6$\n- h $(-2)^3$\n- i $-2^3$\n- j $-(-2)^3$\n- k $-(-5)^2$\n- l $-(-5)^3$",
+      "content_latex": "1. Simplify:\n- (a) $(-1)^3$\n- (b) $(-1)^4$\n- (c) $(-1)^{12}$\n- (d) $(-1)^{17}$\n- (e) $(-1)^6$\n- (f) $-1^6$\n- (g) $-(-1)^6$\n- (h) $(-2)^3$\n- (i) $-2^3$\n- (j) $-(-2)^3$\n- (k) $-(-5)^2$\n- (l) $-(-5)^3$",
       "source_images": [
         "image90.png"
       ]
     },
     {
       "type": "example",
-      "content_latex": "Example 3: Find, using your calculator:\n- a $4^7$\n- b $(-3)^6$\n- c $-11^4$\n- d $2^{-2}$\n\nSolution (Calculator steps):\n- a Press: 4 ^ 7 ENTER $\\Rightarrow$ Answer: 16384\n- b Press: ( (-) 3 ) ^ 6 ENTER $\\Rightarrow$ Answer: 729\n- c Press: (-) 11 ^ 4 ENTER $\\Rightarrow$ Answer: $-14641$\n- d Press: 2 ^ (-) 2 ENTER $\\Rightarrow$ Answer: 0.25",
+      "content_latex": "Example 3: Find, using your calculator:\n- (a) $4^7$\n- (b) $(-3)^6$\n- (c) $-11^4$\n- (d) $2^{-2}$\n\nSolution (Calculator steps):\n- a Press: 4 ^ 7 ENTER $\\Rightarrow$ Answer: 16384\n- b Press: ( (-) 3 ) ^ 6 ENTER $\\Rightarrow$ Answer: 729\n- c Press: (-) 11 ^ 4 ENTER $\\Rightarrow$ Answer: $-14641$\n- d Press: 2 ^ (-) 2 ENTER $\\Rightarrow$ Answer: 0.25",
       "source_images": [
         "image91.png"
       ]
     },
     {
       "type": "exercise",
-      "content_latex": "1 Use your calculator to find the value of the following, recording the entire display:\n- a $2^9$\n- b $(-5)^5$\n- c $-3^5$\n- d $7^5$\n- e $8^3$\n- f $(-9)^4$\n- g $-9^4$\n- h $1.16^{11}$\n- i $-0.981^{14}$\n- j $(-1.14)^{23}$",
+      "content_latex": "1. Use your calculator to find the value of the following, recording the entire display:\n- (a) $2^9$\n- (b) $(-5)^5$\n- (c) $-3^5$\n- (d) $7^5$\n- (e) $8^3$\n- (f) $(-9)^4$\n- (g) $-9^4$\n- (h) $1.16^{11}$\n- (i) $-0.981^{14}$\n- (j) $(-1.14)^{23}$",
       "source_images": [
         "image92.png"
       ]
     },
     {
       "type": "exercise",
-      "content_latex": "2 Use your calculator to find the values of the following:\n- a $7^{-1}$\n- b $\\frac{1}{7^1}$\n- c $3^{-2}$\n- d $\\frac{1}{3^2}$\n- e $4^{-3}$\n- f $\\frac{1}{4^3}$\n- g $13^0$\n- h $172^0$",
+      "content_latex": "2. Use your calculator to find the values of the following:\n- (a) $7^{-1}$\n- (b) $\\frac{1}{7^1}$\n- (c) $3^{-2}$\n- (d) $\\frac{1}{3^2}$\n- (e) $4^{-3}$\n- (f) $\\frac{1}{4^3}$\n- (g) $13^0$\n- (h) $172^0$",
       "source_images": [
         "image93.png"
       ]
@@ -96,42 +96,42 @@
     },
     {
       "type": "exercise",
-      "content_latex": "1 Simplify using $a^m \\times a^n = a^{m+n}$:\n- a $7^3 \\times 7^2$\n- b $5^4 \\times 5^3$\n- c $a^7 \\times a^2$\n- d $a^4 \\times a$\n- e $b^8 \\times b^5$\n- f $a^3 \\times a^n$\n- g $b^7 \\times b^m$\n- h $m^4 \\times m^2 \\times m^3$\n\n2 Simplify using $\\frac{a^m}{a^n} = a^{m-n}$:\n- a $\\frac{5^9}{5^2}$\n- b $\\frac{11^{13}}{11^9}$\n- c $7^7 \\div 7^4$\n- d $\\frac{a^6}{a^2}$\n- e $\\frac{b^{10}}{b^7}$\n- f $\\frac{p^5}{p^m}$\n- g $\\frac{y^a}{y^5}$\n- h $b^{2x} \\div b$\n\n3 Simplify using $(a^m)^n = a^{m \\times n}$:\n- a $(3^2)^4$\n- b $(5^3)^5$\n- c $(2^4)^7$\n- d $(a^5)^2$\n- e $(p^4)^5$\n- f $(b^5)^n$\n- g $(xy)^3$\n- h $(a^{2x})^5$",
+      "content_latex": "1. Simplify using $a^m \\times a^n = a^{m+n}$:\n- (a) $7^3 \\times 7^2$\n- (b) $5^4 \\times 5^3$\n- (c) $a^7 \\times a^2$\n- (d) $a^4 \\times a$\n- (e) $b^8 \\times b^5$\n- (f) $a^3 \\times a^n$\n- (g) $b^7 \\times b^m$\n- (h) $m^4 \\times m^2 \\times m^3$\n\n2. Simplify using $\\frac{a^m}{a^n} = a^{m-n}$:\n- (a) $\\frac{5^9}{5^2}$\n- (b) $\\frac{11^{13}}{11^9}$\n- (c) $7^7 \\div 7^4$\n- (d) $\\frac{a^6}{a^2}$\n- (e) $\\frac{b^{10}}{b^7}$\n- (f) $\\frac{p^5}{p^m}$\n- (g) $\\frac{y^a}{y^5}$\n- (h) $b^{2x} \\div b$\n\n3. Simplify using $(a^m)^n = a^{m \\times n}$:\n- (a) $(3^2)^4$\n- (b) $(5^3)^5$\n- (c) $(2^4)^7$\n- (d) $(a^5)^2$\n- (e) $(p^4)^5$\n- (f) $(b^5)^n$\n- (g) $(xy)^3$\n- (h) $(a^{2x})^5$",
       "source_images": [
         "image95.png"
       ]
     },
     {
       "type": "example",
-      "content_latex": "Example: Express in simplest form with a prime number base:\n- a $4^4$\n- b $9 \\times 3^a$\n- c $49^{x+2}$\n\nSolution:\n- a $4^4 = (2^2)^4 = 2^{2 \\times 4} = 2^8$\n- b $9 \\times 3^a = 3^2 \\times 3^a = 3^{2+a}$\n- c $49^{x+2} = (7^2)^{x+2} = 7^{2(x+2)} = 7^{2x+4}$",
+      "content_latex": "Example: Express in simplest form with a prime number base:\n- (a) $4^4$\n- (b) $9 \\times 3^a$\n- (c) $49^{x+2}$\n\nSolution:\n- (a) $4^4 = (2^2)^4 = 2^{2 \\times 4} = 2^8$\n- (b) $9 \\times 3^a = 3^2 \\times 3^a = 3^{2+a}$\n- (c) $49^{x+2} = (7^2)^{x+2} = 7^{2(x+2)} = 7^{2x+4}$",
       "source_images": [
         "image96.png"
       ]
     },
     {
       "type": "exercise",
-      "content_latex": "4 Express in simplest form with a prime number base:\n- a 8\n- b 25\n- c 81\n- d $4^3$\n- e $9^2$\n- f $3^a \\times 9$\n- g $5^t \\div 5$\n- h $3^k \\times 9^k$\n- i $\\frac{16}{2^x}$\n- j $\\frac{3^{x+1}}{3^{x-1}}$\n- k $(5^4)^{x-1}$\n- l $2^x \\times 2^{2-x}$\n- m $\\frac{2^y}{4^x}$\n- n $\\frac{4^y}{8^x}$\n- o $\\frac{3^{x+1}}{3^{1-x}}$\n- p $\\frac{2^t \\times 4^t}{8^{t-1}}$",
+      "content_latex": "4. Express in simplest form with a prime number base:\n- (a) 8\n- (b) 25\n- (c) 81\n- (d) $4^3$\n- (e) $9^2$\n- (f) $3^a \\times 9$\n- (g) $5^t \\div 5$\n- (h) $3^k \\times 9^k$\n- (i) $\\frac{16}{2^x}$\n- (j) $\\frac{3^{x+1}}{3^{x-1}}$\n- (k) $(5^4)^{x-1}$\n- (l) $2^x \\times 2^{2-x}$\n- (m) $\\frac{2^y}{4^x}$\n- (n) $\\frac{4^y}{8^x}$\n- (o) $\\frac{3^{x+1}}{3^{1-x}}$\n- (p) $\\frac{2^t \\times 4^t}{8^{t-1}}$",
       "source_images": [
         "image97.png"
       ]
     },
     {
       "type": "example",
-      "content_latex": "Example: Remove the brackets of:\n- a $(3a)^2$\n- b $\\left(\\frac{2x}{y}\\right)^3$\n\nSolution:\n- a $(3a)^2 = 3^2 \\times a^2 = 9a^2$\n- b $\\left(\\frac{2x}{y}\\right)^3 = \\frac{2^3 \\times x^3}{y^3} = \\frac{8x^3}{y^3}$",
+      "content_latex": "Example: Remove the brackets of:\n- (a) $(3a)^2$\n- (b) $\\left(\\frac{2x}{y}\\right)^3$\n\nSolution:\n- (a) $(3a)^2 = 3^2 \\times a^2 = 9a^2$\n- (b) $\\left(\\frac{2x}{y}\\right)^3 = \\frac{2^3 \\times x^3}{y^3} = \\frac{8x^3}{y^3}$",
       "source_images": [
         "image98.png"
       ]
     },
     {
       "type": "exercise",
-      "content_latex": "5 Remove the brackets of:\n- a $(ab)^3$\n- b $(ac)^4$\n- c $(bc)^5$\n- d $(abc)^3$\n- e $(2a)^4$\n- f $(5b)^2$\n- g $(3n)^4$\n- h $(2bc)^3$\n- i $(4ab)^3$\n- j $\\left(\\frac{a}{b}\\right)^3$\n- k $\\left(\\frac{m}{n}\\right)^4$\n- l $\\left(\\frac{2c}{d}\\right)^5$",
+      "content_latex": "5. Remove the brackets of:\n- (a) $(ab)^3$\n- (b) $(ac)^4$\n- (c) $(bc)^5$\n- (d) $(abc)^3$\n- (e) $(2a)^4$\n- (f) $(5b)^2$\n- (g) $(3n)^4$\n- (h) $(2bc)^3$\n- (i) $(4ab)^3$\n- (j) $\\left(\\frac{a}{b}\\right)^3$\n- (k) $\\left(\\frac{m}{n}\\right)^4$\n- (l) $\\left(\\frac{2c}{d}\\right)^5$",
       "source_images": [
         "image99.png"
       ]
     },
     {
       "type": "example",
-      "content_latex": "Example: Express the following in simplest form, without brackets:\n- a $(3a^3b)^4$\n- b $\\left(\\frac{x^2}{2y}\\right)^3$\n\nSolution:\n- a $(3a^3b)^4 = 3^4 \\times (a^3)^4 \\times b^4 = 81 \\times a^{3 \\times 4} \\times b^4 = 81a^{12}b^4$\n- b $\\left(\\frac{x^2}{2y}\\right)^3 = \\frac{(x^2)^3}{2^3 \\times y^3} = \\frac{x^{2 \\times 3}}{8 \\times y^3} = \\frac{x^6}{8y^3}$",
+      "content_latex": "Example: Express the following in simplest form, without brackets:\n- (a) $(3a^3b)^4$\n- (b) $\\left(\\frac{x^2}{2y}\\right)^3$\n\nSolution:\n- (a) $(3a^3b)^4 = 3^4 \\times (a^3)^4 \\times b^4 = 81 \\times a^{3 \\times 4} \\times b^4 = 81a^{12}b^4$\n- (b) $\\left(\\frac{x^2}{2y}\\right)^3 = \\frac{(x^2)^3}{2^3 \\times y^3} = \\frac{x^{2 \\times 3}}{8 \\times y^3} = \\frac{x^6}{8y^3}$",
       "source_images": [
         "image100.png",
         "image101.png"
@@ -139,28 +139,28 @@
     },
     {
       "type": "exercise",
-      "content_latex": "6 Simplify the following expressions using one or more of the index laws:\n- a $\\frac{a^3}{a}$\n- b $4b^2 \\times 2b^3$\n- c $\\frac{m^5n^4}{m^2n^3}$\n- d $\\frac{14a^7}{2a^2}$\n- e $\\frac{12a^2b^3}{3ab}$\n- f $\\frac{18m^7a^3}{4m^4a^3}$\n- g $10hk^3 \\times 4h^4$\n- h $\\frac{m^{11}}{(m^2)^8}$\n- i $\\frac{p^2 \\times p^7}{(p^3)^2}$",
+      "content_latex": "6. Simplify the following expressions using one or more of the index laws:\n- (a) $\\frac{a^3}{a}$\n- (b) $4b^2 \\times 2b^3$\n- (c) $\\frac{m^5n^4}{m^2n^3}$\n- (d) $\\frac{14a^7}{2a^2}$\n- (e) $\\frac{12a^2b^3}{3ab}$\n- (f) $\\frac{18m^7a^3}{4m^4a^3}$\n- (g) $10hk^3 \\times 4h^4$\n- (h) $\\frac{m^{11}}{(m^2)^8}$\n- (i) $\\frac{p^2 \\times p^7}{(p^3)^2}$",
       "source_images": [
         "image102.png"
       ]
     },
     {
       "type": "example",
-      "content_latex": "Example: Simplify, giving answers in simplest rational form:\n- a $3^0$\n- b $2^{-2}$\n- c $5^0 - 5^{-1}$\n- d $\\left(\\frac{2}{5}\\right)^{-2}$\n\nSolution:\n- a $3^0 = 1$\n- b $2^{-2} = \\frac{1}{2^2} = \\frac{1}{4}$\n- c $5^0 - 5^{-1} = 1 - \\frac{1}{5} = \\frac{4}{5}$\n- d $\\left(\\frac{2}{5}\\right)^{-2} = \\left(\\frac{5}{2}\\right)^2 = \\frac{25}{4} = 6\\frac{1}{4}$\n\nNote: $\\left(\\frac{a}{b}\\right)^{-2} = \\left(\\frac{b}{a}\\right)^2$",
+      "content_latex": "Example: Simplify, giving answers in simplest rational form:\n- (a) $3^0$\n- (b) $2^{-2}$\n- (c) $5^0 - 5^{-1}$\n- (d) $\\left(\\frac{2}{5}\\right)^{-2}$\n\nSolution:\n- (a) $3^0 = 1$\n- (b) $2^{-2} = \\frac{1}{2^2} = \\frac{1}{4}$\n- (c) $5^0 - 5^{-1} = 1 - \\frac{1}{5} = \\frac{4}{5}$\n- (d) $\\left(\\frac{2}{5}\\right)^{-2} = \\left(\\frac{5}{2}\\right)^2 = \\frac{25}{4} = 6\\frac{1}{4}$\n\nNote: $\\left(\\frac{a}{b}\\right)^{-2} = \\left(\\frac{b}{a}\\right)^2$",
       "source_images": [
         "image103.png"
       ]
     },
     {
       "type": "exercise",
-      "content_latex": "8 Simplify, giving answers in simplest rational form:\n- a $5^0$\n- b $3^{-1}$\n- c $6^{-1}$\n- d $8^0$\n- e $3^2$\n- f $3^{-2}$\n- g $2^3$\n- h $2^{-3}$\n- i $5^2$\n- j $5^{-2}$\n- k $10^2$\n- l $10^{-2}$",
+      "content_latex": "8. Simplify, giving answers in simplest rational form:\n- (a) $5^0$\n- (b) $3^{-1}$\n- (c) $6^{-1}$\n- (d) $8^0$\n- (e) $3^2$\n- (f) $3^{-2}$\n- (g) $2^3$\n- (h) $2^{-3}$\n- (i) $5^2$\n- (j) $5^{-2}$\n- (k) $10^2$\n- (l) $10^{-2}$",
       "source_images": [
         "image104.png"
       ]
     },
     {
       "type": "exercise",
-      "content_latex": "9 Simplify, giving answers in simplest rational form:\n- a $\\left(\\frac{2}{3}\\right)^0$\n- b $\\frac{4^3}{4^3}$\n- c $3y^0$\n- d $(3y)^0$\n- e $2 \\times 3^0$\n- f $6^0$\n- g $\\frac{5^2}{5^4}$\n- h $\\frac{2^{10}}{2^{15}}$\n- i $\\left(\\frac{1}{3}\\right)^{-1}$\n- j $\\left(\\frac{2}{5}\\right)^{-1}$\n- k $\\left(\\frac{4}{3}\\right)^{-1}$\n- l $\\left(\\frac{1}{12}\\right)^{-1}$\n- m $\\left(\\frac{2}{3}\\right)^{-1}$\n- n $5^0 - 5^{-1}$\n- o $7^{-1} + 7^0$\n- p $2^0 + 2^1 + 2^{-1}$\n- q $\\left(\\frac{3}{4}\\right)^{-2}$\n- r $\\left(1\\frac{1}{2}\\right)^{-3}$\n- s $\\left(\\frac{5}{2}\\right)^{-2}$\n- t $\\left(2\\frac{1}{3}\\right)^{-2}$",
+      "content_latex": "9. Simplify, giving answers in simplest rational form:\n- (a) $\\left(\\frac{2}{3}\\right)^0$\n- (b) $\\frac{4^3}{4^3}$\n- (c) $3y^0$\n- (d) $(3y)^0$\n- (e) $2 \\times 3^0$\n- (f) $6^0$\n- (g) $\\frac{5^2}{5^4}$\n- (h) $\\frac{2^{10}}{2^{15}}$\n- (i) $\\left(\\frac{1}{3}\\right)^{-1}$\n- (j) $\\left(\\frac{2}{5}\\right)^{-1}$\n- (k) $\\left(\\frac{4}{3}\\right)^{-1}$\n- (l) $\\left(\\frac{1}{12}\\right)^{-1}$\n- (m) $\\left(\\frac{2}{3}\\right)^{-1}$\n- (n) $5^0 - 5^{-1}$\n- (o) $7^{-1} + 7^0$\n- (p) $2^0 + 2^1 + 2^{-1}$\n- (q) $\\left(\\frac{3}{4}\\right)^{-2}$\n- (r) $\\left(1\\frac{1}{2}\\right)^{-3}$\n- (s) $\\left(\\frac{5}{2}\\right)^{-2}$\n- (t) $\\left(2\\frac{1}{3}\\right)^{-2}$",
       "source_images": [
         "image105.png",
         "image106.png"
@@ -168,14 +168,14 @@
     },
     {
       "type": "example",
-      "content_latex": "Example: Write the following without brackets or negative indices:\n- a $(5x)^{-1}$\n- b $5x^{-1}$\n- c $(3b^2)^{-2}$\n\nSolution:\n- a $(5x)^{-1} = \\frac{1}{5x}$\n- b $5x^{-1} = \\frac{5}{x}$ (In $5x^{-1}$ the index $-1$ refers to the $x$ only.)\n- c $(3b^2)^{-2} = \\frac{1}{(3b^2)^2} = \\frac{1}{3^2b^4} = \\frac{1}{9b^4}$",
+      "content_latex": "Example: Write the following without brackets or negative indices:\n- (a) $(5x)^{-1}$\n- (b) $5x^{-1}$\n- (c) $(3b^2)^{-2}$\n\nSolution:\n- (a) $(5x)^{-1} = \\frac{1}{5x}$\n- (b) $5x^{-1} = \\frac{5}{x}$ (In $5x^{-1}$ the index $-1$ refers to the $x$ only.)\n- (c) $(3b^2)^{-2} = \\frac{1}{(3b^2)^2} = \\frac{1}{3^2b^4} = \\frac{1}{9b^4}$",
       "source_images": [
         "image107.png"
       ]
     },
     {
       "type": "exercise",
-      "content_latex": "10 Write the following without brackets or negative indices:\n- a $(2a)^{-1}$\n- b $2a^{-1}$\n- c $3b^{-1}$\n- d $(3b)^{-1}$\n- e $\\left(\\frac{2}{b}\\right)^{-2}$\n- f $(2b)^{-2}$\n- g $(3n)^{-2}$\n- h $(3n^{-2})^{-1}$\n- i $ab^{-1}$\n- j $(ab)^{-1}$\n- k $ab^{-2}$\n- l $(ab)^{-2}$\n- m $(2ab)^{-1}$\n- n $2(ab)^{-1}$\n- o $2ab^{-1}$\n- p $\\frac{(ab)^2}{b^{-1}}$",
+      "content_latex": "10. Write the following without brackets or negative indices:\n- (a) $(2a)^{-1}$\n- (b) $2a^{-1}$\n- (c) $3b^{-1}$\n- (d) $(3b)^{-1}$\n- (e) $\\left(\\frac{2}{b}\\right)^{-2}$\n- (f) $(2b)^{-2}$\n- (g) $(3n)^{-2}$\n- (h) $(3n^{-2})^{-1}$\n- (i) $ab^{-1}$\n- (j) $(ab)^{-1}$\n- (k) $ab^{-2}$\n- (l) $(ab)^{-2}$\n- (m) $(2ab)^{-1}$\n- (n) $2(ab)^{-1}$\n- (o) $2ab^{-1}$\n- (p) $\\frac{(ab)^2}{b^{-1}}$",
       "source_images": [
         "image108.png",
         "image109.png"
@@ -183,14 +183,14 @@
     },
     {
       "type": "exercise",
-      "content_latex": "12 Write the following as powers of 2, 3 or 5:\n- a $\\frac{1}{3}$\n- b $\\frac{1}{2}$\n- c $\\frac{1}{5}$\n- d $\\frac{1}{4}$\n- e $\\frac{1}{27}$\n- f $\\frac{1}{25}$\n- g $\\frac{1}{8^x}$\n- h $\\frac{1}{16^y}$\n- i $\\frac{1}{81^a}$\n- j $\\frac{9}{3^4}$\n- k $25 \\times 5^{-4}$\n- l $\\frac{5^{-1}}{5^2}$\n- m $2 \\div 2^{-3}$\n- n 1\n- o $6^{-3}$\n- p $4 \\times 10^2$",
+      "content_latex": "12. Write the following as powers of 2, 3 or 5:\n- (a) $\\frac{1}{3}$\n- (b) $\\frac{1}{2}$\n- (c) $\\frac{1}{5}$\n- (d) $\\frac{1}{4}$\n- (e) $\\frac{1}{27}$\n- (f) $\\frac{1}{25}$\n- (g) $\\frac{1}{8^x}$\n- (h) $\\frac{1}{16^y}$\n- (i) $\\frac{1}{81^a}$\n- (j) $\\frac{9}{3^4}$\n- (k) $25 \\times 5^{-4}$\n- (l) $\\frac{5^{-1}}{5^2}$\n- (m) $2 \\div 2^{-3}$\n- (n) 1\n- (o) $6^{-3}$\n- (p) $4 \\times 10^2$",
       "source_images": [
         "image110.png"
       ]
     },
     {
       "type": "exercise",
-      "content_latex": "13 The water lily *Nymphaea Mathematicus* doubles its size every day. From the time it was planted until it completely covered a pond, it took 26 days. How many days did it take to cover half the pond?",
+      "content_latex": "13. The water lily *Nymphaea Mathematicus* doubles its size every day. From the time it was planted until it completely covered a pond, it took 26 days. How many days did it take to cover half the pond?",
       "source_images": [
         "image111.png"
       ]
@@ -204,42 +204,42 @@
     },
     {
       "type": "exercise",
-      "content_latex": "EXERCISE 8E\n\n1 Write using scientific notation:\n- a 230\n- b 53900\n- c 0.0361\n- d 0.00680\n- e 3.26\n- f 0.5821\n- g 361000000\n- h 0.000001674\n\n2 Write as an ordinary decimal number:\n- a $2.3 \\times 10^3$\n- b $2.3 \\times 10^{-2}$\n- c $5.64 \\times 10^5$\n- d $7.931 \\times 10^{-4}$\n- e $9.97 \\times 10^0$\n- f $6.04 \\times 10^7$\n- g $4.215 \\times 10^{-1}$\n- h $3.621 \\times 10^{-8}$\n\n3 Express the following quantities using scientific notation:\n- a There are approximately 4 million red blood cells in a drop of blood.\n- b The thickness of a coin is about 0.0008 m.\n- c The earth's radius is about 6.38 million metres.\n- d A typical human cell has a diameter of about 0.00002 m.\n\n4 Express the following quantities as ordinary decimal numbers:\n- a The sun has diameter $1.392 \\times 10^6$ km.\n- b A piece of paper is about $1.8 \\times 10^{-2}$ cm thick.\n- c A test tube holds $3.2 \\times 10^7$ bacteria.\n- d A mushroom weighs $8.2 \\times 10^{-6}$ tonnes.\n- e The number of minutes in an average person's life is around $3.7 \\times 10^7$.\n- f A blood capillary is about $2.1 \\times 10^{-5}$ m in diameter.",
+      "content_latex": "EXERCISE 8E\n\n1. Write using scientific notation:\n- (a) 230\n- (b) 53900\n- (c) 0.0361\n- (d) 0.00680\n- (e) 3.26\n- (f) 0.5821\n- (g) 361000000\n- (h) 0.000001674\n\n2. Write as an ordinary decimal number:\n- (a) $2.3 \\times 10^3$\n- (b) $2.3 \\times 10^{-2}$\n- (c) $5.64 \\times 10^5$\n- (d) $7.931 \\times 10^{-4}$\n- (e) $9.97 \\times 10^0$\n- (f) $6.04 \\times 10^7$\n- (g) $4.215 \\times 10^{-1}$\n- (h) $3.621 \\times 10^{-8}$\n\n3. Express the following quantities using scientific notation:\n- a There are approximately 4 million red blood cells in a drop of blood.\n- b The thickness of a coin is about 0.0008 m.\n- c The earth's radius is about 6.38 million metres.\n- d A typical human cell has a diameter of about 0.00002 m.\n\n4. Express the following quantities as ordinary decimal numbers:\n- a The sun has diameter $1.392 \\times 10^6$ km.\n- b A piece of paper is about $1.8 \\times 10^{-2}$ cm thick.\n- c A test tube holds $3.2 \\times 10^7$ bacteria.\n- d A mushroom weighs $8.2 \\times 10^{-6}$ tonnes.\n- e The number of minutes in an average person's life is around $3.7 \\times 10^7$.\n- f A blood capillary is about $2.1 \\times 10^{-5}$ (m) in diameter.",
       "source_images": [
         "image113.png"
       ]
     },
     {
       "type": "exercise",
-      "content_latex": "5 Simplify the following products, writing your answers in scientific notation:\n- a $(3 \\times 10^3) \\times (4 \\times 10^7)$\n- b $(4 \\times 10^3) \\times (7 \\times 10^5)$\n- c $(8 \\times 10^{-4}) \\times (7 \\times 10^{-5})$\n- d $(9 \\times 10^{-5}) \\times (6 \\times 10^{-2})$\n- e $(3 \\times 10^5)^2$\n- f $(4 \\times 10^7)^2$\n- g $(2 \\times 10^{-3})^4$\n- h $(8 \\times 10^{-3})^3$\n- i $(6 \\times 10^{-1}) \\times (4 \\times 10^3) \\times (5 \\times 10^{-4})$\n- j $(5 \\times 10^{-3})^2 \\times (8 \\times 10^{11})$",
+      "content_latex": "5. Simplify the following products, writing your answers in scientific notation:\n- (a) $(3 \\times 10^3) \\times (4 \\times 10^7)$\n- (b) $(4 \\times 10^3) \\times (7 \\times 10^5)$\n- (c) $(8 \\times 10^{-4}) \\times (7 \\times 10^{-5})$\n- (d) $(9 \\times 10^{-5}) \\times (6 \\times 10^{-2})$\n- (e) $(3 \\times 10^5)^2$\n- (f) $(4 \\times 10^7)^2$\n- (g) $(2 \\times 10^{-3})^4$\n- (h) $(8 \\times 10^{-3})^3$\n- (i) $(6 \\times 10^{-1}) \\times (4 \\times 10^3) \\times (5 \\times 10^{-4})$\n- (j) $(5 \\times 10^{-3})^2 \\times (8 \\times 10^{11})$",
       "source_images": [
         "image114.png"
       ]
     },
     {
       "type": "exercise",
-      "content_latex": "6 Simplify the following divisions, writing your answers in scientific notation:\n- a $\\frac{8 \\times 10^6}{4 \\times 10^3}$\n- b $\\frac{9 \\times 10^{-3}}{3 \\times 10^{-1}}$\n- c $\\frac{4 \\times 10^6}{2 \\times 10^{-2}}$\n- d $\\frac{2.5 \\times 10^{-4}}{(5 \\times 10^7)^2}$\n- e $\\frac{(8 \\times 10^{-2})^2}{2 \\times 10^{-6}}$\n- f $\\frac{(5 \\times 10^{-3})^{-2}}{(2 \\times 10^4)^{-1}}$",
+      "content_latex": "6. Simplify the following divisions, writing your answers in scientific notation:\n- (a) $\\frac{8 \\times 10^6}{4 \\times 10^3}$\n- (b) $\\frac{9 \\times 10^{-3}}{3 \\times 10^{-1}}$\n- (c) $\\frac{4 \\times 10^6}{2 \\times 10^{-2}}$\n- (d) $\\frac{2.5 \\times 10^{-4}}{(5 \\times 10^7)^2}$\n- (e) $\\frac{(8 \\times 10^{-2})^2}{2 \\times 10^{-6}}$\n- (f) $\\frac{(5 \\times 10^{-3})^{-2}}{(2 \\times 10^4)^{-1}}$",
       "source_images": [
         "image115.png"
       ]
     },
     {
       "type": "exercise",
-      "content_latex": "7 Use a calculator to find, correct to 3 significant figures:\n- a $(4.7 \\times 10^5) \\times (8.5 \\times 10^7)$\n- b $(2.7 \\times 10^{-3}) \\times (9.6 \\times 10^9)$\n- c $(3.4 \\times 10^7) \\div (4.8 \\times 10^{15})$\n- d $(7.3 \\times 10^{-7}) \\div (1.5 \\times 10^4)$\n- e $(2.83 \\times 10^3)^2$\n- f $(5.96 \\times 10^{-5})^2$",
+      "content_latex": "7. Use a calculator to find, correct to 3 significant figures:\n- (a) $(4.7 \\times 10^5) \\times (8.5 \\times 10^7)$\n- (b) $(2.7 \\times 10^{-3}) \\times (9.6 \\times 10^9)$\n- (c) $(3.4 \\times 10^7) \\div (4.8 \\times 10^{15})$\n- (d) $(7.3 \\times 10^{-7}) \\div (1.5 \\times 10^4)$\n- (e) $(2.83 \\times 10^3)^2$\n- (f) $(5.96 \\times 10^{-5})^2$",
       "source_images": [
         "image116.png"
       ]
     },
     {
       "type": "exercise",
-      "content_latex": "8 If $M = \\frac{ab}{c}$, find $M$ when $a = 3.12 \\times 10^4$, $b = 5.69 \\times 10^{11}$ and $c = 8.29 \\times 10^{-7}$.\n\n9 If $G = \\frac{(p + q)^2}{r^3}$, find $G$ when $p = 5.17 \\times 10^{-3}$, $q = 6.89 \\times 10^{-4}$ and $r = 4.73 \\times 10^{-5}$.\n\n10\n- a How many times larger is $3 \\times 10^{11}$ than $3 \\times 10^8$?\n- b Which is the smaller of $5 \\times 10^{-16}$ and $5 \\times 10^{-21}$, and by how many times?",
+      "content_latex": "8. If $M = \\frac{ab}{c}$, find $M$ when $a = 3.12 \\times 10^4$, $b = 5.69 \\times 10^{11}$ and $c = 8.29 \\times 10^{-7}$.\n\n9. If $G = \\frac{(p + q)^2}{r^3}$, find $G$ when $p = 5.17 \\times 10^{-3}$, $q = 6.89 \\times 10^{-4}$ and $r = 4.73 \\times 10^{-5}$.\n\n10\n- a How many times larger is $3 \\times 10^{11}$ than $3 \\times 10^8$?\n- b Which is the smaller of $5 \\times 10^{-16}$ and $5 \\times 10^{-21}$, and by how many times?",
       "source_images": [
         "image117.png"
       ]
     },
     {
       "type": "exercise",
-      "content_latex": "11 Use your calculator to answer the following:\n- a A rocket travels in space at $4 \\times 10^5$ km h$^{-1}$. How far will it travel in:\n  - i 30 days\n  - ii 20 years? (Assume 1 year = 365.25 days)\n- b A bullet travelling at an average speed of $2 \\times 10^3$ km h$^{-1}$ hits a target 500 m away. Find the time of the bullet's flight in seconds.\n- c Mars has volume $1.31 \\times 10^{21}$ m$^3$ whereas Pluto has volume $4.93 \\times 10^{19}$ m$^3$. How many times bigger is Mars than Pluto?\n- d Microbe C has mass $2.63 \\times 10^{-5}$ grams whereas microbe D has mass $8 \\times 10^{-7}$ grams. Which microbe is heavier? How many times is it heavier than the other one?",
+      "content_latex": "11. Use your calculator to answer the following:\n- a A rocket travels in space at $4 \\times 10^5$ km h$^{-1}$. How far will it travel in:\n  - (i) 30 days\n  - ii 20 years? (Assume 1 year = 365.25 days)\n- b A bullet travelling at an average speed of $2 \\times 10^3$ km h$^{-1}$ hits a target 500 (m) away. Find the time of the bullet's flight in seconds.\n- c Mars has volume $1.31 \\times 10^{21}$ m$^3$ whereas Pluto has volume $4.93 \\times 10^{19}$ m$^3$. How many times bigger is Mars than Pluto?\n- d Microbe C has mass $2.63 \\times 10^{-5}$ grams whereas microbe D has mass $8 \\times 10^{-7}$ grams. Which microbe is heavier? How many times is it heavier than the other one?",
       "source_images": [
         "image118.png"
       ]
