@@ -11,7 +11,7 @@
     },
     {
       "type": "concept",
-      "content_latex": "WRITING SUMS AS PRODUCTS\n\nSums of identical terms can be easily written using product notation.\n\nFor example, $3 + 3 + 3 + 3 = 4 \\times 3$ \\{4 lots of 3\\}\n\n$\\therefore b + b + b + b = 4 \\times b = 4b$ \\{4 lots of $b$\\}\n\nand likewise $a + a + a = 3a$ and $y + y + y + y + y = 5y$.",
+      "content_latex": "WRITING SUMS AS PRODUCTS\n\nSums of identical terms can be easily written using product notation.\n\nFor example, $3 + 3 + 3 + 3 = 4 \\times 3$ (4 lots of 3)\n\n$\\therefore b + b + b + b = 4 \\times b = 4b$ (4 lots of $b$)\n\nand likewise $a + a + a = 3a$ and $y + y + y + y + y = 5y$.",
       "source_images": [
         "image2.png"
       ]
@@ -88,7 +88,7 @@
     },
     {
       "type": "example",
-      "content_latex": "Example 12\n\nSimplify, where possible, by collecting like terms:\n\na $3x + 2x$ b $7a - 3a$ c $-2x + 3 - x$\n\nd $3bc + bc$ e $2x - x^2$\n\nSolutions:\n\na $3x + 2x = 5x$\n\nb $7a - 3a = 4a$\n\nc $-2x + 3 - x = -3x + 3$ \\{since $-2x$ and $-x$ are like terms\\}\n\nd $3bc + bc = 4bc$\n\ne $2x - x^2$ is in simplest form \\{since $2x$ and $-x^2$ are unlike terms\\}",
+      "content_latex": "Example 12\n\nSimplify, where possible, by collecting like terms:\n\na $3x + 2x$ b $7a - 3a$ c $-2x + 3 - x$\n\nd $3bc + bc$ e $2x - x^2$\n\nSolutions:\n\na $3x + 2x = 5x$\n\nb $7a - 3a = 4a$\n\nc $-2x + 3 - x = -3x + 3$ (since $-2x$ and $-x$ are like terms)\n\nd $3bc + bc = 4bc$\n\ne $2x - x^2$ is in simplest form (since $2x$ and $-x^2$ are unlike terms)",
       "source_images": [
         "image12.png"
       ]
@@ -102,7 +102,7 @@
     },
     {
       "type": "example",
-      "content_latex": "Example 13\n\nSimplify, by collecting like terms:\n\na $2 + 3a - 3 - 2a$\n\nb $x^2 - 2x + 3x - 2x^2$\n\nSolutions:\n\na $2 + 3a - 3 - 2a$\n$= 3a - 2a + 2 - 3$\n$= a - 1$\n\\{$3a$ and $-2a$ are like terms, $2$ and $-3$ are like terms.\\}\n\nb $x^2 - 2x + 3x - 2x^2$\n$= x^2 - 2x^2 - 2x + 3x$\n$= -x^2 + x$\n\\{$x^2$ and $-2x^2$ are like terms, $-2x$ and $3x$ are like terms.\\}",
+      "content_latex": "Example 13\n\nSimplify, by collecting like terms:\n\na $2 + 3a - 3 - 2a$\n\nb $x^2 - 2x + 3x - 2x^2$\n\nSolutions:\n\na $2 + 3a - 3 - 2a$\n$= 3a - 2a + 2 - 3$\n$= a - 1$\n($3a$ and $-2a$ are like terms, $2$ and $-3$ are like terms.)\n\nb $x^2 - 2x + 3x - 2x^2$\n$= x^2 - 2x^2 - 2x + 3x$\n$= -x^2 + x$\n($x^2$ and $-2x^2$ are like terms, $-2x$ and $3x$ are like terms.)",
       "source_images": [
         "image14.png"
       ]
@@ -208,7 +208,7 @@
     },
     {
       "type": "example",
-      "content_latex": "Solutions to Example 5:\n\na The sum of 4 and $z$ is $4 + z$.\n\nb The difference is $y - x$. \\{as $y$ is larger than $x$\\}\n\nc The average is $\\frac{r + s + t}{3}$.",
+      "content_latex": "Solutions to Example 5:\n\na The sum of 4 and $z$ is $4 + z$.\n\nb The difference is $y - x$. (as $y$ is larger than $x$)\n\nc The average is $\\frac{r + s + t}{3}$.",
       "source_images": [
         "image27.png"
       ]
