@@ -3,7 +3,7 @@ import Image from "next/image";
 import { supabase, getImageUrl } from "@/lib/supabase";
 import { Chapter, Image as ImageType, Item, Question } from "@/lib/types";
 import { notFound } from "next/navigation";
-import LatexRenderer from "@/components/LatexRenderer";
+import { MathRenderer } from "@/components/MathRenderer";
 
 interface PageProps {
   params: Promise<{ id: string }>;
@@ -348,7 +348,7 @@ export default async function ChapterPage({ params }: PageProps) {
                                       </span>
                                     )}
                                     <div className="flex-1 min-w-0">
-                                      <LatexRenderer
+                                      <MathRenderer
                                         content={q.problem_latex}
                                         className="text-gray-800"
                                       />
@@ -358,7 +358,7 @@ export default async function ChapterPage({ params }: PageProps) {
                                             ✓ Show Answer
                                           </summary>
                                           <div className="mt-1 p-2 bg-green-50 rounded border border-green-200">
-                                            <LatexRenderer
+                                            <MathRenderer
                                               content={q.answer_latex}
                                               className="text-green-800 text-sm"
                                             />
