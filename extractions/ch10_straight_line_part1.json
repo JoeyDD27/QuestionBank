@@ -1,0 +1,232 @@
+{
+  "chapter": 10,
+  "part": 1,
+  "images_range": "884-930",
+  "items": [
+    {
+      "type": "concept",
+      "content_latex": "The $x$-intercept of a line is the value of $x$ where the line cuts the $x$-axis.\n\nThe $y$-intercept of a line is the value of $y$ where the line cuts the $y$-axis.\n\nThe gradient of a line is a measure of its steepness.\n\nThe gradient of the line passing through $(x_1, y_1)$ and $(x_2, y_2)$ is $\\frac{y\\text{-step}}{x\\text{-step}} = \\frac{y_2 - y_1}{x_2 - x_1}$.\n\nTwo lines are parallel if their gradients are equal.\n\nTwo lines are perpendicular if their gradients are negative reciprocals of one another.",
+      "source_images": ["image884.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "THE EQUATION OF A LINE\n\nThe equation of a line is an equation which connects the $x$ and $y$ values for every point on the line.\n\nUsing the gradient formula, the position of a general point $(x, y)$ on a line with gradient $m$ passing through $(x_1, y_1)$, is given by $\\frac{y - y_1}{x - x_1} = m$.\n\nRearranging, we find the equation of the line is $y - y_1 = m(x - x_1)$.",
+      "source_images": ["image885.png", "image886.png", "image887.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "This is called the point-gradient form.\n\n$y - y_1 = m(x - x_1)$",
+      "source_images": ["image886.png", "image887.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "In gradient-intercept form, the equation of the line with gradient $m$ and $y$-intercept $c$ is $y = mx + c$.",
+      "source_images": ["image888.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "In general form, the equation of a line is $ax + by = d$ where $a$, $b$, $d$ are constants.\n\nThe general form allows us to write the equations of vertical lines, for which the gradient is undefined.\n\nFor the line $x = 1$ we let $a = 1$, $b = 0$, and $d = 1$.",
+      "source_images": ["image889.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "$m = \\frac{y_2 - y_1}{x_2 - x_1}$",
+      "source_images": ["image890.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "If $m$ is negative, then $y_2 - y_1$ and $x_2 - x_1$ have opposite signs. Let's look at some examples to see how this affects the graph of a line.\n\nBelow, we graph three lines in which $y_2 - y_1$ and $x_2 - x_1$ have different signs. The points we chose to create the lines and the slopes of the lines are shown below.\n\nLine 1: Points $(-3, 6)$ and $(3, -6)$, Slope $= -2$\n\nLine 2: Points $(-2, 6)$ and $(2, 0)$, Slope $= -\\frac{3}{2}$\n\nLine 3: Points $(-7, 1)$ and $(5, -3)$, Slope $= -\\frac{1}{3}$",
+      "source_images": ["image891.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Now, let's compare these graphs to the graphs of three lines in which $y_2 - y_1$ and $x_2 - x_1$ have the same sign. Again, our points and our slopes are indicated with the graphs.\n\nLine 1: Points $(-3, -6)$ and $(3, 6)$, Slope $= 2$\n\nLine 2: Points $(-2, -6)$ and $(2, 0)$, Slope $= \\frac{3}{2}$\n\nLine 3: Points $(-7, -1)$ and $(5, 3)$, Slope $= \\frac{1}{3}$",
+      "source_images": ["image892.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Figure 8.1: A Line With Negative Slope\n\nFigure 8.2: A Line With Positive Slope",
+      "source_images": ["image893.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "(a) The slope of a line is zero when $y_2 - y_1$ equals zero. This occurs when $y_2$ and $y_1$ are equal. A couple examples are shown below.\n\nExample 1: Points $(-4, 4)$ and $(5, 4)$, Slope $= 0$\n\nExample 2: Points $(-6, -2)$ and $(4, -2)$, Slope $= 0$",
+      "source_images": ["image894.png", "image895.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "(b) The slope of a line is undefined when $x_2 - x_1$ equals zero, because dividing by zero is undefined. This occurs only when $x_2 = x_1$. Again, we turn to some examples.\n\nExample 1: Points $(4, 4)$ and $(4, -3)$, Slope undefined\n\nExample 2: Points $(-2, 5)$ and $(-2, -4)$, Slope undefined",
+      "source_images": ["image896.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Important: Just knowing whether the slope of a line is positive, negative, 0, or undefined gives us information about the line.\n\nSlope is positive: The line goes upward as it goes from left to right.\n\nSlope is negative: The line goes downward as it goes from left to right.\n\nSlope is 0: The line is horizontal. Its equation is of the form $y = k$, for some constant $k$.\n\nSlope is undefined: The line is vertical. Its equation is of the form $x = h$, for some constant $h$.",
+      "source_images": ["image897.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Important: Slope can be thought of as a measure of steepness. A line with a large positive slope is very \"steep,\" meaning it is close to a vertical line. A line with a very small positive slope close to 0, such as $\\frac{1}{10}$, is not at all steep; it's close to a horizontal line.\n\nWe can apply this to negative slopes as well. Lines with slopes that are very negative are nearly vertical, while lines with negative slopes very close to 0, such as $-0.01$, are nearly horizontal.",
+      "source_images": ["image898.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Examples of lines with different slopes:\n\nSlope $= \\frac{1}{4}$\n\nSlope $= 1$\n\nSlope $= 4$",
+      "source_images": ["image899.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 8.12: Which three of the following four points lie on the same straight line:\n\n$(32, 5)$ $(24, 18)$ $(22, 21)$ $(17, 29)$\n\nSolution for Problem 8.12: We start by naming the points so we can talk about them more easily:\n\n$A = (32, 5)$ $B = (24, 18)$ $C = (22, 21)$ $D = (17, 29)$.\n\nWe can check if $A$, $B$, and $C$ are on the same line by comparing the slope of the line through $A$ and $B$ to the slope of the line through $A$ and $C$. If these slopes are the same, then we must go in the same direction to get from $A$ to $B$ as we do to get from $A$ to $C$. In other words, the three points are on the same line.",
+      "source_images": ["image900.png", "image901.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Bogus Solution: We find the slopes of the lines through $A$ and each of $B$, $C$, and $D$:\n\nSlope of $\\overrightarrow{AB} = \\frac{18 - 5}{24 - 32} = -\\frac{13}{8}$\n\nSlope of $\\overrightarrow{AC} = \\frac{21 - 5}{32 - 22} = \\frac{8}{5}$\n\nSlope of $\\overrightarrow{AD} = \\frac{29 - 5}{17 - 32} = -\\frac{8}{5}$\n\nNo two of these slopes are equal, so $A$ is not on the same line with any two of $B$, $C$, and $D$. Therefore, it must be $B$, $C$, and $D$ that are on the same line.",
+      "source_images": ["image901.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "The slope of $AC$ is not computed correctly! In the numerator, we subtracted the $y$-coordinate of $A$ from the $y$-coordinate of $C$, but in the denominator we subtracted the coordinates in the opposite order: $x$-coordinate of $A$ minus that of $C$. Furthermore, we never showed that $B$, $C$, and $D$ are on the same line, so even if the slopes had been correctly computed, we still aren't finished.\n\nWARNING!! When computing slope, make sure you have the coordinates in the same order in the numerator and denominator. The slope between $(x_1, y_1)$ and $(x_2, y_2)$ is NOT\n\n$\\frac{y_2 - y_1}{x_1 - x_2}$.\n\nFurthermore, make sure you have the difference of $y$ values in the numerator, not the difference of $x$ values.\n\nWith this warning in mind, we compute the slopes of the lines through $A$ and each of $B$ and $C$:\n\nSlope of $\\overrightarrow{AB} = \\frac{18 - 5}{24 - 32} = -\\frac{13}{8}$\n\nSlope of $\\overrightarrow{AC} = \\frac{21 - 5}{22 - 32} = -\\frac{8}{5}$",
+      "source_images": ["image902.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Important: The midpoint of the segment connecting the points with coordinates $(x_1, y_1)$ and $(x_2, y_2)$ is\n\n$\\left(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}\\right)$.",
+      "source_images": ["image903.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Important: The distance in the plane between the points $(x_1, y_1)$ and $(x_2, y_2)$ is\n\n$\\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$.\n\nThis is often referred to as the distance formula.",
+      "source_images": ["image904.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 8.13: Let point $P$ be $(2, 4)$ and $Q$ be $(-7, -2)$.\n\n(a) What are the coordinates of the midpoint of segment $\\overline{PQ}$?\n\n(b) Let $T$ be the point on segment $\\overline{PQ}$ such that $PT : TQ = 1 : 2$. Find the coordinates of point $T$.",
+      "source_images": ["image905.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "(a) Call the midpoint $M$. Intuitively, it seems like the $x$-coordinate of $M$ should be the average of the $x$-coordinates of $P$ and $Q$. This would place $M$ horizontally directly between $P$ and $Q$. Similarly, it seems like the $y$-coordinate of $M$ should be the average of the $y$-coordinates of $P$ and $Q$. So, we guess that the coordinates of $M$ are\n\n$M = \\left(\\frac{2 + (-7)}{2}, \\frac{4 + (-2)}{2}\\right) = \\left(-\\frac{5}{2}, 1\\right)$.",
+      "source_images": ["image906.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "In order to confirm that our guess is correct, we must confirm that $M$ is on $\\overline{PQ}$, and that it is just as far from $P$ as it is from $Q$. We can use slope for the first task and the distance formula for the second:\n\nSlope of $\\overrightarrow{PM} = \\frac{1 - 4}{-\\frac{5}{2} - 2} = \\frac{-3}{-\\frac{9}{2}} = \\frac{2}{3}$,\n\nSlope of $\\overrightarrow{QM} = \\frac{1 - (-2)}{-\\frac{5}{2} - (-7)} = \\frac{3}{\\frac{9}{2}} = \\frac{2}{3}$,\n\nLength of $\\overline{PM} = \\sqrt{\\left(-\\frac{5}{2} - 2\\right)^2 + (1 - 4)^2} = \\sqrt{\\frac{81}{4} + 9} = \\sqrt{\\frac{117}{4}} = \\frac{3\\sqrt{13}}{2}$,\n\nLength of $\\overline{QM} = \\sqrt{\\left(-\\frac{5}{2} - (-7)\\right)^2 + (1 - (-2))^2} = \\sqrt{\\frac{81}{4} + 9} = \\sqrt{\\frac{117}{4}} = \\frac{3\\sqrt{13}}{2}$.\n\nTherefore, $M$ is on $\\overline{PQ}$ and is the same distance from $P$ and $Q$.",
+      "source_images": ["image907.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "(b) We follow the logic of the previous part. Since $PT : TQ = 1 : 2$, we know that $PT$ must be $\\frac{1}{3}$ of $PQ$. We treat the coordinates separately. $Q$ is 6 units below and 9 units to the left of $P$, so we think $T$ is $(\\frac{1}{3})(6) = 2$ units below $P$ and $(\\frac{1}{3})(9) = 3$ units to the left of $P$. So, we guess that $T$ is $(-1, 2)$.\n\nAs in the previous part, we must show that $T$ is on $\\overline{PQ}$. We do so by noting that the slopes of $\\overline{PT}$ and $\\overline{QT}$ are both $\\frac{2}{3}$. We must also show that $PT : TQ = 1 : 2$. The distance formula gives us\n\n$PT = \\sqrt{(-1 - 2)^2 + (2 - 4)^2} = \\sqrt{13}$\n\nand $QT = \\sqrt{(-1 - (-7))^2 + (2 - (-2))^2} = 2\\sqrt{13}$.\n\nSo, $PT : TQ = 1 : 2$, as expected.",
+      "source_images": ["image908.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercises\n\n8.3.1 The three points $(3, -5)$, $(-a + 2, 3)$, and $(2a + 3, 2)$ lie on the same line. What is $a$?\n\n8.3.2 Graph the line that passes through the point $(1, 2)$ and has slope $\\frac{1}{3}$.\n\n8.3.3 Suppose $P$ is the point $(5, 3)$ and $Q$ is the point $(-3, 6)$.\n\n(a) What is the midpoint of $\\overline{PQ}$?\n\n(b) Find point $T$ such that $Q$ is the midpoint of $\\overline{PT}$.\n\n8.3.4 Let point $A$ be $(2, 7)$ and point $B$ be $(-6, -3)$. What point is on the segment connecting $A$ and $B$ such that the distance from the point to $B$ is 4 times the distance from the point to $A$?\n\n8.3.5 Prove that the midpoint of the segment with endpoints having coordinates $(x_1, y_1)$ and $(x_2, y_2)$ is $\\left(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}\\right)$. Hints: 200",
+      "source_images": ["image909.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercises\n\n8.2.1 What is the slope of the line passing through $(-3, 5)$ and $(2, -5)$?\n\n8.2.2 Graph the equation $3x - 2y = -4$.\n\n8.2.3\n\n(a) Graph the equation $y = -2$. Is the result a line? If so, what is its slope?\n\n(b) Graph the equation $x = 4.2$. Is the result a line? If so, what is its slope?\n\n8.2.4 For each of the lines graphed below, state if the slope is positive, negative, 0, or undefined, without finding two points on the line and computing the slope. For lines with positive slope, state whether the slope is greater than, equal to, or less than 1. For lines with negative slope, state whether the slope is greater than, equal to, or less than $-1$.\n\n(a) [Graph showing line with positive slope less than 1]\n\n(b) [Graph showing horizontal line, slope = 0]\n\n(c) [Graph showing line with positive slope greater than 1]\n\n(d) [Graph showing vertical line, slope undefined]\n\n(e) [Graph showing line with negative slope greater than -1]\n\n(f) [Graph showing line with positive slope greater than 1]",
+      "source_images": ["image910.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "We can check if $A$, $B$, and $C$ are on the same line by comparing the slope of the line through $A$ and $B$ to the slope of the line through $A$ and $C$. If these slopes are the same, then we must go in the same direction to get from $A$ to $B$ as we do to get from $A$ to $C$. In other words, the three points are on the same line.",
+      "source_images": ["image911.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "PARALLEL AND PERPENDICULAR LINES\n\nTwo lines are parallel if they have the same gradient.\n\nTwo lines are perpendicular if their gradients are negative reciprocals of one another.\n\n$m_2 = -\\frac{1}{m_1}$",
+      "source_images": ["image912.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 1\n\nFind, in gradient-intercept form, the equation of the line with gradient $-3$ that passes through $(4, -5)$.\n\nThe equation of the line is $y - (-5) = -3(x - 4)$\n$\\therefore y + 5 = -3x + 12$\n$\\therefore y = -3x + 7$",
+      "source_images": ["image913.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 2\n\nWrite the equation:\n\na) $y = -\\frac{2}{3}x + 2$ in general form\n\nb) $3x - 4y = 2$ in gradient-intercept form.\n\na) $y = -\\frac{2}{3}x + 2$\n$\\therefore 3y = -2x + 6$ {multiplying both sides by 3}\n$\\therefore 2x + 3y = 6$ {adding $2x$ to both sides}\n\nb) $3x - 4y = 2$\n$\\therefore -4y = -3x - 2$ {subtracting $3x$ from both sides}\n$\\therefore y = \\frac{3}{4}x + \\frac{1}{2}$ {dividing both sides by $-4$}",
+      "source_images": ["image914.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 3\n\nFind, in general form, the equation of the line with gradient $\\frac{2}{3}$ that passes through $(-2, -1)$.\n\nSince the line has gradient $\\frac{2}{3}$, the general form of its equation is $2x - 3y = d$\n\nUsing the point $(-2, -1)$, the equation is $2x - 3y = 2(-2) - 3(-1)$\n\nwhich is $2x - 3y = -1$.",
+      "source_images": ["image915.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 4\n\nFind, in gradient-intercept form, the equation of the line which passes through A$(3, 2)$ and B$(5, -1)$.\n\nThe line has gradient $= \\frac{-1 - 2}{5 - 3} = \\frac{-3}{2} = -\\frac{3}{2}$,\n\nand passes through the point A$(3, 2)$.\n\nWe could use either A or B as the point which lies on the line.\n\n$\\therefore$ the equation of the line is $y - 2 = -\\frac{3}{2}(x - 3)$\n$\\therefore y - 2 = -\\frac{3}{2}x + \\frac{9}{2}$\n$\\therefore y = -\\frac{3}{2}x + \\frac{13}{2}$",
+      "source_images": ["image916.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 5\n\nDetermine whether:\n\na) $(2, -2)$ lies on the line with equation $y = -x + 1$\n\nb) $(3, -1)$ lies on the line with equation $3x - 2y = 11$.\n\na) When $x = 2$, we have\n$y = -(2) + 1$\n$= -1$ X\nSo, $(2, -2)$ does not lie on the line.\n\nb) Substituting $x = 3$ and $y = -1$ into the LHS gives $3(3) - 2(-1)$\n$= 9 + 2$\n$= 11$ ✓\nSo, $(3, -1)$ does lie on the line.",
+      "source_images": ["image917.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 6\n\na) Find $m$ given that $(-2, 3)$ lies on the line with equation $y = mx + 7$.\n\nb) Find $k$ given that $(3, k)$ lies on the line with equation $x + 4y = -9$.\n\na) Substituting $x = -2$ and $y = 3$ into the equation gives\n$3 = m(-2) + 7$\n$\\therefore 2m = 4$\n$\\therefore m = 2$\n\nb) Substituting $x = 3$ and $y = k$ into the equation gives\n$3 + 4k = -9$\n$\\therefore 4k = -12$\n$\\therefore k = -3$",
+      "source_images": ["image918.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 1A\n\n1. State the gradient and $y$-intercept of the line with equation:\n\na) $y = 3x + 7$\nb) $y = -2x - 5$\nc) $y = \\frac{2}{3}x - \\frac{1}{3}$\nd) $y = 11 - 4x$\ne) $y = -6 - x$\nf) $y = \\frac{9}{5} - \\frac{6}{5}x$\ng) $y = \\frac{7x + 2}{9}$\nh) $y = \\frac{2x - 3}{6}$\ni) $y = \\frac{3 - 5x}{8}$\n\n2. Find, in gradient-intercept form, the equation of the line which has:\n\na) gradient 3 and passes through $(4, 1)$\nb) gradient $-2$ and passes through $(-3, 5)$\nc) gradient $\\frac{1}{4}$ and passes through $(4, -3)$\nd) gradient $-\\frac{2}{3}$ and passes through $(-2, -7)$\ne) gradient 2 and $y$-intercept $-9$\nf) gradient $-\\frac{3}{4}$ and $y$-intercept 4.\n\n3. Consider the table of values alongside.\n\na) Draw a graph of $y$ against $x$.\nb) Are the variables linearly related? Explain your answer.\nc) Find the gradient and $y$-intercept of the graph.\nd) Find the equation connecting $x$ and $y$.\ne) Find the value of $y$ when $x = 10$.\n\n| $x$ | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|\n| $y$ | 5 | 8 | 11 | 14 | 17 |\n\n4. Calculate the gradient of the illustrated road. Write your answer as a percentage.\n[Image shows a road with rise 104 m and run 1320 m]\n\n5. Two ponds in a garden are being filled with water from separate hoses. The amount of water in each pond after $t$ minutes is shown below.\n\nPond P:\n| Time ($t$ minutes) | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|\n| Amount of water ($A$ L) | 10 | 20 | 30 | 45 | 60 |\n\nPond Q:\n| Time ($t$ minutes) | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|\n| Amount of water ($A$ L) | 5 | 20 | 35 | 50 | 65 |\n\na) Plot $A$ against $t$ for each pond.\nb) Which pond is being filled at a constant rate? Explain your answer.\nc) For the pond which is being filled at a constant rate:\n(i) Find the gradient and $A$-intercept of the line, and explain what these values mean.\n(ii) Find the equation connecting $A$ and $t$.\n(iii) Find the amount of water in the pond after 8 minutes.",
+      "source_images": ["image919.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. An unused bank account is charged a yearly fee. The graph alongside shows the balance of the account after $x$ years.\n\na) Find the gradient and $y$-intercept of the line, and interpret your answers.\nb) Find the equation of the line.\nc) How long will it take for the account to run out of money?\n\n7. The graph alongside shows the descent of a train down a hill. The units are metres.\n\na) Calculate the gradient of the train's descent.\nb) Find the equation of the train line.\n\n8. The height of a helicopter above sea level $t$ minutes after taking off is $H = 150 + 120t$ metres.\n\na) What height above sea level did the helicopter take off from?\nb) Interpret the value 120 in the equation.\nc) Find the height of the helicopter above sea level after 2 minutes.\nd) How long will it take for the helicopter to be 650 m above sea level?",
+      "source_images": ["image920.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. Write in general form:\n\na) $y = -4x + 6$\nb) $y = 5x - 3$\nc) $y = -\\frac{3}{4}x + \\frac{5}{4}$\nd) $y = -\\frac{2}{9}x + \\frac{8}{9}$\ne) $y = \\frac{3}{5}x - \\frac{1}{5}$\nf) $y = \\frac{5}{6}x + 3$\n\n10. Write in gradient-intercept form:\n\na) $5x + y = 2$\nb) $3x + 7y = 2$\nc) $4x + 3y = -1$\nd) $2x - y = 6$\ne) $3x - 13y = -4$\nf) $10x - 3y = 7$\n\n11. Explain why the gradient of the line with general form $ax + by = d$ is $-\\frac{a}{b}$.",
+      "source_images": ["image921.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "12. Match pairs of lines which are parallel:\n\nA) $y = -x + 3$\nB) $y + 2 = 3(x - 1)$\nC) $3x - y = -2$\nD) $x + y = 4$\n\nParallel lines have equal gradients. Perpendicular lines have gradients which are negative reciprocals.\n\n13. Match pairs of lines which are perpendicular:\n\nA) $x + 2y = 1$\nB) $2x + y = -3$\nC) $y - 7 = 2(x + 4)$\nD) $y = 2x - 7$",
+      "source_images": ["image922.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "14. Find, in general form, the equation of the line which has:\n\na) gradient $-4$ and passes through $(1, 2)$\nb) gradient $\\frac{1}{2}$ and passes through $(3, -5)$\nc) gradient $-\\frac{5}{3}$ and passes through $(-2, 6)$\nd) gradient $\\frac{7}{6}$ and passes through $(-1, -4)$.",
+      "source_images": ["image923.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "15. Find, in gradient-intercept form, the equation of the line which passes through:\n\na) A$(-2, 1)$ and B$(3, 11)$\nb) A$(7, 2)$ and B$(4, 5)$\nc) A$(-5, 13)$ and B$(1, -17)$\nd) P$(6, -4)$ and Q$(-3, -10)$\ne) M$(-2, -5)$ and N$(3, 2)$\nf) R$(5, -1)$ and S$(-7, 9)$.\n\n16. Find, in general form, the equation of each line:\n\na) Line through $(0, 0)$ and $(2, 6)$\n\nb) Line through $(-4, 2)$ and $(6, -1)$\n\nc) Line through $(-6, 7)$ and $(-1, -1)$",
+      "source_images": ["image924.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "17.\n\na) Find, in gradient-intercept form, the equation of line 2.\n\nb) Hence find the $y$-intercept of line 2.\n\n[Graph showing line 1 with equation $y = \\frac{3}{4}x + 1$ and line 2 passing through point $(3, 1)$]",
+      "source_images": ["image925.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "18. Find the equation of the line which is:\n\na) parallel to $y = 3x - 2$ and passes through $(1, 4)$\n\nb) parallel to $2x - y = -3$ and passes through $(3, -1)$\n\nc) perpendicular to $y = -2x + 1$ and passes through $(-1, 5)$\n\nd) perpendicular to $x + 2y = 6$ and passes through $(-2, -1)$.",
+      "source_images": ["image926.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "19. Determine whether:\n\na) $(3, 11)$ lies on the line with equation $y = 4x - 1$\n\nb) $(-6, -2)$ lies on the line with equation $y = \\frac{2}{3}x - 6$\n\nc) $(-4, -8)$ lies on the line with equation $7x - 3y = -4$\n\nd) $\\left(-\\frac{1}{2}, 2\\right)$ lies on the line with equation $6x + 10y = 17$.",
+      "source_images": ["image927.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "20.\n\na) Find $c$ given that $(2, 15)$ lies on the line with equation $y = 4x + c$.\n\nb) Find $m$ given that $\\left(\\frac{1}{2}, 3\\right)$ lies on the line with equation $y = mx - \\frac{5}{2}$.\n\nc) Find $t$ given that $(t, 4)$ lies on the line with equation $y = \\frac{2}{3}x - \\frac{4}{3}$.\n\n21. Find $k$ given that:\n\na) $(6, -3)$ lies on the line with equation $2x + 5y = k$\n\nb) $(-8, -5)$ lies on the line with equation $7x - y = k$\n\nc) $(k, 0)$ lies on the line with equation $3x - 4y + 36 = 0$.\n\n22.\n\na) Find the equation of line 2. Write your answer in the form $ax + by + d = 0$.\n\nb) Find the $x$-intercept of line 2.\n\nThe $x$-intercept of a line is the value of $x$ where the line cuts the $x$-axis.\n\n[Graph showing line 1 passing through $(2, 4)$ and $(2, 1)$, and line 2 passing through $(5, -2)$]",
+      "source_images": ["image928.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "LINES IN GRADIENT-INTERCEPT FORM\n\nTo draw the graph of $y = mx + c$ we:\n\nUse the $y$-intercept $c$ to plot the point $(0, c)$.\n\nUse $x$ and $y$-steps from the gradient $m$ to locate another point on the line.\n\nJoin the two points and extend the line in either direction.",
+      "source_images": ["image929.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "LINES IN GENERAL FORM\n\nTo draw the graph of $ax + by = d$ we:\n\nFind the $y$-intercept by letting $x = 0$.\n\nFind the $x$-intercept by letting $y = 0$.\n\nJoin the points where the line cuts the axes and extend the line in either direction.",
+      "source_images": ["image930.png"]
+    }
+  ]
+}

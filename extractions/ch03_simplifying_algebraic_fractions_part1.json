@@ -1,0 +1,137 @@
+{
+  "chapter": 3,
+  "part": 1,
+  "images_range": "243-272",
+  "items": [
+    {
+      "type": "definition",
+      "content_latex": "An algebraic fraction is a fraction that contains an unknown variable, or letter. For example, $\\frac{x}{4}$, $\\frac{y}{2}$, $\\frac{8}{z}$, $\\frac{2a}{3}$ and $\\frac{5}{4b}$ are all algebraic fractions.\n\nYou can write the fraction $\\frac{x}{4}$ (say '$x$ over 4') as $\\frac{1}{4}x$ (say 'one-quarter of $x$').\n\nYou can write the fraction $\\frac{2a}{3}$ (say '$2a$ over 3') as $\\frac{2}{3}a$ (say 'two-thirds of $a$').",
+      "source_images": ["image243.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 1\n\nSimplify these expressions.\n\n(a) $\\frac{x}{6} + \\frac{x}{6}$\n\n(b) $\\frac{4}{x} - \\frac{5}{2x}$\n\n(c) $\\frac{n}{5} + \\frac{2}{3p}$\n\nAnswer\n\n(a) $\\frac{2x}{6} + \\frac{x}{6} = \\frac{2x + x}{6} = \\frac{3x}{6} = \\frac{x}{2}$\n\nThe denominators are the same, so add the numerators. Cancel the fraction to its simplest form. Write $\\frac{1x}{2}$ as $\\frac{x}{2}$.\n\n(b) $\\frac{4}{y} - \\frac{5}{2y} = \\frac{8}{2y} - \\frac{5}{2y} = \\frac{8-5}{2y} = \\frac{3}{2y}$\n\nThe denominators are different, so change $\\frac{4}{y}$ to $\\frac{8}{2y}$. The denominators are now the same, so subtract the numerators. $\\frac{3}{2y}$ cannot be simplified, so leave as it is.\n\n(c) $\\frac{n}{5} + \\frac{2}{3p} = \\frac{n \\times 3p}{5 \\times 3p} + \\frac{2 \\times 5}{3p \\times 5} = \\frac{3np}{15p} + \\frac{10}{15p} = \\frac{3np + 10}{15p}$\n\nFind equivalent fractions which have a common denominator. The denominators are now the same, so add the numerators. $\\frac{3np + 10}{15p}$ cannot be simplified, so leave it as it is.",
+      "source_images": ["image244.png", "image245.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "If the numerator and denominator of an algebraic fraction are both written in factored form and common factors are found, we can simplify by cancelling the common factors.\n\nFor example, $\\frac{6bc}{3c} = \\frac{2 \\times 3 \\times b \\times c}{3 \\times c} = \\frac{2b}{1} = 2b$ {fully factorised, after cancellation}\n\nFractions such as $\\frac{3xy}{7z}$ cannot be simplified since the numerator and denominator do not have any common factors.",
+      "source_images": ["image246.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "ILLEGAL CANCELLATION\n\nTake care with fractions such as $\\frac{x + 4}{2}$.\n\nThe expression in the numerator, $x + 4$, cannot be written as the product of factors other than $1 \\times (x + 4)$. $x$ and 4 are terms of the expression, not factors.\n\nA typical error is the illegal cancellation $\\frac{x + 4}{2} = \\frac{x + 2}{1} = x + 2$.\n\nYou can check that this cancellation of terms is incorrect by substituting a value for $x$.\n\nFor example, if $x = 2$, $\\frac{x + 4}{2} = \\frac{2 + 4}{2} = 3$\n\nwhereas $x + 2 = 4$.",
+      "source_images": ["image247.png", "image248.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 2\n\nSimplify:\n\n(a) $\\frac{a^2}{2a}$\n\n(b) $\\frac{6a^2b}{3b}$\n\n(c) $\\frac{a + b}{a}$\n\nAnswer\n\n(a) $\\frac{a^2}{2a} = \\frac{a \\times a}{2 \\times a} = \\frac{a}{2}$\n\n(b) $\\frac{6a^2b}{3b} = \\frac{6 \\times a \\times a \\times b}{3 \\times b} = \\frac{2 \\times a \\times a}{1} = 2a^2$\n\n(c) $\\frac{a + b}{a}$ cannot be simplified as $a + b$ is a sum, not a product.",
+      "source_images": ["image249.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 3\n\nSimplify:\n\n(a) $\\frac{(-4b)^2}{2b}$\n\n(b) $\\frac{3(x + 4)^2}{x + 4}$\n\nAnswer\n\n(a) $\\frac{(-4b)^2}{2b} = \\frac{(-4b) \\times (-4b)}{2 \\times b} = \\frac{16 \\times b \\times b}{2 \\times b} = 8b$\n\n(b) $\\frac{3(x + 4)^2}{x + 4} = \\frac{3(x + 4)(x + 4)}{x + 4} = 3(x + 4)$",
+      "source_images": ["image250.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 4\n\nSimplify:\n\n(a) $\\frac{(2x + 3)(x + 4)}{5(2x + 3)}$\n\n(b) $\\frac{4(x + 2)(x - 1)}{2(x - 1)}$\n\nAnswer\n\n(a) $\\frac{(2x + 3)(x + 4)}{5(2x + 3)} = \\frac{(x + 4)}{5} = \\frac{x + 4}{5}$\n\n(b) $\\frac{4(x + 2)(x - 1)}{2(x - 1)} = \\frac{2(x + 2)}{1} = 2(x + 2)$",
+      "source_images": ["image251.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 5\n\nSimplify if possible:\n\n(a) $\\frac{4(x + 8)}{2}$\n\n(b) $\\frac{x + 8}{2}$\n\nAnswer\n\n(a) $\\frac{4(x + 8)}{2} = \\frac{2 \\times 2 \\times (x + 8)}{2} = 2(x + 8)$\n\n(b) $\\frac{x + 8}{2}$ cannot be simplified because the coefficient of $x$ is not a multiple of 2, and so we cannot cancel the denominator.",
+      "source_images": ["image252.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 21B.1\n\n1. Joe Lin says that you should always check algebraic simplification by using substitution.\n\nFor example, Wei Soong suggested that $\\frac{2x + 6}{3} = 2x + 2$.\n\nWhen $x = 3$, $\\frac{2x + 6}{3} = \\frac{6 + 6}{3} = \\frac{12}{3} = 4$,\n\nbut $2x + 2 = 6 + 2 = 8 \\neq 4$.\n\nThis one example shows that $\\frac{2x + 6}{3} \\neq 2x + 2$.\n\nCheck the following simplifications using the given substitutions:\n\n(a) $\\frac{3x + 8}{4} = 3x + 2$ (substituting $x = 4$)\n\n(b) $\\frac{4x + 2}{2} = 2x + 1$ (substituting $x = 1, 2$ and $3$)\n\n(c) $\\frac{4x + 3}{2} = 2x + 3$ (substituting $x = 3$)\n\n(d) $\\frac{2a + b + 10}{5} = 2a + b + 2$ (substituting $a = 2$ and $b = 1$)",
+      "source_images": ["image253.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Simplify:\n\n(a) $\\frac{2a}{4}$\n\n(b) $\\frac{4m}{2}$\n\n(c) $\\frac{6a}{a}$\n\n(d) $\\frac{6a}{2a}$\n\n(e) $\\frac{2a^2}{a}$\n\n(f) $\\frac{2x^3}{2x}$\n\n(g) $\\frac{2x^3}{x^2}$\n\n(h) $\\frac{2x^3}{x^3}$\n\n(i) $\\frac{2a^2}{4a^3}$\n\n(j) $\\frac{8m^2}{4m}$\n\n(k) $\\frac{4a^2}{a^2}$\n\n(l) $\\frac{6t}{3t^2}$\n\n(m) $\\frac{4d^2}{2d}$\n\n(n) $\\frac{ab^2}{2ab}$\n\n(o) $\\frac{4ab^2}{6a^2b}$\n\n3. Simplify if possible:\n\n(a) $\\frac{2t}{2}$\n\n(b) $\\frac{2 + t}{2}$\n\n(c) $\\frac{xy}{x}$\n\n(d) $\\frac{x + y}{x}$\n\n(e) $\\frac{x + y}{y}$",
+      "source_images": ["image254.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "(f) $\\frac{ac}{bc}$\n\n(g) $\\frac{a + c}{b + c}$\n\n(h) $\\frac{2a^2}{4a}$\n\n(i) $\\frac{2 + a^2}{4a}$\n\n(j) $\\frac{(2a)^2}{4a}$\n\n4. Split these expressions into two parts and if possible simplify:\n\nFor example, $\\frac{x + 4}{2} = \\frac{x}{2} + \\frac{4}{2} = \\frac{x}{2} + 2$.\n\n(a) $\\frac{a + 4}{2}$\n\n(b) $\\frac{2a + 4}{2}$\n\n(c) $\\frac{2x + 3}{2}$\n\n(d) $\\frac{2x + 8}{2}$\n\n(e) $\\frac{4x + 3}{2}$\n\n(f) $\\frac{2x^2 + 4x}{2}$\n\n(g) $\\frac{2x^2 + 4x}{4}$\n\n(h) $\\frac{x^2 - 6x}{x^2}$\n\n(i) $\\frac{x^2 - 6x}{x}$\n\n(j) $\\frac{x^2 - 6x}{6}$",
+      "source_images": ["image255.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. Simplify:\n\n(a) $\\frac{(2a)^2}{a^2}$\n\n(b) $\\frac{(4n)^2}{8n}$\n\n(c) $\\frac{(-a)^2}{a}$\n\n(d) $\\frac{a^2}{(-a)^2}$\n\n(e) $\\frac{(-2a)^2}{4}$\n\n(f) $\\frac{(-3n)^2}{6n}$\n\n(g) $\\frac{(x + y)^2}{x + y}$\n\n(h) $\\frac{2(x + 2)}{(x + 2)^2}$\n\n6. Simplify:\n\n(a) $\\frac{2(a + 3)}{2}$\n\n(b) $\\frac{4(x + 2)}{2}$\n\n(c) $\\frac{6(c + 3)}{3}$\n\n(d) $\\frac{2(d - 3)}{6}$\n\n(e) $\\frac{4}{2(x + 1)}$\n\n(f) $\\frac{12}{4(2 - x)}$\n\n(g) $\\frac{3(x + 4)}{9(x + 4)}$\n\n(h) $\\frac{12(a - 3)}{6(a - 3)}$\n\n(i) $\\frac{(x + y)(x - y)}{3(x - y)}$\n\n(j) $\\frac{2xy(x - y)}{6x(x - y)}$\n\n(k) $\\frac{5(y + 2)(y - 3)}{15(y + 2)}$\n\n(l) $\\frac{x(x + 1)(x + 2)}{3x(x + 2)}$",
+      "source_images": ["image256.png", "image257.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. Simplify if possible:\n\n(a) $\\frac{3(x + 2)}{6}$\n\n(b) $\\frac{6(x + 2)}{3}$\n\n(c) $\\frac{x + 6}{3}$\n\n(d) $\\frac{x - 4}{2}$\n\n(e) $\\frac{2(x - 1)}{4(x + 1)}$\n\n(f) $\\frac{2x + 5}{10}$\n\n(g) $\\frac{2x + 6}{10}$\n\n(h) $\\frac{3}{3a + 9}$",
+      "source_images": ["image258.png", "image259.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "FACTORISATION AND SIMPLIFICATION\n\nIt is often necessary to factorise either the numerator or denominator before simplification can be done. To do this we use the rules for factorisation that we have seen previously.",
+      "source_images": ["image260.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 6\n\nSimplify:\n\n(a) $\\frac{3a + 9}{3}$\n\n(b) $\\frac{4a + 12}{8}$\n\nAnswer\n\n(a) $\\frac{3a + 9}{3} = \\frac{3(a + 3)}{3} = a + 3$\n\n(b) $\\frac{4a + 12}{8} = \\frac{4(a + 3)}{8} = \\frac{a + 3}{2}$",
+      "source_images": ["image261.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 7\n\nSimplify by factorising:\n\n(a) $\\frac{ab + ac}{b + c}$\n\n(b) $\\frac{6x^2 - 6xy}{3x - 3y}$\n\nAnswer\n\n(a) $\\frac{ab + ac}{b + c} = \\frac{a(b + c)}{b + c} = a$ {remove HCF $a$ from numerator}\n\n(b) $\\frac{6x^2 - 6xy}{3x - 3y} = \\frac{6x(x - y)}{3(x - y)}$ {HCF is $6x$, HCF is $3$}\n\n$= \\frac{6 \\times x \\times (x - y)}{3 \\times (x - y)} = 2x$",
+      "source_images": ["image262.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "$b - a = -1(a - b)$ is a useful rule for converting $b - a$ into $a - b$. It can sometimes allow us to cancel common factors.",
+      "source_images": ["image263.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 8\n\nSimplify, if possible:\n\n(a) $\\frac{6a - 6b}{b - a}$\n\n(b) $\\frac{xy^2 - xy}{1 - y}$\n\nAnswer\n\n(a) $\\frac{6a - 6b}{b - a} = \\frac{6(a - b)}{-1(a - b)} = -6$\n\n(b) $\\frac{xy^2 - xy}{1 - y} = \\frac{xy(y - 1)}{-1(y - 1)} = -xy$",
+      "source_images": ["image264.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 9\n\nSimplify: $\\frac{x^2 - 1}{x^2 + 3x + 2}$\n\nAnswer\n\n$\\frac{x^2 - 1}{x^2 + 3x + 2} = \\frac{(x - 1)(x + 1)}{(x + 2)(x + 1)} = \\frac{x - 1}{x + 2}$",
+      "source_images": ["image265.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 21B.2\n\n1. Simplifying by removing common factors:\n\n(a) $\\frac{4}{2(x + 1)}$\n\n(b) $\\frac{12}{4(2 - x)}$\n\n(c) $\\frac{2x + 4}{2}$\n\n(d) $\\frac{3x + 6}{3}$\n\n(e) $\\frac{3x + 6}{6}$\n\n(f) $\\frac{4x + 20}{8}$\n\n(g) $\\frac{4y + 12}{12}$\n\n(h) $\\frac{ax + bx}{x}$\n\n(i) $\\frac{ax + bx}{cx + dx}$\n\n(j) $\\frac{(a + 2)^2}{2(a + 2)}$\n\n(k) $\\frac{3(b - 4)}{6(b - 4)^2}$\n\n(l) $\\frac{8(p + q)^2}{12(p + q)}$\n\n2. Simplify by factorising:\n\n(a) $\\frac{3x + 6}{4x + 8}$\n\n(b) $\\frac{ax + bx}{2x}$\n\n(c) $\\frac{ax + bx}{a + b}$\n\n(d) $\\frac{x}{ax + bx}$\n\n(e) $\\frac{a + b}{ay + by}$\n\n(f) $\\frac{ax + bx}{ay + by}$\n\n(g) $\\frac{4x^2 + 8x}{x + 2}$\n\n(h) $\\frac{3x^2 + 9x}{x + 3}$",
+      "source_images": ["image266.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Simplify, if possible:\n\n(a) $\\frac{2x - 2y}{y - x}$\n\n(b) $\\frac{3x - 3y}{2y - 2x}$\n\n(c) $\\frac{m + n}{n - m}$\n\n(d) $\\frac{m - n}{n - m}$\n\n(e) $\\frac{r - 2s}{4s - 2r}$\n\n(f) $\\frac{3r - 6s}{2s - r}$\n\n(g) $\\frac{2x - 2}{x - x^2}$\n\n(h) $\\frac{ab^2 - ab}{2 - 2b}$\n\n(i) $\\frac{4x^2 - 4x}{2 - 2x}$\n\n(j) $\\frac{4x + 6}{2}$\n\n(k) $\\frac{4x + 6}{3}$\n\n(l) $\\frac{4x + 6}{4}$\n\n(m) $\\frac{4x + 6}{5}$\n\n(n) $\\frac{4x + 6}{6}$\n\n(o) $\\frac{6a + 1}{2}$\n\n(p) $\\frac{3}$\n\n(q) $\\frac{6a + 2}{4}$\n\n(r) $\\frac{3b + 9}{2}$\n\n(s) $\\frac{3b + 9}{6}$\n\n(t) $\\frac{4x - 2}{2 - x}$\n\n4. Simplify:\n\n(a) $\\frac{x^2 - 1}{x - 1}$\n\n(b) $\\frac{x^2 - 1}{x + 1}$\n\n(c) $\\frac{x^2 - 1}{1 - x}$\n\n(d) $\\frac{x + 2}{x^2 - 4}$\n\n(e) $\\frac{a^2 - b^2}{a + b}$\n\n(f) $\\frac{a^2 - b^2}{b - a}$\n\n(g) $\\frac{2x + 2}{x^2 - 1}$\n\n(h) $\\frac{9 - x^2}{3x - x^2}$\n\n(i) $\\frac{3x^2 - 3y^2}{2xy - 2y^2}$\n\n(j) $\\frac{2b^2 - 2a^2}{a^2 - ab}$\n\n(k) $\\frac{4xy - y^2}{16x^2 - y^2}$\n\n(l) $\\frac{4x(x - 4)}{16 - x^2}$",
+      "source_images": ["image267.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. Simplify by factorising and cancelling common factors:\n\n(a) $\\frac{x^2 - x - 2}{x - 2}$\n\n(b) $\\frac{x + 3}{x^2 - 2x - 15}$\n\n(c) $\\frac{2x^2 + 2x}{x^2 - 4x - 5}$\n\n(d) $\\frac{x^2 - 4}{x^2 + 4x + 4}$\n\n(e) $\\frac{x^2 - x - 12}{x^2 - 5x + 4}$\n\n(f) $\\frac{x^2 + 2x + 1}{1 - x^2}$\n\n(g) $\\frac{x^2 - x - 20}{x^2 + 7x + 12}$\n\n(h) $\\frac{2x^2 + 5x + 2}{2x^2 + 7x + 3}$\n\n(i) $\\frac{3x^2 + 7x + 2}{6x^2 - x - 1}$\n\n(j) $\\frac{8x^2 + 2x - 1}{4x^2 - 5x + 1}$\n\n(k) $\\frac{12x^2 - 5x - 3}{6x^2 + 5x + 1}$\n\n(l) $\\frac{15x^2 + 17x - 4}{5x^2 + 9x - 2}$",
+      "source_images": ["image268.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "MULTIPLICATION AND DIVISION\n\n$\\frac{a}{b} \\times \\frac{c}{d} = \\frac{a \\times c}{b \\times d} = \\frac{ac}{bd}$\n\n$\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c} = \\frac{ad}{bc}$",
+      "source_images": ["image269.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Simplify:\n\n(a) $\\frac{3}{m} \\times \\frac{m}{6}$\n\n(b) $\\frac{3}{m} \\times m^2$\n\nAnswer\n\n(a) $\\frac{3}{m} \\times \\frac{m}{6} = \\frac{3 \\times m}{m \\times 6} = \\frac{1}{2}$\n\n(b) $\\frac{3}{m} \\times m^2 = \\frac{3}{m} \\times \\frac{m^2}{1} = \\frac{3m^2}{m} = \\frac{3 \\times m \\times m}{m} = \\frac{3m}{1} = 3m$",
+      "source_images": ["image270.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "DIVISION\n\nStep 1: To divide by a fraction, multiply by its reciprocal.\n\nStep 2: Multiply numerators and multiply denominators.\n\nStep 3: Cancel any common factors.\n\nStep 4: Write in simplest form.\n\nFor example, $\\frac{a}{2} \\div \\frac{b}{4} = \\frac{a}{2} \\times \\frac{4}{b}$ {Step 1}\n\n$= \\frac{a \\times 4}{2 \\times b}$ {Step 2}\n\n$= \\frac{a \\times 4}{2 \\times b}$ {Step 3}\n\n$= \\frac{2a}{b}$ {Step 4}",
+      "source_images": ["image271.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Simplify:\n\n(a) $\\frac{4}{n} \\div \\frac{2}{n^2}$\n\n(b) $\\frac{3}{a} \\div 2$\n\nAnswer\n\n(a) $\\frac{4}{n} \\div \\frac{2}{n^2} = \\frac{4}{n} \\times \\frac{n^2}{2} = \\frac{4 \\times n^2}{n \\times 2} = \\frac{2 \\times 2 \\times n \\times n}{n \\times 2} = 2n$\n\n(b) $\\frac{3}{a} \\div 2 = \\frac{3}{a} \\times \\frac{1}{2} = \\frac{3 \\times 1}{a \\times 2} = \\frac{3}{2a}$",
+      "source_images": ["image272.png"]
+    }
+  ]
+}

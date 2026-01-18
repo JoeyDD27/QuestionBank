@@ -1,0 +1,322 @@
+{
+  "chapter": 13,
+  "part": 2,
+  "images_range": "1296-1358",
+  "items": [
+    {
+      "type": "exercise",
+      "content_latex": "Exercise 21F (continued)\n\n11. Our team scored well in the interschool athletics carnival. Each person was allowed to participate in one running and one jumping event. We gained 8 places in running events. 5 of us gained a place in both running and jumping events, and 14 of us gained exactly one place. In total, how many places were gained by the team?\n\n12. At a certain school there are 90 students studying for their IB diploma. They all study at least one of the subjects Physics, French, or History. 50 are studying Physics, 60 are studying French, and 55 are studying History. 30 students are studying both Physics and French, while 10 students are studying both French and History but not Physics. 20 students are studying all three subjects.\n\n(a) Construct a Venn diagram to illustrate this information.\n\n(b) How many students are studying both Physics and History, but not French?\n\n(c) How many students are studying at least two of the three subjects?\n\n13. In a school of 405 pupils, a survey on sporting activities shows that 251 pupils play tennis, 157 play hockey, and 111 play softball. There are 45 pupils who play both tennis and hockey, 60 who play hockey and softball, and 39 who play tennis and softball. What conclusion may be drawn about the number of students who participate in all three sports?",
+      "source_images": ["image1296.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercise 21F (continued)\n\n1. A group of 15 friends are discussing which foods they like. 10 of them like chocolate, 9 of them like ice cream, and 6 like both these foods.\n\n(a) Place this information on a Venn diagram.\n\n(b) How many people in the group like:\n\n(i) ice cream but not chocolate\n\n(ii) chocolate but not ice cream\n\n(iii) neither food\n\n(iv) chocolate or ice cream?\n\n2. Police conducted a safety check of 80 cars. They found that 15 cars had faulty brakes and 25 cars had faulty tyres. 10 of the cars had both faulty tyres and faulty brakes.\n\n(a) Place this information on a Venn diagram.\n\n(b) How many cars had:\n\n(i) faulty tyres but not faulty brakes\n\n(ii) neither faulty tyres nor faulty brakes\n\n(iii) either faulty tyres or faulty brakes?",
+      "source_images": ["image1297.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. In a class of 24 students, 13 own a bike, 9 own a skateboard, and 5 own both items.\n\n(a) Place this information on a Venn diagram.\n\n(b) How many students in the class own:\n\n(i) a bicycle but not a skateboard\n\n(ii) neither a bicycle nor a skateboard\n\n(iii) a bicycle or a skateboard?",
+      "source_images": ["image1298.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Jane went to the library and borrowed a book which was 40 pages long. Unfortunately her dog ripped 13 of the pages, and a leaking pen stained some of the pages. 6 pages were both ripped and stained, and 22 pages were not damaged at all.\n\n(a) Copy and complete the Venn diagram alongside.\n\n(b) How many of the pages were:\n\n(i) stained\n\n(ii) ripped but not stained\n\n(iii) ripped or stained?",
+      "source_images": ["image1299.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "For any real numbers $a$, $b$, and $c$:\n\n- commutative: $a + b = b + a$ and $ab = ba$\n\n- identity: Identity elements 0 and 1 exist such that $a + 0 = 0 + a = a$ and $a \\times 1 = 1 \\times a = a$.\n\n- associativity: $(a + b) + c = a + (b + c)$ and $(ab)c = a(bc)$\n\n- distributive: $a(b + c) = ab + ac$",
+      "source_images": ["image1300.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "The following are the laws for the algebra of sets under the operations $\\cup$ and $\\cap$:",
+      "source_images": ["image1301.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "For any subsets $A$, $B$, and $C$ of the universal set $U$:\n\n- commutative: $A \\cap B = B \\cap A$ and $A \\cup B = B \\cup A$\n\n- associativity: $A \\cap (B \\cap C) = (A \\cap B) \\cap C$ and $A \\cup (B \\cup C) = (A \\cup B) \\cup C$\n\n- distributive: $A \\cup (B \\cap C) = (A \\cup B) \\cap (A \\cup C)$ and $A \\cap (B \\cup C) = (A \\cap B) \\cup (A \\cap C)$\n\n- identity: $A \\cup \\varnothing = A$ and $A \\cap U = A$\n\n- complement: $A \\cup A' = U$ and $A \\cap A' = \\varnothing$\n\n- domination: $A \\cup U = U$ and $A \\cap \\varnothing = \\varnothing$\n\n- idempotent: $A \\cap A = A$ and $A \\cup A = A$\n\n- DeMorgan's: $(A \\cap B)' = A' \\cup B'$ and $(A \\cup B)' = A' \\cap B'$\n\n- involution: $(A')' = A$",
+      "source_images": ["image1302.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercise 2H\n\n1. With the aid of Venn diagrams, explain why the following laws are valid:\n\n(a) the commutative laws: $A \\cap B = B \\cap A$ and $A \\cup B = B \\cup A$\n\n(b) the idempotent laws: $A \\cap A = A$ and $A \\cup A = A$\n\n(c) the associative laws: $A \\cap (B \\cap C) = (A \\cap B) \\cap C$ and $A \\cup (B \\cup C) = (A \\cup B) \\cup C$\n\n(d) the complement law: $(A')' = A$.\n\n2. Use the laws for the algebra of sets to show that:\n\n(a) $A \\cup (B \\cup A') = U$\n\n(b) $A \\cap (B \\cap A') = \\varnothing$\n\n(c) $A \\cup (B \\cap A') = A \\cup B$\n\n(d) $(A' \\cup B')' = A \\cap B$\n\n(e) $(A \\cup B) \\cap (A' \\cap B') = \\varnothing$\n\n(f) $(A \\cup B) \\cap (C \\cup D) = (A \\cap C) \\cup (A \\cap D) \\cup (B \\cap C) \\cup (B \\cap D)$.",
+      "source_images": ["image1303.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 11\n\nThe Venn diagram shows the injuries sustained by a team of footballers in their careers. Each dot represents one footballer. $K$ represents the footballers who have had an injured knee, and $A$ represents the footballers who have had an injured ankle.\n\n(a) How many footballers are there in the team?\n\n(b) If a footballer from the team is selected at random, find the probability that the footballer has had:\n\n(i) an injured knee\n\n(ii) an injured ankle, but not an injured knee\n\n(iii) either injury\n\n(iv) both injuries.",
+      "source_images": ["image1304.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 11 (Solution)\n\nThe number of elements in each region are:\n\n(a) There are $9 + 4 + 5 + 3 = 21$ footballers in the team.\n\n(b) (i) Of the 21 footballers in the team, $9 + 4 = 13$ have had an injured knee.\n\n$\\therefore$ P(randomly selected player has had an injured knee) $= \\frac{13}{21}$\n\n(ii) 5 players have had an injured ankle but not an injured knee.\n\n$\\therefore$ P(random player has had an injured ankle but not an injured knee) $= \\frac{5}{21}$\n\n(iii) $9 + 4 + 5 = 18$ players have had either an injured knee or an injured ankle.\n\n$\\therefore$ P(randomly selected player has had either injury) $= \\frac{18}{21}$\n\n(iv) 4 players have had both an injured knee and an injured ankle.\n\n$\\therefore$ P(randomly selected player has had both injuries) $= \\frac{4}{21}$.",
+      "source_images": ["image1305.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercise 21G\n\n1. The Venn diagram alongside shows the items collected by members of a collectors club. Each dot represents one member. $B$ represents the members who collect baseball cards, and $C$ represents the members who collect coins.\n\n(a) How many members does the club have?\n\n(b) If a member of the club is chosen at random, find the probability that the member collects:\n\n(i) baseball cards but not coins\n\n(ii) coins\n\n(iii) exactly one of the items.\n\n2. Wen has put 38 photographs into an album. His friends are in 28 of the photos, and his pets are in 15 of the photos. 8 of the photos contain both his friends and his pets.\n\n(a) Place this information on a Venn diagram.\n\n(b) Find the probability that a randomly selected photograph contains:\n\n(i) his friends but not his pets\n\n(ii) either his friends or his pets\n\n(iii) neither his friends nor his pets.\n\n3. A gym has 75 members. 42 members attended the aerobics classes, 24 members attended both the aerobics and weights classes, and 21 members do not attend either class.\n\n(a) Copy and complete the Venn diagram alongside.\n\n(b) Find the probability that a randomly selected gym member attends:\n\n(i) weights classes\n\n(ii) weights classes but not aerobics classes\n\n(iii) aerobics classes but not weights classes.",
+      "source_images": ["image1306.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. 30 students took part in a school concert. 23 students had their mother in the audience, 18 students had their father in the audience, and 15 students had both parents in the audience.\n\n(a) Place this information on a Venn diagram.\n\n(b) Find the probability that a randomly selected student had:\n\n(i) their mother but not their father in the audience\n\n(ii) neither parent in the audience\n\n(iii) exactly one parent in the audience.\n\n5. There are 18 items on a restaurant menu. 6 of these contain peanuts, 7 contain egg, and 2 contain both peanuts and egg.\n\n(a) Place this information on a Venn diagram.\n\n(b) Charles will have an allergic reaction if he eats either peanuts or egg. If he randomly selects an item from the menu to eat, find the probability that he will have an allergic reaction.",
+      "source_images": ["image1307.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Review Set 21A\n\n1. List the elements of the set of all multiples of 6 between 20 and 50.\n\n2. Suppose $P = \\{\\text{factors of 36}\\}$ and $Q = \\{\\text{square numbers less than 20}\\}$.\n\n(a) List the elements of $P$ and $Q$.\n\n(b) Find: (i) $n(P)$ (ii) $n(Q)$.\n\n(c) Is $Q \\subseteq P$?\n\n(d) True or false: (i) $12 \\in P$ (ii) $25 \\in Q$ (iii) $24 \\notin P$?\n\n3. Consider the set of uppercase letters in the English alphabet. Let $A$ be the set of letters which consist of straight edges only. Let $V$ be the set of vowels.\n\n(a) List the elements of:\n\n(i) $A$ (ii) $A'$ (iii) $V$.\n\n(b) Find:\n\n(i) $n(A)$ (ii) $n(A')$ (iii) $A \\cap V$ (iv) $A' \\cap V$.\n\n4. Suppose $S = \\{\\text{multiples of 3 between 8 and 28}\\}$ and $T = \\{\\text{odd numbers between 8 and 28}\\}$.\n\n(a) List the elements of: (i) $S$ (ii) $T$.\n\n(b) Find:\n\n(i) $S \\cap T$ (ii) $S \\cup T$ (iii) $n(S \\cap T)$ (iv) $n(S \\cup T)$.",
+      "source_images": ["image1308.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Review Set 21A (continued)\n\n(c) True or false:\n\n(i) $18 \\in S$ (ii) $25 \\in T$ (iii) $24 \\in S \\cap T$ (iv) $16 \\in S \\cup T$?\n\n5. True or false?\n\nIf $A$ and $B$ are disjoint sets, and $B$ and $C$ are disjoint sets, then $A$ and $C$ are also disjoint sets.\n\n6. Suppose $A = \\{1, 2, 7, 9\\}$, $B = \\{2, 5, 6, 7\\}$, $C = \\{3, 4, 5, 8\\}$, $D = \\{1, 3, 4, 9\\}$, and $E = \\{2, 6, 7, 9\\}$. Which pairs of sets are disjoint?\n\n7. Consider the set of whole numbers from 1 to 9.\nLet $A = \\{\\text{odd numbers between 0 and 10}\\}$ and $B = \\{\\text{prime numbers between 0 and 10}\\}$.\n\n(a) Find: (i) $A \\cup B$ (ii) $A \\cap B$.\n\n(b) Illustrate the sets $A$, $B$ and $U$ on a Venn diagram.\n\n8. On separate Venn diagrams, shade the regions representing:\n\n(a) not in $X$\n\n(b) in $X$ but not in $Y$.\n\n9. 90 students from one school took part in a Mathematics competition and a Science competition. 12 of the students won a prize in the Mathematics competition, and 17 won a prize in the Science competition. 6 students won prizes in both competitions.\n\n(a) Display this information on a Venn diagram.\n\n(b) The students who won a prize all attended an awards presentation. How many students attended the presentation?\n\n10. There are 67 paintings hanging in the local art gallery. 18 of these are self-portraits. 32 are paintings from Europe. 10 of the paintings are self-portraits from Europe.\n\n(a) Display this information on a Venn diagram.\n\n(b) Determine the probability that a randomly selected painting is:\n\n(i) a self-portrait but not European\n\n(ii) neither a self-portrait nor European.",
+      "source_images": ["image1309.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Review Set 21B\n\n1. List the elements of the set of all:\n\n(a) multiples of 7 between 0 and 50\n\n(b) common factors of 50 and 75.\n\n2. For the following sets, determine whether $P \\subseteq Q$:\n\n(a) $P = \\{1, 5, 7\\}$, $Q = \\{1, 3, 5, 6, 7, 8\\}$\n\n(b) $P = \\varnothing$, $Q = \\{e, f, g\\}$\n\n(c) $P = \\{\\#, !, \\diamondsuit\\}$, $Q = \\{@, \\#, =, \\diamondsuit, \\$\\}$",
+      "source_images": ["image1310.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Review Set 21B (continued)\n\n(d) $P = \\{\\text{red, blue, yellow, green}\\}$, $Q = \\{\\text{yellow, red, green, blue}\\}$\n\n(e) $P = \\{\\text{multiples of 4 less than 100}\\}$, $Q = \\{\\text{multiples of 8 less than 100}\\}$.\n\n3. Let $U = \\{1, 2, 3, 4, 5, 6, 7, 8, 9\\}$, $A = \\{2, 9\\}$ and $B = \\{1, 2, 8, 9\\}$.\n\n(a) Find the complement of: (i) $A$ (ii) $B$.\n\n(b) Is $A \\subseteq B$?\n\n(c) Is $B' \\subseteq A'$?\n\n4. Suppose $P = \\{\\text{multiples of 6 less than 40}\\}$ and $Q = \\{\\text{factors of 48}\\}$.\nFind $P \\cap Q$ and $P \\cup Q$.\n\n5. Twins Roger and Stephen are organising a joint birthday party. Each makes a list of people they want to invite to the party.\nLet $R$ be the set of people Roger wants to invite, and $S$ be the set of people Stephen wants to invite.\n\nROGER: Michael, Bradley, Craig, Sally, Alistair, Kylie, Emma, Nigel\n\nSTEPHEN: William, Nigel, Kylie, David, Sam, Craig, Luke\n\n(a) List the elements of $R$ and $S$.\n\n(b) Find $R \\cap S$. What does this set represent?\n\n(c) Find $R \\cup S$ and $n(R \\cup S)$. How many guests will be invited to Roger and Stephen's party?",
+      "source_images": ["image1311.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. Which of the following sets are disjoint?\n\n(a) $A = \\{1, 5, 7, 12\\}$, $B = \\{2, 6, 7, 11, 13\\}$\n\n(b) $A = \\{\\text{multiples of 7 which are less than 50}\\}$, $B = \\{\\text{multiples of 8 which are less than 50}\\}$\n\n(c) $A = \\{\\text{people who own a car}\\}$, $B = \\{\\text{people who own a bicycle}\\}$\n\n(d) $A = \\{\\text{people whose favourite drink is milk}\\}$, $B = \\{\\text{people whose favourite drink is water}\\}$.\n\n7. Let $U = \\{1, 2, 3, 4, 5, 6, 7, 8, 9\\}$. Draw Venn diagrams to illustrate the following sets:\n\n(a) $P = \\{1, 5, 6, 7, 9\\}$, $Q = \\{2, 4, 5, 8, 9\\}$\n\n(b) $P = \\{\\text{multiples of 4 which are less than 10}\\}$, $Q = \\{\\text{even numbers less than 10}\\}$\n\n(c) $P = \\{\\text{multiples of 3 which are less than 10}\\}$, $Q = \\{\\text{factors of 10}\\}$.\n\n8. Describe in words the shaded regions:\n\n(a) [Venn diagram with $F \\cap G$ shaded]\n\n(b) [Venn diagram with $G$ only shaded]",
+      "source_images": ["image1312.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. Of the last 30 days when Maria has driven to work, she has been delayed at a railway crossing on 8 of these days, and been late to work on 13 days. Every time she was delayed at the railway crossing, she was late for work.\n\n(a) Display this information on a Venn diagram.\n\n(b) On how many days did Maria:\n\n(i) arrive late even though she was not delayed at the railway crossing\n\n(ii) get to work on time?\n\n10. 40 people were sunbathing on a beach. 28 people were wearing a hat, 20 people were wearing a hat and sunscreen, and 3 people were wearing neither a hat nor sunscreen.\n\n(a) Place this information on a Venn diagram.\n\n(b) Find the probability that a randomly selected person on the beach was wearing:\n\n(i) a hat but not sunscreen\n\n(ii) sunscreen but not a hat\n\n(iii) sunscreen.",
+      "source_images": ["image1313.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Review Set 5A\n\n1. Consider $A = \\{x \\mid 3 < x \\leqslant 8, x \\in \\mathbb{Z}\\}$.\n\n(a) List the elements of $A$.\n\n(b) Is $3 \\in A$?\n\n(c) Find $n(A)$.\n\n2. Write in set builder notation:\n\n(a) the set of all integers greater than 10\n\n(b) the set of all rationals between $-2$ and 3.",
+      "source_images": ["image1314.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Review Set 5A (continued)\n\n3. If $M = \\{1 \\leqslant x \\leqslant 9, x \\in \\mathbb{Z}^+\\}$, find all subsets of $M$ whose elements when multiplied give a result of 35.\n\n4. If $U = \\{x \\mid -5 \\leqslant x \\leqslant 5, x \\in \\mathbb{Z}\\}$, $A = \\{-2, 0, 1, 3, 5\\}$ and $B = \\{-4, -1, 0, 2, 3, 4\\}$, list the elements of:\n\n(a) $A'$\n\n(b) $A \\cap B$\n\n(c) $A \\cup B$\n\n(d) $A' \\cap B$\n\n(e) $A \\cup B'$\n\n5. [Venn diagram showing sets $R$ and $S$ with elements $a, d, g, h, c, i, f, j, e$]\n\n(a) List the sets:\n\n(i) $R$ (ii) $S$ (iii) $S'$\n\n(iv) $R \\cap S$ (v) $R \\cup S$ (vi) $(R \\cup S)'$\n\n(b) Find $n(R \\cup S)$.\n\n6. In the swimming pool, 4 people can swim butterfly and 11 can swim freestyle. The people who can swim butterfly are a subset of those who can swim freestyle. There are 15 people in the pool in total.\n\n(a) Display this information on a Venn diagram.\n\n(b) Hence, find the number of people who can swim:\n\n(i) freestyle but not butterfly\n\n(ii) neither stroke.\n\n7. [Venn diagram showing sets $A$ and $B$ with elements $b, d, a, c, f, g, e$]\n\n(a) List the members of set:\n\n(i) $U$ (ii) $A$ (iii) $B$\n\n(b) True or false?\n\n(i) $A \\subseteq B$ (ii) $A \\cap B = B$\n\n(iii) $A \\cup B = B$ (iv) $d \\notin A$\n\n8. The numbers in the brackets indicate the number of elements in that region of the Venn diagram.\n\nWhat is the greatest possible value of $n(U)$?",
+      "source_images": ["image1315.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Review Set 5B\n\n1. Consider $B = \\{y \\mid 1 \\leqslant y \\leqslant 7, y \\in \\mathbb{Z}\\}$.\n\n(a) Is $B$ a finite or infinite set?\n\n(b) Find $n(B)$.\n\n2. List all subsets of the set $\\{p, q, r\\}$.",
+      "source_images": ["image1316.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Suppose $U = \\mathbb{Z}^+$, $F = \\{\\text{factors of 36}\\}$ and $M = \\{\\text{multiples of 3 less than 36}\\}$.\n\n(a) List the sets $F$ and $M$.\n\n(b) Is $F \\subseteq M$?\n\n(c) List the sets: (i) $F \\cap M$ (ii) $F \\cup M$\n\n(d) Verify that $n(F \\cup M) = n(F) + n(M) - n(F \\cap M)$.\n\n4. (a) Write in set builder notation: \"$S$ is the set of all rational numbers between 0 and 3.\"\n\n(b) Which of the following numbers belong to $S$?\n\n(i) 3 (ii) $1\\frac{1}{3}$ (iii) $\\frac{2}{0}$ (iv) $1.\\overline{3}$ (v) $\\sqrt{2}$",
+      "source_images": ["image1317.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. (a) Write in set builder notation: \"$S$ is the set of all rational numbers between 0 and 3.\"\n\n(b) Which of the following numbers belong to $S$?\n\n(i) 3 (ii) $1\\frac{1}{3}$ (iii) $\\frac{2}{0}$ (iv) $1.\\overline{3}$ (v) $\\sqrt{2}$\n\n5. Suppose $U = \\{x \\mid -8 < x < 0, x \\in \\mathbb{Z}^-\\}$, $A = \\{-7, -5, -3, -1\\}$ and $B = \\{-6, -4, -2\\}$.\n\n(a) Write in simplest form: (i) $A \\cap B$ (ii) $A \\cup B$ (iii) $A'$\n\n(b) Illustrate $A$, $B$ and $U$ on a Venn diagram.\n\n6. [Venn diagram showing three sets $A$, $B$, $C$ with $A$ inside $B$]\n\n(a) What is the relationship between sets:\n\n(i) $A$ and $B$ (ii) $B$ and $C$ (iii) $A$ and $C$?\n\n(b) Copy and shade on separate Venn diagrams:\n\n(i) $A \\cap B$ (ii) $A \\cup C$\n\n7. At a youth camp, 37 youths participated in at least one of canoeing and archery. If 24 went canoeing and 22 did archery, how many participated in both of these activities?\n\n8. In the Venn diagram shown, $n(U) = 40$, $n(A) = 20$, $n(B) = 17$, and $n(A \\cap B) = \\frac{1}{2}n(A' \\cap B')$.\n\nFind $n(A \\cap B)$.",
+      "source_images": ["image1318.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Review Set 2A\n\n1. Explain why 1.3 is a rational number.\n\n2. Is $\\sqrt{4000} \\in \\mathbb{Q}$?\n\n3. Let $P$ be the set of all prime numbers between 20 and 40.\n\n(a) Is $37 \\in P$?\n\n(b) Find $n(P)$.\n\n4. Write a statement describing the meaning of $S = \\{t \\mid -1 \\leqslant t < 3\\}$.\n\n5. Write using interval notation: [number line showing interval from 0 to 5, open at 0, closed at 5]\n\n6. For each of the following sets $P$ and $Q$, decide whether $P \\subseteq Q$:\n\n(a) $P = \\{5, 6, 7, 8\\}$, $Q = \\{1, 2, 3, 4, 5, 6, 7\\}$\n\n(b) $P = \\{\\text{multiples of 4 between 10 and 30}\\}$, $Q = \\{\\text{even numbers between 0 and 40}\\}$\n\n7. Suppose $U = \\{x \\mid x \\leqslant 10, x \\in \\mathbb{Z}^+\\}$. Find the complement of:\n\n(a) $A = \\{3, 7, 9\\}$\n\n(b) $B = \\{\\text{composite numbers in } U\\}$.\n\n8. Suppose $U = \\{x \\mid x \\leqslant 12, x \\in \\mathbb{Z}^+\\}$ and $A = \\{\\text{multiples of 3} \\leqslant 12\\}$.\n\n(a) Show $A$ on a Venn diagram.\n\n(b) List the set $A'$.\n\n(c) Find $n(A')$.\n\n9. True or false?\n\n(a) $\\mathbb{N} \\subseteq \\mathbb{Z}^+$\n\n(b) $\\mathbb{Q} \\subseteq \\mathbb{Z}$",
+      "source_images": ["image1319.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "10. [Venn diagram showing sets $A$ and $B$ with elements 3, 4, 1, 2, 5, 7, 6]\n\n(a) List the elements of set:\n\n(i) $A$ (ii) $B$ (iii) $U$\n\n(iv) $A \\cup B$ (v) $A \\cap B$\n\n(b) Find:\n\n(i) $n(A)$ (ii) $n(B)$ (iii) $n(A \\cup B)$\n\n11. Consider $U = \\{x \\mid x \\leqslant 10, x \\in \\mathbb{Z}^+\\}$, $P = \\{2, 3, 5, 7\\}$, and $Q = \\{2, 4, 6, 8\\}$.\n\n(a) Show these sets on a Venn diagram.\n\n(b) List the elements of: (i) $P \\cap Q$ (ii) $P \\cup Q$ (iii) $Q'$\n\n(c) Find: (i) $n(P')$ (ii) $n(P \\cap Q)$ (iii) $n(P \\cup Q)$\n\n(d) Is $P \\cap Q \\subseteq P$?\n\n12. Describe in words the shaded region:\n\n(a) [Venn diagram with $X$ only shaded]\n\n(b) [Venn diagram with intersection shaded]\n\n(c) [Venn diagram with complement of union shaded]",
+      "source_images": ["image1320.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "13. How many elements are there in:\n\n(a) $A$\n\n(b) $B$\n\n(c) $A \\cup B$\n\n(d) neither $A$ nor $B$?\n\n[Venn diagram showing $(7)$, $(4)$, $(10)$, $(2)$]\n\n14. 400 families were surveyed. It was found that 90% had a TV set, and 60% had a computer. Every family had at least one of these items. How many families had both a TV set and a computer?",
+      "source_images": ["image1321.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Review Set 2B\n\n1. Is $-2 \\in \\mathbb{Z}^+$?\n\n2. Show that $0.\\overline{51}$ is a rational number.\n\n3. Sketch the number set $\\{x \\mid x \\leqslant 3 \\text{ or } x > 7, x \\in \\mathbb{R}\\}$.\n\n4. For each of the following sets:\n\n(i) list the elements of the set\n\n(ii) determine whether the set is finite or infinite\n\n(iii) if the set is finite, find the number of elements in the set.\n\n(a) $A = \\{\\text{factors of 15}\\}$\n\n(b) $B = \\{\\text{multiples of 8}\\}$\n\n(c) $C = \\{\\text{odd numbers between 30 and 50}\\}$\n\n(d) $D = \\{\\text{prime numbers less than 30}\\}$",
+      "source_images": ["image1322.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. Suppose $P = \\{3, 4, 5, 6, 7, 8, 9, 10, 11\\}$, $Q = \\{4, 9, 10\\}$, and $R = \\{5, 6, 12\\}$.\nDecide whether $Q$ and $R$ are subsets of $P$.",
+      "source_images": ["image1323.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. Suppose $U = \\{x \\mid x \\leqslant 12, x \\in \\mathbb{Z}^+\\}$ and $A = \\{\\text{prime numbers less than 12}\\}$. Find:\n\n(a) $A$\n\n(b) $A'$\n\n(c) $n(A)$\n\n(d) $n(A')$\n\n(e) $n(U)$\n\n7. Illustrate these numbers on a Venn diagram like the one shown.\n\n$-1$, $\\sqrt{2}$, $2$, $3.1$, $\\pi$, $4.\\overline{2}$\n\n[Nested circles showing $\\mathbb{Q}$, $\\mathbb{N}$, $\\mathbb{Z}$]\n\n8. Show this information on a Venn diagram:\n\n(a) $U = \\{10, 11, 12, 13, 14, 15\\}$, $A = \\{10, 12, 14\\}$, $B = \\{11, 12, 13\\}$\n\n(b) $U = \\{\\text{quadrilaterals}\\}$, $S = \\{\\text{squares}\\}$, $R = \\{\\text{rectangles}\\}$\n\n9. If $A$ is the set of all factors of 24 and $B$ is the set of all factors of 18, find:\n\n(a) $A \\cap B$\n\n(b) $A \\cup B$",
+      "source_images": ["image1324.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "10. On separate Venn diagrams like the one shown, shade the region representing:\n\n(a) $B'$\n\n(b) in $A$ and in $B$\n\n(c) $(A \\cup B)'$\n\n[Venn diagram showing overlapping sets $A$ and $B$]\n\n11. [Venn diagram showing three overlapping circles $A$, $B$, $C$]\n\nUsing separate Venn diagrams like the one shown, shade regions to verify that $(A \\cap B) \\cup C = (A \\cup C) \\cap (B \\cup C)$.\n\n12. Given $n(U) = 30$, $n(A) = 14$, $n(B) = 10$, and $n(A \\cap B) = 6$, find:\n\n(a) $n(A \\cup B)$\n\n(b) $n(B$, but not $A)$\n\n13. In a certain town, three newspapers are published. 20% of the population read $A$, 16% read $B$, 14% read $C$, 8% read $A$ and $B$, 5% read $A$ and $C$, 4% read $B$ and $C$, and 2% read all 3 newspapers. What percentage of the population read:\n\n(a) none of the papers\n\n(b) at least one of the papers\n\n(c) exactly one of the papers\n\n(d) either $A$ or $B$\n\n(e) $A$ only?\n\n14. Use the laws for the algebra of sets to show that $A \\cap (B \\cup A') = A \\cap B$.",
+      "source_images": ["image1325.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercise 2A\n\n1. Write using set notation:\n\n(a) 5 is an element of set $D$\n\n(b) 6 is not an element of set $G$\n\n(c) $d$ is not an element of the set of all English vowels\n\n(d) $\\{2, 5\\}$ is a subset of $\\{1, 2, 3, 4, 5, 6\\}$\n\n(e) $\\{3, 8, 6\\}$ is not a subset of $\\{1, 2, 3, 4, 5, 6\\}$.\n\n2. Decide whether each set is finite or infinite:\n\n(a) $\\{\\text{factors of 10}\\}$\n\n(b) $\\{\\text{multiples of 10}\\}$\n\n(c) $\\{\\text{perfect squares}\\}$\n\n3. For each set $A$, list the elements of $A$ and hence state $n(A)$:\n\n(a) $\\{\\text{factors of 8}\\}$\n\n(b) $\\{\\text{composite numbers less than 20}\\}$\n\n(c) $\\{\\text{letters in the word AARDVARK}\\}$\n\n(d) $\\{\\text{months of the year}\\}$\n\n(e) $\\{\\text{prime numbers between 40 and 50}\\}$\n\n4. Let $S = \\{1, 2, 4, 5, 9, 12\\}$ and $T = \\{2, 5, 9\\}$.\n\n(a) Find: (i) $n(S)$ (ii) $n(T)$.\n\n(b) Decide whether the statement is true or false:\n\n(i) $4 \\in S$ (ii) $4 \\in T$ (iii) $1 \\notin T$ (iv) $T \\subseteq S$ (v) $T \\subset S$\n\n5. Let $S = \\{1, 2\\}$ and $T = \\{1, 2, 3\\}$.\n\n(a) List all the subsets of $S$ and $T$.\n\n(b) Is every subset of $S$ a subset of $T$?\n\n(c) What fraction of the subsets of $T$ are also subsets of $S$?\n\n6. State the number of subsets of $\\{p, q, r, s\\}$. Explain your answer.\n\n7. Suppose $A = \\{\\text{prime numbers between 30 and 40}\\}$, $B = \\{\\text{even numbers between 30 and 40}\\}$, $C = \\{\\text{composite numbers between 30 and 40}\\}$, and $D = \\{\\text{multiples of 21 between 30 and 40}\\}$.\n\n(a) List the elements of each set.\n\n(b) Find: (i) $n(A)$ (ii) $n(D)$.\n\n(c) Which of the sets listed are:\n\n(i) subsets of $A$\n\n(ii) proper subsets of $C$?\n\n(d) True or false? (i) $33 \\in C$ (ii) $37 \\notin A$ (iii) $35 \\in B$\n\n8. Consider two sets $A$ and $B$ such that $A \\subseteq B$. Find the possible values of $x$ if $A = \\{2, 4, 6, x\\}$ and $B = \\{2, 3, 5, 6, x+1\\}$.",
+      "source_images": ["image1326.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercise 2B\n\n1. Find (i) $A \\cap B$ (ii) $A \\cup B$ for:\n\n(a) $A = \\{6, 7, 9, 11, 12\\}$ and $B = \\{5, 8, 10, 13, 9\\}$\n\n(b) $A = \\{1, 2, 3, 4\\}$ and $B = \\{5, 6, 7, 8\\}$\n\n(c) $A = \\{1, 3, 5, 7\\}$ and $B = \\{1, 2, 3, 4, 5, 6, 7, 8, 9\\}$\n\n(d) $A = \\{0, 3, 5, 8, 14\\}$ and $B = \\{1, 4, 5, 8, 11, 13\\}$\n\n2. Determine whether the sets are disjoint:\n\n(a) $A = \\{3, 5, 7, 9\\}$ and $B = \\{2, 4, 6, 8\\}$\n\n(b) $P = \\{3, 5, 6, 7, 8, 10\\}$ and $Q = \\{4, 9, 10\\}$",
+      "source_images": ["image1327.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Let $A = \\{\\text{even numbers between 20 and 30}\\}$, $B = \\{\\text{odd numbers between 20 and 30}\\}$, and $C = \\{\\text{composite numbers between 20 and 30}\\}$.\n\n(a) Which pair of sets is disjoint? Justify your answer.\n\n(b) List the elements of $A \\cap C$. Is $A \\subset C$?\n\n(c) Find $n(B \\cup C)$.\n\n4. Determine whether each statement is true or false. Explain your answers.\n\n(a) If $R$ and $S$ are two non-empty sets and $R \\cap S = \\varnothing$ then $R$ and $S$ are disjoint.\n\n(b) For any sets $A$ and $B$, $n(A \\cap B) \\leqslant n(A)$ and $n(A \\cap B) \\leqslant n(B)$.\n\n(c) If $A \\cap B = A \\cup B$ then $A = B$.",
+      "source_images": ["image1328.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercise 2C\n\n1. Let $U = \\{1, 2, 3, 4, 5, 6, 7, 8, 9\\}$.\n\n(a) Find the complement of $A = \\{2, 3, 6, 7, 8\\}$.\n\n(b) If $P = \\{\\text{prime numbers}\\}$, is $P' = \\{\\text{composite numbers}\\}$? Explain your answer.\n\n2. Let $U = \\{\\text{months of the year}\\}$. Find the complement of:\n\n(a) $M = \\{\\text{months starting with J}\\}$\n\n(b) $A = \\{\\text{months containing the letter A}\\}$.\n\n3. Let $U = \\{\\text{whole numbers between 10 and 20 inclusive}\\}$, $A = \\{\\text{factors of 120}\\}$, and $B = \\{\\text{multiples of 3}\\}$.\n\nList the elements of:\n\n(a) $A$ (b) $B$ (c) $A'$ (d) $B'$ (e) $A \\cap B$ (f) $A \\cup B$\n\n(g) $A' \\cap B$ (h) $A' \\cup B$ (i) $A \\cap B'$ (j) $A \\cup B'$ (k) $A' \\cap B'$ (l) $A' \\cup B'$\n\n4. (a) Suppose $U = \\{2, 3, 4, 5, 6, 7, 8\\}$, $A = \\{3, 5, 7\\}$, and $B = \\{2, 4, 7, 8\\}$. Find:\n\n(i) $n(U)$ (ii) $n(A)$ (iii) $n(A')$ (iv) $n(B)$ (v) $n(B')$.\n\n(b) Copy and complete: For any set $S$ within a universal set $U$, $n(S) + n(S') = \\ldots$\n\n5. Suppose $P$ and $Q'$ are subsets of $U$. $n(U) = 15$, $n(P) = 6$, and $n(Q') = 4$. Find:\n\n(a) $n(P')$\n\n(b) $n(Q)$.",
+      "source_images": ["image1329.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercise 2D\n\n1. Copy and complete:\n\n[Table with columns: Number, $\\mathbb{N}$, $\\mathbb{Z}$, $\\mathbb{Q}$, $\\mathbb{R}$]\n\nRows: $6$, $-\\frac{3}{8}$, $1.8$, $1.\\overline{8}$, $-17$, $\\sqrt{64}$, $\\frac{\\pi}{2}$, $\\sqrt{-3}$, $-\\sqrt{3}$",
+      "source_images": ["image1330.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Determine whether each statement is true or false:\n\n(a) $-7 \\in \\mathbb{Z}^+$\n\n(b) $\\frac{2}{3} \\notin \\mathbb{Z}$\n\n(c) $-\\sqrt{4} \\in \\mathbb{Z}$\n\n(d) $\\sqrt{3} \\in \\mathbb{Q}$\n\n(e) $\\frac{7}{9} \\in \\mathbb{Q}$\n\n(f) $0.201 \\in \\mathbb{Z}$\n\n(g) $\\frac{7}{0.31} \\in \\mathbb{Q}$\n\n(h) $\\sqrt{|-1|} \\in \\mathbb{R}$\n\n3. Determine whether each statement is true or false:\n\n(a) $\\mathbb{Z}^+ \\subseteq \\mathbb{N}$\n\n(b) $\\mathbb{N} \\subset \\mathbb{Z}$\n\n(c) $\\mathbb{N} = \\mathbb{Z}^+$\n\n(d) $\\mathbb{Z}^- \\subseteq \\mathbb{Z}$\n\n(e) $\\mathbb{Q} \\subset \\mathbb{Z}$\n\n(f) $\\{0\\} \\subseteq \\mathbb{Z}$\n\n(g) $\\mathbb{Z} \\subseteq \\mathbb{Q}$\n\n(h) $\\mathbb{Z}^+ \\cup \\mathbb{Z}^- = \\mathbb{Z}$\n\n4. Describe the following sets as either finite or infinite:\n\n(a) the set of integers between 10 and 20\n\n(b) the set of integers greater than 5\n\n(c) the set of all rational numbers between 0 and 1.\n\n5. If $U = \\mathbb{Z}$, find the complement of $\\mathbb{Z}^+$.",
+      "source_images": ["image1331.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercise 2E\n\n1. For the following sets:\n\n(i) Write down the meaning of the interval notation.\n\n(ii) If possible, list the elements of $A$.\n\n(iii) Find $n(A)$.\n\n(a) $A = \\{x \\in \\mathbb{Z} \\mid -1 \\leqslant x \\leqslant 7\\}$\n\n(b) $A = \\{x \\in \\mathbb{N} \\mid -2 < x < 8\\}$\n\n(c) $A = \\{x \\mid 0 \\leqslant x \\leqslant 1\\}$\n\n(d) $A = \\{x \\in \\mathbb{Q} \\mid 5 \\leqslant x \\leqslant 6\\}$\n\n2. Represent on a number line:\n\n(a) $\\{x \\in \\mathbb{Z}^+ \\mid x \\leqslant 5\\}$\n\n(b) $\\{x \\in \\mathbb{N} \\mid x < 5\\}$\n\n(c) $\\{x \\in \\mathbb{Z} \\mid -2 < x < 3\\}$\n\n(d) $\\{x \\in \\mathbb{Z}^+ \\mid 3 < x \\leqslant 7\\}$\n\n(e) $\\{x \\in \\mathbb{R} \\mid x \\geqslant 3\\}$\n\n(f) $\\{x \\in \\mathbb{R} \\mid x < 6\\}$\n\n(g) $\\{x \\in \\mathbb{R} \\mid 2 \\leqslant x < 6\\}$\n\n(h) $\\{x \\mid 3.6 \\leqslant x \\leqslant 10.2\\}$\n\n(i) $\\{x \\mid x < 3\\} \\cup \\{x \\mid x > 6\\}$\n\n(j) $\\{x \\mid x \\leqslant 2\\} \\cup \\{x \\mid x > 4\\}$\n\n(k) $\\{x \\mid x < 3\\} \\cup \\{x \\mid 7 < x < 12\\}$\n\n(l) $\\{x \\in \\mathbb{Z}^+ \\mid x \\leqslant 6\\} \\cup \\{x \\in \\mathbb{Z}^+ \\mid 8 \\leqslant x \\leqslant 11\\}$\n\n3. Write in interval notation:\n\n(a) the set of all integers between $-100$ and 100\n\n(b) the set of all real numbers greater than 1000\n\n(c) the set of all rational numbers between 2 and 3 inclusive.\n\n4. Write in interval notation:\n\n(a) [number line: from 8, arrow to right]\n\n(b) [number line: from $-1$ to 4, dots at integers]\n\n(c) [number line: from $-3$ to 1, arrow to right]\n\n(d) [number line: from $-5$ to 1, arrows]\n\n(e) [number line: up to $\\frac{3}{2}$]\n\n(f) [number line: dots from 0 to 6]\n\n(g) [number line: from $-2$ to 3, arrows]\n\n(h) [number line: from $-2$ to 2]\n\n(i) [number line: from 1 to 6, dots]",
+      "source_images": ["image1332.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. State whether $A \\subseteq B$:\n\n(a) $A = \\varnothing$, $B = \\{2, 5, 7, 9\\}$\n\n(b) $A = \\{2, 5, 8, 9\\}$, $B = \\{8, 9\\}$\n\n(c) $A = \\{x \\in \\mathbb{R} \\mid 2 \\leqslant x \\leqslant 3\\}$, $B = \\{x \\in \\mathbb{R}\\}$\n\n(d) $A = \\{x \\in \\mathbb{Q} \\mid 3 \\leqslant x \\leqslant 9\\}$, $B = \\{x \\in \\mathbb{R} \\mid 0 \\leqslant x \\leqslant 10\\}$\n\n(e) $A = \\{x \\in \\mathbb{Z} \\mid -10 \\leqslant x \\leqslant 10\\}$, $B = \\{z \\in \\mathbb{Z} \\mid 0 \\leqslant z \\leqslant 5\\}$\n\n(f) $A = \\{x \\in \\mathbb{Q} \\mid 0 \\leqslant x \\leqslant 1\\}$, $B = \\{y \\in \\mathbb{Q} \\mid 0 < y \\leqslant 2\\}$",
+      "source_images": ["image1333.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. Find the complement of $C$ given:\n\n(a) $U = \\mathbb{Z}$ and $C = \\{x \\in \\mathbb{Z} \\mid x \\leqslant -5\\}$\n\n(b) $U = \\mathbb{Q}$ and $C = \\{x \\in \\mathbb{Q} \\mid x \\leqslant 2\\} \\cup \\{x \\in \\mathbb{Q} \\mid x \\geqslant 8\\}$\n\n7. Suppose $U = \\{x \\in \\mathbb{Z} \\mid 0 \\leqslant x \\leqslant 8\\}$, $A = \\{x \\in \\mathbb{Z} \\mid 2 \\leqslant x \\leqslant 7\\}$, and $B = \\{x \\in \\mathbb{Z} \\mid 5 \\leqslant x \\leqslant 8\\}$. List the elements of:\n\n(a) $A$\n\n(b) $A'$\n\n(c) $B$\n\n(d) $B'$\n\n(e) $A \\cap B$\n\n(f) $A \\cup B$\n\n(g) $A \\cap B'$",
+      "source_images": ["image1334.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "8. Suppose $U = \\mathbb{Z}^+$, $P = \\{x \\in \\mathbb{Z}^+ \\mid 9 \\leqslant x < 16\\}$, and $Q = \\{2, 4, 5, 11, 12, 15\\}$.\n\n(a) List $P$.\n\n(b) Find $P \\cap Q$.\n\n(c) Find $P \\cup Q$.\n\n(d) Show that $n(P \\cup Q) = n(P) + n(Q) - n(P \\cap Q)$.\n\n9. Suppose $U = \\{x \\in \\mathbb{Z} \\mid 0 \\leqslant x \\leqslant 40\\}$, $P = \\{\\text{factors of 28}\\}$, and $Q = \\{\\text{factors of 40}\\}$.\n\n(a) List $P$ and $Q$.\n\n(b) Find $P \\cap Q$.\n\n(c) Find $P \\cup Q$.\n\n(d) Show that $n(P \\cup Q) = n(P) + n(Q) - n(P \\cap Q)$.\n\n10. Suppose $U = \\{x \\in \\mathbb{Z} \\mid 30 < x < 60\\}$, $M = \\{\\text{multiples of 4 between 30 and 60}\\}$, and $N = \\{\\text{multiples of 6 between 30 and 60}\\}$.\n\n(a) List $M$ and $N$.\n\n(b) Find $M \\cap N$.\n\n(c) Find $M \\cup N$.\n\n(d) Show that $n(M \\cup N) = n(M) + n(N) - n(M \\cap N)$.\n\n11. Suppose $U = \\mathbb{Z}$, $R = \\{x \\in \\mathbb{Z} \\mid -2 \\leqslant x \\leqslant 4\\}$, and $S = \\{x \\in \\mathbb{Z} \\mid 0 \\leqslant x < 7\\}$.\n\n(a) List $R$ and $S$.\n\n(b) Find $R \\cap S$.\n\n(c) Find $R \\cup S$.\n\n(d) Show that $n(R \\cup S) = n(R) + n(S) - n(R \\cap S)$.\n\n12. Suppose $U = \\mathbb{Z}$, $C = \\{y \\in \\mathbb{Z} \\mid -4 \\leqslant y \\leqslant -1\\}$, and $D = \\{y \\in \\mathbb{Z} \\mid -7 \\leqslant y < 0\\}$.\n\n(a) List $C$ and $D$.\n\n(b) Find $C \\cap D$.\n\n(c) Find $C \\cup D$.\n\n(d) Show that $n(C \\cup D) = n(C) + n(D) - n(C \\cap D)$.\n\n13. Suppose $U = \\mathbb{Z}^+$, $P = \\{x \\in \\mathbb{Z} \\mid 5 \\leqslant x \\leqslant 17\\}$, $Q = \\{x \\in \\mathbb{Z} \\mid 10 \\leqslant x \\leqslant 20\\}$, and $R = \\{x \\in \\mathbb{Z} \\mid 15 \\leqslant x \\leqslant 23\\}$.\n\n(a) List the sets $P$, $Q$, and $R$.\n\n(b) Find: (i) $P \\cap Q$ (ii) $P \\cap R$ (iii) $Q \\cap R$\n\n(iv) $P \\cup Q$ (v) $P \\cup R$ (vi) $Q \\cup R$\n\n(c) Find: (i) $P \\cap Q \\cap R$ (ii) $P \\cup Q \\cup R$",
+      "source_images": ["image1335.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "14. Suppose $U = \\{x \\in \\mathbb{Z}^+ \\mid x < 40\\}$, $A = \\{\\text{multiples of 4 less than 40}\\}$, $B = \\{\\text{multiples of 6 less than 40}\\}$, and $C = \\{\\text{multiples of 12 less than 40}\\}$.\n\n(a) List the sets $A$, $B$, and $C$.\n\n(b) Find: (i) $A \\cap B$ (ii) $B \\cap C$ (iii) $A \\cap C$\n\n(iv) $A \\cap B \\cap C$ (v) $A \\cup B \\cup C$\n\n(c) Show that\n$n(A \\cup B \\cup C) = n(A) + n(B) + n(C) - n(A \\cap B) - n(B \\cap C) - n(A \\cap C) + n(A \\cap B \\cap C)$.\n\n15. Suppose $U = \\{x \\in \\mathbb{Z}^+ \\mid x < 31\\}$, $A = \\{\\text{multiples of 6 less than 31}\\}$, $B = \\{\\text{factors of 30}\\}$, and $C = \\{\\text{primes} < 30\\}$.\n\n(a) List the sets $A$, $B$, and $C$.\n\n(b) Find: (i) $A \\cap B$ (ii) $B \\cap C$ (iii) $A \\cap C$\n\n(iv) $A \\cap B \\cap C$ (v) $A \\cup B \\cup C$\n\n(c) Show that\n$n(A \\cup B \\cup C) = n(A) + n(B) + n(C) - n(A \\cap B) - n(B \\cap C) - n(A \\cap C) + n(A \\cap B \\cap C)$.",
+      "source_images": ["image1336.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercise 2F\n\n1. Represent sets $A$ and $B$ on a Venn diagram, given:\n\n(a) $U = \\{2, 3, 4, 5, 6, 7\\}$, $A = \\{2, 4, 6\\}$, and $B = \\{5, 7\\}$\n\n(b) $U = \\{2, 3, 5, 7, 11, 13\\}$, $A = \\{2, 3, 7\\}$, and $B = \\{3, 5, 11\\}$\n\n(c) $U = \\{1, 2, 3, 4, 5, 6, 7\\}$, $A = \\{2, 4, 5, 6\\}$, and $B = \\{1, 4, 6, 7\\}$\n\n(d) $U = \\{1, 3, 4, 5, 7\\}$, $A = \\{3, 4, 5, 7\\}$, and $B = \\{3, 5\\}$\n\n2. Suppose $U = \\{x \\in \\mathbb{Z} \\mid 1 \\leqslant x \\leqslant 10\\}$, $A = \\{\\text{odd numbers} < 10\\}$, and $B = \\{\\text{primes} < 10\\}$.\n\n(a) List sets $A$ and $B$.\n\n(b) Find $A \\cap B$ and $A \\cup B$.\n\n(c) Represent the sets $A$ and $B$ on a Venn diagram.\n\n3. Suppose $U = \\{x \\in \\mathbb{Z} \\mid 1 \\leqslant x \\leqslant 9\\}$, $A = \\{\\text{factors of 6}\\}$, and $B = \\{\\text{factors of 9}\\}$.\n\n(a) List sets $A$ and $B$.\n\n(b) Find $A \\cap B$ and $A \\cup B$.\n\n(c) Represent the sets $A$ and $B$ on a Venn diagram.\n\n4. Suppose $U = \\{\\text{even numbers between 0 and 30}\\}$, $P = \\{\\text{multiples of 4 less than 30}\\}$, and $Q = \\{\\text{multiples of 6 less than 30}\\}$.\n\n(a) List sets $P$ and $Q$.\n\n(b) Find $P \\cap Q$ and $P \\cup Q$.\n\n(c) Represent the sets $P$ and $Q$ on a Venn diagram.\n\n5. Suppose $U = \\{x \\in \\mathbb{Z}^+ \\mid x \\leqslant 30\\}$, $R = \\{\\text{primes less than 30}\\}$, and $S = \\{\\text{composites less than 30}\\}$.\n\n(a) List sets $R$ and $S$.\n\n(b) Find $R \\cap S$ and $R \\cup S$.\n\n(c) Represent the sets $R$ and $S$ on a Venn diagram.",
+      "source_images": ["image1337.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. Suppose $U = \\mathbb{R}$.\nCopy the Venn diagram and label the sets $\\mathbb{Q}$, $\\mathbb{Z}$, and $\\mathbb{N}$.\nShade the region representing $\\mathbb{Q}'$.\nPlace these numbers on the Venn diagram: $7$, $\\frac{1}{5}$, $2.\\overline{8}$, $-\\pi$, $0$, $\\sqrt{7}$, $-2$, $-0.35$.",
+      "source_images": ["image1338.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. Display on a Venn diagram:\n\n(a) $U = \\{\\text{parallelograms}\\}$, $R = \\{\\text{rectangles}\\}$, $S = \\{\\text{squares}\\}$\n\n(b) $U = \\{\\text{polygons}\\}$, $Q = \\{\\text{quadrilaterals}\\}$, $T = \\{\\text{triangles}\\}$.\n\n8. [Venn diagram with elements $a, b, d, e, f, g, h, i, j, c, k$]\n\nList the elements of set:\n\n(a) $A$\n\n(b) $B$\n\n(c) $A'$\n\n(d) $B'$\n\n(e) $A \\cap B$\n\n(f) $A \\cup B$\n\n(g) $(A \\cup B)'$\n\n(h) $A' \\cap B'$\n\n(i) $A' \\cup B'$\n\n9. This Venn diagram consists of three overlapping circles $A$, $B$, and $C$.\n\n[Venn diagram with elements $a, b, c, d, e, f, g, h, i, j, k, l$]\n\n(a) List the letters in set:\n\n(i) $A$ (ii) $B$ (iii) $C$\n\n(iv) $A \\cap B$ (v) $A \\cup B$ (vi) $B \\cap C$\n\n(vii) $A \\cap B \\cap C$ (viii) $A \\cup B \\cup C$\n\n(b) Show that\n$n(A \\cup B \\cup C) = n(A) + n(B) + n(C) - n(A \\cap B) - n(A \\cap C) - n(B \\cap C) + n(A \\cap B \\cap C)$\n\n10. Suppose $U = \\{x \\in \\mathbb{Z}^+ \\mid 40 \\leqslant x \\leqslant 60\\}$, $A = \\{\\text{multiples of 2}\\}$, $B = \\{\\text{multiples of 3}\\}$, and $C = \\{\\text{multiples of 5}\\}$.\n\nDisplay the elements of these sets using a Venn diagram.\n\n11. [Venn diagram showing overlapping sets $A$ and $B$]\n\nOn separate Venn diagrams, shade regions for:\n\n(a) $A$\n\n(b) $A'$\n\n(c) $A \\cap B$\n\n(d) $A \\cap B'$\n\n(e) $A' \\cup B$\n\n(f) $A \\cup B'$\n\n(g) $(A \\cap B)'$\n\n(h) $(A \\cup B)'$",
+      "source_images": ["image1339.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "12. Suppose $A$ and $B$ are two disjoint sets.\nShade on separate Venn diagrams:\n\n(a) $A$\n\n(b) $B$\n\n(c) $A'$\n\n(d) $B'$\n\n(e) $A \\cap B$\n\n(f) $A \\cup B$\n\n(g) $A' \\cap B$\n\n(h) $A \\cup B'$\n\n(i) $(A \\cap B)'$",
+      "source_images": ["image1340.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "13. Suppose $B \\subseteq A$. Shade on separate Venn diagrams:\n\n(a) $A$\n\n(b) $B$\n\n(c) $A'$\n\n(d) $B'$\n\n(e) $A \\cap B$\n\n(f) $A \\cup B$\n\n(g) $A' \\cap B$\n\n(h) $A \\cup B'$\n\n(i) $(A \\cap B)'$",
+      "source_images": ["image1341.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "14. This Venn diagram consists of three intersecting sets.\nShade on separate Venn diagrams:\n\n(a) $A$\n\n(b) $B'$\n\n(c) $B \\cap C$\n\n(d) $A \\cup B$\n\n(e) $A \\cap B \\cap C$\n\n(f) $A \\cup B \\cup C$\n\n(g) $(A \\cap B \\cap C)'$\n\n(h) $(A \\cup B) \\cap C$\n\n(i) $(B \\cap C) \\cup A$\n\n(j) $A' \\cap (B \\cup C)$",
+      "source_images": ["image1342.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercise 2G\n\n1. Use the Venn diagram to find the number of elements in:\n\n[Venn diagram showing $(7)$, $(2)$, $(5)$, $(9)$]\n\n(a) $B$\n\n(b) $A'$\n\n(c) $A \\cup B$\n\n(d) $A$, but not $B$\n\n(e) $B$, but not $A$\n\n(f) neither $A$ nor $B$.\n\n2. Find the number of elements in:\n\n[Venn diagram showing $(8)$, $(6)$, $(3)$, $(2)$]\n\n(a) $X'$\n\n(b) $X \\cap Y$\n\n(c) $X \\cup Y$\n\n(d) $X$, but not $Y$\n\n(e) $Y$, but not $X$\n\n(f) neither $X$ nor $Y$.",
+      "source_images": ["image1343.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Use the Venn diagram to find:\n\n[Venn diagram showing $(a)$, $(b)$, $(c)$, $(d)$]\n\n(a) $n(B)$\n\n(b) $n(A')$\n\n(c) $n(A \\cap B)$\n\n(d) $n(A \\cup B)$\n\n(e) $n((A \\cap B)')$\n\n(f) $n((A \\cup B)')$\n\n4. [Venn diagram showing $(2a)$, $(a)$, $(a+4)$, $(a-5)$]\n\n(a) Use the Venn diagram to find:\n\n(i) $n(P \\cap Q)$\n\n(ii) $n(P)$\n\n(iii) $n(Q)$\n\n(iv) $n(P \\cup Q)$\n\n(v) $n(Q')$\n\n(vi) $n(U)$\n\n(b) Find the value of $a$ if:\n\n(i) $n(U) = 29$\n\n(ii) $n(U) = 31$\n\nComment on your results.\n\n5. Use the Venn diagram to show that:\n\n[Venn diagram showing $(a)$, $(b)$, $(c)$]\n\n(a) $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$\n\n(b) $n(A \\cap B') = n(A) - n(A \\cap B)$\n\n6. Suppose $A$ and $B$ are disjoint sets. Use a Venn diagram to show that $n(A \\cup B) = n(A) + n(B)$.",
+      "source_images": ["image1344.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. Given $n(U) = 26$, $n(A) = 11$, $n(B) = 12$, and $n(A \\cap B) = 8$, find:\n\n(a) $n(A \\cup B)$\n\n(b) $n(B$, but not $A)$\n\n8. Given $n(U) = 32$, $n(M) = 13$, $n(M \\cap N) = 5$, and $n(M \\cup N) = 26$, find:\n\n(a) $n(N)$\n\n(b) $n((M \\cup N)')$",
+      "source_images": ["image1345.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. Given $n(U) = 50$, $n(S) = 30$, $n(R) = 25$, and $n(R \\cup S) = 48$, find:\n\n(a) $n(R \\cap S)$\n\n(b) $n(S$, but not $R)$",
+      "source_images": ["image1346.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercise 2H\n\n1. Pele has 14 cavies as pets. Five have long hair and eight are brown. Two are both brown and have long hair.\n\n(a) Place this information on a Venn diagram.\n\n(b) Hence find the number of cavies that:\n\n(i) do not have long hair\n\n(ii) have long hair and are not brown\n\n(iii) are neither long-haired nor brown.\n\n2. During a 2 week period, Murielle took her umbrella with her on 8 days. It rained on 9 days, and Murielle took her umbrella on five of the days when it rained.\n\n(a) Display this information on a Venn diagram.\n\n(b) Hence find the number of days that:\n\n(i) Murielle did not take her umbrella and it rained\n\n(ii) Murielle did not take her umbrella and it did not rain.",
+      "source_images": ["image1347.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. A badminton club has 31 playing members. 28 play singles and 16 play doubles. How many play both singles and doubles?\n\n4. In a factory, 56 people work on the assembly line. 47 work day shifts and 29 work night shifts. How many work both day shifts and night shifts?\n\n5. There are 38 stalls in a marketplace. 21 stalls sell food, 14 stalls sell craft, and 7 stalls sell neither food nor craft. Find the number of stalls which sell:\n\n(a) both food and craft\n\n(b) food or craft but not both.\n\n6. From the selection of 86 movies on a plane, Sandra has seen 13 and Robert has seen 14. 69 of the movies have been seen by neither. Find the number of movies seen by:\n\n(a) both Sandra and Robert\n\n(b) Robert but not Sandra.",
+      "source_images": ["image1348.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. In a year group of 63 students, 22 study Biology, 26 study Chemistry, and 25 study Physics. 18 study both Physics and Chemistry, 4 study both Biology and Chemistry, and 3 study both Physics and Biology. 1 student studies all three subjects.\n\n(a) Display this information on a Venn diagram.\n\n(b) How many students study:\n\n(i) Biology only\n\n(ii) Physics or Chemistry\n\n(iii) none of Biology, Physics, or Chemistry\n\n(iv) Physics but not Chemistry?\n\n8. 36 students participated in the mid-year adventure trip. 19 students went paragliding, 21 went abseiling, and 16 went white water rafting. 7 went abseiling and rafting, 8 went paragliding and rafting, and 11 went paragliding and abseiling. 5 students did all three activities. Find the number of students who:\n\n(a) went paragliding or abseiling\n\n(b) only went white water rafting\n\n(c) did not participate in any of the activities mentioned\n\n(d) did exactly two of the activities mentioned.",
+      "source_images": ["image1349.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. There are 29 students in the woodwind section of the school orchestra. 11 students can play the flute, 15 can play the clarinet, and 12 can play the saxophone. 4 can play the flute and the saxophone, 4 can play the flute and the clarinet, and 6 can play the clarinet and the saxophone. 3 students can play none of the three instruments.\n\n(a) Display the information on a Venn diagram.\n\n(b) Hence find the number of students in the woodwind section who can play:\n\n(i) all of the instruments mentioned\n\n(ii) only the saxophone\n\n(iii) the saxophone and the clarinet, but not the flute\n\n(iv) exactly one of the clarinet, saxophone, or flute.\n\n10. In a particular region, most farms have livestock and crops. A survey of 21 farms showed that 15 grow crops, 9 have cattle, and 11 have sheep. 4 have sheep and cattle, 7 have cattle and crops, and 8 have sheep and crops. 2 have neither animals nor crops.\n\n(a) Display the information on a Venn diagram.\n\n(b) Hence find the number of farms with:\n\n(i) only crops\n\n(ii) only animals\n\n(iii) exactly one type of animal, and crops.",
+      "source_images": ["image1350.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "11. A survey is conducted regarding the types of cardio equipment used by the 300 members of a fitness club.\n\n134 members use rowers ($R$), 92 use treadmills ($T$), and 144 use spin-bikes ($S$).\n\n23 members use rowers and treadmills only.\n\n28 members use treadmills and spin-bikes only.\n\n41 members use spin-bikes and rowers only.\n\n60 members do not use any type of cardio equipment.\n\n(a) Display the information on a Venn diagram.\n\n(b) Determine the number of fitness club members who:\n\n(i) use all three types of cardio equipment\n\n(ii) use exactly two of the three types of cardio equipment.\n\n(c) What percentage of the fitness club members use rowers, but do not use treadmills?\n\n12. Answer the Opening Problem parts (a) to (c) on page 40. Discuss part (d) with your class.",
+      "source_images": ["image1351.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Review Set 2A\n\n1. Let $A$ be the set of letters in the word VENN and $B$ be the set of letters in the word DIAGRAM.\n\n(a) List the elements of $A$ and $B$.\n\n(b) Find $n(A)$ and $n(B)$.\n\n(c) Find $A \\cap B$ and comment on your answer.\n\n(d) Decide whether the statement is true or false:\n\n(i) V $\\notin A$\n\n(ii) G $\\in B$\n\n(iii) $n(A \\cup B) = n(A) + n(B)$\n\n2. If $U = \\{\\text{multiples of 6 less than 70}\\}$ and $A = \\{6, 6^2, 66\\}$, find $A'$.\n\n3. Decide whether each statement is true or false:\n\n(a) $\\mathbb{N} \\subset \\mathbb{Q}$\n\n(b) $0 \\in \\mathbb{Z}^+$\n\n(c) $0 \\in \\mathbb{Q}$\n\n(d) $\\mathbb{R} \\subseteq \\mathbb{Q}$",
+      "source_images": ["image1352.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Represent on a number line:\n\n(a) $\\{x \\in \\mathbb{N} \\mid x \\leqslant 6\\}$\n\n(b) $\\{x \\in \\mathbb{R} \\mid -3 \\leqslant x < 2\\}$\n\n(c) $\\{x \\mid 0 \\leqslant x \\leqslant 4\\} \\cup \\{x \\mid x \\geqslant 10\\}$",
+      "source_images": ["image1353.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. Let $U = \\{x \\in \\mathbb{Z}^+ \\mid x \\leqslant 30\\}$, $P = \\{\\text{factors of 24}\\}$, and $Q = \\{\\text{factors of 30}\\}$.\n\n(a) List the elements of:\n\n(i) $P$ (ii) $Q$ (iii) $P \\cap Q$ (iv) $P \\cup Q$\n\n(b) Show that $n(P \\cup Q) = n(P) + n(Q) - n(P \\cap Q)$.\n\n6. Let $U = \\{\\text{the letters in the English alphabet}\\}$, $A = \\{\\text{the letters in \"springbok\"}\\}$, and $B = \\{\\text{the letters in \"waterbuck\"}\\}$.\n\n(a) Describe each of these sets, and list their elements:\n\n(i) $A \\cup B$ (ii) $A \\cap B$ (iii) $A \\cap B'$\n\n(b) Show $U$, $A$, and $B$ on a Venn diagram.\n\n7. On separate Venn diagrams like the one alongside, shade:\n\n(a) $N'$\n\n(b) $M \\cap N$\n\n(c) $M \\cap N'$\n\n[Venn diagram showing $M$ contains $N$]\n\n8. [Venn diagram with shaded regions showing $A$, $B$, $C$]\n\nWrite an expression for the region shaded in:\n\n(a) blue\n\n(b) red.\n\n9. Consider the sets $U = \\{x \\in \\mathbb{Z}^+, x \\leqslant 10\\}$, $P = \\{\\text{odd numbers less than 10}\\}$, and $Q = \\{\\text{even numbers less than 11}\\}$.\n\n(a) List the sets $P$ and $Q$.\n\n(b) What can be said about sets $P$ and $Q$?\n\n(c) Illustrate sets $P$ and $Q$ on a Venn diagram.\n\n10. The racquet sports offered at a local club are tennis ($T$), badminton ($B$), and squash ($S$). The Venn diagram shows the number of members involved in these activities. All of the members play at least one racquet sport.\n\n[Venn diagram showing $(15)$, $(7)$, $(8)$, $(4)$, $(5)$, $(6)$, $(11)$]\n\n(a) Write down the number of members in the club.\n\n(b) Write down the number of members who:\n\n(i) only play badminton\n\n(ii) do not play tennis\n\n(iii) play both tennis and squash, but not badminton.\n\n(c) Copy the diagram above, and shade the region that represents $S \\cap (T \\cup B)$.\n\n(d) Write down the number of members in $S \\cap (T \\cup B)'$.",
+      "source_images": ["image1354.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "11. A school has 564 students. During Term 1, 229 of them were absent for at least one day due to sickness, and 111 students missed some school because of family holidays. 296 students attended every day of Term 1.\n\n(a) Display this information on a Venn diagram.\n\n(b) Find how many students:\n\n(i) missed school for both illness and holidays\n\n(ii) were away for holidays but not sickness\n\n(iii) were absent during Term 1 for any reason.",
+      "source_images": ["image1355.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "12. The main courses at a restaurant all contain rice or onion. Of the 23 choices, 17 contain onion and 14 contain rice. How many dishes contain both rice and onion?\n\n13. 38 students were asked what life skills they had. 15 could swim, 12 could drive, and 23 could cook. 9 could cook and swim, 5 could swim and drive, and 6 could drive and cook. There was 1 student who could do all three. Find the number of students who:\n\n(a) could only cook\n\n(b) could not do any of these things\n\n(c) had exactly two of these life skills.\n\nReview Set 2B\n\n1. List the subsets of $\\{1, 3, 5\\}$.\n\n2. $S$ and $T$ are disjoint sets. $n(S) = s$ and $n(T) = t$. Find:\n\n(a) $S \\cap T$\n\n(b) $n(S \\cup T)$\n\n3. Write in interval notation:\n\n(a) the real numbers between 5 and 12\n\n(b) the integers between $-4$ and 7, including $-4$\n\n(c) the natural numbers greater than 45.\n\nState whether each set is finite or infinite.\n\n4. Write in interval notation:\n\n(a) [number line: open at 2, closed at 5]\n\n(b) [number line: dots from 4 to 9]\n\n(c) [number line: from $-3$ to 1, arrow to right]\n\n5. Let $S = \\{x \\in \\mathbb{Z} \\mid 2 < x \\leqslant 7\\}$.\n\n(a) List the elements of $S$.\n\n(b) Display $S$ on a number line.\n\n(c) Find $n(S)$.\n\n6. Determine whether $A \\subseteq B$:\n\n(a) $A = \\{2, 4, 6, 8\\}$ and $B = \\{x \\in \\mathbb{Z} \\mid 0 < x < 10\\}$\n\n(b) $A = \\varnothing$ and $B = \\{x \\mid 2 < x < 3\\}$\n\n(c) $A = \\{x \\in \\mathbb{Q} \\mid 2 < x \\leqslant 4\\}$ and $B = \\{x \\in \\mathbb{R} \\mid 0 \\leqslant x < 4\\}$\n\n(d) $A = \\{x \\mid x < 3\\}$ and $B = \\{x \\mid x \\leqslant 4\\}$\n\n7. Find the complement of $X$ given that:\n\n(a) $U = \\{\\text{the 7 colours of the rainbow}\\}$ and $X = \\{\\text{red, indigo, violet}\\}$\n\n(b) $U = \\{x \\in \\mathbb{Z} \\mid -5 \\leqslant x \\leqslant 5\\}$ and $X = \\{-4, -1, 3, 4\\}$\n\n(c) $U = \\{x \\in \\mathbb{Q}\\}$ and $X = \\{x \\in \\mathbb{Q} \\mid x < -8\\}$",
+      "source_images": ["image1356.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "8. Let $U = \\{x \\in \\mathbb{Z} \\mid 0 < x < 10\\}$, $A = \\{\\text{the even integers between 0 and 9}\\}$, and $B = \\{\\text{the factors of 8}\\}$.\n\n(a) List the elements of: (i) $A$ (ii) $A \\cap B$ (iii) $(A \\cup B)'$\n\n(b) Represent this information on a Venn diagram.",
+      "source_images": ["image1357.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. Consider the sets $U = \\{x \\in \\mathbb{Z}^+ \\mid x \\leqslant 40\\}$, $A = \\{\\text{factors of 40}\\}$, and $B = \\{\\text{factors of 20}\\}$.\n\n(a) List the sets $A$ and $B$.\n\n(b) What can be said about sets $A$ and $B$?\n\n(c) Illustrate sets $A$ and $B$ on a Venn diagram.\n\n10. Consider $P = \\{x \\in \\mathbb{Z} \\mid 3 \\leqslant x < 10\\}$, $Q = \\{2, 9, 15\\}$, and $R = \\{\\text{multiples of 3 less than 12}\\}$.\n\n(a) List the elements of $P$.\n\n(b) Write down $n(P)$.\n\n(c) State whether $P$ is finite or infinite.\n\n(d) Explain why: (i) $Q \\not\\subset P$ (ii) $R \\subset P$\n\n(e) List the elements of: (i) $P \\cap Q$ (ii) $R \\cap Q$ (iii) $R \\cup Q$\n\n11. On Venn diagrams like the one shown, shade the regions which are described by:\n\n[Venn diagram showing three circles $A$, $B$, $C$]\n\n(a) $(A \\cup B)' \\cap C$\n\n(b) $C' \\cap B$\n\n(c) $B' \\cap (A \\cap C)$.\n\n12. In a car club, 13 members drive a manual car and 15 members have a car with a sunroof. 5 have manual cars with a sunroof, and 4 have neither.\n\n(a) Display this information on a Venn diagram.\n\n(b) How many members:\n\n(i) are in the club\n\n(ii) drive a manual car without a sunroof\n\n(iii) do not drive a manual car?\n\n13. All of the 30 students on a camp left something at home. 11 forgot to bring their towel. 23 forgot their hat. How many had neither a hat nor a towel?\n\n14. At a conference, the 58 delegates speak many different languages. 28 speak Arabic, 27 speak Chinese, and 39 speak English. 12 speak Arabic and Chinese, 16 speak both Chinese and English, and 17 speak Arabic and English. 2 speak all three languages. How many delegates speak:\n\n(a) Chinese only\n\n(b) none of these languages\n\n(c) neither Arabic nor Chinese?",
+      "source_images": ["image1358.png"]
+    }
+  ]
+}

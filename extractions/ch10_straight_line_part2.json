@@ -1,0 +1,237 @@
+{
+  "chapter": 10,
+  "part": 2,
+  "images_range": "931-976",
+  "items": [
+    {
+      "type": "concept",
+      "content_latex": "If $d = 0$ then the graph passes through the origin. In this case we plot $y = -\\frac{a}{b}x$ using its gradient.",
+      "source_images": ["image931.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 7\n\nDraw the graph of:\n\n(a) $y = -\\frac{1}{3}x + 2$\n\n(b) $2x - 4y = 12$\n\nSolutions:\n\n(a) For $y = -\\frac{1}{3}x + 2$:\n\n- the $y$-intercept is $c = 2$\n- the gradient is $m = \\frac{-1}{3}$ where $-1$ is the $y$-step and $3$ is the $x$-step\n\nIn part (a), we choose a positive $x$-step.\n\n(b) When $x = 0$, $-4y = 12$\n$\\therefore y = -3$\n\nSo, the $y$-intercept is $-3$.\n\nWhen $y = 0$, $2x = 12$\n$\\therefore x = 6$\n\nSo, the $x$-intercept is $6$.",
+      "source_images": ["image932.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 8.15: In this problem, we find an equation of a line given two points on the line. Suppose the line passes through $(0, 4)$ and $(5, -3)$.\n\n(a) Find the slope of this line.\n\n(b) Let $(x, y)$ be a point on the line other than $(0, 4)$. Write an equation by considering the slope between this point and $(0, 4)$.\n\n(c) Rearrange the equation you found in the previous part to the form $Ax + By = C$, where $A$, $B$, and $C$ are integers and $A > 0$.",
+      "source_images": ["image933.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Solution for Problem 8.15: We know how to find the equation of a line given its slope and a point on the line, so we find the slope:\n\n$m = \\frac{-3 - 4}{5 - 0} = -\\frac{7}{5}$.\n\nAs before, if $(x, y)$ is on this line and $(x, y)$ is not $(0, 4)$, then the slope between $(x, y)$ and $(0, 4)$ must be $-7/5$. So, we have\n\n$\\frac{y - 4}{x - 0} = -\\frac{7}{5}$.\n\nMultiplying both sides by $5x$ gives $5(y - 4) = -7x$, and rearranging gives $7x + 5y = 20$. $\\square$",
+      "source_images": ["image934.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Problem 8.16: Find the equation of each line described below.\n\n(a) The line through $(4, 2)$ with slope $-3$.\n\n(b) The line through $(4, 1)$ and $(-7, 2)$.\n\n(c) The line through $(\\frac{1}{2}, 3)$ with slope $\\frac{3}{2}$.",
+      "source_images": ["image935.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Solutions:\n\n(a) The equation of the line is\n\n$\\frac{y - 2}{x - 4} = -3$.\n\nRearranging this gives $3x + y = 14$.\n\n(b) If $(x, y)$ is on the line, the slope between it and $(4, 1)$ is the same as the slope between the two given points, so we can compute the slope and set up the equation in one step:\n\n$\\frac{y - 1}{x - 4} = \\frac{2 - 1}{-7 - 4}$.\n\nSimplifying the right side gives $(y - 1)/(x - 4) = -1/11$. Rearranging this yields $x + 11y = 15$. We can check this answer quickly by making sure that the point $(x, y) = (4, 1)$ satisfies the equation: $4 + 11(1) = 15$.\n\n(c) The equation of the line is\n\n$\\frac{y - 3}{x - \\frac{1}{2}} = \\frac{3}{2}$.\n\nMultiplying this by $2(x - \\frac{1}{2})$ gives $2(y - 3) = 3(x - \\frac{1}{2})$. Rearranging this gives $3x - 2y = -\\frac{9}{2}$. We multiply this by 2 to put it in standard form: $6x - 4y = -9$.",
+      "source_images": ["image936.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "8.4.1 Find the equation, in standard form, of the line that passes through $(-2, 4)$ and $(1, -2)$.\n\n8.4.2 Find the equation, in standard form, of the line that passes through $(0, 5)$ and has slope $-3$.\n\n8.4.3 Find the equation, in standard form, of the line that passes through $(2, 7)$ and has slope $1/4$.\n\n8.4.4 Consider those points having coordinates of the form $(2t + 3, 3t)$ for some real number $t$.\n\n(a) Plot several of these points.\n\n(b)$\\star$ Explain why the graph consisting of all the points of the form $(2t + 3, 3t)$ is a line. Hints: 144\n\n(c) Find the slope of this line and the equation of the line in standard form.\n\n8.4.5 Let $A$ be $(5, 9)$, $B$ be $(-3, -5)$, and $C$ be $(1, 1)$. The median of a triangle connects a vertex of a triangle to the midpoint of the opposite side. For example, the median of triangle $ABC$ from vertex $A$ connects $A$ to the midpoint of $\\overline{BC}$.\n\n(a) Find an equation describing the line that contains the median from $A$ to the midpoint of $\\overline{BC}$.\n\n(b) Find an equation describing the line that contains the median from $B$ to the midpoint of $\\overline{AC}$.\n\n(c) What point $(x, y)$ is on both of the lines you found in parts (a) and (b)?\n\n(d) Is the point from part (c) on the median from $C$ to the midpoint of $\\overline{AB}$?",
+      "source_images": ["image937.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 1B\n\n1. Draw the graph of:\n\n(a) $y = \\frac{1}{2}x + 1$\n(b) $y = 3x - 2$\n(c) $y = -\\frac{3}{2}x + 4$\n(d) $y = -2x + 5$\n(e) $y = \\frac{3}{4}x - 1$\n(f) $y = -4x$\n(g) $y = -x + 4$\n(h) $y = \\frac{6}{5}x - 3$\n(i) $y = -\\frac{5}{3}x - 1$\n\nCheck your answers using technology.\n\n2. Draw the graph of:\n\n(a) $3x + 2y = 12$\n(b) $x + 3y = 6$\n(c) $2x - 5y = 10$\n(d) $4x - y = 8$\n(e) $5x + 8y = 40$\n(f) $3x - 4y = -24$\n(g) $2x + 5y = 15$\n(h) $6x + 4y = -36$\n(i) $7x + 4y = 42$\n\n3. Consider the line with equation $y = -\\frac{3}{4}x + 2$.\n\n(a) Find the gradient and $y$-intercept of the line.\n\n(b) Determine whether the following points lie on the line:\n(i) $(8, -4)$\n(ii) $(1, 3)$\n(iii) $(-2, \\frac{7}{2})$\n\n(c) Draw the graph of the line, showing your results from (a) and (b).\n\n4. Consider the line with equation $2x - 3y = 18$.\n\n(a) Find the axes intercepts of the line.\n\n(b) Determine whether the following points lie on the line: (i) $(3, -4)$ (ii) $(7, -2)$\n\n(c) Find $c$ such that $(-3, c)$ lies on the line.\n\n(d) Draw the graph of the line, showing your results from (a), (b), and (c).",
+      "source_images": ["image938.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. The cost of hiring a trailer for $t$ hours is $C = 5t + 10$ dollars.\n\n(a) Find the cost of hiring a trailer for 4 hours.\n\n(b) Draw the graph of $C$ against $t$. Mark a point on your graph to indicate your answer to (a).\n\n6. At a sushi restaurant, nigiri costs $\\$4.50$ per serve and sashimi costs $\\$9.00$ per serve. Hiroko spent a total of $\\$45$ buying $x$ serves of nigiri and $y$ serves of sashimi.\n\n(a) Explain why $4.5x + 9y = 45$.\n\n(b) If Hiroko bought 4 serves of nigiri, how much sashimi did she buy?\n\n(c) If Hiroko bought 1 serve of sashimi, how much nigiri did she buy?\n\n(d) Draw the graph of $4.5x + 9y = 45$. Mark two points on your graph to indicate your answers to (b) and (c).",
+      "source_images": ["image939.png"]
+    },
+    {
+      "type": "definition",
+      "content_latex": "The perpendicular bisector of a line segment [AB] is the line perpendicular to [AB] which passes through its midpoint.\n\nNotice that:\n\n- Points on the perpendicular bisector are equidistant from A and B.\n- The perpendicular bisector divides the number plane into two regions. On one side of the line are points that are closer to A than to B, and on the other side are points that are closer to B than to A.",
+      "source_images": ["image940.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Given $A(4, -3)$ and $B(-2, 7)$, find the equation of the perpendicular bisector of [AB].\n\nSolution:\n\nThe midpoint M of [AB] is $\\left(\\frac{4 + -2}{2}, \\frac{-3 + 7}{2}\\right)$ or $(1, 2)$.\n\nThe gradient of [AB] is $\\frac{7 - (-3)}{-2 - 4} = \\frac{10}{-6} = -\\frac{5}{3}$.\n\n$\\therefore$ the gradient of the perpendicular bisector is $\\frac{3}{5}$.\n\n$\\therefore$ the equation of the perpendicular bisector is $3x - 5y = 3(1) - 5(2)$\n\nwhich is $3x - 5y = -7$.",
+      "source_images": ["image941.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 1C\n\n1. Consider the points $A(3, 1)$ and $B(5, 7)$.\n\n(a) Find the midpoint of [AB].\n(b) Find the gradient of [AB].\n(c) Hence state the gradient of the perpendicular bisector.\n(d) Find the equation of the perpendicular bisector.\n\n2. Find the equation of the perpendicular bisector of:\n\n(a) $A(5, 2)$ and $B(1, 4)$\n(b) $A(-1, 5)$ and $B(5, 3)$\n(c) $M(6, -3)$ and $N(2, 1)$\n(d) $M(7, 2)$ and $N(-1, 6)$\n(e) $O(0, 0)$ and $P(9, 0)$\n(f) $A(3, 6)$ and $B(-1, 3)$.\n\n3. Suppose P is $(6, -1)$ and Q is $(2, 5)$.\n\n(a) Find the equation of the perpendicular bisector of [PQ].\n\n(b) Show that $R(1, 0)$ lies on the perpendicular bisector.\n\n(c) Show that R is equidistant from P and Q.\n\n4. Consider the quadrilateral ABCD.\n\n(a) Use side lengths to show that ABCD is a rhombus.\n\n(b) Find the equation of the perpendicular bisector of [AC].\n\n(c) Show that B and D both lie on this perpendicular bisector.\n\n[Figure shows quadrilateral with vertices $A(-4, -3)$, $B(-2, 2)$, $C(3, 4)$, $D(1, -1)$]\n\n5. A line segment has equation $3x - 2y + 1 = 0$. Its midpoint is $(3, 5)$.\n\n(a) State the gradient of: (i) the line segment (ii) its perpendicular bisector.\n\n(b) State the equation of the perpendicular bisector. Write your answer in the form $ax + by + d = 0$.\n\n6. Consider the points $A(x_1, y_1)$ and $B(x_2, y_2)$.\n\n(a) Show that the equation of the perpendicular bisector of [AB] is\n\n$(x_2 - x_1)x + (y_2 - y_1)y = \\frac{(x_2^2 + y_2^2) - (x_1^2 + y_1^2)}{2}$.\n\n(b) Suggest one advantage of writing the equation in this form.",
+      "source_images": ["image942.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. Consider three points $A(1, 2)$, $B(4, 5)$, and $C(2, -1)$.\n\n(a) Find the equation of the perpendicular bisector of:\n(i) [AB]\n(ii) [AC]\n(iii) [BC].\n\n(b) Graph the three perpendicular bisectors on the same set of axes. Discuss your observations.\n\n(c) Describe how you can find the centre of the circle which passes through three non-collinear points.\n\n8. Three post offices are located in a small city at $P(-8, -6)$, $Q(1, 5)$, and $R(4, -2)$.\n\n(a) Find the equation of the perpendicular bisector of:\n(i) [PQ]\n(ii) [PR]\n(iii) [QR].\n\n(b) Graph the three post offices and the three perpendicular bisectors on the same set of axes. Use these lines to locate the point that is equidistant from all three post offices. Shade regions of your graph in different colours according to their closest post office.",
+      "source_images": ["image943.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 8.18: Consider the line described by the equation $y = 3x - 7$.\n\n(a) Find three points on the line.\n\n(b) Find the slope of the line.\n\n(c) How is your slope related to the numbers in the equation?\n\n(d) Find the $y$-intercept of the line. How is the $y$-coordinate of the $y$-intercept related to the equation?\n\n(e) Find the $x$-intercept of the line.\n\n(f) Graph the line.",
+      "source_images": ["image944.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Solution for Problem 8.18:\n\n(a) Letting $x = 0$, then $x = 1$, then $x = 2$, we find three points on the line: $(0, -7)$, $(1, -4)$, and $(2, -1)$. We could, of course, find many, many other points on the line.\n\n(b) Using two of these points, we find the slope is $\\frac{-4 - (-7)}{1 - 0} = 3$.\n\n(c) The slope is 3, and the coefficient of $x$ in the given equation is 3. Hmmm... Is this a coincidence? We'll see...\n\n(d) The $y$-intercept is the point where the line meets the $y$-axis. Points on the $y$-axis have an $x$-coordinate of 0. Letting $x = 0$ in our equation gives $y = -7$, so the $y$-intercept is $(0, -7)$. Note that the $y$-coordinate of the $y$-intercept matches the constant term in the given equation $y = 3x - 7$.",
+      "source_images": ["image945.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 8.19: If the equation of a line is written in the form\n\n$y = mx + b$,\n\nwhere $m$ and $b$ are constants, must $m$ equal the slope of the line? Must $b$ be the $y$-coordinate of the $y$-intercept?",
+      "source_images": ["image946.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Solution for Problem 8.19: The slope of a line measures how much $y$ changes as $x$ changes. From the equation $y = mx + b$, we can see that increasing $x$ by 1 increases $y$ by $m$, so the change in $y$ divided by the change in $x$ is $m/1 = m$. We also could see this by letting $(x_1, y_1)$ be a point on the line. Our equation gives us $y_1 = mx_1 + b$. If $(x_2, y_2)$ is another point on the line, we have $y_2 = mx_2 + b$. Therefore, our slope is\n\n$\\frac{y_2 - y_1}{x_2 - x_1} = \\frac{mx_2 + b - (mx_1 + b)}{x_2 - x_1} = \\frac{mx_2 - mx_1}{x_2 - x_1} = \\frac{m(x_2 - x_1)}{x_2 - x_1} = m$.\n\nThe $y$-intercept of the line has $x$-coordinate $x = 0$. When $x = 0$, we have $y = m(0) + b = b$. Therefore, $(0, b)$ must be the $y$-intercept. $\\square$\n\nThe form $y = mx + b$ is called the slope-intercept form of a line.",
+      "source_images": ["image947.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 8.20: Consider the line described by the equation $3x - 5y = 7$.\n\n(a) Find the slope of the line.\n\n(b) How is the slope related to the coefficients of $x$ and $y$ in the equation?\n\nSolution for Problem 8.20:\n\n(a) We can find the slope either by finding two points on the line or by writing the equation in slope-intercept form. We do the latter by solving for $y$:\n\n$y = \\frac{3}{5}x - \\frac{7}{5}$.\n\nFrom this form of the equation, we quickly see that the slope is $3/5$.",
+      "source_images": ["image948.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "(b) The slope equals the negative of the ratio of the coefficient of $x$ to the coefficient of $y$:\n\n$-\\frac{3}{-5} = \\frac{3}{5}$.",
+      "source_images": ["image949.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Important: When the equation of a line is written in the form $Ax + By = C$ and $B \\neq 0$, the slope of the line is $-A/B$.",
+      "source_images": ["image950.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercises\n\n8.5.1 Find the slope, the $x$-intercept, and the $y$-intercept of the line $y = -2x + 1$, and graph the equation.\n\n8.5.2 Find the slope, the $x$-intercept, and the $y$-intercept of the line $3x + 5y = 20$.\n\n8.5.3 Find the equation of the line that passes through $(0, 8)$ and has slope $-m$, where $m$ is the slope of the line $y = 2x + 3$.",
+      "source_images": ["image951.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "8.5.4 Find the slope-intercept form of the equation of the line with slope 5 and $x$-intercept $(-4, 0)$.",
+      "source_images": ["image952.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Comparing Lines",
+      "source_images": ["image953.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Important: If two lines have the same slope, then they are either parallel (meaning they never intersect) or they are the same line.",
+      "source_images": ["image954.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Two lines that never intersect are called parallel lines, while two lines that form right angles when they intersect are called perpendicular lines. Below is an example of a pair of parallel lines, and a pair of perpendicular lines.\n\n[Figure 8.3: Parallel Lines]\n\n[Figure 8.4: Perpendicular Lines]",
+      "source_images": ["image955.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 8.23: On the same Cartesian plane, graph both the equations in the system of equations\n\n$5x - 2y = 11$,\n$-2x + 3y = -11$.\n\nCan you use your graph to find the solution to this system of equations?\n\nSolution for Problem 8.23: The graphs of the two lines are shown at right. We see that the point $(1, -3)$ appears to be on both lines. To make sure, we test whether $(x, y) = (1, -3)$ satisfies both equations:\n\n$5(1) - 2(-3) = 11$,\n$-2(1) + 3(-3) = -11$.\n\nBecause $(x, y) = (1, -3)$ satisfies both equations we see that $(x, y) = (1, -3)$ is the solution to our given system of equations. $\\square$",
+      "source_images": ["image956.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 8.24: On the same Cartesian plane, graph both the equations in the system of equations\n\n$x - 2y = 7$,\n$3x = 21 + 6y$.\n\nWhat do your graphs tell you about this system of equations?\n\nSolution for Problem 8.24: We start by graphing the equation $x - 2y = 7$, and we produce the graph at right. When we graph $3x = 21 + 6y$, we get exactly the same line! This is a surprise, so we look back at our equations and try to figure out why this happened. Collecting all the terms with variables on the left in both equations, we have\n\n$x - 2y = 7$,\n$3x - 6y = 21$.\n\nThe second equation is just 3 times the first equation! In other words, these two equations have the same solutions. So, they produce the same graph.",
+      "source_images": ["image957.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Important: If we have a system of two linear equations such that one equation can be manipulated to be exactly the same as the other, then the two equations have the same graph.",
+      "source_images": ["image958.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 8.25: On the same Cartesian plane, graph both the equations in the system of equations\n\n$3x = 5y - 1$,\n$10y = 6x - 8$.\n\n(a) What is the slope of each line?\n\n(b) How are the two lines related?\n\n(c) Can you come up with a general rule that this problem represents?",
+      "source_images": ["image959.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Solution for Problem 8.25:\n\n[Graph showing two parallel lines: $3x = 5y - 1$ and $10y = 6x - 8$]\n\n(a) We write each equation in slope-intercept form to find the slopes. Our system of equations then is\n\n$y = \\frac{3}{5}x + \\frac{1}{5}$,\n$y = \\frac{3}{5}x - \\frac{4}{5}$.\n\nWe see that the two lines have the same slope, $3/5$.\n\n(b) The two lines appear to never intersect. We can try to find their intersection point algebraically by subtracting the second equation in part (a) from the first. This gives us $0 = 1$. This equation is never true, so there is no solution to this system of equations. In other words, there is no point at which the two lines meet. So, the lines are parallel.\n\n(c) Inspired by this example, we wonder if any two lines with the same slope must be parallel. We can analyze two non-vertical lines with the same slope by using slope-intercept form. This form allows us to use the information that the slopes of the lines are equal. Let the common slope of the two lines be $m$ and let their $y$-intercepts be $(0, b_1)$ and $(0, b_2)$, respectively. Therefore, our lines are the graphs of the equations\n\n$y = mx + b_1$,\n$y = mx + b_2$.\n\nWe eliminate both $x$ and $y$ from this system of equations when we subtract the second equation from the first. This leaves $0 = b_1 - b_2$. We then have two cases:\n\n- Case 1: $b_1 \\neq b_2$. If $b_1 \\neq b_2$, then the equation $0 = b_1 - b_2$ has no solutions. This means there is no ordered pair $(x, y)$ that satisfies both $y = mx + b_1$ and $y = mx + b_2$. So, there is no point $(x, y)$ that is on the graphs of both equations. Therefore, the graphs of these equations are lines that never meet, which means the lines are parallel.\n\n- Case 2: $b_1 = b_2$. This makes the equations $y = mx + b_1$ and $y = mx + b_2$ the same. As we saw in Problem 8.24, this means that the graphs of these equations are the same line.\n\nThat two lines with the same slope are either parallel or the same line shouldn't be surprising. Because the lines have the same slope, they are oriented in the same direction.",
+      "source_images": ["image960.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Important: There are three possibilities for the number of solutions of a system that consists of a pair of two-variable linear equations:\n\n- No Solutions. If the graphs of the equations are parallel lines, then the lines never intersect. Consequently, there is no point that is on both lines and therefore no solutions to the system.\n\n- One Solution. If the graphs of the equations are not either the same line or two different parallel lines, then they are lines that meet at exactly one point. This point is the only solution to the system of equations.\n\n- Infinitely Many Solutions. If the graphs of the two equations produce exactly the same line, then every point on the line is a solution to the system of equations. So, there are infinitely many solutions.",
+      "source_images": ["image961.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 8.26: On the same Cartesian plane, graph both the equations in the system of equations\n\n$x = -2y + 10$,\n$2x - y = 5$.\n\n(a) What is the slope of each line?\n\n(b) How are the two lines related?\n\n(c) Can you come up with a general rule that this problem represents?\n\nSolution for Problem 8.26: The graphs of the lines are shown below.\n\n[Graph showing two perpendicular lines: $x = -2y + 10$ and $2x - y = 5$]\n\n(a) Writing $x = -2y + 10$ in slope-intercept form gives $y = -x/2 + 5$. So, the graph of this equation is a line with slope $-1/2$. The slope of the graph of $2x - y = 5$ is $-2/(-1) = 2$.\n\n(b) The two lines appear to be perpendicular.\n\n(c) We examine these two lines to see if, and why, they are perpendicular. Perhaps the answer will lead to a general rule. The angle between the two lines is determined by the orientation of the lines; so, this angle is determined by the slopes of the lines.\n\nWe take a close-up look at where the lines meet to investigate the angle between them. In the diagram at right, our lines meet at point $X$. The line $2x - y = 5$ has slope 2, so to get from $X$ to another point on this line, we go down 2 to $C$ then left 1 to $D$. Similarly, the line $x = -2y + 10$ has slope $-1/2$, so we get from $X$ to another point on this line by going left 2 to $A$ and up 1 to $B$. Since we build both triangles $XAB$ and $XCD$ by going in one direction 2 units, turning 90 degrees, then going 1 more unit, we see that triangles $XAB$ and $XCD$ are essentially the same. Geometrically speaking, we say they are congruent, which means their sides and angles are the same.\n\nBecause $XAB$ and $XCD$ are congruent, the angle between $\\overline{XB}$ and $\\overline{XA}$ is the same as that between $\\overline{XD}$ and $\\overline{XC}$. In the diagram, we mark both these angles with $\\alpha$. We also mark the angle between $\\overline{XA}$ and $\\overline{XD}$ with $\\beta$. Clearly, the angle between $\\overline{XA}$ and $\\overline{XC}$ is a $90°$ angle, since this angle is made by a horizontal line and vertical line. Therefore, we know that $\\alpha + \\beta = 90°$. But our diagram shows that the angle between our two graphed lines is also $\\alpha + \\beta$! So, we know that the angle between our two graphed lines is $90°$, which means the lines are perpendicular. Similarly, we can show that if any two lines have slopes whose product is $-1$, then the two lines are perpendicular.",
+      "source_images": ["image962.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Important: If the slopes of two lines have a product of $-1$, then the two lines are perpendicular. Furthermore, if two lines are perpendicular (and neither line is a vertical line), then the product of their slopes must be $-1$.",
+      "source_images": ["image963.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "If lines with slopes $m_1$ and $m_2$ are perpendicular (and neither line is vertical),\n\n$m_1 m_2 = -1$.",
+      "source_images": ["image964.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 8.27:\n\n(a) Find an equation of the line through $(2, 1)$ that is parallel to the graph of $2x - 7y = 4$.\n\n(b) What is the $x$-intercept of the line through $(-3, 4)$ that is perpendicular to the graph of $x - 2y = 7$?",
+      "source_images": ["image965.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "(a) The slope of $2x - 7y = 4$ is $-[2/(-7)] = 2/7$, so the slope of our desired line is also $2/7$. Since the desired line passes through $(2, 1)$, an equation of the line in point-slope form is $y - 1 = (2/7)(x - 2)$. Putting this equation in standard form, we have $2x - 7y = -3$.",
+      "source_images": ["image966.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "(b) The line $x - 2y = 7$ has slope $1/2$, so the desired line has slope $-1/(1/2) = -2$. Our desired line passes through $(-3, 4)$ and has slope $-2$, so an equation of the line in point-slope form is $y - 4 = -2[x - (-3)]$. Writing this equation in standard form gives us $2x + y = -2$. Letting $y = 0$ in this equation gives us $x = -1$. So, $(-1, 0)$ is the $x$-intercept.",
+      "source_images": ["image967.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercises\n\n8.6.1 Line $\\ell$ is perpendicular to the graph of $2x + 3y = 5$ and has the same $x$-intercept as the graph of $2x + 3y = 5$. Find the standard form of the equation whose graph is $\\ell$.\n\n8.6.2 Find an equation whose graph is a line passing through $(2, 7)$ that is parallel to the line $x - 5 = 3y$.\n\n8.6.3 The graphs of the equations $2x - By = 7$ and $Ax + 3y = 10$ are both the same line. Find $A$ and $B$. Hints: 16",
+      "source_images": ["image968.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "8.6.4\n\n(a) Graph the lines $3x - 2y = k$ for $k = 1, 2, 3$, and $4$.\n\n(b) How are the lines related?\n\n(c)$\\star$ How can you quickly use the graph of $3x - 6y = 4$ to produce the graph of $3x - 6y = 10$?\n\n8.6.5 Find $a$ and $b$ if the graph of $ax + 2y = b$ passes through $(2, 5)$ and is parallel to $3x - 5y = 7$.",
+      "source_images": ["image969.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "8.28 Find $t$ such that $(t, 5)$ lies on the line through $(0, 3)$ and $(-8, 0)$.\n\n8.29 Compute $|1 - |2 - |3 - |4 - |5||||$.\n\n8.30 Consider the points $(1, -2)$ and $(-5, 6)$.\n\n(a) Find the distance between the two points.\n\n(b) What are the coordinates of the midpoint of the segment connecting these points?\n\n(c) Find the slope of the line through both points.\n\n(d) Find the standard form of the equation whose graph is the line through both points.\n\n8.31 $A$ is a constant such that the graph of the equation $Ax - 3y = 6$ passes through the point $(1, -3)$. Find $A$.\n\n8.32 The lines $k$, $\\ell$, and $m$ are graphed at right. One line has slope $-3/4$, one has slope $1/6$, and one has slope $2$. Without finding the coordinates of any points on any of the lines, determine which line is which.\n\n[Figure shows three lines labeled $k$, $\\ell$, $m$ on a coordinate plane]\n\n8.33 Find the standard form of the equation of line $m$ shown at right.\n\n8.34 Find a formula for the distance from the point $(x_1, y_1)$ to the origin.\n\n8.35 Find the equation, in standard form, of the line that passes through $(4, 0)$ and has slope $-1/3$. Graph the equation.\n\n8.36 What is the slope of the graph of the equation $x = -3$? Graph the equation.\n\n8.37 Find the $x$-intercept and the $y$-intercept of the line that passes through $(3, -7)$ and $(-3, 5)$.\n\n8.38 Find the slope, the $x$-intercept, and the $y$-intercept of the graph of the equation $2x - 3y + 9 = 0$. Graph the equation.\n\n8.39 Show that for any two real numbers $a$ and $b$, the number $(a + b)/2$ is the same distance from $a$ as it is from $b$ on the number line.\n\n8.40 Points $A$, $B$, $C$ and $D$ are on the Cartesian plane such that the slope of the line through $A$ and $B$ equals the slope of the line through $C$ and $D$. Are the four points necessarily all on the same line?\n\n8.41 The slope of a line is $-2$ and its $x$-intercept is $(5, 0)$. What is the $y$-intercept of the line?\n\n8.42 Let $P$ be $(-3, 7)$ and $Q$ be $(5, -12)$.\n\n(a) Find the midpoint of $\\overline{PQ}$.\n\n(b) Find the point $T$ on $\\overline{PQ}$ such that $PT/TQ = 1/3$.",
+      "source_images": ["image970.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "8.43 Find the standard form of the equation of the line through $(4, 1)$ that is perpendicular to the line $2x = -3y + 7$.\n\n8.44 Find the standard form of the equation of the line through $(8, -3)$ that is parallel to the line $3y = 4x + 8$.\n\n8.45 Determine whether each of the following statements is true or false. If it is false, provide an example showing why.\n\n(a) The absolute value of any real number is positive.\n\n(b) The equation of every line can be written in the form $Ax + By = C$ for some real numbers $A$, $B$, and $C$.\n\n(c) The equation of every line can be written in the form $y = mx + b$ for some real numbers $m$ and $b$.\n\n(d) Every line has both an $x$-intercept and a $y$-intercept.\n\n(e) The $x$-intercept of the line $y = 2x + 3$ is $(0, 3)$.\n\n(f) If the product of the slopes of two lines is $-1$, then the two lines are perpendicular.\n\n(g) If two lines are perpendicular, then the product of their slopes is $-1$.\n\n(h) If two lines are parallel, then either they are both vertical or they have the same slope.\n\n8.46 A line has equation $x = my + b$ for some real nonzero constants $m$ and $b$.\n\n(a) In terms of $m$ and/or $b$, what is the $x$-intercept of this line?\n\n(b) In terms of $m$ and/or $b$, what is the slope of this line?\n\n8.47\n\n(a) Find $A$ if the graph of the equation $Ax + 3y = 5$ is parallel to the graph of $5x - 2y = 4$.\n\n(b) Find $B$ if the graph of the equation $3x = By + 2$ is perpendicular to the graph of $3y = -2x + 4$.\n\n(c) Find $A$ and $B$ if the graph of the equation $Ax + 3y = B$ produces the same line as the graph of the equation $2x + 6y = 7$.\n\n8.48 Does any line have neither an $x$-intercept nor a $y$-intercept? If so, give an example.",
+      "source_images": ["image971.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 1A\n\n1. Consider the table of values alongside.\n\n| $x$ | 0 | 1 | 2 | 3 | 4 |\n|-----|---|---|---|---|---|\n| $y$ | 20 | 17 | 14 | 11 | 8 |\n\n(a) Draw a graph of $y$ against $x$.\n\n(b) Are the variables linearly related? Explain your answer.\n\n(c) Find the gradient and $y$-intercept of the graph.\n\n(d) Find the equation connecting $x$ and $y$.\n\n(e) Find the value of $y$ when $x = 7$.\n\n2. The weekly income $£I$ of a salesperson varies depending on their total weekly sales $£S$. The chart alongside shows the relationship between $I$ and $S$.\n\n[Graph showing weekly income (£I) vs weekly sales (£S), linear relationship from origin through approximately (4000, 400)]\n\n(a) Find the gradient and $I$-intercept of the line, and explain what these values mean.\n\n(b) Find the equation of the line.\n\n(c) Find the salesperson's weekly income if £3400 in sales are made.\n\n3. (a) Find, in gradient-intercept form, the equation of the line which has gradient $-\\frac{1}{3}$ and passes through $(6, 2)$.\n\n(b) Write the equation of the line in the form $ax + by + d = 0$.\n\n4. (a) Find, in general form, the equation of line 2.\n\n(b) Hence find the $x$-intercept of line 2.\n\n[Graph showing two lines: line 1 with equation $y - 4 = \\frac{3}{2}(x - 1)$ and line 2 passing through point $(6, 3)$]\n\n5. Determine whether:\n\n(a) $(5, -2)$ lies on the line with equation $y = -x + 3$\n\n(b) $(-3, \\frac{1}{2})$ lies on the line with equation $3x + 8y = -5$.",
+      "source_images": ["image972.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. Draw the graph of:\n\n(a) $y = 2x - 3$\n(b) $y = -\\frac{3}{4}x + 1$\n(c) $5x + 3y = 30$\n(d) $y = \\frac{2}{3}x + 1$\n(e) $3x - 4y = 72$\n(f) $2x + 5y = -20$\n\n7. Find the equation of the perpendicular bisector of:\n\n(a) $A(5, 2)$ and $B(5, -4)$\n(b) $A(8, 1)$ and $B(2, 5)$.\n\n8. Solve graphically:\n\n(a) $\\begin{cases} y = x + 1 \\\\ y = -2x + 10 \\end{cases}$\n\n(b) $\\begin{cases} x + 3y = 6 \\\\ x - y = -6 \\end{cases}$\n\n9. Solve by substitution:\n\n(a) $\\begin{cases} y = 3x + 4 \\\\ 2x - y = -5 \\end{cases}$\n\n(b) $\\begin{cases} x = 2y - 5 \\\\ 3x + 4y = 5 \\end{cases}$\n\n10. Solve by elimination:\n\n(a) $\\begin{cases} 3x + 2y = 7 \\\\ 5x - 2y = 17 \\end{cases}$\n\n(b) $\\begin{cases} 2x + 7y = 13 \\\\ -4x + 3y = 25 \\end{cases}$",
+      "source_images": ["image973.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "10. Solve by elimination:\n\n(a) $\\begin{cases} 3x + 2y = 7 \\\\ 5x - 2y = 17 \\end{cases}$\n\n(b) $\\begin{cases} 2x + 7y = 13 \\\\ -4x + 3y = 25 \\end{cases}$\n\n11. Consider the line with equation $y = -\\frac{1}{2}x + 4$.\n\n(a) Write down the gradient and $y$-intercept of the line.\n\n(b) Determine whether $(6, 1)$ lies on the line.\n\n(c) Find $k$ such that $(k, 5)$ lies on the line.\n\n(d) Draw the graph of the line, showing your results from (a), (b), and (c).\n\n12. A furniture store sells tables and chairs. Two possible arrangements and their costs are shown alongside.\n\nFind the cost of:\n\n(a) each table\n(b) each chair.\n\n[Images show: First arrangement with 1 table and 2 chairs = €200; Second arrangement with 1 table and 4 chairs = €460]\n\n13. A machine tests solar batteries for faults. A working battery takes 2 minutes to test, but a faulty battery requires 5 minutes to detect and repair. In an 83 minute session, 37 batteries were tested. How many were faulty?\n\n14. Quadrilateral ABCD has vertices $A(3, 2)$, $B(2, -4)$, $C(-4, -3)$, and $D(-3, 3)$.\n\n(a) Find the equation of the perpendicular bisector of: (i) [AC] (ii) [BD].\n\n(b) Classify quadrilateral ABCD.",
+      "source_images": ["image974.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 1B\n\n1. The speed of a pebble thrown from the top of a cliff is shown alongside.\n\n[Graph showing speed ($y$ m s$^{-1}$) vs time ($x$ seconds), linear relationship starting at approximately 10 m/s and increasing to about 40 m/s at 5 seconds]\n\n(a) Find the gradient and $y$-intercept of the line, and explain what these values mean.\n\n(b) Find the equation of the line.\n\n(c) Find the speed of the pebble after 8 seconds.",
+      "source_images": ["image975.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Find, in general form, the equation of the line which has:\n\n(a) gradient 5 and passes through $(2, -1)$\n(b) gradient $-\\frac{1}{4}$ and passes through $(-3, -4)$.\n\n3. Find the equation of the line which is:\n\n(a) parallel to $y = 3x - 8$ and passes through $(2, 7)$\n\n(b) perpendicular to $2x + 5y = 7$ and passes through $(-1, -1)$.\n\n4. Find $k$ given that:\n\n(a) $(2, k)$ lies on the line with equation $y = 5x - 3$\n\n(b) $(\\frac{1}{2}, -\\frac{3}{2})$ lies on the line with equation $5x + 9y = k$.\n\n5. Draw the graph of:\n\n(a) $2x - 3y = 18$\n(b) $y = \\frac{5}{2}x - 3$\n(c) $3x + 2y = 30$\n(d) $y = -2x + 5$\n(e) $y = -\\frac{1}{3}x + \\frac{4}{3}$\n(f) $5x + 2y = -30$\n\n6. Find the equation of the perpendicular bisector of $P(-3, 2)$ and $Q(5, -6)$.\n\n7. A line segment has equation $x - 5y + 6 = 0$. Its midpoint is $(4, 2)$.\n\n(a) State the gradient of: (i) the line segment (ii) its perpendicular bisector.\n\n(b) State the equation of the perpendicular bisector.\n\n8. Solve the following simultaneous equations graphically:\n\n(a) $\\begin{cases} y = 3x + 1 \\\\ x - y = 3 \\end{cases}$\n\n(b) $\\begin{cases} 2x + y = 6 \\\\ x - 2y = 8 \\end{cases}$\n\n9. Solve by substitution:\n\n(a) $\\begin{cases} y = 6x + 2 \\\\ 3x - 2y = -7 \\end{cases}$\n\n(b) $\\begin{cases} y = \\frac{1}{2}x + 5 \\\\ 4x + 3y = 4 \\end{cases}$\n\n10. Solve by elimination:\n\n(a) $\\begin{cases} 3x + 2y = 8 \\\\ 5x - 4y = 17 \\end{cases}$\n\n(b) $\\begin{cases} 4x + 6y = -15 \\\\ 3x - 5y = 22 \\end{cases}$\n\n11. Consider the line with equation $y = \\frac{2}{3}x - \\frac{8}{3}$.\n\n(a) Find the gradient of the line.\n\n(b) Determine whether: (i) $(-2, -4)$ (ii) $(4, 5)$ lie on the line.\n\n(c) Draw the graph of the line, showing your results from (a) and (b).\n\n12. There are 500 tickets for sale in a raffle. Tickets cost $3 each, or $20 for a book of 10. All 500 tickets were sold, and $1350 was raised. How many books of 10 tickets were sold?\n\n13. A piano teacher charges $30 for a one hour lesson, and $50 for a two hour lesson. She works for 25 hours in one week, and earns $690. How many two hour lessons did she give?\n\n14. Triangle ABC has vertices $A(3, 6)$, $B(-1, 4)$, and $C(1, 0)$.\n\n(a) Find the equation of the perpendicular bisector of:\n(i) [AB]\n(ii) [AC]\n(iii) [BC].\n\n(b) Graph the three perpendicular bisectors on the same set of axes. Discuss your observations.",
+      "source_images": ["image976.png"]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "chapter": 6,
+  "part": 1,
+  "images_range": "482-511",
+  "items": [
+    {
+      "type": "definition",
+      "content_latex": "An algebraic equation is an equation which involves at least one variable.",
+      "source_images": ["image482.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "LINEAR EQUATIONS\n\nA linear equation contains at least a variable which can only be raised to the power 1.\n\nFor example, $3x + 5 = 8$, $\\frac{1}{2}x - 3 = 2$ and $\\frac{1 + x}{3} = x$ are linear equations\n\nwhereas $x^2 - 3x + 2 = 0$, $\\frac{1}{x} = \\sqrt{x}$, and $x^3 = 8$ are not linear equations.",
+      "source_images": ["image483.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "SIDES OF AN EQUATION\n\nThe left hand side (LHS) of an equation is on the left of the $=$ sign.\nThe right hand side (RHS) of an equation is on the right of the $=$ sign.\n\nFor example, $3x + 5 = 8$\n\nLHS: $3x + 5$, RHS: $8$",
+      "source_images": ["image484.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "The solution of a linear equation is the value of the variable which makes the equation true. In other words, it makes the left hand side (LHS) equal to the right hand side (RHS).",
+      "source_images": ["image485.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "ALGEBRAIC SOLUTION TO LINEAR EQUATIONS\n\nThe following steps should be followed to solve linear equations:\n\nStep 1: Decide how the expression containing the unknown has been 'built up'.\nStep 2: Perform inverse operations on both sides of the equation to 'undo' how the equation is 'built up'. In this way we isolate the unknown.\nStep 3: Check your solution by substitution.",
+      "source_images": ["image486.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Solve for $x$:\n\n(a) $4x - 1 = 7$\n\n(b) $5 - 3x = 6$\n\nSolutions:\n\n(a) $4x - 1 = 7$\n$\\therefore 4x - 1 + 1 = 7 + 1$ {adding 1 to both sides}\n$\\therefore 4x = 8$\n$\\therefore \\frac{4x}{4} = \\frac{8}{4}$ {divide both sides by 4}\n$\\therefore x = 2$\nCheck: $4 \\times 2 - 1 = 8 - 1 = 7$ ✓\n\n(b) $5 - 3x = 6$\n$\\therefore 5 - 3x - 5 = 6 - 5$ {subtracting 5 from both sides}\n$\\therefore -3x = 1$\n$\\therefore \\frac{-3x}{-3} = \\frac{1}{-3}$ {dividing both sides by $-3$}\n$\\therefore x = -\\frac{1}{3}$\nCheck: $5 - 3 \\times (-\\frac{1}{3}) = 5 + 1 = 6$ ✓\n\nThe inverse of $+$ is $-$ and $\\times$ is $\\div$.",
+      "source_images": ["image487.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Solve for $x$:\n\n(a) $\\frac{x}{5} - 3 = -1$\n\n(b) $\\frac{1}{5}(x - 3) = -1$\n\nSolutions:\n\n(a) $\\frac{x}{5} - 3 = -1$\n$\\therefore \\frac{x}{5} - 3 + 3 = -1 + 3$ {adding 3 to both sides}\n$\\therefore \\frac{x}{5} = 2$\n$\\therefore \\frac{x}{5} \\times 5 = 2 \\times 5$ {multiplying both sides by 5}\n$\\therefore x = 10$\nCheck: $\\frac{10}{5} - 3 = 2 - 3 = -1$ ✓",
+      "source_images": ["image488.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "(b) $\\frac{1}{5}(x - 3) = -1$\n$\\therefore \\frac{1}{5}(x - 3) \\times 5 = -1 \\times 5$ {multiplying both sides by 5}\n$\\therefore x - 3 = -5$\n$\\therefore x - 3 + 3 = -5 + 3$ {adding 3}\n$\\therefore x = -2$\nCheck: $\\frac{1}{5}((-2) - 3) = \\frac{1}{5} \\times -5 = -1$ ✓",
+      "source_images": ["image489.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Solve for $x$: $3(2x - 5) - 2(x - 1) = 3$\n\nSolution:\n\n$3(2x - 5) - 2(x - 1) = 3$\n$\\therefore 3 \\times 2x + 3 \\times (-5) - 2 \\times x - 2 \\times (-1) = 3$ {expanding brackets}\n$\\therefore 6x - 15 - 2x + 2 = 3$\n$\\therefore 4x - 13 = 3$ {collecting like terms}\n$\\therefore 4x - 13 + 13 = 3 + 13$ {adding 13 to both sides}\n$\\therefore 4x = 16$\n$\\therefore x = 4$ {dividing both sides by 4}\n\nCheck: $3(2 \\times 4 - 5) - 2(4 - 1) = 3 \\times 3 - 2 \\times 3 = 3$ ✓",
+      "source_images": ["image490.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "If the unknown appears on both sides of the equation, we\n\n• expand any brackets and collect like terms\n• move the unknown to one side of the equation and the remaining terms to the other side\n• simplify and then solve the equation.",
+      "source_images": ["image491.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Solve:\n\n(a) $3x - 4 = 2x + 6$\n\n(b) $4 - 3(2 + x) = x$\n\nSolutions:\n\n(a) $3x - 4 = 2x + 6$\n$\\therefore 3x - 4 - 2x = 2x + 6 - 2x$ {subtracting $2x$ from both sides}\n$\\therefore x - 4 = 6$\n$\\therefore x - 4 + 4 = 6 + 4$ {adding 4 to both sides}\n$\\therefore x = 10$\nCheck: LHS $= 3 \\times 10 - 4 = 26$, RHS $= 2 \\times 10 + 6 = 26$. ✓\n\n(b) $4 - 3(2 + x) = x$\n$\\therefore 4 - 6 - 3x = x$ {expanding}\n$\\therefore -2 - 3x = x$\n$\\therefore -2 - 3x + 3x = x + 3x$ {adding $3x$ to both sides}\n$\\therefore -2 = 4x$\n$\\therefore \\frac{-2}{4} = \\frac{4x}{4}$ {dividing both sides by 4}\n$\\therefore -\\frac{1}{2} = x$\ni.e., $x = -\\frac{1}{2}$\nCheck: LHS $= 4 - 3(2 + (-\\frac{1}{2})) = 4 - 3 \\times \\frac{3}{2} = 4 - 4\\frac{1}{2} = -\\frac{1}{2} =$ RHS ✓",
+      "source_images": ["image492.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 1C.1\n\n1. Solve for $x$:\n\n(a) $x + 9 = 4$\n(b) $5x = 45$\n(c) $-24 = -6x$\n(d) $3 - x = 12$\n(e) $2x + 5 = 17$\n(f) $3x - 2 = -14$\n(g) $3 - 4x = -17$\n(h) $8 = 9 - 2x$\n\n2. Solve for $x$:\n\n(a) $\\frac{x}{4} = 12$\n(b) $\\frac{1}{2}x = 6$\n(c) $5 = \\frac{x}{-2}$\n(d) $\\frac{x}{3} + 4 = -2$\n(e) $\\frac{x + 3}{5} = -2$\n(f) $\\frac{1}{3}(x + 2) = 3$\n(g) $\\frac{2x - 1}{3} = 7$\n(h) $\\frac{1}{2}(5 - x) = -2$",
+      "source_images": ["image493.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 1C.2\n\n1. Solve for $x$:\n\n(a) $2(x + 8) + 5(x - 1) = 60$\n(b) $2(x - 3) + 3(x + 2) = -5$\n(c) $3(x + 3) - 2(x + 1) = 0$\n(d) $4(2x - 3) + 2(x + 2) = 32$\n(e) $3(4x + 1) - 2(3x - 4) = -7$\n(f) $5(x + 2) - 2(3 - 2x) = -14$\n\n2. Solve for $x$:\n\n(a) $2x - 3 = 3x + 6$\n(b) $3x - 4 = 5 - x$\n(c) $4 - 5x = 3x - 8$\n(d) $-x = 2x + 4$\n(e) $12 - 7x = 3x + 7$\n(f) $5x - 9 = 1 - 3x$\n(g) $4 - x - 2(2 - x) = 6 + x$\n(h) $5 - 3(1 - x) = 2 - 3x$\n(i) $5 - 2x - (2x + 1) = -6$\n(j) $3(4x + 2) - x = -7 + x$\n\n3. Solve for $x$:\n\n(a) $2(3x + 1) - 3 = 6x - 1$\n(b) $3(4x + 1) = 6(2x + 1)$\n(c) Comment on your solutions to (a) and (b).",
+      "source_images": ["image494.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 6A\n\n1. The solution of each of the following equations is one of the given possibilities. Find the solution by trial and error.\n\n(a) $2x - 9 = 5$ $\\{3, 5, 7\\}$\n(b) $3 - a = -1$ $\\{2, 4, 6\\}$\n(c) $\\frac{x + 6}{2} = 1$ $\\{-4, -2, 0\\}$\n(d) $\\frac{6}{1 + y} = 3$ $\\{1, 2, 3\\}$\n\n2. Which of the following equations are:\n\nA true for exactly one value of $x$\nB true for two values of $x$\nC true for all values of $x$\nD never true\nE true for all values of $x$ except 0?\n\n(a) $x + 3 = 5$\n(b) $x^2 = 0$\n(c) $\\frac{1}{x} = 0$\n(d) $2x = 11$\n(e) $x^2 = 9$\n(f) $x - x = 0$\n(g) $x - 1 = x$\n(h) $2 + 5x = 12$\n(i) $x - x^2 = 0$\n(j) $3x \\times 2x = 6x^2$\n(k) $\\frac{1}{x} \\times x = 1$\n(l) $2 - \\frac{1}{x} = 3$",
+      "source_images": ["image495.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 6D\n\n1. Solve for $x$:\n\n(a) $x + 3 = 0$\n(b) $3x = -9$\n(c) $3x + 6 = 0$\n(d) $3x - 4 = -6$\n(e) $5x + 8 = 18$\n(f) $4x - 9 = 1$\n(g) $8x - 7 = 9$\n(h) $3x + 6 = -7$\n(i) $6 + 7x = -1$\n(j) $9 = 3x + 7$\n(k) $6x - 7 = -1$\n(l) $-1 = 2x + 6$",
+      "source_images": ["image496.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Solve for $x$:\n\n(a) $6 - x = -5$\n(b) $-4x = 15$\n(c) $3 - 2x = 7$\n(d) $5 - 4x = -7$\n(e) $3 - 7x = -2$\n(f) $17 - 2x = -1$\n(g) $11 = 3 - 2x$\n(h) $15 - 2x = -1$\n(i) $8 = 3 - 2x$\n(j) $6 = -1 - 7x$\n(k) $-15 = 3 - 6x$\n(l) $11 = -4 - 3x$",
+      "source_images": ["image497.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Solve for $x$:\n\n(a) $\\frac{x}{2} = 5$\n(b) $\\frac{2x}{3} = -4$\n(c) $\\frac{x}{4} + 1 = -3$\n(d) $\\frac{x}{3} - 2 = 1$\n(e) $\\frac{x - 1}{2} = 1$\n(f) $\\frac{x + 5}{3} = -1$",
+      "source_images": ["image498.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Solve for $x$:\n\n(a) $\\frac{2x + 7}{5} = 0$\n(b) $\\frac{1}{2}(1 - 3x) = -1$\n(c) $\\frac{1 + 4x}{7} = 3$\n(d) $\\frac{3x - 1}{2} = 4$\n(e) $\\frac{1}{5}(4 - 3x) = -1$\n(f) $\\frac{1}{4}(1 + 2x) = -2$",
+      "source_images": ["image499.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 6E\n\n1. Solve for $x$:\n\n(a) $4(x - 1) - 2x = 2$\n(b) $2(x - 3) + 3x = 9$\n(c) $5(x + 2) - 2x = 4$\n(d) $3(2x + 3) - 4x = -3$\n(e) $6(3x + 2) - 5x = -1$\n(f) $-4(2x - 1) + 5x = -12$\n\n2. Solve for $x$:\n\n(a) $3(x + 1) + 4(x + 2) = -3$\n(b) $5(x + 3) - 2(x - 1) = 2$\n(c) $4(x - 2) - (x + 1) = 6$\n(d) $5(3 + 2x) + 2(x + 1) = -7$\n(e) $3(2x + 1) - 4(x + 2) = 9$\n(f) $3(5x - 2) - 2(3x - 4) = 2$",
+      "source_images": ["image500.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Solve for $x$:\n\n(a) $3x + 2 = x + 10$\n(b) $7x + 2 = 4x - 8$\n(c) $8x + 3 = 4x + 4$\n(d) $3x - 1 = 6x - 4$\n(e) $4x - 2 = 8x + 10$\n(f) $5 + 2x = 18 + 4x$",
+      "source_images": ["image501.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Solve for $x$:\n\n(a) $3x + 5 = 1 - x$\n(b) $6 + 2x = 15 - x$\n(c) $6 + x = 13 - 2x$\n(d) $9 - 2x = 12 - 7x$\n(e) $4 - 3x = 8 - x$\n(f) $9 - 3x = x + 2$\n\n5. Solve for $x$:\n\n(a) $3(x + 1) - x = 15$\n(b) $5(x + 2) - 2x = 11$\n(c) $6(1 - 2x) = -4 - 7x$\n(d) $2(x + 4) + 8(x - 2) = 12$\n(e) $4(3x + 1) + 18 = x$\n(f) $7x - 2(x + 1) = 13$\n(g) $14x - 5(2x + 5) = 7$\n(h) $19 - (3 - x) = 5x$\n(i) $2x - 4(4 - 3x) = x + 10$\n(j) $2(x + 4) = 7 - (3 + x)$\n(k) $2(x - 6) + 7x = 3(3x - 4)$\n(l) $5(2x - 4) = 4x - 2(1 - 3x)$",
+      "source_images": ["image502.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. Solve the following equations:\n\n(a) $3(x - 2) = x + 4$\n(b) $4(t - 3) = 3 - t$\n(c) $3(2y - 1) = 4y - 5$\n(d) $2(a + 6) = 7 - 2a$\n(e) $4(2b + 3) = b + 12$\n(f) $8(a + 2) = 1 + 3a$",
+      "source_images": ["image503.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. (a) Try to solve $3(a + 2) = 6 + 3a$. What do you notice?\n   (b) How many values of $a$ satisfy the equation?\n\n8. (a) Try to solve $2(2a + 3) = 5 + 4a$. What do you notice?\n   (b) How many values of $a$ satisfy the equation?",
+      "source_images": ["image504.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. Solve the following equations:\n\n(a) $2 - x = 3(x + 3) + 1$\n(b) $2x + 1 = 2(1 - 3x) + 7$\n(c) $12 - x = 2(x - 2) + x$\n(d) $4 + 3p = 2 + 5(1 - p)$\n(e) $3x + 2(x + 1) = 8$\n(f) $4x - 1 + 3(2x - 2) = 4$\n(g) $x + 2 - 4(x - 1) = 11$\n(h) $2(x - 1) - 5(x + 2) = -8$\n(i) $3(1 - x) - 2(2 - x) = 4$\n(j) $5(x - 2) + 3(1 - 2x) = 6$\n(k) $4(2x - 3) - 5(3x + 1) = -2$\n(l) $3 - 2x - (x + 4) = -11$\n(m) $2(1 - 3x) - (5 - x) = 7$\n(n) $4x + 2(x - 1) + x = 9$\n\n10. Solve the following equations:\n\n(a) $12(x - 1) = 3(2x + 1) + 9$\n(b) $3(2p - 1) = 5(1 - p) + 3$\n(c) $2(5x + 1) + 2 = 3(x - 1)$\n(d) $6(x - 4) + 2(x + 5) = 3(x - 1) + 4$\n(e) $x - 5 - (2x + 1) = 4x + 3$\n(f) $3 - 2x = 4(x + 1) - 3(1 - x)$\n(g) $4x + 2(1 - x) = 5 - (1 - 4x)$\n(h) $5 - (2 - 3x) = 11 - (5 - 4x)$\n(i) $x = 3(2x - 1) - 4(2 - x)$\n(j) $2(x - 2) - 3(5 - x) = 4(2x + 1)$",
+      "source_images": ["image505.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Solve all these equations!\n\n$a - 5 = 19$\n$b + 19 = 38$\n$7c = 91$\n$\\frac{d}{5} = 20$\n$11e - 5 = 72$\n$2f + 4 = 80$\n$g + 5g = 72$\n$3h = 90 - 2h$\n$3j + 2 = 27 - 2j$\n$36 - 4k = 0$\n$12m - 5 = 15 + 8m$\n$2n + 7 = 31 - 4n$\n$3(p + 2) - p = 26$\n$4(2r - 6) + 3(r + 5) = 35$\n$\\frac{1}{2}(t - 4) = 12$\n$\\frac{w + 7}{5} = 5$\n\n$2(2a - 5) + 4(a + 7) = 82$\n$5(c + 3) + (c - 6) = 27$\n$2(e + 5) - 3(6 - e) = 42$\n$5(f - 1) + 3(f - 4) = 23$\n$22 - 5k - (k + 10) = 0$\n$2(3m - 4) - 2(m + 7) = 0$\n$5n - 2 = n - 3(n + 3)$",
+      "source_images": ["image506.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "$3a + 5 = 17 - a$\n$25 - 7c = -10$\n$12d - 5 = 15 + 10d$\n\n$\\frac{2a - 5}{3} = \\frac{a - 2}{2}$\n$\\frac{c - 1}{3} = c - \\frac{3(c + 2)}{5}$",
+      "source_images": ["image507.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Rational equations are equations involving fractions. We write all fractions in the equation with the same lowest common denominator (LCD), and then equate the numerators.\n\nConsider the following rational equations:\n\n$\\frac{x}{2} = \\frac{x}{3}$ LCD is $2 \\times 3 = 6$\n\n$\\frac{5}{2x} = \\frac{3x}{5}$ LCD is $2x \\times 5 = 10x$\n\n$\\frac{x - 7}{3} = \\frac{x}{2x - 1}$ LCD is $3 \\times (2x - 1) = 3(2x - 1)$",
+      "source_images": ["image508.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Solve for $x$: $\\frac{x}{2} = \\frac{3 + x}{5}$\n\nSolution:\n\n$\\frac{x}{2} = \\frac{3 + x}{5}$ has LCD $= 10$\n\n$\\therefore \\frac{x}{2} \\times \\frac{5}{5} = \\frac{2}{2} \\times \\left(\\frac{3 + x}{5}\\right)$ {to create a common denominator}\n\n$\\therefore 5x = 2(3 + x)$ {equating numerators}\n$\\therefore 5x = 6 + 2x$ {expanding brackets}\n$\\therefore 5x - 2x = 6 + 2x - 2x$ {subtracting $2x$ from both sides}\n$\\therefore 3x = 6$\n$\\therefore x = 2$ {dividing both sides by 3}",
+      "source_images": ["image509.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Solve for $x$: $\\frac{4}{x} = \\frac{3}{4}$\n\nSolution:\n\n$\\frac{4}{x} = \\frac{3}{4}$ has LCD $= 4x$\n\n$\\therefore \\frac{4}{x} \\times \\frac{4}{4} = \\frac{3}{4} \\times \\frac{x}{x}$ {to create a common denominator}\n\n$\\therefore 16 = 3x$ {equating numerators}\n$\\therefore x = \\frac{16}{3}$ {dividing both sides by 3}",
+      "source_images": ["image510.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Solve for $x$: $\\frac{2x + 1}{3 - x} = \\frac{3}{4}$\n\nSolution:\n\n$\\frac{2x + 1}{3 - x} = \\frac{3}{4}$ has LCD $= 4(3 - x)$\n\n$\\therefore \\frac{4}{4} \\times \\left(\\frac{2x + 1}{3 - x}\\right) = \\frac{3}{4} \\times \\left(\\frac{3 - x}{3 - x}\\right)$ {to create a common denominator}\n\n$\\therefore 4(2x + 1) = 3(3 - x)$ {equating numerators}\n$\\therefore 8x + 4 = 9 - 3x$ {expanding the brackets}\n$\\therefore 8x + 4 + 3x = 9 - 3x + 3x$ {adding $3x$ to both sides}\n$\\therefore 11x + 4 = 9$\n$\\therefore 11x + 4 - 4 = 9 - 4$ {subtracting 4 from both sides}\n$\\therefore 11x = 5$\n$\\therefore x = \\frac{5}{11}$ {dividing both sides by 11}",
+      "source_images": ["image511.png"]
+    }
+  ]
+}

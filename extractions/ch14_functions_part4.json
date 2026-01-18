@@ -1,0 +1,142 @@
+{
+  "chapter": 14,
+  "part": 4,
+  "images_range": "1497-1541",
+  "items": [
+    {
+      "type": "example",
+      "content_latex": "Problem 16.11: Let $f(x)$ be the function $f(x) = 3x + 10$. For what value of $x$ does $f(f(x)) = x$? (Source: Mandelbrot)\n\nSolution for Problem 16.11: To solve the equation $f(f(x)) = x$, we must first find an expression for $f(f(x))$ in terms of $x$:\n\n$f(f(x)) = 3f(x) + 10 = 3(3x + 10) + 10 = 9x + 40$.\n\nWe therefore have $9x + 40 = x$, so $x = -5$. We can test this by evaluating $f(f(-5))$. We find that $f(f(-5)) = f(-5) = -5$, as desired.",
+      "source_images": ["image1497.png", "image1498.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "WARNING!! The expression $f^2(x)$ usually does not mean $f(x) \\cdot f(x)$. It typically means $f(f(x))$. Likewise, $f^n(x)$ means applying the function $f(x)$ exactly $n$ times; for example, $f^5(x) = f(f(f(f(f(x)))))$.",
+      "source_images": ["image1499.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 16.12: Let $f(x) = 3 - 2x$ and $g(f(x)) = 2x^3 - 3x + 5$. Find $g(7)$.\n\nSolution for Problem 16.12: What is wrong with this solution:\n\nBogus Solution: $g(7) = 2(7)^3 - 3(7) + 5 = 2(343) - 21 + 5 = 670$.\n\nThis solution assumes that $g(x) = 2x^3 - 3x + 5$; however, this is not necessarily true! We only know that when $f(x)$ is put into $g(x)$, the result is $2x^3 - 3x + 5$. While we can let $x = 7$ in $g(f(x)) = 2x^3 - 3x + 5$ to say\n\n$g(f(7)) = 2(7)^3 - 3(7) + 5 = 2(343) - 21 + 5 = 670$,\n\nwe can't simply put $x = 7$ in $2x^3 - 3x + 5$ to evaluate $g(7)$. We can only use the substitution $x = 7$ to evaluate $g(f(7))$.\n\nSince we know what comes out when we put $f(x)$ into $g(x)$, and we want to know what happens when we put 7 into $g(x)$, we need to figure out when $f(x) = 7$. This will tell us what $x$ to use in $g(f(x))$ to figure out $g(7)$. From $f(x) = 7$, we have\n\n$3 - 2x = 7$,\n\nfrom which we find $x = -2$. Now we can use our expression for $g(f(x))$:\n\n$g(7) = g(f(-2)) = 2(-2)^3 - 3(-2) + 5 = -16 + 6 + 5 = -5$.",
+      "source_images": ["image1500.png", "image1501.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "WARNING!! When working with functions, $f^{-1}$ does not mean $\\frac{1}{f}$! The expression $f^{-1}$ is a special notation that denotes the inverse of the function $f$.\n\nFunctions $f$ and $g$ are inverse functions of each other if and only if\n\n$g(f(x)) = x$ for all values of $x$ in the domain of $f$, and\n$f(g(x)) = x$ for all values of $x$ in the domain of $g$.\n\nIn other words, if $f$ is the inverse function of $g$, then $g$ is the inverse function of $f$.",
+      "source_images": ["image1502.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 16.14: Let $f(x) = 3x - 2$ and $g(x) = (x + 2)/3$.\n\n(a) What is $g(f(3))$? What is $g(f(6))$? What is $g(f(10))$?\n\n(b) In terms of $x$, what is $g(f(x))$?\n\n(c) In terms of $x$, what is $f(g(x))$? How are $f$ and $g$ related?\n\nSolution for Problem 16.14:\n\n(a) Since $f(3) = 7$, $f(6) = 16$, and $f(10) = 28$, we have\n\n$g(f(3)) = g(7) = (7 + 2)/3 = 3$,\n$g(f(6)) = g(16) = (16 + 2)/3 = 6$,\n$g(f(10)) = g(28) = (28 + 2)/3 = 10$.\n\nNotice that in each case, $g(f(x)) = x$.\n\n(b) The first part suggests that $g$ \"undoes\" $f$. In other words, if we a put a number into $f$ then feed the result to $g$, we'll get our original number back. We see if this works for all $x$ by feeding $f$ itself into $g$:\n\n$g(f(x)) = \\frac{f(x) + 2}{3} = \\frac{3x - 2 + 2}{3} = x$.\n\nSure enough, if we feed $x$ into $f$ then feed the result into $g$, we'll get $x$ back as the final result, no matter what $x$ we choose.\n\n(c) Feeding $g(x)$ into $f(x)$ gives\n\n$f(g(x)) = 3g(x) - 2 = 3\\left(\\frac{x + 2}{3}\\right) - 2 = x$.\n\nCombining this with the previous part, we have $g(f(x)) = f(g(x)) = x$, so $f$ and $g$ are inverses of each other.",
+      "source_images": ["image1503.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 16.15: Find the inverse of the function $f(x) = 2x - 9$.\n\nSolution for Problem 16.15: We wish to find the function $g$ such that\n\n$g(f(x)) = x$\n\nfor all $x$. We don't know much about $g$, so this equation is hard to work with - we don't know what to substitute $f(x)$ into, for example. However, we know that if $g$ is the inverse of $f$, then $f$ is the inverse of $g$. This gives us the equation\n\n$f(g(x)) = x$.\n\nThis equation is more helpful, because we know $f(x)$. Putting $g(x)$ into $f(x)$, we have $f(g(x)) = 2g(x) - 9$, so our equation is now\n\n$2g(x) - 9 = x$.\n\nImportant: Just as we can solve an equation for a variable, we can solve an equation for a function by isolating that function.\n\nWe isolate $g(x)$ by adding 9 to both sides, then dividing by 2. This gives us\n\n$g(x) = \\frac{x + 9}{2}$.\n\nWe can check our work by confirming that $f(g(x)) = g(f(x)) = x$. Therefore,\n\n$f^{-1}(x) = \\frac{x + 9}{2}$.",
+      "source_images": ["image1504.png", "image1505.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Important: If $f$ has an inverse $g$, then we can often find that inverse by solving the equation $f(g(x)) = x$ for $g(x)$.",
+      "source_images": ["image1506.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 16.16: The function $f$ is the inverse of the function $g(x) = \\frac{2x - 3}{x + 5}$. Find $f(4)$.\n\nSolution 1: Find the inverse. Since $f$ is the inverse of $g$, the function $g$ must also be the inverse of $f$, so\n\n$g(f(x)) = x$.\n\nSubstituting $f(x)$ into $g(x)$, we have\n\n$\\frac{2f(x) - 3}{f(x) + 5} = x$.\n\nWe can let $f(x) = y$ to prevent confusion:\n\n$\\frac{2y - 3}{y + 5} = x$.\n\nWe wish to isolate $y$. We start by getting rid of the fraction by multiplying both sides by $y + 5$:\n\n$2y - 3 = x(y + 5)$.\n\nExpanding the right side, then moving all the terms with $y$ in them to the left and terms without $y$ to the right gives\n\n$2y - xy = 5x + 3$.\n\nFactoring $y$ out of the left side gives $y(2 - x) = 5x + 3$, and dividing by $2 - x$ gives\n\n$f(x) = y = \\frac{5x + 3}{2 - x}$.\n\nTherefore, we have\n\n$f(4) = \\frac{5(4) + 3}{2 - 4} = -\\frac{23}{2}$.\n\nSolution 2: Use the meaning of inverse function. Since $f$ is the inverse of $g$, we know that\n\n$f(g(x)) = x$\n\nfor all $x$, so $f(g(k)) = k$. If $g(k) = 4$, then we have $f(g(k)) = f(4)$. Putting this together with $f(g(k)) = k$ gives $f(4) = f(g(k)) = k$. Therefore, we can solve $g(k) = 4$ for $k$ to find $f(4)$:\n\n$g(k) = \\frac{2k - 3}{k + 5} = 4$.\n\nMultiplying both sides by $k + 5$ gives $2k - 3 = 4(k + 5)$. Solving this equation gives $k = -23/2$.",
+      "source_images": ["image1507.png", "image1508.png", "image1509.png", "image1510.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercises\n\n16.1.1 Consider the function $g(x) = 3x - 4$. What is $g(0)$? For what value of $a$ is $g(a) = 0$?\n\n16.1.2 State whether each of the following describes a function or not.\n\n(a) Input: Name of a United States President. Output: Date of birth of that President.\n\n(b) Input: Address of a house. Output: Name of a person who lives in the house.\n\n(c) Input: A positive integer. Output: Sum of the digits of the integer.",
+      "source_images": ["image1511.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "16.1.3 Consider the function $g(x) = 3$.\n\n(a) Find $g(2)$.\n\n(b) Find $g(-7)$.\n\n(c) What is the domain of $g$?\n\n(d) What is the range of $g$?\n\n16.1.4 Consider the function $f(x) = 2x^2 - 4x + 9$.\n\n(a) Evaluate $2f(3) + 3f(-3)$.\n\n(b) What is the domain of $f$?\n\n(c) What is the smallest possible value of $f(x)$? Hints: 100\n\n(d) What is the range of $f$?\n\n16.1.5 Consider the functions $f(x) = \\frac{x^2 - 1}{x + 1}$ and $g(x) = x - 1$.\n\n(a) Find $f(2)$ and $g(2)$.\n\n(b) Find $f(7)$ and $g(7)$.\n\n(c) Is there any value of $x$ that is in the domains of both $f$ and $g$ such that $f(x)$ and $g(x)$ are not equal?\n\n(d) Are $f$ and $g$ the same function? Why or why not?\n\n16.1.6 Let $a$ and $b$ be real numbers. The function $h(x) = ax + b$ satisfies $h(1) = 5$ and $h(-1) = 1$. What is $h(6)$?\n\n16.1.7 Let $f$ be the function defined by $f(x, y) = x^2 + 4x + y^2 + 5$.\n\n(a) Find $f(2, -3) + f(0, 5)$.\n\n(b)$\\star$ What is the smallest possible value of $f(x, y)$?\n\n16.1.8 On rare occasions, a function will be defined by explicitly assigning an output for each input. Usually this is done as a list of ordered pairs, where the first number in each pair is the input and the second is the output. Suppose the function $f$ is defined by the following list of ordered pairs:\n\n$\\{(2, 3); (4, -2); (5, -3); (6, 2)\\}$.\n\nSo, for example, $f(2) = 3$. We could also define this function using a table, as shown at right above.\n\n(a) What is $f(5)$?\n\n(b) What is the domain of $f$?\n\n(c) What is the range of $f$?",
+      "source_images": ["image1512.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercises\n\n16.2.1 Let $f(x) = x^2 - 3$ and $g(x) = x + 3$.\n\n(a) Let $s(x) = f(x) + 2g(x)$. Is $s$ a function?\n\n(b) Let $p$ and $q$ be functions. Let $r(x) = p(x) + 2q(x)$. Is $r$ a function?\n\n16.2.2 Let $f(x) = \\sqrt{x}$ and $g(x) = \\sqrt{x - 4}$.\n\n(a) Let $s = f + g$. What is the domain of $s$?\n\n(b) Let $p = f \\cdot g$. Note that $\\sqrt{x} \\sqrt{x - 4} = \\sqrt{x^2 - 4x}$. Is $\\sqrt{x^2 - 4x}$ defined when $x = -4$? Is $-4$ in the domain of $p$?\n\n(c) Find the domain of $p$.",
+      "source_images": ["image1513.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercises\n\n16.3.1 Let $f(x) = x + 3$ and $g(x) = 3x + 5$. Find $f(g(4)) - g(f(4))$.\n\n16.3.2 Let $f(x) = 5x^2 - 5$. What is $f(f(x))$?\n\n16.3.3 Let $f(g(x)) = 3x + 3$ and $f(x) = x + 6$. If $g(x) = ax + b$, compute $a + b$. (Source: ARML)\n\n16.3.4 Let $f(x) = 2x - 3$ and $g(f(x)) = 5 - 4x$. Find $g(4)$.",
+      "source_images": ["image1514.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercises\n\n16.4.1 If $f$ is a function that has an inverse and $f(3) = 5$, what is $f^{-1}(5)$?\n\n16.4.2 Find the inverse of each of the following functions, if it exists. If the function does not have an inverse, explain why.\n\n(a) $f(x) = 3x + 2$\n\n(b) $f(x) = 13$\n\n(c) $f(x) = \\frac{4x - 5}{x - 4}$\n\n(d) $f(x) = 2x^2 + 3$\n\n(e) $f(x) = x^3$\n\n(f) $f(x) = \\frac{1}{2x}$\n\n16.4.3$\\star$ For what values of $a$ is the function $f(x) = \\frac{x}{x - a}$ its own inverse?\n\n16.4.4$\\star$ In one step of our first solution to Problem 16.16, we divide by $2 - x$. This is only valid if $x \\neq 2$. Why can we be sure that $x$ cannot be equal to 2? Hints: 179",
+      "source_images": ["image1515.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 16.18: If $f(x - 3) = 9x^2 + 2$, what is $f(5)$?\n\nSolution 1: Find the correct $x$. One way to find $f(5)$ is to find the $x$ that allows us to input 5 into $f$ using the definition of $f(x - 3)$. Solving $x - 3 = 5$ gives $x = 8$. If we let $x = 8$ in our function definition, we find\n\n$f(8 - 3) = 9(8^2) + 2$,\n\nfrom which we get $f(5) = 578$.\n\nSolution 2: Find $f(x)$. We can turn $f(x-3)$ into $f(x)$ by choosing the proper expression for $x$. Specifically, if we let $z = x - 3$, we have $x = z + 3$. Substituting this into our function definition, we have\n\n$f(z + 3 - 3) = 9(z + 3)^2 + 2$,\n\nso $f(z) = 9(z + 3)^2 + 2$. The $z$ is just a dummy variable, so we can freely change it to whatever letter we want, like $x$:\n\n$f(x) = 9(x + 3)^2 + 2$.\n\nSo, $f(5) = 9(5 + 3)^2 + 2 = 578$, as before.",
+      "source_images": ["image1516.png", "image1517.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Equations involving functions such as $f(x - 3) = 9x^2 + 2$ are sometimes called functional equations. As we have seen, when we substitute for variables in a functional equation, we must be careful to substitute properly for that variable everywhere.",
+      "source_images": ["image1518.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 16.19: Let $f$ be a function for which $f(x/3) = x^2 + x + 1$. Find the sum of all values of $z$ for which $f(3z) = 7$. (Source: AMC 12)\n\nSolution for Problem 16.19: In order to turn $f(3z) = 7$ into an equation for $z$, we must find an expression for $f(3z)$. We have an expression for $f(x/3)$, so if we turn $x/3$ into $3z$, we'll have the desired $f(3z)$. If $x/3 = 3z$, then $x = 9z$. Substituting $x = 9z$ into\n\n$f(x/3) = x^2 + x + 1$\n\ngives\n\n$f(9z/3) = (9z)^2 + 9z + 1$,\n\nso $f(3z) = 81z^2 + 9z + 1$. Therefore, the equation $f(3z) = 7$ becomes\n\n$81z^2 + 9z + 1 = 7$,\n\nso $81z^2 + 9z - 6 = 0$. The sum of the roots of this quadratic is $-(9/81) = -1/9$.",
+      "source_images": ["image1519.png", "image1520.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 16.20: Daesun starts counting at 100, and he counts by fours: 100, 104, 108, .... Andrew starts counting at 800, and he counts backwards by three: 800, 797, 794, .... They both start counting at 1 PM, and say one number each minute. What time is it when Daesun first says a number that is more than twice the number Andrew says?\n\nSolution for Problem 16.20: In order to compare Daesun's number to Andrew's, we need an expression for each in terms of the time. So, we define a function, $D(x)$, for Daesun, and a function, $A(x)$, for Andrew:\n\nLet $D(x)$ be Daesun's number $x$ minutes after 1 PM.\nLet $A(x)$ be Andrew's number $x$ minutes after 1 PM.\n\nSince Daesun starts at 100 and counts up by fours, we have\n\n$D(x) = 100 + 4x$.\n\nSince Andrew starts a 800 and counts down by threes, we have\n\n$A(x) = 800 - 3x$.\n\nWe seek the first time such that\n\n$D(x) > 2A(x)$.\n\nOur expressions for $D(x)$ and $A(x)$ give us\n\n$100 + 4x > 2(800 - 3x)$.\n\nSolving this inequality gives us $x > 150$. The smallest such $x$ is 151, so the first time Daesun says a number that is more than twice Andrew's number is 151 minutes after 1 PM, or 3:31 PM.",
+      "source_images": ["image1521.png", "image1522.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 16.21: A function $f$ defined for all positive integers has the property that $f(m) + f(n) = f(mn)$ for any positive integers $m$ and $n$. If $f(2) = 7$ and $f(3) = 10$, then calculate $f(12)$. (Source: Mandelbrot)\n\nSolution for Problem 16.21: We start by experimenting with the information we have. From the equation\n\n$f(m) + f(n) = f(mn)$,\n\nwe see that if we know $f(m)$ and $f(n)$, then we know $f(mn)$. Since we know $f(2)$ and $f(3)$, we know $f(6)$:\n\n$f(6) = f(2) + f(3) = 17$.\n\nWe want $f(12)$. Since $12 = 2 \\cdot 6$ and we know both $f(2)$ and $f(6)$, we can find $f(12)$:\n\n$f(12) = f(2) + f(6) = 7 + 17 = 24$.\n\nSee if you can find another solution by first finding $f(4)$.",
+      "source_images": ["image1523.png", "image1524.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 16.22: The function $f$ has the property that, whenever $a$, $b$, and $n$ are positive integers such that $a + b = 2^n$, then $f(a) + f(b) = n^2$. What is $f(2002)$? (Source: HMMT)\n\nSolution for Problem 16.22:\n\nConcept: Start experimenting with functional equations by trying simple values like 0 and 1.\n\nWe choose simple values of $a$, $b$, and $n$ that satisfy\n\n$a + b = 2^n$.\n\nThe simplest is $a = 1$, $b = 1$, and $n = 1$. Since $1 + 1 = 2^1$, we are told that\n\n$f(1) + f(1) = 1^2$.\n\nTherefore, $f(1) = 1^2/2 = 1/2$. We found one value of $f(m)$! But we're still pretty far from finding $f(2002)$. However, this simple example suggests a way to find some more values for $f(m)$. Since $2 + 2 = 2^2$, we have\n\n$f(2) + f(2) = 2^2 = 4$.\n\nSo, $f(2) = 2^2/2 = 2$. Similarly, $4 + 4 = 2^3$, so\n\n$f(4) + f(4) = 3^2 = 9$,\n\nand $f(4) = 3^2/2 = 9/2$. In this same way, we find $f(8) = 4^2/2 = 8$, $f(16) = 5^2/2 = 25/2$, and so on. We can prove that this pattern always works. For each power of 2, we have\n\n$2^k + 2^k = 2 \\cdot 2^k = 2^{k+1}$.\n\nTherefore,\n\n$f(2^k) + f(2^k) = (k + 1)^2$,\n\nso $f(2^k) = (k + 1)^2/2$.\n\nBut how do we find $f(m)$ if $m$ is not a power of 2? Let's try experimenting again by trying to find $f(3)$. We must have $a + 3 = 2^n$ in order to be able to use $f(a) + f(3) = n^2$ to find $f(3)$. Furthermore, we must know $f(a)$, since we can't let $a = 3$. Fortunately, $a = 1$ fits the bill: $1 + 3 = 2^2$, so\n\n$f(1) + f(3) = 2^2 = 4$.\n\nWe already have $f(1) = 1/2$, so $f(3) = 4 - f(1) = 7/2$.\n\nBut how does this help with $f(2002)$? It gives us some guidance: we see that we need a number $a$ such that $a + 2002 = 2^n$. The smallest such number is 46:\n\n$46 + 2002 = 2^{11}$.\n\nSo, we know that $f(46) + f(2002) = 11^2 = 121$, from which we have\n\n$f(2002) = 121 - f(46)$.\n\nUnfortunately, we don't know $f(46)$. However, if we find $f(46)$, then we can find $f(2002)$, so we've reduced our problem from finding $f(2002)$ to finding $f(46)$. This appears to be a simpler problem.\n\nWe investigate $f(46)$ just as we investigated $f(2002)$. Since $46 + 18 = 2^6$, we have $f(46) + f(18) = 6^2 = 36$, so\n\n$f(46) = 36 - f(18)$,\n\nand we've reduced our problem to finding $f(18)$. This is promising, so we continue.\n\nSince $18 + 14 = 2^5$, we have $f(18) + f(14) = 25$, so $f(18) = 25 - f(14)$.\n\nSince $14 + 2 = 2^4$, we have $f(14) + f(2) = 4^2 = 16$, so $f(14) = 16 - f(2)$. But we already know $f(2) = 2$! We have $f(14) = 16 - 2 = 14$. Now we can work back through our equations above to find $f(2002)$.\n\nWe have $f(18) = 25 - f(14) = 11$, so $f(46) = 36 - f(18) = 25$, so $f(2002) = 121 - f(46) = 96$.\n\nThis problem highlighted two of the most important problem solving strategies: experimentation and working backwards. Try them on the following problems whenever you get stuck.",
+      "source_images": ["image1525.png", "image1526.png", "image1527.png", "image1528.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 16.23: For real numbers $x$ and $y$, define\n\n$x \\spadesuit y = (x + y)(x - y)$.\n\nWhat is $3 \\spadesuit (4 \\spadesuit 5)$? (Source: AMC 12)\n\nSolution for Problem 16.23: The parentheses tell us to compute $4 \\spadesuit 5$ first:\n\n$4 \\spadesuit 5 = (4 + 5)(4 - 5) = -9$.\n\nSo, we have\n\n$3 \\spadesuit (4 \\spadesuit 5) = 3 \\spadesuit (-9) = [3 + (-9)][3 - (-9)] = (-6)(12) = -72$.",
+      "source_images": ["image1529.png", "image1530.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 16.24: Define $a \\# b = ab - a + b - 8$ for all real numbers $a$ and $b$. If $x \\# 3 = 37$, then what is $x$? (Source: MATHCOUNTS)\n\nSolution for Problem 16.24: To solve $x \\# 3 = 37$, we first write an expression for $x \\# 3$:\n\n$x \\# 3 = (x)(3) - x + 3 - 8 = 2x - 5$.\n\nSo, we now have the equation $2x - 5 = 37$, which gives us $x = 21$.\n\nJust as with functions, the key is to not get intimidated by the notation. The notation is simply a way to provide substitution rules.",
+      "source_images": ["image1531.png", "image1532.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercises\n\n16.5.1 Let $g(2x + 5) = 4x^2 - 3x + 2$. Find $g(-3)$.\n\n16.5.2 Alice and Bob go for a run in the local park. Alice runs at 3 m/s. Bob starts from the same point as Alice, but he starts 20 seconds after Alice. Bob runs at a rate of 5 m/s.\n\n(a) Let $t$ be the number of seconds that have elapsed since Bob started running. Find functions describing Alice's and Bob's distance in meters from Bob's starting position in terms of $t$.\n\n(b) How many seconds after Bob starts running has he run 50% farther than Alice?\n\n16.5.3 If $f(2x) = \\frac{2}{2 + x}$ for all $x > 0$, then what is $2f(x)$? (Source: AHSME)\n\n16.5.4 Let $P(n)$ and $S(n)$ denote the product and the sum, respectively, of the digits of the integer $n$. For example, $P(23) = 6$ and $S(23) = 5$. Suppose $N$ is a two-digit number such that $N = P(N) + S(N)$. What is the units digit of $N$? (Source: AMC 12) Hints: 155\n\n16.5.5$\\star$ A function $f(x, y)$ of two variables has the property that\n\n$f(x, y) = x + f(x - 1, x - y)$.\n\nIf $f(1, 0) = 5$, then what is the value of $f(5, 2)$? (Source: Mandelbrot) Hints: 191",
+      "source_images": ["image1533.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercises\n\n16.6.1 Let $m \\& n = \\frac{m}{n} + \\frac{n}{m}$ for all integers $m, n \\neq 0$. What is the value of $5 \\& 8$? (Source: MATHCOUNTS)\n\n16.6.2 The operation $\\star$ is defined for non-zero integers as follows: $a \\star b = \\frac{1}{a} + \\frac{1}{b}$. If $a + b = 9$ and $ab = 20$, what is the value of $a \\star b$? (Source: MATHCOUNTS)\n\n16.6.3 Define the operation \"$\\odot$\" by $x \\odot y = 4x - 3y + xy$, for all real numbers $x$ and $y$. For how many real numbers $y$ does $3 \\odot y = 12$? (Source: AHSME)\n\n16.6.4 Define $x \\otimes y = x^3 - y$. Simplify $h \\otimes (h \\otimes h)$. (Source: AMC 12)\n\n16.6.5 If $a @ b = \\frac{a^3 - b^3}{a - b}$, then for how many real values of $a$ does $a @ 1 = 0$? (Source: HMMT)",
+      "source_images": ["image1534.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW PROBLEMS\n\n16.25 State whether each of the following describes a function.\n\n(a) Input: A magazine. Output: The number of pages in the magazine.\n\n(b) Input: The name of a soccer team. Output: The name of a player on the team.\n\n16.26 Let $r(x) = x^2 - x + 14$. Find all values of $a$ such that $r(a) = 20$.\n\n16.27 Let $f(x) = 3\\sqrt{2x - 7} - 8$.\n\n(a) Find $f(8)$.\n\n(b) Find the domain of $f$.\n\n(c) Find the range of $f$.",
+      "source_images": ["image1535.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "16.28 The function $f$ is defined by $f(x) = \\frac{x + 2}{x - 2}$.\n\n(a) Find $f(3)$.\n\n(b) Find the domain of $f$.\n\n(c) Find the range of $f$.\n\n16.29 Let $f(x) = x + 6$ and $g(x) = \\sqrt{x + 6}$. Suppose $h = f/g$. Is $-6$ in the domain of $h$? Why or why not?\n\n16.30 If $f(x) = 2x$ and $g(x) = x + 1$, find $g(f(g(f(1))))$.\n\n16.31 Let $p(x) = 2x - 7$ and $q(x) = 3x - b$. If $p(q(4)) = 7$, what is $b$?\n\n16.32 Let $f(x) = x + 5$. Find $f^{19}(8)$.\n\n16.33 Let $f(x) = 3x - 8$ and $g(f(x)) = 2x^2 + 5x - 3$. Find $g(-5)$.\n\n16.34 Does the function $f(x) = 4 - 5x$ have an inverse? If so, what is it?\n\n16.35 Does the function $f(x) = 3x^2 + 5$ have an inverse? If so, what is it?\n\n16.36 If $f(x) = 3x - 8$, what is $f^{-1}(3)$?\n\n16.37 Let $f$ be a function. The fixed points of $f$ are those values of $x$ for which $f(x) = x$. For example, in Problem 16.11, we found that the value of $x = -5$ is a fixed point of $f(x) = 3x + 10$ because $f(-5) = -5$.\n\n(a) If $f(x) = 3x + 10$, then what is $f(f(f(-5)))$? What about $f(f(f(f(-5))))$? Do you see why we call a fixed point \"fixed\"?\n\n(b) Let $g(x) = x^2 - 6$. Find all fixed points of $g$.\n\n(c) Suppose $f(x) = ax + b$, where $a$ and $b$ are constants with $a \\neq 1$. Find all fixed points of $f$ in terms of $a$ and $b$.\n\n16.38 Consider the function $f(x) = \\frac{x + 1}{x + 1}$. Is this function the same as the function $g(x) = 1$? What is the domain of $f$? What is the domain of $g$?\n\n16.39 Let $a \\oplus b = 3a + 4b$ for all real numbers $a$ and $b$. Find $3 \\oplus 1$.\n\n16.40 Let $x \\star y = \\sqrt{x^2 + y^2}$. Find all values of $t$ such that $2t \\star t = 15$.\n\n16.41 Let $f(x - 9) = 2x + 7$. Find $f(x)$.\n\n16.42 Suppose $h(2z + 3) = \\frac{5 - 2z}{4 + z}$.\n\n(a) Find $h(-9)$.\n\n(b) Find $h(z)$.\n\n(c) Find $h^{-1}(4)$.\n\n16.43 Let $f(x)$ be a function such that $f(0) = 2$ and with the two properties:\n\n(i) $f(0) = 2$,\n\n(ii) for any two real numbers $x$ and $y$, $f(x + y) = x + f(y)$.\n\nWhat is the value of $f(1998)$? (Source: AHSME)",
+      "source_images": ["image1536.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Challenge Problems\n\n16.44 If $f(x) = ax^4 - bx^2 + x + 5$ and $f(-3) = 2$, then what is $f(3)$? (Source: AHSME)\n\n16.45 Let $f(x) = 3x^2 - 7$ and $g(f(4)) = 9$. What is $g(f(-4))$? Hints: 186\n\n16.46 Let $g(x) = 2x - \\frac{6}{x}$. Find all $a$ such that $g(a) = -4$.\n\n16.47 Let $f$ be the function that is defined by $f(x) = ax^2 - \\sqrt{2}$ for some positive real number $a$. If $f(f(\\sqrt{2})) = -\\sqrt{2}$, what is $a$? (Source: AHSME)\n\n16.48 Let $f(x) = 1 - \\frac{1}{x}$.\n\n(a) Find $f(f(x))$.\n\n(b) Find $f(f(f(x)))$.\n\n(c) Find $f(f(f(f(x))))$.\n\n(d) Find $f^{34}(5)$. Hints: 31\n\n16.49 An operation is commutative if reversing any two inputs to the operation doesn't change the output of the operation, no matter what the two inputs are. For example, we have seen that addition and multiplication are commutative because $x + y = y + x$ and $x \\cdot y = y \\cdot x$ for any $x$ and $y$.\n\n(a) Is $\\star$ commutative if $x \\star y = \\sqrt{x^2 + y^2}$?\n\n(b) Is $\\odot$ commutative if $x \\odot y = x^2 - y^2$?\n\n(c) Is $\\spadesuit$ commutative if $x \\spadesuit y = xy + x + y$?\n\n(d)$\\star$ Suppose the operations $\\clubsuit$ and $\\heartsuit$ are commutative, and $x \\diamond y = (x \\clubsuit y) \\heartsuit (y \\clubsuit x)$. Is $\\diamond$ commutative?\n\n16.50 Does the function $f(x) = 3x^2 + 6x + 5$ have an inverse? If so, what is it? Hints: 53\n\n16.51 Let $f(x) = \\frac{x}{1 - x}$.\n\n(a) Find $f(f(x))$.\n\n(b) Find $f(f(f(x)))$.\n\n(c) Find $f(f(f(f(x))))$.\n\nDo you see a pattern? Challenge: can you prove the pattern continues? Hints: 178\n\n16.52$\\star$ Let $F$ be a function having the property that $F(x + 1) = F(x) + F(x - 1)$ for every integer $x$. If $F(1) = F(4) = 1$, compute $F(10)$. Hints: 107\n\n16.53$\\star$ Let $f$ be a function satisfying $f(xy) = f(x)/y$ for all positive real numbers $x$ and $y$. If $f(500) = 3$, what is the value of $f(600)$? (Source: AMC 12)\n\n16.54$\\star$ Let $f(x) = 3 - 2x$ and $g(f(x)) = 2x^2 - 3x + 5$. Find $g(x)$. Hints: 198\n\n16.55$\\star$ A function $f$ takes as input a pair of real numbers and outputs an ordered pair of real numbers as follows: $f(x, y) = (x + y, x - y)$. Does $f$ have an inverse? If so, what is it? Hints: 86\n\n16.56$\\star$ Show that for any two functions $f$ and $g$ with inverses $f^{-1}$ and $g^{-1}$, the inverse of $f \\circ g$ is $g^{-1} \\circ f^{-1}$. Hints: 119",
+      "source_images": ["image1537.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "16.57$\\star$ The function $f(x)$ is not defined for $x = 0$. It has the property that for all non-zero real numbers $x$,\n\n$f(x) + 2f\\left(\\frac{1}{x}\\right) = 3x$.\n\nFind all values of $a$ such that $f(a) = f(-a)$. (Source: AHSME) Hints: 148",
+      "source_images": ["image1538.png"]
+    }
+  ]
+}

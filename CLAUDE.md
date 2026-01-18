@@ -1,228 +1,219 @@
 # QuestionBank 项目规范
 
-> 本文档供 AI 助手使用，定义了数据格式规范和质量标准。
+> **⚠️ 强制要求**: 以下情况**必须**检查并更新 CLAUDE.md：
+> 1. 每次 `git commit` 之前
+> 2. 用户说 "exit" / "quit" / "结束" / "bye" 等退出意图时
+> 3. 长时间工作后（即使未 commit）
+>
+> **检查清单**:
+> - [ ] 当前状态（章节进度、数据库统计）是否需要更新？
+> - [ ] 是否有新的踩坑记录需要补充？
+
+## 项目概述
+
+**QuestionBank** 是 IB/IGCSE 数学题库系统。从 Word 文档图片提取数学题目，存入 Supabase，通过 Web 展示。
+
+### 线上地址
+
+- **网站**: https://web-plum-zeta-69.vercel.app
+- **Supabase**: https://orfxntmcywouoqpasivm.supabase.co
+
+## 当前状态 (2026-01-19)
+
+### 章节进度
+
+| 章节 | 状态 | 备注 |
+|------|------|------|
+| ch01 | ✅ 已完成 | Algebra, 194 张图, 218 items |
+| ch02 | ✅ 已完成 | Expansion and Factorisation, 48 张图, 41 items |
+| ch03 | ✅ 已完成 | Simplifying algebraic fractions, 46 张图, 39 items |
+| ch04 | ✅ 已完成 | Expansion of radical expressions, 16 张图, 14 items |
+| ch05 | ✅ 已完成 | Factorization, 177 张图, 171 items |
+| ch06 | ✅ 已完成 | Solving equations, 114 张图, 114 items |
+| ch07 | ✅ 已完成 | Problem solving with algebra, 133 张图, 108 items |
+| ch08 | ✅ 已完成 | Simultaneous equations, 101 张图, 74 items |
+| ch09 | ✅ 已完成 | Inequalities, 54 张图, 35 items |
+| ch10 | ✅ 已完成 | Straight line, 93 张图, 91 items |
+| ch11 | ✅ 已完成 | Quadratic function, 202 张图, 192 items |
+| ch12-ch33 | ⏳ 待提取 | 需处理 |
+
+### 数据库统计
+
+- **chapters**: 33 行
+- **images**: 1178 行 (ch01-11 已导入)
+- **items**: 1097 行
+- **questions**: 1097 行
+
+### 踩坑记录
+
+- **images.order_index**: 2026-01-19 添加该列，导入脚本需要此字段排序图片
+- **API 100 图片限制**: 2026-01-19 发现。每个 session 累计读取图片不能超过 100 张，否则报错 `Too much media: N images > 100`。图片读取后累积在 context 中，写完 JSON 也不会清除。
+
+### Skill 修改记录
+
+**2026-01-19** - 多次优化 `questionbank-chapter-processor` skill：
+
+1. **Task 子 agent 自动分批**
+   - 每个子 agent 独立 context，图片计数不累积
+   - 大章节自动分批（每批 ≤80 张），并行处理
+   - ch07 (133张) 首次使用成功
+
+2. **平均分配优化**
+   - 改用平均分配代替固定 80 张/批
+   - 最多 4 个并行 agent，最小批次 30 张
+
+3. **自动批次计算**
+   - 支持 "从 chN 开始一批" 命令
+   - 自动累加图片数，≤300 张为一批
+   - 大章节 (>150张) 单独处理
+
+**Skill 路径**: `~/.claude/skills/questionbank-chapter-processor/skill.md`
+
+**下一批**: 从 ch12 开始 → ch12-ch13 (180张)，ch14 是大章节单独处理
 
 ---
 
-## Schema 规范
+## 项目结构
 
-### 支持的 Schema 类型
-
-项目中有 **10 种 Schema** 用于组织数学题库内容：
-
-| Schema | 数量 | 顶层结构 | 说明 |
-|--------|------|----------|------|
-| `items_flat` | 7 | `{ items: [...] }` | 平铺 items 列表 |
-| `subsections_items` | 6 | `{ subsections: [{ items: [...] }] }` | 子节包含 items |
-| `subsections_content` | 9 | `{ subsections: [{ content: [...] }] }` | 子节包含 content |
-| `sections` | 17 | `{ sections: [{ content: [...] }] }` | 章节包含 content |
-| `categorized` | 3 | `{ concepts, examples, exercises }` | 按类型分类 |
-| `extractions` | 3 | `{ extractions: [...] }` | 提取内容列表 |
-| `content_root` | 18 | `{ content: [...] }` | 根级 content 数组 |
-| `extracted_content` | 2 | `{ extracted_content: [...] }` | 提取内容 |
-| `topics` | 1 | `{ topics: [...] }` | 主题列表 |
-| `questions` | 1 | `{ questions: [...] }` | 问题列表 |
-
-### 通用字段
-
-```typescript
-interface BaseItem {
-  type: "concept" | "example" | "exercise" | "definition" | "investigation";
-  content_latex?: string;      // LaTeX 格式内容 (items_flat)
-  content?: string;            // 纯文本内容 (sections/subsections)
-  latex?: string | string[];   // LaTeX 公式
-  source_images?: string[];    // 源图片引用
-  image?: string;              // 单张图片引用
-}
+```
+QuestionBank/
+├── chapter_image_ranges.json       # 章节图片范围 (ch01-ch33)
+├── extractions/                    # 提取的 JSON 文件
+├── docx_extracted/word/media_compressed/  # 源图片
+├── scripts/
+│   ├── import-chapter.cjs          # 章节导入脚本
+│   └── scan_format_issues.cjs      # 格式检查
+├── web/                            # Next.js 前端 (Vercel)
+└── .env                            # Supabase 密钥
 ```
 
-### items_flat Schema
+## 章节处理流程
+
+使用 `questionbank-chapter-processor` skill:
+
+```
+"提取 ch02" 或 "process chapter 2"
+```
+
+自动执行:
+1. 读取 chapter_image_ranges.json 获取图片范围
+2. 分 part 读图提取内容 → JSON
+3. 运行 `node scripts/import-chapter.cjs --ch=N`
+4. 上传图片 + 导入数据库
+
+验证: https://web-plum-zeta-69.vercel.app
+
+---
+
+## Schema: items_flat (标准格式)
 
 ```json
 {
-  "chapter": 1,
+  "chapter": 2,
   "part": 1,
-  "images_range": "1-40",
+  "images_range": "195-224",
   "items": [
     {
       "type": "example",
-      "content_latex": "Example 1\\n\\nWrite in product notation:\\n\\na $t \\times 6s$",
-      "source_images": ["image1.png"]
+      "content_latex": "Example 1\n\nExpand:\n\n(a) $3(x+2)$\n\nSolutions:\n\n(a) $3x+6$",
+      "source_images": ["image195.png"]
     }
   ]
 }
 ```
 
-### sections Schema
+### 字段说明
 
-```json
-{
-  "chapter": "12",
-  "title": "Sets",
-  "sections": [
-    {
-      "section": "Set Notation",
-      "images": ["image1179.png"],
-      "content": [
-        {
-          "type": "concept",
-          "content": "The objects in a set are called elements.",
-          "latex": ["\\in \\text{ means 'is a member of'}"]
-        }
-      ]
-    }
-  ]
-}
-```
+| 字段 | 类型 | 说明 |
+|------|------|------|
+| type | string | concept / example / exercise / definition / investigation |
+| content_latex | string | 完整内容，LaTeX 格式 |
+| source_images | string[] | 源图片文件名 |
+
+### 题号格式
+
+| Level | Format | Example |
+|-------|--------|---------|
+| Main | `1.` | `1. Simplify:` |
+| Sub | `(a)` | `(a) $x^2$` |
+| Sub-sub | `(i)` | `(i) $\frac{1}{2}$` |
 
 ---
 
-## LaTeX 格式规范
+## LaTeX 规范
 
-### 行内公式
+### 公式
 
-使用 `$...$` 包裹：
-
-```latex
-a $t \times 6s$
-```
-
-### 多行公式
-
-使用 `\n` 换行，保持 `$...$` 包裹每个独立公式：
-
-```latex
-Solutions:\n\na $t \times 6s = 6st$\n\nb $4 \times k + m \times 3 = 4k + 3m$
-```
+- 行内: `$...$`
+- 换行: 用 `\n`（JSON 中的实际换行）
 
 ### 常用符号
 
-| 符号 | LaTeX | 示例 |
-|------|-------|------|
-| 乘号 | `\times` | $3 \times 4$ |
-| 分数 | `\frac{a}{b}` | $\frac{1}{2}$ |
-| 幂 | `^` | $x^2$ |
-| 下标 | `_` | $a_n$ |
-| 根号 | `\sqrt{}` | $\sqrt{x}$ |
-| 不等号 | `\neq`, `\leq`, `\geq` | $x \neq 0$ |
-| 属于 | `\in`, `\notin` | $x \in A$ |
-| 集合 | `\{...\}` | $\{1, 2, 3\}$ |
-| 省略号 | `\ldots` | $1, 2, \ldots$ |
-| 空集 | `\varnothing` | $\varnothing$ |
+| 符号 | LaTeX |
+|------|-------|
+| × | `\times` |
+| ÷ | `\div` |
+| 分数 | `\frac{a}{b}` |
+| 根号 | `\sqrt{x}` |
+| 集合 | `\{1,2,3\}` |
 
-### 避免的格式
+### 禁止
 
-❌ **Markdown 加粗**：`**text**` → 会被误判为格式污染
-✅ 使用纯文本或 LaTeX `\textbf{}`
+- `**markdown 加粗**` → 格式污染
+- `\\n` → 会显示为字面 `\n`
 
 ---
 
-## 质量检查清单
+## Supabase
 
-### 文件级检查
+- **Project ID**: `orfxntmcywouoqpasivm`
+- **Tables**: chapters, images, items, questions
+- **Storage**: `question-images/algebra/`
 
-```javascript
-const PASS = (
-  JSON.parse(content) !== null &&           // JSON 有效
-  hasItems(data) &&                          // 有内容
-  !hasAsteriskPollution(content) &&          // 无 ** 污染
-  hasValidLatex(data)                        // LaTeX 格式正确
-);
+### 导入脚本
+
+```bash
+node scripts/import-chapter.cjs --ch=N [options]
+
+选项:
+  --clear         清除已有数据
+  --images-only   仅上传图片
+  --data-only     仅导入数据
+  --dry-run       预览模式
 ```
 
-### 内容检查规则
-
-1. **JSON 有效性**
-   - 能被 `JSON.parse()` 解析
-   - 常见错误：坐标点 `(-2, 1)` 应为 `[-2, 1]`
-
-2. **星号污染检测**
-   ```javascript
-   const HAS_ASTERISK = /\*\*[^*]+\*\*/.test(content);
-   // 清理方法
-   content.replace(/\*\*([^*]+)\*\*/g, '$1');
-   ```
-
-3. **内容完整性**
-   - `content_latex` 或 `content` 字段非空
-   - 检查所有 items/content 数组元素
-
-4. **章节匹配**
-   - 文件名章节号 === 内容中 chapter 字段
+从 `.env` 读取 `SUPABASE_ANON_KEY`。
 
 ---
 
-## 踩坑经验
-
-### JSON 格式错误
-
-| 错误 | 原因 | 修复 |
-|------|------|------|
-| `[(-2, 1)]` | 坐标点不是有效 JSON | `[[-2, 1]]` |
-| 尾随逗号 | JSON 不允许 | 删除最后的 `,` |
-| 单引号 | JSON 只接受双引号 | `'` → `"` |
-
-### 星号污染
-
-Claude 提取时可能生成 `**加粗文字**`，需要清理：
-
-```javascript
-// 检测
-/\*\*[^*]+\*\*/.test(content)
-
-// 清理
-content.replace(/\*\*([^*]+)\*\*/g, '$1')
-```
-
-### Schema 识别
-
-不同文件使用不同 schema，检测顺序：
-
-```javascript
-if (data.items && !data.subsections && !data.sections) → items_flat
-if (data.subsections?.[0]?.items) → subsections_items
-if (data.subsections?.[0]?.content) → subsections_content
-if (data.sections) → sections
-if (data.concepts && data.examples) → categorized
-if (data.extractions) → extractions
-if (data.content && !data.items) → content_root
-if (data.extracted_content) → extracted_content
-if (data.topics) → topics
-if (data.questions) → questions
-```
-
-### 内容字段差异
-
-| Schema | 内容字段 | 备注 |
-|--------|----------|------|
-| items_flat | `content_latex` | 包含完整 LaTeX |
-| sections | `content` + `latex` | 分离存储 |
-| subsections_content | `content` | 可能无 LaTeX |
-
----
-
-## 文件命名规范
-
-```
-ch{NN}_{topic}_part{N}.json
-```
-
-示例：
-- `ch01_algebra_part1.json`
-- `ch15_transformations_part2.json`
-
----
-
-## 验证脚本
-
-运行格式扫描：
+## 质量检查
 
 ```bash
 node scripts/scan_format_issues.cjs
 ```
 
-输出：
-- 星号污染文件列表
-- 内容缺失文件列表
-- JSON 错误文件列表
-- 每个文件的状态 (PASS/WARN/FAIL)
+检查项:
+- JSON 语法
+- 星号污染 (`**...**`)
+- 内容完整性
+
+### 常见错误
+
+| 错误 | 修复 |
+|------|------|
+| `[(-2, 1)]` | `[[-2, 1]]` |
+| 尾随逗号 | 删除 |
+| `**text**` | `text` |
+
+---
+
+## Agent Guidelines
+
+- **Language**: 使用中文交流
+- **Plan First**: 复杂任务先提出计划
+- **Skill 优先**: 章节处理使用 `questionbank-chapter-processor` skill
+
+### 用户偏好
+
+- 提取完成后自动运行导入脚本
+- 每个 session 结束前更新 CLAUDE.md

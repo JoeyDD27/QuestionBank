@@ -1,0 +1,237 @@
+{
+  "chapter": 14,
+  "part": 1,
+  "images_range": "1359-1404",
+  "items": [
+    {
+      "type": "concept",
+      "content_latex": "A relation between variables $x$ and $y$ is any set of points in the $(x, y)$ plane. We say that the points connect the two variables.\n\nA relation is often expressed in the form of an equation connecting the variables $x$ and $y$.",
+      "source_images": ["image1359.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "For example, $y = x + 3$ and $x = y^2$ are the equations of two relations. Each equation generates a set of ordered pairs, which we can graph.",
+      "source_images": ["image1360.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "However, not all relations can be defined by an equation. Below are two examples:\n\n(1) The set of all points in the first quadrant is the relation $x > 0$, $y > 0$.\n\n(2) These 13 points form a relation. It can be described as a finite set of points, but not by an equation.",
+      "source_images": ["image1361.png"]
+    },
+    {
+      "type": "definition",
+      "content_latex": "FUNCTIONS\n\nA function is a relation in which no two different ordered pairs have the same $x$-coordinate or first component.",
+      "source_images": ["image1362.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "ALGEBRAIC TEST FOR FUNCTIONS\n\nSuppose a relation is given as an equation. If the substitution of any value for $x$ results in at most one value of $y$, then the relation is a function.",
+      "source_images": ["image1363.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "For example:\n\n- $y = 3x - 1$ is a function, since for any value of $x$ there is only one corresponding value of $y$\n- $x = y^2$ is not a function, since if $x = 4$ then $y = \\pm 2$.",
+      "source_images": ["image1364.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "GEOMETRIC TEST OR VERTICAL LINE TEST FOR FUNCTIONS\n\nSuppose we draw all possible vertical lines on the graph of a relation.\n\n- If each line cuts the graph at most once, then the relation is a function.\n- If at least one line cuts the graph more than once, then the relation is not a function.",
+      "source_images": ["image1365.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 1\n\nWhich of the following relations are functions?\n\n(a) [curve going up and down]\n(b) [wavy curve]\n(c) [curve with backward-curving part]\n\nSolutions:\n\n(a) a function (every vertical line cuts the graph only once)\n(b) a function (every vertical line cuts the graph only once)\n(c) not a function (a vertical line can cut the graph twice)",
+      "source_images": ["image1366.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 2\n\nWhich of these relations are functions?\n\n(a) [parabola-like curve]\n(b) [circle]\n\nSolutions:\n\n(a) Every vertical line we could draw cuts the graph only once.\n$\\therefore$ the relation is a function.\n\n(b) This vertical line cuts the graph twice.\n$\\therefore$ the relation is not a function.",
+      "source_images": ["image1367.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "GRAPHICAL NOTE\n\n- If a graph contains a small open circle such as $\\circ$, this point is not included.\n- If a graph contains a small filled-in circle such as $\\bullet$, this point is included.\n- If a graph contains an arrowhead at an end such as $\\rightarrow$, then the graph continues indefinitely in that general direction, or the shape may repeat as it has done previously.",
+      "source_images": ["image1368.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 15B\n\n1. Which of the following sets of ordered pairs are functions? Give reasons for your answers.\n\n(a) $\\{(1, 1), (2, 2), (3, 3), (4, 4)\\}$\n(b) $\\{(-1, 2), (-3, 2), (3, 2), (1, 2)\\}$\n(c) $\\{(2, 5), (-1, 4), (-3, 7), (2, -3)\\}$\n(d) $\\{(3, -2), (3, 0), (3, 2), (3, 4)\\}$\n(e) $\\{(-7, 0), (-5, 0), (-3, 0), (-1, 0)\\}$\n(f) $\\{(0, 5), (0, 1), (2, 1), (2, -5)\\}$\n\n2. Use the vertical line test to determine which of the following relations are functions:\n\n(a) [straight line going up]\n(b) [parabola]\n(c) [circle]\n(d) [curve going down then up]\n(e) [horizontal line with arrows]\n(f) [S-shaped curve]\n(g) [straight line at 89 degrees]\n(h) [curve going down]\n(i) [two horizontal arrows with gap]\n\n3. Will the graph of a straight line always be a function? Explain your answer.",
+      "source_images": ["image1369.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 3A\n\n1. Use algebraic methods to decide whether these relations are functions. Explain your answers.\n\n(a) $y = x^2 - 9$\n(b) $x + y = 9$\n(c) $x^2 + y^2 = 9$\n\n2. Use the vertical line test to determine which of the following relations are functions:\n\n(a) [circle]\n(b) [parabola opening down]\n(c) [S-shaped curve]\n(d) [curve with backward loop]\n(e) [circle]\n(f) [parabola]\n(g) [wavy curve]\n(h) [three dots in a row]",
+      "source_images": ["image1370.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. The managers of a new amusement park are discussing the schedule of ticket prices. Maurice suggests the table alongside.\n\nExplain why this relation between age and cost is not a function, and discuss the problems that this will cause.\n\n| Age | Cost |\n|-----|------|\n| 0 - 2 years (infants) | \\$0 |\n| 2 - 16 years (children) | \\$20 |\n| 16+ years (adults) | \\$30 |\n\n6. The graph alongside shows the curves $y = x^2$ and $y^2 = x$.\n\n(a) Discuss the similarities and differences between the curves, including whether each curve is a function. You may also consider what transformation(s) map one curve onto the other.\n\n(b) Using $y^2 = x$, we can write $y = \\pm\\sqrt{x}$.\n\n(i) What part of the graph of $y^2 = x$ corresponds to $y = \\sqrt{x}$?\n\n(ii) Is $y = \\sqrt{x}$ a function? Explain your answer.\n\n7. The graph alongside shows the curves $y = x^3$ and $y^3 = x$.\n\n(a) Explain why both of these curves are functions.\n\n(b) For the curve $y^3 = x$, write $y$ as a function of $x$.",
+      "source_images": ["image1371.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Function machines are sometimes used to illustrate how functions behave.\n\nIf 4 is the input fed into the machine, the output is $2(4) + 3 = 11$.\n\nThe above \"machine\" has been programmed to perform a particular function. If we use $f$ to represent that particular function, we can write \"$f$ is the function that will convert $x$ into $2x + 3$.\"",
+      "source_images": ["image1372.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "So, $f$ would convert 2 into $2(2) + 3 = 7$ and $-4$ into $2(-4) + 3 = -5$.\n\nThis function can be written as:\n\n$f : x \\mapsto 2x + 3$\n\nfunction $f$ such that $x$ is converted into $2x + 3$\n\nTwo other equivalent forms we use are $f(x) = 2x + 3$ and $y = 2x + 3$.\n\n$f(x)$ is the value of $y$ for a given value of $x$, so $y = f(x)$.\n\n$f$ is the function which converts $x$ into $f(x)$, so we write $f : x \\mapsto f(x)$.\n\n$y = f(x)$ is sometimes called the function value or image of $x$.\n\nFor $f(x) = 2x + 3$:\n\n- $f(2) = 2(2) + 3 = 7$\n$\\therefore$ the point $(2, 7)$ lies on the graph of the function.\n\n- $f(-4) = 2(-4) + 3 = -5$\n$\\therefore$ the point $(-4, -5)$ also lies on the graph.\n\n$f(x)$ is read as \"$f$ of $x$\".",
+      "source_images": ["image1373.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 2\n\nIf $f : x \\mapsto 2x^2 - 3x$, find the value of:\n\n(a) $f(5)$\n(b) $f(-4)$\n\nSolutions:\n\n$f(x) = 2x^2 - 3x$\n\n(a) $f(5) = 2(5)^2 - 3(5)$ {replacing $x$ with $(5)$}\n$= 2 \\times 25 - 15$\n$= 35$\n\n(b) $f(-4) = 2(-4)^2 - 3(-4)$ {replacing $x$ with $(-4)$}\n$= 2(16) + 12$\n$= 44$",
+      "source_images": ["image1374.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 3\n\nIf $f(x) = 5 - x - x^2$, find in simplest form:\n\n(a) $f(-x)$\n(b) $f(x + 2)$\n(c) $f(x - 1) - 5$\n\nSolutions:\n\n(a) $f(-x) = 5 - (-x) - (-x)^2$ {replacing $x$ with $(-x)$}\n$= 5 + x - x^2$\n\n(b) $f(x + 2) = 5 - (x + 2) - (x + 2)^2$ {replacing $x$ with $(x + 2)$}\n$= 5 - x - 2 - [x^2 + 4x + 4]$\n$= 3 - x - x^2 - 4x - 4$\n$= -x^2 - 5x - 1$\n\n(c) $f(x - 1) - 5 = (5 - (x - 1) - (x - 1)^2) - 5$ {replacing $x$ with $(x - 1)$}\n$= 5 - x + 1 - (x^2 - 2x + 1) - 5$\n$= -x^2 + x$",
+      "source_images": ["image1375.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 3B\n\n1. If $f : x \\mapsto 3x + 2$, find the value of:\n\n(a) $f(0)$\n(b) $f(2)$\n(c) $f(-1)$\n(d) $f(-5)$\n(e) $f(-\\frac{1}{3})$\n\n2. If $f(x) = 3x - x^2 + 2$, find the value of:\n\n(a) $f(0)$\n(b) $f(3)$\n(c) $f(-3)$\n(d) $f(-7)$\n(e) $f(\\frac{3}{2})$\n\n3. If $g : x \\mapsto x - \\frac{4}{x}$, find the value of:\n\n(a) $g(1)$\n(b) $g(4)$\n(c) $g(-1)$\n(d) $g(-4)$\n(e) $g(-\\frac{1}{2})$",
+      "source_images": ["image1376.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. The graph of $y = f(x)$ is shown alongside.\n\n(a) Find:\n\n(i) $f(2)$\n(ii) $f(3)$\n\n(b) Find the value of $x$ such that $f(x) = 4$.\n\n5. Suppose $G(x) = \\frac{2x + 3}{x - 4}$.\n\n(a) Evaluate:\n\n(i) $G(2)$\n(ii) $G(0)$\n(iii) $G(-\\frac{1}{2})$\n\n(b) Find a value of $x$ such that $G(x)$ does not exist.\n\n(c) Find $x$ such that $G(x) = -3$.",
+      "source_images": ["image1377.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. If $f(x) = 7 - 3x$, find in simplest form:\n\n(a) $f(a)$\n(b) $f(-a)$\n(c) $f(a + 3)$\n(d) $f(2a)$\n(e) $f(x + 2)$\n(f) $f(x + h)$\n\n7. If $F(x) = 2x^2 + 3x - 1$, find in simplest form:\n\n(a) $F(x + 4)$\n(b) $F(2 - x)$\n(c) $F(-x)$\n(d) $F(x^2)$\n(e) $F(3x)$\n(f) $F(x + h)$\n\n8. If $f(x) = x^2$, find in simplest form:\n\n(a) $f(3x)$\n(b) $f(\\frac{x}{2})$\n(c) $3f(x)$\n(d) $2f(x - 1) + 5$\n\n9. If $f(x) = \\frac{1}{x}$, find in simplest form:\n\n(a) $f(-x)$\n(b) $f(\\frac{1}{2}x)$\n(c) $2f(x) + 3$\n(d) $3f(x - 1) + 2$\n\n10. $f$ represents a function. Explain the difference in meaning between $f$ and $f(x)$.",
+      "source_images": ["image1378.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "11. On the same set of axes, draw the graphs of three different functions $f(x)$ such that $f(2) = 1$ and $f(5) = 3$.\n\n12. Find a linear function $f(x) = ax + b$ for which $f(2) = 1$ and $f(-3) = 11$.\n\n13. Samantha is filling her car with petrol. The amount of petrol in the tank after $t$ minutes is given by $P(t) = 5 + 10t$ litres.\n\n(a) Find $P(3)$, and interpret your answer.\n\n(b) Find $t$ when $P(t) = 50$, and explain what this represents.\n\n(c) How many litres of petrol were in the tank when Samantha started to fill it?\n\n14. For a hot air balloon ride, the function $H(t)$ gives the height of the balloon after $t$ minutes. Its graph is shown alongside.\n\n(a) Find $H(30)$, and explain what your answer means.\n\n(b) Find the values of $t$ such that $H(t) = 600$. Interpret your answer.\n\n(c) For what values of $t$ was the height of the balloon recorded?\n\n(d) What range of heights was recorded for the balloon?\n\n15. Given $f(x) = ax + \\frac{b}{x}$, $f(1) = 1$, and $f(2) = 5$, find constants $a$ and $b$.\n\n16. The quadratic function $T(x) = ax^2 + bx + c$ has the values $T(0) = -4$, $T(1) = -2$, and $T(2) = 6$. Find $a$, $b$, and $c$.\n\n17. The value of a photocopier $t$ years after purchase is given by $V(t) = 9000 - 900t$ pounds.\n\n(a) Find $V(4)$, and state what $V(4)$ means.\n\n(b) Find $t$ when $V(t) = 3600$, and explain what this means.\n\n(c) Find the original purchase price of the photocopier.\n\n(d) For what values of $t$ is it reasonable to use this function?",
+      "source_images": ["image1379.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 15C.1\n\n1. For $f : x \\mapsto 2x + 3$, find:\n\n(a) $f(0)$\n(b) $f(2)$\n(c) $f(-1)$\n(d) $f(-5)$\n(e) $f(-\\frac{1}{2})$\n\n2. For $g(x) = -5x + 3$, find:\n\n(a) $g(1)$\n(b) $g(4)$\n(c) $g(-2)$\n(d) $g(-x)$\n(e) $g(x + 4)$",
+      "source_images": ["image1380.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. For $f(x) = 2x^2 - 3x + 2$, find:\n\n(a) $f(0)$\n(b) $f(3)$\n(c) $f(-4)$\n(d) $f(-x)$\n(e) $f(x + 1)$\n\n4. For $P : x \\mapsto 4x^2 + 4x - 3$, find:\n\n(a) $P(3)$\n(b) $P(-1)$\n(c) $P(\\frac{1}{2})$\n(d) $P(x - 3)$\n(e) $P(2x)$\n\n5. Consider the function $R(x) = \\frac{2x - 3}{x + 2}$.\n\n(a) Evaluate:\n\n(i) $R(0)$\n(ii) $R(1)$\n(iii) $R(-\\frac{1}{2})$\n\n(b) Find a value of $x$ such that $R(x)$ does not exist.\n\n(c) Find $R(x - 2)$ in simplest form.\n\n(d) Find $x$ such that $R(x) = -5$.\n\n6. The value of a car $t$ years after purchase is given by $V(t) = 28000 - 4000t$ dollars.\n\n(a) Find $V(4)$, and state what this value means.\n\n(b) Find $t$ when $V(t) = 8000$, and explain what this represents.\n\n(c) Find the original purchase price of the car.\n\n7. The graph of $y = f(x)$ is shown alongside.\n\n(a) Find:\n\n(i) $f(2)$\n(ii) $f(3)$\n\n(b) Find the value of $x$ such that $f(x) = 4$.\n\n8. Consider the graphs of $y = f(x)$ and $y = g(x)$ shown.\n\n(a) Find:\n\n(i) $f(4)$\n(ii) $g(0)$\n(iii) $g(5)$\n\n(b) Find the two values of $x$ such that $f(x) = -2$.\n\n(c) Find the value of $x$ such that $f(x) = g(x)$.\n\n(d) Show that $g(x) = x - 6$.",
+      "source_images": ["image1381.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. Draw a graph of $y = f(x)$ such that $f(-2) = 5$, $f(1) = 0$, and $f(4) = 3$.\n\n10. The graph of $y = f(x)$ is a straight line passing through $(-3, -5)$ and $(1, 7)$.\n\n(a) Draw the graph of $y = f(x)$.\n\n(b) Find $f(-3)$ and $f(1)$.\n\n(c) Find $f(x)$.",
+      "source_images": ["image1382.png"]
+    },
+    {
+      "type": "definition",
+      "content_latex": "We have seen that a relation is a set of points which connects two variables.\n\nThe domain of a relation is the set of values which the variable on the horizontal axis can take. This variable is usually $x$.\n\nThe range of a relation is the set of values which the variable on the vertical axis can take. This variable is usually $y$.",
+      "source_images": ["image1383.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "The domain and range of a relation can be described using set notation, interval notation, or a number line graph. For example:\n\n| Set notation | Interval notation | Number line graph | Meaning |\n|--------------|-------------------|-------------------|----------|\n| $\\{x \\mid x \\geqslant 3\\}$ | $x \\geqslant 3$ | [number line with closed dot at 3, arrow right] | the set of all $x$ such that $x$ is greater than or equal to 3 |\n| $\\{x \\mid x < 2\\}$ | $x < 2$ | [number line with open dot at 2, arrow left] | the set of all $x$ such that $x$ is less than 2 |\n| $\\{x \\mid -2 < x \\leqslant 1\\}$ | $-2 < x \\leqslant 1$ | [number line with open dot at -2, closed dot at 1] | the set of all $x$ such that $x$ is between $-2$ and 1, including 1 |\n| $\\{x \\mid x \\leqslant 0 \\text{ or } x > 4\\}$ | $x \\leqslant 0$ or $x > 4$ | [number line with arrow left from 0, arrow right from 4] | the set of all $x$ such that $x$ is less than or equal to 0, or greater than 4 |",
+      "source_images": ["image1384.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "DOMAIN AND RANGE OF FUNCTIONS\n\nTo find the domain and range of a function, we can observe its graph. For example:\n\n(1) In the Opening Problem, the car park charges function is defined for times $t$ such that $0 < t \\leqslant 24$.\n$\\therefore$ the domain is $\\{t \\mid 0 < t \\leqslant 24\\}$.\nThe possible charges are \\pounds 5, \\pounds 9, \\pounds 11, \\pounds 13, \\pounds 18, \\pounds 22, and \\pounds 28.\n$\\therefore$ the range is $\\{5, 9, 11, 13, 18, 22, 28\\}$.\n\n(2) All values of $x \\geqslant -1$ are included, so the domain is $\\{x \\mid x \\geqslant -1\\}$.\nAll values of $y \\geqslant -3$ are included, so the range is $\\{y \\mid y \\geqslant -3\\}$.\n\n(3) $x$ can take any value, so the domain is $\\{x \\in \\mathbb{R}\\}$ or $x \\in \\mathbb{R}$.\n$y$ cannot be $> 1$, so the range is $\\{y \\mid y \\leqslant 1\\}$.\n\n$x \\in \\mathbb{R}$ means \"$x$ can be any real number\".",
+      "source_images": ["image1385.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "To fully describe a function, we need both a rule and a domain.\n\nFor example, we can specify $f(x) = x^2$ where $x \\geqslant 0$.\n\nIf a domain is not specified, we use the natural domain, which is the largest part of $\\mathbb{R}$ for which $f(x)$ is defined.\n\nSome examples of natural domains are shown in the table opposite.\n\n| $f(x)$ | Natural domain |\n|--------|----------------|\n| $x^2$ | $x \\in \\mathbb{R}$ |\n| $\\sqrt{x}$ | $x \\geqslant 0$ |\n| $\\frac{1}{x}$ | $x \\neq 0$ |\n| $\\frac{1}{\\sqrt{x}}$ | $x > 0$ |",
+      "source_images": ["image1386.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 4\n\nFor each of the following graphs, state the domain and range:\n\n(a) [graph with point (4, 3) and (8, -2)]\n(b) [parabola with vertex at (2, -1)]\n\nSolutions:\n\n(a) Domain is $\\{x \\mid x \\leqslant 8\\}$\nRange is $\\{y \\mid y \\geqslant -2\\}$\n\n(b) Domain is $\\{x \\in \\mathbb{R}\\}$\nRange is $\\{y \\mid y \\geqslant -1\\}$",
+      "source_images": ["image1387.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 5\n\nState the domain and range of each of the following functions:\n\n(a) $f(x) = \\sqrt{x - 5}$\n(b) $f(x) = \\frac{1}{x - 5}$\n(c) $f(x) = \\frac{1}{\\sqrt{x - 5}}$\n\nSolutions:\n\n(a) $\\sqrt{x - 5}$ is defined when $x - 5 \\geqslant 0$\n$\\therefore x \\geqslant 5$\n$\\therefore$ the domain is $\\{x \\mid x \\geqslant 5\\}$.\nA square root cannot be negative.\n$\\therefore$ the range is $\\{y \\mid y \\geqslant 0\\}$.\n\n(b) $\\frac{1}{x - 5}$ is defined when $x - 5 \\neq 0$\n$\\therefore x \\neq 5$\n$\\therefore$ the domain is $\\{x \\mid x \\neq 5\\}$.\nNo matter how large or small $x$ is, $y = f(x)$ is never zero.\n$\\therefore$ the range is $\\{y \\mid y \\neq 0\\}$.\n\n(c) $\\frac{1}{\\sqrt{x - 5}}$ is defined when $x - 5 > 0$\n$\\therefore x > 5$\n$\\therefore$ the domain is $\\{x \\mid x > 5\\}$.\n$y = f(x)$ is always positive and never zero.\n$\\therefore$ the range is $\\{y \\mid y > 0\\}$.",
+      "source_images": ["image1388.png", "image1389.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 5 (continued)\n\nFind the domain of:\n\n(a) $f(x) = \\frac{2}{\\sqrt{x + 3}}$\n(b) $f(x) = \\sqrt{x} + \\sqrt{5 - x}$\n\nSolutions:\n\n(a) $f(x) = \\frac{2}{\\sqrt{x + 3}}$ is defined when $x + 3 > 0$\n$\\therefore x > -3$\nSo, the domain of $f(x)$ is $\\{x \\mid x > -3, x \\in \\mathbb{R}\\}$.\n\n(b) $f(x) = \\sqrt{x} + \\sqrt{5 - x}$ is defined when $x \\geqslant 0$ and $5 - x \\geqslant 0$\n$\\therefore x \\geqslant 0$ and $x \\leqslant 5$\nSo, the domain of $f(x)$ is $\\{x \\mid 0 \\leqslant x \\leqslant 5, x \\in \\mathbb{R}\\}$.",
+      "source_images": ["image1390.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 15C.2\n\n1. Find the domain of:\n\n(a) $f(x) = 2x$\n(b) $f(x) = \\frac{1}{x}$\n(c) $f(x) = \\frac{1}{x - 3}$\n(d) $f(x) = \\frac{1}{(x - 1)(x + 2)}$\n(e) $f(x) = \\frac{x}{x^2 - 9}$\n(f) $f(x) = \\frac{3}{x^2 - 5x + 4}$\n\n2. Find the domain of:\n\n(a) $f(x) = \\sqrt{x - 2}$\n(b) $f(x) = \\sqrt{3 - x}$\n(c) $f(x) = \\sqrt{x} + \\sqrt{2 - x}$\n(d) $f(x) = \\frac{1}{\\sqrt{x}}$\n(e) $f(x) = \\frac{1}{\\sqrt{x}} + \\frac{1}{\\sqrt{x + 2}}$\n(f) $f(x) = \\frac{1}{x\\sqrt{4 - x}}$",
+      "source_images": ["image1391.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 3C\n\n1. A driver who exceeds the speed limit receives demerit points as shown in the table.\n\n(a) Draw a graph to display this information.\n\n(b) Find the domain and range of the relation.\n\n| Amount over speed limit ($x$ km h$^{-1}$) | Demerit points ($y$) |\n|------------------------------------------|----------------------|\n| $0 < x < 10$ | 2 |\n| $10 \\leqslant x < 20$ | 3 |\n| $20 \\leqslant x < 30$ | 5 |\n| $30 \\leqslant x < 45$ | 7 |\n| $x \\geqslant 45$ | 9 |",
+      "source_images": ["image1392.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. For each of the following graphs, find the domain and range:\n\n(a) [graph with point (-1, 3) going down]\n(b) [graph with points (-1, 1) and (5, 3), open circle at left]\n(c) [graph with asymptotes at x = 2 and y = -1]\n(d) [parabola with vertex at (0, 2) opening down]\n(e) [parabola with vertex at (1, -1) opening up]\n(f) [parabola with vertex at (1/2, 6 1/4) opening down]\n(g) [piecewise function with points (-4, -3), (-1, 2), (2, -2)]\n(h) [horizontal line at y = -2]\n(i) [two vertical lines at x = -2 and x = 2 with dots]\n\n4. Consider the graph of $y = f(x)$ alongside.\n\nDecide whether each statement is true or false:\n\n(a) $-5$ is in the domain of $f$.\n(b) $2$ is in the range of $f$.\n(c) $9$ is in the range of $f$.\n(d) $\\sqrt{2}$ is in the domain of $f$.",
+      "source_images": ["image1393.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. Use quadratic theory to find the range of each function:\n\n(a) $y = x^2$\n(b) $y = -x^2$\n(c) $y = x^2 + 2$\n(d) $y = -2(x + 3)^2$\n(e) $y = 1 - (x - 2)^2$\n(f) $y = (2x + 1)^2 + 3$\n(g) $y = x^2 - 7x + 10$\n(h) $y = -x^2 + 2x + 8$\n(i) $f : x \\mapsto 5x - 3x^2$",
+      "source_images": ["image1394.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. Consider the function $f(x) = \\sqrt{x}$.\n\n(a) State the domain of the function.\n\n(b) Copy and complete this table of values:\n\n| $x$ | 0 | 1 | 4 | 9 | 16 |\n|-----|---|---|---|---|----|\n| $f(x)$ | | | | | |\n\n(c) Hence sketch the graph of the function.\n\n(d) Find the range of the function.\n\n7. State the domain and range of each function:\n\n(a) $f(x) = \\sqrt{x + 6}$\n(b) $f : x \\mapsto \\frac{1}{x^2}$\n(c) $f(x) = \\frac{1}{x + 1}$\n(d) $y = -\\frac{1}{\\sqrt{x}}$\n(e) $f : x \\mapsto \\frac{1}{3 - x}$\n(f) $f : x \\mapsto \\sqrt{4 - x}$",
+      "source_images": ["image1395.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 6\n\nUse technology to help sketch these functions. Locate any turning points. Hence state the domain and range of the function.\n\n(a) $f(x) = -x^4 + 2x - 7$\n(b) $f(x) = x^2 - \\frac{1}{x}$\n\nSolutions:\n\n(a) [Graph showing curve with minimum at (0.794, -5.81)]\n\nThe domain is $\\{x \\mid x \\in \\mathbb{R}\\}$.\nThe range is $\\{y \\mid y \\leqslant -5.81\\}$.\n\n(b) [Graph showing curve with point (-0.794, 1.89)]\n\nThe domain is $\\{x \\mid x \\neq 0\\}$.\nThe range is $\\{y \\mid y \\in \\mathbb{R}\\}$.",
+      "source_images": ["image1396.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "8. Use technology to help sketch these functions. Locate any turning points. Hence state the domain and range of the function.\n\n(a) $f(x) = x^3 - 3x^2 - 9x + 10$\n(b) $f(x) = x^4 + 4x^3 - 16x + 3$\n(c) $f(x) = \\sqrt{x^2 + 4}$\n(d) $f(x) = \\sqrt{x^2 - 4}$\n(e) $f(x) = \\sqrt{9 - x^2}$\n(f) $f(x) = \\frac{x + 4}{x - 2}$\n(g) $f(x) = \\frac{3x - 9}{x^2 - x - 2}$\n(h) $f(x) = x + \\frac{1}{x}$\n(i) $f(x) = x^2 + \\frac{1}{x^2}$\n(j) $f(x) = x^3 + \\frac{1}{x^3}$\n(k) $f(x) = 3^x$\n(l) $f(x) = x \\cdot 2^{-x}$\n\nLocating any turning points is important for finding the range.\n\n9. Use technology to sketch these functions on their given domain. Locate the points at the end(s) of the domain, as well as any turning points. Hence state the range of the function.\n\n(a) $y = -x^4 + 2x^3 + 5x^2 + x + 2$, $0 \\leqslant x \\leqslant 4$\n(b) $y = -2x^4 + 5x^2 + x + 2$, $-2 \\leqslant x \\leqslant 2$\n(c) $y = \\frac{1}{1 + 2^{-x}}$, $x > 0$",
+      "source_images": ["image1396.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Given $f : x \\mapsto f(x)$ and $g : x \\mapsto g(x)$, the composite function of $f$ and $g$ will convert $x$ into $f(g(x))$.\n\n$f \\circ g$ is used to represent the composite function of $f$ and $g$. It means \"$f$ following $g$\".\n\n$(f \\circ g)(x) = f(g(x))$ or $f \\circ g : x \\mapsto f(g(x))$.",
+      "source_images": ["image1397.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Consider $f : x \\mapsto x^4$ and $g : x \\mapsto 2x + 3$.\n\n$f \\circ g$ means that $g$ converts $x$ to $2x + 3$ and then $f$ converts $(2x + 3)$ to $(2x + 3)^4$.\n\nThis is illustrated by the two function machines below.\n\n$g$-function machine: I double and then add 3 → $2x + 3$\n\n$f$-function machine: I raise a number to the power 4 → $(2x + 3)^4$\n\nNotice how $f$ is following $g$.",
+      "source_images": ["image1398.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Algebraically, if $f(x) = x^4$ and $g(x) = 2x + 3$ then\n\n$(f \\circ g)(x) = f(g(x))$\n$= f(2x + 3)$ {$g$ operates on $x$ first}\n$= (2x + 3)^4$ {$f$ operates on $g(x)$ next}\n\nand $(g \\circ f)(x) = g(f(x))$\n$= g(x^4)$ {$f$ operates on $x$ first}\n$= 2(x^4) + 3$ {$g$ operates on $f(x)$ next}\n$= 2x^4 + 3$\n\nSo, $f(g(x)) \\neq g(f(x))$.\n\nIn general, $(f \\circ g)(x) \\neq (g \\circ f)(x)$.",
+      "source_images": ["image1399.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 10\n\nGiven $f : x \\mapsto 2x + 1$ and $g : x \\mapsto 3 - 4x$, find in simplest form:\n\n(a) $(f \\circ g)(x)$\n(b) $(g \\circ f)(x)$\n\nSolutions:\n\n$f(x) = 2x + 1$ and $g(x) = 3 - 4x$\n\n(a) $(f \\circ g)(x) = f(g(x))$\n$= f(3 - 4x)$\n$= 2(3 - 4x) + 1$\n$= 6 - 8x + 1$\n$= 7 - 8x$\n\n(b) $(g \\circ f)(x) = g(f(x))$\n$= g(2x + 1)$\n$= 3 - 4(2x + 1)$\n$= 3 - 8x - 4$\n$= -8x - 1$",
+      "source_images": ["image1400.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 6\n\nIf $f(x) = 3x + 2$ and $g(x) = x^2 + 4$, find in simplest form:\n\n(a) $f(g(x))$\n(b) $g(f(x))$\n\nSolutions:\n\n(a) $f(g(x))$\n$= f(x^2 + 4)$\n$= 3(x^2 + 4) + 2$\n$= 3x^2 + 12 + 2$\n$= 3x^2 + 14$\n\n(b) $g(f(x))$\n$= g(3x + 2)$\n$= (3x + 2)^2 + 4$\n$= 9x^2 + 12x + 4 + 4$\n$= 9x^2 + 12x + 8$",
+      "source_images": ["image1401.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 7\n\nIf $f(x) = 2x - 1$, find:\n\n(a) $f(f(x))$\n(b) $f(f(5))$\n\nSolutions:\n\n(a) $f(f(x))$\n$= f(2x - 1)$\n$= 2(2x - 1) - 1$\n$= 4x - 2 - 1$\n$= 4x - 3$\n\n(b) $f(f(5))$\n$= 4(5) - 3$ {using (a)}\n$= 17$",
+      "source_images": ["image1402.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 11\n\nGiven $f(x) = 6x - 5$ and $g(x) = x^2 + x$, find:\n\n(a) $(g \\circ f)(-1)$\n(b) $(f \\circ f)(0)$\n\nSolutions:\n\n(a) $(g \\circ f)(-1) = g(f(-1))$\nNow $f(-1) = 6(-1) - 5$\n$= -11$\n$\\therefore (g \\circ f)(-1) = g(-11)$\n$= (-11)^2 + (-11)$\n$= 110$\n\n(b) $(f \\circ f)(0) = f(f(0))$\nNow $f(0) = 6(0) - 5$\n$= -5$\n$\\therefore (f \\circ f)(0) = f(-5)$\n$= 6(-5) - 5$\n$= -35$",
+      "source_images": ["image1403.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "1. Given $f : x \\mapsto 2x + 3$ and $g : x \\mapsto 1 - x$, find in simplest form:\n\n(a) $(f \\circ g)(x)$\n(b) $(g \\circ f)(x)$\n(c) $(f \\circ g)(-3)$\n(d) $(g \\circ f)(0)$\n\n2. Given $f : x \\mapsto -2x$ and $g : x \\mapsto 1 + x^2$, find in simplest form:\n\n(a) $(f \\circ g)(x)$\n(b) $(g \\circ f)(x)$\n(c) $(f \\circ g)(2)$\n(d) $(f \\circ f)(-1)$\n\n3. Given $f(x) = 3 - x^2$ and $g(x) = 2x + 4$, find in simplest form:\n\n(a) $(f \\circ g)(x)$\n(b) $(g \\circ f)(x)$\n(c) $(g \\circ g)(\\frac{1}{2})$\n(d) $(f \\circ f)(-\\frac{1}{2})$\n\n4. Given $f(x) = \\sqrt{6 - x}$ and $g(x) = 5x - 7$, find:\n\n(a) $(g \\circ g)(x)$\n(b) $(f \\circ g)(1)$\n(c) $(g \\circ f)(6)$\n(d) $(f \\circ f)(2)$\n\n5. Suppose $f : x \\mapsto x^2 + 1$ and $g : x \\mapsto 3 - x$.\n\n(a) Find in simplest form:\n\n(i) $(f \\circ g)(x)$\n(ii) $(g \\circ f)(x)$\n\n(b) Find the value(s) of $x$ such that $(g \\circ f)(x) = f(x)$.\n\n6. Suppose $f(x) = 9 - \\sqrt{x}$ and $g(x) = x^2 + 4$.\n\n(a) Find $(f \\circ g)(x)$ and state its domain and range.\n\n(b) Find $(g \\circ f)(4)$.\n\n(c) Find $(f \\circ f)(x)$ and state its domain and range.\n\n7. Suppose $f(x) = 1 - 2x$ and $g(x) = 3x + 5$.\n\n(a) Find $f(g(x))$.\n\n(b) Hence solve $(f \\circ g)(x) = f(x + 3)$.\n\n8. Suppose $f : x \\mapsto 2x - x^2$ and $g : x \\mapsto 1 + 3x$.\n\n(a) Find in simplest form:\n\n(i) $(f \\circ g)(x)$\n(ii) $(g \\circ f)(x)$\n\n(b) Find the value(s) of $x$ such that $(f \\circ g)(x) = 3(g \\circ f)(x)$.\n\n9. For each pair of functions, find $(f \\circ g)(x)$ and state its domain and range:\n\n(a) $f(x) = \\frac{1}{x}$ and $g(x) = x - 3$\n\n(b) $f(x) = -\\frac{1}{x}$ and $g(x) = x^2 + 3x + 2$\n\n10. (a) If $ax + b = cx + d$ for all values of $x$, show that $a = c$ and $b = d$.\nHint: If it is true for all $x$, it is true for $x = 0$ and $x = 1$.\n\n(b) Given $f(x) = 2x + 3$ and $g(x) = ax + b$ and that $(f \\circ g)(x) = x$ for all values of $x$, deduce that $a = \\frac{1}{2}$ and $b = -\\frac{3}{2}$.\n\n(c) Is the result in (b) true if $(g \\circ f)(x) = x$ for all $x$?",
+      "source_images": ["image1404.png"]
+    }
+  ]
+}

@@ -1,15 +1,16 @@
 #!/usr/bin/env node
 /**
  * Import extracted JSON files into Supabase database
- * Handles multiple JSON schemas and normalizes to database format
- * V2: Correctly matches items to subsections
+ *
+ * Schema A: Simple import
+ * - 1 JSON item → 1 DB item + 1 DB question
+ * - Entire content_latex stored as problem_latex
  */
 
 import { createClient } from '@supabase/supabase-js'
 import { readFileSync, readdirSync } from 'fs'
-import { join, basename } from 'path'
+import { join, basename, dirname } from 'path'
 import { fileURLToPath } from 'url'
-import { dirname } from 'path'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
@@ -23,378 +24,39 @@ if (!SUPABASE_KEY) {
 }
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY)
-const SOURCE_ID = 'a6cb81ed-4fef-4059-93b2-311d69fd45b7'
 const EXTRACTIONS_DIR = join(__dirname, '..', 'extractions')
 
-// Cache for lookups
-let chaptersCache = null
-let imagesCache = null
+// Load chapter_image_ranges.json
+function loadChapterRanges() {
+  const rangesPath = join(__dirname, '..', 'chapter_image_ranges.json')
+  return JSON.parse(readFileSync(rangesPath, 'utf-8'))
+}
 
-async function loadChapters() {
-  if (chaptersCache) return chaptersCache
+// Get chapter from database by order_index
+async function getChapterByNumber(chapterNum) {
   const { data, error } = await supabase
     .from('chapters')
-    .select('id, title, parent_id, order_index')
-    .eq('source_id', SOURCE_ID)
-  if (error) throw error
-  chaptersCache = data
+    .select('id, title, order_index')
+    .eq('order_index', chapterNum)
+    .single()
+
+  if (error) return null
   return data
 }
 
-async function loadImages() {
-  if (imagesCache) return imagesCache
-  const allImages = []
-  let from = 0
-  const pageSize = 1000
-  while (true) {
-    const { data, error } = await supabase
-      .from('images')
-      .select('id, filename, chapter_id')
-      .eq('source_id', SOURCE_ID)
-      .range(from, from + pageSize - 1)
-    if (error) throw error
-    if (!data || data.length === 0) break
-    allImages.push(...data)
-    if (data.length < pageSize) break
-    from += pageSize
-  }
-  imagesCache = new Map(allImages.map(img => [img.filename, img]))
-  return imagesCache
-}
-
-// Get main chapter and its subsections
-function getChapterInfo(filename, chapters) {
+// Extract chapter number from filename (e.g., "ch01_algebra_part1.json" → 1)
+function getChapterNumFromFilename(filename) {
   const match = filename.match(/ch(\d+)_/)
   if (!match) return null
-
-  const chapterNum = parseInt(match[1], 10)
-  const mainChapter = chapters.find(c => !c.parent_id && c.order_index === chapterNum)
-  if (!mainChapter) return null
-
-  const subsections = chapters.filter(c => c.parent_id === mainChapter.id)
-    .sort((a, b) => (a.order_index || 0) - (b.order_index || 0))
-
-  return { mainChapter, subsections }
+  return parseInt(match[1], 10)
 }
 
-// Find best matching subsection by title
-function findSubsectionByTitle(title, subsections) {
-  if (!title || !subsections.length) return null
-
-  const normalizedTitle = title.toLowerCase().trim()
-
-  // Exact match
-  for (const sub of subsections) {
-    if (sub.title.toLowerCase().trim() === normalizedTitle) {
-      return sub.id
-    }
-  }
-
-  // Partial match - title contains or is contained
-  for (const sub of subsections) {
-    const subTitle = sub.title.toLowerCase().trim()
-    if (subTitle.includes(normalizedTitle) || normalizedTitle.includes(subTitle)) {
-      return sub.id
-    }
-  }
-
-  // Word overlap match
-  const titleWords = normalizedTitle.split(/\s+/).filter(w => w.length > 3)
-  let bestMatch = null
-  let bestScore = 0
-  for (const sub of subsections) {
-    const subWords = sub.title.toLowerCase().split(/\s+/)
-    const overlap = titleWords.filter(w => subWords.some(sw => sw.includes(w) || w.includes(sw))).length
-    if (overlap > bestScore) {
-      bestScore = overlap
-      bestMatch = sub.id
-    }
-  }
-  if (bestScore >= 1) return bestMatch
-
-  return null
-}
-
-// Detect schema type - supports all 10 schema types
-function detectSchema(content) {
-  if (content.subsections?.some(s => s.items)) return 'subsections_items'
-  if (content.subsections?.some(s => s.content)) return 'subsections_content'
-  if (content.subsections) return 'subsections'
-  if (content.sections) return 'sections'
-  if (content.extractions) return 'extractions'
-  if (content.items) return 'items_flat'
-  if (content.concepts || content.examples || content.exercises) return 'categorized'
-  if (content.extracted_content) return 'extracted_content'
-  if (content.topics) return 'topics'
-  if (content.questions && !content.items) return 'questions'
-  if (content.content && Array.isArray(content.content)) return 'content_root'
-  return 'unknown'
-}
-
-// Extract items with subsection info
-function extractItemsWithSubsection(content, schema) {
-  const items = []
-
-  switch (schema) {
-    case 'items_flat':
-      // No subsection info in flat items
-      return (content.items || []).map(item => ({ ...item, _subsectionTitle: null }))
-
-    case 'subsections_items':
-      for (const sub of content.subsections || []) {
-        for (const item of sub.items || []) {
-          items.push({ ...item, _subsectionTitle: sub.title })
-        }
-      }
-      return items
-
-    case 'subsections_content':
-      for (const sub of content.subsections || []) {
-        if (Array.isArray(sub.content)) {
-          for (const item of sub.content) {
-            items.push({ ...item, _subsectionTitle: sub.title, type: sub.type || item.type })
-          }
-        } else if (sub.content) {
-          items.push({ content: sub.content, _subsectionTitle: sub.title, type: sub.type })
-        } else {
-          items.push({ ...sub, _subsectionTitle: sub.title })
-        }
-      }
-      return items
-
-    case 'sections':
-      for (const section of content.sections || []) {
-        if (section.content && Array.isArray(section.content)) {
-          for (const item of section.content) {
-            items.push({ ...item, _subsectionTitle: section.title })
-          }
-        } else if (section.content && typeof section.content === 'string') {
-          items.push({ type: section.type || 'concept', content_latex: section.content, _subsectionTitle: section.title })
-        }
-        if (section.type && !section.content) {
-          items.push({ ...section, _subsectionTitle: section.title })
-        }
-      }
-      return items
-
-    case 'extractions':
-      for (const ext of content.extractions || []) {
-        items.push({ ...ext, _subsectionTitle: ext.section })
-      }
-      return items
-
-    case 'categorized':
-      const subTitle = content.title || content.chapter || null
-      for (const concept of content.concepts || []) {
-        items.push({ ...concept, type: 'concept', _subsectionTitle: subTitle })
-      }
-      for (const example of content.examples || []) {
-        items.push({ ...example, type: 'example', _subsectionTitle: subTitle })
-      }
-      for (const exercise of content.exercises || []) {
-        items.push({ ...exercise, type: 'exercise', _subsectionTitle: subTitle })
-      }
-      return items
-
-    case 'content_root':
-      // Root-level content array (e.g., ch05_factorization_part4, ch21_number_part1)
-      for (const item of content.content || []) {
-        items.push({ ...item, _subsectionTitle: item.topic || content.title || null })
-      }
-      return items
-
-    case 'extracted_content':
-      for (const item of content.extracted_content || []) {
-        items.push({ ...item, _subsectionTitle: item.section || content.title || null })
-      }
-      return items
-
-    case 'topics':
-      for (const topic of content.topics || []) {
-        if (topic.items) {
-          for (const item of topic.items) {
-            items.push({ ...item, _subsectionTitle: topic.title || topic.name })
-          }
-        } else {
-          items.push({ ...topic, _subsectionTitle: topic.title || topic.name })
-        }
-      }
-      return items
-
-    case 'questions':
-      // Direct questions array
-      for (const q of content.questions || []) {
-        items.push({ ...q, type: 'exercise', _subsectionTitle: content.title || null })
-      }
-      return items
-
-    default:
-      if (content.items) return content.items.map(i => ({ ...i, _subsectionTitle: null }))
-      // Last resort: try content array
-      if (content.content && Array.isArray(content.content)) {
-        return content.content.map(i => ({ ...i, _subsectionTitle: null }))
-      }
-      return []
-  }
-}
-
-// Normalize item type
-function normalizeType(type) {
-  if (!type) return 'concept'
-  const t = type.toLowerCase()
-  if (t.includes('example') || t === 'worked_example') return 'example'
-  if (t.includes('exercise') || t === 'practice' || t === 'problem') return 'exercise'
-  return 'concept'
-}
-
-// Extract title from content
-function extractTitle(item) {
-  if (item.title) return item.title
-  if (item.example_number) return `Example ${item.example_number}`
-  if (item.exercise_number) return `Exercise ${item.exercise_number}`
-
-  const content = item.content_latex || item.content
-  if (typeof content === 'string') {
-    const match = content.match(/\*\*([^*]+)\*\*/)
-    if (match) return match[1].substring(0, 100)
-  }
-
-  return null
-}
-
-// Get first source image
-function getSourceImage(item, imagesMap) {
-  const images = item.source_images || item.images || []
-  const imgName = Array.isArray(images) ? images[0] : item.image || item.source_image
-  if (!imgName) return null
-  return imagesMap.get(imgName)?.id || null
-}
-
-// Extract LaTeX from complex content structures
-function extractLatexFromContent(content) {
-  if (typeof content === 'string') return content
-  if (!content) return ''
-
-  // Handle object with equation/formula/latex fields
-  if (content.equation) return content.equation
-  if (content.formula) return content.formula
-  if (content.latex) return Array.isArray(content.latex) ? content.latex.join('\n') : content.latex
-  if (content.definition) return content.definition
-  if (content.description) return content.description
-  if (content.text) return content.text
-  if (content.problem) return content.problem
-
-  // Handle array of content objects
-  if (Array.isArray(content)) {
-    return content.map(c => extractLatexFromContent(c)).filter(Boolean).join('\n')
-  }
-
-  // Last resort: stringify
-  return JSON.stringify(content)
-}
-
-// Parse questions from item
-function parseQuestions(item) {
-  const questions = []
-
-  // Handle explicit questions array
-  if (item.questions && Array.isArray(item.questions)) {
-    for (const q of item.questions) {
-      questions.push({
-        label: q.label || null,
-        problem_latex: q.latex || q.problem_latex || q.question || extractLatexFromContent(q.content) || q.text || '',
-        problem_text: q.text || null,
-        answer_latex: q.answer_latex || q.answer || q.solution || null,
-        solution_steps: q.solution_steps || q.steps || null,
-        choices: q.choices || q.options || null,
-        has_answer: !!(q.answer_latex || q.answer || q.solution)
-      })
-    }
-    return questions
-  }
-
-  // Handle parts array (e.g., problem with (a), (b), (c) parts)
-  const contentObj = item.content
-  if (contentObj && typeof contentObj === 'object' && contentObj.parts) {
-    for (const part of contentObj.parts) {
-      questions.push({
-        label: part.part || part.label || null,
-        problem_latex: part.problem || part.question || part.latex || '',
-        problem_text: null,
-        answer_latex: part.answer || part.solution || null,
-        solution_steps: null,
-        choices: null,
-        has_answer: !!(part.answer || part.solution)
-      })
-    }
-    return questions
-  }
-
-  // Handle content with examples array
-  if (contentObj && typeof contentObj === 'object' && contentObj.examples) {
-    for (const ex of contentObj.examples) {
-      questions.push({
-        label: null,
-        problem_latex: extractLatexFromContent(ex),
-        problem_text: ex.description || null,
-        answer_latex: null,
-        solution_steps: null,
-        choices: null,
-        has_answer: false
-      })
-    }
-    return questions
-  }
-
-  // Handle latex array at item level
-  if (item.latex && Array.isArray(item.latex)) {
-    questions.push({
-      label: null,
-      problem_latex: item.latex.join('\n'),
-      problem_text: null,
-      answer_latex: null,
-      solution_steps: null,
-      choices: null,
-      has_answer: false
-    })
-    return questions
-  }
-
-  // Default: extract from content_latex or content
-  const content = item.content_latex || extractLatexFromContent(item.content) || ''
-  if (content && item.type !== 'concept') {
-    questions.push({
-      label: null,
-      problem_latex: content,
-      problem_text: null,
-      answer_latex: item.answer_latex || item.answer || null,
-      solution_steps: item.solution_steps || null,
-      choices: null,
-      has_answer: !!(item.answer_latex || item.answer)
-    })
-  }
-
-  // For concepts, still create a question entry if there's content
-  if (content && item.type === 'concept') {
-    questions.push({
-      label: null,
-      problem_latex: content,
-      problem_text: null,
-      answer_latex: null,
-      solution_steps: null,
-      choices: null,
-      has_answer: false
-    })
-  }
-
-  return questions
-}
-
-// Process a single file
-async function processFile(filePath, chapters, imagesMap, dryRun = false) {
+// Process a single extraction file
+async function processFile(filePath, dryRun = false) {
   const filename = basename(filePath)
   console.log(`\n📄 ${filename}`)
 
+  // Parse JSON
   let content
   try {
     content = JSON.parse(readFileSync(filePath, 'utf-8'))
@@ -403,83 +65,53 @@ async function processFile(filePath, chapters, imagesMap, dryRun = false) {
     return { items: 0, questions: 0, errors: 1 }
   }
 
-  const schema = detectSchema(content)
-  const chapterInfo = getChapterInfo(filename, chapters)
-
-  if (!chapterInfo) {
-    console.log(`  ⚠️ Could not match chapter`)
+  // Get chapter number from filename
+  const chapterNum = getChapterNumFromFilename(filename)
+  if (!chapterNum) {
+    console.log(`  ⚠️ Could not extract chapter number from filename`)
     return { items: 0, questions: 0, errors: 1 }
   }
 
-  const { mainChapter, subsections } = chapterInfo
-  console.log(`  Schema: ${schema}, Main: ${mainChapter.title} (${subsections.length} subsections)`)
-
-  const rawItems = extractItemsWithSubsection(content, schema)
-  if (rawItems.length === 0) {
-    console.log(`  ⚠️ No items found`)
-    return { items: 0, questions: 0, errors: 0 }
+  // Get chapter from database
+  const chapter = await getChapterByNumber(chapterNum)
+  if (!chapter) {
+    console.log(`  ⚠️ Chapter ${chapterNum} not found in database`)
+    return { items: 0, questions: 0, errors: 1 }
   }
 
-  // Group items by subsection for reporting
-  const itemsBySubsection = new Map()
+  console.log(`  Chapter: ${chapter.title} (id: ${chapter.id.slice(0, 8)}...)`)
+
+  // Validate items_flat schema
+  if (!content.items || !Array.isArray(content.items)) {
+    console.log(`  ⚠️ No items array found (expected items_flat schema)`)
+    return { items: 0, questions: 0, errors: 1 }
+  }
+
+  console.log(`  Found ${content.items.length} items`)
+  console.log(`  Images range: ${content.images_range || 'not specified'}`)
+
+  if (dryRun) {
+    console.log(`  🔍 [DRY RUN] Would insert ${content.items.length} items`)
+    return { items: content.items.length, questions: content.items.length, errors: 0 }
+  }
 
   let itemsInserted = 0
   let questionsInserted = 0
 
-  for (let i = 0; i < rawItems.length; i++) {
-    const raw = rawItems[i]
+  for (let i = 0; i < content.items.length; i++) {
+    const item = content.items[i]
 
-    // Determine target chapter (subsection or main)
-    let targetChapterId = mainChapter.id
-    let targetName = mainChapter.title
-
-    if (raw._subsectionTitle) {
-      // Method 1: Match by subsection title from JSON
-      const subId = findSubsectionByTitle(raw._subsectionTitle, subsections)
-      if (subId) {
-        targetChapterId = subId
-        targetName = subsections.find(s => s.id === subId)?.title || raw._subsectionTitle
-      }
-    } else {
-      // Method 2: Match by source image's chapter_id
-      const images = raw.source_images || raw.images || []
-      const imgName = Array.isArray(images) ? images[0] : raw.image || raw.source_image
-      if (imgName) {
-        const imgData = imagesMap.get(imgName)
-        if (imgData && imgData.chapter_id) {
-          // Check if this image's chapter is a subsection of our main chapter
-          const matchingSub = subsections.find(s => s.id === imgData.chapter_id)
-          if (matchingSub) {
-            targetChapterId = matchingSub.id
-            targetName = matchingSub.title
-          }
-        }
-      }
-    }
-
-    // Track for reporting
-    if (!itemsBySubsection.has(targetName)) {
-      itemsBySubsection.set(targetName, 0)
-    }
-    itemsBySubsection.set(targetName, itemsBySubsection.get(targetName) + 1)
-
-    const itemData = {
-      chapter_id: targetChapterId,
-      type: normalizeType(raw.type),
-      title: extractTitle(raw),
-      instruction: raw.instruction || raw.description || null,
-      source_image_id: getSourceImage(raw, imagesMap),
-      order_index: i + 1
-    }
-
-    if (dryRun) {
-      itemsInserted++
-      continue
-    }
-
-    const { data: insertedItem, error: itemError } = await supabase
+    // Insert item
+    const { data: dbItem, error: itemError } = await supabase
       .from('items')
-      .insert(itemData)
+      .insert({
+        chapter_id: chapter.id,
+        type: item.type || 'concept',
+        title: null,
+        instruction: null,
+        source_image_id: null,
+        order_index: i + 1
+      })
       .select()
       .single()
 
@@ -487,28 +119,24 @@ async function processFile(filePath, chapters, imagesMap, dryRun = false) {
       console.log(`  ❌ Item insert error: ${itemError.message}`)
       continue
     }
-
     itemsInserted++
 
-    const questions = parseQuestions(raw)
-    for (const q of questions) {
-      if (!q.problem_latex) continue
-
-      const questionData = {
-        item_id: insertedItem.id,
-        source_image_id: getSourceImage(raw, imagesMap),
-        label: q.label,
-        problem_latex: q.problem_latex,
-        problem_text: q.problem_text,
-        has_answer: q.has_answer,
-        answer_latex: q.answer_latex,
-        solution_steps: q.solution_steps,
-        choices: q.choices
-      }
-
+    // Insert question with entire content_latex
+    const contentLatex = item.content_latex || ''
+    if (contentLatex) {
       const { error: qError } = await supabase
         .from('questions')
-        .insert(questionData)
+        .insert({
+          item_id: dbItem.id,
+          source_image_id: null,
+          label: null,
+          problem_latex: contentLatex,
+          problem_text: null,
+          has_answer: false,
+          answer_latex: null,
+          solution_steps: null,
+          choices: null
+        })
 
       if (qError) {
         console.log(`  ❌ Question insert error: ${qError.message}`)
@@ -518,33 +146,67 @@ async function processFile(filePath, chapters, imagesMap, dryRun = false) {
     }
   }
 
-  // Report distribution
-  for (const [name, count] of itemsBySubsection) {
-    const indicator = name === mainChapter.title ? '📁' : '  📂'
-    console.log(`${indicator} ${name}: ${count} items`)
-  }
-  console.log(`  ✅ Total: ${itemsInserted} items, ${questionsInserted} questions`)
-
+  console.log(`  ✅ Inserted ${itemsInserted} items, ${questionsInserted} questions`)
   return { items: itemsInserted, questions: questionsInserted, errors: 0 }
+}
+
+// Clear existing data for a chapter
+async function clearChapterData(chapterNum) {
+  const chapter = await getChapterByNumber(chapterNum)
+  if (!chapter) return
+
+  console.log(`\nClearing existing data for ch${chapterNum.toString().padStart(2, '0')}...`)
+
+  // Get item IDs for this chapter
+  const { data: items } = await supabase
+    .from('items')
+    .select('id')
+    .eq('chapter_id', chapter.id)
+
+  if (items && items.length > 0) {
+    const itemIds = items.map(i => i.id)
+
+    // Delete questions first (foreign key)
+    const { error: qErr } = await supabase
+      .from('questions')
+      .delete()
+      .in('item_id', itemIds)
+
+    if (qErr) console.log(`  ⚠️ Failed to delete questions: ${qErr.message}`)
+
+    // Delete items
+    const { error: iErr } = await supabase
+      .from('items')
+      .delete()
+      .eq('chapter_id', chapter.id)
+
+    if (iErr) console.log(`  ⚠️ Failed to delete items: ${iErr.message}`)
+
+    console.log(`  Cleared ${items.length} items`)
+  }
 }
 
 async function main() {
   const args = process.argv.slice(2)
   const dryRun = args.includes('--dry-run')
+  const clearFirst = args.includes('--clear')
   const singleFile = args.find(a => a.endsWith('.json'))
+  const chapterArg = args.find(a => a.startsWith('--ch='))
 
   if (dryRun) {
     console.log('🔍 DRY RUN MODE - No data will be inserted\n')
   }
 
-  console.log('Loading chapters and images...')
-  const chapters = await loadChapters()
-  const imagesMap = await loadImages()
-  console.log(`Loaded ${chapters.length} chapters, ${imagesMap.size} images`)
-
+  // Determine which files to process
   let files
   if (singleFile) {
     files = [join(EXTRACTIONS_DIR, singleFile)]
+  } else if (chapterArg) {
+    const chNum = chapterArg.replace('--ch=', '').padStart(2, '0')
+    files = readdirSync(EXTRACTIONS_DIR)
+      .filter(f => f.startsWith(`ch${chNum}_`) && f.endsWith('.json'))
+      .sort()
+      .map(f => join(EXTRACTIONS_DIR, f))
   } else {
     files = readdirSync(EXTRACTIONS_DIR)
       .filter(f => f.endsWith('.json'))
@@ -552,14 +214,27 @@ async function main() {
       .map(f => join(EXTRACTIONS_DIR, f))
   }
 
-  console.log(`\nProcessing ${files.length} files...`)
+  if (files.length === 0) {
+    console.log('No files to process')
+    return
+  }
+
+  console.log(`Processing ${files.length} file(s)...`)
+
+  // Clear existing data if requested
+  if (clearFirst && !dryRun) {
+    const chapterNums = new Set(files.map(f => getChapterNumFromFilename(basename(f))).filter(Boolean))
+    for (const num of chapterNums) {
+      await clearChapterData(num)
+    }
+  }
 
   let totalItems = 0
   let totalQuestions = 0
   let totalErrors = 0
 
   for (const file of files) {
-    const result = await processFile(file, chapters, imagesMap, dryRun)
+    const result = await processFile(file, dryRun)
     totalItems += result.items
     totalQuestions += result.questions
     totalErrors += result.errors

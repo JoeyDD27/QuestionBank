@@ -1,0 +1,237 @@
+{
+  "chapter": 14,
+  "part": 3,
+  "images_range": "1451-1496",
+  "items": [
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 3G\n\n1. On the same set of axes draw the graphs of:\n\n(a) $y = 2x - 4$ and $y = |2x - 4|$\n\n(b) $y = 5 - 3x$ and $y = |5 - 3x|$\n\n2. Copy the following graphs for $y = f(x)$ and on the same set of axes draw the graph of $y = |f(x)|$:\n\n(a) [Graph showing linear function passing through $(0, 2)$ with negative slope]\n\n(b) [Graph showing parabola opening downward with vertex above x-axis]\n\n(c) [Graph showing cubic-like curve passing through origin with local max and min]\n\n(d) [Graph showing curve with maximum at $y = 2$ and vertical asymptote at $x = 4$]",
+      "source_images": ["image1451.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. On the same set of axes, draw the graphs of:\n\n(a) $y = x(x + 2)$ and $y = |x(x + 2)|$\n\n(b) $y = -x^2 + 6x - 8$ and $y = |-x^2 + 6x - 8|$\n\n4. On the same set of axes, draw the graphs of:\n\n(a) $y = \\frac{5}{x}$ and $y = \\left|\\frac{5}{x}\\right|$\n\n(b) $y = -\\frac{3}{x}$ and $y = \\left|-\\frac{3}{x}\\right|$",
+      "source_images": ["image1452.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "To find the points of intersection of the graphs of $y = f(x)$ and $y = g(x)$, we solve the equation $f(x) = g(x)$.\n\nThe solutions of this equation give us the $x$-coordinates of the intersection points.\n\nThe $y$-coordinates can then be found by substituting the $x$-coordinates into one of the functions.",
+      "source_images": ["image1453.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 11\n\nFind the coordinates of the points of intersection of the graphs with equations $y = x^2 - x + 3$ and $y = 2x + 7$.\n\nSolution:\n\nThe graphs meet when $x^2 - x + 3 = 2x + 7$\n\n$\\therefore x^2 - 3x - 4 = 0$\n\n$\\therefore (x + 1)(x - 4) = 0$\n\n$\\therefore x = -1$ or $4$\n\nSubstituting into $y = 2x + 7$:\n\nwhen $x = -1$, $y = 2(-1) + 7 = 5$\n\nwhen $x = 4$, $y = 2(4) + 7 = 15$\n\n$\\therefore$ the graphs meet at $(-1, 5)$ and $(4, 15)$.",
+      "source_images": ["image1454.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 15G\n\n1. Find the coordinates of the point of intersection of the graphs with equations:\n\n(a) $y = 5x - 1$ and $y = 2x + 5$\n\n(b) $y = 12 - x$ and $y = 3x + 7$\n\n(c) $y = \\frac{1}{x}$ and $y = \\frac{2}{x + 5}$\n\n(d) $y = x^2 - x + 3$ and $y = x^2 + 5x - 3$\n\n2. Find the coordinates of the point(s) of intersection of the graphs with equations:\n\n(a) $y = x^2 + 2x - 1$ and $y = x + 5$\n\n(b) $y = \\frac{2}{x}$ and $y = x - 1$\n\n(c) $y = 3x^2 + 4x - 1$ and $y = x^2 - 3x - 4$\n\n(d) $y = \\frac{1}{x}$ and $y = 5x - 4$",
+      "source_images": ["image1455.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Use a graphing package or a graphics calculator to find the coordinates, correct to 2 decimal places, of the points of intersection of the graphs with equations:\n\n(a) $y = x^2 + 3x + 1$ and $y = 2x + 2$\n\n(b) $y = x^2 - 5x + 2$ and $y = \\frac{3}{x}$\n\n(c) $y = -x^2 - 2x + 5$ and $y = x^2 + 7$\n\n(d) $y = x^2 - 1$ and $y = x^3$",
+      "source_images": ["image1456.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 15A\n\n1. Find the domain and range of the following relations:\n\n(a) [Graph showing parabola opening upward with vertex at $(3, -2)$]\n\n(b) [Graph showing sideways parabola opening to the right]",
+      "source_images": ["image1457.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. For $f(x) = 3x - x^2$, find:\n\n(a) $f(2)$\n\n(b) $f(-1)$\n\n(c) $f(x - 3)$\n\n3. Determine whether the following sets of ordered pairs are functions:\n\n(a) $\\{(-3, 5), (1, 7), (-1, 7), (2, 5)\\}$\n\n(b) $\\{(-4, -5), (-1, 3), (5, 4), (0, 3), (-1, 2)\\}$\n\n4. Consider the function $g(x) = x^2 + 2x$. Find:\n\n(a) $g(2)$\n\n(b) $g(3x)$\n\n(c) $x$ such that $g(x) = 15$\n\n5. Determine whether the following relations are functions:\n\n(a) [Graph showing curve with vertex at $(-2, 5)$ and point at $(3, -2)$]\n\n(b) [Graph showing discrete points at $(2, 2)$, $(4, 4)$, $(4, 6)$, $(6, 6)$]",
+      "source_images": ["image1458.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. Draw a graph of $y = f(x)$ such that $f(-3) = 2$, $f(1) = -4$, and $f(4) = 5$.\n\n7. Answer the Opening Problem on page 324.\n\n8. If $f(x) = \\sqrt{x}$ and $g(x) = 5x - 3$, find in simplest form:\n\n(a) $f(g(x))$\n\n(b) $g(f(x))$\n\n(c) $g(g(x))$",
+      "source_images": ["image1459.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. Consider the function $f(x) = \\frac{x + 2}{7}$.\n\n(a) Find $f^{-1}(x)$.\n\n(b) Check that $f(f^{-1}(x)) = f^{-1}(f(x)) = x$.\n\n(c) Sketch $y = f(x)$, $y = f^{-1}(x)$, and $y = x$ on the same set of axes.",
+      "source_images": ["image1460.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "10. Suppose $g(x) = \\frac{x + 4}{x}$.\n\n(a) Find $g^{-1}(x)$.\n\n(b) Check that $g(g^{-1}(x)) = g^{-1}(g(x)) = x$.\n\n(c) Find $g(2)$ and $g^{-1}(3)$.\n\n11. If $x = -3$, find the value of:\n\n(a) $|x - 4|$\n\n(b) $|x| - 4$\n\n(c) $|x^2 + 3x|$\n\n12. Draw the graph of $y = f(x)$ for:\n\n(a) $f(x) = |x| + 3x$\n\n(b) $f(x) = 2|x| - 4$\n\n13. Find the coordinates of the points of intersection of the graphs with equations $y = x^2 + 4x - 2$ and $y = 2x + 1$.",
+      "source_images": ["image1461.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 15B\n\n1. Find the domain and range of the following relations:\n\n(a) [Graph showing line segment from $(-6, 0)$ to origin then up to $(0, 2)$]\n\n(b) [Graph showing curve passing through $(1, -3)$]\n\n2. Determine whether the following relations are functions:\n\n(a) [Graph showing horizontal line $y = 3$ with vertical line $x = -2$, bounded region]\n\n(b) [Graph showing vertical line at $x = -3$]\n\n3. For $f(x) = 5x - x^2$, find:\n\n(a) $f(-3)$\n\n(b) $f(-x)$\n\n(c) $f(x + 1)$\n\n4. Find the domain of:\n\n(a) $f(x) = \\frac{1}{x + 4}$\n\n(b) $f(x) = \\frac{x}{x^2 + 4x - 5}$\n\n(c) $f(x) = \\sqrt{x} + \\sqrt{6 - x}$",
+      "source_images": ["image1462.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. The graph of $y = f(x)$ is a straight line passing through $(-1, 5)$ and $(3, -3)$.\n\n(a) Draw the graph of $y = f(x)$.\n\n(b) Find $f(-1)$ and $f(3)$.\n\n(c) Find $f(x)$.\n\n(d) Find $f^{-1}(x)$.",
+      "source_images": ["image1463.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. If $f(x) = 2x + 1$ and $g(x) = 7 - x$, find in simplest form:\n\n(a) $f(g(x))$\n\n(b) $g(f(x))$\n\n(c) $f(g(-2))$",
+      "source_images": ["image1464.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. Copy the following graphs, and draw the graph of each inverse function:\n\n(a) [Graph showing line passing through $(-1, 0)$ and $(0, 3)$]\n\n(b) [Graph showing curve passing through $(3, 0)$ and $(0, 2)$]\n\n8. If $a = -4$ and $b = 9$, find the value of:\n\n(a) $|ab|$\n\n(b) $|2a - b| + a$\n\n(c) $\\frac{|a^2 - b|}{|a|}$",
+      "source_images": ["image1465.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. Suppose $f(x) = 3x - 1$ and $g(x) = \\frac{1}{x - 4}$.\n\n(a) Find $f(g(x))$.\n\n(b) Find $f(g(5))$.\n\n(c) Find $x$ such that $f(g(x)) = -\\frac{1}{2}$.\n\n10. Consider $f(x) = \\frac{x + 1}{x - 2}$.\n\n(a) Find $f^{-1}(x)$.\n\n(b) Check that $f(f^{-1}(x)) = f^{-1}(f(x)) = x$.\n\n(c) Find $f^{-1}(4)$.\n\n11. Draw the graph of:\n\n(a) $f(x) = 7 - |x|$\n\n(b) $f(x) = \\frac{x}{|x|} + 3$\n\n12. Find the coordinates of the points of intersection of the graphs with equations $y = \\frac{3}{x}$ and $y = 2x - 1$.",
+      "source_images": ["image1466.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 3A\n\n1. For each graph, state:\n\n(i) the domain\n\n(ii) the range\n\n(iii) whether the graph shows a function.\n\n(a) [Graph showing exponential curve with horizontal asymptote at $y = -4$]\n\n(b) [Graph showing horizontal line at $y = 2$]\n\n(c) [Graph showing curve with vertical asymptote and point at $(0, -1)$]\n\n(d) [Graph showing sinusoidal curve with amplitude 5]",
+      "source_images": ["image1467.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. If $f(x) = 2x - x^2$, find:\n\n(a) $f(2)$\n\n(b) $f(-3)$\n\n(c) $f(-\\frac{1}{2})$",
+      "source_images": ["image1468.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. The graph of $y = f(x)$ is shown alongside.\n\n(a) Find:\n\n(i) $f(-3)$\n\n(ii) $f(2)$\n\n(b) Find the value of $x$ such that $f(x) = 4$.\n\n[Graph showing curve passing through points with $y = f(x)$ label]\n\n4. Suppose $f(x) = ax + b$ where $a$ and $b$ are constants. If $f(1) = 7$ and $f(3) = -5$, find $a$ and $b$.\n\n5. Given $h(x) = 7 - 3x$, find:\n\n(a) $h(2x - 1)$ in simplest form\n\n(b) $x$ such that $h(2x - 1) = -2$.\n\n6. This graph shows the noise level at a stadium during a football match.\n\nFind the domain and range of the function.\n\n[Graph showing noise level ($N$ decibels) vs Time ($t$ minutes), with values ranging from 60-100 decibels over 0-120 minutes]\n\n7. Consider $f(x) = \\frac{-2}{x^2}$.\n\n(a) For what value of $x$ is $f(x)$ undefined?\n\n(b) Sketch the function using technology.\n\n(c) State the domain and range of the function.\n\n8. Consider $f(x) = x^2$ and $g(x) = 1 - 6x$.\n\n(a) Show that $f(-3) = g(-\\frac{4}{3})$.\n\n(b) Find $x$ such that $g(x) = f(5)$.\n\n9. Find the domain and range of:\n\n(a) $y = \\sqrt{x + 4}$\n\n(b) $y = -(1 - x)^2 + 1$\n\n(c) $y = 2x^2 - 3x + 1$\n\n10. Determine the equation of the reciprocal functions:\n\n(a) [Graph showing hyperbola with point $(4, -5)$]\n\n(b) [Graph showing hyperbola with point $(-12, -5)$]\n\n11. Sketch a rational function with domain $\\{x \\mid x \\neq 4\\}$, range $\\{y \\mid y \\neq -1\\}$, and sign diagram $\\begin{array}{c} - & + & - \\\\ \\hline 1 & & 4 \\end{array} \\rightarrow x$.",
+      "source_images": ["image1469.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "12. Consider the function $f : x \\mapsto \\frac{4x + 1}{2 - x}$.\n\n(a) Find the equations of the asymptotes.\n\n(b) State the domain and range of the function.\n\n(c) Draw a sign diagram of the function. Hence discuss the behaviour of the function as it approaches its asymptotes.\n\n(d) Find the axes intercepts.\n\n(e) Sketch the function.",
+      "source_images": ["image1470.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "13. If $f(x) = 2x - 3$ and $g(x) = x^2 + 2$, find in simplest form:\n\n(a) $(f \\circ g)(x)$\n\n(b) $(g \\circ f)(x)$\n\n(c) $(f \\circ f)(2)$\n\n14. Suppose $f(x) = 2x - 5$ and $g(x) = 3x + 1$.\n\n(a) Find $(f \\circ g)(x)$.\n\n(b) Solve $(f \\circ g)(x) = f(x + 3)$.\n\n15. If $f(x) = 1 - 2x$ and $g(x) = \\sqrt{x}$, find in simplest form:\n\n(a) $(f \\circ g)(x)$\n\n(b) $(g \\circ f)(x)$\n\n(c) $(g \\circ g)(81)$\n\n16. If $f(x) = ax + b$, $f(2) = 1$, and $f^{-1}(3) = 4$, find $a$ and $b$.\n\n17. Copy the following graphs and draw the inverse function on the same set of axes:\n\n(a) [Graph showing curve passing through $(0, 2)$ and $(5, 0)$]\n\n(b) [Graph showing curve passing through $(0, 2)$ and $(2, 0)$ with negative slope]\n\n18. Find $f^{-1}(x)$ given that $f(x)$ is:\n\n(a) $4x + 2$\n\n(b) $\\frac{3 - 5x}{4}$\n\n19. Given $f : x \\mapsto 3x + 6$ and $h : x \\mapsto \\frac{x}{3}$, show that $(f^{-1} \\circ h^{-1})(x) = (h \\circ f)^{-1}(x)$.\n\n20. The graph of the function $f(x) = -\\frac{1}{2}x^2$, $0 \\leq x \\leq 2$ is shown alongside.\n\n(a) Sketch the graph of $y = f^{-1}(x)$.\n\n(b) State the range of $f^{-1}$.\n\n(c) Solve:\n\n(i) $f(x) = -\\frac{3}{2}$\n\n(ii) $f^{-1}(x) = 1$\n\n[Graph showing parabola from $(0, 0)$ to $(2, -2)$ with point $(1, -\\frac{1}{2})$ marked]\n\n21. Show that $f : x \\mapsto \\frac{5x - 1}{x - 5}$, $x \\neq 5$ is its own inverse by:\n\n(a) referring to its graph\n\n(b) using algebra.\n\n22. If $f : x \\mapsto \\sqrt{x}$ and $g : x \\mapsto 3 + x$, find:\n\n(a) $f^{-1}(2) \\times g^{-1}(2)$\n\n(b) $(f \\circ g)^{-1}(2)$",
+      "source_images": ["image1471.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "23. Draw on the same set of axes:\n\n(a) $y = -x^2 - 2x + 3$ and $y = |-x^2 - 2x + 3|$\n\n(b) $y = -\\frac{2}{x}$ and $y = \\left|-\\frac{2}{x}\\right|$",
+      "source_images": ["image1472.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 3B\n\n1. State the domain and range of each function:\n\n(a) [Graph showing parabola $y = (x-1)(x-5)$]\n\n(b) [Graph showing curve with point $(-2, 1)$ and horizontal asymptote at $y = 3$]\n\n(c) [Graph showing line segment from $(3, 1)$ to $(3, 2)$]\n\n2. If $g(x) = x^2 - 3x$, find in simplest form:\n\n(a) $g(x + 1)$\n\n(b) $g(4x)$\n\n3. For each of the following graphs, determine:\n\n(i) the domain and range\n\n(ii) the $x$ and $y$-intercepts\n\n(iii) whether it is a function.\n\n(a) [Graph showing parabola with vertex at $(2, -5)$ and point at $(-1, 0)$ and $(5, 0)$, minimum at $-\\frac{25}{9}$]\n\n(b) [Graph showing vertical line at $x = -1$ with point at $(0, 1)$ and horizontal asymptote at $y = -3$]\n\n4. Use algebraic methods to determine whether these relations are functions:\n\n(a) $x + 2y = 10$\n\n(b) $x + y^2 = 10$\n\n5. Suppose $f(x) = \\frac{3x - 1}{x + 2}$.\n\n(a) Evaluate:\n\n(i) $f(-1)$\n\n(ii) $f(0)$\n\n(iii) $f(5)$\n\n(b) Find a value of $x$ such that $f(x)$ does not exist.\n\n(c) Find $f(x - 1)$ in simplest form.\n\n(d) Find $x$ if $f(x) = 4$.\n\n6. Given $f(x) = x^2 + 3$, find:\n\n(a) $f(-3)$\n\n(b) $x$ such that $f(x) = 4$.\n\n7. State the domain and range of:\n\n(a) $f(x) = 10 + \\frac{3}{2x - 1}$\n\n(b) $f(x) = \\sqrt{x + 7}$",
+      "source_images": ["image1473.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "8. (a) Use technology to help sketch the graph of the relation $y = \\sqrt{9 - x}$.\n\n(b) Determine whether the relation is a function.\n\n(c) Find the domain and range of the relation.\n\n9. Suppose $f(x) = ax^2 + bx + c$. Find $a$, $b$, and $c$ if $f(0) = 5$, $f(-2) = 21$, and $f(3) = -4$.\n\n10. Use technology to sketch $y = x^3 - 4x^2 + x$, $-1 \\leq x \\leq 4$. Include the points at the ends of the domain, and any turning points. Hence state the range of the function.",
+      "source_images": ["image1474.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "11. Draw a sign diagram for:\n\n(a) $\\frac{2x - 5}{x - 4}$\n\n(b) $\\frac{3 - x}{x + 1}$\n\n12. For the function $f(x) = -1 + \\frac{3}{x + 2}$:\n\n(a) Find the equations of the asymptotes.\n\n(b) State the domain and range.\n\n(c) Find the axes intercepts.\n\n(d) Discuss the behaviour of the function as it approaches its asymptotes.\n\n(e) Sketch the graph of the function.\n\n13. Given $f(x) = 3 - x^2$ and $g(x) = 2x - 1$, find in simplest form:\n\n(a) $(f \\circ g)(x)$\n\n(b) $(g \\circ f)(x)$\n\n(c) $(f \\circ f)(-2)$\n\n14. Suppose $f(x) = \\frac{1}{x^2}$ and $g(x) = x^2 - 4x + 3$. Find $(f \\circ g)(x)$ and state its domain and range.\n\n15. Suppose $f(x) = 3x + 5$ and $g(x) = 2x^2 - x$.\n\n(a) Find in simplest form:\n\n(i) $(f \\circ g)(x)$\n\n(ii) $(g \\circ f)(x)$\n\n(b) Hence solve $3(f \\circ g)(x) = (g \\circ f)(x)$.\n\n16. Copy the following graphs and draw the graph of each inverse function on the same set of axes:\n\n(a) [Graph showing curve through origin with point at $(0, 3)$]\n\n(b) [Graph showing curve through $(2, 0)$ with point at $(0, 2)$ and negative slope]\n\n17. Find the inverse function $f^{-1}(x)$ for:\n\n(a) $f(x) = 7 - 4x$\n\n(b) $f(x) = \\frac{3 + 2x}{5}$\n\n18. Consider $f : x \\mapsto 2x - 7$.\n\n(a) On the same set of axes graph $y = x$, $y = f(x)$, and $y = f^{-1}(x)$.\n\n(b) Find $f^{-1}(x)$ using variable interchange.\n\n(c) Show that $(f \\circ f^{-1})(x) = (f^{-1} \\circ f)(x) = x$, the identity function.",
+      "source_images": ["image1475.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "19. Given $f : x \\mapsto 5x - 2$ and $h : x \\mapsto \\frac{3x}{4}$, show that $(f^{-1} \\circ h^{-1})(x) = (h \\circ f)^{-1}(x)$.\n\n20. Consider the functions $f(x) = 3x + 1$ and $g(x) = \\frac{2}{x}$.\n\n(a) Find $(g \\circ f)(x)$.\n\n(b) Given $(g \\circ f)(x) = -4$, solve for $x$.\n\n(c) Let $h(x) = (g \\circ f)(x)$, $x \\neq -\\frac{1}{3}$.",
+      "source_images": ["image1476.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "(i) Write down the equations of the asymptotes of $h(x)$.\n\n(ii) Sketch the graph of $h(x)$ for $-3 \\leq x \\leq 2$.\n\n(iii) State the range of $h(x)$ for the domain $-3 \\leq x \\leq 2$.\n\n21. Given $f(x) = 2x + 11$ and $g(x) = x^2$, find $(g \\circ f^{-1})(3)$.\n\n22. The function $f(x) = \\frac{ax + 3}{x - b}$ has asymptotes $x = -1$ and $y = 2$.\n\n(a) Find $a$ and $b$.\n\n(b) Find the domain and range of $f^{-1}(x)$.\n\n23. If $f : x \\mapsto 2x + 1$ and $g : x \\mapsto \\frac{x + 1}{x - 2}$, find:\n\n(a) $(f \\circ g)(x)$\n\n(b) $g^{-1}(x)$.\n\n24. Copy the graph and draw the graph of $y = |f(x)|$ on the same set of axes:\n\n(a) [Graph showing curve with $y = f(x)$ passing through origin with local minimum and maximum]\n\n(b) [Graph showing curve $y = f(x)$ passing through origin with positive slope]",
+      "source_images": ["image1477.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 16.4: Consider the function $f(x) = \\frac{2x - 3}{x + 5}$.\n\n(a) Find $f(1)$, $f(1/3)$, and $f(-3)$.\n\n(b) What is the domain of $f$?\n\n(c) What is the range of $f$?",
+      "source_images": ["image1478.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Solution for Problem 16.4:\n\n(a) Letting $x = 1$, then $x = 1/3$, then $x = -3$ in our function definition, we find the following:\n\n$f(1) = \\frac{2 \\cdot 1 - 3}{1 + 5} = \\frac{2 - 3}{6} = -\\frac{1}{6}$\n\n$f(1/3) = \\frac{2 \\cdot \\frac{1}{3} - 3}{\\frac{1}{3} + 5} = \\frac{\\frac{2}{3} - 3}{\\frac{16}{3}} = \\frac{-\\frac{7}{3}}{\\frac{16}{3}} = -\\frac{7}{16}$\n\n$f(-3) = \\frac{2(-3) - 3}{-3 + 5} = \\frac{-6 - 3}{2} = -\\frac{9}{2}$\n\n(b) The only value we cannot put into $f$ is $x = -5$, since this will make the denominator of $(2x-3)/(x+5)$ equal to zero. Any other value of $x$ produces an output of $f$. Therefore, the domain of $f$ is all real numbers except $-5$.\n\n(c) It isn't immediately obvious what values our function can output. So, we try experimenting a bit. We test to see if the function can output 3 by trying to find a value of $x$ such that $f(x) = 3$. Using our function definition, we have the equation\n\n$\\frac{2x - 3}{x + 5} = 3$.\n\nMultiplying both sides by $x + 5$ gives $2x - 3 = 3(x + 5) = 3x + 15$. Solving this equation gives us $x = -18$. So, because $f(-18) = 3$, we know that 3 is in the range of $f$.\n\nTesting each and every number to see if it is in the range of $f$ is impossible, but we can use our experiment as a guide. We showed that 3 is in the range of $f$ by finding the input that produces 3 as an output. Let's try the same thing with a variable in place of 3.\n\nSuppose $y$ is the output of $f$, so that $f(x) = y$. Again, using our function definition, we have\n\n$\\frac{2x - 3}{x + 5} = y$.\n\nWhen we used 3 as our output, we solved this equation for $x$ to find the input that produced 3 as an output. Let's do the same here by solving for $x$ in terms of $y$. Multiplying both sides of this",
+      "source_images": ["image1479.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "equation by $x + 5$ gives $2x - 3 = y(x + 5) = xy + 5y$. Grouping terms with $x$ in them on the left and the other terms on the right gives $2x - xy = 5y + 3$. Factoring the $x$ out of the left side gives $x(2 - y) = 5y + 3$, and dividing by $2 - y$ gives us\n\n$x = \\frac{5y + 3}{2 - y}$.\n\nAha! For any value of $y$ except $y = 2$, we can find an input, $x$, that produces that value of $y$ as an output. For example, when $y = 3$, we have\n\n$x = \\frac{5 \\cdot 3 + 3}{2 - 3} = -18$,\n\nas before. However, when $y = 2$, we see that we cannot find a corresponding value of $x$. Therefore, there is no input to $f$ that produces an output of 2. So, 2 is not in the range of $f$. Since all other real numbers are in the range of $f$, the range of $f$ is all real numbers except 2.",
+      "source_images": ["image1480.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Important: We can often determine the range of a function $f$ by letting $y = f(x)$ and solving the resulting equation for $x$ in terms of $y$.",
+      "source_images": ["image1481.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 16.5: Suppose we have the function\n\n$G(x) = 3x - 7$,\n\nbut define the function only for $3 \\leq x \\leq 8$. (For example, $G(2)$ is not defined.) What is the range of $G$?",
+      "source_images": ["image1482.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Although $3x - 7$ can produce any real number, the restrictions on the domain impose restrictions on the range. Because $x \\geq 3$, we have $3x \\geq 9$, so $3x - 7 \\geq 2$. Therefore, $G(x) \\geq 2$. Similarly, starting from $x \\leq 8$ gives $3x \\leq 24$ and $3x - 7 \\leq 17$, so $G(x) \\leq 17$. Combining these two inequalities for $G(x)$, we have\n\n$2 \\leq G(x) \\leq 17$,\n\nso the range of $G$ is all real numbers from 2 to 17, inclusive, or $[2, 17]$ in interval notation. Make sure you see why all numbers between 2 and 17 are in the range.",
+      "source_images": ["image1483.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 16.6:\n\n(a) Suppose $f(x, y) = 2xy - x + y$. What is $f(2, 3)$?\n\n(b) Suppose $G(a, b, c) = 2a + 3b - 4ac$. Find $a$ if $G(3, a, 5) = 15$.\n\n(c) Why is the quadratic formula,\n\n$f(a, b, c) = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$,\n\nnot a valid function?",
+      "source_images": ["image1484.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "(a) We substitute 2 in for $x$ and 3 in for $y$:\n\n$f(2, 3) = 2(2)(3) - 2 + 3 = 13$.",
+      "source_images": ["image1485.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "(b) What's wrong with this solution:\n\nBogus Solution: To evaluate $G(3, a, 5)$, we have $b = 3$ and $c = 5$ (we already have $a$ as itself), so\n\n$G(3, a, 5) = 2a + 9 - 20a = -18a + 9$.\n\nSetting this equal to 15, we have $-18a + 9 = 15$, so $a = -1/3$.",
+      "source_images": ["image1486.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "So, to evaluate $G(3, a, 5)$ using $G(a, b, c) = 2a + 3b - 4ac$, we replace $a$ in the function definition with 3, $b$ with $a$, and $c$ with 5:\n\nFunction Definition: $G(a, b, c) = 2 \\cdot a + 3 \\cdot b - 4 \\cdot a \\cdot c$,\n\nFunction Evaluation: $G(3, a, 5) = 2 \\cdot 3 + 3 \\cdot a - 4 \\cdot 3 \\cdot 5$.",
+      "source_images": ["image1487.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Notice that the $a$ in $G(3, a, 5)$ is not the same as the $a$ in $G(a, b, c)$.\n\nHaving made the correct substitutions, we now see that\n\n$G(3, a, 5) = 6 + 3a - 60 = 3a - 54$.",
+      "source_images": ["image1488.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Solving $3a - 54 = 15$ gives $a = 23$.",
+      "source_images": ["image1489.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "(c) While functions need not have only one input, they are only allowed to have one output. The quadratic formula,\n\n$f(a, b, c) = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$,\n\nis not a valid function because it produces two outputs for most inputs.",
+      "source_images": ["image1490.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Important: If $f$ and $g$ are functions, then each of the following is a function:\n\n- $f + g$.\n- $f \\cdot g$.\n- $f - g$.\n- $f/g$. (For this, $g$ must be a nonzero function.)",
+      "source_images": ["image1491.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 16.9: Let $f(x) = \\sqrt{x}$ and $g(x) = \\sqrt{x^2 - x - 6}$.\n\n(a) Find the domain of $f(x)$.\n\n(b) Find the domain of $g(x)$.\n\n(c) Let $s(x) = f(x) + g(x)$. If $s$ is a function, what is its domain?\n\n(d) Let $d(x) = f(x)/g(x)$. If $d$ is a function, what is its domain?",
+      "source_images": ["image1492.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Solution for Problem 16.9:\n\n(a) Since $\\sqrt{x}$ is only real for $x \\geq 0$, the domain is $f$ is all numbers greater than or equal to 0.\n\n(b) We must determine what values of $x$ satisfy $x^2 - x - 6 \\geq 0$. Because $x^2 - x - 6 = (x - 3)(x + 2)$, we find that $x^2 - x - 6 \\geq 0$ when $x \\geq 3$, and when $x \\leq -2$. Therefore, the domain of $g$ includes both all numbers greater than or equal to 3 and numbers less than or equal to $-2$.\n\n(c) As we saw earlier in the section, because $f$ and $g$ are both functions, we know that $s = f + g$ is also a function. We can produce an output $f(x) + g(x)$ for a given value of $x$ only if $x$ is in both the domain of $f$ and the domain of $g$. Therefore, the domain of $s$ consists of those values that are in the domains of both $f$ and $g$. The values that are in both the domains found in the previous two parts are all numbers greater than or equal to 3.\n\n(d) What's wrong with this beginning of a solution:\n\nBogus Solution: We have\n\n$d(x) = \\frac{f(x)}{g(x)} = \\frac{\\sqrt{x}}{\\sqrt{x^2 - x - 6}} = \\sqrt{\\frac{x}{x^2 - x - 6}}$,\n\nso we must determine when the expression $x/(x^2 - x - 6)$ is nonnegative.",
+      "source_images": ["image1493.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Using the argument above, we would deduce that 0 is in the domain of $d$, because $\\sqrt{x/(x^2 - x - 6)}$ equals 0 when $x = 0$. However, 0 is not in the domain of $g$, so the expression\n\n$\\frac{f(x)}{g(x)}$\n\nis not defined when $x = 0$. Our definition of $d$, which is $d(x) = f(x)/g(x)$, means that we find the output of $f$ and the output of $g$, then divide. If either $f$ or $g$ fails to have an output for a particular input, then that input is not in the domain of $d$. So, we might think the domain of $d$ is the same as $s$ in our previous part: all real numbers greater than or equal to 3.\n\nBut what about 3 itself? When we input 3 to $d$, we have $d(3) = f(3)/g(3)$. But $g(3) = 0$, and we can't divide by 0. So, we can't input 3 to $d$. Therefore, 3 is not in the domain of $d$.\n\nWARNING!! If $f$ and $g$ are functions and $d = f/g$, then those values of $x$ such that $g(x) = 0$ are not in the domain of $d$.\n\nThe only other value of $x$ for which $g(x) = 0$ is $x = -2$, so we have no further restrictions on the domain of $d$. Therefore, the domain of $d$ is all numbers greater than 3.",
+      "source_images": ["image1494.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 16.10: Let $f(x) = 2x - 6$ and $g(x) = 3x - 9$.\n\n(a) Find $f(g(2))$.\n\n(b) Find $g(f(2))$.\n\n(c) Find $f(g(x))$.",
+      "source_images": ["image1495.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Solution for Problem 16.10:\n\n(a) We put 2 into $g(x)$, then put the result into $f(x)$. Since $g(2) = 3(2) - 9 = -3$, we have\n\n$f(g(2)) = f(-3) = 2(-3) - 6 = -12$.\n\n(b) Since $f(2) = 2(2) - 6 = -2$, we have\n\n$g(f(2)) = g(-2) = 3(-2) - 9 = -15$.\n\nNotice that $f(g(2))$ and $g(f(2))$ are not the same!\n\n(c) The function definition $f(x) = 2x - 6$ tells us that $f(x)$ multiplies its input by 2 and subtracts 6. The expression $f(g(x))$ says \"put $g(x)$ into the function $f$,\" so the result is 2 times $g(x)$ minus 6:\n\n$f(g(x)) = 2(g(x)) - 6$.\n\nBecause $g(x) = 3x - 9$, we have\n\n$f(g(x)) = 2(g(x)) - 6 = 2(3x - 9) - 6 = 6x - 24$.\n\nWe can test expression for $f(g(x))$ by checking our earlier computation of $f(g(2))$. We have\n\n$f(g(2)) = 6(2) - 24 = -12$,\n\nwhich matches our earlier answer.",
+      "source_images": ["image1496.png"]
+    }
+  ]
+}

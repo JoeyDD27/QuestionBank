@@ -1,0 +1,157 @@
+{
+  "chapter": 5,
+  "part": 5,
+  "images_range": "425-454",
+  "items": [
+    {
+      "type": "example",
+      "content_latex": "Solution for Problem 11.10:\n\n$5^2 - 4^2 = 9 = 5 + 4$,\n$6^2 - 5^2 = 11 = 6 + 5$,\n$7^2 - 6^2 = 13 = 7 + 6$,\n$8^2 - 7^2 = 15 = 8 + 7$.",
+      "source_images": ["image425.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Since we have differences of squares on the left side, we can use our new factorization to determine why this pattern holds:\n\n$(n + 1)^2 - n^2 = [(n + 1) - n][(n + 1) + n] = (n + 1) + n$.\n\nWe could also have seen why this pattern holds by expanding $(n + 1)^2$:\n\n$(n + 1)^2 - n^2 = n^2 + 2n + 1 - n^2 = 2n + 1 = (n + 1) + n$.",
+      "source_images": ["image426.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 11.11: Find all pairs of positive integers $m$ and $n$ such that $m^2$ is 105 greater than $n^2$.",
+      "source_images": ["image427.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Solution for Problem 11.11: Turning the words into math is easy:\n\n$m^2 = n^2 + 105$.\n\nIt's not at all clear what to do with this equation, but if we subtract $n^2$ from both sides, we have $m^2 - n^2 = 105$. We like this because we can factor the left side:\n\n$(m - n)(m + n) = 105$.\n\nBecause $m$ and $n$ are integers, so are $m - n$ and $m + n$. Therefore, both $m - n$ and $m + n$ are factors of 105. We can use the different possible factorizations of 105 to give us the different possible values of $m - n$ and $m + n$:\n\n$(m - n)(m + n) = 1 \\cdot 105 = 3 \\cdot 35 = 5 \\cdot 21 = 7 \\cdot 15$.\n\nBecause $m$ and $n$ are positive, we know that $m - n$ is smaller than $m + n$, so we only have these four cases to consider:\n\n$m - n = 1$, $m + n = 105$\n$m - n = 3$, $m + n = 35$\n$m - n = 5$, $m + n = 21$\n$m - n = 7$, $m + n = 15$",
+      "source_images": ["image428.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Each of these systems of equations gives us a solution $(m, n)$. Adding the equations in the first case gives us $2m = 106$, so $m = 53$. Substitution then gives $n = 52$. Similarly, we can work through each of the other three cases to find the four solutions $(m, n) = (53, 52); (19, 16); (13, 8); (11, 4)$. $\\square$",
+      "source_images": ["image429.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 11.12: Suppose\n\n$x = z - \\sqrt{z^2 - 5}$ and $5y = z + \\sqrt{z^2 - 5}$.\n\nFind $x$ when $y = \\frac{2}{3}$.",
+      "source_images": ["image430.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Solution for Problem 11.12: One approach would be to substitute $y = \\frac{2}{3}$ in the second equation, solve for $z$, then substitute that solution into the first equation. Solving that second equation for $z$ looks pretty scary, though. Moreover, if $z$ is itself a nasty expression, it may not be so easy to evaluate $x$.\n\nWhat makes this problem tricky are the square roots.\n\nConcept: Focusing on what makes a problem tricky helps identify what strategies might best solve the problem.\n\nWe know that squaring gets rid of square roots, but squaring either of our equations doesn't look too helpful. However, we notice that the right sides of our equations are of the form $a - b$ and $a + b$, where $a = z$ and $b = \\sqrt{z^2 - 5}$. We could add them to get rid of $\\sqrt{z^2 - 5}$, but that would give $x + 5y = 2z$, and we're back to having to find $z$.\n\nInstead of getting rid of $b$, we reach back to our squaring idea to get rid of the square roots. Because $(a - b)(a + b) = a^2 - b^2$, multiplying the two equations will get rid of the square roots:\n\n$(x)(5y) = \\left(z - \\sqrt{z^2 - 5}\\right)\\left(z + \\sqrt{z^2 + 5}\\right)$.\n\nThe right side is the factorization of a difference of squares, so we have\n\n$5xy = (z)^2 - \\left(\\sqrt{z^2 - 5}\\right)^2 = z^2 - (z^2 - 5) = 5$.\n\nTherefore, $xy = 1$. Since $y = \\frac{2}{3}$, we conclude that $x = \\frac{1}{y} = \\frac{3}{2}$. $\\square$",
+      "source_images": ["image431.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 11.13: Compute $\\sqrt{1998 \\cdot 1996 \\cdot 1994 \\cdot 1992 + 16}$ without a calculator. (Source: Mandelbrot)",
+      "source_images": ["image432.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Solution for Problem 11.13: We can start by computing a few simpler expressions that follow the same pattern as the expression we must evaluate:\n\n$\\sqrt{7 \\cdot 5 \\cdot 3 \\cdot 1 + 16} = \\sqrt{121} = 11$,\n$\\sqrt{8 \\cdot 6 \\cdot 4 \\cdot 2 + 16} = \\sqrt{400} = 20$,\n$\\sqrt{9 \\cdot 7 \\cdot 5 \\cdot 3 + 16} = \\sqrt{961} = 31$,\n$\\sqrt{10 \\cdot 8 \\cdot 6 \\cdot 4 + 16} = \\sqrt{1936} = 44$.\n\nWe have a hint of a pattern. The difference between the second and first results is $20 - 11 = 9$. The difference between the third and second results is $31 - 20 = 11$, and between the fourth and third is $44 - 31 = 13$. We might be able to guess that the next term is $44 + 15 = 59$, then the next is $59 + 17 = 76$, and so on. But how do we know our pattern will always hold?\n\nAs we've done before when facing large numbers, we use a variable to represent one of the numbers in the hopes of then simplifying the resulting expression. If we let $x = 1992$, our expression is\n\n$\\sqrt{(x + 6)(x + 4)(x + 2)x + 16}$.",
+      "source_images": ["image433.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Multiplying that out looks like a bit of a headache. Before we do so, we consider whether we might make a different variable substitution that will allow us to use one of our special factorizations. We know products like $(z - a)(z + a)$ are easy to handle, so if we let $z = 1995$, which is right in the middle of our four big numbers, we'll have something that's easier to expand:",
+      "source_images": ["image434.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "$\\sqrt{(z + 3)(z + 1)(z - 1)(z - 3) + 16} = \\sqrt{(z + 3)(z - 3)(z + 1)(z - 1) + 16}$\n$= \\sqrt{(z^2 - 9)(z^2 - 1) + 16}$\n$= \\sqrt{z^4 - 10z^2 + 9 + 16}$\n$= \\sqrt{z^4 - 10z^2 + 25}$",
+      "source_images": ["image435.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "We recognize $z^4 - 10z^2 + 25$ as the square of $z^2 - 5$, so\n\n$\\sqrt{(z + 3)(z + 1)(z - 1)(z - 3) + 16} = \\sqrt{z^4 - 10z^2 + 25} = z^2 - 5$.\n\nFor $z = 1995$, we have\n\n$1995^2 - 5 = (2000 - 5)^2 - 5 = 2000^2 - 2(2000)(5) + 5^2 - 5 = 4000000 - 20000 + 25 - 5 = 3,980,020$.\n\nNotice our varied use of our knowledge of special factorizations throughout this problem. $\\square$",
+      "source_images": ["image436.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercises\n\n11.2.1 Factor each of the following expressions:\n\n(a) $t^2 - 49$\n\n(b) $36 - 9x^2$\n\n(c) $121a^2b^4 - c^2$\n\n(d) $800x^4 - 72x^2y^2$\n\n11.2.2 Given that $55555^2 = 3086358025$, calculate $55556^2$ without a calculator. (Source: Mandelbrot)\n\n11.2.3\n\n(a) Are $3^8$ and $2^6$ perfect squares?\n\n(b) Find the prime factorization of $3^8 - 2^6$. Challenge: See if you can do it in your head!\n\n11.2.4 Factor $w^4 - 16$ as much as possible.\n\n11.2.5$\\star$ In the diagram, a square of side length $b$ is cut out of the corner of the square of side length $a$. Show that $a^2 - b^2 = (a - b)(a + b)$ geometrically, by finding the area of the remaining figure in two ways. Hints: 105\n\n11.2.6$\\star$ Find $x - y$ given that $x^4 = y^4 + 18\\sqrt{3}$, $x^2 + y^2 = 6$, and $x + y = 3$. (Source: HMMT) Hints: 141",
+      "source_images": ["image437.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "11.3 Sum and Difference of Cubes",
+      "source_images": ["image438.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "$x^3 - y^3 = (x - y)(x^2 + xy + y^2)$",
+      "source_images": ["image439.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "$x^3 + y^3 = (x + y)(x^2 - xy + y^2)$.",
+      "source_images": ["image440.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "We check this by expanding the product on the right side:\n\n$(x - y)(x^2 + xy + y^2) = x(x^2 + xy + y^2) - y(x^2 + xy + y^2)$\n$= x^3 + x^2y + xy^2 - x^2y - xy^2 - y^3$\n$= x^3 - y^3$.",
+      "source_images": ["image441.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "$(x + y)(x^2 - xy + y^2) = x(x^2 - xy + y^2) + y(x^2 - xy + y^2)$\n$= x^3 - x^2y + xy^2 + x^2y - xy^2 + y^3$\n$= x^3 + y^3$.",
+      "source_images": ["image442.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 11.16: Factor each of the following:\n\n(a) $r^3 - 125$\n\n(b) $x^3 + 1000$\n\n(c) $27y^3 + 1$\n\n(d) $32t^3 - 108$",
+      "source_images": ["image443.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Solution for Problem 11.16:\n\n$r^3 - 125 = r^3 - 5^3 = (r - 5)[r^2 + (r)(5) + 5^2] = (r - 5)(r^2 + 5r + 25)$.",
+      "source_images": ["image444.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "$x^3 + 1000 = x^3 + 10^3 = (x + 10)[x^2 - (x)(10) + 10^2] = (x + 10)(x^2 - 10x + 100)$.",
+      "source_images": ["image445.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "$27y^3 + 1 = (3y)^3 + 1^3 = (3y + 1)[(3y)^2 - (3y)(1) + 1^2] = (3y + 1)(9y^2 - 3y + 1)$.",
+      "source_images": ["image446.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "$32t^3 - 108 = 4(8t^3 - 27) = 4[(2t)^3 - 3^3] = 4(2t - 3)[(2t)^2 + (2t)(3) + 3^2] = 4(2t - 3)(4t^2 + 6t + 9)$.",
+      "source_images": ["image447.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 11.17: The number 7,999,999,999 has two prime factors. Find them. (Source: HMMT)\n\nSolution for Problem 11.17: We need to write our giant number as a product, and it's not at all obvious what primes divide it. Since we are trying to factor the number, let's approach it as a factoring problem. We do have some powerful factoring tools in the difference of squares and difference of cubes factorizations. And the number we're given is tellingly close to 8,000,000,000. 8 is a perfect cube, and 1,000,000,000 is the cube of 1000, so\n\n$8,000,000,000 = (8)(1,000,000,000) = (2^3)(1000^3) = (2000)^3$.\n\nWe can now factor 7,999,999,999 with the difference of cubes factorization:\n\n$7,999,999,999 = 8,000,000,000 - 1$\n$= 2000^3 - 1^3$\n$= (2000 - 1)(2000^2 + 2000 + 1)$\n$= (1999)(4002001)$",
+      "source_images": ["image448.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Since we are told that 7,999,999,999 has two prime factors, they must be 1999 and 4002001.",
+      "source_images": ["image449.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 11.18: The unknown real numbers $x$, $y$, $z$ satisfy the equations\n\n$\\frac{x + y}{1 + z} = \\frac{1 - z + z^2}{x^2 - xy + y^2}$,\n\n$\\frac{x - y}{3 - z} = \\frac{9 + 3z + z^2}{x^2 + xy + y^2}$.\n\nFind $x$. (Source: HMMT)",
+      "source_images": ["image450.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Solution for Problem 11.18: Just as important as recognizing the difference or sum of cubes in a problem is recognizing the factors. Typically, the quadratic factor is the easier one to spot in the sum and difference of cubes factorizations. Here, the $x^2 - xy + y^2$ and $x^2 + xy + y^2$ are giveaways. We see that when we cross-multiply the first equation, we'll have two factored sums of cubes:\n\n$(x + y)(x^2 - xy + y^2) = (1 + z)(1 - z + z^2)$.\n\nWe recognize these as the factorizations of sums of cubes, so we don't have to go through the steps of multiplying both sides out. We know the result is\n\n$x^3 + y^3 = 1^3 + z^3$.\n\nAfter cross-multiplying, the second equation is a pair of factored differences of cubes:\n\n$(x - y)(x^2 + xy + y^2) = (3 - z)(9 + 3z + z^2)$.\n\nOnce again, we recognize these factors, and we immediately see that $x^3 - y^3 = 27 - z^3$. We now have a much simpler system of equations:\n\n$x^3 + y^3 = 1 + z^3$,\n$x^3 - y^3 = 27 - z^3$.\n\nWe're looking for $x$, and adding these equations eliminates $y$ and $z$ to give $2x^3 = 28$, from which we find $x = \\sqrt[3]{14}$. $\\square$",
+      "source_images": ["image451.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercises\n\n11.3.1 Factor each of the following:\n\n(a) $x^3 - 1000$\n\n(b) $27r^3 + 64$\n\n(c) $2z^3 - 16z^6$\n\n(d) $-a^3b^3 - 8$\n\n11.3.2 Find the prime factorization of $3^6 + 2^9$ without a calculator.\n\n11.3.3 Express $x^6 - 64$ as the product of four factors.\n\n11.3.4\n\n(a) The expression $x^4 - y^4$ can be written as the product of $x - y$ and another factor. Find that other factor.\n\n(b) The expression $x^5 - y^5$ can be written as the product of $x - y$ and another factor. Find that other factor.\n\n(c)$\\star$ Write $x^k - y^k$ as the product of two factors.",
+      "source_images": ["image452.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "11.3.5$\\star$ Let $x$ and $y$ be numbers such that\n\n$|x| \\neq |y|$, $x^3 = 15x + 4y$, and $y^3 = 4x + 15y$.\n\nIn this problem we find $x^2 + y^2$. (Source: Dropped AIME)\n\n(a) Combine the equations for $x^3$ and $y^3$ in ways that allow you to use the sum and difference of cubes factorization. Hints: 177\n\n(b) Use your results from part (a) to find $x^2 + y^2$.",
+      "source_images": ["image453.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Rationalizing Denominators",
+      "source_images": ["image454.png"]
+    }
+  ]
+}

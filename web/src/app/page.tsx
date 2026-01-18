@@ -19,67 +19,58 @@ async function getChapters(): Promise<Chapter[]> {
 }
 
 async function getChapterStats(): Promise<Record<string, { images: number; items: number; questions: number }>> {
-  // Get all chapters to build parent mapping
+  // Get main chapters (no parent)
   const { data: chapters } = await supabase
     .from("chapters")
-    .select("id, parent_id");
+    .select("id")
+    .is("parent_id", null);
 
   if (!chapters) return {};
 
-  // Build parent_id lookup: subsection_id -> main_chapter_id
-  const parentMap: Record<string, string> = {};
-  chapters.forEach((c) => {
-    if (c.parent_id) {
-      parentMap[c.id] = c.parent_id;
-    }
-  });
-
-  // Get image counts per chapter
-  const { data: images } = await supabase
-    .from("images")
-    .select("chapter_id");
-
-  // Get item counts per chapter
-  const { data: items } = await supabase
-    .from("items")
-    .select("id, chapter_id");
-
-  // Get question counts
-  const { data: questions } = await supabase
-    .from("questions")
-    .select("item_id");
-
-  // Build item_id -> chapter_id lookup
-  const itemChapterMap: Record<string, string> = {};
-  items?.forEach((i) => {
-    itemChapterMap[i.id] = i.chapter_id;
-  });
-
   const stats: Record<string, { images: number; items: number; questions: number }> = {};
 
-  // Count images - aggregate to main chapter
-  images?.forEach((img) => {
-    const mainChapterId = parentMap[img.chapter_id] || img.chapter_id;
-    if (!stats[mainChapterId]) stats[mainChapterId] = { images: 0, items: 0, questions: 0 };
-    stats[mainChapterId].images++;
+  // Initialize all chapters
+  chapters.forEach(c => {
+    stats[c.id] = { images: 0, items: 0, questions: 0 };
   });
 
-  // Count items - aggregate to main chapter
-  items?.forEach((item) => {
-    const mainChapterId = parentMap[item.chapter_id] || item.chapter_id;
-    if (!stats[mainChapterId]) stats[mainChapterId] = { images: 0, items: 0, questions: 0 };
-    stats[mainChapterId].items++;
+  // Count images per chapter using head:true (only returns count, no row limit)
+  const imagePromises = chapters.map(async (c) => {
+    const { count } = await supabase
+      .from("images")
+      .select("*", { count: "exact", head: true })
+      .eq("chapter_id", c.id);
+    return { id: c.id, count: count || 0 };
   });
 
-  // Count questions - aggregate to main chapter
-  questions?.forEach((q) => {
-    const chapterId = itemChapterMap[q.item_id];
-    if (chapterId) {
-      const mainChapterId = parentMap[chapterId] || chapterId;
-      if (!stats[mainChapterId]) stats[mainChapterId] = { images: 0, items: 0, questions: 0 };
-      stats[mainChapterId].questions++;
-    }
+  // Count items per chapter
+  const itemPromises = chapters.map(async (c) => {
+    const { count } = await supabase
+      .from("items")
+      .select("*", { count: "exact", head: true })
+      .eq("chapter_id", c.id);
+    return { id: c.id, count: count || 0 };
   });
+
+  // Count questions per chapter (via items)
+  const questionPromises = chapters.map(async (c) => {
+    const { count } = await supabase
+      .from("questions")
+      .select("*, items!inner(chapter_id)", { count: "exact", head: true })
+      .eq("items.chapter_id", c.id);
+    return { id: c.id, count: count || 0 };
+  });
+
+  // Execute all in parallel
+  const [imageCounts, itemCounts, questionCounts] = await Promise.all([
+    Promise.all(imagePromises),
+    Promise.all(itemPromises),
+    Promise.all(questionPromises)
+  ]);
+
+  imageCounts.forEach(({ id, count }) => { stats[id].images = count; });
+  itemCounts.forEach(({ id, count }) => { stats[id].items = count; });
+  questionCounts.forEach(({ id, count }) => { stats[id].questions = count; });
 
   return stats;
 }
