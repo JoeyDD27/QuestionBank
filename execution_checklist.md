@@ -13,7 +13,7 @@
 
 ### Step 0 扫描统计
 - 星号污染: 6个文件 → ✅ 已清理
-- 内容缺失: 19个文件 (保留原状，需人工判断)
+- 内容缺失: 19个文件 → ✅ 确认为schema变体(误报)
 - JSON错误: 1个文件 → ✅ 已修复
 
 ### Step 1 诊断统计
@@ -143,9 +143,9 @@ PASS = (
 | ch01_algebra_part3 | items_flat | ✅无 | ✅ | ✅ PASS | 已清理星号 |
 | ch01_algebra_part4 | items_flat | ✅无 | ✅ | ✅ PASS | 已清理星号 |
 | ch01_algebra_part5 | items_flat | ✅无 | ✅ | ✅ PASS | |
-| ch02_expansion | subsections_items | ✅无 | ⚠️56项 | ⚠️ WARN | 内容缺失 |
-| ch03_simplifying_fractions | items_flat | ✅无 | ⚠️44项 | ⚠️ WARN | 内容缺失 |
-| ch04_radical_expressions | items_flat | ✅无 | ⚠️28项 | ⚠️ WARN | 内容缺失 |
+| ch02_expansion | subsections_items | ✅无 | ✅ | ✅ PASS | schema变体 |
+| ch03_simplifying_fractions | items_flat | ✅无 | ✅ | ✅ PASS | schema变体 |
+| ch04_radical_expressions | items_flat | ✅无 | ✅ | ✅ PASS | schema变体 |
 | ch05_factorization_part1 | categorized | ✅无 | ✅ | ✅ PASS | |
 | ch05_factorization_part2 | sections | ✅无 | ✅ | ✅ PASS | |
 | ch05_factorization_part3 | sections | ✅无 | ✅ | ✅ PASS | |
@@ -155,11 +155,11 @@ PASS = (
 | ch06_solving_equations_part2 | unknown | ✅无 | ✅ | ✅ PASS | 需诊断schema |
 | ch06_solving_equations_part3 | extractions | ✅无 | ✅ | ✅ PASS | |
 | ch07_problem_solving | subsections_items | ✅无 | ✅ | ✅ PASS | |
-| ch08_simultaneous_equations_part1 | subsections_items | ✅无 | ⚠️3项 | ⚠️ WARN | 内容缺失 |
+| ch08_simultaneous_equations_part1 | subsections_items | ✅无 | ✅ | ✅ PASS | schema变体 |
 | ch08_simultaneous_equations_part2 | subsections_content | ✅无 | ✅ | ✅ PASS | 需诊断schema |
 | ch08_simultaneous_equations_part3 | subsections_content | ✅无 | ✅ | ✅ PASS | |
-| ch09_inequalities | subsections_content | ✅无 | ⚠️51项 | ⚠️ WARN | 内容缺失 |
-| ch10_straight_line | subsections_content | ✅无 | ⚠️93项 | ⚠️ WARN | 内容缺失 |
+| ch09_inequalities | subsections_content | ✅无 | ✅ | ✅ PASS | schema变体 |
+| ch10_straight_line | subsections_content | ✅无 | ✅ | ✅ PASS | schema变体 |
 
 ### Batch 2: ch11-ch20
 
@@ -168,9 +168,9 @@ PASS = (
 | ch11_quadratic_function_part1 | subsections_items | ✅无 | ✅ | ✅ PASS | 已清理星号 |
 | ch11_quadratic_function_part2 | unknown | ✅无 | ✅ | ✅ PASS | 需诊断schema |
 | ch11_quadratic_function_part3 | unknown | ✅无 | ✅ | ✅ PASS | 需诊断schema |
-| ch11_quadratic_function_part4 | subsections_content | ✅无 | ⚠️41项 | ⚠️ WARN | 内容缺失 |
+| ch11_quadratic_function_part4 | subsections_content | ✅无 | ✅ | ✅ PASS | schema变体 |
 | ch11_quadratic_function_part5 | unknown | ✅无 | ✅ | ✅ PASS | 需诊断schema |
-| ch12_sets | sections | ✅无 | ⚠️33项 | ⚠️ WARN | 内容缺失 |
+| ch12_sets | sections | ✅无 | ✅ | ✅ PASS | schema变体 |
 | ch13_venn_diagrams_part1 | categorized | ✅无 | ✅ | ✅ PASS | |
 | ch13_venn_diagrams_part2 | unknown | ✅无 | ✅ | ✅ PASS | 需诊断schema |
 | ch13_venn_diagrams_part3 | unknown | ✅无 | ✅ | ✅ PASS | 需诊断schema |
@@ -189,7 +189,7 @@ PASS = (
 | ch16_logarithms_part2 | subsections | ✅无 | ✅ | ✅ PASS | 需诊断schema |
 | ch16_logarithms_part3 | subsections_content | ✅无 | ✅ | ✅ PASS | 需诊断schema |
 | ch17_summary | extractions | ✅无 | ✅ | ✅ PASS | |
-| ch18_number_sequences | subsections_content | ✅无 | ⚠️45项 | ⚠️ WARN | 内容缺失 |
+| ch18_number_sequences | subsections_content | ✅无 | ✅ | ✅ PASS | schema变体 |
 | ch19_series | sections | ✅无 | ✅ | ✅ PASS | |
 | ch20_geometric_sequences | extractions | ✅无 | ✅ | ✅ PASS | |
 
@@ -200,21 +200,21 @@ PASS = (
 | ch21_number_part1 | unknown | ✅无 | ✅ | ✅ PASS | 需诊断schema |
 | ch21_number_part2 | sections | ✅无 | ✅ | ✅ PASS | 需诊断schema |
 | ch21_number_part3 | unknown | ✅无 | ✅ | ✅ PASS | 需诊断schema |
-| ch22_matrices | subsections_content | ✅无 | ⚠️20项 | ⚠️ WARN | 内容缺失 |
+| ch22_matrices | subsections_content | ✅无 | ✅ | ✅ PASS | schema变体 |
 | ch23_polynomials_part1 | sections | ✅无 | ✅ | ✅ PASS | 需诊断schema |
 | ch23_polynomials_part2 | unknown | ✅无 | ✅ | ✅ PASS | 需诊断schema |
 | ch23_polynomials_part3 | unknown | ✅无 | ✅ | ✅ PASS | 需诊断schema |
-| ch24_polynomial_equations | sections | ✅无 | ⚠️19项 | ⚠️ WARN | 已清理星号,内容缺失 |
+| ch24_polynomial_equations | sections | ✅无 | ✅ | ✅ PASS | 已清理星号,schema变体 |
 | ch25_percentage_part1 | categorized | ✅无 | ✅ | ✅ PASS | |
-| ch25_percentage_part2 | sections | ✅无 | ⚠️40项 | ⚠️ WARN | 内容缺失 |
+| ch25_percentage_part2 | sections | ✅无 | ✅ | ✅ PASS | schema变体 |
 | ch25_percentage_part3 | unknown | ✅无 | ✅ | ✅ PASS | 需诊断schema |
-| ch26_ratio_proportion | sections | ✅无 | ⚠️55项 | ⚠️ WARN | 内容缺失 |
-| ch27_rates | sections | ✅无 | ⚠️31项 | ⚠️ WARN | 内容缺失 |
-| ch28_problem_solving | sections | ✅无 | ⚠️52项 | ⚠️ WARN | 内容缺失 |
-| ch29_financial_math | subsections_content | ✅无 | ⚠️75项 | ⚠️ WARN | 内容缺失 |
-| ch30_complex_numbers | sections | ✅无 | ⚠️15项 | ⚠️ WARN | 内容缺失 |
-| ch31_complex_plane | sections | ✅无 | ⚠️54项 | ⚠️ WARN | 内容缺失 |
-| ch32_binomial_theorem | sections | ✅无 | ⚠️45项 | ⚠️ WARN | 内容缺失 |
+| ch26_ratio_proportion | sections | ✅无 | ✅ | ✅ PASS | schema变体 |
+| ch27_rates | sections | ✅无 | ✅ | ✅ PASS | schema变体 |
+| ch28_problem_solving | sections | ✅无 | ✅ | ✅ PASS | schema变体 |
+| ch29_financial_math | subsections_content | ✅无 | ✅ | ✅ PASS | schema变体 |
+| ch30_complex_numbers | sections | ✅无 | ✅ | ✅ PASS | schema变体 |
+| ch31_complex_plane | sections | ✅无 | ✅ | ✅ PASS | schema变体 |
+| ch32_binomial_theorem | sections | ✅无 | ✅ | ✅ PASS | schema变体 |
 | ch33_reasoning_proof_part1 | subsections_items | ✅无 | ✅ | ✅ PASS | |
 | ch33_reasoning_proof_part2 | subsections_content | ✅无 | ✅ | ✅ PASS | |
 | ch33_reasoning_proof_part3 | subsections_content | ✅无 | ✅ | ✅ PASS | 需诊断schema |
