@@ -70,13 +70,13 @@ async function getItemsBatch(chapterIds: string[]): Promise<Record<string, ItemW
   if (itemsError || !items || items.length === 0) return {};
 
   // Get all questions for these items in one query
-  // Note: Supabase defaults to 1000 row limit, so we need to set a higher limit
+  // Note: Supabase defaults to 1000 row limit, use range() to get more
   const itemIds = items.map(i => i.id);
   const { data: questions } = await supabase
     .from("questions")
     .select("*")
     .in("item_id", itemIds)
-    .limit(10000);
+    .range(0, 9999);
 
   // Get all source images in one query
   const imageIds = items.map(i => i.source_image_id).filter(Boolean);
