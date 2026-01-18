@@ -115,7 +115,7 @@ function findSubsectionByTitle(title, subsections) {
   return null
 }
 
-// Detect schema type
+// Detect schema type - supports all 10 schema types
 function detectSchema(content) {
   if (content.subsections?.some(s => s.items)) return 'subsections_items'
   if (content.subsections?.some(s => s.content)) return 'subsections_content'
@@ -124,6 +124,10 @@ function detectSchema(content) {
   if (content.extractions) return 'extractions'
   if (content.items) return 'items_flat'
   if (content.concepts || content.examples || content.exercises) return 'categorized'
+  if (content.extracted_content) return 'extracted_content'
+  if (content.topics) return 'topics'
+  if (content.questions && !content.items) return 'questions'
+  if (content.content && Array.isArray(content.content)) return 'content_root'
   return 'unknown'
 }
 
@@ -192,8 +196,44 @@ function extractItemsWithSubsection(content, schema) {
       }
       return items
 
+    case 'content_root':
+      // Root-level content array (e.g., ch05_factorization_part4, ch21_number_part1)
+      for (const item of content.content || []) {
+        items.push({ ...item, _subsectionTitle: item.topic || content.title || null })
+      }
+      return items
+
+    case 'extracted_content':
+      for (const item of content.extracted_content || []) {
+        items.push({ ...item, _subsectionTitle: item.section || content.title || null })
+      }
+      return items
+
+    case 'topics':
+      for (const topic of content.topics || []) {
+        if (topic.items) {
+          for (const item of topic.items) {
+            items.push({ ...item, _subsectionTitle: topic.title || topic.name })
+          }
+        } else {
+          items.push({ ...topic, _subsectionTitle: topic.title || topic.name })
+        }
+      }
+      return items
+
+    case 'questions':
+      // Direct questions array
+      for (const q of content.questions || []) {
+        items.push({ ...q, type: 'exercise', _subsectionTitle: content.title || null })
+      }
+      return items
+
     default:
       if (content.items) return content.items.map(i => ({ ...i, _subsectionTitle: null }))
+      // Last resort: try content array
+      if (content.content && Array.isArray(content.content)) {
+        return content.content.map(i => ({ ...i, _subsectionTitle: null }))
+      }
       return []
   }
 }
@@ -230,15 +270,39 @@ function getSourceImage(item, imagesMap) {
   return imagesMap.get(imgName)?.id || null
 }
 
+// Extract LaTeX from complex content structures
+function extractLatexFromContent(content) {
+  if (typeof content === 'string') return content
+  if (!content) return ''
+
+  // Handle object with equation/formula/latex fields
+  if (content.equation) return content.equation
+  if (content.formula) return content.formula
+  if (content.latex) return Array.isArray(content.latex) ? content.latex.join('\n') : content.latex
+  if (content.definition) return content.definition
+  if (content.description) return content.description
+  if (content.text) return content.text
+  if (content.problem) return content.problem
+
+  // Handle array of content objects
+  if (Array.isArray(content)) {
+    return content.map(c => extractLatexFromContent(c)).filter(Boolean).join('\n')
+  }
+
+  // Last resort: stringify
+  return JSON.stringify(content)
+}
+
 // Parse questions from item
 function parseQuestions(item) {
   const questions = []
 
+  // Handle explicit questions array
   if (item.questions && Array.isArray(item.questions)) {
     for (const q of item.questions) {
       questions.push({
         label: q.label || null,
-        problem_latex: q.latex || q.problem_latex || q.question || q.content || q.text || '',
+        problem_latex: q.latex || q.problem_latex || q.question || extractLatexFromContent(q.content) || q.text || '',
         problem_text: q.text || null,
         answer_latex: q.answer_latex || q.answer || q.solution || null,
         solution_steps: q.solution_steps || q.steps || null,
@@ -249,16 +313,77 @@ function parseQuestions(item) {
     return questions
   }
 
-  const content = item.content_latex || item.content || ''
+  // Handle parts array (e.g., problem with (a), (b), (c) parts)
+  const contentObj = item.content
+  if (contentObj && typeof contentObj === 'object' && contentObj.parts) {
+    for (const part of contentObj.parts) {
+      questions.push({
+        label: part.part || part.label || null,
+        problem_latex: part.problem || part.question || part.latex || '',
+        problem_text: null,
+        answer_latex: part.answer || part.solution || null,
+        solution_steps: null,
+        choices: null,
+        has_answer: !!(part.answer || part.solution)
+      })
+    }
+    return questions
+  }
+
+  // Handle content with examples array
+  if (contentObj && typeof contentObj === 'object' && contentObj.examples) {
+    for (const ex of contentObj.examples) {
+      questions.push({
+        label: null,
+        problem_latex: extractLatexFromContent(ex),
+        problem_text: ex.description || null,
+        answer_latex: null,
+        solution_steps: null,
+        choices: null,
+        has_answer: false
+      })
+    }
+    return questions
+  }
+
+  // Handle latex array at item level
+  if (item.latex && Array.isArray(item.latex)) {
+    questions.push({
+      label: null,
+      problem_latex: item.latex.join('\n'),
+      problem_text: null,
+      answer_latex: null,
+      solution_steps: null,
+      choices: null,
+      has_answer: false
+    })
+    return questions
+  }
+
+  // Default: extract from content_latex or content
+  const content = item.content_latex || extractLatexFromContent(item.content) || ''
   if (content && item.type !== 'concept') {
     questions.push({
       label: null,
-      problem_latex: typeof content === 'string' ? content : JSON.stringify(content),
+      problem_latex: content,
       problem_text: null,
       answer_latex: item.answer_latex || item.answer || null,
       solution_steps: item.solution_steps || null,
       choices: null,
       has_answer: !!(item.answer_latex || item.answer)
+    })
+  }
+
+  // For concepts, still create a question entry if there's content
+  if (content && item.type === 'concept') {
+    questions.push({
+      label: null,
+      problem_latex: content,
+      problem_text: null,
+      answer_latex: null,
+      solution_steps: null,
+      choices: null,
+      has_answer: false
     })
   }
 
