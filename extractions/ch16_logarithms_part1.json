@@ -23,7 +23,9 @@
               "problem_latex": "Can we write a function for $t$ in terms of $P$, which determines the time at which the population $P$ is reached?"
             }
           ],
-          "source_images": ["image1759.png"]
+          "source_images": [
+            "image1759.png"
+          ]
         }
       ]
     },
@@ -32,13 +34,17 @@
       "items": [
         {
           "type": "concept",
-          "content_latex": "Consider the graph of $y = 10^x$ shown. Notice that the range of the function is $\\{y \\mid y > 0\\}$. This means that every positive number $y$ can be written in the form $10^x$.\n\nFor example:\n- When $y = 10$, $x = 1$, so $10 = 10^1$.\n- When $y = 20$, $x \\approx 1.3$, so $20 \\approx 10^{1.3}$.\n\nWhen we write a positive number $y$ in the form $10^x$, we say that $x$ is the **logarithm in base 10** of $y$.\n\nThe **logarithm in base 10** of a positive number is the power that 10 must be raised to in order to obtain that number.",
-          "source_images": ["image1760.png"]
+          "content_latex": "Consider the graph of $y = 10^x$ shown. Notice that the range of the function is $\\{y \\mid y > 0\\}$. This means that every positive number $y$ can be written in the form $10^x$.\n\nFor example:\n- When $y = 10$, $x = 1$, so $10 = 10^1$.\n- When $y = 20$, $x \\approx 1.3$, so $20 \\approx 10^{1.3}$.\n\nWhen we write a positive number $y$ in the form $10^x$, we say that $x$ is the logarithm in base 10 of $y$.\n\nThe logarithm in base 10 of a positive number is the power that 10 must be raised to in order to obtain that number.",
+          "source_images": [
+            "image1760.png"
+          ]
         },
         {
           "type": "concept",
           "content_latex": "For example:\n- The logarithm in base 10 of 1000 is 3, since $1000 = 10^3$. We write $\\log_{10} 1000 = 3$ or simply $\\log 1000 = 3$.\n- $\\log(0.01) = -2$ since $0.01 = 10^{-2}$.\n\nIf no base is indicated we assume it means base 10. $\\log b$ means $\\log_{10} b$.\n\nBy observing that $\\log 1000 = \\log(10^3) = 3$ and $\\log(0.01) = \\log(10^{-2}) = -2$, we conclude that $\\log 10^x = x$ for any $x \\in \\mathbb{R}$.",
-          "source_images": ["image1761.png"]
+          "source_images": [
+            "image1761.png"
+          ]
         },
         {
           "type": "example",
@@ -55,12 +61,16 @@
               "answer_latex": "$\\log \\sqrt[4]{10} = \\log(10^{\\frac{1}{4}}) = \\frac{1}{4}$"
             }
           ],
-          "source_images": ["image1762.png"]
+          "source_images": [
+            "image1762.png"
+          ]
         },
         {
           "type": "concept",
           "content_latex": "For example, $\\log 34 \\approx 1.53$, so $34 \\approx 10^{1.53}$.\n\nLogarithms allow us to write any number as a power of 10. In particular:\n$$x = 10^{\\log x} \\quad \\text{for any } x > 0.$$",
-          "source_images": ["image1763.png"]
+          "source_images": [
+            "image1763.png"
+          ]
         },
         {
           "type": "example",
@@ -82,7 +92,9 @@
               "answer_latex": "$0.08 = 10^{\\log 0.08} \\approx 10^{-1.0969}$"
             }
           ],
-          "source_images": ["image1764.png"]
+          "source_images": [
+            "image1764.png"
+          ]
         },
         {
           "type": "example",
@@ -99,7 +111,9 @@
               "answer_latex": "$\\log 20 = \\log(2 \\times 10) = \\log(10^{\\log 2} \\times 10^1) = \\log(10^{\\log 2 + 1}) = \\log 2 + 1$ {using $x = 10^{\\log x}$ and adding indices}"
             }
           ],
-          "source_images": ["image1765.png"]
+          "source_images": [
+            "image1765.png"
+          ]
         },
         {
           "type": "example",
@@ -116,7 +130,9 @@
               "answer_latex": "$\\log x \\approx -0.271$, $\\therefore 10^{\\log x} \\approx 10^{-0.271}$, $\\therefore x \\approx 0.536$"
             }
           ],
-          "source_images": ["image1766.png"]
+          "source_images": [
+            "image1766.png"
+          ]
         }
       ]
     },
@@ -148,7 +164,9 @@
               "problem_latex": "Copy and complete: a) $\\log x$ is positive if $x$ is ...... b) $\\log x$ is negative if $x$ is ......"
             }
           ],
-          "source_images": ["image1767.png"]
+          "source_images": [
+            "image1767.png"
+          ]
         },
         {
           "type": "exercise",
@@ -167,7 +185,9 @@
               "problem_latex": "a) Explain why $\\log 237$ must lie between 2 and 3. b) Use your calculator to evaluate $\\log 237$ correct to 2 decimal places."
             }
           ],
-          "source_images": ["image1768.png"]
+          "source_images": [
+            "image1768.png"
+          ]
         },
         {
           "type": "exercise",
@@ -190,7 +210,9 @@
               "problem_latex": "Use your calculator to write the following in the form $10^x$ where $x$ is correct to 4 decimal places: a) 6 b) 60 c) 6000 d) 0.6 e) 0.006 f) 15 g) 1500 h) 1.5 i) 0.15 j) 0.00015"
             }
           ],
-          "source_images": ["image1769.png"]
+          "source_images": [
+            "image1769.png"
+          ]
         },
         {
           "type": "exercise",
@@ -209,7 +231,10 @@
               "problem_latex": "Find $x$ such that: a) $\\log x = 2$ b) $\\log x = 1$ c) $\\log x = 0$ d) $\\log x = -1$ e) $\\log x = \\frac{1}{2}$ f) $\\log x = -\\frac{1}{2}$ g) $\\log x = 4$ h) $\\log x = -5$ i) $\\log x \\approx 0.8351$ j) $\\log x \\approx 2.1457$ k) $\\log x \\approx -1.378$ l) $\\log x \\approx -3.1997$"
             }
           ],
-          "source_images": ["image1770.png", "image1771.png"]
+          "source_images": [
+            "image1770.png",
+            "image1771.png"
+          ]
         }
       ]
     },
@@ -218,13 +243,17 @@
       "items": [
         {
           "type": "concept",
-          "content_latex": "The **logarithm in base $a$ of $b$** is the power that $a$ must be raised to in order to obtain $b$.",
-          "source_images": ["image1772.png"]
+          "content_latex": "The logarithm in base $a$ of $b$ is the power that $a$ must be raised to in order to obtain $b$.",
+          "source_images": [
+            "image1772.png"
+          ]
         },
         {
           "type": "concept",
           "content_latex": "For example, to find $\\log_2 8$, we ask \"What power must 2 be raised to in order to obtain 8?\". We know that $2^3 = 8$, so $\\log_2 8 = 3$.\n\n$a^x = b$ and $x = \\log_a b$ are *equivalent* statements.\n\nFor any $b > 0$, $a^x = b \\Leftrightarrow x = \\log_a b$",
-          "source_images": ["image1773.png"]
+          "source_images": [
+            "image1773.png"
+          ]
         },
         {
           "type": "example",
@@ -241,7 +270,9 @@
               "answer_latex": "From $3^4 = 81$ we deduce that $\\log_3 81 = 4$."
             }
           ],
-          "source_images": ["image1774.png"]
+          "source_images": [
+            "image1774.png"
+          ]
         },
         {
           "type": "example",
@@ -268,7 +299,9 @@
               "answer_latex": "$\\log_2\\left(\\frac{1}{\\sqrt{2}}\\right) = \\log_2(2^{-\\frac{1}{2}}) = -\\frac{1}{2}$"
             }
           ],
-          "source_images": ["image1775.png"]
+          "source_images": [
+            "image1775.png"
+          ]
         },
         {
           "type": "example",
@@ -280,7 +313,9 @@
               "answer_latex": "$\\log_3 x = 5$, $\\therefore x = 3^5$, $\\therefore x = 243$"
             }
           ],
-          "source_images": ["image1776.png"]
+          "source_images": [
+            "image1776.png"
+          ]
         }
       ]
     },
@@ -300,7 +335,9 @@
               "problem_latex": "Write an equivalent logarithmic statement for: a) $4^3 = 64$ b) $5^2 = 25$ c) $7^2 = 49$ d) $2^6 = 64$ e) $2^{-3} = \\frac{1}{8}$ f) $10^{-2} = 0.01$ g) $2^{-1} = \\frac{1}{2}$ h) $3^{-3} = \\frac{1}{27}$"
             }
           ],
-          "source_images": ["image1777.png"]
+          "source_images": [
+            "image1777.png"
+          ]
         },
         {
           "type": "exercise",
@@ -315,7 +352,10 @@
               "problem_latex": "Simplify: a) $\\log_x(x^2)$ b) $\\log_t\\left(\\frac{1}{t}\\right)$ c) $\\log_x\\sqrt{x}$ d) $\\log_m(m^3)$ e) $\\log_k\\sqrt[4]{k}$ f) $\\log_x(x\\sqrt{x})$ g) $\\log_a\\left(\\frac{1}{a^2}\\right)$ h) $\\log_a\\left(\\frac{1}{\\sqrt{a}}\\right)$ i) $\\log_m\\sqrt{m^5}$"
             }
           ],
-          "source_images": ["image1778.png", "image1779.png"]
+          "source_images": [
+            "image1778.png",
+            "image1779.png"
+          ]
         },
         {
           "type": "exercise",
@@ -330,7 +370,9 @@
               "problem_latex": "Suppose $\\log_a b = x$. Find, in terms of $x$, the value of $\\log_b a$."
             }
           ],
-          "source_images": ["image1780.png"]
+          "source_images": [
+            "image1780.png"
+          ]
         }
       ]
     },
@@ -340,17 +382,23 @@
         {
           "type": "concept",
           "content_latex": "Investigation 1: Discovering the Laws of Logarithms\n\n1. a) Use your calculator to find: i) $\\log 2 + \\log 3$ ii) $\\log 3 + \\log 7$ iii) $\\log 4 + \\log 20$ iv) $\\log 6$ v) $\\log 21$ vi) $\\log 80$\n   b) From your answers, suggest a possible simplification for $\\log m + \\log n$.\n\n2. a) Use your calculator to find: i) $\\log 6 - \\log 2$ ii) $\\log 12 - \\log 3$ iii) $\\log 3 - \\log 5$ iv) $\\log 3$ v) $\\log 4$ vi) $\\log(0.6)$\n   b) From your answers, suggest a possible simplification for $\\log m - \\log n$.\n\n3. a) Use your calculator to find: i) $3\\log 2$ ii) $2\\log 5$ iii) $-4\\log 3$ iv) $\\log(2^3)$ v) $\\log(5^2)$ vi) $\\log(3^{-4})$\n   b) From your answers, suggest a possible simplification for $m\\log b$.",
-          "source_images": ["image1781.png"]
+          "source_images": [
+            "image1781.png"
+          ]
         },
         {
           "type": "concept",
-          "content_latex": "From the Investigation, you should have discovered the three important **laws of logarithms**:\n\n- $\\log m + \\log n = \\log(mn)$ for $m, n > 0$\n- $\\log m - \\log n = \\log\\left(\\frac{m}{n}\\right)$ for $m, n > 0$\n- $m\\log b = \\log(b^m)$ for $b > 0$\n\nMore generally, in any base $a$ where $a \\neq 1$, $a > 0$, we have these **laws of logarithms**:\n\n- $\\log_a m + \\log_a n = \\log_a(mn)$ for $m, n > 0$\n- $\\log_a m - \\log_a n = \\log_a\\left(\\frac{m}{n}\\right)$ for $m, n > 0$\n- $m\\log_a b = \\log_a(b^m)$ for $b > 0$",
-          "source_images": ["image1782.png"]
+          "content_latex": "From the Investigation, you should have discovered the three important laws of logarithms:\n\n- $\\log m + \\log n = \\log(mn)$ for $m, n > 0$\n- $\\log m - \\log n = \\log\\left(\\frac{m}{n}\\right)$ for $m, n > 0$\n- $m\\log b = \\log(b^m)$ for $b > 0$\n\nMore generally, in any base $a$ where $a \\neq 1$, $a > 0$, we have these laws of logarithms:\n\n- $\\log_a m + \\log_a n = \\log_a(mn)$ for $m, n > 0$\n- $\\log_a m - \\log_a n = \\log_a\\left(\\frac{m}{n}\\right)$ for $m, n > 0$\n- $m\\log_a b = \\log_a(b^m)$ for $b > 0$",
+          "source_images": [
+            "image1782.png"
+          ]
         },
         {
           "type": "concept",
-          "content_latex": "**Proof:**\n\n$\\log_a(mn) = \\log_a(a^{\\log_a m} \\times a^{\\log_a n}) = \\log_a(a^{\\log_a m + \\log_a n}) = \\log_a m + \\log_a n$\n\n$\\log_a\\left(\\frac{m}{n}\\right) = \\log_a\\left(\\frac{a^{\\log_a m}}{a^{\\log_a n}}\\right) = \\log_a(a^{\\log_a m - \\log_a n}) = \\log_a m - \\log_a n$\n\n$\\log_a(b^m) = \\log_a((a^{\\log_a b})^m) = \\log_a(a^{m\\log_a b}) = m\\log_a b$",
-          "source_images": ["image1783.png"]
+          "content_latex": "Proof:\n\n$\\log_a(mn) = \\log_a(a^{\\log_a m} \\times a^{\\log_a n}) = \\log_a(a^{\\log_a m + \\log_a n}) = \\log_a m + \\log_a n$\n\n$\\log_a\\left(\\frac{m}{n}\\right) = \\log_a\\left(\\frac{a^{\\log_a m}}{a^{\\log_a n}}\\right) = \\log_a(a^{\\log_a m - \\log_a n}) = \\log_a m - \\log_a n$\n\n$\\log_a(b^m) = \\log_a((a^{\\log_a b})^m) = \\log_a(a^{m\\log_a b}) = m\\log_a b$",
+          "source_images": [
+            "image1783.png"
+          ]
         },
         {
           "type": "example",
@@ -372,7 +420,9 @@
               "answer_latex": "$\\log_2 5 - 1 = \\log_2 5 - \\log_2(2^1) = \\log_2\\left(\\frac{5}{2}\\right)$"
             }
           ],
-          "source_images": ["image1784.png"]
+          "source_images": [
+            "image1784.png"
+          ]
         },
         {
           "type": "example",
@@ -394,7 +444,9 @@
               "answer_latex": "$\\frac{\\log 8}{\\log 4} = \\frac{\\log(2^3)}{\\log(2^2)} = \\frac{3\\log 2}{2\\log 2} = \\frac{3}{2}$"
             }
           ],
-          "source_images": ["image1785.png"]
+          "source_images": [
+            "image1785.png"
+          ]
         },
         {
           "type": "example",
@@ -411,7 +463,9 @@
               "answer_latex": "$\\log 500 = \\log\\left(\\frac{1000}{2}\\right) = \\log 1000 - \\log 2 = \\log(10^3) - \\log 2 = 3 - \\log 2$"
             }
           ],
-          "source_images": ["image1786.png"]
+          "source_images": [
+            "image1786.png"
+          ]
         }
       ]
     },
@@ -427,7 +481,9 @@
               "problem_latex": "Write as a single logarithm in the form $\\log k$: a) $\\log 6 + \\log 5$ b) $\\log 10 - \\log 2$ c) $\\log 77 + \\log\\left(\\frac{1}{7}\\right)$ d) $2\\log 2 + \\log 3$ e) $\\log 5 - 2\\log 2$ f) $\\frac{1}{2}\\log 4 - \\log 2$ g) $\\log 2 + \\log 3 + \\log 5$ h) $\\log 20 + \\log(0.2)$ i) $-\\log 2 - \\log 3$ j) $3\\log\\left(\\frac{1}{8}\\right)$ k) $4\\log 2 + 3\\log 5$ l) $6\\log 2 - 3\\log 5$"
             }
           ],
-          "source_images": ["image1787.png"]
+          "source_images": [
+            "image1787.png"
+          ]
         },
         {
           "type": "exercise",
@@ -462,7 +518,9 @@
               "problem_latex": "Simplify without using a calculator: $\\frac{4\\log\\sqrt{8} - 3\\log\\left(\\frac{1}{2}\\right)}{3 - 6\\log\\sqrt{5}}$"
             }
           ],
-          "source_images": ["image1788.png"]
+          "source_images": [
+            "image1788.png"
+          ]
         },
         {
           "type": "exercise",
@@ -477,7 +535,9 @@
               "problem_latex": "Write as a single logarithm: a) $\\log 7 + 2$ b) $\\log 4 - 1$ c) $1 + \\log_2 3$ d) $\\log_3 5 - 2$ e) $2 + \\log 2$ f) $\\log 50 - 4$ g) $t + \\log w$ h) $\\log_m 40 - 2$ i) $3 - \\log_5 50$"
             }
           ],
-          "source_images": ["image1789.png"]
+          "source_images": [
+            "image1789.png"
+          ]
         },
         {
           "type": "exercise",
@@ -492,7 +552,9 @@
               "problem_latex": "Simplify without using a calculator: a) $\\frac{\\log 4}{\\log 2}$ b) $\\frac{\\log_5 27}{\\log_5 9}$ c) $\\frac{\\log 8}{\\log 2}$ d) $\\frac{\\log 3}{\\log 9}$ e) $\\frac{\\log_3 25}{\\log_3(0.2)}$ f) $\\frac{\\log_4 8}{\\log_4(0.25)}$"
             }
           ],
-          "source_images": ["image1790.png"]
+          "source_images": [
+            "image1790.png"
+          ]
         },
         {
           "type": "exercise",
@@ -527,7 +589,9 @@
               "problem_latex": "Write $\\log_2(6!)$ in the form $a + \\log_2 b$, where $a, b \\in \\mathbb{Z}$ and $b$ is as small as possible."
             }
           ],
-          "source_images": ["image1791.png"]
+          "source_images": [
+            "image1791.png"
+          ]
         }
       ]
     },
@@ -536,8 +600,10 @@
       "items": [
         {
           "type": "concept",
-          "content_latex": "The logarithm in base $e$ is called the **natural logarithm**. We use $\\ln x$ to represent $\\log_e x$, and call $\\ln x$ the natural logarithm of $x$.\n\n$$\\ln e^x = x \\quad \\text{and} \\quad e^{\\ln x} = x.$$",
-          "source_images": ["image1792.png"]
+          "content_latex": "The logarithm in base $e$ is called the natural logarithm. We use $\\ln x$ to represent $\\log_e x$, and call $\\ln x$ the natural logarithm of $x$.\n\n$$\\ln e^x = x \\quad \\text{and} \\quad e^{\\ln x} = x.$$",
+          "source_images": [
+            "image1792.png"
+          ]
         },
         {
           "type": "example",
@@ -559,7 +625,9 @@
               "answer_latex": "$e^{2\\ln 5} = (e^{\\ln 5})^2 = 5^2 = 25$"
             }
           ],
-          "source_images": ["image1793.png"]
+          "source_images": [
+            "image1793.png"
+          ]
         },
         {
           "type": "example",
@@ -576,12 +644,16 @@
               "answer_latex": "$0.005 = e^{\\ln 0.005} \\approx e^{-5.2983}$"
             }
           ],
-          "source_images": ["image1794.png"]
+          "source_images": [
+            "image1794.png"
+          ]
         },
         {
           "type": "concept",
-          "content_latex": "**Laws of Natural Logarithms**\n\nThe laws for natural logarithms are the laws for logarithms written in base $e$:\n\n- $\\ln m + \\ln n = \\ln(mn)$ for $m, n > 0$\n- $\\ln m - \\ln n = \\ln\\left(\\frac{m}{n}\\right)$ for $m, n > 0$\n- $m\\ln b = \\ln(b^m)$ for $b > 0$",
-          "source_images": ["image1795.png"]
+          "content_latex": "Laws of Natural Logarithms\n\nThe laws for natural logarithms are the laws for logarithms written in base $e$:\n\n- $\\ln m + \\ln n = \\ln(mn)$ for $m, n > 0$\n- $\\ln m - \\ln n = \\ln\\left(\\frac{m}{n}\\right)$ for $m, n > 0$\n- $m\\ln b = \\ln(b^m)$ for $b > 0$",
+          "source_images": [
+            "image1795.png"
+          ]
         },
         {
           "type": "example",
@@ -598,7 +670,9 @@
               "answer_latex": "$\\ln x = -0.384$, $\\therefore x = e^{-0.384}$, $\\therefore x \\approx 0.681$"
             }
           ],
-          "source_images": ["image1796.png"]
+          "source_images": [
+            "image1796.png"
+          ]
         },
         {
           "type": "example",
@@ -620,7 +694,9 @@
               "answer_latex": "$\\ln 5 - 1 = \\ln 5 - \\ln(e^1) = \\ln\\left(\\frac{5}{e}\\right)$"
             }
           ],
-          "source_images": ["image1797.png"]
+          "source_images": [
+            "image1797.png"
+          ]
         },
         {
           "type": "example",
@@ -637,7 +713,9 @@
               "answer_latex": "$2\\ln 3 + 3 = \\ln(3^2) + \\ln(e^3) = \\ln 9 + \\ln(e^3) = \\ln(9e^3)$"
             }
           ],
-          "source_images": ["image1798.png"]
+          "source_images": [
+            "image1798.png"
+          ]
         }
       ]
     }

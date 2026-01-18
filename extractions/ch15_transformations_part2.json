@@ -511,7 +511,7 @@
               "problem": "Solve graphically: |x + 1| = x/2 + 2",
               "solution": {
                 "method": "Graph y = |x + 1| and y = x/2 + 2 on the same set of axes.",
-                "intersection_points": [(-2, 1), (2, 3)],
+                "intersection_points": [[-2, 1], [2, 3]],
                 "answer": "x = -2 or 2"
               }
             }

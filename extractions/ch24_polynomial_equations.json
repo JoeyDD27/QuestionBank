@@ -5,7 +5,12 @@
   "sections": [
     {
       "title": "Polynomial equations",
-      "images": ["image2334.png", "image2335.png", "image2336.png", "image2337.png"],
+      "images": [
+        "image2334.png",
+        "image2335.png",
+        "image2336.png",
+        "image2337.png"
+      ],
       "content": [
         {
           "image": "image2334.png",
@@ -54,24 +59,60 @@
               "number": "1",
               "text": "Find exactly all zeros of:",
               "parts": [
-                {"label": "a", "expression": "$x^3 - 3x^2 - 3x + 1$"},
-                {"label": "b", "expression": "$x^3 - 3x^2 + 4x - 2$"},
-                {"label": "c", "expression": "$2x^3 - 3x^2 - 4x - 35$"},
-                {"label": "d", "expression": "$2x^3 - x^2 + 20x - 10$"},
-                {"label": "e", "expression": "$4x^4 - 4x^3 - 25x^2 + x + 6$"},
-                {"label": "f", "expression": "$x^4 - 6x^3 + 22x^2 - 48x + 40$"}
+                {
+                  "label": "a",
+                  "expression": "$x^3 - 3x^2 - 3x + 1$"
+                },
+                {
+                  "label": "b",
+                  "expression": "$x^3 - 3x^2 + 4x - 2$"
+                },
+                {
+                  "label": "c",
+                  "expression": "$2x^3 - 3x^2 - 4x - 35$"
+                },
+                {
+                  "label": "d",
+                  "expression": "$2x^3 - x^2 + 20x - 10$"
+                },
+                {
+                  "label": "e",
+                  "expression": "$4x^4 - 4x^3 - 25x^2 + x + 6$"
+                },
+                {
+                  "label": "f",
+                  "expression": "$x^4 - 6x^3 + 22x^2 - 48x + 40$"
+                }
               ]
             },
             {
               "number": "2",
               "text": "Find exactly the roots of:",
               "parts": [
-                {"label": "a", "expression": "$x^3 + 2x^2 + 3x + 6 = 0$"},
-                {"label": "b", "expression": "$2x^3 + 3x^2 - 3x - 2 = 0$"},
-                {"label": "c", "expression": "$x^3 - 6x^2 + 12x - 8 = 0$"},
-                {"label": "d", "expression": "$2x^3 + 18 = 5x^2 + 9x$"},
-                {"label": "e", "expression": "$x^4 - x^3 - 9x^2 + 11x + 6 = 0$"},
-                {"label": "f", "expression": "$2x^4 - 13x^3 + 27x^2 = 13x + 15$"}
+                {
+                  "label": "a",
+                  "expression": "$x^3 + 2x^2 + 3x + 6 = 0$"
+                },
+                {
+                  "label": "b",
+                  "expression": "$2x^3 + 3x^2 - 3x - 2 = 0$"
+                },
+                {
+                  "label": "c",
+                  "expression": "$x^3 - 6x^2 + 12x - 8 = 0$"
+                },
+                {
+                  "label": "d",
+                  "expression": "$2x^3 + 18 = 5x^2 + 9x$"
+                },
+                {
+                  "label": "e",
+                  "expression": "$x^4 - x^3 - 9x^2 + 11x + 6 = 0$"
+                },
+                {
+                  "label": "f",
+                  "expression": "$2x^4 - 13x^3 + 27x^2 = 13x + 15$"
+                }
               ]
             }
           ]
@@ -85,22 +126,52 @@
               "number": "3",
               "text": "Solve for $x$ exactly:",
               "parts": [
-                {"label": "a", "expression": "$x^3 - 3x^2 + 4x - 4 = 0$"},
-                {"label": "b", "expression": "$x^3 + 3x^2 + 4x + 12 = 0$"},
-                {"label": "c", "expression": "$2x^3 - 9x^2 + 6x - 1 = 0$"},
-                {"label": "d", "expression": "$x^3 - 4x^2 + 9x - 10 = 0$"},
-                {"label": "e", "expression": "$4x^3 - 8x^2 + x + 3 = 0$"},
-                {"label": "f", "expression": "$3x^4 + 4x^3 + 5x^2 + 12x - 12 = 0$"},
-                {"label": "g", "expression": "$2x^4 - 3x^3 + 5x^2 + 6x - 4 = 0$"},
-                {"label": "h", "expression": "$2x^3 + 5x^2 + 8x + 20 = 0$"}
+                {
+                  "label": "a",
+                  "expression": "$x^3 - 3x^2 + 4x - 4 = 0$"
+                },
+                {
+                  "label": "b",
+                  "expression": "$x^3 + 3x^2 + 4x + 12 = 0$"
+                },
+                {
+                  "label": "c",
+                  "expression": "$2x^3 - 9x^2 + 6x - 1 = 0$"
+                },
+                {
+                  "label": "d",
+                  "expression": "$x^3 - 4x^2 + 9x - 10 = 0$"
+                },
+                {
+                  "label": "e",
+                  "expression": "$4x^3 - 8x^2 + x + 3 = 0$"
+                },
+                {
+                  "label": "f",
+                  "expression": "$3x^4 + 4x^3 + 5x^2 + 12x - 12 = 0$"
+                },
+                {
+                  "label": "g",
+                  "expression": "$2x^4 - 3x^3 + 5x^2 + 6x - 4 = 0$"
+                },
+                {
+                  "label": "h",
+                  "expression": "$2x^3 + 5x^2 + 8x + 20 = 0$"
+                }
               ]
             },
             {
               "number": "4",
               "text": "The following cubics will not factorise neatly. Solve for $x$ using only technology:",
               "parts": [
-                {"label": "a", "expression": "$x^3 + 2x^2 - 6x - 6 = 0$"},
-                {"label": "b", "expression": "$x^3 + x^2 - 7x - 8 = 0$"}
+                {
+                  "label": "a",
+                  "expression": "$x^3 + 2x^2 - 6x - 6 = 0$"
+                },
+                {
+                  "label": "b",
+                  "expression": "$x^3 + x^2 - 7x - 8 = 0$"
+                }
               ]
             },
             {
@@ -114,12 +185,28 @@
     },
     {
       "title": "Cubic inequalities",
-      "images": ["image2338.png", "image2339.png", "image2340.png", "image2341.png", "image2342.png", "image2343.png", "image2344.png", "image2345.png", "image2346.png", "image2347.png", "image2348.png", "image2349.png", "image2350.png", "image2351.png", "image2352.png"],
+      "images": [
+        "image2338.png",
+        "image2339.png",
+        "image2340.png",
+        "image2341.png",
+        "image2342.png",
+        "image2343.png",
+        "image2344.png",
+        "image2345.png",
+        "image2346.png",
+        "image2347.png",
+        "image2348.png",
+        "image2349.png",
+        "image2350.png",
+        "image2351.png",
+        "image2352.png"
+      ],
       "content": [
         {
           "image": "image2338.png",
           "type": "concept",
-          "definition": "A **cubic inequality** can be written in either the form $ax^3 + bx^2 + cx + d \\geqslant 0$ or $ax^3 + bx^2 + cx + d > 0$ where $a \\neq 0$."
+          "definition": "A cubic inequality can be written in either the form $ax^3 + bx^2 + cx + d \\geqslant 0$ or $ax^3 + bx^2 + cx + d > 0$ where $a \\neq 0$."
         },
         {
           "image": "image2339.png",
@@ -164,16 +251,31 @@
             {
               "number": "1",
               "parts": [
-                {"label": "a", "text": "Given that 2 is a zero of $x^3 + 3x^2 - 4x - 12$, fully factorise $x^3 + 3x^2 - 4x - 12$."},
-                {"label": "b", "text": "Hence solve $x^3 + 3x^2 - 4x - 12 \\geqslant 0$ exactly."}
+                {
+                  "label": "a",
+                  "text": "Given that 2 is a zero of $x^3 + 3x^2 - 4x - 12$, fully factorise $x^3 + 3x^2 - 4x - 12$."
+                },
+                {
+                  "label": "b",
+                  "text": "Hence solve $x^3 + 3x^2 - 4x - 12 \\geqslant 0$ exactly."
+                }
               ]
             },
             {
               "number": "2",
               "parts": [
-                {"label": "a", "text": "Show that $-\\frac{2}{3}$ is a zero of $3x^3 - 10x^2 - 17x - 6$."},
-                {"label": "b", "text": "Hence find the remaining zeros of $3x^3 - 10x^2 - 17x - 6$."},
-                {"label": "c", "text": "Hence solve $3x^3 - 6 < 10x^2 + 17x$ exactly."}
+                {
+                  "label": "a",
+                  "text": "Show that $-\\frac{2}{3}$ is a zero of $3x^3 - 10x^2 - 17x - 6$."
+                },
+                {
+                  "label": "b",
+                  "text": "Hence find the remaining zeros of $3x^3 - 10x^2 - 17x - 6$."
+                },
+                {
+                  "label": "c",
+                  "text": "Hence solve $3x^3 - 6 < 10x^2 + 17x$ exactly."
+                }
               ]
             }
           ]
@@ -187,12 +289,30 @@
               "number": "3",
               "text": "Solve for $x$ exactly:",
               "parts": [
-                {"label": "a", "expression": "$x^3 + x^2 - 10x + 8 < 0$"},
-                {"label": "b", "expression": "$x^3 + x^2 - 11x - 15 \\geqslant 0$"},
-                {"label": "c", "expression": "$2x^3 - 9x^2 + 2x + 1 \\leqslant 0$"},
-                {"label": "d", "expression": "$3x^3 + 10x^2 > 22x + 40$"},
-                {"label": "e", "expression": "$4x^3 - 7 \\leqslant 28x - x^2$"},
-                {"label": "f", "expression": "$5x^3 - 26x > x^2 - 24$"}
+                {
+                  "label": "a",
+                  "expression": "$x^3 + x^2 - 10x + 8 < 0$"
+                },
+                {
+                  "label": "b",
+                  "expression": "$x^3 + x^2 - 11x - 15 \\geqslant 0$"
+                },
+                {
+                  "label": "c",
+                  "expression": "$2x^3 - 9x^2 + 2x + 1 \\leqslant 0$"
+                },
+                {
+                  "label": "d",
+                  "expression": "$3x^3 + 10x^2 > 22x + 40$"
+                },
+                {
+                  "label": "e",
+                  "expression": "$4x^3 - 7 \\leqslant 28x - x^2$"
+                },
+                {
+                  "label": "f",
+                  "expression": "$5x^3 - 26x > x^2 - 24$"
+                }
               ]
             }
           ]
@@ -206,12 +326,30 @@
               "number": "4",
               "text": "Solve graphically for $x$:",
               "parts": [
-                {"label": "a", "expression": "$x^3 - 5x > x^2 - 3$"},
-                {"label": "b", "expression": "$2x^3 - 8x - 5 < x^2 - 2x - 7$"},
-                {"label": "c", "expression": "$1 - 3.5x + 0.6x^3 \\geqslant 0$"},
-                {"label": "d", "expression": "$3x^3 - 5x \\leqslant 6 - x^3$"},
-                {"label": "e", "expression": "$x^3 - \\sqrt{2}x + 1 > 0.2x + 1.2$"},
-                {"label": "f", "expression": "$x^3 + 4.5x^2 - 3 < 3 - 0.2x - 1.5x^3$"}
+                {
+                  "label": "a",
+                  "expression": "$x^3 - 5x > x^2 - 3$"
+                },
+                {
+                  "label": "b",
+                  "expression": "$2x^3 - 8x - 5 < x^2 - 2x - 7$"
+                },
+                {
+                  "label": "c",
+                  "expression": "$1 - 3.5x + 0.6x^3 \\geqslant 0$"
+                },
+                {
+                  "label": "d",
+                  "expression": "$3x^3 - 5x \\leqslant 6 - x^3$"
+                },
+                {
+                  "label": "e",
+                  "expression": "$x^3 - \\sqrt{2}x + 1 > 0.2x + 1.2$"
+                },
+                {
+                  "label": "f",
+                  "expression": "$x^3 + 4.5x^2 - 3 < 3 - 0.2x - 1.5x^3$"
+                }
               ]
             },
             {
@@ -229,17 +367,32 @@
               "number": "1",
               "text": "Let $P(z) = 2z^3 - z^2 + 4z$ and $Q(z) = 3 - z$. Find, in simplest form:",
               "parts": [
-                {"label": "a", "expression": "$P(z) + 2Q(z)$"},
-                {"label": "b", "expression": "$P(z) Q(z)$"},
-                {"label": "c", "expression": "$\\frac{P(z)}{Q(z)}$"}
+                {
+                  "label": "a",
+                  "expression": "$P(z) + 2Q(z)$"
+                },
+                {
+                  "label": "b",
+                  "expression": "$P(z) Q(z)$"
+                },
+                {
+                  "label": "c",
+                  "expression": "$\\frac{P(z)}{Q(z)}$"
+                }
               ]
             },
             {
               "number": "2",
               "text": "Expand and simplify:",
               "parts": [
-                {"label": "a", "expression": "$(3x^3 + 2x - 5)(4x - 3)$"},
-                {"label": "b", "expression": "$(2x^2 - x + 3)^2$"}
+                {
+                  "label": "a",
+                  "expression": "$(3x^3 + 2x - 5)(4x - 3)$"
+                },
+                {
+                  "label": "b",
+                  "expression": "$(2x^2 - x + 3)^2$"
+                }
               ]
             }
           ]
@@ -253,17 +406,32 @@
               "number": "3",
               "text": "Carry out the divisions:",
               "parts": [
-                {"label": "a", "expression": "$\\frac{x}{x+2}$"},
-                {"label": "b", "expression": "$\\frac{2x-3x+4}{x-1}$"},
-                {"label": "c", "expression": "$\\frac{x^3}{(x+2)(x-4)}$"}
+                {
+                  "label": "a",
+                  "expression": "$\\frac{x}{x+2}$"
+                },
+                {
+                  "label": "b",
+                  "expression": "$\\frac{2x-3x+4}{x-1}$"
+                },
+                {
+                  "label": "c",
+                  "expression": "$\\frac{x^3}{(x+2)(x-4)}$"
+                }
               ]
             },
             {
               "number": "4",
               "text": "Decide whether:",
               "parts": [
-                {"label": "a", "text": "$4$ is a zero of $x^3 - 3x^2 - 5x + 4$"},
-                {"label": "b", "text": "$-3$ is a root of $2x^3 + 5x^2 - x - 6 = 0$"}
+                {
+                  "label": "a",
+                  "text": "$4$ is a zero of $x^3 - 3x^2 - 5x + 4$"
+                },
+                {
+                  "label": "b",
+                  "text": "$-3$ is a root of $2x^3 + 5x^2 - x - 6 = 0$"
+                }
               ]
             },
             {
@@ -346,9 +514,18 @@
               "number": "24",
               "text": "Sketch the graph of:",
               "parts": [
-                {"label": "a", "expression": "$y = x(x + 2)(x - 1)(x - 4)$"},
-                {"label": "b", "expression": "$y = -2(x + 3)^2(x - 2)(x + 1)$"},
-                {"label": "c", "expression": "$y = (3x - 1)^2(x + 2)^3$"}
+                {
+                  "label": "a",
+                  "expression": "$y = x(x + 2)(x - 1)(x - 4)$"
+                },
+                {
+                  "label": "b",
+                  "expression": "$y = -2(x + 3)^2(x - 2)(x + 1)$"
+                },
+                {
+                  "label": "c",
+                  "expression": "$y = (3x - 1)^2(x + 2)^3$"
+                }
               ]
             },
             {
@@ -376,16 +553,28 @@
               "number": "30",
               "text": "Solve for $x$:",
               "parts": [
-                {"label": "a", "expression": "$4x^3 - 17x^2 - 3x + 54 = 0$"},
-                {"label": "b", "expression": "$3x^4 + x^3 + 18x^2 - 54x - 20 = 0$"}
+                {
+                  "label": "a",
+                  "expression": "$4x^3 - 17x^2 - 3x + 54 = 0$"
+                },
+                {
+                  "label": "b",
+                  "expression": "$3x^4 + x^3 + 18x^2 - 54x - 20 = 0$"
+                }
               ]
             },
             {
               "number": "31",
               "text": "Solve exactly:",
               "parts": [
-                {"label": "a", "expression": "$x^3 + x^2 - 12x - 18 \\leqslant 0$"},
-                {"label": "b", "expression": "$5x^3 - 20 \\geqslant 25x - 4x^2$"}
+                {
+                  "label": "a",
+                  "expression": "$x^3 + x^2 - 12x - 18 \\leqslant 0$"
+                },
+                {
+                  "label": "b",
+                  "expression": "$5x^3 - 20 \\geqslant 25x - 4x^2$"
+                }
               ]
             }
           ]
@@ -399,28 +588,56 @@
               "number": "1",
               "text": "Let $f(x) = x^4 - 5x^3 + 2x - 1$ and $g(x) = -2x^3 + 3x^2 + 7$.",
               "parts": [
-                {"label": "a", "text": "Find $f(x) - g(x)$, giving your answer in simplest form."},
-                {"label": "b", "text": "For the product $f(x) g(x)$, state the:", "subparts": [
-                  {"label": "i", "text": "degree"},
-                  {"label": "ii", "text": "leading coefficient"},
-                  {"label": "iii", "text": "constant term"}
-                ]}
+                {
+                  "label": "a",
+                  "text": "Find $f(x) - g(x)$, giving your answer in simplest form."
+                },
+                {
+                  "label": "b",
+                  "text": "For the product $f(x) g(x)$, state the:",
+                  "subparts": [
+                    {
+                      "label": "i",
+                      "text": "degree"
+                    },
+                    {
+                      "label": "ii",
+                      "text": "leading coefficient"
+                    },
+                    {
+                      "label": "iii",
+                      "text": "constant term"
+                    }
+                  ]
+                }
               ]
             },
             {
               "number": "2",
               "text": "Expand and simplify:",
               "parts": [
-                {"label": "a", "expression": "$(3x^2 - 2x + 1)(x^3 + 5x^2 - 2)$"},
-                {"label": "b", "expression": "$(x^3 - 2x^2 + 1)^2$"}
+                {
+                  "label": "a",
+                  "expression": "$(3x^2 - 2x + 1)(x^3 + 5x^2 - 2)$"
+                },
+                {
+                  "label": "b",
+                  "expression": "$(x^3 - 2x^2 + 1)^2$"
+                }
               ]
             },
             {
               "number": "3",
               "text": "Find the linear factors and corresponding zeros of:",
               "parts": [
-                {"label": "a", "expression": "$3x^2 - 11x + 6$"},
-                {"label": "b", "expression": "$2z^4 - 5z^3 + 13z^2 - 4z - 6$"}
+                {
+                  "label": "a",
+                  "expression": "$3x^2 - 11x + 6$"
+                },
+                {
+                  "label": "b",
+                  "expression": "$2z^4 - 5z^3 + 13z^2 - 4z - 6$"
+                }
               ]
             }
           ]
@@ -438,9 +655,18 @@
               "number": "5",
               "text": "Find all real polynomials of least degree which have zeros:",
               "parts": [
-                {"label": "a", "text": "$-1$, and $3 \\pm \\sqrt{5}$"},
-                {"label": "b", "text": "$\\frac{1}{2}$ and $1 - 3i$"},
-                {"label": "c", "text": "$-5$"}
+                {
+                  "label": "a",
+                  "text": "$-1$, and $3 \\pm \\sqrt{5}$"
+                },
+                {
+                  "label": "b",
+                  "text": "$\\frac{1}{2}$ and $1 - 3i$"
+                },
+                {
+                  "label": "c",
+                  "text": "$-5$"
+                }
               ]
             },
             {
@@ -451,7 +677,10 @@
               "number": "7",
               "text": "Carry out the divisions:",
               "parts": [
-                {"label": "a", "expression": "$\\frac{(3x - 2)}{x}$ is a factor of $6x^3 + 23x^2 - 33x + 10$. Fully factorise the polynomial."}
+                {
+                  "label": "a",
+                  "expression": "$\\frac{(3x - 2)}{x}$ is a factor of $6x^3 + 23x^2 - 33x + 10$. Fully factorise the polynomial."
+                }
               ]
             },
             {
@@ -509,8 +738,14 @@
               "number": "19",
               "text": "Find the sum and product of the roots of:",
               "parts": [
-                {"label": "a", "expression": "$2x^3 + 3x^2 - 4x + 6 = 0$"},
-                {"label": "b", "expression": "$4x^4 = x^2 + 2x - 6$"}
+                {
+                  "label": "a",
+                  "expression": "$2x^3 + 3x^2 - 4x + 6 = 0$"
+                },
+                {
+                  "label": "b",
+                  "expression": "$4x^4 = x^2 + 2x - 6$"
+                }
               ]
             }
           ]
@@ -524,8 +759,14 @@
               "number": "20",
               "text": "$P(x)$ is a real polynomial of degree 5 with leading coefficient 1. It has zeros $m \\pm 2i$, $1 \\pm mi$, and 2, where $m \\in \\mathbb{R}$. The graph of $y = P(x)$ cuts the $y$-axis at $-56$.",
               "parts": [
-                {"label": "a", "text": "Show that $m = \\pm\\sqrt{3}$."},
-                {"label": "b", "text": "Find the coefficient of $x^4$."}
+                {
+                  "label": "a",
+                  "text": "Show that $m = \\pm\\sqrt{3}$."
+                },
+                {
+                  "label": "b",
+                  "text": "Find the coefficient of $x^4$."
+                }
               ]
             }
           ]
@@ -555,27 +796,54 @@
               "number": "23",
               "text": "Use axis intercepts to sketch the graphs of:",
               "parts": [
-                {"label": "a", "expression": "$y = (x + 5)(x + 1)(x - 3)$"},
-                {"label": "b", "expression": "$y = -(x + 2)^2$"}
+                {
+                  "label": "a",
+                  "expression": "$y = (x + 5)(x + 1)(x - 3)$"
+                },
+                {
+                  "label": "b",
+                  "expression": "$y = -(x + 2)^2$"
+                }
               ]
             },
             {
               "number": "24",
               "text": "Show that $-5$ is an $x$-intercept of the graph of $f(x) = x^3 + 3x^2 - 14x - 20$.",
               "parts": [
-                {"label": "a", "text": "Find the other $x$-intercepts."},
-                {"label": "b", "text": "Hence sketch the graph of $f(x) = x^3 + 3x^2 - 14x - 20$."},
-                {"label": "c", "text": "Describe the behaviour of the graph as $x \\to -\\infty$ and $x \\to +\\infty$."}
+                {
+                  "label": "a",
+                  "text": "Find the other $x$-intercepts."
+                },
+                {
+                  "label": "b",
+                  "text": "Hence sketch the graph of $f(x) = x^3 + 3x^2 - 14x - 20$."
+                },
+                {
+                  "label": "c",
+                  "text": "Describe the behaviour of the graph as $x \\to -\\infty$ and $x \\to +\\infty$."
+                }
               ]
             },
             {
               "number": "25",
               "text": "The power generated by a wind turbine is given by $P = 20v^3$ watts, where $v$ is the wind speed in m s$^{-1}$.",
               "parts": [
-                {"label": "a", "text": "For what values of $v$ is it reasonable to use this function?"},
-                {"label": "b", "text": "Find the power generated at a wind speed of 6 m s$^{-1}$."},
-                {"label": "c", "text": "Use technology to help sketch the graph of the function for $v \\geqslant 0$."},
-                {"label": "d", "text": "Find, rounded to 2 decimal places, the wind speed required to generate 10000 watts of power."}
+                {
+                  "label": "a",
+                  "text": "For what values of $v$ is it reasonable to use this function?"
+                },
+                {
+                  "label": "b",
+                  "text": "Find the power generated at a wind speed of 6 m s$^{-1}$."
+                },
+                {
+                  "label": "c",
+                  "text": "Use technology to help sketch the graph of the function for $v \\geqslant 0$."
+                },
+                {
+                  "label": "d",
+                  "text": "Find, rounded to 2 decimal places, the wind speed required to generate 10000 watts of power."
+                }
               ]
             },
             {
@@ -591,16 +859,28 @@
               "number": "28",
               "text": "Find all zeros of:",
               "parts": [
-                {"label": "a", "expression": "$x^3 + 6x^2 + 8x + 5$"},
-                {"label": "b", "expression": "$2x^3 + 6x^2 - 9x - 14$"}
+                {
+                  "label": "a",
+                  "expression": "$x^3 + 6x^2 + 8x + 5$"
+                },
+                {
+                  "label": "b",
+                  "expression": "$2x^3 + 6x^2 - 9x - 14$"
+                }
               ]
             },
             {
               "number": "29",
               "text": "Solve for $x$ graphically:",
               "parts": [
-                {"label": "a", "expression": "$x^3 + 2x^2 - 1 < 3 + 2x - 3$"},
-                {"label": "b", "expression": "$5x^3 - 5 > 6x - 0.5x^2$"}
+                {
+                  "label": "a",
+                  "expression": "$x^3 + 2x^2 - 1 < 3 + 2x - 3$"
+                },
+                {
+                  "label": "b",
+                  "expression": "$5x^3 - 5 > 6x - 0.5x^2$"
+                }
               ]
             }
           ]
