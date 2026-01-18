@@ -59,11 +59,13 @@ async function getItemsBatch(chapterIds: string[]): Promise<Record<string, ItemW
   if (chapterIds.length === 0) return {};
 
   // Get all items for all chapters in one query
+  // Note: Supabase defaults to 1000 row limit
   const { data: items, error: itemsError } = await supabase
     .from("items")
     .select("*")
     .in("chapter_id", chapterIds)
-    .order("order_index");
+    .order("order_index")
+    .limit(5000);
 
   if (itemsError || !items || items.length === 0) return {};
 
@@ -79,7 +81,7 @@ async function getItemsBatch(chapterIds: string[]): Promise<Record<string, ItemW
   // Get all source images in one query
   const imageIds = items.map(i => i.source_image_id).filter(Boolean);
   const { data: images } = imageIds.length > 0
-    ? await supabase.from("images").select("*").in("id", imageIds)
+    ? await supabase.from("images").select("*").in("id", imageIds).limit(5000)
     : { data: [] };
 
   // Build lookup maps

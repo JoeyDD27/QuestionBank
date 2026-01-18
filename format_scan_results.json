@@ -1,0 +1,4488 @@
+{
+  "total": 70,
+  "withAsterisk": [],
+  "withMissingContent": [
+    "ch02_expansion",
+    "ch03_simplifying_fractions",
+    "ch04_radical_expressions",
+    "ch08_simultaneous_equations_part1",
+    "ch09_inequalities",
+    "ch10_straight_line",
+    "ch11_quadratic_function_part4",
+    "ch12_sets",
+    "ch15_transformations_part2",
+    "ch18_number_sequences",
+    "ch22_matrices",
+    "ch24_polynomial_equations",
+    "ch25_percentage_part2",
+    "ch26_ratio_proportion",
+    "ch27_rates",
+    "ch28_problem_solving",
+    "ch29_financial_math",
+    "ch30_complex_numbers",
+    "ch31_complex_plane",
+    "ch32_binomial_theorem"
+  ],
+  "jsonError": [],
+  "details": {
+    "ch01_algebra_part1": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch01_algebra_part2": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch01_algebra_part3": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch01_algebra_part4": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch01_algebra_part5": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch02_expansion": {
+      "hasAsterisk": false,
+      "missingContent": [
+        {
+          "type": "subsection_item",
+          "subsection": "THE DISTRIBUTIVE LAW",
+          "index": 1,
+          "title": "Example 1"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "THE DISTRIBUTIVE LAW",
+          "index": 2,
+          "title": "Exercise 3A - Question 1"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "THE DISTRIBUTIVE LAW",
+          "index": 3,
+          "title": "Exercise 3A - Question 2"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "THE DISTRIBUTIVE LAW",
+          "index": 4,
+          "title": "Exercise 3A - Question 3"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "THE DISTRIBUTIVE LAW",
+          "index": 5,
+          "title": "Exercise 3A - Question 4"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "THE DISTRIBUTIVE LAW",
+          "index": 6,
+          "title": "Exercise 3A - Question 5"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "THE DISTRIBUTIVE LAW",
+          "index": 7,
+          "title": "Exercise 3A - Question 6"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "THE DISTRIBUTIVE LAW",
+          "index": 8,
+          "title": "Example 3"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "THE DISTRIBUTIVE LAW",
+          "index": 9,
+          "title": "Exercise 3B - Question 1"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "THE DISTRIBUTIVE LAW",
+          "index": 10,
+          "title": "Exercise 3B - Question 2"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "THE DISTRIBUTIVE LAW",
+          "index": 11,
+          "title": "Exercise 3B.1 - Question 1"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "THE DISTRIBUTIVE LAW",
+          "index": 12,
+          "title": "Exercise 3B.1 - Question 2"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "THE DISTRIBUTIVE LAW",
+          "index": 13,
+          "title": "Exercise 3B.1 - Question 3"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "THE DISTRIBUTIVE LAW",
+          "index": 14,
+          "title": "Example 5"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "THE DISTRIBUTIVE LAW",
+          "index": 15,
+          "title": "Exercise 3C - Question 1"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "THE DISTRIBUTIVE LAW",
+          "index": 16,
+          "title": "Exercise 3C - Question 2"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "THE DISTRIBUTIVE LAW",
+          "index": 17,
+          "title": "Exercise 3C - Question 3"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "THE DISTRIBUTIVE LAW",
+          "index": 18,
+          "title": "Exercise 3D - Question 1"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "THE DISTRIBUTIVE LAW",
+          "index": 19,
+          "title": "Exercise 3D - Question 2"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "THE DISTRIBUTIVE LAW",
+          "index": 20,
+          "title": "Exercise 3D - Question 3"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "THE DISTRIBUTIVE LAW",
+          "index": 21,
+          "title": "Exercise 3D - Question 4"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "THE DISTRIBUTIVE LAW",
+          "index": 22,
+          "title": "Exercise 3D - Question 4 (continued)"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "THE DISTRIBUTIVE LAW",
+          "index": 23,
+          "title": "Exercise 3D - Question 5 (continued)"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "THE DISTRIBUTIVE LAW",
+          "index": 24,
+          "title": "Exercise 3D - Question 6"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "THE DISTRIBUTIVE LAW",
+          "index": 25,
+          "title": "Exercise 3D - Question 7"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "THE DISTRIBUTIVE LAW",
+          "index": 26,
+          "title": "Exercise 3D - Question 8"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "THE DISTRIBUTIVE LAW",
+          "index": 27,
+          "title": "Exercise 3D - Question 9"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "The product (a+b)(c+d)",
+          "index": 1,
+          "title": "Example 7"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "The product (a+b)(c+d)",
+          "index": 2,
+          "title": "Example (Expand using distributive law repeatedly)"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "The product (a+b)(c+d)",
+          "index": 3,
+          "title": "Exercise 4C - Question 1"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "The product (a+b)(c+d)",
+          "index": 4,
+          "title": "Exercise 4C - Question 2"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "The product (a+b)(c+d)",
+          "index": 5,
+          "title": "Exercise 4C.1 - Question 1"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "The product (a+b)(c+d)",
+          "index": 6,
+          "title": "Exercise 4C.1 - Question 2"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "The product (a+b)(c+d)",
+          "index": 7,
+          "title": "Exercise 4C.1 - Question 3"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "The product (a+b)(c+d)",
+          "index": 8,
+          "title": "Exercise 4C.1"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "The product (a+b)(c+d)",
+          "index": 9,
+          "title": "Exercise 4C.1 - Question 2"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "The product (a+b)(c+d)",
+          "index": 10,
+          "title": "Exercise 4C.1 - Question 3"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "Perfect squares",
+          "index": 1,
+          "title": "Example (Perfect Square Expansion)"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "Perfect squares",
+          "index": 2,
+          "title": "Example (Perfect Square with Subtraction)"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "Perfect squares",
+          "index": 3,
+          "title": "Exercise 4C.2 - Question 1"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "Perfect squares",
+          "index": 4,
+          "title": "Exercise 4C.2 - Question 2"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "Perfect squares",
+          "index": 6,
+          "title": "Example 18"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "Perfect squares",
+          "index": 7,
+          "title": "Exercise 4C.3 - Question 1"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "Perfect squares",
+          "index": 8,
+          "title": "Exercise 4C.4 - Question 1"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "Perfect squares",
+          "index": 9,
+          "title": "Exercise 4C.4 - Question 2"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "Perfect squares",
+          "index": 10,
+          "title": "Exercise 4C.5 - Question 1"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "Perfect squares",
+          "index": 11,
+          "title": "Exercise 4C.5 - Question 2"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "Perfect squares",
+          "index": 12,
+          "title": "Exercise 4C.5 - Question 3"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "Perfect squares",
+          "index": 13,
+          "title": "Exercise 3E - Question 1"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "Perfect squares",
+          "index": 14,
+          "title": "Exercise 3E - Question 2"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "Perfect squares",
+          "index": 15,
+          "title": "Exercise 3E - Question 3"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "Perfect squares",
+          "index": 16,
+          "title": "Exercise 3F - Question 1"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "Perfect squares",
+          "index": 17,
+          "title": "Exercise 3F - Question 2"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "Perfect squares",
+          "index": 18,
+          "title": "Exercise 3F - Question 3"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "Perfect squares",
+          "index": 19,
+          "title": "Exercise 3F - Question 4"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "Perfect squares",
+          "index": 20,
+          "title": "Exercise 3F - Question 5"
+        }
+      ],
+      "jsonError": false
+    },
+    "ch03_simplifying_fractions": {
+      "hasAsterisk": false,
+      "missingContent": [
+        {
+          "type": "item",
+          "index": 0,
+          "title": "Definition of Algebraic Fractions"
+        },
+        {
+          "type": "item",
+          "index": 1,
+          "title": "Example 1 - Adding and Subtracting Algebraic Fractions"
+        },
+        {
+          "type": "item",
+          "index": 2,
+          "title": "Simplifying by Cancelling Common Factors"
+        },
+        {
+          "type": "item",
+          "index": 3,
+          "title": "Illegal Cancellation Warning"
+        },
+        {
+          "type": "item",
+          "index": 4,
+          "title": "Illegal Cancellation Example"
+        },
+        {
+          "type": "item",
+          "index": 5,
+          "title": "Example 2 - Simplifying Algebraic Fractions"
+        },
+        {
+          "type": "item",
+          "index": 6,
+          "title": "Example 3 - Simplifying with Squared Terms"
+        },
+        {
+          "type": "item",
+          "index": 7,
+          "title": "Example 4 - Simplifying with Factored Forms"
+        },
+        {
+          "type": "item",
+          "index": 8,
+          "title": "Example 5 - Simplify if Possible"
+        },
+        {
+          "type": "item",
+          "index": 9,
+          "title": "Exercise 21B.1"
+        },
+        {
+          "type": "item",
+          "index": 10,
+          "title": "Exercise 21B.1 - Question 2"
+        },
+        {
+          "type": "item",
+          "index": 11,
+          "title": "Exercise 21B.1 - Questions 3-4"
+        },
+        {
+          "type": "item",
+          "index": 12,
+          "title": "Exercise 21B.1 - Question 5"
+        },
+        {
+          "type": "item",
+          "index": 13,
+          "title": "Exercise 21B.1 - Questions 6-7"
+        },
+        {
+          "type": "item",
+          "index": 14,
+          "title": "Exercise 21B.1 - Question 7 continued"
+        },
+        {
+          "type": "item",
+          "index": 15,
+          "title": "Factorisation and Simplification"
+        },
+        {
+          "type": "item",
+          "index": 16,
+          "title": "Example 6 - Simplify by Factorising"
+        },
+        {
+          "type": "item",
+          "index": 17,
+          "title": "Example 7 - Simplify by Factorising"
+        },
+        {
+          "type": "item",
+          "index": 18,
+          "title": "Useful Rule for Cancellation"
+        },
+        {
+          "type": "item",
+          "index": 19,
+          "title": "Example 8 - Using b-a = -1(a-b)"
+        },
+        {
+          "type": "item",
+          "index": 20,
+          "title": "Example 9 - Factorising Quadratics"
+        },
+        {
+          "type": "item",
+          "index": 21,
+          "title": "Exercise 21B.2"
+        },
+        {
+          "type": "item",
+          "index": 22,
+          "title": "Exercise 21B.2 - Questions 3-4"
+        },
+        {
+          "type": "item",
+          "index": 23,
+          "title": "Exercise 21B.2 - Question 5"
+        },
+        {
+          "type": "item",
+          "index": 24,
+          "title": "Multiplication and Division Rules"
+        },
+        {
+          "type": "item",
+          "index": 25,
+          "title": "Example 10 - Multiplication"
+        },
+        {
+          "type": "item",
+          "index": 26,
+          "title": "Division Steps"
+        },
+        {
+          "type": "item",
+          "index": 27,
+          "title": "Example 11 - Division"
+        },
+        {
+          "type": "item",
+          "index": 28,
+          "title": "Addition and Subtraction Rules"
+        },
+        {
+          "type": "item",
+          "index": 29,
+          "title": "Example 12 - Addition with Different Denominators"
+        },
+        {
+          "type": "item",
+          "index": 30,
+          "title": "Example 13 - Addition with Variable Denominators"
+        },
+        {
+          "type": "item",
+          "index": 31,
+          "title": "Example 14 - Addition with Constants"
+        },
+        {
+          "type": "item",
+          "index": 32,
+          "title": "Exercise 21C - Multiplication"
+        },
+        {
+          "type": "item",
+          "index": 33,
+          "title": "Exercise 21C - Division"
+        },
+        {
+          "type": "item",
+          "index": 34,
+          "title": "Exercise 21D - Addition and Subtraction"
+        },
+        {
+          "type": "item",
+          "index": 35,
+          "title": "Exercise 21D - Questions 3-4"
+        },
+        {
+          "type": "item",
+          "index": 36,
+          "title": "Exercise 21D - Questions 3-4 continued"
+        },
+        {
+          "type": "item",
+          "index": 37,
+          "title": "Example 15 - More Complicated Fractions"
+        },
+        {
+          "type": "item",
+          "index": 38,
+          "title": "Example 16 - Fractions with Linear Denominators"
+        },
+        {
+          "type": "item",
+          "index": 39,
+          "title": "Example 16b - Fractions with Linear Denominators"
+        },
+        {
+          "type": "item",
+          "index": 40,
+          "title": "Exercise 21E - More Complicated Fractions"
+        },
+        {
+          "type": "item",
+          "index": 41,
+          "title": "Review Set 21A"
+        },
+        {
+          "type": "item",
+          "index": 42,
+          "title": "Review Set 21A - Questions 2-6"
+        },
+        {
+          "type": "item",
+          "index": 43,
+          "title": "Review Set 21B"
+        }
+      ],
+      "jsonError": false
+    },
+    "ch04_radical_expressions": {
+      "hasAsterisk": false,
+      "missingContent": [
+        {
+          "type": "item",
+          "index": 1,
+          "title": "Example 23 - Simplify radicals"
+        },
+        {
+          "type": "item",
+          "index": 2,
+          "title": "Example 24 - Simplify radicals with coefficients"
+        },
+        {
+          "type": "item",
+          "index": 4,
+          "title": "Example 25 - Simplify by collecting like radicals"
+        },
+        {
+          "type": "item",
+          "index": 5,
+          "title": "Example 26 - Expand and simplify"
+        },
+        {
+          "type": "item",
+          "index": 6,
+          "title": "Example 27 - Expand and simplify with negative coefficients"
+        },
+        {
+          "type": "item",
+          "index": 7,
+          "title": "Example 28 - Expand and simplify binomial products"
+        },
+        {
+          "type": "item",
+          "index": 8,
+          "title": "Example 29 - Expand and simplify perfect squares"
+        },
+        {
+          "type": "item",
+          "index": 9,
+          "title": "Exercise 4D - Question 1: Simplify"
+        },
+        {
+          "type": "item",
+          "index": 10,
+          "title": "Exercise 4D - Question 2: Simplify"
+        },
+        {
+          "type": "item",
+          "index": 11,
+          "title": "Exercise 4D - Question 3: Simplify"
+        },
+        {
+          "type": "item",
+          "index": 12,
+          "title": "Exercise 4D - Question 4: Expand and simplify"
+        },
+        {
+          "type": "item",
+          "index": 13,
+          "title": "Exercise 4D - Question 5: Expand and simplify"
+        },
+        {
+          "type": "item",
+          "index": 14,
+          "title": "Exercise 4D - Question 6: Expand and simplify"
+        },
+        {
+          "type": "item",
+          "index": 15,
+          "title": "Exercise 4D - Question 7: Expand and simplify perfect squares"
+        },
+        {
+          "type": "item",
+          "index": 16,
+          "title": "Exercise 4D - Question 7 (continued): Expand and simplify perfect squares"
+        },
+        {
+          "type": "item",
+          "index": 17,
+          "title": "Exercise 4D - Question 8: Difference of squares"
+        },
+        {
+          "type": "item",
+          "index": 18,
+          "title": "Review Set 4A - Question 1: Expand expressions"
+        },
+        {
+          "type": "item",
+          "index": 19,
+          "title": "Review Set 4A - Question 2: Expand and simplify"
+        },
+        {
+          "type": "item",
+          "index": 20,
+          "title": "Review Set 4A - Question 3: Expand and simplify"
+        },
+        {
+          "type": "item",
+          "index": 21,
+          "title": "Review Set 4A - Question 4: Expand and simplify"
+        },
+        {
+          "type": "item",
+          "index": 22,
+          "title": "Review Set 4A - Question 5: Expand and simplify"
+        },
+        {
+          "type": "item",
+          "index": 23,
+          "title": "Review Set 4A - Question 6: Expand and simplify"
+        },
+        {
+          "type": "item",
+          "index": 24,
+          "title": "Review Set 4A - Question 7: Expand and simplify"
+        },
+        {
+          "type": "item",
+          "index": 25,
+          "title": "Review Set 4B - Question 1: Expand and simplify"
+        },
+        {
+          "type": "item",
+          "index": 26,
+          "title": "Review Set 4B - Question 2: Expand and simplify"
+        },
+        {
+          "type": "item",
+          "index": 27,
+          "title": "Review Set 4B - Question 3: Expand and simplify"
+        },
+        {
+          "type": "item",
+          "index": 28,
+          "title": "Review Set 4B - Question 4: Expand and simplify"
+        },
+        {
+          "type": "item",
+          "index": 29,
+          "title": "Review Set 4B - Question 5: Expand and simplify"
+        }
+      ],
+      "jsonError": false
+    },
+    "ch05_factorization_part1": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch05_factorization_part2": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch05_factorization_part3": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch05_factorization_part4": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch05_factorization_part5": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch06_solving_equations_part1": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch06_solving_equations_part2": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch06_solving_equations_part3": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch07_problem_solving": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch08_simultaneous_equations_part1": {
+      "hasAsterisk": false,
+      "missingContent": [
+        {
+          "type": "subsection_item",
+          "subsection": "Solution by Elimination",
+          "index": 3,
+          "title": "Exercise 14D"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "Problem Solving with Simultaneous Equations",
+          "index": 6,
+          "title": "Exercise 14E"
+        },
+        {
+          "type": "subsection_item",
+          "subsection": "Problem Solving with Simultaneous Equations",
+          "index": 7,
+          "title": "Exercise 17B"
+        }
+      ],
+      "jsonError": false
+    },
+    "ch08_simultaneous_equations_part2": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch08_simultaneous_equations_part3": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch09_inequalities": {
+      "hasAsterisk": false,
+      "missingContent": [
+        {
+          "type": "subsection_content",
+          "subsection": "Interval notation",
+          "index": 0
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Interval notation",
+          "index": 1
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Interval notation",
+          "index": 3
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Interval notation",
+          "index": 6
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Interval notation",
+          "index": 7
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Interval notation",
+          "index": 8
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Interval notation",
+          "index": 9
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Linear inequalities",
+          "index": 0
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Linear inequalities",
+          "index": 1
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Linear inequalities",
+          "index": 2
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Linear inequalities",
+          "index": 3
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Linear inequalities",
+          "index": 4
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Linear inequalities",
+          "index": 5
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Linear inequalities",
+          "index": 6
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Linear inequalities",
+          "index": 7
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Linear inequalities",
+          "index": 8
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Linear inequalities",
+          "index": 9
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Linear inequalities",
+          "index": 10
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Linear inequalities",
+          "index": 11
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Linear inequalities",
+          "index": 12
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Linear inequalities",
+          "index": 13
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Linear inequalities",
+          "index": 14
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Linear inequalities",
+          "index": 15
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Sign diagrams",
+          "index": 0
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Sign diagrams",
+          "index": 1
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Sign diagrams",
+          "index": 2
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Sign diagrams",
+          "index": 3
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Sign diagrams",
+          "index": 4
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Sign diagrams",
+          "index": 5
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Sign diagrams",
+          "index": 6
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Sign diagrams",
+          "index": 7
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Sign diagrams",
+          "index": 8
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Sign diagrams",
+          "index": 9
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Sign diagrams",
+          "index": 10
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Sign diagrams",
+          "index": 11
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Non-linear inequalities",
+          "index": 0
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Non-linear inequalities",
+          "index": 1
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Non-linear inequalities",
+          "index": 2
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Non-linear inequalities",
+          "index": 3
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Non-linear inequalities",
+          "index": 4
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Non-linear inequalities",
+          "index": 5
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Non-linear inequalities",
+          "index": 6
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Non-linear inequalities",
+          "index": 7
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Non-linear inequalities",
+          "index": 8
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Non-linear inequalities",
+          "index": 9
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Non-linear inequalities",
+          "index": 10
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Non-linear inequalities",
+          "index": 11
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Non-linear inequalities",
+          "index": 12
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Non-linear inequalities",
+          "index": 13
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Non-linear inequalities",
+          "index": 14
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Non-linear inequalities",
+          "index": 15
+        }
+      ],
+      "jsonError": false
+    },
+    "ch10_straight_line": {
+      "hasAsterisk": false,
+      "missingContent": [
+        {
+          "type": "subsection_content",
+          "subsection": "Cartesian plane",
+          "index": 0
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Properties of a line",
+          "index": 0
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Properties of a line",
+          "index": 1
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Properties of a line",
+          "index": 2
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Properties of a line",
+          "index": 3
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Properties of a line",
+          "index": 4
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Properties of a line",
+          "index": 5
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Properties of a line",
+          "index": 6
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Properties of a line",
+          "index": 7
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Properties of a line",
+          "index": 8
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Properties of a line",
+          "index": 9
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Properties of a line",
+          "index": 10
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Properties of a line",
+          "index": 11
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Properties of a line",
+          "index": 12
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Properties of a line",
+          "index": 13
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Properties of a line",
+          "index": 14
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Properties of a line",
+          "index": 15
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Properties of a line",
+          "index": 16
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Properties of a line",
+          "index": 17
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Properties of a line",
+          "index": 18
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Properties of a line",
+          "index": 19
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Properties of a line",
+          "index": 20
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Properties of a line",
+          "index": 21
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Properties of a line",
+          "index": 22
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Properties of a line",
+          "index": 23
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Properties of a line",
+          "index": 24
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Properties of a line",
+          "index": 25
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Properties of a line",
+          "index": 26
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Parallel and perpendicular lines",
+          "index": 0
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Parallel and perpendicular lines",
+          "index": 1
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Parallel and perpendicular lines",
+          "index": 2
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Parallel and perpendicular lines",
+          "index": 3
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Parallel and perpendicular lines",
+          "index": 4
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Parallel and perpendicular lines",
+          "index": 5
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Parallel and perpendicular lines",
+          "index": 6
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Parallel and perpendicular lines",
+          "index": 7
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Parallel and perpendicular lines",
+          "index": 8
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Parallel and perpendicular lines",
+          "index": 9
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Parallel and perpendicular lines",
+          "index": 10
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Parallel and perpendicular lines",
+          "index": 11
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Parallel and perpendicular lines",
+          "index": 12
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Parallel and perpendicular lines",
+          "index": 13
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Parallel and perpendicular lines",
+          "index": 14
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Parallel and perpendicular lines",
+          "index": 15
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Parallel and perpendicular lines",
+          "index": 16
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Graphing a straight line",
+          "index": 0
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Graphing a straight line",
+          "index": 1
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Graphing a straight line",
+          "index": 2
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Graphing a straight line",
+          "index": 3
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Graphing a straight line",
+          "index": 4
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Graphing a straight line",
+          "index": 5
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Graphing a straight line",
+          "index": 6
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Graphing a straight line",
+          "index": 7
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Graphing a straight line",
+          "index": 8
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Graphing a straight line",
+          "index": 9
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Graphing a straight line",
+          "index": 10
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 0
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 1
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 2
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 3
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 4
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 5
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 6
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 7
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 8
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 9
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 10
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 11
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 12
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 13
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 14
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 15
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 16
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 17
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 18
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 19
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 20
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 21
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 22
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 23
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 24
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 25
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 26
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 27
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 28
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 29
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 30
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 31
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 32
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 33
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 34
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 35
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Perpendicular bisectors",
+          "index": 36
+        }
+      ],
+      "jsonError": false
+    },
+    "ch11_quadratic_function_part1": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch11_quadratic_function_part2": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch11_quadratic_function_part3": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch11_quadratic_function_part4": {
+      "hasAsterisk": false,
+      "missingContent": [
+        {
+          "type": "subsection_content",
+          "subsection": "Finding equations of quadratics (continued)",
+          "index": 0
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Finding equations of quadratics (continued)",
+          "index": 1
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Finding equations of quadratics (continued)",
+          "index": 2
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Finding equations of quadratics (continued)",
+          "index": 3
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Finding equations of quadratics (continued)",
+          "index": 4
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Finding equations of quadratics (continued)",
+          "index": 5
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Finding equations of quadratics (continued)",
+          "index": 6
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Finding equations of quadratics (continued)",
+          "index": 7
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Finding equations of quadratics (continued)",
+          "index": 8
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Finding equations of quadratics (continued)",
+          "index": 9
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Intersection of graphs",
+          "index": 0
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Intersection of graphs",
+          "index": 1
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Intersection of graphs",
+          "index": 2
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Intersection of graphs",
+          "index": 3
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Intersection of graphs",
+          "index": 4
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Intersection of graphs",
+          "index": 5
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Intersection of graphs",
+          "index": 6
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Intersection of graphs",
+          "index": 7
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Intersection of graphs",
+          "index": 8
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Problem solving with quadratics",
+          "index": 0
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Problem solving with quadratics",
+          "index": 1
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Problem solving with quadratics",
+          "index": 2
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Problem solving with quadratics",
+          "index": 3
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Problem solving with quadratics",
+          "index": 4
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Problem solving with quadratics",
+          "index": 5
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Problem solving with quadratics",
+          "index": 6
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Problem solving with quadratics",
+          "index": 7
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Problem solving with quadratics",
+          "index": 8
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Problem solving with quadratics",
+          "index": 9
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Problem solving with quadratics",
+          "index": 10
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Problem solving with quadratics",
+          "index": 11
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Quadratic inequalities",
+          "index": 0
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Quadratic inequalities",
+          "index": 1
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Quadratic inequalities",
+          "index": 2
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Quadratic inequalities",
+          "index": 3
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Quadratic inequalities",
+          "index": 4
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Quadratic inequalities",
+          "index": 5
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Quadratic inequalities",
+          "index": 6
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Quadratic inequalities",
+          "index": 7
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Quadratic inequalities",
+          "index": 8
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Quadratic inequalities",
+          "index": 9
+        }
+      ],
+      "jsonError": false
+    },
+    "ch11_quadratic_function_part5": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch12_sets": {
+      "hasAsterisk": false,
+      "missingContent": [
+        {
+          "type": "section_content",
+          "section": "Section 0",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Section 0",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Section 0",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "Section 0",
+          "index": 5
+        },
+        {
+          "type": "section_content",
+          "section": "Section 0",
+          "index": 7
+        },
+        {
+          "type": "section_content",
+          "section": "Section 0",
+          "index": 9
+        },
+        {
+          "type": "section_content",
+          "section": "Section 0",
+          "index": 13
+        },
+        {
+          "type": "section_content",
+          "section": "Section 1",
+          "index": 6
+        },
+        {
+          "type": "section_content",
+          "section": "Section 1",
+          "index": 7
+        },
+        {
+          "type": "section_content",
+          "section": "Section 1",
+          "index": 8
+        },
+        {
+          "type": "section_content",
+          "section": "Section 1",
+          "index": 9
+        },
+        {
+          "type": "section_content",
+          "section": "Section 1",
+          "index": 10
+        },
+        {
+          "type": "section_content",
+          "section": "Section 1",
+          "index": 11
+        },
+        {
+          "type": "section_content",
+          "section": "Section 1",
+          "index": 12
+        },
+        {
+          "type": "section_content",
+          "section": "Section 1",
+          "index": 13
+        },
+        {
+          "type": "section_content",
+          "section": "Section 1",
+          "index": 14
+        },
+        {
+          "type": "section_content",
+          "section": "Section 2",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Section 2",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Section 3",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Section 3",
+          "index": 7
+        },
+        {
+          "type": "section_content",
+          "section": "Section 3",
+          "index": 8
+        },
+        {
+          "type": "section_content",
+          "section": "Section 3",
+          "index": 9
+        },
+        {
+          "type": "section_content",
+          "section": "Section 3",
+          "index": 10
+        },
+        {
+          "type": "section_content",
+          "section": "Section 3",
+          "index": 11
+        },
+        {
+          "type": "section_content",
+          "section": "Section 3",
+          "index": 12
+        },
+        {
+          "type": "section_content",
+          "section": "Section 3",
+          "index": 13
+        },
+        {
+          "type": "section_content",
+          "section": "Section 3",
+          "index": 14
+        },
+        {
+          "type": "section_content",
+          "section": "Section 3",
+          "index": 15
+        },
+        {
+          "type": "section_content",
+          "section": "Section 3",
+          "index": 16
+        },
+        {
+          "type": "section_content",
+          "section": "Section 3",
+          "index": 17
+        },
+        {
+          "type": "section_content",
+          "section": "Section 3",
+          "index": 18
+        },
+        {
+          "type": "section_content",
+          "section": "Section 3",
+          "index": 19
+        },
+        {
+          "type": "section_content",
+          "section": "Section 3",
+          "index": 20
+        }
+      ],
+      "jsonError": false
+    },
+    "ch13_venn_diagrams_part1": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch13_venn_diagrams_part2": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch13_venn_diagrams_part3": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch14_functions_part1": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch14_functions_part2": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch14_functions_part3": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch14_functions_part4": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch14_functions_part5": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch15_transformations_part1": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch15_transformations_part2": {
+      "hasAsterisk": false,
+      "missingContent": [
+        {
+          "type": "section_content",
+          "section": "Even and Odd Functions",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Even and Odd Functions",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "The Graph of y = [f(x)]^2",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "The Graph of y = [f(x)]^2",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "The Graph of y = [f(x)]^2",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "The Graph of y = [f(x)]^2",
+          "index": 3
+        }
+      ],
+      "jsonError": false
+    },
+    "ch15_transformations_part3": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch15_transformations_part4": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch15_transformations_part5": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch15_transformations_part6": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch16_logarithms_part1": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch16_logarithms_part2": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch16_logarithms_part3": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch17_summary": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch18_number_sequences": {
+      "hasAsterisk": false,
+      "missingContent": [
+        {
+          "type": "subsection_content",
+          "subsection": "Geometric patterns",
+          "index": 4
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Geometric patterns",
+          "index": 6
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Geometric patterns",
+          "index": 7
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Using patterns",
+          "index": 1
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Using patterns",
+          "index": 2
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Using patterns",
+          "index": 3
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Practical problems",
+          "index": 1
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Number sequences",
+          "index": 3
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Number sequences",
+          "index": 4
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Number sequences",
+          "index": 5
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Number sequences",
+          "index": 6
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Number sequences",
+          "index": 7
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Number sequences",
+          "index": 8
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Number sequences",
+          "index": 9
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Number sequences",
+          "index": 10
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Number sequences",
+          "index": 11
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Number sequences",
+          "index": 12
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Number sequences",
+          "index": 13
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Number sequences",
+          "index": 14
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Number sequences",
+          "index": 15
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Number sequences",
+          "index": 16
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Arithmetic sequences",
+          "index": 0
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Arithmetic sequences",
+          "index": 11
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Arithmetic sequences",
+          "index": 12
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Arithmetic sequences",
+          "index": 13
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Arithmetic sequences",
+          "index": 14
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Arithmetic sequences",
+          "index": 15
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Arithmetic sequences",
+          "index": 16
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Arithmetic sequences",
+          "index": 17
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Arithmetic sequences",
+          "index": 18
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Arithmetic sequences",
+          "index": 20
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Arithmetic sequences",
+          "index": 21
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Arithmetic sequences",
+          "index": 22
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Arithmetic sequences",
+          "index": 23
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Arithmetic sequences",
+          "index": 24
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Arithmetic sequences",
+          "index": 25
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Geometric sequences",
+          "index": 7
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Geometric sequences",
+          "index": 8
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Geometric sequences",
+          "index": 9
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Geometric sequences",
+          "index": 10
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Geometric sequences",
+          "index": 11
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Geometric sequences",
+          "index": 12
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Geometric sequences",
+          "index": 13
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Geometric sequences",
+          "index": 14
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Geometric sequences",
+          "index": 15
+        }
+      ],
+      "jsonError": false
+    },
+    "ch19_series": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch20_geometric_sequences": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch21_number_part1": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch21_number_part2": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch21_number_part3": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch22_matrices": {
+      "hasAsterisk": false,
+      "missingContent": [
+        {
+          "type": "subsection_content",
+          "subsection": "Matrix Size and Construction",
+          "index": 0
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Matrix Size and Construction",
+          "index": 1
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Matrix Size and Construction",
+          "index": 2
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Matrix Size and Construction",
+          "index": 6
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Matrix Size and Construction",
+          "index": 8
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Matrix Equality",
+          "index": 2
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Addition and Subtraction of Matrices",
+          "index": 7
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Scalar Multiplication",
+          "index": 1
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Scalar Multiplication",
+          "index": 3
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Scalar Multiplication",
+          "index": 4
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Matrix Multiplication",
+          "index": 4
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Matrix Multiplication",
+          "index": 5
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Matrix Multiplication",
+          "index": 6
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Matrix Multiplication",
+          "index": 7
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Matrix Multiplication",
+          "index": 8
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Matrix Multiplication",
+          "index": 9
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Matrix Multiplication",
+          "index": 10
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Matrix Multiplication",
+          "index": 11
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Matrix Multiplication",
+          "index": 12
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Matrix Multiplication",
+          "index": 13
+        }
+      ],
+      "jsonError": false
+    },
+    "ch23_polynomials_part1": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch23_polynomials_part2": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch23_polynomials_part3": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch24_polynomial_equations": {
+      "hasAsterisk": false,
+      "missingContent": [
+        {
+          "type": "section_content",
+          "section": "Polynomial equations",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Polynomial equations",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Polynomial equations",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Polynomial equations",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Cubic inequalities",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Cubic inequalities",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Cubic inequalities",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Cubic inequalities",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Cubic inequalities",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "Cubic inequalities",
+          "index": 5
+        },
+        {
+          "type": "section_content",
+          "section": "Cubic inequalities",
+          "index": 6
+        },
+        {
+          "type": "section_content",
+          "section": "Cubic inequalities",
+          "index": 7
+        },
+        {
+          "type": "section_content",
+          "section": "Cubic inequalities",
+          "index": 8
+        },
+        {
+          "type": "section_content",
+          "section": "Cubic inequalities",
+          "index": 9
+        },
+        {
+          "type": "section_content",
+          "section": "Cubic inequalities",
+          "index": 10
+        },
+        {
+          "type": "section_content",
+          "section": "Cubic inequalities",
+          "index": 11
+        },
+        {
+          "type": "section_content",
+          "section": "Cubic inequalities",
+          "index": 12
+        },
+        {
+          "type": "section_content",
+          "section": "Cubic inequalities",
+          "index": 13
+        },
+        {
+          "type": "section_content",
+          "section": "Cubic inequalities",
+          "index": 14
+        }
+      ],
+      "jsonError": false
+    },
+    "ch25_percentage_part1": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch25_percentage_part2": {
+      "hasAsterisk": false,
+      "missingContent": [
+        {
+          "type": "section_content",
+          "section": "Percentage increase and decrease using multipliers",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Percentage increase and decrease using multipliers",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Percentage increase and decrease using multipliers",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Percentage increase and decrease using multipliers",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Profit and loss",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Profit and loss",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Profit and loss",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Profit and loss",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Profit and loss",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "Profit and loss",
+          "index": 5
+        },
+        {
+          "type": "section_content",
+          "section": "Profit and loss",
+          "index": 6
+        },
+        {
+          "type": "section_content",
+          "section": "Profit and loss",
+          "index": 7
+        },
+        {
+          "type": "section_content",
+          "section": "Profit and loss",
+          "index": 8
+        },
+        {
+          "type": "section_content",
+          "section": "Profit and loss",
+          "index": 9
+        },
+        {
+          "type": "section_content",
+          "section": "Profit and loss",
+          "index": 10
+        },
+        {
+          "type": "section_content",
+          "section": "Profit and loss",
+          "index": 11
+        },
+        {
+          "type": "section_content",
+          "section": "Profit and loss",
+          "index": 12
+        },
+        {
+          "type": "section_content",
+          "section": "Profit and loss",
+          "index": 13
+        },
+        {
+          "type": "section_content",
+          "section": "Profit and loss",
+          "index": 14
+        },
+        {
+          "type": "section_content",
+          "section": "Discount",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Discount",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Discount",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Discount",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Discount",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "Discount",
+          "index": 5
+        },
+        {
+          "type": "section_content",
+          "section": "Discount",
+          "index": 6
+        },
+        {
+          "type": "section_content",
+          "section": "Discount",
+          "index": 7
+        },
+        {
+          "type": "section_content",
+          "section": "Discount",
+          "index": 8
+        },
+        {
+          "type": "section_content",
+          "section": "Finding the original amount",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Finding the original amount",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Simple interest",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Simple interest",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Simple interest",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Simple interest",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Simple interest",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "Simple interest",
+          "index": 5
+        },
+        {
+          "type": "section_content",
+          "section": "Simple interest",
+          "index": 6
+        },
+        {
+          "type": "section_content",
+          "section": "Simple interest",
+          "index": 7
+        },
+        {
+          "type": "section_content",
+          "section": "Simple interest",
+          "index": 8
+        },
+        {
+          "type": "section_content",
+          "section": "Simple interest",
+          "index": 9
+        }
+      ],
+      "jsonError": false
+    },
+    "ch25_percentage_part3": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch26_ratio_proportion": {
+      "hasAsterisk": false,
+      "missingContent": [
+        {
+          "type": "section_content",
+          "section": "Ratio and proportion (main)",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Ratio and proportion (main)",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Ratio and proportion (main)",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Ratio and proportion (main)",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Ratio and proportion (main)",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "Ratio and proportion (main)",
+          "index": 5
+        },
+        {
+          "type": "section_content",
+          "section": "Ratio and proportion (main)",
+          "index": 6
+        },
+        {
+          "type": "section_content",
+          "section": "Ratio and proportion (main)",
+          "index": 7
+        },
+        {
+          "type": "section_content",
+          "section": "Ratio and proportion (main)",
+          "index": 8
+        },
+        {
+          "type": "section_content",
+          "section": "Ratio and proportion (main)",
+          "index": 9
+        },
+        {
+          "type": "section_content",
+          "section": "Ratio and proportion (main)",
+          "index": 10
+        },
+        {
+          "type": "section_content",
+          "section": "Ratio and proportion (main)",
+          "index": 11
+        },
+        {
+          "type": "section_content",
+          "section": "Ratio and proportion (main)",
+          "index": 12
+        },
+        {
+          "type": "section_content",
+          "section": "Ratio and proportion (main)",
+          "index": 13
+        },
+        {
+          "type": "section_content",
+          "section": "Ratio and proportion (main)",
+          "index": 14
+        },
+        {
+          "type": "section_content",
+          "section": "Ratio and proportion (main)",
+          "index": 15
+        },
+        {
+          "type": "section_content",
+          "section": "Ratio and proportion (main)",
+          "index": 16
+        },
+        {
+          "type": "section_content",
+          "section": "Ratio and proportion (main)",
+          "index": 17
+        },
+        {
+          "type": "section_content",
+          "section": "Ratio and proportion (main)",
+          "index": 18
+        },
+        {
+          "type": "section_content",
+          "section": "Proportions",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Proportions",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Proportions",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Proportions",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Proportions",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "Using ratios to divide quantities",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Using ratios to divide quantities",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Using ratios to divide quantities",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Using ratios to divide quantities",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Using ratios to divide quantities",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "Using ratios to divide quantities",
+          "index": 5
+        },
+        {
+          "type": "section_content",
+          "section": "Scale diagrams",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Scale diagrams",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Scale diagrams",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Scale diagrams",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Scale diagrams",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "Scale diagrams",
+          "index": 5
+        },
+        {
+          "type": "section_content",
+          "section": "Scale diagrams",
+          "index": 6
+        },
+        {
+          "type": "section_content",
+          "section": "Scale diagrams",
+          "index": 7
+        },
+        {
+          "type": "section_content",
+          "section": "Scale diagrams",
+          "index": 8
+        },
+        {
+          "type": "section_content",
+          "section": "Scale diagrams",
+          "index": 9
+        },
+        {
+          "type": "section_content",
+          "section": "Scale diagrams",
+          "index": 10
+        },
+        {
+          "type": "section_content",
+          "section": "Scale diagrams",
+          "index": 11
+        },
+        {
+          "type": "section_content",
+          "section": "Scale diagrams",
+          "index": 12
+        },
+        {
+          "type": "section_content",
+          "section": "Scale diagrams",
+          "index": 13
+        },
+        {
+          "type": "section_content",
+          "section": "Scale diagrams",
+          "index": 14
+        },
+        {
+          "type": "section_content",
+          "section": "Scale diagrams",
+          "index": 15
+        },
+        {
+          "type": "section_content",
+          "section": "Gradient of slope",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Gradient of slope",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Gradient of slope",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Gradient of slope",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Gradient of slope",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "Gradient of slope",
+          "index": 5
+        },
+        {
+          "type": "section_content",
+          "section": "Gradient of slope",
+          "index": 6
+        },
+        {
+          "type": "section_content",
+          "section": "Gradient of slope",
+          "index": 7
+        },
+        {
+          "type": "section_content",
+          "section": "Gradient of slope",
+          "index": 8
+        }
+      ],
+      "jsonError": false
+    },
+    "ch27_rates": {
+      "hasAsterisk": false,
+      "missingContent": [
+        {
+          "type": "section_content",
+          "section": "Rates (Introduction)",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Rates (Introduction)",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "Comparing prices",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Comparing prices",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Using rates",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Using rates",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Using rates",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Using rates",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Using rates",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "Using rates",
+          "index": 5
+        },
+        {
+          "type": "section_content",
+          "section": "Average speed",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Average speed",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Average speed",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Average speed",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "Density",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Density",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Density",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "Density",
+          "index": 5
+        },
+        {
+          "type": "section_content",
+          "section": "Converting rates",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Converting rates",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Converting rates",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Converting rates",
+          "index": 5
+        },
+        {
+          "type": "section_content",
+          "section": "Converting rates",
+          "index": 6
+        },
+        {
+          "type": "section_content",
+          "section": "Converting rates",
+          "index": 7
+        },
+        {
+          "type": "section_content",
+          "section": "Converting rates",
+          "index": 8
+        },
+        {
+          "type": "section_content",
+          "section": "Converting rates",
+          "index": 9
+        },
+        {
+          "type": "section_content",
+          "section": "Converting rates",
+          "index": 10
+        },
+        {
+          "type": "section_content",
+          "section": "Converting rates",
+          "index": 11
+        },
+        {
+          "type": "section_content",
+          "section": "Converting rates",
+          "index": 12
+        },
+        {
+          "type": "section_content",
+          "section": "Converting rates",
+          "index": 13
+        },
+        {
+          "type": "section_content",
+          "section": "Converting rates",
+          "index": 14
+        }
+      ],
+      "jsonError": false
+    },
+    "ch28_problem_solving": {
+      "hasAsterisk": false,
+      "missingContent": [
+        {
+          "type": "section_content",
+          "section": "Section 0",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Section 0",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Section 0",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Section 0",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Section 0",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "Section 0",
+          "index": 5
+        },
+        {
+          "type": "section_content",
+          "section": "Section 0",
+          "index": 6
+        },
+        {
+          "type": "section_content",
+          "section": "Section 0",
+          "index": 7
+        },
+        {
+          "type": "section_content",
+          "section": "Section 0",
+          "index": 8
+        },
+        {
+          "type": "section_content",
+          "section": "Section 0",
+          "index": 9
+        },
+        {
+          "type": "section_content",
+          "section": "Section 0",
+          "index": 10
+        },
+        {
+          "type": "section_content",
+          "section": "Section 1",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Section 1",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Section 1",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Section 1",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Section 1",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "Section 1",
+          "index": 5
+        },
+        {
+          "type": "section_content",
+          "section": "Section 2",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Section 2",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Section 2",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Section 2",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Section 3",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Section 3",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Section 3",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Section 3",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Section 3",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "Section 3",
+          "index": 5
+        },
+        {
+          "type": "section_content",
+          "section": "Section 3",
+          "index": 6
+        },
+        {
+          "type": "section_content",
+          "section": "Section 3",
+          "index": 7
+        },
+        {
+          "type": "section_content",
+          "section": "Section 3",
+          "index": 8
+        },
+        {
+          "type": "section_content",
+          "section": "Section 4",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Section 4",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Section 4",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Section 4",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Section 4",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "Section 4",
+          "index": 5
+        },
+        {
+          "type": "section_content",
+          "section": "Section 4",
+          "index": 6
+        },
+        {
+          "type": "section_content",
+          "section": "Section 4",
+          "index": 7
+        },
+        {
+          "type": "section_content",
+          "section": "Section 5",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Section 5",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Section 5",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Section 5",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Section 5",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "Section 5",
+          "index": 5
+        },
+        {
+          "type": "section_content",
+          "section": "Section 5",
+          "index": 6
+        },
+        {
+          "type": "section_content",
+          "section": "Section 5",
+          "index": 7
+        },
+        {
+          "type": "section_content",
+          "section": "Section 5",
+          "index": 8
+        },
+        {
+          "type": "section_content",
+          "section": "Section 5",
+          "index": 9
+        },
+        {
+          "type": "section_content",
+          "section": "Section 5",
+          "index": 10
+        },
+        {
+          "type": "section_content",
+          "section": "Section 5",
+          "index": 11
+        },
+        {
+          "type": "section_content",
+          "section": "Section 5",
+          "index": 12
+        },
+        {
+          "type": "section_content",
+          "section": "Section 5",
+          "index": 13
+        }
+      ],
+      "jsonError": false
+    },
+    "ch29_financial_math": {
+      "hasAsterisk": false,
+      "missingContent": [
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 0
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 1
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 2
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 3
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 4
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 5
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 6
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 7
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 8
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 9
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 10
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 11
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 12
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 13
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 14
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 15
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 16
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 17
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 18
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 19
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 20
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 21
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 22
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 23
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 24
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 25
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 26
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 27
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 28
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 29
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 30
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Business calculations",
+          "index": 31
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Appreciation",
+          "index": 0
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Appreciation",
+          "index": 1
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Appreciation",
+          "index": 2
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Appreciation",
+          "index": 3
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Appreciation",
+          "index": 4
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Appreciation",
+          "index": 5
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Appreciation",
+          "index": 6
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Appreciation",
+          "index": 7
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Appreciation",
+          "index": 8
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Appreciation",
+          "index": 9
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Appreciation",
+          "index": 10
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Appreciation",
+          "index": 11
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Appreciation",
+          "index": 12
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Depreciation",
+          "index": 0
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Depreciation",
+          "index": 1
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Depreciation",
+          "index": 2
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Depreciation",
+          "index": 3
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Depreciation",
+          "index": 4
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Depreciation",
+          "index": 5
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Depreciation",
+          "index": 6
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Depreciation",
+          "index": 7
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Depreciation",
+          "index": 8
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Depreciation",
+          "index": 9
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Borrowing",
+          "index": 0
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Borrowing",
+          "index": 1
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Borrowing",
+          "index": 2
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Borrowing",
+          "index": 3
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Borrowing",
+          "index": 4
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Borrowing",
+          "index": 5
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Borrowing",
+          "index": 6
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Borrowing",
+          "index": 7
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Borrowing",
+          "index": 8
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Borrowing",
+          "index": 9
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Borrowing",
+          "index": 10
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Borrowing",
+          "index": 11
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Borrowing",
+          "index": 12
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Borrowing",
+          "index": 13
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Borrowing",
+          "index": 14
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Borrowing",
+          "index": 15
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Borrowing",
+          "index": 16
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Borrowing",
+          "index": 17
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Borrowing",
+          "index": 18
+        },
+        {
+          "type": "subsection_content",
+          "subsection": "Borrowing",
+          "index": 19
+        }
+      ],
+      "jsonError": false
+    },
+    "ch30_complex_numbers": {
+      "hasAsterisk": false,
+      "missingContent": [
+        {
+          "type": "section_content",
+          "section": "Complex numbers - Introduction",
+          "index": 6
+        },
+        {
+          "type": "section_content",
+          "section": "The Sum of Two Squares Factorisation",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "The Sum of Two Squares Factorisation",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "The Sum of Two Squares Factorisation",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Operations with complex numbers",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Operations with complex numbers",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Operations with complex numbers",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "Operations with complex numbers",
+          "index": 5
+        },
+        {
+          "type": "section_content",
+          "section": "Equality of complex numbers",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Properties of complex conjugates",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Properties of complex conjugates",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "The complex plane",
+          "index": 5
+        },
+        {
+          "type": "section_content",
+          "section": "The complex plane",
+          "index": 6
+        },
+        {
+          "type": "section_content",
+          "section": "The complex plane",
+          "index": 7
+        },
+        {
+          "type": "section_content",
+          "section": "Worked Example 6",
+          "index": 0
+        }
+      ],
+      "jsonError": false
+    },
+    "ch31_complex_plane": {
+      "hasAsterisk": false,
+      "missingContent": [
+        {
+          "type": "section_content",
+          "section": "The Complex Plane",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "The Complex Plane",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "The Complex Plane",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "The Complex Plane",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Examples - Complex Plane",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Examples - Complex Plane",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Examples - Complex Plane",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Exercise 14A",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Exercise 14A",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Exercise 14A",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Modulus and Argument",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Modulus and Argument",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Modulus and Argument",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Modulus and Argument",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Modulus and Argument",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "Modulus and Argument",
+          "index": 5
+        },
+        {
+          "type": "section_content",
+          "section": "Modulus and Argument",
+          "index": 6
+        },
+        {
+          "type": "section_content",
+          "section": "Exercise 14B",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Exercise 14B",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Exercise 14B",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Exercise 14B",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Exercise 14B",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "Exercise 14B",
+          "index": 5
+        },
+        {
+          "type": "section_content",
+          "section": "Geometry in the Complex Plane",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Geometry in the Complex Plane",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Geometry in the Complex Plane",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Geometry in the Complex Plane",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Geometry in the Complex Plane",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "Geometry in the Complex Plane",
+          "index": 5
+        },
+        {
+          "type": "section_content",
+          "section": "Exercise 14C",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Polar Form",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Polar Form",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Polar Form",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Polar Form",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Polar Form",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "Polar Form",
+          "index": 5
+        },
+        {
+          "type": "section_content",
+          "section": "Polar Form",
+          "index": 6
+        },
+        {
+          "type": "section_content",
+          "section": "Polar Form",
+          "index": 7
+        },
+        {
+          "type": "section_content",
+          "section": "Polar Form",
+          "index": 8
+        },
+        {
+          "type": "section_content",
+          "section": "Polar Form",
+          "index": 9
+        },
+        {
+          "type": "section_content",
+          "section": "Polar Form",
+          "index": 10
+        },
+        {
+          "type": "section_content",
+          "section": "Polar Form",
+          "index": 11
+        },
+        {
+          "type": "section_content",
+          "section": "Polar Form",
+          "index": 12
+        },
+        {
+          "type": "section_content",
+          "section": "Multiplication of Complex Numbers",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Multiplication of Complex Numbers",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Multiplication of Complex Numbers",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Multiplication of Complex Numbers",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Multiplication of Complex Numbers",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "De Moivre's Theorem",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "De Moivre's Theorem",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "De Moivre's Theorem",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "De Moivre's Theorem",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "De Moivre's Theorem",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "Exercise 14E - Euler Form",
+          "index": 0
+        }
+      ],
+      "jsonError": false
+    },
+    "ch32_binomial_theorem": {
+      "hasAsterisk": false,
+      "missingContent": [
+        {
+          "type": "section_content",
+          "section": "Introduction",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Factorial notation",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Factorial notation",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Factorial notation",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Factorial notation",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Factorial notation",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "Factorial notation",
+          "index": 5
+        },
+        {
+          "type": "section_content",
+          "section": "Binomial expansions",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "Binomial expansions",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "Binomial expansions",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "Binomial expansions",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "Binomial expansions",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "Binomial expansions",
+          "index": 5
+        },
+        {
+          "type": "section_content",
+          "section": "Binomial expansions",
+          "index": 6
+        },
+        {
+          "type": "section_content",
+          "section": "Binomial expansions",
+          "index": 7
+        },
+        {
+          "type": "section_content",
+          "section": "Binomial expansions",
+          "index": 8
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem",
+          "index": 5
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem",
+          "index": 6
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem",
+          "index": 7
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem",
+          "index": 8
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem",
+          "index": 9
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem",
+          "index": 10
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem",
+          "index": 11
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem",
+          "index": 12
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem",
+          "index": 13
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem",
+          "index": 14
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem",
+          "index": 15
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem",
+          "index": 16
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem",
+          "index": 17
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem",
+          "index": 18
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem",
+          "index": 19
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem for n in Q",
+          "index": 0
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem for n in Q",
+          "index": 1
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem for n in Q",
+          "index": 2
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem for n in Q",
+          "index": 3
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem for n in Q",
+          "index": 4
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem for n in Q",
+          "index": 5
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem for n in Q",
+          "index": 6
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem for n in Q",
+          "index": 7
+        },
+        {
+          "type": "section_content",
+          "section": "The binomial theorem for n in Q",
+          "index": 8
+        }
+      ],
+      "jsonError": false
+    },
+    "ch33_reasoning_proof_part1": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch33_reasoning_proof_part2": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    },
+    "ch33_reasoning_proof_part3": {
+      "hasAsterisk": false,
+      "missingContent": [],
+      "jsonError": false
+    }
+  }
+}
