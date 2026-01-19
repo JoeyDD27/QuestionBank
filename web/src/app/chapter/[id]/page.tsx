@@ -52,7 +52,7 @@ async function getImagesBatch(chapterIds: string[]): Promise<Record<string, Imag
 
 interface ItemWithQuestions extends Item {
   questions: Question[];
-  source_image?: ImageType;
+  source_images: ImageType[];
 }
 
 async function getItemsBatch(chapterIds: string[]): Promise<Record<string, ItemWithQuestions[]>> {
@@ -78,10 +78,11 @@ async function getItemsBatch(chapterIds: string[]): Promise<Record<string, ItemW
     .in("item_id", itemIds)
     .range(0, 9999);
 
-  // Get all source images in one query
-  const imageIds = items.map(i => i.source_image_id).filter(Boolean);
-  const { data: images } = imageIds.length > 0
-    ? await supabase.from("images").select("*").in("id", imageIds).limit(5000)
+  // Get all source images in one query (support multiple images per item)
+  const allImageIds = items.flatMap(i => i.source_image_ids || (i.source_image_id ? [i.source_image_id] : []));
+  const uniqueImageIds = [...new Set(allImageIds)].filter(Boolean);
+  const { data: images } = uniqueImageIds.length > 0
+    ? await supabase.from("images").select("*").in("id", uniqueImageIds).limit(5000)
     : { data: [] };
 
   // Build lookup maps
@@ -100,10 +101,14 @@ async function getItemsBatch(chapterIds: string[]): Promise<Record<string, ItemW
   const byChapter: Record<string, ItemWithQuestions[]> = {};
   for (const item of items) {
     if (!byChapter[item.chapter_id]) byChapter[item.chapter_id] = [];
+    // Support both source_image_ids array and legacy source_image_id
+    const imageIds = item.source_image_ids?.length > 0
+      ? item.source_image_ids
+      : (item.source_image_id ? [item.source_image_id] : []);
     byChapter[item.chapter_id].push({
       ...item,
       questions: questionsByItem[item.id] || [],
-      source_image: item.source_image_id ? imagesById[item.source_image_id] : undefined
+      source_images: imageIds.map((id: string) => imagesById[id]).filter(Boolean)
     });
   }
 
@@ -308,20 +313,23 @@ export default async function ChapterPage({ params }: PageProps) {
                         <div className={`rounded-lg border-2 border-dashed border-gray-300 ${typeBg[item.type] || 'bg-gray-50'}`}>
                           <div className="px-3 py-1.5 border-b border-gray-200 bg-white/50">
                             <span className="text-xs font-medium text-gray-500">
-                              📷 Source Image
+                              📷 Source Image{item.source_images.length > 1 ? 's' : ''}{item.source_images.length > 0 ? ` (${item.source_images.length})` : ''}
                             </span>
                           </div>
-                          <div className="p-3">
-                            {item.source_image ? (
-                              <Image
-                                src={getImageUrl(item.source_image.filename)}
-                                alt={item.source_image.filename}
-                                width={500}
-                                height={350}
-                                className="w-full h-auto rounded border bg-white"
-                                style={{ maxHeight: "400px", objectFit: "contain" }}
-                                loading="lazy"
-                              />
+                          <div className="p-3 space-y-2">
+                            {item.source_images.length > 0 ? (
+                              item.source_images.map((img, imgIdx) => (
+                                <Image
+                                  key={img.id}
+                                  src={getImageUrl(img.filename)}
+                                  alt={img.filename}
+                                  width={500}
+                                  height={350}
+                                  className="w-full h-auto rounded border bg-white"
+                                  style={{ maxHeight: "400px", objectFit: "contain" }}
+                                  loading="lazy"
+                                />
+                              ))
                             ) : (
                               <div className="text-gray-400 text-sm italic p-8 text-center">
                                 No source image linked

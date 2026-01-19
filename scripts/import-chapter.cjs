@@ -297,10 +297,11 @@ async function importData(chapterNum, chapterId, imageMap, dryRun = false) {
     for (const item of content.items) {
       globalIndex++;
 
-      // Get source_image_id
-      const sourceImg = item.source_images ? item.source_images[0] : null;
-      const sourceImageId = sourceImg ? imageMap[sourceImg] : null;
-      if (sourceImageId) imagesLinked++;
+      // Get source_image_ids (support multiple images)
+      const sourceImages = item.source_images || [];
+      const sourceImageIds = sourceImages.map(img => imageMap[img]).filter(Boolean);
+      const sourceImageId = sourceImageIds[0] || null; // Keep first for legacy field
+      if (sourceImageIds.length > 0) imagesLinked++;
 
       if (dryRun) {
         itemsInserted++;
@@ -315,6 +316,7 @@ async function importData(chapterNum, chapterId, imageMap, dryRun = false) {
         title: null,
         instruction: null,
         source_image_id: sourceImageId,
+        source_image_ids: sourceImageIds,
         order_index: globalIndex
       }).select().single();
 
