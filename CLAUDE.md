@@ -13,41 +13,81 @@
 
 **QuestionBank** 是 IB/IGCSE 数学题库系统。从 Word 文档图片提取数学题目，存入 Supabase，通过 Web 展示。
 
+## 用户画像与场景
+
+### 目标用户
+**IB/IGCSE 数学老师**
+
+### 核心使用场景
+1. **按知识点筛选题目** - 老师想找"负指数运算"相关练习题
+2. **按题型/难度筛选** - 选择适合学生水平的题目
+3. **生成练习卷** - 勾选题目 → 导出 PDF（题目卷 + 答案卷分开）
+4. **备课参考** - 查看 concept 和 example 作为教学素材
+
+### 用户痛点
+- 题目散落在 Word 文档中，查找费时
+- 无法按知识点快速定位
+- 手动排版练习卷繁琐
+
+### 产品价值
+- 题目结构化，支持多维筛选
+- 一键生成格式规范的练习卷
+- 保留原始图片便于核对
+
+## 开发阶段
+
+| 阶段 | 目标 | 状态 |
+|------|------|------|
+| **阶段1** | 基础提取：完整准确地从图片提取内容 | 🔄 进行中 |
+| **阶段2** | 结构化：添加 section/topic 层级、合并相关 items、知识点标签 | ⏳ 待开始 |
+| **阶段3** | 出卷功能：勾选题目、生成 PDF | ⏳ 待开始 |
+
 ### 线上地址
 
 - **网站**: https://web-plum-zeta-69.vercel.app
 - **Supabase**: https://orfxntmcywouoqpasivm.supabase.co
 
+### 部署命令
+
+前端修改后需手动部署（自动部署太慢）：
+
+```bash
+cd web && vercel --prod
+```
+
 ## 当前状态 (2026-01-19)
+
+### Skill 已完善，待重新提取
+
+Skill 已更新，解决以下问题：
+- source_images 错位 → 逐张处理
+- 跨图片 item → source_images 包含所有图片
+- 装饰图片 → 跳过纯装饰图
+- \texteuro → 用 € 符号
+- markdown 斜体 → 禁止
 
 ### 章节进度
 
 | 章节 | 状态 | 备注 |
 |------|------|------|
-| ch01 | ✅ 已完成 | Algebra, 194 张图, 218 items |
-| ch02 | ✅ 已完成 | Expansion and Factorisation, 48 张图, 41 items |
-| ch03 | ✅ 已完成 | Simplifying algebraic fractions, 46 张图, 39 items |
-| ch04 | ✅ 已完成 | Expansion of radical expressions, 16 张图, 14 items |
-| ch05 | ✅ 已完成 | Factorization, 177 张图, 171 items |
-| ch06 | ✅ 已完成 | Solving equations, 114 张图, 114 items |
-| ch07 | ✅ 已完成 | Problem solving with algebra, 133 张图, 108 items |
-| ch08 | ✅ 已完成 | Simultaneous equations, 101 张图, 74 items |
-| ch09 | ✅ 已完成 | Inequalities, 54 张图, 35 items |
-| ch10 | ✅ 已完成 | Straight line, 93 张图, 91 items |
-| ch11 | ✅ 已完成 | Quadratic function, 202 张图, 192 items |
-| ch12-ch33 | ⏳ 待提取 | 需处理 |
+| ch01 | ✅ 完成 | 203 items，已用新 skill 重提 |
+| ch02-ch33 | ⏳ 待提取 | 用新 skill 提取 |
 
 ### 数据库统计
 
 - **chapters**: 33 行
-- **images**: 1178 行 (ch01-11 已导入)
-- **items**: 1097 行
-- **questions**: 1097 行
+- **images**: 2048 行 (ch01-21 已上传)
+- **items**: ch01 已重导 (203 行)，其他待清除重导
+- **questions**: 同上
 
 ### 踩坑记录
 
 - **images.order_index**: 2026-01-19 添加该列，导入脚本需要此字段排序图片
 - **API 100 图片限制**: 2026-01-19 发现。每个 session 累计读取图片不能超过 100 张，否则报错 `Too much media: N images > 100`。图片读取后累积在 context 中，写完 JSON 也不会清除。
+- **Supabase 1000 row limit**: 2026-01-19 发现。首页章节统计查询使用 `range()` 而非 `limit()` 分页获取所有数据，否则超过 1000 行的表会显示不完整统计。
+- **source_images 错位**: 2026-01-19 发现。子 agent 批量读取图片后，在写 JSON 时图片编号对应错误，导致网页显示图片和内容不匹配。已更新 skill 强制逐张处理。
+- **\texteuro 不渲染**: 2026-01-19 发现。KaTeX 不支持 `\texteuro` 命令，直接用 `€` 符号代替。
+- **markdown 斜体污染**: 2026-01-19 发现。`*text*` 格式会原样显示，不要用 markdown 斜体。
 
 ### Skill 修改记录
 
@@ -56,7 +96,6 @@
 1. **Task 子 agent 自动分批**
    - 每个子 agent 独立 context，图片计数不累积
    - 大章节自动分批（每批 ≤80 张），并行处理
-   - ch07 (133张) 首次使用成功
 
 2. **平均分配优化**
    - 改用平均分配代替固定 80 张/批
@@ -67,9 +106,19 @@
    - 自动累加图片数，≤300 张为一批
    - 大章节 (>150张) 单独处理
 
+4. **修复 source_images 错位** (最新)
+   - 子 agent prompt 强调逐张处理
+   - 每读一张图片立即记录，确保编号准确
+   - 添加最终检查步骤
+
 **Skill 路径**: `~/.claude/skills/questionbank-chapter-processor/skill.md`
 
-**下一批**: 从 ch12 开始 → ch12-ch13 (180张)，ch14 是大章节单独处理
+### 下一步计划
+
+1. 删除 extractions/ 目录下所有 JSON 文件
+2. 清除数据库中 ch01-ch21 的 items + questions
+3. 使用新 skill 重新提取 ch01-ch33
+4. 抽样验证图片-内容对应关系
 
 ---
 
