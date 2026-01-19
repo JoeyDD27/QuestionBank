@@ -1,309 +1,252 @@
 {
+  "chapter": 1,
   "part": 1,
-  "images_range": "1-40",
+  "images_range": "1-49",
   "items": [
     {
       "type": "example",
       "content_latex": "Example 1\n\nWrite in product notation:\n\n(a) $t \\times 6s$\n\n(b) $4 \\times k + m \\times 3$\n\n(c) $3 \\times (r + s)$\n\nSolutions:\n\n(a) $t \\times 6s = 6st$\n\n(b) $4 \\times k + m \\times 3 = 4k + 3m$\n\n(c) $3 \\times (r + s) = 3(r + s)$",
-      "source_images": [
-        "image1.png"
-      ]
+      "source_images": ["image1.png"]
     },
     {
       "type": "concept",
-      "content_latex": "WRITING SUMS AS PRODUCTS\n\nSums of identical terms can be easily written using product notation.\n\nFor example, $3 + 3 + 3 + 3 = 4 \\times 3$ (4 lots of 3)\n\n$\\therefore b + b + b + b = 4 \\times b = 4b$ (4 lots of $b$)\n\nand likewise $a + a + a = 3a$ and $y + y + y + y + y = 5y$.",
-      "source_images": [
-        "image2.png"
-      ]
+      "content_latex": "WRITING SUMS AS PRODUCTS\n\nSums of identical terms can be easily written using product notation.\n\nFor example, $3 + 3 + 3 + 3 = 4 \\times 3$ {4 lots of 3}\n\n$\\therefore b + b + b + b = 4 \\times b = 4b$ {4 lots of $b$}\n\nand likewise $a + a + a = 3a$ and $y + y + y + y + y = 5y$.",
+      "source_images": ["image2.png"]
     },
     {
       "type": "example",
       "content_latex": "Example 2\n\nSimplify:\n\n(a) $r + r + r + s + s$\n\n(b) $d + d - (a + a + a + a)$\n\nSolutions:\n\n(a) $r + r + r + s + s = 3r + 2s$\n\n(b) $d + d - (a + a + a + a) = 2d - 4a$",
-      "source_images": [
-        "image3.png"
-      ]
+      "source_images": ["image3.png"]
     },
     {
       "type": "concept",
       "content_latex": "INDEX NOTATION\n\nWhen the same number is multiplied by itself two or more times we use index notation as a quick way of writing the product.\n\nFor example, $3 \\times 3 \\times 3 \\times 3 = 3^4$, and $b \\times b \\times b \\times b = b^4$.",
-      "source_images": [
-        "image4.png"
-      ]
+      "source_images": ["image4.png"]
     },
     {
       "type": "example",
       "content_latex": "Example 3\n\nSimplify:\n\n(a) $8 \\times b \\times b \\times a \\times a \\times a$\n\n(b) $k + k - 3 \\times d \\times d \\times d$\n\nSolutions:\n\n(a) $8 \\times b \\times b \\times a \\times a \\times a = 8a^3b^2$\n\n(b) $k + k - 3 \\times d \\times d \\times d = 2k - 3d^3$",
-      "source_images": [
-        "image4.png"
-      ]
+      "source_images": ["image4.png"]
     },
     {
       "type": "concept",
       "content_latex": "SIMPLIFYING ALGEBRAIC PRODUCTS\n\n$3 \\times 2x$ and $a^2 \\times 2ab$ are algebraic products.\n\nAlgebraic products can often be simplified using these steps:\n\n- Expand out any brackets.\n- Calculate the coefficient of the final product by multiplying all the numbers.\n- Simplify the unknowns using index notation where appropriate. The unknowns should be written in alphabetical order.",
-      "source_images": [
-        "image5.png"
-      ]
+      "source_images": ["image5.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "EXERCISE 2A\n\n1. Simplify using product notation:\n\n(a) $3 \\times m$ (b) $k \\times 4$ (c) $n \\times 7$ (d) $6 \\times 2b$\n\n(e) $7 \\times 3a$ (f) $m \\times 5d$ (g) $8m \\times 3$ (h) $8m \\times p$\n\n(i) $p \\times 7 \\times q$ (j) $p \\times q \\times 2$ (k) $a \\times b \\times c$ (l) $p \\times h \\times d$\n\n2. Simplify:\n\n(a) $a \\times b + n$ (b) $3 \\times a + 2 \\times b$ (c) $b \\times a + m$ (d) $b \\times a - c$\n\n(e) $d - a \\times c$ (f) $k - d \\times 4$ (g) $c \\times a + d \\times b$ (h) $10 - a \\times b \\times 2$\n\n(i) $8 \\times (m + n)$ (j) $4 \\times (d - 2)$ (k) $(b - d) \\times 3$ (l) $a \\times b \\times (c + 1)$\n\n3. Simplify using product notation:\n\n(a) $t + t$ (b) $n + n + n$ (c) $p + p + q + q + q + 3$\n\n(d) $d + d + d + e$ (e) $5 + y + y + x$ (f) $a + a + a + a + b + b$\n\n(g) $a + a + 5 + a$ (h) $b - (a + a)$ (i) $b - a + a$\n\n(j) $t + t + t + s + s$ (k) $5 + d + d + d$ (l) $2 + a + b + b + b + a$",
-      "source_images": [
-        "image6.png"
-      ]
+      "content_latex": "EXERCISE 2A\n\n1. Simplify using product notation:\n\n(a) $3 \\times m$\n(b) $k \\times 4$\n(c) $n \\times 7$\n(d) $6 \\times 2b$\n(e) $7 \\times 3a$\n(f) $m \\times 5d$\n(g) $8m \\times 3$\n(h) $8m \\times p$\n(i) $p \\times 7 \\times q$\n(j) $p \\times q \\times 2$\n(k) $a \\times b \\times c$\n(l) $p \\times h \\times d$\n\n2. Simplify:\n\n(a) $a \\times b + n$\n(b) $3 \\times a + 2 \\times b$\n(c) $b \\times a + m$\n(d) $b \\times a - c$\n(e) $d - a \\times c$\n(f) $k - d \\times 4$\n(g) $c \\times a + d \\times b$\n(h) $10 - a \\times b \\times 2$\n(i) $8 \\times (m + n)$\n(j) $4 \\times (d - 2)$\n(k) $(b - d) \\times 3$\n(l) $a \\times b \\times (c + 1)$\n\n3. Simplify using product notation:\n\n(a) $t + t$\n(b) $n + n + n$\n(c) $p + p + q + q + q + 3$\n(d) $d + d + d + e$\n(e) $5 + y + y + x$\n(f) $a + a + a + a + b + b$\n(g) $a + a + 5 + a$\n(h) $b - (a + a)$\n(i) $b - a + a$\n(j) $t + t + t + s + s$\n(k) $5 + d + d + d$\n(l) $2 + a + b + b + a$",
+      "source_images": ["image6.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "4. Explain why:\n\n(a) $3 - (a + a)$ is not the same as $3 - a + a$\n\n(b) $m - (n + n + n)$ is not the same as $m - n + n + n$.\n\n5. Write in expanded form:\n\n(a) $a^3$ (b) $b^4$ (c) $3d^2$ (d) $4n^3$ (e) $10a^2b$\n\n(f) $4ab^3$ (g) $(2a)^2$ (h) $2a^2$ (i) $a^2 + 2b^2$ (j) $a^3 - 3b^2$\n\n6. Write in simplest form:\n\n(a) $3 \\times a \\times a$ (b) $5 \\times b \\times b \\times b$ (c) $2 \\times a \\times a \\times 5$\n\n(d) $8 \\times a \\times a \\times b$ (e) $5 \\times m \\times n \\times n \\times n$ (f) $3 \\times p \\times 4 \\times q \\times q$\n\n(g) $p \\times p \\times p \\times q \\times r \\times r$ (h) $4 \\times a \\times 5 \\times a$ (i) $3 \\times d \\times d \\times 2 \\times c$\n\n(j) $a + a \\times a$ (k) $a \\times a \\times a + a$ (l) $b \\times b \\times b - a \\times a$\n\n(m) $b \\times b + 3 \\times b$ (n) $c \\times c \\times c - 5 \\times c$\n\n(o) $3 \\times a \\times b \\times b - 5 \\times b \\times c$ (p) $3 \\times a \\times a + a \\times m$\n\n(q) $4 \\times x + 2 \\times x \\times x \\times x$ (r) $4 \\times (x + 2 + x) \\times x$\n\nIn algebra we use shorthand notation to simplify the look of an expression.",
-      "source_images": [
-        "image7.png"
-      ]
+      "content_latex": "4. Explain why:\n\n(a) $3 - (a + a)$ is not the same as $3 - a + a$\n\n(b) $m - (n + n + n)$ is not the same as $m - n + n + n$.\n\n5. Write in expanded form:\n\n(a) $a^3$\n(b) $b^4$\n(c) $3d^2$\n(d) $4n^3$\n(e) $10a^2b$\n(f) $4ab^3$\n(g) $(2a)^2$\n(h) $2a^2$\n(i) $a^2 + 2b^2$\n(j) $a^3 - 3b^2$\n\n6. Write in simplest form:\n\n(a) $3 \\times a \\times a$\n(b) $5 \\times b \\times b \\times b$\n(c) $2 \\times a \\times a \\times 5$\n(d) $8 \\times a \\times a \\times b$\n(e) $5 \\times m \\times n \\times n \\times n$\n(f) $3 \\times p \\times 4 \\times q \\times q$\n(g) $p \\times p \\times p \\times q \\times r \\times r$\n(h) $4 \\times a \\times 5 \\times a$\n(i) $3 \\times d \\times d \\times 2 \\times c$\n(j) $a + a \\times a$\n(k) $a \\times a \\times a + a$\n(l) $b \\times b \\times b - a \\times a$\n(m) $b \\times b + 3 \\times b$\n(n) $c \\times c \\times c - 5 \\times c$\n(o) $3 \\times a \\times b \\times b - 5 \\times b \\times c$\n(p) $3 \\times a \\times a + a \\times m$\n(q) $4 \\times x + 2 \\times x \\times x \\times x$\n(r) $4 \\times (x + 2 + x) \\times x$\n\nIn algebra we use shorthand notation to simplify the look of an expression.",
+      "source_images": ["image7.png"]
     },
     {
       "type": "concept",
-      "content_latex": "KEY WORDS IN ALGEBRA\n\nSome key words used in algebra are:\n\n| Word | Meaning | Example(s) |\n|------|---------|------------|\n| variable | an unknown value that is represented by a letter or symbol | $C = 2\\pi r$ has variables $C$ and $r$. |\n| expression | an algebraic form consisting of numbers, variables and operators | $2x + y - 7$, $\\frac{1}{x}$ |\n| equation | an algebraic form which contains $=$ | $3x + 8 = -1$, $\\frac{2}{x} = -4$ |\n| term | algebraic forms which are separated by $+$ or $-$ signs, the sign being included | $3x - 2y + 3x - 7$ has four terms. These are $3x$, $-2y$, $3x$, $-7$. |\n| like terms | terms with exactly the same variable form | $4x + 3x - 2y + y - 3x$: $4x$ and $-3x$ are like terms, $-2y$ and $y$ are like terms, $4x$ and $-2y$ are unlike terms. |\n| constant term | a term which does not contain a variable | $\\frac{x}{2} - 7y + 1$: $1$ is the constant term |\n| coefficient | the number factor of an algebraic term | $2x$: $2$ is the coefficient of $x$, $-1$ is the coefficient of $xy$ |",
-      "source_images": [
-        "image8.png"
-      ]
+      "content_latex": "Some key words used in algebra are:\n\n| Word | Meaning | Example(s) |\n|------|---------|------------|\n| variable | an unknown value that is represented by a letter or symbol | $C = 2\\pi r$ has variables $C$ and $r$. |\n| expression | an algebraic form consisting of numbers, variables and operation signs | $2x + y - 7$, $\\frac{2a + b}{c}$ |\n| equation | an algebraic form which contains an $=$ sign | $3x + 8 = -1$, $\\frac{x - 1}{2} = -4$ |\n| terms | algebraic forms which are separated by $+$ or $-$ signs, the signs being included | $3x - 2y + xy - 7$ has four terms. These are $3x$, $-2y$, $xy$ and $-7$. |\n| like terms | terms with exactly the same variable form | In $4x + 3y + xy - 3x$: $4x$ and $-3x$ are like terms; $4x$ and $3y$ are unlike terms; $xy$ and $3y$ are unlike terms. |\n| constant term | a term which does not contain a variable | In $3x - y^2 + 7 + x^3$, $7$ is a constant term. |\n| coefficient | the number factor of an algebraic term | In $4x + 2xy - y^3$: $4$ is the coefficient of $x$; $2$ is the coefficient of $xy$; $-1$ is the coefficient of $y^3$. |",
+      "source_images": ["image8.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 4\n\nConsider $4y^2 - 6x + 2xy - 5 + x^2$.\n\n(a) Is this an equation or an expression?\n\n(b) How many terms does it contain?\n\n(c) State the coefficient of: (i) $x$ ii $x^2$.\n\n(d) State the constant term.\n\nSolutions:\n\n(a) We have an expression, as there is no $=$ sign present.\n\n(b) The expression contains five terms: $4y^2$, $-6x$, $2xy$, $-5$ and $x^2$.\n\n(c) i The coefficient of $x$ is $-6$. ii The coefficient of $x^2$ is $1$.\n\n(d) The constant term is $-5$.",
-      "source_images": [
-        "image9.png"
-      ]
+      "content_latex": "Example 4\n\nConsider $4y^2 - 6x + 2xy - 5 + x^2$.\n\n(a) Is this an equation or an expression?\n\n(b) How many terms does it contain?\n\n(c) State the coefficient of: (i) $x$ (ii) $x^2$.\n\n(d) State the constant term.\n\nSolutions:\n\n(a) We have an expression, as there is no $=$ sign present.\n\n(b) The expression contains five terms: $4y^2$, $-6x$, $2xy$, $-5$ and $x^2$.\n\n(c) (i) The coefficient of $x$ is $-6$. (ii) The coefficient of $x^2$ is $1$.\n\n(d) The constant term is $-5$.",
+      "source_images": ["image9.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "EXERCISE 2B\n\n1. State the coefficient of $x$ in the following:\n\n(a) $4x$ (b) $-7x$ (c) $x$ (d) $-x$\n\n(e) $5 + 6x$ (f) $xy - 3x$ (g) $x^2 - 2x$ (h) $2x^3 - \\frac{1}{x} + x$\n\n2. State the coefficient of $y$ in the following:\n\n(a) $2y$ (b) $-2y$ (c) $11y$ (d) $-3y$\n\n(e) $4x - y$ (f) $3x - 7y + 1$ (g) $y^3 + 3y$ (h) $6y^2 - 13y + 8$\n\n3. Consider $5x^2 + 6xy - y^2 + 3x - 4y + 6$:\n\n(a) Is this an equation or an expression?\n\n(b) How many terms does it contain?\n\n(c) State the coefficient of (i) $x^2$ ii $y^2$ iii $xy$ iv $y$.\n\n(d) What is the constant term?\n\n4. How many terms are there in:\n\n(a) $3x + y - 7$ (b) $x^2 - ab + c - 11$ (c) $x^4 + x^2 + x - 6 + \\frac{4}{x}$?\n\n5. Which of the following are equations and which are expressions?\n\n(a) $a + b - 2c$ (b) $3x^2 - 6x + 8$ (c) $3x - y = 7$\n\n(d) $\\frac{x}{2} = \\frac{6}{x}$ (e) $\\frac{x}{2} - \\frac{x-1}{3}$ (f) $\\frac{x}{2} - \\frac{x-1}{3} = 8$",
-      "source_images": [
-        "image10.png"
-      ]
+      "content_latex": "EXERCISE 2B\n\n1. State the coefficient of $x$ in the following:\n\n(a) $4x$\n(b) $-7x$\n(c) $x$\n(d) $-x$\n(e) $5 + 6x$\n(f) $xy - 3x$\n(g) $x^2 - 2x$\n(h) $2x^3 - \\frac{1}{x} + x$\n\n2. State the coefficient of $y$ in the following:\n\n(a) $2y$\n(b) $-2y$\n(c) $11y$\n(d) $-3y$\n(e) $4x - y$\n(f) $3x - 7y + 1$\n(g) $y^3 + 3y$\n(h) $6y^2 - 13y + 8$\n\n3. Consider $5x^2 + 6xy - y^2 + 3x - 4y + 6$:\n\n(a) Is this an equation or an expression?\n\n(b) How many terms does it contain?\n\n(c) State the coefficient of (i) $x^2$ (ii) $y^2$ (iii) $xy$ (iv) $y$.\n\n(d) What is the constant term?\n\n4. How many terms are there in:\n\n(a) $3x + y - 7$\n(b) $x^2 - ab + c - 11$\n(c) $x^4 + x^2 + x - 6 + \\frac{4}{x}$?\n\n5. Which of the following are equations and which are expressions?\n\n(a) $a + b - 2c$\n(b) $3x^2 - 6x + 8$\n(c) $3x - y = 7$\n(d) $\\frac{x}{2} = \\frac{6}{x}$\n(e) $\\frac{x}{2} - \\frac{x - 1}{3}$\n(f) $\\frac{x}{2} - \\frac{x - 1}{3} = 8$",
+      "source_images": ["image10.png"]
     },
     {
       "type": "concept",
-      "content_latex": "LIKE TERMS\n\nLike terms are algebraic terms which contain the same variables to the same indices.\n\nFor example:\n- $2xy$ and $-2xy$ are like terms\n- $a^2$ and $-3a$ are unlike terms because the indices of $a$ are not the same.\n\nAlgebraic expressions can often be simplified by adding or subtracting like terms. This is sometimes called collecting like terms.\n\nConsider $2a + 4a = \\underbrace{a + a}_{\\text{\"2 lots of } a\\text{\"}} + \\underbrace{a + a + a + a}_{\\text{\"4 lots of } a\\text{\"}}.$ \n\nIn total we have 6 lots of $a$, and so $2a + 4a = 6a$.",
-      "source_images": [
-        "image11.png"
-      ]
+      "content_latex": "Like terms are algebraic terms which contain the same variables to the same indices.\n\nFor example:\n\n- $2xy$ and $-2xy$ are like terms\n- $a^2$ and $-3a$ are unlike terms because the indices of $a$ are not the same.\n\nAlgebraic expressions can often be simplified by adding or subtracting like terms. This is sometimes called collecting like terms.\n\nConsider $2a + 4a = a + a + a + a + a + a$.\n\"2 lots of $a$\" + \"4 lots of $a$\"\n\nIn total we have 6 lots of $a$, and so $2a + 4a = 6a$.",
+      "source_images": ["image11.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 12\n\nSimplify, where possible, by collecting like terms:\n\n(a) $3x + 2x$ (b) $7a - 3a$ (c) $-2x + 3 - x$\n\n(d) $3bc + bc$ (e) $2x - x^2$\n\nSolutions:\n\n(a) $3x + 2x = 5x$\n\n(b) $7a - 3a = 4a$\n\n(c) $-2x + 3 - x = -3x + 3$ (since $-2x$ and $-x$ are like terms)\n\n(d) $3bc + bc = 4bc$\n\n(e) $2x - x^2$ is in simplest form (since $2x$ and $-x^2$ are unlike terms)",
-      "source_images": [
-        "image12.png"
-      ]
+      "content_latex": "Example 12\n\nSimplify, where possible, by collecting like terms:\n\n(a) $3x + 2x$\n(b) $7a - 3a$\n(c) $-2x + 3 - x$\n(d) $3bc + bc$\n(e) $2x - x^2$\n\nSolutions:\n\n(a) $3x + 2x = 5x$\n\n(b) $7a - 3a = 4a$\n\n(c) $-2x + 3 - x = -3x + 3$ {since $-2x$ and $-x$ are like terms}\n\n(d) $3bc + bc = 4bc$\n\n(e) $2x - x^2$ is in simplest form {since $2x$ and $-x^2$ are unlike terms}",
+      "source_images": ["image12.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "EXERCISE 2F\n\n1. Simplify, where possible, by collecting like terms:\n\n(a) $3 + x + 5$ (b) $8 + 7 + x$ (c) $p + 3 + 7$ (d) $12 + a + a$\n\n(e) $b + 3 + b$ (f) $b + b$ (g) $2x + x$ (h) $a + 3 + a + 7$\n\n(i) $x + 3x$ (j) $3x - 2x$ (k) $3x - x$ (l) $a^2 + a^2$\n\n(m) $7x + 3$ (n) $2a^2 + x^2$ (o) $17x - 7$ (p) $17x - x$\n\n(q) $3b^2 - b^2$ (r) $2ab + 3ab$ (s) $g + g + g$ (t) $9b - 7b - 2$\n\n2. Simplify, where possible:\n\n(a) $11n - 11n$ (b) $11n - n$ (c) $11n - 11$\n\n(d) $3ab + ba$ (e) $xy + 2xy$ (f) $2p^2 - p^2$\n\n(g) $3a + 2 + a + 4$ (h) $2a + 3a + 4a$ (i) $b + 3 + 2b + 4$\n\n(j) $3xy + 4yx$ (k) $2a + b + 3a + b$ (l) $3a^2 + a + a^2 + 2a$\n\n(m) $3x + 2x - x$ (n) $n + 2n - 3n$ (o) $ab + b^2 + 2ab + b^2$\n\n(p) $3x + 7x - 10$ (q) $3x + 7x - 10x$ (r) $3x + 7x - x$\n\n(s) $r + r + 2r^2$ (t) $x^2 + x + 2$ (u) $3 + 6y - 1 + 2y$\n\n3. Simplify, by collecting like terms:\n\n(a) $3x + 8x$ (b) $3x - 8x$ (c) $-3x + 8x$\n\n(d) $-3x - 8x$ (e) $5a + a$ (f) $5a - a$\n\n(g) $-5a + a$ (h) $-5a - a$ (i) $m^2 + 2m$\n\n(j) $-3d - 5d$ (k) $-3d + 5d$ (l) $3d - 5d$\n\n(m) $b + 2b - 3$ (n) $t - 3t - 2t$ (o) $-6g - g$\n\n(p) $4m - 7m + 1$ (q) $a + 2 - 3a$ (r) $-2b - -3b$\n\n(s) $3b - b$ (t) $3b - -b$ (u) $x - -2x$",
-      "source_images": [
-        "image13.png"
-      ]
+      "content_latex": "EXERCISE 2F\n\n1. Simplify, where possible, by collecting like terms:\n\n(a) $3 + x + 5$\n(b) $8 + 7 + x$\n(c) $p + 3 + 7$\n(d) $12 + a + a$\n(e) $b + 3 + b$\n(f) $b + b$\n(g) $2x + x$\n(h) $a + 3 + a + 7$\n(i) $x + 3x$\n(j) $3x - 2x$\n(k) $3x - x$\n(l) $a^2 + a^2$\n(m) $7x + 3$\n(n) $2x^2 + x^2$\n(o) $17x - 7$\n(p) $17x - x$\n(q) $3b^2 - b^2$\n(r) $2ab + 3ab$\n(s) $g + g + g$\n(t) $9b - 7b - 2$\n\n2. Simplify, where possible:\n\n(a) $11n - 11n$\n(b) $11n - n$\n(c) $11n - 11$\n(d) $3ab + ba$\n(e) $xy + 2xy$\n(f) $2p^2 - p^2$\n(g) $3a + 2 + a + 4$\n(h) $2a + 3a + 4a$\n(i) $b + 3 + 2b + 4$\n(j) $3xy + 4yx$\n(k) $2a + b + 3a + b$\n(l) $3a^2 + a + a^2 + 2a$\n(m) $3x + 2x - x$\n(n) $n + 2n - 3n$\n(o) $ab + b^2 + 2ab + b^2$\n(p) $3x + 7x - 10$\n(q) $3x + 7x - 10x$\n(r) $3x + 7x - x$\n(s) $r + r + 2r^2$\n(t) $x^2 + x + 2$\n(u) $3 + 6y - 1 + 2y$\n\n3. Simplify, by collecting like terms:\n\n(a) $3x + 8x$\n(b) $3x - 8x$\n(c) $-3x + 8x$\n(d) $-3x - 8x$\n(e) $5a + a$\n(f) $5a - a$\n(g) $-5a + a$\n(h) $-5a - a$\n(i) $m^2 + 2m$\n(j) $-3d - 5d$\n(k) $-3d + 5d$\n(l) $3d - 5d$\n(m) $b + 2b - 3$\n(n) $t - 3t - 2t$\n(o) $-6g - g$\n(p) $4m - 7m + 1$\n(q) $a + 2 - 3a$\n(r) $-2b - -3b$\n(s) $3b - b$\n(t) $3b - -b$\n(u) $x - -2x$",
+      "source_images": ["image13.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 13\n\nSimplify, by collecting like terms:\n\n(a) $2 + 3a - 3 - 2a$\n\n(b) $x^2 - 2x + 3x - 2x^2$\n\nSolutions:\n\n(a) $2 + 3a - 3 - 2a$\n$= 3a - 2a + 2 - 3$\n$= a - 1$\n($3a$ and $-2a$ are like terms, $2$ and $-3$ are like terms.)\n\n(b) $x^2 - 2x + 3x - 2x^2$\n$= x^2 - 2x^2 - 2x + 3x$\n$= -x^2 + x$\n($x^2$ and $-2x^2$ are like terms, $-2x$ and $3x$ are like terms.)",
-      "source_images": [
-        "image14.png"
-      ]
+      "content_latex": "Example 13\n\nSimplify, by collecting like terms:\n\n(a) $2 + 3a - 3 - 2a$\n\n(b) $x^2 - 2x + 3x - 2x^2$\n\nSolutions:\n\n(a) $2 + 3a - 3 - 2a$\n$= 3a - 2a + 2 - 3$\n$= a - 1$\n{$3a$ and $-2a$ are like terms, $2$ and $-3$ are like terms.}\n\n(b) $x^2 - 2x + 3x - 2x^2$\n$= x^2 - 2x^2 - 2x + 3x$\n$= -x^2 + x$\n{$x^2$ and $-2x^2$ are like terms, $-2x$ and $3x$ are like terms.}",
+      "source_images": ["image14.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "4. Simplify, where possible:\n\n(a) $a + 2 - 2a - 5$ (b) $a - 2b + 3a + b$\n\n(c) $ab + 2 - 3ab - 4$ (d) $ab + 3ab - 4ab$\n\n(e) $3x - 4 + 4 - 4x$ (f) $2x^2 - 7 + x^2 - 3$\n\n(g) $-3n + 2 + n - 7$ (h) $3a + b - 2a - 7b$",
-      "source_images": [
-        "image15.png"
-      ]
+      "content_latex": "4. Simplify, where possible:\n\n(a) $a + 2 - 2a - 5$\n(b) $a - 2b + 3a + b$\n(c) $ab + 2 - 3ab - 4$\n(d) $ab + 3ab - 4ab$\n(e) $3x - 4 + 4 - 4x$\n(f) $2x^2 - 7 + x^2 - 3$\n(g) $-3n + 2 + n - 7$\n(h) $3a + b - 2a - 7b$\n(i) $5bc - 8bc + 3$\n(j) $3x^2 + x - x^2 - 2x$\n(k) $-x^3 - x^2 + x^3 - 3x^2$\n(l) $2x - y - -x - y$\n(m) $xy + y - 2xy - 3y$\n(n) $-2x - 4 - 3x - 6$",
+      "source_images": ["image15.png", "image16.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "i $5bc - 8bc + 3$ (j) $3x^2 + x - x^2 - 2x$\n\n(k) $-x^3 - x^2 + x^3 - 3x^2$ (l) $2x - y - -x - y$\n\n(m) $xy + y - 2xy - 3y$ (n) $-2x - 4 - 3x - 6$",
-      "source_images": [
-        "image16.png"
-      ]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "Additional simplification exercises (continued):\n\n$x + x =$ ... $4i + 4j - 6i - 2j =$ ...\n$p + p + p + p + p =$ ... $-3t - 5t + 5t - 2s =$ ...\n$y + y + y =$ ... $4d + 2e - 4e - 8 =$ ...\n$i + i + i + i + i + i =$ ... $-4f + 3k - 7k + 5f =$ ...\n$k + k + k + k + k =$ ... $11 + m + 6 + 4n =$ ...\n$4x + x =$ ... $4 + 3d - 6 - 5d =$ ...\n$10x + 2x =$ ... $-4m + 6n - 10n + 4n =$ ...\n$7y + 3y + y =$ ... $5j - 5k$\n$8j + j + j =$ ... $7j + 5k - 2j - 5k =$\n$15d + 3d + 2d =$ ... $-4m - 6n - 10n + 4n =$\n$12a + 5a + 2a =$ ... $3x + 2x - 3y$\n$17u - 8u =$ ... $5x + 6y - 7y - 8x =$\n$8g - 10g =$ ... $-2a - 2p - 7p - 8q =$\n$6r + 6r - r =$ ... $14ab - 7b - 3ab + 8b =$\n$5t - 3t + 2t =$ ... $-8y + 6y + 5y - 6y =$\n$10h + 8h - 12h =$ ... $6g - 2y + 5y - 6y =$\n$5x - 8x + x =$ ... $-6mn - 12n + n =$\n$8 + 8x + 8x =$ ... $-5xy + 12yx =$\n$r - 6r - 6r =$ ... and more...",
-      "source_images": [
-        "image17.png"
-      ]
+      "content_latex": "Simplify:\n\n- $x + x =$\n- $p + p + p + p + p =$\n- $y + y + y =$\n- $i + i + i + i + i + i + i =$\n- $k + k + k + k =$\n- $4x + x =$\n- $7y + 3y + y =$\n- $8j + j + j =$\n- $15d + 3d + 2d =$\n- $12a + 5a + 2a =$\n- $13c - 4c =$\n- $17u - 8u =$\n- $8g - 10g =$\n- $6r + 6r - r =$\n- $5t - 3t + 2t =$\n- $10h + 8h - 12h =$\n- $6x - 8x + x =$\n- $-8y + 6y - 5y =$\n- $3r - 8r + 2r =$\n- $-5w - 6w =$\n- $3y - 6y + y =$\n- $f - 6f - 2f =$\n- $4\\pi - 7\\pi + \\pi =$\n- $9i + 4j - 6i - 2j =$\n- $-3t - 5s + 5t - 2s =$\n- $4d + 2e - 4e - 8d =$\n- $-4f + 3h - 7h + 5f =$\n- $11 + 3n + 6 + 9n =$\n- $8 + 3d - 6 - 5d =$\n- $r - 5 - 5r + 10 =$\n- $g - 12g + 7h =$\n- $7j + 5k - 2j - 5k =$\n- $4w - 6x + 8w - 6w =$\n- $-4m + 6n - 10n + 4n =$\n- $5j + 5k =$\n- $2s - 7t - 10s - 2t =$\n- $3x^2 + 2x^2 - 3y =$\n- $5x + 6y - 7y - 8x =$\n- $-2q + 2p - 7p + 8q =$\n- $14ab - 7b - 3ab + 8b =$\n- $-2xy + 5x - 8xy - 9x =$\n- $8y^2 - 2y + 5y - 6y^2 =$\n- $16gh + 8g - 7gh =$\n- $6bg - 2b - 5bg =$\n- $-6mn - 12n + 8n =$\n- $-5xy + 12yx =$\n- $-9ab + 8ab + 9b =$",
+      "source_images": ["image17.png"]
     },
     {
       "type": "concept",
       "content_latex": "PRODUCTS\n\nThe product of two factors is found by multiplying them together.",
-      "source_images": [
-        "image18.png"
-      ]
+      "source_images": ["image18.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 14\n\nSimplify:\n\n(a) $2x \\times 5$ (b) $4x \\times 3x^2$ (c) $6x^2 \\times 5x^2$\n\nSolutions:\n\n(a) $2x \\times 5$\n$= 2 \\times x \\times 5$\n$= 10x$\n\n(b) $4x \\times 3x^2$\n$= 4 \\times x \\times 3 \\times x \\times x$\n$= 12x^3$\n\n(c) $6x^2 \\times 5x^2$\n$= 6 \\times x \\times x \\times 5 \\times x \\times x$\n$= 30x^4$",
-      "source_images": [
-        "image18.png"
-      ]
+      "content_latex": "Example 14\n\nSimplify:\n\n(a) $2x \\times 5$\n\n(b) $4x \\times 3x^2$\n\n(c) $6x^2 \\times 5x^2$\n\nSolutions:\n\n(a) $2x \\times 5$\n$= 2 \\times x \\times 5$\n$= 10x$\n\n(b) $4x \\times 3x^2$\n$= 4 \\times x \\times 3 \\times x \\times x$\n$= 12x^3$\n\n(c) $6x^2 \\times 5x^2$\n$= 6 \\times x \\times x \\times 5 \\times x \\times x$\n$= 30x^4$",
+      "source_images": ["image18.png"]
     },
     {
       "type": "concept",
-      "content_latex": "SIMPLIFYING PRODUCTS MENTALLY\n\nWith practice, you should be able to do these mentally. The following procedure may help you:\n\nConsider the factors $-2x$ and $3x^2$. Their product $-2x \\times 3x^2$ can be simplified by following the steps below:\n\n*Step 1:* Find the product of the signs.\n\n*Step 2:* Find the product of the numerals or numbers.\n\n*Step 3:* Find the product of the variables or letters.\n\nFor $-2x$, the sign is $-$, the numeral is $2$, and the variable is $x$.\n\nSo, $-2x \\times 3x^2 = -6x^3$\n\n$- \\times + = -$, $2 \\times 3 = 6$, $x \\times x^2 = x^3$",
-      "source_images": [
-        "image19.png"
-      ]
+      "content_latex": "With practice, you should be able to do these mentally. The following procedure may help you:\n\nConsider the factors $-2x$ and $3x^2$. Their product $-2x \\times 3x^2$ can be simplified by following the steps below:\n\nStep 1: Find the product of the signs.\nStep 2: Find the product of the numerals or numbers.\nStep 3: Find the product of the variables or letters.\n\nFor $-2x$, the sign is $-$, the numeral is $2$, and the variable is $x$.\n\nSo, $-2x \\times 3x^2 = -6x^3$\n$- \\times + = -$\n$2 \\times 3 = 6$\n$x \\times x^2 = x^3$",
+      "source_images": ["image19.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "EXERCISE 2G.1\n\n1. Write the following algebraic products in simplest form:\n\n(a) $x \\times y$ (b) $x \\times 3 \\times y$ (c) $x \\times y \\times x$ (d) $a \\times 2b$\n\n(e) $(-x)^2$ (f) $x^2 \\times x$ (g) $(-x) \\times 2x$ (h) $(-a) \\times a^2$\n\n2. Simplify the following:\n\n(a) $3a \\times b$ (b) $3a \\times b^2$ (c) $3ab \\times 2b$ (d) $5ab \\times 4ab$\n\n(e) $(4a)^2$ (f) $(3b)^2 \\times b^2$ (g) $4y \\times 2y^2$ (h) $5b^2 \\times 2b$\n\n(i) $5b^2 \\times b^2$ (j) $3b^2 \\times 4b^3$ (k) $4x \\times (-x)$ (l) $(-3x) \\times x$\n\n(m) $2x \\times (-3x)$ (n) $(-2x) \\times (-4x)$ (o) $(-x^2) \\times 2x$ (p) $3x^2 \\times (-6x)$\n\n(q) $5 \\times (-x^3)$ (r) $2x \\times (-x)^3$ (s) $4d^2 \\times (-d)$ (t) $(2x)^3$\n\n3 a Find:\n\n(i) $x^2 \\times x^2$ ii $x^3 \\times x^2$ iii $x^4 \\times x^3$ iv $x^3 \\times x^6$\n\n(b) By considering your answers to a, simplify $x^m \\times x^n$ where $m$ and $n$ are positive whole numbers.",
-      "source_images": [
-        "image20.png"
-      ]
+      "content_latex": "EXERCISE 2G.1\n\n1. Write the following algebraic products in simplest form:\n\n(a) $x \\times y$\n(b) $x \\times 3 \\times y$\n(c) $x \\times y \\times x$\n(d) $a \\times 2b$\n(e) $(-x)^2$\n(f) $x^2 \\times x$\n(g) $(-x) \\times 2x$\n(h) $(-a) \\times a^2$\n\n2. Simplify the following:\n\n(a) $3a \\times b$\n(b) $3a \\times b^2$\n(c) $3ab \\times 2b$\n(d) $5ab \\times 4ab$\n(e) $(4a)^2$\n(f) $(3b)^2 \\times b^2$\n(g) $4y \\times 2y^2$\n(h) $5b^2 \\times 2b$\n(i) $5b^2 \\times b^2$\n(j) $3b^2 \\times 4b^3$\n(k) $4x \\times (-x)$\n(l) $(-3x) \\times x$\n(m) $2x \\times (-3x)$\n(n) $(-2x) \\times (-4x)$\n(o) $(-x^2) \\times 2x$\n(p) $3x^2 \\times (-6x)$\n(q) $5 \\times (-x^3)$\n(r) $2x \\times (-x)^3$\n(s) $4d^2 \\times (-d)$\n(t) $(2x)^3$\n\n3. (a) Find:\n\n(i) $x^2 \\times x^2$\n(ii) $x^3 \\times x^2$\n(iii) $x^4 \\times x^3$\n(iv) $x^3 \\times x^6$\n\n(b) By considering your answers to (a), simplify $x^m \\times x^n$ where $m$ and $n$ are positive whole numbers.",
+      "source_images": ["image20.png"]
     },
     {
       "type": "concept",
       "content_latex": "QUOTIENTS\n\nThe quotient of two factors is found by dividing the first by the second. The result is an algebraic fraction.\n\nWhen we divide algebraic expressions we can cancel common factors in exactly the same way as for numerical fractions.",
-      "source_images": [
-        "image21.png"
-      ]
+      "source_images": ["image21.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 15\n\nSimplify:\n\n(a) $\\frac{6x^3}{3x}$ (b) $\\frac{4x^2}{12x^4}$\n\nSolutions:\n\n(a) $\\frac{6x^3}{3x}$\n$= \\frac{\\cancel{6} \\times x \\times x \\times \\cancel{x}}{\\cancel{3} \\times \\cancel{x}}$\n$= \\frac{2x^2}{1}$\n$= 2x^2$\n\n(b) $\\frac{4x^2}{12x^4}$\n$= \\frac{\\cancel{4} \\times \\cancel{x} \\times \\cancel{x}}{\\cancel{12} \\times x \\times x \\times \\cancel{x} \\times \\cancel{x}}$\n$= \\frac{1}{3x^2}$",
-      "source_images": [
-        "image21.png"
-      ]
+      "content_latex": "Example 15\n\nSimplify:\n\n(a) $\\frac{6x^3}{3x}$\n\n(b) $\\frac{4x^2}{12x^4}$\n\nSolutions:\n\n(a) $\\frac{6x^3}{3x}$\n$= \\frac{6 \\times x \\times x \\times x}{3 \\times x}$\n$= \\frac{2x^2}{1}$\n$= 2x^2$\n\n(b) $\\frac{4x^2}{12x^4}$\n$= \\frac{4 \\times x \\times x}{12 \\times x \\times x \\times x \\times x}$\n$= \\frac{1}{3x^2}$",
+      "source_images": ["image21.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "EXERCISE 2G.2\n\n1. Simplify the following:\n\n(a) $\\frac{x^4}{x^2}$ (b) $\\frac{x^4}{x}$ (c) $\\frac{x^5}{x^2}$ (d) $\\frac{x^5}{x^3}$\n\n(e) $\\frac{3x^3}{x}$ (f) $\\frac{5x^4}{x^2}$ (g) $\\frac{10x^3}{2x}$ (h) $\\frac{10x^4}{5x}$\n\n(i) $\\frac{4x^4}{2}$ (j) $\\frac{4x^4}{2x}$ (k) $\\frac{4x^4}{2x^2}$ (l) $\\frac{2x^4}{4x^3}$\n\n(m) $\\frac{4x}{8x^2}$ (n) $\\frac{4x}{8x^3}$ (o) $\\frac{3x^2}{6x^3}$ (p) $\\frac{3x^3}{9x^5}$",
-      "source_images": [
-        "image22.png",
-        "image23.png"
-      ]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "2 a Find:\n\n(i) $\\frac{x^4}{x^2}$ ii $\\frac{x^6}{x^3}$ iii $\\frac{x^7}{x^2}$ iv $\\frac{x^8}{x^5}$\n\n(b) By considering your answers to a, find $\\frac{x^m}{x^n}$ where $m$ and $n$ are positive whole numbers.",
-      "source_images": [
-        "image23.png"
-      ]
+      "content_latex": "EXERCISE 2G.2\n\n1. Simplify the following:\n\n(a) $\\frac{x^4}{x^2}$\n(b) $\\frac{x^4}{x}$\n(c) $\\frac{x^5}{x^2}$\n(d) $\\frac{x^5}{x^3}$\n(e) $\\frac{3x^3}{x}$\n(f) $\\frac{5x^4}{x^2}$\n(g) $\\frac{10x^3}{2x}$\n(h) $\\frac{10x^4}{5x}$\n(i) $\\frac{4x^4}{2}$\n(j) $\\frac{4x^4}{2x}$\n(k) $\\frac{4x^4}{2x^2}$\n(l) $\\frac{2x^4}{4x^3}$\n(m) $\\frac{4x}{8x^2}$\n(n) $\\frac{4x}{8x^3}$\n(o) $\\frac{3x^2}{6x^3}$\n(p) $\\frac{3x^3}{9x^5}$\n\n2. (a) Find:\n\n(i) $\\frac{x^4}{x^2}$\n(ii) $\\frac{x^6}{x^3}$\n(iii) $\\frac{x^7}{x^2}$\n(iv) $\\frac{x^8}{x^5}$\n\n(b) By considering your answers to (a), find $\\frac{x^m}{x^n}$ where $m$ and $n$ are positive whole numbers.",
+      "source_images": ["image22.png", "image23.png"]
     },
     {
       "type": "concept",
-      "content_latex": "C - CHANGING WORDS TO SYMBOLS\n\nIn algebra we can convert sentences into algebraic expressions or equations.\n\nFor example,\n\n\"Twice a number\" \"increased by 7\" \"is\" \"5 less than the number\"\n\nbecomes $2x$ $+ 7$ $=$ $x - 5$.\n\nMany algebraic statements contain words such as sum, difference, product, and quotient.",
-      "source_images": [
-        "image24.png"
-      ]
+      "content_latex": "C. CHANGING WORDS TO SYMBOLS\n\nIn algebra we can convert sentences into algebraic expressions or equations.\n\nFor example,\n\nTwice a number increased by 7 is 5 less than the number\n\nbecomes $2x + 7 = x - 5$.\n\nMany algebraic statements contain words such as sum, difference, product, and quotient.",
+      "source_images": ["image24.png"]
     },
     {
       "type": "concept",
-      "content_latex": "KEY ALGEBRAIC TERMS\n\n| Word | Meaning | Example |\n|------|---------|--------|\n| sum | The sum of two or more numbers is obtained by adding them. | $3 + 7$, $a + 4$, $b + c + d$ are sums. |\n| difference | The difference between two numbers is the larger one minus the smaller one. | $9 - 5$, $d - 6$ (if $d > 6$) are differences. |\n| product | The product of two or more numbers is obtained by multiplying them. | $3 \\times 6$, $3a$, $xyz$ are products. |\n| quotient | The quotient of two numbers is the first one mentioned divided by the second. | The quotient of $x$ and $y$ is $\\frac{x}{y}$. |\n| average | The average of a set of numbers is their sum divided by the number of numbers. | The average of $a$, $b$ and $c$ is $\\frac{a + b + c}{3}$. |",
-      "source_images": [
-        "image25.png"
-      ]
+      "content_latex": "| Word | Meaning | Example |\n|------|---------|----------|\n| sum | The sum of two or more numbers is obtained by adding them. | $3 + 7$, $a + 4$, $b + c + d$ are sums. |\n| difference | The difference between two numbers is the larger one minus the smaller one. | $9 - 5$, $d - 6$ (if $d > 6$) are differences. |\n| product | The product of two or more numbers is obtained by multiplying them. | $3 \\times 6$, $3a$, $xyz$ are products. |\n| quotient | The quotient of two numbers is the first one mentioned divided by the second. | The quotient of $x$ and $y$ is $\\frac{x}{y}$. |\n| average | The average of a set of numbers is their sum divided by the number of numbers. | The average of $a$, $b$ and $c$ is $\\frac{a + b + c}{3}$. |",
+      "source_images": ["image25.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 5\n\n(a) State the sum of 4 and $z$.\n\n(b) State the difference between $x$ and $y$ (if $y > x$).\n\n(c) State the average of $r$, $s$ and $t$.",
-      "source_images": [
-        "image26.png"
-      ]
-    },
-    {
-      "type": "example",
-      "content_latex": "Solutions to Example 5:\n\n(a) The sum of 4 and $z$ is $4 + z$.\n\n(b) The difference is $y - x$. (as $y$ is larger than $x$)\n\n(c) The average is $\\frac{r + s + t}{3}$.",
-      "source_images": [
-        "image27.png"
-      ]
+      "content_latex": "Example 5\n\n(a) State the sum of 4 and $z$.\n\n(b) State the difference between $x$ and $y$ (if $y > x$).\n\n(c) State the average of $r$, $s$ and $t$.\n\nSolutions:\n\n(a) The sum of 4 and $z$ is $4 + z$.\n\n(b) The difference is $y - x$. {as $y$ is larger than $x$}\n\n(c) The average is $\\frac{r + s + t}{3}$.",
+      "source_images": ["image26.png", "image27.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "EXERCISE 2C\n\n1. Write expressions for the sum of:\n\n(a) 7 and 3 (b) 4 and $y$ (c) $t$ and $2p$ (d) $a$, $b$ and $c$\n\n2. Write expressions for the product of:\n\n(a) 7 and 3 (b) 4 and $y$ (c) $t$ and $2p$ (d) $a$, $b$ and $c$\n\n3. Write expressions for the quotient of:\n\n(a) 7 and 3 (b) 4 and $y$ (c) $t$ and $2p$ (d) $a + b$ and $c$\n\n4. Write expressions for the average of:\n\n(a) 7 and 3 (b) 4 and $y$ (c) $t$ and $2p$ (d) $a$, $b$ and $c$\n\n5. Write expressions for the difference between:\n\n(a) 7 and 3 (b) 4 and $y$ if $4 < y$\n\n(c) 4 and $y$ if $4 > y$ (d) $(a + b)$ and $c$ if $(a + b) < c$",
-      "source_images": [
-        "image28.png"
-      ]
+      "content_latex": "EXERCISE 2C\n\n1. Write expressions for the sum of:\n\n(a) 7 and 3\n(b) 4 and $y$\n(c) $t$ and $2p$\n(d) $a$, $b$ and $c$\n\n2. Write expressions for the product of:\n\n(a) 7 and 3\n(b) 4 and $y$\n(c) $t$ and $2p$\n(d) $a$, $b$ and $c$\n\n3. Write expressions for the quotient of:\n\n(a) 7 and 3\n(b) 4 and $y$\n(c) $t$ and $2p$\n(d) $a + b$ and $c$\n\n4. Write expressions for the average of:\n\n(a) 7 and 3\n(b) 4 and $y$\n(c) $t$ and $2p$\n(d) $a$, $b$ and $c$\n\n5. Write expressions for the difference between:\n\n(a) 7 and 3\n(b) 4 and $y$ if $4 < y$\n(c) 4 and $y$ if $4 > y$\n(d) $(a + b)$ and $c$ if $(a + b) < c$",
+      "source_images": ["image28.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 6\n\nWrite down algebraic expressions for the sum of:\n\n(a) $a$ and $b$ divided by 2 (b) $a$ and $b$, all divided by 2\n\nSolutions:\n\n(a) $a + \\frac{b}{2}$\n\n(b) $\\frac{a + b}{2}$",
-      "source_images": [
-        "image29.png"
-      ]
+      "content_latex": "Example 6\n\nWrite down algebraic expressions for the sum of:\n\n(a) $a$ and $b$ divided by 2\n\n(b) $a$ and $b$, all divided by 2\n\nSolutions:\n\n(a) $a + \\frac{b}{2}$\n\n(b) $\\frac{a + b}{2}$",
+      "source_images": ["image29.png"]
     },
     {
       "type": "example",
       "content_latex": "Example 7\n\nWrite down algebraic expressions for:\n\n(a) the sum of $b$ and $a$ squared\n\n(b) the sum of $b$ and $a$, all squared\n\n(c) the sum of the squares of $b$ and $a$\n\nSolutions:\n\n(a) $b + a^2$\n\n(b) $(b + a)^2$\n\n(c) $b^2 + a^2$",
-      "source_images": [
-        "image29.png"
-      ]
+      "source_images": ["image29.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "6. Write down algebraic expressions for the sum of:\n\n(a) $b$ and $c$ divided by 3 (b) $b$ and $c$, all divided by 3\n\n(c) 2 and $x$ squared (d) 2 and $x$, all squared.\n\n7. Write down algebraic expressions for:\n\n(a) one third of the sum of $r$ and $s$ (b) triple the sum of $b$ and $c$\n\n(c) the sum of $m$ and $n$ cubed (d) the sum of $m$ and $n$, all cubed.\n\n8. Write down algebraic expressions for:\n\n(a) three times $x$, subtracted from $b$ (b) the product of $a$ and the square of $b$\n\n(c) the sum of $a$ and five times $b$ (d) 3 less than $t$\n\n(e) 4 more than $a$ (f) the product of the square of $x$ and 9\n\n(g) the square of the product of $c$ and $d$ (h) the sum of the squares of $x$ and $y$\n\n(i) the sum of the squares of $p$, $q$ and $r$ (j) half the sum of $c$ and $d$ squared.",
-      "source_images": [
-        "image30.png"
-      ]
+      "content_latex": "6. Write down algebraic expressions for the sum of:\n\n(a) $b$ and $c$ divided by 3\n(b) $b$ and $c$, all divided by 3\n(c) 2 and $x$ squared\n(d) 2 and $x$, all squared.\n\n7. Write down algebraic expressions for:\n\n(a) one third of the sum of $r$ and $s$\n(b) triple the sum of $b$ and $c$\n(c) the sum of $m$ and $n$ cubed\n(d) the sum of $m$ and $n$, all cubed.\n\n8. Write down algebraic expressions for:\n\n(a) three times $x$, subtracted from $b$\n(b) the product of $a$ and the square of $b$\n(c) the sum of $a$ and five times $b$\n(d) 3 less than $t$\n(e) 4 more than $a$\n(f) the product of the square of $x$ and 9\n(g) the square of the product of $c$ and $d$\n(h) the sum of the squares of $x$ and $y$\n(i) the sum of the squares of $p$, $q$ and $r$\n(j) half the sum of $c$ and $d$ squared.",
+      "source_images": ["image30.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 8\n\nWrite, in sentence form, the meaning of:\n\n(a) $b + 7$ (b) $2a + b$ (c) $2(a + b)$\n\nSolutions:\n\n(a) $b + 7$ is \"the sum of $b$ and 7\" or \"7 more than $b$\".\n\n(b) $2a + b$ is \"the sum of twice $a$ and $b$\".\n\n(c) $2(a + b)$ is \"double the sum of $a$ and $b$\".",
-      "source_images": [
-        "image31.png"
-      ]
+      "content_latex": "Example 8\n\nWrite, in sentence form, the meaning of:\n\n(a) $b + 7$\n\n(b) $2a + b$\n\n(c) $2(a + b)$\n\nSolutions:\n\n(a) $b + 7$ is \"the sum of $b$ and 7\" or \"7 more than $b$\".\n\n(b) $2a + b$ is \"the sum of twice $a$ and $b$\".\n\n(c) $2(a + b)$ is \"double the sum of $a$ and $b$\".",
+      "source_images": ["image31.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "9. Write, in sentence form, the meaning of:\n\n(a) $a + 6$ (b) $7 + b$ (c) $c + d$ (d) $c + 3d$\n\n(e) $3(c + d)$ (f) $bc$ (g) $(p + q)^2$ (h) $p^2 + q^2$\n\n(i) $3x^2$ (j) $(3x)^2$ (k) $a + \\frac{b}{5}$ (l) $\\frac{a + b}{5}$\n\n(m) $\\frac{x}{y}$ (n) $\\left(\\frac{a}{b}\\right)^2$ (o) $\\frac{a^2}{b^2}$ (p) $\\frac{a + b}{c}$",
-      "source_images": [
-        "image32.png",
-        "image33.png"
-      ]
+      "content_latex": "9. Write, in sentence form, the meaning of:\n\n(a) $a + 6$\n(b) $7 + b$\n(c) $c + d$\n(d) $c + 3d$\n(e) $3(c + d)$\n(f) $bc$\n(g) $(p + q)^2$\n(h) $p^2 + q^2$\n(i) $3x^2$\n(j) $(3x)^2$\n(k) $a + \\frac{b}{5}$\n(l) $\\frac{a + b}{5}$\n(m) $\\frac{x}{y}$\n(n) $\\left(\\frac{a}{b}\\right)^2$\n(o) $\\frac{a^2}{b^2}$\n(p) $\\frac{a + b}{c}$",
+      "source_images": ["image32.png", "image33.png"]
     },
     {
       "type": "concept",
-      "content_latex": "D - GENERALISING ARITHMETIC\n\nTo find algebraic expressions for many real world situations, we first think in terms of numbers or numerical cases. We then proceed to more general cases.\n\nFor example, suppose we are asked to find the total cost of $x$ books which each cost \\texteuro$y$. We could start by finding the total cost of 5 books which each cost \\texteuro10.\n\nIn this case the total cost is $5 \\times \\text{\\texteuro}10 = \\text{\\texteuro}50$.\n\nWe *multiplied* the two quantities, and so the total cost of $x$ books at \\texteuro$y$ each is $x \\times \\text{\\texteuro}y = \\text{\\texteuro}xy$.\n\n*First work out how to do the problem using numbers.*",
-      "source_images": [
-        "image34.png"
-      ]
+      "content_latex": "D. GENERALISING ARITHMETIC\n\nTo find algebraic expressions for many real world situations, we first think in terms of numbers or numerical cases. We then proceed to more general cases.\n\nFor example, suppose we are asked to find the total cost of $x$ books which each cost €$y$. We could start by finding the total cost of 5 books which each cost €10.\n\nIn this case the total cost is $5 \\times €10 = €50$.\n\nWe multiplied the two quantities, and so the total cost of $x$ books at €$y$ each is $x \\times €y = €xy$.\n\nFirst work out how to do the problem using numbers.",
+      "source_images": ["image34.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 9\n\nFind:\n\n(a) the cost of $m$ mandarins at 45 cents each\n\n(b) the change from \\pounds20 when buying $n$ pens at \\pounds1.20 each.\n\nSolutions:\n\n(a) The cost of 3 mandarins at 45 cents each is $3 \\times 45$ cents.\n\n$\\therefore$ the cost of $m$ mandarins at 45 cents each is $m \\times 45 = 45m$ cents.\n\n(b) The change when buying 4 pens costing \\pounds1.20 each is $20 - (4 \\times 1.20)$ pounds.\n\n$\\therefore$ the change when buying $n$ pens costing \\pounds1.20 each is \n$20 - (n \\times 1.20) = 20 - 1.2n$ pounds.",
-      "source_images": [
-        "image35.png"
-      ]
+      "content_latex": "Example 9\n\nFind:\n\n(a) the cost of $m$ mandarins at 45 cents each\n\n(b) the change from £20 when buying $n$ pens at £1.20 each.\n\nSolutions:\n\n(a) The cost of 3 mandarins at 45 cents each is $3 \\times 45$ cents.\n$\\therefore$ the cost of $m$ mandarins at 45 cents each is $m \\times 45 = 45m$ cents.\n\n(b) The change when buying 4 pens costing £1.20 each is $20 - (4 \\times 1.20)$ pounds.\n$\\therefore$ the change when buying $n$ pens costing £1.20 each is $20 - (n \\times 1.20) = 20 - 1.2n$ pounds.",
+      "source_images": ["image35.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "EXERCISE 2D\n\n1. Find the total cost (in yen) of buying:\n\n(a) 5 toys at \\textyen300 each (b) $a$ toys at \\textyen300 each (c) $a$ toys at \\textyen$c$ each.\n\n2. Find the total cost (in euros) of buying:\n\n(a) 8 pears at 50 cents each (b) $p$ pears at 50 cents each\n\n(c) $p$ pears at $y$ cents each.\n\n3. Find the change from \\$100 when buying:\n\n(a) 3 boxes of chocolates at \\$11 each (b) $x$ boxes of chocolates at \\$11 each\n\n(c) $x$ boxes of chocolates at \\$$y$ each.",
-      "source_images": [
-        "image36.png"
-      ]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "4. Zane is now 14 years old. How old was he $x$ years ago?\n\n5. Anne can paddle her canoe at 3 km per hour. How far can she paddle in $t$ hours?\n\n6. Katia is climbing the stairs to the top of a 35 (m) tower. Each step is 21 cm high. If Katia has climbed $x$ steps:\n\n(a) how high has she climbed\n\n(b) how much further must she climb to the top?\n\n7. Graham buys $c$ chairs and $t$ tables. Find the total cost if each chair costs \\pounds45 and each table costs \\pounds85.\n\n8. Su Lin travelled $a$ km in 3 hours and then $b$ km in 2 hours. Find:\n\n(a) the total distance Su Lin travelled\n\n(b) the average speed for the whole trip.\n\n(Note: average speed $= \\frac{\\text{distance travelled}}{\\text{time taken}}$)\n\n9 a A lorry driver travels at an average speed of 80 km per hour for 5 hours. How far has the driver travelled?\n\n(b) How far would the driver travel at an average speed of $s$ km per hour for $t$ hours?",
-      "source_images": [
-        "image37.png"
-      ]
+      "content_latex": "EXERCISE 2D\n\n1. Find the total cost (in yen) of buying:\n\n(a) 5 toys at ¥300 each\n(b) $a$ toys at ¥300 each\n(c) $a$ toys at ¥$c$ each.\n\n2. Find the total cost (in euros) of buying:\n\n(a) 8 pears at 50 cents each\n(b) $p$ pears at 50 cents each\n(c) $p$ pears at $y$ cents each.\n\n3. Find the change from $100 when buying:\n\n(a) 3 boxes of chocolates at $11 each\n(b) $x$ boxes of chocolates at $11 each\n(c) $x$ boxes of chocolates at $$y$ each.\n\n4. Zane is now 14 years old. How old was he $x$ years ago?\n\n5. Anne can paddle her canoe at 3 km per hour. How far can she paddle in $t$ hours?\n\n6. Katia is climbing the stairs to the top of a 35 m tower. Each step is 21 cm high. If Katia has climbed $x$ steps:\n\n(a) how high has she climbed\n\n(b) how much further must she climb to the top?\n\n7. Graham buys $c$ chairs and $t$ tables. Find the total cost if each chair costs £45 and each table costs £85.\n\n8. Su Lin travelled $a$ km in 3 hours and then $b$ km in 2 hours. Find:\n\n(a) the total distance Su Lin travelled\n\n(b) the average speed for the whole trip.\n\naverage speed $= \\frac{\\text{distance travelled}}{\\text{time taken}}$\n\n9. (a) A lorry driver travels at an average speed of 80 km per hour for 5 hours. How far has the driver travelled?\n\n(b) How far would the driver travel at an average speed of $s$ km per hour for $t$ hours?",
+      "source_images": ["image36.png", "image37.png"]
     },
     {
       "type": "concept",
-      "content_latex": "EVALUATING EXPRESSIONS\n\nTo evaluate a mathematical expression we find its value for particular numerical substitutions of the variables or unknowns.",
-      "source_images": [
-        "image38.png"
-      ]
+      "content_latex": "To evaluate a mathematical expression we find its value for particular numerical substitutions of the variables or unknowns.",
+      "source_images": ["image38.png"]
     },
     {
       "type": "concept",
-      "content_latex": "SUBSTITUTING NEGATIVE VALUES\n\nIf we substitute a negative value, we place it in brackets. This helps us to evaluate the signs in the expression correctly.\n\nFor example, consider the expression $5a + 3b$\n\nIf $a = -2$ and $b = 4$ then $5a + 3b = 5 \\times (-2) + 3 \\times 4$\n$= -10 + 12$\n$= 2$\n\nNotice how we place negative substitutions inside brackets.",
-      "source_images": [
-        "image39.png"
-      ]
+      "content_latex": "If we substitute a negative value, we place it in brackets. This helps us to evaluate the signs in the expression correctly.\n\nFor example, consider the expression $5a + 3b$\n\nIf $a = -2$ and $b = 4$ then $5a + 3b = 5 \\times (-2) + 3 \\times 4$\n$= -10 + 12$\n$= 2$\n\nNotice how we place negative substitutions inside brackets.",
+      "source_images": ["image39.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 10\n\nFor $a = 2$, $b = -1$ and $c = 3$, evaluate:\n\n(a) $3a - 2b$ (b) $c^2 + b$\n\nSolutions:\n\n(a) $3a - 2b$\n$= 3 \\times 2 - 2 \\times (-1)$\n$= 6 + 2$\n$= 8$\n\n(b) $c^2 + b$\n$= 3^2 + (-1)$\n$= 9 - 1$\n$= 8$",
-      "source_images": [
-        "image40.png"
-      ]
+      "content_latex": "Example 10\n\nFor $a = 2$, $b = -1$ and $c = 3$, evaluate:\n\n(a) $3a - 2b$\n\n(b) $c^2 + b$\n\nSolutions:\n\n(a) $3a - 2b$\n$= 3 \\times 2 - 2 \\times (-1)$\n$= 6 + 2$\n$= 8$\n\n(b) $c^2 + b$\n$= 3^2 + (-1)$\n$= 9 - 1$\n$= 8$",
+      "source_images": ["image40.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 2E\n\n1. If $a = 1$, $b = 2$ and $c = 3$, find the value of:\n\n(a) $a + b$\n(b) $2a$\n(c) $a - c$\n(d) $b + 2c$\n(e) $5 - 2c$\n(f) $bc$\n(g) $ab - a$\n(h) $2b^2$\n(i) $2(a + b)$\n(j) $3(c - a)$\n(k) $(2a)^2$\n(l) $3c^2$\n\n2. If $k = 4$, $l = -2$, $m = 3$, and $n = -1$, evaluate:\n\n(a) $2k + l$\n(b) $2m - 5$\n(c) $kl + n$\n(d) $2n^2$\n(e) $(2n)^2$\n(f) $l^2 - m$\n(g) $k^3$\n(h) $3l - 4n$\n(i) $k^2 - 2l$\n(j) $l(n + 2)$\n(k) $2(k + l)$\n(l) $2k + 3m$\n\n3. If $p = 3$, $q = -2$, $r = -3$ and $s = 4$, evaluate:\n\n(a) $p^2$\n(b) $-p^2$\n(c) $r^2s$\n(d) $pqr$\n(e) $pq^2$\n(f) $p^2 + q - 3$\n(g) $pr + 2s$\n(h) $p - q^2 + 2$\n(i) $q^2 + r$\n(j) $2(q + s)$\n(k) $p(r + s)$\n(l) $(p + q)(p - q)$",
+      "source_images": ["image41.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 11\n\nIf $p = 3$, $q = -2$ and $r = -4$, evaluate:\n\n(a) $\\frac{p - q}{r}$\n\n(b) $\\frac{q^2 + pr}{p + r}$\n\nSolutions:\n\n(a) $\\frac{p - q}{r}$\n$= \\frac{3 - (-2)}{(-4)}$\n$= \\frac{3 + 2}{-4}$\n$= \\frac{5}{-4}$\n$= -\\frac{5}{4}$\n\n(b) $\\frac{q^2 + pr}{p + r}$\n$= \\frac{(-2)^2 + 3 \\times (-4)}{3 + (-4)}$\n$= \\frac{4 - 12}{-1}$\n$= \\frac{-8}{-1}$\n$= 8$",
+      "source_images": ["image42.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. If $a = 2$, $b = -3$, $c = 4$, and $d = -1$, find the value of:\n\n(a) $\\frac{c}{a}$\n(b) $\\frac{b}{d}$\n(c) $\\frac{b + d}{c}$\n(d) $\\frac{a - d}{b}$\n(e) $\\frac{b + d}{b - d}$\n(f) $\\frac{b + 2}{1 - a}$\n(g) $\\frac{c}{2d}$\n(h) $\\frac{3a}{2b}$\n(i) $\\frac{a + c}{2b}$\n(j) $\\frac{-a}{b + d}$\n(k) $\\frac{a - b}{a - d}$\n(l) $\\frac{a + 2c}{a - 2c}$\n\n5. For\n\n| $p$ | $q$ | $r$ | $s$ | $t$ |\n|-----|-----|-----|-----|-----|\n| $-3$ | $-2$ | $2$ | $4$ | $-1$ |\n\nfind the value of:\n\n(a) $\\frac{q}{r}$\n(b) $\\frac{q - r}{s}$\n(c) $\\frac{q + t}{2p}$\n(d) $\\frac{q + s}{r - t}$\n(e) $\\frac{2q}{-t}$\n(f) $\\frac{s - q}{q^2}$\n(g) $\\frac{2q}{q - s}$\n(h) $\\frac{r - t}{r - q}$\n(i) $\\frac{rs}{qt}$\n(j) $\\frac{q^2 + t}{p^2}$\n(k) $\\frac{s + rt}{p}$\n(l) $\\frac{qst}{-pr}$",
+      "source_images": ["image43.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 2A\n\n1. Simplify:\n\n(a) $3 \\times m \\times n \\times n$\n(b) $(3x)^2 \\times 2$\n(c) $3 \\times a \\times b - 2 \\times a \\times a$\n\n2. Consider the expression $7a + 12b - 4ab - 5a + 3ab - 4$.\n\n(a) How many terms are present?\n(b) State any like terms.\n(c) State the coefficient of $b$.\n(d) State the constant term.\n(e) If possible simplify the expression.\n\n3. Find:\n\n(a) the number 6 more than $y$\n(b) the number $p$ less than $q$\n(c) the change when $p$ basketballs are bought for $$q$ each from an amount of $$r$.\n\n4. If $x = 4$, $y = -3$, and $z = -2$, evaluate:\n\n(a) $y^3$\n(b) $\\frac{2xy}{z^2}$\n(c) $(x - y)^2$\n\n5. Simplify by collecting like terms:\n\n(a) $4p + 3p - 7$\n(b) $3a + 7b - (-4b) - 2a$\n\n6. Simplify:\n\n(a) $3m^2 \\times 2m$\n(b) $(3m^2)^2$\n(c) $\\frac{4a^3}{2a}$\n(d) $\\frac{6a^2}{9a^3}$",
+      "source_images": ["image44.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 2B\n\n1. Simplify:\n\n(a) $4 \\times x \\times 3 \\times y \\times y$\n(b) $5x \\times (2x)^2$\n(c) $5 \\times a \\times a \\times a - 5 \\times a$\n\n2. Consider the expression $5x + 7y - 8xy + 3 - 5y$.\n\n(a) How many terms are present?\n(b) State any like terms.\n(c) State the coefficient of $xy$.\n(d) State the constant term.\n(e) If possible, simplify the expression.\n\n3. Find:\n\n(a) the number 4 less than $x$\n(b) the number $q$ more than the square of $p$\n(c) the total cost in euros of buying $p$ pens at $q$ cents each, and $r$ rulers at $s$ cents each.\n\n4. If $a = -3$, $b = 4$, and $c = -2$, find:\n\n(a) $-c^3$\n(b) $\\frac{3ab}{c^2}$\n(c) $\\frac{b - c}{2a}$\n\n5. Simplify by collecting like terms:\n\n(a) $3q - 5q + 2$\n(b) $3c + 5d - 8c - 2d$\n\n6. Simplify:\n\n(a) $5x^2 \\times 4x$\n(b) $(-3x) \\times (-2x^2)$\n(c) $\\frac{5x^4}{10x}$\n(d) $\\frac{12x^2}{18x^4}$",
+      "source_images": ["image45.png", "image46.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "We have seen that:\n\nIf $n$ is a positive integer, then $a^n$ is the product of $n$ factors of $a$.\n\n$a^n = a \\times a \\times a \\times a \\times ...... \\times a$\n\n$n$ factors",
+      "source_images": ["image47.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 1\n\nSimplify:\n\n(a) $m^3 \\times m^2$\n\n(b) $p^5 \\times p$\n\nSolutions:\n\n(a) $m^3 \\times m^2$\n$= (m \\times m \\times m) \\times (m \\times m)$\n$= m^5$\n\n(b) $p^5 \\times p$\n$= (p \\times p \\times p \\times p \\times p) \\times p$\n$= p^6$\n\n$p^5$ is the product of five $p$s.",
+      "source_images": ["image47.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "INDEX LAWS",
+      "source_images": ["image48.png"]
+    },
+    {
+      "type": "investigation",
+      "content_latex": "INVESTIGATION 1: DISCOVERING INDEX LAWS\n\nLook for any patterns as you complete the following:\n\n1. Copy and complete:\n\n(a) $2^2 \\times 2^3 = (2 \\times 2) \\times (2 \\times 2 \\times 2) = 2^5$\n\n(b) $3^3 \\times 3^1 = \\boxed{\\phantom{xxx}} = \\boxed{\\phantom{x}}$\n\n(c) $a^3 \\times a^4 = \\boxed{\\phantom{xxx}} = \\boxed{\\phantom{x}}$\n\nFrom the above examples, $a^m \\times a^n = \\boxed{\\phantom{xxx}}$.\n\n2. Copy and complete:\n\n(a) $\\frac{2^5}{2^3} = \\frac{2 \\times 2 \\times 2 \\times 2 \\times 2}{2 \\times 2 \\times 2} = 2^2$\n\n(b) $\\frac{3^4}{3^1} = \\boxed{\\phantom{xxx}} = \\boxed{\\phantom{x}}$\n\n(c) $\\frac{a^5}{a^2} = \\boxed{\\phantom{xxx}} = \\boxed{\\phantom{x}}$\n\n(d) $\\frac{x^7}{x^4} = \\boxed{\\phantom{xxx}} = \\boxed{\\phantom{x}}$\n\nFrom the above examples, $\\frac{a^m}{a^n} = \\boxed{\\phantom{xxx}}$.\n\n3. Copy and complete:\n\n(a) $(2^3)^2 = 2^3 \\times 2^3 = (2 \\times 2 \\times 2) \\times (2 \\times 2 \\times 2) = \\boxed{\\phantom{x}}$\n\n(b) $(3^2)^4 = \\boxed{\\phantom{xxx}} = \\boxed{\\phantom{x}}$\n\nFrom the above examples, $(a^m)^n = \\boxed{\\phantom{xxx}}$.\n\nFrom Investigation 1 you should have found these index laws for positive indices:\n\nIf $m$ and $n$ are positive integers, then:\n\n- $a^m \\times a^n = a^{m+n}$ To multiply numbers with the same base, keep the base and add the indices.\n\n- $\\frac{a^m}{a^n} = a^{m-n}$, $a \\neq 0$ To divide numbers with the same base, keep the base and subtract the indices.\n\n- $(a^m)^n = a^{m \\times n}$ When raising a power to a power, keep the base and multiply the indices.",
+      "source_images": ["image49.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 4\n\nSimplify using the laws of indices:\n\n(a) $2^3 \\times 2^2$\n\n(b) $x^4 \\times x^5$\n\nSolutions:\n\n(a) $2^3 \\times 2^2$\n$= 2^{3+2}$\n$= 2^5$\n$= 32$\n\n(b) $x^4 \\times x^5$\n$= x^{4+5}$\n$= x^9$\n\nWhen multiplying, keep the base and add the indices.",
+      "source_images": ["image49.png"]
     }
   ]
 }

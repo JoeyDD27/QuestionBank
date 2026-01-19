@@ -1,0 +1,262 @@
+{
+  "chapter": 26,
+  "part": 1,
+  "images_range": "2455-2507",
+  "items": [
+    {
+      "type": "definition",
+      "content_latex": "A ratio is an ordered comparison of quantities of the same kind.",
+      "source_images": ["image2455.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 2\n\nExpress as a ratio: 7 minutes is to 2 hours\n\nWe must express both quantities in the same units.\n\n2 hours is the same as 120 minutes, so \"7 minutes is to 2 hours\" is really \"7 minutes is to 120 minutes\", or $7 : 120$.",
+      "source_images": ["image2456.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Express as a ratio:\n\n(a) 65 g is to 1 kg\n\n(b) 87 pence is to $\\pounds 1.00$\n\n(c) 5 months is to 2 years\n\n(d) 60 cents is to $€2.40$\n\n(e) $\\$2.00$ is to 80 cents\n\n(f) 200 kg is to 1 tonne",
+      "source_images": ["image2457.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 3\n\nWrite as a ratio: Kirsty spends two hours watching TV and three hours doing homework.\n\nWe write TV : homework $= 2 : 3$.",
+      "source_images": ["image2458.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Write as a ratio:\n\n(a) Peter has $\\$11$ and Jacki has $\\$9$.\n\n(b) In a theatre there are 3 girls for every boy.\n\n(c) The school spent $€5$ on volleyball equipment for every $€1$ on table tennis equipment.\n\n(d) There are 2 Japanese made cars for every 5 European made cars.\n\n(e) For every 15 km that you travel by car, I can travel 4 km by bicycle.\n\n(f) There are 2 blue-fin tuna for every 5 schnapper.\n\n(g) Mix 50 mL of liquid fertiliser with 2 litres of water.\n\n(h) Take 5 mg of medicine for every 10 kg of body weight.",
+      "source_images": ["image2459.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 4\n\nIn the figures alongside, find:\n\n(i) the ratio of the shaded area to the unshaded area\n\n(ii) the ratio of the shaded area to the total area\n\n(iii) the fraction of the total area which is shaded.\n\n(a)\n\n(i) shaded : unshaded $= 1 : 3$\n\n(ii) shaded : total $= 1 : 4$\n\n(iii) Fraction of total shaded is $\\frac{1}{4}$.\n\n(b)\n\n(i) shaded : unshaded $= 4 : 1$\n\n(ii) shaded : total $= 4 : 5$\n\n(iii) Fraction of total shaded is $\\frac{4}{5}$.",
+      "source_images": ["image2460.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 12B\n\n1. In each of the following diagrams:\n\n(i) Find the ratio of the shaded area to the unshaded area.\n\n(ii) Find the ratio of the shaded area to the total area.\n\n(iii) Find the fraction of the total area which is shaded.\n\n2. The pie chart represents the sales of three different types of soap powders, A, B and C.\n\n(a) Write as a ratio:\n\n(i) the sales of A to the sales of B\n\n(ii) the sales of A to the total sales.\n\n(b) What fraction of the total sales made is the sales of brand A?\n\n3. The column graph represents the results of a survey to determine the method by which students travel to school.\n\n(a) Find the total number of students surveyed.\n\n(b) Write as a ratio:\n\n(i) students arriving by car : students who walk\n\n(ii) students arriving by bus : total number of students surveyed.\n\n(c) What fraction of the students surveyed travel to school by bus?",
+      "source_images": ["image2461.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "The ratio of the shaded area to the unshaded area is also the same or equal in each case.\n\nWe can write that $1 : 2 = 2 : 4 = 4 : 8$.\n\nWe can see whether ratios are equal in the same way we see if fractions are equal.\n\nJust as $\\frac{1}{2} = \\frac{2}{4} = \\frac{4}{8}$, $1 : 2 = 2 : 4 = 4 : 8$.\n\nIf we multiply or divide both parts of a ratio by the same non-zero number, we obtain an equal ratio.\n\nA ratio is in simplest form when it is written in terms of whole numbers with no common factors.",
+      "source_images": ["image2462.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 5\n\nExpress the following ratios in simplest form:\n\n(a) $8 : 16$\n\n(b) $35 : 20$\n\n(a) $8 : 16$\n$= 8 \\div 8 : 16 \\div 8$\n$= 1 : 2$\n\n(b) $35 : 20$\n$= 35 \\div 5 : 20 \\div 5$\n$= 7 : 4$",
+      "source_images": ["image2463.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 12C\n\n1. Express the following ratios in simplest form:\n\n(a) $2 : 4$\n\n(b) $10 : 5$\n\n(c) $6 : 14$\n\n(d) $6 : 18$\n\n(e) $20 : 50$\n\n(f) $15 : 25$\n\n(g) $9 : 15$\n\n(h) $21 : 49$\n\n(i) $56 : 14$",
+      "source_images": ["image2464.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 6\n\nExpress the following ratios in simplest form:\n\n(a) $\\frac{2}{5} : \\frac{3}{5}$\n\n(b) $1\\frac{1}{2} : 5$\n\n(a) $\\frac{2}{5} : \\frac{3}{5}$\n$= \\frac{2}{5} \\times 5 : \\frac{3}{5} \\times 5$\n$= 2 : 3$\n\n(b) $1\\frac{1}{2} : 5$\n$= \\frac{3}{2} : 5$ {convert to an improper fraction}\n$= \\frac{3}{2} \\times 2 : 5 \\times 2$\n$= 3 : 10$",
+      "source_images": ["image2464.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Express the following ratios in simplest form:\n\n(a) $\\frac{1}{5} : \\frac{4}{5}$\n\n(b) $\\frac{5}{4} : \\frac{1}{4}$\n\n(c) $\\frac{2}{3} : \\frac{1}{3}$\n\n(d) $1 : \\frac{1}{2}$\n\n(e) $3 : \\frac{3}{4}$\n\n(f) $\\frac{1}{3} : 2$\n\n(g) $3 : \\frac{1}{2}$\n\n(h) $3\\frac{1}{2} : 8$\n\n(i) $2\\frac{1}{2} : 1\\frac{1}{2}$\n\n(j) $\\frac{1}{2} : \\frac{1}{3}$",
+      "source_images": ["image2465.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 7\n\nExpress the following ratios in simplest form:\n\n(a) $0.3 : 1.7$\n\n(b) $0.05 : 0.15$\n\n(a) $0.3 : 1.7$\n$= 0.3 \\times 10 : 1.7 \\times 10$\n$= 3 : 17$\n\n(b) $0.05 : 0.15$\n$= 0.05 \\times 100 : 0.15 \\times 100$\n$= 5 : 15$\n$= 5 \\div 5 : 15 \\div 5$\n$= 1 : 3$",
+      "source_images": ["image2465.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Express the following ratios in simplest form:\n\n(a) $0.4 : 0.5$\n\n(b) $1.3 : 1.8$\n\n(c) $0.1 : 0.9$\n\n(d) $0.2 : 0.6$\n\n(e) $0.4 : 0.2$\n\n(f) $1.4 : 0.7$\n\n(g) $0.03 : 0.15$\n\n(h) $0.02 : 0.12$\n\n(i) $0.18 : 0.06$\n\n4. Express as a ratio in simplest form:\n\n(a) the number of circles to squares\n\n(b) the height of the tall player to the height of the short player\n\n(c) the weight of the fish to the breaking strain of the fishing line\n\n(d) the capacity of the small cola to the capacity of the large cola",
+      "source_images": ["image2466.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 8\n\nExpress the ratio shaded area : unshaded area in simplest form.\n\nshaded area : unshaded area $= 2 : 6$\n$= 2 \\div 2 : 6 \\div 2$ {HCF $= 2$}\n$= 1 : 3$",
+      "source_images": ["image2467.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 9\n\nExpress as a ratio in simplest form:\n\n(a) 2 hours to 4 minutes\n\n(b) 45 cm to 3 m\n\n(a) 2 hours to 4 minutes\n$= 2 \\times 60$ min to 4 min\n$= 120$ min to 4 min\n$= 120 : 4$\n$= 120 \\div 4 : 4 \\div 4$ {HCF $= 4$}\n$= 30 : 1$\n\n(b) 45 cm to 3 m\n$= 45$ cm to 300 cm\n$= 45 : 300$\n$= 45 \\div 15 : 300 \\div 15$\n$= 3 : 20$",
+      "source_images": ["image2468.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. Express as a ratio in simplest form:\n\n(a) 20 cents to $\\$1$\n\n(b) $\\pounds 3$ to 60 pence\n\n(c) 15 kg to 30 kg\n\n(d) 13 cm to 26 cm\n\n(e) 27 mm to 81 mm\n\n(f) 9 mL to 63 mL\n\n(g) 800 g to 1 kg\n\n(h) 1 hour to 30 min\n\n(i) 40 mins to $1\\frac{1}{2}$ hours\n\n(j) 34 mm to 1 cm\n\n(k) 2 m to 125 cm\n\n(l) 24 seconds to $1\\frac{1}{2}$ min\n\n(m) 2 L to 750 mL\n\n(n) 1 week to 3 days\n\n(o) 4 weeks to 1 year\n\n(p) 250 g to 1 kg\n\n(q) 1.5 kg to 125 g\n\n(r) 3 min to 45 seconds",
+      "source_images": ["image2469.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 10\n\nShow that the ratio $4 : 6$ is equal to $20 : 30$.\n\n$4 : 6$\n$= 4 \\div 2 : 6 \\div 2$\n$= 2 : 3$\n\nand\n\n$20 : 30$\n$= 20 \\div 10 : 30 \\div 10$\n$= 2 : 3$\n\n$\\therefore 4 : 6 = 20 : 30$",
+      "source_images": ["image2470.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. Which of the following pairs of ratios are equal?\n\n(a) $16 : 20$, $4 : 5$\n\n(b) $3 : 5$, $21 : 35$\n\n(c) $2 : 7$, $8 : 21$\n\n(d) $5 : 6$, $30 : 36$\n\n(e) $12 : 16$, $18 : 24$\n\n(f) $15 : 35$, $21 : 56$\n\n(g) $18 : 27$, $6 : 4$\n\n(h) $2 : 2\\frac{1}{2}$, $32 : 40$\n\n(i) $1 : 1\\frac{1}{3}$, $15 : 20$",
+      "source_images": ["image2471.png"]
+    },
+    {
+      "type": "definition",
+      "content_latex": "A proportion is a statement that two ratios are equal.",
+      "source_images": ["image2472.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 11\n\nFind $\\square$ to complete the proportion:\n\n(a) $2 : 5 = 6 : \\square$\n\n(b) $16 : 20 = \\square : 35$\n\n(a) $2 : 5 = 6 : \\square$\n$\\times 3$\n$2 : 5 = 6 : \\square$\n$\\times 3$\n$\\therefore \\square = 5 \\times 3 = 15$\n\n(b) We begin by reducing the LHS to simplest form.\n$16 : 20 = 16 \\div 4 : 20 \\div 4$\n$= 4 : 5$\n$\\times 7$\n$\\therefore 4 : 5 = \\square : 35$\n$\\times 7$\n$\\therefore \\square = 4 \\times 7 = 28$",
+      "source_images": ["image2473.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 12\n\nThe student to leader ratio at a youth camp must be $9 : 2$. How many leaders are required if there are 63 students enrolled?\n\nstudents : leaders $= 9 : 2$\n$\\therefore 63 : \\square = 9 : 2$\n$\\div 7$\n$\\therefore 63 : \\square = 9 : 2$\n$\\div 7$\n$\\therefore \\square \\div 7 = 2$\n$\\therefore \\square = 14$\n\nor\n\n9 parts is 63\n$\\therefore$ 1 part is $\\frac{63}{9} = 7$\n$\\therefore$ 2 parts is $7 \\times 2 = 14$\n\nSo, 14 leaders are needed.",
+      "source_images": ["image2474.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 12D\n\n1. Find the missing numbers in the following proportions:\n\n(a) $3 : 4 = 6 : \\square$\n\n(b) $3 : 6 = 12 : \\square$\n\n(c) $2 : 5 = \\square : 15$\n\n(d) $5 : 8 = \\square : 40$\n\n(e) $1 : 3 = \\square : 27$\n\n(f) $4 : 1 = 24 : \\square$\n\n(g) $7 : 21 = \\square : 33$\n\n(h) $15 : 25 = 30 : \\square$\n\n(i) $\\square : 18 = 32 : 48$\n\n(j) $5 : 100 = \\square : 40$\n\n(k) $18 : 30 = 24 : \\square$\n\n(l) $\\square : 12 = 33 : 44$\n\n2. A disaster relief team consists of engineers and doctors in the ratio of $2 : 5$.\n\n(a) If there are 18 engineers, find the number of doctors.\n\n(b) If there are 65 doctors, find the number of engineers.\n\n3. The ratio of two angles in a triangle is $3 : 1$. Find the:\n\n(a) larger angle if the smaller is $18°$\n\n(b) smaller angle if the larger is $63°$.\n\n4. The ratio of teachers to students in a school is $1 : 15$. If there are 675 students, how many teachers are there?",
+      "source_images": ["image2475.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. An MP3 player is bought for $€240$ and sold for $€270$. Find the ratio of the cost price to the selling price.\n\n6. The maximum speeds of a boat and a car are in the ratio $2 : 7$. If the maximum speed of the boat is 30 km per hour, find the maximum speed of the car.\n\n7. A farmer has sheep and cattle in the ratio $8 : 3$.\n\n(a) How many sheep has the farmer if he has 180 cattle?\n\n(b) Find the ratio of the number of sheep to the total number of animals.\n\n(c) Find the ratio of the total number of animals to the number of cattle.\n\n8. The price of a table is reduced from $\\$56$ to $\\$48$. The set of chairs which go with the table was originally priced at $\\$140$. If the price of the chairs is reduced in the same ratio as that of the table, find the new price of the chairs.\n\n9. Sue invested money in stocks, shares, and property in the ratio $6 : 4 : 5$. If she invested $€36\\,000$ in property, how much did she invest in the other two areas?",
+      "source_images": ["image2476.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 13\n\nLine segment [AB] is divided into five equal intervals.\n\n(a) In what ratio does X divide line segment AB?\n\n(b) What fraction of [AB] is [AX]?\n\n(a) X divides [AB] in the ratio $3 : 2$.\n\n(b) [AX] has length 3 units\n[AB] has length 5 units\n$\\therefore$ [AX] is $\\frac{3}{5}$ of [AB].",
+      "source_images": ["image2477.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 12E\n\n1. [CD] is divided into equal intervals.\n\n(i) In what ratio does X divide [CD]?\n\n(ii) What fraction of [CD] is [CX]?\n\n2. Estimate the ratio in which X divides [AB], then check your estimate by measuring:\n\n3. The line segment [AM] is divided into equal intervals. Which point divides [AM] in the ratio:\n\n(a) $5 : 7$\n\n(b) $11 : 1$\n\n(c) $4 : 8$\n\n(d) $1 : 2$\n\n(e) $2 : 1$\n\n(f) $6 : 6$\n\n(g) $1 : 1$\n\n(h) $1 : 3$?",
+      "source_images": ["image2478.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 14\n\nI wish to divide $\\$12\\,000$ in the ratio $2 : 3$ to give to my children Pam and Sam. How much does each one receive?\n\nThere are $2 + 3 = 5$ parts.\n\n$\\therefore$ Pam gets $\\frac{2}{5}$ of $\\$12\\,000$\n$= \\frac{2}{5} \\times \\$12\\,000$\n$= \\frac{\\$24\\,000}{5}$\n$= \\$4800$\n\nand Sam gets $\\frac{3}{5}$ of $\\$12\\,000$\n$= \\frac{3}{5} \\times \\$12\\,000$\n$= \\frac{\\$36\\,000}{5}$\n$= \\$7200$\n\nor $\\$12\\,000 - \\$4800 = \\$7200$",
+      "source_images": ["image2479.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. The recommended cordial to water ratio is $1 : 4$. Calculate how many mL of cordial are needed to make:\n\n(a) a 300 mL glass of mixture\n\n(b) a 2L container of mixture.\n\n5. The recommended disinfectant to water ratio is $1 : 20$. How many mL of concentrated disinfectant are required to make a 9 L bucket of mixture?\n\n6. Answer Problem 1 of the Opening Problem on page 234.\n\n7. A bag of 25 marbles is divided between Jill and John in the ratio $2 : 3$.\n\n(a) What fraction does Jill receive?\n\n(b) How many marbles does Jill receive?\n\n(c) How many marbles does John receive?\n\n8. Divide:\n\n(a) $\\$20$ in the ratio $1 : 4$\n\n(b) $€49$ in the ratio $5 : 2$.\n\n9. $\\pounds 400$ is divided in the ratio $3 : 2$. What is the larger share?\n\n10. $¥160\\,000$ is divided in the ratio $3 : 5$. What is the smaller share?",
+      "source_images": ["image2480.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 15\n\nTo make standard concrete, gravel, sand and cement are mixed in the ratio $5 : 3 : 1$. I wish to make 18 tonnes of concrete. How much gravel, sand and cement must I purchase?\n\nThere are $5 + 3 + 1 = 9$ parts.\n\n$\\therefore$ I need $\\frac{5}{9} \\times 18$ tonnes $= 10$ tonnes of gravel\n\n$\\frac{3}{9} \\times 18$ tonnes $= 6$ tonnes of sand\n\nand $\\frac{1}{9} \\times 18$ tonnes $= 2$ tonnes of cement.",
+      "source_images": ["image2481.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "11. My fortune of $\\$810\\,000$ is to be divided in the ratio $4 : 3 : 2$. How much does each person receive?\n\n12. An alloy is made from copper, zinc and tin in the ratio $17 : 2 : 1$. How much zinc is required to make 10 tonnes of the alloy?\n\n13. When Michael makes pici pasta, he mixes semolina, \"00\" flour, and water in the ratio $6 : 3 : 2$. If he uses 150 g of \"00\" flour, what mass does he require of:\n\n(a) semolina\n\n(b) water?\n\n14. Joe and Bob share the cost of a video game in the ratio $3 : 7$.\n\n(a) What fraction does each pay?\n\n(b) If the game costs $\\pounds 35$, how much does each pay?\n\n(c) If Joe pays $\\pounds 12$, how much does Bob pay?\n\n(d) If Bob pays $\\pounds 42$, what is the price of the video game?",
+      "source_images": ["image2482.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "When designing a house it would be ridiculous for an architect to draw a full-size plan.\n\nInstead the architect draws a smaller diagram in which all measurements have been divided by the same number or scale factor.\n\nFor house plans a scale factor of 100 would be suitable.",
+      "source_images": ["image2483.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Similarly, a map of Brazil must preserve the shape of the country. All distances are therefore divided by the same scale factor. In this case the scale factor is $80\\,000\\,000$.\n\nThese diagrams are called scale diagrams.\n\nIn scale diagrams:\n\n- All lengths have been changed by the same scale factor.\n\n- All angles are unaltered.",
+      "source_images": ["image2484.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "To properly use a scale diagram we need to know the scale used. Scales are commonly given in the following ways:\n\n- Scale: 1 cm represents 50 m.\nThis tells us that 1 cm on the scale diagram represents 50 m on the real thing.\n\n- A divided bar can be used to show the scale.\nThis scale tells us that 1 cm on the scale diagram represents 50 m on the real thing.\n\n- Scale: $1 : 5000$\nThis ratio tells us that 1 unit on the scale diagram represents 5000 of the same units on the real thing.\nFor example, 1 cm would represent 5000 cm or 50 m,\n1 mm would represent 5000 mm or 5 m.\n\nScales are written in ratio form as drawn length : actual length.\nWe usually simplify the scale to an equal ratio of the form $1 :$ the scale factor.",
+      "source_images": ["image2485.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 16\n\nOn a scale diagram 1 cm represents 20 m.\n\n(a) Write the scale as a ratio.\n\n(b) What is the scale factor?\n\n(a) 1 cm to 20 m\n$= 1$ cm to $(20 \\times 100)$ cm\n$= 1$ cm to 2000 cm\n$= 1 : 2000$\n\n(b) The ratio simplifies to $1 : 2000$ so the scale factor is 2000.",
+      "source_images": ["image2486.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 17\n\nInterpret the ratio $1 : 5000$ as a scale.\n\n$1 : 5000$ means 1 cm represents 5000 cm\n$\\therefore$ 1 cm represents $(5000 \\div 100)$ m {100 cm $= 1$ m}\n$\\therefore$ 1 cm represents 50 m",
+      "source_images": ["image2487.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 12F.1\n\n1. Write the following scales as ratios and state the corresponding scale factors:\n\n(a) 1 cm represents 10 m\n\n(b) 1 cm represents 50 km\n\n(c) 1 mm represents 2 m\n\n(d) 1 cm represents 250 km\n\n(e) 1 mm represents 5 m\n\n(f) 1 cm represents 200 km.\n\n2. Interpret the following ratios as scales, explaining what 1 cm represents:\n\n(a) $1 : 200$\n\n(b) $1 : 3000$\n\n(c) $1 : 500$\n\n(d) $1 : 20\\,000$\n\n(e) $1 : 100\\,000$\n\n(f) $1 : 5\\,000\\,000$",
+      "source_images": ["image2488.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "drawn length $=$ actual length $\\div$ scale factor",
+      "source_images": ["image2489.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 18\n\nAn object 12 m long is drawn with the scale $1 : 100$. Find the drawn length of the object.\n\n$12$ m $= 1200$ cm\n\ndrawn length $=$ actual length $\\div 100$ {scale factor 100}\n\n$\\therefore$ drawn length $= (1200 \\div 100)$ cm\n\n$\\therefore$ drawn length $= 12$ cm",
+      "source_images": ["image2490.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "actual length $=$ drawn length $\\times$ scale factor",
+      "source_images": ["image2491.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 19\n\nFor a scale of $1 : 500\\,000$, find the actual length represented by a drawn length of 15 cm.\n\nactual length $=$ drawn length $\\times 500\\,000$ {scale factor $500\\,000$}\n\n$\\therefore$ actual length $= 15$ cm $\\times 500\\,000$\n$= 7\\,500\\,000$ cm\n$= (7\\,500\\,000 \\div 100)$ m {1 m $= 100$ cm}\n$= 75\\,000$ m\n$= (75\\,000 \\div 1000)$ km {1 km $= 1000$ m}\n\n$\\therefore$ actual length $= 75$ km",
+      "source_images": ["image2492.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 12F.2\n\n1. If the scale is $1 : 50$, find the length drawn to represent an actual length of:\n\n(a) 20 m\n\n(b) 4.6 m\n\n(c) 340 cm\n\n(d) 7.2 m\n\n2. If the scale is $1 : 1000$, find the actual length represented by a drawn length of:\n\n(a) 2.5 mm\n\n(b) 12 cm\n\n(c) 4.6 cm\n\n(d) 7.4 mm",
+      "source_images": ["image2493.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Make a scale drawing of:\n\n(a) a square with sides 200 m, scale: 1 cm represents 50 m\n\n(b) a triangle with sides 16 m, 12 m and 8 m, scale: $1 : 400$\n\n(c) a rectangle 8 km by 6 km, scale: 1 cm represents 2 km\n\n(d) a circle of radius 16 km, scale: $1 : 1\\,000\\,000$\n\n4. Select an appropriate scale and make a scale diagram of:\n\n(a) a rectangular house block 42 m by 36 m\n\n(b) a kitchen door 2.2 m by 1.2 m\n\n(c) a triangular paddock with sides 84 m, 76 m and 60 m\n\n(d) the front of an A-framed house with base 12 m and height 9.6 m.\n\n5. Consider the scale diagram of a rectangle. Use your ruler to find the actual dimensions given that the scale is $1 : 200$. Which of the following could it represent:\n\n(A) a book\n\n(B) a postage stamp\n\n(C) a basketball court\n\n(D) a garage for a car?\n\n6. A scale diagram of a building is shown with scale $1 : 1000$.\n\n(a) If the height is 5 cm and width is 3 cm on the drawing, find the actual height and width of the building in metres.\n\n(b) If the height of the windows on the drawing are 2.5 mm, how high are the actual windows?\n\n(c) If the actual height of the entrance door is 3.2 m, what is its height on the scale drawing?",
+      "source_images": ["image2494.png", "image2495.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 20\n\nThis is a scale diagram of a ship. Use your ruler and the given scale to determine:\n\n(a) the total length of the ship\n\n(b) the height of the taller mast\n\n(c) the distance between the masts.\n\nScale $1 : 1000$\n\n(a) The measured length of the ship is 3.8 cm.\nSo, the actual length is $3.8$ cm $\\times 1000 = 3800$ cm $= 38$ m.\n\n(b) The measured height of the taller mast is 2.5 cm.\nSo, the actual height is $2.5$ cm $\\times 1000 = 2500$ cm $= 25$ m.\n\n(c) The measured distance between the masts $= 1.4$ cm.\nSo, the actual distance is $1.4$ cm $\\times 1000 = 1400$ cm $= 14$ m.",
+      "source_images": ["image2496.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. Consider the diagram alongside. Find:\n\n(a) the length of the vehicle\n\n(b) the diameter of a tyre\n\n(c) the height of the top of the vehicle above ground level\n\n(d) the width of the bottom of the door.\n\nScale $1 : 80$\n\n8. For this part map of the USA, find the actual distance in kilometres in a straight line between:\n\n(a) New York and New Orleans\n\n(b) El Paso and Miami\n\n(c) Seattle and Denver.\n\nscale: $1 : 50\\,000\\,000$\n\n9. The actual length of the aeroplane shown in the scale drawing is 64 m. Find:\n\n(a) the scale used in the drawing\n\n(b) the actual wingspan of the aeroplane\n\n(c) the actual width of the fuselage.\n\n10. The diagram given is of an enlarged bee, drawn to a scale of $1 : 0.25$. Find the actual length of the dimensions marked:\n\n(a) wing span, $a$\n\n(b) body length, $b$\n\n(c) total length, $c$.",
+      "source_images": ["image2497.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "11. The floor plan of this house has been drawn to a scale $1 : 120$. Find:\n\n(a) the external dimensions of the house including verandah\n\n(b) the dimensions of the verandah\n\n(c) the cost of covering each of the bedroom floors with carpet tiles if carpet tiles cost $\\$45.50$ per square metre laid.\n\n12. The diagram given shows a microscopic organism enlarged using the scale $1 : 0.001$. Find the actual length of the dimensions marked:\n\n(a) width, $a$\n\n(b) height, $b$.",
+      "source_images": ["image2498.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "G - GRADIENT OR SLOPE\n\nHave you ever seen a sign like the one pictured here? Watch out for one next time you are travelling through mountains. It is used to warn drivers that the road has a steep slope or a steep gradient.\n\nConsider yourself walking up the two hills pictured below.\n\nYou can quite easily see that hill B is steeper than hill A, but in addition to comparing gradient or slope, we often need to measure it.\n\nOne way to measure the gradient is to use ratios.\n\nPicture yourself walking up the sloping side of a right angled triangle. Each step you take, you are moving horizontally to the right, and also vertically upwards.\n\nWe can measure the gradient by using these vertical and horizontal distances. They are the height and base of the triangle. We sometimes call the vertical distance the rise and the horizontal distance the run.\n\nFor example, a gradient of 1 in 4 means we move up 1 unit for every 4 units we move across.\n\nSo, the line segment [AB] shown has gradient 1 in 4 or $1 : 4$.\n\nGradient is the rise : run ratio.",
+      "source_images": ["image2499.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 12G\n\n1. Judge by sight which line segment [PQ] is the steepest:\n\n2. Copy and complete the following table for the triangles of question 1:\n\n| Line [PQ] | rise | run | rise : run |\n|-----------|------|-----|------------|\n| A | 1 | 3 | $1 : 3$ |\n| B | | | $1 :$ |\n| C | | | $1 :$ |\n| D | | | $1 :$ |\n\n3. By comparing the ratios in the last column of question 2, what happens to the rise : run ratio as the steepness of the line increases?\n\n4. Write down the rise : run ratios of the following triangles in the form $1 : x$.\n\n5. Draw a triangle which has a rise : run ratio of:\n\n(a) 1 in 5\n\n(b) $3 : 1$\n\n(c) 1 in 4\n\n(d) 2 in 3\n\n(e) $3 : 5$\n\n(f) 7 in 2\n\n6. (a) Express the rise : run ratio of the line segments [PQ] and [RS] in simplest form.\n\n(b) What do you notice about the slopes of [PQ] and [RS]?\n\n(c) Copy and complete the following statement: [PQ] and [RS] are ...... line segments.",
+      "source_images": ["image2500.png", "image2501.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 12A\n\n1. (a) Express 72 cents to $\\$1.80$ as a ratio in simplest form.\n\n(b) Express $10 : 15$ as a ratio in simplest form.\n\n(c) $5 : 12 = \\square : 96$. Find the missing number.\n\n(d) Express $1\\frac{1}{5} : \\frac{4}{5}$ in simplest form.\n\n(e) Write \"In a class there are 4 girls for every 3 boys\" as a ratio.\n\n(f) Find the ratio of the shaded area to the unshaded area in the figure shown:\n\n2. Divide $\\pounds 400$ in the ratio $3 : 7$.\n\n3. A watch is bought for $€120$ and sold for a profit of $€40$. Find the ratio of the cost price to the selling price.\n\n4. In a school the ratio of students playing football, basketball, and hockey is $12 : 9 : 8$. If 144 students play football, how many students play hockey?\n\n5. The actual length of the bus shown alongside is 10 m. Find:\n\n(a) the scale used for this diagram\n\n(b) the actual height of the windows\n\n(c) the actual height of the bus.",
+      "source_images": ["image2502.png", "image2503.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. A fruit grower plants apricot trees and peach trees in the ratio $4 : 5$. If he plants a total of 3600 trees, how many of each type did he plant?\n\n7. [AB] is divided into equal intervals. In what ratio does P divide [AB]?\n\n8. (a) Divide $\\$200$ in the ratio $2 : 3$.\n\n(b) George specified that his bank balance be divided amongst his 3 daughters in the ratio $2 : 3 : 4$. If his bank balance was $€7200$, how much did each daughter receive?\n\n9. Make a scale drawing of a rectangular room 4 m by 6 m. Use a scale of $1 : 500$.\n\n10. A law firm has lawyers and secretaries in the ratio $5 : 2$. If the law firm has 30 lawyers, how many secretaries are there?\n\n11. Express the rise : run ratio of the following triangles in simplest form:",
+      "source_images": ["image2504.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 12B\n\n1. (a) Express $96 : 72$ as a ratio in simplest form.\n\n(b) Write 750 mL is to 2 litres as a ratio in simplest form.\n\n(c) Write as a ratio: \"I saw five Audis for every six BMWs\".\n\n(d) Find the ratio of the shaded area : total area in the figure shown.\n\n(e) Express $0.4 : 0.9$ as a ratio in simplest form.\n\n(f) Express 2 hours 20 minutes : 4 hours in simplest form.\n\n(g) Express the ratio $3 : 2\\frac{1}{2}$ in simplest form.\n\n2. Find the missing numbers in the following proportions:\n\n(a) $2 : 3 = 8 : \\square$\n\n(b) $5 : 8 = \\square : 24$\n\n3. A farm has 6000 animals. 2500 are sheep and the rest are cattle. Find the ratio of:\n\n(a) number of sheep : number of cattle\n\n(b) number of sheep : total number of animals.\n\n4. Two families share the cost of buying 75 kg of meat in the ratio $7 : 8$. How much meat should each family receive?",
+      "source_images": ["image2505.png", "image2506.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. During the football season the school team's win-loss ratio was $2 : 3$. If the team lost twelve matches, how many did it win?\n\n6. A man owning 7000 hectares of land divided it between his three sons in the ratio $6 : 9 : 5$. How much land did each son receive?\n\n7. Draw a scale diagram of a rectangular window which is 2 m long and 1 m high. Use the scale $1 : 250$.\n\n8. The line segment [AI] is divided into equal intervals. Which point divides [AI] in the ratio:\n\n(a) $3 : 5$\n\n(b) $1 : 3$\n\n(c) $1 : 1$?\n\n9. A matchbox model Jaguar XJ6 is 75 mm long. The scale stamped on the bottom of the car is $1 : 64$. What is the length of the real car?\n\n10. Express the rise : run ratio of the following triangles in simplest form:\n\n11. The ratio of girls to boys in a sports club is $4 : 5$. If there are 20 girls, what is the total number of people in the sports club?",
+      "source_images": ["image2507.png"]
+    }
+  ]
+}

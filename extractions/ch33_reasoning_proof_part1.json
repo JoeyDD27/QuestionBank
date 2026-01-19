@@ -1,0 +1,207 @@
+{
+  "chapter": 33,
+  "part": 1,
+  "images_range": "2907-2952",
+  "items": [
+    {
+      "type": "concept",
+      "content_latex": "For example:\n\nthe first positive even number is $2 = 2 \\times 1$\n\nthe second positive even number is $4 = 2 \\times 2$\n\nthe third positive even number is $6 = 2 \\times 3$\n\nthe fourth positive even number is $8 = 2 \\times 4$\n\nand from these results we induce that \"the $n$th positive even number is $2 \\times n$ or $2n$\".\n\nThe statement that \"the $n$th positive even number is $2n$\" is a summary of the observations of the simple cases $n = 1, 2, 3, 4$ and is a statement which we believe is true. We call such a statement a conjecture or proposition.",
+      "source_images": ["image2907.png", "image2908.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 1\n\nBy examining the cases $n = 1, 2, 3, 4$, make a conjecture about the sum of\n\n$S_n = \\frac{1}{1 \\times 2} + \\frac{1}{2 \\times 3} + \\frac{1}{3 \\times 4} + \\frac{1}{4 \\times 5} + .... + \\frac{1}{n(n+1)} = \\sum_{i=1}^{n} \\frac{1}{i(i+1)}$.\n\n$S_1 = \\frac{1}{1 \\times 2} = \\frac{1}{2}$\n\n$S_2 = \\frac{1}{1 \\times 2} + \\frac{1}{2 \\times 3} = \\frac{1}{2} + \\frac{1}{6} = \\frac{2}{3}$\n\n$S_3 = \\frac{1}{1 \\times 2} + \\frac{1}{2 \\times 3} + \\frac{1}{3 \\times 4} = \\frac{2}{3} + \\frac{1}{12} = \\frac{3}{4}$\n\n$S_4 = \\frac{1}{1 \\times 2} + \\frac{1}{2 \\times 3} + \\frac{1}{3 \\times 4} + \\frac{1}{4 \\times 5} = \\frac{3}{4} + \\frac{1}{20} = \\frac{4}{5}$\n\nIf the conjecture is true then\n$S_{1000} = \\frac{1}{1 \\times 2} + \\frac{1}{2 \\times 3} + .... + \\frac{1}{1000 \\times 1001} = \\frac{1000}{1001}$\n\nFrom these results we conjecture that $S_n = \\frac{n}{n+1}$ for all $n \\in \\mathbb{Z}^+$.",
+      "source_images": ["image2909.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 10A\n\n1. Copy and complete the conjecture:\n\n(a) The $n$th term of the sequence $3, 7, 11, 15, 19, ....$ is ______ for $n \\in$ ______.\n\n(b) The $n$th term of the sequence $25, 22, 19, 16, ....$ is ______ for $n \\in$ ______.\n\n(c) The $n$th term of the sequence $8, 12, 18, 27, ....$ is ______ for $n \\in$ ______.\n\n2. Examine the following using substitutions like $n = 1, 2, 3, 4, ....$ Hence complete the proposition or conjecture.\n\n(a) $3^n > 1 + 2n$ for ______.\n\n(b) $11^n - 1$ is divisible by ______ for ______.\n\n(c) $7^n + 2$ is divisible by ______ for ______.\n\n(d) $8^n - 3^n$ is divisible by ______ for ______.",
+      "source_images": ["image2910.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 2\n\nBy examining the cases $n = 1, 2, 3, 4$, make a conjecture about the sum\n\n$\\sum_{i=1}^{n} i \\times 2^{i-1} = 1 + 4 + 12 + 32 + .... + n \\times 2^{n-1}$.\n\n$\\sum_{i=1}^{1} i \\times 2^{i-1} = 1 \\times 2^0 = 1 = 0 \\times 2^1 + 1$\n\n$\\sum_{i=1}^{2} i \\times 2^{i-1} = 1 + 2 \\times 2^1 = 1 + 4 = 5 = 1 \\times 2^2 + 1$\n\n$\\sum_{i=1}^{3} i \\times 2^{i-1} = 5 + 3 \\times 2^2 = 5 + 12 = 17 = 2 \\times 2^3 + 1$\n\n$\\sum_{i=1}^{4} i \\times 2^{i-1} = 17 + 4 \\times 2^3 = 17 + 32 = 49 = 3 \\times 2^4 + 1$\n\nWe conjecture that $\\sum_{i=1}^{n} i \\times 2^{i-1} = (n-1) \\times 2^n + 1$ for all $n \\in \\mathbb{Z}^+$.",
+      "source_images": ["image2911.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Copy and complete each conjecture, then write it using sum or product notation:\n\n(a) $2 + 4 + 6 + 8 + 10 + .... + 2n =$ ______ for ______.\n\n(b) $1! + 2 \\times 2! + 3 \\times 3! + 4 \\times 4! + .... + n \\times n! =$ ______ for ______.\n\n(c) $\\frac{1}{2!} + \\frac{2}{3!} + \\frac{3}{4!} + \\frac{4}{5!} + .... + \\frac{n}{(n+1)!} =$ ______ for ______.\n\n(d) $\\frac{1}{2 \\times 5} + \\frac{1}{5 \\times 8} + \\frac{1}{8 \\times 11} + ....$ to $n$ terms $=$ ______ for ______.\n\n(e) $\\left(1 - \\frac{1}{2}\\right)\\left(1 - \\frac{1}{3}\\right)\\left(1 - \\frac{1}{4}\\right) .... \\left(1 - \\frac{1}{n+1}\\right) =$ ______ for ______.\n\n(f) $2 + 2^2 + 2^3 + .... + 2^n =$ ______ for ______.\n\n(g) $\\left(1 - \\frac{2}{3}\\right)\\left(1 - \\frac{2}{4}\\right)\\left(1 - \\frac{2}{5}\\right) .... \\left(1 - \\frac{2}{n+2}\\right) =$ ______ for ______.",
+      "source_images": ["image2912.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. $n$ points are placed inside a triangle.\n\nNon-intersecting line segments are drawn connecting the 3 vertices of the triangle and the points within it, to partition the given triangle into smaller triangles.\n\n(a) Draw the cases $n = 4$ and $n = 5$.\n\n(b) Make a proposition concerning the maximum number of triangles obtained in the general case.",
+      "source_images": ["image2913.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. $n$ points are placed around a circle so that when line segments are drawn between every pair of the points, no three line segments intersect at the same point inside the circle. We consider the number of regions formed within the circle.\n\n(a) Draw the cases $n = 4$ and $n = 5$.\n\n(b) Use the cases $n = 1, 2, 3, 4, 5$ to form a conjecture about the number of regions formed in the general case.\n\n(c) Draw the case $n = 6$. Do you still believe your conjecture?",
+      "source_images": ["image2914.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "THE PRINCIPLE OF MATHEMATICAL INDUCTION\n\nWe use $P_n$ to represent a proposition which is defined for every integer $n$ where $n \\geqslant a$, $a \\in \\mathbb{Z}$.\n\nFor example, in the case of Example 1, our proposition $P_n$ is:\n\n$\\frac{1}{1 \\times 2} + \\frac{1}{2 \\times 3} + \\frac{1}{3 \\times 4} + .... + \\frac{1}{n(n+1)} = \\frac{n}{n+1}$ for all $n \\in \\mathbb{Z}^+$.\n\nWe see that:\n\n$\\bullet$ $P_1$ is: $\\frac{1}{1 \\times 2} = \\frac{1}{2}$\n\n$\\bullet$ $P_2$ is: $\\frac{1}{1 \\times 2} + \\frac{1}{2 \\times 3} = \\frac{2}{3}$\n\n$\\bullet$ $P_k$ is: $\\frac{1}{1 \\times 2} + \\frac{1}{2 \\times 3} + \\frac{1}{3 \\times 4} + .... + \\frac{1}{k(k+1)} = \\frac{k}{k+1}$.",
+      "source_images": ["image2916.png"]
+    },
+    {
+      "type": "definition",
+      "content_latex": "THE PRINCIPLE OF MATHEMATICAL INDUCTION\n\nThe principle of mathematical induction constitutes a formal proof that a particular proposition is true.\n\nSuppose $P_n$ is a proposition which is defined for every integer $n \\geqslant a$, $a \\in \\mathbb{Z}$.\n\nIf $P_a$ is true, and if $P_{k+1}$ is true whenever $P_k$ is true, then $P_n$ is true for all $n \\geqslant a$.",
+      "source_images": ["image2917.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 3\n\nProve that $4^n + 2$ is divisible by 3 for $n \\in \\mathbb{Z}$, $n \\geqslant 0$, by using:\n\n(a) the binomial expansion of $(1+3)^n$\n\n(b) the principle of mathematical induction.\n\n(a) If $n = 0$, $4^n + 2 = 4^0 + 2 = 3$ which is divisible by 3.\n\n$4^n + 2 = (1+3)^n + 2$\n\n$= 1^n + \\binom{n}{1}3 + \\binom{n}{2}3^2 + \\binom{n}{3}3^3 + .... + \\binom{n}{n-1}3^{n-1} + \\binom{n}{n}3^n + 2$\n\n$= 3 + \\binom{n}{1}3 + \\binom{n}{2}3^2 + \\binom{n}{3}3^3 + .... + \\binom{n}{n-1}3^{n-1} + \\binom{n}{n}3^n$\n\n$= 3\\left(1 + \\binom{n}{1} + \\binom{n}{2}3 + \\binom{n}{3}3^2 + .... + \\binom{n}{n-1}3^{n-2} + \\binom{n}{n}3^{n-1}\\right)$\n\nwhere the contents of the brackets is an integer.\n\n$\\therefore$ $4^n + 2$ is divisible by 3.\n\n(b) $P_n$ is: $4^n + 2$ is divisible by 3 for $n \\in \\mathbb{Z}$, $n \\geqslant 0$.\n\nProof: (By the principle of mathematical induction)\n\n(1) If $n = 0$, $4^0 + 2 = 3 = 1 \\times 3$ $\\therefore$ $P_0$ is true.\n\n(2) If $P_k$ is true, then $4^k + 2 = 3A$ where $A$ is an integer, and $A \\geqslant 1$.\n\nNow $4^{k+1} + 2 = 4^1 \\cdot 4^k + 2$\n\n$= 4(3A - 2) + 2$ $\\{$using $P_k\\}$\n\n$= 12A - 8 + 2$\n\n$= 12A - 6$\n\n$= 3(4A - 2)$ where $4A - 2$ is an integer as $A \\in \\mathbb{Z}$.\n\nThus $4^{k+1} + 2$ is divisible by 3 if $4^k + 2$ is divisible by 3.\n\nSince $P_0$ is true, and $P_{k+1}$ is true whenever $P_k$ is true,\n\n$P_n$ is true for all $n \\in \\mathbb{Z}$, $n \\geqslant 0$. $\\{$principle of mathematical induction$\\}$",
+      "source_images": ["image2918.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 10B\n\n1. Prove that $3^n + 1$ is divisible by 2 for all integers $n \\geqslant 0$, by using:\n\n(a) the binomial expansion of $(1+2)^n$\n\n(b) the principle of mathematical induction.\n\n2. Prove that $6^n - 1$ is divisible by 5 for all integers $n \\geqslant 0$, by using:\n\n(a) the binomial expansion of $(5+1)^n$\n\n(b) the principle of mathematical induction.\n\n3. Use the principle of mathematical induction to prove that for all $n \\in \\mathbb{Z}^+$:\n\n(a) $n^3 + 2n$ is divisible by 3\n\n(b) $7^n - 1$ is divisible by 3\n\n(c) $8^n - 3^n$ is divisible by 5\n\n(d) $7^n - 4^n - 3^n$ is divisible by 12\n\n(e) $7^n + 2 \\times 4^n$ is divisible by 3\n\n(f) $n^3 + 3n^2 + 2n$ is divisible by 6.",
+      "source_images": ["image2919.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 4\n\nProve that $2^{n+2} + 3^{3n}$ is divisible by 5 for $n \\in \\mathbb{Z}$, $n \\geqslant 0$.\n\n$P_n$ is: $2^{n+2} + 3^{3n}$ is divisible by 5 for $n \\in \\mathbb{Z}$, $n \\geqslant 0$.\n\nProof: (By the principle of mathematical induction)\n\n(1) If $n = 0$, $2^{0+2} + 3^0 = 5$ $\\therefore$ $P_0$ is true.\n\n(2) If $P_k$ is true, then $2^{k+2} + 3^{3k} = 5A$ where $A$ is an integer.\n\nNow $2^{(k+1)+2} + 3^{3(k+1)}$\n\n$= 2^{k+2} \\times 2^1 + 3^{3k} \\times 3^3$\n\n$= 2 \\times 2^{k+2} + 27 \\times 3^{3k}$\n\n$= 2[5A - 3^{3k}] + 27 \\times 3^{3k}$ $\\{$using $P_k\\}$\n\n$= 5 \\times 2A - 2 \\times 3^{3k} + 27 \\times 3^{3k}$\n\n$= 5 \\times 2A + 25 \\times 3^{3k}$\n\n$= 5(2A + 5 \\times 3^{3k})$ where $2A + 5 \\times 3^{3k}$ is an integer as $A$ is an integer and $k \\geqslant 0$ is an integer.\n\nThus $2^{(k+1)+2} + 3^{3(k+1)}$ is divisible by 5 whenever $2^{k+2} + 3^{3k}$ is divisible by 5.\n\nSince $P_0$ is true, and $P_{k+1}$ is true whenever $P_k$ is true,\n\n$P_n$ is true for all $n \\in \\mathbb{Z}$, $n \\geqslant 0$. $\\{$principle of mathematical induction$\\}$",
+      "source_images": ["image2920.png", "image2921.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Use the principle of mathematical induction to prove that for all $n \\in \\mathbb{Z}^+$:\n\n(a) $3^{2n+4} - 2^{2n}$ is divisible by 5\n\n(b) $3 \\times 5^{2n+1} + 2^{3n+1}$ is divisible by 17.\n\n5. Prove that $\\frac{2^n - (-1)^n}{3}$ is an odd number for all $n \\in \\mathbb{Z}^+$.\n\n6. Attempt to prove the following incorrect statements using induction:\n\n(a) $n^2 + 2$ is divisible by 3 for all $n \\in \\mathbb{Z}^+$.\n\n(b) $3^n + 4$ is divisible by 7 for all integers $n \\geqslant 1$.\n\n(c) $2^{n+1} - 3^n - 1$ is divisible by 5 for all integers $n \\geqslant 0$.",
+      "source_images": ["image2922.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 5\n\nProve that $x^n - y^n$ has a factor $(x - y)$ for all $n \\in \\mathbb{Z}^+$.\n\n$P_n$ is: $x^n - y^n$ has a factor $(x - y)$ for all $n \\in \\mathbb{Z}^+$.\n\nProof: (By the principle of mathematical induction)\n\n(1) If $n = 1$, $x^1 - y^1 = x - y$ which has $(x - y)$ as a factor\n\n$\\therefore$ $P_1$ is true.\n\n(2) If $P_k$ is true, then $x^k - y^k$ has a factor $(x - y)$.\n\nNow $x^{k+1} - y^{k+1}$\n\n$= x \\times x^k - y \\times y^k$\n\n$= x(x^k - y^k) + x \\times y^k - y \\times y^k$\n\n$= x(x^k - y^k) + y^k(x - y)$\n\nusing $P_k$ this term has factor $(x - y)$, this term has factor $(x - y)$\n\nThus $x^{k+1} - y^{k+1}$ has a factor $(x - y)$ whenever $x^k - y^k$ has a factor $(x - y)$.\n\nSince $P_1$ is true, and $P_{k+1}$ is true whenever $P_k$ is true,\n\n$P_n$ is true for all $n \\in \\mathbb{Z}^+$. $\\{$principle of mathematical induction$\\}$",
+      "source_images": ["image2923.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. Use the principle of mathematical induction to prove that for all $n \\in \\mathbb{Z}^+$:\n\n(a) $x^{2n+1} + a^{2n+1}$ has a factor $(x + a)$\n\n(b) $x^{2n} - 1$ has a factor $(x + 1)$.",
+      "source_images": ["image2924.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 6\n\n(a) Prove that $1^2 + 2^2 + 3^2 + .... + n^2 = \\sum_{i=1}^{n} i^2 = \\frac{n(n+1)(2n+1)}{6}$ for all $n \\in \\mathbb{Z}^+$.\n\n(b) Find $1^2 + 2^2 + 3^2 + .... + 100^2$.\n\n(a) $P_n$ is: $1^2 + 2^2 + 3^2 + .... + n^2 = \\frac{n(n+1)(2n+1)}{6}$ for all $n \\in \\mathbb{Z}^+$.\n\n$\\sum_{i=1}^{n}$ reads \"the sum from $i$ equals 1 to $n$, of\"\n\nProof: (By the principle of mathematical induction)\n\n(1) If $n = 1$, LHS $= 1^2 = 1$ and RHS $= \\frac{1 \\times 2 \\times 3}{6} = 1$\n\n$\\therefore$ $P_1$ is true.\n\n(2) If $P_k$ is true for $k \\in \\mathbb{Z}^+$, then\n\n$\\sum_{i=1}^{k} i^2 = 1^2 + 2^2 + 3^2 + .... + k^2 = \\frac{k(k+1)(2k+1)}{6}$\n\nThus $1^2 + 2^2 + 3^2 + .... + k^2 + (k+1)^2$\n\n$= \\frac{k(k+1)(2k+1)}{6} + (k+1)^2$ $\\{$using $P_k\\}$\n\n$= \\frac{k(k+1)(2k+1)}{6} + (k+1)^2 \\times \\frac{6}{6}$\n\n$= \\frac{(k+1)[k(2k+1) + 6(k+1)]}{6}$\n\n$= \\frac{(k+1)(2k^2 + k + 6k + 6)}{6}$\n\n$= \\frac{(k+1)(2k^2 + 7k + 6)}{6}$\n\n$= \\frac{(k+1)(k+2)(2k+3)}{6}$\n\n$= \\frac{[k+1]([k+1]+1)(2[k+1]+1)}{6}$\n\nSince $P_1$ is true, and $P_{k+1}$ is true whenever $P_k$ is true,\n\n$P_n$ is true for all $n \\in \\mathbb{Z}^+$. $\\{$principle of mathematical induction$\\}$\n\n(b) Using $P_{100}$, $1^2 + 2^2 + 3^2 + .... + 100^2 = \\frac{100 \\times 101 \\times 201}{6} = 338350$",
+      "source_images": ["image2925.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "8. Use the principle of mathematical induction to prove that the following propositions are true for all positive integers $n$:\n\n(a) $\\sum_{i=1}^{n} i = \\frac{n(n+1)}{2}$\n\n(b) $\\sum_{i=1}^{n} i(i+1) = \\frac{n(n+1)(n+2)}{3}$\n\n(c) $\\sum_{i=1}^{n} i^3 = \\frac{n^2(n+1)^2}{4}$\n\n9. Prove that the sum of the first $n$ odd numbers is $n^2$ using:\n\n(a) the sum of an arithmetic series formula\n\n(b) the principle of mathematical induction.",
+      "source_images": ["image2926.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "10. Prove that for all $n \\in \\mathbb{Z}^+$:\n\n(a) $\\sum_{i=1}^{n} 2^i = 2^{n+1} - 2$\n\n(b) $\\sum_{i=1}^{n} i \\times 2^{i-1} = (n-1) \\times 2^n + 1$\n\n(c) $\\sum_{i=1}^{n} i \\times 3^i = \\frac{3}{4}[(2n-1)3^n + 1]$\n\n(d) $\\sum_{i=1}^{n} \\frac{i}{2^i} = 2 - \\frac{n+2}{2^n}$",
+      "source_images": ["image2927.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 7\n\nProve that $\\sum_{i=1}^{n} \\frac{1}{(3i-1)(3i+2)} = \\frac{n}{6n+4}$ for all $n \\in \\mathbb{Z}^+$.\n\n$P_n$ is: $\\frac{1}{2 \\times 5} + \\frac{1}{5 \\times 8} + .... + \\frac{1}{(3n-1)(3n+2)} = \\frac{n}{6n+4}$ for all $n \\in \\mathbb{Z}^+$.\n\nProof: (By the principle of mathematical induction)\n\n(1) If $n = 1$, LHS $= \\frac{1}{2 \\times 5} = \\frac{1}{10}$ and RHS $= \\frac{1}{6 \\times 1 + 4} = \\frac{1}{10}$\n\n$\\therefore$ $P_1$ is true.\n\n(2) If $P_k$ is true, then\n\n$\\sum_{i=1}^{k} \\frac{1}{(3i-1)(3i+2)} = \\frac{1}{2 \\times 5} + \\frac{1}{5 \\times 8} + .... + \\frac{1}{(3k-1)(3k+2)} = \\frac{k}{6k+4}$\n\nNow $\\frac{1}{2 \\times 5} + \\frac{1}{5 \\times 8} + .... + \\frac{1}{(3k-1)(3k+2)} + \\frac{1}{(3k+2)(3k+5)}$\n\n$= \\frac{k}{6k+4} + \\frac{1}{(3k+2)(3k+5)}$ $\\{$using $P_k\\}$\n\n$= \\frac{k}{2(3k+2)} \\times \\left(\\frac{3k+5}{3k+5}\\right) + \\frac{1}{(3k+2)(3k+5)} \\times \\left(\\frac{2}{2}\\right)$\n\n$= \\frac{3k^2 + 5k + 2}{2(3k+2)(3k+5)}$\n\n$= \\frac{(3k+2)(k+1)}{2(3k+2)(3k+5)}$\n\n$= \\frac{k+1}{6k+10}$\n\n$= \\frac{(k+1)}{6(k+1)+4}$\n\nSince $P_1$ is true, and $P_{k+1}$ is true whenever $P_k$ is true,\n\n$P_n$ is true for all $n \\in \\mathbb{Z}^+$. $\\{$principle of mathematical induction$\\}$",
+      "source_images": ["image2928.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "11. (a) Prove that $\\frac{1}{1 \\times 2} + \\frac{1}{2 \\times 3} + \\frac{1}{3 \\times 4} + .... + \\frac{1}{n(n+1)} = \\frac{n}{n+1}$ for all $n \\in \\mathbb{Z}^+$.\n\n(b) Hence find $\\frac{1}{10 \\times 11} + \\frac{1}{11 \\times 12} + \\frac{1}{12 \\times 13} + .... + \\frac{1}{20 \\times 21}$.\n\n12. (a) Prove that $\\frac{1}{1 \\times 2 \\times 3} + \\frac{1}{2 \\times 3 \\times 4} + .... + \\frac{1}{n(n+1)(n+2)} = \\frac{n(n+3)}{4(n+1)(n+2)}$ for all $n \\in \\mathbb{Z}^+$.\n\n(b) Hence find $\\frac{1}{4 \\times 5 \\times 6} + \\frac{1}{5 \\times 6 \\times 7} + .... + \\frac{1}{8 \\times 9 \\times 10}$.",
+      "source_images": ["image2929.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "13. (a) Prove that $1 \\times 1! + 2 \\times 2! + 3 \\times 3! + 4 \\times 4! + .... + n \\times n! = (n+1)! - 1$ for all $n \\in \\mathbb{Z}^+$, where $n!$ is the product of the first $n$ positive integers.\n\n(b) Prove that $\\frac{1}{2!} + \\frac{2}{3!} + \\frac{3}{4!} + \\frac{4}{5!} + .... + \\frac{n}{(n+1)!} = \\frac{(n+1)! - 1}{(n+1)!}$ for all $n \\in \\mathbb{Z}^+$.\n\n(c) Hence find the sum $\\frac{1}{2!} + \\frac{2}{3!} + \\frac{3}{4!} + \\frac{4}{5!} + .... + \\frac{9}{10!}$ in rational form.",
+      "source_images": ["image2930.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "14. Prove that $n + 2(n-1) + 3(n-2) + .... + (n-2)3 + (n-1)2 + n = \\frac{n(n+1)(n+2)}{6}$ for all integers $n \\geqslant 1$.\n\nHint: $1 \\times 6 + 2 \\times 5 + 3 \\times 4 + 4 \\times 3 + 5 \\times 2 + 6 \\times 1$\n\n$= 1 \\times 5 + 2 \\times 4 + 3 \\times 3 + 4 \\times 2 + 5 \\times 1 + (1 + 2 + 3 + 4 + 5 + 6)$",
+      "source_images": ["image2931.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "15. The $n$th term of the sequence $3, \\frac{4}{3}, \\frac{11}{18}, ....$ is given by $u_n = a\\left(\\frac{1}{3}\\right)^n + b\\left(\\frac{1}{2}\\right)^n$.\n\n(a) Find the values of $a$ and $b$.\n\n(b) Use the principle of mathematical induction to prove that the sum of the first $n$ terms of this sequence is, $\\sum_{i=1}^{n} u_i = \\frac{3}{2}\\left(1 - \\frac{1}{3^n}\\right) + 4\\left(1 - \\frac{1}{2^n}\\right)$ for all $n \\in \\mathbb{Z}^+$.\n\n(c) Hence find the sum of the infinite series.",
+      "source_images": ["image2932.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 8\n\nA sequence is defined by $u_1 = 1$ and $u_{n+1} = 2u_n + 1$ for all $n \\in \\mathbb{Z}^+$.\n\nProve that $u_n = 2^n - 1$ for all $n \\in \\mathbb{Z}^+$.\n\n$P_n$ is: if $u_1 = 1$ and $u_{n+1} = 2u_n + 1$ for all $n \\in \\mathbb{Z}^+$, then $u_n = 2^n - 1$.\n\nProof: (By the principle of mathematical induction)\n\n(1) If $n = 1$, $u_1 = 2^1 - 1 = 1$\n\n$\\therefore$ $P_1$ is true.\n\n(2) If $P_k$ is true, then $u_k = 2^k - 1$\n\nNow $u_{k+1} = 2u_k + 1$\n\n$= 2(2^k - 1) + 1$ $\\{$using $P_k\\}$\n\n$= 2^{k+1} - 2 + 1$\n\n$= 2^{k+1} - 1$\n\n$\\therefore$ $P_{k+1}$ is also true.\n\nSince $P_1$ is true, and $P_{k+1}$ is true whenever $P_k$ is true,\n\n$P_n$ is true for all $n \\in \\mathbb{Z}^+$. $\\{$principle of mathematical induction$\\}$",
+      "source_images": ["image2933.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "16. Use the principle of mathematical induction to prove these propositions:\n\n(a) If a sequence $\\{u_n\\}$ is defined by $u_1 = 5$ and $u_{n+1} = u_n + 8n + 5$ for all $n \\in \\mathbb{Z}^+$, then $u_n = 4n^2 + n$.\n\n(b) If the first term of a sequence is 1, and subsequent terms are defined by the recursion formula $u_{n+1} = 2 + 3u_n$, then $u_n = 2(3^{n-1}) - 1$.\n\n(c) If a sequence is defined by $u_1 = 2$ and $u_{n+1} = \\frac{u_n}{2(n+1)}$ for all $n \\in \\mathbb{Z}^+$, then $u_n = \\frac{2^{2-n}}{n!}$.\n\n(d) If a sequence is defined by $u_1 = 1$ and $u_{n+1} = u_n + (-1)^n(n+1)^2$ for all $n \\in \\mathbb{Z}^+$, then $u_n = \\frac{(-1)^{n-1}n(n+1)}{2}$.\n\n(e) If a sequence $\\{u_n\\}$ satisfies $u_{n+1} = \\frac{u_n}{u_n + 1}$, then $u_n = \\frac{u_0}{nu_0 + 1}$ for all $n \\in \\mathbb{Z}^+$.\n\n17. Use the principle of mathematical induction to prove that:\n\n(a) the sum of the first $n$ terms in an arithmetic series with first term $u_1$ and common difference $d$ is $\\frac{n}{2}(2u_1 + (n-1)d)$ for all $n \\in \\mathbb{Z}^+$\n\n(b) the sum of the first $n$ terms in a geometric series with first term $u_1$ and common ratio $r$ is $\\frac{u_1(1 - r^n)}{1 - r}$, $r \\neq 1$ for all $n \\in \\mathbb{Z}^+$.",
+      "source_images": ["image2934.png", "image2935.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "18. A sequence is defined by $u_1 = 1$ and $u_{n+1} = u_n + (2n + 1)$ for all $n \\in \\mathbb{Z}^+$.\n\n(a) By finding $u_n$ for $n = 2, 3,$ and $4$, conjecture a formula for $u_n$ in terms of $n$ only.\n\n(b) Prove that your conjecture is true using the principle of mathematical induction.\n\n(c) Find the value of $u_{20}$.",
+      "source_images": ["image2936.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "19. A sequence is defined by $u_1 = \\frac{1}{3}$ and $u_{n+1} = u_n + \\frac{1}{(2n+1)(2n+3)}$ for all $n \\in \\mathbb{Z}^+$.\n\n(a) By finding $u_n$ for $n = 2, 3,$ and $4$, conjecture a formula for $u_n$ in terms of $n$ only.\n\n(b) Prove that your conjecture is true using the principle of mathematical induction.\n\n(c) Find the value of $u_{50}$.\n\n20. $(2 + \\sqrt{3})^n = A_n + B_n\\sqrt{3}$ for all $n \\in \\mathbb{Z}^+$, where $A_n$ and $B_n$ are integers.\n\n(a) Find $A_n$ and $B_n$ for $n = 1, 2, 3,$ and $4$.\n\n(b) Without using induction, show that $A_{n+1} = 2A_n + 3B_n$ and $B_{n+1} = A_n + 2B_n$.\n\n(c) Calculate $(A_n)^2 - 3(B_n)^2$ for $n = 1, 2, 3,$ and $4$ and hence conjecture a result.\n\n(d) Prove that your conjecture is true.\n\n21. Sometimes, in order to prove the next inductive step, we require the previous two cases. Another form of the principle of mathematical induction is therefore:\n\nSuppose $P_n$ is a proposition defined for all $n \\in \\mathbb{Z}^+$.\n\nIf $P_1$ and $P_2$ are true, and also $P_{k+2}$ is true whenever $P_k$ and $P_{k+1}$ are true, then $P_n$ is true for all $n \\in \\mathbb{Z}^+$.\n\nUse this form to prove that:\n\n(a) If a sequence $u_n$ is defined by $u_1 = 11$, $u_2 = 37$, and $u_{n+2} = 5u_{n+1} - 6u_n$ for all $n \\in \\mathbb{Z}^+$, then $u_n = 5(3^n) - 2^{n+1}$.\n\n(b) If $u_n = (3 + \\sqrt{5})^n + (3 - \\sqrt{5})^n$ where $n \\in \\mathbb{Z}^+$, then $u_n$ is a multiple of $2^n$.\n\nHint: First find $a$ and $b$ such that $u_{n+2} = au_{n+1} + bu_n$.",
+      "source_images": ["image2937.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 9\n\nUse the principle of mathematical induction to prove that:\n\n$2\\cos 2x + 2\\cos 4x + 2\\cos 6x + .... + 2\\cos 2nx = \\frac{\\sin[(2n+1)x]}{\\sin x} - 1$ for all $n \\in \\mathbb{Z}^+$.\n\n$P_n$ is: $2\\cos 2x + 2\\cos 4x + 2\\cos 6x + .... + 2\\cos 2nx = \\frac{\\sin[(2n+1)x]}{\\sin x} - 1$ for all $n \\in \\mathbb{Z}^+$.\n\n(1) If $n = 1$, LHS $= 2\\cos 2x$ and RHS $= \\frac{\\sin 3x}{\\sin x} - 1$\n\n$= \\frac{\\sin(2x + x)}{\\sin x} - 1$\n\n$= \\frac{\\sin 2x \\cos x + \\cos 2x \\sin x}{\\sin x} - 1$\n\n$= \\frac{(2\\sin x \\cos x)\\cos x + \\cos 2x \\sin x}{\\sin x} - 1$\n\n$= 2\\cos^2 x + \\cos 2x - 1$\n\n$= (2\\cos^2 x - 1) + \\cos 2x$\n\n$= 2\\cos 2x$ $\\therefore$ $P_1$ is true.\n\n(2) If $P_k$ is true, then $2\\cos 2x + 2\\cos 4x + 2\\cos 6x + .... + 2\\cos 2kx = \\frac{\\sin[(2k+1)x]}{\\sin x} - 1$\n\n$\\therefore$ $2\\cos 2x + 2\\cos 4x + 2\\cos 6x + .... + 2\\cos 2kx + 2\\cos[2(k+1)x]$\n\n$= \\left(\\frac{\\sin[(2k+1)x]}{\\sin x} - 1\\right) + 2\\cos[2(k+1)x] \\times \\left(\\frac{\\sin x}{\\sin x}\\right)$\n\n$= \\frac{\\sin[(2k+1)x] + 2\\sin x \\cos[2(k+1)x]}{\\sin x} - 1$\n\n$= \\frac{\\sin[(2k+1)x] + \\sin[x + 2(k+1)x] + \\sin[x - 2(k+1)x]}{\\sin x} - 1$\n\n$\\{2\\sin A \\cos B = \\sin(A + B) + \\sin(A - B)\\}$\n\n$= \\frac{\\sin[(2k+1)x] + \\sin[(2(k+1)+1)x] + \\sin[-(2k+1)x]}{\\sin x} - 1$\n\n$= \\frac{\\sin[(2k+1)x] + \\sin[(2(k+1)+1)x] - \\sin[(2k+1)x]}{\\sin x} - 1$\n\n$= \\frac{\\sin[(2(k+1)+1)x]}{\\sin x} - 1$\n\nSince $P_1$ is true, and $P_{k+1}$ is true whenever $P_k$ is true,\n\n$P_n$ is true for all $n \\in \\mathbb{Z}^+$. $\\{$principle of mathematical induction$\\}$",
+      "source_images": ["image2938.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "22. (a) Simplify $1 + \\sin x + \\sin^2 x + \\sin^3 x + \\sin^4 x + .... + \\sin^{n-1} x$.\n\n(b) Find the sum of the infinite series $1 + \\sin x + \\sin^2 x + \\sin^3 x + ....$\n\n(c) Find the value of $x$ between $0$ and $2\\pi$ such that the series in (b) has sum $\\frac{2}{3}$.",
+      "source_images": ["image2939.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "23. We know that $2\\sin x \\cos x = \\sin 2x$.\n\n(a) Show that:\n\n(i) $2\\sin x(\\cos x + \\cos 3x) = \\sin 4x$\n\n(ii) $2\\sin x(\\cos x + \\cos 3x + \\cos 5x) = \\sin 6x$\n\n(b) Predict what the following would simplify to:\n\n(i) $2\\sin x(\\cos x + \\cos 3x + \\cos 5x + \\cos 7x)$\n\n(ii) $\\cos x + \\cos 3x + \\cos 5x + .... + \\cos 19x$ (10 terms)\n\n(iii) $\\cos x + \\cos 3x + \\cos 5x + .... + \\cos[(2n-1)x]$ ($n$ terms)\n\n(c) Use the principle of mathematical induction to prove that:\n\n$\\cos \\theta + \\cos 3\\theta + \\cos 5\\theta + .... + \\cos(2n-1)\\theta = \\frac{\\sin 2n\\theta}{2\\sin \\theta}$ for all $n \\in \\mathbb{Z}^+$.\n\n24. (a) Use the principle of mathematical induction to prove that:\n\n$\\sin \\theta + \\sin 3\\theta + \\sin 5\\theta + .... + \\sin(2n-1)\\theta = \\frac{1 - \\cos 2n\\theta}{2\\sin \\theta}$ for all positive integers $n$.\n\n(b) Hence find the value of $\\sin \\frac{\\pi}{7} + \\sin \\frac{3\\pi}{7} + \\sin \\frac{5\\pi}{7} + \\sin \\pi + \\sin \\frac{9\\pi}{7} + \\sin \\frac{11\\pi}{7} + \\sin \\frac{13\\pi}{7}$.\n\n25. Use the principle of mathematical induction to prove that for all $n \\in \\mathbb{Z}^+$:\n\n(a) $\\frac{1}{2}\\tan \\frac{x}{2} + \\frac{1}{4}\\tan \\frac{x}{4} + .... + \\frac{1}{2^n}\\tan \\frac{x}{2^n} = \\frac{1}{2^n}\\cot \\frac{x}{2^n} - \\cot x$ provided $x \\neq m\\pi$\n\n(b) $\\cos^2 \\theta + \\cos^2 2\\theta + \\cos^2 3\\theta + \\cos^2 4\\theta + .... + \\cos^2(n\\theta) = \\frac{1}{2}\\left[n + \\frac{\\cos[(n+1)\\theta]\\sin n\\theta}{\\sin \\theta}\\right]$.\n\n26. Use the principle of mathematical induction to prove:\n\n(a) the binomial expansion\n\n$(x + y)^n = \\sum_{i=0}^{n} \\binom{n}{i} x^{n-i}y^i$ for all $n \\in \\mathbb{Z}^+$.\n\nYou may assume that $\\binom{k}{i} + \\binom{k}{i-1} = \\binom{k+1}{i}$.\n\n(b) Fermat's Small Theorem \"$n^p - n$ is divisible by $p$ for any prime $p$ and $n \\in \\mathbb{Z}^+$\".",
+      "source_images": ["image2940.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 10\n\nProve that if $x \\neq 1$, then\n\n$\\prod_{i=1}^{n} (1 + x^{2^{i-1}}) = (1+x)(1+x^2)(1+x^4) .... (1+x^{2^{n-1}}) = \\frac{1 - x^{2^n}}{1 - x}$ for all $n \\in \\mathbb{Z}^+$.\n\n$P_n$ is: For $x \\neq 1$, $\\prod_{i=1}^{n} (1 + x^{2^{i-1}}) = (1+x)(1+x^2)(1+x^4) .... (1+x^{2^{n-1}}) = \\frac{1 - x^{2^n}}{1 - x}$, $n \\in \\mathbb{Z}^+$.\n\nProof: (By the principle of mathematical induction)\n\n(1) If $n = 1$, LHS $= 1 + x$\n\nRHS $= \\frac{1 - x^2}{1 - x} = \\frac{(1-x)(1+x)}{1-x} = 1 + x$ as $x \\neq 1$.\n\n$\\therefore$ $P_1$ is true.\n\n(2) If $P_k$ is true, then $(1+x)(1+x^2)(1+x^4) .... (1+x^{2^{k-1}}) = \\frac{1 - x^{2^k}}{1 - x}$\n\nNow $(1+x)(1+x^2)(1+x^4) .... (1+x^{2^{k-1}})(1+x^{2^k})$\n\n$= \\left(\\frac{1 - x^{2^k}}{1 - x}\\right) \\times (1 + x^{2^k})$ $\\{$using $P_k\\}$\n\n$= \\frac{1 - (x^{2^k})^2}{1 - x}$ $\\{(a-b)(a+b) = a^2 - b^2\\}$\n\n$= \\frac{1 - x^{2^k \\times 2^1}}{1 - x}$\n\n$= \\frac{1 - x^{2^{k+1}}}{1 - x}$\n\nSince $P_1$ is true, and $P_{k+1}$ is true whenever $P_k$ is true,\n\n$P_n$ is true for all $n \\in \\mathbb{Z}^+$. $\\{$principle of mathematical induction$\\}$",
+      "source_images": ["image2941.png", "image2942.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "27. Use the principle of mathematical induction to prove that:\n\n(a) $\\prod_{i=1}^{n} \\left(1 - \\frac{1}{i+1}\\right) = \\left(1 - \\frac{1}{2}\\right)\\left(1 - \\frac{1}{3}\\right)\\left(1 - \\frac{1}{4}\\right) .... \\left(1 - \\frac{1}{n+1}\\right) = \\frac{1}{n+1}$, $n \\in \\mathbb{Z}^+$\n\n(b) $\\left(1 - \\frac{1}{2^2}\\right)\\left(1 - \\frac{1}{3^2}\\right)\\left(1 - \\frac{1}{4^2}\\right) .... \\left(1 - \\frac{1}{n^2}\\right) = \\frac{n+1}{2n}$ for all integers $n \\geqslant 2$.\n\n28. Prove that the product of $n$ odd integers is odd for $n \\geqslant 2$.\n\n29. From $\\sin 2x = 2\\sin x \\cos x$ we observe that $\\sin x \\cos x = \\frac{\\sin 2x}{2} = \\frac{\\sin(2^1 x)}{2^1}$.\n\n(a) Prove that:\n\n(i) $\\sin x \\cos x \\cos 2x = \\frac{\\sin(2^2 x)}{2^2}$\n\n(ii) $\\sin x \\cos x \\cos 2x \\cos 4x = \\frac{\\sin(2^3 x)}{2^3}$\n\n(b) Assuming the pattern in (a) continues, simplify:\n\n(i) $\\sin x \\cos x \\cos 2x \\cos 4x \\cos 8x$\n\n(ii) $\\sin x \\cos x \\cos 2x .... \\cos 32x$\n\n(c) Generalise the results from (a) and (b). Prove your generalisation using the principle of mathematical induction.\n\n30. Use the principle of mathematical induction to prove that:\n\n(a) $(z_1 + z_2 + .... + z_n)^* = z_1^* + z_2^* + .... + z_n^*$ for all $n \\in \\mathbb{Z}^+$ and complex $z_1, z_2, ...., z_n$\n\n(b) $(z_1 z_2 .... z_n)^* = z_1^* z_2^* .... z_n^*$ for all $n \\in \\mathbb{Z}^+$ and complex $z_1, z_2, ...., z_n$\n\n(c) $(z^n)^* = (z^*)^n$ for all $n \\in \\mathbb{Z}^+$ and complex $z$.",
+      "source_images": ["image2943.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 11\n\nProve that $2^{-n} < \\frac{1}{n}$ for all $n \\in \\mathbb{Z}^+$.\n\n$P_n$ is: $2^{-n} < \\frac{1}{n}$ for all $n \\in \\mathbb{Z}^+$.\n\nProof: (By the principle of mathematical induction)\n\n(1) If $n = 1$, LHS $= 2^{-1} = \\frac{1}{2}$ and RHS $= \\frac{1}{1} = 1$\n\n$\\therefore$ $P_1$ is true.\n\n(2) If $P_k$ is true, then $2^{-k} < \\frac{1}{k}$ for some $k \\geqslant 1$.\n\nNow $2^{-(k+1)} = 2^{-k} \\times \\frac{1}{2}$\n\n$< \\frac{1}{k} \\times \\frac{1}{2}$ $\\{$using $P_k\\}$\n\n$< \\frac{1}{k+1}$ $\\{k \\geqslant 1$, so $2k \\geqslant k + 1\\}$\n\nSince $P_1$ is true, and $P_{k+1}$ is true whenever $P_k$ is true,\n\n$P_n$ is true for all $n \\in \\mathbb{Z}^+$. $\\{$principle of mathematical induction$\\}$",
+      "source_images": ["image2944.png", "image2945.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "31. Use the principle of mathematical induction to prove that:\n\n(a) $3^n \\geqslant 1 + 2n$ for all integers $n \\geqslant 0$\n\n(b) $n! \\geqslant 2^n$ for all $n \\in \\mathbb{Z}$, $n \\geqslant 4$\n\n(c) $8^n \\geqslant n^3$ for all $n \\in \\mathbb{Z}^+$\n\n(d) $\\sum_{i=1}^{n} \\frac{1}{i} \\leqslant \\frac{n}{2} + 1$ for all $n \\in \\mathbb{Z}^+$\n\n(e) $2^n > 3n^2 + 3n + 1$ for all $n \\in \\mathbb{Z}^+$, $n \\geqslant 8$\n\n(f) $1 - \\frac{1}{2} + \\frac{1}{3} - \\frac{1}{4} + \\frac{1}{5} - .... + (-1)^{n-1}\\frac{1}{n}$ is always positive for all $n \\in \\mathbb{Z}^+$.\n\n32. Use the principle of mathematical induction to prove that $(1-h)^n \\leqslant \\frac{1}{1+nh}$ for $0 \\leqslant h \\leqslant 1$ and all $n \\in \\mathbb{Z}^+$.",
+      "source_images": ["image2946.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 12\n\nProve that a convex $n$-sided polygon has $\\frac{1}{2}n(n-3)$ diagonals for all $n \\geqslant 3$.\n\n$P_n$ is: A convex $n$-sided polygon has $\\frac{1}{2}n(n-3)$ diagonals for all $n \\geqslant 3$.\n\nProof: (By the principle of mathematical induction)\n\n(1) If $n = 3$ we have a triangle with 0 diagonals,\n\nand $\\frac{1}{2} \\times 3 \\times 0 = 0$\n\n$\\therefore$ $P_3$ is true.\n\n(2) If $P_k$ is true, a convex $k$-sided polygon has $\\frac{1}{2}k(k-3)$ diagonals.\n\nWe label the vertices $1, 2, 3, 4, 5, ...., k-1, k$ and $k+1$ as an additional vertex.\n\nThe number of diagonals when $n = k + 1$ is\n\nthe number of diagonals when $n = k$, $+ k - 2 + 1$ (the line from vertex 1 to vertex $k$ was previously a side and is now a diagonal)\n\nthe number of diagonals from vertex $k + 1$ to the vertices $2, 3, 4, 5, ...., k - 1$\n\n$\\therefore$ the number of diagonals when $n = k + 1$ is\n\n$\\frac{1}{2}k(k-3) + k - 1$\n\n$= \\frac{1}{2}k(k-3) + \\frac{2}{2}(k-1)$\n\n$= \\frac{1}{2}[k^2 - 3k + 2k - 2]$\n\n$= \\frac{1}{2}[k^2 - k - 2]$\n\n$= \\frac{1}{2}(k+1)(k-2)$\n\n$= \\frac{1}{2}[k+1]([k+1] - 3)$\n\nSince $P_3$ is true, and $P_{k+1}$ is true whenever $P_k$ is true,\n\n$P_n$ is true for all $n \\geqslant 3$. $\\{$principle of mathematical induction$\\}$",
+      "source_images": ["image2947.png", "image2948.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "33. Use the principle of mathematical induction to prove that:\n\n(a) If $n$ straight lines are drawn on a plane such that each line intersects every other line and no three lines have a common point of intersection, then the plane is divided into $\\frac{n(n+1)}{2} + 1$ regions.\n\n(b) If $n$ points are placed inside a triangle, and non-intersecting lines are drawn connecting the 3 vertices of the triangle and the points within it to partition the triangle into smaller triangles, then the maximum number of triangles resulting is $2n + 1$.",
+      "source_images": ["image2949.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 10A\n\n1. Use the principle of mathematical induction to prove that for all $n \\in \\mathbb{Z}^+$:\n\n(a) $7^n + 2$ is divisible by 3\n\n(b) $\\sum_{i=1}^{n} i(i+2) = \\frac{n(n+1)(2n+7)}{6}$\n\n(c) $1 + r + r^2 + r^3 + r^4 + .... + r^{n-1} = \\frac{1 - r^n}{1 - r}$ provided $r \\neq 1$\n\n(d) $5^{2n} - 1$ is divisible by 24\n\n(e) $5^n \\geqslant 1 + 4n$\n\n(f) $3^{3n+1} + 9 \\times 2^{n+3}$ is divisible by 25.\n\n2. Prove that if $u_1 = 1$ and $u_{n+1} = 3u_n + 2^n$, then $u_n = 3^n - 2^n$ for all $n \\in \\mathbb{Z}^+$.\n\n3. Use the principle of mathematical induction to prove that for all $n \\in \\mathbb{Z}^+$:\n\n(a) $7^n - 1$ is divisible by 6\n\n(b) $\\sum_{i=1}^{n} (2i-1)^3 = n^2(2n^2 - 1)$\n\n(c) $\\sum_{i=1}^{n} \\frac{1}{(2i-1)(2i+1)} = \\frac{n}{2n+1}$\n\n(d) $\\sqrt[n]{n!} \\leqslant \\frac{n+1}{2}$\n\n(e) $3^{2n-1} + 2^{n+1}$ is divisible by 7\n\n(f) $\\sum_{i=1}^{n} i(i+1)(i+2) = \\frac{n(n+1)(n+2)(n+3)}{4}$.",
+      "source_images": ["image2950.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Prove that $3^n - 1 - 2n$ is divisible by 4 for all non-negative integers $n$.\n\n5. Use the principle of mathematical induction to prove that:\n\n$\\sin^2 \\theta + \\sin^2 2\\theta + \\sin^2 3\\theta + .... + \\sin^2(n\\theta) = \\frac{1}{2}\\left[n - \\frac{\\cos[(n+1)\\theta]\\sin n\\theta}{\\sin \\theta}\\right]$ for all $n \\in \\mathbb{Z}^+$.\n\n6. Use the principle of mathematical induction to prove that $5^{2n} + 17 \\times 7^n$ is divisible by 18 for all non-negative integers $n$.\n\n7. Consider the sequence defined by $u_0 = 1$, $u_1 = 3$, and $u_{n+2} = 4u_{n+1} - 3u_n$ for all $n \\in \\mathbb{Z}$, $n \\geqslant 0$.\n\n(a) Find the values of $u_2$, $u_3$, and $u_4$. Hence conjecture a formula for $u_n$ involving $n$ only.\n\n(b) Prove your conjecture is true using mathematical induction.",
+      "source_images": ["image2951.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 10B\n\n1. Use the principle of mathematical induction to prove that for all $n \\in \\mathbb{Z}^+$:\n\n(a) $\\sum_{i=1}^{n} (2i-1)^2 = \\frac{n(2n+1)(2n-1)}{3}$\n\n(b) $3^{2n+2} - 8n - 9$ is divisible by 64\n\n(c) $\\sum_{i=1}^{n} (2i+1)2^{i-1} = 1 + (2n-1) \\times 2^n$\n\n(d) $\\sum_{i=1}^{n} i(i+1)^2 = \\frac{n(n+1)(n+2)(3n+5)}{12}$\n\n(e) $5^n + 3^n \\geqslant 2^{2n+1}$\n\n(f) $5^{2n+1} + 13 \\times 3^{n+1}$ is divisible by 22.\n\n2. Prove that $5^n + 3$ is divisible by 4 for all integers $n \\geqslant 0$.\n\n3. Prove that if $u_1 = 9$ and $u_{n+1} = 2u_n + 3(5^n)$, then $u_n = 2^{n+1} + 5^n$ for all $n \\in \\mathbb{Z}^+$.\n\n4. Use the principle of mathematical induction to prove that:\n\n(a) $9^n - 3^n$ is divisible by 6 for all $n \\in \\mathbb{Z}^+$\n\n(b) $\\frac{1^2}{1 \\times 3} + \\frac{2^2}{3 \\times 5} + \\frac{3^2}{5 \\times 7} + .... + \\frac{n^2}{(2n-1)(2n+1)} = \\frac{n(n+1)}{2(2n+1)}$ for all $n \\in \\mathbb{Z}^+$\n\n(c) $6n^3 + 5n^2 + n$ is even for all integers $n \\geqslant 0$\n\n(d) $1^2 - 2^2 + 3^2 - 4^2 + .... + (-1)^{n+1} \\times n^2 = \\frac{1}{2}(-1)^{n+1}n(n+1)$ for all integers $n \\geqslant 1$\n\n(e) $8^{n+2} - 7n - 15$ is divisible by 49 for all $n \\in \\mathbb{Z}^+$\n\n(f) $\\frac{3}{2^2 \\times 1^2} + \\frac{5}{3^2 \\times 2^2} + .... + \\frac{2n-1}{n^2(n-1)^2} = 1 - \\frac{1}{n^2}$ for all integers $n \\geqslant 2$\n\n(g) $\\prod_{i=1}^{n} \\left(1 + \\frac{1}{i}\\right) = (1+1)\\left(1 + \\frac{1}{2}\\right)\\left(1 + \\frac{1}{3}\\right)\\left(1 + \\frac{1}{4}\\right) .... \\left(1 + \\frac{1}{n}\\right) = n + 1$ for all $n \\in \\mathbb{Z}^+$.\n\n5. Use the principle of mathematical induction to prove that for all $n \\in \\mathbb{Z}^+$,\n\n$\\frac{1}{\\sin 2x} + \\frac{1}{\\sin 4x} + \\frac{1}{\\sin 8x} + .... + \\frac{1}{\\sin(2^n x)} = \\cot x - \\cot(2^n x)$ whenever these terms are defined.\n\n6. Prove that if $u_1 = 5$ and $u_{n+1} = 2u_n - 3(-1)^n$, then $u_n = 3(2^n) + (-1)^n$ for all $n \\in \\mathbb{Z}^+$.\n\n7. (a) Show that $\\cos(\\alpha - \\beta) - \\cos(\\alpha + \\beta) = 2\\sin \\alpha \\sin \\beta$.\n\n(b) Hence show that $\\sin \\alpha \\sin \\beta = \\frac{1}{2}(\\cos(\\alpha - \\beta) - \\cos(\\alpha + \\beta))$.\n\n(c) Hence show that $\\sin[(k+1)\\theta]\\sin \\frac{\\theta}{2} + \\sin \\frac{k\\theta}{2}\\sin \\frac{(k+1)\\theta}{2} = \\sin \\frac{(k+1)\\theta}{2}\\sin \\frac{(k+2)\\theta}{2}$.\n\n(d) Use the principle of mathematical induction to prove that:\n\n$\\sin \\theta + \\sin 2\\theta + \\sin 3\\theta + .... + \\sin(n\\theta) = \\frac{\\sin \\left[\\frac{1}{2}(n+1)\\theta\\right] \\sin \\left(\\frac{1}{2}n\\theta\\right)}{\\sin \\left(\\frac{1}{2}\\theta\\right)}$ for all $n \\in \\mathbb{Z}^+$.\n\n8. Use the principle of mathematical induction to prove the pigeonhole principle:\n\n\"If $n$ items are distributed amongst $m$ pigeonholes with $n, m \\in \\mathbb{Z}^+$ and $n > m$, then at least one pigeonhole will contain at least $\\frac{n}{m}$ items.\"",
+      "source_images": ["image2952.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "8. Use the principle of mathematical induction to prove that for all $n \\in \\mathbb{Z}^+$:\n\n$\\prod_{i=1}^{n} \\cos(2^{n-1}x) = \\cos x \\times \\cos 2x \\times \\cos 4x \\times \\cos 8x \\times .... \\times \\cos(2^{n-1}x) = \\frac{\\sin(2^n x)}{2^n \\times \\sin x}$",
+      "source_images": ["image2952.png"]
+    }
+  ]
+}

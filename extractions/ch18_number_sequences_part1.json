@@ -1,0 +1,342 @@
+{
+  "chapter": 18,
+  "part": 1,
+  "images_range": "1871-1943",
+  "items": [
+    {
+      "type": "concept",
+      "content_latex": "Geometric patterns which continue indefinitely.\n\nWe often refer to them as matchstick patterns because we can construct them from matchsticks.\n\nFor the pattern of squares, we may wish to know how many matchsticks are necessary to create a future diagram, for example the 10th figure.\n\nWe may also wish to establish a rule or formula which will tell us how many matchsticks there are in a figure further along the pattern.",
+      "source_images": ["image1871.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Suppose the figure number is $n$ and the number of matches is $M$.\n\nFrom the first four figures in the pattern, we can create a summary table:\n\n| Figure number ($n$) | 1 | 2 | 3 | 4 |\n| Number of matches ($M$) | 4 | 7 | 10 | 13 |\n\nEach time the figure number $n$ is increased by 1, the number of matches $M$ is increased by 3. This suggests we compare $n \\times 3$ with $M$.\n\n| $n \\times 3$ | 3 | 6 | 9 | 12 |\n| $M$ | 4 | 7 | 10 | 13 |",
+      "source_images": ["image1872.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "| Figure number | Figure | Matches | Pattern | Explanation |\n| 1 | square | 4 | $1 \\times 3 + 1$ | L-shape + vertical |\n| 2 | 2 squares | 7 | $2 \\times 3 + 1$ | 2 L-shapes + vertical |\n| 3 | 3 squares | 10 | $3 \\times 3 + 1$ | 3 L-shapes + vertical |\n| 4 | 4 squares | 13 | $4 \\times 3 + 1$ | 4 L-shapes + vertical |",
+      "source_images": ["image1873.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "We can use the pattern to predict that:\n\nthe 10th figure has $10 \\times 3 + 1 = 31$ matches,\n\nand the 100th figure has $100 \\times 3 + 1 = 301$ matches.",
+      "source_images": ["image1874.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 1\n\n(a) Complete a table for the first four figures in the pattern of stacked squares.\n\n(b) Find how many matches are required to make the:\n\n(i) 10th figure\n\n(ii) 50th figure\n\n(c) Write a description of the pattern in words.\n\n(d) Predict a general rule for finding the number of matches $M$ in the $n$th figure.\n\nSolutions:\n\n(a)\n| Figure number | Figure | Matches | Pattern | Explanation |\n| 1 | vertical stack | 7 | $1 \\times 3 + 4$ | |\n| 2 | vertical stack | 10 | $2 \\times 3 + 4$ | |\n| 3 | vertical stack | 13 | $3 \\times 3 + 4$ | |\n| 4 | vertical stack | 16 | $4 \\times 3 + 4$ | |\n\nThe number of matches increases by 3 each time, so we look for a pattern to do with \"the figure number times three\".\n\n(b) (i) 10th figure: Matches required $= 10 \\times 3 + 4 = 34$ matches\n\n(ii) 50th figure: Matches required $= 50 \\times 3 + 4 = 154$ matches\n\n(c) The number of matches is the figure number times three, plus four.\n\n(d) For the $n$th figure the rule is $M = n \\times 3 + 4$ or $M = 3n + 4$.",
+      "source_images": ["image1875.png", "image1876.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5A\n\n1. (a) Consider the pattern: C-shapes in a row.\n\nDraw the next two figures and hence complete:\n\n| Figure number | Figure | Matches | Pattern | Explanation |\n| 1 | C | 3 | $1 \\times 3$ | C |\n| 2 | CC | 6 | $2 \\times 3$ | CC |\n| 3 | CCC | | | |\n| 4 | | | CCCC | |\n| 5 | | $5 \\times 3$ | | |\n\nThe number of matches increases by 3 each time, so we look for a pattern with \"the figure number times three\".\n\n(b) Find how many matches would be required to make the:\n\n(i) 6th figure\n\n(ii) 20th figure.\n\n(c) Copy and complete: \"The number of matches is the figure number ......\".\n\n(d) Write a general rule for determining the number of matches $M$ in the $n$th figure.\n\n2. (a) Consider the pattern: rectangles in a row.\n\nDraw the next two figures and hence complete:\n\n| Figure number | Figure | Matches | Pattern | Explanation |\n| 1 | rectangle | 4 | $1 \\times 2 + 2$ | rectangle |\n| 2 | 2 rectangles | 6 | $2 \\times 2 + 2$ | 2 rectangles |\n| 3 | 3 rectangles | | | |\n| 4 | | | $4 \\times 2 + 2$ | |\n| 5 | | | | |\n\nThe number of matches increases by 2 each time, so we look for a pattern with \"the figure number times two\".\n\n(b) Find how many matches would be required to make the:\n\n(i) 6th figure\n\n(ii) 15th figure.\n\n(c) Copy and complete this description of the pattern:\n\"The number of matches is the figure number ............ plus .... .\"\n\n(d) Write a general rule for determining the number of matches $M$ in the $n$th figure.",
+      "source_images": ["image1877.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. (a) Consider the pattern: L-shapes with extensions.\n\nDraw the next two figures and hence complete:\n\n| Figure number | Figure | Matches | Pattern | Explanation |\n| 1 | L-shape | 5 | | CL |\n| 2 | extended L | 8 | | CCL |\n| 3 | | | | |\n| 4 | | | | |\n| 5 | | | | |\n\nLook for a pattern with \"the figure number times 3\".\n\n(b) Find how many matches are required to make the:\n\n(i) 10th figure\n\n(ii) 15th figure.\n\n(c) Write a description of the pattern in words.\n\n(d) Write a general rule for determining the number of matches $M$ in the $n$th figure.\n\n4. Consider the pattern: cross shapes growing.\n\n(a) Continue the pattern for 2 more figures.\n\n(b) How many matchsticks are required to make each of the first five figures?\n\n(c) Copy and complete:\n\n| Number of figure ($n$) | 1 | 2 | 3 | 4 | 5 | 8 |\n| Number of matchsticks ($M$) | | | | | | |\n\n(d) Write a description of the pattern.\n\n(e) Write a general rule for the connection between $M$ and $n$.\n\n(f) Predict the number of matchsticks needed for the 30th figure.\n\n5. Repeat 4 for the pattern: triangles connected in a row.",
+      "source_images": ["image1878.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 3\n\nSam builds steel fences in sections.\n\nA 1-section fence is made from 4 lengths of steel.\n\nA 2-section fence is made from 7 lengths of steel.\n\nHow many lengths of steel does Sam need to make a 63-section fence?\n\nSolution:\n\nFirst we draw sketches of the next 2 or 3 cases to help establish a pattern.\n\n1-section: 4 lengths\n2-section: 7 lengths\n3-section: 10 lengths\n4-section: 13 lengths\n\nLet the number of sections be $n$ and the number of steel lengths be $S$.\n\n| Number of sections ($n$) | 1 | 2 | 3 | 4 |\n| Number of steel lengths ($S$) | 4 | 7 | 10 | 13 |\n\nWhen $n$ is increased by 1, $S$ is increased by 3. We therefore compare $3n$ with $S$.\n\n| $3n$ | 3 | 6 | 9 | 12 |\n| $S$ | 4 | 7 | 10 | 13 |\n\nThe $S$ values are always 1 more than the $3n$ values. $\\therefore S = 3n + 1$\n\nSo, when $n = 63$, $S = 3 \\times 63 + 1 = 190$.\n\n$\\therefore$ 190 lengths of steel are needed.",
+      "source_images": ["image1879.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5D\n\n1. Consider again the Opening Problem on page 96.\n\n(a) Draw the next two section type fences.\n\n(b) If $S$ is the number of steel lengths Wiktor requires to make an $n$-section fence, copy and complete the following table:\n\n| Section number ($n$) | 1 | 2 | 3 | 4 | 5 |\n| Number of lengths ($S$) | | | | | |\n\n(c) Determine the formula which connects $S$ and $n$.\n\n(d) If Wiktor has an order for a 44-section fence, how many lengths of steel are required to make it?",
+      "source_images": ["image1880.png", "image1881.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Builder Ben is experimenting with toothpicks to investigate housing designs:\n\n1 house, 2 houses, 3 houses\n\n(a) Draw toothpick diagrams for 4 houses and 5 houses.\n\n(b) If $T$ is the number of toothpicks required to make $h$ houses, copy and complete the following table:\n\n| Houses ($h$) | 1 | 2 | 3 | 4 | 5 |\n| Toothpicks ($T$) | | | | | |\n\n(c) Find the formula which connects $T$ and $h$.\n\n(d) If Ben wanted to build 25 houses in a row, how many toothpicks would he need?\n\n3. Lana the landscaper uses railway sleepers to create garden beds.\n\n1 bed, 2 beds, 3 beds\n\n(a) Copy and complete the following table:\n\n| Garden beds ($b$) | 1 | 2 | 3 | 4 | 5 |\n| Sleepers ($S$) | | | | | |\n\n(b) Find the formula that connects $S$ and $b$.\n\n(c) How many sleepers will Lana need to construct:\n\n(i) 18 garden beds\n\n(ii) 37 garden beds?\n\n4. Consider the pattern: horizontal lines with vertical marks.\n\n(a) Copy and complete the table of values:\n\n| Figure number ($n$) | 1 | 2 | 3 | 4 | 5 |\n| Number of matchsticks ($M$) | 2 | | | | |\n\n(b) Write a rule linking $n$ and $M$.\n\n5. Consider the pattern: triangles pointing right, connected.\n\n(a) Copy and complete the table of values:\n\n| Figure number ($n$) | 1 | 2 | 3 | 4 | 5 |\n| Number of matchsticks ($M$) | 3 | | | | |\n\n(b) Write a rule linking $n$ and $M$.",
+      "source_images": ["image1882.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Milan is stacking boxes containing the latest release crime novel onto a wooden pallet ready to transport to a bookshop.\n\nThe pallet weighs 20 kg and each box of novels weighs 12 kg.\n\nWe can construct a table to show the total weight of the pallet and books as each carton of books is placed on the pallet.\n\n| Number of cartons | Total weight |\n| 0 | 20 kg |\n| 1 | 32 kg |\n| 2 | 44 kg |\n| 3 | 56 kg |\n\nNotice that each time the number of cartons increases by 1, the weight increases by 12 kg.\n\nSo, the weight of $c$ cartons of novels would be $12c$ kg.",
+      "source_images": ["image1883.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "We then need to add the weight of the pallet, which is 20 kg.\n\nSo, the total weight $W$ for a pallet with $c$ cartons of novels is $W = 12c + 20$ kg.\n\nIf Milan stacks 11 cartons of novels on the pallet the total weight would be $W = 12 \\times 11 + 20 = 152$ kg.\n\nEXERCISE 5E\n\n1. Michelle has $\\pounds 2000$ in a bank account. Each week she deposits a further $\\pounds 120$.\n\n(a) Explain why the amount of money in her bank account after $n$ weeks is given by $M = 2000 + 120n$ pounds.\n\n(b) How much money does she have in her bank account after:\n\n(i) 3 weeks\n\n(ii) 6 months?\n\n2. Lars notices that the water in his home's drinking trough is only 2 cm deep. The trough is cylindrical. Each time Lars tips a bucket of water into the trough, the water level rises 1.5 cm.\n\n(a) Find how much the water level rises if $b$ buckets of water are tipped into the trough.\n\n(b) What depth $D$ cm of water is in the trough if $b$ buckets of water have been emptied into it?\n\n(c) How deep is the water in the trough if Lars tips:\n\n(i) 5 buckets\n\n(ii) 18 buckets of water into it?\n\n3. Students fill 800 mL bottles from a water cooler containing 50 litres of water.\n\n(a) How much water is used if $b$ bottles have been filled?\n\n(b) How much water $W$ litres is left in the cooler if $b$ bottles have been filled?\n\n(c) How much water is left in the cooler if:\n\n(i) 15 bottles\n\n(ii) 37 bottles have been filled?\n\n4. Jessie repairs washing machines. She charges a $60 call-out fee and $25 for each 15 minutes spent repairing the machine.\n\n(a) What will $t$ lots of 15 minutes of labour cost?\n\n(b) Find the total charge $C$ dollars for Jessie to come and spend $t$ lots of 15 minutes repairing a washing machine.\n\n(c) Find the total charge for a call-out and repairs taking:\n\n(i) 45 minutes\n\n(ii) $1\\frac{1}{2}$ hours.\n\n5. A mayor makes a promise that if he is elected, his council will plant 5000 trees in the first year, and 2004 trees each year after that, as part of their 'green' policy. The mayor is elected.\n\n(a) How many trees have been planted at the end of:\n\n(i) 2 years\n\n(ii) 3 years\n\n(iii) 4 years?\n\n(b) Write a formula for the number of trees $T$ planted after $n$ years.\n\n(c) Find the number of trees planted after 10 years.",
+      "source_images": ["image1884.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Consider the illustrated pattern of balls:\n\nThe first layer has just one blue ball.\nThe second layer has three pink balls.\nThe third layer has five black balls.\nThe fourth layer has seven green balls.\n\nIf we let $u_n$ represent the number of balls in the $n$th layer, then $u_1 = 1$, $u_2 = 3$, $u_3 = 5$, and $u_4 = 7$.\n\nThe pattern could be continued forever, generating the sequence of numbers:\n1, 3, 5, 7, 9, 11, 13, 15, 17, ....\n\nThe string of dots indicates that the pattern continues forever.\n\nA number sequence is an ordered list of numbers defined by a rule.\n\nThe numbers in a sequence are called the terms of the sequence.",
+      "source_images": ["image1885.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "We will look at three ways of describing a number sequence.\n\n(1) Using words.\nThe sequence for the pattern of balls can be described as \"starting at 1, and increasing by 2 each time\".\n\n(2) Using an explicit formula, which gives the $n$th term of the sequence $u_n$ in terms of $n$.\nThe explicit formula for the pattern of balls is $u_n = 2n - 1$. $u_n$ is called the $n$th term or the general term.\nWe can use this formula to find, for example, the 10th term of the sequence, which is $u_{10} = 2(10) - 1 = 19$.",
+      "source_images": ["image1886.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "(3) Using a recursive formula, which gives the $n$th term of the sequence in terms of one or more of the preceding terms.\n\nThe recursive formula for the pattern of balls is $u_1 = 1$, $u_n = u_{n-1} + 2$ for $n \\geqslant 2$.\n\nIn a recursive formula, at least one initial term must be defined.\n\nSo, we have $u_1 = 1$\n\n$u_2 = u_1 + 2 = 1 + 2 = 3$\n\n$u_3 = u_2 + 2 = 3 + 2 = 5$, and so on.",
+      "source_images": ["image1887.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 7\n\nFor each of the number sequences following, state the next 3 members and write down the rule used to find the next member:\n\n(a) 1, 7, 13, 19, 25, ....\n\n(b) 50, 47, 44, 41, 38, ....\n\n(c) 2, 10, 50, 250, ....\n\nSolutions:\n\n(a) 1, 7, 13, 19, 25 (differences: +6, +6, +6, +6)\n\nTo get the next member we add 6,\n\n$\\therefore$ the next 3 members are: 31, 37 and 43.\n\nRule: 'The next member is equal to the previous one, plus 6.'\n\n(b) 50, 47, 44, 41, 38 (differences: -3, -3, -3, -3)\n\nTo get the next member we take 3,\n\n$\\therefore$ the next 3 members are: 35, 32 and 29.\n\nRule: 'The next member is equal to the previous one, minus 3.'\n\n(c) 2, 10, 50, 250 (ratios: $\\times 5$, $\\times 5$, $\\times 5$)\n\nTo get the next member we multiply by 5,\n\n$\\therefore$ the next 3 members are: 1250, 6250, 31250.\n\nRule: 'The next member is equal to the previous one multiplied by 5.'",
+      "source_images": ["image1888.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 16A\n\n1. Consider the number sequence 2, 4, 7, 11, 16, 22, ..... Find:\n\n(a) $u_2$\n\n(b) $u_5$\n\n(c) $u_1 + u_2 + u_3$.\n\n2. Write down the first five terms of the sequence:\n\n(a) starting at 3, and increasing by 4 each time\n\n(b) starting at 40, and decreasing by 5 each time\n\n(c) whose $n$th term is the $n$th prime number.\n\n3. Describe the sequence 5, 8, 11, 14, 17, 20, .... using:\n\n(a) words\n\n(b) a recursive formula.\n\n4. Describe the sequence 1, 4, 9, 16, 25, 36, .... using:\n\n(a) words\n\n(b) an explicit formula.\n\n5. Find the 5th term of the sequence with explicit formula:\n\n(a) $u_n = 3n + 4$\n\n(b) $u_n = 54 - 7n$\n\n(c) $u_n = 3 \\times 2^n$\n\n(d) $u_n = n^2 + 2$\n\n6. Consider the sequence with explicit formula $u_n = 50 - n^2$. Find:\n\n(a) the 6th term\n\n(b) the sum of the first 3 terms\n\n(c) the first term of the sequence which is negative.\n\n7. Find the first four terms of the sequence with recursive formula:\n\n(a) $u_1 = 7$, $u_n = u_{n-1} + 3$, $n \\geqslant 2$\n\n(b) $u_1 = 25$, $u_n = u_{n-1} - 4$, $n \\geqslant 2$\n\n(c) $u_1 = 5$, $u_n = 3 \\times u_{n-1}$, $n \\geqslant 2$\n\n(d) $u_1 = 100$, $u_n = \\frac{u_{n-1}}{2}$, $n \\geqslant 2$\n\n(e) $u_1 = 3$, $u_n = 2 \\times u_{n-1} - 1$, $n \\geqslant 2$\n\n(f) $u_1 = 4$, $u_n = 10 - u_{n-1}$, $n \\geqslant 2$\n\n(g) $u_1 = 3$, $u_2 = 4$, $u_n = u_{n-1} \\times u_{n-2}$, $n \\geqslant 3$",
+      "source_images": ["image1889.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5F\n\n1. For each of the number sequences following, state the next 3 members and write down the rule used to find the next member:\n\n(a) 1, 4, 7, 10, 13, ....\n\n(b) 11, 15, 19, 23, 27, ....\n\n(c) 2, 9, 16, 23, 30, ....\n\n(d) 6, 12, 18, 24, ....\n\n(e) 13, 22, 31, 40, ....\n\n(f) 7, 20, 33, 46, ....\n\n(g) 2, 1, 0, $-1$, ....\n\n(h) 8, 5, 2, ....\n\n(i) $-11$, $-7$, $-3$, ....\n\n2. For each of the number sequences following, state the next 3 members and write down the rule used to find the next member:\n\n(a) 38, 36, 34, 32, 30, ....\n\n(b) 29, 26, 23, 20, ....\n\n(c) 57, 51, 45, 39, ....\n\n(d) 100, 97, 94, 91, ....\n\n(e) 250, 242, 234, 226, ....\n\n(f) 65, 61, 57, 53, 49, ....\n\n(g) 1, 2, 4, 8, 16, ....\n\n(h) 2, 6, 18, 54, ....\n\n(i) 2, 8, 32, 128, ....\n\n(j) 64, 32, 16, 8, 4, ....\n\n(k) 80, 40, 20, 10, ....\n\n(l) 243, 81, 27, 9, ....",
+      "source_images": ["image1890.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Using the first number and rule given, state the next three numbers in each sequence:\n\n(a) 7 'add 6'\n\n(b) 3 'add 9'\n\n(c) 4 'add $1\\frac{1}{2}$'\n\n(d) 56 'take 11'\n\n(e) 150 'subtract 25'\n\n(f) 4 'multiply by 2 then add 3'\n\n(g) 3 'times by 10 then subtract 4'\n\n(h) 97 'add one then divide by two'\n\n4. Write down the number missing from each pattern:\n\n(a) 3, 9, $\\square$, 21, 27\n\n(b) 12, $\\square$, 36, 48, 60\n\n(c) 75, 60, $\\square$, 30, 15\n\n(d) 3, 6, $\\square$, 24, 48\n\n(e) 6, 10, $\\square$, 21, 28, 36\n\n(f) 3, 9, 27, $\\square$, 243\n\n(g) 10, $\\square$, 32, 43\n\n(h) 2, 6, 24, $\\square$, 720\n\n(i) 100, 50, $\\square$, $12\\frac{1}{2}$\n\n(j) 2, 5, 11, $\\square$, 47\n\n(k) 96, $\\square$, 6, $1\\frac{1}{2}$\n\n5. State the next 3 members of these sequences. How are the next members found?\n\n(a) 2, 3, 5, 8, 12, 17, ......\n\n(b) 1, 1, 2, 3, 5, 8, 13, ......",
+      "source_images": ["image1891.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 5A\n\n1. The following diamond pattern has dots marked where the diamonds cross:\n\n(a) Complete the table of values:\n\n| Number of diamonds ($n$) | 1 | 2 | 3 | 4 | 5 |\n| Number of dots ($D$) | | | | | |\n\n(b) Use the table of values to find the rule linking the number of dots $D$ with the number of diamonds $n$.\n\n(c) Use the rule to find the number of dots if there are 32 diamonds.",
+      "source_images": ["image1892.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Find:\n\n(a) the output number if the input number is 27 and the rule is \"one third the input number minus two\"\n\n(b) the input number if the output number is 37 and the rule is \"twice the input number minus three\".\n\n3. For $y = 4x - 2$, copy and complete the table of values:\n\n| $x$ | 1 | 3 | 6 | 10 |\n| $y$ | | | | |\n\n4. Consider the rule: treble the input number then add five.\nCalculate the input numbers for the output numbers given.\n\n| Input | Output |\n| | 11 |\n| | 20 |\n| | 32 |\n\n5. Write a formula connecting the variables in the table:\n\n(a)\n| $t$ | 1 | 2 | 3 | 4 |\n| $Q$ | 1 | 7 | 13 | 19 |\n\n(b)\n| $m$ | 1 | 2 | 3 | 4 |\n| $G$ | 4 | 11 | 18 | 25 |\n\n6. The following patterns are made with matchsticks:\n\n(a) Copy and complete the table of values:\n\n| Figure number ($n$) | 1 | 2 | 3 | 4 | 5 |\n| Number of matchsticks ($M$) | | | | | |\n\n(b) Use the table of values to find the rule linking the number of matchsticks $M$ with the figure number $n$.\n\n(c) Use the rule to find the number of matchsticks needed for the 20th figure.\n\n7. Irena has $263 in her bank, and she decides to take $5 from it each week.\n\n(a) Find the amount of money that she will take from the bank in $w$ weeks.\n\n(b) Find the total amount $A$ (in dollars) left in the bank after $w$ weeks.\n\n(c) How much money will be in the bank after:\n\n(i) 12 weeks\n\n(ii) 1 year?\n\n8. Find the next two members of these sequences and state the rules used to find them:\n\n(a) 82, 75, 68, 61, .....\n\n(b) 3, 6, 12, 24, ......\n\n(c) 4, 2, 1, $\\frac{1}{2}$, ......",
+      "source_images": ["image1893.png", "image1894.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 5B\n\n1. The following patterns are made with matchsticks:\n\n(a) Copy and complete the table of values:\n\n| Figure number ($n$) | 1 | 2 | 3 | 4 | 5 |\n| Number of matchsticks ($M$) | | | | | |\n\n(b) Use the table of values to find the rule linking the number of matchsticks $M$ with the figure number $n$.\n\n(c) Use the rule to find the number of matchsticks needed for the 50th figure.\n\n2. Consider the rule: double the input number then subtract three.\nCalculate the input numbers for the output numbers given.\n\n| Input | Output |\n| | 7 |\n| | 13 |\n| | 25 |\n\n3. For $y = 3x + 5$, copy and complete the table of values:\n\n| $x$ | 1 | 4 | 7 | 15 |\n| $y$ | | | | |\n\n4. Write a formula connecting the variables in the table:\n\n(a)\n| $r$ | 1 | 2 | 3 | 4 |\n| $D$ | 3 | 8 | 13 | 18 |\n\n(b)\n| $s$ | 1 | 2 | 3 | 4 |\n| $N$ | 3 | 7 | 11 | 15 |",
+      "source_images": ["image1895.png", "image1896.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. The following patterns are made with matchsticks:\n\n(a) Copy and complete the table of values:\n\n| Figure number ($n$) | 1 | 2 | 3 | 4 | 5 |\n| Number of matchsticks ($M$) | | | | | |\n\n(b) Write a rule linking $n$ and $M$.\n\n(c) How many matchsticks would be required for the 30th figure?\n\n6. The cost $C$ of hiring a room for a function is given by $C = 150 + 30g$ euros where $g$ is the number of guests. Find the cost of hiring the room for:\n\n(a) 20 guests\n\n(b) 50 guests\n\n(c) 90 guests\n\n7. (a) Write down the next two members of the following sequences and state the rules used to find them:\n\n(i) 11, 8, 5, 2, ......\n\n(ii) 1, 2, 4, 7, 11, ......\n\n(b) Find the missing member of: 2, 6, 12, $\\square$, 30, 42, ......\nIn a sentence explain how you found it.\n\n8. A Youth Club hires a bus to take a group of children to the zoo. Their costs are $80 for the bus, plus $5 per person entrance to the zoo.\n\n(a) Find the entry cost for $p$ people to go into the zoo.\n\n(b) Find the total cost $C$ dollars for the Youth Club to take $p$ people to the zoo.\n\n(c) How much would it cost if (i) 12 people (ii) 27 people went to the zoo?",
+      "source_images": ["image1897.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5A\n\n1. Write down the first four terms of the sequence if you start with:\n\n(a) 4 and add 9 each time\n\n(b) 45 and subtract 6 each time\n\n(c) 2 and multiply by 3 each time\n\n(d) 96 and divide by 2 each time.\n\n2. The sequence of prime numbers is 2, 3, 5, 7, 11, 13, 17, 19, .... Write down the value of:\n\n(a) $u_2$\n\n(b) $u_5$\n\n(c) $u_{10}$.",
+      "source_images": ["image1898.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Consider the sequence 4, 7, 10, 13, 16, ....\n\n(a) Describe the sequence in words.\n\n(b) Write down the values of $u_1$ and $u_4$.\n\n(c) Assuming the pattern continues, find the value of $u_8$.\n\n4. A sequence is defined by the explicit formula $u_n = 2n + 5$.\n\n(a) Write down the first four terms of the sequence.\n\n(b) Display these terms on a graph.",
+      "source_images": ["image1899.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. A sequence is defined by the explicit formula $u_n = 3n - 2$. Find:\n\n(a) $u_1$\n\n(b) $u_5$\n\n(c) $u_{27}$.",
+      "source_images": ["image1900.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. Consider the number sequence $-9$, $-6$, $-1$, 6, 15, ....\n\n(a) Which of these is the correct explicit formula for this sequence?\n\nA $u_n = n - 10$\n\nB $u_n = n^2 - 10$\n\nC $u_n = n^3 - 10$\n\n(b) Use the correct formula to find the 20th term of the sequence.\n\n7. Write a description of the sequence and find the next 2 terms:\n\n(a) 8, 16, 24, 32, ....\n\n(b) 2, 5, 8, 11, ....\n\n(c) 36, 31, 26, 21, ....\n\n(d) 96, 89, 82, 75, ....\n\n(e) 1, 4, 16, 64, ....\n\n(f) 2, 6, 18, 54, ....\n\n(g) 480, 240, 120, 60, ....\n\n(h) 243, 81, 27, 9, ....\n\n(i) 50000, 10000, 2000, 400, ....\n\n8. Describe the sequence and write down the next 3 terms:\n\n(a) 1, 4, 9, 16, ....\n\n(b) 1, 8, 27, 64, ....\n\n(c) 2, 6, 12, 20, ....\n\n9. Find the next two terms of the sequence:\n\n(a) 95, 91, 87, 83, ....\n\n(b) 5, 20, 80, 320, ....\n\n(c) 1, 16, 81, 256, ....\n\n(d) 2, 3, 5, 7, 11, ....\n\n(e) 2, 4, 7, 11, ....\n\n(f) 9, 8, 10, 7, 11, ....\n\n10. Evaluate the first five terms of the sequence:\n\n(a) $\\{2n\\}$\n\n(b) $\\{2n - 3\\}$\n\n(c) $\\{2n + 11\\}$\n\n(d) $\\{4n - 3\\}$\n\n(e) $\\{2^n\\}$\n\n(f) $\\{6 \\times (\\frac{1}{2})^n\\}$\n\n(g) $\\{(-2)^n\\}$\n\n(h) $\\{15 - (-2)^n\\}$",
+      "source_images": ["image1901.png"]
+    },
+    {
+      "type": "definition",
+      "content_latex": "An arithmetic sequence is a sequence in which each term differs from the previous one by the same fixed number. We call this number the common difference.",
+      "source_images": ["image1902.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "For example:\n\n- the sequence 1, 5, 9, 13, 17, .... is arithmetic with common difference 4, since\n$5 - 1 = 4$\n$9 - 5 = 4$\n$13 - 9 = 4$, and so on.\n\n- the sequence 42, 37, 32, 27, .... is arithmetic with common difference $-5$, since\n$37 - 42 = -5$\n$32 - 37 = -5$\n$27 - 32 = -5$, and so on.",
+      "source_images": ["image1903.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "THE GENERAL TERM FORMULA\n\nIf we know that a sequence is arithmetic, we can use a formula to find the value of any term of the sequence.\n\nSuppose the first term of an arithmetic sequence is $u_1$ and the common difference is $d$.\n\nThen $u_2 = u_1 + d$, $u_3 = u_1 + 2d$, $u_4 = u_1 + 3d$, and so on.\n\nHence $u_n = u_1 + (n-1)d$\n\nwhere the term number is $n$ and the coefficient of $d$ is one less than the term number.",
+      "source_images": ["image1904.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "The name \"arithmetic\" is given because the middle term of any three consecutive terms is the arithmetic mean of the terms on either side.\n\nIf the terms are $a$, $b$, $c$, then $b - a = c - b$ (equating common differences)\n\n$\\therefore 2b = a + c$\n\n$\\therefore b = \\frac{a + c}{2}$ which is the arithmetic mean.",
+      "source_images": ["image1905.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 1\n\nConsider the sequence 3, 9, 15, 21, 27, ....\n\n(a) Show that the sequence is arithmetic.\n\n(b) Find a formula for the general term $u_n$.\n\n(c) Find the 100th term of the sequence.\n\n(d) Is (i) 489 (ii) 1592 a member of the sequence?\n\nSolutions:\n\n(a) $9 - 3 = 6$, $15 - 9 = 6$, $21 - 15 = 6$, $27 - 21 = 6$\n\nAssuming that the pattern continues, consecutive terms differ by 6.\n\n$\\therefore$ the sequence is arithmetic with $u_1 = 3$ and common difference $d = 6$.\n\n(b) $u_n = u_1 + (n-1)d$\n\n$\\therefore u_n = 3 + 6(n-1)$\n\n$\\therefore u_n = 6n - 3$\n\n(c) $u_{100} = 6(100) - 3 = 597$\n\n(d) (i) Let $u_n = 489$\n\n$\\therefore 6n - 3 = 489$\n\n$\\therefore 6n = 492$\n\n$\\therefore n = 82$\n\n$\\therefore$ 489 is the 82nd term of the sequence.\n\n(ii) Let $u_n = 1592$\n\n$\\therefore 6n - 3 = 1592$\n\n$\\therefore 6n = 1595$\n\n$\\therefore n = 265\\frac{5}{6}$\n\nBut $n$ must be an integer, so 1592 is not a term of the sequence.",
+      "source_images": ["image1906.png", "image1907.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 2\n\nFind $k$ given that $k + 5$, $-1$, and $2k - 1$ are consecutive terms of an arithmetic sequence.\n\nSolution:\n\nSince the terms are consecutive,\n\n$-1 - (k + 5) = (2k - 1) - (-1)$ (equating common differences)\n\n$\\therefore -1 - k - 5 = 2k - 1 + 1$\n\n$\\therefore -k - 6 = 2k$\n\n$\\therefore -6 = 3k$\n\n$\\therefore k = -2$",
+      "source_images": ["image1908.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 3\n\nFind the general term $u_n$ for an arithmetic sequence given that $u_3 = 4$ and $u_7 = -24$.\n\nSolution:\n\n$u_3 = u_1 + 2d = 4$ .... (1)\n\nand $u_7 = u_1 + 6d = -24$ .... (2)\n\n$\\therefore -4d = 28$ $\\{(1) - (2)\\}$\n\n$\\therefore d = -7$\n\nSubstituting into (1), $u_1 + 2(-7) = 4$\n\n$\\therefore u_1 - 14 = 4$\n\n$\\therefore u_1 = 18$\n\nThus $u_n = 18 + (n-1)(-7)$\n\n$\\therefore u_n = 18 - 7n + 7$\n\n$\\therefore u_n = 25 - 7n$\n\nCheck:\n$u_3 = 25 - 7(3) = 4$ $\\checkmark$\n$u_7 = 25 - 7(7) = -24$ $\\checkmark$",
+      "source_images": ["image1909.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 4\n\nFind the general term $u_n$ for an arithmetic sequence with $u_3 = 8$ and $u_8 = -17$.\n\nSolution:\n\n$u_3 = 8$ $\\therefore u_1 + 2d = 8$ .... (1) $\\{$using $u_n = u_1 + (n-1)d\\}$\n\n$u_8 = -17$ $\\therefore u_1 + 7d = -17$ .... (2)\n\nWe now solve (1) and (2) simultaneously:\n\n$-u_1 - 2d = -8$ (multiplying both sides of (1) by $-1$)\n\n$u_1 + 7d = -17$\n\n$\\therefore 5d = -25$ (adding the equations)\n\n$\\therefore d = -5$\n\nSo, in (1): $u_1 + 2(-5) = 8$\n\n$\\therefore u_1 - 10 = 8$\n\n$\\therefore u_1 = 18$\n\nNow $u_n = u_1 + (n-1)d$\n\n$\\therefore u_n = 18 - 5(n-1)$\n\n$\\therefore u_n = 18 - 5n + 5$\n\n$\\therefore u_n = 23 - 5n$\n\nCheck:\n$u_3 = 23 - 5(3) = 8$ $\\checkmark$\n$u_8 = 23 - 5(8) = 23 - 40 = -17$ $\\checkmark$",
+      "source_images": ["image1910.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 5\n\nInsert four numbers between 3 and 12 so that all six numbers are in arithmetic sequence.\n\nSolution:\n\nSuppose the common difference is $d$.\n\n$\\therefore$ the numbers are 3, $3 + d$, $3 + 2d$, $3 + 3d$, $3 + 4d$, and 12\n\n$\\therefore 3 + 5d = 12$\n\n$\\therefore 5d = 9$\n\n$\\therefore d = \\frac{9}{5} = 1.8$\n\nSo, the sequence is 3, 4.8, 6.6, 8.4, 10.2, 12.",
+      "source_images": ["image1911.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 6\n\nRyan is a cartoonist. His comic strip has just been bought by a newspaper, so he sends them the 28 comic strips he has drawn so far. Each week after the first he sends 3 more comic strips to the newspaper.\n\n(a) Find the total number of comic strips sent after 1, 2, 3, and 4 weeks.\n\n(b) Show that the total number of comic strips sent after $n$ weeks forms an arithmetic sequence.\n\n(c) Find the number of comic strips sent after 15 weeks.\n\n(d) When does Ryan send his 120th comic strip?\n\nSolutions:\n\n(a) Week 1: 28 comic strips\n\nWeek 2: $28 + 3 = 31$ comic strips\n\nWeek 3: $31 + 3 = 34$ comic strips\n\nWeek 4: $34 + 3 = 37$ comic strips\n\n(b) Every week, Ryan sends 3 comic strips, so the difference between successive weeks is always 3. We have an arithmetic sequence with $u_1 = 28$ and common difference $d = 3$.\n\n(c) $u_n = u_1 + (n-1)d$\n\n$= 28 + (n-1) \\times 3$\n\n$= 25 + 3n$\n\n$\\therefore u_{15} = 25 + 3 \\times 15 = 70$\n\nAfter 15 weeks Ryan has sent 70 comic strips.\n\n(d) We want to find $n$ such that $u_n = 120$\n\n$\\therefore 25 + 3n = 120$\n\n$\\therefore 3n = 95$\n\n$\\therefore n = 31\\frac{2}{3}$\n\nRyan sends the 120th comic strip in the 32nd week.",
+      "source_images": ["image1912.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5B.1\n\n1. For each of these arithmetic sequences:\n\n(i) State $u_1$ and $d$.\n\n(ii) Find the formula for the general term $u_n$.\n\n(iii) Find the 15th term of the sequence.\n\n(a) 19, 25, 31, 37, ....\n\n(b) 101, 97, 93, 89, ....\n\n(c) 8, $9\\frac{1}{2}$, 11, $12\\frac{1}{2}$, ....\n\n(d) 31, 36, 41, 46, ....\n\n(e) 5, $-3$, $-11$, $-19$, ....\n\n(f) $a$, $a + d$, $a + 2d$, $a + 3d$, ....\n\n2. Consider the sequence 6, 17, 28, 39, 50, ....\n\n(a) Show that the sequence is arithmetic.\n\n(b) Find the formula for its general term.\n\n(c) Find the 50th term.\n\n(d) Is 325 a member?\n\n(e) Is 761 a member?\n\n3. Consider the sequence 87, 83, 79, 75, 71, ....\n\n(a) Show that the sequence is arithmetic.\n\n(b) Find the formula for its general term.\n\n(c) Find the 40th term.\n\n(d) Which term of the sequence is $-297$?\n\n4. A sequence is defined by $u_n = 3n - 2$.\n\n(a) By finding $u_{n+1} - u_n$, prove that the sequence is arithmetic.\n\n(b) Find $u_1$ and $d$.\n\n(c) Find the 57th term.\n\n(d) What is the largest term of the sequence that is smaller than 450? Which term is this?\n\n5. A sequence is defined by $u_n = \\frac{71 - 7n}{2}$.\n\n(a) Prove that the sequence is arithmetic.\n\n(b) Find $u_1$ and $d$.\n\n(c) Find $u_{75}$.\n\n(d) For what values of $n$ are the terms of the sequence less than $-200$?\n\n6. An arithmetic sequence starts 23, 36, 49, 62, .... Find the first term of the sequence to exceed 100000.\n\n7. A sequence is defined by the formula $u_1 = -12$, $u_{n+1} = u_n + 7$, $n \\geqslant 1$.\n\n(a) Prove that the sequence is arithmetic.\n\n(b) Find the 200th term of the sequence.\n\n(c) Is 1000 a member of the sequence?",
+      "source_images": ["image1913.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "8. Find $k$ given the consecutive arithmetic terms:\n\n(a) 32, $k$, 3\n\n(b) $k$, 7, 10\n\n(c) $k$, $2k - 1$, 13\n\n(d) $k$, $2k + 1$, $8 - k$\n\n(e) $2k + 7$, $3k + 5$, $5k - 4$\n\n(f) $2k + 18$, $-2 - k$, $2k + 2$\n\n(g) $k$, $k^2$, $k^2 + 6$\n\n(h) 5, $k$, $k^2 - 8$",
+      "source_images": ["image1914.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. Suppose $10k + 1$, $2k$, and $4k^2 - 5$ are consecutive terms of an arithmetic sequence.\n\n(a) Find the possible values of $k$.\n\n(b) For each value of $k$, find the common difference of the sequence.",
+      "source_images": ["image1915.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "10. Find the general term $u_n$ for an arithmetic sequence with:\n\n(a) $u_7 = 41$ and $u_{13} = 77$\n\n(b) $u_5 = -2$ and $u_{12} = -12\\frac{1}{2}$\n\n(c) seventh term 1 and fifteenth term $-39$\n\n(d) eleventh and eighth terms being $-16$ and $-11\\frac{1}{2}$ respectively.",
+      "source_images": ["image1916.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "11. Suppose a sequence $u_1$, $u_2$, $u_3$, $u_4$, $u_5$, $u_6$, .... is arithmetic.\n\n(a) Show that $u_1 + u_2$, $u_3 + u_4$, $u_5 + u_6$, .... is also arithmetic.\n\n(b) Given that $u_2 = 5$ and $u_{10} = 61$, find the 30th term of the sequence in (a).",
+      "source_images": ["image1917.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "12. Insert three numbers between 5 and 10 so that all five numbers are in arithmetic sequence.\n\n13. Insert six numbers between $-1$ and 32 so that all eight numbers are in arithmetic sequence.\n\n14. (a) Insert three numbers between 50 and 44 so that all five numbers are in arithmetic sequence.\n\n(b) Assuming the sequence continues, find the first negative term of the sequence.\n\n15. $\\frac{1}{k}$, $k$, $k^2 + 1$ are respectively the 3rd, 4th, and 6th terms of an arithmetic sequence.\n\nGiven that $k \\in \\mathbb{Q}$, find:\n\n(a) $k$\n\n(b) the general term $u_n$.\n\n16. The three numbers $x$, $y$, and $z$ are such that $x > y > z > 0$.\n\nShow that if $\\frac{1}{x}$, $\\frac{1}{y}$, and $\\frac{1}{z}$ are consecutive terms of an arithmetic sequence, then $x - z$, $y$, and $x - y + z$ could be the lengths of the sides of a right angled triangle.\n\n17. It is known that there are infinitely many prime numbers. Is it possible to construct an infinite arithmetic sequence such that all of the terms are distinct primes? Explain your answer.",
+      "source_images": ["image1918.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "18. A luxury car manufacturer sets up a factory for a new model vehicle. In the first month only 5 cars are made. After this, 13 cars are made every month.\n\n(a) List the total number of cars that have been made by the end of each of the first six months.\n\n(b) Explain why the total number of cars made after $n$ months forms an arithmetic sequence.\n\n(c) How many cars are made in the first year?\n\n(d) How long is it until the 250th car is made?",
+      "source_images": ["image1919.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "19. At the start of the dry season, Yafiah's 3000 L water tank is full. She uses 183 L of water each week to water her garden.\n\n(a) Find the amount of water left in the tank after 1, 2, 3, and 4 weeks.\n\n(b) Explain why the amount of water left in the tank after $n$ weeks forms an arithmetic sequence.\n\n(c) When will Yafiah's tank run out of water?",
+      "source_images": ["image1920.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "APPROXIMATIONS USING ARITHMETIC SEQUENCES\n\nIn the real-world questions we have just seen, exactly the same number of items is added or subtracted in each time period. We can therefore use an arithmetic sequence to model the number of items exactly.\n\nMost real-world scenarios will not be this exact. Instead, random variation may give us a sequence where the difference between terms is similar, but not the same. In these cases we can use an arithmetic sequence as an approximation.\n\nFor example, the table below shows the total mass of people in a lift as they walk in:\n\n| $n$ (people) | 1 | 2 | 3 | 4 | 5 | 6 |\n| Mass (kg) | 86.2 | 147.5 | 210.1 | 298.4 | 385.0 | 459.8 |\n\nNo two people will have exactly the same mass, so the total mass of people will not form an exact arithmetic sequence. However, since the average mass of the people is $\\frac{459.8}{6} \\approx 76.6$ kg, a reasonable model for the total mass would be the arithmetic sequence $u_n = 76.6n$.",
+      "source_images": ["image1921.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5B.2\n\n1. Halina is measuring the mass of oranges on a scale. When there are 8 oranges, the total mass is 1.126 kg.\n\n(a) Find the average mass of the oranges on the scale.\n\n(b) Hence write an arithmetic sequence for $u_n$, the approximate total mass when $n$ oranges have been placed on the scale.\n\n2. Nadir has placed an empty egg carton on a set of scales. Its mass is 32 g. When the carton is filled with 12 eggs, the total mass of eggs and carton is 743 g.\n\n(a) Find the average mass of the eggs in the carton.\n\n(b) Hence write an arithmetic sequence for $u_n$, the approximate total mass when $n$ eggs have been added to the carton.\n\n(c) For what values of $n$ is your model valid?\n\n3. A farmer has 580 square bales of hay in his shed with total mass 9850 kg.\nThe farm has 8 yards of animals. Each day, the farmer feeds out 2 bales of hay to each yard.\n\n(a) Write an arithmetic sequence for the number of bales of hay remaining after $n$ days.\n\n(b) Write an arithmetic sequence which approximates the mass of hay remaining after $n$ days.\n\n4. Valeria joins a social networking website. After 1 week she has 34 online friends, and after 9 weeks she has 80 online friends.\n\n(a) Find the average number of online friends Valeria has made each week from week 1 to week 9.\n\n(b) Assuming that her total number of online friends after $n$ weeks forms an arithmetic sequence, find a model which approximates the number of online friends after $n$ weeks.\n\n(c) Do you think it is a problem that the common difference in your model is not an integer? Explain your answer.\n\n(d) Use your model to predict how many online friends Valeria will have after 20 weeks.\n\n5. A wedding reception venue advertises all-inclusive venue hire and catering costs of €6950 for 50 guests or €11950 for 100 guests.\n\nAssume that the cost of venue hire and catering for $n$ guests forms an arithmetic sequence.\n\n(a) Write a formula for the general term $u_n$ of the sequence.\n\n(b) Explain the significance of:\n\n(i) the common difference\n\n(ii) the constant term.\n\n(c) Estimate the cost of venue hire and catering for a reception with 85 guests.",
+      "source_images": ["image1922.png", "image1923.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 16B\n\n1. Determine whether the following sequences are arithmetic:\n\n(a) 2, 5, 8, 11, 14, ....\n\n(b) 5, 9, 13, 18, 22, ....\n\n(c) 29, 23, 16, 10, 4, ....\n\n(d) 11, 4, $-3$, $-10$, $-17$, ....\n\n2. Find the unknowns given that the following sequences are arithmetic:\n\n(a) 4, 10, $\\square$, 22, 28, ....\n\n(b) 13, 20, 27, $\\square$, 41, ....\n\n(c) 19, $\\square$, 11, 7, $\\triangle$, ....\n\n(d) 22, $\\square$, 4, $\\triangle$, $-14$, ....\n\n3. Write down the first term $u_1$ and common difference $d$ for the arithmetic sequence of numbers given by:\n\n(a) the green arrow\n\n(b) the blue arrow\n\n(c) the purple arrow\n\n(d) the red arrow.\n\n(Number grid from 1 to 100 with diagonal arrows shown)\n\n4. Consider the sequence 4, 11, 18, 25, 32, ....\n\n(a) Show that the sequence is arithmetic.\n\n(b) Find a formula for the general term $u_n$.\n\n(c) Find the 30th term of the sequence.\n\n(d) Is 340 a member of the sequence?\n\n(e) Is 738 a member of the sequence?\n\n5. Consider the sequence 67, 63, 59, 55, ....\n\n(a) Show that the sequence is arithmetic.\n\n(b) Find a formula for the general term $u_n$.\n\n(c) Find the 60th term of the sequence.\n\n(d) Is $-143$ a member of the sequence?\n\n(e) Is 85 a member of the sequence?\n\n6. An arithmetic sequence is defined by $u_n = 11n - 7$.\n\n(a) Find $u_1$ and $d$.\n\n(b) Find the 37th term.\n\n(c) What is the least term of the sequence which is greater than 250?",
+      "source_images": ["image1924.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. Find $k$ given the consecutive terms of an arithmetic sequence:\n\n(a) 31, $k$, 13\n\n(b) $k$, 8, $k + 11$\n\n(c) $k + 2$, $2k + 3$, 17\n\n8. (a) Find $k$ given that $k - 1$, 13, and $3k + 3$ are consecutive terms of an arithmetic sequence.\n\n(b) Write down the next two terms of the sequence.",
+      "source_images": ["image1925.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. Find the general term $u_n$ for an arithmetic sequence given that:\n\n(a) $u_4 = 37$ and $u_{10} = 67$\n\n(b) $u_5 = -10$ and $u_{12} = -38$\n\n(c) $u_4 = -4$ and $u_{15} = 29$\n\n(d) $u_{10} = -16$ and $u_6 = -13$.",
+      "source_images": ["image1926.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "10. An arithmetic sequence has $u_3 = 10$ and $u_{11} = 58$.\n\n(a) Find the general term for the sequence.\n\n(b) Find the 30th term of the sequence.",
+      "source_images": ["image1927.png"]
+    },
+    {
+      "type": "definition",
+      "content_latex": "A geometric sequence is a sequence in which each term can be obtained from the previous one by multiplying by the same non-zero number. We call this number the common ratio $r$.\n\nA sequence is geometric $\\Leftrightarrow \\frac{u_{n+1}}{u_n} = r$ for all $n \\in \\mathbb{Z}^+$.\n\nA geometric sequence can also be referred to as a geometric progression.",
+      "source_images": ["image1928.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "For example:\n\n- 2, 10, 50, 250, .... is a geometric sequence as each term can be obtained by multiplying the previous term by 5.\n\nThe common ratio is 5 since $\\frac{10}{2} = \\frac{50}{10} = \\frac{250}{50} = 5$.\n\n- 2, $-10$, 50, $-250$, .... is a geometric sequence with common ratio $-5$.\n\nThe name \"geometric\" is given because the middle term of any three consecutive terms is the geometric mean of the terms on either side.\n\nIf the terms are $a$, $b$, $c$ then $\\frac{b}{a} = \\frac{c}{b}$ (common ratio)\n\n$\\therefore b^2 = ac$\n\n$\\therefore b = \\pm\\sqrt{ac}$ where $\\sqrt{ac}$ is the geometric mean.",
+      "source_images": ["image1929.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "THE GENERAL TERM FORMULA\n\nSuppose the first term of a geometric sequence is $u_1$ and the common ratio is $r$.\n\nThen $u_2 = u_1 r$, $u_3 = u_1 r^2$, $u_4 = u_1 r^3$, and so on.\n\nHence $u_n = u_1 r^{n-1}$\n\nwhere the term number is $n$ and the power of $r$ is one less than the term number.\n\nFor a geometric sequence with first term $u_1$ and common ratio $r$, the general term or $n$th term is $u_n = u_1 r^{n-1}$.",
+      "source_images": ["image1930.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 7\n\nConsider the sequence 8, 4, 2, 1, $\\frac{1}{2}$, ....\n\n(a) Show that the sequence is geometric.\n\n(b) Find the general term $u_n$.\n\n(c) Hence find the 12th term as a fraction.\n\nSolutions:\n\n(a) $\\frac{4}{8} = \\frac{2}{4} = \\frac{1}{2} = \\frac{\\frac{1}{2}}{1}$, so consecutive terms have the common ratio $\\frac{1}{2}$.\n\n$\\therefore$ the sequence is geometric with $u_1 = 8$ and $r = \\frac{1}{2}$.\n\n(b) $u_n = u_1 r^{n-1}$\n\n$\\therefore u_n = 8(\\frac{1}{2})^{n-1}$\n\nor $u_n = 2^3 \\times 2^{-(n-1)} = 2^3 \\times 2^{1-n} = 2^{4-n}$\n\n(c) $u_{12} = 8 \\times (\\frac{1}{2})^{11} = \\frac{1}{256}$",
+      "source_images": ["image1931.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 8\n\n$k - 1$, $2k$, and $21 - k$ are consecutive terms of a geometric sequence. Find $k$.\n\nSolution:\n\nSince the terms are geometric, $\\frac{2k}{k-1} = \\frac{21-k}{2k}$ (equating the common ratio $r$)\n\n$\\therefore 4k^2 = (21 - k)(k - 1)$\n\n$\\therefore 4k^2 = 21k - 21 - k^2 + k$\n\n$\\therefore 5k^2 - 22k + 21 = 0$\n\n$\\therefore (5k - 7)(k - 3) = 0$\n\n$\\therefore k = \\frac{7}{5}$ or 3\n\nCheck: If $k = \\frac{7}{5}$ the terms are: $\\frac{2}{5}$, $\\frac{14}{5}$, $\\frac{98}{5}$. $\\checkmark$ $\\{r = 7\\}$\n\nIf $k = 3$ the terms are: 2, 6, 18. $\\checkmark$ $\\{r = 3\\}$",
+      "source_images": ["image1932.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 9\n\nA geometric sequence has $u_2 = -6$ and $u_5 = 162$. Find its general term.\n\nSolution:\n\n$u_2 = u_1 r = -6$ .... (1)\n\nand $u_5 = u_1 r^4 = 162$ .... (2)\n\nNow $\\frac{u_1 r^4}{u_1 r} = \\frac{162}{-6}$ $\\{(2) \\div (1)\\}$\n\n$\\therefore r^3 = -27$\n\n$\\therefore r = -3$\n\nUsing (1), $u_1(-3) = -6$\n\n$\\therefore u_1 = 2$\n\nThus $u_n = 2 \\times (-3)^{n-1}$",
+      "source_images": ["image1933.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 10\n\nFind the first term of the sequence 6, $6\\sqrt{2}$, 12, $12\\sqrt{2}$, .... which exceeds 1400.\n\nSolution:\n\nThe sequence is geometric with $u_1 = 6$ and $r = \\sqrt{2}$\n\n$\\therefore u_n = 6 \\times (\\sqrt{2})^{n-1}$\n\nWe need to find $n$ such that $u_n > 1400$.\n\nUsing a graphics calculator with $Y_1 = 6 \\times (\\sqrt{2})^{(X-1)}$, we view a table of values:\n\n| X | Y1 |\n| 15 | 768 |\n| 16 | 1086.1 |\n| 17 | 1536 |\n| 18 | 2172.2 |\n\nThe first term to exceed 1400 is $u_{17} = 1536$.",
+      "source_images": ["image1934.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5C\n\n1. For each of these geometric sequences:\n\n(i) State $u_1$ and $r$.\n\n(ii) Find the formula for the general term $u_n$.\n\n(iii) Find the 9th term of the sequence.\n\n(a) 3, 6, 12, 24, ....\n\n(b) 2, 10, 50, ....\n\n(c) 512, 256, 128, ....\n\n(d) 1, 3, 9, 27, ....\n\n(e) 12, 18, 27, ....\n\n(f) $\\frac{1}{16}$, $-\\frac{1}{8}$, $\\frac{1}{4}$, $-\\frac{1}{2}$, ....\n\n2. (a) Show that the sequence 5, 10, 20, 40, .... is geometric.\n\n(b) Find $u_n$, and hence find the 15th term.\n\n3. (a) Show that the sequence 12, $-6$, 3, $-\\frac{3}{2}$, .... is geometric.\n\n(b) Find $u_n$, and hence write the 13th term as a rational number.\n\n4. (a) Show that the sequence 8, $-6$, 4.5, $-3.375$, .... is geometric.\n\n(b) Hence find the 10th term as a decimal.\n\n5. (a) Show that the sequence 8, $4\\sqrt{2}$, 4, $2\\sqrt{2}$, .... is geometric.\n\n(b) Hence show that the general term of the sequence is $u_n = 2^{\\frac{7}{2} - \\frac{1}{2}n}$.",
+      "source_images": ["image1935.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. Find $k$ given that the following are consecutive terms of a geometric sequence:\n\n(a) $k$, $3k$, 54\n\n(b) 1000, $4k$, $k$\n\n(c) 7, $k$, 28\n\n(d) 18, $k$, $\\frac{2}{9}$\n\n(e) $k$, 12, $\\frac{k}{9}$\n\n(f) $k$, 20, $\\frac{25}{4}k$\n\n(g) $k$, $3k$, $20 - k$\n\n(h) $k$, $k + 8$, $9k$\n\n7. The first three terms of a geometric sequence are $k - 1$, 6, and $3k$.\n\n(a) Find the possible values of $k$.\n\n(b) For each value of $k$, find the next term in the sequence.",
+      "source_images": ["image1936.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "8. Find the general term $u_n$ of the geometric sequence which has:\n\n(a) $u_4 = 24$ and $u_7 = 192$\n\n(b) $u_3 = 8$ and $u_6 = -1$\n\n(c) $u_7 = 24$ and $u_{15} = 384$\n\n(d) $u_3 = 5$ and $u_7 = \\frac{5}{4}$\n\n9. A geometric sequence has $u_3 = 80$ and $u_6 = 270$.\n\n(a) Find the first term and common ratio of the sequence.\n\n(b) Find the 10th term of the sequence.",
+      "source_images": ["image1937.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "10. (a) Find the first term of the sequence 2, 6, 18, 54, .... which exceeds 10000.\n\n(b) Find the first term of the sequence 4, $4\\sqrt{3}$, 12, $12\\sqrt{3}$, .... which exceeds 4800.\n\n(c) Find the first term of the sequence 12, 6, 3, 1.5, .... which is less than 0.0001.\n\n(d) Find the first term of the sequence 5, $-\\frac{15}{2}$, $\\frac{45}{4}$, $-\\frac{135}{8}$, .... which is less than $-100$.",
+      "source_images": ["image1938.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "11. What is the maximum number of distinct prime numbers that can occur in a geometric sequence? Give an example of such a sequence.\n\n12. A geometric sequence with common ratio $r$ and an arithmetic sequence with common difference $d$ have the same first two terms. The third terms of the geometric and arithmetic sequences are in the ratio 2 : 1.\n\n(a) Find the possible values of $r$.\n\n(b) For each value of $r$, find the ratio of the fourth terms of the sequences.",
+      "source_images": ["image1939.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 16C\n\n1. Determine whether the following sequences are geometric:\n\n(a) 5, 10, 20, 40, ....\n\n(b) 4, 12, 36, 72, ....\n\n(c) 45, 15, 5, $\\frac{5}{3}$, ....\n\n(d) 1, $-4$, 16, 64, ....\n\n2. Write down the common ratio for these geometric sequences:\n\n(a) 2, 10, 50, 250, ....\n\n(b) 60, 30, 15, 7.5, ....\n\n(c) 3, $-6$, 12, $-24$, ....\n\n(d) 4000, $-400$, 40, $-4$, ....\n\n3. For the geometric sequence with first two terms given, find $b$ and $c$:\n\n(a) 3, 6, $b$, $c$, ....\n\n(b) 8, 2, $b$, $c$, ....\n\n(c) 15, $-5$, $b$, $c$, ....",
+      "source_images": ["image1940.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. (a) Show that the sequence 1, 3, 9, 27, .... is geometric.\n\n(b) Find the general term $u_n$.\n\n(c) Find the 10th term of the sequence.\n\n5. (a) Show that the sequence 40, $-20$, 10, $-5$, .... is geometric.\n\n(b) Find the general term $u_n$.\n\n(c) Find the 12th term as a fraction.\n\n6. (a) Show that the sequence 16, $-4$, 1, $-0.25$, .... is geometric.\n\n(b) Find the 8th term as a decimal.\n\n7. Find the general term of the geometric sequence: 3, $3\\sqrt{2}$, 6, $6\\sqrt{2}$, ....",
+      "source_images": ["image1941.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "8. Find $k$ given the consecutive terms of a geometric sequence:\n\n(a) $k$, 2, 6\n\n(b) 4, 6, $k$\n\n(c) $k$, $2\\sqrt{2}$, $k^2$\n\n(d) 3, $k$, 27\n\n(e) $k$, $3k$, $10k + 7$\n\n(f) $k$, $k + 4$, $8k + 2$",
+      "source_images": ["image1942.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. Find the general term $u_n$ of the geometric sequence which has:\n\n(a) $u_3 = 16$ and $u_4 = 48$\n\n(b) $u_3 = 32$ and $u_6 = -4$\n\n(c) $u_2 = 10$ and $u_4 = 250$\n\n(d) $u_3 = 3$ and $u_7 = \\frac{3}{4}$.\n\n10. A geometric sequence has general term $u_n$ with $u_3 = 48$ and $u_7 = 3$. Find $u_{12}$.",
+      "source_images": ["image1943.png"]
+    }
+  ]
+}

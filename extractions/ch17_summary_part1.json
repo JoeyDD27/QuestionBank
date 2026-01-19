@@ -1,0 +1,57 @@
+{
+  "chapter": 17,
+  "part": 1,
+  "images_range": "1863-1870",
+  "items": [
+    {
+      "type": "concept",
+      "content_latex": "Important: If $\\$k$ is invested at a simple interest rate of $r\\%$ for $n$ years, the total amount of money at the end is\n\n$\\left(1 + \\frac{nr}{100}\\right)(\\$k)$.",
+      "source_images": ["image1863.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Important: If $\\$k$ is invested at an interest rate of $r\\%$ for $n$ years, compounded annually, then the total amount at the end of $n$ years is\n\n$\\left(1 + \\frac{r}{100}\\right)^n (\\$k)$.",
+      "source_images": ["image1863.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Important: If $\\$k$ is invested at an interest rate of $r\\%$ for $n$ years, compounded $m$ times a year, then the total amount at the end of $n$ years is\n\n$\\left(1 + \\frac{r}{100m}\\right)^{nm} (\\$k)$.",
+      "source_images": ["image1863.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Important: If the current annually compounded interest rate is $r\\%$, then the present value of $\\$m$ paid $n$ years from now is\n\n$\\frac{\\$m}{\\left(1 + \\frac{r}{100}\\right)^n}$.",
+      "source_images": ["image1864.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Important: If $a > 0$ and $a \\neq 1$, then\n\n$\\log_a b = c$ and $a^c = b$\n\nare equivalent.",
+      "source_images": ["image1865.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Important: $\\log_a a^p = p$.",
+      "source_images": ["image1866.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Review Problems\n\n19.19 Find the domain and range of the function $g(x) = 7 - 4^x$.\n\n19.20 Find all values of $c$ such that $6^{3c-1} = \\frac{1}{36}$.\n\n19.21 Find $4^{x+3}$ if $2^x = 9$.\n\n19.22 Find all values of $x$ such that $\\frac{3^{x^2}}{3^{2x}} = 27$.",
+      "source_images": ["image1867.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "19.23 Find all values of $x$ such that $2^{2x} - 8 \\cdot 2^x + 12 = 0$. (Source: AHSME)\n\n19.24 Adisa borrows $\\$5{,}000$ at 14% interest, compounded twice a year. How much does she owe at the end of 8 years?\n\n19.25 Jake invested his whole life savings today in an investment that pays 6% interest, compounded annually. In ten years, this investment will be worth $\\$531{,}402$. What is Jake's life savings today?\n\n19.26 Rate these 10-year investments from best to worst:\n\n(a) Receive 10% simple interest for 10 years.\n\n(b) Receive 7.5% interest, compounded 4 times a year for 10 years.\n\n(c) Receive 8% interest, compounded twice a year for 10 years.\n\n(d) Receive 11% simple interest for the first 5 years, then receive 7% interest, compounded annually, for the next 5 years. (The latter interest is paid on the whole value of the investment after the first 5 years.)\n\n19.27 Gert invests all of her money at the beginning of 2001. At the end of each year, she checks the value of her investment. At the end of what year will she first find she's doubled her money in each of the following cases:\n\n(a) Gert invests all of her money at 5% simple interest.\n\n(b) Gert invests all of her money at 5% interest, compounded annually.\n\n(c) Gert invests all of her money at 5% interest, compounded twice a year.\n\n(d) Gert invests all of her money at 5% interest, compounded monthly.\n\n19.28 I have just won a lottery that will pay me $\\$1{,}000{,}000$ in 10 years. A company offers to buy my winning ticket today for $\\$300{,}000$.\n\n(a) If the annually compounded interest rate is 9%, should I take the offer?\n\n(b) For what annually compounded interest rate is my lottery ticket worth $\\$300{,}000$ today?\n\n19.29 Suppose the annually compounded interest rate is 8%. Order the following from most valuable to least valuable:\n\n(a) $\\$2{,}500$ paid today.\n\n(b) $\\$5{,}000$ paid 9 years from now.\n\n(c) $\\$4{,}500$ paid 8 years from now.\n\n(d) $\\$4{,}000$ paid 5 years from now.\n\n19.30 Claire has borrowed $\\$5{,}000$. She will make one payment in 3 years, then another payment in 6 years. The second payment will be exactly double the amount of the first payment. How much is the first payment if the interest rate of the loan is 8.5%, compounded annually?",
+      "source_images": ["image1868.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "19.31 Evaluate each of the following:\n\n(a) $\\log_3 243$\n\n(b) $\\log_{1/2} \\frac{1}{8}$\n\n(c) $\\log_2 4\\sqrt[3]{2}$\n\n(d) $\\log_9 27$\n\n(e) $\\log_7 \\frac{1}{343}$\n\n(f) $\\log_{\\sqrt{5}} 125\\sqrt{5}$\n\n19.32 Find the base $n$ such that $\\log_n 4\\sqrt{2} = 10$.\n\n19.33 Suppose $a$ is a constant and $f$ is a function such that $f(x) = \\log_a x$. Why can we not have $a = 1$? (In other words, why are we not allowed to let 1 be the base of a logarithmic function?)\n\n19.34 Find $x$ if $\\log_9(2x - 7) = \\frac{3}{2}$.\n\n19.35 For how many positive integers $b$ is $\\log_b 729$ a positive integer? (Source: AMC 12)",
+      "source_images": ["image1869.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Challenge Problems\n\n19.36 If $\\log_2(\\log_2(\\log_2(x))) = 2$, then how many digits are in $x$? (Source: AHSME)\n\n19.37 I invested all of my money in an investment that pays the same annually compounded interest rate for 30 years. At the end of the first 10 years, my investment had doubled in value.\n\n(a) After how many years will my original investment have multiplied by 4 in value?\n\n(b) If I initially invested $\\$5{,}000$, how much will my investment be worth at the end of the 30 years?\n\n19.38 Find the domain and range of $f(x) = 2\\log_3(x^2 - 4x - 5)$.\n\n19.39 Find the domain and range of the function $f(x) = \\frac{5}{2 + 3^x}$.\n\n19.40 The graph at right is the graph of the equation $y = f(x)$, where $f(x) = \\log_a(xb)$ and $a$ and $b$ are constants. Find $a$ and $b$. Hints: 215\n\n19.41 If $8^x = 27$, then what is $4^{2x-3}$? Hints: 66\n\n19.42 If $\\frac{4^x}{2^{x+y}} = 8$ and $\\frac{9^{x+y}}{3^{5y}} = 243$, where $x$ and $y$ are real numbers, then what is the ordered pair $(x, y)$? (Source: AHSME)\n\n19.43\n\n(a) Evaluate $\\log_2 8$, $\\log_2 16$, and $\\log_2(8 \\cdot 16)$.\n\n(b) Evaluate $\\log_3 \\frac{1}{9}$, $\\log_3 \\sqrt{3}$, and $\\log_3 \\left(\\frac{1}{9} \\cdot \\sqrt{3}\\right)$.\n\n(c) Do you notice a relationship among $\\log_a b$, $\\log_a c$, and $\\log_a(bc)$? Can you prove it? Hints: 4\n\n19.44$\\star$ Alice invests some money at an annually compounded interest rate of $r\\%$. Bob invests the same amount at a simple interest rate of $s\\%$. If their investments are worth the same amount after 10 years, then which of their investments is worth more after 11 years? Hints: 58\n\n19.45$\\star$ Compute the number of real values of $x$ such that $x^{100} - 4^x \\cdot x^{98} - x^2 + 4^x = 0$. (Source: ARML) Hints: 151",
+      "source_images": ["image1870.png"]
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "chapter": 16,
+  "part": 2,
+  "images_range": "1811-1862",
+  "items": [
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 3F\n\n1. Use the change of base rule with base 10 to calculate:\n\n(a) $\\log_3 7$\n\n(b) $\\log_2 40$\n\n(c) $\\log_5 180$\n\n(d) $\\log_{\\frac{1}{2}} 1250$\n\n(e) $\\log_3(0.067)$\n\n(f) $\\log_{0.4}(0.006984)$\n\nCheck your results using the change of base rule with base $e$.\n\n2. Simplify $\\log_m n \\times \\log_n(m^2)$.\n\n3. Without using technology, show that $2^{\\frac{4}{\\log_5 4} + \\frac{3}{\\log_7 8}} = 175$.\n\nHint: Use the change of base rule with base 2.\n\n4. Solve for $x$:\n\n(a) $\\log_4(x^3) + \\log_2 \\sqrt{x} = 8$\n\n(b) $\\log_{\\frac{1}{9}} x = \\log_9 5$\n\n(c) $\\log_{16}(x^5) = \\log_{64} 125 - \\log_4 \\sqrt{x}$\n\n(d) $\\log_3(x^3) - 4\\log_9 x - 5\\log_{27} \\sqrt{x} = \\log_9 4$\n\n(e) $\\log_x 4 + \\log_2 x = 3$\n\n5. Given $x = \\log_3(y^2)$, express $\\log_y 81$ in terms of $x$.\n\n6. Given $m = \\log_4 3$, express $\\log_2 24$ in terms of $m$.\n\n7. (a) By evaluating each expression when $x = 9$, show that $\\log_9(\\log_3 x)$ and $\\log_3(\\log_9 x)$ are not always equal.\n\n(b) Find the value of $x$ such that $\\log_9(\\log_3 x) = \\log_3(\\log_9 x)$.\n\n(c) Find, in terms of $a$, the solution to $\\log_{a^2}(\\log_a x) = \\log_a(\\log_{a^2} x)$.\n\n(d) Show that when $\\log_{a^k}(\\log_a x) = \\log_a(\\log_{a^k} x)$, $k \\neq 1$, both sides of the equation have the value $\\log_a k^{\\frac{1}{k-1}}$.",
+      "source_images": ["image1811.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 14\n\nSolve for $x$: $2^x = 7$\n\nSolution:\n\n$2^x = 7$\n\n$\\therefore \\log 2^x = \\log 7$ {taking the log of both sides}\n\n$\\therefore x \\log 2 = \\log 7$ {$\\log(a^n) = n \\log a$}\n\n$\\therefore x = \\frac{\\log 7}{\\log 2}$\n\n$\\therefore x \\approx 2.81$ {technology}",
+      "source_images": ["image1812.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 15\n\n(a) Write an equivalent logarithmic statement for $2^5 = 32$.\n\n(b) Write an equivalent exponential statement for $\\log_7 \\left(\\frac{1}{7}\\right) = -1$.\n\nSolutions:\n\n(a) From $2^5 = 32$, we deduce that $\\log_2 32 = 5$.\n\n(b) From $\\log_7 \\left(\\frac{1}{7}\\right) = -1$, we deduce that $7^{-1} = \\frac{1}{7}$.",
+      "source_images": ["image1813.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 19\n\n(a) Solve the equation $2^x = 30$ exactly.\n\n(b) Use your calculator to evaluate the solution correct to 2 decimal places.\n\nSolutions:\n\n(a) $2^x = 30$\n\n$\\therefore \\log(2^x) = \\log 30$ {taking the logarithm of each side}\n\n$\\therefore x \\log 2 = \\log 30$ {$\\log(b^m) = m \\log b$}\n\n$\\therefore x = \\frac{\\log 30}{\\log 2}$\n\n(b) $\\frac{\\log 30}{\\log 2} \\approx 4.91$, so the solution is $x \\approx 4.91$.",
+      "source_images": ["image1814.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 20\n\nFind $x$ exactly:\n\n(a) $e^x = 30$\n\n(b) $3e^{\\frac{x}{2}} = 21$\n\nSolutions:\n\n(a) $e^x = 30$\n\n$\\therefore x = \\ln 30$\n\n(b) $3e^{\\frac{x}{2}} = 21$\n\n$\\therefore e^{\\frac{x}{2}} = 7$\n\n$\\therefore \\frac{x}{2} = \\ln 7$\n\n$\\therefore x = 2\\ln 7$",
+      "source_images": ["image1815.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 21\n\nFind exactly the points of intersection of $y = e^x - 3$ and $y = 1 - 3e^{-x}$.\n\nCheck your solution using technology.\n\nSolution:\n\nThe functions meet where\n\n$e^x - 3 = 1 - 3e^{-x}$\n\n$\\therefore e^x - 4 + 3e^{-x} = 0$\n\n$\\therefore e^{2x} - 4e^x + 3 = 0$ {multiplying each term by $e^x$}\n\n$\\therefore (e^x - 1)(e^x - 3) = 0$\n\n$\\therefore e^x = 1$ or $3$\n\n$\\therefore x = \\ln 1$ or $\\ln 3$\n\n$\\therefore x = 0$ or $\\ln 3$\n\nWhen $x = 0$, $y = e^0 - 3 = -2$\n\nWhen $x = \\ln 3$, $y = e^{\\ln 3} - 3 = 0$\n\n$\\therefore$ the functions meet at $(0, -2)$ and at $(\\ln 3, 0)$.",
+      "source_images": ["image1816.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 22\n\nA farmer monitoring an insect plague finds that the area affected by the insects is given by $A(n) = 1000 \\times 2^{0.7n}$ hectares, where $n$ is the number of weeks after the initial observation.\n\n(a) Use technology to help sketch the graph of $A(n)$. Hence estimate the time taken for the affected area to reach 5000 hectares.\n\n(b) Check your answer to (a) using logarithms.\n\nSolutions:\n\n(a) From the graph, it appears that it will take about 3.3 weeks for the affected area to reach 5000 hectares.\n\n(b) When $A(n) = 5000$,\n\n$1000 \\times 2^{0.7n} = 5000$\n\n$\\therefore 2^{0.7n} = 5$\n\n$\\therefore \\log(2^{0.7n}) = \\log 5$\n\n$\\therefore 0.7n \\log 2 = \\log 5$\n\n$\\therefore n = \\frac{\\log 5}{0.7 \\times \\log 2} \\approx 3.32$\n\n$\\therefore$ it will take about 3 weeks and 2 days.",
+      "source_images": ["image1817.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 6G\n\n1. Consider the equation $2^x = 20$.\n\n(a) Explain why the solution to this equation lies between $x = 4$ and $x = 5$.\n\n(b) Find the solution exactly.\n\n(c) Use your calculator to evaluate the solution correct to 2 decimal places.\n\n2. Consider the equation $3^x = 40$.\n\n(a) Between which two consecutive whole numbers does the solution lie?\n\n(b) Find the solution exactly.\n\n(c) Use your calculator to evaluate the solution correct to 2 decimal places.",
+      "source_images": ["image1818.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Solve for $x$: (i) exactly (ii) correct to 2 decimal places.\n\n(a) $2^x = 10$\n\n(b) $3^x = 20$\n\n(c) $4^x = 50$\n\n(d) $\\left(\\frac{1}{2}\\right)^x = 0.0625$\n\n(e) $\\left(\\frac{3}{4}\\right)^x = 0.1$\n\n(f) $10^x = 0.000015$\n\n4. Solve for $x$, correct to 3 significant figures:\n\n(a) $5^x = 40$\n\n(b) $3^x = 2^{x+3}$\n\n(c) $2^{x+4} = 5^{2-x}$",
+      "source_images": ["image1819.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. Solve for $x$, giving an exact answer:\n\n(a) $e^x = 10$\n\n(b) $e^x = 1000$\n\n(c) $2e^x = 0.3$\n\n(d) $e^{\\frac{x}{2}} = 5$\n\n(e) $e^{2x} = 18$\n\n(f) $e^{-\\frac{x}{2}} = 1$\n\n6. Solve for $x$, giving an exact answer:\n\n(a) $3 \\times 2^x = 75$\n\n(b) $7 \\times (1.5)^x = 20$\n\n(c) $5 \\times (0.8)^x = 3$\n\n(d) $4 \\times 2^{-x} = 0.12$\n\n(e) $300 \\times 5^{0.1x} = 1000$\n\n(f) $32 \\times e^{-0.25x} = 4$\n\n7. Solve for $x$ exactly:\n\n(a) $25^x - 3 \\times 5^x = 0$\n\n(b) $8 \\times 9^x - 3^x = 0$\n\n(c) $2^x - 2 \\times 4^x = 0$",
+      "source_images": ["image1820.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "8. Solve for $x$:\n\n(a) $e^{2x} = 2e^x$\n\n(b) $e^x = e^{-x}$\n\n(c) $e^{2x} - 5e^x + 6 = 0$\n\n(d) $e^x + 2 = 3e^{-x}$\n\n(e) $1 + 12e^{-x} = e^x$\n\n(f) $e^x + e^{-x} = 3$\n\n9. Find algebraically the point(s) of intersection of:\n\n(a) $y = e^x$ and $y = e^{2x} - 6$\n\n(b) $y = 2e^x + 1$ and $y = 7 - e^x$\n\n(c) $y = 3 - e^x$ and $y = 5e^{-x} - 3$\n\nCheck your answers using technology.",
+      "source_images": ["image1821.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "10. The population of turtles in an isolated colony is $P(t) = 852 \\times (1.07)^t$, where $t$ is the time in years after the colony was first recorded. How long will it take for the population to reach:\n\n(a) 1000 turtles\n\n(b) 1500 turtles?",
+      "source_images": ["image1822.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "11. The weight of bacteria in a culture $t$ hours after establishment is given by $W(t) = 20 \\times 2^{0.15t}$ grams. Find, using logarithms, the time for the weight of the culture to reach:\n\n(a) 30 grams\n\n(b) 100 grams.",
+      "source_images": ["image1823.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "12. A biologist is modelling an infestation of fire ants. He determines that the area affected by the ants is given by $A(n) = 2000 \\times e^{0.57n}$ hectares, where $n$ is the number of weeks after the initial observation.\n\n(a) Use technology to help sketch the graph of $A(n)$.\n\n(b) Hence estimate the time taken for the infested area to reach 10000 hectares.\n\n(c) Check your answer to (b) using logarithms.",
+      "source_images": ["image1824.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "13. A house is expected to increase in value at an average rate of 7.5% p.a. If the house is worth $200000, when would you expect it to be worth $350000?\n\n14. Thabo has $10100 to invest in an account that pays 4.5% p.a. compounded annually. How long will it take for his investment to grow to $15000?\n\n15. Don invests $5500 at 8.5% p.a. compounded monthly. He will withdraw the money once he has at least $7000. How many months must he wait?\n\n16. A new car worth $27500 depreciates at 18% p.a. After how many years will the car be worth $8000?\n\n17. The current $I$ flowing in a transistor radio $t$ seconds after it is switched off is given by $I = 0.6 \\times 2^{-\\frac{t}{4}}$ amps. Show that it takes $\\frac{4}{\\log 2} \\times \\log 6$ seconds for the current to reach 10 amps.\n\n18. A sky diver jumps from an aeroplane. His speed of descent is given by $V(t) = 50(1 - e^{-0.2t})$ m s$^{-1}$ where $t$ is the time in seconds. Show that it will take $5\\ln 5$ seconds for the sky diver's speed to reach 40 m s$^{-1}$.\n\n19. Answer the Opening Problem on page 146.\n\n20. The weight of radioactive substance remaining after $t$ years is given by $W = e^{-0.003t} \\times 25000$ grams.\n\n(a) Sketch the graph of $W$ against $t$.\n\n(b) Write a function for $t$ in terms of $W$.\n\n(c) Hence find the time required for the weight to reach $\\frac{1}{10}$ of its original value.\n\n21. The temperature of a liquid $t$ minutes after it is placed in a refrigerator is given by $T = 4 + 96 \\times 0.5^t$ $^\\circ$C.\n\n(a) Sketch the graph of $T$ against $t$.\n\n(b) Hence find the time required for the temperature to reach 12$^\\circ$C.\n\n22. A parachute jumps from the basket of a stationary hot air balloon. His speed of descent is given by $V = 4(1 - e^{-0.5t})$ m s$^{-1}$ where $t$ is the time in seconds.\n\nWrite an expression for the time taken for his speed to reach $v$ m s$^{-1}$.\n\n23. A meteor hurling through the atmosphere has speed of descent given by $V(t) = 60(4 + 2 \\times e^{-0.5t})$ m s$^{-1}$ where $t$ is the time in seconds after the meteor is sighted.\n\n(a) Is the meteor's speed increasing or decreasing?\n\n(b) Find the speed when it was first sighted after 2 minutes.\n\n(c) How long will it take for the meteor's speed to reach 3000 m s$^{-1}$?",
+      "source_images": ["image1825.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "We have seen that $\\log_a a^x = a^{\\log_a x} = x$.\n\nLetting $f(x) = \\log_a x$ and $g(x) = a^x$, we have $f \\circ g = g \\circ f = x$.\n\nWe can therefore say that the logarithmic function $\\log_a x$ is the inverse of the exponential function $a^x$.\n\nAlgebraically, this has the effect that the logarithmic and exponential functions \"undo\" one another.\n\nGeometrically, it means that the graph of $y = \\log_a x$, $a > 0$, $a \\neq 1$ is the reflection of the graph of $y = a^x$ in the line $y = x$.\n\nWe have seen previously the shape of the exponential function $y = a^x$ where $a > 0$, $a \\neq 1$.\n\nFor $0 < a < 1$: as $x \\to \\infty$, $y \\to 0$; as $x \\to 0^+$, $y \\to \\infty$.\n\nFor $a > 1$: as $x \\to \\infty$, $y \\to \\infty$; as $x \\to 0^+$, $y \\to 0$.\n\nThe horizontal asymptote for all of these functions is the $x$-axis $y = 0$.\n\nBy reflecting these graphs in the line $y = x$, we obtain the graphs for $y = \\log_a x$.\n\nThe vertical asymptote of $y = \\log_a x$ is the $y$-axis $x = 0$.\n\nFor $0 < a < 1$: as $x \\to \\infty$, $y \\to -\\infty$; as $x \\to 0^+$, $y \\to \\infty$.\n\nFor $a > 1$: as $x \\to \\infty$, $y \\to \\infty$; as $x \\to 0^+$, $y \\to -\\infty$.",
+      "source_images": ["image1826.png", "image1827.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "PROPERTIES OF $y = \\log_a x$\n\nSince we can only find logarithms of positive numbers, the domain of $y = \\log_a x$ is $\\{x \\mid x > 0\\}$.\n\nWe can compare the functions $y = a^x$ and $y = \\log_a x$ as follows:\n\n| Function | $y = a^x$ | $y = \\log_a x$ |\n|----------|-----------|----------------|\n| Domain | $x \\in \\mathbb{R}$ | $x > 0$ |\n| Range | $y > 0$ | $y \\in \\mathbb{R}$ |\n| Asymptote | horizontal $y = 0$ | vertical $x = 0$ |",
+      "source_images": ["image1828.png", "image1829.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 23\n\nConsider the function $f(x) = \\log_2(x - 1) + 1$.\n\n(a) State the transformation which maps $y = \\log_2 x$ to $y = f(x)$.\n\n(b) Find the domain and range of $f$.\n\n(c) Find any asymptotes and axes intercepts.\n\n(d) Sketch the graph of $y = f(x)$ showing all important features.\n\n(e) Find the inverse function $f^{-1}$.\n\nSolutions:\n\n(a) $f(x)$ is a translation of $y = \\log_2 x$ by $\\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix}$.\n\n(b) $x - 1 > 0$ when $x > 1$\n\nSo, the domain is $x > 1$ and the range is $y \\in \\mathbb{R}$.\n\n(c) As $x \\to 1^+$, $y \\to -\\infty$, so the vertical asymptote is $x = 1$.\n\nAs $x \\to \\infty$, $y \\to \\infty$, so there is no horizontal asymptote.\n\nWhen $x = 0$, $y$ is undefined, so there is no $y$-intercept.\n\nWhen $y = 0$, $\\log_2(x - 1) = -1$\n\n$\\therefore x - 1 = 2^{-1}$\n\n$\\therefore x = \\frac{3}{2}$ So, the $x$-intercept is $\\frac{3}{2}$.\n\n(d) When $x = 2$, $y = \\log_2(2 - 1) + 1 = 1$\n\nWhen $x = 5$, $y = \\log_2(5 - 1) + 1 = \\log_2 4 + 1 = 2 + 1 = 3$\n\n(e) $f$ is defined by $y = \\log_2(x - 1) + 1$\n\n$\\therefore f^{-1}$ is defined by $x = \\log_2(y - 1) + 1$\n\n$\\therefore x - 1 = \\log_2(y - 1)$\n\n$\\therefore y - 1 = 2^{x-1}$\n\n$\\therefore y = 2^{x-1} + 1$\n\n$\\therefore f^{-1}(x) = 2^{x-1} + 1$",
+      "source_images": ["image1830.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 6H\n\n1. For each of the following functions $f$:\n\n(i) Find the domain and range.\n\n(ii) Find any asymptotes and axes intercepts.\n\n(iii) Sketch the graph of $y = f(x)$, showing all important features.\n\n(iv) Solve $f(x) = -1$ algebraically and check the solution on your graph.\n\n(v) Find the inverse function $f^{-1}$.\n\n(a) $f : x \\mapsto \\log_2 x - 2$\n\n(b) $f : x \\mapsto \\log_3(x + 1)$\n\n(c) $f : x \\mapsto 1 - \\log_3(x + 1)$\n\n(d) $f : x \\mapsto \\log_5(x - 2) - 2$\n\n(e) $f : x \\mapsto 1 - \\log_5(x - 2)$\n\n(f) $f : x \\mapsto 1 - 2\\log_2 x$\n\n2. For each of the functions $f$:\n\n(i) State the transformation which maps $y = \\ln x$ to $y = f(x)$.\n\n(ii) State the domain and range.\n\n(iii) Find any asymptotes and intercepts.\n\n(iv) Sketch the graph of $y = f(x)$, showing all important features.\n\n(v) Find the inverse function $f^{-1}$.\n\n(a) $f(x) = \\ln x - 4$\n\n(b) $f(x) = \\ln(x - 1) + 2$\n\n(c) $f(x) = 3\\ln x - 1$\n\n3. Consider the curves A and B. One of them is the graph of $y = \\ln x$ and the other is the graph of $y = \\ln(x - 2)$.\n\n(a) Identify which curve is which, giving evidence for your answer.\n\n(b) Copy the graphs onto a new set of axes, and then draw the graph of $y = \\ln(x + 2)$.\n\n(c) Find the equation of the vertical asymptote for each graph.\n\n4. Kelly said that in order to graph $y = \\ln(x^2)$, $x > 0$, you could first graph $y = \\ln x$ and then double the distance of each point on the graph from the $x$-axis.\n\nIs Kelly correct? Explain your answer.\n\n5. Draw, on the same set of axes, the graphs of:\n\n(a) $y = \\ln x$ and $y = \\ln(x^3)$\n\n(b) $y = \\ln x$ and $y = \\ln\\left(\\frac{1}{x}\\right)$\n\n(c) $y = \\ln x$ and $y = \\ln(x + e)$\n\n(d) $y = \\ln x$ and $y = \\ln(x - 2) - 3$\n\n(e) $y = 2\\ln x$ and $y = \\ln(x^2) + 2$\n\n6. Suppose $f(x) = be^x$ and $g(x) = \\ln(bx)$. Find:\n\n(a) $(f \\circ g)(x)$\n\n(b) $(g \\circ f)(x)$\n\n(c) the value of $x$, in terms of $b$, for which $(f \\circ g)(x) = (g \\circ f)(x)$.\n\n7. Given $f : x \\mapsto e^{2x}$ and $g : x \\mapsto 2x - 1$, find:\n\n(a) $(f^{-1} \\circ g)(x)$\n\n(b) $(g \\circ f)^{-1}(x)$",
+      "source_images": ["image1831.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 18A\n\n1. Consider the function $f(x) = 3^x - 1$. Find:\n\n(a) $f(0)$\n\n(b) $f(3)$\n\n(c) $f(-1)$\n\n(d) $f(2x)$\n\n2. Use technology to help sketch the following on the same set of axes:\n\n(a) $y = 2.7^x$\n\n(b) $y = 1.6^x$\n\n(c) $y = 0.8^x$\n\n3. Use transformations to sketch the graph of:\n\n(a) $y = -3^x$\n\n(b) $y = 2^x + 5$\n\n4. The weight of a radioactive substance remaining after $t$ years is given by $W = 1000 \\times (0.98)^t$ grams.\n\n(a) Find the initial weight present.\n\n(b) Find the weight after:\n\n(i) 10 years\n\n(ii) 50 years\n\n(iii) 100 years.\n\n(c) Graph $W$ against $t$ using (a) and (b) only.\n\n5. $\\pounds 120000$ is invested at 7.4% p.a. compound interest for 5 years.\n\n(a) Find the future value of the investment.\n\n(b) How much interest is earned?\n\n6. Solve for $x$ without using a calculator:\n\n(a) $27^x = 3$\n\n(b) $8^{x+1} = 16^{4-x}$\n\n(c) $4^{x+1} = \\left(\\frac{1}{8}\\right)^x$\n\n(d) $8 \\times 2^{x+1} = 4$\n\n(e) $3 \\times 25^{3-x} = 15$\n\n(f) $\\frac{3^{x+2}}{9^{3-x}} = \\frac{27^{1-2x}}{3^{2x}}$\n\n7. The population of a colony of seals after $t$ years is given by $P = 50 \\times 3^t$.\n\n(a) Find the population after 2 years.\n\n(b) How long will it take for the population to reach 4050?\n\n8. (a) Use your calculator to find $\\log 80$.\n\n(b) Hence, write 80 as a power of 10.\n\n9. Without using a calculator, find:\n\n(a) $\\log\\left(\\frac{1}{\\sqrt{10}}\\right)$\n\n(b) $\\log 100\\sqrt{10}$\n\n10. Without using a calculator, simplify:\n\n(a) $\\log 4 + \\log 2$\n\n(b) $\\log 45 - 2\\log 3$\n\n(c) $\\frac{\\log 16}{\\log 2}$\n\n(d) $\\frac{\\log 9^b}{\\log 27}$\n\n11. Danielle writes an online blog. The number of people following her blog after $t$ weeks is given by $N(t) = 10 \\times 1.3^t$.\n\n(a) How many people are following Danielle's blog:\n\n(i) initially\n\n(ii) after 4 weeks\n\n(iii) after 8 weeks?\n\n(b) Sketch the graph of $N$ against $t$.\n\n(c) How long will it take for Danielle's blog to have 200 followers?\n\n12. (a) Write $\\frac{1}{\\sqrt{5}}$ as a power of 5.\n\n(b) Hence, find $\\log_5 \\frac{1}{\\sqrt{5}}$.",
+      "source_images": ["image1832.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 18B\n\n1. (a) Explain why $f(x) = 5^{x-2}$ is an exponential function.\n\n(b) What transformation can be applied to $y = 5^x$ to obtain $y = f(x)$?\n\n2. Suppose $P(x) = 2 \\times 3^{-x}$. Find:\n\n(a) $P(0)$\n\n(b) $P(2)$\n\n(c) $P(x + 4)$\n\n3. Sketch the graph of:\n\n(a) $y = 2^{x+2}$\n\n(b) $y = 5^{-x}$\n\n4. Find the range of the function $y = 3^x - 2$.\n\n5. Kelly has started taking Spanish lessons. The number of Spanish words she knows after $n$ weeks is given by $W(n) = 2 \\times 1.9^n$.\n\n(a) How many Spanish words does Kelly know:\n\n(i) before she starts the lessons\n\n(ii) after 3 weeks\n\n(iii) after 5 weeks?\n\n(b) Sketch the graph of $W$ against $n$.\n\n6. A new caravan worth $\\$15000$ depreciates at 16% p.a. Find the caravan's value in 5 years' time.\n\n7. Use your calculator to find $\\log 700$, rounded to 2 decimal places.\n\n8. Find $x$ without using your calculator:\n\n(a) $5^{1-x} = 125$\n\n(b) $9^x = 27^{2-2x}$\n\n(c) $16^{x+1} = 32^{2-x}$\n\n9. Write as a single logarithm:\n\n(a) $\\frac{1}{2}\\log 25 + \\log 11$\n\n(b) $2 + \\log 4$\n\n(c) $3 - \\log 5 - \\log 8$\n\n10. (a) Use your calculator to find the value of $(\\log 5)^2 + \\log 50 \\times \\log 2$.\n\n(b) Prove this result algebraically by simplifying $(1 + \\log 5)(1 - \\log 5)$ in two different ways.\n\n11. Solve using logarithms:\n\n(a) $1.5^x = 9$\n\n(b) $200 \\times 0.6^x = 10$\n\n12. Find:\n\n(a) $\\log_3 \\sqrt{3}$\n\n(b) $\\log_2\\left(\\frac{1}{16}\\right)$",
+      "source_images": ["image1833.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 6A\n\n1. Find:\n\n(a) $\\log \\sqrt{10}$\n\n(b) $\\log\\left(\\frac{1}{\\sqrt[3]{10}}\\right)$\n\n(c) $\\log(10^a \\times 10^{b+1})$\n\n2. Find:\n\n(a) $\\log_4 64$\n\n(b) $\\log_2 256$\n\n(c) $\\log_2(0.25)$\n\n(d) $\\log_{25} 5$\n\n(e) $\\log_8 1$\n\n(f) $\\log_{81} 3$\n\n(g) $\\log_9\\left(\\frac{1}{9}\\right)$\n\n(h) $\\log_k \\sqrt{k}$",
+      "source_images": ["image1834.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Use your calculator to evaluate, correct to 3 decimal places:\n\n(a) $\\log 27$\n\n(b) $\\log(0.58)$\n\n(c) $\\log 400$\n\n(d) $\\ln 40$\n\n4. Simplify:\n\n(a) $4\\ln 2 + 2\\ln 3$\n\n(b) $\\frac{1}{2}\\ln 9 - \\ln 2$\n\n(c) $2\\ln 5 - 1$\n\n(d) $\\frac{1}{4}\\ln 81$\n\n5. Write as a single logarithm:\n\n(a) $\\log 16 + 2\\log 3$\n\n(b) $\\log_2 16 - 2\\log_2 3$\n\n(c) $2 + \\log_4 5$\n\n6. Suppose $A = \\log_5 2$ and $B = \\log_5 3$. Write in terms of $A$ and $B$:\n\n(a) $\\log_5 36$\n\n(b) $\\log_5 54$\n\n(c) $\\log_5(8\\sqrt{3})$\n\n(d) $\\log_5(\\sqrt{6})$\n\n(e) $\\log_5(20.25)$\n\n(f) $\\log_5\\left(\\frac{8}{9}\\right)$\n\n7. Write as a logarithmic equation:\n\n(a) $M = ab^n$\n\n(b) $T = \\frac{5}{\\sqrt{l}}$\n\n(c) $G = \\frac{a^2b}{c}$\n\n8. Solve for $x$:\n\n(a) $3^x = 300$\n\n(b) $30 \\times 5^{1-x} = 0.15$\n\n(c) $3^{x+2} = 2^{1-x}$\n\n9. Solve exactly for $x$:\n\n(a) $e^{2x} = 3e^x$\n\n(b) $e^{2x} - 7e^x + 12 = 0$\n\n10. Write without logarithms:\n\n(a) $\\ln P = 1.5\\ln Q + \\ln T$\n\n(b) $\\ln M = 1.2 - 0.5\\ln N$\n\n11. Solve for $x$:\n\n(a) $3e^x - 5 = -2e^{-x}$\n\n(b) $2\\ln x - 3\\ln\\left(\\frac{1}{x}\\right) = 10$\n\n12. Find $x$ if:\n\n(a) $\\log_2 x = -3$\n\n(b) $\\log_5 x \\approx 2.743$\n\n(c) $\\log_3 x \\approx -3.145$\n\n13. Solve for $x$: (i) exactly (ii) rounded to 2 decimal places.\n\n(a) $2^x = 50$\n\n(b) $7^x = 4$\n\n(c) $(0.6)^x = 0.01$\n\n14. Suppose $\\log_a b = x$. Find, in terms of $x$, the value of $\\log_a\\left(\\frac{1}{b}\\right)$.\n\n15. Show that the solution to $16^x - 5 \\times 8^x = 0$ is $x = \\log_2 5$.\n\n16. Solve for $x$, giving exact answers:\n\n(a) $\\ln x = 5$\n\n(b) $3\\ln x + 2 = 0$\n\n(c) $e^x = 400$\n\n(d) $e^{2x+1} = 11$\n\n(e) $25e^{\\frac{x}{2}} = 750$",
+      "source_images": ["image1835.png", "image1836.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "17. Consider $f(x) = e^{3x-4} + 1$.\n\n(a) Show that $f^{-1}(x) = \\frac{\\ln(x - 1) + 4}{3}$.\n\n(b) Calculate $f^{-1}(8) - f^{-1}(3)$. Give your answer in the form $a\\ln b$, where $a, b \\in \\mathbb{Q}^+$.",
+      "source_images": ["image1836.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "18. Consider the function $g : x \\mapsto \\log_3(x + 2) - 2$.\n\n(a) State the transformation which maps $y = \\log_3 x$ to $y = g(x)$.\n\n(b) Find the domain and range.\n\n(c) Find any asymptotes and axes intercepts for the graph of the function.\n\n(d) Find the inverse function $g^{-1}$.\n\n(e) Sketch the graphs of $g$, $g^{-1}$, and $y = x$ on the same set of axes.\n\n19. The weight of a radioactive isotope remaining after $t$ weeks is given by $W_t = 8000 \\times e^{-\\frac{t}{20}}$ grams. Find the time for the weight to:\n\n(a) halve\n\n(b) reach 1000 g\n\n(c) reach 0.1% of its original value.\n\n20. A population of seals is given by $P(t) = 80 \\times (1.15)^t$ where $t$ is the time in years, $t \\geq 0$.\n\n(a) Find the time required for the population to double in size.\n\n(b) Find the percentage increase in population during the first 4 years.\n\n21. For each of the following functions:\n\n(i) State the domain and range.\n\n(ii) Find any asymptotes and axes intercepts.\n\n(iii) Sketch the graph of the function, showing all important features.\n\n(a) $f(x) = \\log_2(x + 4) - 1$\n\n(b) $f(x) = \\ln x + 2$\n\n22. Draw, on the same set of axes, the graphs of:\n\n(a) $y = \\ln x$ and $y = \\ln(x - 3)$\n\n(b) $y = \\ln x$ and $y = \\frac{1}{2}\\ln x$\n\n23. Consider $f(x) = e^x$ and $g(x) = \\ln(x + 4)$, $x > -4$. Find:\n\n(a) $(f \\circ g)(5)$\n\n(b) $(g \\circ f)(0)$",
+      "source_images": ["image1837.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 6B\n\n1. Without using a calculator, find the base 10 logarithms of:\n\n(a) $\\sqrt{1000}$\n\n(b) $\\frac{10}{\\sqrt[3]{10}}$\n\n(c) $\\frac{10^a}{10^{-b}}$\n\n2. Find:\n\n(a) $\\log_2 128$\n\n(b) $\\log_3\\left(\\frac{1}{27}\\right)$\n\n(c) $\\log_5\\left(\\frac{1}{\\sqrt{5}}\\right)$",
+      "source_images": ["image1838.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Write in the form $10^x$, giving $x$ correct to 4 decimal places:\n\n(a) 32\n\n(b) 0.0013\n\n(c) $8.963 \\times 10^{-5}$\n\n4. Find:\n\n(a) $\\ln(e\\sqrt{e})$\n\n(b) $\\ln\\left(\\frac{1}{e^3}\\right)$\n\n(c) $\\ln(e^{2x})$\n\n(d) $\\ln\\left(\\frac{e}{e^x}\\right)$",
+      "source_images": ["image1839.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. Simplify:\n\n(a) $\\frac{\\log_2 25}{\\log_2 125}$\n\n(b) $\\frac{\\log 64}{\\log 32}$\n\n(c) $\\frac{\\log_5 81}{\\log_5 \\sqrt{3}}$\n\n6. Simplify:\n\n(a) $e^{4\\ln x}$\n\n(b) $\\ln(e^5)$\n\n(c) $\\ln(\\sqrt{e})$\n\n(d) $10^{\\log x + \\log 3}$\n\n(e) $\\ln\\left(\\frac{1}{e^x}\\right)$\n\n(f) $\\frac{\\log(x^2)}{\\log_3 9}$\n\n7. Write in the form $e^x$, where $x$ is correct to 4 decimal places:\n\n(a) 20\n\n(b) 3000\n\n(c) 0.075\n\n8. Solve for $x$: (i) exactly (ii) rounded to 2 decimal places.\n\n(a) $5^x = 7$\n\n(b) $2^x = 0.1$",
+      "source_images": ["image1840.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. Write as a single logarithm:\n\n(a) $\\ln 60 - \\ln 20$\n\n(b) $\\ln 4 + \\ln 1$\n\n(c) $\\ln 200 - \\ln 8 + \\ln 5$\n\n10. Solve for $x$, giving exact answers:\n\n(a) $e^{2x} = 70$\n\n(b) $3 \\times (1.3)^x = 11$\n\n(c) $5 \\times 2^{0.3x} = 16$\n\n11. What is the only value of $x$ for which $\\log x = \\ln x$?\n\n12. Write as a logarithmic equation:\n\n(a) $P = 3 \\times b^x$\n\n(b) $m = \\frac{n^3}{p^2}$\n\n13. Show that $\\log_3 7 \\times 2\\log_7 x = 2\\log_3 x$.\n\n14. Write the following equations without logarithms:\n\n(a) $\\log T = 2\\log x - \\log y$\n\n(b) $\\log_2 K = \\log_2 n + \\frac{1}{2}\\log_2 t$\n\n15. Write in the form $a\\ln k$ where $a$ and $k$ are positive whole numbers and $k$ is prime:\n\n(a) $\\ln 32$\n\n(b) $\\ln 125$\n\n(c) $\\ln 729$\n\n16. Copy and complete:\n\n| | $y = \\log_2 x$ | $y = \\ln(x + 5)$ |\n|---------|----------------|------------------|\n| Domain | | |\n| Range | | |",
+      "source_images": ["image1841.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "17. (a) Factorise $4^x - 2^x - 20$ in the form $(2^x + a)(2^x - b)$ where $a, b \\in \\mathbb{Z}^+$.\n\n(b) Hence find the exact solution of $2^x(2^x - 1) = 20$.\n\n(c) Suppose $p = \\log_5 2$.\n\n(i) Write the solution to (b) in terms of $p$.\n\n(ii) Find the solution to $8^x = 5^{1-x}$ in terms of $p$ only.\n\n18. Consider $g : x \\mapsto 2e^x - 5$.\n\n(a) Find the inverse function $g^{-1}$.\n\n(b) Sketch the graphs of $g$ and $g^{-1}$ on the same set of axes.\n\n(c) State the domain and range of $g$ and $g^{-1}$.\n\n(d) State the asymptotes and intercepts of $g$ and $g^{-1}$.",
+      "source_images": ["image1842.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "19. The temperature of a mug of water $t$ minutes after it has been poured from a kettle is given by $T = 60e^{-0.1t} + 20$ $^\\circ$C.\n\nShow that it will take $10\\ln 3$ minutes for the temperature of the water to fall to 40$^\\circ$C.\n\n20. The weight of a radioactive isotope after $t$ years is given by $W(t) = 2500 \\times 3^{-\\frac{t}{3000}}$ grams.\n\n(a) Find the initial weight of the isotope.\n\n(b) Find the time taken for the isotope to reduce to 30% of its original weight.\n\n(c) Find the percentage of weight lost after 1500 years.\n\n21. Solve for $x$, giving an exact answer:\n\n(a) $5^{\\frac{x}{2}} = 9$\n\n(b) $e^x = 30$\n\n(c) $e^{1-3x} = 2$\n\n22. Draw, on the same set of axes, the graphs of:\n\n(a) $y = \\ln x$ and $y = \\ln(x + 2)$\n\n(b) $y = \\ln x$ and $y = \\ln(ex)$\n\n23. Hick's law models the time taken for a person to make a selection from a number of possible options.\n\nFor a particular person, Hick's law determines that the time taken to choose between $n$ equally probable choices is $T = 2\\ln(n + 1)$ seconds.\n\n(a) Sketch the graph of $T$ against $n$ for $0 \\leq n \\leq 50$.\n\n(b) How long will it take this person to choose between:\n\n(i) 5 possible choices\n\n(ii) 15 possible choices?\n\n(c) If the number of possible choices increases from 20 to 40, how much longer will the person take to make a selection?",
+      "source_images": ["image1843.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercises\n\n19.1.1 What are the domain and range of the function $f(x) = 3 \\cdot 5^x - 4$?\n\n19.1.2 Find all values of $r$ such that $5^{2r-3} = 25$.\n\n19.1.3 Find all values of $t$ such that $6^{3t-1} = 36^{t-3}$.\n\n19.1.4 Suppose $5^x = 3$. Find $5^{2x+3}$.\n\n19.1.5 Find the value of $x$ that satisfies the equation $25^{-2} = \\frac{5^{48/x}}{5^{26/x} \\cdot 25^{17/x}}$. (Source: AMC 12)\n\n19.1.6$\\star$ Find all solutions to the equation $3 \\cdot 9^l - 82 \\cdot 3^l + 27 = 0$.\n\n19.1.7$\\star$ If $9^{x-1} = 7$, then what is $3^{2x+3}$?",
+      "source_images": ["image1844.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Important: If $\\$k$ is invested at an interest rate of $r\\%$ for $n$ years, compounded annually, then the total amount at the end of $n$ years is\n\n$\\left(1 + \\frac{r}{100}\\right)^n (\\$k)$.",
+      "source_images": ["image1845.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Important: If $\\$k$ is invested at an interest rate of $r\\%$ for $n$ years, compounded $m$ times a year, then the total amount at the end of $n$ years is\n\n$\\left(1 + \\frac{r}{100m}\\right)^{nm} (\\$k)$.",
+      "source_images": ["image1846.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercises\n\n19.2.1 Paula invests $\\$10,000$ for 5 years at an interest rate of 10%. At the end of those 5 years, how much is her investment worth in each of the following cases:\n\n(a) The interest is simple interest.\n\n(b) The interest is compounded annually.\n\n(c) The interest is compounded quarterly.",
+      "source_images": ["image1847.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "19.2.2 Joanie takes a $\\$6,000$ loan to pay for her car. The interest rate on the loan is 12%. She makes no payments for 4 years, but has to pay back all the money she owes at the end of 4 years. How much more money will she owe if the interest compounds quarterly than if the interest compounds annually?\n\n19.2.3 Bill invests $\\$2,500$ in an investment that pays 5% interest compounded annually for the first two years, then 8% interest compounded annually for three years after that. Debbie invests $\\$2,500$ in an investment that pays 8% interest compounded annually for the first three years, then 5% interest compounded annually for two years after that. Which investment is worth the most money after 5 years?\n\n19.2.4 Beth invests $\\$4,200$ at an annually compounded interest rate of 6%. Josey invests $\\$4,200$ at a simple interest rate of $r\\%$.\n\n(a) What is $r$ if their investments are worth the same amount after 1 year?\n\n(b) What is $r$ if their investments are worth the same amount after 2 years?\n\n(c) What is $r$ if their investments are worth the same amount after 10 years?",
+      "source_images": ["image1848.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 19.10: Sayeed borrowed $\\$2,300$. The interest on the loan was compounded annually for 5 years, and the interest rate remained the same throughout that time. At the end of the five years, Sayeed owed $\\$3,301.95$ (including the original $\\$2,300$). To the nearest tenth of a percent, what was the interest rate?\n\nSolution for Problem 19.10: Let the interest rate be $r\\%$. Each year, the amount Sayeed owes increases by a factor of $\\left(1 + \\frac{r}{100}\\right)$. So, after five years, Sayeed owes\n\n$(\\$2,300)\\left(1 + \\frac{r}{100}\\right)^5$.\n\nSince we are told that Sayeed owes $\\$3,301.95$ after five years, we have the equation\n\n$(\\$2,300)\\left(1 + \\frac{r}{100}\\right)^5 = \\$3,301.95$.\n\nWe wish to isolate $r$. First we divide both sides by $\\$2,300$, which gives us $\\left(1 + \\frac{r}{100}\\right)^5 \\approx 1.436$. We then take the fifth root of both sides. This turns the equation into a simple linear equation:\n\n$1 + \\frac{r}{100} \\approx 1.075$.\n\nSolving this equation tells us that $r \\approx 7.5$, so the interest rate to the nearest tenth of a percent is 7.5%.",
+      "source_images": ["image1849.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 19.11: I want to have $\\$1,000,000$ in the bank when I retire in 10 years. If I can invest money at a rate of 10%, compounded semi-annually, how much should I put in savings right now to have $\\$1,000,000$ in 10 years? (Assume I will not invest any more money between now and retirement.)\n\nSolution for Problem 19.11: Suppose I invest $\\$x$. After 10 years, compounded semi-annually at a rate of 10%, the interest will compound 20 times. During each of these compounding periods, my money multiplies by a factor of $\\left(1 + \\frac{0.1}{2}\\right)$. (If you don't see why, re-read the previous section.) Therefore, after 20 of these compounding periods, I will have\n\n$\\left(1 + \\frac{0.1}{2}\\right)^{20} (\\$x)$.\n\nSince I want this to equal $\\$1,000,000$, I have the equation\n\n$\\left(1 + \\frac{0.1}{2}\\right)^{20} (\\$x) = \\$1,000,000$.\n\nSolving for $\\$x$, we find\n\n$\\$x = \\frac{\\$1,000,000}{\\left(1 + \\frac{0.1}{2}\\right)^{20}} \\approx \\$376,889.48$.",
+      "source_images": ["image1850.png", "image1851.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 19.12: I take a three-year loan for $\\$10,000$. The interest rate is 6% compounded annually. At the end of each year, I make a payment right when the annual interest is added to the amount I owe. For the following year, I am then charged interest on the amount I still owe after my payment. All three of my payments are the same and my loan is completely paid off after the third payment.\n\n(a) Suppose each payment is $\\$x$. In terms of $x$, what is the present value of my first payment? Of my second payment? Of my third payment?\n\n(b) What is the amount of each payment?\n\nSolution 1: Take it a year at a time. At the end of the first year, $(0.06)(\\$10,000) = \\$600$ is added to the amount I owe, giving a total of $\\$10,600$. Suppose I pay $\\$x$ of this amount at the end of the first year. This leaves me owing\n\n$\\$10,600 - \\$x$.\n\nDuring the second year, I am charged $(0.06)(\\$10,600 - \\$x)$ interest on this amount. This is added to the amount I owe to give\n\n$\\$10,600 - \\$x + (0.06)(\\$10,600 - \\$x) = 1.06(\\$10,600 - \\$x)$.\n\nThen, I make another payment of $\\$x$, leaving me owing\n\n$1.06(\\$10,600 - \\$x) - \\$x$.\n\nDuring the third year I am charged 6% interest on this amount, for a total of\n\n$(0.06)[1.06(\\$10,600 - \\$x) - \\$x]$\n\nin interest. Adding this to the amount I owed at the end of the second year gives me a total amount owed at the end of the third year of\n\n$1.06(\\$10,600 - \\$x) - \\$x + (0.06)[1.06(\\$10,600 - \\$x) - \\$x] = (1.06)[1.06(\\$10,600 - \\$x) - \\$x]$.\n\nAt the end of the third year, I make my final payment of $\\$x$. This amount must equal the total amount I owe, so we have the equation\n\n$\\$x = (1.06)[1.06(\\$10,600 - \\$x) - \\$x]$.\n\nThis is just a linear equation! We know how to solve linear equations. With a little work, we find that $x$ is approximately 3,741.1, so each of my payments is $\\$3,741.10$.\n\nSolution 2: Break the loan into three loans. We think of my three payments as paying off three separate loans that initially totaled $\\$10,000$. Suppose the first loan was a one-year loan for $\\$a$, the second a two-year loan for $\\$b$, and the third a three-year loan for $\\$c$. All three are 6% loans compounded annually, and I pay off each loan at the end of its term with a payment of $\\$x$.\n\nSince the three loans together must total the $\\$10,000$ I need to borrow, we have\n\n$\\$a + \\$b + \\$c = \\$10,000$.\n\nSince all three payments I make are $\\$x$, we have:\n\n$\\$x = (1.06)(\\$a)$\n$\\$x = (1.06)^2(\\$b)$\n$\\$x = (1.06)^3(\\$c)$\n\nWe solve these three equations for $\\$a$, $\\$b$, and $\\$c$ to find\n\n$\\$a = \\frac{\\$x}{1.06}$, $\\$b = \\frac{\\$x}{1.06^2}$, $\\$c = \\frac{\\$x}{1.06^3}$.\n\nSubstituting these into $\\$a + \\$b + \\$c = \\$10,000$ gives\n\n$\\frac{\\$x}{1.06} + \\frac{\\$x}{1.06^2} + \\frac{\\$x}{1.06^3} = \\$10,000$.\n\nOnce again, we have a linear equation. Solving this equation tells me that each of my payments must be $\\$x \\approx \\$3,741.10$.\n\nSolution 3: Use present value. Those three expressions in our final linear equation in Solution 2 look like present values. In fact,\n\n$\\frac{\\$x}{1.06}$\n\nis the present value of the payment of $\\$x$ that I make at the end of the first year.\n\nSimilarly, the present value of the $\\$x$ payment after the second year is\n\n$\\frac{\\$x}{1.06^2}$,\n\nand the present value of the $\\$x$ payment after the third year is\n\n$\\frac{\\$x}{1.06^3}$.\n\nThe sum of these three present values gives the total value today of the three payments I make in the future. This total value today of my future payments must exactly equal the $\\$10,000$ I borrow today. Therefore, we have the equation\n\n$\\frac{\\$x}{1.06} + \\frac{\\$x}{1.06^2} + \\frac{\\$x}{1.06^3} = \\$10,000$.\n\nThis equation looks familiar! We've already solved it in Solution 2 to find\n\n$\\$x \\approx \\$3,741.10$\n\nas the payment I must make at the end of each year.",
+      "source_images": ["image1852.png", "image1853.png", "image1854.png", "image1855.png", "image1856.png", "image1857.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercises\n\n19.3.1 Billy takes a $\\$3,000$ loan that compounds semi-annually (twice a year). He makes no payments for the first 4 years, and after 4 years he owes $\\$3,950.43$. What is the interest rate of the loan?\n\n19.3.2 How much money should I invest at an annually compounded interest rate of 5% so that I have $\\$500,000$ in ten years?\n\n19.3.3 The annually compounded interest rate for the next 20 years is 8%. You win a lottery and are allowed to choose one of the following four options. Order the options from most valuable to least valuable.\n\n(a) Receive $\\$100,000$ in 20 years.\n\n(b) Receive $\\$50,000$ in 10 years.\n\n(c) Receive $\\$30,000$ in 10 years and another $\\$50,000$ in 20 years.\n\n(d) Receive $\\$25,000$ right away.\n\n19.3.4 Greta invests $\\$10,000$ in an investment that pays 3% interest, compounded annually, for the first three years, then 9% interest, compounded annually, for the last three years. Rui invests $\\$10,000$ in an investment that pays $r\\%$ for all six years. The two investments are worth the same amount after 6 years. Is $r$ greater than, equal to, or less than 6?\n\n19.3.5$\\star$ Stefan takes out a four-year loan of $\\$12,000$. The interest rate is 8.5% compounded annually. Stefan makes a payment at the end of each year right when the annual interest is added to the amount he owes. For the following year, he is charged interest on the amount he still owes after his payment. If all four payments are the same, what is the amount of each payment?",
+      "source_images": ["image1858.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 19.13: Evaluate each of the following:\n\n(a) $\\log_3 81$\n\n(b) $\\log_{10} 100000$\n\n(c) $\\log_8 2$\n\n(d) $\\log_5 \\sqrt[3]{25}$\n\n(e) $\\log_2 \\frac{1}{8}$\n\n(f) $\\log_{1/2} \\sqrt{2}$",
+      "source_images": ["image1859.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 19.15: Find the base $n$ such that $\\log_n 3 = -3/2$.\n\nSolution for Problem 19.15: The equation $\\log_n 3 = -3/2$ means \"$-3/2$ is the power to which we must raise $n$ in order to get 3.\" We use this meaning to write the equation in exponential form:\n\n$n^{-3/2} = 3$.\n\nIn order to isolate $n$, we raise both sides to the $-2/3$ power, since $(n^{-3/2})^{-2/3} = n^{(-3/2)(-2/3)} = n^1 = n$:\n\n$(n^{-3/2})^{(-2/3)} = 3^{-2/3}$.\n\nThis gives us\n\n$n = \\frac{1}{3^{2/3}} = \\frac{1}{\\sqrt[3]{3^2}} = \\frac{1}{\\sqrt[3]{3^2}} \\cdot \\frac{\\sqrt[3]{3}}{\\sqrt[3]{3}} = \\frac{\\sqrt[3]{3}}{\\sqrt[3]{3^3}} = \\frac{\\sqrt[3]{3}}{3}$.",
+      "source_images": ["image1860.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercises\n\n19.4.1 Evaluate each of the following:\n\n(a) $\\log_4 64$\n\n(b) $\\log_6 1296$\n\n19.4.2 Evaluate each of the following:\n\n(a) $\\log_2 \\frac{1}{16}$\n\n(b) $\\log_{1/3} 27$\n\n19.4.3 Evaluate each of the following:\n\n(a) $\\log_2 8\\sqrt{2}$\n\n(b) $\\log_{\\sqrt{3}} 9$\n\n19.4.4 Evaluate each of the following:\n\n(a) $\\log_4 32$\n\n(b) $\\log_{27} 3\\sqrt{3}$\n\n19.4.5 Find $r$ such that $\\log_{81}(2r - 1) = -1/2$.\n\n19.4.6 Solve for $x$ in terms of $y$ in each of the following:\n\n(a) $y = \\log_2(x - 4)$\n\n(b) $y = 3\\log_4(2x)$\n\n(c) $y = 4 - 2\\log_7(3 - x)$\n\n19.4.7\n\n(a) Find the domain and range of $f(x) = 2\\log_3(5 - x)$.\n\n(b) Find the domain and range of $g(x) = 7 - 3\\log_8(2x - 5)$.\n\n19.4.8 Find the base $b$ such that $\\log_b 5\\sqrt{5} = \\frac{5}{2}$.\n\n19.4.9 Is it true that the $x$-intercept of $y = \\log_a x$ is $(1, 0)$ for all positive constants $a$ (except $a = 1$)?\n\n19.4.10\n\n(a) Evaluate $\\log_2 4$, $\\log_2 4^2$, $\\log_2 4^3$, $\\log_2 4^4$.\n\n(b) Let $x = \\log_a b$. Write this equation in exponential form.\n\n(c) Let $y = \\log_a b^c$. Write this equation in exponential form.\n\n(d) Use parts (b) and (c) to prove that $\\log_a b^c = c\\log_a b$.",
+      "source_images": ["image1861.png", "image1862.png"]
+    }
+  ]
+}

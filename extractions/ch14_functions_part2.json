@@ -5,7 +5,12 @@
   "items": [
     {
       "type": "exercise",
-      "content_latex": "11. Suppose $f(x) = \\sqrt{1-x}$ and $g(x) = x^2$. Find:\n\n(a) $(f \\circ g)(x)$\n\n(b) the domain and range of $(f \\circ g)(x)$.\n\n12. Suppose $f(x)$ and $g(x)$ are functions. $f(x)$ has domain $D_f$ and range $R_f$. $g(x)$ has domain $D_g$ and range $R_g$.\n\n(a) Under what circumstance will $(f \\circ g)(x)$ be defined?\n\n(b) Assuming $(f \\circ g)(x)$ is defined, find its domain.",
+      "content_latex": "11. Suppose $f(x) = \\sqrt{1-x}$ and $g(x) = x^2$. Find:\n\n(a) $(f \\circ g)(x)$\n\n(b) the domain and range of $(f \\circ g)(x)$.",
+      "source_images": ["image1405.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "12. Suppose $f(x)$ and $g(x)$ are functions. $f(x)$ has domain $D_f$ and range $R_f$. $g(x)$ has domain $D_g$ and range $R_g$.\n\n(a) Under what circumstance will $(f \\circ g)(x)$ be defined?\n\n(b) Assuming $(f \\circ g)(x)$ is defined, find its domain.",
       "source_images": ["image1405.png"]
     },
     {
@@ -40,37 +45,32 @@
     },
     {
       "type": "concept",
-      "content_latex": "PROPERTIES OF THE INVERSE FUNCTION\n\nIf $f(x)$ has an inverse function, this new function:\n- is denoted $f^{-1}(x)$\n- must satisfy the vertical line test\n- has a graph which is the reflection of $y = f(x)$ in the line $y = x$\n- satisfies $(f \\circ f^{-1})(x) = x$ and $(f^{-1} \\circ f)(x) = x$.\n\nThe function $y = x$ is called the identity function because it is its own inverse, and when its inverse is found, $(x, y)$ maps onto itself.\n\n$f^{-1}(x)$ is the inverse of $f$. In general, $f^{-1}(x) \\neq \\frac{1}{f(x)}$.",
+      "content_latex": "PROPERTIES OF THE INVERSE FUNCTION\n\nIf $f(x)$ has an inverse function, this new function:\n- is denoted $f^{-1}(x)$\n- must satisfy the vertical line test\n- has a graph which is the reflection of $y = f(x)$ in the line $y = x$\n- satisfies $(f \\circ f^{-1})(x) = x$ and $(f^{-1} \\circ f)(x) = x$.\n\nThe function $y = x$ is called the identity function because it is its own inverse, and when its inverse is found, $(x, y)$ maps onto itself.\n\n$f^{-1}(x)$ is the inverse of $f$.\n\nIn general, $f^{-1}(x) \\neq \\frac{1}{f(x)}$.",
       "source_images": ["image1412.png"]
     },
     {
       "type": "concept",
-      "content_latex": "If $(x, y)$ lies on $f$, then $(y, x)$ must lie on $f^{-1}$.\n\nGeometrically, this is achieved by reflecting the graph of $y = f(x)$ in the line $y = x$.\n\nAlgebraically, we find the formula for an inverse function by exchanging $x$ and $y$.\n\nFor example, $f : y = 5x + 2$ becomes $f^{-1} : x = 5y + 2$,\n\nwhich we rearrange to obtain $f^{-1} : y = \\frac{x-2}{5}$.",
+      "content_latex": "If $(x, y)$ lies on $f$, then $(y, x)$ must lie on $f^{-1}$.\n\nGeometrically, this is achieved by reflecting the graph of $y = f(x)$ in the line $y = x$.\n\nAlgebraically, we find the formula for an inverse function by exchanging $x$ and $y$.\n\nFor example, $f: y = 5x + 2$ becomes $f^{-1}: x = 5y + 2$,\n\nwhich we rearrange to obtain $f^{-1}: y = \\frac{x-2}{5}$.",
       "source_images": ["image1413.png"]
     },
     {
       "type": "concept",
-      "content_latex": "$y = f^{-1}(x)$ is the inverse of $y = f(x)$ as:\n- it is also a function\n- it is the reflection of $y = f(x)$ in the line $y = x$.\n\nIf $f(x)$ has an inverse function $f^{-1}(x)$, then:\n\nThe domain of $f^{-1}$ is equal to the range of $f$.\n\nThe range of $f^{-1}$ is equal to the domain of $f$.",
-      "source_images": ["image1414.png"]
-    },
-    {
-      "type": "concept",
-      "content_latex": "- $f^{-1}(x)$ can be found algebraically by interchanging $x$ and $y$ and then making $y$ the subject of the resulting formula. The new $y$ is $f^{-1}(x)$.",
-      "source_images": ["image1415.png"]
+      "content_latex": "$y = f^{-1}(x)$ is the inverse of $y = f(x)$ as:\n- it is also a function\n- it is the reflection of $y = f(x)$ in the line $y = x$.\n\nIf $f(x)$ has an inverse function $f^{-1}(x)$, then:\n\nThe domain of $f^{-1}$ is equal to the range of $f$.\n\nThe range of $f^{-1}$ is equal to the domain of $f$.\n\n$f^{-1}(x)$ can be found algebraically by interchanging $x$ and $y$ and then making $y$ the subject of the resulting formula. The new $y$ is $f^{-1}(x)$.",
+      "source_images": ["image1414.png", "image1415.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 5\n\nConsider $f(x) = \\frac{1}{2}x - 1$.\n\n(a) Find $f^{-1}(x)$.\n\n(b) Check that $f(f^{-1}(x)) = f^{-1}(f(x)) = x$.\n\n(c) Sketch $y = f(x)$, $y = f^{-1}(x)$, and $y = x$ on the same set of axes.\n\nSolutions:\n\n(a) $y = \\frac{1}{2}x - 1$ has inverse function $x = \\frac{1}{2}y - 1$ {interchanging $x$ and $y$}\n\n$\\therefore 2x = y - 2$\n\n$\\therefore y = 2x + 2$\n\n$\\therefore f^{-1}(x) = 2x + 2$\n\n(b) $f(f^{-1}(x)) = f(2x + 2)$\n$= \\frac{1}{2}(2x + 2) - 1$\n$= x + 1 - 1$\n$= x$\n\n$f^{-1}(f(x)) = f^{-1}(\\frac{1}{2}x - 1)$\n$= 2(\\frac{1}{2}x - 1) + 2$\n$= x - 2 + 2$\n$= x$\n\n(c) $y = f^{-1}(x)$ is a reflection of $y = f(x)$ in the line $y = x$.",
+      "content_latex": "Example 5\n\nConsider $f(x) = \\frac{1}{2}x - 1$.\n\n(a) Find $f^{-1}(x)$.\n\n(b) Check that $f(f^{-1}(x)) = f^{-1}(f(x)) = x$.\n\n(c) Sketch $y = f(x)$, $y = f^{-1}(x)$, and $y = x$ on the same set of axes.\n\nSolutions:\n\n(a) $y = \\frac{1}{2}x - 1$ has inverse function $x = \\frac{1}{2}y - 1$ {interchanging $x$ and $y$}\n\n$\\therefore 2x = y - 2$\n\n$\\therefore y = 2x + 2$\n\n$\\therefore f^{-1}(x) = 2x + 2$\n\n(b) $f(f^{-1}(x)) = f(2x + 2)$\n\n$= \\frac{1}{2}(2x + 2) - 1$\n\n$= x + 1 - 1$\n\n$= x$\n\n$f^{-1}(f(x)) = f^{-1}(\\frac{1}{2}x - 1)$\n\n$= 2(\\frac{1}{2}x - 1) + 2$\n\n$= x - 2 + 2$\n\n$= x$\n\n(c) $y = f^{-1}(x)$ is a reflection of $y = f(x)$ in the line $y = x$.",
       "source_images": ["image1416.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 12\n\nConsider $f : x \\mapsto 2x + 3$.\n\n(a) On the same axes, graph $f$ and its inverse function $f^{-1}$.\n\n(b) Find $f^{-1}(x)$ using:\n\n(i) coordinate geometry and the gradient of $y = f^{-1}(x)$ from (a)\n\n(ii) variable interchange.\n\n(c) Check that $(f \\circ f^{-1})(x) = (f^{-1} \\circ f)(x) = x$\n\nSolutions:\n\n(a) $f(x) = 2x + 3$ passes through $(0, 3)$ and $(2, 7)$.\n\n$\\therefore f^{-1}(x)$ passes through $(3, 0)$ and $(7, 2)$.\n\nIf $f$ includes point $(a, b)$ then $f^{-1}$ includes point $(b, a)$.\n\n(b) (i) $y = f^{-1}(x)$ has gradient $\\frac{2-0}{7-3} = \\frac{1}{2}$\n\nIts equation is $\\frac{y-0}{x-3} = \\frac{1}{2}$\n\n$\\therefore y = \\frac{x-3}{2}$\n\n$\\therefore f^{-1}(x) = \\frac{x-3}{2}$\n\n(ii) $f$ is $y = 2x + 3$,\n\n$\\therefore f^{-1}$ is $x = 2y + 3$\n\n$\\therefore x - 3 = 2y$\n\n$\\therefore \\frac{x-3}{2} = y$\n\n$\\therefore f^{-1}(x) = \\frac{x-3}{2}$",
+      "content_latex": "Example 12\n\nConsider $f: x \\mapsto 2x + 3$.\n\n(a) On the same axes, graph $f$ and its inverse function $f^{-1}$.\n\n(b) Find $f^{-1}(x)$ using:\n\n(i) coordinate geometry and the gradient of $y = f^{-1}(x)$ from (a)\n\n(ii) variable interchange.\n\n(c) Check that $(f \\circ f^{-1})(x) = (f^{-1} \\circ f)(x) = x$\n\nSolutions:\n\n(a) $f(x) = 2x + 3$ passes through $(0, 3)$ and $(2, 7)$.\n\n$\\therefore f^{-1}(x)$ passes through $(3, 0)$ and $(7, 2)$.\n\nIf $f$ includes point $(a, b)$ then $f^{-1}$ includes point $(b, a)$.\n\n(b) (i) $y = f^{-1}(x)$ has gradient $\\frac{2-0}{7-3} = \\frac{1}{2}$\n\nIts equation is $\\frac{y-0}{x-3} = \\frac{1}{2}$\n\n$\\therefore y = \\frac{x-3}{2}$\n\n$\\therefore f^{-1}(x) = \\frac{x-3}{2}$\n\n(ii) $f$ is $y = 2x + 3$,\n\n$\\therefore f^{-1}$ is $x = 2y + 3$\n\n$\\therefore x - 3 = 2y$\n\n$\\therefore \\frac{x-3}{2} = y$\n\n$\\therefore f^{-1}(x) = \\frac{x-3}{2}$",
       "source_images": ["image1417.png"]
     },
     {
       "type": "example",
-      "content_latex": "(c) $(f \\circ f^{-1})(x) = f(f^{-1}(x))$\n$= f\\left(\\frac{x-3}{2}\\right)$\n$= 2\\left(\\frac{x-3}{2}\\right) + 3$\n$= x$\n\nand $(f^{-1} \\circ f)(x) = f^{-1}(f(x))$\n$= f^{-1}(2x + 3)$\n$= \\frac{(2x + 3) - 3}{2}$\n$= \\frac{2x}{2}$\n$= x$",
+      "content_latex": "(c) $(f \\circ f^{-1})(x) = f(f^{-1}(x))$\n\n$= f\\left(\\frac{x-3}{2}\\right)$\n\n$= 2\\left(\\frac{x-3}{2}\\right) + 3$\n\n$= x$\n\nand $(f^{-1} \\circ f)(x) = f^{-1}(f(x))$\n\n$= f^{-1}(2x + 3)$\n\n$= \\frac{(2x + 3) - 3}{2}$\n\n$= \\frac{2x}{2}$\n\n$= x$",
       "source_images": ["image1418.png"]
     },
     {
@@ -80,27 +80,27 @@
     },
     {
       "type": "exercise",
-      "content_latex": "2. Copy the following graphs and draw the graph of each inverse function:\n\n(a) [Graph showing linear function passing through $(0, 3)$ with negative slope]\n\n(b) [Graph showing curve passing through $(0, 3)$ with point at $(3, 0)$]\n\n(c) [Graph showing horizontal line at $y = 1$]\n\n3. Consider $f(x) = 2x + 7$.\n\n(a) Find $f^{-1}(x)$.\n\n(b) Check that $f(f^{-1}(x)) = f^{-1}(f(x)) = x$.\n\n4. Consider $f(x) = \\frac{2x+1}{x+3}$.\n\n(a) Find $f^{-1}(x)$.\n\n(b) Check that $f(f^{-1}(x)) = f^{-1}(f(x)) = x$.\n\n5. Consider $g(x) = \\frac{x}{x-5}$.\n\n(a) Find $g^{-1}(x)$.\n\n(b) Check that $g(g^{-1}(x)) = x$ and $g^{-1}(g(x)) = x$.\n\n(c) Find $g(6)$ and $g^{-1}(1)$.\n\n6. (a) Sketch the graph of $y = x^2$ and reflect it in the line $y = x$.\n\n(b) Does $f(x) = x^2$ have an inverse function? Explain your answer.\n\n(c) Does $f(x) = x^2$, $x \\geqslant 0$ have an inverse function? Explain your answer.\n\n7. The horizontal line test says that 'for a function to have an inverse function, no horizontal line can cut it more than once'.\n\n(a) Explain why this is a valid test for the existence of an inverse function.\n\n(b) Which of the following functions have an inverse function?\n\n(i) [Graph i]\n\n(ii) [Graph ii]\n\n(iii) [Graph iii]\n\n(iv) [Graph iv]\n\n8. (a) Explain why $f(x) = x^2 - 2x + 5$ is a function but does not have an inverse function.\n\n(b) Explain why $f(x) = x^2 - 2x + 5$, $x \\geqslant 1$ has an inverse function.\n\n(c) Show that the inverse function of (b) is $f^{-1}(x) = 1 + \\sqrt{x-4}$.\n\nHint: Swap $x$ and $y$, then use the quadratic formula to solve for $y$ in terms of $x$.",
+      "content_latex": "2. Copy the following graphs and draw the graph of each inverse function.\n\n3. Consider $f(x) = 2x + 7$.\n\n(a) Find $f^{-1}(x)$.\n\n(b) Check that $f(f^{-1}(x)) = f^{-1}(f(x)) = x$.\n\n4. Consider $f(x) = \\frac{2x+1}{x+3}$.\n\n(a) Find $f^{-1}(x)$.\n\n(b) Check that $f(f^{-1}(x)) = f^{-1}(f(x)) = x$.\n\n5. Consider $g(x) = \\frac{x}{x-5}$.\n\n(a) Find $g^{-1}(x)$.\n\n(b) Check that $g(g^{-1}(x)) = x$ and $g^{-1}(g(x)) = x$.\n\n(c) Find $g(6)$ and $g^{-1}(1)$.\n\n6. (a) Sketch the graph of $y = x^2$ and reflect it in the line $y = x$.\n\n(b) Does $f(x) = x^2$ have an inverse function? Explain your answer.\n\n(c) Does $f(x) = x^2$, $x \\geqslant 0$ have an inverse function? Explain your answer.\n\n7. The horizontal line test says that \"for a function to have an inverse function, no horizontal line can cut it more than once\".\n\n(a) Explain why this is a valid test for the existence of an inverse function.\n\n(b) Which of the following functions have an inverse function?\n\n8. (a) Explain why $f(x) = x^2 - 2x + 5$ is a function but does not have an inverse function.\n\n(b) Explain why $f(x) = x^2 - 2x + 5$, $x \\geqslant 1$ has an inverse function.\n\n(c) Show that the inverse function of (b) is $f^{-1}(x) = 1 + \\sqrt{x-4}$.\n\nHint: Swap $x$ and $y$, then use the quadratic formula to solve for $y$ in terms of $x$.",
       "source_images": ["image1420.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "EXERCISE 3F\n\n1. For each of the following functions $f$:\n\n(i) On the same set of axes, graph $y = x$, $y = f(x)$, and $y = f^{-1}(x)$.\n\n(ii) Find $f^{-1}(x)$ using coordinate geometry and the gradient of $y = f^{-1}(x)$ from (i).\n\n(iii) Find $f^{-1}(x)$ using variable interchange.\n\n(a) $f : x \\mapsto 3x + 1$\n\n(b) $f : x \\mapsto \\frac{x+2}{4}$\n\n2. For each of the following functions $f$:\n\n(i) Find $f^{-1}(x)$.\n\n(ii) Sketch $y = f(x)$, $y = f^{-1}(x)$, and $y = x$ on the same set of axes.\n\n(iii) Show that $(f^{-1} \\circ f)(x) = (f \\circ f^{-1})(x) = x$, the identity function.\n\n(a) $f : x \\mapsto 2x + 5$\n\n(b) $f : x \\mapsto \\frac{3-2x}{4}$\n\n(c) $f : x \\mapsto x + 3$\n\n3. Copy the graphs of the following functions and draw the graphs of $y = x$ and $y = f^{-1}(x)$ on the same set of axes. In each case, state the domain and range of both $f$ and $f^{-1}$.\n\n(a) [Graph a]\n\n(b) [Graph b]\n\n(c) [Graph c]\n\n(d) [Graph d]\n\n(e) [Graph e]\n\n(f) [Graph f]\n\n4. Given $f(x) = 2x - 5$, find $(f^{-1})^{-1}(x)$. What do you notice?\n\nWhen graphing $f$ and $f^{-1}$ on a calculator, choose a scale so that $y = x$ appears at $45°$ to both axes.",
+      "content_latex": "EXERCISE 3F\n\n1. For each of the following functions $f$:\n\n(i) On the same set of axes, graph $y = x$, $y = f(x)$, and $y = f^{-1}(x)$.\n\n(ii) Find $f^{-1}(x)$ using coordinate geometry and the gradient of $y = f^{-1}(x)$ from (i).\n\n(iii) Find $f^{-1}(x)$ using variable interchange.\n\n(a) $f: x \\mapsto 3x + 1$\n\n(b) $f: x \\mapsto \\frac{x+2}{4}$\n\n2. For each of the following functions $f$:\n\n(i) Find $f^{-1}(x)$.\n\n(ii) Sketch $y = f(x)$, $y = f^{-1}(x)$, and $y = x$ on the same set of axes.\n\n(iii) Show that $(f^{-1} \\circ f)(x) = (f \\circ f^{-1})(x) = x$, the identity function.\n\n(a) $f: x \\mapsto 2x + 5$\n\n(b) $f: x \\mapsto \\frac{3-2x}{4}$\n\n(c) $f: x \\mapsto x + 3$\n\n3. Copy the graphs of the following functions and draw the graphs of $y = x$ and $y = f^{-1}(x)$ on the same set of axes. In each case, state the domain and range of both $f$ and $f^{-1}$.\n\n4. Given $f(x) = 2x - 5$, find $(f^{-1})^{-1}(x)$. What do you notice?",
       "source_images": ["image1421.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "5. Show that the function $y = 3 - x$ is its own inverse.\n\nIf a function is its own inverse, we say the function is self-inverse.\n\n6. Which of the following functions have inverses? Where an inverse exists, write down the inverse function.\n\n(a) $\\{(1, 2), (2, 4), (3, 5)\\}$\n\n(b) $\\{(-1, 3), (0, 2), (1, 3)\\}$\n\n(c) $\\{(2, 1), (-1, 0), (0, 2), (1, 3)\\}$\n\n(d) $\\{(-1, -1), (0, 0), (1, 1)\\}$\n\n7. If the one-to-one function $H(x)$ has domain $\\{x \\mid -2 \\leqslant x < 3\\}$, find the range of its inverse $H^{-1}(x)$.\n\n8. Sketch the graph of $f : x \\mapsto x^3$ and its inverse function $f^{-1}(x)$.\n\n9. Given $f(x) = \\frac{1}{x}$, $x \\neq 0$, show that $f$ is self-inverse.\n\n10. The horizontal line test says: For a function to have an inverse function, no horizontal line can cut its graph more than once.\n\n(a) Explain why this is a valid test for the existence of an inverse function.\n\n(b) Which of the following functions have an inverse function?\n\n(i) [Graph i]\n\n(ii) [Graph ii]\n\n(iii) [Graph iii]\n\n11. Explain why $f : x \\mapsto x^2 - 4$ does not have an inverse.\n\n12. Consider $f : x \\mapsto x^2$, $x \\leqslant 0$.\n\n(a) Find $f^{-1}(x)$.\n\n(b) Sketch $y = f(x)$, $y = x$, and $y = f^{-1}(x)$ on the same set of axes.\n\n13. Consider the functions $f : x \\mapsto 2x + 5$ and $g : x \\mapsto \\frac{8-x}{2}$.\n\n(a) Find $g^{-1}(x)$.\n\n(b) Hence solve $g(x) = -1$.\n\n(c) Show that $f^{-1}(-3) - g^{-1}(6) = 0$.\n\n(d) Find $x$ such that $(f \\circ g^{-1})(x) = 9$.\n\n14. Given $f : x \\mapsto 2x$ and $g : x \\mapsto 4x - 3$, show that $(f^{-1} \\circ g^{-1})(x) = (g \\circ f)^{-1}(x)$.\n\n15. Find the inverse of $f : x \\mapsto \\frac{3x-8}{x-3}$, $x \\neq 3$ by:\n\n(a) referring to its graph\n\n(b) using algebra.",
+      "content_latex": "5. Show that the function $y = 3 - x$ is its own inverse.\n\nIf a function is its own inverse, we say the function is self-inverse.\n\n6. Which of the following functions have inverses? Where an inverse exists, write down the inverse function.\n\n(a) $\\{(1, 2), (2, 4), (3, 5)\\}$\n\n(b) $\\{(-1, 3), (0, 2), (1, 3)\\}$\n\n(c) $\\{(2, 1), (-1, 0), (0, 2), (1, 3)\\}$\n\n(d) $\\{(-1, -1), (0, 0), (1, 1)\\}$\n\n7. If the one-to-one function $H(x)$ has domain $\\{x \\mid -2 \\leqslant x < 3\\}$, find the range of its inverse $H^{-1}(x)$.\n\n8. Sketch the graph of $f: x \\mapsto x^3$ and its inverse function $f^{-1}(x)$.\n\n9. Given $f(x) = \\frac{1}{x}$, $x \\neq 0$, show that $f$ is self-inverse.\n\n10. The horizontal line test says: For a function to have an inverse function, no horizontal line can cut its graph more than once.\n\n(a) Explain why this is a valid test for the existence of an inverse function.\n\n(b) Which of the following functions have an inverse function?\n\n11. Explain why $f: x \\mapsto x^2 - 4$ does not have an inverse.\n\n12. Consider $f: x \\mapsto x^2$, $x \\leqslant 0$.\n\n(a) Find $f^{-1}(x)$.\n\n(b) Sketch $y = f(x)$, $y = x$, and $y = f^{-1}(x)$ on the same set of axes.\n\n13. Consider the functions $f: x \\mapsto 2x + 5$ and $g: x \\mapsto \\frac{8-x}{2}$.\n\n(a) Find $g^{-1}(x)$.\n\n(b) Hence solve $g(x) = -1$.\n\n(c) Show that $f^{-1}(-3) - g^{-1}(6) = 0$.\n\n(d) Find $x$ such that $(f \\circ g^{-1})(x) = 9$.\n\n14. Given $f: x \\mapsto 2x$ and $g: x \\mapsto 4x - 3$, show that $(f^{-1} \\circ g^{-1})(x) = (g \\circ f)^{-1}(x)$.\n\n15. Find the inverse of $f: x \\mapsto \\frac{3x-8}{x-3}$, $x \\neq 3$ by:\n\n(a) referring to its graph\n\n(b) using algebra.",
       "source_images": ["image1422.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "16. [Graph showing curves $y = f(x)$ and $y = f^{-1}(x)$ with points A and B]\n\n(a) B is the image of A under a reflection in the line $y = x$. If A is $(x, f(x))$, find the coordinates of B.\n\n(b) By substituting your result from (a) into $y = f^{-1}(x)$, show that $f^{-1}(f(x)) = x$.\n\n(c) Using a similar method, show that $f(f^{-1}(x)) = x$.",
+      "content_latex": "16. (a) B is the image of A under a reflection in the line $y = x$. If A is $(x, f(x))$, find the coordinates of B.\n\n(b) By substituting your result from (a) into $y = f^{-1}(x)$, show that $f^{-1}(f(x)) = x$.\n\n(c) Using a similar method, show that $f(f^{-1}(x)) = x$.",
       "source_images": ["image1423.png"]
     },
     {
       "type": "concept",
-      "content_latex": "Linear and quadratic functions are the first members of a family called the polynomials. The polynomials can all be written in the form $y = a_0 + a_1x + a_2x^2 + a_3x^3 + ...$\n\nWhen a polynomial is divided by another polynomial, we call it a rational function.",
+      "content_latex": "Linear and quadratic functions are the first members of a family called the polynomials. The polynomials can all be written in the form $y = a_0 + a_1x + a_2x^2 + a_3x^3 + ....$\n\nWhen a polynomial is divided by another polynomial, we call it a rational function.",
       "source_images": ["image1424.png"]
     },
     {
@@ -110,7 +110,7 @@
     },
     {
       "type": "concept",
-      "content_latex": "The simplest example of a reciprocal function is $f(x) = \\frac{1}{x}$. Its graph is shown below.\n\nNotice that:\n\n- The graph has two branches.\n\n- $y = \\frac{1}{x}$ is undefined when $x = 0$, so the domain is $\\{x \\mid x \\neq 0\\}$.\n\nOn a sign diagram, we indicate this value with a dashed line.\n\n- The graph includes two asymptotes, which are lines the graph approaches but never reaches.\n\n- $x = 0$ is a vertical asymptote.\n\nWe write: as $x \\to 0^-$, $\\frac{1}{x} \\to -\\infty$\n\nas $x \\to 0^+$, $\\frac{1}{x} \\to \\infty$\n\nWhen \"as $x \\to 0^+$, $\\frac{1}{x} \\to \\infty$\" is read out loud, we say \"as $x$ tends to zero from the right, $\\frac{1}{x}$ tends to infinity.\"\n\n- $y = 0$ is a horizontal asymptote.\n\nWe write: as $x \\to \\infty$, $\\frac{1}{x} \\to 0^+$\n\nas $x \\to -\\infty$, $\\frac{1}{x} \\to 0^-$\n\nWhen \"as $x \\to \\infty$, $\\frac{1}{x} \\to 0^+$\" is read out loud, we say \"as $x$ tends to infinity, $\\frac{1}{x}$ tends to zero from above.\"\n\n$\\to$ means \"approaches\" or \"tends to\".",
+      "content_latex": "The simplest example of a reciprocal function is $f(x) = \\frac{1}{x}$. Its graph is shown below.\n\nNotice that:\n\n- The graph has two branches.\n\n- $y = \\frac{1}{x}$ is undefined when $x = 0$, so the domain is $\\{x \\mid x \\neq 0\\}$.\n\nOn a sign diagram, we indicate this value with a dashed line.\n\n- The graph includes two asymptotes, which are lines the graph approaches but never reaches.\n\n  - $x = 0$ is a vertical asymptote.\n\n  We write: as $x \\to 0^-$, $\\frac{1}{x} \\to -\\infty$\n\n  as $x \\to 0^+$, $\\frac{1}{x} \\to \\infty$\n\n  When \"as $x \\to 0^+$, $\\frac{1}{x} \\to \\infty$\" is read out loud, we say \"as $x$ tends to zero from the right, $\\frac{1}{x}$ tends to infinity.\"\n\n  - $y = 0$ is a horizontal asymptote.\n\n  We write: as $x \\to \\infty$, $\\frac{1}{x} \\to 0^+$\n\n  as $x \\to -\\infty$, $\\frac{1}{x} \\to 0^-$\n\n  When \"as $x \\to \\infty$, $\\frac{1}{x} \\to 0^+$\" is read out loud, we say \"as $x$ tends to infinity, $\\frac{1}{x}$ tends to zero from above.\"\n\n$\\to$ means \"approaches\" or \"tends to\".",
       "source_images": ["image1426.png"]
     },
     {
@@ -120,52 +120,42 @@
     },
     {
       "type": "concept",
-      "content_latex": "RATIONAL FUNCTIONS OF THE FORM $y = \\frac{ax + b}{cx + d}$, $c \\neq 0$",
-      "source_images": ["image1428.png"]
-    },
-    {
-      "type": "concept",
-      "content_latex": "- For a function written in the form $y = \\frac{b}{cx + d} + a$ where $b, c \\neq 0$:\n\n- the vertical asymptote is $x = -\\frac{d}{c}$\n\n- the horizontal asymptote is $y = a$.\n\n- For a function written in the form $y = \\frac{ax + b}{cx + d}$ where $c \\neq 0$:\n\n- the vertical asymptote is $x = -\\frac{d}{c}$\n\n- the horizontal asymptote is $y = \\frac{a}{c}$.",
-      "source_images": ["image1429.png"]
+      "content_latex": "RATIONAL FUNCTIONS OF THE FORM $y = \\frac{ax + b}{cx + d}$, $c \\neq 0$\n\n- For a function written in the form $y = \\frac{b}{cx + d} + a$ where $b, c \\neq 0$:\n\n  - the vertical asymptote is $x = -\\frac{d}{c}$\n  - the horizontal asymptote is $y = a$.\n\n- For a function written in the form $y = \\frac{ax + b}{cx + d}$ where $c \\neq 0$:\n\n  - the vertical asymptote is $x = -\\frac{d}{c}$\n  - the horizontal asymptote is $y = \\frac{a}{c}$.",
+      "source_images": ["image1428.png", "image1429.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 7\n\nConsider the function $y = \\frac{6}{x-2} + 4$.\n\n(a) Find the asymptotes of the function.\n\n(b) Find the axes intercepts.\n\n(c) Use technology to help sketch the function, including the features found in (a) and (b).\n\nSolutions:\n\n(a) The vertical asymptote is $x = 2$.\n\nThe horizontal asymptote is $y = 4$.\n\n(b) When $y = 0$, $\\frac{6}{x-2} = -4$\n\n$\\therefore -4(x - 2) = 6$\n\n$\\therefore -4x + 8 = 6$\n\n$\\therefore -4x = -2$\n\n$\\therefore x = \\frac{1}{2}$\n\nWhen $x = 0$, $y = \\frac{6}{-2} + 4 = 1$\n\nSo, the $x$-intercept is $\\frac{1}{2}$ and the $y$-intercept is $1$.\n\n(c) [Graph showing the function with asymptotes at $x = 2$ and $y = 4$]",
-      "source_images": ["image1430.png"]
+      "content_latex": "Example 7\n\nConsider the function $y = \\frac{6}{x-2} + 4$.\n\n(a) Find the asymptotes of the function.\n\n(b) Find the axes intercepts.\n\n(c) Use technology to help sketch the function, including the features found in (a) and (b).\n\nSolutions:\n\n(a) The vertical asymptote is $x = 2$.\n\nThe horizontal asymptote is $y = 4$.\n\n(b) When $y = 0$, $\\frac{6}{x-2} = -4$\n\n$\\therefore -4(x-2) = 6$\n\n$\\therefore -4x + 8 = 6$\n\n$\\therefore -4x = -2$\n\n$\\therefore x = \\frac{1}{2}$\n\nWhen $x = 0$, $y = \\frac{6}{-2} + 4 = 1$\n\nSo, the $x$-intercept is $\\frac{1}{2}$ and the $y$-intercept is $1$.",
+      "source_images": ["image1430.png", "image1431.png"]
     },
     {
       "type": "example",
-      "content_latex": "[Calculator display showing graphs of the function $y = \\frac{6}{x-2} + 4$]",
-      "source_images": ["image1431.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "Example 8\n\nDraw a sign diagram for $\\frac{x-1}{2x+1}$.\n\nSolution:\n\n$\\frac{x-1}{2x+1}$ is zero when $x = 1$ and undefined when $x = -\\frac{1}{2}$.\n\nWhen $x = 10$, $\\frac{x-1}{2x+1} = \\frac{9}{21} > 0$\n\nSince $(x - 1)$ and $(2x + 1)$ are single factors, the signs alternate.\n\n[Sign diagram showing: $+$ for $x < -\\frac{1}{2}$, $-$ for $-\\frac{1}{2} < x < 1$, $+$ for $x > 1$]",
+      "content_latex": "Example 8\n\nDraw a sign diagram for $\\frac{x-1}{2x+1}$.\n\nSolution:\n\n$\\frac{x-1}{2x+1}$ is zero when $x = 1$ and undefined when $x = -\\frac{1}{2}$.\n\nWhen $x = 10$, $\\frac{x-1}{2x+1} = \\frac{9}{21} > 0$\n\nSince $(x-1)$ and $(2x+1)$ are single factors, the signs alternate.",
       "source_images": ["image1432.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 9\n\nConsider the function $f(x) = \\frac{2x+1}{x-1}$.\n\n(a) Find the vertical asymptote of the function.\n\n(b) Find the axes intercepts.\n\n(c) Rearrange the function to find the horizontal asymptote.\n\n(d) Draw a sign diagram of the function.\n\n(e) Hence discuss the behaviour of the function near the asymptotes.\n\n(f) Sketch the function, showing the features you have found.\n\nSolutions:\n\n(a) The vertical asymptote is $x = 1$.\n\n(b) $f(0) = \\frac{1}{-1} = -1$, so the $y$-intercept is $-1$.\n\n$f(x) = 0$ when $2x + 1 = 0$\n\n$\\therefore x = -\\frac{1}{2}$\n\n$\\therefore$ the $x$-intercept is $-\\frac{1}{2}$.\n\n(c) $f(x) = \\frac{2x+1}{x-1}$\n\n$= \\frac{2(x-1)+3}{x-1}$\n\n$= 2 + \\frac{3}{x-1}$\n\n$\\therefore$ the horizontal asymptote is $y = 2$.\n\n(d) [Sign diagram showing: $+$ for $x < -\\frac{1}{2}$, $-$ for $-\\frac{1}{2} < x < 1$, $+$ for $x > 1$]\n\n(e) As $x \\to 1^-$, $f(x) \\to -\\infty$\n\nAs $x \\to 1^+$, $f(x) \\to \\infty$\n\nAs $x \\to -\\infty$, $f(x) \\to 2^-$\n\nAs $x \\to \\infty$, $f(x) \\to 2^+$\n\nAs $|x| \\to \\infty$, the fraction $\\frac{3}{x-1}$ becomes infinitely small.\n\n(f) [Graph showing the function with asymptotes at $x = 1$ and $y = 2$]",
+      "content_latex": "Example 9\n\nConsider the function $f(x) = \\frac{2x+1}{x-1}$.\n\n(a) Find the vertical asymptote of the function.\n\n(b) Find the axes intercepts.\n\n(c) Rearrange the function to find the horizontal asymptote.\n\n(d) Draw a sign diagram of the function.\n\n(e) Hence discuss the behaviour of the function near the asymptotes.\n\n(f) Sketch the function, showing the features you have found.\n\nSolutions:\n\n(a) The vertical asymptote is $x = 1$.\n\n(b) $f(0) = \\frac{1}{-1} = -1$, so the $y$-intercept is $-1$.\n\n$f(x) = 0$ when $2x + 1 = 0$\n\n$\\therefore x = -\\frac{1}{2}$\n\n$\\therefore$ the $x$-intercept is $-\\frac{1}{2}$.\n\n(c) $f(x) = \\frac{2x+1}{x-1}$\n\n$= \\frac{2(x-1)+3}{x-1}$\n\n$= 2 + \\frac{3}{x-1}$\n\n$\\therefore$ the horizontal asymptote is $y = 2$.\n\n(d) Sign diagram shows: $+$ for $x < -\\frac{1}{2}$, $-$ for $-\\frac{1}{2} < x < 1$, $+$ for $x > 1$\n\n(e) As $x \\to 1^-$, $f(x) \\to -\\infty$\n\nAs $x \\to 1^+$, $f(x) \\to \\infty$\n\nAs $x \\to -\\infty$, $f(x) \\to 2^-$\n\nAs $x \\to \\infty$, $f(x) \\to 2^+$\n\nAs $|x| \\to \\infty$, the fraction $\\frac{3}{x-1}$ becomes infinitely small.",
       "source_images": ["image1433.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "EXERCISE 3D.1\n\n1. (a) Sketch the graphs of $y = \\frac{1}{x}$, $y = \\frac{2}{x}$, and $y = \\frac{4}{x}$ on the same set of axes.\n\n(b) For the function $y = \\frac{k}{x}$, $k > 0$:\n\n(i) Describe the effect of varying $k$.\n\n(ii) State the quadrants in which the graph lies.\n\n(iii) Draw a sign diagram for the function.\n\n2. (a) Sketch the graphs of $y = -\\frac{1}{x}$, $y = -\\frac{2}{x}$, and $y = -\\frac{4}{x}$ on the same set of axes.\n\n(b) For the function $y = \\frac{k}{x}$, $k < 0$:\n\n(i) Describe the effect of varying $k$.\n\n(ii) State the quadrants in which the graph lies.\n\n(iii) Draw a sign diagram for the function.\n\n3. For the reciprocal function $y = \\frac{k}{x}$, $k \\neq 0$, state:\n\n(a) the domain\n\n(b) the range\n\n(c) the vertical asymptote\n\n(d) the horizontal asymptote.\n\n4. Determine the equation of each reciprocal function:\n\n(a) [Graph through $(6, 1)$]\n\n(b) [Graph through $(-5, -3)$]\n\n(c) [Graph through $(-9, 4)$]",
+      "content_latex": "EXERCISE 3D.1\n\n1. (a) Sketch the graphs of $y = \\frac{1}{x}$, $y = \\frac{2}{x}$, and $y = \\frac{4}{x}$ on the same set of axes.\n\n(b) For the function $y = \\frac{k}{x}$, $k > 0$:\n\n(i) Describe the effect of varying $k$.\n\n(ii) State the quadrants in which the graph lies.\n\n(iii) Draw a sign diagram for the function.\n\n2. (a) Sketch the graphs of $y = -\\frac{1}{x}$, $y = -\\frac{2}{x}$, and $y = -\\frac{4}{x}$ on the same set of axes.\n\n(b) For the function $y = \\frac{k}{x}$, $k < 0$:\n\n(i) Describe the effect of varying $k$.\n\n(ii) State the quadrants in which the graph lies.\n\n(iii) Draw a sign diagram for the function.\n\n3. For the reciprocal function $y = \\frac{k}{x}$, $k \\neq 0$, state:\n\n(a) the domain\n\n(b) the range\n\n(c) the vertical asymptote\n\n(d) the horizontal asymptote.\n\n4. Determine the equation of each reciprocal function.",
       "source_images": ["image1434.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "1. For each of the following functions:\n\n(i) Find the equations of the asymptotes.\n\n(ii) State the domain and range.\n\n(iii) Find the axes intercepts.\n\n(iv) Discuss the behaviour of the function as it approaches its asymptotes.\n\n(v) Sketch the graph of the function.\n\n(a) $f(x) = \\frac{3}{x-2}$\n\n(b) $f : x \\mapsto 2 + \\frac{1}{x-3}$\n\n(c) $f(x) = 2 - \\frac{3}{x+1}$",
+      "content_latex": "1. For each of the following functions:\n\n(i) Find the equations of the asymptotes.\n\n(ii) State the domain and range.\n\n(iii) Find the axes intercepts.\n\n(iv) Discuss the behaviour of the function as it approaches its asymptotes.\n\n(v) Sketch the graph of the function.\n\n(a) $f(x) = \\frac{3}{x-2}$\n\n(b) $f: x \\mapsto 2 + \\frac{1}{x-3}$\n\n(c) $f(x) = 2 - \\frac{3}{x+1}$",
       "source_images": ["image1435.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "2. Draw the sign diagram for:\n\n(a) [Graph with vertical asymptote at $x = 1$ and horizontal asymptote at $y = 2$]\n\n(b) [Graph with vertical asymptote at $x = -2$ and passing through $(0, \\frac{1}{2})$]\n\n(c) [Graph with vertical asymptote at $x = 3$ and horizontal asymptote at $y = -2$]\n\n3. Draw a sign diagram for:\n\n(a) $\\frac{x+2}{x-1}$\n\n(b) $\\frac{x}{x+3}$\n\n(c) $\\frac{x+1}{x+5}$\n\n(d) $\\frac{x-2}{2x+1}$\n\n(e) $\\frac{2x+3}{4-x}$\n\n(f) $\\frac{4x-1}{2-x}$\n\n(g) $\\frac{3x}{x-2}$\n\n(h) $\\frac{-8x}{3-x}$",
+      "content_latex": "2. Draw the sign diagram for:\n\n3. Draw a sign diagram for:\n\n(a) $\\frac{x+2}{x-1}$\n\n(b) $\\frac{x}{x+3}$\n\n(c) $\\frac{x+1}{x+5}$\n\n(d) $\\frac{x-2}{2x+1}$\n\n(e) $\\frac{2x+3}{4-x}$\n\n(f) $\\frac{4x-1}{2-x}$\n\n(g) $\\frac{3x}{x-2}$\n\n(h) $\\frac{-8x}{3-x}$",
       "source_images": ["image1436.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "4. For each of the following functions:\n\n(i) Find the equation of the vertical asymptote.\n\n(ii) Find the axes intercepts.\n\n(iii) Rearrange the function to find the horizontal asymptote.\n\n(iv) Draw a sign diagram of the function.\n\n(v) Hence discuss the behaviour of the function near its asymptotes.\n\n(vi) Sketch the graph of the function.\n\n(a) $f(x) = \\frac{x}{x-1}$\n\n(b) $f : x \\mapsto \\frac{x+3}{x-2}$\n\n(c) $f(x) = \\frac{3x-1}{x+2}$\n\n(d) $f(x) = -\\frac{2x+1}{x-3}$\n\n(e) $f : x \\mapsto \\frac{2x+4}{3-x}$\n\n(f) $f(x) = \\frac{x+3}{2x-1}$",
+      "content_latex": "4. For each of the following functions:\n\n(i) Find the equation of the vertical asymptote.\n\n(ii) Find the axes intercepts.\n\n(iii) Rearrange the function to find the horizontal asymptote.\n\n(iv) Draw a sign diagram of the function.\n\n(v) Hence discuss the behaviour of the function near its asymptotes.\n\n(vi) Sketch the graph of the function.\n\n(a) $f(x) = \\frac{x}{x-1}$\n\n(b) $f: x \\mapsto \\frac{x+3}{x-2}$\n\n(c) $f(x) = \\frac{3x-1}{x+2}$\n\n(d) $f(x) = -\\frac{2x+1}{x-3}$\n\n(e) $f: x \\mapsto \\frac{2x+4}{3-x}$\n\n(f) $f(x) = \\frac{x+3}{2x-1}$",
       "source_images": ["image1437.png"]
     },
     {
@@ -175,32 +165,22 @@
     },
     {
       "type": "concept",
-      "content_latex": "The absolute value or modulus of a real number $x$ is its distance from 0 on the number line. We write the absolute value of $x$ as $|x|$.",
-      "source_images": ["image1439.png"]
-    },
-    {
-      "type": "concept",
-      "content_latex": "MODULUS",
-      "source_images": ["image1440.png"]
-    },
-    {
-      "type": "definition",
-      "content_latex": "The modulus or absolute value of a real number is its size, ignoring its sign. We denote the modulus of $x$ by $|x|$.",
-      "source_images": ["image1441.png"]
+      "content_latex": "MODULUS\n\nThe absolute value or modulus of a real number $x$ is its distance from 0 on the number line. We write the absolute value of $x$ as $|x|$.\n\nThe modulus or absolute value of a real number is its size, ignoring its sign. We denote the modulus of $x$ by $|x|$.",
+      "source_images": ["image1439.png", "image1440.png", "image1441.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 9\n\nIf $a = -7$ and $b = 3$, find:\n\n(a) $|a + b|$\n\n(b) $|ab|$\n\nSolutions:\n\n(a) $|a + b|$\n$= |-7 + 3|$\n$= |-4|$\n$= 4$\n\n(b) $|ab|$\n$= |-7 \\times 3|$\n$= |-21|$\n$= 21$",
+      "content_latex": "Example 9\n\nIf $a = -7$ and $b = 3$, find:\n\n(a) $|a + b|$\n\n(b) $|ab|$\n\nSolutions:\n\n(a) $|a + b|$\n\n$= |-7 + 3|$\n\n$= |-4|$\n\n$= 4$\n\n(b) $|ab|$\n\n$= |-7 \\times 3|$\n\n$= |-21|$\n\n$= 21$",
       "source_images": ["image1442.png"]
     },
     {
       "type": "concept",
-      "content_latex": "GEOMETRIC DEFINITION OF MODULUS\n\n$|x|$ is the distance of $x$ from 0 on the number line.\n\nBecause the modulus is a distance, it cannot be negative.\n\nIf $x > 0$: [Number line showing $|x|$ as distance from 0 to $x$]\n\nIf $x < 0$: [Number line showing $|x|$ as distance from $x$ to 0]\n\nFor example: $|-7| = |7| = 7$",
+      "content_latex": "GEOMETRIC DEFINITION OF MODULUS\n\n$|x|$ is the distance of $x$ from 0 on the number line.\n\nBecause the modulus is a distance, it cannot be negative.\n\nIf $x > 0$: $|x| = x$\n\nIf $x < 0$: $|x| = -x$\n\nFor example: $|-7| = |7| = 7$",
       "source_images": ["image1443.png"]
     },
     {
       "type": "concept",
-      "content_latex": "Because the absolute value is a distance, it cannot be negative.\n\n- If $x > 0$, $|x| = x$.\n\n- If $x < 0$, $|x| = -x$.\n\nFor example: $|7| = 7$ and $|-5| = 5$.\n\nThis leads us to the algebraic definition:\n\nThe absolute value of $x$ is $|x| = \\begin{cases} x & \\text{if } x \\geqslant 0 \\\\ -x & \\text{if } x < 0. \\end{cases}$",
+      "content_latex": "Because the absolute value is a distance, it cannot be negative.\n\n- If $x > 0$, $|x| = x$.\n- If $x < 0$, $|x| = -x$.\n\nFor example: $|7| = 7$ and $|-5| = 5$.\n\nThis leads us to the algebraic definition:\n\nThe absolute value of $x$ is $|x| = \\begin{cases} x & \\text{if } x \\geqslant 0 \\\\ -x & \\text{if } x < 0. \\end{cases}$",
       "source_images": ["image1444.png"]
     },
     {
@@ -210,17 +190,17 @@
     },
     {
       "type": "concept",
-      "content_latex": "THE GRAPH $y = |f(x)|$\n\nThe absolute value of the function $f(x)$ is $|f(x)| = \\begin{cases} f(x) & \\text{if } f(x) \\geqslant 0 \\\\ -f(x) & \\text{if } f(x) < 0 \\end{cases}$.\n\nTo obtain the graph of $y = |f(x)|$ from the graph of $y = f(x)$:\n\n- Keep the graph for $f(x) \\geqslant 0$.\n- Reflect the graph in the $x$-axis for $f(x) < 0$, discarding what was there.\n- Points on the $x$-axis are unchanged.",
+      "content_latex": "THE GRAPH $y = |f(x)|$\n\nThe absolute value of the function $f(x)$ is $|f(x)| = \\begin{cases} f(x) & \\text{if } f(x) \\geqslant 0 \\\\ -f(x) & \\text{if } f(x) < 0. \\end{cases}$\n\nTo obtain the graph of $y = |f(x)|$ from the graph of $y = f(x)$:\n\n- Keep the graph for $f(x) \\geqslant 0$.\n- Reflect the graph in the $x$-axis for $f(x) < 0$, discarding what was there.\n- Points on the $x$-axis are unchanged.",
       "source_images": ["image1446.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 13\n\nDraw the graph of $f(x) = 3x(x-2)$ and on the same set of axes draw the graph of $y = |f(x)|$.\n\nSolution:\n\nThe graph of $y = f(x)$ is unchanged for $f(x) \\geqslant 0$ and reflected in the $x$-axis for $f(x) < 0$.\n\n[Graph showing parabola $y = f(x)$ with vertex at $(1, -3)$ and $y = |f(x)|$ reflected above the $x$-axis]",
+      "content_latex": "Example 13\n\nDraw the graph of $f(x) = 3x(x-2)$ and on the same set of axes draw the graph of $y = |f(x)|$.\n\nSolution:\n\nThe graph of $y = f(x)$ is unchanged for $f(x) \\geqslant 0$ and reflected in the $x$-axis for $f(x) < 0$.",
       "source_images": ["image1447.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 10\n\nDraw the graph of $f(x) = x + 2|x|$.\n\nSolution:\n\n$f(x) = x + 2|x|$\n\n$= \\begin{cases} x + 2(x) & \\text{if } x \\geqslant 0 \\\\ x + 2(-x) & \\text{if } x < 0 \\end{cases}$\n\n$= \\begin{cases} 3x & \\text{if } x \\geqslant 0 \\\\ -x & \\text{if } x < 0 \\end{cases}$\n\n[Graph showing $y = 3x$ for $x \\geqslant 0$ and $y = -x$ for $x < 0$]",
+      "content_latex": "Example 10\n\nDraw the graph of $f(x) = x + 2|x|$.\n\nSolution:\n\n$f(x) = x + 2|x|$\n\n$= \\begin{cases} x + 2(x) & \\text{if } x \\geqslant 0 \\\\ x + 2(-x) & \\text{if } x < 0 \\end{cases}$\n\n$= \\begin{cases} 3x & \\text{if } x \\geqslant 0 \\\\ -x & \\text{if } x < 0 \\end{cases}$",
       "source_images": ["image1448.png"]
     },
     {
@@ -230,7 +210,7 @@
     },
     {
       "type": "exercise",
-      "content_latex": "3. (a) Copy and complete:\n\n| $x$ | 9 | 3 | 0 | $-3$ | $-9$ |\n|-----|---|---|---|------|------|\n| $x^2$ | | | | | |\n| $|x|^2$ | | | | | |\n\n(b) What can you conclude from (a)?\n\n4. By replacing $|x|$ with $x$ for $x \\geqslant 0$ and $(-x)$ for $x < 0$, write the following functions without the modulus sign. Hence, graph each function:\n\n(a) $f(x) = -|x|$\n\n(b) $f(x) = |x| + x$\n\n(c) $f(x) = |x| + 2$\n\n(d) $f(x) = x - 2|x|$\n\n(e) $f(x) = 3|x| + 1$\n\n(f) $f(x) = 5 - |x|$\n\n(g) $f(x) = |x|^2 - 4$\n\n(h) $f(x) = \\frac{|x|}{x}$\n\n(i) $f(x) = \\sqrt{|x|}$\n\n5. (a) Use technology to graph:\n\n(i) $y = |(x - 2)(x - 4)|$\n\n(ii) $y = |x(x - 3)|$\n\n(b) Explain how these functions are related to $y = (x - 2)(x - 4)$ and $y = x(x - 3)$.",
+      "content_latex": "3. (a) Copy and complete:\n\n| $x$ | 9 | 3 | 0 | $-3$ | $-9$ |\n|-----|---|---|---|------|------|\n| $x^2$ | | | | | |\n| $|x|^2$ | | | | | |\n\n(b) What can you conclude from (a)?\n\n4. By replacing $|x|$ with $x$ for $x \\geqslant 0$ and $(-x)$ for $x < 0$, write the following functions without the modulus sign. Hence, graph each function:\n\n(a) $f(x) = -|x|$\n\n(b) $f(x) = |x| + x$\n\n(c) $f(x) = |x| + 2$\n\n(d) $f(x) = x - 2|x|$\n\n(e) $f(x) = 3|x| + 1$\n\n(f) $f(x) = 5 - |x|$\n\n(g) $f(x) = |x|^2 - 4$\n\n(h) $f(x) = \\frac{|x|}{x}$\n\n(i) $f(x) = \\sqrt{|x|}$\n\n5. (a) Use technology to graph:\n\n(i) $y = |(x-2)(x-4)|$\n\n(ii) $y = |x(x-3)|$\n\n(b) Explain how these functions are related to $y = (x-2)(x-4)$ and $y = x(x-3)$.",
       "source_images": ["image1450.png"]
     }
   ]

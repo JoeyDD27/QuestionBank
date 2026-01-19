@@ -1,0 +1,102 @@
+{
+  "chapter": 24,
+  "part": 1,
+  "images_range": "2334-2352",
+  "items": [
+    {
+      "type": "example",
+      "content_latex": "Example 29\n\nFind exactly the zeros of $P(x) = 3x^3 - 14x^2 + 5x + 2$.\n\nUsing technology $x \\approx 0.666667 = \\frac{2}{3}$ is a zero.\n\n$\\therefore$ $(3x - 2)$ is a factor.\n\n$\\therefore$ $3x^3 - 14x^2 + 5x + 2 = (3x - 2)(x^2 + ax - 1)$ for some $a$.\n\nEquating coefficients of $x^2$: $3a - 2 = -14$\n\n$\\therefore$ $3a = -12$\n\n$\\therefore$ $a = -4$\n\nEquating coefficients of $x$: $-3 - 2a = 5$ $\\checkmark$\n\n$\\therefore$ $P(x) = (3x - 2)(x^2 - 4x - 1)$ which has zeros $\\frac{2}{3}$ and $2 \\pm \\sqrt{5}$ {quadratic formula}",
+      "source_images": ["image2334.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 30\n\nFind exactly the roots of $6x^3 + 13x^2 + 20x + 3 = 0$.\n\nUsing technology, $x \\approx -0.16666667 = -\\frac{1}{6}$ is a root, so $(6x + 1)$ is a factor of the cubic.\n\n$\\therefore$ $6x^3 + 13x^2 + 20x + 3 = (6x + 1)(x^2 + ax + 3)$ for some $a$.\n\nEquating coefficients of $x^2$: $1 + 6a = 13$\n\n$\\therefore$ $6a = 12$\n\n$\\therefore$ $a = 2$\n\nEquating coefficients of $x$: $a + 18 = 20$ $\\checkmark$\n\n$\\therefore$ $(6x + 1)(x^2 + 2x + 3) = 0$\n\n$\\therefore$ $x = -\\frac{1}{6}$ or $-1 \\pm i\\sqrt{2}$ {quadratic formula}",
+      "source_images": ["image2335.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5L\n\n1. Find exactly all zeros of:\n\n(a) $x^3 - 3x^2 - 3x + 1$\n\n(b) $x^3 - 3x^2 + 4x - 2$\n\n(c) $2x^3 - 3x^2 - 4x - 35$\n\n(d) $2x^3 - x^2 + 20x - 10$\n\n(e) $4x^4 - 4x^3 - 25x^2 + x + 6$\n\n(f) $x^4 - 6x^3 + 22x^2 - 48x + 40$\n\n2. Find exactly the roots of:\n\n(a) $x^3 + 2x^2 + 3x + 6 = 0$\n\n(b) $2x^3 + 3x^2 - 3x - 2 = 0$\n\n(c) $x^3 - 6x^2 + 12x - 8 = 0$\n\n(d) $2x^3 + 18 = 5x^2 + 9x$\n\n(e) $x^4 - x^3 - 9x^2 + 11x + 6 = 0$\n\n(f) $2x^4 - 13x^3 + 27x^2 = 13x + 15$",
+      "source_images": ["image2336.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Solve for $x$ exactly:\n\n(a) $x^3 - 3x^2 + 4x - 4 = 0$\n\n(b) $x^3 + 3x^2 + 4x + 12 = 0$\n\n(c) $2x^3 - 9x^2 + 6x - 1 = 0$\n\n(d) $x^3 - 4x^2 + 9x - 10 = 0$\n\n(e) $4x^3 - 8x^2 + x + 3 = 0$\n\n(f) $3x^4 + 4x^3 + 5x^2 + 12x - 12 = 0$\n\n(g) $2x^4 - 3x^3 + 5x^2 + 6x - 4 = 0$\n\n(h) $2x^3 + 5x^2 + 8x + 20 = 0$\n\n4. The following cubics will not factorise neatly. Solve for $x$ using only technology:\n\n(a) $x^3 + 2x^2 - 6x - 6 = 0$\n\n(b) $x^3 + x^2 - 7x - 8 = 0$\n\n5. A ladder of length 10 metres is leaning against a wall so that it is just touching a cube of edge length one metre.\n\nWhat height up the wall does the ladder reach?",
+      "source_images": ["image2337.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "A cubic inequality can be written in either the form $ax^3 + bx^2 + cx + d \\geqslant 0$ or $ax^3 + bx^2 + cx + d > 0$ where $a \\neq 0$.",
+      "source_images": ["image2338.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 31\n\nSolve exactly for $x$: $x^3 + 6 \\leqslant 4x^2 + 9x$\n\n$x^3 + 6 \\leqslant 4x^2 + 9x$\n\n$\\therefore$ $x^3 - 4x^2 - 9x + 6 \\leqslant 0$\n\nUsing technology, $x = -2$ is a root, so $(x + 2)$ is a factor of the cubic.\n\n$\\therefore$ $x^3 - 4x^2 - 9x + 6 = (x + 2)(x^2 + ax + 3)$ for some $a$.\n\nEquating coefficients of $x^2$: $a + 2 = -4$\n\n$\\therefore$ $a = -6$\n\n$\\therefore$ the LHS of the inequality is $(x + 2)(x^2 - 6x + 3)$, which has zeros $-2$ and $3 \\pm \\sqrt{6}$ {quadratic formula}\n\nSign diagram of LHS is:\n\n$\\begin{array}{ccccccc} & - & & + & & - & & + \\\\ \\hline & & -2 & & 3-\\sqrt{6} & & 3+\\sqrt{6} & \\end{array} \\to x$\n\n$\\therefore$ $x \\leqslant -2$ or $3 - \\sqrt{6} \\leqslant x \\leqslant 3 + \\sqrt{6}$",
+      "source_images": ["image2339.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 32\n\nSolve graphically: $2x^3 - 7x^2 + 5 > x - 5$\n\nWe graph $y = 2x^3 - 7x^2 + 5$ and $y = x - 5$ on the same set of axes.\n\nUsing technology, the graphs intersect at $x \\approx -1.10$, $x \\approx 1.44$, and $x \\approx 3.16$.\n\n$2x^3 - 7x^2 + 5 > x - 5$ whenever the graph of $y = 2x^3 - 7x^2 + 5$ is above the graph of $y = x - 5$.\n\nThis occurs when $-1.10 < x < 1.44$ or $x > 3.16$.",
+      "source_images": ["image2340.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5M\n\n1. (a) Given that $2$ is a zero of $x^3 + 3x^2 - 4x - 12$, fully factorise $x^3 + 3x^2 - 4x - 12$.\n\n(b) Hence solve $x^3 + 3x^2 - 4x - 12 \\geqslant 0$ exactly.\n\n2. (a) Show that $-\\frac{2}{3}$ is a zero of $3x^3 - 10x^2 - 17x - 6$.\n\n(b) Hence find the remaining zeros of $3x^3 - 10x^2 - 17x - 6$.\n\n(c) Hence solve $3x^3 - 6 < 10x^2 + 17x$ exactly.",
+      "source_images": ["image2341.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Solve for $x$ exactly:\n\n(a) $x^3 + x^2 - 10x + 8 < 0$\n\n(b) $x^3 + x^2 - 11x - 15 \\geqslant 0$\n\n(c) $2x^3 - 9x^2 + 2x + 1 \\leqslant 0$\n\n(d) $3x^3 + 10x^2 > 22x + 40$\n\n(e) $4x^3 - 7 \\leqslant 28x - x^2$\n\n(f) $5x^3 - 26x > x^2 - 24$",
+      "source_images": ["image2342.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Solve graphically for $x$:\n\n(a) $x^3 - 5x > x^2 - 3$\n\n(b) $2x^3 - 8x - 5 < x^2 - 2x - 7$\n\n(c) $1 - 3.5x + 0.6x^3 \\geqslant 0$\n\n(d) $3x^3 - 5x \\leqslant 6 - x^3$\n\n(e) $x^3 - \\sqrt{2}x + 1 > 0.2x + 1.2$\n\n(f) $x^3 + 4.5x^2 - 3 < 3 - 0.2x - 1.5x^3$\n\n5. Last year, the volume of water in a particular reservoir could be described by the model $V(t) = -t^3 + 30t^2 - 131t + 250$ ML, where $t$ is the time in months.\n\nThe local government rules state that if the volume falls below 100 ML, irrigation is prohibited. During which months, if any, was irrigation prohibited in the last twelve months? Include in your answer a neat sketch of any graphs you may have used.",
+      "source_images": ["image2343.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 5A\n\n1. Let $P(z) = 2z^3 - z^2 + 4z$ and $Q(z) = 3 - z$. Find, in simplest form:\n\n(a) $P(z) + 2Q(z)$\n\n(b) $P(z)Q(z)$\n\n(c) $\\frac{P(z)}{Q(z)}$\n\n2. Expand and simplify:\n\n(a) $(3x^3 + 2x - 5)(4x - 3)$\n\n(b) $(2x^2 - x + 3)^2$",
+      "source_images": ["image2344.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Carry out the divisions:\n\n(a) $\\frac{x^3}{x + 2}$\n\n(b) $\\frac{2x^3 - 3x + 4}{x - 1}$\n\n(c) $\\frac{x^3}{(x + 2)(x + 3)}$\n\n4. Decide whether:\n\n(a) $4$ is a zero of $x^3 - 3x^2 - 5x + 4$\n\n(b) $-3$ is a root of $2x^3 + 5x^2 - x - 6 = 0$.\n\n5. Factorise $z^4 + 4$ into a product of real quadratics.\n\n6. Find all real quartic polynomials with rational coefficients, having $2 - i\\sqrt{3}$ and $\\sqrt{2} + 1$ as two of the zeros.\n\n7. $-2 + bi$ is a solution to $z^2 + az + (3 + a) = 0$. Find constants $a$ and $b$ given that they are real.\n\n8. Find constants $a$ and $b$ given that:\n\n(a) $4x^2 - 7x + 5 = 4x^2 + ax + (a + b)$ for all $x$\n\n(b) $6x^3 + 11x^2 - 9x - 4 = (2x^2 + 3x - 4)(ax + b)$ for all $x$.\n\n9. $(2x - 3)$ is a factor of $2x^3 + 3x^2 - 29x + 30$. Fully factorise the polynomial.\n\n10. $(3x + 2)$ and $(x - 2)$ are factors of $6x^3 + ax^2 - 4ax + b$. Find $a$ and $b$.\n\n11. State and prove the Remainder theorem.\n\n12. When a polynomial $P(x)$ is divided by $x^2 - 3x + 2$ the remainder is $2x + 3$. Find the remainder when $P(x)$ is divided by $x - 2$.\n\n13. Find the remainder when $2x^{17} + 5x^{10} - 7x^3 + 6$ is divided by $x - 2$.\n\n14. Find constants $a$ and $b$ given $x^3 + x^2 + ax + b$ has factors $(x + 2)$ and $(x - 4)$.\n\n15. If $f(x) = x^3 - 3x^2 - 9x + b$ has $(x - k)^2$ as a factor, show that there are two possible values of $k$. For each of these two values of $k$, find the corresponding value for $b$, and hence solve $f(x) = 0$.\n\n16. $3 - 2i$ is a zero of $z^4 + kz^3 + 32z + 3k - 1$, where $k$ is real. Find $k$ and all zeros of the quartic.\n\n17. Find all the zeros of the polynomial $z^4 + 2z^3 + 6z^2 + 8z + 8$ given that one of the zeros is purely imaginary.\n\n18. Find the sum and product of the zeros of:\n\n(a) $3x^4 - 4x^3 + 3x^2 + 8$\n\n(b) $2x^6 + 2x^4 - x^3 + 7x - 10$\n\n19. $P(x) = 2x^4 - 8x^3 + ax^2 + bx - 110$, $a, b \\in \\mathbb{R}$, has zeros $m \\pm 2i$ and $1 \\pm n\\sqrt{3}$ where $m, n \\in \\mathbb{R}$.\n\n(a) Find $m$ and $n$.\n\n(b) Sketch the graph of $y = P(x)$.\n\n20. If $\\alpha$ and $\\beta$ are two of the roots of $x^3 - x + 1 = 0$, show that $\\alpha\\beta$ is a root of $x^3 + x^2 - 1 = 0$.\n\nHint: Let $x^3 - x + 1 = (x - \\alpha)(x - \\beta)(x - \\gamma)$.\n\n21. $a + ai$ is a root of $x^2 - 6x + b = 0$ where $a, b \\in \\mathbb{R}$. Explain why $b$ has two possible values. Find $a$ in each case.",
+      "source_images": ["image2345.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "22. On the same set of axes, sketch the graphs of $y = \\frac{1}{2}x^3$ and $y = \\frac{1}{2}(x + 2)^3 - 3$.\n\n23. Find the equation of the cubic with graph:\n\n(a) [Graph showing cubic with y-intercept at 12, x-intercepts near -2 and 3]\n\n(b) [Graph showing cubic with point at (4, 8), x-intercepts near -1 and 4]\n\n24. Sketch the graph of:\n\n(a) $y = x(x + 2)(x - 1)(x - 4)$\n\n(b) $y = -2(x + 3)^2(x - 2)(x + 1)$\n\n(c) $y = (3x - 1)^2(x + 2)^2$\n\n25. A quartic polynomial $P(x)$ has graph $y = P(x)$ which touches the $x$-axis at $(-2, 0)$, cuts the $x$-axis at $(1, 0)$, cuts the $y$-axis at $(0, 12)$, and passes through $(2, 80)$. Find an expression for $P(x)$ in factored form, and hence sketch the graph of $y = P(x)$.\n\n26. Find the quartic polynomial $P(x)$ with the graph shown. [Graph showing quartic with x-intercepts at -4 and 3, y-intercept at -24, with a local minimum]\n\n27. (a) Fully factorise $P(x) = 2x^4 + 7x^3 + 4x^2 - 4x$.\n\n(b) Hence sketch the graph of $y = P(x)$.\n\n(c) For what values of $x$ is $P(x) \\geqslant 0$?\n\n28. Solve for $x$:\n\n(a) $6x^3 + 17x^2 = 5x + 6$\n\n(b) $3x^4 + x^3 + 18x^2 - 54x - 20 = 0$\n\n29. Solve for $x$ exactly:\n\n(a) $x^3 + x^2 - 12x - 18 < 0$\n\n(b) $5x^3 - 20 \\geqslant 25x - 4x^2$",
+      "source_images": ["image2346.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 5B\n\n1. Let $f(x) = x^4 - 5x^3 + 2x - 1$ and $g(x) = -2x^3 + 3x^2 + 7$.\n\n(a) Find $f(x) - g(x)$, giving your answer in simplest form.\n\n(b) For the product $f(x)g(x)$, state the:\n\n(i) degree\n\n(ii) leading coefficient\n\n(iii) constant term.\n\n2. Expand and simplify:\n\n(a) $(3x^2 - 2x + 1)(x^3 + 5x^2 - 2)$\n\n(b) $(x^3 - 2x^2 + 1)^2$\n\n3. Find the linear factors and corresponding zeros of:\n\n(a) $3x^2 - 11x + 6$\n\n(b) $2z^4 - 5z^3 + 13z^2 - 4z - 6$",
+      "source_images": ["image2347.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Use expansion to verify that $(3x - 2)(x + 2)(x - 3)$ is the factorisation of $3x^3 - 5x^2 - 16x + 12$.\n\n5. Find all real polynomials of least degree which have zeros:\n\n(a) $-4$, $1$, and $6$\n\n(b) $\\frac{1}{3}$ and $3 \\pm \\sqrt{5}$\n\n(c) $i\\sqrt{2}$ and $\\frac{1}{2}$\n\n(d) $1 - i$ and $-3 - i$.\n\n6. Find $a$, $b$, and $c$ such that $2x^4 + 3x^3 + 11x^2 + ax + 15 = (2x^2 + bx + c)(x^2 + 2x + 5)$ for all $x$.\n\n7. Carry out the divisions:\n\n(a) $\\frac{2x^3 + 9x^2 + 5x - 1}{2x + 3}$\n\n(b) $\\frac{x^4 + x^2 + 2}{x - 1}$\n\n(c) $\\frac{x^4 + x^2}{(x - 1)(x + 2)}$\n\n8. $(3x - 2)$ is a factor of $6x^3 + 23x^2 - 33x + 10$. Fully factorise the polynomial.\n\n9. Given that $(2x + 1)$ is a factor of $4x^3 - 8x^2 - 11x - 3$, find all of the solutions of $4x^3 - 8x^2 - 11x - 3 = 0$.\n\n10. Show that $x = \\frac{1}{4}$ is the only real solution of $4x^3 - 13x^2 + 15x - 3 = 0$.\n\n11. Suppose $a$ and $k$ are real. For what values of $k$ does $z^3 + az^2 + kz + ka = 0$ have:\n\n(a) one real root\n\n(b) 3 real roots?\n\n12. Find the remainder when $x^{47} - 3x^{26} + 5x^3 + 11$ is divided by $x + 1$.\n\n13. $P(x) = x^m + 6x^2 + 50$ leaves a remainder of $-54$ when divided by $x + 2$. Find $m$.\n\n14. Find the quotient and remainder when $x^4 + 3x^3 - 7x^2 + 11x - 1$ is divided by $x^2 + 2$. Hence find constants $a$ and $b$ for which $x^4 + 3x^3 - 7x^2 + (2 + a)x + b$ is exactly divisible by $x^2 + 2$.\n\n15. (a) Show that $x^2 + 1$ is a factor of $x^{10} + 1$. Hint: $x^2 + 1 = (x + i)(x - i)$\n\n(b) Hence find the remainder when $x^{11} + 1$ is divided by $x^2 + 1$.",
+      "source_images": ["image2348.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "16. Factorise $2z^3 + z^2 + 10z + 5$ as a product of linear factors with exact terms.\n\n17. $4 + i$ is a root of $x^2 + ax + b = 0$, where $a$ and $b$ are real. Find $a$ and $b$.\n\n18. $5 - i$ is a zero of $2z^3 + az^2 + 62z + (a - 5)$, where $a$ is real. Find $a$ and the other two zeros.\n\n19. Find the sum and product of the roots of:\n\n(a) $2x^3 + 3x^2 - 4x + 6 = 0$\n\n(b) $4x^4 = x^2 + 2x - 6$",
+      "source_images": ["image2349.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "20. $P(x)$ is a real polynomial of degree 5 with leading coefficient 1. It has zeros $m \\pm 2i$, $1 \\pm mi$, and 2, where $m \\in \\mathbb{R}$. The graph of $y = P(x)$ cuts the $y$-axis at $-56$.\n\n(a) Show that $m = \\pm\\sqrt{3}$.\n\n(b) Find the coefficient of $x^4$.",
+      "source_images": ["image2350.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "21. $\\alpha$ and $\\beta$ are two of the roots of $x^3 + ax^2 + bx + c = 0$.\n\nProve that $\\alpha\\beta$ is a root of $x^3 - bx^2 + acx - c^2 = 0$.\n\n22. Find the cubic polynomial $P(x)$ with the graph shown. [Graph showing cubic with local minimum at approximately (-1, -4), passing through (2, 0), with y = P(x) labeled]",
+      "source_images": ["image2351.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "23. Use axes intercepts to sketch the graphs of:\n\n(a) $y = (x + 5)(x + 1)(x - 3)$\n\n(b) $y = -(x + 2)^3$\n\n(c) $f(x) = 2(x - 2)^2(2x + 3)$\n\n24. (a) Show that $-5$ is an $x$-intercept of the graph of $f(x) = x^3 + 3x^2 - 14x - 20$.\n\n(b) Find the other $x$-intercepts.\n\n(c) Hence sketch the graph of $f(x) = x^3 + 3x^2 - 14x - 20$.\n\n(d) Describe the behaviour of the graph as $x \\to \\infty$ and $x \\to -\\infty$.\n\n25. The power generated by a wind turbine is given by $P = 20v^3$ watts, where $v$ is the wind speed in $\\text{m s}^{-1}$.\n\n(a) For what values of $v$ is it reasonable to use this function?\n\n(b) Find the power generated at a wind speed of $6 \\text{ m s}^{-1}$.\n\n(c) Use technology to help sketch the graph of the function for $v \\geqslant 0$.\n\n(d) Find, rounded to 2 decimal places, the wind speed required to generate 10000 watts of power.\n\n26. Find the equation of the quartic with graph:\n\n(a) [Graph showing quartic with x-intercepts at -2 and 3, y-intercept at -27]\n\n(b) [Graph showing quartic with x-intercepts at -1 and 2, y-intercept at -12]\n\n27. The graph of $f(x) = 2x^4 - 12x^3 + 15x^2 + 9x - 20$ cuts the $x$-axis at $-1$ and $4$. By fully factorising $2x^4 - 12x^3 + 15x^2 + 9x - 20$, show that the graph does not meet the $x$-axis anywhere else. Hence sketch the graph of $y = f(x)$.\n\n28. Find all zeros of:\n\n(a) $2z^3 + z^2 + 10z + 5$\n\n(b) $x^3 + 6x^2 - 9x - 14$\n\n29. Solve for $x$ graphically:\n\n(a) $x^3 - 4x^2 + 1 \\leqslant 2x - 3$\n\n(b) $x^3 - 5 > 6x - 0.5x^3$",
+      "source_images": ["image2352.png"]
+    }
+  ]
+}

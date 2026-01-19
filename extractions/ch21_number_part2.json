@@ -1,0 +1,312 @@
+{
+  "chapter": 21,
+  "part": 2,
+  "images_range": "2112-2173",
+  "items": [
+    {
+      "type": "concept",
+      "content_latex": "A TEST FOR PRIME NUMBERS\n\nThe usual test for a prime number is:\n\n- Find the square root of the number.\n- Divide the original number by all known prime numbers less than the square root.\n- If an integer results, the number is not a prime.\n- If the division is never exact, the integer is a prime.\n\nFor example, to test if 391 is a prime we notice that $\\sqrt{391} \\approx 19.773$\n\nSo, we divide by all primes which are $< 19.773$\n\nThese are 2, 3, 5, 7, 11, 13, 17, and 19.\n\nWe divide first by 2, then by 3, then by 5, and so on.\n\nWe notice that $391 \\div 17 = 23$,\nso 391 is not a prime number.",
+      "source_images": ["image2112.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 3E\n\n1. Find:\n\n(a) $\\sqrt{25}$\n(b) $\\sqrt{36}$\n(c) $\\sqrt{81}$\n(d) $\\sqrt{144}$\n(e) $\\sqrt{289}$\n(f) $\\sqrt{441}$\n(g) $\\sqrt{625}$\n(h) $\\sqrt{1024}$\n(i) $\\sqrt{0}$\n(j) $\\sqrt{1369}$\n(k) $\\sqrt{6889}$\n(l) $\\sqrt{10000}$\n\n2. Find correct to 2 decimal places:\n\n(a) $\\sqrt{3}$\n(b) $\\sqrt{7}$\n(c) $\\sqrt{10}$\n(d) $\\sqrt{200}$\n(e) $\\sqrt{1764}$",
+      "source_images": ["image2113.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Find:\n\n(a) $\\sqrt[3]{1}$\n(b) $\\sqrt[3]{64}$\n(c) $\\sqrt[3]{125}$\n(d) $\\sqrt[3]{343}$\n(e) $\\sqrt[4]{1}$\n(f) $\\sqrt[4]{0}$\n(g) $\\sqrt[4]{16}$\n(h) $\\sqrt[3]{-1}$\n(i) $\\sqrt[3]{-27}$\n(j) $\\sqrt[4]{-1}$\n(k) $\\sqrt[4]{625}$\n(l) $\\sqrt[5]{1}$\n(m) $\\sqrt[5]{-1}$\n(n) $\\sqrt[5]{-32}$\n(o) $\\sqrt[6]{64}$\n\n4. (a) Show that 223 is a prime number.\n(b) Show that 527 is not a prime number.\n(c) Is 5273 a prime number?",
+      "source_images": ["image2114.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 3A\n\n1. Find $\\square$ if $43\\square$ is divisible by 5.\n\n2. Find $\\square$ if $26\\square$ is divisible by 6.\n\n3. List all factors of 63.\n\n4. List the multiples of 6 which lie between 30 and 50.\n\n5. If an even number is multiplied by an odd number, and then an odd number is subtracted from the result, is the final answer odd or even?\n\n6. List the prime numbers between 40 and 50.\n\n7. Write $2^2 \\times 3 \\times 5$ as a natural number.\n\n8. Determine the LCM of 6 and 8.\n\n9. Write 420 as the product of its prime factors in index form.\n\n10. Find the largest number which divides exactly into both 63 and 84.\n\n11. I am a two digit number. I am a multiple of 8. Both my digits are prime numbers. Which number am I?",
+      "source_images": ["image2115.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "12. Write down the 21st odd number.\n\n13. Find the smallest multiple of 11 which is greater than 300.\n\n14. What is the minimum number of sweets needed if they are to be shared exactly between either 5, 6 or 9 children?",
+      "source_images": ["image2116.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "15. Find:\n(a) $\\sqrt{169}$\n(b) $\\sqrt[3]{-125}$\n\n16. Is 36201 a prime number?\n\n17. Find:\n(a) $-11 - -8$\n(b) $6 + -5 - -11$\n(c) $-2 \\times (-1)^3$",
+      "source_images": ["image2117.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "1. Find $\\square$ if $8\\square 4$ is divisible by 3.\n\n2. List the first 6 powers of 2, starting with 2.\n\n3. List the factors of 162.\n\n4. Write down the 28th even number.\n\n5. Write down the seventh multiple of 12.\n\n6. Is 4536 divisible by:\n(a) 3\n(b) 4\n(c) 5?\n\n7. (a) List all the factors of 72.\n(b) List the prime numbers between 20 and 30.\n(c) Express 124 as the product of prime factors in index form.\n(d) Find the highest common factor of 14 and 49.\n\n8. (a) Write in index form: $3 \\times 3 \\times 5 \\times 5 \\times 5$\n(b) Convert into a natural number: $2^4 \\times 3^2$\n\n9. Find the lowest common multiple of 15 and 18.\n\n10. What is the largest prime number which will divide exactly into 91?\n\n11. I am a two digit prime number. The number 5 less than me is a multiple of 11. Which number am I?\n\n12. Write the following in index form with a prime number as a base:\n(a) 16\n(b) 121\n\n13. Suppose the garbage man visits your house once every 14 days, and the gardener visits your house once every 10 days. If they both visit your house today, how long will it be before they are both at your house on the same day again?\n\n14. When I woke up this morning it was $-5°C$. Since then the temperature has risen $17°C$. What is the temperature now?\n\n15. Find:\n(a) $\\sqrt{-16}$\n(b) $\\sqrt[4]{16}$\n\n16. Is 2743 a prime number?\n\n17. Find:\n(a) $17 + -5 - -2$\n(b) $(-1)^3 \\times 5^2$\n(c) $-(-3)^2$\n(d) $\\frac{6 \\times -2}{-4}$\n(e) $\\frac{-3}{9}$\n(f) $\\frac{7 - 16}{-2 - 7}$",
+      "source_images": ["image2118.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "$+$ (positive) gives a (positive)\n$-$ (positive) gives a (negative)\n$+$ (negative) gives a (negative)\n$-$ (negative) gives a (positive)",
+      "source_images": ["image2119.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "(positive) $\\times$ (positive) gives a (positive)\n(positive) $\\times$ (negative) gives a (negative)\n(negative) $\\times$ (positive) gives a (negative)\n(negative) $\\times$ (negative) gives a (positive)",
+      "source_images": ["image2120.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "(positive) $\\div$ (positive) gives a (positive)\n(positive) $\\div$ (negative) gives a (negative)\n(negative) $\\div$ (positive) gives a (negative)\n(negative) $\\div$ (negative) gives a (positive)",
+      "source_images": ["image2121.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 6\n\nFind the value of:\n\n(a) $3 \\times 4$\n(b) $3 \\times -4$\n(c) $-3 \\times 4$\n(d) $-3 \\times -4$\n\nSolutions:\n\n(a) $3 \\times 4 = 12$\n(b) $3 \\times -4 = -12$\n(c) $-3 \\times 4 = -12$\n(d) $-3 \\times -4 = 12$",
+      "source_images": ["image2122.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 7\n\nSimplify:\n\n(a) $-4^2$\n(b) $(-4)^2$\n(c) $-2^3$\n(d) $(-2)^3$\n\nSolutions:\n\n(a) $-4^2$\n$= -4 \\times 4$\n$= -16$\n\n(b) $(-4)^2$\n$= -4 \\times -4$\n$= 16$\n\n(c) $-2^3$\n$= -2 \\times 2 \\times 2$\n$= -8$\n\n(d) $(-2)^3$\n$= -2 \\times -2 \\times -2$\n$= -8$",
+      "source_images": ["image2123.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 1C\n\n1. Find the value of:\n\n(a) $13 - 8$\n(b) $13 + -8$\n(c) $13 - -8$\n(d) $-13 + 8$\n(e) $-13 - 8$\n(f) $-13 - -8$\n(g) $8 - 13$\n(h) $13 + 8$\n(i) $16 + 25$\n(j) $16 - 25$\n(k) $16 + -25$\n(l) $16 - -25$\n(m) $-16 + 25$\n(n) $-16 + -25$\n(o) $-16 - -25$\n(p) $25 - 16$\n\n2. Find the value of:\n\n(a) $6 \\times 7$\n(b) $6 \\times -7$\n(c) $-6 \\times 7$\n(d) $-6 \\times -7$\n(e) $5 \\times 8$\n(f) $5 \\times -8$\n(g) $-5 \\times 8$\n(h) $-5 \\times -8$\n\n3. Find the value of:\n\n(a) $-5^2$\n(b) $(-5)^2$\n(c) $(-1)^3$\n(d) $-1^3$\n(e) $3 \\times -2 \\times 5$\n(f) $-3 \\times 2 \\times -5$\n(g) $-3 \\times -2 \\times -5$\n(h) $2 \\times (-3)^2$\n(i) $-2 \\times (-3)^2$\n(j) $-2^4$\n(k) $(-2)^4$\n(l) $(-3)^2 \\times (-2)^2$",
+      "source_images": ["image2124.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Find the value of:\n\n(a) $15 \\div 3$\n(b) $15 \\div -3$\n(c) $-15 \\div 3$\n(d) $-15 \\div -3$\n(e) $24 \\div 8$\n(f) $24 \\div -8$\n(g) $-24 \\div 8$\n(h) $-24 \\div -8$\n(i) $\\frac{4}{8}$\n(j) $\\frac{-4}{8}$\n(k) $\\frac{4}{-8}$\n(l) $\\frac{-4}{-8}$",
+      "source_images": ["image2125.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 9\n\nSimplify:\n(a) $3 + 7 - 5$\n(b) $6 \\times 3 \\div 2$\n\nSolutions:\n\n(a) $3 + 7 - 5$ {Work from left to right as only $+$ and $-$ are involved.}\n$= 10 - 5$\n$= 5$\n\n(b) $6 \\times 3 \\div 2$ {Work from left to right as only $\\times$ and $\\div$ are involved.}\n$= 18 \\div 2$\n$= 9$",
+      "source_images": ["image2126.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 10\n\nSimplify:\n(a) $23 - 10 \\div 2$\n(b) $3 \\times 8 - 6 \\times 5$\n\nSolutions:\n\n(a) $23 - 10 \\div 2$\n$= 23 - 5$ {$\\div$ before $-$}\n$= 18$\n\n(b) $3 \\times 8 - 6 \\times 5$\n$= 24 - 30$ {$\\times$ before $-$}\n$= -6$",
+      "source_images": ["image2127.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 1D.1\n\n1. Simplify:\n\n(a) $5 + 8 - 3$\n(b) $5 - 8 + 3$\n(c) $5 - 8 - 3$\n(d) $2 \\times 10 \\div 5$\n(e) $10 \\div 5 \\times 2$\n(f) $5 \\times 10 \\div 2$\n\n2. Simplify:\n\n(a) $4 + 7 \\times 3$\n(b) $7 \\times 2 + 8$\n(c) $13 - 3 \\times 2$\n(d) $5 \\times 4 - 20$\n(e) $33 - 3 \\times 4$\n(f) $15 - 6 \\times 0$\n(g) $2 \\times 5 - 5$\n(h) $60 - 3 \\times 4 \\times 2$\n(i) $15 \\div 3 + 2$\n(j) $8 \\times 7 - 6 \\times 3$\n(k) $5 + 2 + 3 \\times 2$\n(l) $7 - 5 \\times 3 + 2$\n(m) $28 - 8 \\div 2$\n(n) $6 + 10 \\div 2$\n(o) $23 - 3 \\times 7$\n(p) $15 \\div 5 + 8 \\div 2$",
+      "source_images": ["image2128.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Simplify:\n\n(a) $12 + (5 - 2)$\n(b) $(12 + 5) - 2$\n(c) $(8 \\div 4) - 2$\n(d) $8 \\div (4 - 2)$\n(e) $84 - (12 \\div 6)$\n(f) $(84 - 12) \\div 6$\n(g) $32 + (8 \\div 2)$\n(h) $32 - (8 + 14) - 7$\n(i) $(32 - 8) + (14 - 7)$\n(j) $(16 \\div 8) \\div 2$\n(k) $16 \\div (8 \\div 2)$\n(l) $18 - (6 \\times 3) - 4$\n(m) $24 \\times 8 \\div (4 - 2)$\n(n) $(16 + 4) - (8 \\div 2)$\n(o) $2 \\times (5 - 3) \\div 4$",
+      "source_images": ["image2129.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Simplify:\n\n(a) $8 - [(2 - 3) + 4 \\times 3]$\n(b) $[16 - (9 + 3)] \\times 2$\n(c) $13 - [(8 - 3) + 6]$\n(d) $[16 - (12 \\div 4)] \\times 3$\n(e) $200 \\div [4 \\times (6 \\div 3)]$\n(f) $[(12 \\times 3) \\div (12 \\div 3)] \\times 2$",
+      "source_images": ["image2130.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. Simplify:\n\n(a) $\\frac{75}{5 \\times 5}$\n(b) $\\frac{21}{16 - 9}$\n(c) $\\frac{18 \\div 3}{14 - 11}$\n(d) $\\frac{7 + 9}{6 - 2}$\n(e) $\\frac{53 - 21}{9 - 5}$\n(f) $\\frac{3 \\times 8 + 6}{6}$\n(g) $\\frac{57}{7 - (2 \\times 3)}$\n(h) $\\frac{(3 + 8) - 5}{3 + (8 - 5)}$\n\n6. Using $\\times$, $\\div$, $+$ or $-$ only, insert symbols between the following sets of numbers so that correct equations result. Remember that the operations must be evaluated in the correct order.\n\n(a) $9 \\quad 3 \\quad 2 = 8$\n(b) $9 \\quad 3 \\quad 2 = 25$\n(c) $9 \\quad 3 \\quad 2 = 5$\n\n7. Insert grouping symbols where necessary to make the following true:\n\n(a) $8 - 6 \\times 3 = 6$\n(b) $120 \\div 4 \\times 2 = 15$\n(c) $120 \\div 4 \\times 2 = 60$\n(d) $5 \\times 7 - 3 - 1 = 15$\n(e) $5 \\times 7 - 3 - 1 = 33$\n(f) $5 \\times 7 - 3 - 1 = 19$\n(g) $3 + 2 \\times 8 - 4 = 36$\n(h) $3 + 2 \\times 8 - 4 = 11$\n(i) $3 + 2 \\times 8 - 4 = 15$",
+      "source_images": ["image2131.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 1D.2\n\n1. Evaluate each of the following using your calculator:\n\n(a) $17 + 23 \\times 15$\n(b) $(17 + 23) \\times 15$\n(c) $128 \\div 8 + 8$\n(d) $128 \\div (8 + 8)$\n(e) $34 \\times -8$\n(f) $-64 \\div -16$\n(g) $\\frac{89 + -5}{-7 \\times 3}$\n(h) $-25 + 32 \\div -4$\n(i) $\\frac{-15 - 5}{6 - (8 \\div 4)}$\n(j) $\\frac{136 + 8}{4 \\times 9}$\n(k) $\\frac{127 - 307}{2 \\times 3 \\times 5}$\n(l) $\\frac{28 - (8 \\div 2)}{(5 + 1) \\times 2}$",
+      "source_images": ["image2132.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Rational numbers can be written as a ratio of two integers.\nThey can be written in the form $\\frac{a}{b}$ where $a$ and $b$ are integers and $b \\neq 0$.\n\nRational numbers appear in many forms.\n\nFor example, $4$, $-2$, $0$, $10\\%$, $-\\frac{4}{7}$, $1.3$, $0.\\overline{6}$ are all rational numbers.\n\nThey can be written in the form $\\frac{a}{b}$ as: $\\frac{4}{1}$, $\\frac{-2}{1}$, $\\frac{0}{1}$, $\\frac{1}{10}$, $\\frac{-4}{7}$, $\\frac{13}{10}$, $\\frac{2}{3}$.\n\nA fraction is an expression written in the form $\\frac{a}{b}$ where $b \\neq 0$.\n\nThe quantity $a$ is called the numerator and the quantity $b$ is called the denominator.\n\nA common fraction consists of two integers separated by a bar symbol. For example, $\\frac{1}{4}$\n\n- numerator\n- bar (which also means divide)\n- denominator\n\nThe reciprocal of a fraction is obtained by swapping its numerator and denominator.\nSo, the reciprocal of $\\frac{a}{b}$ is $\\frac{b}{a}$.",
+      "source_images": ["image2133.png", "image2134.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "TYPES OF FRACTIONS\n\n$\\frac{2}{3}$ is called a proper fraction as the numerator is less than the denominator.\n\n$\\frac{4}{3}$ is called an improper fraction as the numerator is greater than the denominator.\n\n$2\\frac{1}{2}$ is a mixed number as it is really $2 + \\frac{1}{2}$.\n\n$\\frac{1}{3}$ and $\\frac{2}{6}$ are equivalent fractions as both fractions represent equivalent portions.",
+      "source_images": ["image2135.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 16\n\nFind: $\\frac{2}{3} + \\frac{3}{4}$\n\nSolution:\n\n$\\frac{2}{3} + \\frac{3}{4}$ {LCD $= 12$}\n$= \\frac{2 \\times 4}{3 \\times 4} + \\frac{3 \\times 3}{4 \\times 3}$ {to achieve a common denominator of 12}\n$= \\frac{8}{12} + \\frac{9}{12}$\n$= \\frac{17}{12}$\n$= 1\\frac{5}{12}$",
+      "source_images": ["image2136.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 17\n\nFind: $2\\frac{1}{2} - 1\\frac{2}{5}$\n\nSolution:\n\n$2\\frac{1}{2} - 1\\frac{2}{5}$\n$= \\frac{5}{2} - \\frac{7}{5}$ {write as improper fractions}\n$= \\frac{5 \\times 5}{2 \\times 5} - \\frac{7 \\times 2}{5 \\times 2}$ {to achieve a common denominator of 10}\n$= \\frac{25}{10} - \\frac{14}{10}$\n$= \\frac{11}{10}$ or $1\\frac{1}{10}$",
+      "source_images": ["image2137.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "MULTIPLICATION\n\nTo multiply two fractions, we multiply the numerators together and multiply the denominators together. We cancel any common factors in the numerator and denominator before completing the multiplication.\n\nIn general, $\\frac{a}{b} \\times \\frac{c}{d} = \\frac{ac}{bd}$.",
+      "source_images": ["image2138.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "DIVISION\n\nTo divide by a fraction, we multiply by the reciprocal of that fraction.\n\n$\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c}$",
+      "source_images": ["image2139.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 19\n\nFind:\n(a) $4 \\div \\frac{1}{3}$\n(b) $1\\frac{2}{3} \\div \\frac{2}{5}$\n\nSolutions:\n\n(a) $4 \\div \\frac{1}{3}$\n$= 4 \\times \\frac{3}{1}$\n$= 4 \\times 3$\n$= 12$\n\n(b) $1\\frac{2}{3} \\div \\frac{2}{5}$\n$= \\frac{5}{3} \\div \\frac{2}{5}$\n$= \\frac{5}{3} \\times \\frac{5}{2}$\n$= \\frac{25}{6}$\n$= 4\\frac{1}{6}$",
+      "source_images": ["image2140.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 1E.2\n\n1. Calculate:\n\n(a) $\\frac{3}{4} \\times \\frac{5}{6}$\n(b) $\\frac{4}{7} \\times \\frac{1}{2}$\n(c) $2 \\times \\frac{3}{4}$\n(d) $\\frac{2}{3} \\times 4$\n(e) $1\\frac{1}{2} \\times \\frac{5}{8}$\n(f) $1\\frac{3}{8} \\times \\frac{4}{11}$\n(g) $(2\\frac{1}{3})^2$\n(h) $(1\\frac{1}{2})^3$\n\n2. Evaluate:\n\n(a) $\\frac{3}{4} \\div \\frac{5}{6}$\n(b) $\\frac{3}{4} \\div \\frac{2}{3}$\n(c) $\\frac{7}{12} \\div \\frac{3}{4}$\n(d) $\\frac{2}{3} \\div 4$\n(e) $2 \\div \\frac{3}{4}$\n(f) $1\\frac{1}{2} \\div \\frac{5}{8}$\n(g) $\\frac{3}{4} \\div 2\\frac{1}{2}$\n(h) $2\\frac{1}{3} \\div 3\\frac{3}{4}$",
+      "source_images": ["image2141.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Calculate:\n\n(a) $4\\frac{3}{8} + 2\\frac{2}{5}$\n(b) $(\\frac{2}{3})^4$\n(c) $6 - 3 \\times \\frac{3}{4}$\n(d) $\\frac{3}{4} \\times 1\\frac{1}{2} \\div 2$\n(e) $\\frac{6 \\times 3 \\times \\frac{1}{2}}{\\frac{3}{4}}$\n(f) $1 \\div (\\frac{1}{2} + \\frac{3}{5})$\n(g) $1 \\div \\frac{1}{2} + \\frac{3}{5}$\n(h) $\\frac{4 - \\frac{1}{2}}{3 \\times \\frac{2}{3}}$",
+      "source_images": ["image2142.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 20\n\nDuring a season, Joe hit $\\frac{2}{5}$ of the home runs for his team.\nHow many home runs did he hit if there were 40 scored in total?\n\nSolution:\n\nJoe hit $\\frac{2}{5}$ of $40 = \\frac{2}{5} \\times 40$\n$= \\frac{2 \\times 40}{5}$\n$= \\frac{80}{5}$\n$= 16$ home runs.",
+      "source_images": ["image2143.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 1E.3\n\n1. Michael eats $\\frac{1}{4}$ of a cheesecake and later eats $\\frac{2}{5}$ of the cheesecake. What fraction remains?\n\n2. The cost of a Ford is $\\frac{2}{13}$ of the cost of a Rolls Royce. If the current price of a Rolls Royce is $\\$211\\,250$, what is the cost of a Ford?\n\n3. The price of tracksuit pants is $\\frac{4}{5}$ of the price of the matching top. If the two items together cost £36, find the price of each.\n\n4. A family spends $\\frac{1}{3}$ of its weekly budget on rent, $\\frac{1}{4}$ on food, $\\frac{1}{8}$ on clothes, $\\frac{1}{12}$ on entertainment, and the remainder is banked.\nHow much is banked if the weekly income is €864.72?\n\n5. Renee used $\\frac{1}{3}$ of a length of pipe and later used $\\frac{2}{3}$ of what remained.\nWhat fraction of the pipe is left?\n\n6. $\\frac{9}{10}$ of the weight of a loaf of bread comes from the flour used in its baking.\n$\\frac{2}{9}$ of the weight of the flour is protein. What fraction of the weight of the loaf is protein?\n\n7. A farmer has 364 ewes and each ewe has either one or two newborn lambs. If there are 468 lambs in total, what fraction of the ewes have twin lambs?\n\n8. A tree is losing its leaves. Two thirds fall off in the first week, two thirds of those remaining fall off in the second week, and two thirds of those remaining fall off in the third week. Now there are 37 leaves. How many leaves did the tree have originally?",
+      "source_images": ["image2144.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "A decimal number is one which contains a decimal point. We can use decimal numbers to display fractions of whole numbers.\n\nFor example:\n- $4.63$ is a quick way of writing $4 + \\frac{6}{10} + \\frac{3}{100}$. This number can also be written as the improper fraction $\\frac{463}{100}$ or as the mixed number $4\\frac{63}{100}$.\n- $14.062$ is a quick way of writing $14 + \\frac{6}{100} + \\frac{2}{1000}$.\n\nExpansions of decimals like those above are referred to as expanded fractional form.",
+      "source_images": ["image2145.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 22\n\n(a) Write 5.704 in expanded fractional form.\n(b) Write $3 + \\frac{2}{10} + \\frac{4}{100} + \\frac{1}{10000}$ in decimal form.\n(c) State the value of the digit 6 in 0.03624\n\nSolutions:\n\n(a) $5.704 = 5 + \\frac{7}{10} + \\frac{4}{1000}$\n\n(b) $3 + \\frac{2}{10} + \\frac{4}{100} + \\frac{1}{10000} = 3.2401$\n\n(c) In $0.03624$, the 6 stands for $\\frac{6}{1000}$.",
+      "source_images": ["image2146.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 23\n\nEvaluate:\n(a) $24 \\times 0.8$\n(b) $3.6 \\div 0.02$\n\nSolutions:\n\n(a) $24 \\times 8 = 192$\n$\\therefore 24 \\times 0.8 = 19.2$ {$\\div 10$ by shifting decimal 1 place left}\n\n(b) $3.6 \\div 0.02$\n$= 3.60 \\div 0.02$ {shift both decimal points the same number of places to the right}\n$= 360 \\div 2$\n$= 180$",
+      "source_images": ["image2147.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. Evaluate:\n\n(a) $13.7 \\times 100$\n(b) $0.5 \\div 100$\n(c) $15 \\div 0.5$\n(d) $0.5 \\times 8$\n(e) $0.5 \\times 0.08$\n(f) $3000 \\times 0.6$\n(g) $3.6 \\times 0.6$\n(h) $1 \\div 0.02$\n(i) $(0.3)^3$\n(j) $500 \\times (0.2)^2$\n(k) $0.64 \\div 160$\n(l) $0.0775 \\div 2.5$",
+      "source_images": ["image2148.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 24\n\nWrite 0.075 in simplest fraction form.\n\nSolution:\n\n$0.075 = \\frac{75}{1000}$\n$= \\frac{75 \\div 25}{1000 \\div 25}$\n$= \\frac{3}{40}$",
+      "source_images": ["image2149.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "8. Solve the following problems:\n\n(a) Benjamin fills his car with 50 litres of petrol. How much does it cost him if petrol is selling at 94.6 pence per litre?\n\n(b) Potting mix sells at €3.80 per kg. How much would a 3.5 kg bag of potting mix cost?\n\n(c) The sweet shop sells licorice at $\\$9.40$ per kg. How much would 250 g of licorice cost?\n\n(d) The cost of electricity is 43.4 cents per kilowatt for each hour. What would:\n(i) 500 kilowatts of electricity cost for one hour\n(ii) it cost to burn a 60 watt globe for 10 hours?\n\n(e) At a milk processing factory, cartons are filled from large refrigerated tanks that each hold 8400 litres. How many 600 mL cartons can be filled from one tank?\n\n(f) A large mixer at a bakery holds 0.75 tonnes of dough. How many bread rolls, each of mass 150 g, can be made from the dough in the mixer?\n\n(g) How many dozen bottles of wine can be filled from a 9000 litre fermentation tank if each bottle holds 750 mL?\n\n(h) A trophy store wishes to make brass medallions, each of mass 17.5 g, from 140 kg of brass. How many medallions can be made?",
+      "source_images": ["image2150.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "RULES FOR ROUNDING\n\n- Rounding to the nearest whole number: Look at the first decimal place. If the digit is 5, 6, 7, 8 or 9, round up. If the digit is 0, 1, 2, 3 or 4, round down.\n\n- Rounding to the nearest one decimal place: Look at the second decimal place. If the digit is 5, 6, 7, 8 or 9, round up. If the digit is 0, 1, 2, 3 or 4, round down.\n\n- Rounding to the nearest two decimal places: Look at the third decimal place. If the digit is 5, 6, 7, 8 or 9, round up. If the digit is 0, 1, 2, 3 or 4, round down.",
+      "source_images": ["image2151.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 1F.2\n\n1. Round to the nearest whole number:\n(a) 3.245\n(b) 5.671\n(c) 19.81\n(d) 200.5\n\n2. Round correct to 1 decimal place:\n(a) 3.12\n(b) 10.41\n(c) 4.85\n(d) 3.96\n\n3. Round correct to 2 decimal places:\n(a) 9.432\n(b) 13.126\n(c) 9.305\n(d) 0.194\n\n4. Find, giving your answers correct to 2 decimal places where necessary:\n(a) $(16.8 + 12.4) \\times 17.1$\n(b) $16.8 + 12.4 \\times 17.1$\n(c) $127 \\div 9 - 5$\n(d) $127 \\div (9 - 5)$\n(e) $\\frac{16.84}{7.9 + 11.2}$\n(f) $37.4 - 16.1 \\div (4.2 - 2.7)$\n(g) $\\frac{27.4}{3.2} - \\frac{18.6}{16.1}$\n(h) $\\frac{27.9 - 17.3}{8.6} + 4.7$\n(i) $\\frac{0.0768 + 7.1}{18.69 - 3.824}$\n\n5. Seet Huang puts 25.42 litres of fuel in his motor bike. If the fuel costs 136.8 cents per litre, what price does Seet Huang need to pay?",
+      "source_images": ["image2152.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "A ratio is an ordered comparison of quantities of the same kind.",
+      "source_images": ["image2153.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "If measurements are involved, we must use the same units for each quantity.",
+      "source_images": ["image2154.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 29\n\nWrite as a ratio, without simplifying your answer:\n(a) Jack has $\\$5$ and Jill has 50 cents.\n(b) Mix 200 mL of cordial with 1 L of water.\n\nSolutions:\n\n(a) Jack : Jill $= \\$5 : 50$ cents {write in the correct order}\n$= 500$ cents $: 50$ cents {write in the same units}\n$= 500 : 50$ {express without units}\n\n(b) cordial : water $= 200$ mL $: 1$ L {write in the correct order}\n$= 200$ mL $: 1000$ mL {write in the same units}\n$= 200 : 1000$ {express without units}",
+      "source_images": ["image2155.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 1G.1\n\n1. Write as a ratio, without simplifying your answer:\n(a) $\\$10$ is to $\\$7$\n(b) 2 L is to 5 L\n(c) 80 kg is to 50 kg\n(d) $\\$2$ is to 50 cents\n(e) 500 mL is to 2 L\n(f) 800 m is to 1.5 km\n\n2. At my school there are 29 badminton players and 18 tabletennis players. Compare these quantities using a ratio.\n\n3. The school cross-country race is 3.7 km long. The longest race at the athletics carnival is 800 m. Compare these distances using a ratio.",
+      "source_images": ["image2156.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Two ratios are equal if the quantities they compare are in the same proportions.",
+      "source_images": ["image2157.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "For example, if we have 9 oranges and 3 lemons, there are 3 oranges for every 1 lemon. So, the ratio $9 : 3$ equals the ratio $3 : 1$.\n\nWe can simplify a ratio by writing an equal ratio with integer components that are as small as possible.\n\nTo simplify a ratio we multiply or divide each part by the same non-zero number. This ensures we create an equal ratio.",
+      "source_images": ["image2158.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 30\n\nExpress the following ratios in simplest form:\n(a) $45 : 15$\n(b) $2\\frac{1}{2} : \\frac{1}{2}$\n(c) $0.4 : 1.4$\n\nSolutions:\n\n(a) $45 : 15$\n$= 45 \\div 15 : 15 \\div 15$\n$= 3 : 1$\n\n(b) $2\\frac{1}{2} : \\frac{1}{2}$\n$= \\frac{5}{2} : \\frac{1}{2}$\n$= \\frac{5}{2} \\times 2 : \\frac{1}{2} \\times 2$\n$= 5 : 1$\n\n(c) $0.4 : 1.4$\n$= 0.4 \\times 10 : 1.4 \\times 10$\n$= 4 : 14$\n$= 4 \\div 2 : 14 \\div 2$\n$= 2 : 7$",
+      "source_images": ["image2159.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 1G.2\n\n1. Express as a ratio in simplest form:\n(a) $3 : 6$\n(b) $\\frac{3}{4} : \\frac{1}{4}$\n(c) $0.5 : 0.2$\n(d) $18 : 24$\n(e) $2\\frac{1}{2} : 1\\frac{1}{2}$\n(f) $1.5 : 0.3$\n(g) 20 c to $\\$1.20$\n(h) 2 L to 500 mL\n\n2. Use your calculator to find $1\\frac{2}{3} \\div 1\\frac{1}{3}$. Simplify $1\\frac{2}{3} : 1\\frac{1}{3}$. What do you notice?\n\n3. Simplify the ratios:\n(a) $\\frac{1}{3} : \\frac{1}{2}$\n(b) $2\\frac{1}{2} : 1\\frac{1}{3}$\n(c) $3\\frac{1}{4} : \\frac{2}{3}$\n(d) $1\\frac{2}{3} : 1\\frac{3}{10}$\n\n4. Express as a ratio in simplest form:\n(a) $0.5 : 0.3$\n(b) $0.2 : 0.8$\n(c) $0.6 : 1.5$\n(d) $0.35 : 0.49$",
+      "source_images": ["image2160.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "EQUAL RATIOS\n\nRatios are equal if they can be expressed in the same simplest form.",
+      "source_images": ["image2161.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 31\n\nFind $\\square$ if:\n(a) $2 : 3 = 6 : \\square$\n(b) $12 : 30 = \\square : 35$\n\nSolutions:\n\n(a) $2 : 3 = 6 : \\square$\n$\\therefore \\square = 3 \\times 3$\n$\\therefore \\square = 9$\n\n(b) $12 : 30 = 12 \\div 6 : 30 \\div 6$\n$= 2 : 5$\n$\\therefore 2 : 5 = \\square : 35$\n$\\therefore \\square = 2 \\times 7 = 14$",
+      "source_images": ["image2162.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 32\n\n12 school prefects are chosen to accompany grade 5 students on an excursion. The ratio of prefects to students is $3 : 10$. How many grade 5 students are going on the excursion?\n\nSolution:\n\nprefects : students $= 3 : 10$\n$\\therefore 3 : 10 = 12 : \\square$\n$\\therefore \\square = 10 \\times 4$\n$\\therefore \\square = 40$\n\n$\\therefore$ 40 grade 5 students are going on the excursion.",
+      "source_images": ["image2163.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 1G.3\n\n1. Find $\\square$ if:\n(a) $2 : 5 = 8 : \\square$\n(b) $3 : 7 = \\square : 21$\n(c) $4 : 5 = 16 : \\square$\n(d) $2 : 6 = \\square : 27$\n(e) $12 : 9 = 16 : \\square$\n(f) $15 : 25 = 9 : \\square$\n\n2. A hospital employs nurses and doctors in the ratio $7 : 2$. If there are 84 nurses, how many doctors are there?\n\n3. A farmer has pigs and chickens in the ratio $3 : 8$. If she has 360 pigs, how many chickens does she have?\n\n4. The price of a TV is reduced from $\\$500$ to $\\$400$. A DVD player costing $\\$1250$ is reduced in the same ratio as the TV. What does the DVD player sell for?",
+      "source_images": ["image2164.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 33\n\nAn inheritance of $\\$60\\,000$ is to be divided between Donny and Marie in the ratio $2 : 3$. How much does each receive?\n\nSolution:\n\nThere are $2 + 3 = 5$ parts in total.\n\n$\\therefore$ Donny gets $\\frac{2}{5}$ of $\\$60\\,000$ and Marie gets $\\frac{3}{5}$ of $\\$60\\,000$\n$= \\frac{2}{5} \\times 60\\,000$ and $= \\frac{3}{5} \\times 60\\,000$\n$= \\$24\\,000$ and $= \\$36\\,000$",
+      "source_images": ["image2165.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 1G.4\n\n1. Divide:\n(a) $\\$50$ in the ratio $1 : 4$\n(b) $\\$35$ in the ratio $3 : 4$\n\n2. A fortune of £800 000 is to be divided in the ratio $3 : 7$. What is the larger share?\n\n3. The ratio of girls to boys in a tennis club is $4 : 5$. If there are 144 children in the club, how many are girls?\n\n4. A glass contains alcohol and water in the ratio $1 : 4$. A second glass contains the same quantity of liquid, but this time the ratio of alcohol to water is $2 : 3$. Each glass is emptied into a third glass. What is the ratio of alcohol to water in the final mixture?\n\n5. One full glass contains vinegar and water in the ratio $1 : 3$. Another glass with twice the capacity of the first has vinegar and water in the ratio $1 : 4$. If the contents of both glasses are mixed together, what is the ratio of vinegar to water?",
+      "source_images": ["image2166.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Rather than writing $2 \\times 2 \\times 2$, we can write such a product as $2^3$. We call this index notation. We say that 2 is the base and that 3 is the index or power.\n\n$2^3$ reads \"two cubed\" or \"the third power of two\" or \"two to the power of three\".\n\nIf $n$ is a positive integer, then $a^n$ is the product of $n$ factors of $a$.\n\n$a^n = a \\times a \\times a \\times a \\times a \\times ...... \\times a$\n($n$ factors)",
+      "source_images": ["image2167.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 34\n\nFind the integer equal to:\n(a) $3^4$\n(b) $2^4 \\times 3^2 \\times 7$\n\nSolutions:\n\n(a) $3^4$\n$= 3 \\times 3 \\times 3 \\times 3$\n$= 81$\n\n(b) $2^4 \\times 3^2 \\times 7$\n$= 2 \\times 2 \\times 2 \\times 2 \\times 3 \\times 3 \\times 7$\n$= 1008$",
+      "source_images": ["image2168.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 1H\n\n1. Find the integer equal to:\n(a) $2^3$\n(b) $2^4$\n(c) $3^3$\n(d) $3 \\times 5^2$\n(e) $2^2 \\times 3^2$\n(f) $2 \\times 3^3 \\times 5^2$\n(g) $2^2 \\times 3 \\times 7^2$\n(h) $2^4 \\times 5^3 \\times 11$\n\n2. Find, using your calculator:\n(a) $5^4$\n(b) $8^3$\n(c) $12^5$\n(d) $(-4)^9$\n(e) $(-7)^4$\n(f) $(-3)^3$\n(g) $2.8^6$\n(h) $19^2$\n\n3. List the set of all primes less than 30.\n\n4. Write the following as powers of a prime:\n(a) 8\n(b) 27\n(c) 64\n(d) 625\n(e) 343\n(f) 243\n(g) 1331\n(h) 529\n\n5. Express the following as the product of prime factors in index form:\n(a) 56\n(b) 240\n(c) 504\n(d) 735\n(e) 297\n(f) 221\n(g) 360\n(h) 952",
+      "source_images": ["image2169.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. The most abundant number in a set of numbers is the number which has the highest power of 2 as a factor.\nFor example:\n- the most abundant number of $\\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\\}$ is 8 as $8 = 2^3$.\n- the most abundant number of $\\{41, 42, 43, 44, 45, 46, 47, 48, 49, 50\\}$ is 48 as $48 = 2^4 \\times 3$.\n\nFind the most abundant number of the set $\\{151, 152, 153, 154, 155, 156, 157, 158, 159, 160\\}$.\n\n7. Find, correct to 3 decimal places:\n(a) $(2.6 + 3.7)^4$\n(b) $(8.6)^3 - (4.2)^3$\n(c) $12.4 \\times (10.7)^4$\n(d) $\\left(\\frac{3.2 + 1.92}{1.47}\\right)^3$\n(e) $\\left(\\frac{0.52}{0.09 \\times 6.14}\\right)^4$\n(f) $\\frac{648}{(3.62)^4}$\n\n8. Find the last digit of $3^{100}$.\nHint: Consider $3^1, 3^2, 3^3, 3^4, 3^5, 3^6, ......$ and look for a pattern.\n\n9. Find the last digit of the number $7^{200}$. Hint: Consider $7^1, 7^2, 7^3, 7^4, 7^5, ......$\n\n10. The sum of two different odd numbers is 36. When their difference is factorised into primes, the sum of the primes is 10. Find the numbers.\n\n11. $3^a \\times a^3 = 518a$ or five thousand one hundred and eighty ...... Find $a$.",
+      "source_images": ["image2170.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "DIVISIBILITY TESTS FOR NATURAL NUMBERS\n\n| Number | Divisibility Test |\n|--------|-------------------|\n| 2 | If the last digit is 0 or even, then the original number is divisible by 2. |\n| 3 | If the sum of the digits is divisible by 3, then the original number is divisible by 3. |\n| 4 | If the number formed by the last two digits is divisible by 4, then the original number is divisible by 4. |\n| 5 | If the last digit is 0 or 5 then the number is divisible by 5. |\n| 6 | If a number is divisible by both 2 and 3 then it is divisible by 6. |\n| 8 | If the number formed by the last three digits is divisible by 8, then the original number is divisible by 8. |\n| 9 | If the sum of the digits is divisible by 9, then the original number is divisible by 9. |\n| 10 | If the last digit of a number is 0, then the number is divisible by 10. |\n| 11 | Add the digits in odd positions. Add the digits in the even positions. Find the difference between your two answers. If the difference is 0 or divisible by 11, the original number is divisible by 11. |",
+      "source_images": ["image2171.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 1\n\nTest for divisibility by 3 and 11:\n(a) 846\n(b) 2618\n\nSolutions:\n\n(a) The sum of the digits of 846 is $8 + 4 + 6 = 18$.\nSince 18 is divisible by 3, so is 846.\nFor the number 846, the sum of the digits in the odd positions is $6 + 8 = 14$ and the sum of the digits in the even positions is 4.\nThe difference is $14 - 4 = 10$. Since 10 is not divisible by 11, 846 is also not divisible by 11.\n\n(b) The sum of the digits of 2618 is $2 + 6 + 1 + 8 = 17$.\nSince 17 is not divisible by 3, 2618 is also not divisible by 3.\nFor the number 2618, the sum of the digits in the odd positions is $8 + 6 = 14$ and the sum of the digits in the even positions is $1 + 2 = 3$.\nThe difference is $14 - 3 = 11$, which is divisible by 11.\nSo, 2618 is also divisible by 11.",
+      "source_images": ["image2172.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 3A\n\n1. Answer true or false for the following:\n(a) 45 is divisible by 5\n(b) 70 is divisible by 5\n(c) 402 is divisible by 5\n(d) 75 is divisible by 2\n(e) 96 is divisible by 2\n(f) 2338 is divisible by 2\n(g) 92 is divisible by 3\n(h) 126 is divisible by 3\n(i) 56235 is divisible by 3\n\n2. Which of the following are divisible by 3?\n(a) 87\n(b) 153\n(c) 512\n(d) 861\n(e) 977\n(f) 1002\n(g) 111111\n(h) 56947\n(i) 12321\n(j) 778899\n(k) 123456789\n(l) 124124124\n\n3. Determine whether the following are divisible by 4:\n(a) 1250\n(b) 4234\n(c) 30420\n(d) 315422\n\n4. Determine whether the following are divisible by 9:\n(a) 801\n(b) 2979\n(c) 35533\n(d) 59283\n\n5. Determine which of the numbers 2, 3, 4, 5, 9, 10 the following are divisible by:\n(a) 120\n(b) 616\n(c) 960\n(d) 1443\n\n6. Find all possible values of the missing digit if the following are divisible by 3:\n(a) $1\\square 3$\n(b) $\\square 36$\n(c) $6\\square 34$\n(d) $89\\square 12$\n\n7. Discuss and then write down concise tests for divisibility by:\n(a) 12\n(b) 15\n(c) 24\n\n8. A four digit number has digit form 'a2b4'. If it is divisible by 3, what are the possible values of $a + b$?\n\n9. Find the smallest positive integer which is divisible by the numbers 2, 3, 7, 10, 15, and 21.",
+      "source_images": ["image2173.png"]
+    }
+  ]
+}

@@ -15,33 +15,28 @@
     },
     {
       "type": "exercise",
-      "content_latex": "REVIEW SET 17A\n\n1. Solve by substitution: $y = 2x - 7$ and $2x + 3y = 11$.\n\n2. Solve simultaneously:\n\n(a) $y = 2x - 5$ and $3x - 2y = 11$\n\n(b) $3x + 5y = 1$ and $4x - 3y = 11$\n\n3. Flour is sold in 5 kg and 2 kg packets. The 5 kg packets cost \u20ac2.75 each and the 2 kg packets cost \u20ac1.25 each. If I bought 67 kg of flour and the total cost was \u20ac38.50, how many of each size of packet did I buy?\n\n4. Find the coordinates of any point where these line pairs meet:\n\n(a) $y = 3x + 2$ and $y = 3x - 1$\n\n(b) $2x - 3y = 18$ and $4x + 5y = -8$\n\n5. Find the perimeter of the given rectangle. Your answer must not contain $x$ or $y$.\n\n[Rectangle with sides: top $2x + 3y + 5$, right $2x - y + 6$, bottom $3x - y + 16$, left $x + y + 3$]\n\n6. Sally has only 10-pence and 50-pence coins in her purse. She has 21 coins altogether with a total value of \u00a35.30. How many of each coin type does she have?\n\n7. Find algebraically where the line with equation $y = 2x - 3$ meets the parabola with equation $y = 2x^2 - 3x - 10$.",
+      "content_latex": "REVIEW SET 17A\n\n1. Solve by substitution: $y = 2x - 7$ and $2x + 3y = 11$.\n\n2. Solve simultaneously:\n\n(a) $y = 2x - 5$ and $3x - 2y = 11$\n\n(b) $3x + 5y = 1$ and $4x - 3y = 11$\n\n3. Flour is sold in 5 kg and 2 kg packets. The 5 kg packets cost €2.75 each and the 2 kg packets cost €1.25 each. If I bought 67 kg of flour and the total cost was €38.50, how many of each size of packet did I buy?\n\n4. Find the coordinates of any point where these line pairs meet:\n\n(a) $y = 3x + 2$ and $y = 3x - 1$\n\n(b) $2x - 3y = 18$ and $4x + 5y = -8$\n\n5. Find the perimeter of the given rectangle. Your answer must not contain $x$ or $y$.\n\n[Rectangle with sides: top $2x + 3y + 5$, right $2x - y + 6$, bottom $3x - y + 16$, left $x + y + 3$]\n\n6. Sally has only 10-pence and 50-pence coins in her purse. She has 21 coins altogether with a total value of £5.30. How many of each coin type does she have?\n\n7. Find algebraically where the line with equation $y = 2x - 3$ meets the parabola with equation $y = 2x^2 - 3x - 10$.",
       "source_images": ["image782.png", "image783.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "REVIEW SET 17B\n\n1. Solve by substitution:\n$y = 11 - 3x$\n$4x + 3y = -7$\n\n2. Solve simultaneously:\n\n(a) $3x - 2y = 16$ and $y = 2x - 10$\n\n(b) $3x - 5y = 11$ and $4x + 3y = 5$\n\n3. A bus company uses two different sized buses. The company needs 7 small buses and 5 large buses to transport 331 people, but needs 4 small buses and 9 large buses to carry 398 people. In these situations all of the buses are full. Determine the number of people each bus can carry.\n\n4. Find the coordinates of any point where these line pairs meet:\n\n(a) $y = 2x + 5$ and $y = 2x + 15$\n\n(b) $3x + 7y = -6$ and $6x + 5y = 15$\n\n5. Orange juice can be purchased in 2 L cartons or in 600 mL bottles. The 2 L cartons cost \\$1.50 each and the 600 mL bottles cost \\$0.60 each. A consumer purchases 73 L of orange juice for a total cost of \\$57. How many of each container did the consumer buy?\n\n6. The perimeter of this isosceles triangle is 29 cm.\n\n[Triangle with sides: $x + y + 1$, $2x - y + 4$, $3x - 2y + 14$]\n\nFind the length of the equal sides. Your answer must not contain $x$ or $y$.\n\n7. Find algebraically the points of intersection of the parabolas with equations $y = 2x^2 + 3x - 1$ and $y = 5 - x^2$.",
+      "content_latex": "REVIEW SET 17B\n\n1. Solve by substitution:\n\n$y = 11 - 3x$\n\n$4x + 3y = -7$\n\n2. Solve simultaneously:\n\n(a) $3x - 2y = 16$ and $y = 2x - 10$\n\n(b) $3x - 5y = 11$ and $4x + 3y = 5$\n\n3. A bus company uses two different sized buses. The company needs 7 small buses and 5 large buses to transport 331 people, but needs 4 small buses and 9 large buses to carry 398 people. In these situations all of the buses are full. Determine the number of people each bus can carry.\n\n4. Find the coordinates of any point where these line pairs meet:\n\n(a) $y = 2x + 5$ and $y = 2x + 15$\n\n(b) $3x + 7y = -6$ and $6x + 5y = 15$\n\n5. Orange juice can be purchased in 2 L cartons or in 600 mL bottles. The 2 L cartons cost $1.50 each and the 600 mL bottles cost $0.60 each. A consumer purchases 73 L of orange juice for a total cost of $57. How many of each container did the consumer buy?\n\n6. The perimeter of this isosceles triangle is 29 cm. Find the length of the equal sides. Your answer must not contain $x$ or $y$.\n\n[Triangle with sides: $x + y + 1$, $2x - y + 4$, $3x - 2y + 14$]\n\n7. Find algebraically the points of intersection of the parabolas with equations $y = 2x^2 + 3x - 1$ and $y = 5 - x^2$.",
       "source_images": ["image784.png", "image785.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "Exercises\n\n5.2.1 Solve each of the following systems of equations:\n\n(a) $2x + y = 10$,\n$3x - 4y = 37$.\n\n(b) $5x = 6y - 4$,\n$2y = 3x + 4$.\n\n(c) $\\frac{2r}{3} + \\frac{5s}{6} = \\frac{11}{2}$,\n$\\frac{2s}{3} = \\frac{7}{3} + \\frac{r}{2}$.\n\n(d) $2x - 3y = -3.2 - 0.2x + 0.1y$,\n$x = 0.6x - y + 8.8$.\n\n5.2.2 Suppose that $x = 2 - t$ and $y = 4t + 7$.\n\n(a) If $x = 7$, what is $y$?\n\n(b) If $x = -3$, what is $y$?\n\n(c) Find $y$ in terms of $x$.",
+      "content_latex": "Exercises\n\n5.2.1 Solve each of the following systems of equations:\n\n(a) $2x + y = 10$, $3x - 4y = 37$\n\n(b) $5x = 6y - 4$, $2y = 3x + 4$\n\n(c) $\\frac{2r}{3} + \\frac{5s}{6} = \\frac{11}{2}$, $\\frac{2s}{3} = \\frac{7}{3} + \\frac{r}{2}$\n\n(d) $2x - 3y = -3.2 - 0.2x + 0.1y$, $x = 0.6x - y + 8.8$\n\n5.2.2 Suppose that $x = 2 - t$ and $y = 4t + 7$.\n\n(a) If $x = 7$, what is $y$?\n\n(b) If $x = -3$, what is $y$?\n\n(c) Find $y$ in terms of $x$.",
       "source_images": ["image786.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "5.2.3 In the Exercise 5.1.4, we found several ordered pairs that satisfy both of the equations:\n\n$5x - 6y = 1$,\n$15x - 18y = 3$.\n\n(a) Solve the first equation for $x$.\n\n(b) Substitute your result from part (a) into the second equation. After you simplify as much as possible, do you still have an $x$ in your equation? Is the equation you have after simplifying true?\n\n(c) How does the result of part (b) tell us that every ordered pair $(x, y)$ that satisfies the first equation also satisfies the second equation?\n\n5.2.4 Solve the system of equations\n\n$13p - 92q = 273$,\n$12p - 91q = 273$.",
+      "content_latex": "5.2.3 In the Exercise 5.1.4, we found several ordered pairs that satisfy both of the equations:\n\n$5x - 6y = 1$,\n\n$15x - 18y = 3$.\n\n(a) Solve the first equation for $x$.\n\n(b) Substitute your result from part (a) into the second equation. After you simplify as much as possible, do you still have an $x$ in your equation? Is the equation you have after simplifying true?\n\n(c) How does the result of part (b) tell us that every ordered pair $(x, y)$ that satisfies the first equation also satisfies the second equation?\n\n5.2.4 Solve the system of equations\n\n$13p - 92q = 273$,\n\n$12p - 91q = 273$.",
       "source_images": ["image787.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "5.3.1 Solve each of the following systems of equations:\n\n(a) $3x - 7y = 14$,\n$2x + 7y = 6$.\n\n(b) $5u = -7 - 2v$,\n$3u = 4v - 25$.\n\n(c) $\\frac{2x}{13} + 2y = -2(y + 1)$,\n$-\\frac{3x}{13} = -5(6 - y)$.\n\n(d) $-2.5a + 5b = 25$,\n$42 + 10b = 15 + 3.75a + 4b$.\n\n5.3.2 Describe all solutions to each of the following systems of equations:\n\n(a) $2x + 3y = 7$,\n$14x = 49 - 21y$.\n\n(b) $\\frac{3x}{5} - \\frac{4y}{5} = 3$,\n$8y - 6x = 5$.\n\n5.3.3 For what value of the constant $a$ does the system of equations below have infinitely many solutions?\n\n$2x + 5y = -8$,\n$6x = 16 + a - 15y$.\n\n5.3.4 Let $a$, $b$, $c$, $d$, and $e$ be constants in the system of equations\n\n$ax + by = d$,\n$ax + cy = e$.",
-      "source_images": ["image788.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "Suppose $b$ and $c$ are not equal and $a$ is not 0. Must the system of equations have exactly one solution $(x, y)$?",
-      "source_images": ["image789.png"]
+      "content_latex": "5.3.1 Solve each of the following systems of equations:\n\n(a) $3x - 7y = 14$, $2x + 7y = 6$\n\n(b) $5u = -7 - 2v$, $3u = 4v - 25$\n\n(c) $\\frac{2x}{13} + 2y = -2(y + 1)$, $-\\frac{3x}{13} = -5(6 - y)$\n\n(d) $-2.5a + 5b = 25$, $42 + 10b = 15 + 3.75a + 4b$\n\n5.3.2 Describe all solutions to each of the following systems of equations:\n\n(a) $2x + 3y = 7$, $14x = 49 - 21y$\n\n(b) $\\frac{3x}{5} - \\frac{4y}{5} = 3$, $8y - 6x = 5$\n\n5.3.3 For what value of the constant $a$ does the system of equations below have infinitely many solutions?\n\n$2x + 5y = -8$,\n\n$6x = 16 + a - 15y$\n\n5.3.4 Let $a$, $b$, $c$, $d$, and $e$ be constants in the system of equations\n\n$ax + by = d$,\n\n$ax + cy = e$.\n\nSuppose $b$ and $c$ are not equal and $a$ is not 0. Must the system of equations have exactly one solution $(x, y)$?",
+      "source_images": ["image788.png", "image789.png"]
     },
     {
       "type": "exercise",
@@ -50,28 +45,13 @@
     },
     {
       "type": "example",
-      "content_latex": "Problem 5.14: In this problem we find all possible values of $a$ and $b$ such that the sum of their square roots is 37 and the square root of $a$ is 10 more than twice the square root of $b$.\n\n(a) Convert the words to math. Write two equations for the given information.\n\n(b) Find $\\sqrt{a}$ and $\\sqrt{b}$, then find $a$ and $b$.",
-      "source_images": ["image791.png"]
+      "content_latex": "Problem 5.14: In this problem we find all possible values of $a$ and $b$ such that the sum of their square roots is 37 and the square root of $a$ is 10 more than twice the square root of $b$.\n\n(a) Convert the words to math. Write two equations for the given information.\n\n(b) Find $\\sqrt{a}$ and $\\sqrt{b}$, then find $a$ and $b$.\n\nSolution for Problem 5.14: We first convert the words to math, writing equations for the information given in the problem:\n\n$\\sqrt{a} + \\sqrt{b} = 37$,\n\n$\\sqrt{a} = 2\\sqrt{b} + 10$.\n\nWe can organize these equations a little more clearly by putting all the variables on one side:\n\n$\\sqrt{a} + \\sqrt{b} = 37$\n\n$\\sqrt{a} - 2\\sqrt{b} = 10$\n\nThese equations are not linear; however, we can still use our tactics for solving systems of linear equations to solve this system of equations. We can eliminate $\\sqrt{a}$ by subtracting the second equation from the first:\n\n$\\sqrt{a} + \\sqrt{b} = 37$\n\n$-(\\sqrt{a} - 2\\sqrt{b}) = -(10)$\n\n$3\\sqrt{b} = 27$\n\nDividing this result by 3 gives $\\sqrt{b} = 9$. We can substitute this into either of our original equations to find $\\sqrt{a} = 28$. However, we want $a$ and $b$, not $\\sqrt{a}$ and $\\sqrt{b}$. Squaring our equations for $\\sqrt{a}$ and $\\sqrt{b}$ give us $a = 28^2 = 784$ and $b = 9^2 = 81$.",
+      "source_images": ["image791.png", "image792.png", "image793.png"]
     },
     {
       "type": "example",
-      "content_latex": "Solution for Problem 5.14: We first convert the words to math, writing equations for the information given in the problem:\n\n$\\sqrt{a} + \\sqrt{b} = 37$,\n$\\sqrt{a} = 2\\sqrt{b} + 10$.\n\nWe can organize these equations a little more clearly by putting all the variables on one side:\n\n$\\sqrt{a} + \\sqrt{b} = 37$\n$\\sqrt{a} - 2\\sqrt{b} = 10$\n\nThese equations are not linear; however, we can still use our tactics for solving systems of linear equations to solve this system of equations. We can eliminate $\\sqrt{a}$ by subtracting the second equation from the first:\n\n$\\sqrt{a} + \\sqrt{b} = 37$\n$-(\\sqrt{a} - 2\\sqrt{b}) = -(10)$\n$3\\sqrt{b} = 27$",
-      "source_images": ["image792.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "Dividing this result by 3 gives $\\sqrt{b} = 9$. We can substitute this into either of our original equations to find $\\sqrt{a} = 28$. However, we want $a$ and $b$, not $\\sqrt{a}$ and $\\sqrt{b}$. Squaring our equations for $\\sqrt{a}$ and $\\sqrt{b}$ give us $a = 28^2 = 784$ and $b = 9^2 = 81$. $\\square$",
-      "source_images": ["image793.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "Problem 5.15: Find all pairs $(x, y)$ that satisfy both of the equations below:\n\n$\\frac{3}{x} - \\frac{2}{y} = -\\frac{7}{2}$,\n$\\frac{6}{x} + \\frac{4}{y} = 9$.",
-      "source_images": ["image794.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "Solution for Problem 5.15: We've had a lot of success in past problems by getting rid of fractions, so we try that here. We multiply the first equation by $2xy$ and the second by $xy$ to get\n\n$2xy\\left(\\frac{3}{x} - \\frac{2}{y}\\right) = 2xy\\left(-\\frac{7}{2}\\right)$,\n$xy\\left(\\frac{6}{x} + \\frac{4}{y}\\right) = xy(9)$.\n\nExpanding and organizing both equations, we have\n\n$-4x + 6y = -7xy$,\n$4x + 6y = 9xy$.\n\nAt this point we might give up once we see those $xy$ terms, since we don't know what to do with them. But seeing that adding the equations will cancel the $x$ terms on the left, we might instead try adding them.",
-      "source_images": ["image795.png"]
+      "content_latex": "Problem 5.15: Find all pairs $(x, y)$ that satisfy both of the equations below:\n\n$\\frac{3}{x} - \\frac{2}{y} = -\\frac{7}{2}$,\n\n$\\frac{6}{x} + \\frac{4}{y} = 9$.\n\nSolution for Problem 5.15: We've had a lot of success in past problems by getting rid of fractions, so we try that here. We multiply the first equation by $2xy$ and the second by $xy$ to get\n\n$2xy\\left(\\frac{3}{x} - \\frac{2}{y}\\right) = 2xy\\left(-\\frac{7}{2}\\right)$,\n\n$xy\\left(\\frac{6}{x} + \\frac{4}{y}\\right) = xy(9)$.\n\nExpanding and organizing both equations, we have\n\n$-4x + 6y = -7xy$,\n\n$4x + 6y = 9xy$.\n\nAt this point we might give up once we see those $xy$ terms, since we don't know what to do with them. But seeing that adding the equations will cancel the $x$ terms on the left, we might instead try adding them.\n\nAdding the two equations gives us\n\n$12y = 2xy$.\n\nWe know that $y$ cannot be 0 (because then the initial equations would have division by 0, which isn't allowed), so we can divide this equation by $y$. This gives $12 = 2x$, so $x = 6$. We substitute $x = 6$ into either equation above to find $y = 1/2$.",
+      "source_images": ["image794.png", "image795.png", "image796.png", "image797.png", "image798.png"]
     },
     {
       "type": "concept",
@@ -79,49 +59,29 @@
       "source_images": ["image796.png"]
     },
     {
-      "type": "example",
-      "content_latex": "Adding the two equations gives us\n\n$12y = 2xy$.",
-      "source_images": ["image797.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "We know that $y$ cannot be 0 (because then the initial equations would have division by 0, which isn't allowed), so we can divide this equation by $y$. This gives $12 = 2x$, so $x = 6$. Our experiment worked! We substitute $x = 6$ into either equation above to find $y = 1/2$.",
-      "source_images": ["image798.png"]
-    },
-    {
       "type": "concept",
-      "content_latex": "But what if we had stopped once we saw the $xy$ terms? Would all have been lost?\n\nNo!\n\nConcept: For most problems there is more than one way to find the answer.",
+      "content_latex": "Concept: For most problems there is more than one way to find the answer.",
       "source_images": ["image799.png"]
     },
     {
       "type": "example",
-      "content_latex": "Both equations include the reciprocal of $x$ and the reciprocal of $y$, so we let $r = 1/x$ and $s = 1/y$. Our equations then become:\n\n$3r - 2s = -\\frac{7}{2}$,\n$6r + 4s = 9$.\n\nThese are two-variable linear equations. We know how to solve this system. Using either elimination or substitution, we find $(r, s) = (1/6, 2)$. We then use our definitions of $r$ and $s$ to find $(x, y) = (6, 1/2)$.",
+      "content_latex": "Both equations include the reciprocal of $x$ and the reciprocal of $y$, so we let $r = 1/x$ and $s = 1/y$. Our equations then become:\n\n$3r - 2s = -\\frac{7}{2}$,\n\n$6r + 4s = 9$.\n\nThese are two-variable linear equations. We know how to solve this system. Using either elimination or substitution, we find $(r, s) = (1/6, 2)$. We then use our definitions of $r$ and $s$ to find $(x, y) = (6, 1/2)$.",
       "source_images": ["image800.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "Exercises\n\n5.5.1 Solve the following system of equations for $x$ and $y$:\n\n$\\frac{6}{x} + \\frac{7}{y} = 4$,\n$\\frac{2}{x} - \\frac{5}{y} = 16$.",
-      "source_images": ["image801.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "5.5.2 The area of a square equals the square of a length of the side of the square. The perimeter of a square equals the sum of the lengths of all four sides. The sum of the areas of two squares is 65, while the difference in their areas is 33. Find the sum of their perimeters.\n\n5.5.3 Find $r$ and $s$ if $\\sqrt[3]{r} + 9\\sqrt{s} = 21$ and $10\\sqrt[3]{r} - \\sqrt{s} = 28$.",
-      "source_images": ["image802.png"]
+      "content_latex": "Exercises\n\n5.5.1 Solve the following system of equations for $x$ and $y$:\n\n$\\frac{6}{x} + \\frac{7}{y} = 4$,\n\n$\\frac{2}{x} - \\frac{5}{y} = 16$.\n\n5.5.2 The area of a square equals the square of a length of the side of the square. The perimeter of a square equals the sum of the lengths of all four sides. The sum of the areas of two squares is 65, while the difference in their areas is 33. Find the sum of their perimeters.\n\n5.5.3 Find $r$ and $s$ if $\\sqrt[3]{r} + 9\\sqrt{s} = 21$ and $10\\sqrt[3]{r} - \\sqrt{s} = 28$.",
+      "source_images": ["image801.png", "image802.png"]
     },
     {
       "type": "example",
-      "content_latex": "Problem 5.16: Consider the system of equations\n\n$x + 3y - 4z = 25$,\n$-2x + 5y + 7z = -66$,\n$3x - 2y + 3z = 7$.\n\n(a) Solve the first equation for $x$.\n\n(b) Use your answer to (a) to turn the second and third equations into a system of two-variable linear equations.\n\n(c) Solve the system of equations you created in part (b) for $y$ and $z$, then find $x$.",
-      "source_images": ["image803.png"]
+      "content_latex": "Problem 5.16: Consider the system of equations\n\n$x + 3y - 4z = 25$,\n\n$-2x + 5y + 7z = -66$,\n\n$3x - 2y + 3z = 7$.\n\n(a) Solve the first equation for $x$.\n\n(b) Use your answer to (a) to turn the second and third equations into a system of two-variable linear equations.\n\n(c) Solve the system of equations you created in part (b) for $y$ and $z$, then find $x$.\n\nSolution: We can reduce our system to one with two variables by solving the first equation for $x$:\n\n$x = -3y + 4z + 25$.\n\nWhen we substitute this into the second and third given equations, we have\n\n$-2(-3y + 4z + 25) + 5y + 7z = -66$,\n\n$3(-3y + 4z + 25) - 2y + 3z = 7$.\n\nExpanding then simplifying the left sides of these two equations gives:\n\n$11y - z = -16$,\n\n$-11y + 15z = -68$.\n\nWe know how to solve this system! Adding the two equations gives $14z = -84$, so $z = -6$. Substituting $z = -6$ into either of these equations gives $y = -2$. Finally, we can substitute $y = -2$ and $z = -6$ into $x = -3y + 4z + 25$ to find $x = -3(-2) + 4(-6) + 25 = 7$. Therefore, the solution to the given system of equations is $(x, y, z) = (7, -2, -6)$.",
+      "source_images": ["image803.png", "image804.png", "image805.png"]
     },
     {
       "type": "concept",
       "content_latex": "Concept: When facing a new type of problem, try to convert it into a problem you know how to do.",
       "source_images": ["image804.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "We can reduce our system to one with two variables by solving the first equation for $x$:\n\n$x = -3y + 4z + 25$.\n\nWhen we substitute this into the second and third given equations, we have\n\n$-2(-3y + 4z + 25) + 5y + 7z = -66$,\n$3(-3y + 4z + 25) - 2y + 3z = 7$.\n\nExpanding then simplifying the left sides of these two equations gives:\n\n$11y - z = -16$,\n$-11y + 15z = -68$.\n\nWe know how to solve this system! Adding the two equations gives $14z = -84$, so $z = -6$. Substituting $z = -6$ into either of these equations gives $y = -2$. Finally, we can substitute $y = -2$ and $z = -6$ into $x = -3y + 4z + 25$ to find $x = -3(-2) + 4(-6) + 25 = 7$. Therefore, the solution to the given system of equations is $(x, y, z) = (7, -2, -6)$. $\\square$",
-      "source_images": ["image805.png"]
     },
     {
       "type": "concept",
@@ -130,48 +90,18 @@
     },
     {
       "type": "example",
-      "content_latex": "Problem 5.17: Solve the following system of linear equations:\n\n$2x - 3y + 6z = -12$,\n$5x + 2y - 8z = 29$,\n$7x + 6y + 4z = 49$.",
-      "source_images": ["image807.png"]
+      "content_latex": "Problem 5.17: Solve the following system of linear equations:\n\n$2x - 3y + 6z = -12$,\n\n$5x + 2y - 8z = 29$,\n\n$7x + 6y + 4z = 49$.\n\nSolution: We can eliminate whichever variable we like, so we first try to find which variable is easiest to eliminate. A variable is easy to eliminate from two linear equations when its coefficients in the two equations are opposites (adding the equations eliminates the variable), or when these coefficients are the same (subtracting the equations eliminates the variable). Using this as a guide, we focus on eliminating $y$, because multiplying the first equation by 2 and the second equation by 3 makes each coefficient of $y$ equal to either 6 or $-6$:\n\n$4x - 6y + 12z = -24$,\n\n$15x + 6y - 24z = 87$,\n\n$7x + 6y + 4z = 49$.\n\nWe can add the first two equations to eliminate $y$:\n\n$4x - 6y + 12z = -24$\n\n$15x + 6y - 24z = 87$\n\n$19x - 12z = 63$\n\nAdding the first and third equations also eliminates $y$ and leaves a two-variable linear equation:\n\n$4x - 6y + 12z = -24$\n\n$7x + 6y + 4z = 49$\n\n$11x + 16z = 25$\n\nThese two equations together are a system of two variable linear equations:\n\n$19x - 12z = 63$,\n\n$11x + 16z = 25$.\n\nMultiplying the first equation by 4 and the second by 3 allows us to eliminate $z$ by adding the resulting equations:\n\n$76x - 48z = 252$\n\n$33x + 48z = 75$\n\n$109x = 327$\n\nTherefore, $x = 3$. Substituting this into $11x + 16z = 25$ gives $z = -1/2$. Finally, we let $x = 3$ and $z = -1/2$ in any of our original three equations to find $y = 5$, so our solution is $(x, y, z) = (3, 5, -1/2)$.",
+      "source_images": ["image807.png", "image808.png"]
     },
     {
       "type": "example",
-      "content_latex": "We can eliminate whichever variable we like, so we first try to find which variable is easiest to eliminate. A variable is easy to eliminate from two linear equations when its coefficients in the two equations are opposites (adding the equations eliminates the variable), or when these coefficients are the same (subtracting the equations eliminates the variable). Using this as a guide, we focus on eliminating $y$, because multiplying the first equation by 2 and the second equation by 3 makes each coefficient of $y$ equal to either 6 or $-6$:\n\n$4x - 6y + 12z = -24$,\n$15x + 6y - 24z = 87$,\n$7x + 6y + 4z = 49$.\n\nWe can add the first two equations to eliminate $y$:\n\n$4x - 6y + 12z = -24$\n$15x + 6y - 24z = 87$\n$19x - 12z = 63$\n\nAdding the first and third equations also eliminates $y$ and leaves a two-variable linear equation:\n\n$4x - 6y + 12z = -24$\n$7x + 6y + 4z = 49$\n$11x + 16z = 25$\n\nThese two equations together are a system of two variable linear equations:\n\n$19x - 12z = 63$,\n$11x + 16z = 25$.\n\nMultiplying the first equation by 4 and the second by 3 allows us to eliminate $z$ by adding the resulting equations:\n\n$76x - 48z = 252$\n$33x + 48z = 75$\n$109x = 327$\n\nTherefore, $x = 3$. Substituting this into $11x + 16z = 25$ gives $z = -1/2$. Finally, we let $x = 3$ and $z = -1/2$ in any of our original three equations to find $y = 5$, so our solution is $(x, y, z) = (3, 5, -1/2)$. $\\square$",
-      "source_images": ["image808.png"]
+      "content_latex": "Problem 5.18: At the Word Store, each vowel sells for a different price, but all consonants are free. The word \"triangle\" sells for $6, \"square\" sells for $9, \"pentagon\" sells for $7, \"cube\" sells for $7 and \"tetrahedron\" sells for $8. What is the dollar cost of the word \"octahedron\"? (Source: MATHCOUNTS)\n\nSolution for Problem 5.18: We start by turning the words into equations. We let $a$, $e$, $i$, $o$, and $u$ stand for the price of a, e, i, o, and u, respectively. The information in the problem gives us five equations:\n\n$a + e + i = 6$,\n\n$a + e + u = 9$,\n\n$a + e + o = 7$,\n\n$e + u = 7$,\n\n$a + 2e + o = 8$.\n\nNotice that we put the variables in alphabetical order so we can compare the equations more easily. We almost always do this with linear equations that have multiple variables.\n\nFive variables are a lot to handle. We could solve one equation for one variable and substitute into the others. However, before doing so we look for simpler ways to combine some of the equations to solve for some of the variables. We see that $e + u = 7$ and $a + e + u = 9$, so we must have $a + 7 = 9$. Therefore, we have $a = 2$.\n\nSubstituting $a = 2$ into our equations and simplifying gives\n\n$e + i = 4$,\n\n$e + o = 5$,\n\n$e + u = 7$,\n\n$2e + o = 6$.\n\n(Make sure you see why we don't need to list $e + u = 7$ twice.)\n\nAgain, we could use substitution to reduce the number of variables we are working with, but we can get more information with a quick elimination. Subtracting the second equation from the fourth equation gives $e = 1$. We can then substitute $e = 1$ into each of the first three equations to find $i = 3$, $o = 4$, and $u = 6$. Therefore, our solution is $(a, e, i, o, u) = (2, 1, 3, 4, 6)$.\n\nOur last step is to make sure we answer the question. The dollar cost of \"octahedron\" is $a + e + 2o = $11. (Notice that we didn't have to find $i$ or $u$ to answer the question.)",
+      "source_images": ["image809.png", "image810.png", "image811.png", "image812.png"]
     },
     {
       "type": "example",
-      "content_latex": "Problem 5.18: At the Word Store, each vowel sells for a different price, but all consonants are free. The word \"triangle\" sells for \\$6, \"square\" sells for \\$9, \"pentagon\" sells for \\$7, \"cube\" sells for \\$7 and \"tetrahedron\" sells for \\$8. What is the dollar cost of the word \"octahedron\"? (Source: MATHCOUNTS)",
-      "source_images": ["image809.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "Solution for Problem 5.18: We start by turning the words into equations. We let $a$, $e$, $i$, $o$, and $u$ stand for the price of a, e, i, o, and u, respectively. The information in the problem gives us five equations:",
-      "source_images": ["image810.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "$a + e + i = 6$,\n$a + e + u = 9$,\n$a + e + o = 7$,\n$e + u = 7$,\n$a + 2e + o = 8$.\n\nNotice that we put the variables in alphabetical order so we can compare the equations more easily. We almost always do this with linear equations that have multiple variables.\n\nFive variables are a lot to handle. We could solve one equation for one variable and substitute into the others. However, before doing so we look for simpler ways to combine some of the equations to solve for some of the variables. We see that $e + u = 7$ and $a + e + u = 9$, so we must have $a + 7 = 9$. Therefore, we have $a = 2$.",
-      "source_images": ["image811.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "Substituting $a = 2$ into our equations and simplifying gives\n\n$e + i = 4$,\n$e + o = 5$,\n$e + u = 7$,\n$2e + o = 6$.\n\n(Make sure you see why we don't need to list $e + u = 7$ twice.)\n\nAgain, we could use substitution to reduce the number of variables we are working with, but we can get more information with a quick elimination. Subtracting the second equation from the fourth equation gives $e = 1$. We can then substitute $e = 1$ into each of the first three equations to find $i = 3$, $o = 4$, and $u = 6$. Therefore, our solution is $(a, e, i, o, u) = (2, 1, 3, 4, 6)$.\n\nOur last step is to make sure we answer the question. The dollar cost of \"octahedron\" is $a + e + 2o = \\$11$. (Notice that we didn't have to find $i$ or $u$ to answer the question.) $\\square$",
-      "source_images": ["image812.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "Problem 5.19: Suppose that $A$, $B$, $C$, and $D$ are constants such that\n\n$Ax + B = Cx + D$\n\nfor all values of $x$. Must we have $A = C$ and $B = D$?",
-      "source_images": ["image813.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "Trying $x = -2, -1, 0, 1$, and $2$, we find:\n\n$x = -2 \\Rightarrow -2A + B = -2C + D$,\n$x = -1 \\Rightarrow -A + B = -C + D$,\n$x = 0 \\Rightarrow B = D$,\n$x = 1 \\Rightarrow A + C = B + D$,\n$x = 2 \\Rightarrow 2A + C = 2B + D$.",
-      "source_images": ["image814.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "While at first this looks like a scary system with lots of variables, we see that the substitution $x = 0$ gives us $B = D$. We can then substitute $B = D$ into any of our other equations to show that $A = C$, as well. We can't draw any further conclusions about the variables.\n\nClearly, we must have $Ax + B = Cx + D$ for all $x$ if $A = C$ and $B = D$, since then the two sides are the same. $\\square$",
-      "source_images": ["image815.png"]
+      "content_latex": "Problem 5.19: Suppose that $A$, $B$, $C$, and $D$ are constants such that\n\n$Ax + B = Cx + D$\n\nfor all values of $x$. Must we have $A = C$ and $B = D$?\n\nSolution: Trying $x = -2, -1, 0, 1$, and $2$, we find:\n\n$x = -2 \\Rightarrow -2A + B = -2C + D$,\n\n$x = -1 \\Rightarrow -A + B = -C + D$,\n\n$x = 0 \\Rightarrow B = D$,\n\n$x = 1 \\Rightarrow A + C = B + D$,\n\n$x = 2 \\Rightarrow 2A + C = 2B + D$.\n\nWhile at first this looks like a scary system with lots of variables, we see that the substitution $x = 0$ gives us $B = D$. We can then substitute $B = D$ into any of our other equations to show that $A = C$, as well. We can't draw any further conclusions about the variables.\n\nClearly, we must have $Ax + B = Cx + D$ for all $x$ if $A = C$ and $B = D$, since then the two sides are the same.",
+      "source_images": ["image813.png", "image814.png", "image815.png"]
     },
     {
       "type": "concept",
@@ -180,67 +110,32 @@
     },
     {
       "type": "exercise",
-      "content_latex": "Exercises\n\n5.6.1 Find all solutions to the following system of equations:\n\n$x + 3y + 2z = 6$,\n$-3x + y + 5z = 29$,\n$-2x - 3y + z = 14$.",
-      "source_images": ["image817.png"]
+      "content_latex": "Exercises\n\n5.6.1 Find all solutions to the following system of equations:\n\n$x + 3y + 2z = 6$,\n\n$-3x + y + 5z = 29$,\n\n$-2x - 3y + z = 14$.\n\n5.6.2 Find all solutions to the following system of equations:\n\n$2x - 5y + 3z = 25$,\n\n$-x - y + 4z = -6$,\n\n$3x + 3y - z = -4$.\n\n5.6.3 In the magic square shown, the sum of the numbers in each row, column, and diagonal are the same. Five of these numbers are represented by $v$, $w$, $x$, $y$, and $z$. Find $y + z$. (Source: AMC 12)\n\n[Magic square table:\n$v$ | 24 | $w$\n18 | $x$ | $y$\n25 | $z$ | 21]\n\n5.6.4 Consider the system of equations:\n\n$2a + 3b - 4c = 7$,\n\n$a - b + 2c = 6$.\n\n(a) Find an ordered triple of numbers $(a, b, c)$ that satisfies both equations.\n\n(b) Can you find a second ordered triple that satisfies both equations?\n\n(c) Solve for $b$ in terms of $a$, and solve for $c$ in terms of $a$. How many solutions does this system have?",
+      "source_images": ["image817.png", "image818.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "5.6.2 Find all solutions to the following system of equations:\n\n$2x - 5y + 3z = 25$,\n$-x - y + 4z = -6$,\n$3x + 3y - z = -4$.\n\n5.6.3 In the magic square shown, the sum of the numbers in each row, column, and diagonal are the same. Five of these numbers are represented by $v$, $w$, $x$, $y$, and $z$. Find $y + z$. (Source: AMC 12)\n\n[Magic square table:\n$v$ | 24 | $w$\n18 | $x$ | $y$\n25 | $z$ | 21]\n\n5.6.4 Consider the system of equations:\n\n$2a + 3b - 4c = 7$,\n$a - b + 2c = 6$.\n\n(a) Find an ordered triple of numbers $(a, b, c)$ that satisfies both equations.\n\n(b) Can you find a second ordered triple that satisfies both equations?\n\n(c) Solve for $b$ in terms of $a$, and solve for $c$ in terms of $a$. How many solutions does this system have?",
-      "source_images": ["image818.png"]
+      "content_latex": "5.20 Find three ordered pairs $(a, b)$ that satisfy the equation $3a - 5b = 9$.\n\n5.21 Use substitution to solve the two systems of equations below:\n\n(a) $x + 4y = -5$, $3x - 8y = 45$\n\n(b) $3a - b = 11$, $6a + 4b = 1$\n\n5.22 Use elimination to solve the two systems of equations below:\n\n(a) $5x - 6y = -64$, $7x + 3y = -44$\n\n(b) $3x + 8y = -7$, $6x + 16y = 4$\n\n5.23 Use any technique to solve each of the systems of equations below:\n\n(a) $3x - 4y = 26$, $5x + 8y = 3$\n\n(b) $\\frac{r}{3} - \\frac{s}{6} = \\frac{1}{2}$, $r + 2s + 4 = -3s + 6r + 14$\n\n(c) $5a + 5b + 4 = 17 + 3b$, $16a - 40 = 6a - 4b - 14$\n\n(d) $5 = -5x + 6y + 17$, $2x - 4y + 3 = 3y + 17$\n\n5.24 Find the value of the constant $a$ such that the system of equations\n\n$3x + 2y = 8$,\n\n$6x = 2a - 7 - 4y$\n\nhas infinitely many solutions $(x, y)$.\n\n5.25 For what value of the constant $c$ does the system of equations below have no solutions $(x, y)$?\n\n$3x - 5y = -2.3$,\n\n$6x = cy + 9.3$.\n\n5.26 The sum of the charges of the quarks in a particle gives the overall charge of the particle. Two up quarks and a down quark make a proton, which has charge 1. On the other hand, two down quarks and an up quark make a neutron, which has charge 0. What is the charge of an up quark? (Source: Mandelbrot)\n\n5.27 My father's age 5 years ago plus twice my age now gives 65, while my age 5 years ago plus three times my father's age now gives 130. What is my father's age?",
+      "source_images": ["image819.png", "image820.png", "image821.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "5.20 Find three ordered pairs $(a, b)$ that satisfy the equation $3a - 5b = 9$.\n\n5.21 Use substitution to solve the two systems of equations below:\n\n(a) $x + 4y = -5$,\n$3x - 8y = 45$.\n\n(b) $3a - b = 11$,\n$6a + 4b = 1$.\n\n5.22 Use elimination to solve the two systems of equations below:\n\n(a) $5x - 6y = -64$,\n$7x + 3y = -44$.\n\n(b) $3x + 8y = -7$,\n$6x + 16y = 4$.",
-      "source_images": ["image819.png"]
+      "content_latex": "5.29 Find all ordered pairs $(x, y)$ that satisfy the system of equations:\n\n$\\frac{x}{y} - 3 = \\frac{2}{y}$,\n\n$2x - 9y = -8$.\n\n5.30 Solve the system of equations below:\n\n$p + 3q - 2r = 19$,\n\n$-2p + 7q - 6r = 26$,\n\n$-p - 2q + 8r = -31$.\n\n5.31 A box containing 3 oranges, 2 apples, and one banana weighs 15 units. Another box containing 5 oranges, 7 apples, and 2 bananas weighs 44 units. A third box containing 1 orange, 3 apples, and 5 bananas weighs 26 units. How much does each fruit weigh?",
+      "source_images": ["image822.png", "image823.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "5.23 Use any technique to solve each of the systems of equations below:\n\n(a) $3x - 4y = 26$,\n$5x + 8y = 3$.\n\n(b) $\\frac{r}{3} - \\frac{s}{6} = \\frac{1}{2}$,\n$r + 2s + 4 = -3s + 6r + 14$.\n\n(c) $5a + 5b + 4 = 17 + 3b$,\n$16a - 40 = 6a - 4b - 14$.\n\n(d) $5 = -5x + 6y + 17$,\n$2x - 4y + 3 = 3y + 17$.\n\n5.24 Find the value of the constant $a$ such that the system of equations\n\n$3x + 2y = 8$,\n$6x = 2a - 7 - 4y$.\n\nhas infinitely many solutions $(x, y)$.",
-      "source_images": ["image820.png"]
+      "content_latex": "Challenge Problems\n\n5.32 I am thinking of a two-digit number. If the digits of my number are reversed, the new number is 36 greater than my original number. If the tens digit of my original number is doubled and the units digit is halved, the new number is 17 greater than my original number. What is my original number? Hints: 149\n\n5.33 Suppose that $x = 3 - 4t$ and $y = 5 + 2t$. Find $x$ in terms of $y$.\n\n5.34 Find $x$ and $y$ if $\\sqrt{x} + 2\\sqrt{y} = 3$ and $2\\sqrt{x} + \\sqrt{y} = 0$.\n\n5.35 The product of two nonzero numbers is equal to twice the sum. Find the sum of their reciprocals. Hints: 184\n\n5.36 Find all ordered pairs $(x, y)$ that satisfy both $\\frac{3x - 4y}{xy} = -8$ and $\\frac{2x + 7y}{xy} = 43$. Hints: 20\n\n5.37 Compute $\\frac{x}{y}$ if $x + \\frac{1}{y} = 4$ and $y + \\frac{1}{x} = \\frac{1}{4}$. (Source: ARML) Hints: 120\n\n5.38 One morning each member of Angela's family drank an 8-ounce mixture of coffee with milk. The amounts of coffee and milk varied from cup to cup, but were never zero. Angela drank a quarter of the total amount of milk and a sixth of the total amount of coffee. How many people are in the family? (Source: AMC 12) Hints: 21, 92\n\n5.39 Solve the system of equations:\n\n$2a - 3b + 5c + d = -41$,\n\n$7a + 2b - c = -28$,\n\n$-a + 2b - 7c - 2d = 46$,\n\n$3a + 7b - 6c + d = 31$.",
+      "source_images": ["image824.png", "image825.png", "image826.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "5.24 Find the value of the constant $a$ such that the system of equations\n\n$3x + 2y = 8$,\n$6x = 2a - 7 - 4y$.\n\nhas infinitely many solutions $(x, y)$.\n\n5.25 For what value of the constant $c$ does the system of equations below have no solutions $(x, y)$?\n\n$3x - 5y = -2.3$,\n$6x = cy + 9.3$.\n\n5.26 The sum of the charges of the quarks in a particle gives the overall charge of the particle. Two up quarks and a down quark make a proton, which has charge 1. On the other hand, two down quarks and an up quark make a neutron, which has charge 0. What is the charge of an up quark? (Source: Mandelbrot)\n\n5.27 My father's age 5 years ago plus twice my age now gives 65, while my age 5 years ago plus three times my father's age now gives 130. What is my father's age?",
-      "source_images": ["image821.png"]
+      "content_latex": "5.40 When we place four numbers in a $2 \\times 2$ grid, we form a matrix. We find the determinant of such a $2 \\times 2$ matrix as follows:\n\n$\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = ad - bc$.\n\nFor example,\n\n$\\begin{vmatrix} 3 & -2 \\\\ 5 & 7 \\end{vmatrix} = (3)(7) - (-2)(5) = 31$.\n\nSuppose $a$, $b$, $c$, $d$, $e$, and $f$ are constants in the system of linear equations\n\n$ax + by = e$,\n\n$cx + dy = f$.\n\nCramer's Rule states that if $\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix}$ is nonzero, then the solution to this system is\n\n$x = \\frac{\\begin{vmatrix} e & b \\\\ f & d \\end{vmatrix}}{\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix}}$ and $y = \\frac{\\begin{vmatrix} a & e \\\\ c & f \\end{vmatrix}}{\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix}}$.\n\nProve Cramer's Rule. What happens if the determinant $\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix}$ equals 0? Hints: 193",
+      "source_images": ["image827.png", "image828.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "5.29 Find all ordered pairs $(x, y)$ that satisfy the system of equations:\n\n$\\frac{x}{y} - 3 = \\frac{2}{y}$,\n$2x - 9y = -8$.\n\n5.30 Solve the system of equations below:\n\n$p + 3q - 2r = 19$,\n$-2p + 7q - 6r = 26$,\n$-p - 2q + 8r = -31$.",
-      "source_images": ["image822.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "5.31 A box containing 3 oranges, 2 apples, and one banana weighs 15 units. Another box containing 5 oranges, 7 apples, and 2 bananas weighs 44 units. A third box containing 1 orange, 3 apples, and 5 bananas weighs 26 units. How much does each fruit weigh?",
-      "source_images": ["image823.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "Challenge Problems\n\n5.32 I am thinking of a two-digit number. If the digits of my number are reversed, the new number is 36 greater than my original number. If the tens digit of my original number is doubled and the units digit is halved, the new number is 17 greater than my original number. What is my original number?\nHints: 149\n\n5.33 Suppose that $x = 3 - 4t$ and $y = 5 + 2t$. Find $x$ in terms of $y$.\n\n5.34 Find $x$ and $y$ if $\\sqrt{x} + 2\\sqrt{y} = 3$ and $2\\sqrt{x} + \\sqrt{y} = 0$.",
-      "source_images": ["image824.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "5.35 The product of two nonzero numbers is equal to twice the sum. Find the sum of their reciprocals.\nHints: 184\n\n5.36 Find all ordered pairs $(x, y)$ that satisfy both $\\frac{3x - 4y}{xy} = -8$ and $\\frac{2x + 7y}{xy} = 43$. Hints: 20",
-      "source_images": ["image825.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "5.37 Compute $\\frac{x}{y}$ if $x + \\frac{1}{y} = 4$ and $y + \\frac{1}{x} = \\frac{1}{4}$. (Source: ARML) Hints: 120\n\n5.38 One morning each member of Angela's family drank an 8-ounce mixture of coffee with milk. The amounts of coffee and milk varied from cup to cup, but were never zero. Angela drank a quarter of the total amount of milk and a sixth of the total amount of coffee. How many people are in the family? (Source: AMC 12) Hints: 21, 92\n\n5.39 Solve the system of equations:\n\n$2a - 3b + 5c + d = -41$,\n$7a + 2b - c = -28$,\n$-a + 2b - 7c - 2d = 46$,\n$3a + 7b - 6c + d = 31$.",
-      "source_images": ["image826.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "5.40 When we place four numbers in a $2 \\times 2$ grid, we form a matrix. We find the determinant of such a $2 \\times 2$ matrix as follows:\n\n$\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = ad - bc$.\n\nFor example,\n\n$\\begin{vmatrix} 3 & -2 \\\\ 5 & 7 \\end{vmatrix} = (3)(7) - (-2)(5) = 31$.",
-      "source_images": ["image827.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "Suppose $a$, $b$, $c$, $d$, $e$, and $f$ are constants in the system of linear equations\n\n$ax + by = e$,\n$cx + dy = f$.\n\nCramer's Rule states that if $\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix}$ is nonzero, then the solution to this system is\n\n$x = \\frac{\\begin{vmatrix} e & b \\\\ f & d \\end{vmatrix}}{\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix}}$ and $y = \\frac{\\begin{vmatrix} a & e \\\\ c & f \\end{vmatrix}}{\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix}}$.\n\nProve Cramer's Rule. What happens if the determinant $\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix}$ equals 0? Hints: 193",
-      "source_images": ["image828.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "5.41 Assume that $x_1, x_2, \\ldots, x_7$ are real numbers such that\n\n$x_1 + 4x_2 + 9x_3 + 16x_4 + 25x_5 + 36x_6 + 49x_7 = 1$,\n$4x_1 + 9x_2 + 16x_3 + 25x_4 + 36x_5 + 49x_6 + 64x_7 = 12$,\n$9x_1 + 16x_2 + 25x_3 + 36x_4 + 49x_5 + 64x_6 + 81x_7 = 123$.\n\nFind the value of $16x_1 + 25x_2 + 36x_3 + 49x_4 + 64x_5 + 81x_6 + 100x_7$. (Source: AIME)",
+      "content_latex": "5.41 Assume that $x_1, x_2, \\ldots, x_7$ are real numbers such that\n\n$x_1 + 4x_2 + 9x_3 + 16x_4 + 25x_5 + 36x_6 + 49x_7 = 1$,\n\n$4x_1 + 9x_2 + 16x_3 + 25x_4 + 36x_5 + 49x_6 + 64x_7 = 12$,\n\n$9x_1 + 16x_2 + 25x_3 + 36x_4 + 49x_5 + 64x_6 + 81x_7 = 123$.\n\nFind the value of $16x_1 + 25x_2 + 36x_3 + 49x_4 + 64x_5 + 81x_6 + 100x_7$. (Source: AIME)",
       "source_images": ["image829.png"]
     }
   ]

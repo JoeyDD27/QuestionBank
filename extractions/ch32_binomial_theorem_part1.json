@@ -1,0 +1,287 @@
+{
+  "chapter": 32,
+  "part": 1,
+  "images_range": "2796-2851",
+  "items": [
+    {
+      "type": "concept",
+      "content_latex": "The sum $a + b$ is called a binomial as it contains two terms.\n\nAny expression of the form $(a + b)^n$ is called a power of a binomial.",
+      "source_images": ["image2796.png"]
+    },
+    {
+      "type": "definition",
+      "content_latex": "For $n \\geqslant 1$, $n!$ is the product of the first $n$ positive integers.\n\n$n! = n(n-1)(n-2) \\cdots 3 \\times 2 \\times 1$\n\n$n!$ is read \"$n$ factorial\".",
+      "source_images": ["image2797.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "For example, $5 \\times 4 \\times 3 \\times 2 \\times 1 = 5!$\n\nAn alternative definition of factorial numbers is that $n! = n \\times (n-1)!$ for $n \\geqslant 1$.\n\nFor example, $6! = 6 \\times 5!$\n\nUnder this rule we notice that $1! = 1 \\times 0!$\n\nWe therefore define $0! = 1$",
+      "source_images": ["image2798.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 1\n\nExpress in factorial form:\n\n(a) $9 \\times 8 \\times 7$\n\n(b) $\\frac{11 \\times 10 \\times 9 \\times 8}{4 \\times 3 \\times 2 \\times 1}$\n\nSolutions:\n\n(a) $9 \\times 8 \\times 7 = \\frac{9 \\times 8 \\times 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1}{6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1} = \\frac{9!}{6!}$\n\n(b) $\\frac{11 \\times 10 \\times 9 \\times 8}{4 \\times 3 \\times 2 \\times 1} = \\frac{11 \\times 10 \\times 9 \\times 8 \\times 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1}{4 \\times 3 \\times 2 \\times 1 \\times 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1} = \\frac{11!}{4!7!}$",
+      "source_images": ["image2799.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 1A\n\n1. Evaluate:\n\n(a) $2!$\n\n(b) $3!$\n\n(c) $4!$\n\n(d) $5!$\n\n(e) $6!$\n\n(f) $10!$",
+      "source_images": ["image2800.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Express in factorial form:\n\n(a) $4 \\times 3 \\times 2 \\times 1$\n\n(b) $7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1$\n\n(c) $6 \\times 5$\n\n(d) $8 \\times 7 \\times 6$\n\n(e) $10 \\times 9 \\times 8 \\times 7$\n\n(f) $15 \\times 14 \\times 13 \\times 12$\n\n(g) $\\frac{9 \\times 8 \\times 7}{3 \\times 2 \\times 1}$\n\n(h) $\\frac{13 \\times 12 \\times 11 \\times 10}{4 \\times 3 \\times 2 \\times 1}$\n\n(i) $\\frac{15 \\times 14 \\times 13 \\times 12 \\times 11}{5 \\times 4 \\times 3 \\times 2 \\times 1}$",
+      "source_images": ["image2801.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Simplify without using a calculator:\n\n(a) $\\frac{7!}{6!}$\n\n(b) $\\frac{8!}{6!}$\n\n(c) $\\frac{12!}{10!}$\n\n(d) $\\frac{120!}{119!}$\n\n(e) $\\frac{10!}{8! \\times 2!}$\n\n(f) $\\frac{100!}{98! \\times 2!}$\n\n4. Simplify:\n\n(a) $\\frac{n!}{(n-1)!}$\n\n(b) $\\frac{(n+2)!}{n!}$\n\n(c) $\\frac{(n+1)!}{(n-1)!}$",
+      "source_images": ["image2802.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "We have often used the perfect square expansion: $(a+b)^2 = a^2 + 2ab + b^2$.\n\nWe can use this rule to expand $(a+b)^3$ as follows:\n\n$(a+b)^3 = (a+b)(a+b)^2$\n$= (a+b)(a^2 + 2ab + b^2)$ {perfect square expansion}\n$= a^3 + 2a^2b + ab^2$\n$\\quad + a^2b + 2ab^2 + b^3$\n$= a^3 + 3a^2b + 3ab^2 + b^3$ {collecting like terms}\n\nThe binomial expansion of $(a+b)^2$ is $a^2 + 2ab + b^2$.\n\nThe binomial expansion of $(a+b)^3$ is $a^3 + 3a^2b + 3ab^2 + b^3$.",
+      "source_images": ["image2803.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "You should have observed that in Pascal's triangle, the values on the end of each row are always 1. Each of the remaining values is found by adding the two values diagonally above it.\n\n$\\begin{array}{ccccccc}\n1 & & 1 & & & & \\text{row 1} \\\\\n1 & & 2 & & 1 & & \\text{row 2} \\\\\n1 & & 3 & & 3 & & 1 & \\text{row 3} \\\\\n1 & & 4 & & 6 & & 4 & 1 & \\text{row 4} \\\\\n1 & & 5 & & 10 & & 10 & 5 & 1 & \\text{row 5}\n\\end{array}$\n\nYou should have also found that $(a+b)^4 = a^4 + 4a^3b + 6a^2b^2 + 4ab^3 + b^4$\n$= a^4b^0 + 4a^3b^1 + 6a^2b^2 + 4a^1b^3 + a^0b^4$",
+      "source_images": ["image2804.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Notice in this expansion that:\n\n- As we look from left to right across the expansion, the powers of $a$ decrease by 1, while the powers of $b$ increase by 1.\n- The sum of the powers of $a$ and $b$ in each term of the expansion is 4.\n- The number of terms in the expansion is $4 + 1 = 5$.\n- The coefficients of the terms are row 4 of Pascal's triangle.",
+      "source_images": ["image2805.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "For the expansion of $(a+b)^n$ where $n \\in \\mathbb{N}$:\n\n- As we look from left to right across the expansion, the powers of $a$ decrease by 1, while the powers of $b$ increase by 1.\n- The sum of the powers of $a$ and $b$ in each term of the expansion is $n$.\n- The number of terms in the expansion is $n + 1$.\n- The coefficients of the terms are row $n$ of Pascal's triangle.",
+      "source_images": ["image2806.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 2\n\nUse $(a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$ to find the binomial expansion of:\n\n(a) $(2x+3)^3$\n\n(b) $(x-5)^3$\n\nSolutions:\n\n(a) In the expansion of $(a+b)^3$ we substitute $a = (2x)$ and $b = (3)$.\n\n$\\therefore (2x+3)^3 = (2x)^3 + 3(2x)^2(3) + 3(2x)^1(3)^2 + (3)^3$\n$= 8x^3 + 36x^2 + 54x + 27$\n\n(b) We substitute $a = (x)$ and $b = (-5)$\n\n$\\therefore (x-5)^3 = (x)^3 + 3(x)^2(-5) + 3(x)(-5)^2 + (-5)^3$\n$= x^3 - 15x^2 + 75x - 125$\n\nBrackets are essential!",
+      "source_images": ["image2807.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 3\n\nFind the:\n\n(a) 5th row of Pascal's triangle\n\n(b) binomial expansion of $\\left(x - \\frac{2}{x}\\right)^5$\n\nSolutions:\n\n(a) $\\begin{array}{cccccc}\n1 & 1 & & & & \\leftarrow \\text{the 1st row, for } (a+b)^1 \\\\\n1 & 2 & 1 & & & \\\\\n1 & 3 & 3 & 1 & & \\\\\n1 & 4 & 6 & 4 & 1 & \\\\\n1 & 5 & 10 & 10 & 5 & 1 \\leftarrow \\text{the 5th row, for } (a+b)^5\n\\end{array}$\n\n(b) Using the coefficients obtained in (a), $(a+b)^5 = a^5 + 5a^4b + 10a^3b^2 + 10a^2b^3 + 5ab^4 + b^5$\n\nLetting $a = (x)$ and $b = \\left(\\frac{-2}{x}\\right)$,\n\n$\\left(x - \\frac{2}{x}\\right)^5$\n$= (x)^5 + 5(x)^4\\left(\\frac{-2}{x}\\right) + 10(x)^3\\left(\\frac{-2}{x}\\right)^2 + 10(x)^2\\left(\\frac{-2}{x}\\right)^3 + 5(x)\\left(\\frac{-2}{x}\\right)^4 + \\left(\\frac{-2}{x}\\right)^5$\n$= x^5 - 10x^3 + 40x - \\frac{80}{x} + \\frac{80}{x^3} - \\frac{32}{x^5}$",
+      "source_images": ["image2808.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 1B\n\n1. Use the binomial expansion of $(a+b)^3$ to expand and simplify:\n\n(a) $(p+q)^3$\n\n(b) $(x+1)^3$\n\n(c) $(x-3)^3$\n\n(d) $(2+x)^3$\n\n(e) $(3x-1)^3$\n\n(f) $(2x+5)^3$\n\n(g) $(2a-b)^3$\n\n(h) $\\left(3x - \\frac{1}{3}\\right)^3$\n\n(i) $\\left(2x + \\frac{1}{x}\\right)^3$\n\n(j) $(\\sqrt{x}-1)^3$\n\n(k) $(x^2+2)^3$\n\n(l) $\\left(x^2 - \\frac{1}{x^2}\\right)^3$",
+      "source_images": ["image2809.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Use $(a+b)^4 = a^4 + 4a^3b + 6a^2b^2 + 4ab^3 + b^4$ to expand and simplify:\n\n(a) $(1+x)^4$\n\n(b) $(p-q)^4$\n\n(c) $(x-2)^4$\n\n(d) $(3-x)^4$\n\n(e) $(1+2x)^4$\n\n(f) $(2x-3)^4$\n\n(g) $(2x+b)^4$\n\n(h) $\\left(x + \\frac{1}{x}\\right)^4$\n\n(i) $\\left(2x - \\frac{1}{x}\\right)^4$",
+      "source_images": ["image2810.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. (a) Expand and simplify:\n\n(i) $(a-b)^3$\n\n(ii) $(a-b)^4$\n\n(b) Compare the expansions in (a) with those of $(a+b)^3$ and $(a+b)^4$. Discuss the signs of the corresponding terms.\n\n4. (a) Write down the 5th row of Pascal's triangle.\n\n(b) Hence copy and complete: $(a+b)^5 = \\cdots$\n\n(c) Find the binomial expansion of:\n\n(i) $(x+2)^5$\n\n(ii) $(1-x)^5$\n\n(iii) $(1+2x)^5$\n\n(iv) $(x-2y)^5$\n\n(v) $(x^2+1)^5$\n\n(vi) $\\left(x - \\frac{1}{x}\\right)^5$\n\n5. (a) Write down the 6th row of Pascal's triangle.\n\n(b) Hence copy and complete: $(a+b)^6 = \\cdots$\n\n(c) Find the binomial expansion of:\n\n(i) $(x+2)^6$\n\n(ii) $(2x-1)^6$\n\n(iii) $\\left(x + \\frac{1}{x}\\right)^6$\n\n6. Expand and simplify:\n\n(a) $(1+\\sqrt{2})^3$\n\n(b) $(\\sqrt{5}+2)^4$\n\n(c) $(2-\\sqrt{2})^5$\n\n7. (a) Expand $(2+x)^6$.\n\n(b) Hence find the value of $(2.01)^6$.\n\n8. Expand and simplify:\n\n(a) $(2x+3)(x+1)^4$\n\n(b) $(x-1)(2x+1)^3$\n\n9. Find the coefficient of:\n\n(a) $a^3b^2$ in the expansion of $(3a+b)^5$\n\n(b) $a^3b^3$ in the expansion of $(2a+3b)^6$.",
+      "source_images": ["image2811.png"]
+    },
+    {
+      "type": "investigation",
+      "content_latex": "Consider the expansion of $(a+b)^n = (a+b)(a+b)(a+b)(a+b)\\cdots(a+b)$.\n\nWhat to do:\n\n1. Suppose you expanded the brackets completely without simplifying \"like\" terms. How many terms would there be?\n\n2. Each of these terms is generated by selecting one term, either $a$ or $b$, from each of the $n$ sets of brackets.\n\n(a) If $b$ is chosen $r$ times, how many times is $a$ chosen?\n\n(b) In how many ways could $b$ be chosen $r$ times from the $n$ sets of brackets?\n\n(c) When you collect the \"like\" terms, how many terms of the form $a^{n-r}b^r$ will there be?\n\n3. (a) Evaluate this triangle of numbers:\n\n$\\binom{1}{0} \\quad \\binom{1}{1}$\n\n$\\binom{2}{0} \\quad \\binom{2}{1} \\quad \\binom{2}{2}$\n\n$\\binom{3}{0} \\quad \\binom{3}{1} \\quad \\binom{3}{2} \\quad \\binom{3}{3}$\n\n$\\binom{4}{0} \\quad \\binom{4}{1} \\quad \\binom{4}{2} \\quad \\binom{4}{3} \\quad \\binom{4}{4}$\n\n$\\binom{5}{0} \\quad \\binom{5}{1} \\quad \\binom{5}{2} \\quad \\binom{5}{3} \\quad \\binom{5}{4} \\quad \\binom{5}{5}$\n\n$\\binom{6}{0} \\quad \\binom{6}{1} \\quad \\binom{6}{2} \\quad \\binom{6}{3} \\quad \\binom{6}{4} \\quad \\binom{6}{5} \\quad \\binom{6}{6}$\n\n(b) Copy and complete: The $r$th number in the $n$th row of Pascal's triangle is ......",
+      "source_images": ["image2812.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "- In the expansion of $(a+b)^n$, the coefficient of $a^{n-r}b^r$ is $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$.\n\n$\\binom{n}{r}$ is hence called the binomial coefficient.\n\n- $\\binom{n}{r}$ is the $r$th number of the $n$th row of Pascal's triangle, for $n \\in \\mathbb{Z}^+$, $r \\in \\mathbb{N}$, $r \\leqslant n$.",
+      "source_images": ["image2813.png"]
+    },
+    {
+      "type": "definition",
+      "content_latex": "For $n \\in \\mathbb{Z}^+$,\n\n$(a+b)^n = a^n + \\binom{n}{1}a^{n-1}b + \\cdots + \\binom{n}{r}a^{n-r}b^r + \\cdots + b^n$\n\n$= \\sum_{r=0}^{n} \\binom{n}{r}a^{n-r}b^r$\n\nwhere $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$ is the binomial coefficient for $n \\in \\mathbb{Z}^+$, $r \\in \\mathbb{N}$, $r \\leqslant n$.",
+      "source_images": ["image2814.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "The general term or $(r+1)$th term in the binomial expansion $(a+b)^n$ is\n\n$T_{r+1} = \\binom{n}{r}a^{n-r}b^r$.",
+      "source_images": ["image2815.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 4\n\nWrite down the first three and last two terms of the expansion of $\\left(2x + \\frac{1}{x}\\right)^{12}$. Do not simplify your answer.\n\nSolution:\n\n$\\left(2x + \\frac{1}{x}\\right)^{12} = \\sum_{r=0}^{12} \\binom{12}{r}(2x)^{n-r}\\left(\\frac{1}{x}\\right)^r$\n\n$= (2x)^{12} + \\binom{12}{1}(2x)^{11}\\left(\\frac{1}{x}\\right)^1 + \\binom{12}{2}(2x)^{10}\\left(\\frac{1}{x}\\right)^2 + \\cdots$\n\n$\\cdots + \\binom{12}{11}(2x)^1\\left(\\frac{1}{x}\\right)^{11} + \\left(\\frac{1}{x}\\right)^{12}$",
+      "source_images": ["image2816.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 5\n\nFind the 7th term of $\\left(3x - \\frac{4}{x^2}\\right)^{14}$. Do not simplify your answer.\n\nSolution:\n\n$a = (3x)$, $b = \\left(\\frac{-4}{x^2}\\right)$, and $n = 14$\n\nGiven the general term $T_{r+1} = \\binom{n}{r}a^{n-r}b^r$, we let $r = 6$\n\n$\\therefore T_7 = \\binom{14}{6}(3x)^8\\left(\\frac{-4}{x^2}\\right)^6$",
+      "source_images": ["image2817.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 6\n\nIn the expansion of $\\left(x^2 + \\frac{4}{x}\\right)^{12}$, find:\n\n(a) the coefficient of $x^6$\n\n(b) the constant term.\n\nSolution:\n\n$a = (x^2)$, $b = \\left(\\frac{4}{x}\\right)$, and $n = 12$\n\n$\\therefore$ the general term $T_{r+1} = \\binom{12}{r}(x^2)^{12-r}\\left(\\frac{4}{x}\\right)^r$\n\n$= \\binom{12}{r}x^{24-2r} \\times \\frac{4^r}{x^r}$\n\n$= \\binom{12}{r}4^rx^{24-3r}$\n\n(a) If $24 - 3r = 6$\n\nthen $3r = 18$\n\n$\\therefore r = 6$\n\n$\\therefore T_7 = \\binom{12}{6}4^6x^6$\n\n$\\therefore$ the coefficient of $x^6$ is\n\n$\\binom{12}{6}4^6$ or $3\\,784\\,704$.\n\n(b) If $24 - 3r = 0$\n\nthen $3r = 24$\n\n$\\therefore r = 8$\n\n$\\therefore T_9 = \\binom{12}{8}4^8x^0$\n\n$\\therefore$ the constant term is\n\n$\\binom{12}{8}4^8$ or $32\\,440\\,320$.",
+      "source_images": ["image2818.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 1C\n\n1. Write down the first three and last two terms of the following binomial expansions. Do not simplify your answers.\n\n(a) $(1+2x)^{11}$\n\n(b) $\\left(3x + \\frac{2}{x}\\right)^{15}$\n\n(c) $\\left(2x - \\frac{3}{x}\\right)^{20}$",
+      "source_images": ["image2819.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Without simplifying, write down:\n\n(a) the 6th term of $(2x+5)^{15}$\n\n(b) the 4th term of $(x^2+y)^9$\n\n(c) the 10th term of $\\left(x - \\frac{2}{x}\\right)^{17}$\n\n(d) the 9th term of $\\left(2x^2 - \\frac{1}{x}\\right)^{21}$\n\n3. Show that $(a-b)^n = \\sum_{r=0}^{n} \\binom{n}{r}(-1)^ra^{n-r}b^r$.",
+      "source_images": ["image2820.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Consider the expansion of $(x+2)^8$.\n\n(a) Write down the general term of the expansion.\n\n(b) Find the coefficient of $x^5$.",
+      "source_images": ["image2821.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. Consider the expansion of $(x+b)^7$.\n\n(a) Write down the general term of the expansion.\n\n(b) Find $b$ given that the coefficient of $x^4$ is $-280$.",
+      "source_images": ["image2822.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. Find the constant term in the expansion of:\n\n(a) $\\left(x + \\frac{2}{x^2}\\right)^{15}$\n\n(b) $\\left(x - \\frac{3}{x^2}\\right)^9$",
+      "source_images": ["image2823.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. Find the coefficient of:\n\n(a) $x^{10}$ in the expansion of $(3+2x^2)^{10}$\n\n(b) $x^3$ in the expansion of $\\left(2x^2 - \\frac{3}{x}\\right)^6$\n\n(c) $x^6y^3$ in the expansion of $(2x^2 - 3y)^6$\n\n(d) $x^{12}$ in the expansion of $\\left(2x^2 - \\frac{1}{x}\\right)^{12}$",
+      "source_images": ["image2824.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "8. Consider the expression $(x^2y - 2y^2)^6$. Find the term in which $x$ and $y$ are raised to the same power.\n\n9. The third term of $(1+x)^n$ is $36x^2$. Find $n$, and hence find the fourth term.\n\n10. Find $a$ if the coefficient of $x^{11}$ in the expansion of $\\left(x^2 + \\frac{1}{ax}\\right)^{10}$ is $15$.",
+      "source_images": ["image2825.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "11. Find:\n\n(a) the coefficient of $x^4$ in the expansion of $(x+4)(x-3)^6$\n\n(b) the coefficient of $x^5$ in the expansion of $(x+2)(x^2+1)^8$\n\n(c) the term containing $x^6$ in the expansion of $(2-x)(3x+1)^9$.\n\n12. If $(1+kx)^n = 1 - 12x + 60x^2 - \\cdots$, $n \\in \\mathbb{Z}^+$, find the values of $k$ and $n$.\n\n13. (a) Write down the first 5 rows of Pascal's triangle.\n\n(b) Find the sum of the numbers in:\n\n(i) row 1\n\n(ii) row 2\n\n(iii) row 3\n\n(iv) row 4\n\n(v) row 5.\n\n(c) Copy and complete: \"The sum of the numbers in row $n$ of Pascal's triangle is ......\"\n\n(d) Show that $(1+x)^n = \\binom{n}{0} + \\binom{n}{1}x + \\binom{n}{2}x^2 + \\cdots + \\binom{n}{n-1}x^{n-1} + \\binom{n}{n}x^n$.\n\n(e) Hence deduce that:\n\n(i) $\\binom{n}{0} + \\binom{n}{1} + \\binom{n}{2} + \\cdots + \\binom{n}{n-1} + \\binom{n}{n} = 2^n$\n\n(ii) $\\binom{n}{0} - \\binom{n}{1} + \\binom{n}{2} - \\binom{n}{3} + \\cdots + (-1)^n\\binom{n}{n} = 0$\n\n(f) By considering the binomial expansion of $(1+x)^n$, find $\\sum_{r=0}^{n} 2^r\\binom{n}{r}$.\n\n14. (a) Write down the first four and last two terms of the binomial expansion $(3+x)^n$.\n\n(b) Hence simplify $3^n + \\binom{n}{1}3^{n-1} + \\binom{n}{2}3^{n-2} + \\binom{n}{3}3^{n-3} + \\cdots + 3n + 1$.",
+      "source_images": ["image2826.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 1A\n\n1. Express in factorial form:\n\n(a) $8 \\times 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1$\n\n(b) $10 \\times 9 \\times 8$\n\n2. Simplify:\n\n(a) $\\frac{n!}{(n-2)!}$\n\n(b) $\\frac{n! + (n+1)!}{n!}$",
+      "source_images": ["image2827.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Use the binomial expansion to expand and simplify:\n\n(a) $(x+3)^3$\n\n(b) $(x-2)^5$\n\n4. Without simplifying, write down:\n\n(a) the 5th term of $(2x+3)^9$\n\n(b) the 8th term of $\\left(3x - \\frac{1}{x}\\right)^{12}$\n\n5. Expand and simplify:\n\n(a) $(5+\\sqrt{3})^3$\n\n(b) $(x+3)(x-1)^4$\n\n6. Use the expansion of $(4+x)^3$ to find the exact value of $(4.02)^3$.\n\n7. Use Pascal's triangle to expand $(a+b)^6$.\n\nHence find the binomial expansion of:\n\n(a) $(x-3)^6$\n\n(b) $\\left(2 + \\frac{1}{x}\\right)^6$\n\n8. Find the coefficient of $x^{-6}$ in the expansion of $\\left(2x - \\frac{3}{x^2}\\right)^{12}$.\n\n9. Find the coefficient of $x^5$ in the expansion of $(2x+3)(x-2)^6$.\n\n10. Find $c$ given that the expansion $(1+cx)(1+x)^4$ includes the term $22x^3$.\n\n11. (a) Write down the first four and last two terms of the binomial expansion $(2+x)^n$.\n\n(b) Hence simplify $2^n + \\binom{n}{1}2^{n-1} + \\binom{n}{2}2^{n-2} + \\binom{n}{3}2^{n-3} + \\cdots + 2n + 1$.\n\n12. Find the possible values of $a$ if the coefficient of $x^3$ in $\\left(2x + \\frac{1}{ax^2}\\right)^9$ is $288$.",
+      "source_images": ["image2828.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 1B\n\n1. Simplify:\n\n(a) $\\frac{9!}{7!}$\n\n(b) $\\frac{8!}{3!5!}$\n\n2. Express in factorial form:\n\n(a) $7 \\times 6 \\times 5 \\times 4$\n\n(b) $\\frac{11 \\times 10 \\times 9}{3 \\times 2 \\times 1}$\n\n3. Use the binomial expansion to find:\n\n(a) $(x-2y)^3$\n\n(b) $(3x+2)^4$\n\n4. Find the coefficient of $x^3$ in the expansion of $(2x+5)^6$.\n\n5. Find the constant term in the expansion of $\\left(2x^2 - \\frac{1}{x}\\right)^6$.\n\n6. Expand and simplify:\n\n(a) $(2-\\sqrt{2})^6$\n\n(b) $(x+3)(2x+1)^3$\n\n7. Write down the first three and last two terms of the following binomial expansions. Do not simplify your answers.\n\n(a) $(2x-7)^{10}$\n\n(b) $\\left(3x + \\frac{4}{x}\\right)^{13}$",
+      "source_images": ["image2829.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "8. Find the coefficient of $x^{10}$ in the expansion of $\\left(\\frac{3}{x^2} - 4x\\right)^{10}$.",
+      "source_images": ["image2830.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. In the expansion of $\\left(3x^2 + \\frac{1}{x}\\right)^9$, find:\n\n(a) the coefficient of $x^{12}$\n\n(b) the constant term.\n\n10. The first three terms in the expansion of $(1+kx)^n$, $n \\in \\mathbb{Z}^+$, are $1 - 4x + \\frac{15}{2}x^2$. Find $k$ and $n$.\n\n11. Find $k$ in the expansion $(m-2n)^{10} = m^{10} - 20m^9n + km^8n^2 - \\cdots + 1024n^{10}$.\n\n12. Find the possible values of $q$ if the constant terms in the expansions of $\\left(x^3 + \\frac{q}{x^3}\\right)^8$ and $\\left(x^3 + \\frac{q}{x^3}\\right)^4$ are equal.",
+      "source_images": ["image2831.png"]
+    },
+    {
+      "type": "definition",
+      "content_latex": "The binomial expansion for $n \\in \\mathbb{Q}$ is $(a+b)^n = \\sum_{r=0}^{\\infty} \\binom{n}{r}a^{n-r}b^r$\n\nwhere $\\binom{n}{r} = \\frac{n(n-1)(n-2)\\cdots(n-r+1)}{r!}$ is the binomial coefficient for $n \\in \\mathbb{Q}$, $r \\in \\mathbb{Z}^+$,\n\nand $\\binom{n}{0} = 1$.",
+      "source_images": ["image2832.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "THE BINOMIAL EXPANSION OF $(a+bx)^n$ FOR $n \\in \\mathbb{Q}$\n\nHaving observed that an infinite geometric series will only converge under particular conditions, we recognise that this infinite series expansion for $(a+b)^n$, $n \\in \\mathbb{Q}$ will also only converge under particular conditions.\n\nFor example, if we consider the binomial expansion $(a+bx)^n$, $n \\in \\mathbb{Q}$, the expansion will only converge for values of $x$ on a particular interval called the interval of convergence.\n\nTo examine this, we first notice that $(a+bx)^n = a^n\\left(1 + \\frac{b}{a}x\\right)^n$, then apply the binomial expansion.\n\nFor $n \\in \\mathbb{Q}$, $(a+bx)^n = a^n \\sum_{r=0}^{\\infty} \\binom{n}{r}\\left(\\frac{bx}{a}\\right)^r$\n\nwhere $\\binom{n}{r} = \\frac{n(n-1)(n-2)\\cdots(n-r+1)}{r!}$ is the binomial coefficient for $n \\in \\mathbb{Q}$, $r \\in \\mathbb{Z}^+$,\n\nand $\\binom{n}{0} = 1$.\n\nThe interval of convergence for which the expansion converges is $\\left|\\frac{bx}{a}\\right| < 1$, which means\n\n$-\\left|\\frac{a}{b}\\right| < x < \\left|\\frac{a}{b}\\right|$.",
+      "source_images": ["image2833.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 7\n\nConsider the binomial expansion of $\\frac{1}{\\sqrt{2+x}}$.\n\n(a) Write down the first 4 terms of the expansion.\n\n(b) State the interval of convergence for the complete expansion.\n\n(c) Use the expansion to estimate $\\frac{1}{\\sqrt{2.1}}$. Check your answer by direct calculation.\n\nSolutions:\n\n(a) $\\frac{1}{\\sqrt{2+x}} = (2+x)^{-\\frac{1}{2}}$\n\n$= 2^{-\\frac{1}{2}}\\left(1 + \\frac{x}{2}\\right)^{-\\frac{1}{2}}$\n\n$= \\frac{1}{\\sqrt{2}}\\left(1 + \\frac{x}{2}\\right)^{-\\frac{1}{2}}$\n\n$= \\frac{1}{\\sqrt{2}} \\sum_{r=0}^{\\infty} \\binom{-\\frac{1}{2}}{r}\\left(\\frac{x}{2}\\right)^r$\n\n$= \\frac{1}{\\sqrt{2}}\\left(1 + \\left(-\\frac{1}{2}\\right)\\left(\\frac{x}{2}\\right) + \\frac{\\left(-\\frac{1}{2}\\right)\\left(-\\frac{3}{2}\\right)}{2!}\\left(\\frac{x}{2}\\right)^2 + \\frac{\\left(-\\frac{1}{2}\\right)\\left(-\\frac{3}{2}\\right)\\left(-\\frac{5}{2}\\right)}{3!}\\left(\\frac{x}{2}\\right)^3 + \\cdots\\right)$\n\n$= \\frac{1}{\\sqrt{2}}\\left(1 - \\frac{1}{4}x + \\frac{3}{32}x^2 - \\frac{5}{128}x^3 + \\cdots\\right)$\n\n(b) The series converges provided $\\left|\\frac{x}{2}\\right| < 1$, which is the interval $-2 < x < 2$.\n\n(c) Letting $x = 0.1$, $\\frac{1}{\\sqrt{2.1}} \\approx \\frac{1}{\\sqrt{2}}\\left(1 - \\frac{1}{4}(0.1) + \\frac{3}{32}(0.1)^2 - \\frac{5}{128}(0.1)^3\\right)$\n\n$\\approx 0.690\\,064$\n\nUsing technology, $\\frac{1}{\\sqrt{2.1}} \\approx 0.690\\,066$.",
+      "source_images": ["image2834.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 8C\n\n1. Evaluate:\n\n(a) $\\binom{\\frac{1}{2}}{1}$\n\n(b) $\\binom{-\\frac{1}{2}}{2}$\n\n(c) $\\binom{-2}{2}$\n\n(d) $\\binom{-\\frac{1}{3}}{0}$\n\n(e) $\\binom{-\\frac{1}{3}}{3}$\n\n(f) $\\binom{\\frac{1}{3}}{3}$\n\n2. Consider the binomial expansion of $\\frac{1}{1+x}$.\n\n(a) Write down the first 4 terms.\n\n(b) State the interval of convergence for the complete expansion.\n\n(c) Use the expansion to estimate $\\frac{1}{1.1}$. Check your answer by direct calculation.\n\n3. Consider the binomial expansion of $\\frac{1}{\\sqrt{4-x}}$.\n\n(a) Write down the first 4 terms.\n\n(b) State the interval of convergence for the complete expansion.\n\n(c) Use the expansion to estimate $\\frac{1}{\\sqrt{3.6}}$. Check your answer by direct calculation.",
+      "source_images": ["image2835.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Consider the binomial expansion of $\\sqrt[3]{1+3x}$.\n\n(a) Write down the first 5 terms.\n\n(b) State the interval of convergence for the complete expansion.\n\n(c) Estimate $\\sqrt[3]{1.3}$ using:\n\n(i) the first 4 terms\n\n(ii) the first 5 terms.\n\n(d) Compare your estimates with the actual value of $\\sqrt[3]{1.3}$.\n\n5. (a) Expand $\\frac{1}{(1-2x)^2}$ up to the term in $x^3$.\n\n(b) State the values of $x$ for which the complete expansion of $\\frac{1}{(1-2x)^2}$ converges.\n\n(c) Use the expansion to estimate $\\frac{1}{(0.96)^2}$.\n\n6. (a) Expand $\\sqrt{1+x}$ up to the term in $x^3$.\n\n(b) State the values of $x$ for which the complete expansion of $\\sqrt{1+x}$ converges.\n\n(c) To estimate $\\sqrt{37}$, explain why you should not simply substitute $x = 36$.\n\n(d) Estimate $\\sqrt{37}$ by first letting $\\sqrt{37} = \\sqrt{36} \\times \\sqrt{\\frac{37}{36}} = \\sqrt{36} \\times \\sqrt{1 + \\frac{1}{36}}$.\n\n7. (a) Expand $(1+x)^{\\frac{1}{5}}$ up to the term in $x^3$.\n\n(b) Hence obtain an approximation for $\\sqrt[5]{1.01}$.\n\n(c) Explain why you should not use your expansion to approximate $\\sqrt[5]{2}$.\n\n8. (a) Expand $\\frac{1}{(1+2x)^2}$ up to the term in $x^3$.\n\n(b) Hence find the coefficient of $x^2$ in the expansion of $\\frac{(1-3x)^3}{(1+2x)^2}$.\n\n9. (a) Write $\\frac{x-8}{x^2-x-2}$ in the form $\\frac{A}{x+1} + \\frac{B}{x-2}$, where $A$ and $B$ are constants.\n\n(b) Hence write an expansion for $\\frac{x-8}{x^2-x-2}$ up to the term in $x^3$.\n\n(c) For what values of $x$ does the complete expansion of $\\frac{x-8}{x^2-x-2}$ converge?\n\n(d) Use your expansion to estimate the value of $\\frac{x-8}{x^2-x-2}$ when $x = 0.05$.",
+      "source_images": ["image2836.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "10. (a) Expand each expression up to the term in $x^3$, and state the interval of convergence for the complete expansion:\n\n(i) $(1+3x)^{\\frac{1}{4}}$\n\n(ii) $(2-x)^{-\\frac{1}{4}}$\n\n(b) Hence write an expansion for $\\sqrt[4]{\\frac{1+3x}{2-x}}$ up to the term $x^3$.\n\n11. Let $f(x) = \\frac{1}{\\sqrt[4]{1+x}}$.\n\n(a) Write $f(x)$ as a binomial expansion up to the term in $x^3$.\n\n(b) State the values of $x$ for which the complete expansion of $f(x)$ converges.\n\n(c) By considering $f(3x^2)$, write an expansion for $\\frac{1}{\\sqrt[4]{1+3x^2}}$ up to the term in $x^6$.",
+      "source_images": ["image2837.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 8A\n\n1. Use the binomial expansion to expand and simplify:\n\n(a) $(x+3)^3$\n\n(b) $(x-2)^5$\n\n2. Without simplifying, write down:\n\n(a) the 5th term of $(2x+3)^9$\n\n(b) the 4th term of $(y-3z)^9$\n\n(c) the 8th term of $\\left(3x - \\frac{1}{x}\\right)^{12}$\n\n(d) the 5th term of $\\left(2x - \\frac{1}{\\sqrt{x}}\\right)^{10}$\n\n3. Expand and simplify:\n\n(a) $(5+\\sqrt{3})^3$\n\n(b) $(x+3)(x-1)^4$\n\n4. Use the expansion of $(4+x)^3$ to find the exact value of $(4.02)^3$.\n\n5. (a) Use Pascal's triangle to expand $(a+b)^6$.\n\n(b) Hence find the binomial expansion of:\n\n(i) $(x-3)^6$\n\n(ii) $\\left(2 + \\frac{1}{x}\\right)^6$\n\n6. Find the coefficient of:\n\n(a) $x^{-6}$ in the expansion of $\\left(2x - \\frac{3}{x^2}\\right)^{12}$\n\n(b) $x^5$ in the expansion of $(2x+3)(x-2)^6$.\n\n7. Find the coefficient of $x^{-1}$ in the expansion of $(x+2)^4\\left(\\frac{1}{x} - 3x\\right)^5$.\n\n8. Find $c$ given that the expansion $(1+cx)(1+x)^4$ includes the term $22x^3$.\n\n9. (a) Write down the first four and last two terms of the binomial expansion $(2+x)^n$ where $n \\in \\mathbb{Z}^+$.\n\n(b) Hence simplify $2^n + \\binom{n}{1}2^{n-1} + \\binom{n}{2}2^{n-2} + \\binom{n}{3}2^{n-3} + \\cdots + 2n + 1$.\n\n10. Find the possible values of $a$ if the coefficient of $x^3$ in $\\left(2x + \\frac{1}{ax^2}\\right)^9$ is $288$.\n\n11. Consider the binomial expansion of $\\frac{1}{1-x}$.\n\n(a) Write down the first 4 terms of the expansion.\n\n(b) For what values of $x$ does the infinite series expansion converge?\n\n(c) Use the expansion to estimate $\\frac{1}{0.95}$. Check your answer by direct calculation.\n\n12. Consider the binomial expansion of $\\frac{1}{\\sqrt{x+3}}$.\n\n(a) Write down the first 4 terms of the expansion.\n\n(b) For what values of $x$ does the infinite series expansion converge?\n\n(c) Use the expansion to estimate:\n\n(i) $\\frac{1}{\\sqrt{5}}$\n\n(ii) $\\frac{1}{\\sqrt{3.2}}$\n\nComment on the accuracy of your estimates.",
+      "source_images": ["image2838.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "13. (a) Expand $\\sqrt{1-x}$ up to the term in $x^3$.\n\n(b) State the values of $x$ for which the infinite series binomial expansion of $\\sqrt{1-x}$ converges.\n\n(c) Hence estimate $\\sqrt{15}$.\n\n14. (a) Expand $\\frac{1}{(1-3x)^2}$ up to the term in $x^3$.\n\n(b) Hence find the coefficient of $x^2$ in the expansion of $\\frac{(1+4x)^2}{(1-3x)^2}$.",
+      "source_images": ["image2839.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 8B\n\n1. Use the binomial expansion to find:\n\n(a) $(x-2y)^3$\n\n(b) $(3x+2)^4$\n\n2. Find the coefficient of $x^3$ in the expansion of $(2x+5)^6$.\n\n3. Find the constant term in the expansion of:\n\n(a) $\\left(2x^2 - \\frac{1}{x}\\right)^6$\n\n(b) $\\left(x - \\frac{6}{x^2}\\right)^9$\n\n(c) $\\left(\\sqrt{x} + \\frac{6}{\\sqrt{x}}\\right)^5$\n\n4. Expand and simplify:\n\n(a) $(2-\\sqrt{2})^6$\n\n(b) $(x+3)(2x+1)^3$\n\n5. Find the coefficient of:\n\n(a) $x^{10}$ in the expansion of $\\left(\\frac{3}{x^2} - 4x\\right)^{10}$\n\n(b) $x^5$ in the expansion of $(3x-1)(5+2x)^6$.\n\n6. In the expansion of $\\left(3x^2 + \\frac{1}{x}\\right)^9$, find:\n\n(a) the coefficient of $x^{12}$\n\n(b) the constant term.\n\n7. Find the coefficient of $x^2$ in the expansion of $\\left(2x + \\frac{1}{x}\\right)^3\\left(x^2 - \\frac{2}{x}\\right)^4$.\n\n8. The first three terms in the expansion of $(1+kx)^n$, $n \\in \\mathbb{Z}^+$, are $1 - 4x + \\frac{15}{2}x^2$. Find $k$ and $n$.\n\n9. Find $k$ in the expansion $(m-2n)^{10} = m^{10} - 20m^9n + km^8n^2 - \\cdots + 1024n^{10}$.\n\n10. Find the possible values of $q$ if the constant terms in the expansions of $\\left(x^3 + \\frac{q}{x^3}\\right)^8$ and $\\left(x^3 + \\frac{q}{x^3}\\right)^4$ are equal.\n\n11. Find the value of $a$ given:\n\n(a) the coefficient of $x^5$ in the expansion of $(a-2x)^7$ is $-42$\n\n(b) the fifth term in the expansion of $\\left(\\frac{1}{x\\sqrt{2}} - a\\right)^8$ is $\\frac{1120}{x^4}$.",
+      "source_images": ["image2840.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "WHAT IS PROOF?\n\nScience relies on experimental evidence. Mathematics relies on logic and reasoning.\n\nA mathematical proof is a correct argument which establishes the truth of a mathematical statement.\n\nA mathematical proof:\n\n- starts with assumptions called hypotheses\n- is a sequence of correct mathematical steps\n- ends in a conclusion.",
+      "source_images": ["image2841.png"]
+    },
+    {
+      "type": "investigation",
+      "content_latex": "A group of people are involved in a business meeting. Alice looks at Bob and Bob looks at Clare. Alice is married but Clare is not.\n\nThings to think about:\n\n(a) Do we know whether Bob is married?\n\n(b) Can we prove that a married person looks at an unmarried person?\n\n(c) What is necessary for a mathematical argument to be convincing and complete?",
+      "source_images": ["image2842.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Proof:\n\nBob is either married or he is not married.\n\n- If Bob is married, then when Bob looks at Clare, a married person looks at an unmarried person.\n- If Bob is not married, then when Alice looks at Bob, a married person looks at an unmarried person.\n\nIn both cases, a married person looks at an unmarried person.\n\nThese cases exhaust all possibilities, so a married person always looks at an unmarried person.",
+      "source_images": ["image2843.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "In this proof, notice that:\n\n- \"Alice is married\" is a hypothesis.\n- The conclusion is that a married person looks at an unmarried person.\n- This style of proof is called proof by exhaustion, because we have considered all possible cases: Bob is married, and Bob is not married.\n- This proof contains logic only. There is no calculation.",
+      "source_images": ["image2844.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "THE PURPOSES OF PROOF\n\nMathematical proof is important:\n\n- to convince\nProofs help you decide if and why a statement is true or false. This is important when the result seems strange.\n\n- to understand\nProofs help you understand how and why all the different assumptions play a part in the result.\n\n- to communicate\nMathematicians use proofs to communicate and debate ideas with each other.\n\n- to organise\nProofs help you organise your thoughts.\n\n- to discover new mathematics\nBy carefully examining each step of a proof, mathematicians discover new mathematics.\n\nADVICE ON WRITING PROOFS",
+      "source_images": ["image2845.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "- State what you are proving. Make it clear when you have reached your conclusion.\n- Include enough detail to make your proof easy to check.\n- Your proof should be written in good English, including simple, complete, correct sentences.\n- Present your calculations on the page in a manner which makes them easy to follow. Use your layout to clearly separate the parts or different cases considered in your proof.\n- Use diagrams when appropriate to give a visual representation of the situation.\n- It is often useful to use examples when exploring a problem. However, a single example is usually not sufficient to complete a proof.\n- Check to see where you have used each hypothesis. If you have not used a particular hypothesis then either:\n  - you did not need it, or\n  - your proof should have made use of it, and is incorrect!\n- Do not expect to write a complete proof the first time. Expect to use rough working first, and then write a neat version.",
+      "source_images": ["image2846.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Mathematical language uses logical connectives to link mathematical statements together:\n\n| Connective | Symbol | Formal name |\n|------------|--------|-------------|\n| and | $\\wedge$ | conjunction |\n| or | $\\vee$ | disjunction |\n| not | $\\neg$ | negation |\n| if .... then .... | $\\Rightarrow$ | implication |\n| if, and only if | $\\Leftrightarrow$ | equivalence |",
+      "source_images": ["image2847.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "We can illustrate the use of these connectives using variables such as $A$, $B$, $C$, ....\n\nFor example, $(A \\wedge B) \\Rightarrow C$ means \"$A$ and $B$ implies $C$\". The two arguments $(A \\wedge B)$ and $C$ are connected by the connective $\\Rightarrow$. The argument $(A \\wedge B)$ is itself made up of arguments $A$ and $B$, connected by the connective $\\wedge$. It is therefore helpful to think of statements as mathematical trees, connected by the logical connectives.",
+      "source_images": ["image2848.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "NEGATION\n\nThe negation of a variable $A$ is its opposite. If $A$ is true then $\\neg A$ is false, and vice versa.\n\nFor example:\n\n- the negation of \"Today is Wednesday\" is \"Today is not Wednesday\"\n- if we know $x \\in \\mathbb{Z}$, the negation of \"$x$ is an even integer\" is \"$x$ is an odd integer\"\n- if we know $x \\in \\mathbb{R}$, the negation of \"$x$ is an even integer\" is \"$x$ is not an even integer\", since $x$ might be an odd integer, or it might also be a non-integer.",
+      "source_images": ["image2849.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "IMPLICATIONS\n\nImplications commonly arise when we deduce one thing from another.\n\nFor the implication $A \\Rightarrow B$, we start with the statement $A$, and from it we deduce the statement $B$. The statement $A$ is called the hypothesis, and $B$ is called the conclusion.\n\nIn English there are many words we can use to show an implication.\n\nFor example: $A$ implies / so / hence / thus / therefore $B$.\n\nWe use $\\therefore$ to mean \"therefore\".\n\nThe converse of the implication $A \\Rightarrow B$ is the statement $B \\Rightarrow A$.\n\nIt is important to recognise that while the implication $A \\Rightarrow B$ may be true, its converse may not be true.\n\nFor example, the statement \"If $x = 2$ then $x^2 = 4$\" is true. However, its converse \"If $x^2 = 4$ then $x = 2$\" is false, since $x$ may be $-2$.",
+      "source_images": ["image2850.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "EQUIVALENCE\n\nTwo statements $A$ and $B$ are equivalent if both $A \\Rightarrow B$ and $B \\Rightarrow A$. In this case we can say $A$ is true if and only if $B$ is true.\n\nFor example, the statement \"If $x = -2$ or $2$, then $x^2 = 4$\" is true. The statement \"If $x^2 = 4$ then $x = -2$ or $2$\" is also true. Therefore, $x = -2$ or $2 \\Leftrightarrow x^2 = 4$.",
+      "source_images": ["image2851.png"]
+    }
+  ]
+}

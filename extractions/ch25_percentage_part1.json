@@ -1,0 +1,252 @@
+{
+  "chapter": 25,
+  "part": 1,
+  "images_range": "2353-2403",
+  "items": [
+    {
+      "type": "concept",
+      "content_latex": "% reads per cent, which means 'in every hundred'.",
+      "source_images": ["image2353.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "All fractions and decimals may be converted into percentage form by first writing them as fractions with a denominator of 100.\n\nIn general, $\\frac{x}{100} = x\\%$",
+      "source_images": ["image2354.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Since $100\\% = \\frac{100}{100} = 1$, multiplying by 100% is the same as multiplying by 1. We therefore do not change the value of the number.",
+      "source_images": ["image2355.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 2\n\nConvert to percentages by multiplying by 100%:\n\n(a) $\\frac{3}{4}$\n\n(b) $\\frac{1}{12}$\n\n(c) $0.064$\n\nSolutions:\n\n(a) $\\frac{3}{4}$\n$= \\frac{3}{4} \\times 100\\%$\n$= \\frac{300}{4}\\%$\n$= 75\\%$\n\n(b) $\\frac{1}{12}$\n$= \\frac{1}{12} \\times 100\\%$\n$= \\frac{100}{12}\\%$\n$= 8\\frac{4}{12}\\%$\n$= 8\\frac{1}{3}\\%$\n\n(c) $0.064$\n$= 0.064 \\times 100\\%$\n$= 6.4\\%$",
+      "source_images": ["image2356.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 7B\n\n1. Convert into percentage form by multiplying by 100%:\n\n(a) $\\frac{3}{5}$\n\n(b) $0.7$\n\n(c) $2.4$\n\n(d) $2\\frac{1}{2}$\n\n(e) $4.025$\n\n(f) $\\frac{1}{3}$\n\n(g) $0.83$\n\n(h) $6$\n\n(i) $0.004$\n\n(j) $0.067$\n\n(k) $\\frac{2}{9}$\n\n(l) $1\\frac{3}{8}$",
+      "source_images": ["image2357.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 3\n\nExpress as common fractions in lowest terms:\n\n(a) $30\\%$\n\n(b) $120\\%$\n\n(c) $2\\frac{1}{2}\\%$\n\nSolutions:\n\n(a) $30\\%$\n$= \\frac{30}{100}$\n$= \\frac{30 \\div 10}{100 \\div 10}$ {HCF is 10}\n$= \\frac{3}{10}$\n\n(b) $120\\%$\n$= \\frac{120}{100}$\n$= \\frac{120 \\div 20}{100 \\div 20}$ {HCF is 20}\n$= \\frac{6}{5}$\n\n(c) $2\\frac{1}{2}\\%$\n$= \\frac{2.5 \\times 2}{100 \\times 2}$ {remove the decimal}\n$= \\frac{5}{200}$\n$= \\frac{5 \\div 5}{200 \\div 5}$ {HCF is 5}\n$= \\frac{1}{40}$",
+      "source_images": ["image2358.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Convert into percentage form:\n\n(a) $\\frac{3}{10}$\n\n(b) $4$\n\n(c) $\\frac{7}{50}$\n\n(d) $\\frac{11}{25}$\n\n(e) $\\frac{17}{20}$\n\n(f) $\\frac{2}{5}$\n\n(g) $0.67$\n\n(h) $0.85$\n\n(i) $1$\n\n(j) $0.7$\n\n(k) $0.2$\n\n(l) $1.3$\n\n(m) $3.17$\n\n(n) $\\frac{1}{2}$\n\n(o) $\\frac{3}{4}$\n\n(p) $0.031$\n\n(q) $0.0014$\n\n(r) $0.105$\n\n(s) $0.056$\n\n(t) $\\frac{5}{16}$\n\n3. Express as common fractions in lowest terms:\n\n(a) $10\\%$\n\n(b) $25\\%$\n\n(c) $60\\%$\n\n(d) $85\\%$\n\n(e) $5\\%$\n\n(f) $15\\%$\n\n(g) $42\\%$\n\n(h) $100\\%$\n\n(i) $500\\%$\n\n(j) $1\\%$\n\n(k) $135\\%$\n\n(l) $12\\%$",
+      "source_images": ["image2359.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Write as common fractions in lowest terms:\n\n(a) $7\\frac{1}{2}\\%$\n\n(b) $33\\frac{1}{4}\\%$\n\n(c) $12\\frac{1}{2}\\%$\n\n(d) $33\\frac{1}{3}\\%$\n\n(e) $\\frac{1}{4}\\%$\n\n(f) $\\frac{1}{2}\\%$\n\n(g) $6\\frac{1}{4}\\%$\n\n(h) $7\\frac{2}{5}\\%$\n\n5. Write as a decimal:\n\n(a) $40\\%$\n\n(b) $23\\%$\n\n(c) $50\\%$\n\n(d) $17\\%$\n\n(e) $8.3\\%$\n\n(f) $150\\%$\n\n(g) $200\\%$\n\n(h) $36.8\\%$\n\n(i) $5000\\%$\n\n(j) $0.01\\%$\n\n(k) $117.9\\%$\n\n(l) $86.7\\%$\n\n6. Copy and complete this table of common conversions:\n\n| Percentage | Fraction | Decimal | Percentage | Fraction | Decimal |\n|------------|----------|---------|------------|----------|---------||\n| $100\\%$ | | | $10\\%$ | | |\n| $75\\%$ | | | $5\\%$ | | |\n| $50\\%$ | | | $33\\frac{1}{3}\\%$ | | |\n| $25\\%$ | | | $66\\frac{2}{3}\\%$ | | |\n| $20\\%$ | | | $12\\frac{1}{2}\\%$ | | |",
+      "source_images": ["image2360.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 6\n\nExpress the first quantity as a percentage of the second: 45 minutes, 3 hours\n\nSolution:\n\n$\\frac{45 \\text{ minutes}}{3 \\text{ hours}} = \\frac{45 \\text{ minutes}}{3 \\times 60 \\text{ minutes}}$ {write as a fraction with the same units}\n$= \\frac{45}{180} \\times 100\\%$ {$100\\% = 1$}\n$= 25\\%$",
+      "source_images": ["image2361.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 7\n\nExpress the first quantity as a percentage of the second:\n\n(a) 2 km, 800 m\n\n(b) 5.6 cm, 80 mm\n\nSolutions:\n\n(a) $\\frac{2 \\text{ km}}{800 \\text{ m}}$ {write as a fraction}\n$= \\frac{2 \\times 1000 \\text{ m}}{800 \\text{ m}}$ {same units}\n$= \\frac{2000}{800} \\times 100\\%$ {$100\\% = 1$}\n$= 250\\%$\n\n(b) $\\frac{5.6 \\text{ cm}}{80 \\text{ mm}}$\n$= \\frac{56 \\text{ mm}}{80 \\text{ mm}}$\n$= \\frac{56}{80} \\times 100\\%$\n$= 70\\%$",
+      "source_images": ["image2362.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "When we compare quantities we must make sure they have the same units.",
+      "source_images": ["image2363.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 7C\n\n1. Express the first quantity as a percentage of the second:\n\n(a) 10 km, 50 km\n\n(b) €2, €8\n\n(c) 3 m, 4 m\n\n(d) 300 m, 0.7 km\n\n(e) 60 cents, $\\$2$\n\n(f) 2 L, 400 mL\n\n(g) 8 months, 2 years\n\n(h) 50 g, 1.2 kg\n\n(i) 5 mm, 8 cm\n\n(j) 24 min, 2 hours\n\n(k) 0.5 m, 25 cm\n\n(l) £2.50, £1.50\n\n(m) 5 mg, 2 g\n\n(n) 3 weeks, 15 days\n\n(o) 45 seconds, 2 min",
+      "source_images": ["image2366.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 8\n\nExpress as a percentage:\n\n(a) A test mark of 17 out of a possible 25.\n\n(b) Out of 1600 vehicles sold in a month, 250 of them were vans.\n\nSolutions:\n\n(a) $\\frac{17 \\text{ marks}}{25 \\text{ marks}}$\n$= \\frac{17 \\times 4}{25 \\times 4}$\n$= \\frac{68}{100}$\n$= 68\\%$\n\n(b) $\\frac{250 \\text{ vans}}{1600 \\text{ vehicles}}$ {vans are vehicles, so units ok}\n$= \\frac{250}{1600} \\times 100\\%$ {$100\\% = 1$}\n$= \\frac{25000}{1600}\\%$\n$= 15.625\\%$",
+      "source_images": ["image2367.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Express as a percentage:\n\n(a) 64 marks out of a possible 80 marks\n\n(b) 23 marks out of a possible 40 marks\n\n(c) 332 books sold out of a total of 500 printed\n\n(d) 140 Toyota vehicles out of 800 cars sold\n\n(e) an archer scores 97 out of a possible 125 points.\n\n3. Express as a percentage:\n\n(a) 24 of 60\n\n(b) 220 mL of 2 L\n\n(c) €1.20 of €300\n\n(d) $\\$8.50$ of $\\$2000$\n\n(e) 350 g of 1 kg\n\n(f) 16 hours of 1 day.",
+      "source_images": ["image2368.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. A house was bought for £450000 and 3 years later was valued at £540000. Find:\n\n(a) the new value as a percentage of the old value\n\n(b) the increase in value over the three year period\n\n(c) the increase in value as a percentage of the original value.",
+      "source_images": ["image2369.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "To find a percentage of a quantity, we first convert the percentage to a decimal. We then multiply to find the required fraction of the quantity.",
+      "source_images": ["image2370.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "For example, $25\\%$ of $\\$20$\n$= 0.25 \\times \\$20$ {$25\\% = \\frac{25}{100} = 0.25$}\n$= \\$5$",
+      "source_images": ["image2371.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 9\n\nFind:\n\n(a) $35\\%$ of $\\$5000$\n\n(b) $12.4\\%$ of 6 m (in cm)\n\nSolutions:\n\n(a) $35\\%$ of $\\$5000$\n$= 0.35 \\times \\$5000$ {$35\\% = \\frac{35}{100} = 0.35$}\n$= \\$1750$\n\nCalculator: $35 \\div 100 \\times 5000 =$\n\n(b) $12.4\\%$ of 6 m\n$= 0.124 \\times 600$ cm {$12.4\\% = \\frac{12.4}{100} = 0.124$}\n$= 74.4$ cm",
+      "source_images": ["image2372.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 7D\n\n1. Find:\n\n(a) $20\\%$ of $\\$36$\n\n(b) $36\\%$ of €4200\n\n(c) $5\\%$ of 18 m (in cm)\n\n(d) $125\\%$ of £600\n\n(e) $22\\%$ of 1 tonne (in kg)\n\n(f) $72\\%$ of 3 hours (in min)\n\n(g) $7\\frac{1}{2}\\%$ of 12 hours (in min)\n\n(h) $3.8\\%$ of 12 m (in mm)\n\n(i) $95\\%$ of 5 tonnes (in tonnes)\n\n(j) $108\\%$ of 5000 kg (in tonnes)\n\n2. My percentage for mathematics last term was 85%. If my scores out of 20 marks for the first nine tests were 14, 18, 16, 16, 18, 15, 16, 20 and 19, find my score for the last test out of 20 marks.\n\n3. An orchard produces 150 tonnes of apples in one season. There are 30 tonnes of second grade apples, 8% are unfit for sale, and the rest are first grade. If first grade apples sell for €1640 per tonne and second grade for €1250 per tonne, find the total value of the apple harvest.",
+      "source_images": ["image2373.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Suzanna's doctor has told her she is obese, and needs to lose 10% of her body weight. This means she needs to lose 9 kg. How can we find out Suzanna's current weight?\n\nThe Unitary Method can be used to solve this problem. We first find 1%, then multiply by 100 to find the whole amount.",
+      "source_images": ["image2374.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 10\n\n(a) Find 100% of a quantity if 6% of the quantity is 42.\n\n(b) Find 71% of a quantity if 40% of the quantity is 480.\n\nSolutions:\n\n(a) $6\\%$ corresponds to 42\n$\\therefore$ $1\\%$ corresponds to 7 {dividing by 6}\n$\\therefore$ $100\\%$ corresponds to 700 {multiplying by 100}\n\n(b) $40\\%$ corresponds to 480\n$\\therefore$ $1\\%$ corresponds to 12 {dividing by 40}\n$\\therefore$ $71\\%$ corresponds to 852 {multiplying by 71}",
+      "source_images": ["image2375.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 8\n\nFind 60% of a sum of money if 14% is $\\$728$.\n\nSolution:\n\n$14\\%$ is $\\$728$\n$\\therefore$ $1\\%$ is $\\frac{\\$728}{14} = \\$52$\n$\\therefore$ $60\\%$ is $\\$52 \\times 60 = \\$3120$.",
+      "source_images": ["image2376.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 9\n\n82% of fans at a basketball match support the Lakers. If there are 24026 Lakers fans at the match, how many people attend the match?\n\nSolution:\n\n$82\\%$ is 24026 fans\n$\\therefore$ $1\\%$ is $\\frac{24026}{82} = 293$ fans\n$\\therefore$ $100\\%$ is $293 \\times 100 = 29300$\n\nSo, 29300 fans attend the match.",
+      "source_images": ["image2377.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 3B\n\n1. Find 100% if:\n\n(a) $20\\%$ is $\\$360$\n\n(b) $24\\%$ is 192 kg\n\n(c) $9\\%$ is 225 mL\n\n(d) $15\\%$ is 450 kg\n\n(e) $87\\%$ is $\\$1044$\n\n(f) $95\\%$ is 342 mL\n\n(g) $12\\%$ is 66 L\n\n(h) $35\\%$ is 252 kg\n\n(i) $47\\%$ is $\\$585$.\n\n2. Find:\n\n(a) $30\\%$ if $7\\%$ is $\\$126$\n\n(b) $72\\%$ if $11\\%$ is 176 kg\n\n(c) $5\\%$ if $48\\%$ is $\\$816$\n\n(d) $15\\%$ if $90\\%$ is 1890 mL\n\n(e) $95\\%$ if $6\\%$ is 55 kg\n\n(f) $4\\%$ if $85\\%$ is $\\$1000$.",
+      "source_images": ["image2378.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. $24\\%$ of the passengers on board a cruise ship are children. If there are 210 children aboard, determine the total number of passengers on board the ship.\n\n4. $80\\%$ of a plumbing contractor's income was from government contracts. If his income for the year from government contracts was $\\$74000$, find his total annual income.\n\n5. A country town has 1536 female residents. 48% of its population is female. Find the town's total population.\n\n6. In the local high school 18% of the students play football and 32% play netball. If 126 students play football, how many students:\n\n(a) attend the school\n\n(b) play netball?",
+      "source_images": ["image2379.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 7E\n\n1. Find 100% if:\n\n(a) $20\\%$ is 240 mL\n\n(b) $36\\%$ is 288 g\n\n(c) $7\\%$ is $\\$126$\n\n(d) $30\\%$ is 12 kg\n\n(e) $57\\%$ is €513\n\n(f) $45\\%$ is 36 seconds\n\n2. Find:\n\n(a) $60\\%$ of a quantity if $15\\%$ of the quantity is 45\n\n(b) $72\\%$ of a quantity if $8\\%$ of the quantity is 64\n\n(c) $86\\%$ of a quantity if $14\\%$ of the quantity is 420\n\n(d) $12\\%$ of a quantity if $75\\%$ of the quantity is 250.",
+      "source_images": ["image2380.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. $36\\%$ of students at a school use public transport. If 144 students use public transport, how many students attend the school?\n\n4. An alloy contains 16% zinc and the rest is pure copper. If 20 kg of zinc is used to make the alloy, how much:\n\n(a) alloy is produced\n\n(b) copper is used?",
+      "source_images": ["image2381.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. John scored 60% for a test. If his actual score was 72, what was the maximum mark possible for the test?\n\n6. Suzanna's doctor told her to lose 9 kg, which was 10% of her body weight.\n\n(a) How much did Suzanna weigh?\n\n(b) If Suzanna lost 12% of her body weight, what is her new weight?",
+      "source_images": ["image2382.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 3C\n\n1. Find:\n\n(a) $30\\%$ of 90 kg\n\n(b) $25\\%$ of €170\n\n(c) $4\\%$ of 50 L\n\n(d) $75\\%$ of 40 km\n\n(e) $6.5\\%$ of $\\$540$\n\n(f) $95\\%$ of 5 m\n\n(g) $47\\frac{1}{2}\\%$ of £1400\n\n(h) $1\\frac{1}{2}\\%$ of $\\$53600$",
+      "source_images": ["image2383.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Solve the following problems:\n\n(a) Su-la scored 45% in her test out of 80. What mark did she score?\n\n(b) John scored 72% for an examination marked out of 150. How many marks did he actually score out of 150?\n\n(c) A mixture of petrol and oil for a two-stroke lawn mower contains 85% petrol. How much oil is required for 18 litres of the fuel mixture?\n\n(d) A real estate agent receives $4\\frac{1}{2}\\%$ commission on the sale of all property she handles. How much does she receive for a house she sells for £148500?\n\n(e) A share farmer receives 65% of the proceeds of the sale of a crop of wheat. If the wheat is sold for $\\$62400$, how much does he receive?\n\n(f) To insure goods to send them overseas it costs the exporter $2\\frac{1}{2}\\%$ of the value of the goods. If the goods are valued at €16400, what will the insurance cost?\n\n3. 38.8% of Canada's population live in Ontario. The population of Ontario is 12.9 million.\n\n(a) Use the unitary method to find the population of Canada.\n\n(b) If 2.8% of Canadians live in Nova Scotia, how many actually live in Nova Scotia?",
+      "source_images": ["image2384.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "METHOD 1: WITH TWO STEPS\n\nUsing this method we\n- find the increase then add it to the original quantity\nor\n- find the decrease then subtract it from the original quantity.",
+      "source_images": ["image2385.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "METHOD 2: WITH ONE STEP USING A \"MULTIPLIER\"\n\nThe original amount is 100% of the quantity.\n\n- If we increase an amount by 20%, then this is added and in total we have $100\\% + 20\\% = 120\\%$ of the original.\nSo, to increase an amount by 20% in one step, we multiply the original by 120%. The value 120% or 1.2 is called the multiplier.\n\n- If we decrease an amount by 20%, then this is subtracted and we are left with $100\\% - 20\\% = 80\\%$ of the original.\nSo, to decrease an amount by 20% in one step, we multiply the original by 80%. The value 80% or 0.8 is called the multiplier.",
+      "source_images": ["image2386.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 11\n\n(a) Increase $\\$5000$ by 20%.\n\n(b) Decrease $\\$80000$ by 12%.\n\nSolutions:\n\n(a) $20\\%$ of $\\$5000$\n$= 0.2 \\times \\$5000$\n$= \\$1000$\n$\\therefore$ the new amount\n$= \\$5000 + \\$1000$\n$= \\$6000$\n\n(b) $12\\%$ of $\\$80000$\n$= 0.12 \\times \\$80000$\n$= \\$9600$\n$\\therefore$ the new amount\n$= \\$80000 - \\$9600$\n$= \\$70400$",
+      "source_images": ["image2387.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 12\n\n(a) Increase $\\$5000$ by 20%.\n\n(b) Decrease $\\$80000$ by 12%.\n\nSolutions:\n\n(a) To increase by 20%, we multiply by $100\\% + 20\\% = 120\\%$\n$\\therefore$ the new amount\n$= 120\\%$ of $\\$5000$\n$= 1.2 \\times \\$5000$\n$= \\$6000$\n\n(b) To decrease by 12%, we multiply by $100\\% - 12\\% = 88\\%$\n$\\therefore$ the new amount\n$= 88\\%$ of $\\$80000$\n$= 0.88 \\times \\$80000$\n$= \\$70400$",
+      "source_images": ["image2388.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 7F\n\n1. Perform the following operations using two steps:\n\n(a) increase €8000 by 15%\n\n(b) decrease 96 kg by 5%\n\n(c) increase $\\$15500$ by 12%\n\n(d) decrease $\\$25000$ by 30%\n\n(e) increase 78 kg by 3%\n\n(f) decrease £85 by 22%.\n\n2. Perform the following using a multiplier:\n\n(a) increase 800 m by 15%\n\n(b) increase 30 tonnes by 10%\n\n(c) increase £4000 by $17\\frac{1}{2}\\%$\n\n(d) decrease €4200 by 10%\n\n(e) decrease 9000 hectares by 15%\n\n(f) decrease 56000 tonnes by 27%.\n\n3. What is the overall effect of increasing $\\$100$ by 10% and then decreasing the result by 10%? The answer is not $\\$100$.\n\n4. When decreasing a quantity by 10% in two successive years, the overall result is to decrease the original by 19%. Use multipliers to explain why this occurs.\n\n5. Find the overall effect of increasing a quantity by 20% each year for 3 successive years.",
+      "source_images": ["image2389.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "PERCENTAGE CHANGE\n\nIf we compare the change to the original amount and express this as a percentage then we have calculated the percentage change.\n\n$\\text{percentage change} = \\frac{\\text{change}}{\\text{original}} \\times 100\\%$",
+      "source_images": ["image2390.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 13\n\nFind the percentage increase or decrease in the change from:\n\n(a) $\\$120$ to $\\$150$\n\n(b) 400 m to 250 m.\n\nSolutions:\n\n(a) original amount $= \\$120$\nfinal amount $= \\$150$\nchange $= \\text{final} - \\text{original}$\n$= \\$150 - \\$120$\n$= \\$30$\n$\\therefore$ percentage change\n$= \\frac{\\text{change}}{\\text{original}} \\times 100\\%$\n$= \\frac{30}{120} \\times 100\\%$\n$= 25\\%$\n$\\therefore$ there is a 25% increase.\n\n(b) original amount $= 400$ m\nfinal amount $= 250$ m\nchange $= \\text{final} - \\text{original}$\n$= 250$ m $- 400$ m\n$= -150$ m\n$\\therefore$ percentage change\n$= \\frac{\\text{change}}{\\text{original}} \\times 100\\%$\n$= \\frac{-150}{400} \\times 100\\%$\n$= -37.5\\%$\n$\\therefore$ there is a 37.5% decrease.",
+      "source_images": ["image2391.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 7G\n\n1. Describe the change if:\n\n(a) 32 cm is stretched to 40 cm\n\n(b) the cost drops from £136 to £119\n\n(c) 42 kg is decreased to 39 kg\n\n(d) 56 m is increased to 62 m\n\n(e) I now charge $\\$45$ per hour whereas before it was $\\$38$ per hour\n\n(f) my old truck carried 15 tonnes, but the new one carries 18 tonnes.\n\n2. Find the percentage increase or decrease for the following changes:\n\n(a) 48 cm to 60 cm\n\n(b) €160 to €96\n\n(c) 2.5 tonnes to 4 tonnes\n\n(d) 1 hour to 24 minutes\n\n(e) 1.5 kg to 800 g\n\n(f) 2.4 litres to 4.2 litres\n\n3. The average price for an apartment in a given suburb is £134000, whereas two years ago it was £112000. State the percentage change in price over this period.\n\n4. During a sale, the price of a lounge suite dropped from $\\$1600$ to $\\$1250$. What was the percentage decrease in price?",
+      "source_images": ["image2392.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 3E.1\n\n1. What multiplier corresponds to a:\n\n(a) 40% increase\n\n(b) 6% increase\n\n(c) 20% decrease\n\n(d) 15% decrease\n\n(e) 42% decrease\n\n(f) 12% increase?\n\n2. Perform the following calculations:\n\n(a) Increase $\\$120$ by 15%.\n\n(b) Increase 450 kg by 20%.\n\n(c) Decrease £4800 by 24%.\n\n(d) Decrease $\\$720$ by 8%.\n\n(e) Increase 5000 hectares by 120%.\n\n(f) Decrease 1600 tonnes by 12%.\n\n(g) Decrease 12500 m$^2$ by 1.46%.\n\n(h) Increase €125672 by 0.13%.",
+      "source_images": ["image2393.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "$\\text{multiplier} = \\frac{\\text{new amount}}{\\text{original amount}}$",
+      "source_images": ["image2394.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 3E.2\n\n1. Find the percentage increase in the following, to 1 decimal place if necessary:\n\n(a) £80 changes to £96\n\n(b) €14000 changes to €16000\n\n(c) 32 hours changes to 37.5 hours\n\n(d) 180 cm changes to 185 cm\n\n(e) 42 kg changes to 49 kg\n\n(f) $\\$156000$ changes to $\\$164000$\n\n(g) 3.5 kg changes to 7 kg\n\n(h) 52.4 L changes to 61.7 L\n\n2. My dairy herd produced a daily average of 467 L of milk last year. This year production has increased to 523 L. What is the percentage increase in milk production?",
+      "source_images": ["image2395.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Find the percentage decrease in the following:\n\n(a) $\\$80$ to $\\$70$\n\n(b) 95 kg to 90 kg\n\n(c) 60 hours to 40 hours\n\n(d) 8 km to 4 km\n\n(e) $\\$155$ to $\\$140$\n\n(f) €16 to €4\n\n4. Increase $\\$1000$ by 10% and then decrease your answer by 10%. What do you notice?\n\n5. My parents increased my pocket money by 10% and then three months later increased it by a further 10%. My father said this was an increase of 21%. Can you explain this?",
+      "source_images": ["image2396.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "PROFIT AND LOSS\n\nProfit or loss is the difference between the selling price and the cost price of an item.\n\nProfit or loss $=$ selling price $-$ cost price.\n\nA profit occurs if the selling price is higher than the cost price.\n\nA loss occurs if the selling price is lower than the cost price.",
+      "source_images": ["image2397.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "PERCENTAGE PROFIT OR LOSS\n\n$\\text{percentage profit} = \\frac{\\text{profit}}{\\text{cost price}} \\times 100\\%$\n\n$\\text{percentage loss} = \\frac{\\text{loss}}{\\text{cost price}} \\times 100\\%$",
+      "source_images": ["image2398.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 14\n\nI bought a stereo system for $\\$500$ and then sold it for $\\$660$. Find:\n\n(a) the profit or loss\n\n(b) the percentage profit or loss.\n\nSolutions:\n\n(a) cost price $= \\$500$\nselling price $= \\$660$\nSelling price $>$ cost price, so a profit is made.\nThe profit $= \\$660 - \\$500$\n$= \\$160$\n\n(b) percentage profit\n$= \\frac{\\text{profit}}{\\text{cost price}} \\times 100\\%$\n$= \\frac{160}{500} \\times 100\\%$\n$= 32\\%$",
+      "source_images": ["image2399.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 15\n\nA microscope was purchased for $\\$600$ and sold two months later for $\\$450$.\n\nFind the loss as a percentage of the cost price.\n\nSolution:\n\ncost price $= \\$600$, selling price $= \\$450$\n\nSelling price $<$ cost price, so a loss is made.\n\nThe loss $= \\$600 - \\$450 = \\$150$\n\nPercentage loss $= \\frac{\\text{loss}}{\\text{cost price}} \\times 100\\%$\n$= \\frac{150}{600} \\times 100\\%$\n$= 25\\%$",
+      "source_images": ["image2400.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 12\n\nA TV set is purchased for $\\$450$ and is marked up by 30%.\n\nFind:\n\n(a) the profit\n\n(b) the selling price.\n\nSolutions:\n\n(a) Profit $= 30\\%$ of cost price\n$= 30\\%$ of $\\$450$\n$= \\frac{30}{100} \\times \\$450$\n$= \\$135$\n\n(b) Selling price\n$= \\text{cost price} + \\text{profit}$\n$= \\$450 + \\$135$\n$= \\$585$",
+      "source_images": ["image2401.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "A retailer will often express their profit or loss as a percentage of the cost price.\n\nFor a profit we find the percentage increase in the price.\n\nFor a loss we find the percentage decrease in price.",
+      "source_images": ["image2402.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 13\n\nA bicycle costs $\\$240$ and is sold for $\\$290$.\n\nCalculate the profit as a percentage of the cost price.\n\nSolution:\n\nProfit $=$ selling price $-$ cost price\n$= \\$290 - \\$240$\n$= \\$50$\n\n$\\therefore$ profit as a percentage of cost price\n$= \\frac{\\text{profit}}{\\text{cost price}} \\times 100\\%$\n$= \\frac{50}{240} \\times 100\\%$\n$\\approx 20.8\\%$",
+      "source_images": ["image2403.png"]
+    }
+  ]
+}

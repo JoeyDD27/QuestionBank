@@ -1,0 +1,177 @@
+{
+  "chapter": 9,
+  "part": 1,
+  "images_range": "830-883",
+  "items": [
+    {
+      "type": "concept",
+      "content_latex": "We consider inequalities in which two expressions are separated by one of the four inequality signs $<$, $\\leqslant$, $>$, or $\\geqslant$.\n\nFor example, the set of real numbers from 1 to 4 inclusive can be represented by\n\n$\\{x \\mid 1 \\leqslant x \\leqslant 4, \\ x \\in \\mathbb{R}\\}$\n\nthe set of all ... such that ... $x$ is real.\n\nThe filled circle shows that 4 is included.\n\nIf it is not stated otherwise, we assume we are dealing with real $x$. So, the set can be represented simply as $\\{x \\mid 1 \\leqslant x \\leqslant 4\\}$.",
+      "source_images": ["image830.png", "image831.png", "image832.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 1\n\nDraw a number line graph to display:\n\n(a) $\\{x \\mid -2 \\leqslant x < 3\\}$\n\n(b) $\\{x \\mid x < 2 \\text{ or } x \\geqslant 7\\}$\n\n(c) $\\{x \\mid x < 0 \\text{ or } 1 \\leqslant x < 4\\}$\n\nSolutions:\n\n(a) Number line from $-2$ (filled) to $3$ (open)\n\n(b) Number line with arrow left from $2$ (open) and arrow right from $7$ (filled)\n\n(c) Number line with arrow left from $0$ (open) and segment from $1$ (filled) to $4$ (open)",
+      "source_images": ["image833.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "SQUARE BRACKET NOTATION\n\nAn alternative to using inequality signs is to use square bracket notation.\n\nThe endpoints of the interval are written within square brackets. The bracket is reversed if the endpoint is not included.\n\n- $[a, b]$ represents the interval $\\{x \\mid a \\leqslant x \\leqslant b\\}$\n- $[a, b[$ represents the interval $\\{x \\mid a \\leqslant x < b\\}$\n- $]a, b]$ represents the interval $\\{x \\mid a < x \\leqslant b\\}$\n- $]a, b[$ represents the interval $\\{x \\mid a < x < b\\}$\n\nFor intervals which extend to infinity, we use the symbol $\\infty$. We always use an 'outwards' bracket for infinity. So, $[2, \\infty[$ represents the interval $\\{x \\mid x \\geqslant 2\\}$.\n\nIn square bracket notation, we use the union symbol $\\cup$ to replace 'or'.\n\nSo, for $\\{x \\mid 1 \\leqslant x < 3 \\text{ or } x \\geqslant 5\\}$ we would write $[1, 3[ \\cup [5, \\infty[$.",
+      "source_images": ["image834.png", "image835.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 2\n\nUse square bracket notation to describe:\n\n(a) Number line from $-4$ (filled) to $2$ (open)\n\n(b) Number line with arrow left to $1$ (filled)\n\n(c) Number line from $-5$ (filled) to $0$ (filled), union from $3$ (open) to right\n\nSolutions:\n\n(a) $[-4, 2[$\n\n(b) $]-\\infty, 1]$\n\n(c) $[-5, 0] \\cup ]3, \\infty[$",
+      "source_images": ["image836.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 22A\n\n1. Draw a number line graph to display:\n\n(a) $\\{x \\mid x > 4\\}$\n(b) $\\{x \\mid x \\leqslant -5\\}$\n(c) $\\{x \\mid -2 \\leqslant x \\leqslant 3\\}$\n(d) $\\{x \\mid 0 < x \\leqslant 7\\}$\n(e) $\\{x \\mid x < 1 \\text{ or } x > 3\\}$\n(f) $\\{x \\mid x \\leqslant 2 \\text{ or } x > 6\\}$\n(g) $[-1, 6]$\n(h) $]4, 9]$\n(i) $[-5, 0[$\n(j) $]2, 8[$\n(k) $[5, \\infty[$\n(l) $]-\\infty, 6]$\n(m) $]-3, \\infty[$\n(n) $[0, 4] \\cup [7, \\infty[$\n(o) $]-\\infty, 2[ \\cup [5, 11[$\n\n2. Use interval notation to describe:\n\n(a) Number line from $6$ (filled) to right\n\n(b) Number line from left to $3$ (open)\n\n(c) Number line from $-2$ (filled) to $1$ (open)\n\n(d) Number line from $0$ (filled) to $1$ (open)",
+      "source_images": ["image837.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 22A (continued)\n\n(e) Number line from $-1$ (open) to $1$ (open)\n\n(f) Number line from $0$ (open) to $4$ (filled)\n\n(g) Number line from $-2$ (open) to $1$ (open), union from $4$ (filled) to right\n\n(h) Number line from $-2$ (filled) to $1$ (open), union from $3$ (open) to right\n\n3. Write these number sets using square bracket notation:\n\n(a) $\\{x \\mid -1 \\leqslant x \\leqslant 6\\}$\n(b) $\\{x \\mid 0 < x < 5\\}$\n(c) $\\{x \\mid -4 < x \\leqslant 7\\}$\n(d) $\\{x \\mid 4 \\leqslant x < 8\\}$\n(e) $\\{x \\mid x > -7\\}$\n(f) $\\{x \\mid x \\leqslant 0\\}$\n(g) $\\{x \\mid x \\leqslant 2 \\text{ or } x \\geqslant 5\\}$\n(h) $\\{x \\mid x < -3 \\text{ or } x > 4\\}$\n(i) $\\{x \\mid -1 < x \\leqslant 1 \\text{ or } x \\geqslant 2\\}$\n(j) $\\{x \\mid x < -4 \\text{ or } 2 \\leqslant x < 7\\}$\n\n(k) Number line from $3$ (filled) to $8$ (open)\n\n(l) Number line from $-2$ (filled) to $7$ (open)\n\n(m) Number line from $5$ (filled) to right\n\n(n) Number line to $-2$ (open)\n\n(o) Number line from $2$ (open) to $3$ (filled), union from $5$ (open) to right\n\n(p) Number line from $-4$ (filled) to $1$ (open), union from $4$ (open) to right\n\n(q) Number line from $-2$ (filled) to $2$ (open)\n\n(r) Number line from $-3$ (open) to $10$ (open)\n\n4. Display each set on a number line graph, and hence describe using a single interval:\n\n(a) $\\{x \\mid x > 3 \\cup 0 < x < 7\\}$\n(b) $\\{x \\mid \\frac{7}{2} \\leqslant x < 9 \\cup -1 \\leqslant x < 4\\}$\n(c) $\\{x \\mid x < 3 \\cap 0 < x < 7\\}$\n(d) $\\{x \\mid \\frac{7}{2} \\leqslant x < 9 \\cap -1 \\leqslant x < 4\\}$",
+      "source_images": ["image838.png", "image839.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Linear inequalities take the same form as linear equations, except they contain an inequality sign instead of an 'equals' sign.\n\n$2x < 7$ and $3x + 5 \\geqslant -10$ are examples of linear inequalities.\n\nRULES FOR SOLVING LINEAR INEQUALITIES\n\nNotice that $5 > 3$ and $3 < 5$,\nand that $-3 < 2$ and $2 > -3$.\n\nThis suggests that if we interchange the LHS and RHS of an inequality, then we must reverse the inequality sign. $>$ is the reverse of $<$, and $\\geqslant$ is the reverse of $\\leqslant$.\n\nYou may also remember from previous years that:\n\n- If we add or subtract the same number to both sides, the inequality sign is maintained.\nFor example, if $5 > 3$, then $5 + 2 > 3 + 2$.\n\n- If we multiply or divide both sides by a positive number, the inequality sign is maintained.\nFor example, if $5 > 3$, then $5 \\times 2 > 3 \\times 2$.\n\n- If we multiply or divide both sides by a negative number, the inequality sign is reversed.\nFor example, if $5 > 3$, then $5 \\times -1 < 3 \\times -1$.\n\nThe method of solving linear inequalities is thus identical to that of linear equations, with the exceptions that:\n\n- interchanging the sides reverses the inequality sign\n- multiplying or dividing both sides by a negative number reverses the inequality sign.",
+      "source_images": ["image840.png", "image841.png", "image842.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 13\n\nRewrite the following inequation with the variable on the LHS:\n\n(a) $8 < x$\n\n(b) $1.5 \\geqslant y$\n\nSolutions:\n\n(a) $8 < x$ is written as $x > 8$\n\n(b) $1.5 \\geqslant y$ is written as $y \\leqslant 1.5$\n\nNote the reversal of the inequation sign!",
+      "source_images": ["image843.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Section 1: Adding or subtracting a positive or negative number\n\n1. Copy and complete the following table where $T$ means true and $F$ means false:\n\n| True Inequation | Operation | Working | Simplify | T or F |\n|-----------------|-----------|---------|----------|--------|\n| $5 > 1$ | add 3 to both sides | $5 + 3 > 1 + 3$ | $8 > 4$ | $T$ |\n| $11 > 7$ | add 6 to both sides | | | |\n| $8 > -3$ | add 4 to both sides | | | |\n| $-7 < -4$ | add 5 to both sides | | | |\n| $-6 < 5$ | add 11 to both sides | | | |\n| $8 > 6$ | subtract 2 from both sides | | | |\n| $9 > 7$ | subtract 4 from both sides | | | |\n| $2 > -1$ | subtract 2 from both sides | | | |\n| $-7 < -5$ | subtract 5 from both sides | | | |",
+      "source_images": ["image844.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Section 2: Multiplying or dividing by a positive or negative number\n\n1. Copy and complete the following table:\n\n| True Inequation | Operation | Working | Simplify | T or F |\n|-----------------|-----------|---------|----------|--------|\n| $5 > 2$ | multiply by 3 | $5 \\times 3 > 2 \\times 3$ | $15 > 6$ | $T$ |\n| $-3 < -2$ | multiply by 4 | | | |\n| $4 > 3$ | multiply by $(-3)$ | | | |\n| $-2 > -5$ | multiply by $(-4)$ | | | |\n| $7 > 3$ | multiply by 2 | | | |\n| $-4 < -2$ | multiply by 3 | | | |\n| $2 > -6$ | multiply by $(-2)$ | | | |\n| $-5 < -3$ | multiply by $(-4)$ | | | |\n| $6 > 3$ | divide by 3 | | | |\n| $-6 > -8$ | divide by 2 | | | |\n| $6 > 3$ | divide by $(-3)$ | $\\frac{6}{-3} > \\frac{3}{-3}$ | $-2 > -1$ | $F$ |\n| $-6 > -8$ | divide by $(-2)$ | | | |\n| $7 < 14$ | divide by 7 | | | |\n| $-10 < -5$ | divide by 5 | | | |\n| $7 < 14$ | divide by $(-7)$ | | | |",
+      "source_images": ["image845.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11E\n\n1. Write a mathematical sentence for:\n\n(a) the speed limit $S$ is 40 km per hour\n(b) the minimum age $A$ is 18\n(c) $a$ is greater than 3\n(d) $b$ is less than or equal to $-3$\n(e) $d$ is less than 5\n(f) $-20$ is greater than or equal to $x$\n(g) 4 is less than $y$\n(h) $z$ is greater than or equal to 0.\n\n2. Rewrite the following inequations with the variable on the LHS:\n\n(a) $2 < x$\n(b) $5 > b$\n(c) $2\\frac{1}{2} \\leqslant c$\n(d) $-7 \\geqslant d$\n(e) $-19 > a$\n(f) $-3 < p$\n\n3. Draw separate number lines to show the following inequations:\n\n(a) $x > 2$\n(b) $a > -3$\n(c) $b \\leqslant 2$\n(d) $m \\geqslant -1$\n(e) $3 < x$\n(f) $2 > a$\n(g) $-2 \\geqslant b$\n(h) $-2 \\leqslant m$\n\n4. Given that $a > 2$, decide if the following statements are true or false. Draw a number line to help you if necessary.\n\n(a) 3.9 is a possible value for $a$\n(b) $-5.3$ is a possible value for $a$\n(c) 2 is a possible value for $a$\n(d) 10 is not a possible value for $a$\n(e) $-100.8$ is not a possible value for $a$\n(f) 0 is a possible value for $a$.",
+      "source_images": ["image846.png", "image847.png", "image848.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 15\n\nSolve the following inequations and plot the solutions on separate number lines:\n\n(a) $a - 4 > 5$\n\n(b) $3b \\leqslant 9$\n\n(c) $4 - 2x > 0$\n\nSolutions:\n\n(a) $a - 4 > 5$\n$\\therefore \\ a - 4 + 4 > 5 + 4$\n$\\therefore \\ a > 9$\n\nCheck: If $a = 10$ then $10 - 4 = 6$ and $6 > 5$ is true.\n\n(b) $3b \\leqslant 9$\n$\\therefore \\ \\frac{3b}{3} \\leqslant \\frac{9}{3}$\n$\\therefore \\ b \\leqslant 3$\n\nCheck: If $b = 2$ then $3 \\times 2 = 6$ and $6 \\leqslant 9$ is true.\n\n(c) $4 - 2x > 0$\n$\\therefore \\ 4 - 4 - 2x > 0 - 4$\n$\\therefore \\ -2x > -4$\n$\\therefore \\ \\frac{-2x}{-2} < \\frac{-4}{-2}$ \\{reversing the sign\\}\n$\\therefore \\ x < 2$\n\nCheck: If $x = 0$ then $4 - 2 \\times 0 = 4$ and $4 > 0$ is true.",
+      "source_images": ["image849.png", "image850.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 16\n\nSolve the inequation $\\frac{x}{4} - 2 \\geqslant 3$ and show its solution on a number line.\n\nSolution:\n\n$\\frac{x}{4} - 2 \\geqslant 3$\n$\\therefore \\ \\frac{x}{4} - 2 + 2 \\geqslant 3 + 2$ \\{add 2 to both sides\\}\n$\\therefore \\ \\frac{x}{4} \\geqslant 5$\n$\\therefore \\ \\frac{x}{4} \\times 4 \\geqslant 5 \\times 4$ \\{multiply both sides by 4\\}\n$\\therefore \\ x \\geqslant 20$\n\nCheck: If $x = 32$ then $\\frac{32}{4} - 2 = 8 - 2 = 6$ and $6 \\geqslant 3$ is true.",
+      "source_images": ["image851.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11F\n\n1. Solve the following inequations and show their solutions on separate number lines:\n\n(a) $a + 4 > 6$\n(b) $3b \\leqslant -9$\n(c) $\\frac{c}{3} < 2$\n(d) $s - 4 < 2$\n(e) $-4b > 16$\n(f) $5 + t > 0$\n(g) $-\\frac{m}{5} \\geqslant 12$\n(h) $3x + 12 \\geqslant -3$\n(i) $5 - 3b \\leqslant 7$\n(j) $3a - 2 \\geqslant 8$\n(k) $4a + 9 < 1$\n(l) $7 - 2b < -3$\n(m) $16 + 7s > 2$\n(n) $2a - 4 \\leqslant 0$\n(o) $12 - 5b > -3$\n(p) $3b - 1 \\geqslant 0$\n(q) $5n + 7 < -3$\n(r) $11 - 4b \\leqslant 4$\n\n2. Solve the following inequations and show their solutions on separate number lines:\n\n(a) $\\frac{x}{3} + 1 > 4$\n(b) $\\frac{b}{5} - 2 \\leqslant -3$\n(c) $\\frac{c}{4} + 4 \\geqslant 8$\n(d) $\\frac{2x}{3} - 2 < 4$\n(e) $\\frac{3x}{2} + 5 \\geqslant -2$\n(f) $1 - \\frac{3x}{2} < 4$\n(g) $2 - \\frac{x}{4} \\geqslant -3$\n(h) $3 - \\frac{2x}{5} < 2$\n(i) $5 - \\frac{3x}{4} > -2$",
+      "source_images": ["image852.png", "image853.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11F (continued)\n\n3. Solve the following inequations and show their solutions on separate number lines:\n\n(a) $\\frac{a - 3}{2} < 6$\n(b) $\\frac{b + 5}{4} \\geqslant 1$\n(c) $\\frac{4c + 3}{5} \\leqslant -1$\n(d) $\\frac{4 - a}{2} > 5$\n(e) $\\frac{5 - 3x}{2} \\leqslant -6$\n(f) $\\frac{3 - 2x}{3} \\geqslant -1$\n\n4. Solve the following inequations by first expanding the brackets:\n\n(a) $3(c + 1) > 8$\n(b) $5(1 + 3a) \\leqslant -4$\n(c) $3(1 - 2a) \\geqslant -5$\n(d) $2(2a + 1) - 3 \\leqslant -5$\n(e) $2(3 - 4a) + 3 < 7$\n(f) $4(2a + 5) - 12 > 9$\n\n5. Solve the following inequations by first interchanging the LHS and RHS:\n\n(a) $5 > 4 + x$\n(b) $2 \\leqslant 6c + 14$\n(c) $-4 > 2b$\n(d) $7 \\leqslant \\frac{a}{3}$\n(e) $3 < \\frac{d - 2}{4}$\n(f) $6 \\geqslant 3(p + 2) - 11$\n\n6. Solve for $x$ and show the solution on a number line:\n\n(a) $5x - 3 > 3x + 1$\n(b) $2x + 1 \\geqslant 4x + 7$\n(c) $8x + 6 < 3x + 1$\n(d) $2x + 7 > 7x + 3$\n(e) $6x + 2 \\leqslant 3x - 7$\n(f) $x - 11 \\leqslant 6x - 1$",
+      "source_images": ["image854.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 22B\n\n1. Solve for $x$ and graph the solution:\n\n(a) $3x + 2 < 0$\n(b) $5x - 7 > 2$\n(c) $2 - 3x \\geqslant 1$\n(d) $5 - 2x \\leqslant 11$\n(e) $2(3x - 1) < 4$\n(f) $5(1 - 3x) \\geqslant 8$\n\n2. Solve for $x$ and graph the solution:\n\n(a) $7 \\geqslant 2x - 1$\n(b) $-13 < 3x + 2$\n(c) $20 > -5x$\n(d) $-3 \\geqslant 4 - 3x$\n(e) $3 < 5 - 2x$\n(f) $2 \\leqslant 5(1 - x)$",
+      "source_images": ["image855.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "A sign diagram consists of:\n\n- a horizontal line which represents the $x$-axis\n- positive $(+)$ and negative $(-)$ signs indicating where the graph is above and below the $x$-axis respectively\n- critical values, which are the graph's $x$-intercepts, or where it is undefined.\n\nConsider the graph of $y = f(x)$:\n\nWe use a solid line to indicate where the function is zero, and a dashed line to indicate where the function is undefined.\n\nThe corresponding sign diagram is:\n\n$- \\quad | \\quad + \\quad | \\quad - \\quad | \\quad +$\n$\\quad\\quad 1 \\quad\\quad 2 \\quad\\quad 3$",
+      "source_images": ["image856.png", "image857.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Sign diagrams for different functions:\n\n| Function | $y = (x + 2)(x - 1)$ | $y = -2(x - 1)^2$ | $y = \\frac{4}{x}$ |\n|----------|---------------------|-------------------|------------------|\n| Graph | Parabola with roots at $-2$ and $1$ | Downward parabola touching at $1$ | Hyperbola with vertical asymptote at $0$ |\n| Sign diagram | $+ \\quad - \\quad +$ at $-2, 1$ | $- \\quad - \\quad$ at $1$ | $- \\quad + \\quad$ at $0$ |\n\n- A sign change occurs about the critical value for single factors such as $(x + 2)$ and $(x - 1)$, indicating cutting of the $x$-axis.\n- No sign change occurs about the critical value for squared factors such as $(x - 1)^2$, indicating touching of the $x$-axis.",
+      "source_images": ["image858.png", "image859.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 5\n\nDraw a sign diagram for:\n\n(a) $(x + 5)(x - 2)$\n\n(b) $3(2x + 1)(4 - x)$\n\nSolutions:\n\n(a) $(x + 5)(x - 2)$ has critical values $-5$ and $2$.\n\nWe try any number $> 2$:\nWhen $x = 10$, $(x + 5)(x - 2) = 15 \\times 8 > 0$.\n\nThe factors are single so the signs alternate.\nThe sign diagram is:\n\n$+ \\quad | \\quad - \\quad | \\quad +$\n$\\quad -5 \\quad\\quad\\quad 2$\n\n(b) $3(2x + 1)(4 - x)$ has critical values $-\\frac{1}{2}$ and $4$.\n\nWhen $x = 10$, $3(2x + 1)(4 - x) = 3 \\times 21 \\times -6 < 0$.\n\nThe factors are single so the signs alternate.\nThe sign diagram is:\n\n$- \\quad | \\quad + \\quad | \\quad -$\n$\\quad -\\frac{1}{2} \\quad\\quad\\quad 4$",
+      "source_images": ["image860.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 6\n\nDraw a sign diagram for:\n\n(a) $-(x + 2)^2$\n\n(b) $\\frac{x - 3}{x + 1}$\n\nSolutions:\n\n(a) $-(x + 2)^2$ has critical value $-2$.\n\nWhen $x = 10$, $-(x + 2)^2 = -12^2 < 0$.\n\nA squared factor indicates no change of sign about the critical value.\nThe sign diagram is:\n\n$- \\quad | \\quad -$\n$\\quad\\quad -2$\n\n(b) $\\frac{x - 3}{x + 1}$ is zero when $x = 3$ and undefined when $x = -1$.\n\nWhen $x = 10$, $\\frac{x - 3}{x + 1} = \\frac{7}{11} > 0$.\n\nSince $(x - 3)$ and $(x + 1)$ are single factors, the signs alternate.\nThe sign diagram is:\n\n$+ \\quad | \\quad - \\quad | \\quad +$\n$\\quad -1 \\quad\\quad\\quad 3$",
+      "source_images": ["image861.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 22C\n\n1. Draw a sign diagram for these graphs:\n\n(a) Linear graph through $(3, 0)$, positive slope\n\n(b) Parabola with vertex below $x$-axis, root at $1$\n\n(c) Parabola opening downward with roots at $-2$ and $5$\n\n(d) Cubic with roots at $-2$ and $2$\n\n(e) Downward parabola touching at $-3$\n\n(f) Parabola with vertex above $x$-axis, root at $2$\n\n(g) Cubic with roots at $-2$ and $4$\n\n(h) Hyperbola with vertical asymptote at $0$\n\n(i) Rational function with asymptotes at $x = 1$ and $y = 2$",
+      "source_images": ["image862.png", "image863.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 22C (continued)\n\n2. Draw a sign diagram for:\n\n(a) $(x + 3)(x - 1)$\n(b) $x(x - 4)$\n(c) $x(x + 5)$\n(d) $-(x + 2)(x - 3)$\n(e) $(3x - 1)(4 - x)$\n(f) $(3 - x)(1 - 2x)$\n(g) $x^2 - 16$\n(h) $1 - x^2$\n(i) $2x - x^2$\n(j) $x^2 - 4x + 3$\n(k) $2 - 18x^2$\n(l) $-x^2 + 2x + 24$\n(m) $3x^2 - 8x - 3$\n(n) $2 - 2x - 4x^2$\n(o) $-10x^2 + 9x + 9$\n\n3. Draw a sign diagram for:\n\n(a) $(x - 1)^2$\n(b) $(x + 4)^2$\n(c) $-(x + 3)^2$\n(d) $-(x - 2)^2$\n(e) $(3x - 1)^2$\n(f) $x^2 - 6x + 9$\n(g) $-x^2 - 4x - 4$\n(h) $-x^2 + 2x - 1$\n(i) $-4x^2 - 4x - 1$\n\n4. Draw a sign diagram for:\n\n(a) $\\frac{x + 1}{x - 2}$\n(b) $\\frac{x - 1}{x}$\n(c) $\\frac{2x + 5}{2 - x}$\n(d) $\\frac{3x - 1}{4 - x}$\n(e) $\\frac{x + 4}{3x - 2}$\n(f) $\\frac{2x}{1 - x}$\n(g) $\\frac{(x - 2)^2}{x + 1}$\n(h) $\\frac{3x}{(x + 3)^2}$\n(i) $\\frac{x(x + 2)}{4 - x}$\n(j) $\\frac{(x - 3)(x + 4)}{2 - x}$\n(k) $\\frac{5 - x}{x^2 - x - 2}$\n(l) $\\frac{x^2 - 1}{-x}$\n(m) $\\frac{x^2 + 2x - 3}{x + 1}$\n(n) $\\frac{x^2 + 1}{x^2 - 2x + 1}$\n(o) $\\frac{x^2 - 6x + 9}{2x^2 - x - 3}$",
+      "source_images": ["image864.png", "image865.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 22C (continued)\n\n5. Use interval notation to describe where the functions with these sign diagrams are:\n\n(i) $> 0$ (ii) $\\geqslant 0$ (iii) $< 0$ (iv) $\\leqslant 0$.\n\n(a) Sign diagram: $- \\quad + \\quad -$ at $-3, 6$\n\n(b) Sign diagram: $+ \\quad - \\quad +$ at $-1, 2$ (dashed at $2$)\n\n(c) Sign diagram: $- \\quad + \\quad + \\quad -$ at $-4, 0, 5$",
+      "source_images": ["image866.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 7\n\nGiven the sign diagram alongside, use interval notation to describe where the function is:\n\n(a) $> 0$\n\n(b) $\\geqslant 0$\n\nSign diagram: $- \\quad + \\quad | \\quad - \\quad +$ at $1, 3$ (dashed), $6$\n\nSolutions:\n\n(a) The function is $> 0$ where $1 < x < 3$ or $x > 6$\nwhich is $\\{x \\mid 1 < x < 3 \\text{ or } x > 6\\}$.\n\n(b) The function is $\\geqslant 0$ where $1 \\leqslant x < 3$ or $x \\geqslant 6$.\n\nWe do not include 3 here because the function is undefined at $x = 3$.\n\nUsing interval notation, this is $\\{x \\mid 1 \\leqslant x < 3 \\text{ or } x \\geqslant 6\\}$.",
+      "source_images": ["image867.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "To solve non-linear inequalities, we use the following procedure:\n\n- Make the RHS zero by shifting all terms to the LHS.\n- Fully factorise the LHS.\n- Draw a sign diagram for the LHS.\n- Determine the values required from the sign diagram.",
+      "source_images": ["image868.png", "image869.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 8\n\nSolve for $x$:\n\n(a) $x^2 + 5x < 14$\n\n(b) $x^2 + 4 \\geqslant -4x$\n\nSolutions:\n\n(a) $x^2 + 5x < 14$\n$\\therefore \\ x^2 + 5x - 14 < 0$ \\{making RHS zero\\}\n$\\therefore \\ (x + 7)(x - 2) < 0$ \\{fully factorising LHS\\}\n\nSign diagram of LHS is: $+ \\quad - \\quad +$ at $-7, 2$\n\nThe inequality is true for $-7 < x < 2$.\n\n(b) $x^2 + 4 \\geqslant -4x$\n$\\therefore \\ x^2 + 4x + 4 \\geqslant 0$ \\{making RHS zero\\}\n$\\therefore \\ (x + 2)^2 \\geqslant 0$ \\{fully factorising LHS\\}\n\nSign diagram of LHS is: $+ \\quad + \\quad$ at $-2$\n\nThe LHS is always $\\geqslant 0$, so the inequality is true for all real $x$.",
+      "source_images": ["image871.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 9\n\nSolve for $x$:\n\n(a) $\\frac{3x + 2}{x - 4} \\leqslant 1$\n\n(b) $\\frac{1}{x} \\leqslant 10$\n\nSolutions:\n\n(a) $\\frac{3x + 2}{x - 4} \\leqslant 1$\n$\\therefore \\ \\frac{3x + 2}{x - 4} - 1 \\leqslant 0$\n$\\therefore \\ \\frac{3x + 2}{x - 4} - 1\\left(\\frac{x - 4}{x - 4}\\right) \\leqslant 0$\n$\\therefore \\ \\frac{3x + 2 - (x - 4)}{x - 4} \\leqslant 0$\n$\\therefore \\ \\frac{2x + 6}{x - 4} \\leqslant 0$\n\nSign diagram of LHS is: $+ \\quad - \\quad +$ at $-3, 4$ (dashed at $4$)\n\n$\\therefore \\ -3 \\leqslant x < 4$\n\n(b) $\\frac{1}{x} \\leqslant 10$\n$\\therefore \\ \\frac{1}{x} - 10 \\leqslant 0$\n$\\therefore \\ \\frac{1}{x} - 10\\left(\\frac{x}{x}\\right) \\leqslant 0$\n$\\therefore \\ \\frac{1 - 10x}{x} \\leqslant 0$\n\nSign diagram of LHS is: $- \\quad + \\quad -$ at $0$ (dashed), $\\frac{1}{10}$\n\n$\\therefore \\ x < 0$ or $x \\geqslant \\frac{1}{10}$",
+      "source_images": ["image870.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 22D\n\n1. (a) Draw a sign diagram for $x^2 + x - 6$.\n\n(b) Hence, solve for $x$:\n\n(i) $x^2 + x - 6 > 0$\n(ii) $x^2 + x - 6 \\geqslant 0$\n(iii) $x^2 + x - 6 < 0$\n(iv) $x^2 + x - 6 \\leqslant 0$\n\n2. Solve for $x$:\n\n(a) $(x - 1)(x - 3) \\leqslant 0$\n(b) $(2x + 3)(4 - x) > 0$\n(c) $(x + 1)(x - 2) > 0$\n(d) $(x + 5)^2 < 0$\n(e) $x^2 - 2x \\geqslant 0$\n(f) $4x^2 + 2x < 0$\n(g) $x^2 < 16$\n(h) $3x^2 \\leqslant 12$\n(i) $x^2 + 4x - 5 > 0$\n(j) $x^2 \\leqslant x + 2$\n(k) $x^2 - 4x + 4 < 0$\n(l) $x^2 + 3x \\leqslant 28$\n(m) $3x^2 - 6x + 3 > 0$\n(n) $2x^2 - 5 \\leqslant 3x$\n(o) $3x^2 \\geqslant 2(x + 4)$\n(p) $4 < 5x^2 + 8x$\n(q) $6(x^2 + 2) < 17x$\n(r) $9x^2 \\leqslant 12x - 4$",
+      "source_images": ["image872.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 22D (continued)\n\n3. Solve for $x$:\n\n(a) $\\frac{x + 2}{x - 3} < 0$\n(b) $\\frac{x + 3}{2 - x} < 0$\n(c) $\\frac{x + 4}{2x - 1} \\geqslant 0$\n(d) $\\frac{x - 3}{2x} \\leqslant 0$\n(e) $\\frac{x^2 - 4x}{x + 3} > 0$\n(f) $\\frac{x}{x^2 - 1} \\leqslant 0$\n(g) $\\frac{x - 1}{x + 3} \\geqslant -1$\n(h) $\\frac{x + 2}{2x - 3} < 1$\n(i) $\\frac{1}{x} > 3$\n(j) $\\frac{x}{3x + 1} \\geqslant -2$\n(k) $\\frac{5 - 2x}{1 - x} > 4$\n(l) $\\frac{4}{x} \\leqslant x$\n\n4. Find the domain of these functions:\n\n(a) $f(x) = \\sqrt{x(x - 2)}$\n(b) $f(x) = \\sqrt{x^2 - 3x}$\n(c) $f(x) = \\sqrt{(x + 1)(x - 3)}$\n(d) $f(x) = \\frac{1}{\\sqrt{x^2 + x - 2}}$\n(e) $f(x) = \\sqrt{\\frac{x + 3}{x - 1}}$\n(f) $f(x) = \\sqrt{\\frac{x + 5}{x^2 - 4}}$\n\nCheck your answers using the graphing package.\n\n5. Find the values of $m$ for which the quadratic function $f(x) = mx^2 + [m + 3]x - 1$:\n\n(a) does not cut the $x$-axis\n(b) touches the $x$-axis\n(c) cuts the $x$-axis twice.",
+      "source_images": ["image873.png", "image874.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 22A\n\n1. Draw a number line graph to display:\n\n(a) $\\{x \\mid x > -3\\}$\n(b) $\\{x \\mid 5 \\leqslant x < 10\\}$\n(c) $]0, 9]$\n\n2. Solve for $x$ and graph the solution:\n\n(a) $5x - 11 > -7$\n(b) $9 \\leqslant 4 - 2x$\n\n3. Solve for $x$:\n\n(a) $4x - 1 > x + 9$\n(b) $5(1 - x) \\leqslant 4(x + 3)$\n\n4. Draw a sign diagram for:\n\n(a) $(x + 4)(x - 1)$\n(b) $-x^2 + 2x + 15$\n(c) $\\frac{2x - 1}{(x - 4)^2}$\n\n5. Describe where the function with sign diagram alongside is:\n\n(a) $> 0$\n(b) $\\geqslant 0$\n(c) $< 0$\n(d) $\\leqslant 0$\n\nSign diagram: $+ \\quad - \\quad | \\quad +$ at $-1, 6$ (dashed at $6$)\n\n6. Solve for $x$:\n\n(a) $(x + 2)(x + 6) < 0$\n(b) $x^2 + 5x \\geqslant 36$\n(c) $2x^2 - 15 < 7x$\n\n7. Solve for $x$:\n\n(a) $\\frac{x + 4}{x} < 0$\n(b) $\\frac{(x - 1)^2}{x + 2} \\geqslant 0$\n(c) $\\frac{3 - x}{x + 1} > 2$\n\n8. Solve the inequality in the Opening Problem on page 482.",
+      "source_images": ["image875.png", "image876.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 22B\n\n1. Write these number sets using square bracket notation:\n\n(a) $\\{x \\mid -2 \\leqslant x < 8\\}$\n(b) $\\{x \\mid x \\leqslant 1 \\text{ or } 4 < x \\leqslant 5\\}$\n\n(c) Number line from $-3$ (open) to $1$ (open)\n\n(d) Number line from $-7$ (filled) to $3$ (open)\n\n2. Draw a sign diagram for each graph:\n\n(a) Parabola opening downward with roots at $-2$ and $3$\n\n(b) Rational function with vertical asymptote at $x = 2$, horizontal asymptote at $y = 3$, root near $1$\n\n3. Solve for $x$, and graph the solution:\n\n(a) $3(2x + 1) > 4$\n(b) $40 \\leqslant 7 - 3x$\n\n4. Draw a sign diagram for:\n\n(a) $-x(x + 9)$\n(b) $2x^2 - 16x + 32$\n(c) $\\frac{x^2 + x - 12}{x - 1}$\n\n5. Solve for $x$:\n\n(a) $7x - 2 \\geqslant 2(x + 3)$\n(b) $-x^2 - 2x + 35 > 0$\n(c) $\\frac{x + 3}{2 - x} < 0$\n\n6. Describe where the function with sign diagram alongside is:\n\n(a) $> 0$\n(b) $\\geqslant 0$\n(c) $< 0$\n(d) $\\leqslant 0$\n\nSign diagram: $- \\quad - \\quad | \\quad + \\quad -$ at $-6, 1$ (dashed at $1$), $3$\n\n7. Solve for $x$:\n\n(a) $(x + 5)(6 - x) \\leqslant 0$\n(b) $\\frac{5}{x} > -1$\n(c) $\\frac{2x - 3}{x + 1} < 4$\n\n8. Find the domain of these functions:\n\n(a) $f(x) = \\sqrt{x(x - 4)}$\n(b) $f(x) = \\frac{1}{\\sqrt{3x^2 + 5x - 2}}$",
+      "source_images": ["image877.png", "image878.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercise\n\n1. Write the inequality for each solution set.\n\n(a) Number line from $2$ (open) to right\n\n(b) Number line from $-8$ (filled) to $-4$ (filled)\n\n(c) Number line from left to $-4$ (open)\n\n(d) Number line from $-20$ to $10$ (filled)\n\n(e) Number line from $-9$ (filled) to $0$ (open)\n\n(f) Number line from $-4$ (open) to $3$ (filled)\n\n2. Show each of these solution sets on a number line.\n\n(a) $x \\geqslant -2$\n(b) $x < 3.5$\n(c) $x \\leqslant -3$\n(d) $x > 10$\n(e) $1 < x \\leqslant 6$\n(f) $-4 \\leqslant x < 4$\n\n3. $N$ is an integer. Work out\n\n(a) the smallest possible value of $N$ when $N \\geqslant 8.2$\n(b) the largest possible value of $N$ when $N < -5$\n(c) the possible values of $N$ when $-3 \\leqslant N < 2.5$\n\n4. $N$ is an integer and $N \\leqslant 4$\n\nFor each statement say whether it\n\n| must be true | could be true | cannot be true |\n\n(a) $N = 4$\n(b) $N < 0$\n(c) $N < 5$\n(d) $N \\geqslant 5$",
+      "source_images": ["image879.png", "image880.png", "image881.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercise (continued)\n\n6. Solve these inequalities.\n\n(a) $10x \\geqslant 5$\n(b) $4x + 10 < 22$\n(c) $5(x - 7) \\leqslant 30$\n(d) $15 > 2(x + 1)$\n\n7. Show each solution set in Question 6 on a number line.\n\n8. (a) Show that the solution set to the inequality $3(y - 4) + 7y \\geqslant 8y - 5$ is $y \\geqslant 3.5$\n\n(b) Substitute these values for $y$ into $3(y - 4) + 7y \\geqslant 8y - 5$ to show that the solution set is correct.\n\n(i) $y = 3$\n(ii) $y = 3.5$\n(iii) $y = 4$\n\n9. Solve these inequalities. Check each solution set.\n\n(a) $4x - 5 \\leqslant 2x + 15$\n(b) $x + 6 > 14 - x$\n(c) $5(2 + x) \\leqslant 10x$\n(d) $\\frac{x}{4} - 1 < 4$\n\n10. The diagram shows triangle $DEF$. Side length $DF$ is greater than side length $DE$.\n\n(a) Write an inequality to show this information.\n(b) Solve your inequality.\n(c) Check your solution is correct.\n\nTriangle with $DE = 2x + 1$ and $DF = 5x - 14$",
+      "source_images": ["image882.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Challenge\n\n12. The diagram shows four angles round a point.\n\n(a) Write an inequality for $x$.\n(b) Solve the inequality.\n(c) Can the angle labelled $x°$ be a right angle? Explain your answer.\n\nAngles: $x°$, $2x°$, $(x + 30)°$\n\n13. Xavier has 100 dollars. He gives $A$ dollars to his brother. He gives his sister 5 dollars more than he gives his brother. He gives his friend twice as much as he gives his sister. He still has some money left.\n\n(a) Write an inequality for $A$.\n(b) Solve the inequality.\n(c) Can Xavier give his friend 55 dollars? Explain your answer.\n\n14. The angles of a quadrilateral add up to 360°. Three of the angles, in degrees, are $x$, $2x$ and $3(x - 10)$.\n\n(a) Write an inequality for $x$.\n(b) Solve the inequality.\n(c) Could the angles that are $2x$ degrees and $3(x - 10)$ degrees be the same size?\n\nGive a reason for your answer.\n\n15. You are given that $z > 2$. Write an inequality for each expression.\n\n(a) $2z + 9$\n(b) $3(z - 4)$\n(c) $4 + 2z$\n(d) $5(3z - 2)$\n\n16. Solve these inequalities. Represent each answer on a number line.\n\n(a) $3 < x + 3 \\leqslant 10$\n(b) $0 \\leqslant y - 2 \\leqslant 8$\n(c) $-2 < 2n < 6$\n(d) $0 < 4m < 18$",
+      "source_images": ["image883.png"]
+    }
+  ]
+}

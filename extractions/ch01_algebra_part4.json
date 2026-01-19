@@ -1,280 +1,212 @@
 {
+  "chapter": 1,
   "part": 4,
-  "images_range": "121-160",
+  "images_range": "148-194",
   "items": [
     {
-      "type": "example",
-      "content_latex": "Evaluate, giving a reason:\n\n(a) $\\sqrt{49}$ (b) $\\sqrt{\\frac{1}{16}}$\n\nSolution:\n(a) As $7 \\times 7 = 49$, $\\sqrt{49} = 7$\n\n(b) As $\\frac{1}{4} \\times \\frac{1}{4} = \\frac{1}{16}$, $\\sqrt{\\frac{1}{16}} = \\frac{1}{4}$",
-      "source_images": [
-        "image121.png"
-      ]
-    },
-    {
-      "type": "example",
-      "content_latex": "Between which two consecutive integers does $\\sqrt{11}$ lie?\n\nSolution:\n$\\sqrt{9} = 3$ and $\\sqrt{16} = 4$ and $9 < 11 < 16$\n$\\therefore \\sqrt{9} < \\sqrt{11} < \\sqrt{16}$\n$\\therefore 3 < \\sqrt{11} < 4$\n$\\therefore \\sqrt{11}$ lies between 3 and 4.",
-      "source_images": [
-        "image122.png"
-      ]
-    },
-    {
-      "type": "section_header",
-      "content_latex": "EXERCISE",
-      "source_images": [
-        "image123.png"
-      ]
+      "type": "exercise",
+      "content_latex": "REVIEW SET 2A\n\n1. Simplify:\n\n(a) $-(-1)^{10}$\n\n(b) $-(-3)^3$\n\n(c) $3^0 - 3^{-1}$\n\n2. Simplify using the index laws:\n\n(a) $a^4b^5 \\times a^2b^2$\n\n(b) $6xy^5 \\div 9x^2y^5$\n\n(c) $\\frac{5(x^2y)^2}{(5x^2)^2}$\n\n3. Write the following as powers of 2:\n\n(a) $2 \\times 2^{-4}$\n\n(b) $16 \\div 2^{-3}$\n\n(c) $8^4$\n\n4. Write without brackets or negative indices:\n\n(a) $b^{-3}$\n\n(b) $(ab)^{-1}$\n\n(c) $ab^{-1}$\n\n5. Evaluate, giving answers in scientific notation:\n\n(a) $(2 \\times 10^5)^3$\n\n(b) $(3 \\times 10^8) \\div (4 \\times 10^{-5})$\n\n6. Find the value of $x$, without using your calculator:\n\n(a) $2^{x-3} = \\frac{1}{32}$\n\n(b) $9^x = 27^{2-2x}$\n\n7. Evaluate without using a calculator:\n\n(a) $8^{\\frac{2}{3}}$\n\n(b) $27^{-\\frac{2}{3}}$",
+      "source_images": ["image148.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "1. Evaluate, giving a reason:\n(a) $\\sqrt{16}$ (b) $\\sqrt{36}$ (c) $\\sqrt{64}$ (d) $\\sqrt{144}$\n(e) $\\sqrt{81}$ (f) $\\sqrt{121}$ (g) $\\sqrt{4}$ (h) $\\sqrt{1}$\n(i) $\\sqrt{0}$ (j) $\\sqrt{\\frac{1}{9}}$ (k) $\\sqrt{\\frac{1}{49}}$ (l) $\\sqrt{\\frac{25}{64}}$\n\n2. Between which two consecutive integers do the following square roots lie?\n(a) $\\sqrt{3}$ (b) $\\sqrt{5}$ (c) $\\sqrt{15}$ (d) $\\sqrt{29}$\n(e) $\\sqrt{69}$ (f) $\\sqrt{105}$ (g) $\\sqrt{41}$ (h) $\\sqrt{57}$\n\n3. Use your calculator to find, correct to 2 decimal places:\n(a) $\\sqrt{8}$ (b) $\\sqrt{15}$ (c) $\\sqrt{24}$ (d) $\\sqrt{67}$\n(e) $\\sqrt{83}$ (f) $\\sqrt{111}$ (g) $\\sqrt{140}$ (h) $\\sqrt{200}$\n(i) $\\sqrt{3.14}$ (j) $\\sqrt{0.04}$ (k) $\\sqrt{\\frac{3}{4}}$ (l) $\\sqrt{7.29}$",
-      "source_images": [
-        "image124.png"
-      ]
-    },
-    {
-      "type": "concept",
-      "content_latex": "$(\\sqrt{a})^2 = \\sqrt{a}\\sqrt{a} = a$ for all positive numbers $a$.",
-      "source_images": [
-        "image125.png"
-      ]
-    },
-    {
-      "type": "investigation",
-      "content_latex": "INVESTIGATION 1: PROPERTIES OF RADICALS\n\nNotice that $(\\sqrt{2}\\sqrt{3})^2 = \\sqrt{2}\\sqrt{3} \\times \\sqrt{2}\\sqrt{3}$\n$= \\sqrt{2}\\sqrt{2}\\sqrt{3}\\sqrt{3}$\n$= 2 \\times 3$\n$= 6$\n$= (\\sqrt{6})^2$ and so $\\sqrt{2}\\sqrt{3} = \\sqrt{6}$",
-      "source_images": [
-        "image126.png"
-      ]
-    },
-    {
-      "type": "investigation_exercise",
-      "content_latex": "What to do:\n\n1. Use the technique above to show that:\n(a) $\\sqrt{2}\\sqrt{7} = \\sqrt{14}$ (b) $\\sqrt{3}\\sqrt{5} = \\sqrt{15}$ (c) $\\sqrt{3}\\sqrt{7} = \\sqrt{21}$\n\n2. Since $\\sqrt{2}\\sqrt{3} = \\sqrt{6}$, $\\frac{\\sqrt{6}}{\\sqrt{2}} = \\sqrt{3}$ and $\\frac{\\sqrt{6}}{\\sqrt{3}} = \\sqrt{2}$. Use the results from 1 to find:\n(a) $\\frac{\\sqrt{14}}{\\sqrt{2}}$ (b) $\\frac{\\sqrt{14}}{\\sqrt{7}}$ (c) $\\frac{\\sqrt{15}}{\\sqrt{3}}$ (d) $\\frac{\\sqrt{15}}{\\sqrt{15}}$ (e) $\\frac{\\sqrt{21}}{\\sqrt{3}}$ (f) $\\frac{\\sqrt{21}}{\\sqrt{7}}$\n\nGive reasons for your answers.",
-      "source_images": [
-        "image127.png"
-      ]
-    },
-    {
-      "type": "concept",
-      "content_latex": "For positive numbers $a$ and $b$, $\\sqrt{ab} = \\sqrt{a}\\sqrt{b}$ and $\\sqrt{\\frac{a}{b}} = \\frac{\\sqrt{a}}{\\sqrt{b}}$.",
-      "source_images": [
-        "image128.png"
-      ]
-    },
-    {
-      "type": "section_header",
-      "content_latex": "RADICALS IN SIMPLEST FORM",
-      "source_images": [
-        "image129.png"
-      ]
-    },
-    {
-      "type": "concept",
-      "content_latex": "For example, $\\sqrt{12} = \\sqrt{4 \\times 3} = \\sqrt{4}\\sqrt{3} = 2\\sqrt{3}$.\n\nIf a radical is written so the number under the square root sign is as small as possible, we say it is in simplest radical form.",
-      "source_images": [
-        "image130.png"
-      ]
-    },
-    {
-      "type": "example",
-      "content_latex": "Write in simplest form: a $\\sqrt{20}$ (b) $\\sqrt{98}$\n\nSolution:\n(a) $\\sqrt{20} = \\sqrt{4 \\times 5} = \\sqrt{4}\\sqrt{5} = 2\\sqrt{5}$\n\n(b) $\\sqrt{98} = \\sqrt{49 \\times 2} = \\sqrt{49}\\sqrt{2} = 7\\sqrt{2}$",
-      "source_images": [
-        "image131.png"
-      ]
+      "content_latex": "8. Evaluate, correct to 3 significant figures, using your calculator:\n\n(a) $3^{\\frac{3}{4}}$\n\n(b) $27^{-\\frac{1}{5}}$\n\n(c) $\\sqrt[4]{100}$\n\n9. How many times smaller is $8 \\times 10^7$ than $8 \\times 10^9$?",
+      "source_images": ["image149.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "1. Simplify:\n(a) $(\\sqrt{3})^2$ (b) $(\\sqrt{7})^2$ (c) $(\\sqrt{13})^2$ (d) $(\\sqrt{24})^2$\n(e) $\\frac{\\sqrt{14}}{\\sqrt{7}}$ (f) $\\frac{\\sqrt{24}}{\\sqrt{6}}$ (g) $\\frac{\\sqrt{18}}{\\sqrt{2}}$ (h) $\\frac{\\sqrt{39}}{\\sqrt{13}}$\n(i) $(2\\sqrt{2})^2$ (j) $(3\\sqrt{5})^2$ (k) $(7\\sqrt{2})^2$ (l) $(2\\sqrt{7})^2$\n\n2. Write in simplest form:\n(a) $\\sqrt{8}$ (b) $\\sqrt{24}$ (c) $\\sqrt{28}$ (d) $\\sqrt{52}$\n(e) $\\sqrt{18}$ (f) $\\sqrt{32}$ (g) $\\sqrt{27}$ (h) $\\sqrt{48}$\n(i) $\\sqrt{72}$ (j) $\\sqrt{50}$ (k) $\\sqrt{125}$ (l) $\\sqrt{63}$\n(m) $\\sqrt{80}$ (n) $\\sqrt{200}$ (o) $\\sqrt{75}$ (p) $\\sqrt{112}$\n\n*Tip: Look for the highest perfect square factor under the radical sign.*",
-      "source_images": [
-        "image132.png"
-      ]
-    },
-    {
-      "type": "section_header",
-      "content_latex": "RATIONAL (FRACTIONAL) INDICES",
-      "source_images": [
-        "image133.png"
-      ]
-    },
-    {
-      "type": "investigation",
-      "content_latex": "This investigation will help you discover the meaning of numbers raised to rational indices.\n\n*Remember that $a^m \\times a^n = a^{m+n}$ and $(a^m)^n = a^{m \\times n}$.*\n\nWhat to do:\n\n1. Notice that $5^{\\frac{1}{2}} \\times 5^{\\frac{1}{2}} = 5^{\\frac{1}{2}+\\frac{1}{2}} = 5^1 = 5$ and $\\sqrt{5} \\times \\sqrt{5} = 5$.\nCopy and complete the following:\n(a) $3^{\\frac{1}{2}} \\times 3^{\\frac{1}{2}} = ...... = ...... = ......$ (b) $\\sqrt{3} \\times \\sqrt{3} = ......$\n(c) $13^{\\frac{1}{2}} \\times 13^{\\frac{1}{2}} = ...... = ...... = ......$ (d) $\\sqrt{13} \\times \\sqrt{13} = ......$\n\n2. Notice that $(7^{\\frac{1}{3}})^3 = 7^{\\frac{1}{3} \\times 3} = 7^1 = 7$ and $(\\sqrt[3]{7})^3 = 7$.\nCopy and complete the following:\n(a) $(8^{\\frac{1}{3}})^3 = ...... = ...... = ......$ (b) $(\\sqrt[3]{8})^3 = ......$\n(c) $(27^{\\frac{1}{3}})^3 = ...... = ...... = ......$ (d) $(\\sqrt[3]{27})^3 = ......$\n\n*Note: $\\sqrt[3]{7}$ is read as \"the cube root of 7\".*\n\n3. Suggest a rule for:\n(a) $a^{\\frac{1}{2}} = ......$ (b) $a^{\\frac{1}{3}} = ......$ (c) the general case: $a^{\\frac{1}{n}} = ......$",
-      "source_images": [
-        "image134.png"
-      ]
-    },
-    {
-      "type": "concept",
-      "content_latex": "From the investigation, we can conclude that $a^{\\frac{1}{2}} = \\sqrt{a}$ and $a^{\\frac{1}{3}} = \\sqrt[3]{a}$.\n\nIn general, $a^{\\frac{1}{n}} = \\sqrt[n]{a}$ where $\\sqrt[n]{a}$ is called the '$n$th root of $a$'.",
-      "source_images": [
-        "image135.png"
-      ]
-    },
-    {
-      "type": "investigation",
-      "content_latex": "This Investigation will help you discover the meaning of numbers raised to rational indices of the form $\\frac{m}{n}$ where $m, n \\in \\mathbb{Z}$, $n \\neq 0$.\n\nFor example, what does $8^{\\frac{2}{3}}$ mean?\n\nWhat to do:\n\n1. Use the rule $(a^m)^n = a^{mn}$ to simplify $(8^2)^{\\frac{1}{3}}$ and $\\left(8^{\\frac{1}{3}}\\right)^2$.\n\n2. Simplify:\n(a) $(8^2)^{\\frac{1}{3}} = \\sqrt[3]{8^2} = ......$ (b) $\\left(8^{\\frac{1}{3}}\\right)^2 = (\\sqrt[3]{8})^2 = ......$\n\n3. Hence write $a^{\\frac{m}{n}}$ in two different forms.",
-      "source_images": [
-        "image136.png"
-      ]
-    },
-    {
-      "type": "concept",
-      "content_latex": "$a^{\\frac{m}{n}} = \\left(\\sqrt[n]{a}\\right)^m = \\sqrt[n]{a^m}$.",
-      "source_images": [
-        "image137.png"
-      ]
-    },
-    {
-      "type": "example",
-      "content_latex": "Simplify: a $16^{\\frac{1}{2}}$ (b) $8^{\\frac{1}{3}}$ (c) $16^{-\\frac{1}{2}}$ (d) $8^{-\\frac{1}{3}}$\n\nSolution:\n(a) $16^{\\frac{1}{2}} = \\sqrt{16} = 4$\n\n(b) $8^{\\frac{1}{3}} = \\sqrt[3]{8} = 2$\n\n(c) $16^{-\\frac{1}{2}} = \\frac{1}{16^{\\frac{1}{2}}} = \\frac{1}{\\sqrt{16}} = \\frac{1}{4}$\n\n(d) $8^{-\\frac{1}{3}} = \\frac{1}{8^{\\frac{1}{3}}} = \\frac{1}{\\sqrt[3]{8}} = \\frac{1}{2}$",
-      "source_images": [
-        "image138.png"
-      ]
-    },
-    {
-      "type": "example",
-      "content_latex": "Write each of the following in index form:\n(a) $\\sqrt{3}$ (b) $\\sqrt[3]{7}$ (c) $\\frac{1}{\\sqrt[4]{7}}$\n\nSolution:\n(a) $\\sqrt{3} = 3^{\\frac{1}{2}}$\n\n(b) $\\sqrt[3]{7} = 7^{\\frac{1}{3}}$\n\n(c) $\\frac{1}{\\sqrt[4]{7}} = \\frac{1}{7^{\\frac{1}{4}}} = 7^{-\\frac{1}{4}}$",
-      "source_images": [
-        "image139.png"
-      ]
-    },
-    {
-      "type": "example",
-      "content_latex": "Evaluate without using a calculator:\n(a) $8^{\\frac{4}{3}}$ (b) $32^{-\\frac{2}{5}}$\n\nSolution:\n(a) $8^{\\frac{4}{3}} = (2^3)^{\\frac{4}{3}} = 2^{3 \\times \\frac{4}{3}} = 2^4 = 16$\n\n(b) $32^{-\\frac{2}{5}} = (2^5)^{-\\frac{2}{5}} = 2^{5 \\times -\\frac{2}{5}} = 2^{-2} = \\frac{1}{4}$",
-      "source_images": [
-        "image140.png"
-      ]
-    },
-    {
-      "type": "section_header",
-      "content_latex": "EXERCISE",
-      "source_images": [
-        "image141.png"
-      ]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "1. Evaluate the following without using a calculator:\n(a) $4^{\\frac{1}{2}}$ (b) $4^{-\\frac{1}{2}}$ (c) $9^{\\frac{1}{2}}$ (d) $9^{-\\frac{1}{2}}$\n(e) $36^{\\frac{1}{2}}$ (f) $36^{-\\frac{1}{2}}$ (g) $8^{\\frac{1}{3}}$ (h) $8^{-\\frac{1}{3}}$\n(i) $1000^{\\frac{1}{3}}$ (j) $1000^{-\\frac{1}{3}}$ (k) $27^{\\frac{1}{3}}$ (l) $27^{-\\frac{1}{3}}$\n\n2. Write each of the following in index form:\n(a) $\\sqrt{11}$ (b) $\\frac{1}{\\sqrt{11}}$ (c) $\\sqrt{12}$ (d) $\\frac{1}{\\sqrt{12}}$\n(e) $\\sqrt[3]{26}$ (f) $\\frac{1}{\\sqrt[3]{26}}$ (g) $\\sqrt[4]{7}$ (h) $\\frac{1}{\\sqrt[5]{7}}$\n\n3. Write the following as powers of 2:\n(a) $\\sqrt[4]{2}$ (b) $\\sqrt[5]{2}$ (c) $\\sqrt[4]{4}$ (d) $\\sqrt[3]{16}$\n(e) $\\frac{1}{\\sqrt[4]{8}}$ (f) $\\frac{1}{\\sqrt[3]{16}}$ (g) $\\frac{1}{\\sqrt[7]{8}}$ (h) $\\frac{1}{\\sqrt[5]{64}}$",
-      "source_images": [
-        "image142.png"
-      ]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "4. Write the following as powers of 3:\n(a) $\\sqrt[3]{3}$ (b) $\\sqrt[4]{27}$ (c) $\\frac{1}{\\sqrt[4]{3}}$ (d) $\\frac{1}{\\sqrt[3]{9}}$",
-      "source_images": [
-        "image143.png"
-      ]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "5. Evaluate without using a calculator:\n(a) $4^{\\frac{3}{2}}$ (b) $4^{\\frac{5}{2}}$ (c) $8^{\\frac{2}{3}}$ (d) $8^{\\frac{5}{3}}$\n(e) $16^{\\frac{3}{4}}$ (f) $9^{\\frac{3}{2}}$ (g) $9^{-\\frac{3}{2}}$ (h) $4^{-\\frac{1}{2}}$\n(i) $16^{-\\frac{3}{4}}$ (j) $8^{-\\frac{2}{3}}$ (k) $27^{-\\frac{4}{3}}$ (l) $32^{-0.6}$",
-      "source_images": [
-        "image144.png"
-      ]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "1. Evaluate without using your calculator:\n(a) $16^{\\frac{1}{2}}$ (b) $16^{-\\frac{1}{2}}$ (c) $25^{\\frac{1}{2}}$ (d) $25^{-\\frac{1}{2}}$\n(e) $8^{\\frac{1}{3}}$ (f) $8^{-\\frac{1}{3}}$ (g) $(-8)^{\\frac{1}{3}}$ (h) $(-8)^{-\\frac{1}{3}}$\n(i) $81^{\\frac{1}{4}}$ (j) $81^{-\\frac{1}{4}}$ (k) $32^{\\frac{1}{5}}$ (l) $32^{-\\frac{1}{5}}$\n\n2. Evaluate if possible:\n(a) $(-1)^{\\frac{1}{2}}$ (b) $(-1)^{\\frac{1}{3}}$ (c) $(-27)^{-\\frac{1}{3}}$ (d) $(-64)^{-\\frac{1}{2}}$",
-      "source_images": [
-        "image145.png"
-      ]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "3. Write the following in index form:\n(a) $\\sqrt{10}$ (b) $\\frac{1}{\\sqrt{10}}$ (c) $\\sqrt[3]{15}$ (d) $\\frac{1}{\\sqrt[3]{15}}$\n(e) $\\sqrt[5]{19}$ (f) $\\frac{1}{\\sqrt[4]{19}}$ (g) $\\sqrt[9]{13}$ (h) $\\frac{1}{\\sqrt[7]{13}}$\n\n4. Evaluate without using a calculator:\n(a) $8^{\\frac{2}{3}}$ (b) $4^{\\frac{3}{2}}$ (c) $4^{\\frac{5}{2}}$ (d) $8^{\\frac{5}{3}}$\n(e) $16^{\\frac{3}{4}}$ (f) $9^{\\frac{3}{2}}$ (g) $9^{-\\frac{3}{2}}$ (h) $4^{-\\frac{1}{2}}$\n(i) $32^{\\frac{1}{5}}$ (j) $32^{\\frac{2}{5}}$ (k) $32^{\\frac{3}{5}}$ (l) $16^{-\\frac{3}{4}}$\n(m) $8^{-\\frac{2}{3}}$ (n) $27^{-\\frac{4}{3}}$ (o) $25^{\\frac{3}{2}}$\n\n5. Write the following as powers of 2:\n(a) $\\sqrt{8}$ (b) $\\sqrt[3]{32}$ (c) $\\sqrt[4]{4}$ (d) $\\sqrt[3]{16}$\n(e) $\\frac{1}{\\sqrt[4]{8}}$ (f) $\\frac{1}{\\sqrt[3]{16}}$ (g) $\\frac{1}{\\sqrt[7]{8}}$ (h) $\\frac{1}{\\sqrt[5]{64}}$\n(i) $8\\sqrt{2}$ (j) $4\\sqrt{32}$ (k) $\\frac{2}{\\sqrt[4]{4}}$ (l) $\\frac{4\\sqrt{32}}{8}$\n\n6. Write the following as powers of 3:\n(a) $\\sqrt[3]{9}$ (b) $\\sqrt{27}$ (c) $\\frac{1}{\\sqrt[4]{27}}$ (d) $\\frac{1}{\\sqrt[4]{81}}$\n(e) $9\\sqrt{3}$ (f) $3\\sqrt{27}$ (g) $\\frac{9}{\\sqrt{3}}$ (h) $\\frac{\\sqrt[3]{81}}{9}$\n\n7. Write with a prime number base:\n(a) $\\sqrt[5]{25}$ (b) $\\sqrt[3]{32}$ (c) $\\sqrt[3]{125}$ (d) $\\sqrt[4]{121}$\n(e) $\\frac{1}{\\sqrt[3]{49}}$ (f) $\\frac{1}{\\sqrt[5]{64}}$ (g) $\\frac{1}{\\sqrt[4]{625}}$ (h) $\\frac{1}{\\sqrt[3]{243}}$\n(i) $16\\sqrt{8}$ (j) $25\\sqrt{125}$ (k) $\\frac{13}{\\sqrt[3]{169}}$ (l) $\\frac{81}{\\sqrt{27}}$",
-      "source_images": [
-        "image146.png"
-      ]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "i $16\\sqrt{8}$ (j) $25\\sqrt{125}$ (k) $\\frac{13}{\\sqrt[3]{169}}$ (l) $\\frac{81}{\\sqrt{27}}$\n\n8. Use your calculator to evaluate, rounded to 3 significant figures where necessary:\n(a) $25^{\\frac{3}{2}}$ (b) $27^{\\frac{2}{3}}$ (c) $8^{\\frac{7}{3}}$ (d) $9^{\\frac{2}{5}}$\n(e) $10^{\\frac{3}{7}}$ (f) $15^{\\frac{5}{3}}$ (g) $10^{\\frac{2}{7}}$ (h) $18^{\\frac{7}{3}}$\n(i) $16^{\\frac{3}{11}}$ (j) $146^{\\frac{4}{9}}$ (k) $4^{-\\frac{5}{2}}$ (l) $27^{-\\frac{5}{3}}$\n(m) $15^{-\\frac{2}{5}}$ (n) $53^{-\\frac{3}{7}}$ (o) $3^{-\\frac{7}{5}}$\n\n9. Without using your calculator, evaluate $\\frac{\\sqrt[3]{9} \\times \\sqrt[4]{27}}{\\sqrt[12]{243}}$.",
-      "source_images": [
-        "image147.png"
-      ]
-    },
-    {
-      "type": "review_set",
-      "content_latex": "REVIEW SET 2A\n\n1. Simplify:\n(a) $-(-1)^{10}$ (b) $-(-3)^3$ (c) $3^0 - 3^{-1}$\n\n2. Simplify using the index laws:\n(a) $a^4b^5 \\times a^2b^2$ (b) $6xy^5 \\div 9x^2y^5$ (c) $\\frac{5(x^2y)^2}{(5x^2)^2}$\n\n3. Write the following as powers of 2:\n(a) $2 \\times 2^{-4}$ (b) $16 \\div 2^{-3}$ (c) $8^4$\n\n4. Write without brackets or negative indices:\n(a) $b^{-3}$ (b) $(ab)^{-1}$ (c) $ab^{-1}$\n\n5. Evaluate, giving answers in scientific notation:\n(a) $(2 \\times 10^5)^3$ (b) $(3 \\times 10^8) \\div (4 \\times 10^{-5})$\n\n6. Find the value of $x$, without using your calculator:\n(a) $2^{x-3} = \\frac{1}{32}$ (b) $9^x = 27^{2-2x}$\n\n7. Evaluate without using a calculator:\n(a) $8^{\\frac{2}{3}}$ (b) $27^{-\\frac{2}{3}}$",
-      "source_images": [
-        "image148.png"
-      ]
-    },
-    {
-      "type": "review_set",
-      "content_latex": "8. Evaluate, correct to 3 significant figures, using your calculator:\n(a) $3^{\\frac{3}{4}}$ (b) $27^{-\\frac{1}{5}}$ (c) $\\sqrt[4]{100}$\n\n9. How many times smaller is $8 \\times 10^7$ than $8 \\times 10^9$?",
-      "source_images": [
-        "image149.png"
-      ]
-    },
-    {
-      "type": "review_set",
       "content_latex": "10. If $N = \\frac{ab^3}{c^2}$, find the value of $N$ when $a = 2.39 \\times 10^{-11}$, $b = 8.97 \\times 10^5$ and $c = 1.09 \\times 10^{-3}$. Give your answer correct to 3 significant figures.",
-      "source_images": [
-        "image150.png"
-      ]
-    },
-    {
-      "type": "review_set",
-      "content_latex": "REVIEW SET 2B\n\n1. Simplify:\n(a) $-(-2)^3$ (b) $5^{-1} - 5^0$\n\n2. Simplify using the index laws:\n(a) $(a^7)^3$ (b) $pq^2 \\times p^3q^4$ (c) $\\frac{8ab^5}{2a^3b^4}$\n\n3. Write as powers of 2:\n(a) $\\frac{1}{16}$ (b) $2^x \\times 4$ (c) $4^x \\div 8$\n\n4. Write without brackets or negative indices:\n(a) $x^{-2} \\times x^{-3}$ (b) $2(ab)^{-2}$ (c) $2ab^{-2}$\n\n5. Solve for $x$ without using a calculator:\n(a) $2^{x+1} = 32$ (b) $4^{x+1} = \\left(\\frac{1}{8}\\right)^x$\n\n6. Evaluate, giving answers in scientific notation:\n(a) $(3 \\times 10^9) \\div (5 \\times 10^{-2})$ (b) $(9 \\times 10^{-3})^2$\n\n7. Evaluate without using a calculator:\n(a) $16^{\\frac{3}{4}}$ (b) $25^{-\\frac{3}{2}}$\n\n8. Use your calculator to evaluate, correct to 3 significant figures:\n(a) $4^{\\frac{4}{3}}$ (b) $20^{-\\frac{1}{2}}$ (c) $\\sqrt[3]{30}$\n\n9. How many times larger is $3 \\times 10^{-14}$ than $3 \\times 10^{-20}$?\n\n10. If $K = \\frac{m^2n}{p^3}$, find $K$ when $m = 5.62 \\times 10^{11}$, $n = 7.97 \\times 10^{-9}$ and $p = 8.44 \\times 10^{-4}$. Give your answer correct to 3 significant figures.",
-      "source_images": [
-        "image151.png"
-      ]
-    },
-    {
-      "type": "review_set",
-      "content_latex": "REVIEW SET (continued)\n\n1. Simplify using the index laws:\n(a) $k^5 \\times k^3$ (b) $\\frac{p^6}{p}$ (c) $(m^6)^8$\n\n2. Remove the brackets of:\n(a) $(3w)^2$ (b) $(2x^2y)^3$ (c) $\\left(\\frac{a}{b}\\right)^6$ (d) $\\left(\\frac{1}{5n}\\right)^3$",
-      "source_images": [
-        "image152.png"
-      ]
-    },
-    {
-      "type": "review_set",
-      "content_latex": "3 a $7^{-1}$ (b) $\\left(\\frac{4}{3}\\right)^{-1}$ (c) $11^0 - 11^{-1}$ (d) $(\\frac{1}{3})^{-3}$\n\n4. Write using scientific notation:\n(a) 50000 (b) 0.009 (c) 6085000 (d) 0.00000771\n\n5. Evaluate without using a calculator:\n(a) $49^{\\frac{1}{2}}$ (b) $64^{\\frac{1}{3}}$ (c) $125^{\\frac{2}{3}}$ (d) $27^{-\\frac{2}{3}}$\n\n6. Write as an ordinary decimal number:\n(a) $6.23 \\times 10^5$ (b) $3.008 \\times 10^{-4}$ (c) $4.587 \\times 10^6$\n\n7. Write with a prime number base:\n(a) $\\sqrt[5]{16}$\n\n8. Use your calculator to evaluate the following correct to 3 significant figures:\n(a) $\\sqrt[4]{53}$\n\n9. Simplify the following, writing your answers in scientific notation:\n(a) $(7 \\times 10^5) \\times (3 \\times 10^4)$ (b) $\\frac{2.7 \\times 10^{-8}}{3.5 \\times 10^{-4}}$ (c) $\\frac{8 \\times 10^5}{2 \\times 10^{-4}}$\n\n7. Write the following as powers of 2:\n(a) $\\sqrt[3]{8}$\n\n8. How much times larger is $3.5 \\times 10^{14}$ than $5 \\times 10^{9}$?\n\n9. Find the smaller of $2^{50}$ and $7^{25}$ without using a calculator.\n\n10. The table alongside shows the diameters of the planets in the solar system.\n(a) Find the diameter of Saturn in:\n  (i) kilometres ii centimetres.\n(b) Find the radius of Venus.\n(c) Write the planets in order of size, from smallest to largest.\n(d) How many times greater is the diameter of:\n  i Uranus than Mercury?\n  ii Jupiter than Mars?\n\n| Planet | Diameter |\n|--------|----------|\n| Mercury | $4.88 \\times 10^6$ m |\n| Venus | $1.21 \\times 10^7$ m |\n| Earth | $1.27 \\times 10^7$ m |\n| Mars | $6.79 \\times 10^6$ m |\n| Jupiter | $1.40 \\times 10^8$ m |\n| Saturn | $1.21 \\times 10^8$ m |\n| Uranus | $5.11 \\times 10^7$ m |\n| Neptune | $4.95 \\times 10^7$ m |\n\n11 a Write $(\\sqrt[4]{7} \\times \\sqrt[3]{7})^6$ as a power of 7.\n(b) Hence, show that $\\sqrt[4]{7} \\times \\sqrt[3]{7} = \\sqrt[12]{7^7}$.\n(c) Use the index laws to show that $\\sqrt[9]{11} \\times \\sqrt[7]{11} = \\sqrt[63]{11^{16}}$.\n(d) Hence, write $\\sqrt[9]{11} \\times \\sqrt[7]{11}$ as a power of 11.",
-      "source_images": [
-        "image153.png",
-        "image154.png"
-      ]
+      "source_images": ["image150.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "Simplify all these expressions\n\n$a \\times a =$\n$y \\times y \\times y \\times y =$\n$p \\times p \\times p =$\n$w \\times w \\times w \\times w \\times w =$\n$i \\times i \\times i \\times i \\times i \\times i =$\n$k \\times k \\times k \\times k =$\n$5a \\times b =$\n$8f \\times 2x =$\n$9y \\times 3z =$\n$5j \\times 3k =$\n$7d \\times 3e =$\n$12a \\times 5b =$\n$15c \\times 2c =$\n$7u \\times 8u =$\n$8g \\times 5g =$\n$6r^2 \\times r =$\n$5p^3q \\times 3p =$\n$10h^2j \\times 8j =$\n$6b^2 \\times 9b^3 \\times b =$\n$-8y \\times 6y^2 =$\n$4r^2 \\times 9r^2 \\times r =$\n$-5w^3 \\times -6w^2 =$\n$3y^2 \\times 6y^2 \\times y =$\n$2g^3f \\times 6gf^2 =$\n$4p^2qr \\times 5r \\times 2p =$\n\n$(y^2)^3 =$\n$(5a)^2 =$\n$(2y)^5 =$\n$(3y)^2 =$\n$(5xy)^3 =$\n$-(2x)^2 =$\n$(-2x)^2 =$\n$(x^2)^7 =$\n$(k^2h^3)^2 =$\n$w^0 =$\n$\\sqrt{49a^{12}} =$\n$\\sqrt{x^{100}} =$\n$\\sqrt{9a^{10}b^6} =$\n$\\sqrt{100g^2h^{100}} =$\n\nIf $a = 2$, $b = 5$, $c = 10$ calculate:\n$(a + b)^2 =$\n$4b^2 - (3a)^2 =$\n$(a^2)^2 =$\n$c^2 - a^2 + b^2 =$\n$(2a^2)^3 =$\n$2c^2 - 2b^2 =$\n$4(a^4 - 10) =$\n$b(5c - a^2) =$\n$3a + 4c^3 =$\n$\\sqrt{c^2} =$",
-      "source_images": [
-        "image155.png"
-      ]
+      "content_latex": "REVIEW SET 2B\n\n1. Simplify:\n\n(a) $-(-2)^3$\n\n(b) $5^{-1} - 5^0$\n\n2. Simplify using the index laws:\n\n(a) $(a^7)^3$\n\n(b) $pq^2 \\times p^3q^4$\n\n(c) $\\frac{8ab^5}{2a^4b^4}$\n\n3. Write as powers of 2:\n\n(a) $\\frac{1}{16}$\n\n(b) $2^x \\times 4$\n\n(c) $4^x \\div 8$\n\n4. Write without brackets or negative indices:\n\n(a) $x^{-2} \\times x^{-3}$\n\n(b) $2(ab)^{-2}$\n\n(c) $2ab^{-2}$\n\n5. Solve for $x$ without using a calculator:\n\n(a) $2^{x+1} = 32$\n\n(b) $4^{x+1} = \\left(\\frac{1}{8}\\right)^x$\n\n6. Evaluate, giving answers in scientific notation:\n\n(a) $(3 \\times 10^9) \\div (5 \\times 10^{-2})$\n\n(b) $(9 \\times 10^{-3})^2$\n\n7. Evaluate without using a calculator:\n\n(a) $16^{\\frac{3}{4}}$\n\n(b) $25^{-\\frac{3}{2}}$\n\n8. Use your calculator to evaluate, correct to 3 significant figures:\n\n(a) $4^{\\frac{2}{3}}$\n\n(b) $20^{-\\frac{1}{2}}$\n\n(c) $\\sqrt[3]{30}$\n\n9. How many times larger is $3 \\times 10^{-14}$ than $3 \\times 10^{-20}$?\n\n10. If $K = \\frac{m^2n}{p^3}$, find $K$ when $m = 5.62 \\times 10^{11}$, $n = 7.97 \\times 10^{-9}$ and $p = 8.44 \\times 10^{-4}$. Give your answer correct to 3 significant figures.",
+      "source_images": ["image151.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "Simplify fractions with indices\n\n$\\frac{x}{x} =$\n$\\frac{7}{w} - \\frac{5}{w} =$\n$\\frac{x}{5} + \\frac{x}{15} =$\n$\\frac{b}{3} - \\frac{b}{6} =$\n$\\frac{2}{x^2} - \\frac{2}{x} =$\n$\\frac{7}{x^3} + \\frac{4}{x} =$\n$\\frac{5}{4} + \\frac{5}{3} =$\n$\\frac{x}{3} - \\frac{x}{7} =$\n$\\frac{r}{5} + \\frac{r}{8} =$\n$\\frac{x}{a} + \\frac{2}{d} =$\n$\\frac{4}{m} - \\frac{x}{n} =$\n$\\frac{5}{a} + \\frac{c}{c} =$\n$\\frac{7}{xy} + \\frac{2}{y} =$\n$\\frac{5}{ab} - \\frac{3}{a} =$\n$\\frac{7}{x} + \\frac{7}{xy} =$\n$\\frac{3h}{gh} =$\n$\\frac{12m}{4n} =$\n$\\frac{6x}{18y} =$\n$\\frac{mp}{6m} =$\n$\\frac{3m^3}{6m^2} =$\n\n$\\frac{8w^5}{8w^3} =$\n$\\frac{8x^5}{4x^3} =$\n$\\frac{50r^4}{5r^2} =$\n$\\frac{7e^7}{21e^3} =$\n$\\frac{5m^6}{25m^4} =$\n$\\frac{12r^4}{3r^3} =$\n$\\frac{27m^4}{9m} =$\n$\\frac{8a}{15n} \\times \\frac{5c}{4a} =$\n$\\frac{3c}{4e} \\times \\frac{2e^3}{4c} =$\n$\\frac{5ab}{2a} \\times \\frac{5a}{10ab} =$\n$\\frac{3}{4b} \\times \\frac{15}{8b^2} =$\n$\\frac{3ab^3}{5cd} \\times \\frac{5c}{7a^2} =$\n\nIf $a = \\frac{1}{2}$, $b = 4$, $c = 10$ calculate:\n$\\frac{2a + b}{c} =$\n$\\frac{4a^2}{b} =$\n$\\frac{ac}{bc} \\times \\frac{bc}{ac} =$\n$\\frac{c}{b} \\times \\frac{a}{b} =$\n$\\frac{c}{b} \\div \\frac{a}{b} =$\n$\\frac{4a + c}{b} =$\n$a(c^2 + b^2) =$",
-      "source_images": [
-        "image156.png"
-      ]
+      "content_latex": "REVIEW SET 3A\n\n1. Simplify using the index laws:\n\n(a) $k^5 \\times k^3$\n\n(b) $\\frac{p^6}{p}$\n\n(c) $(m^6)^8$\n\n2. Remove the brackets of:\n\n(a) $(3w)^2$\n\n(b) $(2x^2y)^3$\n\n(c) $\\left(\\frac{a}{b}\\right)^6$\n\n(d) $\\left(\\frac{1}{5n}\\right)^3$",
+      "source_images": ["image152.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Simplify, giving your answer with a positive index:\n\n(a) $7^{-1}$\n\n(b) $\\left(\\frac{4}{3}\\right)^{-1}$\n\n(c) $11^0 - 11^{-1}$\n\n(d) $\\left(1\\frac{3}{4}\\right)^{-2}$\n\n4. Write using scientific notation:\n\n(a) $59000$\n\n(b) $0.009$\n\n(c) $6085000$\n\n(d) $0.00000771$\n\n5. Evaluate without using a calculator:\n\n(a) $49^{\\frac{1}{2}}$\n\n(b) $64^{-\\frac{1}{3}}$\n\n(c) $125^{\\frac{4}{3}}$\n\n(d) $27^{-\\frac{2}{3}}$\n\n6. Write as an ordinary decimal number:\n\n(a) $6.23 \\times 10^5$\n\n(b) $3.008 \\times 10^{-4}$\n\n(c) $4.597 \\times 10^0$\n\n7. Write with a prime number base:\n\n(a) $\\sqrt[5]{16}$\n\n(b) $\\frac{1}{\\sqrt[3]{9}}$\n\n(c) $\\frac{625}{\\sqrt{5}}$\n\n(d) $8\\sqrt{32}$\n\n8. Use your calculator to evaluate the following correct to 3 significant figures:\n\n(a) $\\sqrt[3]{20}$\n\n(b) $\\frac{1}{\\sqrt[6]{100}}$\n\n(c) $10^{\\frac{5}{4}}$\n\n(d) $15^{-\\frac{3}{7}}$\n\n9. Write without brackets or negative indices:\n\n(a) $(mn)^{-2}$\n\n(b) $mn^{-2}$\n\n(c) $\\left(\\frac{x}{5y^2}\\right)^{-3}$\n\n10. Simplify the following, writing your answers in scientific notation:\n\n(a) $(6 \\times 10^5) \\times (3 \\times 10^6)$\n\n(b) $(8 \\times 10^9) \\times (5 \\times 10^{-4})$\n\n(c) $\\frac{9 \\times 10^{-5}}{6 \\times 10^3}$\n\n(d) $(8 \\times 10^7)^{-1}$\n\n11. Write the answers to the following in scientific notation:\n\n(a) The speed of light in a vacuum is about $2.998 \\times 10^8$ m s$^{-1}$.\nAssuming 1 year $\\approx 365.25$ days, determine how far light travels in:\n\n(i) 1 hour\n\n(ii) 1 day\n\n(iii) 1 year.\n\n(b) How long does it take for light to travel:\n\n(i) 1 m\n\n(ii) 1 cm\n\n(iii) 1 mm?\n\n(c) In air, light travels at $2.989 \\times 10^8$ m s$^{-1}$ and sound travels at $343.2$ m s$^{-1}$.\nHow many times faster is light than sound?",
+      "source_images": ["image153.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 3B\n\n1. Express in simplest form with a prime number base:\n\n(a) $8^2$\n\n(b) $\\frac{25^x}{125}$\n\n(c) $\\frac{49^{k+3}}{7^{k-1}}$\n\n2. Simplify using one or more of the index laws:\n\n(a) $5c^3 \\times 3c^4$\n\n(b) $\\frac{14x^5y^2}{2x^2y}$\n\n(c) $\\left(\\frac{3p}{q^{-3}}\\right)^2$\n\n3. Evaluate $27^{\\frac{4}{3}}$ without using a calculator.\n\n4. Write without brackets or negative indices:\n\n(a) $\\left(\\frac{a}{b}\\right)^{-2}$\n\n(b) $\\left(\\frac{3a^{-1}}{2b^2}\\right)^{-3}$\n\n5. (a) Write using index notation:\n\n(i) $\\sqrt[3]{13}$\n\n(ii) $\\frac{1}{\\sqrt[5]{40}}$\n\n(b) Use your calculator to evaluate $\\frac{1}{\\sqrt[5]{40}}$ correct to 3 significant figures.\n\n6. Simplify the following, writing your answers in scientific notation:\n\n(a) $(7 \\times 10^5) \\times (3 \\times 10^9)$\n\n(b) $\\frac{2.7 \\times 10^{-4}}{4.5 \\times 10^7}$\n\n(c) $\\frac{8 \\times 10^7}{2 \\times 10^{-3}}$\n\n7. Write the following as powers of 2:\n\n(a) $\\sqrt[4]{8}$\n\n(b) $\\frac{1}{\\sqrt[5]{16}}$\n\n(c) $\\frac{4}{\\sqrt{32}}$\n\n8. How many times larger is $3.5 \\times 10^{11}$ than $5 \\times 10^9$?\n\n9. Find the smaller of $2^{60}$ and $7^{20}$ without using a calculator.\n\n10. The table alongside shows the diameters of the planets in the solar system.\n\n| Planet | Diameter |\n|--------|----------|\n| Mercury | $4.88 \\times 10^6$ m |\n| Venus | $1.21 \\times 10^7$ m |\n| Earth | $1.27 \\times 10^7$ m |\n| Mars | $6.79 \\times 10^6$ m |\n| Jupiter | $1.40 \\times 10^8$ m |\n| Saturn | $1.21 \\times 10^8$ m |\n| Uranus | $5.11 \\times 10^7$ m |\n| Neptune | $4.95 \\times 10^7$ m |\n\n(a) Find the diameter of Saturn in:\n\n(i) kilometres\n\n(ii) centimetres.\n\n(b) Find the radius of Venus.\n\n(c) Write the planets in order of size, from smallest to largest.\n\n(d) How many times greater is the diameter of:\n\n(i) Uranus than Mercury\n\n(ii) Jupiter than Mars?\n\n11. (a) Write $(\\sqrt[5]{7} \\times \\sqrt[4]{7})^{20}$ as a power of 7.\n\n(b) Hence, show that $\\sqrt[5]{7} \\times \\sqrt[4]{7} = 7^{\\frac{9}{20}}$.\n\n(c) Use the index laws to show that $\\sqrt[m]{a} \\times \\sqrt[n]{a} = a^{\\frac{m+n}{mn}}$.\n\n(d) Hence, write $\\sqrt[3]{11} \\times \\sqrt[5]{11}$ as a power of 11.",
+      "source_images": ["image154.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Simplify all these expressions\n\n$a \\times a =$\n\n$y \\times y \\times y \\times y =$\n\n$p \\times p \\times p =$\n\n$w \\times w \\times w \\times w \\times w =$\n\n$i \\times i \\times i \\times i \\times i \\times i =$\n\n$k \\times k \\times k \\times k =$\n\n$5a \\times b =$\n\n$8f \\times 2x =$\n\n$9y \\times 3z =$\n\n$5j \\times 3k =$\n\n$7d \\times 3e =$\n\n$12a \\times 5b =$\n\n$15c \\times 2c =$\n\n$7u \\times 8u =$\n\n$8g \\times 5g =$\n\n$6r^2 \\times r =$\n\n$5p^3q \\times 3p =$\n\n$10h^2j \\times 8j =$\n\n$6b^2 \\times 9b^3 \\times b =$\n\n$-8y \\times 6y^2 =$\n\n$4r^2 \\times 9r^2 \\times r =$\n\n$-5w^3 \\times -6w^2 =$\n\n$3y^2 \\times 6y^2 \\times y =$\n\n$2g^3f \\times 6gf^2 =$\n\n$4p^2qr \\times 5r \\times 2p =$\n\n$(y^2)^3 =$\n\n$(5a)^2 =$\n\n$(2y)^5 =$\n\n$(3y)^2 =$\n\n$(5xy)^3 =$\n\n$-(2x)^2 =$\n\n$(-2x)^2 =$\n\n$(x^2)^7 =$\n\n$(k^5h^3)^2 =$\n\n$w^0 =$\n\n$\\sqrt{49a^{12}} =$\n\n$\\sqrt{x^{100}} =$\n\n$\\sqrt{9a^{10}b^6} =$\n\n$\\sqrt{100g^2h^{100}} =$\n\nIf $a = 2$, $b = 5$, $c = 10$ calculate:\n\n$(a + b)^2 =$\n\n$4b^2 - (3a)^2 =$\n\n$(a^2)^2 =$\n\n$c^2 - a^2 + b^2 =$\n\n$(2a^2)^3 =$\n\n$2c^2 - 2b^2 =$\n\n$4(a^4 - 10) =$\n\n$b(5c - a^2) =$\n\n$3a + 4c^3 =$\n\n$\\sqrt{c^2} =$",
+      "source_images": ["image155.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "$\\frac{7}{w} - \\frac{5}{w} =$\n\n$\\frac{x}{5} + \\frac{x}{15} =$\n\n$\\frac{b}{3} - \\frac{b}{6} =$\n\n$\\frac{3}{x^2} - \\frac{2}{x} =$\n\n$\\frac{2}{x^2} + \\frac{5}{x^3} =$\n\n$\\frac{7}{x^3} + \\frac{4}{x} =$\n\n$\\frac{5}{4} + \\frac{5}{3} =$\n\n$\\frac{x}{3} - \\frac{x}{7} =$\n\n$\\frac{r}{5} + \\frac{r}{8} =$\n\n$\\frac{x}{a} + \\frac{2}{d} =$\n\n$\\frac{4}{m} - \\frac{x}{n} =$\n\n$\\frac{5}{a} + \\frac{c}{c} =$\n\n$\\frac{7}{xy} + \\frac{2}{y} =$\n\n$\\frac{5}{ab} - \\frac{3}{a} =$\n\n$\\frac{7}{x} + \\frac{7}{xy} =$\n\n$\\frac{3h}{gh} =$\n\n$\\frac{12m}{4n} =$\n\n$\\frac{6x}{18y} =$\n\n$\\frac{mp}{6m} =$\n\n$\\frac{3m^4}{6m^2} =$\n\n$\\frac{8w^2}{} =$\n\n$\\frac{8x^5}{4x^3} =$\n\n$\\frac{50r^4}{5r^2} =$\n\n$\\frac{7e^7}{21e^3} =$\n\n$\\frac{5m^5}{25m^2} =$\n\n$\\frac{12r^9}{3r^3} =$\n\n$\\frac{27m^4}{9m} =$\n\n$\\frac{8a}{15n} \\times \\frac{5c}{4a} =$\n\n$\\frac{3c}{4e} \\times \\frac{2e^3}{4c} =$\n\n$\\frac{5ab}{2a} \\times \\frac{5a}{10ab} =$\n\n$\\frac{3}{4b} \\times \\frac{15}{8b^2} =$\n\n$\\frac{3ab^2}{5cd} \\times \\frac{5c}{7a^2} =$\n\nIf $a = \\frac{1}{2}$, $b = 4$, $c = 10$ calculate:\n\n$\\frac{2a + b}{c} =$\n\n$\\frac{4a^2}{b} =$\n\n$\\frac{ac}{bc} \\times \\frac{bc}{ac} =$\n\n$\\frac{c}{b} \\times \\frac{a}{b} =$\n\n$\\frac{c}{b} \\div \\frac{a}{b} =$\n\n$\\frac{4a + c}{b} =$\n\n$a(c^2 + b^2) =$",
+      "source_images": ["image156.png"]
     },
     {
       "type": "concept",
       "content_latex": "To evaluate an algebraic expression, we substitute the given numbers for the variables and then calculate the result.",
-      "source_images": [
-        "image157.png"
-      ]
+      "source_images": ["image157.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 14\n\nIf $x = 3$ and $y = 2$, evaluate: a $2x - y$ (b) $3(3y + 5x)$\n\nSolution:\n(a) $2x - y$\n$= 2 \\times 3 - 2$ {substituting}\n$= 6 - 2$\n$= 4$\n\n(b) $3(3y + 5x)$\n$= 3(3 \\times 2 + 5 \\times 3)$\n$= 3(6 + 15)$\n$= 3 \\times 21$\n$= 63$",
-      "source_images": [
-        "image158.png"
-      ]
+      "content_latex": "Example 14\n\nIf $x = 3$ and $y = 2$, evaluate:\n\n(a) $2x - y$\n\n(b) $3(3y + 5x)$\n\nSolutions:\n\n(a) $2x - y$\n$= 2 \\times 3 - 2$ {substituting}\n$= 6 - 2$\n$= 4$\n\n(b) $3(3y + 5x)$\n$= 3(3 \\times 2 + 5 \\times 3)$\n$= 3(6 + 15)$\n$= 3 \\times 21$\n$= 63$",
+      "source_images": ["image158.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "1. If $x = 5$ and $y = 6$, find the values of the following expressions:\n(a) $4x$ (b) $x + 2y$ (c) $2(x + y)$\n(d) $3y - 3x$ (e) $3(x - y)$ (f) $3x - y$\n(g) $2(5x - 2y)$ (h) $5(y - x) + 2$ (i) $2(3x - 2y)$\n(j) $2y - 5$ (k) $16 - 2x$ (l) $5 + 2y - 3x$\n\n2. If $a = 3$, $b = 2$ and $c = 5$, find the value of:\n(a) $a + b$ (b) $2a$ (c) $c^2$ (d) $bc$\n(e) $c - b$ (f) $b - c$ (g) $2ac$ (h) $2a^2$\n(i) $3bc$ (j) $4ab^2$ (k) $a(b + c)$ (l) $ab + ac$\n\n3. If $m = 4$, $n = 2$, $g = 0$ and $h = 5$, evaluate:\n(a) $3m + n$ (b) $m + 3n$ (c) $3(m + n)$ (d) $3m + 3n$\n(e) $m^2$ (f) $2m^2$ (g) $(2m)^2$ (h) $mn - gh$\n(i) $3n$ (j) $(3n)^2$ (k) $2n^2$ (l) $2g - 6$\n(m) $gm - nh$ (p) $(hn)^2$\n\n4. Given $p = 2$, $q = -3$, $r = -1$, and $s = -5$, evaluate:\n(a) $q^2$ (b) $2pq$ (c) $3p^2$ (d) $r^3$\n(e) $qrs$ (f) $q^2 + s$ (g) $s - q^2$ (h) $pq + rs$\n(i) $p^2 - q^2$ (j) $p + q^2$ (k) $(p + q)^2$ (l) $2p - 3qs$\n\n5. If $a = 3$, $b = 6$, and $c = -7$, find the value of:\n(a) $2a - b$ (b) $\\frac{b}{a}$ (c) $a - c$ (d) $ac$\n(e) $2(b - a)$ (f) $c(a - b)$ (g) $c^2$ (h) $a^2 - b^2$",
-      "source_images": [
-        "image159.png"
-      ]
+      "content_latex": "1. If $x = 5$ and $y = 6$, find the values of the following expressions:\n\n(a) $4x$\n\n(b) $x + 2y$\n\n(c) $2(x + y)$\n\n(d) $3y - 3x$\n\n(e) $3(x - y)$\n\n(f) $3x - y$\n\n(g) $2(5x - 2y)$\n\n(h) $5(y - x) + 2$\n\n(i) $2(3x - 2y)$\n\n(j) $2y - 5$\n\n(k) $16 - 2x$\n\n(l) $5 + 2y - 3x$\n\n2. If $a = 3$, $b = 2$ and $c = 5$, find the value of:\n\n(a) $a + b$\n\n(b) $2a$\n\n(c) $c^2$\n\n(d) $bc$\n\n(e) $c - b$\n\n(f) $b - c$\n\n(g) $2ac$\n\n(h) $2a^2$\n\n(i) $3bc$\n\n(j) $4ab^2$\n\n(k) $a(b + c)$\n\n(l) $ab + ac$\n\n3. If $m = 4$, $n = 2$, $g = 0$ and $h = 5$, evaluate:\n\n(a) $3m + n$\n\n(b) $m + 3n$\n\n(c) $3(m + n)$\n\n(d) $3m + 3n$\n\n(e) $m^2$\n\n(f) $2m^2$\n\n(g) $(2m)^2$\n\n(h) $mn - gh$\n\n(i) $3n$\n\n(j) $(3n)^2$\n\n(k) $2n^2$\n\n(l) $2g - 6$\n\n(m) $gm - nh$\n\n(n) $5n^3$\n\n(o) $hn^2$\n\n(p) $(hn)^2$\n\n4. Given $p = 2$, $q = -3$, $r = -1$, and $s = -5$, evaluate:\n\n(a) $q^2$\n\n(b) $2pq$\n\n(c) $3p^2$\n\n(d) $r^3$\n\n(e) $qrs$\n\n(f) $q^2 + s$\n\n(g) $s - q^2$\n\n(h) $pq + rs$\n\n(i) $p^2 - q^2$\n\n(j) $p + q^2$\n\n(k) $(p + q)^2$\n\n(l) $2p - 3qs$\n\n5. If $a = 3$, $b = 6$, and $c = -7$, find the value of:\n\n(a) $2a - b$\n\n(b) $\\frac{b}{a}$\n\n(c) $a - c$\n\n(d) $ac$\n\n(e) $2(b - a)$\n\n(f) $c(a - b)$\n\n(g) $c^2$\n\n(h) $a^2 - b^2$",
+      "source_images": ["image159.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "1. Simplify using $a^m \\times a^n = a^{m+n}$:\n(a) $k^4 \\times k^2$ (b) $5^2 \\times 5^6$ (c) $d^3 \\times d^7$\n(d) $11^4 \\times 11^a$ (e) $p^6 \\times p$ (f) $3^2 \\times 3^{-1}$\n(g) $c^8 \\times c^m$ (h) $x^k \\times x^2$ (i) $x^3 \\times x^0$\n(j) $5^{-6} \\times 5^3$ (k) $r^2 \\times r^5 \\times r^4$ (l) $2^4 \\times 2^{-2} \\times 2^{-1}$",
-      "source_images": [
-        "image160.png"
-      ]
+      "content_latex": "1. Simplify using $a^m \\times a^n = a^{m+n}$:\n\n(a) $k^4 \\times k^2$\n\n(b) $5^2 \\times 5^6$\n\n(c) $d^3 \\times d^7$\n\n(d) $11^4 \\times 11^a$\n\n(e) $p^6 \\times p$\n\n(f) $3^2 \\times 3^{-1}$\n\n(g) $c^8 \\times c^m$\n\n(h) $x^k \\times x^2$\n\n(i) $x^3 \\times x^0$\n\n(j) $5^{-6} \\times 5^3$\n\n(k) $r^2 \\times r^5 \\times r^4$\n\n(l) $2^4 \\times 2^{-2} \\times 2^{-1}$",
+      "source_images": ["image160.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Simplify using $\\frac{a^m}{a^n} = a^{m-n}$:\n\n(a) $\\frac{7^8}{7^3}$\n\n(b) $\\frac{b^7}{b^5}$\n\n(c) $5^9 \\div 5^6$\n\n(d) $\\frac{m^{10}}{m^4}$\n\n(e) $6^3 \\div 6^5$\n\n(f) $\\frac{3^4}{3^4}$\n\n(g) $\\frac{k^{12}}{k^a}$\n\n(h) $\\frac{y^6}{y}$\n\n(i) $\\frac{t^m}{t^4}$\n\n(j) $\\frac{x^{3a}}{x^2}$\n\n(k) $\\frac{x^{-2}}{x^3}$\n\n(l) $\\frac{a^3}{a^{-1}}$",
+      "source_images": ["image161.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Simplify using $(a^m)^n = a^{m \\times n}$:\n\n(a) $(5^3)^2$\n\n(b) $(c^4)^3$\n\n(c) $(3^8)^4$\n\n(d) $(v^5)^5$\n\n(e) $(7^6)^d$\n\n(f) $(g^k)^8$\n\n(g) $(m^3)^t$\n\n(h) $(11^x)^{2y}$\n\n(i) $(3^0)^4$\n\n(j) $(2^4)^{-3}$\n\n(k) $(x^{-2})^4$\n\n(l) $(p^{-3})^{-2}$",
+      "source_images": ["image162.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Simplify:\n\n(a) $b^5 \\times b^7$\n\n(b) $\\frac{t^9}{t^2}$\n\n(c) $(p^6)^3$\n\n(d) $\\frac{7^6}{7^n}$\n\n(e) $(x^{2s})^3$\n\n(f) $d^k \\div d^3$\n\n(g) $3^2 \\times 3^7 \\times 3^4$\n\n(h) $(j^4)^{3x}$\n\n(i) $11^6 \\times 11$\n\n(j) $\\frac{z^7}{z^{4t}}$\n\n(k) $(13^c)^{5d}$\n\n(l) $w^{7p} \\div w$",
+      "source_images": ["image163.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. Write as a power of 2:\n\n(a) $4$\n\n(b) $\\frac{1}{4}$\n\n(c) $8$\n\n(d) $\\frac{1}{8}$\n\n(e) $32$\n\n(f) $\\frac{1}{32}$\n\n(g) $2$\n\n(h) $\\frac{1}{2}$\n\n(i) $64$\n\n(j) $\\frac{1}{64}$\n\n(k) $128$\n\n(l) $\\frac{1}{128}$\n\n6. Write as a power of 3:\n\n(a) $9$\n\n(b) $\\frac{1}{9}$\n\n(c) $27$\n\n(d) $\\frac{1}{27}$\n\n(e) $3$\n\n(f) $\\frac{1}{3}$\n\n(g) $81$\n\n(h) $\\frac{1}{81}$\n\n(i) $1$\n\n(j) $243$\n\n(k) $\\frac{1}{243}$\n\n7. Write as a single power of 2:\n\n(a) $2 \\times 2^a$\n\n(b) $4 \\times 2^b$\n\n(c) $8 \\times 2^t$\n\n(d) $(2^{x+1})^2$\n\n(e) $(2^{1-n})^{-1}$\n\n(f) $\\frac{2^c}{4}$\n\n(g) $\\frac{2^m}{2^{-m}}$\n\n(h) $\\frac{4}{2^{1-n}}$\n\n(i) $\\frac{2^{x+1}}{2^x}$\n\n(j) $\\frac{4^x}{2^{1-x}}$\n\n8. Write as a single power of 3:\n\n(a) $9 \\times 3^p$\n\n(b) $27^a$\n\n(c) $3 \\times 9^n$\n\n(d) $27 \\times 3^d$\n\n(e) $9 \\times 27^t$\n\n(f) $\\frac{3^y}{3}$\n\n(g) $\\frac{3}{3^y}$\n\n(h) $\\frac{9}{27^t}$\n\n(i) $\\frac{9^a}{3^{1-a}}$\n\n(j) $\\frac{9^{n+1}}{3^{2n-1}}$",
+      "source_images": ["image164.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. Express in exponent form with a prime number base:\n\n(a) $32$\n\n(b) $49$\n\n(c) $25^3$\n\n(d) $4^5$\n\n(e) $16^p$\n\n(f) $27^t$\n\n(g) $5^a \\times 25$\n\n(h) $4^n \\times 8^n$\n\n(i) $\\frac{8^m}{16^n}$\n\n(j) $\\frac{25^p}{5^4}$\n\n(k) $\\frac{2^{x+2}}{2^{x-1}}$\n\n(l) $9^{t+2}$\n\n(m) $32^{2-r}$\n\n(n) $\\frac{81}{3^{y+1}}$\n\n(o) $\\frac{16^k}{4^k}$\n\n(p) $\\frac{5^{a+1} \\times 125}{25^{2a}}$",
+      "source_images": ["image165.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "10. Write without brackets:\n\n(a) $(2a)^2$\n\n(b) $(3n)^2$\n\n(c) $(5m)^3$\n\n(d) $(mn)^3$\n\n(e) $\\left(\\frac{a}{2}\\right)^3$\n\n(f) $\\left(\\frac{3}{m}\\right)^2$\n\n(g) $\\left(\\frac{p}{q}\\right)^4$\n\n(h) $\\left(\\frac{t}{5}\\right)^2$",
+      "source_images": ["image166.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "11. Simplify:\n\n(a) $4^0$\n\n(b) $3^{-1}$\n\n(c) $7^{-2}$\n\n(d) $2^{-3} \\times 2^4$\n\n(e) $5^0 + 5^{-1}$\n\n(f) $\\left(\\frac{5}{3}\\right)^0$\n\n(g) $\\left(\\frac{7}{4}\\right)^{-1}$\n\n(h) $\\left(\\frac{1}{6}\\right)^{-1}$\n\n(i) $\\left(\\frac{4}{3}\\right)^{-2}$\n\n(j) $2^1 + 2^{-1}$\n\n(k) $\\left(1\\frac{1}{2}\\right)^{-3}$\n\n(l) $5^2 + 5^1 + 5^{-1}$\n\n12. Write using powers of 2, 3, and/or 5:\n\n(a) $\\frac{1}{9}$\n\n(b) $\\frac{1}{16}$\n\n(c) $\\frac{1}{125}$\n\n(d) $\\frac{3}{5}$\n\n(e) $\\frac{4}{27}$\n\n(f) $\\frac{2^c}{8 \\times 9}$\n\n(g) $\\frac{9^k}{10}$\n\n(h) $\\frac{6^p}{75}$",
+      "source_images": ["image167.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "13. Write in simplest form, without brackets:\n\n(a) $(2ab)^2$\n\n(b) $(-2a)^2$\n\n(c) $(6b^2)^2$\n\n(d) $(-2a)^3$\n\n(e) $(-3m^2n^2)^3$\n\n(f) $(-2ab^4)^4$\n\n(g) $\\left(\\frac{2a}{b}\\right)^0$\n\n(h) $\\left(\\frac{m}{3n}\\right)^4$\n\n(i) $\\left(\\frac{xy}{2}\\right)^3$\n\n(j) $\\left(\\frac{-2a^2}{b^2}\\right)^3$\n\n(k) $\\left(\\frac{-4a^3}{b}\\right)^2$\n\n(l) $\\left(\\frac{-3p^2}{q^3}\\right)^2$",
+      "source_images": ["image168.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "15. Simplify using the laws of exponents:\n\n(a) $\\frac{4b^5}{b^2}$\n\n(b) $2w^4 \\times 3w$\n\n(c) $\\frac{12p^4}{3p^2}$\n\n(d) $5c^7 \\times 6c^4$\n\n(e) $\\frac{d^2 \\times d^7}{d^5}$\n\n(f) $\\frac{18a^2b^3}{6ab}$\n\n(g) $\\frac{24m^2n^4}{6m^2n}$\n\n(h) $\\frac{t^5 \\times t^8}{(t^2)^3}$\n\n(i) $5s^2t \\times 4t^3$\n\n(j) $\\frac{(k^4)^5}{k^3 \\times k^6}$\n\n(k) $\\frac{12x^2y^5}{8xy^2}$\n\n(l) $\\frac{(b^3)^4 \\times b^5}{b^2 \\times b^6}$",
+      "source_images": ["image169.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "16. Write without negative exponents:\n\n(a) $x^{-3}$\n\n(b) $2x^{-3}$\n\n(c) $ab^{-2}$\n\n(d) $(ab)^{-2}$\n\n(e) $(2ab^{-1})^2$\n\n(f) $(5m^2)^{-2}$\n\n(g) $(3a^{-2}b)^2$\n\n(h) $(3xy^4)^{-3}$\n\n(i) $\\frac{a^2b^{-1}}{c^2}$\n\n(j) $\\frac{a^2b^{-1}}{c^{-2}}$\n\n(k) $\\frac{1}{a^{-3}}$\n\n(l) $\\frac{a^{-2}}{b^{-3}}$\n\n(m) $\\frac{2a^{-1}}{d^2}$\n\n(n) $\\frac{12a}{m^{-3}}$\n\n(o) $\\frac{(2a)^{-1}}{a^{-3}}$\n\n(p) $\\frac{8x^{-2}}{(2x)^2}$",
+      "source_images": ["image170.png", "image171.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 19\n\nWrite $\\frac{1}{2^{1-n}}$ without a fraction.\n\nSolution:\n\n$\\frac{1}{2^{1-n}} = 2^{-(1-n)}$\n$= 2^{-1+n}$\n$= 2^{n-1}$",
+      "source_images": ["image172.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 20\n\nWrite without fractions:\n\n(a) $\\frac{x^2 + 3x + 2}{x}$\n\n(b) $\\frac{2x^5 + x^2 + 3x}{x^{-2}}$\n\nSolutions:\n\n(a) $\\frac{x^2 + 3x + 2}{x}$\n$= \\frac{x^2}{x} + \\frac{3x}{x} + \\frac{2}{x}$\n$= x + 3 + 2x^{-1}$\n\n(b) $\\frac{2x^5 + x^2 + 3x}{x^{-2}}$\n$= \\frac{2x^5}{x^{-2}} + \\frac{x^2}{x^{-2}} + \\frac{3x}{x^{-2}}$\n$= 2x^{5-(-2)} + x^{2-(-2)} + 3x^{1-(-2)}$\n$= 2x^7 + x^4 + 3x^3$",
+      "source_images": ["image173.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "17. Write without a fraction:\n\n(a) $\\frac{1}{a^n}$\n\n(b) $\\frac{5}{a^m}$\n\n(c) $\\frac{1}{b^{-n}}$\n\n(d) $\\frac{1}{2^{n-3}}$\n\n(e) $\\frac{1}{3^{2-n}}$\n\n(f) $\\frac{3}{a^{4-m}}$\n\n(g) $\\frac{a^n}{b^{-m}}$\n\n(h) $\\frac{a^{-n}}{a^{2+n}}$\n\n18. Write without fractions:\n\n(a) $\\frac{1}{x^2}$\n\n(b) $\\frac{2}{x}$\n\n(c) $x + \\frac{1}{x}$\n\n(d) $x^2 - \\frac{2}{x^3}$\n\n(e) $\\frac{1}{x} + \\frac{3}{x^2}$\n\n(f) $\\frac{4}{x} - \\frac{5}{x^3}$\n\n(g) $7x - \\frac{4}{x} + \\frac{5}{x^2}$\n\n(h) $\\frac{3}{x} - \\frac{2}{x^2} + \\frac{5}{x^4}$",
+      "source_images": ["image174.png", "image175.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "19. Write without fractions:\n\n(a) $\\frac{x + 3}{x}$\n\n(b) $\\frac{3 - 2x}{x}$\n\n(c) $\\frac{5 - x}{x^2}$\n\n(d) $\\frac{x + 2}{x^3}$\n\n(e) $\\frac{x^2 + 5}{x}$\n\n(f) $\\frac{x^2 + x - 2}{x}$\n\n(g) $\\frac{2x^2 - 3x + 4}{x}$\n\n(h) $\\frac{x^3 - 3x + 5}{x^2}$\n\n(i) $\\frac{5 - x - x^2}{x}$\n\n(j) $\\frac{8 + 5x - 2x^3}{x}$\n\n(k) $\\frac{16 - 3x + x^3}{x^2}$\n\n(l) $\\frac{5x^4 - 3x^2 + x + 6}{x^2}$\n\n20. Write without fractions:\n\n(a) $\\frac{4 + 2x}{x^{-1}}$\n\n(b) $\\frac{5 - 4x}{x^{-2}}$\n\n(c) $\\frac{6 + 3x}{x^{-3}}$\n\n(d) $\\frac{x^2 + 3}{x^{-1}}$\n\n(e) $\\frac{x^2 + x - 4}{x^{-2}}$\n\n(f) $\\frac{x^3 - 3x + 6}{x^{-3}}$\n\n(g) $\\frac{x^3 - 6x + 10}{x^{-2}}$",
+      "source_images": ["image176.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 3C\n\n1. Simplify:\n\n(a) $7\\sqrt{5} - 3\\sqrt{5}$\n\n(b) $2\\sqrt{6} - \\sqrt{54}$\n\n(c) $5\\sqrt{3}(4 - \\sqrt{3})$\n\n(d) $(1 + \\sqrt{2})(2 + \\sqrt{2})$\n\n(e) $(6 - 5\\sqrt{2})^2$\n\n(f) $(3 + \\sqrt{5})(3 - \\sqrt{5})$\n\n2. Simplify:\n\n(a) $-(-1)^{10}$\n\n(b) $-(-3)^3$\n\n(c) $3^0 - 3^{-1}$\n\n3. Simplify:\n\n(a) $x^4 \\times x^2$\n\n(b) $(2^{-1})^7$\n\n(c) $(ab^3)^6$\n\n4. Write without negative exponents:\n\n(a) $3^{-3}$\n\n(b) $x^{-1}y$\n\n(c) $\\left(\\frac{a}{b}\\right)^{-1}$\n\n5. Express in exponent form with a prime number base:\n\n(a) $27$\n\n(b) $9^t$\n\n(c) $\\frac{4}{2^{m-1}}$\n\n6. Simplify using the laws of exponents:\n\n(a) $\\frac{15xy^2}{3y^4}$\n\n(b) $\\frac{j^6}{j^5 \\times j^8}$\n\n(c) $\\frac{36g^3h^5}{12h^2}$",
+      "source_images": ["image177.png", "image178.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. Write in simplest form, without brackets:\n\n(a) $\\left(\\frac{t}{4s}\\right)$\n\n(b) $\\left(\\frac{m^-}{5n}\\right)$\n\n(c) $(5p^3q)^2$\n\n8. Write without fractions:\n\n(a) $\\frac{x^2 + 8}{x}$\n\n(b) $\\frac{4 + x + x^3}{x^{-2}}$\n\n(c) $\\frac{k^{-x}}{k^{x+6}}$\n\n9. Simplify using the laws of exponents:\n\n(a) $a^4b^5 \\times a^2b^2$\n\n(b) $6xy^5 \\div 9x^2y^5$\n\n(c) $\\frac{5(x^2y)^2}{(5x^2)^2}$\n\n10. Write as a decimal number:\n\n(a) $4.6 \\times 10^{11}$\n\n(b) $1.9 \\times 10^0$\n\n(c) $3.2 \\times 10^{-3}$\n\n11. Write in scientific notation:\n\n(a) The diameter of the Earth is approximately 12.74 million metres.\n\n(b) An extremely fine needle tip has width 0.00012 m.\n\n12. Sheets of paper are $3.2 \\times 10^{-4}$ m thick. How many sheets are required to make a pile of paper 10 cm high?\n\n13. At a particular moment, Earth is $4.3 \\times 10^9$ km from Neptune and $1.5 \\times 10^9$ km from Saturn. How much further away is Neptune than Saturn?",
+      "source_images": ["image179.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 3D\n\n1. Simplify:\n\n(a) $4\\sqrt{11} - 5\\sqrt{11}$\n\n(b) $\\sqrt{32} - 3\\sqrt{2}$\n\n(c) $(7 + 2\\sqrt{3})(5 - 3\\sqrt{3})$\n\n(d) $(6 + 2\\sqrt{2})(6 - 2\\sqrt{2})$\n\n2. Write with an integer denominator:\n\n(a) $\\frac{2}{\\sqrt{3}}$\n\n(b) $\\frac{\\sqrt{7}}{\\sqrt{5}}$\n\n(c) $\\frac{3}{\\sqrt{3} + 2}$\n\n(d) $\\frac{1}{4 + \\sqrt{7}}$\n\n3. Simplify:\n\n(a) $\\frac{m^9}{m^5}$\n\n(b) $y^0$\n\n(c) $\\left(\\frac{7z}{w}\\right)^{-2}$\n\n4. Simplify:\n\n(a) $\\frac{k^x}{k^2}$\n\n(b) $11^r \\times 11^{-4}$\n\n(c) $9 \\times 3^b$\n\n5. Write without fractions:\n\n(a) $\\frac{1}{11}$\n\n(b) $\\frac{a}{b^2}$\n\n(c) $\\frac{jk^4}{l^a}$\n\n6. Express in exponent form with a prime number base:\n\n(a) $\\frac{1}{16}$\n\n(b) $3^k \\times 81$\n\n(c) $\\frac{125^a}{5^b}$",
+      "source_images": ["image180.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. Write in simplest rational form:\n\n(a) $2^{-3}$\n\n(b) $7^0$\n\n(c) $3^{-1} + 3^1$\n\n8. Express in simplest form, without brackets:\n\n(a) $\\left(\\frac{2a^6}{8b^2}\\right)^3$\n\n(b) $(5d \\times d^{-5})^2$\n\n(c) $\\frac{16z^2 \\times z^5}{(2z)^3}$\n\n9. Write without brackets or negative exponents:\n\n(a) $x^{-2} \\times x^{-3}$\n\n(b) $2(ab)^{-2}$\n\n(c) $2ab^{-2}$\n\n10. Write as a single power of 3:\n\n(a) $\\frac{27}{9^a}$\n\n(b) $81^{1-x} \\times 9^{1-2x}$\n\n11. Express as a decimal number:\n\n(a) Jupiter has a radius of $1.43 \\times 10^5$ km.\n\n(b) The ebola virus is about $8.2 \\times 10^{-8}$ m wide.\n\n12. Sound travels along a telephone cable at $1.91 \\times 10^8$ m s$^{-1}$. Find how long it takes Tetsuo's voice to travel from his office phone in Tokyo to:\n\n(a) his wife's phone, 3740 m away\n\n(b) his brother in Beijing, $2.1 \\times 10^6$ m away.\n\n13. Gold is special not just for its looks, but also its properties. Just 3 g of gold can be beaten out to form 1 m$^2$ of gold leaf approximately $1.8 \\times 10^{-7}$ m thick. By comparison, a US dime has a thickness of approximately $1.35 \\times 10^{-3}$ m. How many sheets of gold leaf would you need to create a stack the same height as the dime?",
+      "source_images": ["image181.png", "image182.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Work out the value of each expression when $w = 5$, $x = 2$, $y = -8$ and $z = -1$.\n\n(a) $3(w + x)$\n\n(b) $x(2w - y)$\n\n(c) $3w - z^3$\n\n(d) $(2x)^3$\n\n(e) $x^2 + y^2$\n\n(f) $\\frac{wx}{z} + y$\n\n(g) $2(x^3 - z^2)$\n\n(h) $25 - 2w^2$\n\n(i) $w + z(2x - y)$\n\n(j) $(3z)^4 - z^7$",
+      "source_images": ["image183.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Work out the value of each expression.\n\n(a) $4(x^2 - 1) + \\frac{x^3}{4} + 12$ when $x = 2$\n\n(b) $\\frac{3y - 5}{2} + 2y^3 - \\frac{21}{y}$ when $y = 3$",
+      "source_images": ["image184.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Show that $5a^2 - 9(b - a) + \\frac{2}{b^5} + 7ab = \\frac{-5a}{b} - 6a^3 - (ab)^4 + \\frac{9}{b^2 - a^3}$ when $a = -2$ and $b = -1$.",
+      "source_images": ["image185.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "1. Kara thinks of a number, $n$.\nWrite the correct expression from the cloud for the number Kara gets when she\n\n(a) adds five to the number\n\n(b) multiplies the number by five, then subtracts five\n\n(c) divides the number by five, then adds five\n\n(d) adds five to the number, then multiplies by five\n\n(e) subtracts five from the number, then divides by five\n\n(f) subtracts the number from five.\n\nExpressions: $5 - n$, $5(n + 5)$, $5n - 5$, $\\frac{n - 5}{5}$, $n + 5$, $\\frac{n}{5} + 5$",
+      "source_images": ["image186.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Luis thinks of a number, $x$.\nWrite an expression, in terms of $x$, for the number Luis gets when he:\n\n(a) multiplies the number by 7\n\n(b) subtracts the number from 20\n\n(c) multiplies the number by 2, then adds 9\n\n(d) divides the number by 6, then subtracts 4\n\n(e) multiplies the number by itself\n\n(f) divides 100 by the number\n\n(g) subtracts 7 from the number, then multiplies the result by 5\n\n(h) square roots the number\n\n(i) cubes the number\n\n(j) cube roots the number\n\n(k) multiplies the number by 3, squares the result, then adds 7\n\n(l) multiplies the number by 2, cubes the result, then subtracts 100.\n\nTip: Remember that you write the cube root like this $\\sqrt[3]{}$\n\n3. Write an expression for (i) the perimeter and (ii) the area of each rectangle.\nWrite each expression in its simplest form.\n\n(a) Rectangle with sides $x$ and $y$\n\n(b) Rectangle with sides $4x$ and $3y$\n\n(c) Rectangle with sides $2y$ and $3x$\n\n(d) Rectangle with sides $x$ and $x$",
+      "source_images": ["image187.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Explain your answer.\nWrite an expression for (i) the perimeter and (ii) the area of each rectangle.\nWrite each expression in its simplest form.\n\n(iii) Then use the values given, and the method from Question 4, to check your expressions are correct.\n\n(a) Rectangle with sides $x + 2$ and $3$, where $x = 4$\n\n(b) Rectangle with sides $y - 6$ and $4$, where $y = 10$\n\n(c) Rectangle with sides $n + 4$ and $n$, where $n = 6$\n\n(d) Rectangle with sides $p^2$ and $4p$, where $p = 2$",
+      "source_images": ["image188.png", "image189.png"]
+    },
+    {
+      "type": "investigation",
+      "content_latex": "6. Work with a partner to answer these questions.\nAlicia and Razi have rods of four different colours.\nThe blue rods have a length of $x + 1$.\nThe red rods have a length of $x + 2$.\nThe green rods have a length of $2x + 1$.\nThe yellow rods have a length of $3x$.\n\nAlicia shows Razi that the total length of 3 red rods and 5 yellow rods is the same as 6 green rods and 2 yellow rods, like this.\n\n3 red + 5 yellow $= 3(x + 2) + 5(3x) = 3x + 6 + 15x = 18x + 6$\n\n6 green + 2 yellow $= 6(2x + 1) + 2(3x) = 12x + 6 + 6x = 18x + 6$\n\n(a) Show that\n\n(i) the total length of 2 red rods and 2 yellow rods is the same as 4 green rods\n\n(ii) the total length of 3 red rods and 3 yellow rods is the same as 6 green rods\n\n(iii) the total length of 4 red rods and 4 yellow rods is the same as 8 green rods.\n\n(b) What do your answers to part (a) tell you about the connection between the number of red and yellow rods and the number of green rods?\n\n(c) Show that\n\n(i) the total length of 6 red rods and 2 yellow rods is the same as 12 blue rods\n\n(ii) the total length of 9 red rods and 3 yellow rods is the same as 18 blue rods\n\n(iii) the total length of 12 red rods and 4 yellow rods is the same as 24 blue rods.\n\n(d) What do your answers to part (c) tell you about the connection between the number of red and yellow rods and the number of blue rods?\n\n(e) Discuss your answers to parts (b) and (d) with other learners in your class.",
+      "source_images": ["image190.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. The diagram shows a triangle.\nThe lengths of the sides of the triangle are written as expressions.\n\nSides: $(3w)^2$, $2v(3v - 2w)$, $5w(w + v)$\n\n(a) Work out the lengths of the sides of the triangle when $w = 2$ and $v = 3$.\n\n(b) Use your answers to part (a) to work out the perimeter of the triangle when $w = 2$ and $v = 3$.\n\n(c) Write an expression for the perimeter of the triangle.\nShow that the expression can be simplified to $14w^2 + vw + 6v^2$.\n\n(d) Substitute $w = 2$ and $v = 3$ into the expression for the perimeter from part (c).\nCheck that your answers to parts (b) and (d) are the same.",
+      "source_images": ["image191.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "8. Work with a partner to answer this question.\nThe diagram shows a quadrilateral.\nThe lengths of the sides of the quadrilateral are written as expressions.\n\nSides: $3a^2 - 7b$, $8b - 3a$, $a^2 + 6b$, $4(a + 3b)$\n\n(a) Work out the lengths of the sides of the quadrilateral when $a = -5$ and $b = 2$.\n\n(b) Use your answers to part (a) to work out the perimeter of the quadrilateral when $a = -5$ and $b = 2$.\n\n(c) Write an expression for the perimeter of the quadrilateral.\nShow that the expression can be simplified to $a + 4a^2 + 19b$.\n\n(d) Use the expression in part (c) to work out the perimeter of the quadrilateral when $a = -5$ and $b = 2$.\n\nAre your answers to parts (b) and (d) the same? If not, check your working.\n\n(e) Work out the perimeter of the quadrilateral when $a = 4$ and $b = -3$.\n\n(f) Is your answer to part (e) a valid measurement for the perimeter?\nExplain your answer.\n\nDiscuss your answer with other learners in your class.",
+      "source_images": ["image192.png", "image193.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. (a) Write an expression for the perimeter of this rectangle.\n\nRectangle with sides $3x^2 + 4$ and $5 - x^2$\n\n(b) Show that the expression can be simplified to $2(2x^2 + 9)$.\n\n(c) Read what Arun says.\n\nArun: \"When $x = 2$ and when $x = -2$, you get the same perimeter.\"\n\nIs Arun correct? Explain your answer. Show your working.\n\nTip: You might need to remind yourself how to factorise expressions.\n\n10. (a) A square has an area of 25 cm$^2$. Show that the perimeter of the square is 20 cm.\n\n(b) A square has an area of 49 cm$^2$. Work out the perimeter of the square.\n\n(c) A square has an area of $x$ cm$^2$. Write an expression for the perimeter of the square.\n\nUse your working for parts (a) and (b) to help you.\n\n11. (a) A cube has side length $x$ cm. Write an expression for the volume of the cube.\n\n(b) A cube has a volume of $y$ cm$^3$. Write an expression for the side length of the cube.",
+      "source_images": ["image194.png"]
     }
   ]
 }

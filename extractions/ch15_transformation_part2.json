@@ -1,0 +1,272 @@
+{
+  "chapter": 15,
+  "part": 2,
+  "images_range": "1597-1651",
+  "items": [
+    {
+      "type": "example",
+      "content_latex": "Example 5\n\nUse the definition $|x| = \\begin{cases} x & \\text{if } x \\geqslant 0 \\\\ -x & \\text{if } x < 0 \\end{cases}$ to write the following functions without the modulus sign. Hence graph each function:\n\n(a) $f(x) = x - |x|$\n\n(b) $f(x) = x|x|$\n\nSolutions:\n\n(a) If $x < 0$, $f(x) = x - (-x) = 2x$.\n\nIf $x \\geqslant 0$, $f(x) = x - x = 0$.\n\nThis branch is $y = 2x, x < 0$\n\nThis branch is $y = 0, x \\geqslant 0$\n\n(b) If $x \\geqslant 0$, $f(x) = x(x) = x^2$.\n\nIf $x < 0$, $f(x) = x(-x) = -x^2$.\n\nThis branch is $y = x^2, x \\geqslant 0$\n\nThis branch is $y = -x^2, x < 0$",
+      "source_images": ["image1597.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "12. Use $|x| = \\begin{cases} x & \\text{if } x \\geqslant 0 \\\\ -x & \\text{if } x < 0 \\end{cases}$ to write the following functions without modulus signs.\n\nHence graph each function.\n\n(a) $y = |x - 2|$\n\n(b) $y = |x + 1|$\n\n(c) $y = -|x|$\n\n(d) $y = |x| + x$\n\n(e) $y = \\frac{|x|}{x}$\n\n(f) $y = x - 2|x|$\n\n(g) $y = |x| + |x - 2|$\n\n(h) $y = |x| - |x - 1|$",
+      "source_images": ["image1598.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "A modulus equation is an equation which involves the absolute value function.\n\nTo solve modulus equations we use the definitions of absolute value and the properties found in the previous Exercise:\n\n- $|x| \\geqslant 0$ for all $x$\n- $|x|^2 = x^2$ for all $x$\n- $\\left|\\frac{x}{y}\\right| = \\frac{|x|}{|y|}$ for all $x$ and $y$, $y \\neq 0$\n- $|-x| = |x|$ for all $x$\n- $|xy| = |x||y|$ for all $x$ and $y$\n- $|x - y| = |y - x|$ for all $x$ and $y$.",
+      "source_images": ["image1599.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "We notice in particular that if $|x| = a$, $a > 0$\n\nthen $|x|^2 = a^2$\n\n$\\therefore x^2 = a^2$ $\\{|x|^2 = x^2\\}$\n\n$\\therefore x = \\pm\\sqrt{a^2}$\n\n$\\therefore x = \\pm a$\n\nIf $|x| = a$ where $a > 0$, then $x = \\pm a$.",
+      "source_images": ["image1600.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 6\n\nSolve for $x$:\n\n(a) $|2x + 3| = 7$\n\n(b) $|3 - 2x| = -1$\n\nSolutions:\n\n(a) $|2x + 3| = 7$\n\n$\\therefore 2x + 3 = \\pm 7$\n\n$\\therefore 2x + 3 = 7$ or $2x + 3 = -7$\n\n$\\therefore 2x = 4$ or $2x = -10$\n\n$\\therefore x = 2$ or $x = -5$\n\nSo, $x = 2$ or $-5$.\n\n(b) $|3 - 2x| = -1$\n\nhas no solution as LHS is never negative.",
+      "source_images": ["image1601.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 7\n\nSolve for $x$:\n\n(a) $\\left|\\frac{3x + 2}{1 - x}\\right| = 4$\n\n(b) $|x + 1| = |2x - 3|$\n\nSolutions:\n\n(a) If $\\left|\\frac{3x + 2}{1 - x}\\right| = 4$ then $\\frac{3x + 2}{1 - x} = \\pm 4$.\n\n$\\therefore \\frac{3x + 2}{1 - x} = 4$ or $\\frac{3x + 2}{1 - x} = -4$\n\n$\\therefore 3x + 2 = 4(1 - x)$ or $3x + 2 = -4(1 - x)$\n\n$\\therefore 3x + 2 = 4 - 4x$ or $3x + 2 = -4 + 4x$\n\n$\\therefore 7x = 2$ or $6 = x$\n\n$\\therefore x = \\frac{2}{7}$ or $x = 6$\n\n(b) If $|x + 1| = |2x - 3|$, then $x + 1 = \\pm(2x - 3)$\n\n$\\therefore x + 1 = 2x - 3$ or $x + 1 = -(2x - 3)$\n\n$\\therefore 4 = x$ or $x + 1 = -2x + 3$\n\n$\\therefore x = 4$ or $3x = 2$\n\n$\\therefore x = 4$ or $x = \\frac{2}{3}$\n\nSo, $x = \\frac{2}{3}$ or $4$.",
+      "source_images": ["image1602.png", "image1603.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 8\n\nSolve graphically: $|x + 1| = \\frac{x}{2} + 2$\n\nSolution:\n\nWe graph $y = |x + 1|$ and $y = \\frac{x}{2} + 2$ on the same set of axes.\n\nThe graphs intersect at $(-2, 1)$ and $(2, 3)$\n\n$\\therefore$ the solutions are $x = -2$ or $2$.",
+      "source_images": ["image1604.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "MODULUS INEQUALITIES",
+      "source_images": ["image1605.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 9\n\nSolve for $x$:\n\n(a) $|2x - 1| < 3$\n\n(b) $|4 - x| \\geqslant 5$\n\nSolutions:\n\n(a) $|2x - 1| < 3$\n\n$\\therefore -3 < 2x - 1 < 3$\n\n$\\therefore -2 < 2x < 4$\n\n$\\therefore -1 < x < 2$\n\n(b) $|4 - x| \\geqslant 5$\n\n$\\therefore 4 - x \\leqslant -5$ or $4 - x \\geqslant 5$\n\n$\\therefore x \\geqslant 9$ or $x \\leqslant -1$",
+      "source_images": ["image1606.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 10\n\nSolve for $x$:\n\n(a) $|3x + 1| \\geqslant |2x - 3|$\n\n(b) $\\left|\\frac{x}{x + 1}\\right| \\geqslant \\frac{1}{2}$\n\nSolutions:\n\n(a) $|3x + 1| \\geqslant |2x - 3|$\n\n$\\therefore |3x + 1|^2 \\geqslant |2x - 3|^2$ {squaring both sides}\n\n$\\therefore (3x + 1)^2 \\geqslant (2x - 3)^2$ $\\{|a|^2 = a^2\\}$\n\n$\\therefore 9x^2 + 6x + 1 \\geqslant 4x^2 - 12x + 9$\n\nYou can only multiply or divide by a term if you are sure of its sign.\n\n$\\therefore 5x^2 + 18x - 8 \\geqslant 0$\n\n$\\therefore (5x - 2)(x + 4) \\geqslant 0$\n\n$\\therefore x \\leqslant -4$ or $x \\geqslant \\frac{2}{5}$\n\n(b) $\\left|\\frac{x}{x + 1}\\right| \\geqslant \\frac{1}{2}$\n\n$\\therefore \\left|\\frac{x}{x + 1}\\right|^2 \\geqslant \\left(\\frac{1}{2}\\right)^2$ {squaring both sides}\n\n$\\therefore \\left(\\frac{x}{x + 1}\\right)^2 \\geqslant \\frac{1}{4}$ $\\{|a|^2 = a^2\\}$\n\n$\\therefore \\frac{x^2}{(x + 1)^2} \\geqslant \\frac{1}{4}$\n\n$\\therefore 4x^2 \\geqslant (x + 1)^2$ provided $x \\neq -1$ {since $(x + 1)^2 \\geqslant 0$}\n\n$\\therefore 4x^2 \\geqslant x^2 + 2x + 1$ provided $x \\neq -1$\n\n$\\therefore 3x^2 - 2x - 1 \\geqslant 0$ provided $x \\neq -1$\n\n$\\therefore (3x + 1)(x - 1) \\geqslant 0$ provided $x \\neq -1$\n\n$\\therefore x \\leqslant -\\frac{1}{3}$, $x \\neq -1$ or $x \\geqslant 1$",
+      "source_images": ["image1607.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 11\n\nSolve graphically: $|x + 1| > \\sqrt{x^3 + 2}$.\n\nSolution:\n\nWe draw graphs of $y = |x + 1|$ and $y = \\sqrt{x^3 + 2}$ on the same set of axes.\n\nCasio fx-CG50: $x \\approx -1.2470$, TI-84 Plus CE: $x \\approx 0.4450$, HP Prime: $x \\approx 1.8019$\n\nThe graphs intersect at $x \\approx -1.2470$, $x \\approx 0.4450$, and $x \\approx 1.8019$.\n\nMake sure you consider the domain of each function you graph.\n\n$\\therefore |x + 1| > \\sqrt{x^3 + 2}$ when $-\\sqrt[3]{2} \\leqslant x < -1.247$\n\nand when $0.445 < x < 1.802$.",
+      "source_images": ["image1608.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 6C.2\n\n1. Solve for $x$:\n\n(a) $|x| = 3$\n\n(b) $|x| = -5$\n\n(c) $|x| = 0$\n\n(d) $|x - 1| = 3$\n\n(e) $|3 - x| = 4$\n\n(f) $|x + 5| = -1$\n\n(g) $|3x - 2| = 1$\n\n(h) $|3 - 2x| = 3$\n\n(i) $|2 - 5x| = 12$\n\n2. Solve for $x$:\n\n(a) $\\left|\\frac{x}{x - 1}\\right| = 3$\n\n(b) $\\left|\\frac{2x - 1}{x + 1}\\right| = 5$\n\n(c) $\\left|\\frac{x + 3}{1 - 3x}\\right| = \\frac{1}{2}$\n\n3. (a) Explain why the equation $\\left|\\frac{3x + 1}{x - 1}\\right| = 3$ has only one solution.\n\n(b) Find the solution.\n\n4. Prove that if $|x| = |a|$ then $x = \\pm a$.\n\n5. Solve for $x$:\n\n(a) $|3x - 1| = |x + 2|$\n\n(b) $|2x + 5| = |1 - x|$\n\n(c) $|x + 1| = |2 - x|$\n\n(d) $|x| = |5 - x|$\n\n(e) $|1 - 4x| = 2|x - 1|$\n\n(f) $|3x + 2| = 2|2 - x|$",
+      "source_images": ["image1609.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. (a) Sketch the graphs of $y = |x + 3|$ and $y = 7 - \\frac{x}{3}$ on the same set of axes.\n\n(b) Solve the equation $|x + 3| = 7 - \\frac{x}{3}$.\n\n7. Solve graphically:\n\n(a) $|x + 2| = 2x + 1$\n\n(b) $|2x + 3| = 3|x| - 1$\n\n(c) $|x - 2| = \\frac{2}{5}x + 1$\n\n(d) $x^2 - 1 = |5x - x^2|$\n\n(e) $|e^x - 6| = 2^x$\n\n(f) $x^3 - 4x = \\ln|x|$",
+      "source_images": ["image1610.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 6C.3\n\n1. Solve for $x$:\n\n(a) $|x - 1| \\leqslant 4$\n\n(b) $|x + 2| > 7$\n\n(c) $|2x - 3| < 1$\n\n(d) $|3x + 5| \\geqslant 2$\n\n(e) $|1 - 2x| < 4$\n\n(f) $|-5x - 4| > \\frac{1}{2}$\n\n2. Solve for $x$:\n\n(a) $|x + 5| < |x - 1|$\n\n(b) $|2x + 1| > |x + 2|$\n\n(c) $|x - 3| \\leqslant |2x - 6|$\n\n(d) $|3x + 4| \\geqslant |x + 3|$\n\n(e) $2|x - 4| < |3x + 2|$\n\n(f) $\\frac{1}{3}|2x + 5| \\geqslant |4 - x|$\n\n3. Solve for $x$:\n\n(a) $\\left|\\frac{x}{x - 2}\\right| \\geqslant 3$\n\n(b) $\\left|\\frac{2x + 3}{x - 1}\\right| \\geqslant 2$\n\n(c) $\\left|\\frac{x - 4}{1 - 2x}\\right| < \\frac{2}{3}$",
+      "source_images": ["image1611.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Solve graphically:\n\n(a) $|2x - 3| < x$\n\n(b) $|x| - 2 \\geqslant |4 - x|$\n\n(c) $x^2 - 4 > |x - 1|$\n\n(d) $|2x - 1| + |x - 4| \\leqslant 10 - x$\n\n(e) $\\ln|x^2 - x + 5| \\geqslant 0.1x^4$\n\n(f) $7|x| - e^{|x|} \\geqslant \\log_2(x^2 - x - 2)$\n\n(g) $|3x \\arccos x| > 1$\n\n(h) $0.2\\ln(7 - 2x) < |\\sqrt{15 - x^2} - 3|$",
+      "source_images": ["image1612.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "we studied rational functions of the form $y = \\frac{ax + b}{cx + d}$.",
+      "source_images": ["image1613.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "In this Section we consider rational functions of the form $y = \\frac{ax + b}{cx^2 + dx + e}$ and $y = \\frac{ax^2 + bx + c}{dx + e}$",
+      "source_images": ["image1614.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 12\n\nConsider the function $y = \\frac{2x - 6}{x^2 - 3x - 4}$.\n\n(a) Find the asymptotes of the function.\n\n(b) Find the axes intercepts.\n\n(c) Draw a sign diagram of the function.\n\n(d) Hence discuss the behaviour of the function near the asymptotes.\n\n(e) Sketch the function, showing the features you have found.\n\nSolutions:\n\n(a) The horizontal asymptote is $y = 0$.\n\nThe function is undefined when $x^2 - 3x - 4 = 0$\n\n$\\therefore (x + 1)(x - 4) = 0$\n\n$\\therefore x = -1$ or $4$\n\n$\\therefore$ the vertical asymptotes are $x = -1$ and $x = 4$.\n\n(b) When $x = 0$, $y = \\frac{-6}{-4} = \\frac{3}{2}$, so the $y$-intercept is $\\frac{3}{2}$.\n\nWhen $y = 0$, $2x - 6 = 0$\n\n$\\therefore x = 3$\n\n$\\therefore$ the $x$-intercept is $3$.\n\n(c) $y = \\frac{2(x - 3)}{(x + 1)(x - 4)}$ has sign diagram\n\n(d) As $x \\to -1^-$, $y \\to -\\infty$\n\nAs $x \\to -1^+$, $y \\to \\infty$\n\nAs $x \\to 4^-$, $y \\to -\\infty$\n\nAs $x \\to 4^+$, $y \\to \\infty$\n\nAs $x \\to -\\infty$, $y \\to 0^-$\n\nAs $x \\to \\infty$, $y \\to 0^+$",
+      "source_images": ["image1615.png", "image1616.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 6D.1\n\n1. The graph of $y = \\frac{4x - 5}{x^2 - 8x + 12}$ is shown alongside.\n\n(a) Find the asymptotes of the function.\n\n(b) Find the axes intercepts.\n\n2. For each of the following functions:\n\n(i) Find the equations of the asymptotes.\n\n(ii) Find the axes intercepts.\n\n(iii) Draw a sign diagram of the function.\n\n(iv) Hence discuss the behaviour of the function near its asymptotes.\n\n(v) Sketch the graph of the function.\n\n(a) $y = \\frac{x - 1}{(x + 3)(x - 2)}$\n\n(b) $y = \\frac{2x - 8}{(x - 1)(x - 3)}$\n\n(c) $f(x) = \\frac{5 - 3x}{(x + 2)(x - 4)}$\n\n(d) $f(x) = \\frac{-x - 4}{x^2 + 3x}$\n\n(e) $y = \\frac{2x + 5}{x^2 - 4x - 5}$\n\n(f) $y = \\frac{12 - 4x}{x^2 - 3x - 18}$\n\n(g) $f(x) = \\frac{5x - 9}{2x^2 + 10x - 12}$\n\n(h) $y = \\frac{3x + 6}{x^2 + 2x + 1}$\n\n(i) $f(x) = \\frac{4 - x}{2x^2 - 9x - 5}$\n\n(j) $y = \\frac{6x + 15}{3x^2 + 2x - 8}$\n\n(k) $f(x) = \\frac{7 - 4x}{21 + 8x - 4x^2}$\n\n(l) $y = \\frac{1 - 3x}{9x^2 - 12x + 4}$",
+      "source_images": ["image1617.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Consider the function $y = \\frac{4x - 6}{x^2 - 5x + 7}$.\n\n(a) State the equation of the horizontal asymptote.\n\n(b) Explain why the function has no vertical asymptotes.\n\n(c) Find the axes intercepts.\n\n(d) Use technology to help sketch the function.\n\n4. The function $f(x) = \\frac{8x - 3}{cx^2 + dx + 9}$ has one vertical asymptote, and passes through the point $(1, 5)$.\n\n(a) Show that $f(x)$ can take two possible forms. Find the vertical asymptote of $f(x)$ in each case.\n\n(b) Sketch the possible graphs of $y = f(x)$ on the same set of axes.\n\n5. The graph alongside shows a linear function $f(x)$ and a quadratic function $g(x)$.\n\nCopy the graph, and on the same set of axes, graph $y = \\frac{f(x)}{g(x)}$. Indicate clearly where the $x$-intercept(s) and asymptote(s) occur.",
+      "source_images": ["image1618.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "RATIONAL FUNCTIONS OF THE FORM $y = \\frac{ax^2 + bx + c}{dx + e}$",
+      "source_images": ["image1619.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "To help us describe graphs of the form $y = \\frac{ax^2 + bx + c}{dx + e}$, we use polynomial division to write them in the form $y = px + q + \\frac{r}{dx + e}$.\n\n- The function is undefined when $dx + e = 0$, so the graph has the vertical asymptote $x = -\\frac{e}{d}$.\n\nAn oblique asymptote is an asymptote which is neither vertical nor horizontal.\n\n- As $|x| \\to \\infty$, the term $\\frac{r}{dx + e} \\to 0$, and so the graph gets closer to the line $y = px + q$. The graph has the oblique asymptote $y = px + q$.",
+      "source_images": ["image1620.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 13\n\nConsider the function $f(x) = \\frac{2x^2 + 3x - 9}{x + 2}$.\n\n(a) Find the vertical asymptote of the function.\n\n(b) Find the axes intercepts.\n\n(c) Find the oblique asymptote.\n\n(d) Draw a sign diagram of the function.\n\n(e) Discuss the behaviour of the function near its asymptotes.\n\n(f) Sketch the function, showing the features you have found.\n\nSolutions:\n\n(a) The vertical asymptote is $x = -2$.\n\n(b) $f(0) = \\frac{-9}{2}$, so the $y$-intercept is $-\\frac{9}{2}$.\n\n$f(x) = 0$ when $2x^2 + 3x - 9 = 0$\n\n$\\therefore (2x - 3)(x + 3) = 0$\n\n$\\therefore x = \\frac{3}{2}$ or $-3$\n\n$\\therefore$ the $x$-intercepts are $\\frac{3}{2}$ and $-3$.\n\n(c) $f(x) = \\frac{2x^2 + 3x - 9}{x + 2}$\n\n$= 2x - 1 - \\frac{7}{x + 2}$\n\n$\\begin{array}{r} 2x - 1 \\\\ x + 2 \\overline{) 2x^2 + 3x - 9} \\\\ -(2x^2 + 4x) \\downarrow \\\\ \\hline -x - 9 \\\\ -(-x - 2) \\\\ \\hline -7 \\end{array}$\n\n$\\therefore$ the oblique asymptote is $y = 2x - 1$.\n\n(d) $f(x) = \\frac{(2x - 3)(x + 3)}{x + 2}$ has sign diagram\n\n(e) As $x \\to -2^-$, $f(x) \\to \\infty$\n\nAs $x \\to -2^+$, $f(x) \\to -\\infty$\n\nAs $x \\to -\\infty$, $-\\frac{7}{x + 2} \\to 0^+$, so $f(x) \\to 2x - 1^+$\n\nAs $x \\to \\infty$, $-\\frac{7}{x + 2} \\to 0^-$, so $f(x) \\to 2x - 1^-$",
+      "source_images": ["image1621.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 6D.2\n\n1. The graph of $y = \\frac{3x^2 + x - 2}{x - 1}$ is shown alongside.\n\n(a) Find the equation of the vertical asymptote.\n\n(b) Find the axes intercepts.\n\n(c) Write the function in the form $y = px + q + \\frac{r}{x - 1}$, and hence find the equation of the oblique asymptote.\n\n2. For each of the following functions:\n\n(i) Find the equation of the vertical asymptote.\n\n(ii) Find the axes intercepts.\n\n(iii) Find the oblique asymptote.\n\n(iv) Draw a sign diagram of the function.\n\n(v) Hence discuss the behaviour of the function near its asymptotes.\n\n(vi) Sketch the graph of the function.\n\n(a) $y = \\frac{x^2 + x - 6}{x - 1}$\n\n(b) $f(x) = \\frac{-x^2 + 3x - 2}{x}$\n\n(c) $y = \\frac{2x^2 - 8x + 8}{x - 3}$\n\n(d) $f(x) = \\frac{-6x^2 + 5x}{2x + 1}$\n\n(e) $y = \\frac{-6x^2 - 4x - 1}{3x + 2}$\n\n(f) $f(x) = \\frac{8x^2 - 19x - 15}{1 - 2x}$\n\n3. Consider the graphs of $y = f(x)$ and $y = g(x)$ shown alongside.\n\nFor $y = \\frac{f(x)}{g(x)}$ find the equation of the:\n\n(i) vertical asymptote\n\n(ii) oblique asymptote.\n\n(b) Copy the graph, and on the same set of axes, graph $y = \\frac{f(x)}{g(x)}$. Indicate clearly where the $x$-intercept(s) and asymptote(s) occur.\n\n4. Find the equation of the oblique asymptote of $y = \\frac{ax^2 + bx + c}{dx + e}$.",
+      "source_images": ["image1622.png"]
+    },
+    {
+      "type": "investigation",
+      "content_latex": "DISCUSSION\n\nYou should have noticed that the graph of $y = \\frac{ax^2 + bx + c}{dx + e}$ takes one of the two shapes shown.\n\nWhat determines which shape the graph takes?",
+      "source_images": ["image1623.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Just like fractions involving numbers, fractions involving algebra can be added by writing them with a common denominator.\n\nFor example: $\\frac{3}{x - 2} + \\frac{4}{x + 3}$\n\n$= \\frac{3}{x - 2} \\times \\frac{x + 3}{x + 3} + \\frac{4}{x + 3} \\times \\frac{x - 2}{x - 2}$\n\n$= \\frac{3(x + 3) + 4(x - 2)}{(x - 2)(x + 3)}$\n\n$= \\frac{3x + 9 + 4x - 8}{x^2 + 3x - 2x - 6}$\n\n$= \\frac{7x + 1}{x^2 + x - 6}$ which is a rational function.",
+      "source_images": ["image1624.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "When we study calculus later in the course, we are more likely to want to reverse this process. We need to decompose a function such as $\\frac{7x + 1}{x^2 + x - 6}$ into the sum of partial fractions $\\frac{3}{x - 2} + \\frac{4}{x + 3}$ so it can be integrated.",
+      "source_images": ["image1625.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "To decompose a rational function into the sum of partial fractions, we follow the following procedure:\n\nStep 1: Factorise the denominator.\n\nStep 2: Write a sum of partial fractions with the factors as denominators and unknown numerators.\n\nStep 3: Multiply both sides by the denominator.\n\nStep 4: Find the unknown numerators by substituting the zeros of the denominators.",
+      "source_images": ["image1626.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 14\n\nWrite as a sum of partial fractions: $\\frac{7x + 1}{x^2 + x - 6}$\n\nSolution:\n\nStep 1: $x^2 + x - 6 = (x - 2)(x + 3)$\n\nStep 2: Let $\\frac{7x + 1}{x^2 + x - 6} = \\frac{A}{x - 2} + \\frac{B}{x + 3}$.\n\nStep 3: $\\therefore 7x + 1 = A(x + 3) + B(x - 2)$\n\nStep 4: Substituting $x = -3$, $7(-3) + 1 = B(-3 - 2)$\n\n$\\therefore -5B = -20$\n\n$\\therefore B = 4$\n\nSubstituting $x = 2$, $7(2) + 1 = A(2 + 3)$\n\n$\\therefore 5A = 15$\n\n$\\therefore A = 3$\n\n$\\therefore \\frac{7x + 1}{x^2 + x - 6} = \\frac{3}{x - 2} + \\frac{4}{x + 3}$",
+      "source_images": ["image1627.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 15\n\nWrite $\\frac{33 - 12x}{(x + 1)(x - 2)^2}$ as the sum of partial fractions in the form $\\frac{A}{x + 1} + \\frac{B}{x - 2} + \\frac{C}{(x - 2)^2}$.\n\nSolution:\n\nLet $\\frac{33 - 12x}{(x + 1)(x - 2)^2} = \\frac{A}{x + 1} + \\frac{B}{x - 2} + \\frac{C}{(x - 2)^2}$.\n\n$\\therefore 33 - 12x = A(x - 2)^2 + B(x + 1)(x - 2) + C(x + 1)$\n\nSubstituting $x = -1$, $33 - 12(-1) = A(-1 - 2)^2$\n\n$\\therefore 45 = 9A$\n\n$\\therefore A = 5$\n\nThere are 3 unknowns but only 2 zeros in the denominator, so we must perform another substitution to find $B$.\n\nSubstituting $x = 2$, $33 - 12(2) = C(2 + 1)$\n\n$\\therefore 9 = 3C$\n\n$\\therefore C = 3$\n\nSubstituting $x = 0$, $33 - 12(0) = 5(-2)^2 + B(1)(-2) + 3(1)$\n\n$\\therefore 33 = 20 - 2B + 3$\n\n$\\therefore 2B = -10$\n\n$\\therefore B = -5$\n\n$\\therefore \\frac{33 - 12x}{(x + 1)(x - 2)^2} = \\frac{5}{x + 1} - \\frac{5}{x - 2} + \\frac{3}{(x - 2)^2}$",
+      "source_images": ["image1628.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 6E\n\n1. Show that:\n\n(a) $\\frac{3}{x^2 + 5x + 4}$ can be written as the sum of partial fractions $\\frac{-1}{x + 4} + \\frac{1}{x + 1}$.\n\n(b) $\\frac{9 - x}{x^2 + 3x - 10}$ can be written as the sum of partial fractions $\\frac{-2}{x + 5} + \\frac{1}{x - 2}$.\n\n(c) $\\frac{3x - 23}{2x^2 - 5x - 12}$ can be written as the sum of partial fractions $\\frac{5}{2x + 3} - \\frac{1}{x - 4}$.\n\n2. Write as the sum of partial fractions:\n\n(a) $\\frac{1}{x^2 + 3x + 2}$\n\n(b) $\\frac{x}{x^2 - 5x + 6}$\n\n(c) $\\frac{3x}{x^2 - 2x - 8}$\n\n(d) $\\frac{3x + 2}{x^2 - 4}$\n\n(e) $\\frac{2x - 1}{x^2 - 2x - 3}$\n\n(f) $\\frac{2 - 5x}{x^2 + 4x - 12}$\n\n(g) $\\frac{7x + 10}{2x^2 + 5x + 3}$\n\n(h) $\\frac{x + 9}{3x^2 - 5x - 2}$\n\n(i) $\\frac{2x + 27}{8x^2 + 18x - 5}$",
+      "source_images": ["image1629.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Show that $\\frac{5x^2 + 11x + 16}{(x - 5)(x + 2)^2}$ can be written as the sum of partial fractions $\\frac{4}{x - 5} + \\frac{1}{x + 2} - \\frac{2}{(x + 2)^2}$.\n\n4. Write $\\frac{-3x - 4}{(x + 2)(x + 3)^2}$ as the sum of partial fractions in the form $\\frac{A}{x + 2} + \\frac{B}{x + 3} + \\frac{C}{(x + 3)^2}$.",
+      "source_images": ["image1630.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. (a) Show that $(x + 3)(x - 1)^2 = x^3 + x^2 - 5x + 3$.\n\n(b) Write $\\frac{19x + 9}{x^3 + x^2 - 5x + 3}$ as the sum of partial fractions.\n\n6. (a) Show that $(2x - 1)(x^2 + x + 4) = 2x^3 + x^2 + 7x - 4$.\n\n(b) Write $\\frac{10x^2 - 3x + 18}{2x^3 + x^2 + 7x - 4}$ in the form $\\frac{A}{2x - 1} + \\frac{Bx + C}{x^2 + x + 4}$.",
+      "source_images": ["image1631.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 6A\n\n1. Determine whether each function is even, odd, or neither:\n\n(a) $f(x) = -\\frac{4}{x}$\n\n(b) $f(x) = \\frac{2x - 3}{x + 1}$\n\n(c) $f(x) = \\sqrt{x^2 - 5}$\n\n2. For what values of $k$ is $f(x) = \\sin(x - k)$:\n\n(a) even\n\n(b) odd\n\n(c) neither?\n\n3. Given that $f(x)$ is an odd function, determine whether $(f \\circ f)(x)$ is even, odd, or neither.\n\n4. Suppose $f(x) = (x^2 - 3x)(x + b)$, $b \\in \\mathbb{R}$ is an odd function. Find the value of $b$.\n\n5. The graph of $y = f(x)$ is given. On the same set of axes, graph the functions:\n\n(a) $y = f(x)$ and $y = f(|x|)$\n\n(b) $y = f(x)$ and $y = [f(x)]^2$.",
+      "source_images": ["image1632.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. Suppose $f(x)$ has domain $0 \\leqslant x < 5$ and range $-5 \\leqslant y \\leqslant 2$. Find:\n\n(a) the domain of $f(|x|)$\n\n(b) the range of $|f(x)|$.\n\n7. Suppose $f(x)$ is an odd function. Determine whether the following are even, odd, or neither:\n\n(a) $f(2x)$\n\n(b) $f(x^2)$\n\n(c) $f(x) + 2$\n\n(d) $[f(x)]^2$\n\n(e) $|f(x)|$\n\n(f) $\\frac{1}{f(x)}$\n\n8. Suppose $f(x) = e^x - 1$.\n\n(a) On the same set of axes, sketch $y = f(x)$ and $y = [f(x)]^2$.\n\n(b) Find the invariant points when $y = f(x)$ is transformed to $y = [f(x)]^2$.\n\n9. Draw the graph of:\n\n(a) $y = |(x - 1)(x - 4)|$\n\n(b) $y = 2x - |x - 2|$\n\n10. Solve for $x$:\n\n(a) $\\left|\\frac{2x + 1}{x - 2}\\right| = 3$\n\n(b) $|3x + 5| = |x - 7|$\n\n11. Solve for $x$:\n\n(a) $|x + 3| \\leqslant 6$\n\n(b) $|3 - 2x| > 1$\n\n(c) $|3x + 2| < |x - 5|$",
+      "source_images": ["image1633.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "12. Solve graphically:\n\n(a) $|2x - 6| > x + 3$\n\n(b) $\\sqrt{x^2 + x + 5} \\leqslant |7 - 2^x|$\n\n13. The graph of $f(x) = \\frac{x + 1}{x^2 - x - 6}$ is shown alongside.\n\n(a) Find the asymptotes of the function.\n\n(b) Find the axes intercepts.\n\n(c) Sketch the graph of $y = |f(x)|$.\n\n14. Consider the function $f(x) = \\frac{2x^2 + 3x - 5}{2x - 3}$.\n\n(a) Find the equation of the vertical asymptote.\n\n(b) Find the axes intercepts.\n\n(c) Find the oblique asymptote.\n\n(d) Draw a sign diagram of the function.\n\n(e) Hence discuss the behaviour of the function near its asymptotes.\n\n(f) Sketch the graph of the function.\n\n15. Write as the sum of partial fractions:\n\n(a) $\\frac{x + 1}{x^2 + 4x - 5}$\n\n(b) $\\frac{2x - 4}{2x^2 + 7x + 3}$\n\n16. Write $\\frac{13x + 2}{(x + 4)(x - 1)^2}$ in the form $\\frac{A}{x + 4} + \\frac{B}{x - 1} + \\frac{C}{(x - 1)^2}$.",
+      "source_images": ["image1634.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 6B\n\n1. Suppose $f(x)$ is an even function, and $(-2, 6)$ and $(1, -4)$ lie on the graph of $y = f(x)$. Write down two other points which lie on the graph of $y = f(x)$.\n\n2. (a) Prove that the product of two even functions is an even function.\n\n(b) Give an example of two functions, both of which are neither odd nor even, whose product is an even function.\n\n3. $f(x) = \\cos(2(x - a)) + b$ is an odd function. Find the possible values of $a$ and $b$.\n\n4. The graph of $y = f(x)$ is given. On the same set of axes, graph the functions $y = f(x)$ and $y = [f(x)]^2$.",
+      "source_images": ["image1635.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. For any function $f(x)$, prove that $f(|x|)$ is an even function.\n\n6. The graph of $y = f(x)$ has 3 turning points and 2 $x$-intercepts. If possible, state how many turning points and $x$-intercepts each of the following graphs has:\n\n(a) $y = |f(x)|$\n\n(b) $y = f(|x|)$\n\n(c) $y = [f(x)]^2$\n\n7. Draw the graph of $y = |f(x)|$ and $y = f(|x|)$ for:\n\n(a) [graph shown]\n\n(b) [graph shown]\n\n8. Solve for $x$:\n\n(a) $|2 - 5x| = 6$\n\n(b) $|4x - 2| = |x + 7|$\n\n9. Solve for $x$:\n\n(a) $|3x + 2| > 3$\n\n(b) $\\frac{1}{4}|2x + 5| \\geqslant |x - 1|$\n\n(c) $\\left|\\frac{x}{x + 4}\\right| \\leqslant 2$\n\n10. Solve graphically:\n\n(a) $\\left|\\frac{4}{x - 1}\\right| = 6 - \\frac{x}{2}$\n\n(b) $\\frac{x}{|x| + 1} \\geqslant \\frac{1}{3}$\n\n11. The graph of $y = \\frac{ax + b}{2x^2 + dx + e}$ is shown alongside.\n\nFind the value of $a$, $b$, $d$, and $e$.",
+      "source_images": ["image1636.png", "image1637.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "12. Consider the function $f(x) = \\frac{2x - 5}{2x^2 - x - 6}$.\n\n(a) Find the equations of the asymptotes.\n\n(b) Find the axes intercepts.\n\n(c) Draw a sign diagram of the function.\n\n(d) Hence discuss the behaviour of the function near its asymptotes.\n\n(e) Sketch the graph of the function.\n\n13. Consider the function $g(x) = \\frac{3x^2 - 11x - 4}{3x - 2}$.\n\n(a) Find the equation of the vertical asymptote.\n\n(b) Find the axes intercepts.\n\n(c) Find the oblique asymptote.\n\n(d) Draw a sign diagram of the function.\n\n(e) Discuss the behaviour of the function near its asymptotes.\n\n(f) Sketch the graph of the function.",
+      "source_images": ["image1637.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "14. Write as the sum of partial fractions:\n\n(a) $\\frac{2x}{-x^2 + 4x - 3}$\n\n(b) $\\frac{x - 7}{x^2 + 7x + 12}$\n\n15. (a) Show that $(2x - 3)(x + 2)^2 = 2x^3 + 5x^2 - 4x - 12$.\n\n(b) Hence write $\\frac{9x^2 - 2x - 5}{2x^3 + 5x^2 - 4x - 12}$ as the sum of partial fractions.\n\n16. Consider a function $f(x)$ with domain $x \\in \\mathbb{R}$.\n\n(a) Determine whether each of the following is even, odd, or neither:\n\n(i) $\\frac{f(x) + f(-x)}{2}$\n\n(ii) $\\frac{f(x) - f(-x)}{2}$\n\n(b) Prove that $f(x)$ can be written as the sum of an even function and an odd function.",
+      "source_images": ["image1638.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW PROBLEMS\n\n17.15 For each of the following, graph the equation $y = f(x)$.\n\n(a) $f(x) = -2$\n\n(b) $f(x) = -2x + 5$\n\n(c) $f(x) = 3x^2 + 1$\n\n(d) $f(x) = \\frac{1}{x + 3}$\n\n(e) $f(x) = x^3$\n\n(f) $f(x) = 2 \\cdot g(x + 3)$, where $g(x) = -x^2$.\n\n17.16 For each of the following graphs below, determine if the graph represents a function. If the graph does represent a function, determine whether or not the function has an inverse.\n\n(a) [graph shown]\n\n(b) [graph shown]\n\n(c) [graph shown]\n\n(d) [graph shown]\n\n17.17 The graph of $y = f(x)$ is shown at right.\n\n(a) Find $f(2)$.\n\n(b) Find $f(5)$.\n\n(c) Find $f(f(-3))$.\n\n(d) Find all values of $a$ such that $f(a) = 4$.\n\n(e) Find all values of $b$ such that $f(f(f(b))) = -1$.\n\n17.18\n\n(a) Graph the functions $f(x) = x + 3$ and $g(x) = x^2 + 1$ on the same Cartesian coordinate plane.\n\n(b) What are the solutions to the equation $x + 3 = x^2 + 1$? How could you have used your graphs from part (a) to answer this question?\n\n(c) How many real solutions does the equation $\\frac{1}{x} = x^2 - 7$ have?",
+      "source_images": ["image1639.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "17.19 Determine whether each of the following statements is true or false. Provide explanations for your answers.\n\n(a) If a graph on the Cartesian plane is the graph of a function, then every vertical line passes through exactly one point.\n\n(b) A graph on the Cartesian plane is the graph of a function if and only if every vertical line passes through at most one point.\n\n(c) If no horizontal line passes through more than one point on a given graph on the coordinate plane, then the graph is the graph of a function that has an inverse.\n\n(d) If no horizontal line passes through more than one point of the graph of a function, then the function has an inverse.\n\n(e) The graph of $y = f(x + 2)$ is the graph of $y = f(x)$ shifted two units to the left.\n\n(f) The graph of $y = f(3x) + 4$ is the result of stretching the graph of $y = f(x)$ vertically by a factor of 3, then shifting the result 4 units up.",
+      "source_images": ["image1640.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "17.20 The graph of $y = g(x)$ is shown at left below. Graph $y = g(2x)$, $y = g(-x)$, $y = -g(2x)$, and $y = g(x)/3$.\n\n17.21 The graph of $y = h(x)$ is shown at right above. Graph $y = h(x) + 4$, $y = h(x + 4)$, and $y = h(x - 2) + 3$.\n\n17.22 Suppose the point $(2, 3)$ is on the graph of $y = f(x)$. For each of the parts below, find a point that must be on the graph of the given equation.\n\n(a) $y = f(2x)$\n\n(b) $y = f(x + 3)$\n\n(c) $y = f(x) - 5$\n\n(d) $y = f(2x + 3) - 5$\n\n17.23 Suppose $f$ is a function such that the graph of $y = f(x)$ has at least one $x$-intercept. State whether each of the following is true or false, and explain why.\n\n(a) The graph of $y = f(2x)$ must have the same $x$-intercepts as the graph of $y = f(x)$.\n\n(b) The graph of $y = f(x + 2)$ must have the same $x$-intercepts as the graph of $y = f(x)$.\n\n(c) The graph of $y = 3f(x)$ must have the same $x$-intercepts as the graph of $y = f(x)$.\n\n(d) It is possible for the graph of $y = f(x) - 3$ to have the same $x$-intercepts as the graph of $y = f(x)$.\n\n(e) It is possible for the graph of $y = f(x - 3)$ to have the same $x$-intercepts as the graph of $y = f(x)$.",
+      "source_images": ["image1641.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "17.24 Suppose the graph of $y = f(x)$ has a $y$-intercept. Which of the graphs of $y = f(2x)$, $y = 2f(x)$, $y = f(x + 2)$ and $y = f(x) + 2$ must have the same $y$-intercept as the graph of $y = f(x)$?\n\n17.25\n\n(a) Sketch the graph of a function $f$ such that $f(2) = 5$.\n\n(b) Sketch the graph of a function $f$ such that $f(f(2)) = 5$, but $f(2) \\neq 5$.\n\n17.26 The graph of $y = f(x)$ is shown at right.\n\n(a) Find $f^{-1}(3)$.\n\n(b) Find $f^{-1}(-5)$.\n\n(c) Find $a$ if $f^{-1}(a) = 5$.\n\n17.27 Suppose $a$, $b$, and $c$ are constants such that $a \\neq 0$ and $f$ is the function defined by $f(x) = ax^2 + bx + c$. Does $f$ have an inverse? Why or why not?",
+      "source_images": ["image1642.png"]
+    },
+    {
+      "type": "investigation",
+      "content_latex": "OPENING PROBLEM\n\nAt an antiques fair, Bernard purchases a clock for 500 pounds and a vase for 400 pounds. The clock increases in value by 5% each year, and the vase increases in value by 7% each year.\n\nThings to think about:\n\n(a) What is the value of each item 1 year after purchase?\n\n(b) Can you write a formula for the value of each item $t$ years after purchase?\n\n(c) Which item is more valuable 15 years after purchase?\n\n(d) How can we determine when the items are equal in value?",
+      "source_images": ["image1643.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "We have seen previously how exponents are used to indicate when a number is raised to a power.\n\nFor a positive integer exponent, the exponent tells us how many of the base are multiplied together.\n\n$2^3 = 2 \\times 2 \\times 2 = 8$\n\n$2^2 = 2 \\times 2 = 4$\n\n$2^1 = 2 = 2$\n\n$2^0 = 1 = 1$\n\nAny non-zero base to the power $0$ is defined as $1$, to give consistency to the exponent laws.\n\nFor a negative integer exponent, we take the reciprocal of the corresponding positive integer power.\n\n$2^{-1} = \\frac{1}{2} = \\frac{1}{2}$\n\n$2^{-2} = \\frac{1}{2 \\times 2} = \\frac{1}{4}$\n\n$2^{-3} = \\frac{1}{2 \\times 2 \\times 2} = \\frac{1}{8}$",
+      "source_images": ["image1644.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "RATIONAL EXPONENTS",
+      "source_images": ["image1645.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "The laws of exponents used previously can also be applied to rational exponents, or exponents $\\in \\mathbb{Q}$.\n\nFor any $a > 0$, notice that $a^{\\frac{1}{2}} \\times a^{\\frac{1}{2}} = a^{\\frac{1}{2} + \\frac{1}{2}} = a^1 = a$ {exponent laws}\n\nand $\\sqrt{a} \\times \\sqrt{a} = a$ also.\n\nLikewise, $a^{\\frac{1}{3}} \\times a^{\\frac{1}{3}} \\times a^{\\frac{1}{3}} = a^1 = a$\n\nand $\\sqrt[3]{a} \\times \\sqrt[3]{a} \\times \\sqrt[3]{a} = a$ also.\n\nBy direct comparison, we conclude that $a^{\\frac{1}{2}} = \\sqrt{a}$ and $a^{\\frac{1}{3}} = \\sqrt[3]{a}$.\n\nIn general, $a^{\\frac{1}{n}} = \\sqrt[n]{a}$ where $\\sqrt[n]{a}$ reads \"the $n$th root of $a$\" for $n \\in \\mathbb{Z}^+$.",
+      "source_images": ["image1646.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "We can now determine that $\\sqrt[n]{a^m} = (a^m)^{\\frac{1}{n}}$\n\n$= a^{\\frac{m}{n}}$\n\n$\\therefore a^{\\frac{m}{n}} = \\sqrt[n]{a^m}$ for $a > 0$, $n \\in \\mathbb{Z}^+$, $m \\in \\mathbb{Z}$",
+      "source_images": ["image1647.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 1\n\nWrite as a single power of 2:\n\n(a) $\\sqrt[3]{2}$\n\n(b) $\\frac{1}{\\sqrt{2}}$\n\n(c) $\\sqrt[5]{4}$\n\nSolutions:\n\n(a) $\\sqrt[3]{2}$\n\n$= 2^{\\frac{1}{3}}$\n\n(b) $\\frac{1}{\\sqrt{2}}$\n\n$= \\frac{1}{2^{\\frac{1}{2}}}$\n\n$= 2^{-\\frac{1}{2}}$\n\n(c) $\\sqrt[5]{4}$\n\n$= (2^2)^{\\frac{1}{5}}$\n\n$= 2^{2 \\times \\frac{1}{5}}$\n\n$= 2^{\\frac{2}{5}}$",
+      "source_images": ["image1648.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 2\n\nWithout using a calculator, write in simplest rational form:\n\n(a) $8^{\\frac{4}{3}}$\n\n(b) $27^{-\\frac{2}{3}}$\n\nSolutions:\n\n(a) $8^{\\frac{4}{3}}$\n\n$= (2^3)^{\\frac{4}{3}}$\n\n$= 2^{3 \\times \\frac{4}{3}}$ $\\{(a^m)^n = a^{mn}\\}$\n\n$= 2^4$\n\n$= 16$\n\n(b) $27^{-\\frac{2}{3}}$\n\n$= (3^3)^{-\\frac{2}{3}}$\n\n$= 3^{3 \\times (-\\frac{2}{3})}$\n\n$= 3^{-2}$\n\n$= \\frac{1}{9}$",
+      "source_images": ["image1649.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "We can use the standard rules of algebra, together with the laws of exponents, to simplify expressions containing rational or variable exponents:\n\n$a(b + c) = ab + ac$\n\n$(a + b)(c + d) = ac + ad + bc + bd$\n\n$(a + b)(a - b) = a^2 - b^2$\n\n$(a + b)^2 = a^2 + 2ab + b^2$\n\n$(a - b)^2 = a^2 - 2ab + b^2$",
+      "source_images": ["image1650.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 3\n\nExpand and simplify: $x^{-\\frac{1}{2}}(x^{\\frac{3}{2}} + 2x^{\\frac{1}{2}} - 3x^{-\\frac{1}{2}})$\n\nSolution:\n\n$x^{-\\frac{1}{2}}(x^{\\frac{3}{2}} + 2x^{\\frac{1}{2}} - 3x^{-\\frac{1}{2}})$\n\n$= x^{-\\frac{1}{2}} \\times x^{\\frac{3}{2}} + x^{-\\frac{1}{2}} \\times 2x^{\\frac{1}{2}} - x^{-\\frac{1}{2}} \\times 3x^{-\\frac{1}{2}}$ {each term is multiplied by $x^{-\\frac{1}{2}}$}\n\n$= x^1 + 2x^0 - 3x^{-1}$ {adding indices}\n\n$= x + 2 - \\frac{3}{x}$",
+      "source_images": ["image1651.png"]
+    }
+  ]
+}

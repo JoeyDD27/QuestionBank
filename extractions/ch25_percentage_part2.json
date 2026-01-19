@@ -1,0 +1,252 @@
+{
+  "chapter": 25,
+  "part": 2,
+  "images_range": "2404-2454",
+  "items": [
+    {
+      "type": "example",
+      "content_latex": "Example 14\n\nAli bought shares in Boral at $\\$10.50$ per share, but was forced to sell them at $\\$9.30$ each. Calculate:\n\n(a) her loss per share\n\n(b) the loss per share as a percentage of the cost.\n\nSolutions:\n\n(a) Loss $= \\text{selling price} - \\text{cost price}$\n$= \\$9.30 - \\$10.50$\n$= -\\$1.20$\n\ni.e., a $\\$1.20$ per share loss.\n\n(b) $\\%$ loss $= \\frac{\\text{loss}}{\\text{cost}} \\times 100\\%$\n$= \\frac{\\$1.20}{\\$10.50} \\times 100\\%$\n$\\approx 11.4\\%$",
+      "source_images": ["image2404.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 3D.1\n\n1. For the following items, find the:\n\n(i) profit or loss\n\n(ii) selling price\n\n(a) a bicycle is purchased for $\\$300$ and marked up $80\\%$\n\n(b) a ring is purchased for €$650$ and marked down $45\\%$\n\n(c) a house is purchased for £$137\\,000$ and sold at a $15\\%$ profit\n\n(d) a car is purchased for ¥$2\\,570\\,000$ and sold at a $22\\%$ loss.\n\n2. A bicycle costs $\\$260$ and is sold for $\\$480$. Calculate the profit as a percentage of the cost price.\n\n3. A greengrocer buys fruit and vegetables from the market and sells them at a $25\\%$ mark up. On one particular morning, her fruit and vegetables cost her €$500$. If she sells all of her produce, find:\n\n(a) her profit\n\n(b) her total income.",
+      "source_images": ["image2405.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. A $30$ m roll of wire mesh was bought wholesale for £$216$. If it is sold for £$8.50$ per metre, find the profit and express it as a percentage of the wholesale or cost price.",
+      "source_images": ["image2406.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. A used car firm pays $\\$6000$ for a car, but, because of financial difficulties, has to sell it immediately and receives only $\\$4920$ for the sale. Find the loss incurred by the used car firm and express this loss as a percentage of the cost price.\n\n6. Ulrich and Jade purchased a new house for £$320\\,000$. Due to interest rate rises after $3$ years they were unable to afford their mortgage repayments and had to sell the house for £$285\\,000$. Find:\n\n(a) the loss incurred\n\n(b) the loss as a percentage of their total costs.\n\n7. A hardware store has a closing down sale. They advertise an aluminium ladder at $\\$256$. If the wholesale or cost price of the ladder was $\\$274$, find the loss and express it as a percentage of the cost price.",
+      "source_images": ["image2407.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 7H.1\n\n1. Copy and complete the following table:\n\n| | Cost price | Selling price | Profit or loss? | How much profit or loss? |\n|---|---|---|---|---|\n| (a) | $\\$45$ | $\\$60$ | | |\n| (b) | £$125$ | £$95$ | | |\n| (c) | $\\$255$ | $\\$199$ | | |\n| (d) | €$2225$ | €$2555$ | | |\n\n2. Copy and complete the following table:\n\n| | Cost price | Selling price | Profit or loss? |\n|---|---|---|---|\n| (a) | $\\$60$ | | $\\$25$ profit |\n| (b) | | €$195$ | €$35$ loss |\n| (c) | £$275$ | | £$95$ loss |\n| (d) | | $\\$297$ | $\\$135$ profit |",
+      "source_images": ["image2408.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. For each of the following transactions, find:\n\n(i) the profit or loss\n\n(ii) the percentage profit or loss.\n\n(a) I bought a CD set for $\\$50$ and then sold it for $\\$30$.\n\n(b) Jon bought a car for £$5000$ and then sold it for £$6250$.\n\n(c) Jodie bought a bicycle for €$200$ and then sold it for €$315$.\n\n(d) Hilda sold for $\\$816$ a refrigerator which cost her $\\$680$.\n\n(e) Frank sold for €$422.50$ a kitchen sink which cost him €$325$.\n\n4. A car was purchased for $\\$28\\,000$ and sold $2$ years later for $\\$21\\,000$. Find the loss as a percentage of the cost price.\n\n5. An agent buys a refrigerator for €$800$ and sells it for €$960$. Find the profit as a percentage of the cost price.\n\n6. A second hand car dealer purchased a motor vehicle for $\\$22\\,500$. It was sold one week later for $\\$27\\,000$. Find the profit made on the sale of the car, then express this profit as a percentage of the cost price.\n\n7. A retailer buys forty pairs of running shoes for a total price of €$3400$. He then sells the shoes for €$123.25$ per pair. Calculate the total profit and express this profit as a percentage of the cost price.\n\n8. A newsagent buys $120$ magazines for £$1.20$ each. If only $72$ of the magazines are sold for £$1.95$ each, determine whether the newsagent made a profit or a loss. Express the profit or loss as a percentage of the cost price.\n\n9. Prior to Oktoberfest, a department store orders $2000$ painted beer steins for €$4.60$ each. In the first week it sells $1450$ of the steins for €$12.20$ each, and in the second week the rest are placed on special at €$8.85$. At the end of the second week $50$ steins remain unsold. Determine the total profit, and express this profit as a percentage of the cost price.",
+      "source_images": ["image2409.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 16\n\nFind the selling price for goods purchased for $\\$150$ and sold at a $20\\%$ profit.\n\nFor a $20\\%$ profit we must increase $\\$150$ by $20\\%$.\n\nTwo step method:\n\nProfit $= 20\\%$ of $\\$150$\n$= 0.2 \\times \\$150$\n$= \\$30$\n\nSo, the selling price $= \\$150 + \\$30 = \\$180$\n\nor\n\nUsing the multiplier:\n\nTo increase by $20\\%$ we multiply by $120\\%$.\n\nSo, the selling price $= 120\\%$ of $\\$150$\n$= 1.20 \\times \\$150$\n$= \\$180$",
+      "source_images": ["image2410.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "10. Find the selling price for goods bought for:\n\n(a) £$500$ and sold for a $20\\%$ profit\n\n(b) $\\$350$ and sold at a $25\\%$ loss\n\n(c) £$4500$ and sold for a profit of $8\\%$\n\n(d) €$8000$ and sold at a loss of $35\\%$\n\n11. Jacki bought a sewing machine for $\\$560$ and sold it for a profit of $18\\%$. At what price did she sell the sewing machine?",
+      "source_images": ["image2411.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "The price at which the item is sold is called the selling price.\n\n$\\text{selling price} = \\text{marked price} - \\text{discount}$",
+      "source_images": ["image2412.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "When retail stores advertise a sale, they offer a percentage off the marked price of most goods.",
+      "source_images": ["image2413.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 15\n\nA store offers a discount of $15\\%$ off the marked price of a shirt selling for $\\$49$.\n\nFind the:\n\n(a) discount\n\n(b) sale price.\n\nSolutions:\n\n(a) Discount $= 15\\%$ of $\\$49$\n$= 0.15 \\times \\$49$\n$= \\$7.35$\n\n(b) Sale price $= \\text{marked price} - \\text{discount}$\n$= \\$49 - \\$7.35$\n$= \\$41.65$",
+      "source_images": ["image2414.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 17\n\nIf the marked price of a video projector is $\\$1060$ and a $22\\%$ discount is offered, find the actual selling price.\n\nWe have to decrease $\\$1060$ by $22\\%$.\n\nTo decrease by $22\\%$ we multiply by $100\\% - 22\\% = 78\\%$.\n\nSo, selling price $= 78\\%$ of marked price\n$= 78\\%$ of $\\$1060$\n$= 0.78 \\times \\$1060$\n$= \\$826.80$",
+      "source_images": ["image2415.png", "image2416.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 7H.2\n\n1. (a) If the marked price of a golf set is €$1300$ and a $12\\%$ discount is offered, find the actual selling price.\n\n(b) A furniture distributor advertises kitchen tables at a marked price of €$480$. It offers a $15\\%$ discount for the first $20$ customers. What is the actual selling price if you are the first customer?\n\n2. Copy and complete the following table:\n\n| | Marked price | Discount | Selling Price | Discount as % of marked price |\n|---|---|---|---|---|\n| (a) | €$125$ | €$25$ | | |\n| (b) | £$240$ | | | $26\\%$ |\n| (c) | €$1.85$ | | | $20\\%$ |\n| (d) | | $55$ cents | $\\$2.45$ | |\n| (e) | $\\$142$ | | $\\$127$ | |\n| (f) | | ¥$600$ | | $10\\%$ |",
+      "source_images": ["image2417.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 3D.2\n\n1. Find the discount offered on the following items and hence find the sale price:\n\n(a) a pair of shoes marked at €$70$ and discounted $40\\%$\n\n(b) a suit marked at £$150$ and discounted $25\\%$\n\n(c) a cap marked at $\\$24$ and discounted $12\\frac{1}{2}\\%$.\n\n2. A plumber buys supplies worth €$220$ but is given a $5\\%$ discount. What does she save with the discount?\n\n3. A builder buys timber worth €$4800$ but is given a $12\\%$ discount. What does he pay for the timber?\n\n4. A dressmaker buys material in bulk. It is marked at ¥$13\\,200$ but she is given a $7\\frac{1}{2}\\%$ discount. How much does she actually pay for the material?",
+      "source_images": ["image2418.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 16\n\nKylie buys a pair of jeans marked at $\\$90$ but only pays $\\$76.50$. What percentage discount was she given?\n\nDiscount $= \\$90 - \\$76.50 = \\$13.50$\n\n$\\therefore$ $\\%$ discount $= \\frac{\\text{discount}}{\\text{marked price}} \\times 100\\%$\n\n$= \\frac{\\$13.50}{\\$90} \\times 100\\%$\n\n$= 15\\%$\n\nSo, Kylie was given $15\\%$ discount.",
+      "source_images": ["image2419.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. Ronan purchases a CD marked at €$28$ but actually pays €$23.80$. What percentage discount was he given?\n\n6. Nghia saw a car advertised for sale at $\\$17\\,875$, having been discounted from $\\$27\\,500$. Calculate the percentage discount.\n\n7. A supermarket employee buys groceries worth ¥$7600$ but is only charged ¥$7030$. What employee discount did she receive?",
+      "source_images": ["image2420.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 23\n\nThe price of a TV set is marked up by $25\\%$ for sale. Its selling price is $\\$550$. For what price did the shopkeeper buy the TV set?\n\n$\\text{cost price} \\times \\text{multiplier} = \\text{selling price}$\n\n$\\therefore$ cost price $\\times 1.25 = \\$550$ $\\quad \\{100\\% + 25\\% = 125\\% = 1.25\\}$\n\n$\\therefore$ cost price $= \\frac{\\$550}{1.25} = \\$440$\n\nSo, the television set cost the shopkeeper $\\$440$.",
+      "source_images": ["image2421.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 3F\n\n1. Find the original amount given that:\n\n(a) after an increase of $25\\%$ the price was RM$250$\n\n(b) after an increase of $35\\%$ the price was $\\$243$\n\n(c) after a decrease of $10\\%$ the price was £$81$\n\n(d) after a decrease of $17\\%$ the price was €$37.35$\n\n(e) after a decrease of $37.5\\%$ the price was $115$ pesos\n\n(f) after a decrease of $22\\frac{1}{2}\\%$ the price was €$9300$\n\n2. 'Blacks Furniture Mart' sells a lounge suite for $\\$3280.50$, making a profit of $35\\%$ on the cost price. How much did the business pay for the lounge suite?\n\n3. A retailer sells a microwave oven for €$640$. This is a $25\\%$ profit on the cost price. How much did the retailer pay for the microwave oven?\n\n4. An electrical firm sells a washing machine for $\\$383.50$, making a $30\\%$ profit on the wholesale or cost price. Find the wholesale price of the machine.\n\n5. Jason sells a bicycle for $\\$247$ at a loss of $35\\%$. What did Jason pay for the bicycle originally?",
+      "source_images": ["image2422.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "SIMPLE INTEREST\n\nIf the interest is calculated each year as a fixed percentage on the original amount of money borrowed or invested, then the interest is called simple interest.",
+      "source_images": ["image2423.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "SIMPLE INTEREST FORMULA\n\nIf $\\$C$ is borrowed or invested for $n$ years at $r\\%$ p.a. (per annum) simple interest, the simple interest $I$ can be calculated using the formula:\n\n$I = Crn$ where $C$ is the principal,\n$r$ is the flat rate of interest per annum,\n$n$ is the time or duration of the loan in years.",
+      "source_images": ["image2424.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "For example, suppose $\\$8000$ is invested for $5$ years at $10\\%$ per annum or per year simple interest.\n\nThe simple interest paid for $1$ year $= 10\\%$ of $\\$8000$\n$= 0.1 \\times \\$8000$\n$= \\$800$\n\nThus, the simple interest for $2$ years $= 10\\%$ of $\\$8000 \\times 2$\n$= 0.1 \\times \\$8000 \\times 2$\n$= \\$1600$\n\n$\\vdots$\n\nThus, the simple interest for $5$ years $= 10\\%$ of $\\$8000 \\times 5$\n$= 0.1 \\times \\$8000 \\times 5$\n$= \\$4000$",
+      "source_images": ["image2425.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 24\n\nFind the simple interest payable on an investment of $\\$20\\,000$ at $12\\%$ p.a. over a period of $4$ years.\n\n$C = 20\\,000$\n$r = 12 \\div 100 = 0.12$\n$n = 4$\n\nNow $I = Crn$\n$\\therefore I = 20\\,000 \\times 0.12 \\times 4$\n$\\therefore I = 9600$\n\n$\\therefore$ simple interest is $\\$9600$.",
+      "source_images": ["image2426.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 25\n\nCalculate the simple interest payable on an investment of $\\$15\\,000$ at $8\\%$ p.a. over $9$ months.\n\n$C = 15\\,000$\n$r = 8 \\div 100 = 0.08$\n$n = \\frac{9}{12} = 0.75$\n\nNow $I = Crn$\n$\\therefore I = 15\\,000 \\times 0.08 \\times 0.75$\n$\\therefore I = 900$\n\n$\\therefore$ simple interest is $\\$900$.",
+      "source_images": ["image2427.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 26\n\nDetermine the simple interest payable on an investment of $\\$100\\,000$ at $15\\%$ p.a. from April 28th to July 4th.\n\nFrom April 28th there are $2$ days left in April.\n\n$\\therefore$ $2$ days left in April $\\leftarrow$ we exclude the first day (April 28)\n$31$ days in May\n$30$ days in June\n$4$ days in July $\\leftarrow$ we include the last day (July 4)\n$67$ days\n\n$C = 100\\,000$\n$r = 15 \\div 100 = 0.15$\n$n = \\frac{67}{365} \\approx 0.183562$\n\nNow $I = Crn$\n$\\therefore I = 100\\,000 \\times 0.15 \\times 0.183562$\n$\\therefore I = 2753.42$\n\nSo, the interest payable is $\\$2753.42$",
+      "source_images": ["image2428.png", "image2429.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 27\n\nCalculate the total amount to be repaid if $\\$5000$ is borrowed for $3$ years at $14\\%$ p.a. simple interest.\n\n$C = 5000$\n$r = 14 \\div 100 = 0.14$\n$n = 3$\n\nNow $I = Crn$\n$\\therefore I = 5000 \\times 0.14 \\times 3$\n$\\therefore I = 2100$\n\nThe total repayment $= \\text{principal} + \\text{interest}$\n$= \\$5000 + \\$2100$\n$= \\$7100$",
+      "source_images": ["image2430.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 18\n\nFind the simple interest payable on a loan of $\\$60\\,000$ borrowed at $9\\%$ p.a. for:\n\n(a) $4$ years\n\n(b) $5$ months\n\nThe simple interest charge for $1$ year $= 9\\%$ of $\\$60\\,000$\n$= 0.09 \\times \\$60\\,000$\n$= \\$5400$\n\n(a) The simple interest for $4$ years $= \\$5400 \\times 4$\n$= \\$21\\,600$\n\n(b) $5$ months is $\\frac{5}{12}$ of $1$ year\nso simple interest for $5$ months $= \\frac{5}{12} \\times \\$5400$\n$= \\$2250$",
+      "source_images": ["image2431.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 19\n\nFind the total amount needed to repay a loan of $\\$40\\,000$ at $9\\%$ p.a. simple interest over $5$ years.\n\nThe simple interest charge for $1$ year $= 9\\%$ of $\\$40\\,000$\n$= 0.09 \\times \\$40\\,000$\n$= \\$3600$\n\n$\\therefore$ the simple interest charge for $5$ years $= \\$3600 \\times 5$\n$= \\$18\\,000$\n\n$\\therefore$ the total to be repaid $= \\$40\\,000 + \\$18\\,000$\n$= \\$58\\,000$",
+      "source_images": ["image2432.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 7I\n\n1. Find the simple interest charged when:\n\n(a) $\\$5000$ is borrowed for $1$ year at $12\\%$ per annum simple interest\n\n(b) £$2500$ is borrowed for $2$ years at $8\\%$ p.a. simple interest\n\n(c) €$40\\,000$ is borrowed for $6$ months at $11\\%$ p.a. simple interest\n\n(d) $\\$250\\,000$ is borrowed for $9$ months at $20\\%$ p.a. simple interest.\n\n2. Find the total amount needed to repay a loan of:\n\n(a) €$2400$ for $3$ years at $10\\%$ p.a. simple interest\n\n(b) $\\$8000$ for $18$ months at $12\\%$ p.a. simple interest\n\n(c) £$7500$ for $2\\frac{1}{2}$ years at $8\\%$ p.a. simple interest\n\n(d) $\\$23\\,000$ for $4$ months at $15\\%$ p.a. simple interest\n\n3. Kyle borrows $\\$25\\,000$ at $6\\%$ p.a. simple interest for four years. Calculate the monthly repayment required to pay this loan off in $48$ equal instalments.",
+      "source_images": ["image2433.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 3G\n\n1. Find the simple interest payable on an investment of:\n\n(a) $\\$4000$ at $8\\%$ p.a. for $5$ years\n\n(b) £$1500$ at $11\\%$ p.a. for $3$ years\n\n(c) €$2500$ at $10\\frac{1}{2}\\%$ p.a. for $2$ years\n\n(d) $\\$20\\,000$ at $12\\frac{1}{4}\\%$ p.a. for $4$ years.\n\n2. Find the simple interest payable on an investment of:\n\n(a) $\\$5000$ at $7\\%$ p.a. over $6$ months\n\n(b) €$8000$ at $9\\%$ over $3$ months\n\n(c) ¥$1\\,600\\,000$ at $3\\frac{1}{2}\\%$ p.a. over $10$ months\n\n(d) £$11\\,500$ at $5\\frac{1}{4}\\%$ p.a. over $18$ months.\n\n3. Stella Ho deposits €$46\\,000$ in a special investment account on March 17th. If the account pays $9\\frac{1}{2}\\%$ p.a. simple interest and she withdraws the money on June 30th, how much will her investment have earned during this time?\n\n4. Tony Giacomin deposited $\\$1600$ on July 3rd in a special investment account which earns $13\\%$ p.a. simple interest. On August 17th he deposited another $\\$5600$ in the account. If he closed the account on November 12th by withdrawing the total balance, calculate how much his investment has earned over this period of time.",
+      "source_images": ["image2434.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. If £$2000$ is borrowed under simple interest terms, how much must be repaid after:\n\n(a) $3$ years at $5\\%$ p.a.\n\n(b) $8$ months at $12\\%$ p.a.\n\n(c) $4$ years at $8\\frac{1}{2}\\%$ p.a.?\n\n6. Jamil borrows $\\$5400$ from the finance company to buy his first car. The rate of simple interest is $13\\%$ per annum and he borrows the money over a $5$ year period. Find:\n\n(a) the amount Jamil must repay the finance company\n\n(b) his equal monthly repayments. Hint: There are $60$ months in $5$ years.",
+      "source_images": ["image2435.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. An electric guitar with all attachments is advertised at €$2400$. If Klaus pays a deposit of €$600$, he then has to borrow the remainder or balance at $12\\%$ p.a. simple interest over $3$ years. What are his monthly repayments?",
+      "source_images": ["image2436.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "$\\$1000$ is placed in an account earning interest at a rate of $10\\%$ p.a. The interest is allowed to compound itself for three years. We say it is earning $10\\%$ p.a. compound interest.",
+      "source_images": ["image2437.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "| Year | Amount at beginning of year | Compound Interest | Amount at end of year |\n|---|---|---|---|\n| $1$ | $\\$1000$ | $10\\%$ of $\\$1000 = \\$100$ | $\\$1000 + \\$100 = \\$1100$ |\n| $2$ | $\\$1100$ | $10\\%$ of $\\$1100 = \\$110$ | $\\$1100 + \\$110 = \\$1210$ |\n| $3$ | $\\$1210$ | $10\\%$ of $\\$1210 = \\$121$ | $\\$1210 + \\$121 = \\$1331$ |",
+      "source_images": ["image2438.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "After $3$ years there is a total of $\\$1331$ in the account. We have earned $\\$331$ in compound interest.",
+      "source_images": ["image2439.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "| Year | Amount at beginning of year | Simple Interest | Amount at end of year |\n|---|---|---|---|\n| $1$ | $\\$1000$ | $10\\%$ of $\\$1000 = \\$100$ | $\\$1000 + \\$100 = \\$1100$ |\n| $2$ | $\\$1100$ | $10\\%$ of $\\$1000 = \\$100$ | $\\$1100 + \\$100 = \\$1200$ |\n| $3$ | $\\$1200$ | $10\\%$ of $\\$1000 = \\$100$ | $\\$1200 + \\$100 = \\$1300$ |\n\nAfter $3$ years there is a total of $\\$1300$ in the account, so we have earned $\\$300$ in simple interest.",
+      "source_images": ["image2440.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "COMPOUND INTEREST FORMULA\n\n$A = P\\left(1 + \\frac{r}{n}\\right)^{nt}$\n\nwhere $A$ is the Amount, $P$ is the Principal, $r$ is the Interest rate (decimal), $n$ is the Number of times interest is compounded per year, $t$ is the Time (years).",
+      "source_images": ["image2441.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 28\n\nHow much interest will I earn if I invest $\\$10\\,000$ for $3$ years at:\n\n(a) $15\\%$ p.a. simple interest\n\n(b) $15\\%$ p.a. compound interest?\n\n(a) We use the simple interest formula where $C = 10\\,000$, $r = 0.15$, $n = 3$.\n\nNow $I = Crn$\n$\\therefore I = 10\\,000 \\times 0.15 \\times 3 = 4500$\n\nThus, the interest is $\\$4500$.\n\n(b)\n| Year | Initial Amount | Interest | Final Amount |\n|---|---|---|---|\n| $1$ | $\\$10\\,000$ | $15\\%$ of $\\$10\\,000 = \\$1500.00$ | $\\$11\\,500.00$ |\n| $2$ | $\\$11\\,500$ | $15\\%$ of $\\$11\\,500 = \\$1725.00$ | $\\$13\\,225.00$ |\n| $3$ | $\\$13\\,225$ | $15\\%$ of $\\$13\\,225 = \\$1983.75$ | $\\$15\\,208.75$ |\n\nInterest $= \\text{final amount} - \\text{initial amount}$\n$= \\$15\\,208.75 - \\$10\\,000 = \\$5208.75$",
+      "source_images": ["image2442.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 3H.1\n\n1. Calculate:\n\n(a) the simple interest earned on €$2000$ at $5\\%$ p.a. for $3$ years\n\n(b) using a table, the compound interest earned on €$2000$ at $5\\%$ p.a. for $3$ years.\n\n2. If £$50\\,000$ is invested at $9\\%$ p.a. compound interest, use a table to find:\n\n(a) the final amount after $2$ years\n\n(b) how much interest was earned in the $2$ year period.\n\n3. Use a table to determine the interest earned for the following investments:\n\n(a) €$4000$ at $8\\%$ p.a. compound interest for $2$ years\n\n(b) $\\$12\\,000$ at $6\\%$ p.a. compound interest for $3$ years\n\n(c) £$500$ at $3\\%$ p.a. compound interest for $3$ years.",
+      "source_images": ["image2443.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "We can write a formula for Compound Growth:\n\n$F_v = P_v(1+i)^n$ where $F_v$ is the future value\n$P_v$ is the present value or original amount\n$i$ is the annual interest rate as a decimal\n$(1+i)$ is the multiplier\n$n$ is the number of years of investment\n\nNotice that the formula for $F_v$ above gives the total future value, which is the original amount plus interest.\n\nTo find the interest only we use:\n\nCompound interest $= F_v - P_v$",
+      "source_images": ["image2444.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 29\n\n(a) What will $\\$5000$ invested at $8\\%$ p.a. compound interest amount to after $2$ years?\n\n(b) How much interest is earned?\n\n(a) An interest rate of $8\\%$ indicates that $i = 0.08$.\n\nFor $2$ years, $n = 2$ and so $F_v = P_v(1+i)^n$\n$= \\$5000 \\times (1.08)^2$\n$= \\$5832$\n\n(b) Interest earned $= \\$5832 - \\$5000 = \\$832$.",
+      "source_images": ["image2445.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 3H.2\n\n1. (a) What will an investment of $\\$3000$ at $10\\%$ p.a. compound interest amount to after $3$ years?\n\n(b) What part of this is interest?\n\n2. How much compound interest is earned by investing €$20\\,000$ for $4$ years at $12\\%$ p.a.?\n\n3. £$5000$ is invested for $2$ years at $10\\%$ p.a. What will this investment amount to if the interest is calculated as:\n\n(a) simple interest\n\n(b) compound interest?\n\n4. (a) What will an investment of $\\$30\\,000$ at $10\\%$ p.a. compound interest amount to after $4$ years?\n\n(b) What part of this is interest?\n\n5. How much compound interest is earned by investing €$80\\,000$ at $9\\%$ p.a. over a $3$ year period?\n\n6. £$6000$ is invested for $2$ years at $15\\%$ p.a. What will this investment amount to if the interest is calculated as:\n\n(a) simple interest\n\n(b) compound interest?",
+      "source_images": ["image2446.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. You have €$8000$ to invest for $3$ years and there are $2$ possible options you have been offered:\n\nOption 1: Invest at $9\\%$ p.a. simple interest.\nOption 2: Invest at $8\\%$ p.a. compound interest.\n\n(a) Calculate the amount accumulated at the end of the $3$ years for both options and decide which option to take.\n\n(b) Would you change your decision if you were investing for $5$ years?\n\n8. What percentage increase will occur if I invest any amount over a $4$ year period at $10\\%$ p.a. compound interest? Hint: Let the principal be $1000$ of your local currency.\n\n9. An investment of $\\$5000$ at $7\\%$ interest compounded annually over $x$ years will grow to $\\$5000 \\times (1.07)^x$. Enter the function $Y_1 = 5000 \\times (1.07)$^X into a graphics calculator and use the calculator to find:\n\n(a) the value of the investment after (i) $5$ years (ii) $10$ years (iii) $20$ years\n\n(b) how long it takes for the investment to increase to:\n\n(i) $\\$10\\,000$ (ii) $\\$20\\,000$ (iii) $\\$40\\,000$.",
+      "source_images": ["image2447.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 3A\n\n1. What multiplier corresponds to:\n\n(a) an $8\\%$ increase\n\n(b) a $7\\%$ decrease?\n\n2. Find the percentage change when €$108$ is increased to $\\$144$.\n\n3. (a) Decrease $\\$160$ by $18\\%$ using a multiplier.\n\n(b) Increase $120$ kg by $10\\%$ using a multiplier.\n\n4. If $28\\%$ of a shipment of books weighs $560$ kg, find the total weight of the shipment.\n\n5. Jodie sold a dress for $\\$224$, making a loss of $30\\%$. How much did the dress cost her?\n\n6. Herb sold his house for £$213\\,600$ and made a $78\\%$ profit. How much did the house originally cost him?",
+      "source_images": ["image2448.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. See Kek inherited $33\\frac{1}{3}\\%$ of her uncle's estate of $\\$420\\,000$. However, she needs to pay $15\\%$ of her inheritance in tax.\n\n(a) What percentage did she actually inherit after the tax is paid?\n\n(b) How much did she actually inherit?\n\n8. The local sports store buys sports shirts for $\\$16$ and adds a $40\\%$ mark up. In an end of season sale, a $25\\%$ discount is offered. Find the customer's price for a sports shirt.\n\n9. Determine the simple interest on a loan of €$7500$ for $4$ years at $8\\%$ p.a.\n\n10. Determine the compound interest earned on £$50\\,000$ at $4\\%$ p.a. over a four year period.\n\n11. A local manufacturing business has an increase of $6\\%$ in sales. Find the original weekly sales if the business now makes sales of $\\$8533$ per week.",
+      "source_images": ["image2449.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 3B\n\n1. What multiplier corresponds to:\n\n(a) a $2\\frac{1}{2}\\%$ decrease\n\n(b) a $7.3\\%$ increase?\n\n2. Increase $\\$240$ by $24\\%$ using a multiplier.\n\n3. A digital TV marked at $\\$3000$ is discounted by $12\\%$. Find:\n\n(a) the discount given\n\n(b) the selling price.\n\n4. A television was bought for $\\$560$ and sold for $\\$665$. Find the profit as a percentage of the cost price.\n\n5. The deposit of $40\\%$ for a concreting job costs £$2400$. How much will the remaining $60\\%$ cost?\n\n6. Imran bought a cricket bat and then sold it for $\\$250$ at a profit of $25\\%$. How much did the bat cost him?\n\n7. Sergio exercised regularly to decrease his body weight by $14\\%$. He now weighs $81.7$ kg. How heavy was Sergio before he commenced the exercise program?",
+      "source_images": ["image2450.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "8. In the first year of business, Jennifer made a profit of €$83\\,000$. In the second year her profit increased to €$98\\,000$.\n\n(a) By what percentage did her profit increase?\n\n(b) What is her estimated profit for the next year assuming the same percentage increase as before?\n\n9. (a) Determine the simple interest on a loan of $\\$7800$ for $3$ years at $11\\%$ p.a.\n\n(b) Find the equal monthly repayments required to pay off the loan.\n\n10. Determine the compound interest earned on $\\$30\\,000$ at $5\\%$ p.a. over a three year period.\n\n11. Over a period of time, the value of a house increased by $15\\%$ to $\\$455\\,400$. Find the original value of the house.",
+      "source_images": ["image2451.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 7A\n\n1. Write as a percentage:\n\n(a) $0.6$\n\n(b) $\\frac{1}{2}$\n\n(c) $0.01$\n\n(d) $2$\n\n2. (a) Write $107\\%$ as a decimal.\n\n(b) Write $44\\%$ as a fraction in lowest terms.\n\n(c) Write $\\frac{4}{25}$ with denominator $100$ and hence express it as a percentage.\n\n(d) Convert $0.35$ to a percentage.\n\n(e) Find $72\\%$ of a quantity if $11\\%$ of the quantity is $550$.\n\n(f) Find $40\\%$ of €$2000$.\n\n(g) Express $9$ hours as a percentage of one day.\n\n3. (a) Increase £$300$ by $12\\%$.\n\n(b) Decrease $460$ tonnes by $25\\%$.\n\n4. In a school of $800$ students, $63\\%$ have black hair, $19\\%$ have brown hair, and the remainder have fair hair. Find:\n\n(a) the percentage of fair-haired students\n\n(b) how many students have brown hair.\n\n5. I bought a bicycle for $\\$640$ and sold it for a profit of $20\\%$. Find the selling price of the bicycle.",
+      "source_images": ["image2452.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. A greengrocer bought $200$ kg of oranges for $\\$180$ and sold them for $\\$1.14$ per kilogram. Find:\n\n(a) his profit\n\n(b) his percentage profit on the cost price.\n\n7. Find the simple interest when €$4500$ is borrowed for $3$ years at $14\\%$ p.a.",
+      "source_images": ["image2453.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 7B\n\n1. (a) Convert $0.085$ to a percentage.\n\n(b) Convert $\\frac{7}{40}$ to a percentage.\n\n(c) Express $72$ cents as a percentage of $\\$1.80$.\n\n(d) Find $65\\%$ of €$6.00$.\n\n(e) Convert $2.5\\%$ to a decimal.\n\n(f) Decrease $250$ by $20\\%$.\n\n(g) Find the percentage increase when $60$ cm is extended to $84$ cm.\n\n(h) Find $70\\%$ of a quantity if $15\\%$ of the quantity is $45$.\n\n2. A house was bought for $\\$385\\,000$ and sold for a profit of $10\\%$. For how much was it sold?",
+      "source_images": ["image2454.png"]
+    }
+  ]
+}

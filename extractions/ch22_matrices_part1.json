@@ -1,0 +1,202 @@
+{
+  "chapter": 22,
+  "part": 1,
+  "images_range": "2174-2212",
+  "items": [
+    {
+      "type": "definition",
+      "content_latex": "A matrix is a rectangular array of numbers arranged in rows and columns.",
+      "source_images": ["image2174.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "A calendar is not a matrix because it has rows and columns that are not complete.\n\nIn this course we will write our matrices with round brackets around the numbers. Elsewhere, square brackets are often used.",
+      "source_images": ["image2175.png"]
+    },
+    {
+      "type": "investigation",
+      "content_latex": "OPENING PROBLEM\n\nGerty has invested in real estate. She owns a block of 10 apartments, 5 units, and 3 houses. She wishes to put new furniture in each of them.\n\nIn each apartment she puts 4 chairs, 1 table and 2 beds.\n\nIn each unit she puts 6 chairs, 1 table and 3 beds.\n\nIn each house she puts 8 chairs, 2 tables and 4 beds.\n\nIf each chair costs €35, each table €175 and each bed €235, how much will the furniture cost in total?",
+      "source_images": ["image2176.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "One way to solve the Opening Problem is to use a matrix, or rectangular array of numbers.\n\nYou have been using matrices for many years without realising it.\n\nFor example, you may have used them to display your school results:\n\n$\\begin{pmatrix} & \\text{Mid-year} & \\text{Final} \\\\ \\text{Science} & 84 & 85 \\\\ \\text{English} & 78 & 79 \\\\ \\text{Mathematics} & 81 & 86 \\\\ \\text{French} & 73 & 74 \\\\ \\text{Geography} & 69 & 77 \\end{pmatrix}$",
+      "source_images": ["image2177.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "The information in the Opening Problem can be summarised in the tables:\n\nFurniture Prices:\n$\\begin{pmatrix} & \\text{cost (€)} \\\\ \\text{chair} & 35 \\\\ \\text{table} & 175 \\\\ \\text{bed} & 235 \\end{pmatrix}$\n\nFurniture inventory:\n$\\begin{pmatrix} & \\text{chairs} & \\text{tables} & \\text{beds} \\\\ \\text{flat} & 4 & 1 & 2 \\\\ \\text{unit} & 6 & 1 & 3 \\\\ \\text{house} & 8 & 2 & 4 \\end{pmatrix}$",
+      "source_images": ["image2178.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "We could also write the information in detailed matrix form as:\n\n$\\text{C}\\begin{pmatrix} 35 \\\\ 175 \\\\ 235 \\end{pmatrix}$ and $\\text{F}\\begin{pmatrix} 4 & 1 & 2 \\\\ 6 & 1 & 3 \\\\ 8 & 2 & 4 \\end{pmatrix}$\n\nProvided we remember what each row and column stands for, we can omit the labels:\n\n$\\begin{pmatrix} 35 \\\\ 175 \\\\ 235 \\end{pmatrix}$ and $\\begin{pmatrix} 4 & 1 & 2 \\\\ 6 & 1 & 3 \\\\ 8 & 2 & 4 \\end{pmatrix}$\n\n$\\begin{pmatrix} 35 \\\\ 175 \\\\ 235 \\end{pmatrix}$ has 3 rows and 1 column and we say that this is a $3 \\times 1$ column matrix or column vector.\n\n$\\begin{pmatrix} 1 & 2 & 3 & 4 \\end{pmatrix}$ has 1 row and 4 columns and is called a $1 \\times 4$ row matrix or row vector.\n\n$\\begin{pmatrix} 4 & 1 & 2 \\\\ 6 & 1 & 3 \\\\ 8 & 2 & 4 \\end{pmatrix}$ has 3 rows and 3 columns and is called a $3 \\times 3$ square matrix.\n\nThis element, 2, is in row 3, column 2.\n\nAn $m \\times n$ matrix has $m$ rows and $n$ columns.\n\nThe numbers in the matrix are called its elements.\n\n$m \\times n$ is called the order of the matrix.\n\nWe often use capital letters to denote matrices.\n\nFor example: $\\mathbf{A} = \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}$ or $\\mathbf{B} = \\begin{pmatrix} 3 & 1 \\\\ 0 & -1 \\end{pmatrix}$.",
+      "source_images": ["image2179.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 18A\n\n1. State the order of:\n\n(a) $\\begin{pmatrix} 6 & 2 & 3 \\end{pmatrix}$\n\n(b) $\\begin{pmatrix} 3 \\\\ 5 \\end{pmatrix}$\n\n(c) $\\begin{pmatrix} 3 & 0 \\\\ 1 & 2 \\end{pmatrix}$\n\n(d) $\\begin{pmatrix} -1 & 0 & 2 \\\\ 3 & 1 & 1 \\end{pmatrix}$\n\n2. For the matrix $\\begin{pmatrix} 3 & 1 \\\\ 1 & 0 \\\\ 4 & 1 \\end{pmatrix}$ what element is found in:\n\n(a) row 1, column 2\n\n(b) row 3, column 1\n\n(c) row 2, column 2?",
+      "source_images": ["image2180.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 1\n\nPeter goes to the local newsagent to buy 3 pens at 60 pence each, 2 notepads at £1.20 each, and one folder at £2.30.\n\n(a) Represent the quantities purchased in a row matrix.\n\n(b) Represent the costs in a column matrix.\n\n(c) When Peter is next at the supermarket, he finds the same items for sale. The prices are 45 pence for each pen, £1.10 per each pad, and £2.50 for the folder. Write one cost matrix which shows prices from both stores.\n\nSolutions:\n\n(a) The quantities matrix is $\\begin{pmatrix} 3 & 2 & 1 \\end{pmatrix}$\n(pens, notepads, folder)\n\n(b) The costs matrix is $\\begin{pmatrix} 0.60 \\\\ 1.20 \\\\ 2.30 \\end{pmatrix}$ (pens, notepads, folder)\n\n(c) The costs matrix is now: $\\begin{pmatrix} 0.60 & 0.45 \\\\ 1.20 & 1.10 \\\\ 2.30 & 2.50 \\end{pmatrix}$ (pens, notepads, folder; newsagent, supermarket)",
+      "source_images": ["image2181.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Claude went to a hardware store to purchase items for his home construction business. He bought 6 hammers, 3 pinchbars, 5 screwdrivers, and 4 drill sets. The costs of the items were $\\$12$, $\\$35$, $\\$3$, and $\\$8$ respectively.\n\n(a) Construct a row matrix showing the quantities purchased.\n\n(b) Construct a column matrix showing the prices of the items in the appropriate order.\n\n4. A baker produces cakes, slices and scones. On Saturday she produced 30 dozen cakes, 40 dozen slices, and 25 dozen scones. On Sunday she produced 25 dozen cakes, 30 dozen slices, and 35 dozen scones. On the Monday she produced 25 dozen of all three items. Construct a $3 \\times 3$ matrix to display the items made.\n\n5. Seafresh Tuna cans are produced in three sizes: 100 g, 250 g and 500 g.\nIn February they produced respectively: 2500, 4000 and 6500 cans in week 1\n3000, 3500 and 7000 cans in week 2\n3500, 3500 and 6500 cans in week 3\n4500 of each type in week 4.\n\n(a) Construct a $3 \\times 4$ matrix to display production levels.\n\n(b) Construct a $4 \\times 3$ matrix to display production levels.",
+      "source_images": ["image2182.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Two matrices are equal if and only if:\n\n- the matrices have the same shape or order, and\n- elements in corresponding positions are equal.\n\nFor example, if $\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = \\begin{pmatrix} 2 & 1 \\\\ 3 & 5 \\end{pmatrix}$, then $a = 2$, $b = 1$, $c = 3$, and $d = 5$.",
+      "source_images": ["image2183.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 2\n\nIf $\\begin{pmatrix} j & k+1 \\\\ 2l & m \\end{pmatrix} = \\begin{pmatrix} 2 & -1 \\\\ 6 & 0 \\end{pmatrix}$, find $j$, $k$, $l$ and $m$.\n\nSolution:\n\nSince the matrices are equal, $j = 2$, $k + 1 = -1$, $2l = 6$, $m = 0$\n\n$\\therefore$ $j = 2$, $k = -2$, $l = 3$, and $m = 0$",
+      "source_images": ["image2184.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 18B\n\n1. Explain why the following pairs of matrices are not equal:\n\n(a) $\\begin{pmatrix} 0 & 1 \\\\ 2 & 0 \\end{pmatrix} \\neq \\begin{pmatrix} 0 & -1 \\\\ 2 & 0 \\end{pmatrix}$\n\n(b) $\\begin{pmatrix} 1 & 3 \\\\ 2 & 0 \\end{pmatrix} \\neq \\begin{pmatrix} 1 & 3 \\\\ 2 & 0 \\\\ 0 & 0 \\end{pmatrix}$\n\n2. Find the unknowns if:\n\n(a) $\\begin{pmatrix} 1 & a \\\\ b & 0 \\end{pmatrix} = \\begin{pmatrix} 1 & 2 \\\\ 3 & 0 \\end{pmatrix}$\n\n(b) $\\begin{pmatrix} x & 3 \\\\ 4 & 2y \\end{pmatrix} = \\begin{pmatrix} -2 & 3 \\\\ 4 & 4 \\end{pmatrix}$\n\n(c) $\\begin{pmatrix} 1 & y-1 \\\\ x & 3 \\end{pmatrix} = \\begin{pmatrix} 1 & x \\\\ 2 & 3 \\end{pmatrix}$\n\n(d) $\\begin{pmatrix} x^2 & y \\\\ z & 1-x \\end{pmatrix} = \\begin{pmatrix} 1 & 3 \\\\ y-2 & 0 \\end{pmatrix}$",
+      "source_images": ["image2185.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "ADDITION\n\nHarry has three stores (A, B and C). His stock levels for TV sets, microwave ovens and refrigerators are given by the matrix:\n\n$\\begin{pmatrix} 23 & 41 & 68 \\\\ 28 & 39 & 79 \\\\ 46 & 17 & 62 \\end{pmatrix}$ (TVs, microwaves, fridges; Store A, B, C)\n\nSome newly ordered stock has just arrived. For each store 30 TVs, 40 microwaves and 50 refrigerators must be added to stock levels.",
+      "source_images": ["image2186.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "His stock order is given by the matrix: $\\begin{pmatrix} 30 & 30 & 30 \\\\ 40 & 40 & 40 \\\\ 50 & 50 & 50 \\end{pmatrix}$\n\nClearly the new levels are shown as: $\\begin{pmatrix} 23+30 & 41+30 & 68+30 \\\\ 28+40 & 39+40 & 79+40 \\\\ 46+50 & 17+50 & 62+50 \\end{pmatrix}$\n\nor $\\begin{pmatrix} 23 & 41 & 68 \\\\ 28 & 39 & 79 \\\\ 46 & 17 & 62 \\end{pmatrix} + \\begin{pmatrix} 30 & 30 & 30 \\\\ 40 & 40 & 40 \\\\ 50 & 50 & 50 \\end{pmatrix} = \\begin{pmatrix} 53 & 71 & 98 \\\\ 68 & 79 & 119 \\\\ 96 & 67 & 112 \\end{pmatrix}$\n\nTo add two matrices of the same shape, we add corresponding elements.\n\nWe cannot add matrices of different shape.",
+      "source_images": ["image2187.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "ZERO MATRIX\n\nA zero matrix is one which has all elements zero.\n\nFor example, $\\mathbf{O} = \\begin{pmatrix} 0 & 0 \\\\ 0 & 0 \\end{pmatrix}$ is the $2 \\times 2$ zero matrix.\n\nFor any matrix $\\mathbf{A}$, $\\mathbf{A} + \\mathbf{O} = \\mathbf{O} + \\mathbf{A} = \\mathbf{A}$",
+      "source_images": ["image2188.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "SUBTRACTION\n\nIf Harry's stock levels were $\\begin{pmatrix} 39 & 61 & 29 \\\\ 41 & 38 & 42 \\\\ 50 & 27 & 39 \\end{pmatrix}$ and his sales matrix for the week is $\\begin{pmatrix} 16 & 13 & 7 \\\\ 21 & 17 & 20 \\\\ 20 & 9 & 15 \\end{pmatrix}$\n\nwhat are the current stock levels?\n\nIt is clear that we must subtract corresponding elements:",
+      "source_images": ["image2189.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "$\\begin{pmatrix} 39 & 61 & 29 \\\\ 41 & 38 & 42 \\\\ 50 & 27 & 39 \\end{pmatrix} - \\begin{pmatrix} 16 & 13 & 7 \\\\ 21 & 17 & 20 \\\\ 20 & 9 & 15 \\end{pmatrix} = \\begin{pmatrix} 23 & 48 & 22 \\\\ 20 & 21 & 22 \\\\ 30 & 18 & 24 \\end{pmatrix}$\n\nTo subtract matrices of the same shape, we subtract corresponding elements.\n\nWe cannot subtract matrices of different shape.",
+      "source_images": ["image2190.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 3\n\nIf $\\mathbf{A} = \\begin{pmatrix} 2 & 1 \\\\ -1 & 0 \\end{pmatrix}$ and $\\mathbf{B} = \\begin{pmatrix} 1 & 0 \\\\ 2 & -1 \\end{pmatrix}$, find:\n\n(a) $\\mathbf{A} + \\mathbf{B}$\n\n(b) $\\mathbf{A} - \\mathbf{B}$\n\nSolutions:\n\n(a) $\\mathbf{A} + \\mathbf{B} = \\begin{pmatrix} 2 & 1 \\\\ -1 & 0 \\end{pmatrix} + \\begin{pmatrix} 1 & 0 \\\\ 2 & -1 \\end{pmatrix} = \\begin{pmatrix} 2+1 & 1+0 \\\\ -1+2 & 0+(-1) \\end{pmatrix} = \\begin{pmatrix} 3 & 1 \\\\ 1 & -1 \\end{pmatrix}$\n\n(b) $\\mathbf{A} - \\mathbf{B} = \\begin{pmatrix} 2 & 1 \\\\ -1 & 0 \\end{pmatrix} - \\begin{pmatrix} 1 & 0 \\\\ 2 & -1 \\end{pmatrix} = \\begin{pmatrix} 2-1 & 1-0 \\\\ -1-2 & 0-(-1) \\end{pmatrix} = \\begin{pmatrix} 1 & 1 \\\\ -3 & 1 \\end{pmatrix}$",
+      "source_images": ["image2191.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 4\n\nAt the end of March, Harry's stock matrix was:\n\n$\\begin{pmatrix} 28 & 13 & 17 \\\\ 19 & 24 & 22 \\\\ 25 & 16 & 10 \\end{pmatrix}$ (TVs, microwaves, fridges; Store A, B, C)\n\nHis stock order matrix in early April was $\\begin{pmatrix} 20 & 37 & 23 \\\\ 21 & 16 & 18 \\\\ 15 & 24 & 30 \\end{pmatrix}$ and his sales during April were $\\begin{pmatrix} 31 & 28 & 26 \\\\ 20 & 31 & 19 \\\\ 25 & 17 & 32 \\end{pmatrix}$.\n\nWhat is Harry's stock matrix at the end of April?\n\nSolution:\n\nAt the beginning of April the stock matrix was:\n$\\begin{pmatrix} 28 & 13 & 17 \\\\ 19 & 24 & 22 \\\\ 25 & 16 & 10 \\end{pmatrix} + \\begin{pmatrix} 20 & 37 & 23 \\\\ 21 & 16 & 18 \\\\ 15 & 24 & 30 \\end{pmatrix} = \\begin{pmatrix} 48 & 50 & 40 \\\\ 40 & 40 & 40 \\\\ 40 & 40 & 40 \\end{pmatrix}$\n\nAt the end of April the stock matrix is:\n$\\begin{pmatrix} 48 & 50 & 40 \\\\ 40 & 40 & 40 \\\\ 40 & 40 & 40 \\end{pmatrix} - \\begin{pmatrix} 31 & 28 & 26 \\\\ 20 & 31 & 19 \\\\ 25 & 17 & 32 \\end{pmatrix} = \\begin{pmatrix} 17 & 22 & 14 \\\\ 20 & 9 & 21 \\\\ 15 & 23 & 8 \\end{pmatrix}$",
+      "source_images": ["image2192.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 18C\n\n1. If possible, find:\n\n(a) $\\begin{pmatrix} 1 & 0 & 4 \\end{pmatrix} + \\begin{pmatrix} 2 & 3 & -2 \\end{pmatrix}$\n\n(b) $\\begin{pmatrix} 4 \\\\ 1 \\end{pmatrix} - \\begin{pmatrix} 2 \\\\ 3 \\end{pmatrix}$\n\n(c) $\\begin{pmatrix} 2 & 3 \\\\ 1 & 5 \\end{pmatrix} + \\begin{pmatrix} 5 & 4 \\\\ 3 & -1 \\end{pmatrix}$\n\n(d) $\\begin{pmatrix} 3 & 1 & 2 \\\\ 0 & 1 & 4 \\end{pmatrix} - \\begin{pmatrix} 1 & -1 & 3 \\\\ -3 & 2 & 0 \\end{pmatrix}$\n\n(e) $\\begin{pmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 0 \\end{pmatrix} + \\begin{pmatrix} 2 & -1 \\\\ 3 & 0 \\end{pmatrix}$\n\n(f) $\\begin{pmatrix} 6 & 1 & 6 \\\\ 0 & 2 & 4 \\end{pmatrix} - \\begin{pmatrix} 3 & 2 \\\\ -1 & -5 \\end{pmatrix}$\n\n2. If $\\mathbf{A} = \\begin{pmatrix} 3 & 1 \\\\ -1 & 0 \\end{pmatrix}$, $\\mathbf{B} = \\begin{pmatrix} 2 & 1 \\\\ 0 & -1 \\end{pmatrix}$ and $\\mathbf{C} = \\begin{pmatrix} 0 & -1 \\\\ 2 & 1 \\end{pmatrix}$, find:\n\n(a) $\\mathbf{A} + \\mathbf{B}$\n\n(b) $\\mathbf{A} - \\mathbf{C}$\n\n(c) $\\mathbf{A} - \\mathbf{B} + \\mathbf{C}$\n\n3. At the end of April, Harry's stock matrix is $\\begin{pmatrix} 17 & 22 & 14 \\\\ 20 & 9 & 21 \\\\ 15 & 23 & 8 \\end{pmatrix}$.\n\n(a) What will be his stock order matrix if he wishes to have 50 of each item in each store at the start of May?\n\n(b) During May, Harry's sales matrix is $\\begin{pmatrix} 22 & 17 & 28 \\\\ 19 & 22 & 30 \\\\ 41 & 7 & 44 \\end{pmatrix}$.\n\nWhat is his stock matrix at the end of May?\n\n4. A restaurant served 72 men, 84 women and 49 children on Friday night. On Saturday night they served 86 men, 72 women and 46 children.\n\n(a) Express this information in two column matrices.\n\n(b) Use the matrices to find the totals of men, women and children served over the two day period.\n\n5. On Tuesday Keong bought shares in five companies and on Friday he sold them. The details are:\n\n$\\begin{array}{|c|c|c|} \\hline & \\text{Cost price per share} & \\text{Selling price per share} \\\\ \\hline A & \\text{RM } 1.23 & \\text{RM } 1.38 \\\\ B & \\text{RM } 22.15 & \\text{RM } 22.63 \\\\ C & \\text{RM } 0.72 & \\text{RM } 0.69 \\\\ D & \\text{RM } 3.75 & \\text{RM } 3.68 \\\\ E & \\text{RM } 4.96 & \\text{RM } 5.29 \\\\ \\hline \\end{array}$\n\n(a) Find Keong's:\n(i) cost price column matrix\n(ii) selling price column matrix.\n\n(b) What matrix operation is needed to find Keong's profit or loss matrix?\n\n(c) Find Keong's profit or loss matrix.\n\n6. If $\\mathbf{A} = \\begin{pmatrix} 1 & 2 \\\\ 0 & 3 \\end{pmatrix}$, find a matrix $\\mathbf{B}$ such that $\\mathbf{A} + \\mathbf{B} = \\mathbf{O}$.",
+      "source_images": ["image2193.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "A matrix can be multiplied by a number or scalar to produce another matrix.\n\nFor example, in the Opening Problem, each of Gerty's 10 apartments has 4 chairs, 1 table and 2 beds.\n\nIf $\\mathbf{F} = \\begin{pmatrix} 4 \\\\ 2 \\\\ 1 \\end{pmatrix}$ represents the furniture in one each apartment, then the matrix representing the furniture in all apartments can be written as $10\\mathbf{F} = \\begin{pmatrix} 10 \\times 4 \\\\ 10 \\times 2 \\\\ 10 \\times 1 \\end{pmatrix}$ or $\\begin{pmatrix} 40 \\\\ 20 \\\\ 10 \\end{pmatrix}$.",
+      "source_images": ["image2194.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "If a scalar $k$ is multiplied by a matrix $\\mathbf{A}$ the result is matrix $k\\mathbf{A}$ obtained by multiplying every element of $\\mathbf{A}$ by $k$.",
+      "source_images": ["image2195.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 5\n\nIf $\\mathbf{A} = \\begin{pmatrix} 0 & 1 \\\\ 2 & 1 \\end{pmatrix}$ and $\\mathbf{B} = \\begin{pmatrix} 1 & 0 \\\\ -1 & 2 \\end{pmatrix}$, find:\n\n(a) $2\\mathbf{A}$\n\n(b) $\\mathbf{A} - 2\\mathbf{B}$\n\nSolutions:\n\n(a) $2\\mathbf{A} = 2\\begin{pmatrix} 0 & 1 \\\\ 2 & 1 \\end{pmatrix} = \\begin{pmatrix} 0 & 2 \\\\ 4 & 2 \\end{pmatrix}$\n\n(b) $\\mathbf{A} - 2\\mathbf{B} = \\begin{pmatrix} 0 & 1 \\\\ 2 & 1 \\end{pmatrix} - 2\\begin{pmatrix} 1 & 0 \\\\ -1 & 2 \\end{pmatrix} = \\begin{pmatrix} 0 & 1 \\\\ 2 & 1 \\end{pmatrix} - \\begin{pmatrix} 2 & 0 \\\\ -2 & 4 \\end{pmatrix} = \\begin{pmatrix} -2 & 1 \\\\ 4 & -3 \\end{pmatrix}$",
+      "source_images": ["image2196.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 18D\n\n1. If $\\mathbf{A} = \\begin{pmatrix} 1 & -1 \\\\ 0 & 1 \\end{pmatrix}$ and $\\mathbf{B} = \\begin{pmatrix} -2 & 0 \\\\ 1 & 1 \\end{pmatrix}$, find:\n\n(a) $2\\mathbf{A}$\n\n(b) $\\frac{1}{2}\\mathbf{B}$\n\n(c) $\\mathbf{A} + 2\\mathbf{B}$\n\n(d) $3\\mathbf{A} - \\mathbf{B}$\n\n2. Bob's order for hardware items is shown in matrix form as\n\n$\\mathbf{H} = \\begin{pmatrix} 10 \\\\ 20 \\\\ 100 \\\\ 40 \\end{pmatrix}$ (hammers, screw driver sets, packets of nails, packets of screws)\n\nFind the matrix if:\n\n(a) Bob doubles his order\n\n(b) Bob halves his order\n\n(c) Bob increases his order by 50%.",
+      "source_images": ["image2197.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Sarah sells dresses made by four different companies which we will call A, B, C and D. Her usual monthly order is shown in the matrix opposite.\n\n$\\begin{pmatrix} & A & B & C & D \\\\ \\text{skirt} & 40 & 30 & 30 & 60 \\\\ \\text{dress} & 50 & 40 & 30 & 60 \\\\ \\text{evening} & 40 & 60 & 50 & 40 \\\\ \\text{suit} & 20 & 20 & 20 & 20 \\end{pmatrix}$\n\nFind her order if:\n\n(a) she increases her total order by 20%\n\n(b) she decreases her total order by 20%.\n\n4. Colin's stock matrix is $\\mathbf{M}$. His normal weekly order matrix is $\\mathbf{N}$ and his sales matrix is $\\mathbf{S}$. Unfortunately this time Colin ordered twice. Which of the following will be his actual stock holding at the end of this period?\n\nA. $\\mathbf{M} + \\mathbf{N} + \\mathbf{S}$\n\nB. $\\mathbf{M} + \\mathbf{N} - \\mathbf{S}$\n\nC. $\\mathbf{M} + 2\\mathbf{N} - \\mathbf{S}$\n\nD. $\\mathbf{M} + \\mathbf{N} - 2\\mathbf{S}$",
+      "source_images": ["image2198.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "In Example 1, Peter bought 3 pens, 2 notepads and 1 folder. At the local newsagent they cost 60 pence, £1.20, and £2.30 each respectively. At the supermarket they cost 45 pence, £1.10, and £2.50 each respectively.\n\nWe can represent this information by using a quantities matrix $\\mathbf{Q} = \\begin{pmatrix} 3 & 2 & 1 \\end{pmatrix}$\n\nand a costs matrix $\\mathbf{C} = \\begin{pmatrix} 0.60 & 0.45 \\\\ 1.20 & 1.10 \\\\ 2.30 & 2.50 \\end{pmatrix}$.\n\nThe total cost at the newsagent is $(3 \\times 0.60 + 2 \\times 1.20 + 1 \\times 2.30)$ pounds $= £6.50$.\n\nThe total cost at the supermarket is $(3 \\times 0.45 + 2 \\times 1.10 + 1 \\times 2.50)$ pounds $= £6.05$.\n\nWe can write this using the matrix multiplication\n\n$\\mathbf{QC} = \\begin{pmatrix} 3 & 2 & 1 \\end{pmatrix}\\begin{pmatrix} 0.60 & 0.45 \\\\ 1.20 & 1.10 \\\\ 2.30 & 2.50 \\end{pmatrix}$\n\n$= \\begin{pmatrix} 3 \\times 0.60 + 2 \\times 1.20 + 1 \\times 2.30 & 3 \\times 0.45 + 2 \\times 1.10 + 1 \\times 2.50 \\end{pmatrix}$",
+      "source_images": ["image2199.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Matrix multiplication has a different meaning to that used for multiplying numbers. In this case we multiply each element of a row by the corresponding element of a column, and then add the results.\n\nIf matrix $\\mathbf{A}$ is $m \\times n$ and matrix $\\mathbf{B}$ is $n \\times p$ then their product $\\mathbf{AB}$ exists and is an $m \\times p$ matrix.\n\nWe multiply each member of a row in $\\mathbf{A}$ by each member of a column of $\\mathbf{B}$ and add the results. We do this for all possible rows and columns.\n\nIf the number of columns in $\\mathbf{A}$ does not equal the number of rows in $\\mathbf{B}$, then $\\mathbf{AB}$ does not exist.",
+      "source_images": ["image2200.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "For example, $\\begin{pmatrix} 1 & 2 & 1 \\\\ 2 & 1 & 0 \\end{pmatrix}\\begin{pmatrix} 3 \\\\ 1 \\\\ 2 \\end{pmatrix} = \\begin{pmatrix} 1 \\times 3 + 2 \\times 1 + 1 \\times 2 \\\\ 2 \\times 3 + 1 \\times 1 + 0 \\times 2 \\end{pmatrix} = \\begin{pmatrix} 7 \\\\ 7 \\end{pmatrix}$\n\n$2 \\times 3$ and $3 \\times 1$ = $2 \\times 1$\n(the same)",
+      "source_images": ["image2201.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 6\n\nIf $\\mathbf{A} = \\begin{pmatrix} 1 & 3 & 5 \\\\ 2 & 4 & 6 \\end{pmatrix}$ and $\\mathbf{B} = \\begin{pmatrix} 1 & 1 \\\\ 2 & 0 \\\\ 3 & 4 \\end{pmatrix}$, find $\\mathbf{AB}$.\n\nSolution:\n\n$\\mathbf{A}$ is $2 \\times 3$ and $\\mathbf{B}$ is $3 \\times 2$\n\n$\\therefore$ $\\mathbf{AB}$ is $2 \\times 2$\n\n$\\mathbf{AB} = \\begin{pmatrix} 1 & 3 & 5 \\\\ 2 & 4 & 6 \\end{pmatrix}\\begin{pmatrix} 1 & 1 \\\\ 2 & 0 \\\\ 3 & 4 \\end{pmatrix}$\n\n$= \\begin{pmatrix} 1+6+15 & 1+0+20 \\\\ 2+8+18 & 2+0+24 \\end{pmatrix}$\n\n$= \\begin{pmatrix} 22 & 21 \\\\ 28 & 26 \\end{pmatrix}$",
+      "source_images": ["image2202.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 18E\n\n1. If $\\mathbf{A}$ is $3 \\times 2$ and $\\mathbf{B}$ is $2 \\times 1$:\n\n(a) explain whether $\\mathbf{AB}$ can be found\n\n(b) find the shape of $\\mathbf{AB}$\n\n(c) explain why $\\mathbf{BA}$ cannot be found.\n\n2. For $\\mathbf{A} = \\begin{pmatrix} 1 & 4 \\\\ 2 & 3 \\end{pmatrix}$ and $\\mathbf{B} = \\begin{pmatrix} 5 \\\\ 2 \\end{pmatrix}$, find $\\mathbf{AB}$.\n\n3. For $\\mathbf{A} = \\begin{pmatrix} 3 & 1 \\end{pmatrix}$ and $\\mathbf{B} = \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}$, find: (a) $\\mathbf{AB}$ (b) $\\mathbf{BA}$.\n\n4. Find:\n\n(a) $\\begin{pmatrix} 2 & 1 & 1 \\end{pmatrix}\\begin{pmatrix} 1 & 2 \\\\ 2 & 1 \\\\ 0 & 1 \\end{pmatrix}$\n\n(b) $\\begin{pmatrix} 1 & 2 \\\\ 0 & 1 \\end{pmatrix}\\begin{pmatrix} 2 & 1 \\\\ 3 & 0 \\end{pmatrix}$\n\n(c) $\\begin{pmatrix} 0 & 1 & 1 \\\\ 1 & 2 & 0 \\end{pmatrix}\\begin{pmatrix} 1 & 0 \\\\ 0 & 2 \\\\ 2 & 1 \\end{pmatrix}$\n\n(d) $\\begin{pmatrix} 3 & 1 \\\\ 0 & 2 \\end{pmatrix}\\begin{pmatrix} 1 & 3 & 2 \\\\ 2 & 0 & 1 \\end{pmatrix}$",
+      "source_images": ["image2203.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. At the local fair it costs $\\$3$ for a pony ride and $\\$5$ for a go-cart ride. On day 1 there are 43 pony rides and 87 go-cart rides. On day 2 there are 48 pony rides and 66 go-cart rides.\n\n(a) Write the costs in the form of a $2 \\times 1$ cost matrix $\\mathbf{C}$.\n\n(b) Write down the $2 \\times 2$ numbers matrix $\\mathbf{N}$.\n\n(c) Find $\\mathbf{NC}$ and interpret your result.\n\n(d) Find the total income for both rides over the two days.\n\n6. You and your friend each go to your local supermarkets A and B to price items you wish to purchase. You want to buy 1 leg of ham, 1 Christmas Pudding and 2 litres of cola. Your friend wants 1 leg of ham, 2 Christmas puddings and 3 litres of cola. The prices of these goods are:\n\n$\\begin{array}{|c|c|c|c|} \\hline & \\text{Leg of ham} & \\text{Christmas pudding} & \\text{Litre of cola} \\\\ \\hline A & \\$43 & \\$7 & \\$3 \\\\ B & \\$39 & \\$8 & \\$4 \\\\ \\hline \\end{array}$\n\n(a) Write the requirements matrix $\\mathbf{R}$ as a $3 \\times 2$ matrix.\n\n(b) Write the prices matrix $\\mathbf{P}$ as a $2 \\times 3$ matrix.\n\n(c) Find $\\mathbf{PR}$.\n\n(d) What are your costs at A and your friend's costs at B?\n\n(e) Should you buy from A or B?",
+      "source_images": ["image2204.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. Show how to solve the Opening Problem on page 368 by using matrix multiplication.\n\n8. Suppose $\\mathbf{A}$ is any $2 \\times 2$ matrix. Find a matrix $\\mathbf{I}$ such that $\\mathbf{AI} = \\mathbf{IA} = \\mathbf{A}$.\n\n9. Suppose $\\mathbf{A} = \\begin{pmatrix} a & b & c & d \\end{pmatrix}$ where $a$, $b$, $c$ and $d$ are four numbers.\n\n(a) What matrix do we need to multiply $\\mathbf{A}$ by to find the sum of the four numbers?\n\n(b) Use matrix multiplication to represent the mean of:\n(i) $a$, $b$ and $c$\n(ii) $a$, $b$, $c$ and $d$.\n\n10. $\\mathbf{A}^2$ means $\\mathbf{A} \\times \\mathbf{A}$. If $\\mathbf{A}^2 = 2\\mathbf{A}$ and $\\mathbf{A} = \\begin{pmatrix} x & a \\\\ b & x \\end{pmatrix}$ where $a$ and $b$ are non-zero integers, find the possible values of $x$, $a$ and $b$.",
+      "source_images": ["image2205.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 18A\n\n1. Consider the matrix $\\begin{pmatrix} 4 & 2 & 7 & 4 \\\\ 3 & 5 & -1 & 4 \\\\ 0 & 2 & 6 & 7 \\end{pmatrix}$.\n\n(a) What is its order?\n\n(b) What element is in row 3, column 2?\n\n2. Find $a$, $b$ and $c$ given that: $\\begin{pmatrix} a & a^2 \\\\ 2b & b+c \\end{pmatrix} = \\begin{pmatrix} a^2 & 1 \\\\ b & b \\end{pmatrix}$",
+      "source_images": ["image2206.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. If $\\mathbf{A} = \\begin{pmatrix} 2 & 3 \\\\ 4 & -1 \\end{pmatrix}$ and $\\mathbf{B} = \\begin{pmatrix} 5 & -2 \\\\ 0 & 6 \\end{pmatrix}$, find:\n\n(a) $\\mathbf{A} + \\mathbf{B}$\n\n(b) $\\mathbf{A} - \\mathbf{B}$\n\n(c) $\\mathbf{AB}$\n\n(d) $\\mathbf{BA}$\n\n(e) $3\\mathbf{A}$\n\n(f) $\\frac{1}{2}\\mathbf{B}$\n\n(g) $-2\\mathbf{B}$\n\n(h) $\\mathbf{B} - \\frac{1}{2}\\mathbf{A}$\n\n4. If $\\mathbf{A}$ is $m \\times n$ and $\\mathbf{B}$ is $r \\times s$, what can be said if:\n\n(a) $\\mathbf{AB}$ can be found\n\n(b) $\\mathbf{BA}$ can be found?\n\n5. Suppose $\\mathbf{A} = \\begin{pmatrix} 2 & 1 & -1 \\\\ 0 & 3 & 1 \\end{pmatrix}$ and $\\mathbf{B} = \\begin{pmatrix} 1 & 0 \\\\ 0 & 2 \\\\ 3 & -2 \\end{pmatrix}$. Find, if possible:\n\n(a) $\\mathbf{A} + \\mathbf{B}$\n\n(b) $\\mathbf{AB}$\n\n(c) $\\mathbf{BA}$",
+      "source_images": ["image2207.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. Peter bought 15 drills, 14 sanders, 8 bench saws, and 18 circular saws for his construction business. Their individual costs were $\\$45$, $\\$67$, $\\$315$, and $\\$56$ respectively.\n\n(a) Write the item numbers as a $1 \\times 4$ matrix $\\mathbf{N}$.\n\n(b) Write the costs as a $4 \\times 1$ matrix $\\mathbf{C}$.\n\n(c) Use matrix methods to find the total cost of the power tools.",
+      "source_images": ["image2208.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. After the football match on Saturday afternoon, the four friends Jack, Angus, Karaline and Joan decided on a snack. Their order is shown in the matrix opposite.\n\n$\\begin{pmatrix} & \\text{Ja} & \\text{An} & \\text{Ka} & \\text{Jo} \\\\ \\text{Fish} & 1 & 0 & 2 & 2 \\\\ \\text{Chips} & 1 & 1 & 0 & 1 \\\\ \\text{Dim Sims} & 0 & 3 & 0 & 0 \\\\ \\text{Pineapple Fritter} & 0 & 1 & 1 & 2 \\\\ \\text{Drink} & 1 & 1 & 1 & 1 \\end{pmatrix}$\n\nA piece of fish costs £2.30. A serve of chips is £1.80. Dim Sims are 50 pence each. Pineapple fritters are £0.65 and drinks are £1.95 each.\n\nRepresent this information as a cost matrix and hence find:\n\n(a) each person's cost\n\n(b) the total cost.",
+      "source_images": ["image2209.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 18B\n\n1. Write down the order of the following matrices:\n\n(a) $\\begin{pmatrix} 16 & -2 & 5 \\\\ 19 & 8 & -7 \\end{pmatrix}$\n\n(b) $\\begin{pmatrix} -6 \\\\ 3 \\\\ 7 \\end{pmatrix}$\n\n(c) $\\begin{pmatrix} 2 & 3 & -4 & 5 \\\\ 10 & 8 & -1 & 0 \\\\ 0 & 3 & 6 & 2 \\end{pmatrix}$\n\n2. Find $a$, $b$ and $c$ if $\\begin{pmatrix} a & b \\\\ c^2 & -5 \\end{pmatrix} = \\begin{pmatrix} 3a-4 & 2(a+b) \\\\ 9 & c-2 \\end{pmatrix}$",
+      "source_images": ["image2210.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. If $\\mathbf{A} = \\begin{pmatrix} 1 & -3 \\\\ 2 & 4 \\end{pmatrix}$ and $\\mathbf{B} = \\begin{pmatrix} -4 & -1 \\\\ 2 & 0 \\end{pmatrix}$, find:\n\n(a) $\\mathbf{A} + \\mathbf{B}$\n\n(b) $-\\frac{1}{2}\\mathbf{A}$\n\n(c) $2\\mathbf{A} - 5\\mathbf{B}$\n\n(d) $\\mathbf{AB}$\n\n4. Find, if possible:\n\n(a) $\\begin{pmatrix} -2 & 0 & 3 \\\\ 1 & 4 & 1 \\end{pmatrix}\\begin{pmatrix} 2 & 4 \\\\ 1 & -2 \\\\ 3 & 0 \\end{pmatrix}$\n\n(b) $\\begin{pmatrix} -3 & 1 \\\\ 4 & 2 \\end{pmatrix}\\begin{pmatrix} 0 & 3 \\\\ 6 & -2 \\\\ 4 & -1 \\end{pmatrix}$\n\n(c) $\\begin{pmatrix} 2 \\\\ -3 \\\\ 4 \\end{pmatrix}\\begin{pmatrix} 5 & -1 & 4 \\end{pmatrix}$\n\n5. A cafe sells two types of cola drinks, A and B. The drinks each come in three sizes: small, medium and large. At the beginning of the day the fridge was stocked with the number of units shown in the matrix below. At the end of the day the stock was again counted.\n\nStart of the day:\n$\\begin{pmatrix} & A & B \\\\ \\text{small} & 42 & 54 \\\\ \\text{medium} & 36 & 27 \\\\ \\text{large} & 34 & 30 \\end{pmatrix}$\n\nEnd of the day:\n$\\begin{pmatrix} & A & B \\\\ \\text{small} & 27 & 31 \\\\ \\text{medium} & 28 & 15 \\\\ \\text{large} & 28 & 22 \\end{pmatrix}$\n\nThe profit in dollars for each item is given by: $\\begin{pmatrix} \\text{small} & \\text{medium} & \\text{large} \\\\ 0.75 & 0.55 & 1.20 \\end{pmatrix}$\n\nUse matrix methods to calculate the total profit made for the day from the sale of these drinks.",
+      "source_images": ["image2211.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. Matrix $\\mathbf{A}$ is $3 \\times 7$ and matrix $\\mathbf{B}$ is $n \\times 4$.\n\n(a) When can matrix $\\mathbf{AB}$ be calculated?\n\n(b) If $\\mathbf{AB}$ can be found, what is its order?\n\n(c) Can $\\mathbf{BA}$ be calculated?\n\n7. Kelly has five women's clothing shops: A, B, C, D and E. At these shops she sells standard items: skirts, dresses, suits and slacks. At the end of week 1 in May her stock holding is given by the matrix:\n\n$\\begin{pmatrix} & A & B & C & D & E \\\\ \\text{skirts} & 27 & 38 & 14 & 59 & 26 \\\\ \\text{dresses} & 31 & 42 & 29 & 16 & 35 \\\\ \\text{suits} & 20 & 23 & 25 & 17 & 32 \\\\ \\text{slacks} & 26 & 59 & 40 & 31 & 17 \\end{pmatrix}$\n\n(a) Her sales matrix for week 2 was $\\begin{pmatrix} 15 & 17 & 11 & 22 & 20 \\\\ 28 & 31 & 26 & 10 & 30 \\\\ 17 & 9 & 11 & 11 & 22 \\\\ 13 & 32 & 30 & 27 & 8 \\end{pmatrix}$.\n\nFind her stock matrix at the end of week 2.\n\n(b) Her order matrix at the end of week 2 was $\\begin{pmatrix} 22 & 22 & 22 & 22 & 22 \\\\ 24 & 26 & 28 & 28 & 30 \\\\ 15 & 20 & 15 & 20 & 15 \\\\ 17 & 21 & 16 & 19 & 30 \\end{pmatrix}$.\n\nFind her stock matrix at the start of week 3.\n\n(c) If skirts cost her $\\$38$, dresses $\\$75$, suits $\\$215$ and slacks $\\$48$, how much will she have to pay for her end of week 2 order?",
+      "source_images": ["image2212.png"]
+    }
+  ]
+}

@@ -308,15 +308,15 @@ export default async function ChapterPage({ params }: PageProps) {
                       </div>
 
                       {/* Side-by-side comparison */}
-                      <div className="grid md:grid-cols-2 gap-4">
+                      <div className="grid md:grid-cols-2 gap-4 items-stretch">
                         {/* Left: Original image */}
-                        <div className={`rounded-lg border-2 border-dashed border-gray-300 ${typeBg[item.type] || 'bg-gray-50'}`}>
-                          <div className="px-3 py-1.5 border-b border-gray-200 bg-white/50">
+                        <div className={`rounded-lg border-2 border-dashed border-gray-300 flex flex-col ${typeBg[item.type] || 'bg-gray-50'}`}>
+                          <div className="px-3 py-1.5 border-b border-gray-200 bg-white/50 flex-shrink-0">
                             <span className="text-xs font-medium text-gray-500">
                               📷 参考图片{item.source_images.length > 1 ? ` (${item.source_images.length})` : ''}
                             </span>
                           </div>
-                          <div className="p-3 space-y-2">
+                          <div className="p-3 space-y-2 flex-1 overflow-y-auto">
                             {item.source_images.length > 0 ? (
                               <>
                                 {item.source_images.map((img, imgIdx) => (
@@ -344,13 +344,13 @@ export default async function ChapterPage({ params }: PageProps) {
                         </div>
 
                         {/* Right: Extracted content */}
-                        <div className="rounded-lg border-2 border-gray-300 bg-white">
-                          <div className="px-3 py-1.5 border-b border-gray-200 bg-gray-50">
+                        <div className="rounded-lg border-2 border-gray-300 bg-white flex flex-col">
+                          <div className="px-3 py-1.5 border-b border-gray-200 bg-gray-50 flex-shrink-0">
                             <span className="text-xs font-medium text-gray-500">
                               📝 Extracted Content
                             </span>
                           </div>
-                          <div className="p-3 space-y-3 max-h-[500px] overflow-y-auto">
+                          <div className="p-3 space-y-3 flex-1 overflow-y-auto">
                             {item.questions.length > 0 ? (
                               item.questions.map((q, qIdx) => (
                                 <div key={q.id} className="bg-gray-50 rounded p-3 border">

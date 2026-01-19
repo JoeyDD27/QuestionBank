@@ -1,0 +1,307 @@
+{
+  "chapter": 23,
+  "part": 2,
+  "images_range": "2274-2333",
+  "items": [
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5F\n\n1. For $P(x)$ a real polynomial, write two equivalent statements for each of:\n\n(a) If $P(2) = 7$, then ......\n\n(b) If $P(x) = Q(x)(x+3) - 8$, then ......\n\n(c) If $P(x)$ divided by $x - 5$ has a remainder of 11 then ......\n\n2. Without performing division, find the remainder when:\n\n(a) $x^3 + 2x^2 - 7x + 5$ is divided by $x - 1$\n\n(b) $2x^3 - 8x + 11$ is divided by $x + 3$\n\n(c) $x^4 - 2x^2 + 3x - 1$ is divided by $x + 2$.\n\n3. Find $a \\in \\mathbb{R}$ given that:\n\n(a) when $x^3 - 2x + a$ is divided by $x - 2$, the remainder is 7\n\n(b) when $2x^3 + x^2 + ax - 5$ is divided by $x + 1$, the remainder is $-8$.",
+      "source_images": ["image2274.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. When $x^3 + 2x^2 + ax + b$ is divided by $x - 1$ the remainder is 4, and when divided by $x + 2$ the remainder is 16. Find constants $a$ and $b$.\n\n5. $2x^n + ax^2 - 6$ leaves a remainder of $-7$ when divided by $x - 1$, and 129 when divided by $x + 3$. Find $a$ and $n$ given that $n \\in \\mathbb{Z}^+$.\n\n6. Consider $f(x) = 2x^3 + ax^2 - 3x + b$. When $f(x)$ is divided by $x + 1$, the remainder is 7. When $f(x)$ is divided by $x - 2$, the remainder is 28. Find the remainder when $f(x)$ is divided by $x + 3$.\n\n7. (a) Suppose a polynomial $P(x)$ is divided by $2x - 1$ until a constant remainder $R$ is obtained. Show that $R = P(\\frac{1}{2})$.\n\nHint: $P(x) = Q(x)(2x - 1) + R$.",
+      "source_images": ["image2275.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "(b) Hence find the remainder when:\n\n(i) $4x^2 - 10x + 1$ is divided by $2x - 1$\n\n(ii) $2x^3 - 5x^2 + 8$ is divided by $2x - 1$.\n\n8. Find the remainder when $4x^3 + 7x - 3$ is divided by $2x + 1$.\n\n9. When $2x^3 + ax^2 + bx + 4$ is divided by $x + 1$ the remainder is $-5$, and when divided by $2x - 1$ the remainder is 10. Find $a$ and $b$.",
+      "source_images": ["image2276.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "10. When $P(z)$ is divided by $z^2 - 3z + 2$ the remainder is $4z - 7$. Find the remainder when $P(z)$ is divided by:\n\n(a) $z - 1$\n\n(b) $z - 2$.\n\n11. When $P(x)$ is divided by $x^2 - x + 3$, the quotient is $x^2 + 4x - 1$ and the remainder $R(x)$ is unknown. When $P(x)$ is divided by $x - 1$, the remainder is 10. When $P(x)$ is divided by $x + 3$, the remainder is $-42$. Find $R(x)$ in the form $ax + b$.\n\n12. When $P(z)$ is divided by $z + 1$ the remainder is $-8$, and when divided by $z - 3$ the remainder is 4. Find the remainder when $P(z)$ is divided by $(z - 3)(z + 1)$.\n\n13. If $P(x)$ is divided by $(x - a)(x - b)$, where $a \\neq b$, $a, b \\in \\mathbb{R}$, prove that the remainder is:\n\n$\\left(\\frac{P(b) - P(a)}{b - a}\\right) \\times (x - a) + P(a)$.",
+      "source_images": ["image2277.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 24C\n\n1. Use the Remainder theorem to find the remainder when:\n\n(a) $3x^2 - 4x + 7$ is divided by $(x - 2)$\n\n(b) $x^3 + 2x^2 - 5x + 2$ is divided by $(x + 4)$\n\n(c) $2x^3 - 7x + 13$ is divided by $(x - 3)$.",
+      "source_images": ["image2278.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Find $a$ given that:\n\n(a) $x^2 + 5x + a$ divided by $(x + 1)$ has remainder $-6$\n\n(b) $-2x^2 + ax + 8$ divided by $(x - 3)$ has remainder 2\n\n(c) $x^3 + ax^2 + 3x - 1$ divided by $(x + 4)$ has remainder 3.",
+      "source_images": ["image2279.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Find $a$ and $b$ given that:\n\n(a) $x^2 + ax + b$ has remainder 4 when divided by $(x - 3)$, and remainder 19 when divided by $(x + 2)$",
+      "source_images": ["image2280.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "(b) $x^3 + 4x^2 + ax + b$ has remainder 20 when divided by $(x - 2)$, and remainder 6 when divided by $(x + 5)$\n\n(c) $ax^4 + 2x^3 + bx - 8$ has remainder 0 when divided by either $(x - 1)$ or $(x + 2)$.",
+      "source_images": ["image2281.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "For any polynomial $P(x)$, $k$ is a zero of $P(x) \\Leftrightarrow (x - k)$ is a factor of $P(x)$.\n\nProof:\n\n$k$ is a zero of $P(x) \\Leftrightarrow P(k) = 0$ {definition of a zero}\n\n$\\Leftrightarrow R = 0$ {Remainder theorem}\n\n$\\Leftrightarrow P(x) = Q(x)(x - k)$ {division algorithm}\n\n$\\Leftrightarrow (x - k)$ is a factor of $P(x)$ {definition of a factor}\n\nThe Factor theorem says that if 2 is a zero of $P(x)$ then $(x - 2)$ is a factor of $P(x)$, and vice versa.",
+      "source_images": ["image2282.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 17\n\nFind $k$ given that $(x - 2)$ is a factor of $x^3 + kx^2 - 3x + 6$. Hence fully factorise $x^3 + kx^2 - 3x + 6$.\n\nSolution:\n\nLet $P(x) = x^3 + kx^2 - 3x + 6$\n\nSince $(x - 2)$ is a factor, $P(2) = 0$ {Factor theorem}\n\n$\\therefore (2)^3 + k(2)^2 - 3(2) + 6 = 0$\n\n$\\therefore 8 + 4k = 0$\n\n$\\therefore k = -2$\n\nWe now use division to find the other factors of $P(x)$:\n\nDivision algorithm:\n\n$\\begin{array}{c|ccc} & x^2 & & -3 \\\\ x-2 & x^3 - 2x^2 - 3x + 6 \\\\ & -(x^3 - 2x^2) & & \\\\ \\hline & 0 & -3x + 6 \\\\ & & -(-3x + 6) \\\\ \\hline & & 0 \\end{array}$\n\nor Synthetic division:\n\n$\\begin{array}{c|cccc} 2 & 1 & -2 & -3 & 6 \\\\ & & 2 & 0 & -6 \\\\ \\hline & 1 & 0 & -3 & 0 \\end{array}$\n\n$\\therefore P(x) = (x - 2)(x^2 - 3)$\n\n$= (x - 2)(x + \\sqrt{3})(x - \\sqrt{3})$",
+      "source_images": ["image2283.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 10\n\nDetermine whether:\n\n(a) $(x - 2)$ is a factor of $x^3 + 3x^2 - 13x + 6$\n\n(b) $(x + 3)$ is a factor of $x^3 - 8x + 7$.\n\nSolution:\n\n(a) Let $P(x) = x^3 + 3x^2 - 13x + 6$\n\n$\\therefore P(2) = (2)^3 + 3(2)^2 - 13(2) + 6$\n\n$= 8 + 12 - 26 + 6$\n\n$= 0$\n\nSince $P(2) = 0$, $(x - 2)$ is a factor of $x^3 + 3x^2 - 13x + 6$. {Factor theorem}\n\n(b) Let $P(x) = x^3 - 8x + 7$\n\n$\\therefore P(-3) = (-3)^3 - 8(-3) + 7$\n\n$= -27 + 24 + 7$\n\n$= 4$\n\nSince $P(-3) \\neq 0$, $(x + 3)$ is not a factor of $x^3 - 8x + 7$. {Factor theorem}\n\nWhen $x^3 - 8x + 7$ is divided by $(x + 3)$, a remainder of 4 is left over.",
+      "source_images": ["image2284.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 11\n\nFind $c$ given that $(x + 2)$ is a factor of $x^3 + 7x^2 + cx - 12$.\n\nSolution:\n\nLet $P(x) = x^3 + 7x^2 + cx - 12$\n\nNow $P(-2) = 0$ {Factor theorem}\n\n$\\therefore (-2)^3 + 7(-2)^2 + c(-2) - 12 = 0$\n\n$\\therefore -8 + 28 - 2c - 12 = 0$\n\n$\\therefore 8 = 2c$\n\n$\\therefore c = 4$",
+      "source_images": ["image2285.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 24D\n\n1. Use the Factor theorem to determine whether:\n\n(a) $(x - 1)$ is a factor of $4x^3 - 7x^2 + 5x - 2$\n\n(b) $(x - 3)$ is a factor of $x^4 - x^3 - 4x^2 - 15$\n\n(c) $(x + 2)$ is a factor of $3x^3 + 5x^2 - 6x - 8$\n\n(d) $(x + 4)$ is a factor of $2x^3 + 6x^2 + 4x + 16$.",
+      "source_images": ["image2286.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. (a) Find $c$ given that $(x + 1)$ is a factor of $5x^3 - 3x^2 + cx + 10$.\n\n(b) Find $c$ given that $(x - 3)$ is a factor of $x^4 - 2x^3 + cx^2 - 4x + 3$.\n\n(c) Find $b$ given that $(x + 2)$ is a factor of $x^6 + bx^5 - 2x^3 - 5x + 6$.\n\n3. (a) Find $a$ and $b$ given that $(x - 1)$ and $(x + 2)$ are factors of $ax^3 - 4x^2 - 7x + b$.\n\n(b) Find $p$ and $q$ given that $(x + 1)$ and $(x - 3)$ are factors of $px^4 - 5x^3 - 5x^2 + qx + 9$.\n\n4. Consider the cubic polynomial $f(x) = x^3 - 2x^2 - 23x + 60$.\n\n(a) Show that $(x - 3)$ is a factor of $f(x)$.\n\n(b) Find $\\displaystyle\\frac{x^3 - 2x^2 - 23x + 60}{x - 3}$.\n\n(c) Hence, write $f(x)$ in the form $f(x) = (x - 3)Q(x)$, where $Q(x)$ is a quadratic polynomial.\n\n(d) By factorising $Q(x)$, write $f(x)$ in fully factorised form.",
+      "source_images": ["image2287.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5G\n\n1. Use the Factor theorem to determine whether:\n\n(a) $(x - 2)$ is a factor of $x^3 - 3x^2 + 3x - 2$\n\n(b) $(x + 1)$ is a factor of $x^4 - 2x^3 + 3x^2 - 4$\n\n(c) $(x + 3)$ is a factor of $2x^3 + 5x^2 + x + 12$.\n\n2. Find $a$ given that:\n\n(a) $(x - 1)$ is a factor of $2x^3 - 3x^2 + ax - 4$\n\n(b) $(x + 2)$ is a factor of $3x^5 + ax^3 - 7x + 3$.",
+      "source_images": ["image2288.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Find the constant $k$ and hence factorise the polynomial if:\n\n(a) $2x^3 + x^2 + kx - 4$ has the factor $(x + 2)$\n\n(b) $x^4 - 3x^3 - kx^2 + 6x$ has the factor $(x - 3)$.\n\n4. $(x - 4)$ is a factor of $P(x) = 3x^3 - 17x^2 + kx + 8$.\n\n(a) Find $k$.\n\n(b) Write $P(x)$ in the form $P(x) = (x - 4)(ax^2 + bx + c)$.\n\n(c) Hence find the roots of $P(x) = 0$.\n\n5. Find constants $a$ and $b$ given that $2x^3 + ax^2 + bx + 5$ has factors $(x - 1)$ and $(x + 5)$.\n\n6. Suppose 3 is a zero of $P(z) = z^3 - z^2 + (k - 5)z + (k^2 - 1)$. Find the possible values of $k \\in \\mathbb{R}$ and all the corresponding zeros of $P(z)$.\n\n7. Show that $(z - 2)$ is a factor of $P(z) = z^3 + mz^2 + (3m - 2)z - 10m - 4$ for all values of $m \\in \\mathbb{R}$. For what value of $m$ is $(z - 2)^2$ a factor of $P(z)$?",
+      "source_images": ["image2289.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "8. $(x + 3)$ is a factor of $P(x) = 2x^3 + 9x^2 + ax + b$. When $P(x)$ is divided by $x + 4$, the remainder is $-18$.\n\n(a) Find $a$ and $b$.\n\n(b) Find the remainder when $P(x)$ is divided by $x - 2$.\n\n(c) Write $P(x)$ in the form $P(x) = (x + 3)(px^2 + qx + r)$.\n\n(d) Find the zeros of $P(x)$.",
+      "source_images": ["image2290.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. $(2x - 1)$ is a factor of $P(x) = 2x^3 + ax^2 - 8x + b$. When $P(x)$ is divided by $x - 1$, the remainder is 3.\n\n(a) Find $a$ and $b$.\n\n(b) Find the irrational roots of $P(x) = 0$, giving your answer in the form $x = p \\pm \\sqrt{q}$ where $p, q \\in \\mathbb{Z}$.\n\n10. Prove that $(x + 1)$ is a factor of $x^n + 1$, $n \\in \\mathbb{Z}$ $\\Leftrightarrow$ $n$ is odd.\n\n11. Find the real number $a$ such that $(x - 1 - a)$ is a factor of $P(x) = x^3 - 3ax - 9$.",
+      "source_images": ["image2291.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 24A\n\n1. (a) $f(x) = 5x^4 - \\frac{1}{2}x^2 + \\frac{2}{5}$\n\n(b) $g(x) = 2x^3 - 5x + 4x^{-1}$\n\n(c) $h(x) = 3x^5 + x^{\\frac{1}{2}} - 7$\n\n2. Given $p(x) = 5x^2 - x + 4$ and $q(x) = 3x^2 + 7x - 1$, find:\n\n(a) $p(x) + q(x)$\n\n(b) $2p(x) - q(x)$\n\n(c) $p(x)q(x)$\n\n3. Use the Remainder theorem to find the remainder when:\n\n(a) $x^3 - 4x^2 + 5x - 1$ is divided by $(x - 2)$\n\n(b) $2x^3 + 6x^2 - 7x + 12$ is divided by $(x + 5)$.\n\n4. For $f(x) = x^3 - 5x + 7$ and $g(x) = 2x^2 + 4x - 3$, find:\n\n(a) $f(x) - g(x)$\n\n(b) $-5g(x)$\n\n(c) $f(x)g(x)$\n\n5. Find the quotient and remainder of:\n\n(a) $\\displaystyle\\frac{2x^2 + 11x + 18}{x + 3}$\n\n(b) $\\displaystyle\\frac{x^3 - 6x^2 + 10x - 9}{x - 2}$\n\n6. Use the Factor theorem to determine whether:\n\n(a) $(x + 1)$ is a factor of $2x^4 - 9x^2 - 6x - 1$\n\n(b) $(x - 3)$ is a factor of $x^4 - 2x^3 - 4x^2 + 5x - 6$.",
+      "source_images": ["image2292.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. $2x^2 + kx - 5$ has remainder 3 when divided by $(x + 4)$. Find $k$.\n\n8. $(x - 2)$ and $(x + 3)$ are factors of $ax^3 - 3x^2 - 11x + b$. Find $a$ and $b$.\n\n9. Suppose $f(x) = x^3 - 4x^2 + 3x - 1$ and $g(x) = 3x^2 + x - 5$.\n\n(a) Find:\n\n(i) $f(3)$\n\n(ii) the degree of $g(x)$\n\n(iii) $f(x) + g(x)$\n\n(b) Find the quotient and remainder when $f(x)$ is divided by $(x - 3)$. Comment on the connection between your answer and the answer to a i.",
+      "source_images": ["image2293.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "10. Consider the cubic polynomial $f(x) = x^3 + x^2 - 17x + 15$.\n\n(a) Show that $(x + 5)$ is a factor of $f(x)$.\n\n(b) Find $\\displaystyle\\frac{x^3 + x^2 - 17x + 15}{x + 5}$.\n\n(c) Hence, write $f(x)$ in the form $f(x) = (x + 5)Q(x)$, where $Q(x)$ is a quadratic polynomial.\n\n(d) By factorising $Q(x)$, write $f(x)$ in fully factorised form.",
+      "source_images": ["image2294.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 24B\n\n1. State the degree of the polynomial $f(x) = (x - 2)(x^2 + 5)$.\n\n2. For $f(x) = x^3 - 4x + 5$ and $g(x) = x^2 - 6x + 1$, find:\n\n(a) $f(x) + g(x)$\n\n(b) $f(x) - g(x)$\n\n3. Find $\\displaystyle\\frac{x^4 - 6x^3 + 9x^2 - 22}{x - 4}$.\n\n4. Find the constant term of the polynomial:\n\n(a) $f(x) = 3x^3 - 2x^2 + x - 5$\n\n(b) $g(x) = (x + 2)(x - 3)(x - 4)$\n\n5. Use the Remainder theorem to find the remainder when $2x^3 - 3x^2 + 5x - 7$ is divided by $(x + 3)$.\n\n6. For $p(x) = 2x^4 - 3x^2 + 1$ and $q(x) = x^3 + 5x - 2$, find:\n\n(a) $5q(x)$\n\n(b) $p(x)q(x)$\n\n7. Find $c$ given that $(x - 2)$ is a factor of $x^5 - 2x^4 + cx^3 - 7x^2 + 5x - 6$.\n\n8. Use the Factor theorem to determine whether $(x - 5)$ is a factor of $x^3 - 3x^2 - 11x - 5$.\n\n9. $ax^3 + 5x^2 - x + b$ has remainder 7 when divided by $(x - 1)$, and remainder $-11$ when divided by $(x + 2)$. Find $a$ and $b$.\n\n10. Suppose $f(x) = x^4 - 5x^3 + ax^2 + 4x - 8$.\n\n(a) $(x + 1)$ is a factor of $f(x)$. Find $a$.\n\n(b) Show that $(x - 2)$ is also a factor of $f(x)$.\n\n(c) Show that $f(x) = (x + 1)(x - 2)(x^2 - 4x + 4)$ by expanding the RHS.\n\n(d) Hence, write $f(x)$ in fully factorised form.",
+      "source_images": ["image2295.png", "image2296.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "The theorems we have just seen for real polynomials can be generalised in the Fundamental Theorem of Algebra:\n\nIf $P(x)$ is a polynomial of degree $n$, then $P(x)$ has exactly $n$ zeros, each of which may be written in the form $a + bi$ where $a, b \\in \\mathbb{R}$, and some of which may be repeated.\n\nUsing the Fundamental Theorem of Algebra, the following properties of real polynomials can be established.",
+      "source_images": ["image2297.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "- Every real polynomial of degree $n$ can be factorised into $n$ complex linear factors, some of which may be repeated.\n\n- Every real polynomial can be expressed as a product of real linear and real irreducible quadratic factors (where $\\Delta < 0$).\n\n- Every real polynomial of degree $n$ has exactly $n$ zeros, some of which may be repeated.\n\n- If $p + qi$ ($q \\neq 0$) is a zero of a real polynomial then its complex conjugate $p - qi$ is also a zero.\n\n- Every real polynomial of odd degree has at least one real zero.",
+      "source_images": ["image2298.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 18\n\nSuppose $-3 + i$ is a zero of $P(x) = ax^3 + 9x^2 + ax - 30$ where $a$ is real. Find $a$ and hence find all zeros of the cubic.\n\nSolution:\n\nSince $P(x)$ is real, both $-3 + i$ and $-3 - i$ are zeros.\n\nThese have sum $= -6$ and product $= (-3 + i)(-3 - i) = 10$.\n\n$\\therefore$ the zeros $-3 \\pm i$ come from the quadratic $x^2 + 6x + 10$.\n\nThe coefficient of $x^3$ is $a$.\n\nThe constant term is $10 \\times (-3) = -30$.\n\nConsequently, $ax^3 + 9x^2 + ax - 30 = (x^2 + 6x + 10)(ax - 3)$\n\n$= ax^3 + (6a - 3)x^2 + (10a - 18)x - 30$\n\nEquating coefficients of $x^2$ gives: $6a - 3 = 9$ $\\therefore a = 2$\n\nEquating coefficients of $x$ gives: $10a - 18 = a$ $\\therefore a = 2$\n\n$\\therefore a = 2$ and the linear factor is $(2x - 3)$\n\n$\\therefore P(x)$ has zeros $-3 \\pm i$ and $\\frac{3}{2}$.",
+      "source_images": ["image2299.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5H\n\n1. $2 - i\\sqrt{3}$ is a root of $x^2 + ax + b = 0$, where $a, b \\in \\mathbb{R}$. Find $a$ and $b$.\n\n2. Find all real polynomials of degree 3 with zeros $-\\frac{1}{2}$ and $1 - 3i$.\n\n3. $p(x)$ is a real cubic polynomial for which $p(1) = p(2 + i) = 0$ and $p(0) = -20$. Find $p(x)$ in expanded form.\n\n4. $2 - 3i$ is a zero of $P(z) = z^3 + pz + q$ where $p$ and $q$ are real.\n\n(a) Using conjugate pairs, find $p$ and $q$ and the other two zeros.\n\n(b) Check your answer by solving for $p$ and $q$ using $P(2 - 3i) = 0$.\n\n5. $3 + i$ is a root of $z^4 - 2z^3 + az^2 + bz + 10 = 0$, where $a$ and $b$ are real. Find $a$ and $b$ and the other roots of the equation.\n\n6. $2 + i$ is a root of $x^4 + ax^3 + 8x^2 + 3ax + b = 0$, $a, b \\in \\mathbb{R}$. Find $a$ and $b$ and the other roots of the equation.",
+      "source_images": ["image2300.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 19\n\nOne zero of $ax^3 + (a + 1)x^2 + 10x + 15$, $a \\in \\mathbb{R}$, is purely imaginary. Find $a$ and the zeros of the polynomial.\n\nSolution:\n\nLet the purely imaginary zero be $bi$, $b \\neq 0$.\n\nSince $P(x)$ is real, both $bi$ and $-bi$ are zeros.\n\nThese have sum $= 0$ and product $= -b^2i^2 = b^2$\n\n$\\therefore$ the zeros $\\pm bi$ come from the quadratic $x^2 + b^2$.\n\nThe coefficient of $x^3$ is $a$.\n\nThe constant term is $b^2 \\times \\frac{15}{b^2} = 15$.\n\nConsequently, $ax^3 + (a + 1)x^2 + 10x + 15 = (x^2 + b^2)(ax + \\frac{15}{b^2})$\n\n$= ax^3 + \\left(\\frac{15}{b^2}\\right)x^2 + ab^2x + 15$\n\nEquating coefficients of $x^2$ gives: $a + 1 = \\frac{15}{b^2}$ .... (1)\n\nEquating coefficients of $x$ gives: $ab^2 = 10$ .... (2)\n\n$\\therefore ab^2 + b^2 = 15$ {using (1)}\n\n$\\therefore 10 + b^2 = 15$ {using (2)}\n\n$\\therefore b^2 = 5$\n\n$\\therefore b = \\pm\\sqrt{5}$\n\nIn (2), since $b^2 = 5$, $5a = 10$ $\\therefore a = 2$.\n\nThe linear factor $ax + \\frac{15}{b^2}$ becomes $2x + 3$\n\n$\\therefore a = 2$ and the zeros are $\\pm i\\sqrt{5}$, $-\\frac{3}{2}$.",
+      "source_images": ["image2301.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. One zero of $P(z) = z^3 + az^2 + 3z + 9$, $a \\in \\mathbb{R}$, is purely imaginary. Find $a$, and hence factorise $P(z)$ into the product of linear factors.\n\n8. At least one zero of $P(x) = 3x^3 + kx^2 + 15x + 10$, $k \\in \\mathbb{R}$, is purely imaginary. Find $k$, and hence factorise $P(x)$ into the product of linear factors.\n\n9. A real polynomial $P(x) = x^4 + ax^3 + bx^2 + cx - 10$ has two integer zeros $p$ and $q$, and a complex zero $1 + ki$, $k \\in \\mathbb{Z}$, $k \\neq 0$.\n\n(a) Use the zero $1 + ki$ to find a real quadratic factor of $P(x)$.\n\n(b) State all possible values of $k$.\n\n(c) Use $p$ and $q$ to write another real quadratic factor of $P(x)$. Hence list all possible values of $pq$.\n\n(d) Given that $p + q = -1$, show that there is only one possible value for $pq$. Hence find all zeros of $P(x)$.",
+      "source_images": ["image2302.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "For the polynomial equation $\\displaystyle\\sum_{r=0}^{n} a_r x^r = 0$, $a_n \\neq 0$\n\nthe sum of the roots is $-\\frac{a_{n-1}}{a_n}$, and the product of the roots is $\\frac{(-1)^n a_0}{a_n}$.",
+      "source_images": ["image2303.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "We can explain this result as follows:\n\nConsider the polynomial equation $a_n(x - \\alpha_1)(x - \\alpha_2)(x - \\alpha_3)....(x - \\alpha_n) = 0$ with roots $\\alpha_1, \\alpha_2, \\alpha_3, ...., \\alpha_n$.\n\nExpanding the LHS we have\n\n$a_n(x - \\alpha_1)(x - \\alpha_2)(x - \\alpha_3)(x - \\alpha_4)....(x - \\alpha_n)$\n\n$= a_n(x^2 - [\\alpha_1 + \\alpha_2]x + (-1)^2\\alpha_1\\alpha_2)(x - \\alpha_3)(x - \\alpha_4)....(x - \\alpha_n)$\n\n$= a_n(x^3 - [\\alpha_1 + \\alpha_2 + \\alpha_3]x^2 + .... + (-1)^3\\alpha_1\\alpha_2\\alpha_3)(x - \\alpha_4)....(x - \\alpha_n)$\n\n{the term of order $x$ is no longer important as it will not contribute to either the $x^{n-1}$ term or the constant term}\n\n$\\vdots$\n\n$= a_n(x^n - [\\alpha_1 + \\alpha_2 + \\alpha_3 + .... + \\alpha_n]x^{n-1} + .... + (-1)^n\\alpha_1\\alpha_2\\alpha_3....\\alpha_n)$\n\n$= a_n x^n - a_n[\\alpha_1 + \\alpha_2 + \\alpha_3 + .... + \\alpha_n]x^{n-1} + .... + (-1)^n\\alpha_1\\alpha_2\\alpha_3....\\alpha_n a_n$\n\nEquating coefficients,\n\n$a_{n-1} = -a_n[\\alpha_1 + \\alpha_2 + \\alpha_3 + .... + \\alpha_n]$ and $a_0 = (-1)^n\\alpha_1\\alpha_2\\alpha_3....\\alpha_n a_n$\n\n$\\therefore -\\frac{a_{n-1}}{a_n} = \\alpha_1 + \\alpha_2 + \\alpha_3 + .... + \\alpha_n$ and $\\frac{(-1)^n a_0}{a_n} = \\alpha_1\\alpha_2\\alpha_3....\\alpha_n$",
+      "source_images": ["image2304.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 20\n\nFind the sum and product of the roots of $2x^3 - 7x^2 + 8x - 1 = 0$.\n\nSolution:\n\nThe sum of the roots $= -\\frac{(-7)}{2}$\n\n$= \\frac{7}{2}$\n\nThe polynomial equation has degree 3.\n\n$\\therefore$ the product of the roots $= \\frac{(-1)^3(-1)}{2}$\n\n$= \\frac{1}{2}$",
+      "source_images": ["image2305.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 21\n\nA real polynomial has the form $P(x) = 3x^4 - 12x^3 + cx^2 + dx + e$. The graph of $y = P(x)$ has $y$-intercept 180, cuts the $x$-axis at 2 and 6, and does not meet the $x$-axis anywhere else.\n\nSuppose the other two zeros are $m \\pm ni$, $n > 0$. Use the sum and product formulae to find $m$ and $n$.\n\nSolution:\n\nIf the other two zeros are $m \\pm ni$, the sum of the zeros is\n\n$2 + 6 + (m + ni) + (m - ni) = -\\frac{-12}{3}$\n\n$\\therefore 2m + 8 = 4$\n\n$\\therefore m = -2$\n\nThe constant term $e$ is the $y$-intercept.\n\n$\\therefore e = 180$",
+      "source_images": ["image2306.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "The product of the zeros is $2 \\times 6 \\times (-2 + ni)(-2 - ni) = \\frac{(-1)^4 180}{3} = 60$\n\n$\\therefore 12(4 + n^2) = 60$\n\n$\\therefore 4 + n^2 = 5$\n\n$\\therefore n^2 = 1$\n\n$\\therefore n = 1$ {as $n > 0$}\n\nSo, $m = -2$ and $n = 1$.",
+      "source_images": ["image2307.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5I\n\n1. Find the sum and product of the roots of:\n\n(a) $2x^2 - 3x + 4 = 0$\n\n(b) $3x^3 - 4x^2 + 8x - 5 = 0$\n\n(c) $x^4 - x^3 + 2x^2 + 3x - 4 = 0$\n\n(d) $2x^5 - 3x^4 + x^2 - 8 = 0$\n\n(e) $x^7 - x^5 + 2x - 9 = 0$\n\n(f) $x^6 - 1 = 0$\n\n2. A real cubic polynomial $P(x)$ has zeros $3 \\pm \\sqrt{2}$ and $\\frac{2}{3}$, and its leading coefficient is 6. Find:\n\n(a) the sum and product of its zeros\n\n(b) the coefficient of $x^2$\n\n(c) the constant term.\n\n3. A real cubic polynomial $P(x)$ has zeros $1 \\pm i\\sqrt{2}$ and 1, and its leading coefficient is $\\frac{2}{3}$. Find:\n\n(a) the sum and product of its zeros\n\n(b) the coefficient of $x^2$\n\n(c) the constant term.\n\n4. A real polynomial of degree 4 has leading coefficient $-1$. Its zeros are $-2$, 3, and $\\sqrt{k} \\pm 1$, and its graph has $y$-intercept 18. Find:\n\n(a) $k$\n\n(b) the coefficient of $x^3$.",
+      "source_images": ["image2308.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. A real polynomial of degree 5 has leading coefficient 2, and the coefficient of $x^4$ is 3. Its graph has $y$-intercept 5, and it cuts the $x$-axis at $\\frac{1}{2}$ and $1 \\pm \\sqrt{2}$ only. Suppose the other two zeros are $m \\pm ni$, $n > 0$. Use the sum and product formulae to find $m$ and $n$.\n\n6. A real quartic polynomial has leading coefficient 1 and constant term 25. Its zeros have the form $a \\pm i$ and $3 \\pm a$, where $a \\in \\mathbb{R}$. Find the possible values that $a$ may take.\n\n7. $x^3 - px^2 + qx - r = 0$ has non-zero roots $p$, $q$, and $r$, where $p, q, r \\in \\mathbb{R}$.\n\n(a) Show that $q = -r$ and $p = -\\frac{1}{r}$.\n\n(b) Hence find $p$, $q$, and $r$.\n\n8. $x^2 + ax + bc = 0$ and $x^2 + bx + ca = 0$ where $a \\neq 0$, $b \\neq 0$, $c \\neq 0$, have a single common root. Prove that the other roots satisfy $x^2 + cx + ab = 0$.\n\n9. $f(x)$ is a polynomial of degree $n$ with leading coefficient 1. The sum of its roots is 5, and the product of its roots is $-3$. Suppose $g(x) = [f(x)]^2$. Find:\n\n(a) the degree of $g(x)$\n\n(b) the sum of the roots of $g(x)$\n\n(c) the product of the roots of $g(x)$\n\n(d) the $y$-intercept of $y = g(x)$.",
+      "source_images": ["image2309.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "The most basic cubic function is $y = x^3$. Its graph is shown alongside.\n\nNotice that:\n\n- The graph is horizontal at $(0, 0)$.\n\n- As $x$ gets very large and positive, $y$ also gets very large and positive. We write:\n\nAs $x \\to \\infty$, $y \\to \\infty$.\n\n- As $x$ gets very large and negative, $y$ also gets very large and negative. We write:\n\nAs $x \\to -\\infty$, $y \\to -\\infty$.\n\n$\\to$ means \"approaches\".",
+      "source_images": ["image2310.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "- The graph of $y = ax^3$ has shape:\n\n(increasing curve) if $a > 0$ (decreasing curve) if $a < 0$.\n\n- As the size of $a$ increases, the graph of $y = ax^3$ becomes steeper.\n\n- The graph of $y = a(x - b)^3 + c$ is obtained by translating the graph of $y = ax^3$ by the vector $\\begin{pmatrix} b \\\\ c \\end{pmatrix}$.",
+      "source_images": ["image2311.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 22\n\nOn the same set of axes, sketch the graph of $y = x^3$ and $y = (x - 2)^3 - 1$.\n\nSolution:\n\n$y = (x - 2)^3 - 1$ is the translation of $y = x^3$ by the vector $\\begin{pmatrix} 2 \\\\ -1 \\end{pmatrix}$.\n\nThe graph shows both curves with the point $(2, -1)$ marked on the translated curve.",
+      "source_images": ["image2312.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "- If $a > 0$, the graph has shape (increasing S-curve) or (increasing curve with local max/min). If $a < 0$ it is (decreasing S-curve) or (decreasing curve with local max/min).\n\n- Every cubic polynomial must cut the $x$-axis at least once, and so has at least one real zero.\n\n- For a cubic of the form $P(x) = a(x - \\alpha)(x - \\beta)(x - \\gamma)$ where $\\alpha, \\beta, \\gamma \\in \\mathbb{R}$, the graph has three distinct $x$-intercepts corresponding to the three distinct zeros $\\alpha$, $\\beta$, and $\\gamma$. The graph crosses over or cuts the $x$-axis at these points.\n\n- For a cubic of the form $P(x) = a(x - \\alpha)^2(x - \\beta)$ where $\\alpha, \\beta \\in \\mathbb{R}$, the graph touches the $x$-axis at $\\alpha$ and cuts it at $\\beta$.\n\n- For a cubic of the form $P(x) = a(x - \\alpha)^3$, $x \\in \\mathbb{R}$, the graph has only one $x$-intercept, $\\alpha$. The graph is horizontal at this point.\n\n- For a cubic of the form $P(x) = (x - \\alpha)(ax^2 + bx + c)$ where $\\Delta < 0$, there is only one $x$-intercept, $\\alpha$. The graph cuts the $x$-axis at this point.",
+      "source_images": ["image2313.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 23\n\nUse the axes intercepts to sketch the graph of:\n\n(a) $y = 2(x + 3)(x - 1)(x - 3)$\n\n(b) $y = -(x - 2)^2(2x + 1)$\n\nSolution:\n\n(a) The graph cuts the $x$-axis at $-3$, 1, and 3.\n\nWhen $x = 0$,\n\n$y = 2(3)(-1)(-3) = 18$\n\n$\\therefore$ the $y$-intercept is 18.\n\n(b) The graph touches the $x$-axis at 2 and cuts the $x$-axis at $-\\frac{1}{2}$.\n\nWhen $x = 0$,\n\n$y = -(-2)^2(1) = -4$\n\n$\\therefore$ the $y$-intercept is $-4$.",
+      "source_images": ["image2314.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 24\n\nFind the equation of the cubic with graph:\n\n(a) Graph with $x$-intercepts at $-1$, 2, 4 and passing through $(0, -8)$\n\n(b) Graph touching $x$-axis at $\\frac{2}{3}$, crossing at $-3$, and passing through $(0, 6)$\n\nSolution:\n\n(a) The $x$-intercepts are $-1$, 2, 4.\n\n$\\therefore y = a(x + 1)(x - 2)(x - 4)$\n\nBut when $x = 0$, $y = -8$\n\n$\\therefore a(1)(-2)(-4) = -8$\n\n$\\therefore a = -1$\n\nSo, $y = -(x + 1)(x - 2)(x - 4)$\n\n(b) The graph touches the $x$-axis at $\\frac{2}{3}$, indicating a squared factor $(3x - 2)^2$.\n\nThe other $x$-intercept is $-3$,\n\nso $y = a(3x - 2)^2(x + 3)$.\n\nBut when $x = 0$, $y = 6$\n\n$\\therefore a(-2)^2(3) = 6$\n\n$\\therefore a = \\frac{1}{2}$\n\nSo, $y = \\frac{1}{2}(3x - 2)^2(x + 3)$",
+      "source_images": ["image2314.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5J\n\n1. Sketch the following graphs. Use a separate set of axes for each part.\n\n(a) $y = x^3$ and $y = (x + 3)^3 + 2$\n\n(b) $y = -x^3$ and $y = -(x - 1)^3 - 4$\n\n(c) $y = 3x^3$ and $y = 3(x - 2)^3 + 5$\n\n(d) $y = -\\frac{1}{2}x^3$ and $y = -\\frac{1}{2}(x + 4)^3 - 3$",
+      "source_images": ["image2315.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Use axes intercepts to sketch the graph of:\n\n(a) $y = (x + 4)(x + 1)(x - 2)$\n\n(b) $y = (x - 1)^2(x + 3)$\n\n(c) $y = (x + 2)^3$\n\n(d) $f(x) = -(x + 2)^2(2x - 3)$\n\n(e) $y = 3x(x + 4)(x - 2)$\n\n(f) $f(x) = -2(x - 4)^3$\n\n(g) $y = \\frac{1}{2}(x + 4)^2(3x - 2)$\n\n(h) $f(x) = \\frac{1}{3}(2x - 1)(x + 3)(x - 2)$\n\n(i) $f(x) = -4(2x + 5)^2(3x - 1)$\n\n(j) $y = (x - 3)(x^2 - 4x + 5)$\n\n(k) $y = (x - 3)(x^2 + 2x + 3)$\n\n(l) $y = (x + 2)(x^2 + 6x + 9)$\n\nCheck your answers using technology.\n\n3. Find the equation of the cubic with graph:\n\n(a) Graph with $x$-intercepts at $-1$, 2, 3 and $y$-intercept at 12\n\n(b) Graph with $x$-intercepts at $-1$, $\\frac{2}{3}$, 3 and $y$-intercept at 9\n\n(c) Graph with $x$-intercepts at $-4$, $-2$, 1 and $y$-intercept at $-16$\n\n(d) Graph with $x$-intercepts at $-3$, $-\\frac{1}{2}$, $\\frac{1}{2}$ and $y$-intercept at 6\n\n(e) Graph with $x$-intercepts at $-4$, 0, 3 and passing through point with $y$-intercept at $-12$\n\n(f) Graph with $x$-intercepts at $-5$, $-2$, 5 and $y$-intercept at $-5$\n\n(g) Graph touching $x$-axis at 2 and $y$-intercept at 1\n\n(h) Graph with $x$-intercepts at $-4$, 3 and $y$-intercept at 9\n\n(i) Graph touching $x$-axis at $-3$, $-2$, $-\\frac{1}{2}$ and $y$-intercept at $-12$",
+      "source_images": ["image2316.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. (a) Show that $-2$ is an $x$-intercept of the graph of $f(x) = 2x^3 - 3x^2 - 11x + 6$.\n\n(b) Fully factorise $2x^3 - 3x^2 - 11x + 6$.\n\n(c) Hence sketch the graph of $f(x) = 2x^3 - 3x^2 - 11x + 6$.\n\n(d) State the domain and range of the function.\n\n(e) Describe the behaviour of the graph as $x \\to \\infty$ and $x \\to -\\infty$.",
+      "source_images": ["image2317.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. Find the equation of the cubic whose graph:\n\n(a) cuts the $x$-axis at 3, 1, and $-2$, and passes through $(2, -4)$\n\n(b) cuts the $x$-axis at $-2$, 0, and $\\frac{1}{2}$, and passes through $(-1, 9)$\n\n(c) touches the $x$-axis at 1, cuts the $x$-axis at $-2$, and passes through $(4, 54)$\n\n(d) touches the $x$-axis at $-\\frac{2}{3}$, cuts the $x$-axis at 4, and passes through $(1, 25)$.",
+      "source_images": ["image2318.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. (a) Given that 1 is a zero of $-2x^3 - 2x^2 + 10x - 6$, fully factorise the polynomial.\n\n(b) Hence sketch the graph of $y = -2x^3 - 2x^2 + 10x - 6$.\n\n(c) Describe the behaviour of the graph as $x \\to \\infty$ and $x \\to -\\infty$.",
+      "source_images": ["image2319.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 25\n\nFind the equation of the cubic which cuts the $x$-axis at 2 and $-3$, cuts the $y$-axis at $-48$, and which passes through the point $(1, -40)$.\n\nSolution:\n\nThe zeros are 2 and $-3$, so $y = (x - 2)(x + 3)(ax + b)$, $a \\neq 0$.\n\nWhen $x = 0$, $y = -48$\n\n$\\therefore (-2)(3)b = -48$\n\n$\\therefore b = 8$\n\nWhen $x = 1$, $y = -40$\n\n$\\therefore (-1)(4)(a + 8) = -40$\n\n$\\therefore a + 8 = 10$\n\n$\\therefore a = 2$\n\nSo, the equation is $y = (x - 2)(x + 3)(2x + 8)$\n\nwhich we can write as $y = 2(x - 2)(x + 3)(x + 4)$",
+      "source_images": ["image2320.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. Find the equation of a real cubic polynomial which:\n\n(a) cuts the $x$-axis at $\\frac{1}{2}$ and $-3$, cuts the $y$-axis at 30, and passes through $(1, -20)$\n\nIf two zeros are unknown, use the factor $(ax^2 + bx + c)$.\n\n(b) touches the $x$-axis at $-2$, cuts the $y$-axis at 8, and passes through $(-1, 4)$\n\n(c) cuts the $x$-axis at 2, cuts the $y$-axis at $-4$, and passes through $(1, -1)$ and $(-1, -21)$.",
+      "source_images": ["image2321.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "8. A scientist is trying to design a crash test barrier with the characteristics shown in the graph below. The independent variable $t$ is the time after impact, measured in milliseconds with $0 \\leqslant t \\leqslant 700$. The dependent variable is the distance the barrier is depressed during the impact, measured in millimetres.\n\n(a) The equation for this graph has the form $f(t) = kt(t - a)^2$, $0 \\leqslant t \\leqslant 700$. Use the graph to find $a$. Discuss the significance of this value.\n\n(b) The ideal crash barrier is depressed by 85 mm after 100 milliseconds. Find the value of $k$ which gives this result, and hence find the equation of the graph given.",
+      "source_images": ["image2322.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "A quartic function is a function of the form $y = ax^4 + bx^3 + cx^2 + dx + e$ where $a$, $b$, $c$, $d$, and $e$ are constants, $a \\neq 0$.\n\nThe simplest quartic function is $y = x^4$.\n\nNotice that:\n\n- the graph opens upwards\n\n- the graph is \"flat\" at $(0, 0)$\n\n- as $x \\to \\infty$, $y \\to \\infty$\n\n- as $x \\to -\\infty$, $y \\to \\infty$.\n\nAs with quadratic and cubic functions, quartic functions may be written in expanded form such as $y = x^4 - 4x^3 - x^2 + 16x - 12$, or in factorised form such as $y = (x + 2)(x - 1)(x - 2)(x - 3)$. The factorised form of a quartic function gives us the most information about the function's graph.",
+      "source_images": ["image2323.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "- For a quartic polynomial in which $a$ is the coefficient of $x^4$:\n\n  - If $a > 0$ the graph opens upwards.\n  - If $a < 0$ the graph opens downwards.\n\n- If a quartic with $a > 0$ is fully factorised into real linear factors, then:\n\n  - for a single factor $(x - \\alpha)$, the graph cuts the $x$-axis at $\\alpha$\n\n  - for a square factor $(x - \\alpha)^2$, the graph touches the $x$-axis at $\\alpha$\n\n  - for a cubed factor $(x - \\alpha)^3$, the graph cuts the $x$-axis at $\\alpha$ and is \"flat\" at $\\alpha$\n\n  - for a quadruple factor $(x - \\alpha)^4$, the graph touches the $x$-axis and is \"flat\" at that point.\n\n  - If a quartic with $a > 0$ has one real quadratic factor with $\\Delta < 0$ we could have: (graph with one local minimum above x-axis)\n\n  - If a quartic with $a > 0$ has two real quadratic factors both with $\\Delta < 0$, the graph does not meet the $x$-axis at all.",
+      "source_images": ["image2324.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 26\n\nSketch the graph of:\n\n(a) $y = (3x - 2)(x + 3)(x + 1)^2$\n\n(b) $y = -(x - 3)^2(x + 2)^2$\n\nSolution:\n\n(a) $a > 0$, so the graph opens upwards.\n\nThe graph cuts the $x$-axis at $\\frac{2}{3}$ and $-3$, and touches the $x$-axis at $-1$.\n\nWhen $x = 0$,\n\n$y = (-2)(3)(1)^2 = -6$\n\n$\\therefore$ the $y$-intercept is $-6$.",
+      "source_images": ["image2325.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "(b) $a < 0$, so the graph opens downwards.\n\nThe graph touches the $x$-axis at 3 and $-2$.\n\nWhen $x = 0$,\n\n$y = -(-3)^2(2)^2 = -36$\n\n$\\therefore$ the $y$-intercept is $-36$.",
+      "source_images": ["image2326.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5K\n\n1. Sketch the graph of:\n\n(a) $y = x^2(x - 1)(2x + 3)$\n\n(b) $y = 3x^2(x - 2)^2$\n\n(c) $f(x) = 2(x + 3)(x + 1)(x - 1)(x - 2)$\n\n(d) $y = -2x(x - 1)^2(x + 3)$\n\n(e) $f(x) = -(x - 1)(x + 1)^3$\n\n(f) $f(x) = -2(x + 2)^2(2x - 1)^2$\n\n2. (a) Fully factorise $x^4 - x^3 - 2x^2$.\n\n(b) Hence sketch the graph of $f(x) = x^4 - x^3 - 2x^2$.",
+      "source_images": ["image2327.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 27\n\nFind the equation of the quartic with graph:\n\nGraph showing a quartic touching the $x$-axis at $-1$ and cutting it at $-3$ and 3, with $y$-intercept at $-3$.\n\nSolution:\n\nThe graph touches the $x$-axis at $-1$ and cuts it at $-3$ and 3.\n\n$\\therefore y = a(x + 1)^2(x + 3)(x - 3)$, $a \\neq 0$\n\nBut when $x = 0$, $y = -3$\n\n$\\therefore -3 = a(1)^2(3)(-3)$\n\n$\\therefore -3 = -9a$\n\n$\\therefore a = \\frac{1}{3}$\n\n$\\therefore y = \\frac{1}{3}(x + 1)^2(x + 3)(x - 3)$",
+      "source_images": ["image2328.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Find the equation of the quartic with graph:\n\n(a) Graph with $x$-intercepts at $-1$, 1 and $y$-intercept at 2\n\n(b) Graph with $x$-intercepts at $-3$, $-1$, $\\frac{2}{3}$ and $y$-intercept at $-6$\n\n(c) Graph with $x$-intercepts at $-2$, $-1$, 2 and $y$-intercept at $-16$\n\n(d) Graph with $x$-intercepts at $-3$, $-1$, $\\frac{3}{2}$, 3 and $y$-intercept at $-9$\n\n(e) Graph with $x$-intercepts at $-1$, 4 and $y$-intercept at $-16$\n\n(f) Graph touching $x$-axis at $-3$ and 3, passing through $(-2, -5)$ and point $(-3, 54)$",
+      "source_images": ["image2329.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 28\n\nFind the quartic function $P(x)$ which touches the $x$-axis at 2, cuts the $x$-axis at $-3$, and passes through $(1, -12)$ and $(3, 6)$.\n\nSolution:\n\nThe graph touches the $x$-axis at 2, so $(x - 2)^2$ is a factor.\n\nThe graph cuts the $x$-axis at $-3$, so $(x + 3)$ is a factor.\n\n$\\therefore P(x) = (x - 2)^2(x + 3)(ax + b)$ where $a$ and $b$ are constants, $a \\neq 0$.\n\nNow $P(1) = -12$ and $P(3) = 6$\n\n$\\therefore (-1)^2(4)(a + b) = -12$\n\n$\\therefore a + b = -3$ .... (1)\n\nand $\\therefore (1)^2(6)(3a + b) = 6$\n\n$\\therefore 3a + b = 1$ .... (2)\n\nSolving (1) and (2) simultaneously gives $a = 2$, $b = -5$.\n\n$\\therefore P(x) = (x - 2)^2(x + 3)(2x - 5)$",
+      "source_images": ["image2330.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Find the equation of the quartic whose graph:\n\n(a) cuts the $x$-axis at $-4$ and $\\frac{1}{2}$, touches it at 2, and passes through the point $(1, 5)$\n\n(b) touches the $x$-axis at $\\frac{2}{3}$ and $-3$, and passes through the point $(-4, 49)$",
+      "source_images": ["image2331.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "(c) cuts the $x$-axis at $\\pm\\frac{1}{2}$ and $\\pm 2$, and passes through the point $(1, -18)$\n\n(d) touches the $x$-axis at 1, cuts the $y$-axis at $-1$, and passes through $(-1, -4)$ and $(2, 15)$.\n\n5. Find the equation of the following quartics. Give your answers in expanded form:\n\n(a) Graph with $x$-intercepts at $-4$, $-2$, 1 and $y$-intercept at $-8$\n\n(b) Graph with $x$-intercepts at $-3$, $-1$, 1 and $y$-intercept at $-6$\n\n6. The graph of $f(x) = x^4 - x^3 - 5x^2 + 12$ touches the $x$-axis at 2.\n\n(a) By fully factorising $x^4 - x^3 - 5x^2 + 12$, show that the graph does not meet the $x$-axis anywhere else.\n\n(b) Use technology to help sketch the graph of $y = f(x)$.\n\n7. The heat radiated from a person is given by the quartic function $H(t) \\approx (9.5 \\times 10^{-8})t^4$ joules per second, where $t$ is the person's body temperature in Kelvins (K). Find the heat radiated by:\n\n(a) a person with a normal body temperature of 37°C or 310 K\n\n(b) a person who has a fever, with body temperature 39°C or 312 K.",
+      "source_images": ["image2332.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "8. (a) Given that $x^2 + x + 1$ is a factor of $x^4 - 4x^3 + 3x^2 + 2x + 7$, write $x^4 - 4x^3 + 3x^2 + 2x + 7$ as a product of two quadratic factors.\n\n(b) Hence show that the graph of $f(x) = x^4 - 4x^3 + 3x^2 + 2x + 7$ does not meet the $x$-axis at all.\n\n(c) Use technology to help sketch the graph of $f(x) = x^4 - 4x^3 + 3x^2 + 2x + 7$.\n\n9. The graph alongside shows the height ($h$ metres) of a roller coaster above the ground against the horizontal distance travelled ($x$ metres), for $0 \\leqslant x \\leqslant 200$.\n\nThe equation for this graph has the form $h(x) = \\frac{-x(x - a)^2(x - b)}{k}$, $0 \\leqslant x \\leqslant 200$.\n\n(a) Use the graph to find $a$ and $b$.\n\n(b) Given that the roller coaster is 4 m above the ground after travelling 100 m, find the value of $k$.\n\n(c) Find the height of the roller coaster above the ground, after it has travelled 150 m.",
+      "source_images": ["image2333.png"]
+    }
+  ]
+}

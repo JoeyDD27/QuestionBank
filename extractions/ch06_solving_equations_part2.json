@@ -1,157 +1,267 @@
 {
   "chapter": 6,
   "part": 2,
-  "images_range": "512-541",
+  "images_range": "539-595",
   "items": [
     {
-      "type": "example",
-      "content_latex": "Solve for $x$: $\\frac{x}{3} - \\frac{1 - 2x}{6} = -4$\n\nSolution:\n\n$\\frac{x}{3} - \\frac{1 - 2x}{6} = -4$ has LCD $= 6$\n\n$\\therefore \\frac{x}{3} \\times \\frac{2}{2} - \\left(\\frac{1 - 2x}{6}\\right) = -4 \\times \\frac{6}{6}$ {to create a common denominator}\n\n$\\therefore 2x - (1 - 2x) = -24$ {equating numerators}\n$\\therefore 2x - 1 + 2x = -24$ {expanding}\n$\\therefore 4x - 1 = -24$\n$\\therefore 4x - 1 + 1 = -24 + 1$ {adding 1 to both sides}\n$\\therefore 4x = -23$\n$\\therefore x = -\\frac{23}{4}$ {dividing both sides by 4}",
-      "source_images": ["image512.png"]
-    },
-    {
       "type": "exercise",
-      "content_latex": "EXERCISE 1D\n\n1. Solve for $x$:\n\n(a) $\\frac{x}{2} = \\frac{4}{7}$\n(b) $\\frac{5}{8} = \\frac{x}{6}$\n(c) $\\frac{x}{2} = \\frac{x - 2}{3}$\n(d) $\\frac{x + 1}{3} = \\frac{2x - 1}{4}$\n(e) $\\frac{2x}{3} = \\frac{5 - x}{2}$\n(f) $\\frac{3x + 2}{5} = \\frac{2x - 1}{2}$\n(g) $\\frac{2x - 1}{3} = \\frac{4 - x}{6}$\n(h) $\\frac{4x + 7}{7} = \\frac{5 - x}{2}$\n(i) $\\frac{3x + 1}{6} = \\frac{4x - 1}{-2}$",
-      "source_images": ["image513.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "2. Solve for $x$:\n\n(a) $\\frac{5}{x} = \\frac{2}{3}$\n(b) $\\frac{6}{x} = \\frac{3}{5}$\n(c) $\\frac{4}{3} = \\frac{5}{x}$\n(d) $\\frac{3}{2x} = \\frac{7}{6}$\n(e) $\\frac{3}{2x} = \\frac{7}{3}$\n(f) $\\frac{7}{3x} = -\\frac{1}{6}$\n(g) $\\frac{5}{4x} = -\\frac{1}{12}$\n(h) $\\frac{7}{2x} = -4$\n\n3. Solve for $x$:\n\n(a) $\\frac{2x + 3}{x + 1} = \\frac{5}{3}$\n(b) $\\frac{x + 1}{1 - 2x} = \\frac{2}{5}$\n(c) $\\frac{2x - 1}{4 - 3x} = -\\frac{3}{4}$\n(d) $\\frac{x + 3}{2x - 1} = \\frac{1}{3}$\n(e) $\\frac{4x + 3}{2x - 1} = 3$\n(f) $\\frac{3x - 2}{x + 4} = -3$\n(g) $\\frac{6x - 1}{3 - 2x} = 5$\n(h) $\\frac{5x + 1}{x + 4} = 4$\n(i) $2 + \\frac{2x + 5}{x - 1} = -3$\n\n4. Solve for $x$:\n\n(a) $\\frac{x}{2} - \\frac{x}{6} = 4$\n(b) $\\frac{x}{4} - 3 = \\frac{2x}{3}$\n(c) $\\frac{x}{8} + \\frac{x + 2}{2} = -1$\n(d) $\\frac{x + 2}{3} + \\frac{x - 3}{4} = 1$\n(e) $\\frac{2x - 1}{3} - \\frac{5x - 6}{6} = -2$\n(f) $\\frac{x}{4} = 4 - \\frac{x + 2}{3}$\n(g) $\\frac{2x - 7}{3} - 1 = \\frac{x - 4}{6}$\n(h) $\\frac{x + 1}{3} - \\frac{x}{6} = \\frac{2x - 3}{2}$\n(i) $\\frac{x}{5} - \\frac{2x - 5}{3} = \\frac{3}{4}$\n(j) $\\frac{x + 1}{3} + \\frac{x - 2}{6} = \\frac{x + 4}{12}$\n(k) $\\frac{x - 6}{5} - \\frac{2x - 1}{10} = \\frac{x - 1}{2}$\n(l) $\\frac{2x + 1}{4} - \\frac{1 - 4x}{2} = \\frac{3x + 7}{6}$",
-      "source_images": ["image514.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "EXERCISE 6F\n\n1. Solve for $x$:\n\n(a) $\\frac{x}{4} = \\frac{5}{2}$\n(b) $\\frac{2}{3} = \\frac{x}{5}$\n(c) $\\frac{6x}{4} = \\frac{3}{2}$\n(d) $\\frac{1}{4} = \\frac{x}{3}$\n(e) $\\frac{3x}{4} = \\frac{3}{2}$\n(f) $\\frac{1}{5} = \\frac{5x}{3}$\n(g) $\\frac{3}{5} = \\frac{x}{2}$\n(h) $\\frac{4x}{5} = \\frac{1}{2}$\n\n2. Solve for $x$:\n\n(a) $\\frac{3x + 1}{4} = \\frac{5}{2}$\n(b) $\\frac{x + 4}{3} = \\frac{x}{2}$\n(c) $\\frac{2x + 3}{5} = \\frac{2x}{3}$\n(d) $\\frac{x + 1}{3} = \\frac{2x + 5}{4}$\n(e) $\\frac{4 - x}{2} = \\frac{x + 1}{3}$\n(f) $\\frac{5x + 2}{4} = \\frac{2x - 1}{3}$\n(g) $\\frac{3 - 2x}{2} = x + 4$\n(h) $\\frac{x + 2}{3} = \\frac{5 - x}{4}$\n(i) $\\frac{3x + 8}{3} = x - 5$",
-      "source_images": ["image515.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "3. Solve for $x$:\n\n(a) $\\frac{x}{2} + \\frac{x}{5} = 2$\n(b) $\\frac{x}{2} - \\frac{2x}{3} = \\frac{5}{6}$\n(c) $\\frac{3x}{2} - \\frac{x}{8} = 11$\n(d) $\\frac{3x}{4} + \\frac{2x}{3} = -\\frac{1}{2}$\n(e) $\\frac{5x}{2} - \\frac{x}{6} = \\frac{3}{8}$\n(f) $\\frac{x}{7} - \\frac{3x}{2} = 4$",
-      "source_images": ["image516.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "4. Solve for $x$:\n\n(a) $\\frac{x}{3} + \\frac{2x + 1}{6} = 0$\n(b) $\\frac{2x + 3}{5} + \\frac{x - 1}{2} = \\frac{3}{4}$\n(c) $\\frac{2x - 3}{5} + \\frac{x + 4}{2} = -2$\n(d) $\\frac{x - 2}{3} + \\frac{2x + 1}{12} = 2$\n(e) $\\frac{4x - 3}{5} + \\frac{x + 2}{3} = -\\frac{1}{4}$\n(f) $\\frac{x - 4}{3} + \\frac{2x - 3}{8} = \\frac{5}{6}$",
-      "source_images": ["image517.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "5. Solve for $x$:\n\n(a) $\\frac{x + 1}{2} - \\frac{2x}{5} = 4$\n(b) $\\frac{3x - 2}{3} - \\frac{x - 1}{2} = \\frac{1}{2}$\n(c) $\\frac{4x}{5} - \\frac{x - 2}{2} = -3$\n(d) $\\frac{2x - 1}{4} - \\frac{x + 2}{3} = -\\frac{1}{3}$\n(e) $\\frac{4x + 1}{2} - \\frac{2x - 3}{6} = 1$\n(f) $\\frac{x - 5}{6} - \\frac{x + 1}{4} = -2$",
-      "source_images": ["image518.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "EXERCISE 6G\n\n1. Solve for $x$:\n\n(a) $\\frac{2}{x} = \\frac{1}{5}$\n(b) $\\frac{8}{x} = \\frac{2}{3}$\n(c) $\\frac{4}{7} = \\frac{2}{x}$\n(d) $\\frac{3}{5} = \\frac{1}{x}$\n(e) $\\frac{1}{3x} = \\frac{3}{4}$\n(f) $\\frac{4}{3x} = 2$\n(g) $\\frac{7}{2x} = -4$\n(h) $-5 = \\frac{3}{7x}$\n\n2. Solve for $x$:\n\n(a) $\\frac{2x + 1}{4x} = -3$\n(b) $\\frac{3x + 5}{x + 4} = 2$\n(c) $\\frac{6x + 1}{x - 3} = 2$\n(d) $\\frac{-9}{2x + 1} = 3$\n(e) $\\frac{3x - 1}{x + 4} = 3$\n(f) $\\frac{4x + 1}{x + 5} = -3$",
-      "source_images": ["image519.png"]
-    },
-    {
-      "type": "definition",
-      "content_latex": "A power equation is an equation which can be written in the form $x^n = k$, $n \\neq 0$.",
-      "source_images": ["image520.png"]
-    },
-    {
-      "type": "concept",
-      "content_latex": "For example, $x^3 = 5$ and $2x^4 = 20$ are power equations.",
-      "source_images": ["image521.png"]
-    },
-    {
-      "type": "concept",
-      "content_latex": "• If $x^n = k$ where $n$ is even, then\n  $x = \\pm\\sqrt[n]{k}$ if $k > 0$\n  $x = 0$ if $k = 0$\n  there are no real solutions if $k < 0$.\n\n• If $x^n = k$ where $n$ is odd, then $x = \\sqrt[n]{k}$.\n\n$\\sqrt[n]{k}$ is the $n$th root of $k$.",
-      "source_images": ["image522.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "Example 3\n\nSolve for $x$:\n\n(a) $x^3 = -27$\n(b) $x^4 + 5 = 15$\n(c) $(x - 2)^5 = 11$\n\nSolutions:\n\n(a) $x^3 = -27$\n$\\therefore x = \\sqrt[3]{-27}$\n$\\therefore x = -3$\n\n(b) $x^4 + 5 = 15$\n$\\therefore x^4 = 10$\n$\\therefore x = \\pm\\sqrt[4]{10}$\n\n(c) $(x - 2)^5 = 11$\n$\\therefore x - 2 = \\sqrt[5]{11}$\n$\\therefore x = 2 + \\sqrt[5]{11}$",
-      "source_images": ["image523.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "Example 4\n\nSolve for $x$:\n\n(a) $x^{-5} = -\\frac{1}{32}$\n(b) $x^{-4} = 256$\n\nSolutions:\n\n(a) $x^{-5} = -\\frac{1}{32}$\n$\\therefore x^5 = -32$\n$\\therefore x = \\sqrt[5]{-32}$\n$\\therefore x = -2$\n\n(b) $x^{-4} = 256$\n$\\therefore x^4 = \\frac{1}{256}$\n$\\therefore x = \\pm\\sqrt[4]{\\frac{1}{256}}$\n$\\therefore x = \\pm\\frac{1}{4}$",
-      "source_images": ["image524.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "EXERCISE 4B\n\n1. Solve for $x$:\n\n(a) $x^3 = 27$\n(b) $x^4 = 16$\n(c) $x^6 = -10$\n(d) $x^5 = -13$\n(e) $x^3 + 8 = 0$\n(f) $2x^3 = 14$\n(g) $5x^4 = 30$\n(h) $x^3 = \\frac{8}{27}$\n(i) $x^4 = \\frac{1}{16}$\n(j) $3x^5 = 1$\n(k) $4x^3 + 5 = -19$\n(l) $2x^4 - 55 = 107$\n\n2. Solve for $x$:\n\n(a) $(x - 1)^3 = 17$\n(b) $(x + 3)^5 = -1$\n(c) $(x - 2)^4 = 20$\n(d) $(x + 5)^4 = -16$\n(e) $2(x + 4)^5 = -24$\n(f) $3(x - 3)^4 = 15$\n(g) $(3x - 1)^6 = 1$\n(h) $(2x - 3)^4 = 15$\n(i) $\\frac{1}{4}(1 - x)^5 = 8$\n\n3. Find the zeros of:\n\n(a) $3x^3 - 24$\n(b) $(x - 1)^4 - 11$\n(c) $(2x + 3)^5 + 1$",
-      "source_images": ["image525.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "4. Solve for $x$:\n\n(a) $x^{-1} = \\frac{1}{6}$\n(b) $x^{-2} = \\frac{1}{9}$\n(c) $x^{-3} = -\\frac{1}{27}$\n(d) $x^{-2} = 49$\n(e) $x^{-4} = \\frac{1}{16}$\n(f) $x^{-3} = -64$\n(g) $(x - 3)^{-2} = 25$\n(h) $(x + 1)^{-2} = -4$\n(i) $(2x - 5)^{-3} = \\frac{1}{5}$",
-      "source_images": ["image526.png"]
-    },
-    {
-      "type": "concept",
-      "content_latex": "An equation is written in factored form if one side of the equation is fully factorised and the other side is zero.\n\nFor example, $ab = 0$, $x(x + 1) = 0$, $(x + 2)(x - 3) = 0$ are all written in factored form.\n\nIf an equation is written in factored form, we can apply the null factor law:\n\nIf the product of two (or more) numbers is zero then at least one of them must be zero.\nSo, if $ab = 0$ then $a = 0$ or $b = 0$.",
-      "source_images": ["image527.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "Example 5\n\nSolve for $x$ using the null factor law:\n\n(a) $3x(x - 5) = 0$\n(b) $(x - 4)(3x + 7) = 0$\n\nSolutions:\n\n(a) $3x(x - 5) = 0$\n$\\therefore 3x = 0$ or $x - 5 = 0$\n$\\therefore x = 0$ or $5$\n\n(b) $(x - 4)(3x + 7) = 0$\n$\\therefore x - 4 = 0$ or $3x + 7 = 0$\n$\\therefore x = 4$ or $3x = -7$\n$\\therefore x = 4$ or $-\\frac{7}{3}$",
-      "source_images": ["image528.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "EXERCISE 4C\n\n1. Solve using the null factor law:\n\n(a) $3x = 0$\n(b) $a \\times 8 = 0$\n(c) $-7y = 0$\n(d) $ab = 0$\n(e) $2xy = 0$\n(f) $a^2 = 0$\n(g) $xyz = 0$\n(h) $2abc = 0$\n\n2. Solve for $x$ using the null factor law:\n\n(a) $x(x - 5) = 0$\n(b) $2x(x + 3) = 0$\n(c) $(x + 1)(x - 3) = 0$\n(d) $(x - 4)(x + 7) = 0$\n(e) $3x(7 - x) = 0$\n(f) $-2x(x + 1) = 0$\n(g) $4(x + 6)(2x - 3) = 0$\n(h) $(2x + 1)(2x - 1) = 0$\n(i) $11(x + 2)(x - 7) = 0$\n(j) $-6(x - 5)(3x + 2) = 0$\n(k) $x^2(x + 5) = 0$\n(l) $4(5 - x)^2 = 0$\n(m) $-3(3x - 1)^2 = 0$\n(n) $x(x + 1)(x - 2) = 0$\n(o) $(x - 1)(x + 2)(x - 3) = 0$\n(p) $3(x + 2)(x + 4)(2x - 1) = 0$\n\n3. Solve, if possible, using the null factor law:\n\n(a) $\\frac{a}{b} = 0$\n(b) $\\frac{3xy}{z} = 0$\n(c) $\\frac{2}{xy} = 0$\n(d) $-\\frac{x}{2y} = 0$",
-      "source_images": ["image529.png"]
-    },
-    {
-      "type": "concept",
-      "content_latex": "To factorise the quadratic, the following summary may prove useful:\n\nExpression\n↓\nTake out any common factors\n↓\nRecognise type\n\nDifference of two squares: $x^2 - a^2 = (x + a)(x - a)$\n\nPerfect square:\n$x^2 + 2ax + a^2 = (x + a)^2$\n$x^2 - 2ax + a^2 = (x - a)^2$\n\nSplitting the $x$-term: $ax^2 + bx + c$, $a \\neq 0$\n• find $ac$\n• find the factors of $ac$ which add to $b$\n• if these factors are $p$ and $q$, replace $bx$ by $px + qx$\n• complete the factorisation\n\nSum and product type: $x^2 + bx + c$\n$x^2 + bx + c = (x + p)(x + q)$\nwhere $p + q = b$ and $pq = c$",
-      "source_images": ["image530.png"]
-    },
-    {
-      "type": "definition",
-      "content_latex": "A quadratic equation is an equation which can be written in the form $ax^2 + bx + c = 0$ where $a$, $b$, and $c$ are constants, $a \\neq 0$.",
-      "source_images": ["image531.png"]
-    },
-    {
-      "type": "concept",
-      "content_latex": "We have seen that a linear equation such as $2x + 3 = 11$ will usually have one solution.\nIn contrast, a quadratic equation may have two, one, or zero solutions.\n\nHere are some quadratic equations which show the truth of this statement:\n\n| Equation | $ax^2 + bx + c = 0$ form | Solutions | Number of solutions |\n|----------|--------------------------|-----------|---------------------|\n| $(x + 2)(x - 2) = 0$ | $x^2 + 0x - 4 = 0$ | $x = 2$ or $x = -2$ | two |\n| $(x - 2)^2 = 0$ | $x^2 - 4x + 4 = 0$ | $x = 2$ | one |\n| $x^2 = -4$ | $x^2 + 0x + 4 = 0$ | none as $x^2$ is always $\\geq 0$ | zero |",
-      "source_images": ["image532.png"]
-    },
-    {
-      "type": "concept",
-      "content_latex": "METHODS FOR SOLVING QUADRATIC EQUATIONS\n\nTo solve quadratic equations we have the following methods to choose from:\n\n• rewrite the quadratic into factored form then use the null factor law\n• rewrite the quadratic into completed square form then solve $(x - h)^2 = k$\n• use the quadratic formula\n• use technology.",
-      "source_images": ["image533.png"]
-    },
-    {
-      "type": "concept",
-      "content_latex": "SOLVING BY FACTORISATION\n\nStep 1: If necessary, rearrange the equation so one side is zero.\nStep 2: Fully factorise the other side.\nStep 3: Use the null factor law: If $ab = 0$ then $a = 0$ or $b = 0$.\nStep 4: Solve the resulting linear equations.",
-      "source_images": ["image534.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "Example 6\n\nSolve for $x$:\n\n(a) $3x^2 + 5x = 0$\n(b) $x^2 = 5x + 6$\n\nSolutions:\n\n(a) $3x^2 + 5x = 0$\n$\\therefore x(3x + 5) = 0$\n$\\therefore x = 0$ or $3x + 5 = 0$\n$\\therefore x = 0$ or $x = -\\frac{5}{3}$\n\n(b) $x^2 = 5x + 6$\n$\\therefore x^2 - 5x - 6 = 0$\n$\\therefore (x - 6)(x + 1) = 0$\n$\\therefore x = 6$ or $-1$",
-      "source_images": ["image535.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "Example 7\n\nSolve for $x$:\n\n(a) $4x^2 + 1 = 4x$\n(b) $6x^2 = 11x + 10$\n\nSolutions:\n\n(a) $4x^2 + 1 = 4x$\n$\\therefore 4x^2 - 4x + 1 = 0$\n$\\therefore (2x - 1)^2 = 0$\n$\\therefore x = \\frac{1}{2}$\n\n(b) $6x^2 = 11x + 10$\n$\\therefore 6x^2 - 11x - 10 = 0$\n$\\therefore (2x - 5)(3x + 2) = 0$\n$\\therefore x = \\frac{5}{2}$ or $-\\frac{2}{3}$",
-      "source_images": ["image536.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "Example 8\n\nSolve for $x$: $3x + \\frac{2}{x} = -7$\n\nSolution:\n\n$3x + \\frac{2}{x} = -7$\n$\\therefore 3x^2 + 2 = -7x$ {multiplying both sides by $x$}\n$\\therefore 3x^2 + 7x + 2 = 0$ {making the RHS $= 0$}\n$\\therefore (x + 2)(3x + 1) = 0$ {factorising}\n$\\therefore x = -2$ or $-\\frac{1}{3}$",
-      "source_images": ["image537.png"]
-    },
-    {
-      "type": "concept",
-      "content_latex": "If $x^2 = k$ then\n$x = \\pm\\sqrt{k}$ if $k > 0$\n$x = 0$ if $k = 0$\nthere are no real solutions if $k < 0$.",
-      "source_images": ["image538.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "EXERCISE 4D.1\n\n1. Solve for $x$:\n\n(a) $4x^2 + 7x = 0$\n(b) $6x^2 + 2x = 0$\n(c) $3x^2 - 7x = 0$\n(d) $2x^2 - 11x = 0$\n(e) $3x^2 = 8x$\n(f) $9x = 6x^2$\n(g) $9 + x^2 = 6x$\n(h) $x^2 + x = 12$\n(i) $x^2 + 8x = 33$\n\n2. Solve for $x$:\n\n(a) $x^2 - 5x + 6 = 0$\n(b) $x^2 - 2x + 1 = 0$\n(c) $x^2 + 2x - 8 = 0$\n(d) $x^2 + 7x + 12 = 0$\n(e) $x^2 = 2x + 8$\n(f) $x^2 + 21 = 10x$",
+      "content_latex": "EXERCISE 4D.1\n\n1. Solve for $x$:\n\n(a) $4x^2 + 7x = 0$\n\n(b) $6x^2 + 2x = 0$\n\n(c) $3x^2 - 7x = 0$\n\n(d) $2x^2 - 11x = 0$\n\n(e) $3x^2 = 8x$\n\n(f) $9x = 6x^2$\n\n2. Solve for $x$:\n\n(a) $x^2 - 5x + 6 = 0$\n\n(b) $x^2 - 2x + 1 = 0$\n\n(c) $x^2 + 2x - 8 = 0$\n\n(d) $x^2 + 7x + 12 = 0$\n\n(e) $x^2 = 2x + 8$\n\n(f) $x^2 + 21 = 10x$\n\n(g) $9 + x^2 = 6x$\n\n(h) $x^2 + x = 12$\n\n(i) $x^2 + 8x = 33$",
       "source_images": ["image539.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "3. Solve for $x$:\n\n(a) $9x^2 - 12x + 4 = 0$\n(b) $2x^2 - 13x - 7 = 0$\n(c) $3x^2 = 16x + 12$\n(d) $3x^2 + 5x = 2$\n(e) $2x^2 + 3 = 5x$\n(f) $3x^2 + 8x + 4 = 0$\n(g) $3x^2 = 10x + 8$\n(h) $4x^2 + 4x = 3$\n(i) $4x^2 = 11x + 3$\n(j) $12x^2 = 11x + 15$\n(k) $7x^2 + 6x = 1$\n(l) $15x^2 + 2x = 56$",
+      "content_latex": "3. Solve for $x$:\n\n(a) $9x^2 - 12x + 4 = 0$\n\n(b) $2x^2 - 13x - 7 = 0$\n\n(c) $3x^2 = 16x + 12$\n\n(d) $3x^2 + 5x = 2$\n\n(e) $2x^2 + 3 = 5x$\n\n(f) $3x^2 + 8x + 4 = 0$\n\n(g) $3x^2 = 10x + 8$\n\n(h) $4x^2 + 4x = 3$\n\n(i) $4x^2 = 11x + 3$\n\n(j) $12x^2 = 11x + 15$\n\n(k) $7x^2 + 6x = 1$\n\n(l) $15x^2 + 2x = 56$",
       "source_images": ["image540.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "4. Solve for $x$:\n\n(a) $(x + 1)^2 = 2x^2 - 5x + 11$\n(b) $(x + 2)(1 - x) = -4$\n(c) $5 - 4x^2 = 3(2x + 1) + 2$\n(d) $x + \\frac{2}{x} = 3$\n(e) $2x - \\frac{1}{x} = -1$\n(f) $\\frac{x + 3}{1 - x} = -\\frac{9}{x}$\n(g) $(x + 3)(2 - x) = 4$\n(h) $(x - 4)(x + 2) = 16$\n(i) $(x - 5)(x + 3) = 20$\n(j) $(4x - 5)(4x - 3) = 143$",
+      "content_latex": "4. Solve for $x$:\n\n(a) $(x + 1)^2 = 2x^2 - 5x + 11$\n\n(b) $(x + 2)(1 - x) = -4$\n\n(c) $5 - 4x^2 = 3(2x + 1) + 2$\n\n(d) $x + \\frac{2}{x} = 3$\n\n(e) $2x - \\frac{1}{x} = -1$\n\n(f) $\\frac{x + 3}{1 - x} = -\\frac{9}{x}$\n\n(g) $(x + 3)(2 - x) = 4$\n\n(h) $(x - 4)(x + 2) = 16$\n\n(i) $(x - 5)(x + 3) = 20$\n\n(j) $(4x - 5)(4x - 3) = 143$",
       "source_images": ["image541.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11A\n\n1. Solve for $x$:\n\n(a) $x^2 - 10 = 90$\n\n(b) $2x^2 = 50$\n\n(c) $5x^2 = 20$\n\n(d) $6x^2 = 54$\n\n(e) $5x^2 = -45$\n\n(f) $7x^2 = 0$\n\n(g) $3x^2 - 2 = 25$\n\n(h) $4 - 2x^2 = 12$\n\n(i) $4x^2 + 2 = 10$\n\n2. Solve for $x$:\n\n(a) $(x - 1)^2 = 9$\n\n(b) $(x + 4)^2 = 16$\n\n(c) $(x + 2)^2 = -1$\n\n(d) $(x - 4)^2 = 5$\n\n(e) $(x - 6)^2 = -4$\n\n(f) $(x + 2)^2 = 0$\n\n(g) $(2x - 5)^2 = 0$\n\n(h) $(3x + 2)^2 = 4$\n\n(i) $(3x + 1)^2 = 81$\n\n(j) $(2x + 1)^2 = 48$\n\n(k) $(3 - 2x)^2 = 7$\n\n(l) $\\frac{1}{3}(2x + 3)^2 = 2$",
+      "source_images": ["image542.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Solve for $x$ by first eliminating the algebraic fractions:\n\n(a) $\\frac{x}{4} = \\frac{1}{x}$\n\n(b) $\\frac{5}{x} = \\frac{x}{2}$\n\n(c) $\\frac{x}{8} = \\frac{2}{x}$\n\n4. Solve for $x$:\n\n(a) $(x + 1)^2 = (3 - x)^2$\n\n(b) $(2x - 1)^2 = (2 - 3x)^2$",
+      "source_images": ["image543.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11B\n\n1. Solve for $x$:\n\n(a) $x^2 - 7x = 0$\n\n(b) $x^2 - 5x = 0$\n\n(c) $x^2 = 8x$\n\n(d) $x^2 = 4x$\n\n(e) $3x^2 + 6x = 0$\n\n(f) $2x^2 + 5x = 0$\n\n(g) $4x^2 - 3x = 0$\n\n(h) $4x^2 = 5x$\n\n(i) $3x^2 = 9x$\n\n2. Solve for $x$:\n\n(a) $x^2 + 3x + 2 = 0$\n\n(b) $x^2 - 3x + 2 = 0$\n\n(c) $x^2 - 10x + 25 = 0$\n\n(d) $x^2 + 5x + 6 = 0$\n\n(e) $x^2 + 6 = 5x$\n\n(f) $x^2 + 7x = -6$\n\n(g) $x^2 + 14 = -9x$\n\n(h) $x^2 + 11x = -30$\n\n(i) $x^2 = 15 - 2x$\n\n(j) $x^2 + 4x = 12$\n\n(k) $x^2 = 11x - 24$\n\n(l) $x^2 = 14x - 49$\n\n3. Solve for $x$:\n\n(a) $2x^2 + 18x + 36 = 0$\n\n(b) $-x^2 - 11x - 28 = 0$\n\n(c) $3x^2 + 6x = 24$\n\n(d) $2x^2 + 2x = 24$\n\n(e) $4x^2 + 24 = 20x$\n\n(f) $5x^2 + 20 = 20x$\n\n(g) $3x^2 = 3x + 18$\n\n(h) $-x^2 = 7x - 60$\n\n(i) $140 + 6x = 2x^2$\n\n(j) $2x^2 - 5x + 2 = 0$\n\n(k) $3x^2 + 8x - 3 = 0$\n\n(l) $3x^2 + 17x + 20 = 0$\n\n(m) $2x^2 + 5x = 3$\n\n(n) $2x^2 + 5 = 11x$\n\n(o) $2x^2 + 7x + 5 = 0$",
+      "source_images": ["image544.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Solve for $x$:\n\n(a) $3x^2 + 13x + 4 = 0$\n\n(b) $5x^2 - 6 = 13x$\n\n(c) $2x^2 + 17x = 9$\n\n(d) $2x^2 = 3x + 5$\n\n(e) $3x^2 = 8 - 2x$\n\n(f) $2x^2 = 18 - 9x$\n\n(g) $-6x^2 + 17x + 3 = 0$\n\n(h) $-2x^2 - 5x + 12 = 0$\n\n(i) $12x^2 - 22x + 6 = 0$\n\n(j) $9x^2 + 6x - 48 = 0$\n\n(k) $28x^2 - 8 = 2x$\n\n(l) $36x^2 + 39x = 12$\n\n5. Solve for $x$:\n\n(a) $x(x + 5) + 2(x + 6) = 0$\n\n(b) $x(1 + x) + x = 3$\n\n(c) $(x - 1)(x + 9) = 8x$\n\n(d) $3x(x + 2) - 5(x - 3) = 17$\n\n(e) $4x(x + 1) = -1$\n\n(f) $2x(x - 6) = x - 20$\n\n(g) $x(8 - x) + 20 = -13$\n\n(h) $(8x + 1)(x - 2) = 13 - x$",
+      "source_images": ["image545.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 6\n\nSolve for $x$: $\\frac{x - 2}{x} = \\frac{6 + x}{2}$\n\n$\\frac{x - 2}{x} = \\frac{6 + x}{2}$ {LCD $= 2x$}\n\n$\\therefore \\frac{2 \\times (x - 2)}{2 \\times x} = \\frac{x \\times (6 + x)}{x \\times 2}$ {to achieve a common denominator}\n\n$\\therefore 2(x - 2) = x(6 + x)$ {equating numerators}\n\n$\\therefore 2x - 4 = 6x + x^2$\n\n$\\therefore x^2 + 4x + 4 = 0$\n\n$\\therefore (x + 2)^2 = 0$\n\n$\\therefore x + 2 = 0$\n\n$\\therefore x = -2$\n\nCheck: If $x = -2$ then\n\nLHS $= \\frac{(-2) - 2}{(-2)} = \\frac{-4}{-2} = 2$\n\nand RHS $= \\frac{6 + (-2)}{2} = \\frac{4}{2} = 2$ $\\checkmark$",
+      "source_images": ["image546.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. Solve for $x$:\n\n(a) $\\frac{x + 1}{4} = \\frac{1}{2x}$\n\n(b) $\\frac{x + 4}{2} = \\frac{6}{x}$\n\n(c) $\\frac{x + 2}{x} = x$\n\n(d) $\\frac{x - 1}{x + 2} = \\frac{2}{x}$\n\n(e) $\\frac{x}{1 + 2x} = \\frac{1}{3x}$\n\n(f) $\\frac{3x + 1}{2x} = x + 2$",
+      "source_images": ["image547.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. Solve for $x$:\n\n(a) $\\frac{2}{x} + \\frac{3}{x + 2} = 1$\n\n(b) $\\frac{5}{x} + \\frac{x}{x - 6} = 2$\n\n(c) $\\frac{4}{x + 1} + \\frac{3}{x + 3} = -1$\n\n(d) $\\frac{5}{x + 2} - \\frac{6}{x - 1} = -2$\n\n(e) $\\frac{4}{x - 2} + \\frac{3}{x - 1} = 3$\n\n(f) $\\frac{x}{x - 2} - \\frac{x + 3}{x} = -5$\n\n(g) $\\frac{1}{x + 3} + \\frac{1}{x - 3} = x$\n\n(h) $\\frac{4}{x + 2} - \\frac{2}{x + 1} = x$\n\n8. Solve for $x$:\n\n(a) $x^4 - 5x^2 + 4 = 0$\n\n(b) $x^4 - 7x^2 + 12 = 0$\n\n(c) $x^4 = 4x^2 + 5$\n\nHint: Treat these as quadratics in the variable $x^2$.\n\n9. Solve for $x$:\n\n(a) $x^3 - 10x^2 = 39x$\n\n(b) $3x^4 - 24x^3 + 48x^2 = 0$\n\n(c) $2x^6 + 88x^2 = 30x^4$\n\n10. Solve for $x$:\n\n(a) $\\sqrt{x + 2} = x$\n\n(b) $\\sqrt{x + 13} - \\sqrt{7 - x} = 2$",
+      "source_images": ["image548.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 16A\n\n1. Solve for $x$:\n\n(a) $x^2 = 16$\n\n(b) $2x^2 = 18$\n\n(c) $3x^2 = 27$\n\n(d) $12x^2 = 72$\n\n(e) $3x^2 = -12$\n\n(f) $4x^2 = 0$\n\n(g) $2x^2 + 1 = 19$\n\n(h) $1 - 3x^2 = 10$\n\n(i) $2x^2 + 7 = 13$\n\n2. Solve for $x$:\n\n(a) $(x - 2)^2 = 9$\n\n(b) $(x + 4)^2 = 25$\n\n(c) $(x + 3)^2 = -1$\n\n(d) $(x - 4)^2 = 2$\n\n(e) $(x + 3)^2 = -7$\n\n(f) $(x - 2)^2 = 0$\n\n(g) $(2x + 5)^2 = 0$\n\n(h) $(3x - 2)^2 = 4$\n\n(i) $4(2x - 1)^2 = 8$",
+      "source_images": ["image549.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 16B\n\n1. What can be deduced from the following equations using the Null Factor law?\n\n(a) $2a = 0$\n\n(b) $3y = 0$\n\n(c) $-4p = 0$\n\n(d) $pq = 0$\n\n(e) $2xy = 0$\n\n(f) $-3mn = 0$\n\n(g) $\\frac{ac}{3} = 0$\n\n(h) $wx^2 = 0$\n\n(i) $a(b - c) = 0$\n\n(j) $c(d + e) = 0$\n\n(k) $abc = 0$\n\n(l) $wxyz = 0$",
+      "source_images": ["image550.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Solve for $x$ using the Null Factor law:\n\n(a) $x(x + 3) = 0$\n\n(b) $2x(x - 5) = 0$\n\n(c) $(x - 1)(x - 3) = 0$\n\n(d) $4x(2 - x) = 0$\n\n(e) $-3x(2x + 1) = 0$\n\n(f) $5(x + 2)(2x - 1) = 0$\n\n(g) $(2x + 3)(2x + 1) = 0$\n\n(h) $11(x + 2)(x - 7) = 0$\n\n(i) $-6(x - 5)(3x + 2) = 0$\n\n(j) $2(x - 3)^2 = 0$\n\n(k) $-4(2x + 1)^2 = 0$\n\n(l) $x^2 = 0$\n\n(m) $2x(3x - 5) = 0$\n\n(n) $-3x(6 - 5x) = 0$\n\n(o) $5x(1 + 2x) = 0$\n\n(p) $8(3x + 1)^2 = 0$\n\n(q) $-5(3 - 4x) = 0$\n\n(r) $-6x(4 - 3x) = 0$",
+      "source_images": ["image551.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 16C\n\n1. Solve for $x$:\n\n(a) $4x^2 + 12x = 0$\n\n(b) $3x^2 + 9x = 0$\n\n(c) $4x^2 = 16x$\n\n(d) $3x^2 = 21x$\n\n(e) $2x^2 + 7x = 0$\n\n(f) $2x^2 = 18x$\n\n(g) $3x^2 = 7x$\n\n(h) $4x^2 = 9x$\n\n(i) $0 = 3x^2 + 8x$\n\n2. Solve for $x$:\n\n(a) $x^2 + 6x + 8 = 0$\n\n(b) $x^2 + 11x + 24 = 0$\n\n(c) $x^2 + 4x + 4 = 0$\n\n(d) $x^2 + 2x = 15$\n\n(e) $x^2 + 2x = 48$\n\n(f) $x^2 + 25 = 10x$\n\n(g) $x^2 = 2x + 15$\n\n(h) $x^2 = 5x + 14$\n\n(i) $x^2 = 7x - 12$\n\n(j) $x^2 + 60 = 17x$\n\n(k) $x^2 = 9x + 22$\n\n(l) $x^2 = 3x + 18$",
+      "source_images": ["image552.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Solve for $x$:\n\n(a) $2x^2 + 11x + 5 = 0$\n\n(b) $5x^2 + 21x + 4 = 0$\n\n(c) $3x^2 = 11x + 4$\n\n(d) $3x^2 + 10x = 8$\n\n(e) $2x^2 = 13x + 7$\n\n(f) $7x^2 = 11x + 6$\n\n(g) $3x^2 + 10 = 17x$\n\n(h) $2x^2 + 20 = 13x$\n\n(i) $3x^2 + x = 10$\n\n(j) $2x^2 = 13x + 15$\n\n(k) $15x^2 + 6 = 23x$\n\n(l) $8x^2 = 10x + 3$\n\n(m) $2x^2 + 5x = 12$\n\n(n) $3x^2 + 2x = 16$\n\n(o) $10x^2 + 5 = 27x$\n\n4. Solve for $x$:\n\n(a) $6x^2 + 11x + 3 = 0$\n\n(b) $6x^2 = 17x + 3$\n\n(c) $6x^2 + x = 2$\n\n(d) $10x^2 + 21x = 10$\n\n(e) $12x^2 + 13x + 3 = 0$\n\n(f) $6x^2 = 17x + 14$\n\n(g) $14x^2 + 15x + 4 = 0$\n\n(h) $6x^2 + 13x + 6 = 0$\n\n(i) $12x^2 + 13x = 4$\n\n(j) $25x^2 + 10x = 8$\n\n(k) $15x^2 + 6 = 23x$\n\n(l) $8x^2 = 10x + 3$\n\n5. Solve for $x$ by first expanding brackets and then making one side of the equation zero:\n\n(a) $x(x + 2) + 3(x - 1) = 11$\n\n(b) $x(3 + x) + 3 = 31$\n\n(c) $(x + 2)(x - 7) = 8x$\n\n(d) $2x(x - 1) - 3(x + 2) = -3$\n\n(e) $3x(x + 2) = 9$\n\n(f) $3x(x + 4) = x - 10$\n\n6. Solve for $x$ by first eliminating the algebraic fractions:\n\n(a) $\\frac{x}{4} = \\frac{1}{x}$\n\n(b) $\\frac{5}{x} = \\frac{x}{2}$\n\n(c) $\\frac{x}{8} = \\frac{2}{x}$\n\n(d) $\\frac{x + 1}{4} = \\frac{1}{2x}$\n\n(e) $\\frac{x + 4}{2} = \\frac{6}{x}$\n\n(f) $\\frac{x + 2}{x} = x$\n\n(g) $\\frac{x - 1}{x + 2} = \\frac{2}{x}$\n\n(h) $\\frac{x}{1 + 2x} = \\frac{1}{3x}$\n\n(i) $\\frac{3x + 1}{2x} = x + 2$",
+      "source_images": ["image553.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 19A\n\n1. Explain what can be deduced from:\n\n(a) $ac = 0$\n\n(b) $bd = 0$\n\n(c) $abc = 0$\n\n(d) $3x = 0$\n\n(e) $x(x - 3) = 0$\n\n(f) $x^2 = 0$\n\n(g) $(x - 5)y = 0$\n\n(h) $x^2y = 0$",
+      "source_images": ["image554.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Solve for $x$:\n\n(a) $2x(x - 1) = 0$\n\n(b) $x(x + 5) = 0$\n\n(c) $3x(x + 2) = 0$\n\n(d) $(x - 1)^2 = 0$\n\n(e) $-x(x - 4) = 0$\n\n(f) $-2x(x + 3) = 0$\n\n(g) $x(2x + 1) = 0$\n\n(h) $3x(4x - 3) = 0$\n\n3. Solve for $x$:\n\n(a) $(x - 1)(x - 5) = 0$\n\n(b) $(x + 2)(x - 4) = 0$\n\n(c) $(x + 3)(x + 7) = 0$\n\n(d) $(x + 7)(x - 11) = 0$\n\n(e) $2x(x - 8) = 0$\n\n(f) $(x + 12)(x - 5) = 0$\n\n(g) $-3x(x + 7) = 0$\n\n(h) $(2x + 1)(x - 3) = 0$\n\n(i) $(x + 6)(3x - 1) = 0$\n\n(j) $(2x + 1)(x + 6) = 0$\n\n(k) $x(3x + 5) = 0$\n\n(l) $(x - 31)(x + 11) = 0$\n\n(m) $(x + 4)(4x - 1) = 0$\n\n(n) $-3x(x + 3) = 0$\n\n(o) $(2 - x)(3x + 4) = 0$",
+      "source_images": ["image555.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 19B\n\n1. Solve for $x$:\n\n(a) $x^2 - x = 0$\n\n(b) $x^2 - 13x = 0$\n\n(c) $x^2 + 8x = 0$\n\n(d) $x^2 + 3x = 0$\n\n(e) $2x + x^2 = 0$\n\n(f) $5x - x^2 = 0$\n\n(g) $12x - x^2 = 0$\n\n(h) $x^2 + 7x = 0$\n\n(i) $x^2 - 4x = 0$\n\n(j) $2x^2 - 7x = 0$\n\n(k) $3x^2 - 15x = 0$\n\n(l) $2x^2 + 8x = 0$",
+      "source_images": ["image556.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Solve for $x$:\n\n(a) $x^2 = 3x$\n\n(b) $x^2 = 10x$\n\n(c) $x^2 + x = 0$\n\n(d) $x^2 = -6x$\n\n(e) $2x^2 + 7x = 0$\n\n(f) $5x = x^2$\n\n(g) $8x = x^2$\n\n(h) $3x^2 = 18x$\n\n(i) $5x^2 = 6x$\n\n(j) $7x + x^2 = x$\n\n(k) $x^2 - 4 = 2x - 4$\n\n(l) $2x^2 + x = 3x$",
+      "source_images": ["image557.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "We can use $a^2 - b^2 = (a + b)(a - b)$ to convert the difference into a product.",
+      "source_images": ["image558.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 19C\n\n1. Solve for $x$:\n\n(a) $x^2 - 16 = 0$\n\n(b) $x^2 - 49 = 0$\n\n(c) $x^2 - 1 = 0$\n\n(d) $x^2 = 25$\n\n(e) $x^2 = 144$\n\n(f) $x^2 = 81$\n\n(g) $2x^2 - 8 = 0$\n\n(h) $3x^2 - 27 = 0$\n\n(i) $5x^2 - 20 = 0$\n\n(j) $-3x^2 + 12 = 0$\n\n(k) $-2x^2 + 8 = 0$\n\n(l) $x^2 + 4 = 0$\n\n2. Solve for $x$:\n\n(a) $2 - 8x^2 = 0$\n\n(b) $1 - 9x^2 = 0$\n\n(c) $4 - 25x^2 = 0$\n\n(d) $4x^2 - 1 = 0$\n\n(e) $4x^2 - 9 = 0$\n\n(f) $9x^2 - 4 = 0$\n\n(g) $3x^2 + 12 = 0$\n\n(h) $16x^2 - 25 = 0$",
+      "source_images": ["image559.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 19D\n\n1. Solve for $x$:\n\n(a) $x^2 + 7x + 10 = 0$\n\n(b) $x^2 + 6x + 8 = 0$\n\n(c) $x^2 + 11x + 10 = 0$\n\n(d) $x^2 - 8x + 12 = 0$\n\n(e) $x^2 - 5x + 4 = 0$\n\n(f) $x^2 - 11x + 24 = 0$\n\n(g) $x^2 + 10x + 25 = 0$\n\n(h) $x^2 - 3x - 18 = 0$\n\n(i) $x^2 + 7x - 18 = 0$\n\n(j) $x^2 - 22x + 121 = 0$\n\n(k) $x^2 - 6x + 9 = 0$\n\n(l) $x^2 - 5x - 6 = 0$\n\n(m) $x^2 + 11x - 60 = 0$\n\n(n) $x^2 + 18x - 63 = 0$\n\n(o) $x^2 - 12x - 64 = 0$",
+      "source_images": ["image560.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Solve for $x$:\n\n(a) $3x^2 + 21x + 30 = 0$\n\n(b) $2x^2 + 4x - 30 = 0$\n\n(c) $2x^2 - 24x + 72 = 0$\n\n(d) $3x^2 - 21x + 36 = 0$\n\n(e) $5x^2 - 5x - 210 = 0$\n\n(f) $4x^2 + 32x + 48 = 0$",
+      "source_images": ["image561.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Solve for $x$:\n\n(a) $x^2 - 14x = 15$\n\n(b) $x^2 + 2 = 3x$\n\n(c) $x^2 = 3x + 28$\n\n(d) $x^2 = 20 + x$\n\n(e) $8 = x^2 + 7x$\n\n(f) $x^2 = 5x + 24$\n\n(g) $2x^2 + 2x = 24$\n\n(h) $x^2 = 4x + 45$\n\n(i) $3x^2 = 30x - 48$\n\n(j) $x^2 + 1 = 2x$\n\n(k) $x^2 = 19x + 20$\n\n(l) $5x^2 = 20(x + 8)$\n\n4. Solve for $x$:\n\n(a) $x(x + 2) = 15$\n\n(b) $x(x - 2) = 5(x + 12)$\n\n(c) $2x - 6 = x(x - 5)$\n\n(d) $x^2 - 4 = x + 2$\n\n(e) $2(x + 5) = x^2 + 11$\n\n(f) $5 - x^2 = 2x - 3$",
+      "source_images": ["image562.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "SOLVING BY \"COMPLETING THE SQUARE\"",
+      "source_images": ["image563.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "As you would be aware by now, not all quadratics factorise easily.\n\nFor example, $x^2 + 4x + 1$ cannot be factorised by easily identifying factors. In particular, we cannot write $x^2 + 4x + 1$ in the form $(x - a)(x - b)$ where $a$ and $b$ are rational numbers.\n\nAn alternative method is to rewrite the equation in the form $(x - h)^2 = k$. We refer to this process as \"completing the square\".\n\nStart with the quadratic equation in the form $ax^2 + bx + c = 0$.\n\nStep 1: If $a \\neq 1$, divide both sides by $a$.\n\nStep 2: Rearrange the equation so that only the constant is on the RHS.\n\nStep 3: Add to both sides $\\left(\\frac{\\text{coefficient of } x}{2}\\right)^2$.\n\nStep 4: Factorise the LHS.\n\nStep 5: Use the rule: If $X^2 = k$ then $X = \\pm\\sqrt{k}$.",
+      "source_images": ["image564.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 9\n\nSolve exactly for $x$: $x^2 + 4x + 1 = 0$\n\n$x^2 + 4x + 1 = 0$\n\n$\\therefore x^2 + 4x = -1$ {writing the constant on the RHS}\n\n$\\therefore x^2 + 4x + 2^2 = -1 + 2^2$ {completing the square}\n\n$\\therefore (x + 2)^2 = 3$ {factorising the LHS}\n\n$\\therefore x + 2 = \\pm\\sqrt{3}$\n\n$\\therefore x = -2 \\pm \\sqrt{3}$",
+      "source_images": ["image565.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 10\n\nSolve exactly for $x$: $-3x^2 + 12x + 5 = 0$\n\n$-3x^2 + 12x + 5 = 0$\n\n$\\therefore x^2 - 4x - \\frac{5}{3} = 0$ {dividing both sides by $-3$}\n\n$\\therefore x^2 - 4x = \\frac{5}{3}$ {writing the constant on the RHS}\n\n$\\therefore x^2 - 4x + (-2)^2 = \\frac{5}{3} + (-2)^2$ {completing the square}\n\n$\\therefore (x - 2)^2 = \\frac{17}{3}$ {factorising the LHS}\n\n$\\therefore x - 2 = \\pm\\sqrt{\\frac{17}{3}}$\n\n$\\therefore x = 2 \\pm \\sqrt{\\frac{17}{3}}$",
+      "source_images": ["image566.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 16D\n\n1. What needs to be added to the following to create a perfect square?\n\n(a) $x^2 + 4x$\n\n(b) $x^2 - 4x$\n\n(c) $x^2 - 6x$\n\n(d) $x^2 + 10x$\n\n(e) $x^2 - 10x$\n\n(f) $x^2 + 16x$\n\n(g) $x^2 - 18x$\n\n(h) $x^2 - 36x$\n\n(i) $x^2 + 3x$\n\n(j) $x^2 - 3x$\n\n(k) $x^2 + 5x$\n\n(l) $x^2 - 5x$",
+      "source_images": ["image567.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Write the following in the form $(x + a)^2 = k$ or $(x - a)^2 = k$:\n\n(a) $x^2 + 2x = 2$\n\n(b) $x^2 - 2x = 4$\n\n(c) $x^2 + 6x = -4$\n\n(d) $x^2 - 6x = 7$\n\n(e) $x^2 + 10x = -23$\n\n(f) $x^2 + 8x = -13$\n\n(g) $x^2 + 6x = 2$\n\n(h) $x^2 + 12x = -1$\n\n(i) $x^2 - 12x = 5$\n\n3. (a) How many solutions does $(x + 3)^2 = 11$ have? What are they?\n\n(b) Explain why $(x + 3)^2 = -11$ has no solutions.\n\n4. If possible, solve for $x$ by completing the square. Leave your answers in simplest radical form.\n\n(a) $x^2 - 4x - 2 = 0$\n\n(b) $x^2 - 2x - 6 = 0$\n\n(c) $x^2 - 2x + 3 = 0$\n\n(d) $x^2 + 2x + 3 = 0$\n\n(e) $x^2 + 4x + 2 = 0$\n\n(f) $x^2 + 4x - 1 = 0$\n\n(g) $x^2 + 6x + 11 = 0$\n\n(h) $x^2 - 6x + 1 = 0$\n\n(i) $x^2 + 8x + 5 = 0$\n\n5. Solve by completing the square, leaving answers in simplest radical form:\n\n(a) $x^2 + 3x - 2 = 0$\n\n(b) $x^2 = 6x + 1$\n\n(c) $x^2 - 5x + 5 = 0$\n\n(d) $x^2 + x - 1 = 0$\n\n(e) $x^2 + 3x + 1 = 0$\n\n(f) $x^2 + 5x + 3 = 0$\n\n6. (a) To solve $2x^2 + 6x - 1 = 0$ by completing the square, our first step is to divide both sides by 2. Explain why this is so.\n\n(b) Use completing the square to solve:\n\n(i) $2x^2 + 8x + 1 = 0$\n\n(ii) $3x^2 - 9x + 11 = 0$\n\n(iii) $5x^2 + 10x + 1 = 0$",
+      "source_images": ["image568.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11C\n\n1. For each of the following equations:\n\n(i) Find what must be added to both sides of the equation to create a perfect square on the LHS.\n\n(ii) Write each equation in the form $(x + p)^2 = k$.\n\n(a) $x^2 + 2x = 5$\n\n(b) $x^2 - 2x = -7$\n\n(c) $x^2 + 6x = 2$\n\n(d) $x^2 - 6x = -3$\n\n(e) $x^2 + 10x = 1$\n\n(f) $x^2 - 8x = 5$\n\n(g) $x^2 + 12x = 13$\n\n(h) $x^2 + 5x = -2$\n\n(i) $x^2 - 7x = 4$\n\n2. Solve for $x$ by completing the square, leaving answers in simplest radical form:\n\n(a) $x^2 - 4x + 1 = 0$\n\n(b) $x^2 - 2x - 2 = 0$\n\n(c) $x^2 - 4x - 3 = 0$\n\n(d) $x^2 + 2x - 1 = 0$\n\n(e) $x^2 + 4x + 1 = 0$\n\n(f) $x^2 + 6x + 3 = 0$\n\n(g) $x^2 + 3x + 2 = 0$\n\n(h) $x^2 + 8x + 14 = 0$\n\n(i) $x^2 - 3x - 1 = 0$",
+      "source_images": ["image569.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. If possible, solve for $x$ by completing the square:\n\n(a) $x^2 + 2x + 4 = 0$\n\n(b) $x^2 - 5x + 6 = 0$\n\n(c) $x^2 - 6x + 11 = 0$\n\n(d) $x^2 + x - 1 = 0$\n\n(e) $x^2 + 5x - 2 = 0$\n\n(f) $x^2 - 7x + 13 = 0$",
+      "source_images": ["image570.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Solve by completing the square:\n\n(a) $2x^2 + 4x - 1 = 0$\n\n(b) $3x^2 - 12x + 7 = 0$\n\n(c) $5x^2 - 10x + 3 = 0$\n\n(d) $2x^2 + 12x - 5 = 0$\n\n(e) $2x^2 - 2x + 3 = 0$\n\n(f) $3x^2 + 3x - 1 = 0$\n\n5. (a) Solve by completing the square: $x^2 + bx + c = 0$\n\n(b) Under what conditions does the equation $x^2 + bx + c = 0$ have:\n\n(i) two real solutions\n\n(ii) one real solution\n\n(iii) no real solutions?",
+      "source_images": ["image571.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 4D.2\n\n1. Solve exactly by completing the square:\n\n(a) $x^2 - 4x + 1 = 0$\n\n(b) $x^2 + 6x + 2 = 0$\n\n(c) $x^2 - 14x + 46 = 0$\n\n(d) $x^2 = 4x + 3$\n\n(e) $x^2 + 6x + 7 = 0$\n\n(f) $x^2 = 2x + 6$\n\n(g) $x^2 + 6x = 2$\n\n(h) $x^2 + 10 = 8x$\n\n(i) $x^2 + 6x = -11$\n\n2. Solve exactly by completing the square:\n\n(a) $2x^2 + 4x + 1 = 0$\n\n(b) $2x^2 - 10x + 3 = 0$\n\n(c) $3x^2 + 12x + 5 = 0$\n\n(d) $3x^2 = 6x + 4$\n\n(e) $5x^2 - 15x + 2 = 0$\n\n(f) $4x^2 + 4x = 5$\n\n3. Solve for $x$:\n\n(a) $3x - \\frac{2}{x} = 4$\n\n(b) $1 - \\frac{1}{x} = -5x$\n\n(c) $3 + \\frac{1}{x^2} = -\\frac{5}{x}$",
+      "source_images": ["image572.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Suppose $ax^2 + bx + c = 0$ where $a$, $b$, and $c$ are constants, $a \\neq 0$.\n\nSolve for $x$ by completing the square.",
+      "source_images": ["image573.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "THE QUADRATIC FORMULA",
+      "source_images": ["image574.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "In many cases, factorising a quadratic or completing the square can be long or difficult. We can instead use the quadratic formula:\n\nIf $ax^2 + bx + c = 0$, $a \\neq 0$, then $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.",
+      "source_images": ["image575.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Proof:\n\nIf $ax^2 + bx + c = 0$, $a \\neq 0$\n\nthen $x^2 + \\frac{b}{a}x + \\frac{c}{a} = 0$ {dividing each term by $a$, as $a \\neq 0$}\n\n$\\therefore x^2 + \\frac{b}{a}x = -\\frac{c}{a}$\n\n$\\therefore x^2 + \\frac{b}{a}x + \\left(\\frac{b}{2a}\\right)^2 = -\\frac{c}{a} + \\left(\\frac{b}{2a}\\right)^2$ {completing the square}\n\n$\\therefore \\left(x + \\frac{b}{2a}\\right)^2 = \\frac{b^2 - 4ac}{4a^2}$ {factorising}\n\n$\\therefore x + \\frac{b}{2a} = \\pm\\sqrt{\\frac{b^2 - 4ac}{4a^2}}$\n\n$\\therefore x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$",
+      "source_images": ["image576.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "The quantity $b^2 - 4ac$ under the square root sign is called the discriminant.\n\nThe symbol delta $\\Delta$ is used to represent the discriminant, so $\\Delta = b^2 - 4ac$.\n\nThe quadratic formula becomes $x = \\frac{-b \\pm \\sqrt{\\Delta}}{2a}$ where $\\Delta$ replaces $b^2 - 4ac$.\n\n$\\Delta$ must be $\\geqslant 0$ for a quadratic equation to have real solutions.\n\nIf $\\Delta > 0$, the quadratic equation has two distinct real solutions.\n\nIf $\\Delta = 0$, the quadratic equation has one real solution, which is $x = -\\frac{b}{2a}$.",
+      "source_images": ["image577.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "If $\\Delta < 0$, $\\sqrt{\\Delta}$ is not a real number and so there are no real roots.",
+      "source_images": ["image578.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "If $a$, $b$, and $c$ are rational and $\\Delta$ is a square then the equation has two rational roots which can be found by factorisation.",
+      "source_images": ["image579.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 11\n\nSolve for $x$:\n\n(a) $x^2 - 2x - 6 = 0$\n\n(b) $2x^2 + 3x - 6 = 0$\n\n(a) $x^2 - 2x - 6 = 0$ has $a = 1$, $b = -2$, $c = -6$\n\n$\\therefore x = \\frac{-(-2) \\pm \\sqrt{(-2)^2 - 4(1)(-6)}}{2(1)}$\n\n$\\therefore x = \\frac{2 \\pm \\sqrt{28}}{2}$\n\n$\\therefore x = \\frac{2 \\pm 2\\sqrt{7}}{2} = 1 \\pm \\sqrt{7}$\n\n(b) $2x^2 + 3x - 6 = 0$ has $a = 2$, $b = 3$, $c = -6$\n\n$\\therefore x = \\frac{-3 \\pm \\sqrt{3^2 - 4(2)(-6)}}{2(2)}$\n\n$\\therefore x = \\frac{-3 \\pm \\sqrt{57}}{4}$",
+      "source_images": ["image580.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11D\n\n1. Solve the following equations using: (i) factorisation (ii) the quadratic formula.\n\n(a) $x^2 + 6x + 8 = 0$\n\n(b) $x^2 - 10x + 25 = 0$\n\n(c) $3x^2 - 7x - 6 = 0$\n\n2. Use the quadratic formula to solve for $x$:\n\n(a) $x^2 + x - 5 = 0$\n\n(b) $x^2 - 5x + 5 = 0$\n\n(c) $x^2 - 4x - 1 = 0$\n\n(d) $3x^2 + 5x - 1 = 0$\n\n(e) $-2x^2 + x + 7 = 0$\n\n(f) $5x^2 - 8x + 1 = 0$\n\n(g) $x^2 + 1 = 3x$\n\n(h) $2x^2 = 2x + 3$\n\n(i) $9x^2 = 6x + 1$\n\n(j) $7x^2 = 5x + 1$\n\n(k) $3x^2 + 2x = 2$\n\n(l) $25x^2 + 1 = 20x$\n\n3. Use the quadratic formula to solve for $x$:\n\n(a) $(x + 2)(x - 1) = 5$\n\n(b) $(x + 1)^2 = 3 - x^2$\n\n(c) $\\frac{x - 1}{x} = \\frac{x}{3}$\n\n(d) $x + \\frac{1}{x + 2} = 4$\n\n(e) $3x - \\frac{4}{x + 1} = 10$\n\n(f) $\\frac{x + 2}{x - 1} = \\frac{3x}{x + 1}$",
+      "source_images": ["image581.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. Use the quadratic formula to solve these quadratic equations:\n\n(a) $x^2 - 3x + 1 = 0$\n\n(b) $x^2 - 7x + 2 = 0$\n\n(c) $x^2 + 2x - 5 = 0$\n\n(d) $x^2 - 4x + 6 = 0$\n\n(e) $x^2 + 10x + 25 = 0$\n\n(f) $x^2 - 4x - 5 = 0$\n\n(g) $x^2 - 10x + 22 = 0$\n\n(h) $2x^2 - 4x - 7 = 0$\n\n(i) $x^2 + x + 2 = 0$\n\n(j) $4x^2 - 12x + 9 = 0$\n\n(k) $9x^2 - 12x + 11 = 0$\n\n(l) $5x^2 - 6x + 1 = 0$\n\n6. Use the quadratic formula to help solve:\n\n(a) $x + \\frac{1}{x} = 3$\n\n(b) $x + \\frac{2}{x} = 5$\n\n(c) $(2x - 1)^2 = x + 4$",
+      "source_images": ["image582.png", "image583.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 4D.3\n\n1. Use the quadratic formula to solve exactly for $x$:\n\n(a) $x^2 - 4x - 3 = 0$\n\n(b) $x^2 + 6x + 7 = 0$\n\n(c) $x^2 + 1 = 4x$\n\n(d) $x^2 + 4x = 1$\n\n(e) $x^2 - 4x + 2 = 0$\n\n(f) $2x^2 - 2x - 3 = 0$\n\n(g) $3x^2 - 5x - 1 = 0$\n\n(h) $-x^2 + 4x + 6 = 0$\n\n(i) $-2x^2 + 7x - 2 = 0$\n\n2. Rearrange the following equations so they are written in the form $ax^2 + bx + c = 0$, then use the quadratic formula to solve exactly for $x$.\n\n(a) $(x + 2)(x - 1) = 2 - 3x$\n\n(b) $(2x + 1)^2 = 3 - x$\n\n(c) $(x - 2)^2 = 1 + x$\n\n(d) $(3x + 1)^2 = -2x$\n\n(e) $(x + 3)(2x + 1) = 9$\n\n(f) $(2x + 3)(2x - 3) = x$\n\n(g) $\\frac{x - 1}{2 - x} = 2x + 1$\n\n(h) $x - \\frac{1}{x} = 1$\n\n(i) $2x - \\frac{1}{x} = 3$",
+      "source_images": ["image584.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 4D.4\n\n1. Consider the quadratic equation $x^2 - 7x + 9 = 0$.\n\n(a) Find the discriminant.\n\n(b) Hence state the nature of the roots of the equation.\n\n(c) Check your answer to (b) by solving the equation.\n\n2. Consider the quadratic equation $4x^2 - 4x + 1 = 0$.\n\n(a) Find the discriminant.\n\n(b) Hence state the nature of the roots of the equation.\n\n(c) Check your answer to (b) by solving the equation.\n\n3. (a) Without using the discriminant, explain why the equation $x^2 + 5 = 0$ has no real roots.\n\n(b) Check that $\\Delta < 0$ for this equation.\n\n4. Using the discriminant only, state the nature of the solutions of:\n\n(a) $x^2 + 7x - 3 = 0$\n\n(b) $x^2 - 3x + 2 = 0$\n\n(c) $3x^2 + 2x - 1 = 0$\n\n(d) $5x^2 + 4x - 3 = 0$\n\n(e) $x^2 + x + 5 = 0$\n\n(f) $16x^2 - 8x + 1 = 0$\n\n5. Using the discriminant only, determine which of the following quadratic equations have rational roots which can be found by factorisation.\n\n(a) $6x^2 - 5x - 6 = 0$\n\n(b) $2x^2 - 7x - 5 = 0$\n\n(c) $3x^2 + 4x + 1 = 0$\n\n(d) $6x^2 - 47x - 8 = 0$\n\n(e) $4x^2 - 3x + 2 = 0$\n\n(f) $8x^2 + 2x - 3 = 0$",
+      "source_images": ["image585.png", "image586.png", "image587.png", "image588.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 13\n\nConsider $x^2 - 2x + m = 0$. Find the discriminant $\\Delta$, and hence find the values of $m$ for which the equation has:\n\n(a) a repeated root\n\n(b) two distinct real roots\n\n(c) no real roots.\n\n$x^2 - 2x + m = 0$ has $a = 1$, $b = -2$, and $c = m$\n\n$\\therefore \\Delta = b^2 - 4ac$\n$= (-2)^2 - 4(1)(m)$\n$= 4 - 4m$\n\n(a) For a repeated root\n$\\Delta = 0$\n$\\therefore 4 - 4m = 0$\n$\\therefore 4 = 4m$\n$\\therefore m = 1$\n\n(b) For two distinct real roots\n$\\Delta > 0$\n$\\therefore 4 - 4m > 0$\n$\\therefore -4m > -4$\n$\\therefore m < 1$\n\n(c) For no real roots\n$\\Delta < 0$\n$\\therefore 4 - 4m < 0$\n$\\therefore -4m < -4$\n$\\therefore m > 1$",
+      "source_images": ["image589.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. For each of the following quadratic equations, find the discriminant $\\Delta$ in simplest form. Hence find the values of $m$ for which the equation has:\n\n(i) a repeated root\n\n(ii) two distinct real roots\n\n(iii) no real roots.\n\n(a) $x^2 + 4x + m = 0$\n\n(b) $mx^2 + 3x + 2 = 0$, $m \\neq 0$\n\n(c) $mx^2 - 3x + 1 = 0$, $m \\neq 0$",
+      "source_images": ["image590.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 4A\n\n1. Solve for $x$:\n\n(a) $2x^2 = 38$\n\n(b) $(x - 2)^2 = 25$\n\n(c) $3(x - \\sqrt{2})^2 = 6$\n\n2. Solve for $x$:\n\n(a) $x^4 = -9$\n\n(b) $x^3 = \\frac{1}{27}$\n\n(c) $(x - 1)^5 = 2$\n\n3. Solve for $x$ using the null factor law:\n\n(a) $x(x + 2) = 0$\n\n(b) $-(x + 3)(2x - 7) = 0$\n\n(c) $(x + 5)(x + 1)(x - 6) = 0$\n\n4. Solve for $x$:\n\n(a) $3x^2 - 5x = 0$\n\n(b) $x^2 - 4x - 5 = 0$\n\n(c) $x^2 + 6x + 9 = 0$\n\n5. Solve for $x$:\n\n(a) $(x + 3)^2 = 5x + 29$\n\n(b) $x(x - 4) - (x - 6) = 0$\n\n(c) $(1 - 2x)(4 - x) = 39$\n\n(d) $4x - 3 = x^2$\n\n(e) $3x^2 = 2 - 5x$\n\n(f) $2x^2 - 108 = 6x$\n\n6. Solve exactly by completing the square:\n\n(a) $x^2 - 6x + 4 = 0$\n\n(b) $x^2 - 2x - 1 = 0$\n\n(c) $2x^2 + 8x = 1$\n\n7. Use the quadratic formula to solve:\n\n(a) $x^2 - 7x + 2 = 0$\n\n(b) $-x^2 + 2x - 4 = 0$\n\n(c) $-3x^2 - x + 3 = 0$\n\n8. Write in the form $ax^2 + bx + c = 0$, and hence solve for $x$:\n\n(a) $x = \\frac{9}{x}$\n\n(b) $\\frac{1}{x} = \\frac{3}{x^2} - 2$\n\n(c) $3x - 1 = \\frac{2}{x}$",
+      "source_images": ["image591.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. Consider the quadratic equation $6x^2 - x - 2 = 0$.\n\n(a) Find the discriminant and hence state the nature of the roots of the equation.\n\n(b) Check your answer to (a) by solving the equation.\n\n10. Using the discriminant only, state the nature of the solutions of $2x^2 - 5x + 4 = 0$.",
+      "source_images": ["image592.png", "image593.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "11. Use the quadratic formula to explain why the sum of the solutions to the equation $ax^2 + bx + c = 0$, $a \\neq 0$, is always $-\\frac{b}{a}$.\n\n12. Solve for $x$:\n\n(a) $2x^3 - 3x^2 - 9x + 10 = 0$\n\n(b) $3x^3 = x(7x - 2)$\n\n(c) $x^3 + 60 = 23x + 2x^2$\n\n(d) $x^2(x^2 - 3) = 64 - 6x^3 - 14x$\n\n13. Use technology to solve:\n\n(a) $10 \\times 2^{x-1} = 35$\n\n(b) $\\sqrt{x} = \\frac{4}{x} - 1$\n\n(c) $x^3 - \\sqrt[3]{x} + 5 = 0$",
+      "source_images": ["image594.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 4B\n\n1. Solve for $x$:\n\n(a) $-7x^2 = 0$\n\n(b) $-4x^3 = \\frac{125}{2}$\n\n(c) $(x - \\sqrt{3})^2 = 16$\n\n2. Solve for $x$:\n\n(a) $x^4 = \\frac{81}{16}$\n\n(b) $x^5 = -18$\n\n(c) $(x - 1)^{-2} = 4$\n\n3. Solve, if possible, using the null factor law:\n\n(a) $\\frac{p}{q} = 0$\n\n(b) $\\frac{2xz}{y} = 0$\n\n(c) $-\\frac{5}{ab} = 0$\n\n4. Solve for $x$:\n\n(a) $2x^2 - 5x = 0$\n\n(b) $3x^2 - 12x = 0$\n\n(c) $x^2 - 7x + 6 = 0$\n\n(d) $x^2 + 4 = -4x$\n\n(e) $x^2 - 12 = 4x$\n\n(f) $3x^2 - x - 10 = 0$\n\n5. Solve by completing the square:\n\n(a) $x^2 - 11x = 60$\n\n(b) $x^2 + 5x + 5 = 0$\n\n(c) $4x^2 - 5x = 6$\n\n6. By completing the square, explain why $x^2 - 4x = -5$ has no real solutions.\n\n7. Solve using the quadratic formula:\n\n(a) $x^2 + 5x + 3 = 0$\n\n(b) $3x^2 + 11x - 2 = 0$\n\n(c) $5x^2 + 4x - 2 = 0$\n\n8. Using the discriminant only, state the nature of the solutions of:\n\n(a) $x^2 - 8x + 16 = 0$\n\n(b) $2x^2 - x - 5 = 0$\n\n(c) $3x^2 + 5x + 3 = 0$\n\n9. Find the values of $m$ for which $2x^2 - 3x + m = 0$ has:\n\n(a) a repeated root\n\n(b) two distinct real roots\n\n(c) no real roots.",
+      "source_images": ["image595.png"]
     }
   ]
 }

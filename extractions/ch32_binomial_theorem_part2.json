@@ -1,0 +1,217 @@
+{
+  "chapter": 32,
+  "part": 2,
+  "images_range": "2852-2906",
+  "items": [
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 10A\n\n1. For each statement, state its negation:\n\n(a) The cat is black.\n\n(b) $x$ is prime.\n\n(c) The tree is deciduous.\n\n2. State, with justification, whether each statement is true or false:\n\n(a) If $x^2 = 9$ then $x = 3$.\n\n(b) If $x = 3$ then $x^2 = 9$.\n\n(c) $x = 3$ if and only if $x^2 = 9$.\n\n3. State, with justification, whether each statement is true or false:\n\n(a) If $x$ is positive then $\\sqrt{x} \\in \\mathbb{R}$.\n\n(b) If $\\sqrt{x} \\in \\mathbb{R}$ then $x$ is positive.\n\n(c) $x$ is positive if and only if $\\sqrt{x} \\in \\mathbb{R}$.\n\n4. (a) Write the converse of the statement \"If Socrates is a cat then Socrates is an animal\".\n\n(b) Is this converse true or false?\n\n5. Determine whether $A$ and $B$ are equivalent:\n\n(a) $A$: $xyz = 0$, $B$: $(x = 0) \\lor (y = 0) \\lor (z = 0)$\n\n(b) $A$: $x$ is even, $B$: $x^2$ is even\n\n6. There are four cards on a table. Every card has a letter on one side and a number on the other. With the cards placed, you see:\n\nD | 3 | K | 7\n\nIdentify precisely which cards you need to turn over, and which you do not, to establish the truth of the statement: \"Every card which has a D on one side has a 7 on the other\".",
+      "source_images": ["image2852.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Throughout the course already, we have used algebra to show different results. In cases where we are given some information (the hypothesis) and are asked to prove something, we use a chain of implications. This is called proof by deduction.\n\nProof by deduction is called a direct proof because we start with the hypothesis and work forward towards the conclusion.\n\nWe have mostly used the therefore symbol \"$\\therefore$\" to indicate our implications, but we could have also used the implication symbol \"$\\Rightarrow$\".\n\nSince these arguments only need to go from the starting information to the conclusion, we also call this type of proof a \"left-to-right\" proof.",
+      "source_images": ["image2853.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 1\n\n(a) Prove by deduction: \"If $x < -5$ then $x^2 > 25$.\"\n\n(b) Explain why the converse is not true.\n\nSolutions:\n\n(a) If $x < -5$ then $|x| > 5$ {geometric definition of absolute value}\n$\\therefore |x|^2 > 5^2$ {squaring both sides}\n$\\therefore x^2 > 25$ {$|x|^2 = x^2$}\n\n(b) The converse would be: \"If $x^2 > 25$ then $x < -5$.\"\nThis is not necessarily true because $6^2 > 25$, but $6 > -5$.",
+      "source_images": ["image2854.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 10B\n\n1. (a) Prove by deduction: \"If $x = -2$ then $x^2 - x - 6 = 0$.\"\n\n(b) Explain why the converse is not true.\n\n2. In the diagram alongside, three semi-circles have been constructed using the sides of a right angled triangle as diameters. The areas of the semi-circles are $A$, $B$, and $C$ as shown. Prove that $A + B = C$.\n\n3. Suppose $a, b \\in \\mathbb{N}$. Let $x = a^2 - b^2$, $y = 2ab$, and $z = a^2 + b^2$. Prove that $x^2 + y^2 = z^2$.\n\n4. Prove that the sum of three consecutive integers is divisible by 3.\n\n5. The product of three consecutive integers is increased by the middle integer. Prove that the result is a perfect cube.\nHint: Let the middle number be $x$.",
+      "source_images": ["image2855.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. Prove that $\\frac{a^2 + b^2}{2} \\geqslant ab$ for all $a, b \\in \\mathbb{R}$.\n\n7. Prove by deduction that $\\sin 2\\theta \\tan \\theta = 2\\sin^2 \\theta$.",
+      "source_images": ["image2856.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "8. Consider a 3-digit number \"$abc$\", $a \\neq c$. Written backwards, it is \"$cba$\". Let $S$ be the result when the smaller of the two numbers is subtracted from the larger. When $S$ is written backwards and the result is added to $S$, prove that the sum is always 1089.\n\nFor example: 276 backwards is 672, so $S = 396$ and $396 + 693 = 1089$.\n\n9. The following \"proofs\" by deduction are incorrect. Identify the incorrect step(s) in each case:\n\n(a) $4x^2 = 3x$\n$\\therefore 4x = 3$\n$\\therefore x = \\frac{3}{4}$\n\n(b) $(x + 3)(2 - x) = 4$\n$\\therefore x + 3 = 4$ or $2 - x = 4$\n$\\therefore x = 1$ or $x = -2$",
+      "source_images": ["image2857.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "In proof by deduction, we were only concerned with moving in one direction.\n\nThis means that if we want to show that two statements $A$ and $B$ are equivalent, then we would need to prove both $A \\Rightarrow B$ and $B \\Rightarrow A$ separately.\n\nHowever, if we can construct an argument so that each deductive step is an equivalence, then we will prove $A \\Rightarrow B$ and $B \\Rightarrow A$ at the same time.\n\nFor example, to deduce the solutions of $(x+1)^3 = x^3 + 1$ we can write the following series of equivalent statements:\n\n$(x + 1)^3 = x^3 + 1$\n$\\Leftrightarrow x^3 + 3x^2 + 3x + 1 = x^3 + 1$\n$\\Leftrightarrow 3x^2 + 3x = 0$\n$\\Leftrightarrow 3x(x + 1) = 0$\n$\\Leftrightarrow x = 0$ or $x = -1$\n\nThis chain of reasoning relies on the facts that:\n- two equations are equivalent if they have precisely the same solutions\n- two functions $p(x)$ and $q(x)$ are equivalent if $p(x) = q(x)$ for all $x \\in \\mathbb{R}$.\n\nReasoning by equivalence is stronger than deduction because the converse must also be true in every step.",
+      "source_images": ["image2858.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "To maintain mathematical equivalence, we can:\n- add or subtract the same term from both sides of an equation\n- multiply or divide both sides of an equation by a non-zero term\n- substitute for an equivalent sub-term, for example by replacing a term by its factored or expanded form.",
+      "source_images": ["image2859.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "There are some other operations which maintain equivalence, for example some of the rules of logarithms with positive terms.\n\nHowever, squaring or taking square roots of both sides of an equation does not maintain equivalence!\n\nGiven $a^2 = b^2$, taking the square root of both sides gives $a = b$. However, in doing this we have ignored the possibility that $a = -b$.\n\nInstead, we use the difference between two squares result as follows:\n\n$a^2 = b^2$\n$\\Leftrightarrow a^2 - b^2 = 0$\n$\\Leftrightarrow (a - b)(a + b) = 0$ {difference between two squares}\n$\\Leftrightarrow a - b = 0$ or $a + b = 0$ {null factor law}\n$\\Leftrightarrow a = b$ or $a = -b$\n$\\Leftrightarrow a = \\pm b$",
+      "source_images": ["image2860.png", "image2861.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 2\n\nFind the smallest positive integer $a$ for which $x^2 + (a - 2)x + a = 0$ has real solutions.\n\nSolution:\n\n$x^2 + (a - 2)x + a = 0$\n$\\Leftrightarrow \\left(x + \\frac{a-2}{2}\\right)^2 - \\left(\\frac{a-2}{2}\\right)^2 + a = 0$ {completing the square}\n$\\Leftrightarrow \\left(x + \\frac{a-2}{2}\\right)^2 = \\frac{(a-2)^2}{4} - a$\n\nThe equation has real solutions if and only if\n$\\frac{(a-2)^2}{4} - a \\geqslant 0$\n$\\Leftrightarrow (a-2)^2 - 4a \\geqslant 0$\n$\\Leftrightarrow a^2 - 8a + 4 \\geqslant 0$\n$\\Leftrightarrow (a-4)^2 - 16 + 4 \\geqslant 0$\n$\\Leftrightarrow (a-4)^2 \\geqslant 12$\n$\\Leftrightarrow a - 4 \\geqslant \\sqrt{12}$ or $a - 4 \\leqslant -\\sqrt{12}$\n$\\Leftrightarrow a \\geqslant 4 + \\sqrt{12} \\approx 7.46$ or $a \\leqslant 4 - \\sqrt{12} \\approx 0.536$\n\n$\\therefore$ the smallest positive integer $a$ for which the equation has real solutions is $a = 8$.",
+      "source_images": ["image2862.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 10C\n\n1. Prove that:\n\n(a) $(a + b)^2 - (a - b)^2 = 4ab$\n\n(b) $(a + b)^2 - 4(a - b)^2 = (3b - a)(3a - b)$\n\n2. Find the smallest positive integer $a$ for which $x^2 + (a - 3)x + 2a = 0$ has real solutions.\n\n3. Prove that $(x - y)^5 + (x - y)^3 = 0$ if and only if $x = y$.\n\n4. (a) Expand and collect like terms: $(n^2 - 2n + 2)(n^2 + 2n + 2)$\n\n(b) Hence find all integers $n$ such that $n^4 + 4$ is prime.\n\n5. (a) Prove that $(k + 1)^2 - (k - 1)^2 = 4k$.\n\n(b) Hence find two square numbers that have difference:\n\n(i) 40\n\n(ii) 100",
+      "source_images": ["image2863.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. The following \"proofs\" end in nonsensical results. Identify the incorrect step(s) in each case:\n\n(a) $a = b$\n$\\Leftrightarrow a^2 = ab$\n$\\Leftrightarrow a^2 - b^2 = ab - b^2$\n$\\Leftrightarrow (a - b)(a + b) = b(a - b)$\n$\\Leftrightarrow a + b = b$\n$\\Leftrightarrow 2a = a$\n$\\Leftrightarrow 2 = 1$\n\n(b) $\\frac{x + 10}{x - 6} - 5 = \\frac{4x - 40}{13 - x}$\n$\\Leftrightarrow \\frac{x + 10 - 5(x - 6)}{x - 6} = \\frac{4x - 40}{13 - x}$\n$\\Leftrightarrow \\frac{4x - 40}{6 - x} = \\frac{4x - 40}{13 - x}$\n$\\Leftrightarrow 6 - x = 13 - x$\n$\\Leftrightarrow 6 = 13$",
+      "source_images": ["image2864.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. The following \"proofs\" give correct results but their methods are incorrect. Identify the incorrect step(s) in each case:\n\n(a) $6x - 12 = 3(x - 2)$\n$\\Leftrightarrow 6x - 12 + 3(x - 2) = 0$\n$\\Leftrightarrow 12x - 24 = 0$\n$\\Leftrightarrow x = 2$\n\n(b) $x^2 - 6x + 9 = 0$\n$\\Leftrightarrow x^2 - 6x = -9$\n$\\Leftrightarrow x(x - 6) = 3(-3)$\n$\\Leftrightarrow x = 3$ or $x - 6 = -3$\n$\\Leftrightarrow x = 3$\n\n8. The sum of fractions $\\frac{1}{4} + \\frac{1}{12} = \\frac{1}{3}$ has the form $\\frac{1}{m} + \\frac{1}{3m} = \\frac{4}{3m}$ where $m = 4$, or alternatively the form $\\frac{1}{n+1} + \\frac{1}{n^2+n} = \\frac{1}{n}$ where $n = 3$.\n\n(a) Prove by equivalence:\n\n(i) $\\frac{1}{m} + \\frac{1}{3m} = \\frac{4}{3m}$\n\n(ii) $\\frac{1}{n+1} + \\frac{1}{n^2+n} = \\frac{1}{n}$ for $n \\neq 0, -1$.\n\n(b) Is it accurate to say that $\\frac{1}{n+1} + \\frac{1}{n^2+n}$ is equivalent to $\\frac{1}{n}$? Explain your answer.",
+      "source_images": ["image2865.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "DISCUSSION: DIRECT AND INDIRECT PROOFS\n\nIn a direct proof we start with the hypothesis and work forward to the conclusion.\n\nFor example, here is a direct proof that if $a < b$ then $a < \\frac{a+b}{2}$:\n\nProof:\n$a < b$\n$\\Rightarrow \\frac{a}{2} < \\frac{b}{2}$ {dividing by 2 which is $> 0$}\n$\\Rightarrow \\frac{a}{2} + \\frac{a}{2} < \\frac{a}{2} + \\frac{b}{2}$ {adding $\\frac{a}{2}$ to both sides}\n$\\Rightarrow a < \\frac{a+b}{2}$\n\nIn proof by contradiction we deliberately assume the opposite to what we are trying to prove. By a series of correct steps we show that this is impossible, hence our assumption must be false, and so its opposite is true. We call this an indirect proof because we do not start with the hypothesis.\n\nFor example, here is a proof by contradiction that if $a < b$ then $a < \\frac{a+b}{2}$:\n\nProof (by contradiction):\nFor $a < b$, suppose that $a \\geqslant \\frac{a+b}{2}$\n$\\Rightarrow 2a \\geqslant 2\\left(\\frac{a+b}{2}\\right)$ {multiplying both sides by 2}\n$\\Rightarrow 2a \\geqslant a + b$\n$\\Rightarrow a \\geqslant b$ {subtracting $a$ from both sides}\n\nThis is a contradiction to our assumption, so the supposition must be false and the alternative, $a < \\frac{a+b}{2}$ must be true.\n\n1. Can a proof by contradiction be considered a proof by deduction or proof by equivalence?\n\n2. Is an indirect proof \"cheating\"?",
+      "source_images": ["image2866.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "THEORY OF KNOWLEDGE\n\nIn mathematics we clearly define terms so there is no misunderstanding of their exact meaning.\n\nFor example:\n- A rational number is a number which can be written in the form $\\frac{p}{q}$ where $p, q \\in \\mathbb{Z}$, $q \\neq 0$.\n- An integer $n$ is even if $n = 2k$ for some integer $k$.\n- An integer $n$ is odd if $n = 2k + 1$ for some integer $k$.\n\nWe can understand the need for specific definitions by considering integers and rational numbers:\n- 2 is an integer, and is also a rational number since $2 = \\frac{4}{2}$.\n- $\\frac{4}{2}$ is a rational number, and is also an integer since $\\frac{4}{2} = 2$.\n- $\\frac{4}{3}$ is a rational number, but is not an integer.\n\n1. Why is it important that mathematicians use the same definitions?\n\n2. Words such as similar, or, function, domain, range, period, and wave are common words in English, but also have different or more specific mathematical definitions. For each of these words, discuss the difference between their mathematical definition and their common use in English.\n\n3. What is the difference between equal, equivalent, and the same? Why is it important to distinguish between these terms?\n\n4. Are there any words which we use only in mathematics? What does this tell us about the nature of mathematics and the world around us?",
+      "source_images": ["image2867.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 3\n\nProve that $0.\\overline{13} \\in \\mathbb{Q}$.\n\nSolution:\n\nLet $x = 0.\\overline{13} = 0.1313131313....$\n$\\Rightarrow 100x = 13.13131313....$\n$\\Rightarrow 100x = 13 + x$\n$\\Rightarrow 99x = 13$\n$\\Rightarrow x = \\frac{13}{99}$\n$\\Rightarrow x \\in \\mathbb{Q}$\n$\\Rightarrow 0.\\overline{13} \\in \\mathbb{Q}$\n\nThis Example requires the definition of rational numbers.",
+      "source_images": ["image2868.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 4\n\nProve that the sum of any two rational numbers is also a rational number.\n\nProof:\n\nLet $x$ and $y$ be two rational numbers.\n\nBy definition, there exists $p, q \\in \\mathbb{Z}$, $q \\neq 0$ so that $x = \\frac{p}{q}$.\n\nBy definition, there exists $r, s \\in \\mathbb{Z}$, $s \\neq 0$ so that $y = \\frac{r}{s}$.\n\nSo, $x + y = \\frac{p}{q} + \\frac{r}{s} = \\frac{ps + rq}{qs}$\n\nSince $p, q, r, s$ are all integers, $ps + rq$ is an integer which we call $P$.\n\nSince $q, s$ are non-zero integers, $qs$ is a non-zero integer which we call $Q$.\n\n$\\therefore x + y = \\frac{ps + rq}{qs} = \\frac{P}{Q}$ where $P, Q \\in \\mathbb{Z}$, $Q \\neq 0$\n\n$\\therefore$ by definition, $x + y$ is a rational number.",
+      "source_images": ["image2869.png", "image2870.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 10D\n\n1. Prove that $0.\\overline{9} \\in \\mathbb{Z}$.\n\n2. Prove that:\n\n(a) $0.\\overline{4} \\in \\mathbb{Q}$\n\n(b) $0.\\overline{23} \\in \\mathbb{Q}$\n\n(c) $0.0\\overline{79} \\in \\mathbb{Q}$\n\n3. Prove that the infinite geometric series $\\left(4 - \\sqrt{2}\\right) + \\frac{4 - \\sqrt{2}}{3 - \\sqrt{2}} + \\frac{4 - \\sqrt{2}}{(3 - \\sqrt{2})^2} + \\frac{4 - \\sqrt{2}}{(3 - \\sqrt{2})^3} + .... \\in \\mathbb{Z}$.\n\n4. Prove that the difference between any two rational numbers is also a rational number.\n\n5. Prove that the product of any two rational numbers is also a rational number.\n\n6. Prove that the product of two odd integers is odd.\n\n7. Prove that if $p$ and $q$ are odd integers then $p^2 - q^2$ is divisible by 8.\n\n8. Prove that if $p$ and $q$ are consecutive odd integers, $p > q$, then $p^3 - q^3 - 2$ is divisible by 24.\n\n9. If $a$, $b$, $c$ are integers and $ax^2 + bx + c = 0$ has rational root $\\frac{r}{s}$ in lowest terms, prove that $s$ is a factor of $a$, and $r$ is a factor of $c$.",
+      "source_images": ["image2871.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "THEORY OF KNOWLEDGE\n\nAn axiom is a statement that is taken to always be true. Axioms form the foundation for proofs of all results and theorems in mathematics.\n\nFor example, these are the axioms for addition and multiplication on the real numbers:\n\nAxiom 1: Associativity: $a + (b + c) = (a + b) + c$ and $a \\times (b \\times c) = (a \\times b) \\times c$\n\nAxiom 2: Commutativity: $a + b = b + a$ and $a \\times b = b \\times a$\n\nAxiom 3: Distributivity: $a \\times (b + c) = a \\times b + a \\times c$\n\nAxiom 4: Additive identity: $a + 0 = a$ and Multiplicative identity: $a \\times 1 = a$\n\nAxiom 5: Additive inverse: $a + (-a) = 0$ and Multiplicative inverse: $a \\times a^{-1} = 1$.\n\nUsing only these axioms, we can prove that $0 \\times x = x \\times 0 = 0$ for all $x \\in \\mathbb{R}$.",
+      "source_images": ["image2872.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Proof:\n\n$0 = 0 + 0$\n$\\therefore 0 \\times x = (0 + 0) \\times x$ {multiplying both sides by $x$}\n$\\therefore 0 \\times x = 0 \\times x + 0 \\times x$ {Axiom 3}\n$\\therefore 0 \\times x + (-(0 \\times x)) = (0 \\times x + 0 \\times x) + (-(0 \\times x))$ {adding the additive inverse of $0 \\times x$}\n$\\therefore 0 \\times x + (-(0 \\times x)) = (0 \\times x) + [0 \\times x + (-(0 \\times x))]$ {Axiom 1}\n$\\therefore 0 = 0 \\times x + 0$\n$\\therefore 0 = 0 \\times x$ {Axiom 4}\n$\\therefore 0 \\times x = 0 = x \\times 0$ {Axiom 2}",
+      "source_images": ["image2873.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "A proof can sometimes be split into a finite number of cases, each of which is then proven separately. It is important to justify why the list of cases covers all possible cases. Since the list exhausts all possibilities, we call this style of proof a proof by exhaustion.\n\nFor example, every natural number $n \\in \\mathbb{Z}$ is either even or odd.\n- If $n$ is even it is divisible by two, and so $n = 2k$ for some $k \\in \\mathbb{Z}$.\n- If $n$ is odd, it has remainder 1 when divided by 2. In this case $n = 2k + 1$ for some $k \\in \\mathbb{Z}$.",
+      "source_images": ["image2874.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 5\n\nGiven that $n^5 - n = (n-1)n(n+1)(n^2+1)$, prove that $n^5 - n$ is divisible by 5 for all $n \\in \\mathbb{Z}$.\n\nProof by exhaustion:\n\nIf we divide $n$ by 5 then the remainder will be 0, 1, 2, 3, or 4. Hence every integer can be written in one of the forms $5k$, $5k + 1$, $5k + 2$, $5k + 3$, or $5k + 4$, for some $k \\in \\mathbb{Z}$.\n\nLet $N = n^5 - n = (n-1)n(n+1)(n^2+1)$.\n\nIf $n = 5k$ then the factor $n$ is divisible by 5, so $N$ is divisible by 5.\n\nIf $n = 5k + 1$ then the factor $(n - 1) = 5k$ is divisible by 5, so $N$ is divisible by 5.\n\nIf $n = 5k + 2$ then the factor $(n^2 + 1) = (5k + 2)^2 + 1$\n$= 25k^2 + 20k + 5$\n$= 5(5k^2 + 4k + 1)$\nwhich is divisible by 5, so $N$ is divisible by 5.\n\nIf $n = 5k + 3$ then the factor $(n^2 + 1) = (5k + 3)^2 + 1$\n$= 25k^2 + 30k + 10$\n$= 5(5k^2 + 6k + 2)$\nwhich is divisible by 5, so $N$ is divisible by 5.\n\nIf $n = 5k + 4$ then the factor $(n + 1) = 5(k + 1)$ which is divisible by 5, so $N$ is divisible by 5.\n\nIn all cases, $N$ is divisible by 5, so $n^5 - n$ is divisible by 5 for all $n \\in \\mathbb{Z}$.",
+      "source_images": ["image2875.png", "image2876.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 9E\n\n1. Prove that if $n$ is an integer such that $n^2$ is even, then $n$ is even.\n\n2. Prove that $n^3 - n$ is divisible by 3 for all $n \\in \\mathbb{Z}$.\n\n3. Prove that $n^3 + 2n$ is divisible by 3 for all $n \\in \\mathbb{Z}$.\n\n4. Prove that $n^2 - 1$ is divisible by 8 for all odd integers $n$.\n\n5. Prove that 7 never divides $n^2 + 4$ for all $n \\in \\mathbb{Z}$.\n\n6. Let $n$ be a positive integer and define $x = (n + 1)! + 2$. Prove that none of $x$, $x + 1$, $x + 2$, ...., $x + n - 1$ are prime.\n\n7. You are presented with 3 boxes, A, B, and C, one of which contains a prize. On the lid of each box there is a statement, and you are told that only one of the statements is true. They say:\n\nA: The prize is in this box.\nB: The prize is not in this box.\nC: The prize is in box A.\n\nWhich box contains the prize?\n\n8. 13 points are equally spaced around a circle. Prove that if any 5 are chosen, then the set will include 3 points which form an isosceles triangle.\n\n\"$a$ divides $b$\" means that $b$ is divisible by $a$.",
+      "source_images": ["image2877.png", "image2878.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Experimental evidence is very convincing, and scientific research relies on experimental evidence. However, in mathematics we do not consider experimental evidence to be sufficient to constitute a proof. The reason for this is that one single counter example which shows a general statement to be false, is sufficient to disprove the statement.",
+      "source_images": ["image2879.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 6\n\nThe values of $n^2 - n + 41$ for some values of $n \\in \\mathbb{N}$ are shown in the table alongside. We observe that all of these values are primes, so we conjecture that:\n\n$n^2 - n + 41$ is prime for all $n \\in \\mathbb{N}$.\n\nFind an example which proves this conjecture is false.\n\n| $n$ | $n^2 - n + 41$ | $n$ | $n^2 - n + 41$ |\n|-----|----------------|-----|----------------|\n| 1 | 41 | 11 | 151 |\n| 2 | 43 | 12 | 173 |\n| 3 | 47 | 13 | 197 |\n| 4 | 53 | 14 | 223 |\n| 5 | 61 | : | : |\n| 6 | 71 | 30 | 911 |\n| 7 | 83 | : | : |\n| 8 | 97 | 99 | 9743 |\n| 9 | 113 | : | : |\n| 10 | 131 | | |\n\nSolution:\n\nFor $n = 41$, we have $n^2 - n + 41 = 41^2 - 41 + 41 = 41^2$ which is not prime.\n\n$\\therefore$ the conjecture is false.",
+      "source_images": ["image2880.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 9F\n\n1. Find a counter example which disproves:\n\n(a) $(a + b)^2 = a^2 + b^2$\n\n(b) If $p$ is prime then $2p + 1$ is prime.\n\n(c) For each $k$, at least one of $6k - 1$ or $6k + 1$ is prime.\n\n2. Find a counter example which disproves:\n\n(a) If $p_1, p_2, ...., p_n$ are distinct prime numbers then $p = (p_1 \\times p_2 \\times .... \\times p_n) + 1$ is also prime.\n\n(b) If $p_1, p_2, ...., p_n$ is the list of the first $n$ prime numbers then $p = (p_1 \\times p_2 \\times .... \\times p_n) + 1$ is also prime.\n\n3. Suppose $n$ distinct dots are placed around the outside of a circle, and every pair of dots is joined with a straight line segment. We can then count the number of regions in which the circle has been divided. The first five cases are illustrated below. We observe that the circle is divided into 1, 2, 4, 8, and 16 regions, and therefore conjecture that for the case of $n$ dots, the circle will be divided into $2^{n-1}$ regions.\n\nBy considering the case $n = 6$, prove the conjecture is false.\n\n4. Consider the sequence 31, 331, 3331, .... from which we conjecture that each number in the sequence is prime. Find a counter example to disprove this conjecture.\n\n5. Prime numbers of the form $2^n - 1$, $n \\in \\mathbb{Z}^+$ are called Mersenne primes after Marin Mersenne (1588 - 1647). As of December 2018 the largest known Mersenne prime was $2^{82589933} - 1$ which has 24862048 digits.\n\n(a) Calculate $2^n - 1$ for $n = 1, 2, ...., 10$. For what values of $n$ is $2^n - 1$ prime?\n\n(b) Consider the conjecture: If $n$ is prime then $2^n - 1$ is prime. Find a counter example to disprove this conjecture.",
+      "source_images": ["image2881.png", "image2882.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "The contrapositive of $A \\Rightarrow B$ is the statement $\\neg B \\Rightarrow \\neg A$.\n\nFor example, the contrapositive of \"if $x$ is rational then $2^x \\neq 3$\" is \"if $2^x = 3$ then $x$ is not rational\".\n\nThe implication $A \\Rightarrow B$ and its contrapositive are said to be logically equivalent because they tell us exactly the same information.\n\nWe can explain this using a truth table which considers every possibility for whether $A$ and $B$ are true.\n\nAs an example, suppose $A$ is \"Sam is in the library\" and $B$ is \"Sam is reading\".\n\nWe will mark $A \\Rightarrow B$ and $\\neg B \\Rightarrow \\neg A$ as true if they are consistent with the truth values of $A$ and $B$, and false if they are not.\n\n| $A$ | $B$ | $A \\Rightarrow B$ | $\\neg B \\Rightarrow \\neg A$ |\n|-----|-----|-------------------|-----------------------------|\n| T | T | Sam is in the library and he is reading. This is consistent with $A \\Rightarrow B$. T | Since Sam is reading, $\\neg B$ is false. The hypothesis is false, so the implication cannot be inconsistent. T |\n| T | F | Sam is in the library but he is not reading. This is inconsistent with $A \\Rightarrow B$. F | Sam is not reading but he is in the library. This is inconsistent with $\\neg B \\Rightarrow \\neg A$. F |\n| F | T | Sam is not in the library. The hypothesis is false, so the implication cannot be inconsistent. T | Since Sam is reading, $\\neg B$ is false. The hypothesis is false, so the implication cannot be inconsistent. T |\n| F | F | Sam is not in the library. The hypothesis is false, so the implication cannot be inconsistent. T | Sam is not reading and he is not in the library. This is consistent with $\\neg B \\Rightarrow \\neg A$. T |\n\nAn implication only says something if the hypothesis is true. If the hypothesis is false, it cannot be inconsistent.\n\nThe implication $A \\Rightarrow B$ and its contrapositive $\\neg B \\Rightarrow \\neg A$ are logically equivalent because they always have the same truth value.",
+      "source_images": ["image2883.png", "image2884.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "If the implication $A \\Rightarrow B$ is proven by proving its contrapositive $\\neg B \\Rightarrow \\neg A$, we call this a proof by contrapositive.",
+      "source_images": ["image2885.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 7\n\nLet $n$ be an integer. Prove that if $n^2 - 4n + 5$ is even, then $n$ is odd.\n\nProof by contrapositive:\n\nThe contrapositive is: If $n$ is even then $n^2 - 4n + 5$ is odd.\n\nIf $n$ is even then there exists an integer $k$ for which $n = 2k$.\n\nHence $n^2 - 4n + 5 = (2k)^2 - 4(2k) + 5$\n$= 4k^2 - 8k + 5$\n$= 2(2k^2 - 4k + 2) + 1$ which is odd.\n\nThis proves the contrapositive and hence the original statement.",
+      "source_images": ["image2886.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 8\n\nLet $n$ be a positive integer. Prove that if $n \\equiv 2 \\mod 3$ then $n$ is not a perfect square.\n\n$n \\equiv 2 \\mod 3$ means that $n$ has remainder 2 when divided by 3.\n\nProof by contrapositive:\n\nThe contrapositive is: If $n$ is a perfect square then $n \\equiv 0$ or $1 \\mod 3$.\n{if the remainder when divided by 3 is not 2, then it must be 0 or 1}\n\nSuppose $n$ is a perfect square, so $n = k^2$ for some integer $k$.\nThere are three cases to consider:\n\nIf $k \\equiv 0 \\mod 3$ then $k = 3q$ for some integer $q$.\n$\\therefore n = k^2 = (3q)^2 = 9q^2 = 3(3q^2)$\n$\\therefore n \\equiv 0 \\mod 3$\n\nIf $k \\equiv 1 \\mod 3$ then $k = 3q + 1$ for some integer $q$.\n$\\therefore n = k^2 = (3q + 1)^2$\n$= 9q^2 + 6q + 1$\n$= 3(3q^2 + 2q) + 1$\n$\\therefore n \\equiv 1 \\mod 3$\n\nIf $k \\equiv 2 \\mod 3$ then $k = 3q + 2$ for some integer $q$.\n$\\therefore n = k^2 = (3q + 2)^2$\n$= 9q^2 + 12q + 4$\n$= 3(3q^2 + 4q + 1) + 1$\n$\\therefore n \\equiv 1 \\mod 3$\n\n$\\therefore$ if $n$ is a perfect square then $n \\equiv 0$ or $1 \\mod 3$.\n\nThis proves the original statement: If $n \\equiv 2 \\mod 3$ then $n$ is not a perfect square.",
+      "source_images": ["image2887.png", "image2888.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 9G\n\n1. Write the contrapositive statement of each of the following:\n\n(a) If it is raining then you get wet.\n\n(b) If penguins can fly then it is Thursday.\n\n(c) If you drink alcohol then you must be aged 18 or over.\n\n(d) If $k$ is divisible by 5 then $k$ is not prime.\n\n(e) If $a^2 + b^2 = c^2$ then $a$ or $b$ is even.\n\n2. Let $m$ and $n$ be integers. Prove, by constructing the contrapositive, that:\n\n(a) if $n^2$ is even then $n$ is even\n\n(b) if $mn$ is even than at least one of $n$ or $m$ is even\n\n(c) if $m + n$ is even then $m$ and $n$ have the same parity (are either both even or both odd).\n\n3. Let $a$ and $b$ be real numbers. Prove that if the product $ab$ is irrational then either $a$ or $b$ must be irrational.\n\n4. Suppose $n$ is a positive integer. Prove that if $n \\equiv 2$ or $3 \\mod 4$ then $n$ is not a perfect square.",
+      "source_images": ["image2889.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "H. PROOF BY CONTRADICTION: REDUCTIO AD ABSURDUM\n\nWhen people talk about proof by contradiction, they are normally referring to reductio ad absurdum which is Latin for \"reduction to absurdity\". In this form of argument we show that attempting to disprove a statement inevitably leads to a ridiculous, absurd, or impractical conclusion. For example, if we end up with $1 = 0$, or that an odd number is also an even number, we regard this as absurd. If the result is absurd or impossible, and all the reasoning is correct, then the only conclusion is that the hypothesis is false.",
+      "source_images": ["image2890.png", "image2891.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "To use reductio ad absurdum, we start with the negation (opposite) of the conclusion, and correctly prove that this leads to a contradiction with the hypothesis. We hence deduce that the assumption was false, so the conclusion must be true.\n\nFor a hypothesis $A$ and conclusion $B$, we show that\n$(A \\land \\neg B) \\Rightarrow (C \\land \\neg C)$\nwhere $C$ is some statement which is contradicted by $\\neg C$.\n\nSince $C \\land \\neg C$ is always false, $A \\land \\neg B$ is false.\n\nSo, if $A$ is true, then $B$ must also be true. This is the implication $A \\Rightarrow B$.\n\nProof by contradiction is an indirect proof because we do not start with the hypothesis, but rather the opposite of the conclusion.\n\nReductio ad absurdum is only valid if correct reasoning leads to a contradiction!",
+      "source_images": ["image2892.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 9\n\nProve that $\\log_2 3$ is irrational.\n\nProof by contradiction:\n\nSuppose $\\log_2 3$ is rational\n$\\therefore \\log_2 3 = \\frac{p}{q}$ where $p, q \\in \\mathbb{Z}$, $q \\neq 0$\n$\\therefore 3 = 2^{\\frac{p}{q}}$\n$\\therefore 3^q = 2^p$\n\nThe left hand side is always odd and the right hand side is always even. This is a contradiction.\n\n$\\therefore$ our original supposition is false, and $\\log_2 3$ is irrational.",
+      "source_images": ["image2893.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 10\n\nThe number $\\sqrt{2}$ is the length of a diagonal of a square with side length 1. Prove that $\\sqrt{2}$ is irrational.\n\nProof by contradiction:\n\nSuppose $\\sqrt{2}$ is rational, so $\\sqrt{2} = \\frac{p}{q}$ for some (positive) integers $p$ and $q$, $q \\neq 0$.\n\nWe assume this fraction has been written in lowest terms, so $p$ and $q$ have no common factors.\n\nSquaring both sides, $2 = \\frac{p^2}{q^2}$\n\n$\\therefore p^2 = 2q^2$ .... (1) $\\therefore p^2$ is even, and so $p$ must be even.\n\nThus $p = 2k$ for some $k \\in \\mathbb{Z}^+$.\n\nSubstituting into (1), $4k^2 = 2q^2$\n$\\therefore q^2 = 2k^2$ $\\therefore q^2$ is even, and so $q$ must be even.\n\nThis is a contradiction, as $p$ and $q$ have no common factors.\n\nThus our original supposition is false, and $\\sqrt{2}$ is irrational.",
+      "source_images": ["image2894.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 11\n\nProve that there are infinitely many prime numbers.\n\nProof by contradiction:\n\nSuppose there are only a finite number $n$ of prime numbers, which we label $p_1$, $p_2$, ...., $p_n$.\n\nEvery positive integer greater than 1 is either a member of this list, or is divisible by a member of this list.\n\nLet $N = p_1 \\times p_2 \\times .... \\times p_n + 1$.\n\nNotice that:\n- $N > p_k$ for all $k = 1, ...., n$\n$\\therefore$ $N$ is not a member of the list.\n- If we divide $N$ by any $p_k$, $k = 1, ...., n$, then the remainder is 1.\n$\\therefore$ $N$ is not divisible by any $p_k$.\n\nThis is a contradiction, so our supposition is false, and there are infinitely many prime numbers.\n\nNotice that this proof does not prove that $N = p_1 \\times p_2 \\times .... \\times p_n + 1$ is actually a prime number. It only proves that $N$ is not in the list, and not divisible by members of the list. In fact, $N$ is not always prime. For example, consider $N = 2 \\times 3 \\times 5 \\times 7 \\times 11 \\times 13 + 1 = 30031 = 59 \\times 509$.",
+      "source_images": ["image2895.png", "image2896.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 9H\n\n1. Prove that the following numbers are irrational:\n\n(a) $\\log_2 5$\n\n(b) $\\log_3 5$\n\n(c) $\\sqrt{3}$\n\n(d) $\\sqrt[3]{2}$\n\n2. Attempt to prove that $\\sqrt{4}$ is irrational using the method in Example 10. Explain why the argument fails.\n\n3. Prove that if $a < b$ then $a < \\frac{a+b}{2}$ using:\n\n(a) a direct proof\n\n(b) proof by contradiction.\n\n4. Suppose $a, b, c \\in \\mathbb{Z}$. Prove that if $a^2 + b^2 = c^2$ then $a$ or $b$ is even.\n\n5. A Sudoku is a puzzle played on a $9 \\times 9$ grid. The goal is to fill the grid with digits so that each column, each row, and each of the nine $3 \\times 3$ subgrids contains each of the digits from 1 to 9. The person posing the puzzle will provide a starting grid with some numbers. A puzzle is well-posed if it has a unique solution. Suppose the numbers shown are not part of the starting grid. Can these numbers be part of a solution to a well-posed Sudoku? Explain your answer.\n\n6. In the game Noughts and Crosses, two players $O$ (noughts) and $X$ (crosses) take turns marking their symbol in the spaces in a $3 \\times 3$ grid. The first player who places three of their marks in a horizontal, vertical, or diagonal row wins the game. Can the second player devise a winning strategy $S$ which guarantees they will win?",
+      "source_images": ["image2897.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 9A\n\n1. The roots of $f(x) = x^2 + px + q$ are $a$ and $b$. Prove that $q = ab$ and $p = -(a + b)$.\n\n2. Prove that:\n\n(a) $2.\\overline{9} \\in \\mathbb{Z}$\n\n(b) $0.\\overline{38} \\in \\mathbb{Q}$\n\n3. State the negation of each statement:\n\n(a) The boy has blue eyes.\n\n(b) $x$ is larger than 4.\n\n4. State, with justification, whether each statement is true or false.\n\n(a) If a function $f$ is periodic with period $p$, then $f(x + p) = f(x)$ for all $x$.\n\n(b) If $f(x + p) = f(x)$ for all $x$, then $f$ is periodic with period $p$.\n\n(c) $f$ is periodic with period $p$ if and only if $f(x + p) = f(x)$ for all $x$.\n\n5. Prove that $9a^2 + b^2 \\geqslant 6ab$ for all $a, b \\in \\mathbb{R}$.\n\n6. (a) Prove by equivalence that $\\tan^2 \\theta - \\sin^2 \\theta = \\tan^2 \\theta \\sin^2 \\theta$.\n\n(b) (i) Prove by deduction that $\\frac{1 - \\sin^2 \\theta}{\\cos \\theta} = \\cos \\theta$.\n\n(ii) Explain why the argument in (i) cannot be strengthened to equivalence for all $\\theta$.\n\n7. Prove that the quotient of two non-zero rational numbers is also a rational number.\n\n8. (a) Evaluate the following, and state whether the result is prime or composite:\n\n(i) $1^3 + 2^3$\n\n(ii) $2^3 + 3^3$\n\n(iii) $3^3 + 4^3$\n\n(iv) $4^3 + 5^3$",
+      "source_images": ["image2898.png", "image2899.png", "image2900.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "(b) Prove that $k^3 + (k + 1)^3 = (2k + 1)(k^2 + k + 1)$.\n\n(c) Hence prove that the sum of two consecutive positive cubes is always composite.\n\n9. Prove that $n^3 - n$ is divisible by 6 for all $n \\in \\mathbb{Z}$.\n\n10. (a) Prove that the fifth powers of the numbers $k = 1, 2, 3, ...., 9$ all have last digit $k$.\n\n(b) Hence prove that $n$ always has the same last digit as its 5th power $n^5$, for all $n \\in \\mathbb{Z}$.\n\nHint: Consider writing an integer in the form $10m + k$.\n\n11. Find a counter example which disproves: If $p$ is prime then $p! + 1$ is prime.\n\n12. Let $a$, $b$, and $n$ be integers. Prove that if $ab$ is not divisible by $n$ then $a$ is not divisible by $n$ and $b$ is not divisible by $n$.\n\n13. Prove that there are infinitely many prime numbers.\n\n14. Prove that $\\log_3 2$ is irrational.\n\n15. Prove by contradiction that there exist no integers $n$ and $m$ for which:\n\n(a) $14n + 7m = 1$\n\n(b) $4n^2 - m^2 = 1$",
+      "source_images": ["image2901.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 9B\n\n1. Let $p(x) = x^2 + 2bx + c$ and define $q(x) = p(x - b)$. Prove that $q(x) = q(-x)$ for all $x$.\n\n2. Prove that $\\frac{a + b}{2} \\geqslant \\sqrt{ab}$ for all $a, b \\in \\mathbb{R}^+$.\n\n3. Consider the statement: \"If $x$ is acute then $\\sin x$ is positive\".\n\n(a) Is the statement true or false?\n\n(b) Write the converse of the statement.\n\n(c) Is the converse true or false?\n\n4. Determine whether $A$ and $B$ are equivalent:\n\n(a) $A$: $x$ is not prime, $B$: $x$ is composite\n\n(b) $A$: $x$ and $y$ are both odd integers, $B$: $xy$ is odd\n\n5. Prove that if $k$ is an odd integer then $k^3 + k^2 - k - 1$ is divisible by 8.\n\n6. Prove that, in an equilateral triangle, the sum of the distances from any point in the triangle to the three sides is a constant.\n\n7. Prove that the difference between the two digit numbers \"$ab$\" and \"$ba$\" is always divisible by 9.\n\n8. Identify the incorrect step in the following \"proof\":\n\n$-6 = -6$\n$\\Leftrightarrow 9 - 15 = 4 - 10$\n$\\Leftrightarrow 3^2 - 3 \\times 5 = 2^2 - 2 \\times 5$\n$\\Leftrightarrow 3^2 - 2 \\times 3 \\times \\frac{5}{2} + \\left(\\frac{5}{2}\\right)^2 = 2^2 - 2 \\times 2 \\times \\frac{5}{2} + \\left(\\frac{5}{2}\\right)^2$\n$\\Leftrightarrow \\left(3 - \\frac{5}{2}\\right)^2 = \\left(2 - \\frac{5}{2}\\right)^2$\n$\\Leftrightarrow 3 - \\frac{5}{2} = 2 - \\frac{5}{2}$\n$\\Leftrightarrow 3 = 2$\n\n9. Prove that the product of 3 consecutive integers is divisible by 6.\n\n10. Find a counter example which disproves: If 10 divides $n$ and 15 divides $n$ then 150 divides $n$.",
+      "source_images": ["image2902.png", "image2903.png", "image2904.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "11. Prove that for any $a, b \\in \\mathbb{R}$:\n\n- the greater of $a$ and $b$ is $\\max(a, b) = \\frac{a + b + |a - b|}{2}$\n\n- the lesser of $a$ and $b$ is $\\min(a, b) = \\frac{a + b - |a - b|}{2}$.\n\n12. Let $n$ be an integer. Prove, by constructing the contrapositive, that if $n^3$ is even then $n$ is even.\n\n13. Prove that $\\sqrt[3]{4}$ is irrational.\n\n14. (a) Let $n$ be an integer. Prove by contrapositive that if $n^2$ is divisible by 6 then $n$ is divisible by 6.\n\n(b) Prove by contradiction that $\\sqrt{6}$ is irrational.\n\n(c) Prove by contradiction that $\\sqrt{2} + \\sqrt{3}$ is irrational.\n\n15. The following problem is called the Wason THOG task, named after Peter Wason. In front of you are four designs: a black diamond, a white diamond, a black square, and a white square.\n\nMeanwhile, I have written down one of the colours (black or white) and one of the shapes (diamond or square). Read the following rule carefully:\n\nIf, and only if, any of the designs includes either the colour I have written down, or the shape I have written down, but not both, then it is called a THOG.\n\nI will tell you that the black diamond is a THOG. Classify each of the following designs into one of the categories: definitely a THOG, insufficient information to decide, or definitely not a THOG. Justify your answers.\n\n(a) Black diamond\n\n(b) White diamond\n\n(c) Black square\n\n(d) White square",
+      "source_images": ["image2905.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "A. THE PROCESS OF INDUCTION",
+      "source_images": ["image2906.png"]
+    }
+  ]
+}

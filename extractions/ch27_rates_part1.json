@@ -1,0 +1,202 @@
+{
+  "chapter": 27,
+  "part": 1,
+  "images_range": "2508-2547",
+  "items": [
+    {
+      "type": "concept",
+      "content_latex": "RATES\n\nWe have seen that a ratio is an ordered comparison of quantities of the same kind. For example, we can have a ratio of lengths or a ratio of times.\n\nA rate is an ordered comparison of quantities of different kinds.\n\nOne of the most common rates we use is speed, which is a comparison between the distance travelled and the time taken.",
+      "source_images": ["image2508.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "One of the most common rates we use is speed, which is a comparison between the distance travelled and the time taken.\n\nBecause we are comparing quantities of different kinds, the units cannot be omitted as they are with ratios. In the case of speed, the units we use are either kilometres per hour, or metres per second.\n\nThe graph alongside shows that a car has travelled a distance of 400 km in 5 hours.\n\nWe can write the speed of the car as the rate $\\frac{400 \\text{ km}}{5 \\text{ hours}} = 80$ km per hour.\n\nThe slope of the line can be measured by the rise : run ratio.\n\nNote that this can also be written as $\\frac{400 \\text{ km}}{5 \\text{ hours}}$ which is the car's speed.\n\nThe slope of a graph gives the rate of change of one variable with respect to the other.",
+      "source_images": ["image2509.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Other common examples of rates are:\n\n| | Examples of units |\n|---|---|\n| Rates of pay | dollars per hour or euros per hour |\n| Petrol consumption | litres per 100 km or km per litre |\n| Annual rainfall | mm per year |\n| Unit cost | dollars per kilogram or pounds per kg |\n| Population density | people per square kilometre |",
+      "source_images": ["image2510.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 1\n\nA tap fills a 9 litre bucket in 3 minutes. Express this as a rate in simplest form.\n\n$\\text{rate} = \\frac{9 \\text{ L}}{3 \\text{ minutes}}$\n\n$\\therefore$ rate $= \\frac{9}{3}$ L per minute\n\n$\\therefore$ rate $= 3$ L per minute",
+      "source_images": ["image2511.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 22A\n\n1. Write down the meaning of the following rates:\n\n(a) 8 m per s\n(b) 13 L per s\n(c) 4 km per h\n(d) 2.5 kL per min\n(e) 32 g per h\n(f) 2.7 kg per min\n(g) 74 $\\$$ per day\n(h) 23 cents per s\n\n2. Copy and complete:\n\n(a) 35 apples bought for $€9.45$ is at a rate of ...... cents per apple.\n(b) If 24 kg of peas are sold for $\\$66.24$, they earn me $\\$...... per kilogram.\n(c) My car uses 18 L of petrol every 261 km. The rate of petrol consumption is ...... km per litre.\n(d) 675 litres of water are pumped into a tank in 25 minutes. This is a rate of ...... litres per minute.\n(e) A cyclist travels 120 km in 5 hours. This is a rate of ...... km per hour.\n(f) A cleaner works for 4 hours and receives $£48$. His rate of pay is $£.....$ per hour.\n\n3. Trevor's car uses 16 litres of fuel to travel 240 km. Jane's car uses 12 litres to travel 204 km.\n\n(a) Find the rate of fuel consumption in km per L for each car.\n(b) Which car is more economical to run?\n\n4. Mandy earns $\\$144$ for 8 hours' work. Dzung earns $\\$210$ for 14 hours' work.\n\n(a) Find the rate of pay in $\\$$ per hour for each person.\n(b) Who gets paid the better hourly rate?",
+      "source_images": ["image2512.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "To properly compare prices we need to convert the cost of an item into a rate called a unit cost. This could be the cost per gram, the cost per kilogram, the cost per litre or similar. We then compare the unit costs for packages of different sizes.",
+      "source_images": ["image2513.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 2\n\nWhich box of Sudso detergent gives better value for money?\n\nA: 500 g costing $\\$3.50$ or B: 750 g costing $\\$5.40$\n\nA unit cost $= \\frac{350 \\text{ cents}}{500 \\text{ grams}} = 0.7$ cents per gram\n\nB unit cost $= \\frac{540 \\text{ cents}}{750 \\text{ grams}} = 0.72$ cents per gram\n\nSo, A is better value.",
+      "source_images": ["image2514.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 22B\n\n1. Use your calculator to find unit costs for the following items. Express your answer in the units in brackets.\n\n(a) 250 g chocolate for $\\$3.75$ (cents per gram)\n(b) 2 L juice for $£2.80$ ($£$ per L)\n(c) 5 kg potatoes for $€4.45$ (cents per kg)\n(d) packet of 3 toothbrushes for RM 15.39 (RM per toothbrush)\n(e) 5 m of fabric for $€16.50$ ($€$ per metre)\n(f) 40 L of petrol for $£37.60$ (pence per L)\n\n2. Consider the following grocery items and decide which is the better value for money:\n\n(a) CORN FLAKES 300 g $\\$2.15$ or CORN FLAKES 500 g $\\$3.29$\n(b) SUPERWIPE PAPER TOWEL 6 pack $£2.99$ or SUPERWIPE PAPER TOWEL 4 pack $£1.79$\n(c) MILK 2 litres $€3.89$ or MILK 600 ml $€2.19$\n(d) Super-strength Ribbon 10 metres $\\$4.20$ or Super-strength Ribbon 8 metres $\\$3.60$\n(e) Paul's Paint 5 litres $€65.00$ or Paul's Paint 2 litres $€31.00$\n(f) POTATOES 25 kg $£35.00$ or POTATOES 10 kg $£16.50$",
+      "source_images": ["image2515.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 3\n\nHenry eats peanuts at a constant rate of 24 every 3 minutes. How many peanuts will he eat in 10 minutes?\n\nHenry's rate of eating peanuts $= \\frac{24 \\text{ peanuts}}{3 \\text{ minutes}} = 8$ peanuts per minute\n\nSo, in 10 minutes Henry will eat $8 \\times 10 = 80$ peanuts.",
+      "source_images": ["image2516.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 22C\n\n1. Water consumption for a person living in Sydney is approximately 2100 litres per week. At this rate, how much water would be used by a person in two days?\n\n2. Bill is a part time curator at the local cricket ground. He earned $£169.60$ for working 8 hours last week. This week he has worked 21 hours. How much will he earn this week if he is paid at the same hourly rate?\n\n3. A petrol tanker takes 18 minutes to discharge 8100 litres of fuel.\n\n(a) At this rate, how much fuel would the tanker discharge in 14 minutes?\n(b) How long would it take the tanker to discharge 4950 litres of fuel at the same rate?\n\n4. A motor vehicle can travel 84 km on 7 litres of petrol.\n\n(a) How far could the vehicle travel on 57 litres of petrol?\n(b) How many litres of petrol would be required to travel a distance of 420 km?\n\n5. It costs $\\$2340$ to lay a drain pipe of length 36 m.\n\n(a) Find the cost of laying a drain pipe of length 63 m.\n(b) Find the length of pipe that could be laid for a cost of $\\$7540$.",
+      "source_images": ["image2517.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. To travel 484 km a car uses 55 litres of petrol.\n\n(a) Find the rate at which the petrol is used in:\n\n(i) km per litre\n(ii) litres per 100 km.\n\n(b) At this rate, how many litres of fuel would be needed to travel 300 km?\n(c) If petrol costs $\\$1.85$ per litre, how much would the journey in (b) cost?",
+      "source_images": ["image2518.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 4\n\nThe graph shows the progress of a train travelling between cities.\n\n(a) How far does the train travel in the 4 hour journey?\n(b) Write down a rate which compares the distance travelled with the time taken.\n(c) What was the speed of the train for this journey?\n\n(a) The train travels 240 km in the 4 hours.\n\n(b) Rate is $\\frac{\\text{distance travelled}}{\\text{time taken}} = \\frac{240 \\text{ km}}{4 \\text{ hours}} = 60$ km per h.\n\n(c) The speed of the train was 60 km per h.",
+      "source_images": ["image2519.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. The graph alongside shows how much a student earns for working at a local newsagent.\n\n(a) How much does the student receive for working 4 hours?\n(b) How many hours does the student have to work to earn $\\$18$?\n(c) What is the rate of pay?\n\n8. For each 60 km travelled a rally car uses five litres of fuel.\n\n(a) Copy and complete the graph opposite.\n(b) Use the graph to find the distance the car would travel on 20 L of fuel.\n(c) How many litres of fuel would be needed to travel 180 km?\n(d) Join the points on your graph. What do you notice?\n(e) Use the graph to estimate how far the rally driver could travel on 18 L of petrol.\n(f) What is the rate of petrol consumption?",
+      "source_images": ["image2520.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. Consider the following distance-time graph showing the progress of a car travelling from town A to B to C.\n\n(a) How far is it from A to B?\n(b) How long did it take to get from A to B?\n(c) What was the speed of the car while travelling from A to B?\n(d) How far is it from B to C?\n(e) How long did it take to get from B to C?\n(f) What was the speed of the car while travelling from B to C?\n(g) What feature of the graph shows the change in speed of the car?",
+      "source_images": ["image2521.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Average speed can be found using the formula:\n\n$\\text{average speed} = \\frac{\\text{total distance travelled}}{\\text{time taken}}$\n\nFor example, if a car travels 344 km in 4 hours, its average speed is\n\n$\\frac{344 \\text{ km}}{4 \\text{ hours}} = 86$ km per hour.\n\nWe can rearrange the formula for average speed to obtain:\n\n$\\text{total distance travelled} = \\text{average speed} \\times \\text{time taken}$\n\n$\\text{time taken} = \\frac{\\text{total distance travelled}}{\\text{average speed}}$\n\nWe can verify these formulae since $86 \\text{ km per hour} \\times 4 \\text{ hours} = 344$ km\n\nand $\\frac{344 \\text{ km}}{86 \\text{ km per hour}} = 4$ hours.",
+      "source_images": ["image2522.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 5\n\nA cyclist travels 92 km in 4 hours.\n\n(a) What was the cyclist's average speed?\n(b) How far would the cyclist ride in 7 hours at the same rate?\n(c) How long would it take the cyclist to ride 253 km at the same rate?\n\n(a) The cyclist rode at $\\frac{92 \\text{ km}}{4 \\text{ hours}} = 23$ km per hour\n\n(b) In 7 hours the cyclist would ride $7 \\times 23 = 161$ km.\n\n(c) The cyclist rides at 23 km per hour\n\n$\\therefore$ to ride 253 km it would take $\\frac{253}{23} = 11$ hours.",
+      "source_images": ["image2523.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 22D\n\n1. Find the average speed of:\n\n(a) a cyclist who travels 80 km in 4 hours\n(b) an athlete who runs 10 km in 40 minutes\n(c) a truck which takes 4 hours to travel 300 km\n(d) an aeroplane which takes 50 minutes to fly 750 km.\n\n2. The speed limit through a city is 50 km per hour. If Jason drives 25 km through the city in 20 minutes, has he broken the law?",
+      "source_images": ["image2524.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. A motorist drives 400 km in 6 hours. How far would she drive in 3 hours at the same rate?",
+      "source_images": ["image2525.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. How far will:\n\n(a) a cyclist travel in 3 hours if his average speed is 35 km per h\n(b) a runner travel in 20 minutes if her average speed is 14 km per h\n(c) a walker travel in 1 hour 20 minutes if her average speed is 4.2 km per h?\n\n6. Find the time required for:\n\n(a) a car to travel 120 km at a speed of 90 km per hour\n(b) a cyclist to travel 50 km at a speed of 30 km per hour\n(c) a jogger to run 8 km at a speed of 10 km per hour.",
+      "source_images": ["image2526.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "In order to compare samples of metals or rocks, we use a rate called density. This is a measure of how compact the material is, or how much of it can be put into a given volume.\n\nThe density of an object is its mass per unit of volume.\n\nFor example, the density of pure gold is 19.3 grams per $\\text{cm}^3$. This means that every cubic centimetre of pure gold weighs 19.3 grams.\n\nDensity can be found using the formula:\n\n$\\text{density} = \\frac{\\text{mass}}{\\text{volume}}$\n\nWe can rearrange this formula to obtain:\n\n$\\text{mass} = \\text{density} \\times \\text{volume}$ and $\\text{volume} = \\frac{\\text{mass}}{\\text{density}}$.",
+      "source_images": ["image2527.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "This table lists some common densities in g per $\\text{cm}^3$.\n\n| Material | Density | Material | Density |\n|---|---|---|---|\n| carbon dioxide | 0.002 | aluminium | 2.7 |\n| petrol | 0.70 | iron | 7.8 |\n| ice | 0.92 | lead | 11.3 |\n| water | 1.00 | gold | 19.3 |\n| milk | 1.03 | platinum | 21.4 |",
+      "source_images": ["image2528.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 6\n\nFind the density of a piece of timber which is 60 cm by 10 cm by 3 cm and weighs 1.62 kg.\n\n$1.62 \\text{ kg} = 1.62 \\times 1000 \\text{ g} = 1620 \\text{ g}$\n\n$\\text{Density} = \\frac{\\text{mass}}{\\text{volume}}$\n\n$= \\frac{1620 \\text{ g}}{60 \\times 10 \\times 3 \\text{ cm}^3}$\n\n$= 0.9 \\text{ g per cm}^3$",
+      "source_images": ["image2529.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 7\n\nHow many times heavier is gold than iron?\n\nThe ratio of densities $\\frac{\\text{density of gold}}{\\text{density of iron}} = \\frac{19.3}{7.8} \\approx 2.47$\n\n$\\therefore$ gold is 2.47 times heavier than iron.",
+      "source_images": ["image2530.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 22E\n\n1. Find the density of:\n\n(a) an object with a volume of $2.5 \\text{ cm}^3$ which weighs 10 g\n(b) a piece of metal which weighs 2.4 kg and has a volume of $300 \\text{ cm}^3$\n(c) a piece of timber which is 3.2 m by 20 cm by 5 cm and weighs 28.8 kg.\n\n2. How many times heavier is:\n\n(a) gold than water\n(b) iron than aluminium\n(c) water than petrol?\n\n3. Answer the Opening Problem question 2 on page 428.\n\n4. Find the mass of:\n\n(a) an aluminium block which is 30 cm by 4 cm by 2 cm\n(b) an iron bar which is 1 m by 5 cm by 3 cm\n(c) a length of railway track which is 10 m long and has a cross-sectional area of $80 \\text{ cm}^2$.",
+      "source_images": ["image2531.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. Petrol and water do not mix. If the two liquids are poured into a container, they will separate into two layers. Which is the upper layer?\n\n6. Find the volume of:\n\n(a) an ingot of lead which weighs 300 kg\n(b) a lump of ice which weighs 25.6 kg.\n\n7. A jeweller buys a 4 cm by 2 cm by 1 cm bar of platinum for 42 pounds per gram. How much did the jeweller pay for the bar?",
+      "source_images": ["image2532.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 8\n\nA petrol bowser pumps petrol at the rate of 600 L per hour. Write this rate in L per minute.\n\nIn 1 hour, the bowser pumps 600 L.\n\nThere are 60 minutes in 1 hour, so in 1 minute the bowser pumps $\\frac{600}{60} = 10$ L\n\nThis is a rate of 10 L per minute.",
+      "source_images": ["image2533.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 22F.1\n\n1. A petrol tanker discharges petrol at the rate of 200 L per min. Write this rate in L per hour.\n\n2. Ricki's heart rate is 72 beats per min. Write her heart rate in:\n\n(a) beats per day\n(b) beats per year\n(c) beats per second.",
+      "source_images": ["image2534.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. A tap drips at 50 mL per minute. Write this rate in:\n\n(a) mL per h\n(b) L per h.\n\n4. Maya's hair grew 8 cm in 3 months. Write how fast her hair is growing in:\n\n(a) cm per year\n(b) cm per day\n(c) mm per day.\n\n5. Lleyton sleeps 8 hours per day. Write his rate of sleep in days per year.\n\n6. A brass rod weighs 0.08 kg per m.\n\n(a) Convert this rate into g per cm.\n(b) Find the weight of a 27 cm length of this rod.",
+      "source_images": ["image2535.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "SPEED CONVERSIONS\n\nRoger rides his bicycle at 36 km per hour. To write his speed in m per s, consider this conversion:\n\n$36 \\text{ km per h} = \\frac{36 \\text{ km}}{1 \\text{ hour}}$\n\n$= \\frac{36000 \\text{ metres}}{3600 \\text{ seconds}}$ $\\{1 \\text{ h} = 60 \\text{ min} = 60 \\times 60 \\text{ s}\\}$\n\n$= 10 \\text{ m per s}$\n\nSo, travelling at 10 m per s is the same as travelling at 36 km per h.\n\nWe say that these are equivalent rates.",
+      "source_images": ["image2536.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Notice that travelling at 1 m per s is the same as travelling at 3.6 km per h.\n\nSo, to convert:\n\n- m per s into km per h we multiply by 3.6\n- km per h into m per s we divide by 3.6",
+      "source_images": ["image2537.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 22F.2\n\n1. Using 10 m per s $= 36$ km per h, mentally convert to km per hour:\n\n(a) 20 m per s\n(b) 50 m per s\n(c) 5 m per s\n\n2. Mentally convert to m per s:\n\n(a) 72 km per h\n(b) 144 km per h\n(c) 9 km per h",
+      "source_images": ["image2538.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 9\n\n(a) A sprinter runs at 11 m per s. Convert this to km per h.\n(b) An aeroplane travels at 900 km per h. Convert this to m per s.\n\n(a) 11 m per s\n$= (11 \\times 3.6)$ km per h\n$= 39.6$ km per h\n\n(b) 900 km per h\n$= (900 \\div 3.6)$ m per s\n$= 250$ m per s",
+      "source_images": ["image2539.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Convert to km per h:\n\n(a) 100 m per s\n(b) 15 m per s\n(c) 27.6 m per s\n(d) 500 m per s\n\n4. Convert to m per s:\n\n(a) 60 km per h\n(b) 100 km per h\n(c) 82.8 km per h\n(d) 630 km per h",
+      "source_images": ["image2540.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 10\n\nA 400 m sprinter finishes a race in 45 seconds. Find his speed in km per h.\n\n$\\text{speed} = \\frac{400 \\text{ m}}{45 \\text{ sec}}$\n\n$= 8.888\\overline{8}...$ m per s\n\n$= (8.888\\overline{8}... \\times 3.6)$ km per h\n\n$= 32$ km per h",
+      "source_images": ["image2541.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. Find the following speeds in km per h:\n\n(a) A sprinter runs 200 m in 24 seconds.\n(b) A greyhound races 500 m in 29 seconds.\n(c) A horse gallops 3200 m in 3 minutes and 20 seconds.\n(d) A swimmer covers 1500 m in 15 minutes.",
+      "source_images": ["image2542.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 22A\n\n1. A petrol pump delivers 45 litres of petrol into a car in 3 minutes. Write this rate in litres per minute.\n\n2. Convert:\n\n(a) 80 beats per minute into beats per day\n(b) 18 m per s to km per h",
+      "source_images": ["image2543.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Which of the blocks of chocolate is the better value for money?\n\nMilk Chocolate 250 g $\\$2.19$ or Milk Chocolate 150 g $\\$1.45$\n\n4. At a local market it costs $€6.50$ to buy 2.6 kg of apples.\n\n(a) Find the price per kilogram of these apples.\n(b) How much would it cost to buy 3.4 kg of these apples?\n\n5. A German train travels 925 km in 6 hours, while a car on the autobahn travels 85 km in 65 minutes. Which travels at the faster rate?\n\n6. Ben drives his motorboat for 4 hours. In this time he covers a distance of 76 km, and uses 15 L of petrol. Find:\n\n(a) Ben's average speed in km per h\n(b) the petrol consumption of the boat in km per L.\n\n7. Dennis lives 27 km from his work. If he leaves home at 8:20 am and drives at an average speed of 36 km per hour, will he get to work by 9 am?\n\n8. Find the density of a block of wood which is $2 \\text{ m} \\times 12 \\text{ cm} \\times 5 \\text{ cm}$ and has mass 10.56 kg.\n\n9. Given that lead has a density of 11.3 g per $\\text{cm}^3$, find the volume of a bar of lead with mass 16.5 kg.\n\n10. A cyclist travels 800 metres in 1 minute and 35 seconds. Find the speed of the cyclist in km per h.",
+      "source_images": ["image2544.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 22B\n\n1. Trevor receives $€108$ for 8 hours of work. What is his hourly rate of pay?\n\n2. Which of these bottles is the better value for money?\n\nDetergent 1 L $£2.59$ or Detergent 750 mL $£1.98$\n\n3. Convert:\n\n(a) 50 km per h to m per s\n(b) 5 cm per day to m per year",
+      "source_images": ["image2546.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Aslan made a 6 minute call on his mobile phone which cost RM 7.24. Li made a 13 minute call on her mobile which cost RM 15.52. Who is charged at the cheaper rate?\n\n5. Water from a hose will fill a 2 L bucket in 10 seconds. How long will it take to fill a 12 L tank?\n\n6. The graph shows the progress of a car as it travels between cities.\n\n(a) How far does the car travel in 3 hours?\n(b) How long does it take for the car to travel 100 km?\n(c) Find the speed of the car.\n\n7. (a) How far will a runner travel in 2 hours and 30 minutes if her average speed is 13 km per h?\n(b) How long will it take for a bus to travel 60 km at an average speed of 48 km per h?\n\n8. Find the density of an 32 g sinker with a volume of $6.8 \\text{ cm}^3$.\n\n9. Use the table of densities on page 436 to answer the following:\n\n(a) Which is heavier: a cube of iron with sides 8 cm or a cube of gold with sides 6 cm?\n(b) What is the volume of a 220 kg bar of aluminium?\n\n10. Emily watches 3 hours of television per day. Write her rate of television watching in days per year.",
+      "source_images": ["image2547.png"]
+    }
+  ]
+}

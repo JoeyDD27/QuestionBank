@@ -25,7 +25,7 @@
     },
     {
       "type": "example",
-      "content_latex": "Example 3\n\nDo $A(2, -8)$ and $B(-3, 4)$ satisfy the quadratic function $y = -x^2 - 3x + 2$?\n\nSolution:\n\nWhen $x = 2$,\n$y = -(2)^2 - 3(2) + 2$\n$= -4 - 6 + 2$\n$= -8$\n\n$\\therefore$ A satisfies the function, so A lies on its graph.\n\nWhen $x = -3$,\n$y = -(-3)^2 - 3(-3) + 2$\n$= -9 + 9 + 2$\n$= 2$ which is $\\neq 4$\n\n$\\therefore$ B does not satisfy the function, so B does not lie on its graph.",
+      "content_latex": "Example 3\n\nDo A$(2, -8)$ and B$(-3, 4)$ satisfy the quadratic function $y = -x^2 - 3x + 2$?\n\nSolution:\n\nWhen $x = 2$,\n$y = -(2)^2 - 3(2) + 2$\n$= -4 - 6 + 2$\n$= -8$\n\n$\\therefore$ A satisfies the function, so A lies on its graph.\n\nWhen $x = -3$,\n$y = -(-3)^2 - 3(-3) + 2$\n$= -9 + 9 + 2$\n$= 2$ which is $\\neq 4$\n\n$\\therefore$ B does not satisfy the function, so B does not lie on its graph.",
       "source_images": ["image983.png"]
     },
     {
@@ -45,18 +45,18 @@
     },
     {
       "type": "exercise",
-      "content_latex": "EXERCISE 19A\n\n1. Are the following quadratic functions?\nGive values for $a$, $b$, $c$ if they are, and a reason if they are not.\n\n(a) $y = 2x^2 + x + 4$\n\n(b) $y = 3x + 8$\n\n(c) $y = -x^2 - x - 1$\n\n(d) $y = x^2$\n\n(e) $y = \\frac{1}{2}x^2 - 6$\n\n(f) $y = -2x + 5x^3$\n\n(g) $y = -3x^2$\n\n(h) $y = -x^{-2} - 4x$\n\n(i) $2y + 4x^2 + 5 = 0$\n\n2. If $y = x^2 + 2x - 5$, find $y$ when:\n\n(a) $x = 3$\n\n(b) $x = 0$\n\n(c) $x = -2$\n\n3. If $y = 3x^2 - x + 4$, find $y$ when:\n\n(a) $x = 0$\n\n(b) $x = 2$\n\n(c) $x = -3$\n\n4. If $y = -2x^2 - 4x + 7$, find $y$ when:\n\n(a) $x = 1$\n\n(b) $x = -3$\n\n(c) $x = \\frac{1}{2}$\n\n5. (a) Do $A(3, 10)$ and $B(-2, 13)$ lie on $y = 2x^2 - 3x - 1$?\n\n(b) Do $P(0, 2)$, $Q(2, 7)$ and $R(-1, -4)$ lie on $y = -x^2 + 5x + 2$?\n\n6. (a) The point $C(2, k)$ lies on $y = x^2 + 3x - 7$. Find $k$.\n\n(b) The point $D(-3, d)$ lies on $y = 4x - 3x^2$. Find $d$.\n\n(c) The point $E(m, 7)$ lies on $y = x^2 + 3x - 3$. Find $m$.\n\n(d) The point $F(n, 29)$ lies on $y = 2x^2 + x + 8$. Find $n$.\n\n7. If $y = x^2 + 2x + 3$, find $x$ when:\n\n(a) $y = 0$\n\n(b) $y = 2$\n\n8. If $y = x^2 - 4x + 6$, find $x$ when:\n\n(a) $y = 2$\n\n(b) $y = 0$\n\n(c) $y = 11$",
+      "content_latex": "EXERCISE 19A\n\n1. Are the following quadratic functions?\nGive values for $a$, $b$, $c$ if they are, and a reason if they are not.\n\n(a) $y = 2x^2 + x + 4$\n\n(b) $y = 3x + 8$\n\n(c) $y = -x^2 - x - 1$\n\n(d) $y = x^2$\n\n(e) $y = \\frac{1}{2}x^2 - 6$\n\n(f) $y = -2x + 5x^3$\n\n(g) $y = -3x^2$\n\n(h) $y = -x^{-2} - 4x$\n\n(i) $2y + 4x^2 + 5 = 0$\n\n2. If $y = x^2 + 2x - 5$, find $y$ when:\n\n(a) $x = 3$\n\n(b) $x = 0$\n\n(c) $x = -2$\n\n3. If $y = 3x^2 - x + 4$, find $y$ when:\n\n(a) $x = 0$\n\n(b) $x = 2$\n\n(c) $x = -3$\n\n4. If $y = -2x^2 - 4x + 7$, find $y$ when:\n\n(a) $x = 1$\n\n(b) $x = -3$\n\n(c) $x = \\frac{1}{2}$\n\n5. (a) Do A$(3, 10)$ and B$(-2, 13)$ lie on $y = 2x^2 - 3x - 1$?\n\n(b) Do P$(0, 2)$, Q$(2, 7)$ and R$(-1, -4)$ lie on $y = -x^2 + 5x + 2$?\n\n6. (a) The point C$(2, k)$ lies on $y = x^2 + 3x - 7$. Find $k$.\n\n(b) The point D$(-3, d)$ lies on $y = 4x - 3x^2$. Find $d$.\n\n(c) The point E$(m, 7)$ lies on $y = x^2 + 3x - 3$. Find $m$.\n\n(d) The point F$(n, 29)$ lies on $y = 2x^2 + x + 8$. Find $n$.\n\n7. If $y = x^2 + 2x + 3$, find $x$ when:\n\n(a) $y = 0$\n\n(b) $y = 2$\n\n8. If $y = x^2 - 4x + 6$, find $x$ when:\n\n(a) $y = 2$\n\n(b) $y = 0$\n\n(c) $y = 11$",
       "source_images": ["image987.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "9. (a) If $y = x^2 + 6x + 7$, find $x$ when $y = 7$.\n\n(b) If $y = x^2 - 4x - 1$, find $x$ when $y = 11$.\n\n(c) If $y = 3x^2 - 5x$, find $x$ when $y = -2$.\n\n10. A cannonball is fired into the air. Its height is given by $H = 60t - 5t^2$ metres where $t$ is the time in seconds after its release.\n\n(a) Find the height of the cannonball when:\n\n(i) $t = 0$\n\n(ii) $t = 1$\n\n(iii) $t = 3$\n\n(iv) $t = 8$\n\n(b) Find the time at which the height:\n\n(i) $H = 0$\n\n(ii) $H = 100$\n\n(iii) $H = 160$\n\n(c) Graph $H = 60t - 5t^2$ using the information from (a) and (b) only. Connect the points using a smooth curve.",
-      "source_images": ["image988.png"]
+      "content_latex": "9. (a) If $y = x^2 + 6x + 7$, find $x$ when $y = 7$.\n\n(b) If $y = x^2 - 4x - 1$, find $x$ when $y = 11$.\n\n(c) If $y = 3x^2 - 5x$, find $x$ when $y = -2$.\n\n10. A cannonball is fired into the air. Its height is given by $H = 60t - 5t^2$ metres where $t$ is the time in seconds after its release.\n\n(a) Find the height of the cannonball when:\n\n(i) $t = 0$\n\n(ii) $t = 1$\n\n(iii) $t = 3$\n\n(iv) $t = 8$\n\n(b) Find the time at which the height:\n\n(i) $H = 0$\n\n(ii) $H = 100$\n\n(iii) $H = 160$\n\n(c) Graph $H = 60t - 5t^2$ using the information from (a) and (b) only. Connect the points using a smooth curve.\n\n11. A stone is thrown into the air. Its height above the ground is given by the function $H = -5t^2 + 30t + 2$ metres where $t$ is the time in seconds from when the stone is released.",
+      "source_images": ["image988.png", "image989.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "11. A stone is thrown into the air. Its height above the ground is given by the function $H = -5t^2 + 30t + 2$ metres where $t$ is the time in seconds from when the stone is released.\n\n(a) How high above the ground was the stone released?\n\n(b) How high above the ground is the stone at time $t = 3$ seconds?\n\n(c) At what times was the stone's height above the ground:\n\n(i) 27 m\n\n(ii) 42 m?\n\n(d) Draw the graph of $H$ against $t$ using (a), (b) and (c) only.\n\n12. Bjorn makes wooden display cabinets. He finds that the profit in euros for making $x$ cabinets per day is given by $P = 320x - 20x^2 - 320$ euro.\n\n(a) Calculate Bjorn's profit if he makes:\n\n(i) 0\n\n(ii) 4\n\n(iii) 10 cabinets per day.\n\n(b) How many cabinets per day must Bjorn make to receive a €460 profit?",
-      "source_images": ["image989.png", "image990.png"]
+      "content_latex": "(a) How high above the ground was the stone released?\n\n(b) How high above the ground is the stone at time $t = 3$ seconds?\n\n(c) At what times was the stone's height above the ground:\n\n(i) 27 m\n\n(ii) 42 m?\n\n(d) Draw the graph of $H$ against $t$ using (a), (b) and (c) only.\n\n12. Bjorn makes wooden display cabinets. He finds that the profit in euros for making $x$ cabinets per day is given by $P = 320x - 20x^2 - 320$ euro.\n\n(a) Calculate Bjorn's profit if he makes:\n\n(i) 0\n\n(ii) 4\n\n(iii) 10 cabinets per day.\n\n(b) How many cabinets per day must Bjorn make to receive a €460 profit?",
+      "source_images": ["image990.png"]
     },
     {
       "type": "exercise",
@@ -65,7 +65,7 @@
     },
     {
       "type": "exercise",
-      "content_latex": "4. For each of the following quadratic functions, find the value(s) of $x$ for the given value of $y$:\n\n(a) $y = x^2 + 6x + 10$ when $y = 1$\n\n(b) $y = x^2 + 5x + 8$ when $y = 2$\n\n(c) $y = x^2 - 5x + 1$ when $y = -3$\n\n(d) $y = 3x^2$ when $y = -3$\n\n5. Find the value(s) of $x$ for which:\n\n(a) $f(x) = 3x^2 - 3x + 6$ takes the value $6$\n\n(b) $f(x) = x^2 - 2x - 7$ takes the value $-4$\n\n(c) $f(x) = -2x^2 - 13x + 3$ takes the value $-4$\n\n(d) $f(x) = 2x^2 - 10x + 1$ takes the value $-11$\n\n6. An object is projected into the air with a velocity of 80 m s$^{-1}$. Its height after $t$ seconds is given by the function $h(t) = 80t - 5t^2$ metres.\n\n(a) Calculate the height of the object after:\n\n(i) 1 second\n\n(ii) 3 seconds\n\n(iii) 5 seconds.\n\n(b) Calculate the time(s) at which the height of the object is:\n\n(i) 140 m\n\n(ii) 0 m.\n\n(c) Explain your answers in part (b).\n\n7. A cake manufacturer finds that the profit from making $x$ cakes per day is given by the function $P(x) = -\\frac{1}{2}x^2 + 36x - 40$ dollars.\n\n(a) Calculate the profit if\n\n(i) 0 cakes\n\n(ii) 20 cakes are made per day.\n\n(b) How many cakes need to be made per day to achieve a profit of $270?",
+      "content_latex": "4. For each of the following quadratic functions, find the value(s) of $x$ for the given value of $y$:\n\n(a) $y = x^2 + 6x + 10$ when $y = 1$\n\n(b) $y = x^2 + 5x + 8$ when $y = 2$\n\n(c) $y = x^2 - 5x + 1$ when $y = -3$\n\n(d) $y = 3x^2$ when $y = -3$\n\n5. Find the value(s) of $x$ for which:\n\n(a) $f(x) = 3x^2 - 3x + 6$ takes the value 6\n\n(b) $f(x) = x^2 - 2x - 7$ takes the value $-4$\n\n(c) $f(x) = -2x^2 - 13x + 3$ takes the value $-4$\n\n(d) $f(x) = 2x^2 - 10x + 1$ takes the value $-11$\n\n6. An object is projected into the air with a velocity of 80 m s$^{-1}$. Its height after $t$ seconds is given by the function $h(t) = 80t - 5t^2$ metres.\n\n(a) Calculate the height of the object after:\n\n(i) 1 second\n\n(ii) 3 seconds\n\n(iii) 5 seconds.\n\n(b) Calculate the time(s) at which the height of the object is:\n\n(i) 140 m\n\n(ii) 0 m.\n\n(c) Explain your answers in part (b).\n\n7. A cake manufacturer finds that the profit from making $x$ cakes per day is given by the function $P(x) = -\\frac{1}{2}x^2 + 36x - 40$ dollars.\n\n(a) Calculate the profit if\n\n(i) 0 cakes\n\n(ii) 20 cakes are made per day.\n\n(b) How many cakes need to be made per day to achieve a profit of $270?",
       "source_images": ["image992.png"]
     },
     {
@@ -130,22 +130,22 @@
     },
     {
       "type": "concept",
-      "content_latex": "From the Investigation you should have discovered the following important facts:\n\n- Graphs of the form $y = x^2 + k$ have the same shape as the graph of $y = x^2$.\n\nThe graph of $y = x^2$ is translated through $\\begin{pmatrix} 0 \\\\ k \\end{pmatrix}$ to give the graph of $y = x^2 + k$.\n\n- Graphs of the form $y = (x - h)^2$ have the same shape as the graph of $y = x^2$.\n\nThe graph of $y = x^2$ is translated through $\\begin{pmatrix} h \\\\ 0 \\end{pmatrix}$ to give the graph of $y = (x - h)^2$.\n\n- Graphs of the form $y = (x - h)^2 + k$ have the same shape as the graph of $y = x^2$.\n\nThe graph of $y = x^2$ is translated through $\\begin{pmatrix} h \\\\ k \\end{pmatrix}$ to give the graph of $y = (x - h)^2 + k$.\n\nThe vertex is shifted to $(h, k)$.\n\n- If $a > 0$, $y = ax^2$ opens upwards.\n\nIf $a < 0$, $y = ax^2$ opens downwards.\n\nIf $a < -1$ or $a > 1$, then $y = ax^2$ is 'thinner' than $y = x^2$.\n\nIf $-1 < a < 1$, $a \\neq 0$, then $y = ax^2$ is 'wider' than $y = x^2$.",
+      "content_latex": "From the Investigation you should have discovered the following important facts:\n\n- Graphs of the form $y = x^2 + k$ have the same shape as the graph of $y = x^2$.\nThe graph of $y = x^2$ is translated through $\\begin{pmatrix} 0 \\\\ k \\end{pmatrix}$ to give the graph of $y = x^2 + k$.\n\n- Graphs of the form $y = (x - h)^2$ have the same shape as the graph of $y = x^2$.\nThe graph of $y = x^2$ is translated through $\\begin{pmatrix} h \\\\ 0 \\end{pmatrix}$ to give the graph of $y = (x - h)^2$.\n\n- Graphs of the form $y = (x - h)^2 + k$ have the same shape as the graph of $y = x^2$.\nThe graph of $y = x^2$ is translated through $\\begin{pmatrix} h \\\\ k \\end{pmatrix}$ to give the graph of $y = (x - h)^2 + k$.\nThe vertex is shifted to $(h, k)$.\n\n- If $a > 0$, $y = ax^2$ opens upwards.\nIf $a < 0$, $y = ax^2$ opens downwards.\nIf $a < -1$ or $a > 1$, then $y = ax^2$ is 'thinner' than $y = x^2$.\nIf $-1 < a < 1$, $a \\neq 0$, then $y = ax^2$ is 'wider' than $y = x^2$.",
       "source_images": ["image1008.png"]
     },
     {
       "type": "concept",
-      "content_latex": "$y = a(x - h)^2 + k$\n\n$a > 0$: opens upwards\n$a < 0$: opens downwards\n\n$a < -1$ or $a > 1$: thinner than $y = x^2$\n$-1 < a < 1$, $a \\neq 0$: wider than $y = x^2$\n\nvertical translation of $k$ units:\nif $k > 0$ it goes up\nif $k < 0$ it goes down\n\nhorizontal translation of $h$ units:\nif $h > 0$ it goes right\nif $h < 0$ it goes left",
+      "content_latex": "$y = a(x - h)^2 + k$\n\n$a > 0$: opens upwards\n$a < 0$: opens downwards\n\nvertical translation of $k$ units:\nif $k > 0$ it goes up\nif $k < 0$ it goes down\n\nhorizontal translation of $h$ units:\nif $h > 0$ it goes right\nif $h < 0$ it goes left\n\n$a < -1$ or $a > 1$: thinner than $y = x^2$\n$-1 < a < 1$, $a \\neq 0$: wider than $y = x^2$",
       "source_images": ["image1009.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 5\n\nSketch each of the following functions on the same set of axes as $y = x^2$. In each case state the coordinates of the vertex.\n\n(a) $y = x^2 + 3$\n\n(b) $y = (x + 3)^2$\n\nSolutions:\n\n(a) We draw $y = x^2$, then translate it 3 units upwards.\n\nThe vertex is at $(0, 3)$.\n\n(b) We draw $y = x^2$, then translate it 3 units to the left.\n\nThe vertex is at $(-3, 0)$.",
+      "content_latex": "Example 5\n\nSketch each of the following functions on the same set of axes as $y = x^2$. In each case state the coordinates of the vertex.\n\n(a) $y = x^2 + 3$\n\n(b) $y = (x + 3)^2$\n\nSolutions:\n\n(a) We draw $y = x^2$, then translate it 3 units upwards.\nThe vertex is at $(0, 3)$.\n\n(b) We draw $y = x^2$, then translate it 3 units to the left.\nThe vertex is at $(-3, 0)$.",
       "source_images": ["image1010.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 6\n\nSketch each of the following functions on the same set of axes as $y = x^2$. In each case state the coordinates of the vertex.\n\n(a) $y = (x - 2)^2 + 3$\n\n(b) $y = (x + 2)^2 - 5$\n\nSolutions:\n\n(a) We draw $y = x^2$, then translate it 2 units to the right and 3 units upwards.\n\nThe vertex is at $(2, 3)$.\n\n(b) We draw $y = x^2$, then translate it 2 units to the left and 5 units downwards.\n\nThe vertex is at $(-2, -5)$.",
+      "content_latex": "Example 6\n\nSketch each of the following functions on the same set of axes as $y = x^2$. In each case state the coordinates of the vertex.\n\n(a) $y = (x - 2)^2 + 3$\n\n(b) $y = (x + 2)^2 - 5$\n\nSolutions:\n\n(a) We draw $y = x^2$, then translate it 2 units to the right and 3 units upwards.\nThe vertex is at $(2, 3)$.\n\n(b) We draw $y = x^2$, then translate it 2 units to the left and 5 units downwards.\nThe vertex is at $(-2, -5)$.",
       "source_images": ["image1011.png"]
     },
     {
@@ -210,17 +210,12 @@
     },
     {
       "type": "concept",
-      "content_latex": "- An $x$-intercept of a function is a value of $x$ where its graph meets the $x$-axis.\n\n$x$-intercepts are found by letting $y$ be $0$ in the equation of the function.\n\n- A $y$-intercept of a function is a value of $y$ where its graph meets the $y$-axis.\n\n$y$-intercepts are found by letting $x$ be $0$ in the equation of the function.",
-      "source_images": ["image1024.png"]
-    },
-    {
-      "type": "concept",
-      "content_latex": "THE $y$-INTERCEPT\n\nFor a quadratic function in the form $y = ax^2 + bx + c$, the $y$-intercept is the constant term $c$.\n\nProof:\n\nIf $x = 0$ then $y = a(0)^2 + b(0) + c$\n$\\therefore y = c$\n\nTHE $x$-INTERCEPTS\n\nFor a quadratic function in the form $y = a(x - \\alpha)(x - \\beta)$, the $x$-intercepts are $\\alpha$ and $\\beta$.\n\nProof:\n\nIf $y = 0$ then $a(x - \\alpha)(x - \\beta) = 0$\n$\\therefore x = \\alpha$ or $\\beta$ {since $a \\neq 0$}\n\n$x$-intercepts are therefore easy to find when the quadratic is in factorised form.",
-      "source_images": ["image1025.png"]
+      "content_latex": "An $x$-intercept of a function is a value of $x$ where its graph meets the $x$-axis.\n$x$-intercepts are found by letting $y$ be 0 in the equation of the function.\n\nA $y$-intercept of a function is a value of $y$ where its graph meets the $y$-axis.\n$y$-intercepts are found by letting $x$ be 0 in the equation of the function.\n\nTHE $y$-INTERCEPT\n\nFor a quadratic function in the form $y = ax^2 + bx + c$, the $y$-intercept is the constant term $c$.\n\nProof:\n\nIf $x = 0$ then $y = a(0)^2 + b(0) + c$\n$\\therefore y = c$\n\nTHE $x$-INTERCEPTS\n\nFor a quadratic function in the form $y = a(x - \\alpha)(x - \\beta)$, the $x$-intercepts are $\\alpha$ and $\\beta$.\n\nProof:\n\nIf $y = 0$ then $a(x - \\alpha)(x - \\beta) = 0$\n$\\therefore x = \\alpha$ or $\\beta$ (since $a \\neq 0$)\n\n$x$-intercepts are therefore easy to find when the quadratic is in factorised form.",
+      "source_images": ["image1024.png", "image1025.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 10\n\nFind the $x$-intercepts of:\n\n(a) $y = 2(x - 3)(x + 2)$\n\n(b) $y = -(x - 4)^2$\n\nSolutions:\n\n(a) When $y = 0$,\n$2(x - 3)(x + 2) = 0$\n$\\therefore x = 3$ or $x = -2$\n$\\therefore$ the $x$-intercepts are $3$ and $-2$.\n\n(b) When $y = 0$,\n$-(x - 4)^2 = 0$\n$\\therefore x = 4$\n$\\therefore$ the $x$-intercept is $4$.",
+      "content_latex": "Example 10\n\nFind the $x$-intercepts of:\n\n(a) $y = 2(x - 3)(x + 2)$\n\n(b) $y = -(x - 4)^2$\n\nSolutions:\n\n(a) When $y = 0$,\n$2(x - 3)(x + 2) = 0$\n$\\therefore x = 3$ or $x = -2$\n$\\therefore$ the $x$-intercepts are 3 and $-2$.\n\n(b) When $y = 0$,\n$-(x - 4)^2 = 0$\n$\\therefore x = 4$\n$\\therefore$ the $x$-intercept is 4.",
       "source_images": ["image1026.png"]
     },
     {

@@ -1,41 +1,41 @@
 {
   "chapter": 13,
   "part": 1,
-  "images_range": "1232-1295",
+  "images_range": "1232-1274",
   "items": [
     {
-      "type": "definition",
+      "type": "concept",
       "content_latex": "A Venn diagram consists of a universal set $U$ represented by a rectangle, and subsets within it that are generally represented by circles.",
       "source_images": ["image1232.png"]
     },
     {
       "type": "concept",
-      "content_latex": "For $A = \\{1, 4, 8\\}$ and $U = \\{1, 2, 3, 4, 5, 6, 7, 8, 9\\}$, the Venn diagram is:\n\n[Venn diagram showing set $A$ containing elements 1, 4, 8 inside a circle, with elements 2, 3, 5, 6, 7, 9 outside the circle but inside the rectangle $U$]",
+      "content_latex": "For $A = \\{1, 4, 8\\}$ and $U = \\{1, 2, 3, 4, 5, 6, 7, 8, 9\\}$, the Venn diagram is:\n\n[Venn diagram showing set $A$ containing elements 1, 4, 8 inside a circle, with elements 2, 3, 5, 6, 7, 9 outside the circle but inside the universal set $U$]",
       "source_images": ["image1233.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 5\n\nConsider the set $S = \\{2, 4, 6, 7\\}$ within the universal set $U = \\{x \\mid x \\leqslant 10, \\ x \\in \\mathbb{Z}^+\\}$.\n\n(a) Draw a Venn diagram to show $S$.\n\n(b) List the elements of the complement set $S'$.\n\n(c) Find:\n\n(i) $n(S)$\n\n(ii) $n(S')$\n\n(iii) $n(U)$\n\nSolutions:\n\n(a) [Venn diagram showing $S$ with elements 2, 4, 6, 7 inside circle, and 1, 3, 5, 8, 9, 10 outside]\n\n(b) $S' = \\{1, 3, 5, 8, 9, 10\\}$\n\n(c) (i) $n(S) = 4$\n\n(ii) $n(S') = 6$\n\n(iii) $n(U) = 10$",
+      "content_latex": "Example 5\n\nConsider the set $S = \\{2, 4, 6, 7\\}$ within the universal set $U = \\{x \\mid x \\leqslant 10, x \\in \\mathbb{Z}^+\\}$.\n\n(a) Draw a Venn diagram to show $S$.\n\n(b) List the elements of the complement set $S'$.\n\n(c) Find:\n\n(i) $n(S)$\n\n(ii) $n(S')$\n\n(iii) $n(U)$\n\nSolutions:\n\n(a) [Venn diagram showing $S$ with elements 2, 4, 6, 7 inside circle, and 1, 3, 5, 8, 9, 10 outside]\n\n(b) $S' = \\{1, 3, 5, 8, 9, 10\\}$\n\n(c) (i) $n(S) = 4$\n\n(ii) $n(S') = 6$\n\n(iii) $n(U) = 10$",
       "source_images": ["image1234.png"]
     },
     {
       "type": "concept",
-      "content_latex": "For sets which are subsets of other sets, we can place circles within circles.\n\nFor example, this Venn diagram displays real numbers, rational numbers, integers, and natural numbers:\n\n[Nested Venn diagram showing $\\mathbb{N} \\subset \\mathbb{Z} \\subset \\mathbb{Q} \\subset \\mathbb{R}$ with examples:\n- In $\\mathbb{N}$: 0, 10\n- In $\\mathbb{Z}$ but not $\\mathbb{N}$: $-5$, $-2$\n- In $\\mathbb{Q}$ but not $\\mathbb{Z}$: $-5\\frac{1}{4}$, $0.2$, $\\frac{1}{2}$, $0.3333...$\n- In $\\mathbb{R}$ but not $\\mathbb{Q}$: $\\sqrt{2}$, $\\sqrt{5}$, $\\sqrt{8}$, $0.218734019273004597...$]",
+      "content_latex": "For sets which are subsets of other sets, we can place circles within circles.\n\nFor example, this Venn diagram displays real numbers, rational numbers, integers, and natural numbers:\n\n[Nested Venn diagram showing $\\mathbb{N} \\subset \\mathbb{Z} \\subset \\mathbb{Q} \\subset \\mathbb{R}$ with examples: 0, 10 in $\\mathbb{N}$; $-5$, $-2$ in $\\mathbb{Z}$; $-5\\frac{1}{4}$, $0.2$, $\\frac{1}{2}$, $0.3333...$ in $\\mathbb{Q}$; $\\sqrt{2}$, $\\sqrt{5}$, $\\sqrt{8}$, $0.218734019273004597...$, $0.101001000100001...$ in $\\mathbb{R}$]",
       "source_images": ["image1235.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 6\n\nIllustrate the following numbers on a Venn diagram:\n$\\sqrt{3}$, $8\\frac{1}{2}$, $-2$, $7.1$, $16$, $0.115$\n\nSolution:\n\n[Nested Venn diagram with $\\mathbb{N} \\subset \\mathbb{Z} \\subset \\mathbb{Q} \\subset \\mathbb{R}$:\n- In $\\mathbb{N}$: 16\n- In $\\mathbb{Z}$ but not $\\mathbb{N}$: $-2$\n- In $\\mathbb{Q}$ but not $\\mathbb{Z}$: $7.1$, $8\\frac{1}{2}$, $0.115$\n- In $\\mathbb{R}$ but not $\\mathbb{Q}$: $\\sqrt{3}$]",
+      "content_latex": "Example 6\n\nIllustrate the following numbers on a Venn diagram:\n$\\sqrt{3}$, $8\\frac{1}{2}$, $-2$, $7.1$, $16$, $0.115$\n\nSolution:\n\n[Nested Venn diagram with $\\mathbb{N} \\subset \\mathbb{Z} \\subset \\mathbb{Q} \\subset \\mathbb{R}$:\n- $16$ in $\\mathbb{N}$\n- $-2$ in $\\mathbb{Z}$\n- $8\\frac{1}{2}$, $7.1$, $0.115$ in $\\mathbb{Q}$\n- $\\sqrt{3}$ in $\\mathbb{R}$]",
       "source_images": ["image1236.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "EXERCISE 2D\n\n1. Suppose $U = \\{x \\mid x \\leqslant 8, \\ x \\in \\mathbb{Z}^+\\}$ and $A = \\{\\text{prime numbers} \\leqslant 8\\}$.\n\n(a) Show set $A$ on a Venn diagram.\n\n(b) List the set $A'$.\n\n(c) Find:\n\n(i) $n(A)$\n\n(ii) $n(A')$\n\n(iii) $n(U)$",
+      "content_latex": "EXERCISE 2D\n\n1. Suppose $U = \\{x \\mid x \\leqslant 8, x \\in \\mathbb{Z}^+\\}$ and $A = \\{\\text{prime numbers} \\leqslant 8\\}$.\n\n(a) Show set $A$ on a Venn diagram.\n\n(b) List the set $A'$.\n\n(c) Find:\n\n(i) $n(A)$\n\n(ii) $n(A')$\n\n(iii) $n(U)$",
       "source_images": ["image1237.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "2. Suppose $U = \\{\\text{letters of the English alphabet}\\}$ and $V = \\{\\text{letters of the English alphabet which are vowels}\\}$.\n\n(a) Show these sets on a Venn diagram.\n\n(b) List the set $V'$.\n\n(c) Find:\n\n(i) $n(V)$\n\n(ii) $n(V')$\n\n(iii) $n(U)$\n\n3. [Venn diagram showing sets $M$ and $N$ with $N \\subset M$, containing elements: in $M$ only: 5, 6, 9; in $N$: 8, 3, 1; outside both: 7, 2, 10]\n\n(a) List the elements of:\n\n(i) $U$\n\n(ii) $N$\n\n(iii) $M$\n\n(b) Find $n(N)$ and $n(M)$.\n\n(c) Is $M \\subseteq N$?",
+      "content_latex": "2. Suppose $U = \\{\\text{letters of the English alphabet}\\}$ and $V = \\{\\text{letters of the English alphabet which are vowels}\\}$.\n\n(a) Show these sets on a Venn diagram.\n\n(b) List the set $V'$.\n\n(c) Find:\n\n(i) $n(V)$\n\n(ii) $n(V')$\n\n(iii) $n(U)$\n\n3. [Venn diagram showing sets $M$ and $N$ with elements: $M$ contains 5, 6, 9 outside $N$; $N$ contains 8, 3 with intersection containing 4, 1; outside both: 7, 2, 10]\n\n(a) List the elements of:\n\n(i) $U$\n\n(ii) $N$\n\n(iii) $M$\n\n(b) Find $n(N)$ and $n(M)$.\n\n(c) Is $M \\subseteq N$?",
       "source_images": ["image1238.png"]
     },
     {
@@ -45,42 +45,42 @@
     },
     {
       "type": "exercise",
-      "content_latex": "5. Suppose the universal set is $U = \\mathbb{R}$, the set of all real numbers.\n\n$\\mathbb{Q}$, $\\mathbb{Z}$, and $\\mathbb{N}$ are all subsets of $\\mathbb{R}$.\n\n(a) Copy the given Venn diagram and label the sets $U$, $\\mathbb{Q}$, $\\mathbb{Z}$, and $\\mathbb{N}$.\n\n(b) Place these numbers on the Venn diagram:\n$\\frac{2}{3}$, $\\sqrt{7}$, $0.\\overline{4}$, $-1$, $-8\\frac{1}{3}$, $0$, $4$, and $\\alpha = 0.564105923 6....$ which does not terminate or recur.\n\n(c) Shade the region representing the set of irrationals $\\mathbb{Q}'$.\n\n6. Show the following information on a Venn diagram:\n\n(a) $U = \\{\\text{triangles}\\}$, $E = \\{\\text{equilateral triangles}\\}$, $I = \\{\\text{isosceles triangles}\\}$\n\n(b) $U = \\{\\text{quadrilaterals}\\}$, $P = \\{\\text{parallelograms}\\}$, $R = \\{\\text{rectangles}\\}$\n\n7. Suppose $U = \\{x \\mid x \\leqslant 30, \\ x \\in \\mathbb{Z}^+\\}$,\n$A = \\{\\text{prime numbers} \\leqslant 30\\}$,\n$B = \\{\\text{multiples of } 5 \\leqslant 30\\}$,\nand $C = \\{\\text{odd numbers} \\leqslant 30\\}$.\n\nUse the Venn diagram shown to display the elements of the sets.\n\n[Three-circle Venn diagram with sets $A$, $B$, $C$ overlapping]",
+      "content_latex": "5. Suppose the universal set is $U = \\mathbb{R}$, the set of all real numbers.\n\n$\\mathbb{Q}$, $\\mathbb{Z}$, and $\\mathbb{N}$ are all subsets of $\\mathbb{R}$.\n\n(a) Copy the given Venn diagram and label the sets $U$, $\\mathbb{Q}$, $\\mathbb{Z}$, and $\\mathbb{N}$.\n\n(b) Place these numbers on the Venn diagram:\n$\\frac{2}{3}$, $\\sqrt{7}$, $0.\\overline{4}$, $-1$, $-8\\frac{1}{3}$, $0$, $4$, and $\\alpha = 0.564105923 6 ....$ which does not terminate or recur.\n\n(c) Shade the region representing the set of irrationals $\\mathbb{Q}'$.\n\n6. Show the following information on a Venn diagram:\n\n(a) $U = \\{\\text{triangles}\\}$, $E = \\{\\text{equilateral triangles}\\}$, $I = \\{\\text{isosceles triangles}\\}$\n\n(b) $U = \\{\\text{quadrilaterals}\\}$, $P = \\{\\text{parallelograms}\\}$, $R = \\{\\text{rectangles}\\}$\n\n7. Suppose $U = \\{x \\mid x \\leqslant 30, x \\in \\mathbb{Z}^+\\}$,\n$A = \\{\\text{prime numbers} \\leqslant 30\\}$,\n$B = \\{\\text{multiples of } 5 \\leqslant 30\\}$,\nand $C = \\{\\text{odd numbers} \\leqslant 30\\}$.\n\nUse the Venn diagram shown to display the elements of the sets.\n\n[Three-circle Venn diagram with sets $A$, $B$, $C$ overlapping]",
       "source_images": ["image1240.png"]
     },
     {
-      "type": "definition",
+      "type": "concept",
       "content_latex": "If $A$ and $B$ are two sets, then\n\n- $A \\cap B$ is the intersection of $A$ and $B$, and consists of all elements which are in both $A$ and $B$\n\n- $A \\cup B$ is the union of $A$ and $B$, and consists of all elements which are in $A$ or $B$ (or both).",
       "source_images": ["image1241.png"]
     },
     {
       "type": "concept",
-      "content_latex": "[Two Venn diagrams side by side:\n- Left: $A \\cap B$ is shaded red (the overlapping region)\n- Right: $A \\cup B$ is shaded green (both circles entirely)]",
+      "content_latex": "$A \\cap B$ is shaded red.\n\n[Venn diagram showing two overlapping circles $A$ and $B$, with the intersection region shaded red]\n\n$A \\cup B$ is shaded green.\n\n[Venn diagram showing two overlapping circles $A$ and $B$, with both circles entirely shaded green]",
       "source_images": ["image1242.png"]
     },
     {
       "type": "concept",
-      "content_latex": "The complement of a set $A$ is represented by the region outside the circle which represents $A$.\n\n[Venn diagram showing $A'$ as the shaded region outside circle $A$ but inside rectangle $U$]",
+      "content_latex": "The complement of a set $A$ is represented by the region outside the circle which represents $A$.\n\n[Venn diagram showing circle $A$ inside rectangle $U$, with $A'$ labeled as the region outside circle $A$, shaded green]",
       "source_images": ["image1243.png"]
     },
     {
       "type": "concept",
-      "content_latex": "If $A$ is a subset of $B$, we place a circle representing $A$ completely within the circle representing $B$. Every element of $A$ is also an element of $B$.\n\n[Venn diagram showing $A \\subseteq B$ with circle $A$ inside circle $B$, both shaded]",
+      "content_latex": "If $A$ is a subset of $B$, we place a circle representing $A$ completely within the circle representing $B$. Every element of $A$ is also an element of $B$.\n\n[Venn diagram showing $A \\subseteq B$ with circle $A$ inside circle $B$, both inside rectangle $U$]",
       "source_images": ["image1244.png"]
     },
     {
       "type": "concept",
-      "content_latex": "The intersection of two sets $A$ and $B$ is represented by the region where the circles representing $A$ and $B$ overlap. Elements in this region are elements of both $A$ and $B$.\n\n[Venn diagram showing $A \\cap B$ as the overlapping region, shaded]",
+      "content_latex": "The intersection of two sets $A$ and $B$ is represented by the region where the circles representing $A$ and $B$ overlap. Elements in this region are elements of both $A$ and $B$.\n\n[Venn diagram showing $A \\cap B$ as the overlapping region of circles $A$ and $B$, shaded green]",
       "source_images": ["image1245.png"]
     },
     {
       "type": "concept",
-      "content_latex": "The union of two sets $A$ and $B$ is represented by the region inside one or both of the circles representing $A$ and $B$. Elements in this region are elements of either $A$ or $B$.\n\n[Venn diagram showing $A \\cup B$ with both circles shaded]",
+      "content_latex": "The union of two sets $A$ and $B$ is represented by the region inside one or both of the circles representing $A$ and $B$. Elements in this region are elements of either $A$ or $B$.\n\n[Venn diagram showing $A \\cup B$ with both circles $A$ and $B$ shaded green]",
       "source_images": ["image1246.png"]
     },
     {
       "type": "concept",
-      "content_latex": "Disjoint sets $A$ and $B$ are represented by two circles which do not overlap. There are no elements that are members of both $A$ and $B$.\n\n[Venn diagram showing two separate circles $A$ and $B$ that do not touch]",
+      "content_latex": "Disjoint sets $A$ and $B$ are represented by two circles which do not overlap. There are no elements that are members of both $A$ and $B$.\n\n[Venn diagram showing two separate circles $A$ and $B$ that do not overlap, both shaded green]",
       "source_images": ["image1247.png"]
     },
     {
@@ -90,67 +90,57 @@
     },
     {
       "type": "concept",
-      "content_latex": "For example, the Venn diagram alongside shows $A = \\{2, 3, 4, 7\\}$ and $B = \\{1, 3, 7, 8, 10\\}$.\n\nWe can see that $A \\cap B = \\{3, 7\\}$\nand $A \\cup B = \\{1, 2, 3, 4, 7, 8, 10\\}$.\n\n[Venn diagram with:\n- In $A$ only: 2, 4\n- In $A \\cap B$: 3, 7\n- In $B$ only: 1, 8, 10\n- Outside both: 9, 5, 6]",
+      "content_latex": "For example, the Venn diagram alongside shows $A = \\{2, 3, 4, 7\\}$ and $B = \\{1, 3, 7, 8, 10\\}$.\n\nWe can see that $A \\cap B = \\{3, 7\\}$ and $A \\cup B = \\{1, 2, 3, 4, 7, 8, 10\\}$.\n\n[Venn diagram showing overlapping circles $A$ and $B$: $A$ only has 2, 4; intersection has 3, 7; $B$ only has 1, 8, 10; outside both: 9, 5, 6]",
       "source_images": ["image1249.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 8\n\nSuppose $U = \\{\\text{positive integers} \\leqslant 12\\}$, $A = \\{\\text{primes} \\leqslant 12\\}$, and $B = \\{\\text{factors of } 12\\}$.\n\n(a) List the elements of the sets $A$ and $B$.\n\n(b) Show the sets $A$, $B$, and $U$ on a Venn diagram.\n\n(c) List the elements in:\n\n(i) $A'$\n\n(ii) $A \\cap B$\n\n(iii) $A \\cup B$\n\n(d) Find:\n\n(i) $n(A \\cap B)$\n\n(ii) $n(A \\cup B)$\n\n(iii) $n(B')$\n\nSolutions:\n\n(a) $A = \\{2, 3, 5, 7, 11\\}$ and $B = \\{1, 2, 3, 4, 6, 12\\}$\n\n(b) [Venn diagram with:\n- In $A$ only: 5, 11, 7\n- In $A \\cap B$: 2, 3\n- In $B$ only: 1, 4, 12, 6\n- Outside both: 8, 9, 10]\n\n(c) (i) $A' = \\{1, 4, 6, 8, 9, 10, 12\\}$\n\n(ii) $A \\cap B = \\{2, 3\\}$\n\n(iii) $A \\cup B = \\{1, 2, 3, 4, 5, 6, 7, 11, 12\\}$\n\n(d) (i) $n(A \\cap B) = 2$\n\n(ii) $n(A \\cup B) = 9$\n\n(iii) $B' = \\{5, 7, 8, 9, 10, 11\\}$, so $n(B') = 6$",
+      "content_latex": "Example 8\n\nSuppose $U = \\{\\text{positive integers} \\leqslant 12\\}$, $A = \\{\\text{primes} \\leqslant 12\\}$, and $B = \\{\\text{factors of } 12\\}$.\n\n(a) List the elements of the sets $A$ and $B$.\n\n(b) Show the sets $A$, $B$, and $U$ on a Venn diagram.\n\n(c) List the elements in:\n\n(i) $A'$\n\n(ii) $A \\cap B$\n\n(iii) $A \\cup B$\n\n(d) Find:\n\n(i) $n(A \\cap B)$\n\n(ii) $n(A \\cup B)$\n\n(iii) $n(B')$\n\nSolutions:\n\n(a) $A = \\{2, 3, 5, 7, 11\\}$ and $B = \\{1, 2, 3, 4, 6, 12\\}$\n\n(b) [Venn diagram showing: $A$ only has 5, 7, 11; intersection has 2, 3; $B$ only has 1, 4, 6, 12; outside both: 8, 9, 10]\n\n(c) (i) $A' = \\{1, 4, 6, 8, 9, 10, 12\\}$\n\n(ii) $A \\cap B = \\{2, 3\\}$\n\n(iii) $A \\cup B = \\{1, 2, 3, 4, 5, 6, 7, 11, 12\\}$\n\n(d) (i) $n(A \\cap B) = 2$\n\n(ii) $n(A \\cup B) = 9$\n\n(iii) $B' = \\{5, 7, 8, 9, 10, 11\\}$, so $n(B') = 6$",
       "source_images": ["image1250.png"]
     },
     {
-      "type": "definition",
-      "content_latex": "Two sets are disjoint or mutually exclusive if they have no elements in common.\n\nIf $A$ and $B$ are disjoint then $A \\cap B = \\emptyset$.",
+      "type": "concept",
+      "content_latex": "Two sets are disjoint or mutually exclusive if they have no elements in common.\n\nIf $A$ and $B$ are disjoint then $A \\cap B = \\varnothing$.",
       "source_images": ["image1251.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 4\n\nLet $A = \\{1, 2, 4, 5, 7\\}$ and $B = \\{2, 3, 5, 8\\}$. Find:\n\n(a) $A \\cap B$\n\n(b) $A \\cup B$\n\nSolutions:\n\n(a) $A \\cap B = \\{2, 5\\}$ \\{2 and 5 are elements of both sets\\}\n\n(b) $A \\cup B = \\{1, 2, 3, 4, 5, 7, 8\\}$ \\{elements of either $A$ or $B$ or both\\}",
+      "content_latex": "Example 4\n\nLet $A = \\{1, 2, 4, 5, 7\\}$ and $B = \\{2, 3, 5, 8\\}$. Find:\n\n(a) $A \\cap B$\n\n(b) $A \\cup B$\n\nSolutions:\n\n(a) $A \\cap B = \\{2, 5\\}$ $\\quad$ $\\{2$ and $5$ are elements of both sets$\\}$\n\n(b) $A \\cup B = \\{1, 2, 3, 4, 5, 7, 8\\}$ $\\quad$ $\\{$elements of either $A$ or $B$ or both$\\}$",
       "source_images": ["image1252.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 5\n\nLet $P = \\{b, c, f, g, h\\}$ and $Q = \\{c, d, g, i\\}$. Find:\n\n(a) $P \\cap Q$\n\n(b) $P \\cup Q$\n\nSolutions:\n\n(a) $P \\cap Q = \\{c, g\\}$ \\{$c$ and $g$ are elements of both sets\\}\n\n(b) $P \\cup Q = \\{b, c, d, f, g, h, i\\}$ \\{elements of either $P$ or $Q$\\}",
+      "content_latex": "Example 5\n\nLet $P = \\{b, c, f, g, h\\}$ and $Q = \\{c, d, g, i\\}$. Find:\n\n(a) $P \\cap Q$\n\n(b) $P \\cup Q$\n\nSolutions:\n\n(a) $P \\cap Q = \\{c, g\\}$ $\\quad$ $\\{c$ and $g$ are elements of both sets$\\}$\n\n(b) $P \\cup Q = \\{b, c, d, f, g, h, i\\}$ $\\quad$ $\\{$elements of either $P$ or $Q\\}$",
       "source_images": ["image1253.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 6\n\n$A = \\{2, 4, 7, 10\\}$, $B = \\{\\text{prime numbers less than } 10\\}$ and $C = \\{\\text{factors of } 15\\}$.\n\n(a) Find:\n\n(i) $A \\cap B$\n\n(ii) $A \\cap C$\n\n(iii) $B \\cap C$\n\n(b) Which two sets are disjoint?",
-      "source_images": ["image1254.png"]
+      "content_latex": "Example 6\n\n$A = \\{2, 4, 7, 10\\}$, $B = \\{\\text{prime numbers less than } 10\\}$ and $C = \\{\\text{factors of } 15\\}$.\n\n(a) Find:\n\n(i) $A \\cap B$\n\n(ii) $A \\cap C$\n\n(iii) $B \\cap C$\n\n(b) Which two sets are disjoint?\n\nSolutions:\n\n$A = \\{2, 4, 7, 10\\}$, $B = \\{2, 3, 5, 7\\}$, $C = \\{1, 3, 5, 15\\}$\n\n(a) (i) $A \\cap B = \\{2, 7\\}$ $\\quad$ $\\{2$ and $7$ are common to $A$ and $B\\}$\n\n(ii) $A \\cap C = \\varnothing$ $\\quad$ $\\{$no elements are common to $A$ and $C\\}$\n\n(iii) $B \\cap C = \\{3, 5\\}$ $\\quad$ $\\{3$ and $5$ are common to $B$ and $C\\}$\n\n(b) $A$ and $C$ have no elements in common, so $A$ and $C$ are disjoint.",
+      "source_images": ["image1254.png", "image1255.png"]
     },
     {
       "type": "example",
-      "content_latex": "Solutions:\n\n$A = \\{2, 4, 7, 10\\}$, $B = \\{2, 3, 5, 7\\}$, $C = \\{1, 3, 5, 15\\}$\n\n(a) (i) $A \\cap B = \\{2, 7\\}$ \\{2 and 7 are common to $A$ and $B$\\}\n\n(ii) $A \\cap C = \\emptyset$ \\{no elements are common to $A$ and $C$\\}\n\n(iii) $B \\cap C = \\{3, 5\\}$ \\{3 and 5 are common to $B$ and $C$\\}\n\n(b) $A$ and $C$ have no elements in common, so $A$ and $C$ are disjoint.",
-      "source_images": ["image1255.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "Example 7\n\nLet $U = \\{1, 2, 3, 4, 5, 6, 7, 8\\}$. Draw a Venn diagram to represent:\n\n(a) $C = \\{2, 3, 7\\}$\n\n(b) $A = \\{1, 3, 4, 6\\}$, $B = \\{2, 3, 6, 8\\}$\n\nSolutions:\n\n(a) $C = \\{2, 3, 7\\}$\n$C' = \\{1, 4, 5, 6, 8\\}$\n\n[Venn diagram with $C$ containing 2, 3, 7 and outside: 1, 4, 5, 6, 8]\n\n(b) $A \\cap B = \\{3, 6\\}$\n$A \\cup B = \\{1, 2, 3, 4, 6, 8\\}$\n\n[Venn diagram with:\n- In $A$ only: 1, 4\n- In $A \\cap B$: 3, 6\n- In $B$ only: 2, 8\n- Outside: 5, 7]",
+      "content_latex": "Example 7\n\nLet $U = \\{1, 2, 3, 4, 5, 6, 7, 8\\}$. Draw a Venn diagram to represent:\n\n(a) $C = \\{2, 3, 7\\}$\n\n(b) $A = \\{1, 3, 4, 6\\}$, $B = \\{2, 3, 6, 8\\}$\n\nSolutions:\n\n(a) $C = \\{2, 3, 7\\}$\n\n$C' = \\{1, 4, 5, 6, 8\\}$\n\n[Venn diagram showing circle $C$ with 2, 3, 7 inside; 1, 4, 5, 6, 8 outside]\n\n(b) $A \\cap B = \\{3, 6\\}$\n\n$A \\cup B = \\{1, 2, 3, 4, 6, 8\\}$\n\n[Venn diagram showing: $A$ only has 1, 4; intersection has 3, 6; $B$ only has 2, 8; outside both: 5, 7]",
       "source_images": ["image1256.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 8\n\nLet $U = \\{1, 2, 3, 4, 5, 6\\}$. Draw a Venn diagram to represent:\n\n(a) $A = \\{2, 5\\}$, $B = \\{1, 2, 4, 5, 6\\}$\n\n(b) $A = \\{1, 3, 6\\}$, $B = \\{2, 4\\}$\n\nSolutions:\n\n(a) Every element in $A$ is also in $B$, so $A \\subseteq B$.\n\n[Venn diagram showing $A$ as a circle inside $B$, with:\n- In $A$: 2, 5\n- In $B$ but not $A$: 1, 4, 6\n- Outside: 3]\n\n(b) $A \\cap B = \\emptyset$, so $A$ and $B$ are disjoint sets.\n\n[Venn diagram showing two separate circles:\n- In $A$: 1, 3, 6\n- In $B$: 2, 4\n- Outside: 5]",
+      "content_latex": "Example 8\n\nLet $U = \\{1, 2, 3, 4, 5, 6\\}$. Draw a Venn diagram to represent:\n\n(a) $A = \\{2, 5\\}$, $B = \\{1, 2, 4, 5, 6\\}$\n\n(b) $A = \\{1, 3, 6\\}$, $B = \\{2, 4\\}$\n\nSolutions:\n\n(a) Every element in $A$ is also in $B$, so $A \\subseteq B$.\n\n[Venn diagram showing circle $A$ inside circle $B$: $A$ has 2, 5; $B$ also has 1, 4, 6; outside: 3]\n\n(b) $A \\cap B = \\varnothing$, so $A$ and $B$ are disjoint sets.\n\n[Venn diagram showing two separate circles: $A$ has 1, 3, 6; $B$ has 2, 4; outside both: 5]",
       "source_images": ["image1257.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 9\n\nShade the region of a Venn diagram representing:\n\n(a) in $A$ and $B$\n\n(b) in $A$ but not in $B$\n\n[Two overlapping circles $A$ and $B$ shown]",
-      "source_images": ["image1258.png"]
+      "content_latex": "Example 9\n\nShade the region of a Venn diagram representing:\n\n(a) in $A$ and $B$\n\n(b) in $A$ but not in $B$\n\n[Reference Venn diagram showing two overlapping circles $A$ and $B$ inside rectangle $U$]\n\nSolutions:\n\n(a) [Venn diagram with intersection $A \\cap B$ shaded]\n\nElements in this region are in both $A$ and $B$.\n\n(b) [Venn diagram with $A$ minus intersection shaded]\n\nElements in this region are in $A$ but not in $B$.",
+      "source_images": ["image1258.png", "image1259.png"]
     },
     {
       "type": "example",
-      "content_latex": "Solutions:\n\n(a) [Venn diagram with the intersection $A \\cap B$ shaded]\nElements in this region are in both $A$ and $B$.\n\n(b) [Venn diagram with the left crescent of $A$ shaded (part of $A$ not in $B$)]\nElements in this region are in $A$ but not in $B$.",
-      "source_images": ["image1259.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "Example 5\n\nSuppose we are rolling a die, so the universal set $U = \\{1, 2, 3, 4, 5, 6\\}$.\nIllustrate on a Venn diagram the sets:\n\n(a) $A = \\{1, 2\\}$ and $B = \\{1, 3, 4\\}$\n\n(b) $A = \\{1, 3, 5\\}$ and $B = \\{3, 5\\}$\n\n(c) $A = \\{2, 4, 6\\}$ and $B = \\{3, 5\\}$\n\n(d) $A = \\{1, 3, 5\\}$ and $B = \\{2, 4, 6\\}$\n\nSolutions:\n\n(a) $A \\cap B = \\{1\\}$\n\n[Venn diagram with overlapping circles:\n- In $A$ only: 2\n- In $A \\cap B$: 1\n- In $B$ only: 3, 4\n- Outside: 5, 6]\n\n(b) $A \\cap B = \\{3, 5\\}$, $B \\subseteq A$\n\n[Venn diagram with $B$ inside $A$:\n- In $B$: 3, 5\n- In $A$ but not $B$: 1\n- Outside $A$: 2, 4, 6]\n\n(c) $A$ and $B$ are disjoint but $A \\cup B \\neq U$.\n\n[Venn diagram with two separate circles:\n- In $A$: 2, 4, 6\n- In $B$: 3, 5\n- Outside: 1]\n\n(d) $A$ and $B$ are disjoint and exhaustive.\n\n[Venn diagram showing $U$ divided into $A$ and $B$:\n- In $A$: 1, 3, 5\n- In $B$: 2, 4, 6]",
+      "content_latex": "Example 5\n\nSuppose we are rolling a die, so the universal set $U = \\{1, 2, 3, 4, 5, 6\\}$.\n\nIllustrate on a Venn diagram the sets:\n\n(a) $A = \\{1, 2\\}$ and $B = \\{1, 3, 4\\}$\n\n(b) $A = \\{1, 3, 5\\}$ and $B = \\{3, 5\\}$\n\n(c) $A = \\{2, 4, 6\\}$ and $B = \\{3, 5\\}$\n\n(d) $A = \\{1, 3, 5\\}$ and $B = \\{2, 4, 6\\}$\n\nSolutions:\n\n(a) $A \\cap B = \\{1\\}$\n\n[Venn diagram: $A$ only has 2; intersection has 1; $B$ only has 3, 4; outside: 5, 6]\n\n(b) $A \\cap B = \\{3, 5\\}$, $B \\subseteq A$\n\n[Venn diagram: $B$ inside $A$; $A$ has 1, 3, 5 with $B$ containing 3, 5; outside: 2, 4, 6]\n\n(c) $A$ and $B$ are disjoint but $A \\cup B \\neq U$.\n\n[Venn diagram: separate circles; $A$ has 2, 4, 6; $B$ has 3, 5; outside: 1]\n\n(d) $A$ and $B$ are disjoint and exhaustive.\n\n[Venn diagram: rectangle divided by wavy line; $A$ has 1, 3, 5; $B$ has 2, 4, 6]",
       "source_images": ["image1260.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 6\n\nOn separate Venn diagrams shade these regions for two overlapping sets $A$ and $B$:\n\n(a) $A \\cup B$\n\n(b) $A' \\cap B$\n\n(c) $(A \\cap B)'$\n\nSolutions:\n\n(a) [Venn diagram with both circles $A$ and $B$ completely shaded]\n$A \\cup B$ means in $A$, $B$, or both.\n\n(b) [Venn diagram with only the right crescent of $B$ shaded (part of $B$ not in $A$)]\n$A' \\cap B$ means outside $A$ intersected with $B$.\n\n(c) [Venn diagram with everything shaded except the intersection $A \\cap B$]\n$(A \\cap B)'$ means outside the intersection of $A$ and $B$.",
+      "content_latex": "Example 6\n\nOn separate Venn diagrams shade these regions for two overlapping sets $A$ and $B$:\n\n(a) $A \\cup B$\n\n(b) $A' \\cap B$\n\n(c) $(A \\cap B)'$\n\nSolutions:\n\n(a) [Venn diagram with both circles $A$ and $B$ entirely shaded]\n\n$A \\cup B$ means in $A$, $B$, or both.\n\n(b) [Venn diagram with only the part of $B$ outside $A$ shaded]\n\n$A' \\cap B$ means outside $A$ intersected with $B$.\n\n(c) [Venn diagram with everything except the intersection shaded]\n\n$(A \\cap B)'$ means outside the intersection of $A$ and $B$.",
       "source_images": ["image1261.png"]
     },
     {
@@ -160,12 +150,12 @@
     },
     {
       "type": "exercise",
-      "content_latex": "5. Suppose $P = \\{\\text{multiples of 3 which are less than } 10\\}$ and $Q = \\{\\text{factors of } 18\\}$.\n\n(a) List the elements of $P$ and $Q$.\n\n(b) Is $P \\subseteq Q$?\n\n(c) Find:\n\n(i) $P \\cap Q$\n\n(ii) $P \\cup Q$\n\n(d) Copy and complete: If $P \\subseteq Q$, then $P \\cap Q = ......$ and $P \\cup Q = ......$\n\n6. Rosanne is baking biscuits and cake for a special afternoon tea. The ingredients needed for her recipes are shown alongside. Let $B$ be the set of ingredients needed to make the biscuits, and $C$ be the set of ingredients needed to make the cake.\n\nBISCUITS: 1 cup flour, 150g butter, 1 tbsp vanilla, 1 egg, 1 tbsp cinnamon\n\nCAKE: 100g butter, 150g sugar, 150g flour, 2 eggs, 4 tbsp milk, 2 tbsp lemon juice\n\n(a) List the elements of $B$ and $C$.\n\n(b) Find $B \\cap C$. What does this set represent?\n\n(c) Find $B \\cup C$.\n\n(d) How many different ingredients will Rosanne use in her baking? How does your answer relate to $B \\cup C$?",
+      "content_latex": "5. Suppose $P = \\{\\text{multiples of } 3 \\text{ which are less than } 10\\}$ and $Q = \\{\\text{factors of } 18\\}$.\n\n(a) List the elements of $P$ and $Q$.\n\n(b) Is $P \\subseteq Q$?\n\n(c) Find:\n\n(i) $P \\cap Q$\n\n(ii) $P \\cup Q$\n\n(d) Copy and complete: If $P \\subseteq Q$, then $P \\cap Q = ......$ and $P \\cup Q = ......$\n\n6. Rosanne is baking biscuits and cake for a special afternoon tea. The ingredients needed for her recipes are shown alongside. Let $B$ be the set of ingredients needed to make the biscuits, and $C$ be the set of ingredients needed to make the cake.\n\nBISCUITS: 1 cup flour, 150g butter, 1 tbsp vanilla, 1 egg, 1 tbsp cinnamon\n\nCAKE: 100g butter, 150g sugar, 150g flour, 2 eggs, 4 tbsp milk, 2 tbsp lemon juice\n\n(a) List the elements of $B$ and $C$.\n\n(b) Find $B \\cap C$. What does this set represent?\n\n(c) Find $B \\cup C$.\n\n(d) How many different ingredients will Rosanne use in her baking? How does your answer relate to $B \\cup C$?",
       "source_images": ["image1263.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "EXERCISE 21D\n\n1. True or false:\n\n(a) $\\{1, 4, 7, 10\\}$ and $\\{2, 5, 8, 11\\}$ are disjoint\n\n(b) $\\{k, m, p, x, z\\}$ and $\\{h, p, r, t, u\\}$ are disjoint\n\n(c) $\\{\\#, !, \\diamondsuit, *\\}$ and $\\{\\bullet, \\uparrow, \\%\\}$ are not disjoint\n\n(d) $\\{8, 10, 15, 16, 20\\}$ and $\\{1, 3, 4, 8\\}$ are not disjoint?\n\n2. Suppose $A = \\{\\text{multiples of 4 between 0 and 25}\\}$, $B = \\{\\text{square numbers less than 20}\\}$, $C = \\{\\text{factors of 21}\\}$ and $D = \\{\\text{prime numbers less than 20}\\}$.\n\n(a) List the elements of $A$, $B$, $C$ and $D$.\n\n(b) Which pairs of sets are disjoint?\n\n3. At an international convention, most of the delegates can speak multiple languages. Eduardo can speak Portugese, Spanish and Japanese. Fernando can speak Spanish and French. Gordon can speak English and French. Huan can speak Chinese, Japanese and English.\n\nLet the sets $E$, $F$, $G$ and $H$ be the sets of languages spoken by Eduardo, Fernando, Gordon and Huan respectively.\n\n(a) List the elements of $E$, $F$, $G$ and $H$.\n\n(b) Find:\n\n(i) $E \\cap F$\n\n(ii) $E \\cap G$\n\n(iii) $E \\cap H$\n\n(iv) $F \\cap G$\n\n(v) $F \\cap H$\n\n(vi) $G \\cap H$\n\n(c) Which language would be spoken between:\n\n(i) Eduardo and Huan\n\n(ii) Gordon and Fernando?\n\n(d) Explain why delegates cannot communicate with each other if their language sets are disjoint.\n\n(e) Which delegates cannot communicate with each other?",
+      "content_latex": "EXERCISE 21D\n\n1. True or false:\n\n(a) $\\{1, 4, 7, 10\\}$ and $\\{2, 5, 8, 11\\}$ are disjoint\n\n(b) $\\{k, m, p, x, z\\}$ and $\\{h, p, r, t, u\\}$ are disjoint\n\n(c) $\\{\\#, !, \\diamondsuit, *\\}$ and $\\{\\bullet, \\uparrow, \\%\\}$ are not disjoint\n\n(d) $\\{8, 10, 15, 16, 20\\}$ and $\\{1, 3, 4, 8\\}$ are not disjoint?\n\n2. Suppose $A = \\{\\text{multiples of } 4 \\text{ between } 0 \\text{ and } 25\\}$, $B = \\{\\text{square numbers less than } 20\\}$, $C = \\{\\text{factors of } 21\\}$ and $D = \\{\\text{prime numbers less than } 20\\}$.\n\n(a) List the elements of $A$, $B$, $C$ and $D$.\n\n(b) Which pairs of sets are disjoint?\n\n3. At an international convention, most of the delegates can speak multiple languages. Eduardo can speak Portugese, Spanish and Japanese. Fernando can speak Spanish and French. Gordon can speak English and French. Huan can speak Chinese, Japanese and English.\n\nLet the sets $E$, $F$, $G$ and $H$ be the sets of languages spoken by Eduardo, Fernando, Gordon and Huan respectively.\n\n(a) List the elements of $E$, $F$, $G$ and $H$.\n\n(b) Find:\n\n(i) $E \\cap F$\n\n(ii) $E \\cap G$\n\n(iii) $E \\cap H$\n\n(iv) $F \\cap G$\n\n(v) $F \\cap H$\n\n(vi) $G \\cap H$\n\n(c) Which language would be spoken between:\n\n(i) Eduardo and Huan\n\n(ii) Gordon and Fernando?\n\n(d) Explain why delegates cannot communicate with each other if their language sets are disjoint.\n\n(e) Which delegates cannot communicate with each other?",
       "source_images": ["image1264.png"]
     },
     {
@@ -175,153 +165,48 @@
     },
     {
       "type": "exercise",
-      "content_latex": "3. Consider the coffee shop workers Jacinta and Kaitlin from page 412.\n$J = \\{\\text{Tuesday, Wednesday, Thursday, Friday}\\}$ and $K = \\{\\text{Thursday, Friday, Saturday}\\}$.\n\n(a) State the universal set $U$.\n\n(b) Represent the sets $J$ and $K$ on a Venn diagram.\n\n4. Determine which form of Venn diagram would be most appropriate to represent the following sets $A$ and $B$.\n\n[Four Venn diagram options shown:\nA: overlapping circles\nB: $A$ inside $B$\nC: $B$ inside $A$\nD: disjoint circles]\n\n(a) $A = \\{\\text{whole numbers from 1 to 10}\\}$, $B = \\{\\text{whole numbers from 5 to 15}\\}$\n\n(b) $A = \\{\\text{multiples of 6}\\}$, $B = \\{\\text{multiples of 3}\\}$\n\n(c) $A = \\{\\text{people aged under 30}\\}$, $B = \\{\\text{people aged over 50}\\}$\n\n(d) $A = \\{\\text{people aged over 30}\\}$, $B = \\{\\text{people aged over 50}\\}$\n\n(e) $A = \\{\\text{people aged over 30}\\}$, $B = \\{\\text{people aged under 50}\\}$\n\n(f) $A = \\{\\text{odd numbers}\\}$, $B = \\{\\text{even numbers}\\}$\n\n(g) $A = \\{\\text{multiples of 3}\\}$, $B = \\{\\text{multiples of 5}\\}$\n\n(h) $A = \\{\\text{people born in China}\\}$, $B = \\{\\text{people born in France}\\}$\n\n(i) $A = \\{\\text{people born in China}\\}$, $B = \\{\\text{people born in Asia}\\}$\n\n(j) $A = \\{\\text{factors of 100}\\}$, $B = \\{\\text{factors of 50}\\}$\n\n5. Suppose $U = \\{\\text{whole numbers from 1 to 15}\\}$, $A = \\{\\text{factors of 12}\\}$ and $B = \\{\\text{even numbers less than 15}\\}$.\n\n(a) List the elements of $A$ and $B$.\n\n(b) Find:\n\n(i) $A \\cap B$\n\n(ii) $A \\cup B$\n\n(c) Draw a Venn diagram to illustrate the sets.\n\n(d) How many elements are in:\n\n(i) $A$ but not $B$\n\n(ii) $B$\n\n(iii) either $A$ or $B$?",
+      "content_latex": "3. Consider the coffee shop workers Jacinta and Kaitlin from page 412.\n\n$J = \\{\\text{Tuesday, Wednesday, Thursday, Friday}\\}$ and $K = \\{\\text{Thursday, Friday, Saturday}\\}$.\n\n(a) State the universal set $U$.\n\n(b) Represent the sets $J$ and $K$ on a Venn diagram.\n\n4. Determine which form of Venn diagram would be most appropriate to represent the following sets $A$ and $B$.\n\n[Four Venn diagram options shown: A (overlapping), B (subset), C (overlapping), D (disjoint)]\n\n(a) $A = \\{\\text{whole numbers from } 1 \\text{ to } 10\\}$, $B = \\{\\text{whole numbers from } 5 \\text{ to } 15\\}$\n\n(b) $A = \\{\\text{multiples of } 6\\}$, $B = \\{\\text{multiples of } 3\\}$\n\n(c) $A = \\{\\text{people aged under } 30\\}$, $B = \\{\\text{people aged over } 50\\}$\n\n(d) $A = \\{\\text{people aged over } 30\\}$, $B = \\{\\text{people aged over } 50\\}$\n\n(e) $A = \\{\\text{people aged over } 30\\}$, $B = \\{\\text{people aged under } 50\\}$\n\n(f) $A = \\{\\text{odd numbers}\\}$, $B = \\{\\text{even numbers}\\}$\n\n(g) $A = \\{\\text{multiples of } 3\\}$, $B = \\{\\text{multiples of } 5\\}$\n\n(h) $A = \\{\\text{people born in China}\\}$, $B = \\{\\text{people born in France}\\}$\n\n(i) $A = \\{\\text{people born in China}\\}$, $B = \\{\\text{people born in Asia}\\}$\n\n(j) $A = \\{\\text{factors of } 100\\}$, $B = \\{\\text{factors of } 50\\}$\n\n5. Suppose $U = \\{\\text{whole numbers from } 1 \\text{ to } 15\\}$, $A = \\{\\text{factors of } 12\\}$ and $B = \\{\\text{even numbers less than } 15\\}$.\n\n(a) List the elements of $A$ and $B$.\n\n(b) Find:\n\n(i) $A \\cap B$\n\n(ii) $A \\cup B$\n\n(c) Draw a Venn diagram to illustrate the sets.\n\n(d) How many elements are in:\n\n(i) $A$ but not $B$\n\n(ii) $B$\n\n(iii) either $A$ or $B$?",
       "source_images": ["image1266.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "6. On separate Venn diagrams like the one illustrated, shade the region representing:\n\n(a) in $A$\n\n(b) in $B$ but not in $A$\n\n(c) in $A$ or $B$\n\n(d) not in $B$\n\n[Two overlapping circles $A$ and $B$ shown]\n\n7. Describe in words the shaded region:\n\n(a) [Venn diagram with circle $P$ shaded, but not the part overlapping with $Q$]\n\n(b) [Venn diagram with intersection $P \\cap Q$ shaded]\n\n(c) [Venn diagram with circle $Q$ entirely shaded]",
+      "content_latex": "6. On separate Venn diagrams like the one illustrated, shade the region representing:\n\n(a) in $A$\n\n(b) in $B$ but not in $A$\n\n(c) in $A$ or $B$\n\n(d) not in $B$\n\n[Reference Venn diagram showing two overlapping circles $A$ and $B$ inside rectangle $U$]\n\n7. Describe in words the shaded region:\n\n(a) [Venn diagram with circle $P$ entirely shaded]\n\n(b) [Venn diagram with intersection of $P$ and $Q$ shaded]\n\n(c) [Venn diagram with $P$ and $Q$ and region outside both shaded, leaving only the non-overlapping parts unshaded]",
       "source_images": ["image1267.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "EXERCISE 5E.1\n\n1. Consider the universal set $U = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9\\}$. Illustrate on a Venn diagram the sets:\n\n(a) $A = \\{2, 3, 5, 7\\}$ and $B = \\{1, 2, 4, 6, 7, 8\\}$\n\n(b) $A = \\{2, 3, 5, 7\\}$ and $B = \\{4, 6, 8, 9\\}$\n\n(c) $A = \\{3, 4, 5, 6, 7, 8\\}$ and $B = \\{4, 6, 8\\}$\n\n(d) $A = \\{0, 1, 3, 7\\}$ and $B = \\{0, 1, 2, 3, 6, 7, 9\\}$\n\n2. Suppose $U = \\{1, 2, 3, 4, 5, ...., 12\\}$, $A = \\{\\text{factors of 8}\\}$ and $B = \\{\\text{primes} \\leqslant 12\\}$.\n\n(a) List the sets $A$ and $B$.\n\n(b) Find $A \\cap B$ and $A \\cup B$.\n\n(c) Represent $A$ and $B$ on a Venn diagram.\n\n3. Suppose $U = \\{x \\mid x \\leqslant 20, \\ x \\in \\mathbb{Z}^+\\}$, $R = \\{\\text{primes less than 20}\\}$ and $S = \\{\\text{composites less than 20}\\}$.\n\n(a) List the sets $R$ and $S$.\n\n(b) Find $R \\cap S$ and $R \\cup S$.\n\n(c) Represent $R$ and $S$ on a Venn diagram.\n\n4. [Venn diagram with overlapping circles $A$ and $B$:\n- In $A$ only: $a$, $i$\n- In $A \\cap B$: $c$, $d$, $j$\n- In $B$ only: $g$, $k$\n- Outside: $e$, $b$, $h$]\n\nList the members of the set:\n\n(a) $U$\n\n(b) $A$\n\n(c) $B$\n\n(d) $A'$\n\n(e) $B'$\n\n(f) $A \\cap B$\n\n(g) $A \\cup B$\n\n(h) $(A \\cup B)'$",
+      "content_latex": "EXERCISE 5E.1\n\n1. Consider the universal set $U = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9\\}$. Illustrate on a Venn diagram the sets:\n\n(a) $A = \\{2, 3, 5, 7\\}$ and $B = \\{1, 2, 4, 6, 7, 8\\}$\n\n(b) $A = \\{2, 3, 5, 7\\}$ and $B = \\{4, 6, 8, 9\\}$\n\n(c) $A = \\{3, 4, 5, 6, 7, 8\\}$ and $B = \\{4, 6, 8\\}$\n\n(d) $A = \\{0, 1, 3, 7\\}$ and $B = \\{0, 1, 2, 3, 6, 7, 9\\}$\n\n2. Suppose $U = \\{1, 2, 3, 4, 5, ...., 12\\}$, $A = \\{\\text{factors of } 8\\}$ and $B = \\{\\text{primes} \\leqslant 12\\}$.\n\n(a) List the sets $A$ and $B$.\n\n(b) Find $A \\cap B$ and $A \\cup B$.\n\n(c) Represent $A$ and $B$ on a Venn diagram.\n\n3. Suppose $U = \\{x \\mid x \\leqslant 20, x \\in \\mathbb{Z}^+\\}$, $R = \\{\\text{primes less than } 20\\}$ and $S = \\{\\text{composites less than } 20\\}$.\n\n(a) List the sets $R$ and $S$.\n\n(b) Find $R \\cap S$ and $R \\cup S$.\n\n(c) Represent $R$ and $S$ on a Venn diagram.\n\n4. [Venn diagram showing overlapping circles $A$ and $B$ with elements: $A$ only has $a$, $i$, $f$; intersection has $c$, $d$, $j$, $g$, $h$; $B$ only has $k$; outside both: $e$, $b$]\n\nList the members of the set:\n\n(a) $U$\n\n(b) $A$\n\n(c) $B$\n\n(d) $A'$\n\n(e) $B'$\n\n(f) $A \\cap B$\n\n(g) $A \\cup B$\n\n(h) $(A \\cup B)'$",
       "source_images": ["image1268.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "EXERCISE 5E.2\n\n1. [Venn diagram with two overlapping circles $A$ and $B$]\n\nOn separate Venn diagrams, shade:\n\n(a) $A \\cap B$\n\n(b) $A \\cap B'$\n\n(c) $A' \\cup B$\n\n(d) $A \\cup B'$\n\n(e) $(A \\cap B)'$\n\n(f) $(A \\cup B)'$\n\n2. $A$ and $B$ are two disjoint sets. Shade on separate Venn diagrams:\n\n[Venn diagram with two disjoint circles $A$ and $B$]\n\n(a) $A$\n\n(b) $B$\n\n(c) $A'$\n\n(d) $B'$\n\n(e) $A \\cap B$\n\n(f) $A \\cup B$\n\n(g) $A' \\cap B$\n\n(h) $A \\cup B'$\n\n(i) $(A \\cap B)'$\n\n3. In the given Venn diagram, $B \\subseteq A$. Shade on separate Venn diagrams:\n\n[Venn diagram with circle $B$ inside circle $A$]\n\n(a) $A$\n\n(b) $B$\n\n(c) $A'$\n\n(d) $B'$\n\n(e) $A \\cap B$\n\n(f) $A \\cup B$\n\n(g) $A' \\cap B$\n\n(h) $A \\cup B'$\n\n(i) $(A \\cap B)'$",
+      "content_latex": "EXERCISE 5E.2\n\n1. [Venn diagram showing two overlapping circles $A$ and $B$ inside rectangle $U$]\n\nOn separate Venn diagrams, shade:\n\n(a) $A \\cap B$\n\n(b) $A \\cap B'$\n\n(c) $A' \\cup B$\n\n(d) $A \\cup B'$\n\n(e) $(A \\cap B)'$\n\n(f) $(A \\cup B)'$\n\n2. [Venn diagram showing two disjoint circles $A$ and $B$ inside rectangle $U$]\n\n$A$ and $B$ are two disjoint sets. Shade on separate Venn diagrams:\n\n(a) $A$\n\n(b) $B$\n\n(c) $A'$\n\n(d) $B'$\n\n(e) $A \\cap B$\n\n(f) $A \\cup B$\n\n(g) $A' \\cap B$\n\n(h) $A \\cup B'$\n\n(i) $(A \\cap B)'$\n\n3. [Venn diagram showing $B \\subseteq A$ with $B$ inside $A$]\n\nIn the given Venn diagram, $B \\subseteq A$. Shade on separate Venn diagrams:\n\n(a) $A$\n\n(b) $B$\n\n(c) $A'$\n\n(d) $B'$\n\n(e) $A \\cap B$\n\n(f) $A \\cup B$\n\n(g) $A' \\cap B$\n\n(h) $A \\cup B'$\n\n(i) $(A \\cap B)'$",
       "source_images": ["image1269.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "EXERCISE 2E.1\n\n1. [Venn diagram with overlapping circles $C$ and $D$:\n- In $C$ only: 3, 9\n- In $C \\cap D$: 1, 7\n- In $D$ only: 2, 5, 6\n- Outside: 4, 8]\n\n(a) List the elements of set:\n\n(i) $C$\n\n(ii) $D$\n\n(iii) $U$\n\n(iv) $C \\cap D$\n\n(v) $C \\cup D$\n\n(b) Find:\n\n(i) $n(C)$\n\n(ii) $n(D)$\n\n(iii) $n(U)$\n\n(iv) $n(C \\cap D)$\n\n(v) $n(C \\cup D)$\n\n2. [Venn diagram with $A$ inside $B$:\n- In $A$: 2, 7\n- In $B$ but not $A$: 6, 1, 4\n- Outside: 5, 3, 8]\n\n(a) List the elements of set:\n\n(i) $A$\n\n(ii) $B$\n\n(iii) $U$\n\n(iv) $A \\cap B$\n\n(v) $A \\cup B$\n\n(b) Find:\n\n(i) $n(A)$\n\n(ii) $n(B)$\n\n(iii) $n(U)$\n\n(iv) $n(A \\cap B)$\n\n(v) $n(A \\cup B)$",
+      "content_latex": "EXERCISE 2E.1\n\n1. [Venn diagram showing overlapping circles $C$ and $D$ with elements: $C$ only has 3, 9; intersection has 1, 7; $D$ only has 2, 5, 6; outside both: 4, 8]\n\n(a) List the elements of set:\n\n(i) $C$\n\n(ii) $D$\n\n(iii) $U$\n\n(iv) $C \\cap D$\n\n(v) $C \\cup D$\n\n(b) Find:\n\n(i) $n(C)$\n\n(ii) $n(D)$\n\n(iii) $n(U)$\n\n(iv) $n(C \\cap D)$\n\n(v) $n(C \\cup D)$\n\n2. [Venn diagram showing $A \\subseteq B$ with elements: $B$ only has 5, 6; $A$ (inside $B$) has 2, 7; intersection region (inside both) has 4, 1; outside both: 3, 8]\n\n(a) List the elements of set:\n\n(i) $A$\n\n(ii) $B$\n\n(iii) $U$\n\n(iv) $A \\cap B$\n\n(v) $A \\cup B$\n\n(b) Find:\n\n(i) $n(A)$\n\n(ii) $n(B)$\n\n(iii) $n(U)$\n\n(iv) $n(A \\cap B)$\n\n(v) $n(A \\cup B)$",
       "source_images": ["image1270.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "3. Consider $U = \\{x \\mid x \\leqslant 12, \\ x \\in \\mathbb{Z}^+\\}$, $A = \\{2, 7, 9, 10, 11\\}$, and $B = \\{1, 2, 9, 11, 12\\}$.\n\n(a) Show these sets on a Venn diagram.\n\n(b) List the elements of:\n\n(i) $A \\cap B$\n\n(ii) $A \\cup B$\n\n(iii) $B'$\n\n(c) Find:\n\n(i) $n(A)$\n\n(ii) $n(B')$\n\n(iii) $n(A \\cap B)$\n\n(iv) $n(A \\cup B)$\n\n4. If $A$ is the set of all factors of 36 and $B$ is the set of all factors of 63, find:\n\n(a) $A \\cap B$\n\n(b) $A \\cup B$\n\n5. If $X = \\{\\text{A, B, D, M, N, P, R, T, Z}\\}$ and $Y = \\{\\text{B, C, M, T, W, Z}\\}$, find:\n\n(a) $X \\cap Y$\n\n(b) $X \\cup Y$\n\n6. Suppose $U = \\{x \\mid x \\leqslant 30, \\ x \\in \\mathbb{Z}^+\\}$, $A = \\{\\text{factors of 30}\\}$, and $B = \\{\\text{prime numbers} \\leqslant 30\\}$.\n\n(a) Find:\n\n(i) $n(A)$\n\n(ii) $n(B)$\n\n(iii) $n(A \\cap B)$\n\n(iv) $n(A \\cup B)$\n\n(b) Show that $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$.\n\n7. Simplify:\n\n(a) $X \\cap Y$ for $X = \\{1, 3, 5, 7\\}$ and $Y = \\{2, 4, 6, 8\\}$\n\n(b) $A \\cup A'$ for any set $A \\in U$.\n\n(c) $A \\cap A'$ for any set $A \\in U$.",
+      "content_latex": "3. Consider $U = \\{x \\mid x \\leqslant 12, x \\in \\mathbb{Z}^+\\}$, $A = \\{2, 7, 9, 10, 11\\}$, and $B = \\{1, 2, 9, 11, 12\\}$.\n\n(a) Show these sets on a Venn diagram.\n\n(b) List the elements of:\n\n(i) $A \\cap B$\n\n(ii) $A \\cup B$\n\n(iii) $B'$\n\n(c) Find:\n\n(i) $n(A)$\n\n(ii) $n(B')$\n\n(iii) $n(A \\cap B)$\n\n(iv) $n(A \\cup B)$\n\n4. If $A$ is the set of all factors of 36 and $B$ is the set of all factors of 63, find:\n\n(a) $A \\cap B$\n\n(b) $A \\cup B$\n\n5. If $X = \\{\\text{A, B, D, M, N, P, R, T, Z}\\}$ and $Y = \\{\\text{B, C, M, T, W, Z}\\}$, find:\n\n(a) $X \\cap Y$\n\n(b) $X \\cup Y$\n\n6. Suppose $U = \\{x \\mid x \\leqslant 30, x \\in \\mathbb{Z}^+\\}$, $A = \\{\\text{factors of } 30\\}$, and $B = \\{\\text{prime numbers} \\leqslant 30\\}$.\n\n(a) Find:\n\n(i) $n(A)$\n\n(ii) $n(B)$\n\n(iii) $n(A \\cap B)$\n\n(iv) $n(A \\cup B)$\n\n(b) Show that $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$.\n\n7. Simplify:\n\n(a) $X \\cap Y$ for $X = \\{1, 3, 5, 7\\}$ and $Y = \\{2, 4, 6, 8\\}$\n\n(b) $A \\cup A'$ for any set $A \\in U$.\n\n(c) $A \\cap A'$ for any set $A \\in U$.",
       "source_images": ["image1271.png"]
     },
     {
       "type": "concept",
-      "content_latex": "This Venn diagram has four regions:\n\n[Venn diagram with two overlapping circles $A$ and $B$, showing four regions]\n\n- [Left crescent] is 'in $A$, but not in $B$'\n- [Right crescent] is 'in $B$ but not in $A$'\n- [Intersection] is 'in both $A$ and $B$'\n- [Outside both] is 'neither in $A$ nor in $B$'",
+      "content_latex": "This Venn diagram has four regions:\n\n[Venn diagram showing overlapping circles $A$ and $B$ with four distinct regions]\n\n- [Orange crescent shape] is \"in $A$, but not in $B$\"\n\n- [Green crescent shape] is \"in $B$ but not in $A$\"\n\n- [Blue lens shape] is \"in both $A$ and $B$\"\n\n- [Yellow rectangle with two circles cut out] is \"neither in $A$ nor in $B$\"",
       "source_images": ["image1272.png"]
     },
     {
       "type": "concept",
-      "content_latex": "$A \\cup A' = U$ \\qquad $A \\cap A' = \\emptyset$\n\n$(A \\cup B)' = A' \\cap B'$ \\qquad $(A \\cap B)' = A' \\cup B'$",
+      "content_latex": "$A \\cup A' = U$ $\\qquad$ $A \\cap A' = \\varnothing$\n\n$(A \\cup B)' = A' \\cap B'$ $\\qquad$ $(A \\cap B)' = A' \\cup B'$",
       "source_images": ["image1273.png"]
     },
     {
       "type": "example",
-      "content_latex": "Example 7\n\nIf $(5)$ means that there are 5 elements in the set $P \\cap Q$, how many elements are there in:\n\n[Venn diagram with:\n- In $P$ only: (8)\n- In $P \\cap Q$: (5)\n- In $Q$ only: (9)\n- Outside: (2)]\n\n(a) $P$\n\n(b) $Q'$\n\n(c) $P \\cup Q$\n\n(d) $P$, but not $Q$\n\n(e) $Q$, but not $P$\n\n(f) neither $P$ nor $Q$?\n\nSolutions:\n\n(a) $n(P) = 8 + 5 = 13$\n\n(b) $n(Q') = 8 + 2 = 10$\n\n(c) $n(P \\cup Q) = 8 + 5 + 9 = 22$\n\n(d) $n(P, \\text{ but not } Q) = 8$\n\n(e) $n(Q, \\text{ but not } P) = 9$\n\n(f) $n(\\text{neither } P \\text{ nor } Q) = 2$",
+      "content_latex": "Example 7\n\nIf $(5)$ means that there are 5 elements in the set $P \\cap Q$, how many elements are there in:\n\n(a) $P$\n\n(b) $Q'$\n\n(c) $P \\cup Q$\n\n(d) $P$, but not $Q$\n\n(e) $Q$, but not $P$\n\n(f) neither $P$ nor $Q$?\n\n[Venn diagram showing: $P$ only has (8); intersection has (5); $Q$ only has (9); outside both has (2)]\n\nSolutions:\n\n(a) $n(P) = 8 + 5 = 13$\n\n(b) $n(Q') = 8 + 2 = 10$\n\n(c) $n(P \\cup Q) = 8 + 5 + 9 = 22$\n\n(d) $n(P, \\text{ but not } Q) = 8$\n\n(e) $n(Q, \\text{ but not } P) = 9$\n\n(f) $n(\\text{neither } P \\text{ nor } Q) = 2$",
       "source_images": ["image1274.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "Example 8\n\nGiven $n(U) = 40$, $n(A) = 24$, $n(B) = 27$ and $n(A \\cap B) = 13$, find:\n\n(a) $n(A \\cup B)$\n\n(b) $n(A \\cap B')$\n\nSolutions:\n\n[Venn diagram with:\n- In $A$ only: $(a)$\n- In $A \\cap B$: $(b)$\n- In $B$ only: $(c)$\n- Outside: $(d)$]\n\nWe see that $b = 13$ \\{as $n(A \\cap B) = 13$\\}\n$a + b = 24$ \\{as $n(A) = 24$\\}\n$b + c = 27$ \\{as $n(B) = 27$\\}\n$a + b + c + d = 40$ \\{as $n(U) = 40$\\}\n\nSolving these, $b = 13$ $\\therefore$ $a = 11$, $c = 14$, $d = 2$\n\n(a) $n(A \\cup B) = a + b + c = 38$\n\n(b) $n(A \\cap B') = a = 11$",
-      "source_images": ["image1275.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "Example 9\n\nOn separate Venn diagrams, shade the region representing:\n\n(a) in $A$ or in $B$ but not in both\n\n(b) $A' \\cap B$\n\nSolutions:\n\n(a) [Venn diagram with both crescents shaded (symmetric difference)]\n\n(b) [Venn diagram with the right crescent of $B$ and outside portion of $B$ that's not in $A$ shaded - actually just circle $B$ entirely shaded]",
-      "source_images": ["image1276.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "EXERCISE 5E.3\n\n1. [Venn diagram with:\n- In $A$ only: (9)\n- In $A \\cap B$: (3)\n- In $B$ only: (6)\n- Outside: (4)]\n\nIf $(3)$ means that there are 3 elements in the set $A \\cap B$, give the number of elements in:\n\n(a) $B$\n\n(b) $A'$\n\n(c) $A \\cup B$\n\n(d) $A$, but not $B$\n\n(e) $B$, but not $A$\n\n(f) neither $A$ nor $B$\n\n2. [Venn diagram with:\n- In $X$ only: (18)\n- In $X \\cap Y$: (16)\n- In $Y$ only: (8)\n- Outside: (4)]\n\nGive the number of elements in:\n\n(a) $X'$\n\n(b) $X \\cap Y$\n\n(c) $X \\cup Y$\n\n(d) $X \\cap Y'$\n\n(e) $Y \\cap X'$\n\n(f) $X' \\cap Y'$",
-      "source_images": ["image1277.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "3. [Venn diagram with:\n- In $P$ only: $(a)$\n- In $P \\cap Q$: $(b)$\n- In $Q$ only: $(c)$\n- Outside: $(d)$]\n\n$(a)$ means that there are $a$ elements in the shaded region. Find:\n\n(a) $n(Q)$\n\n(b) $n(P')$\n\n(c) $n(P \\cap Q)$\n\n(d) $n(P \\cup Q)$\n\n(e) $n((P \\cap Q)')$\n\n(f) $n((P \\cup Q)')$\n\n4. [Venn diagram with:\n- In $P$ only: $(3a)$\n- In $P \\cap Q$: $(a)$\n- In $Q$ only: $(a-4)$\n- Outside: $(a+5)$]\n\nThe Venn diagram shows us that $n(P \\cap Q) = a$ and $n(P) = a + 3a = 4a$.\n\n(a) Find:\n\n(i) $n(Q)$\n\n(ii) $n(P \\cup Q)$\n\n(iii) $n(Q')$\n\n(iv) $n(U)$\n\n(b) Find $a$ if $n(U) = 43$.\n\n5. [Venn diagram with:\n- In $A$ only: $(a)$\n- In $A \\cap B$: $(b)$\n- In $B$ only: $(c)$\n- Outside: $(d)$]\n\n(a) For the given Venn diagram:\n\n(i) find $n(A \\cup B)$\n\n(ii) find $n(A) + n(B) - n(A \\cap B)$\n\n(b) What have you proved in (a)?\n\n6. Given $n(U) = 20$, $n(A) = 8$, $n(B) = 9$ and $n(A \\cap B) = 2$, find:\n\n(a) $n(A \\cup B)$\n\n(b) $n(B \\cap A')$\n\n7. Given $n(U) = 35$, $n(N) = 16$, $n(N \\cap R) = 4$, $n(N \\cup R) = 31$, find:\n\n(a) $n(R)$\n\n(b) $n((N \\cup R)')$\n\n8. [Venn diagram with three overlapping circles $A$, $B$, $C$:\n- In $A$ only: (11)\n- In $A \\cap B$ only: (1)\n- In $B$ only: (17)\n- In $A \\cap C$ only: (1)\n- In $A \\cap B \\cap C$: (2)\n- In $B \\cap C$ only: (3)\n- In $C$ only: (15)\n- Outside: (2)]\n\nThis Venn diagram contains the sets $A$, $B$ and $C$. Find:\n\n(a) $n(A)$\n\n(b) $n(B)$\n\n(c) $n(C)$\n\n(d) $n(A \\cap B)$\n\n(e) $n(A \\cup C)$\n\n(f) $n(A \\cap B \\cap C)$\n\n(g) $n(A \\cup B \\cup C)$\n\n(h) $n((A \\cup B) \\cap C)$",
-      "source_images": ["image1278.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "9. On separate Venn diagrams, shade\n\n[Three overlapping circles $A$, $B$, $C$ shown]\n\n(a) $A$\n\n(b) $B$\n\n(c) $C'$\n\n(d) $A \\cup B$\n\n(e) $B \\cap C$\n\n(f) $A \\cap B \\cap C$\n\n(g) $(A \\cup B)'$\n\n(h) $A' \\cup (B \\cap C)$",
-      "source_images": ["image1279.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "Example 9\n\nA tennis club has 42 members. 25 have fair hair, 19 have blue eyes and 10 have both fair hair and blue eyes.\n\n(a) Place this information on a Venn diagram.\n\n(b) Find the number of members with:\n\n(i) fair hair or blue eyes\n\n(ii) blue eyes, but not fair hair.\n\nSolutions:\n\n(a) Let $F$ represent the fair hair set and $B$ represent the blue eyes set.\n\n$a + b + c + d = 42$\n$a + b = 25$\n$b + c = 19$\n$b = 10$\n\n$\\therefore$ $a = 15$, $c = 9$, $d = 8$\n\n[Venn diagram with:\n- In $F$ only: (15)\n- In $F \\cap B$: (10)\n- In $B$ only: (9)\n- Outside: (8)]\n\n(b) (i) $n(F \\cup B) = 15 + 10 + 9 = 34$\n\n(ii) $n(B \\cap F') = 9$",
-      "source_images": ["image1280.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "10. In James' apartment block there are 27 apartments with a dog, 33 with a cat, and 17 with a dog and a cat. 35 apartments have neither a cat nor a dog.\n\n(a) Place the information on a Venn diagram.\n\n(b) How many apartments are there in the block?\n\n(c) How many apartments contain:\n\n(i) a dog but not a cat\n\n(ii) a cat but not a dog\n\n(iii) no dogs\n\n(iv) no cats?\n\n11. A riding club has 28 riders, 15 of whom ride dressage and 24 of whom showjump. All but 2 of the riders do at least one of these disciplines. How many members:\n\n(a) ride dressage only\n\n(b) only showjump\n\n(c) ride dressage and showjump?",
-      "source_images": ["image1281.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "12. 46% of people in a town ride a bicycle and 45% ride a motor scooter. 16% ride neither a bicycle nor a scooter.\n\n(a) Illustrate this information on a Venn diagram.\n\n(b) How many people ride:\n\n(i) both a bicycle and a scooter\n\n(ii) at least one of a bicycle or a scooter\n\n(iii) a bicycle only\n\n(iv) exactly one of a bicycle or a scooter?\n\n13. A bookstore sells books, magazines and newspapers. Their sales records indicate that 40% of customers buy books, 43% buy magazines, 40% buy newspapers, 11% buy books and magazines, 9% buy magazines and newspapers, 7% buy books and newspapers, and 4% buy all three.",
-      "source_images": ["image1282.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "(a) Illustrate this information on a Venn diagram like the one shown.\n\n[Three overlapping circles $B$, $M$, $N$ for Books, Magazines, Newspapers]\n\n(b) What percentage of customers buy:\n\n(i) books only\n\n(ii) books or newspapers\n\n(iii) books but not magazines?",
-      "source_images": ["image1283.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "EXERCISE 2E.2\n\n1. [Venn diagram with two overlapping circles $A$ and $B$]\n\nOn separate Venn diagrams, shade regions for:\n\n(a) $A \\cap B$\n\n(b) $A \\cap B'$\n\n(c) $A' \\cup B$\n\n(d) $A \\cup B'$\n\n(e) $A' \\cap B$\n\n(f) $A' \\cap B'$\n\n2. Describe in words, the shaded region of:\n\n(a) [Venn diagram with circle $A$ entirely shaded except the intersection]\n\n(b) [Venn diagram with everything shaded except both circles]",
-      "source_images": ["image1284.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "3. [Venn diagram with two overlapping circles $A$ and $B$]\n\n(a) On separate Venn diagrams, shade regions for:\n\n(i) $A \\cup B$\n\n(ii) $(A \\cup B)'$\n\n(iii) $A' \\cap B'$\n\n(iv) $A \\cap B'$\n\n(v) $(A \\cap B)'$\n\n(vi) $A' \\cup B'$\n\n(vii) $(A' \\cup B')'$\n\n(b) Hence verify that:\n\n(i) $(A \\cap B)' = A' \\cup B'$\n\n(ii) $(A \\cup B)' = A' \\cap B'$",
-      "source_images": ["image1285.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "4. [Venn diagram with two disjoint circles $A$ and $B$]\n\nSuppose $A$ and $B$ are two disjoint sets. Shade on separate Venn diagrams:\n\n(a) $A$\n\n(b) $B'$\n\n(c) $A \\cup B$\n\n(d) $A' \\cap B$\n\n(e) $(A \\cap B)'$",
-      "source_images": ["image1286.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "5. [Venn diagram with three overlapping circles $A$, $B$, $C$]\n\nThis Venn diagram consists of three intersecting sets.\n\n(a) Shade on separate Venn diagrams:\n\n(i) $A$\n\n(ii) $B'$\n\n(iii) $B \\cap C$\n\n(iv) $A \\cup B$\n\n(v) $A \\cap B \\cap C$\n\n(vi) $A \\cup B \\cup C$\n\n(vii) $(A \\cap B \\cap C)'$\n\n(viii) $(B \\cap C) \\cup A$\n\n(ix) $(A \\cup B) \\cap C$\n\n(x) $(A \\cap C) \\cup (B \\cap C)$\n\n(xi) $(A \\cap B) \\cup C$\n\n(xii) $(A \\cup C) \\cap (B \\cup C)$\n\n(b) Verify that:\n\n(i) $A \\cup (B \\cap C) = (A \\cup B) \\cap (A \\cup C)$\n\n(ii) $A \\cap (B \\cup C) = (A \\cap B) \\cup (A \\cap C)$\n\nClick on the icon to practise shading regions representing various subsets. You can practise with both two and three intersecting sets.",
-      "source_images": ["image1287.png"]
-    },
-    {
-      "type": "concept",
-      "content_latex": "We have seen that there are four regions on a Venn diagram which contains two overlapping sets $A$ and $B$.\n\n[Venn diagram showing the four regions labeled:\n- $A \\cap B'$ (left crescent)\n- $A \\cap B$ (intersection)\n- $A' \\cap B$ (right crescent)\n- $A' \\cap B'$ (outside both)]\n\nThere are many situations where we are only interested in the number of elements of $U$ that are in each region. We do not need to show all the elements on the diagram, so instead we write the number of elements in each region in brackets.",
-      "source_images": ["image1288.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "Example 10\n\nIn the Venn diagram given, $(5)$ means that there are 5 elements in the set $A \\cap B$.\n\n[Venn diagram with:\n- In $A$ only: (12)\n- In $A \\cap B$: (5)\n- In $B$ only: (8)\n- Outside: (6)]\n\nHow many elements are there in:\n\n(a) $A$\n\n(b) $B'$\n\n(c) $A \\cup B$\n\n(d) $A$, but not $B$\n\n(e) $B$, but not $A$\n\n(f) neither $A$ nor $B$?\n\nSolutions:\n\n(a) $n(A) = 12 + 5 = 17$\n\n(b) $n(B') = 12 + 6 = 18$\n\n(c) $n(A \\cup B) = 12 + 5 + 8 = 25$\n\n(d) $n(A, \\text{ but not } B) = 12$\n\n(e) $n(B, \\text{ but not } A) = 8$\n\n(f) $n(\\text{neither } A \\text{ nor } B) = 6$",
-      "source_images": ["image1289.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "Example 11\n\nGiven $n(U) = 25$, $n(P) = 10$, $n(Q) = 12$, and $n(P \\cap Q) = 3$, find:\n\n(a) $n(P \\cup Q)$\n\n(b) $n(P, \\text{ but not } Q)$\n\nSolutions:\n\n[Venn diagram with:\n- In $P$ only: $(a)$\n- In $P \\cap Q$: $(b)$\n- In $Q$ only: $(c)$\n- Outside: $(d)$]\n\nWe see that $b = 3$ \\{as $n(P \\cap Q) = 3$\\}\n$a + b = 10$ \\{as $n(P) = 10$\\}\n$b + c = 12$ \\{as $n(Q) = 12$\\}\n$a + b + c + d = 25$ \\{as $n(U) = 25$\\}\n\n$\\therefore$ $b = 3$, $a = 7$, and $c = 9$\n$\\therefore$ $7 + 3 + 9 + d = 25$\n$\\therefore$ $d = 6$\n\n(a) $n(P \\cup Q) = a + b + c = 19$\n\n(b) $n(P, \\text{ but not } Q) = a = 7$",
-      "source_images": ["image1290.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "EXERCISE 2F\n\n1. [Venn diagram with:\n- In $A$ only: (4)\n- In $A \\cap B$: (3)\n- In $B$ only: (7)\n- Outside: (2)]\n\nHow many elements are there in:\n\n(a) $B$\n\n(b) $A'$\n\n(c) $A \\cup B$\n\n(d) $A$, but not $B$\n\n(e) $B$, but not $A$\n\n(f) neither $A$ nor $B$?\n\n2. In the Venn diagram below, $(a)$ means that there are $a$ elements in that region.\n\n[Venn diagram with:\n- In $A$ only: $(a)$\n- In $A \\cap B$: $(b)$\n- In $B$ only: $(c)$\n- Outside: $(d)$]\n\n(a) Write an expression for:\n\n(i) $n(A)$\n\n(ii) $n(B)$\n\n(iii) $n(A \\cap B)$\n\n(iv) $n(A \\cup B)$\n\n(b) Show that:\n\n(i) $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$\n\n(ii) $n(A \\cap B) = n(A) + n(B) - n(A \\cup B)$\n\n(iii) if $A$ and $B$ are disjoint, then $n(A \\cup B) = n(A) + n(B)$.\n\n3. [Venn diagram with:\n- In $A$ only: $(a)$\n- In $A \\cap B$: $(b)$\n- In $B$ only: $(c)$\n- Outside: $(d)$]\n\nUse the Venn diagram to show that:\n\n(a) $n(A \\cap B') = n(A) - n(A \\cap B)$\n\n(b) $n(A \\cup B') = n(U) - n(A' \\cap B)$\n\n4. Given $n(U) = 20$, $n(A) = 12$, $n(B) = 13$, and $n(A \\cap B) = 8$, find:\n\n(a) $n(A \\cup B)$\n\n(b) $n(B, \\text{ but not } A)$\n\n5. Given $n(U) = 28$, $n(M) = 14$, $n(M \\cap N) = 3$, and $n(M \\cup N) = 18$, find:\n\n(a) $n(N)$\n\n(b) $n((M \\cup N)')$",
-      "source_images": ["image1291.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "Example 12\n\nThe Venn diagram alongside illustrates the number of people in a sporting club who play tennis ($T$) and hockey ($H$).\n\n[Venn diagram with:\n- In $T$ only: (15)\n- In $T \\cap H$: (27)\n- In $H$ only: (26)\n- Outside: (7)]\n\nDetermine the number of people:\n\n(a) in the club\n\n(b) who play hockey\n\n(c) who play both sports\n\n(d) who play neither sport\n\n(e) who play at least one sport.\n\nSolutions:\n\n(a) $n(U) = 15 + 27 + 26 + 7 = 75$\nThere are 75 people in the club.\n\n(b) $n(H) = 27 + 26 = 53$\n53 people play hockey.\n\n(c) $n(T \\cap H) = 27$\n27 people play both sports.\n\n(d) $n(T' \\cap H') = 7$\n7 people play neither sport.\n\n(e) $n(T \\cup H) = 15 + 27 + 26 = 68$\n68 people play at least one sport.",
-      "source_images": ["image1292.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "Example 10\n\nThere are 30 houses on a street. 16 of the houses have a burglar alarm, 22 houses have a smoke alarm, and 10 houses have both a burglar alarm and a smoke alarm.\n\n(a) Place this information on a Venn diagram.\n\n(b) How many houses on the street have:\n\n(i) a burglar alarm but not a smoke alarm\n\n(ii) either a burglar alarm or a smoke alarm?\n\nSolutions:\n\n(a) Let $B$ represent the set of houses with burglar alarms, and $S$ represent the set of houses with smoke alarms.\n\n(1) We first place a $(10)$ in the intersection to indicate 10 houses have both alarms.\n\n(2) Since 16 houses have burglar alarms, there must be 6 houses in this region so that $6 + 10 = 16$.\n\n(3) Since 22 houses have smoke alarms, there must be 12 houses in this region so that $12 + 10 = 22$.\n\n(4) Since $6 + 10 + 12 = 28$, and there are 30 houses in total, there must be 2 houses in neither $B$ nor $S$.\n\n[Venn diagram with:\n- In $B$ only: (6)\n- In $B \\cap S$: (10)\n- In $S$ only: (12)\n- Outside: (2)]\n\n(b) (i) There are 6 elements in $B$ but not in $S$.\n$\\therefore$ 6 houses have a burglar alarm but not a smoke alarm.\n\n(ii) There are $6 + 10 + 12 = 28$ elements in either $B$ or $S$.\n$\\therefore$ 28 houses have either a burglar alarm or a smoke alarm.",
-      "source_images": ["image1293.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "EXERCISE 2G\n\n1. The Venn diagram alongside illustrates the number of students in a particular class who study French ($F$) and Spanish ($S$).\n\n[Venn diagram with:\n- In $F$ only: (3)\n- In $F \\cap S$: (2)\n- In $S$ only: (12)\n- Outside: (1)]\n\nDetermine the number of students:\n\n(a) in the class\n\n(b) who study both subjects\n\n(c) who study at least one of the subjects\n\n(d) who only study Spanish.\n\n2. In a survey at a resort, people were asked whether they went sailing ($S$) or fishing ($F$) during their stay.\n\n[Venn diagram with:\n- In $S$ only: (27)\n- In $S \\cap F$: (9)\n- In $F$ only: (15)\n- Outside: (24)]\n\nUse the Venn diagram to determine the number of people:\n\n(a) in the survey\n\n(b) who did both activities\n\n(c) who did neither activity\n\n(d) who did exactly one of the activities.",
-      "source_images": ["image1294.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "3. In a class of 30 students, 19 study Physics, 17 study Chemistry, and 15 study both subjects. Determine the number of students who study:\n\n(a) at least one of the subjects\n\n(b) Physics, but not Chemistry\n\n(c) exactly one of the subjects\n\n(d) neither subject.\n\n4. In a class of 40 students, 19 play tennis, 20 play netball, and 8 play neither sport. Determine the number of students in the class who:\n\n(a) do not play netball\n\n(b) play at least one of the sports\n\n(c) play exactly one of the sports\n\n(d) play netball, but not tennis.\n\n5. In a class of 25 students, 15 play hockey, 16 play basketball, and 4 play neither sport. Determine the number of students who play:\n\n(a) both sports\n\n(b) hockey but not basketball.\n\n6. In a class of 40 students, 34 like bananas, 22 like pineapples, and 2 dislike both fruits. Find the number of students who:\n\n(a) like both fruits\n\n(b) like at least one fruit.\n\n7. In a class of 40 students, 23 have dark hair, 18 have brown eyes, and 26 have dark hair, brown eyes or both. How many students have:\n\n(a) dark hair and brown eyes\n\n(b) neither dark hair nor brown eyes\n\n(c) dark hair but not brown eyes?\n\n8. Answer the Opening Problem on page 28.\n\n9. In a circle of music lovers, 14 people play the piano or violin, 8 people are piano players, and 5 people play both instruments. Find the number of violin players.\n\n10. 64% of students at a school study a language, and 79% study Mathematics. Every student studies at least one of these subjects. What percentage of students study both a language and Mathematics?\n\n11. Our team scored well in the interschool athletics carnival. Each person was allowed to participate in one running and one jumping event. We gained 8 places in running events. 5 of us gained a place in both running and jumping events, and 14 of us gained exactly one place. In total, how many places were gained by the team?",
-      "source_images": ["image1295.png"]
     }
   ]
 }

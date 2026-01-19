@@ -1,0 +1,292 @@
+{
+  "chapter": 29,
+  "part": 1,
+  "images_range": "2599-2670",
+  "items": [
+    {
+      "type": "concept",
+      "content_latex": "PERCENTAGE CHANGE USING A MULTIPLIER\n\nShopkeepers often need to increase or decrease the price of an item by a percentage. This is easily done using a multiplier.\n\nFor example:\n\n- if a price is increased by 20%, the final price is $100\\% + 20\\%$ or $120\\%$ of the original price\n$\\therefore$ the multiplier $= 1.2$\n\n- if a price is decreased by 20%, the final price is $100\\% - 20\\%$ or $80\\%$ of the original price.\n$\\therefore$ the multiplier $= 0.8$\n\n$\\text{multiplier} = \\frac{\\text{new value}}{\\text{old value}}$",
+      "source_images": ["image2599.png", "image2600.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 1\n\nWhat multiplier corresponds to:\n\n(a) a 40% increase\n\n(b) a 15% decrease?\n\nSolutions:\n\n(a) multiplier $= (100 + 40)\\% = 140\\% = 1.4$\n\n(b) multiplier $= (100 - 15)\\% = 85\\% = 0.85$",
+      "source_images": ["image2601.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 2\n\nFor the following multipliers, state the corresponding percentage increase or decrease:\n\n(a) 1.15\n\n(b) 0.88\n\nSolutions:\n\n(a) $1.15$\n$= 1.15 \\times 100\\%$\n$= 115\\%$\nwhich is an increase over 100% of 15%\n\n(b) $0.88$\n$= 0.88 \\times 100\\%$\n$= 88\\%$\nwhich is a decrease below 100% of 12%",
+      "source_images": ["image2602.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 3\n\n(a) Increase $\\$10\\,500$ by 8%.\n\n(b) Decrease $\\pounds 120$ by 12%.\n\nSolutions:\n\n(a) new amount\n$= 108\\%$ of $\\$10\\,500$ {to increase by 8%, multiply by 108%}\n$= 1.08 \\times \\$10\\,500$\n$= \\$11\\,340$\n\n(b) new amount\n$= 88\\%$ of $\\pounds 120$ {to decrease by 12%, multiply by 88%}\n$= 0.88 \\times \\pounds 120$\n$= \\pounds 105.60$",
+      "source_images": ["image2603.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 4\n\nA house is bought for $\\$156\\,000$ and six months later is sold for $\\$175\\,500$. What is the percentage increase on the investment?\n\nMethod 1:\n\nmultiplier\n$= \\frac{\\text{new value}}{\\text{old value}}$\n$= \\frac{175\\,500}{156\\,000}$\n$= 1.125$\n$= 112.5\\%$\n$\\therefore$ a 12.5% increase occurred\n\nMethod 2:\n\npercentage increase\n$= \\frac{\\text{increase}}{\\text{original}} \\times 100\\%$\n$= \\frac{19\\,500}{156\\,000} \\times 100\\%$\n$= 12.5\\%$\n$\\therefore$ a 12.5% increase occurred\n\n$\\text{percentage change} = \\frac{\\text{change}}{\\text{original}} \\times 100\\%$",
+      "source_images": ["image2604.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "MARK-UP\n\nIn order to make a profit, a retailer must add on an amount to the price at which he or she buys goods. This amount is called the mark-up.\n\nFor example, if the retailer buys an item for $\\$100$ and his mark-up is 40%, he will mark the item to sell at $\\$100 \\times 140\\% = \\$140$. The mark-up on the item is $\\$40$.",
+      "source_images": ["image2605.png", "image2606.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 5\n\nAlfred buys shirts for $\\text{\\euro}20$ and marks them up by 60%. At what price does he sell them?\n\nSolution:\n\nAlfred sells the shirts for $\\text{\\euro}20 \\times 160\\%$\n$= \\text{\\euro}20 \\times 1.6$\n$= \\text{\\euro}32$",
+      "source_images": ["image2607.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "DISCOUNT\n\nIn order to encourage a sale, a retailer may offer a discount. This means that the sale price is reduced or discounted by a certain amount or by a given percentage.",
+      "source_images": ["image2609.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 6\n\nSally discounts her dresses by 20% at her annual sale. What is the sale price of a dress originally marked at $\\$150$?\n\nSolution:\n\nSale price $=$ original price $\\times 80\\%$ {reduced by 20%}\n$= \\$150 \\times 0.8$\n$= \\$120$",
+      "source_images": ["image2609.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 7\n\nA bag of tomatoes is sold at $\\text{\\euro}4.35$ to make a 30% profit. Find the cost price of the tomatoes.\n\nSolution:\n\nselling price $= 130\\%$ of cost price\n$\\therefore$ $\\text{\\euro}4.35 = 1.30 \\times$ cost price\n$\\therefore$ $\\frac{\\text{\\euro}4.35}{1.30} =$ cost price\n\nSo, the cost price $= \\text{\\euro}3.35$",
+      "source_images": ["image2610.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 8\n\nA local electrical store offers a 15% discount on all items sold at its summer sale. If a television set is sold for $\\$675$, find its marked price.\n\nSolution:\n\nSince there is a 15% discount,\n\nselling price $= 85\\%$ of marked price\n$\\therefore$ $\\$675 = 0.85 \\times$ marked price\n$\\therefore$ $\\frac{\\$675}{0.85} =$ marked price\n\nSo, the marked price is $\\$794.12$",
+      "source_images": ["image2611.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "TAX ON THE SALES OF GOODS\n\nIn most countries a tax is payable on the sale of goods. This tax has various names depending on the country where the transaction takes place. The two most common names are value added tax (VAT) and goods and services tax (GST).\n\nThe standard rate of tax varies from one country to another. For example:\n\n- in Chile it is 19%\n- in Sweden it is 25%\n- in Australia it is 10%\n- in the UK it is 17.5%\n- in Russia it is 18%\n- in Singapore it is 7%.",
+      "source_images": ["image2612.png", "image2613.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 9\n\nIn order to make reasonable profit, an electrical store in Russia must sell a television set for 8500 rubles. If an 18% tax applies, find:\n\n(a) the television's selling price\n\n(b) the amount of tax.\n\nSolutions:\n\n(a) Sale price $= 8500 \\times 1.18$ rubles {$100\\% + 18\\% = 118\\%$}\n$= 10\\,030$ rubles\n\n(b) The amount of tax $= (10\\,030 - 8500)$ rubles\n$= 1530$ rubles",
+      "source_images": ["image2614.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "CHAIN PERCENTAGE PROBLEMS\n\nSometimes we need to use a multiplier more than once within a problem.",
+      "source_images": ["image2615.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 10\n\nA 1.25 L soft drink is bought by a deli for $\\$0.90$ (GST exclusive). The deli owner adds 70% mark-up and then 10% GST. What price does the customer pay?\n\nSolution:\n\nPrice $= \\$0.90 \\times 1.7 \\times 1.1$\n$= \\$1.68$",
+      "source_images": ["image2615.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 11\n\nCucumbers are initially marked up 30% above the cost price. If a 10% discount is then offered, what is the percentage profit? Assume there is no VAT or GST.\n\nSolution:\n\nSelling price $=$ cost price $\\times 130\\% \\times 90\\%$\n$=$ cost price $\\times 1.3 \\times 0.9$\n$=$ cost price $\\times 1.17$\n$= 117\\%$ of cost price\n\nSo, the percentage profit is 17%.",
+      "source_images": ["image2616.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11A.1\n\n1. Find the multiplier that corresponds to:\n\n(a) a 20% increase\n(b) a 20% decrease\n(c) a 45% increase\n(d) a 45% decrease\n(e) an 8% decrease\n(f) a 3% increase\n(g) a 100% increase\n(h) a 600% increase\n(i) a 100% decrease\n\n2. For the following multipliers, state the corresponding percentage increase or decrease:\n\n(a) 1.12\n(b) 1.23\n(c) 0.96\n(d) 0.85\n(e) 1.45\n(f) 0.67\n(g) 2.4\n(h) 0.3",
+      "source_images": ["image2617.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11A.1 (continued)\n\n3. Calculate the following:\n\n(a) Increase $\\$50$ by 5%\n(b) Decrease $\\text{\\euro}27$ by 30%\n(c) Decrease $\\pounds 780$ by 20%\n(d) Increase $\\$68$ by 15%\n(e) Increase $\\pounds 140$ by 25%\n(f) Decrease $\\text{\\euro}640$ by 25%\n(g) Decrease $\\$36$ by 2%\n(h) Increase $\\text{\\euro}325$ by 4%\n(i) Increase $\\pounds 1600$ by 100%\n(j) Decrease $\\$4500$ by 75%",
+      "source_images": ["image2618.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11A.1 (continued)\n\n4. Find the percentage change that occurs when:\n\n(a) $\\$80$ increases to $\\$100$\n(b) $\\text{\\euro}9000$ decreases to $\\text{\\euro}7200$\n(c) $\\$85$ reduces to $\\$82$\n(d) $\\pounds 96$ increases to $\\pounds 108$\n(e) $\\text{\\euro}75\\,000$ increases to $\\text{\\euro}86\\,000$\n(f) $\\pounds 3500$ reduces to $\\pounds 2400$.\n\n5. A block of land is bought for $\\text{\\euro}164\\,000$ and sold later for $\\text{\\euro}208\\,000$. Calculate the percentage increase in the investment.\n\n6. A share trader buys a parcel of shares for $\\pounds 3200$ and sells them for $\\pounds 2800$. Calculate the percentage decrease in the investment.\n\n7. Paolo bought a truck costing $\\text{\\euro}47\\,500$, but a few months later he found it was no longer large enough for transporting his goods. If Paolo sold the truck for $\\text{\\euro}42\\,000$, what was his percentage loss?",
+      "source_images": ["image2619.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11A.2\n\n1. At what price would Alfred sell:\n\n(a) a shirt costing him $\\text{\\euro}24$ if he applies a 40% mark-up\n(b) a skirt costing him $\\text{\\euro}50$ if he applies a 55% mark-up\n(c) a jacket costing him $\\text{\\euro}120$ if he applies a 35% mark-up\n(d) a suit costing him $\\text{\\euro}320$ if he applies a 30% mark-up\n(e) a pair of trousers costing him $\\text{\\euro}45$ if he applies a 28% mark-up?\n\n2. A baker puts a mark-up of 30% on the bread sold to storekeepers. If it costs the baker, on average, 90 cents per loaf, what price must the baker charge storekeepers?",
+      "source_images": ["image2620.png", "image2621.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11A.2 (continued)\n\n3. Adriano sells fruit and vegetables. At what price should he sell:\n\n(a) apples costing him $\\$2.30$ a kg, if he marks them up by 60%\n(b) pineapples costing him $\\$0.80$ each, if he marks them up by 80%\n(c) cabbages costing him $\\$1.20$ each, if he marks them up by 70%?\n\n4. A butcher buys chicken breast fillets for $\\$5$ per kg and adds a 65% mark-up for profit. What price per kilogram will the customer pay?\n\n5. Kane bought a lawnmower for $\\$450$ to sell in his shop. If he marks it up by 32%, at what price does he hope to sell it?",
+      "source_images": ["image2622.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11A.3\n\n1. For what price will Sally sell a dress if it was originally marked at:\n\n(a) $\\$80$ and it is discounted 30%\n(b) $\\$160$ and it is discounted 25%\n(c) $\\$240$ and it is discounted 35%?\n\n2. A CD is marked at $\\text{\\euro}20$ and is discounted by 15%. What is its selling price?\n\n3. A refrigerator is marked at $\\pounds 850$ and is discounted by 18%. What is its selling price?\n\n4. A bicycle marked at $\\$560$ is to be discounted by 30%. Calculate the sale price.\n\n5. A wok priced at RM95 is to be sold at a 45% discount. Calculate its selling price.",
+      "source_images": ["image2623.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11A.3 (continued)\n\n6. A shop sells fresh fish with a 45% mark-up on the price they buy them for. How much did the fish cost the shop if they sell them for $\\$5.50$ per kg?\n\n7. A litre of milk retails for $\\text{\\euro}1.47$ after being marked up by 40%. What was the cost price?",
+      "source_images": ["image2624.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11A.3 (continued)\n\n8. A CD was discounted by 20% and sold for $\\yen 2360$. What was the marked price?\n\n9. A pair of bathers sold for $\\text{\\euro}44$ after being discounted by 45%. What was the marked price of the bathers?",
+      "source_images": ["image2625.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11A.4\n\n1. A washing machine has a price of $\\pounds 240$ before tax. It is sold with a VAT of $17\\frac{1}{2}\\%$ which must be added to the price.\n\n(a) What does it sell for?\n(b) How much is the VAT?\n\n2. A double bed in Canada has a price tag which says $\\$2165$ plus 6% GST.\n\n(a) What amount is paid by a customer?\n(b) How much is the GST?\n\n3. In Spain a case of wine sells for $\\text{\\euro}350$ with an IVA of 20% to be added to this price.\n\n(a) What amount is paid by a customer?\n(b) How much is the IVA?\n\n4. In Croatia the PDV (tax) is 22%. A boat is priced at HRK62 500.\n\n(a) What amount is paid by a customer?\n(b) How much is the PDV?",
+      "source_images": ["image2626.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11A.5\n\n1. Katinka buys a skirt for $\\$32$ (GST exclusive). She adds 55% profit plus 10% GST before putting it on sale in her salon. What price should be put on the tag?\n\n2. A surfboard manufactured for $\\$300$ is sold to a retail shop for a 40% profit plus 10% VAT. How much does the retail shop pay?\n\n3. Flavoured milk is sold to a supermarket for $\\$1.20$ per carton. The supermarket adds 60% profit plus 10% GST. What price does the customer pay?",
+      "source_images": ["image2627.png", "image2628.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11A.5 (continued)\n\n4. A fisherman sells a crayfish to a wholesaler for $\\text{\\euro}35$. The wholesaler sells it to a fresh fish shop for 60% profit. However, the fish shop is forced to sell the crayfish at a 15% loss. Assuming there is no tax, what price must a crayfish lover pay for this delicacy?\n\n5. If bread is marked up 40% above the cost and then a 20% discount is offered, what is the percentage profit? Assume there is no tax.\n\n6. If meat is marked up 60% above cost and sold in a 35% off 'market day' sale, calculate the percentage profit. Assume there is no tax.\n\n7. A rare book is bought by an antiques dealer, and he marks its price up by 100% for sale. One of his regular customers is interested in buying the book, so the dealer offers the customer a 20% discount. What is the overall percentage profit on the sale?",
+      "source_images": ["image2629.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "When the value of an investment or an item such as a house increases, we say it appreciates in value.\n\nYou may have noticed that the prices of everyday goods and services also increase over time due to inflation. This is a form of appreciation.",
+      "source_images": ["image2630.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 12\n\nThe inflation rate over the next three years is predicted to be 2% then 3% then 3.5%. If an item currently costs $\\$140$ and the cost rises in line with the predicted inflation, what will its cost in 3 years' time be?\n\nSolution:\n\nCost in 3 years $= \\$140 \\times 1.02 \\times 1.03 \\times 1.035$\n$= \\$152.23$",
+      "source_images": ["image2631.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 13\n\nOver 4 consecutive years, the value of a house increases by 15%, increases by 9%, decreases by 4%, and increases by 18%. What is the overall percentage increase in value over this period?\n\nSolution:\n\nLet $\\$x$ be the original value.\n\n$\\therefore$ value after 1 year $= \\$x \\times 1.15$ {15% increase}\n$\\therefore$ value after 2 years $= \\$x \\times 1.15 \\times 1.09$ {9% increase}\n$\\therefore$ value after 3 years $= \\$x \\times 1.15 \\times 1.09 \\times 0.96$ {4% decrease}\n$\\therefore$ value after 4 years $= \\$x \\times 1.15 \\times 1.09 \\times 0.96 \\times 1.18$ {18% increase}\n$\\approx \\$x \\times 1.4200$\n\n$\\therefore$ a 42% increase in the value has occurred.",
+      "source_images": ["image2632.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11B\n\n1. The inflation rate is predicted to be 3%, 3.5%, 4% and then 5% over the next four years. What would you expect a bicycle costing $\\pounds 500$ today to cost in four years' time?\n\n2. An investment of $\\$18\\,250$ is left to accumulate interest over a 4 year period. During the first year the interest paid is 9.2%, and in successive years the rates paid are 8.6%, 7.5% and 5.6%. Find the value of the investment after 4 years.\n\n3. Caitlin invests $\\text{\\euro}24\\,000$ in a fund which accumulates interest at 9.5% per annum. If the money is left in the investment for a 5 year period, what will its maturing value be?\n\n4. An amount of money is invested at 8% for the first year, 11% for the second year, and 7% for the third year. What is the percentage increase in the value of the investment over this period?\n\n5. A politician's wage increases by 3%, 8%, 5% and then 10% over a four year period. What is the percentage increase in the wage over this period of time?\n\n6. A share fund reported a 9% increase in value for year 1, a 13% decrease in value for year 2, and a 4% increase in value for year 3. What was the overall percentage increase or decrease of the share fund over the 3 years?",
+      "source_images": ["image2633.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "COMPOUND INTEREST\n\nSuppose $\\text{\\euro}5000$ is invested in a savings account which earns 7% p.a. interest. The interest earned and the account balance at the end of each year is:\n\n| After year | Interest paid | Account balance |\n|------------|---------------|------------------|\n| 0 | | $\\text{\\euro}5000.00$ |\n| 1 | 7% of $\\text{\\euro}5000.00 = \\text{\\euro}350.00$ | $\\text{\\euro}5000.00 + \\text{\\euro}350.00 = \\text{\\euro}5350.00$ |\n| 2 | 7% of $\\text{\\euro}5350.00 = \\text{\\euro}374.50$ | $\\text{\\euro}5350.00 + \\text{\\euro}374.50 = \\text{\\euro}5724.50$ |\n| 3 | 7% of $\\text{\\euro}5724.50 = \\text{\\euro}400.71$ | $\\text{\\euro}5724.50 + \\text{\\euro}400.71 = \\text{\\euro}6125.21$ |\n| 4 | 7% of $\\text{\\euro}6125.21 = \\text{\\euro}428.76$ | $\\text{\\euro}6125.21 + \\text{\\euro}428.76 = \\text{\\euro}6553.98$ |\n| 5 | 7% of $\\text{\\euro}6553.98 = \\text{\\euro}458.78$ | $\\text{\\euro}6553.98 + \\text{\\euro}458.78 = \\text{\\euro}7012.76$ |\n\n$F_v = P_v(1+i)^n$ where $F_v$ is the future value\n$P_v$ is the present value or amount initially invested\n$i$ is the annual interest rate as a decimal\n$n$ is the number of years of investment.\n\n$F_v - P_v$ is the total interest earned over the $n$ year period.",
+      "source_images": ["image2635.png", "image2636.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 14\n\n$\\$8000$ is invested for 3 years at 8% p.a. compound interest with interest paid annually.\n\n(a) What will it amount to after this period?\n\n(b) How much interest is earned?\n\nSolutions:\n\n(a) $F_v = P_v(1+i)^n$\n$= \\$8000 \\times (1.08)^3$\n$\\approx \\$10\\,077.70$\n\n(b) Interest earned $= F_v - P_v$\n$= \\$10\\,077.70 - \\$8000$\n$= \\$2077.70$",
+      "source_images": ["image2637.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "FINDING THE AMOUNT TO BE INVESTED FOR A DESIRED FUTURE VALUE\n\nWe can use the compound growth formula to find how much we need to invest in order to generate a particular amount in the future.",
+      "source_images": ["image2638.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 15\n\nHow much should I invest now if I require a maturing or future value of $\\$15\\,000$ in 4 years' time? The highest rate of interest I can get is 7.9% p.a. compounded annually, fixed over the period.\n\nSolution:\n\nIn this case $F_v = 15\\,000$, $n = 4$, and $i = 7.9\\% = 0.079$\n\nNow $F_v = P_v(1+i)^n$\n$\\therefore$ $15\\,000 = P_v(1.079)^4$\n$\\therefore$ $\\frac{15\\,000}{(1.079)^4} = P_v$ {dividing both sides by $(1.079)^4$}\n$\\therefore$ $11\\,066.38 \\approx P_v$\n\nI would need to invest $\\$11\\,066.38$.",
+      "source_images": ["image2638.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "CALCULATING THE ANNUAL RATE OF INVESTMENT GROWTH\n\nThe compound growth formula can be used in non-banking problems to find the average rate at which an investment is growing.",
+      "source_images": ["image2639.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 16\n\nStephen Prior bought a rare New Zealand bank note for $\\$4600$. He kept it for 4 years and then sold it for $\\$7300$ at auction. What annual rate did Stephen's investment return?\n\nSolution:\n\n$P_v = 4600$, $n = 4$, $F_v = 7300$\n\nNow $P_v(1+i)^n = F_v$\n$\\therefore$ $4600(1+i)^4 = 7300$\n$\\therefore$ $(1+i)^4 = \\frac{7300}{4600}$ {dividing both sides by 4600}\n$\\therefore$ $1+i = \\sqrt[4]{\\frac{73}{46}}$ {fourth root of both sides}\n$\\therefore$ $1+i \\approx 1.12238$\n$\\therefore$ $i \\approx 0.12238$\n$\\therefore$ $i \\approx 12.238\\%$\n\nSo, the annual rate of increase was about 12.2%.",
+      "source_images": ["image2639.png", "image2640.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "DEPRECIATION\n\nDepreciation is the process by which goods lose value over time.\n\nIf a business owns goods that depreciate in value and are essential for the business to earn an income, the taxation department will usually allow the business to claim the depreciation as a tax deduction.\n\nMany items are depreciated by a constant percentage for each year of their useful life. They are said to be depreciated on their reduced balance.\n\nThe following table shows how a video projector costing $\\$8500$ depreciates over 3 years at 30% each year. The depreciated value at the end of each year is commonly called the book value.\n\n| Age (years) | Depreciation | Book Value |\n|-------------|--------------|------------|\n| 0 | | $\\$8500.00$ |\n| 1 | 30% of $\\$8500.00 = \\$2550.00$ | $\\$8500.00 - \\$2550.00 = \\$5950.00$ |\n| 2 | 30% of $\\$5950.00 = \\$1785.00$ | $\\$5950.00 - \\$1785.00 = \\$4165.00$ |\n| 3 | 30% of $\\$4165.00 = \\$1249.50$ | $\\$4165.00 - \\$1249.50 = \\$2915.50$ |\n\nThe annual depreciation decreases each year as it is calculated on the reduced balance of the item.\n\nThe depreciation formula is:\n\n$F_v = P_v(1-i)^n$ where $F_v$ is the future value after $n$ time periods\n$P_v$ is the original purchase price or present value\n$i$ is the depreciation rate per period as a decimal\n$n$ is the number of periods.",
+      "source_images": ["image2641.png", "image2642.png", "image2643.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 17\n\nA motorcycle was purchased for $\\text{\\euro}12\\,500$ and depreciated at 15% each year.\n\n(a) Find its value after five years.\n\n(b) By how much did it depreciate?\n\nSolutions:\n\n(a) Now $F_v = P_v(1-i)^n$ where $P_v = 12\\,500$, $i = 0.15$, $n = 5$\n$\\therefore$ $F_v = 12\\,500 \\times (1-0.15)^5$\n$= 12\\,500 \\times (0.85)^5$\n$\\approx 5546.32$\n\nSo, after 5 years the value is $\\text{\\euro}5546.32$\n\n(b) The depreciation $= \\text{\\euro}12\\,500 - \\text{\\euro}5546.32 = \\text{\\euro}6953.68$",
+      "source_images": ["image2644.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11C.1\n\n1. $\\pounds 1000$ is deposited into a bank account which pays interest at 6% p.a. The money is left there for 4 years.\n\n(a) If the bank pays simple interest:\n\n(i) how much interest is earned each year\n(ii) what will the $\\pounds 1000$ amount to at the end of 4 years?\n(iii) Draw a graph which shows the value of the investment over time.\n\n(b) Suppose now that the bank pays compound interest.\n\n(i) Complete a table like the one above for this investment.\n(ii) Draw a graph showing the value of the investment over time on the same set of axes as the simple interest investment.\n\n(c) Compare the two graphs drawn in (a) and (b).\n\n2. $\\$10\\,000$ is invested for 4 years at 8% p.a. with interest paid annually.\n\n(a) What will the investment amount to at the end of the 4th year if the interest paid is:\n\n(i) simple\n(ii) compound?\n\n(b) What type of interest payment gives the greater final amount and by how much?\n\n3. How much interest is earned for investments of:\n\n(a) $\\text{\\euro}4000$ for 3 years at 9.3% p.a. compounded annually\n(b) $\\pounds 20\\,000$ for 4 years at 7.8% p.a. compounded annually\n(c) $\\$4750$ for 5 years at 8.3% p.a. compounded annually\n(d) 7600 pesos for 4 years at 11.4% p.a. compounded annually\n(e) $\\yen 400\\,000$ for 5 years at 4.95% p.a. compounded annually\n(f) 35 000 pesos for 6 years at 3.98% p.a. compounded annually?",
+      "source_images": ["image2645.png", "image2646.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11C.2\n\n1. $\\pounds 10\\,000$ is invested for 4 years at 7% p.a. compound interest with interest paid annually.\n\n(a) What will it amount to after this period?\n(b) How much interest is earned?\n\n2. $\\text{\\euro}4750$ is invested for 5 years at 6.8% p.a. compound interest with interest paid annually.\n\n(a) What is the maturing or final value of the investment?\n(b) How much interest will be paid into the account over this period?\n\n3. $\\$20\\,000$ is placed into a bank account for 6 years. The interest is fixed at 7.5% p.a. and is compounded annually.\n\n(a) Find the maturing value of the investment.\n(b) What portion of the maturing value is interest?\n\n4. Geetha would like $\\$15\\,000$ for a holiday in Fiji in 5 years' time. How much does she need to invest now at a fixed rate of 7.25% p.a. compounded annually in order to achieve her goal?\n\n5. Abdul requires $\\text{\\euro}20\\,000$ in 4 years' time. The best interest rate he can get is 6.8% p.a. compounded annually, fixed for the period. How much does Abdul need to invest?\n\n6. Sally has an agreement with her uncle to purchase his apartment in 4 years' time for $\\pounds 155\\,000$. She figures that she can save $\\pounds 55\\,000$ during that period from her weekly pay. If she can invest at a fixed rate of 8.75% p.a. compounded annually, how much does she need to invest now from current savings to ensure she has the money needed?\n\n7. Fifi bought an antique table for $\\text{\\euro}2700$ and 8 years later sold it for $\\text{\\euro}6350$. Find the yearly rate of increase for this investment.\n\n8. My uncle bought a section of land for $\\$150$ in November 1944. He sold it for $\\$350\\,000$ in November 2007. What was the annual rate of increase for his investment?\n\n9. In 1964 a rare vase was offered for sale at $\\$135$. Fredrik bought the vase and eventually sold it for $\\$84\\,000$ in 2006. What was the annual rate of increase in the value of his investment?",
+      "source_images": ["image2647.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11D.1\n\n1. (a) A deep fryer was purchased by a fish and chip shop for $\\pounds 15\\,000$. It depreciated by 15% each year for 3 years. Copy and complete the following table to find the value of the deep fryer at this time.\n\n| Age (years) | Depreciation | Book Value |\n|-------------|--------------|------------|\n| 0 | | $\\pounds 15\\,000$ |\n| 1 | 15% of $\\pounds 15\\,000 = \\pounds 2250$ | |\n| 2 | | |\n| 3 | | |\n\n(b) Calculate how much depreciation can be claimed as a tax deduction by the shop in:\n\n(i) Year 1\n(ii) Year 2\n(iii) Year 3\n\n2. What will be the book value of the following:\n\n(a) a car costing $\\text{\\euro}35\\,400$, depreciating at 25% p.a. over 4 years\n(b) a printing machine costing $\\$895\\,000$, depreciating at 8% p.a. over 8 years\n(c) a farm machine costing $\\pounds 356\\,000$, depreciating at 15% p.a. over 5 years.",
+      "source_images": ["image2648.png", "image2649.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11D.2\n\n1. (a) Find the future value of a truck which was purchased for $\\text{\\euro}225\\,000$ if it depreciates at 25% p.a. for 5 years.\n\n(b) By how much did it depreciate?\n\n2. (a) If I buy a car for $\\pounds 32\\,400$ and keep it for 3 years, what will its value be at the end of that period given an annual depreciation rate of 20%?\n\n(b) By how much did it depreciate?\n\n3. The Taxation Office allows industrial vehicles to be depreciated at $7\\frac{1}{2}\\%$ every 6 months.\n\n(a) What will be the value in 2 years' time of vehicles currently worth $\\text{\\euro}240\\,000$?\n(b) By how much will they have depreciated?\n\n4. A $\\$145\\,000$ luxury car was bought new at the beginning of 2006. Its value depreciates at $22\\frac{1}{2}\\%$ per annum.\n\n(a) What will its value be at the end of 2009?\n(b) If inflation runs at 5.4% p.a. during this time, what will be the replacement cost for a similar new car then?\n(c) If the depreciated value is used as a deposit for the new car, what will be the balance to be paid?",
+      "source_images": ["image2650.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "CREDIT CARDS\n\nCredit cards are a very popular way to borrow money because of their convenience. However, they charge a higher rate of interest than other borrowing alternatives.\n\nSuppose we use our credit card to obtain a cash advance. In this case, interest will be charged from the date the advance is made. There is no interest free period.\n\nInterest is calculated daily on these advances and is compounded each month. We assume interest is paid for the period inclusive of end dates. The interest is calculated using the formula\n\n$\\text{interest} = \\text{balance} \\times \\text{interest rate} \\times \\frac{\\text{number of days}}{365}$.",
+      "source_images": ["image2651.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 18\n\nJeri obtained a $\\$1000$ cash advance on her credit card on the 8th January. She received her statement for the period ending on the 20th January, then got another cash advance on the 25th January for $\\$500$. How much interest will be charged by her next statement on the 20th February? Assume the interest is charged at 16.9% p.a. and compounds monthly.\n\nSolution:\n\nThe period 8/1 - 20/1 inclusive is 13 days, so the interest charged\n$= \\$1000 \\times 0.169 \\times \\frac{13}{365} = \\$6.02$\n\nThe interest is now added to the balance, so Jeri now owes $\\$1006.02$\n\nThe period 21/1 - 24/1 inclusive is 4 days, so the interest charged\n$= \\$1006.02 \\times 0.169 \\times \\frac{4}{365}$\n$= \\$1.86$\n\nThis $\\$1.86$ is not added until the next statement.\n\nOn 25/1 the balance becomes $\\$1006.02 + \\$500 = \\$1506.02$\n\nThe period 25/1 - 20/2 inclusive is 27 days, so the interest charged\n$= \\$1506.02 \\times 0.169 \\times \\frac{27}{365}$\n$= \\$18.83$\n\nOn 20/2 the interest is added to the balance.\n\nSo, the balance is now $= \\$1506.02 + \\$1.86 + \\$18.83$\n$= \\$1526.71$\n\n$\\therefore$ the total interest charged $= \\$26.71$",
+      "source_images": ["image2652.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11E.1\n\nIn the following questions, assume the initial balance of each credit card is nil.\n\n1. Alma obtains a $\\text{\\euro}5000$ cash advance on her credit card on 17th November. Her statement is issued on 27th November. Calculate the interest charged on the statement if the interest rate is 15.5% p.a.\n\n2. Bronte obtains a cash advance of $\\$2000$ on his credit card on 7th January. He repays it in full on 20th January. Calculate the interest charged on this advance when his statement for the period ending on 28th January is received. The interest rate charged is 15.8% p.a.\n\n3. Sylvia draws advances on her credit card of $\\pounds 800$ on July 20th and $\\pounds 500$ on August 12th. Her statement is for the period ending on the 24th of each month and the interest rate is 16.8% p.a. How much will she owe on 24th August?\n\n4. Steve draws cash advances on his credit card as follows:\n9th March - cash advance $\\$1800$, 18th March - cash advance $\\$1200$\nHis statement is for the period ending on the 12th of each month and the interest rate is 16.25% p.a. Calculate the total interest charges on these advances up to 12th April.",
+      "source_images": ["image2653.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "BUYING ON TERMS\n\nWhen buying an item on terms, the purchaser pays a deposit at the time of the sale, and then the rest of the price at a certain rate over a certain time. The deposit may be cash or else the value of a traded item.\n\nThe regular payments made to pay off the loan include an interest charge.\n\nElectrical items, cars, and whitegoods such as washing machines and refrigerators are often purchased this way.",
+      "source_images": ["image2654.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 19\n\nA car is priced at $\\$23\\,850$. The terms are 20% deposit and $\\$136.10$ per week for 3 years. Calculate:\n\n(a) the amount borrowed\n(b) the total amount of repayments\n(c) the total interest paid\n(d) the total cost of the car.\n\nSolutions:\n\n(a) Amount borrowed $=$ price $-$ deposit\n$= \\$23\\,850 - 20\\%$ of $\\$23\\,850$ {or $80\\%$ of $\\$23\\,850$}\n$= \\$23\\,850 - \\$4770$\n$= \\$19\\,080$\n\n(b) Total repayments $=$ regular payment $\\times$ number of payments\n$= \\$136.10 \\times 156$ {3 years $\\times$ 52 weeks $= 156$}\n$= \\$21\\,231.60$\n\n(c) Interest paid $=$ total repayments $-$ amount borrowed\n$= \\$21\\,231.60 - \\$19\\,080$\n$= \\$2151.60$\n\n(d) Total cost of car $=$ deposit paid $+$ total repayments\n$= \\$4770 + \\$21\\,231.60$\n$= \\$26\\,001.60$",
+      "source_images": ["image2655.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11E.2\n\n1. A washing machine is advertised for $\\text{\\euro}1050$ cash or else $\\text{\\euro}100$ deposit followed by monthly repayments of $\\text{\\euro}47.50$ for 24 months.\n\n(a) What will be the total cost of the machine if it is purchased on terms?\n(b) How much interest will be paid?\n\n2. A customer purchases a lounge suite costing $\\$5200$ by paying a 10% deposit and then $\\$415$ per month for 12 months. Calculate:\n\n(a) the total cost of the lounge suite\n(b) the amount of interest charged.\n\n3. An electrical appliance store advertises a digital television for $\\pounds 1800$. They offer a discount of 5% if the item is paid for in cash up front, or terms of 20% deposit plus fortnightly repayments of $\\$64$ for one year. How much more would you pay if you bought the television on terms rather than paying cash?\n\n4. Kara is moving into a flat and wants to buy a new bed. By shopping around she has found that two stores are selling the bed she wants. Their prices and terms are:\nStore A: $\\$865$ cash or deposit $\\$100$ with monthly repayments of $\\$52.95$ for 18 months.\nStore B: $\\$895$ cash or 10% deposit with fortnightly repayments of $\\$36.50$ for one year.\nWhich store should Kara purchase her new bed from? Give reasons for your answer.\n\n5. Khoa wants to purchase a new 4WD. He is offered two deals on the same model:\nDealer A: price $\\$41\\,880$ or 20% deposit with weekly repayments of $\\$275$ over 3 years.\nDealer B: price $\\$41\\,880$ or 10% deposit with monthly repayments of $\\$820$ over 60 months.\nWhich dealer should Khoa choose?",
+      "source_images": ["image2656.png", "image2657.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "PERSONAL LOANS\n\nA common way to borrow money to purchase cars, boats, renovations, overseas holidays, education expenses or share portfolios, is to take out a personal loan. Banks, credit unions and finance companies all offer personal loans with differing terms, conditions, and interest rates.\n\nInterest will be the biggest cost involved in repaying a personal loan.\n\nInterest is calculated on the reducing balance of the loan so that the interest reduces as the loan is repaid. The interest each period is added to the balance owed and the repayment is deducted. So,\n\n$\\text{outstanding balance} = \\text{previous balance} + \\text{interest} - \\text{repayment}$.",
+      "source_images": ["image2658.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 20\n\n$\\$2000$ is borrowed at a reducing balance interest rate of 12% p.a. Monthly repayments of $\\$400$ are to be made. By completing a table, determine:\n\n(a) the number of repayments to be made\n(b) the final repayment.\n\nSolution:\n\nAn interest rate of 12% p.a. means 1% per month.\n\n| Month | Opening balance | Interest (1% per month) | Repayment | Reduction in principal | Closing balance |\n|-------|-----------------|-------------------------|-----------|------------------------|------------------|\n| 1 | $\\$2000.00$ | $\\$20.00$ | $\\$400.00$ | $\\$380.00$ | $\\$1620$ |\n| 2 | $\\$1620.00$ | $\\$16.20$ | $\\$400.00$ | $\\$383.80$ | $\\$1236.20$ |\n| 3 | $\\$1236.20$ | $\\$12.36$ | $\\$400.00$ | $\\$387.64$ | $\\$848.56$ |\n| 4 | $\\$848.56$ | $\\$8.49$ | $\\$400.00$ | $\\$391.51$ | $\\$457.05$ |\n| 5 | $\\$457.05$ | $\\$4.57$ | $\\$400.00$ | $\\$395.43$ | $\\$61.62$ |\n| 6 | $\\$61.62$ | $\\$0.62$ | $\\$62.24$ | $\\$61.62$ | $\\$0.00$ |\n\n(a) From the table we can see that there are five full monthly repayments plus a final part payment.\n\n(b) The final repayment is $\\$62.24$.",
+      "source_images": ["image2659.png", "image2660.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11E.3\n\n1. Set up a table as in Example 20 to describe a loan of $\\$3000$. The interest rate is 9% p.a. compounded monthly under reducing balance conditions, and monthly payments of $\\$600$ are to be made. How many payments are required to repay the loan?\n\n2. Erica takes out a loan to buy a car. She borrows $\\text{\\euro}20\\,000$ for 5 years at a rate of 12% p.a. compounded monthly under reducing balance conditions. Determine the closing balance after making monthly repayments of $\\text{\\euro}445$ for three months.\n\n3. A loan of $\\pounds 100\\,000$ is taken out for 10 years to buy a share portfolio. Interest is charged at 12% p.a. compounded quarterly under reducing balance conditions. Determine the amount still owing after 1 year if quarterly repayments of $\\pounds 4350$ are made.",
+      "source_images": ["image2661.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "LOAN REPAYMENT TABLES\n\nWhen you apply for a personal loan, you will be advised of the amount you will need to repay each fortnight or each month. This amount is dependent on the loan amount, the duration of the loan, and the interest rate charged.\n\nBanks have tables of repayments for various loans. Loan calculators are available on bank websites. Look up the internet addresses of some major financial institutions and investigate these.\n\nThe following table of monthly repayments is based on borrowing 1000 units of currency.\n\nThe resulting monthly instalments are rounded off to the next 10 cents. For example, $\\$485.51$ becomes $\\$485.60$.\n\n| Loan term (months) | Annual interest rate |\n||10.0%|10.5%|11.0%|11.5%|12.0%|12.5%|13.0%|\n|12|87.9159|88.1486|88.6151|88.8488|89.0829|89.3173|89.3173|\n|18|60.0571|60.2876|60.5185|60.7500|60.9820|61.2146|61.4476|\n|24|46.1449|46.3760|46.6078|46.8403|47.0735|47.3073|47.5418|\n|30|37.8114|38.0443|38.2781|38.5127|38.7481|38.9844|39.2215|\n|36|32.2672|32.5024|32.7387|32.9760|33.2143|33.4536|33.6940|\n|42|28.3168|28.5547|28.7939|29.0342|29.2756|29.5183|29.7621|\n|48|25.3626|25.6034|25.8455|26.0890|26.3338|26.5800|26.8275|\n|54|23.0724|23.0724|23.5615|23.8083|24.0566|24.3064|24.5577|\n|60|21.2470|21.4939|21.7424|21.9926|22.2444|22.4979|22.7531|",
+      "source_images": ["image2662.png", "image2663.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 21\n\nErin takes out a personal loan for $\\$16\\,500$ to buy a car. She negotiates a term of 4 years at 11.5% p.a. interest. Calculate the:\n\n(a) monthly repayments\n(b) total repayments\n(c) interest charged.\n\nSolutions:\n\n(a) From the table, the monthly repayments on each $\\$1000$ for 4 years (48 months) at 11.5% p.a. $= \\$26.0890$\n$\\therefore$ the repayments on $\\$16\\,500 = \\$26.0890 \\times 16.5$ {16.5 lots of $\\$1000$}\n$= \\$430.4685$\n$\\approx \\$430.50$ {to next 10 cents}\n\nThe monthly repayments are $\\$430.50$.\n\n(b) Total repayments $=$ monthly repayment $\\times$ number of months\n$= \\$430.50 \\times 48$\n$= \\$20\\,664$\n\nSo, $\\$20\\,664$ is repaid in total.\n\n(c) Interest $=$ total repayments $-$ amount borrowed\n$= \\$20\\,664 - \\$16\\,500$\n$= \\$4164$\n\nThe total interest charged is $\\$4164$.",
+      "source_images": ["image2664.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11E.4\n\n1. Ron takes out a personal loan for $\\text{\\euro}15\\,000$ to go overseas. He will repay it over 5 years at 11.5% p.a. Calculate the:\n\n(a) monthly repayments\n(b) total repayments\n(c) interest charged.\n\n2. Jai and Tatiana need $\\pounds 18\\,000$ to fund house renovations. They take out a personal loan over 3 years at 13% p.a. Calculate the:\n\n(a) monthly repayments\n(b) total repayments\n(c) interest charged.\n\n3. Gunter needs $\\text{\\euro}28\\,000$ to buy a boat. His bank offers him a personal loan at 12.5% p.a. Calculate the total interest he will pay if he repays it over:\n\n(a) 2 years\n(b) 5 years.\n\nComment on your answers.\n\n4. Trina wants to borrow $\\$45\\,000$ to purchase some shares. Calculate the total interest charged for the following options:\n\n(a) Balance Bank offer 11.5% over 5 years\n(b) Cash Credit Union offer 12.5% over 3 years.\n\nWhich option would you recommend for Trina?",
+      "source_images": ["image2665.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 11A\n\n1. (a) Decrease 140 kg by 20%.\n\n(b) Determine the selling price of an article marked at $\\$60$ and discounted $12\\frac{1}{2}\\%$.\n\n(c) A share trader buys shares for $\\text{\\euro}1100$ and sells them for $\\text{\\euro}1240$. What percentage profit does she make?\n\n2. I bought a house for $\\pounds 120\\,000$. Over the next four years it increased in value by 9%, decreased by 3%, increased by 7%, and finally increased by 12%. What is the value of the house after these four years?\n\n3. Sally has $\\$12\\,000$ to invest for 10 years. She is offered an investment which pays 5% p.a. compounded annually.\n\n(a) What will the investment amount to after this period?\n(b) How much interest will she earn?\n\n4. A new caravan costing $\\pounds 15\\,000$ depreciates at a rate of 16% p.a. What will be its value in 5 years?\n\n5. A $\\text{\\euro}2000$ loan has an interest rate of 18% p.a. and is reducible monthly. If $\\text{\\euro}600$ is repaid each month, draw up a loan schedule to find:\n\n(a) the number of payments necessary\n(b) the size of the last payment.\n\n6. Terri wants to buy a car priced at $\\text{\\euro}24\\,990$. She does not have the full amount saved and is therefore offered the option of paying a 40% deposit and $\\text{\\euro}75.50$ per week over 5 years. If she takes up this option, determine:\n\n(a) the deposit she pays\n(b) the total amount she pays for the vehicle\n(c) the amount of interest she pays.\n\n7. Mizumi takes out a personal loan for $\\yen 600\\,000$ to go on a holiday. Her bank offers her a rate of 11% p.a. over 3 years on a reducing balance basis. Calculate her:\n\n(a) monthly repayments using the table of monthly repayments on page 263.\n(b) total repayments\n(c) interest charged.",
+      "source_images": ["image2666.png", "image2667.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 11B\n\n1. (a) Increase $\\text{\\euro}3725$ by $12\\frac{1}{2}\\%$.\n\n(b) An item of clothing is marked at $\\$49$ but sold in a 15% discount sale. Find the sale price.\n\n(c) The value of a rare stamp increases by 70% one year, but the next year it decreases in value by 35%. What is its overall percentage change in value?\n\n2. A lounge suite was bought for a basic cost of $\\$1780$. It was marked up for a 35% profit, and then 10% GST was added on. Determine the final selling price of the lounge suite.\n\n3. Business equipment purchased for $\\pounds 325\\,000$ depreciated at $17\\frac{1}{2}\\%$ p.a. Calculate the value of the equipment when the company closed down five years after the purchase.\n\n4. A bank offers an investment package to its customers of 7.4% p.a. with interest paid annually, provided no money is withdrawn during the investment period. What would be the maturing value of an investment of $\\$130\\,000$ for 5 years?\n\n5. Mizumi obtained the $\\yen 600\\,000$ necessary for her holiday by getting a cash advance on her credit card. Interest is charged on this advance at 16.5% p.a.. Her parents paid off the loan 20 days later. How much interest will Mizumi need to pay if her card began with a nil balance?\n\n6. A softball bat was discounted 20% and sold for $\\$120$ including 15% VAT.\n\n(a) How much VAT was paid by the customer?\n(b) What was the original marked price including VAT?\n\n7. A company car is purchased for $\\text{\\euro}46\\,500$. Depreciation is calculated at 17.5% of its value each year. Find:\n\n(a) the value of the car after four years\n(b) the amount by which the car has depreciated after four years.\n\n8. A 45 000 rupee car is purchased using a deposit of 15 000 rupees. The balance is repaid over 5 years at $10\\frac{1}{2}\\%$ per annum on a reducing balance basis.\n\nCalculate:\n\n(a) the amount borrowed\n(b) the size of each monthly repayment\n(c) the total to be repaid\n(d) the amount of interest paid.\n\n| Loan term (months) | Annual interest rate |\n||10.0%|10.5%|11.0%|\n|12|87.9159|88.1486|88.6151|\n|18|60.0571|60.2876|60.5185|\n|24|46.1449|46.3760|46.6078|\n|30|37.8114|38.0443|38.2781|\n|36|32.2672|32.5024|32.7387|\n|42|28.3168|28.5547|28.7939|\n|48|25.3626|25.6034|25.8455|\n|54|23.0724|23.0724|23.5615|\n|60|21.2470|21.4939|21.7424|",
+      "source_images": ["image2668.png", "image2669.png", "image2670.png"]
+    }
+  ]
+}

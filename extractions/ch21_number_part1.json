@@ -1,0 +1,282 @@
+{
+  "chapter": 21,
+  "part": 1,
+  "images_range": "2049-2111",
+  "items": [
+    {
+      "type": "concept",
+      "content_latex": "INDEX NOTATION\n\nA convenient way to write a product of identical numbers is to use index notation.\n\nFor example, instead of writing $7 \\times 7 \\times 7 \\times 7$, we can write $7^4$.\n\nIn $7^4$, the 7 is called the base number and the 4 is called the index or power or exponent. The index is the number of times the base number appears in the product.",
+      "source_images": ["image2049.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Powers of 3:\n\n| Natural number | Factorised form | Index form | Spoken form |\n|---|---|---|---|\n| 3 | 3 | $3^1$ | three |\n| 9 | $3 \\times 3$ | $3^2$ | three squared |\n| 27 | $3 \\times 3 \\times 3$ | $3^3$ | three cubed |\n| 81 | $3 \\times 3 \\times 3 \\times 3$ | $3^4$ | three to the fourth |\n| 243 | $3 \\times 3 \\times 3 \\times 3 \\times 3$ | $3^5$ | three to the fifth |",
+      "source_images": ["image2050.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "SQUARE NUMBERS\n\nIf a number can be represented by a square arrangement of dots it is called a square number.\n\nFor example, 9 is a square number as it can be represented by the $3 \\times 3$ square shown.\n\nWe say 'three squared is equal to nine' and we write $3^2 = 9$.\n\nThe table alongside shows the first four square numbers:\n\n| Square number | Geometric form | Symbolic form | Factor form | Value |\n|---|---|---|---|---|\n| 1 | (dot) | $1^2$ | $1 \\times 1$ | 1 |\n| 2 | (2x2 dots) | $2^2$ | $2 \\times 2$ | 4 |\n| 3 | (3x3 dots) | $3^2$ | $3 \\times 3$ | 9 |\n| 4 | (4x4 dots) | $4^2$ | $4 \\times 4$ | 16 |",
+      "source_images": ["image2051.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "CUBIC NUMBERS\n\nConsider a cube that is made of smaller cubic blocks. It is 4 blocks high, 4 blocks wide, and 4 blocks deep. If we count the blocks there are a total of 64.\n\nWe notice that $4^3 = 4 \\times 4 \\times 4 = 64$.\n\nThis is why a number to the power 3 is called a cube.",
+      "source_images": ["image2052.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "RULES FOR ORDER OF OPERATIONS\n\n- Perform operations within Brackets first.\n- Then, calculate any part involving Exponents.\n- Then, starting from the left, perform all Divisions and Multiplications as you come to them.\n- Finally, working from the left, perform all Additions and Subtractions.\n\nThe word BEDMAS may help you remember this order.",
+      "source_images": ["image2053.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 1E\n\n1. Write each number in index form:\n\n(a) $2 \\times 2 \\times 3 \\times 3 \\times 3$\n(b) $2 \\times 5 \\times 5$\n(c) $2 \\times 3 \\times 3 \\times 3 \\times 5$\n(d) $5 \\times 5 \\times 7 \\times 7$\n(e) $2 \\times 2 \\times 5 \\times 5 \\times 5 \\times 7$\n(f) $3 \\times 3 \\times 7 \\times 7 \\times 11 \\times 11$\n(g) $2 \\times 2 \\times 2 \\times 3 \\times 3 \\times 3 \\times 3$\n(h) $5 \\times 5 \\times 5 \\times 5 \\times 5 \\times 5 \\times 7 \\times 7 \\times 7$\n\n2. Convert each product into natural number form:\n\n(a) $2 \\times 3 \\times 5$\n(b) $2^2 \\times 5$\n(c) $2^3 \\times 7$\n(d) $2 \\times 3^3 \\times 5$\n(e) $2^2 \\times 3^2 \\times 11$\n(f) $2^3 \\times 5^2 \\times 11^2$\n\n3. Use your calculator to convert each product into natural number form:\n\n(a) $2^5 \\times 3^7$\n(b) $2^3 \\times 3^4 \\times 7^3$\n(c) $2^3 \\times 3^2 \\times 11^4$\n(d) $2^5 \\times 5^3 \\times 7^2 \\times 11$\n(e) $3^4 \\times 5^3 \\times 13^2$\n(f) $2^8 \\times 5^2 \\times 15^3$\n\n4. Write the following in index form with 2 as a base:\n\n(a) 2\n(b) 4\n(c) 16\n(d) 64\n\n5. Write the following in exponent form with 3 as a base:\n\n(a) 3\n(b) 27\n(c) 81\n(d) 729\n\n6. Write the following in exponent form with 10 as a base:\n\n(a) 100\n(b) 1000\n(c) 100000\n(d) 1000000\n\n7. Write the following in exponent form:\n\n(a) 25\n(b) 36\n(c) 125\n(d) 343",
+      "source_images": ["image2054.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 1F\n\n1. For each of the 5th and 6th square numbers:\n\n(a) draw a diagram to represent it\n(b) state its value.\n\n2. (a) Manually calculate the 7th, 8th, 9th and 10th square numbers.\n(b) Use your calculator to find the 17th, 20th and 50th square numbers.\n\n3. (a) Write down two numbers between 7 and 41 that are both odd and square.\n(b) Write down two numbers between 45 and 105 that are both even and square.\n\n4. (a) Use a calculator to complete the following:\n\n$1^2 = $\n$11^2 = $\n$111^2 = $\n$1111^2 = $\n\n(b) Have you noticed a pattern? Complete the following without using your calculator:\n\n(i) $11111^2 = $\n(ii) $111111^2 = $\n\n(c) Investigate other such patterns with square numbers. If you find any, share them with your class!\n\n5. (a) Copy and complete the following pattern:\n\n$1 = 1 = 1^2$\n$1 + 3 = 4 = 2^2$\n$1 + 3 + 5 = 9 = 3^2$\n$1 + 3 + 5 + 7 = $\n$1 + 3 + 5 + 7 + 9 = $\n\n(b) Use the pattern to find the sum of the first:\n\n(i) 6 odd numbers\n(ii) 10 odd numbers\n(iii) $n$ odd numbers\n\n6. How many tiny cubes are in this block?\n\n7. A cube like the one above contains 512 blocks. How many blocks high, wide and deep is the cube?\n\n8. (a) Copy and complete the following pattern:\n\n$1^2 - 0^2 = $\n$2^2 - 1^2 = $\n$3^2 - 2^2 = $\n$4^2 - 3^2 = $\n\n(b) Predict the value of:\n\n(i) $17^2 - 16^2$\n(ii) $89^2 - 88^2$\n\nCheck your answers using a calculator.",
+      "source_images": ["image2055.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. (a) Copy and complete the following pattern:\n\n$1^3 = 1$ $= 1$ $= 1^2$\n$1^3 + 2^3 = 1 + 8$ $= 9$ $= 3^2$\n$1^3 + 2^3 + 3^3 = $ $= $ $= $\n$1^3 + 2^3 + 3^3 + 4^3 = $ $= $ $= $\n\n(b) Predict the value of:\n\n(i) $1^3 + 2^3 + 3^3 + 4^3 + 5^3$\n(ii) $1^3 + 2^3 + 3^3 + ...... + 10^3$\n\nCheck your answers using a calculator.",
+      "source_images": ["image2056.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 1G\n\n1. Evaluate the following:\n\n(a) $5 + 6 - 6$\n(b) $7 + 8 \\div 2$\n(c) $8 \\div 2 + 7$\n(d) $9 \\div 3 + 4$\n(e) $100 + 6 - 7$\n(f) $7 \\times 9 \\div 3$\n(g) $30 \\div 3 \\div 5$\n(h) $18 \\div 3 + 11 \\times 2$\n(i) $6 + 3 \\times 5 \\times 2$\n(j) $7 \\times 4 - 3 \\times 5$\n(k) $8 + 6 \\div 3 \\times 4$\n(l) $4 + 5 - 3 \\times 2$",
+      "source_images": ["image2057.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Evaluate the following, remembering to complete the brackets first:\n\n(a) $(12 + 3) \\times 2$\n(b) $(17 - 8) \\times 2$\n(c) $(3 + 7) \\div 10$\n(d) $5 \\times (7 + 3)$\n(e) $36 - (8 - 6) \\times 5$\n(f) $18 \\div 6 + 5 \\times 3$\n(g) $5 + 4 \\times 7 + 27 \\div 9$\n(h) $(14 - 8) \\div 2$\n(i) $6 \\times (7 - 2)$\n(j) $17 - (5 + 3) \\div 8$\n(k) $(12 + 6) \\div (8 - 5)$\n(l) $5 \\times (4 - 2) + 3$\n(m) $36 - (12 - 4)$\n(n) $52 - (10 + 2)$\n(o) $25 - (10 - 3)$\n\n3. Evaluate:\n\n(a) $6 \\times 8 - 18 \\div (2 + 4)$\n(b) $10 \\div 5 + 20 \\div (4 + 1)$\n(c) $5 + (2 \\times 10 - 5) - 6$\n(d) $18 - (15 \\div 3 + 4) + 1$\n(e) $(2 \\times 3 - 4) + (33 \\div 11 + 5)$\n(f) $(18 \\div 3 + 3) \\div (4 \\times 4 - 7)$\n(g) $(50 \\div 5 + 6) - (8 \\times 2 - 4)$\n(h) $(10 \\times 3 - 20) + 3 \\times (9 \\div 3 + 2)$\n(i) $(7 - 3 \\times 2) \\div (8 \\div 4 - 1)$\n(j) $(5 + 3) \\times 2 + 10 \\div (8 - 3)$",
+      "source_images": ["image2058.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Evaluate:\n\n(a) $[3 \\times (4 + 2)] \\times 5$\n(b) $[(3 \\times 4) - 5] \\times 4$\n(c) $[4 \\times (16 - 1)] - 6$\n(d) $[(3 + 4) \\times 6] - 11$\n(e) $5 + [6 + (7 \\times 2)] \\div 5$\n(f) $4 \\times [(4 \\times 3) \\div 2] \\times 7$\n(g) $[(2 \\times 3) + (11 - 5)] \\div 3$\n(h) $19 - [\\{3 \\times 7\\} - \\{9 \\div 3\\}] + 14$",
+      "source_images": ["image2059.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. Simplify:\n\n(a) $\\frac{21}{16 - 9}$\n(b) $\\frac{18 \\div 3}{14 - 11}$\n(c) $\\frac{(8 \\times 7) - 5}{17}$\n(d) $\\frac{12 + 3 \\times 4}{5 + 7}$\n(e) $\\frac{3 \\times 7 - 5}{2}$\n(f) $\\frac{3 \\times (7 - 5)}{2}$\n(g) $\\frac{2 \\times 8 - 1}{8 - 6 \\div 2}$\n(h) $\\frac{56 \\div 8 - 7}{56 \\div (8 - 7)}$\n(i) $\\frac{25 - (16 - 11)}{12 \\div 4 + 2}$",
+      "source_images": ["image2060.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. Simplify:\n\n(a) $3 \\times 4^2$\n(b) $2 \\times 3^3$\n(c) $3^2 + 2^3$\n(d) $(5 - 2)^2 - 6$\n(e) $3 \\times 4 + 5^2$\n(f) $4 \\times 3^2 - (3 + 2)^2$\n(g) $3 - 2^2 \\div 2 + 1$\n(h) $(5 - 2)^2 - 2^2$\n(i) $(15 - 3^2) \\div 3$\n(j) $5 \\times 2^2 + 2 \\times 3^2$\n(k) $5 \\times (2^2 + 2) + 6$\n(l) $35 - 3 \\times 2^3 + 7$\n\n7. Replace $*$ with either $+$, $-$, $\\times$ or $\\div$ to make a true statement:\n\n(a) $3 + 15 * 3 = 8$\n(b) $10 * 7 + 15 = 18$\n(c) $8 * 4 - 10 = 22$\n(d) $(18 * 2) \\div 10 = 2$\n(e) $(10 * 3) * 7 = 1$\n(f) $15 * 3 + 2 * 5 = 15$\n\n8. Insert brackets into the following to make them true:\n\n(a) $18 - 6 \\times 3 + 2 = 38$\n(b) $48 - 6 \\times 3 + 4 = 6$\n(c) $32 \\div 8 \\div 2 = 8$\n(d) $8 + 4 \\div 2 + 2 = 3$\n(e) $5 + 3 \\times 6 - 10 = 38$\n(f) $13 + 5 \\div 5 + 4 = 2$",
+      "source_images": ["image2061.png", "image2062.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 1A\n\n1. Write 4738 in word form.\n\n2. What number is represented by the digit 4 in 86482?\n\n3. What is the difference between 895 and 2718?\n\n4. Round off 48526 to the nearest 100.\n\n5. Find an approximate value for $106 \\times 295$.\n\n6. Calculate $123 \\times 36$.\n\n7. How many buses would be required to transport 329 students if each bus holds a maximum of 47 students?\n\n8. Simplify the following:\n\n(a) $20 \\times 33 \\times 5$\n(b) $125 \\times 7 \\times 8$\n\n9. A class contains 14 boys and 15 girls. If each student is given 13 pencils, how many pencils are given out altogether?\n\n10. If a baker sells 24 dozen rolls at 15 cents each, how much money does he receive?\n\n11. Find $1834 - 712 + 78$.\n\n12. Find the 9th square number.",
+      "source_images": ["image2063.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "13. A woman has €255 in her purse. She gives €35 to each of her five children. How much money does she have left?\n\n14. Find the sum of the first five square numbers.\n\n15. Find:\n\n(a) $3^6$\n(b) $8^3$\n\n16. Simplify:\n\n(a) $7 \\times 4 - 18 \\div 2$\n(b) $20 - (8 - 4) \\times 3$\n(c) $\\frac{31 - 11}{12 \\div 6}$\n(d) $\\frac{8 + 14 \\div 2}{12 \\div 4}$\n\n17. Insert brackets into the following to make a true statement:\n\n(a) $4 \\times 2 + 3 - 5 = 15$\n(b) $20 \\div 4 + 1 + 5 = 2$",
+      "source_images": ["image2064.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 1B\n\n1. Simplify $14 \\times 0$.\n\n2. What number is represented by the digit 3 in 43209?\n\n3. Round off 46804 to two significant figures.\n\n4. Determine $2763 + 427$.\n\n5. By how much does 738 exceed 572?\n\n6. Write $4000 + 20$ in simplest form.\n\n7. Use the digits 7, 5, 9, 0, and 2 once only to make the largest number you can.\n\n8. Find the sum of 8, 15 and 9.\n\n9. Find the difference between 108 and 19.\n\n10. What number must be increased by 293 to get 648?\n\n11. Determine $119 + 19 + 81$.\n\n12. Determine $5 \\times 39 \\times 20$.\n\n13. Find the product of 14 and 38.\n\n14. Find the quotient of 437 and 19.\n\n15. Use a one figure approximation to estimate $5032 \\times 295$.\n\n16. The Year 8 students at a school are split into 4 equal classes of 27 students. The school decides to increase the number of classes to 6. How many students will there be in each of the new classes if the students are divided equally between them?\n\n17. My bank account contains £3621 and I make monthly withdrawals of £78 for 12 months. What is my new bank balance?\n\n18. How many square numbers are there between 60 and 130?\n\n19. Simplify the following:\n\n(a) $5 \\times 6 - 4 \\times 3$\n(b) $3 + 18 \\times 2^2$\n(c) $5 \\times 8 - 18 \\div (2 + 4)$\n(d) $(5 + 4) \\times 2 + 20 \\div (8 - 3)$\n(e) $\\frac{8 \\div 2^2}{1 + 7}$\n\n20. Insert brackets into the following to make a true statement:\n\n(a) $9 - 8 \\div 1 + 3 = 7$\n(b) $2 + 8 \\div 4 - 2 = 5$",
+      "source_images": ["image2065.png", "image2066.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "EVEN AND ODD NUMBERS\n\nA natural number is even if it has 2 as a factor and thus is divisible by 2.\n\nA natural number is odd if it is not divisible by 2.",
+      "source_images": ["image2067.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "FACTORS\n\nThe factors of a natural number are the natural numbers which divide exactly into it.",
+      "source_images": ["image2068.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "All natural numbers can be split into factor pairs.",
+      "source_images": ["image2069.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "When we write a number as a product of factors, we say it is factorised.\n\nFor example, $10 = 1 \\times 10$ or $2 \\times 5$.\n$1701 = 63 \\times 27$.",
+      "source_images": ["image2070.png", "image2071.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 3B.1\n\n1. (a) List all the factors of 9.\n(b) List all the factors of 12.\n(c) Copy and complete: $12 = 2 \\times ....$\n(d) Write another pair of factors which multiply to give 12.\n\n2. List all the factors of:\n\n(a) 10\n(b) 18\n(c) 30\n(d) 35\n(e) 44\n(f) 56\n(g) 50\n(h) 84\n(i) 39\n(j) 42\n(k) 66\n(l) 75\n\n3. Complete the factorisations below:\n\n(a) $24 = 6 \\times ....$\n(b) $25 = 5 \\times ....$\n(c) $28 = 4 \\times ....$\n(d) $100 = 5 \\times ....$\n(e) $88 = 11 \\times ....$\n(f) $88 = 2 \\times ....$\n(g) $36 = 2 \\times ....$\n(h) $36 = 3 \\times ....$\n(i) $36 = 9 \\times ....$\n(j) $49 = 7 \\times ....$\n(k) $121 = 11 \\times ....$\n(l) $72 = 6 \\times ....$\n(m) $60 = 12 \\times ....$\n(n) $48 = 12 \\times ....$\n(o) $96 = 8 \\times ....$\n\n4. Write the largest factor other than itself, for each of the following numbers:\n\n(a) 12\n(b) 18\n(c) 27\n(d) 48\n(e) 44\n(f) 75\n(g) 90\n(h) 39\n\n5. What is the smallest whole number which:\n\n(a) has factors of 2, 3 and 5\n(b) has factors of 3, 5 and 7\n(c) has factors of 2, 3, 5 and 7?",
+      "source_images": ["image2072.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. What can be said about:\n\n(a) the sum of three even numbers\n(b) the sum of three odd numbers\n(c) the product of an even and two odd numbers\n(d) the sum of four consecutive odd numbers?\n\n7. $(\\text{even})^3$ means 'an even number is raised to the power 3'. Which of these are odd and which are even?\n\n(a) $(\\text{even})^2$\n(b) $(\\text{odd})^2$\n(c) $(\\text{even})^3$\n(d) $(\\text{odd})^3$\n(e) $(\\text{even})^4$\n(f) $(\\text{odd})^4$\n\n8. What is the smallest positive whole number which when increased by 1, is divisible by 3, 4 and 5?",
+      "source_images": ["image2073.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "PRIME AND COMPOSITE NUMBERS\n\nA prime number is a natural number which has exactly two different factors, 1 and itself.\n\nA composite number is a natural number which has more than two factors.\n\nThe number 1 is neither prime nor composite.",
+      "source_images": ["image2074.png", "image2075.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "PRIME FACTORS\n\nThe number 6 is composite since it has 4 factors: 1, 6, 2, 3.\n\nNotice that $6 = 2 \\times 3$, and this factor pair are both prime numbers.\n\nThe number 12 can be written as the product of prime factors $2 \\times 2 \\times 3$.\n\nAll composite numbers can be written as the product of prime number factors in exactly one way.",
+      "source_images": ["image2076.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 2\n\n(a) Express 252 as the product of prime factors in index form.\n(b) What are the prime factors of 252?\n\nSolutions:\n\n(a) $2 \\mid 252$\n$2 \\mid 126$\n$3 \\mid 63$\n$3 \\mid 21$\n$7 \\mid 7$\n$1$\n\nSo, $252 = 2 \\times 2 \\times 3 \\times 3 \\times 7$\n$= 2^2 \\times 3^2 \\times 7$\n\n(b) The prime factors of 252 are 2, 3 and 7.",
+      "source_images": ["image2077.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 3B.2\n\n1. (a) List all the prime numbers less than 50.\n(b) Is 1 a prime number? Give a reason for your answer.\n(c) Are there any prime numbers which are even?\n\n2. Show that the following numbers are composites:\n\n(a) 5485\n(b) 8230\n(c) 7882\n(d) 999\n\n3. Express each of the following numbers as a product of prime factors in index form:\n\n(a) 24\n(b) 28\n(c) 63\n(d) 72\n(e) 136\n(f) 84\n(g) 216\n(h) 528\n(i) 405\n(j) 784\n(k) 138\n(l) 250\n(m) 189\n(n) 726\n(o) 2310\n\n4. Use a list of prime numbers to help you find:\n\n(a) the smallest one-digit odd prime\n(b) the only odd two-digit composite number less than 20\n(c) a prime number which is a factor of 105, 20 and 30.\n\n5. The two digits of a number are the same. Their product is not a composite number. What is the original number?\n\n6. (a) How many different factors do the following numbers have:\n\n(i) 4\n(ii) 9\n(iii) 25\n(iv) 100\n\n(b) What numbers have an odd number of factors?",
+      "source_images": ["image2078.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "HIGHEST COMMON FACTOR\n\nA number which is a factor of two or more other numbers is called a common factor of these numbers.\n\nFor example, 7 is a common factor of 28 and 35.\n\nWe can use the method of finding prime factors to find the highest common factor (HCF) of two or more natural numbers.",
+      "source_images": ["image2079.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 3\n\nFind the highest common factor (HCF) of 18 and 24.\n\nSolution:\n\n$2 \\mid 18$ $\\quad$ $2 \\mid 24$\n$3 \\mid 9$ $\\quad$ $2 \\mid 12$\n$3 \\mid 3$ $\\quad$ $2 \\mid 6$\n$1$ $\\quad$ $3 \\mid 3$\n$\\quad$ $1$\n\n$\\therefore$ $18 = 2 \\times 3 \\times 3$\nand $24 = 2 \\times 2 \\times 2 \\times 3$\n\n$2 \\times 3$ is common to the factorisations of both 18 and 24.\n\nSo, the highest common factor of 18 and 24 is $2 \\times 3 = 6$.",
+      "source_images": ["image2080.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 3B.3\n\n1. Find the highest common factor of:\n\n(a) 9, 12\n(b) 8, 16\n(c) 18, 42\n(d) 14, 42\n(e) 18, 30\n(f) 24, 32\n(g) 12, 36\n(h) 15, 33\n(i) 72, 96\n(j) 108, 144\n(k) 243, 246\n(l) 78, 130\n\n2. Find the HCF of:\n\n(a) 25, 50, 75\n(b) 22, 33, 44\n(c) 21, 42, 84\n(d) 39, 13, 26\n\n3. Find the HCF of:\n\n(a) 25, 35, 50, 60\n(b) 36, 44, 52, 56\n(c) 10, 18, 20, 36\n(d) 32, 56, 72, 88",
+      "source_images": ["image2081.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "MULTIPLES\n\nThe multiples of 10 are: $10 \\times 1$, $10 \\times 2$, $10 \\times 3$, $10 \\times 4$, $10 \\times 5$, ......\n10, 20, 30, 40, 50, ......\n\nThe multiples of 15 are 15, 30, 45, 60, 75, ......\n\nThe number 30 is a multiple of both 10 and 15, so we say 30 is a common multiple of 10 and 15.",
+      "source_images": ["image2082.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 4\n\nFind the common multiples of 4 and 6 between 20 and 40.\n\nSolution:\n\nThe multiples of 4 are 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, ......\n\nThe multiples of 6 are 6, 12, 18, 24, 30, 36, 42, ......\n\n$\\therefore$ the common multiples between 20 and 40 are 24 and 36.",
+      "source_images": ["image2083.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 3C.1\n\n1. List the first six multiples of:\n\n(a) 3\n(b) 8\n(c) 12\n(d) 17\n(e) 25\n(f) 34\n\n2. Find the:\n\n(a) fifth multiple of 6\n(b) eighth multiple of 5\n(c) tenth multiple of 15\n(d) hundredth multiple of 49\n\n3. List the numbers from 1 to 30.\n\n(a) Put a circle around each multiple of 3.\n(b) Put a square around each multiple of 4.\n(c) List the common multiples of 3 and 4 which are less than 30.\n\n4. Use the following list of multiples of 15 to answer the following questions:\n15, 30, 45, 60, 75, 90, 105, 120, 135, 150\n\nState the numbers which are common multiples of both:\n\n(a) 15 and 10\n(b) 15 and 9\n(c) 20 and 30\n(d) 4 and 30\n\n5. Use lists of multiples to help you find the following unknown numbers:\n\n(a) I am an odd multiple of 9. The product of my two digits is also a multiple of 9. What two numbers could I be?\n(b) I am a multiple of 7 and a factor of 210. The product of my two digits is odd. What number am I?",
+      "source_images": ["image2084.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "LOWEST COMMON MULTIPLE\n\nThe lowest common multiple (LCM) of two or more numbers is the smallest number which is a multiple of each of these numbers.",
+      "source_images": ["image2085.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 5\n\nFind the lowest common multiple of 9 and 12.\n\nSolution:\n\nThe multiples of 9 are: 9, 18, 27, 36, 45, 54, 63, 72, 81, ......\n\nThe multiples of 12 are: 12, 24, 36, 48, 60, 72, 84, ......\n\n$\\therefore$ the common multiples are 36, 72, ...... and 36 is the smallest of these\n\n$\\therefore$ the LCM is 36.",
+      "source_images": ["image2086.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 6\n\nFind the LCM of:\n\n(a) 9 and 12\n(b) 2, 3, 4 and 10\n\nSolutions:\n\n(a) $3 \\mid 9$ $\\quad$ $2 \\mid 12$\n$3 \\mid 3$ $\\quad$ $2 \\mid 6$\n$1$ $\\quad$ $3 \\mid 3$\n$\\quad$ $1$\n\nPrime factors of 9: $3 \\times 3$\nPrime factors of 12: $2 \\times 2 \\times 3$\nPrime factors of LCM: $2 \\times 2 \\times 3 \\times 3$\n$\\therefore$ LCM $= 36$.\n\n(b) $2 \\mid 2$ $\\quad$ $3 \\mid 3$\n$1$ $\\quad$ $1$\n\n$2 \\mid 4$ $\\quad$ $2 \\mid 10$\n$2 \\mid 2$ $\\quad$ $5 \\mid 5$\n$1$ $\\quad$ $1$\n\nPrime factors of 2: $2$\nPrime factors of 3: $3$\nPrime factors of 4: $2 \\times 2$\nPrime factors of 10: $2 \\times 5$\nPrime factors of LCM: $2 \\times 2 \\times 3 \\times 5$\n$\\therefore$ LCM $= 60$.",
+      "source_images": ["image2087.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "LCM and HCF using Repeated Division\n\nFind the LCM of 24 and 36:\n\n$2 \\mid 24 \\quad 36$\n$2 \\mid 12 \\quad 18$\n$3 \\mid 6 \\quad 9$\n$\\quad 2 \\quad 3$\n\nLCM: $2 \\times 2 \\times 3 \\times 2 \\times 3 = 72$\n\nFind the HCF of 24 and 36:\n\n$2 \\mid 24 \\quad 36$\n$2 \\mid 12 \\quad 18$\n$3 \\mid 6 \\quad 9$\n$\\quad 2 \\quad 3$\n\nHCF: $2 \\times 2 \\times 3 = 12$",
+      "source_images": ["image2088.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 3C.2\n\n1. Find the lowest common multiples of the following sets of numbers:\n\n(a) 3, 6\n(b) 4, 6\n(c) 5, 8\n(d) 12, 15\n(e) 6, 8\n(f) 3, 8\n(g) 5, 9\n(h) 7, 10\n\n2. Find the lowest common multiples of the following sets of numbers:\n\n(a) 2, 4, 6\n(b) 5, 9, 12\n(c) 3, 4, 9\n(d) 4, 6, 7\n\n3. Find the lowest common multiple of 2, 3, 4 and 5.\n\n4. Chris has a piece of rope. It can be cut exactly into either 12 metre or 18 metre lengths. Find the shortest length that Chris' rope could be.\n\n5. Find the smallest positive integer which is exactly divisible by 2, 3, 10, 14 and 15.\n\n6. Three bells toll at intervals of 4, 6 and 9 seconds respectively. If they start to ring at the same instant, how long will it take before they will again ring together?\n\n7. Find the:\n\n(a) smallest multiple of 6 that is greater than 200\n(b) greatest multiple of 11 that is less than 500.",
+      "source_images": ["image2089.png", "image2090.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "THE NUMBER LINE\n\nNumbers may be positive or negative.\n\nOn the number line:\n- negative numbers are to the left of 0\n- positive numbers are to the right of 0",
+      "source_images": ["image2091.png", "image2092.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Properties of the number line:\n\n- zero or 0 is neither positive nor negative\n- numbers to the right of 0 are positive numbers\n- numbers to the left of 0 are negative numbers\n- 2 or $+2$ is the opposite of $-2$ and vice versa\n- $1\\frac{1}{2} > -\\frac{1}{3}$ as $1\\frac{1}{2}$ is to the right of $-\\frac{1}{3}$\n- numbers like $\\frac{2}{0}$ and $\\sqrt{-4}$ are meaningless and do not appear on the number line.",
+      "source_images": ["image2093.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "REAL NUMBERS\n\nThe set of all real numbers are the numbers which can be placed on a number line. They include all whole numbers and decimals.\n\nWe use a dot on the number line to represent a real number.",
+      "source_images": ["image2094.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "INTEGERS\n\nThe set of all integers consists of all the positive whole numbers, zero and the set of all negative whole numbers.\n\n$..., -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...$",
+      "source_images": ["image2095.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 7\n\n(a) What are the opposites of $-3$ and 7?\n(b) Explain why $3 > -4$ is a true statement.\n(c) Increase $-3$ by 7.\n\nSolutions:\n\n(a) The opposite of $-3$ is $+3$ or simply 3. The opposite of 7 is $-7$.\n\n(b) $3 > -4$ reads \"3 is greater than $-4$\".\nThis is true as 3 is to the right of $-4$ on the number line.\n\n(c) $-3 + 7 = 4$",
+      "source_images": ["image2096.png", "image2097.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 3D.1\n\nIf necessary, draw a number line to help answer these questions:\n\n1. Find the opposite of:\n\n(a) 7\n(b) $-3$\n(c) 0\n(d) 2.8\n(e) $-3.17$\n(f) $-0.6731$\n\n2. Increase:\n\n(a) 3 by 5\n(b) 0 by 4\n(c) $-2$ by 3\n(d) $-4$ by 4\n(e) $-7$ by 3\n\n3. Decrease:\n\n(a) 7 by 5\n(b) 2 by 6\n(c) 0 by 4\n(d) $-2$ by 5\n(e) $-6$ by $\\frac{1}{2}$\n\n4. By how much is:\n\n(a) 7 larger than 2\n(b) 6 larger than $-3$\n(c) $-2$ larger than $-11$\n(d) 3 smaller than 12\n(e) 0 smaller than 7\n(f) $-5$ smaller than 5?\n\n5. True or false?\n\n(a) $6 > -10$\n(b) $-6 < -11$\n(c) $-8 > 5$\n(d) $-15 < -6$\n\n6. Draw a number line to show:\n\n(a) $\\{-5, -2.5, -0.5, 0, 1.5, 3\\}$\n(b) $\\{-4, -\\frac{5}{2}, -1\\frac{1}{2}, 1, 2, 2\\frac{3}{4}\\}$\n\n7. What number is halfway between:\n\n(a) 1 and 5\n(b) $-3$ and 7\n(c) $-5$ and $-1$\n(d) $-6$ and 8\n(e) $-\\frac{3}{4}$ and $\\frac{3}{4}$\n(f) $-6$ and $-7$\n(g) 2.4 and 4.2\n(h) $-2.4$ and 4.2?\n\n8. Find:\n\n(a) $6 + 2$\n(b) $-6 + 2$\n(c) $7 + 3$\n(d) $-7 + 3$\n(e) $11 + 7$\n(f) $-11 + 7$\n(g) $16 + 10$\n(h) $-16 + 10$\n(i) $23 + 8$\n(j) $-23 + 8$\n(k) $31 + 15$\n(l) $-31 + 15$\n\n9. Find:\n\n(a) $11 - 3$\n(b) $-11 - 3$\n(c) $8 - 13$\n(d) $-8 - 13$\n(e) $18 - 7$\n(f) $-18 - 7$\n(g) $23 - 12$\n(h) $-23 - 12$\n\n10. Find:\n\n(a) $5 + 3$\n(b) $5 - 3$\n(c) $-5 + 3$\n(d) $-5 - 3$\n(e) $7 - 8$\n(f) $-7 + 8$\n(g) $-7 - 8$\n(h) $1 + 2.5$\n(i) $1 - 2.5$\n(j) $-1 + 2.5$\n(k) $-1 - 2.5$\n(l) $6.9 - 11.4$",
+      "source_images": ["image2098.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "ADDING AND SUBTRACTING DIRECTED NUMBERS\n\nConsider these patterns:\n\n$5 + 2 = 7$ $\\quad$ $5 - 2 = 3$\n$5 + 1 = 6$ $\\quad$ $5 - 1 = 4$\n$5 + 0 = 5$ $\\quad$ $5 - 0 = 5$\n$5 + -1 = 4$ and $5 - -1 = 6$\n$5 + -2 = 3$ $\\quad$ $5 - -2 = 7$\n$5 + -3 = 2$ $\\quad$ $5 - -3 = 8$\n\nAdding a negative number is the same as subtracting a positive number.\n\nSubtracting a negative number is the same as adding a positive number.",
+      "source_images": ["image2099.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 8\n\nFind:\n\n(a) $6 + -3$\n(b) $6 - -3$\n(c) $-6 + -3$\n(d) $-6 - -3$\n\nSolutions:\n\n(a) $6 + -3$\n$= 6 - 3$\n$= 3$\n\n(b) $6 - -3$\n$= 6 + 3$\n$= 9$\n\n(c) $-6 + -3$\n$= -6 - 3$\n$= -9$\n\n(d) $-6 - -3$\n$= -6 + 3$\n$= -3$",
+      "source_images": ["image2100.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 3D.2\n\n1. Find:\n\n(a) $8 + -5$\n(b) $8 - -5$\n(c) $-8 + -5$\n(d) $-8 - -5$\n(e) $4 + -9$\n(f) $4 - -9$\n(g) $-4 + -9$\n(h) $-4 - -9$\n(i) $17 - 12$\n(j) $12 - 17$\n(k) $12 - -17$\n(l) $17 - -12$\n(m) $-6 + -1$\n(n) $-6 - -1$\n(o) $6 - -5$\n(p) $-6 - -5$\n(q) $11 - 19$\n(r) $-11 - 19$\n(s) $11 - -19$\n(t) $-11 - -19$\n\n2. Find:\n\n(a) $3 - -2 + 4$\n(b) $13 + -5 - -2$\n(c) $-6 - -4 + -5$\n(d) $-6 + -1 - -8$\n(e) $5 - 12 - -4$\n(f) $8 - 15 + -11$\n(g) $3 - -1 - -5$\n(h) $-6 - -8 + 2$\n(i) $-2 - 8 - -6 + -1$\n(j) $-3 + -4 - -6$\n(k) $11 - 17 - -5$\n(l) $-12 - 8 + 17 - 9$\n(m) $-63 - 258$\n(n) $174 - 317$\n(o) $-28 - 39 - 47$",
+      "source_images": ["image2101.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "MULTIPLYING AND DIVIDING DIRECTED NUMBERS\n\nBy considering patterns like those for addition and subtraction above, we can obtain the following rules for multiplication and division.\n\nMultiplication:\n- (positive) $\\times$ (positive) $=$ (positive)\n- (positive) $\\times$ (negative) $=$ (negative)\n- (negative) $\\times$ (positive) $=$ (negative)\n- (negative) $\\times$ (negative) $=$ (positive)\n\nDivision:\n- (positive) $\\div$ (positive) $=$ (positive)\n- (positive) $\\div$ (negative) $=$ (negative)\n- (negative) $\\div$ (positive) $=$ (negative)\n- (negative) $\\div$ (negative) $=$ (positive)",
+      "source_images": ["image2102.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 9\n\nFind:\n\n(a) $3 \\times 7$\n(b) $3 \\times -7$\n(c) $-3 \\times 7$\n(d) $-3 \\times -7$\n\nSolutions:\n\n(a) $3 \\times 7 = 21$\n\n(b) $3 \\times -7 = -21$\n\n(c) $-3 \\times 7 = -21$\n\n(d) $-3 \\times -7 = 21$\n\nExample 10\n\nFind:\n\n(a) $12 \\div -3$\n(b) $-12 \\div -4$\n(c) $18 \\div -3$\n(d) $-24 \\div 8$\n\nSolutions:\n\n(a) $12 \\div -3 = -4$\n\n(b) $-12 \\div -4 = 3$\n\n(c) $18 \\div -3 = -6$\n\n(d) $-24 \\div 8 = -3$",
+      "source_images": ["image2103.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 3D.3\n\n1. Find:\n\n(a) $3 \\times 4$\n(b) $-3 \\times 4$\n(c) $3 \\times -4$\n(d) $-3 \\times -4$\n(e) $5 \\times 11$\n(f) $5 \\times -11$\n(g) $-5 \\times -11$\n(h) $-5 \\times 11$\n(i) $6 \\times 9$\n(j) $6 \\times -9$\n(k) $-6 \\times 9$\n(l) $-6 \\times -9$\n(m) $(-3)^2$\n(n) $-3^2$\n(o) $-(-3^2)$\n(p) $-(-3)^2$\n(q) $(-1)^4$\n(r) $(-1)^5$\n(s) $-(-1)^6$\n(t) $-2 \\times (-3)^2$\n\n2. Find:\n\n(a) $5 \\times -2 \\times 4$\n(b) $-3 \\times 2 \\times -1$\n(c) $(-4)^2 \\times -3$\n(d) $-3^2 \\times -5$\n(e) $8 \\times (-2)^3$\n(f) $-5 \\times (-2)^4$\n(g) $(-1)^5 \\times (-3)^3$\n(h) $-5 \\times -2 \\times -5$\n\n3. Find:\n\n(a) $15 \\div 3$\n(b) $-15 \\div 3$\n(c) $15 \\div -3$\n(d) $-15 \\div -3$\n(e) $24 \\div 6$\n(f) $24 \\div -6$\n(g) $-24 \\div -6$\n(h) $-24 \\div 6$\n(i) $7 \\div 7$\n(j) $-7 \\div -7$\n(k) $7 \\div -7$\n(l) $-7 \\div 7$",
+      "source_images": ["image2104.png", "image2105.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "COMBINED OPERATIONS\n\nThe order of operations rules also apply to negative numbers.\n\n- Brackets are evaluated first.\n- Exponents are calculated next.\n- Divisions and Multiplications are done next, in the order that they appear.\n- Addition and Subtractions are then done, in the order that they appear.",
+      "source_images": ["image2106.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 11\n\nFind:\n\n(a) $3 - -6 \\times 2$\n(b) $13 + 25 \\div -5$\n\nSolutions:\n\n(a) $3 - -6 \\times 2$\n$= 3 - -12$ $\\quad$ {multiplication first}\n$= 3 + 12$ $\\quad$ {simplify}\n$= 15$\n\n(b) $13 + 25 \\div -5$\n$= 13 + -5$ $\\quad$ {division first}\n$= 13 - 5$ $\\quad$ {simplify}\n$= 8$",
+      "source_images": ["image2107.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 3D.4\n\n1. Find:\n\n(a) $8 - 2 \\times (-1)^3$\n(b) $15 - 6 \\times -3$\n(c) $-2 \\times (3 - 5)^2$\n(d) $5 - 14 \\div -2 + 1$\n(e) $6 - 7 - (-2)^2$\n(f) $(-2)^2 - 2^2$\n(g) $-5 - 15 \\div -3$\n(h) $-12 + 3 \\times -2$\n(i) $3 \\times -2 - -1 \\times 5$\n(j) $(-2)^3 - (-2)^2$\n(k) $15 - (-4)^2 \\times -1$\n(l) $-16 \\div (23 - -9)$",
+      "source_images": ["image2108.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "SQUARE ROOTS\n\nThe square root of some number $a$ is the positive number which when squared gives $a$.\n\nWe write the square root of $a$ as $\\sqrt{a}$. $\\quad$ $\\sqrt{a} \\times \\sqrt{a} = a$\n\nFor example, since $4 = 2^2$, $9 = 3^2$ and $16 = 4^2$,\n$\\sqrt{4} = 2$, $\\sqrt{9} = 3$ and $\\sqrt{16} = 4$.\n\nThe square roots of 4, 9 and 16 are whole numbers, so 4, 9 and 16 are perfect squares.",
+      "source_images": ["image2109.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "CUBE ROOTS\n\nThe cube root of $a$ is the number which when cubed gives $a$.\n\nWe write the cube root of $a$ as $\\sqrt[3]{a}$. $\\quad$ $\\sqrt[3]{a} \\times \\sqrt[3]{a} \\times \\sqrt[3]{a} = a$\n\nFor example, since $8 = 2^3$ and $27 = 3^3$,\n$\\sqrt[3]{8} = 2$ and $\\sqrt[3]{27} = 3$.\n\nNotice that $(-2)^3 = -8$ and so $\\sqrt[3]{-8} = -2$\n\nIn contrast, we cannot find the square root of a negative number.",
+      "source_images": ["image2110.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "HIGHER ROOTS\n\nThe $n$th root of $a$ is the number which when raised to the power $n$ gives $a$.\n\nWe write the $n$th root of $a$ as $\\sqrt[n]{a}$.\n\n$\\sqrt[n]{a} \\times \\sqrt[n]{a} \\times ...... \\times \\sqrt[n]{a} = (\\sqrt[n]{a})^n = a$\n$n$ times",
+      "source_images": ["image2111.png"]
+    }
+  ]
+}

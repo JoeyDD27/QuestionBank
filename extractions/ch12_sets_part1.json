@@ -1,0 +1,152 @@
+{
+  "chapter": 12,
+  "part": 1,
+  "images_range": "1179-1231",
+  "items": [
+    {
+      "type": "definition",
+      "content_latex": "The objects or things in a set are called the elements or members of the set.",
+      "source_images": ["image1179.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "- $\\in$ means: is a member of or is an element of or is in or belongs to\n- $\\notin$ means: is not a member of or is not an element of or is not in or does not belong to.\n- $n(A)$ means: the number of elements in set $A$.",
+      "source_images": ["image1180.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "For example:\n- if $V$ is the set of all vowels, then $V = \\{\\text{vowels}\\} = \\{a, e, i, o, u\\}$\n- if $E$ is the set of all even numbers, then $E = \\{\\text{even numbers}\\} = \\{2, 4, 6, 8, 10, 12, ......\\}$.\n\nWe use the symbol $\\in$ to mean is an element of and $\\notin$ to mean is not an element of.\n\nSo, for the set $E = \\{2, 4, 6, 8, 10, 12, ....\\}$, we can say $6 \\in E$ but $11 \\notin E$.",
+      "source_images": ["image1181.png"]
+    },
+    {
+      "type": "definition",
+      "content_latex": "EQUAL SETS\n\nTwo sets are equal if they contain exactly the same elements.",
+      "source_images": ["image1182.png", "image1183.png"]
+    },
+    {
+      "type": "definition",
+      "content_latex": "EMPTY SET\n\nThe empty set $\\varnothing$ or $\\{ \\}$ is a set which contains no elements.",
+      "source_images": ["image1184.png", "image1185.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "COUNTING ELEMENTS OF SETS\n\nThe number of elements in set $S$ is written $n(S)$.\n\nA set which contains a finite number of elements is called a finite set.\n\nA set which contains an infinite number of elements is called an infinite set.\n\nFor example:\n- the set of vowels $V$ has 5 elements. $V$ is a finite set, and $n(V) = 5$\n- the set of even numbers $E$ is an infinite set.",
+      "source_images": ["image1186.png", "image1187.png"]
+    },
+    {
+      "type": "definition",
+      "content_latex": "SUBSETS\n\nSuppose $P$ and $Q$ are two sets. $P$ is a subset of $Q$ if every element of P is also an element of Q.\n\nFor example, if $A = \\{1, 3, 6\\}$ and $B = \\{1, 2, 3, 5, 6, 7\\}$, then every element of $A$ is also an element of $B$. We say that $A$ is a subset of $B$, and write $A \\subseteq B$.",
+      "source_images": ["image1188.png", "image1189.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "- $\\in$ reads is an element of or is a member of or is in\n- $\\notin$ reads is not an element of or is not a member of or is not in\n- $\\{ \\}$ or $\\varnothing$ is the symbol used to represent an empty set which has no elements or members. $\\varnothing$ is called a trivial subset.\n- $\\subseteq$ reads is a subset of\n- $n(S)$ reads the number of elements in set $S$\n\nSo, for the set $F = \\{1, 2, 3, 4, 6, 12\\}$ we can write:\n$4 \\in F$, $7 \\notin F$, $\\{2, 4, 6\\} \\subseteq F$ and $n(F) = 6$.",
+      "source_images": ["image1190.png", "image1191.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 1\n\nLet $P$ be the set of all multiples of 6 less than 20, and $Q$ be the set of all even numbers less than 20.\n\n(a) List the elements of $P$ and $Q$.\n\n(b) True or false: (i) $10 \\in P$ (ii) $10 \\notin Q$ (iii) $12 \\in P$?\n\n(c) Find: (i) $n(P)$ (ii) $n(Q)$.\n\n(d) Is $P \\subseteq Q$?\n\nSolutions:\n\n(a) $P = \\{6, 12, 18\\}$, $Q = \\{2, 4, 6, 8, 10, 12, 14, 16, 18\\}$\n\n(b) (i) 10 is not an element of $P$, so $10 \\in P$ is false.\n(ii) 10 is an element of $Q$, so $10 \\notin Q$ is false.\n(iii) 12 is an element of $P$, so $12 \\in P$ is true.\n\n(c) (i) $n(P) = 3$ {$P$ has 3 elements}\n(ii) $n(Q) = 9$ {$Q$ has 9 elements}\n\n(d) Every element of $P$ is also an element of $Q$, so $P \\subseteq Q$.",
+      "source_images": ["image1192.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "SPECIAL NUMBER SETS\n\nFollowing is a list of some special number sets you should be familiar with:\n\n- $\\mathbb{N} = \\{0, 1, 2, 3, 4, 5, 6, 7, ....\\}$ is the set of all natural or counting numbers.\n\n- $\\mathbb{Z} = \\{0, \\pm 1, \\pm 2, \\pm 3, \\pm 4, ....\\}$ is the set of all integers.\n\n- $\\mathbb{Z}^+ = \\{1, 2, 3, 4, 5, 6, 7, ....\\}$ is the set of all positive integers.\n\n- $\\mathbb{Q}$ is the set of all rational numbers, or numbers which can be written in the form $\\frac{p}{q}$ where $p$ and $q$ are integers, $q \\neq 0$.\n\nFor example: $\\frac{15}{4}$, $10 (= \\frac{10}{1})$, $0.5 (= \\frac{1}{2})$, and $-\\frac{3}{8}$ are all rational numbers.\n\nWe cannot represent the rational numbers on a number line, because there are infinitely many of them, and in between them are irrational numbers which cannot be written in rational form.\n\nFor example:\n- Radicals or surds such as $\\sqrt{2}$ and $\\sqrt{7}$ are irrational.\n- $\\pi \\approx 3.141592 65$ is an irrational number.\n- Decimal numbers which neither terminate nor recur are irrational.\n\n- $\\mathbb{R}$ is the set of all real numbers, which are all numbers which can be placed on the number line.",
+      "source_images": ["image1193.png", "image1194.png", "image1195.png", "image1196.png", "image1197.png", "image1198.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 21A\n\n1. List the elements of the set $A$, which is the set of all:\n(a) positive whole numbers between 5 and 10\n(b) odd numbers between 10 and 20\n(c) months of the year\n(d) factors of 30\n(e) letters on the bottom row of a computer keyboard\n(f) planets of the solar system\n(g) letters which make up the word BASEBALL\n(h) colours of keys on a piano\n(i) square numbers between 50 and 60.\n\n2. Find $n(A)$ for each of the sets in 1.\n\n3. Let $P = \\{1, 5, 7, 8, 10\\}$ and $Q = \\{1, 4, 5, 8, 9, 10\\}$.\n(a) Find (i) $n(P)$ (ii) $n(Q)$.\n(b) True or false:\n(i) $8 \\in P$ (ii) $8 \\notin Q$ (iii) $9 \\in P$ (iv) $3 \\notin Q$?\n(c) Is $P \\subseteq Q$?\n\n4. Suppose $R = \\{\\text{even numbers less than 10}\\}$, $S = \\{\\text{factors of 24}\\}$, and $T = \\{\\text{prime numbers less than 15}\\}$.\n(a) List the elements of $R$, $S$ and $T$.\n(b) Find: (i) $n(R)$ (ii) $n(S)$ (iii) $n(T)$.\n(c) Is $T \\subseteq S$?\n(d) Is $R \\subseteq S$?\n\n5. List all the subsets of:\n(a) $\\{5, 7\\}$\n(b) $\\{c, l, p\\}$",
+      "source_images": ["image1199.png", "image1200.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. Let $A$ be the set of colours on spinner 1, and $B$ be the set of colours on spinner 2.\n(a) List the elements of $A$ and $B$.\n(b) Is green $\\in B$?\n(c) Find: (i) $n(A)$ (ii) $n(B)$.\n(d) Is $A \\subseteq B$?\n\n7. Suppose $P = \\{1, 6, 3, x, 9, 8, 12, 2\\}$, $Q = \\{3, 6, 7, 12\\}$ and $Q \\subseteq P$. Find $x$.\n\n8. Are the following statements true or false?\n(a) If $A \\subseteq B$ then $n(A) \\leqslant n(B)$.\n(b) If $A \\subseteq B$ and $B \\subseteq C$, then $A \\subseteq C$.\n\n9. List all the subsets of $\\{w, x, y, z\\}$.",
+      "source_images": ["image1201.png", "image1202.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 2A\n\n1. Write using set notation:\n(a) 8 is an element of set $P$.\n(b) $k$ is not an element of set $S$.\n(c) 14 is not an element of the set of all odd numbers.\n(d) There are 9 elements in set $Y$.\n\n2. True or false?\n(a) $3 \\in \\mathbb{Z}^+$ (b) $6 \\in \\mathbb{Z}$ (c) $\\frac{3}{4} \\in \\mathbb{Q}$ (d) $\\sqrt{2} \\notin \\mathbb{Q}$\n(e) $-\\frac{1}{4} \\notin \\mathbb{Q}$ (f) $2\\frac{1}{3} \\in \\mathbb{Z}$ (g) $0.3684 \\in \\mathbb{R}$ (h) $\\frac{1}{0.1} \\in \\mathbb{Z}$\n\n3. Determine whether each of the following numbers is rational, irrational, or neither:\n(a) $8$ (b) $-8$ (c) $2\\frac{1}{3}$ (d) $-3\\frac{1}{4}$ (e) $\\sqrt{3}$\n(f) $\\sqrt{-3}$ (g) $\\sqrt{400}$ (h) $9.176$ (i) $\\frac{1}{0}$ (j) $\\pi - \\pi$",
+      "source_images": ["image1203.png", "image1204.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. For each of the following sets:\n(i) list the elements of the set\n(ii) determine whether the set is finite or infinite\n(iii) if the set is finite, find the number of elements in the set.\n(a) $A = \\{\\text{factors of 6}\\}$ (b) $B = \\{\\text{multiples of 6}\\}$ (c) $C = \\{\\text{factors of 17}\\}$\n(d) $D = \\{\\text{multiples of 17}\\}$ (e) $E = \\{\\text{prime numbers less than 20}\\}$\n(f) $F = \\{\\text{composite numbers between 10 and 30}\\}$\n\n5. Show that each of the following numbers is rational:\n(a) $0.\\overline{7}$ (b) $0.\\overline{41}$ (c) $0.\\overline{324}$\n\n6. Explain why $0.527$ is a rational number.\n\n7. Explain why $0.\\overline{9} \\in \\mathbb{Z}$.\n\n8. Give examples to show that these statements are false:\n(a) The sum of two irrationals is irrational.\n(b) The product of two irrationals is irrational.",
+      "source_images": ["image1205.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5B\n\n1. (a) Explain why 4 and $-7$ are rational numbers.\n(b) Explain why $\\frac{3}{0}$ is not a rational number.\n\n2. Show that these are rational numbers:\n(a) $0.6$ (b) $0.13$ (c) $1\\frac{1}{3}$ (d) $-4\\frac{1}{2}$ (e) $0.\\overline{3}$\n\n3. Explain why $\\mathbb{Z}^- \\cup \\mathbb{Z}^+ \\neq \\mathbb{Z}$.\n\n4. True or false:\n(a) $\\mathbb{N} \\subseteq \\mathbb{Z}$ (b) $\\mathbb{N} \\cap \\mathbb{Z}^- = \\varnothing$ (c) $\\mathbb{N} \\cup \\mathbb{Z}^- = \\mathbb{Z}$\n(d) $\\mathbb{Z} \\subseteq \\mathbb{Q}$ (e) $\\mathbb{Z} \\not\\subseteq \\mathbb{R}$ (f) $\\mathbb{R} \\subseteq \\mathbb{Q}$\n\n5. Find:\n(a) $\\mathbb{Q} \\cup \\mathbb{Q}'$ (b) $\\mathbb{Q} \\cap \\mathbb{Q}'$ (c) $\\mathbb{Q}' \\cap \\mathbb{R}$ (d) $\\mathbb{Q}' \\cup \\mathbb{R}$",
+      "source_images": ["image1206.png", "image1207.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "To avoid having to list all members of a set, we often use a general description of its members. We often describe a set of all values of $x$ with a particular property.\n\nThe notation $\\{x | ......\\}$ is used to describe \"the set of all $x$ such that ......\".\n\nFor example:\n- $\\{x | -3 < x \\leqslant 2, x \\in \\mathbb{R}\\}$\nreads \"the set of all real $x$ such that $x$ lies between minus 3 and 2, including 2\".\nWe can represent the set on a number line as: an open circle indicates $-3$ is not included, a closed circle indicates 2 is included.\nUnless stated otherwise, we assume we are dealing with real numbers. Thus, the set can also be written as $\\{x | -3 < x \\leqslant 2\\}$.\n\n- $\\{x | -5 < x < 5, x \\in \\mathbb{Z}\\}$\nreads \"the set of all integers $x$ such that $x$ lies between minus 5 and 5\".\nWe can represent the set on a number line as dots at integer values.",
+      "source_images": ["image1208.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 2\n\nWrite using interval notation:\n\n(a) [number line showing filled dots at integers 1, 2, 3, 4, 5]\n\n(b) [number line showing a closed interval from $-3$ (filled) to 6 (open)]\n\nSolutions:\n\n(a) $\\{x | 1 \\leqslant x \\leqslant 5, x \\in \\mathbb{N}\\}$\nor $\\{x | 1 \\leqslant x \\leqslant 5, x \\in \\mathbb{Z}\\}$\n\n(b) $\\{x | -3 \\leqslant x < 6\\}$",
+      "source_images": ["image1209.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 2B\n\n1. Explain the meaning of:\n(a) $\\{x | x > 4\\}$ (b) $\\{x | x \\leqslant 5, x \\in \\mathbb{Z}\\}$ (c) $\\{y | 0 < y < 8\\}$\n(d) $\\{x | 1 \\leqslant x \\leqslant 4, x \\in \\mathbb{Z}\\}$ (e) $\\{t | 2 < t < 7, t \\in \\mathbb{R}\\}$ (f) $\\{n | n \\leqslant 3 \\text{ or } n > 6\\}$\n\n2. Write using interval notation:\n(a) [number line: open at 3, arrow right]\n(b) [number line: open at 2, closed at 5]\n(c) [number line: closed at $-1$, closed at 2]\n(d) [number line: dots at integers 0, 1, 2, 3, 4, 5]\n(e) [number line: dots at integers 0, 1, 2, 3, 4, 5, 6]\n(f) [number line: arrow left to open at 0]\n\n3. Represent each of the following number sets on a number line:\n(a) $\\{x | 4 \\leqslant x < 8, x \\in \\mathbb{N}\\}$ (b) $\\{x | -5 < x \\leqslant 4, x \\in \\mathbb{Z}\\}$\n(c) $\\{x | -3 < x \\leqslant 5, x \\in \\mathbb{R}\\}$ (d) $\\{x | x > -5, x \\in \\mathbb{Z}\\}$\n(e) $\\{x | x \\leqslant 6\\}$ (f) $\\{x | -5 \\leqslant x \\leqslant 0\\}$\n\n4. Write in interval notation:\n(a) the set of all real numbers greater than 7\n(b) the set of all integers between $-8$ and 15\n(c) the set of all rational numbers between 4 and 6, including 4.",
+      "source_images": ["image1210.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "For example:\n- If $E = \\{\\text{even numbers}\\}$ then $E \\subseteq \\mathbb{Z}$.\n- The empty set $\\varnothing$ is a subset of every set.",
+      "source_images": ["image1211.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 3\n\nSuppose $A = \\{1, 2, 3, 4, 5, 6, 7\\}$, $B = \\{2, 3, 5\\}$, and $C = \\{3, 5, 8\\}$.\n\nDecide whether $B$ or $C$ are subsets of $A$.\n\nSolution:\n\nEvery element of $B$ is also an element of $A$, so $B \\subseteq A$.\n\nThe element 8 of $C$ is not an element of $A$, so $C \\not\\subseteq A$.\n\n($\\not\\subseteq$ reads \"is not a subset of\".)",
+      "source_images": ["image1212.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "THE COMPLEMENT OF A SET\n\nIf we are given a problem involving sets, the universal set $U$ is the set of all elements under consideration.\n\nThe complement of $A$, denoted $A'$, is the set of all elements of $U$ which are not in $A$.\n$$A' = \\{x | x \\notin A, x \\in U\\}$$\n\nFor example, if we are considering the letters of the English alphabet, the universal set is:\n$U = \\{a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z\\}$\n\nFrom this universal set we can define subsets of $U$, such as $V = \\{\\text{vowels}\\} = \\{a, e, i, o, u\\}$ and $C = \\{\\text{consonants}\\} = \\{b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z\\}$.\n\nFor example:\n- if $U = \\{1, 2, 3, 4, 5, 6, 7, 8, 9\\}$ and $A = \\{2, 3, 5, 7\\}$, then $A' = \\{1, 4, 6, 8, 9\\}$\n- if $U = \\{\\text{letters of the English alphabet}\\}$, $V = \\{\\text{vowels}\\}$ and $C = \\{\\text{consonants}\\}$ then $V$ is the complement of $C$, and $C$ is the complement of $V$.\n\n- $A \\cap A' = \\varnothing$ {as $A$ and $A'$ have no members in common}\n- $A \\cup A' = U$ {all members of $A$ and $A'$ make up $U$}\n- $n(A) + n(A') = n(U)$.",
+      "source_images": ["image1213.png", "image1214.png", "image1215.png", "image1216.png", "image1217.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 2\n\nLet $U = \\{0, 1, 2, 3, 4, 5, 6\\}$. Find $A'$ if $A$ is:\n(a) $\\{0, 2, 5, 6\\}$ (b) $\\{\\text{factors of 6}\\}$ (c) $\\{\\text{whole numbers which are} < 3\\}$\n\nSolutions:\n\n(a) $A = \\{0, 2, 5, 6\\}$\n$\\therefore A' = \\{1, 3, 4\\}$\n\n(b) $A = \\{1, 2, 3, 6\\}$\n$\\therefore A' = \\{0, 4, 5\\}$\n\n(c) $A = \\{0, 1, 2\\}$\n$\\therefore A' = \\{3, 4, 5, 6\\}$",
+      "source_images": ["image1218.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 3\n\nIf $U = \\{\\text{whole numbers between 1 and 20}\\}$, find the complement of:\n(a) $A = \\{\\text{even numbers}\\}$ (b) $B = \\{\\text{prime numbers}\\}$\n\nSolutions:\n\n(a) $A' = \\{\\text{odd numbers in } U\\}$\n$= \\{3, 5, 7, 9, 11, 13, 15, 17, 19\\}$\n\n(b) $B' = \\{\\text{non-prime numbers in } U\\}$\n$= \\{4, 6, 8, 9, 10, 12, 14, 15, 16, 18\\}$",
+      "source_images": ["image1219.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 4\n\nIf $U = \\{-3, -2, -1, 0, 1, 2, 3\\}$, $A = \\{-2, 0, 2, 3\\}$ and $B = \\{-3, -2, 1, 3\\}$:\n(a) list: (i) $A'$ (ii) $B'$ (iii) $A \\cap B$ (iv) $A \\cup B$ (v) $A \\cap B'$ (vi) $A' \\cup B'$\n(b) find $n(A' \\cup B')$.\n\nSolutions:\n\n(a) (i) $A' = \\{-3, -1, 1\\}$ {all elements of $A$ not in $U$}\n(ii) $B' = \\{-1, 0, 2\\}$ {all elements of $B$ not in $U$}\n(iii) $A \\cap B = \\{-2, 3\\}$ {all elements common to $A$ and $B$}\n(iv) $A \\cup B = \\{-3, -2, 0, 1, 2, 3\\}$ {all elements in $A$ or $B$ or both}\n(v) $A \\cap B' = \\{-2, 0, 2, 3\\} \\cap \\{-1, 0, 2\\} = \\{0, 2\\}$\n(vi) $A' \\cup B' = \\{-3, -1, 1\\} \\cup \\{-1, 0, 2\\} = \\{-3, -1, 0, 1, 2\\}$\n\n(b) $n(A' \\cup B') = 5$ {as there are 5 members in this set}",
+      "source_images": ["image1220.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 4\n\nSuppose $U = \\{x | x \\leqslant 12, x \\in \\mathbb{Z}^+\\}$. Find the complement of:\n(a) $A = \\{\\text{even numbers in } U\\}$ (b) $B = \\{\\text{prime numbers in } U\\}$\n\nSolutions:\n\n(a) $A' = \\{\\text{odd numbers in } U\\}$\n$= \\{1, 3, 5, 7, 9, 11\\}$\n\n(b) $B' = \\{1, 4, 6, 8, 9, 10, 12\\}$",
+      "source_images": ["image1221.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 21B\n\n1. Let $U = \\{1, 2, 3, 4, 5, 6, 7, 8, 9\\}$. Find the complement of:\n(a) $A = \\{1, 4, 7\\}$ (b) $B = \\{2, 3, 4, 5, 9\\}$\n(c) $C = \\{5, 1, 9, 7\\}$ (d) $D = \\{2, 4, 6, 8\\}$\n\n2. Suppose $U = \\{\\text{whole numbers between 0 and 15}\\}$, $P = \\{\\text{factors of 10}\\}$ and $Q = \\{\\text{prime numbers less than 15}\\}$. List the elements of:\n(a) $P$ (b) $Q$ (c) $P'$ (d) $Q'$\n\n3. Consider the list of sports at a school sports day. Let $B$ be the set of sports that are played with a ball.\n(a) List the elements of:\n(i) $U$ (ii) $B$ (iii) $B'$.\n(b) What do the elements of $B'$ represent?\n\nSPORTS: Sprinting, Basketball, High Jump, Hurdles, Shot Put, Tennis, Long Jump\n\n4. Consider the letters of the English alphabet. Let $A$ be the set of letters which make up the word \"MATHEMATICS\", and $B$ be the set of letters which make up the word \"GEOGRAPHY\". List the elements of:\n(a) $A$ (b) $B$ (c) $A'$ (d) $B'$\n\n5. Let $U = \\{\\text{whole numbers between 0 and 10}\\}$,\n$A = \\{\\text{multiples of 3 which are less than 10}\\}$, and $B = \\{\\text{odd numbers less than 10}\\}$.\n(a) List the elements of:\n(i) $U$ (ii) $A$ (iii) $A'$ (iv) $B$ (v) $B'$\n(b) Find:\n(i) $n(U)$ (ii) $n(A)$ (iii) $n(A')$ (iv) $n(B)$\n(v) $n(B')$ (vi) $n(A) + n(A')$ (vii) $n(B) + n(B')$.\n(c) Copy and complete:\nFor any set $A$ within a universal set $U$, $n(A) + n(A') = n(....)$.\n\n6. Find $A'$ if $A = U$.",
+      "source_images": ["image1222.png", "image1223.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5D\n\n1. For $U = \\{2, 3, 4, 5, 6, 7\\}$ and $B = \\{2, 5, 7\\}$:\n(a) list the set $B'$\n(b) check that $B \\cap B' = \\varnothing$ and that $B \\cup B' = U$\n(c) check that $n(B) + n(B') = n(U)$.\n\n2. Find $D'$, the complement of $D$, given that:\n(a) $U = \\{\\text{integers}\\}$ and $D = \\{0\\} \\cup \\mathbb{Z}$\n(b) $U = \\mathbb{Z}^+$ and $D = \\{\\text{odd positive integers}\\}$\n(c) $U = \\mathbb{Z}$ and $D = \\{x | x \\leqslant 10, x \\in \\mathbb{Z}\\}$\n(d) $U = \\mathbb{Q}$ and $D = \\{x | x \\leqslant 3 \\text{ or } x \\geqslant 5, x \\in \\mathbb{Q}\\}$\n\n3. Suppose $U = \\{0, 1, 2, 3, 4, 5, ...., 20\\}$,\n$F = \\{\\text{factors of 24}\\}$, and $M = \\{\\text{multiples of 4}\\}$.\n(a) List the sets:\n(i) $F$ (ii) $M$ (iii) $M'$\n(iv) $F \\cap M$ (v) $F \\cup M$ (vi) $F \\cap M'$\n(b) Find $n(F \\cap M')$.\n\n(The dots in $U$ indicate that the integer list continues up to 20.)\n\n4. Suppose $U = \\{x | 0 \\leqslant x \\leqslant 7, x \\in \\mathbb{Z}\\}$, $A = \\{0, 2, 4, 5\\}$ and $B = \\{2, 3, 5, 7\\}$.\n(a) List the elements of:\n(i) $U$ (ii) $A'$ (iii) $B'$ (iv) $A \\cap B$ (v) $A \\cup B$ (vi) $A' \\cap B'$\n(b) Verify that $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$.\n(c) Show that $(A \\cup B)' = A' \\cap B'$.\n\n5. Suppose $U = \\{x | 3 \\leqslant x < 15, x \\in \\mathbb{Z}\\}$, $R = \\{x | 5 \\leqslant x \\leqslant 8, x \\in \\mathbb{Z}\\}$, and $T = \\{4, 7, 10, 13\\}$.\n(a) List the elements of:\n(i) $U$ (ii) $R$ (iii) $R'$ (iv) $T'$ (v) $R' \\cup T$ (vi) $R \\cap T'$\n(b) Find: (i) $n(R' \\cup T)$ (ii) $n(R \\cap T')$.\n\n6. True or false?\n(a) If $n(U) = x$ and $n(B) = y$ then $n(B') = y - x$.\n(b) If $A \\subseteq U$ then $A' = \\{x | x \\notin A, x \\in U\\}$",
+      "source_images": ["image1224.png", "image1225.png", "image1226.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 2C\n\n1. For each of the following sets $A$ and $B$, decide whether $A \\subseteq B$:\n(a) $A = \\{2, 5, 6\\}$, $B = \\{1, 2, 3, 4, 5, 6, 7, 8\\}$\n(b) $A = \\{4, 8, 11, 12\\}$, $B = \\{2, 4, 6, 8, 10, 12, 14, 16\\}$\n(c) $A = \\varnothing$, $B = \\{1, 4, 7, 10\\}$\n(d) $A = \\{5, 10, 15, 20, 25, 30\\}$, $B = \\{10, 15, 20\\}$\n(e) $A = \\{6, 7, 8\\}$, $B = \\mathbb{N}$\n\n2. Are the following statements true or false?\n(a) $\\mathbb{Z} \\subseteq \\mathbb{R}$ (b) $\\mathbb{Z}^+ \\subseteq \\mathbb{Z}$ (c) $\\{\\frac{1}{3}, \\sqrt{2}, 5\\} \\subseteq \\mathbb{Q}$\n(d) $\\mathbb{N} \\subseteq \\mathbb{Q}$ (e) $\\mathbb{R} \\subseteq \\mathbb{Z}$ (f) $\\mathbb{Z}^+ \\subseteq \\mathbb{N}$\n\n3. Suppose $A = \\{1, 2, 3, 4, 5, 6, 7, 8\\}$, $B = \\{3, 6, 9\\}$, and $C = \\{4, 7\\}$. Decide whether $B$ or $C$ are subsets of $A$.\n\n4. Suppose $P = \\{\\text{prime numbers less than 10}\\}$, $Q = \\{\\text{multiples of 3 less than 20}\\}$, $R = \\{3, 5, 7\\}$, and $S = \\{\\text{multiples of 6 less than 20}\\}$. Decide whether the following statements are true or false:\n(a) $P \\subseteq Q$ (b) $R \\subseteq P$ (c) $R \\subseteq S$ (d) $S \\subseteq Q$",
+      "source_images": ["image1227.png", "image1228.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. Suppose $U = \\{x | x \\leqslant 9, x \\in \\mathbb{Z}^+\\}$. Find the complement of:\n(a) $A = \\{2, 5, 6\\}$ (b) $B = \\{\\text{prime numbers in } U\\}$\n(c) $C = \\{\\text{odd numbers in } U\\}$ (d) $D = \\{\\text{multiples of 4 in } U\\}$\n(e) $E = \\varnothing$ (f) $F = \\{x | x < 3, x \\in \\mathbb{Z}^+\\}$.\n\n6. Suppose $U = \\{\\text{letters of the English alphabet}\\}$. Find the complement of:\n(a) $P = \\{C, F, J, M, P, U, Y, Z\\}$ (b) $Q = \\{\\text{consonants}\\}$\n(c) $R = \\{\\text{letters in the word HOSPITAL}\\}$ (d) $S = \\{\\text{letters after J in the alphabet}\\}$.\n\n7. Suppose $U = \\{x | x \\leqslant 15, x \\in \\mathbb{Z}^+\\}$, $A = \\{x | 5 \\leqslant x < 13, x \\in \\mathbb{Z}^+\\}$, and $B = \\{x | 6 < x < 10, x \\in \\mathbb{Z}^+\\}$.\n(a) Write down $A'$ and $B'$.\n(b) True or false?\n(i) $A \\subseteq B$ (ii) $B \\subseteq A$ (iii) $A' \\subseteq B'$ (iv) $B' \\subseteq A'$",
+      "source_images": ["image1229.png", "image1230.png", "image1231.png"]
+    }
+  ]
+}

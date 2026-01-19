@@ -1,157 +1,97 @@
 {
   "chapter": 5,
   "part": 3,
-  "images_range": "365-394",
+  "images_range": "395-439",
   "items": [
     {
       "type": "exercise",
-      "content_latex": "4. Factorise using the difference of two squares:\n\n(a) $(x + 1)^2 - 4$\n\n(b) $(2x + 1)^2 - 9$\n\n(c) $(1 - x)^2 - 16$\n\n(d) $(x + 3)^2 - 4x^2$\n\n(e) $4x^2 - (x + 2)^2$\n\n(f) $9x^2 - (3 - x)^2$\n\n(g) $(2x + 1)^2 - (x - 2)^2$\n\n(h) $(3x - 1)^2 - (x + 1)^2$\n\n(i) $4x^2 - (2x + 3)^2$",
-      "source_images": ["image365.png"]
+      "content_latex": "(continued from previous part)\n\n$5ab \\times 5ac \\div 5bc =$\n\n$(8e^2f^3)^2 =$\n\n$\\sqrt{16g^2h^8} =$\n\n$(-2x)^2 =$\n\n$-(3x)^3 =$\n\n$2(a + 2b) + (a - b)$\n\n$x(2x + 3) - 4(3x - 1)$\n\n$\\frac{8}{9x} \\div \\frac{2}{3x}$\n\n$\\frac{a+1}{2} \\cdot \\frac{a-1}{3}$\n\n$\\frac{b+c}{2} \\cdot \\frac{b-2}{5} =$\n\n$\\frac{3x-1}{3} + \\frac{2-x}{4} =$\n\n$\\frac{4a+1}{2} - \\frac{a+3}{5} =$\n\n$x = 5 \\quad y = 3 \\quad z = 1$\n\n$6x + 2y =$ .......... $\\quad x^2 + y^2 =$ ..........\n\n$2x^2 + 3z =$ .......... $\\quad (4x - 2z)^2 =$ ..........\n\n$a = \\frac{1}{2} \\quad b = \\frac{1}{8} \\quad c = \\frac{3}{4}$",
+      "source_images": ["image395.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "EXERCISE 8C\n\n1. Use perfect square rules to fully factorise:\n\n(a) $x^2 + 6x + 9$\n\n(b) $x^2 + 8x + 16$\n\n(c) $x^2 - 6x + 9$\n\n(d) $x^2 - 8x + 16$\n\n(e) $x^2 + 2x + 1$\n\n(f) $x^2 - 10x + 25$\n\n(g) $y^2 + 18y + 81$\n\n(h) $m^2 - 20m + 100$\n\n(i) $t^2 + 12t + 36$\n\n2. Fully factorise:\n\n(a) $9x^2 + 6x + 1$\n\n(b) $4x^2 - 4x + 1$\n\n(c) $9x^2 + 12x + 4$\n\n(d) $25x^2 - 10x + 1$\n\n(e) $16x^2 + 24x + 9$\n\n(f) $25x^2 - 20x + 4$\n\n(g) $-x^2 + 2x - 1$\n\n(h) $-2x^2 - 8x - 8$\n\n(i) $-3x^2 - 30x - 75$",
-      "source_images": ["image366.png"]
+      "content_latex": "(continued)\n\n$x(x^2 + 1) - x^2(x + 1)$\n\n$a + b =$ ..........\n\n$\\frac{a}{b} =$ ..........\n\n$24a^2 + 4c =$ ..........\n\n$4c(12a^2b) =$ ..........",
+      "source_images": ["image396.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Squares of Binomials\n\n$(a + b)^2 = a^2 + ab + ab + b^2 = a^2 + 2ab + b^2$.",
+      "source_images": ["image397.png", "image398.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "We can use the observation $(a + b)^2 = a^2 + 2ab + b^2$ to quickly square any binomial. For example:\n\n$(x + 8)^2 = (x)^2 + 2(x)(8) + (8)^2 = x^2 + 16x + 64$,\n\n$(3x - 4)^2 = (3x)^2 + 2(3x)(-4) + (-4)^2 = 9x^2 - 24x + 16$,\n\n$\\left(2r^2 - \\frac{r}{2}\\right)^2 = (2r^2)^2 + 2(2r^2)\\left(-\\frac{r}{2}\\right) + \\left(\\frac{r}{2}\\right)^2 = 4r^4 - 2r^3 + \\frac{r^2}{4}$,\n\n$(-x - 9y)^2 = (-x)^2 + 2(-x)(-9y) + (-9y)^2 = x^2 + 18xy + 81y^2$.",
+      "source_images": ["image399.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 11.4: If $x = \\sqrt{\\frac{6}{7}}$, then evaluate $\\left(x + \\frac{1}{x}\\right)^2$. (Source: Mandelbrot)\n\nSolution:\n\n$\\left(\\sqrt{\\frac{6}{7}} + \\frac{1}{\\sqrt{\\frac{6}{7}}}\\right)^2 = \\left(\\sqrt{\\frac{6}{7}} + \\sqrt{\\frac{7}{6}}\\right)^2$.\n\nYuck. We could keep going and find a common denominator, then square everything, but instead we recall our expansion for the square of a binomial:\n\n$(a + b)^2 = a^2 + 2ab + b^2$.\n\nHere, $a = x$ and $b = \\frac{1}{x}$, so we have\n\n$\\left(x + \\frac{1}{x}\\right)^2 = x^2 + 2(x)\\left(\\frac{1}{x}\\right) + \\left(\\frac{1}{x}\\right)^2 = x^2 + 2 + \\frac{1}{x^2}$.\n\nSuccess! Because $x^2 = \\frac{6}{7}$, this expansion allows us to avoid the radicals entirely:\n\n$\\left(x + \\frac{1}{x}\\right)^2 = x^2 + 2 + \\frac{1}{x^2} = \\frac{6}{7} + 2 + \\frac{7}{6} = \\frac{169}{42}$.",
+      "source_images": ["image400.png", "image401.png", "image402.png", "image403.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 11.5: Compute $20062005^2 - 2(20062005)(20062003) + (20062003)^2$ without a calculator.\n\nSolution:\n\nLook for a pattern. Rather than deal with those huge numbers, let's replace them with smaller numbers. Our huge numbers are 2 apart, so we replace them with smaller numbers that are 2 apart:\n\n$3^2 - 2(3)(1) + 1^2 = 4$,\n$4^2 - 2(4)(2) + 2^2 = 4$,\n$5^2 - 2(5)(3) + 3^2 = 4$,\n$6^2 - 2(6)(4) + 4^2 = 4$.\n\nLooks like a pretty clear pattern! But how do we know it will continue all the way up to 20062005?\n\nReplace the big numbers with variable expressions. Rather than deal with the big numbers, we set one of them equal to $x$. If we let $x = 20062003$, then $20062005 = x + 2$, so we can write our expression as:\n\n$(x + 2)^2 - 2(x + 2)(x) + x^2$.\n\nNow we multiply everything out, hoping we can at least get rid of the $x^2$ terms so we don't have to square any big numbers:\n\n$(x + 2)^2 - 2(x + 2)(x) + x^2 = (x^2 + 4x + 4) - (2x^2 + 4x) + x^2 = x^2 + 4x + 4 - 2x^2 - 4x + x^2 = 4$.\n\nNot only did the $x^2$ terms cancel, but so did the $x$ terms! We now see that the pattern we found earlier does indeed hold for all numbers that differ by two.\n\nRecognize the expanded square. We could have saved ourselves a lot of work by recognizing that our original expression is the square of a binomial:\n\n$20062005^2 - 2(20062005)(20062003) + (20062003)^2 = (20062005 - 20062003)^2 = 2^2 = 4$.",
+      "source_images": ["image404.png", "image405.png", "image406.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 11.6: Square the following numbers in your head (mental math):\n\n(a) 71\n(b) 65\n(c) 204\n(d) 99\n\nSolution:\n\n(a) 71 is near 70, which is easy to square. So we write 71 as $70 + 1$:\n\n$71^2 = (70 + 1)^2 = 70^2 + 2(70)(1) + 1^2 = 4900 + 140 + 1 = 5041$.\n\n(b) That worked so well, let's try it again:\n\n$65^2 = (60 + 5)^2 = 60^2 + 2(60)(5) + 5^2 = 3600 + 600 + 25 = 4225$.\n\nThis one's easy to do because the middle term, $2(60)(5)$, is so easy to compute, since $(2)(5) = 10$.\n\n(c) 200 isn't too hard to square, so we let $204 = 200 + 4$:\n\n$204^2 = (200 + 4)^2 = 200^2 + 2(200)(4) + 4^2 = 40000 + 1600 + 16 = 41616$.\n\n(d) 99 is just 1 away from 100:\n\n$99^2 = (100 - 1)^2 = 100^2 - 2(100)(1) + 1 = 10000 - 200 + 1 = 9801$.",
+      "source_images": ["image407.png", "image408.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 11.7: Expand the product $(x + y)^n$ for $n = 3, 4, 5$, and $6$. Do you see any interesting patterns?\n\nSolution for Problem 11.7: We already know $(x + y)^2 = x^2 + 2xy + y^2$, so we have\n\n$(x + y)^3 = (x + y)(x + y)^2 = (x + y)(x^2 + 2xy + y^2)$.\n\nExpanding this product gives:\n\n$(x + y)(x^2 + 2xy + y^2) = x(x^2 + 2xy + y^2) + y(x^2 + 2xy + y^2)$\n$= x^3 + 2x^2y + xy^2 + x^2y + 2xy^2 + y^3$\n$= x^3 + 3x^2y + 3xy^2 + y^3$.\n\nWe can now multiply this expression by $(x + y)$ to find the expansion of $(x + y)^4$:\n\n$(x + y)(x^3 + 3x^2y + 3xy^2 + y^3) = x(x^3 + 3x^2y + 3xy^2 + y^3) + y(x^3 + 3x^2y + 3xy^2 + y^3)$\n$= x^4 + 3x^3y + 3x^2y^2 + xy^3 + x^3y + 3x^2y^2 + 3xy^3 + y^4$\n$= x^4 + 4x^3y + 6x^2y^2 + 4xy^3 + y^4$.\n\nContinuing in this manner, we can find the expansions of $(x + y)^5$ and $(x + y)^6$. Putting all the powers of $(x + y)$ we now know together, we have:\n\n$(x + y)^0 = 1$\n$(x + y)^1 = x + y$\n$(x + y)^2 = x^2 + 2xy + y^2$\n$(x + y)^3 = x^3 + 3x^2y + 3xy^2 + y^3$\n$(x + y)^4 = x^4 + 4x^3y + 6x^2y^2 + 4xy^3 + y^4$\n$(x + y)^5 = x^5 + 5x^4y + 10x^3y^2 + 10x^2y^3 + 5xy^4 + y^5$\n$(x + y)^6 = x^6 + 6x^5y + 15x^4y^2 + 20x^3y^3 + 15x^2y^4 + 6xy^5 + y^6$\n\nWe can see a fascinating pattern in the coefficients of these expressions when we arrange them in a triangle:\n\n1\n1  1\n1  2  1\n1  3  3  1\n1  4  6  4  1\n1  5  10  10  5  1\n1  6  15  20  15  6  1\n\nThis triangle is called Pascal's Triangle. After the 1 at the top, we generate each number in the triangle by adding the two numbers directly above it. For example, the bold 15 is the sum of the 10 and the 5 just above it. (We pretend the 1's on the sides are below a 0 and a 1.)\n\nOf course, the triangle doesn't stop after 7 rows! We can continue this triangle to find the coefficients of $(x + y)^n$ for any positive integer $n$.",
+      "source_images": ["image409.png", "image410.png", "image411.png", "image412.png", "image413.png", "image414.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "EXERCISE 8E\n\n1. Use the $x^2 + (p + q)x + pq = (x + p)(x + q)$ factorisation to fully factorise:\n\n(a) $x^2 + 3x + 2$\n\n(b) $x^2 + 5x + 6$\n\n(c) $x^2 - x - 6$\n\n(d) $x^2 + 3x - 10$\n\n(e) $x^2 + 4x - 21$\n\n(f) $x^2 + 8x + 16$\n\n(g) $x^2 - 14x + 49$\n\n(h) $x^2 + 3x - 28$\n\n(i) $x^2 + 7x + 10$\n\n(j) $x^2 - 11x + 24$\n\n(k) $x^2 + 15x + 44$\n\n(l) $x^2 + x - 42$\n\n(m) $x^2 - x - 56$\n\n(n) $x^2 - 18x + 81$\n\n(o) $x^2 - 4x - 32$\n\n2. Fully factorise by first removing a common factor:\n\n(a) $2x^2 - 6x - 8$\n\n(b) $3x^2 + 9x - 12$\n\n(c) $5x^2 + 10x - 15$\n\n(d) $4x^2 + 4x - 80$\n\n(e) $2x^2 - 4x - 30$\n\n(f) $3x^2 + 12x - 63$\n\n(g) $-2x^2 + 2x + 40$\n\n(h) $-3x^2 + 12x - 12$\n\n(i) $-7x^2 - 21x + 28$\n\n(j) $-x^2 - 3x - 2$\n\n(k) $-x^2 + 5x - 6$\n\n(l) $-x^2 + 9x - 18$\n\n(m) $5x^2 + 15x - 50$\n\n(n) $-2x^2 - 8x + 42$\n\n(o) $4x - x^2 + 32$",
-      "source_images": ["image367.png"]
+      "content_latex": "Exercises\n\n11.1.1 Expand each of the following:\n\n(a) $(x - 5)^2$\n(b) $(x + 5)^2$\n(c) $(3y - 7)^2$\n(d) $(3y + 7)^2$",
+      "source_images": ["image415.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "EXERCISE 8F\n\n1. Where possible, fully factorise the following expressions:\n\n(a) $3x^2 + 9x$\n\n(b) $4x^2 - 1$\n\n(c) $5x^2 - 15$\n\n(d) $3x - 5x^2$\n\n(e) $x^2 + 3x - 40$\n\n(f) $2x^2 - 32$\n\n(g) $x^2 + 9$\n\n(h) $x^2 + 10x + 25$\n\n(i) $x^2 - x - 6$\n\n(j) $x^2 - 16x + 39$\n\n(k) $x^2 - 7x - 60$\n\n(l) $x^2 - 2x - 8$\n\n(m) $x^2 + 11x + 30$\n\n(n) $x^2 + 6x - 16$\n\n(o) $x^2 - 5x - 24$\n\n(p) $3x^2 + 6x - 72$\n\n(q) $4x^2 - 8x - 60$\n\n(r) $3x^2 - 42x + 99$\n\n(s) $-x^2 + 9x - 14$\n\n(t) $-x^2 - 13x - 36$\n\n(u) $-2x^2 - 14x + 36$",
-      "source_images": ["image368.png"]
+      "content_latex": "11.1.2 For each of the following, state whether or not the quadratic is the square of a binomial. If it is, then factor the expression.\n\n(a) $z^2 - 4z - 4$\n(b) $r^2 + 10r + 25$\n(c) $x^2 - 20x + 400$\n(d) $9y^2 - 30y + 25$\n(e) $\\star$ $\\frac{t^4}{9} + 4t^2 + 36$\n(f) $\\star$ $2y^2 - 28y + 98$\n\n11.1.3 Use the figure at right to prove that $(a + b)^2 = a^2 + 2ab + b^2$, without expanding algebraically. Hints: 199\n\n11.1.4 Compute $31^2$ and $299^2$ in your head.\n\n11.1.5 We can square a number ending in 5 using the following steps:\n\n1. Erase the 5 at the end of the number to obtain a number $k$.\n\n2. Multiply $k$ by $k + 1$ and write the digits 25 at the end of the resulting product.\n\nFor example, we find that $65^2 = 4225$ by evaluating $6 \\cdot 7 = 42$, and then placing 25 on the end of this product.\n\n(a) Use this trick to compute $45^2$, $95^2$, and $115^2$.\n(b) $\\star$ Use the expansion of $(10n + 5)^2$ to explain why this trick works. Hints: 70\n\n11.1.6 $\\star$ Compute $199919981997^2 - 2 \\cdot 199919981994^2 + 199919981991^2$. (Source: ARML)",
+      "source_images": ["image416.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Difference of Squares\n\n$a^2 - b^2 = (a - b)(a + b)$.",
+      "source_images": ["image417.png", "image418.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Examples of factoring using difference of squares:\n\n$x^2 - 1 = (x - 1)(x + 1)$,\n$x^2 - 4 = (x - 2)(x + 2)$,\n$x^2 - 9 = (x - 3)(x + 3)$.\n\n$r^2 - 20^2 = (r - 20)(r + 20)$.\n\n$4t^2 - 121 = (2t)^2 - 11^2 = (2t - 11)(2t + 11)$.\n\n$3r^2 - 147 = 3(r^2 - 49) = 3(r^2 - 7^2) = 3(r - 7)(r + 7)$.\n\n$z^4 - 1 = (z^2 - 1)(z^2 + 1) = (z - 1)(z + 1)(z^2 + 1)$.",
+      "source_images": ["image419.png", "image420.png", "image421.png", "image422.png", "image423.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 11.10:\n\n(a) Evaluate $5^2 - 4^2$.\n(b) Evaluate $6^2 - 5^2$.\n(c) Evaluate $7^2 - 6^2$.\n(d) Evaluate $8^2 - 7^2$.\n\nSolution:\n\n$5^2 - 4^2 = 9 = 5 + 4$,\n$6^2 - 5^2 = 11 = 6 + 5$,\n$7^2 - 6^2 = 13 = 7 + 6$,\n$8^2 - 7^2 = 15 = 8 + 7$.\n\nSince we have differences of squares on the left side, we can use our new factorization to determine why this pattern holds:\n\n$(n + 1)^2 - n^2 = [(n + 1) - n][(n + 1) + n] = (n + 1) + n$.\n\nWe could also have seen why this pattern holds by expanding $(n + 1)^2$:\n\n$(n + 1)^2 - n^2 = n^2 + 2n + 1 - n^2 = 2n + 1 = (n + 1) + n$.",
+      "source_images": ["image424.png", "image425.png", "image426.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 11.11: Find all pairs of positive integers $m$ and $n$ such that $m^2$ is 105 greater than $n^2$.\n\nSolution for Problem 11.11: Turning the words into math is easy:\n\n$m^2 = n^2 + 105$.\n\nIt's not at all clear what to do with this equation, but if we subtract $n^2$ from both sides, we have $m^2 - n^2 = 105$. We like this because we can factor the left side:\n\n$(m - n)(m + n) = 105$.\n\nBecause $m$ and $n$ are integers, so are $m - n$ and $m + n$. Therefore, both $m - n$ and $m + n$ are factors of 105. We can use the different possible factorizations of 105 to give us the different possible values of $m - n$ and $m + n$:\n\n$(m - n)(m + n) = 1 \\cdot 105 = 3 \\cdot 35 = 5 \\cdot 21 = 7 \\cdot 15$.\n\nBecause $m$ and $n$ are positive, we know that $m - n$ is smaller than $m + n$, so we only have these four cases to consider:\n\n$m - n = 1$ and $m + n = 105$\n$m - n = 3$ and $m + n = 35$\n$m - n = 5$ and $m + n = 21$\n$m - n = 7$ and $m + n = 15$\n\nEach of these systems of equations gives us a solution $(m, n)$. Adding the equations in the first case gives us $2m = 106$, so $m = 53$. Substitution then gives $n = 52$. Similarly, we can work through each of the other three cases to find the four solutions $(m, n) = (53, 52); (19, 16); (13, 8); (11, 4)$.",
+      "source_images": ["image427.png", "image428.png", "image429.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 11.12: Suppose\n\n$x = z - \\sqrt{z^2 - 5}$ and $5y = z + \\sqrt{z^2 - 5}$.\n\nFind $x$ when $y = 2/3$.\n\nSolution for Problem 11.12: One approach would be to substitute $y = 2/3$ in the second equation, solve for $z$, then substitute that solution into the first equation. Solving that second equation for $z$ looks pretty scary, though. Moreover, if $z$ is itself a nasty expression, it may not be so easy to evaluate $x$.\n\nWhat makes this problem tricky are the square roots.\n\nConcept: Focusing on what makes a problem tricky helps identify what strategies might best solve the problem.\n\nWe know that squaring gets rid of square roots, but squaring either of our equations doesn't look too helpful. However, we notice that the right sides of our equations are of the form $a - b$ and $a + b$, where $a = z$ and $b = \\sqrt{z^2 - 5}$. We could add them to get rid of $\\sqrt{z^2 - 5}$, but that would give $x + 5y = 2z$, and we're back to having to find $z$.\n\nInstead of getting rid of $b$, we reach back to our squaring idea to get rid of the square roots. Because $(a - b)(a + b) = a^2 - b^2$, multiplying the two equations will get rid of the square roots:\n\n$(x)(5y) = \\left(z - \\sqrt{z^2 - 5}\\right)\\left(z + \\sqrt{z^2 - 5}\\right)$.\n\nThe right side is the factorization of a difference of squares, so we have\n\n$5xy = (z)^2 - \\left(\\sqrt{z^2 - 5}\\right)^2 = z^2 - (z^2 - 5) = 5$.\n\nTherefore, $xy = 1$. Since $y = 2/3$, we conclude that $x = 1/y = 3/2$.",
+      "source_images": ["image430.png", "image431.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Problem 11.13: Compute $\\sqrt{1998 \\cdot 1996 \\cdot 1994 \\cdot 1992 + 16}$ without a calculator. (Source: Mandelbrot)\n\nSolution for Problem 11.13: We can start by computing a few simpler expressions that follow the same pattern as the expression we must evaluate:\n\n$\\sqrt{7 \\cdot 5 \\cdot 3 \\cdot 1 + 16} = \\sqrt{121} = 11$,\n$\\sqrt{8 \\cdot 6 \\cdot 4 \\cdot 2 + 16} = \\sqrt{400} = 20$,\n$\\sqrt{9 \\cdot 7 \\cdot 5 \\cdot 3 + 16} = \\sqrt{961} = 31$,\n$\\sqrt{10 \\cdot 8 \\cdot 6 \\cdot 4 + 16} = \\sqrt{1936} = 44$.\n\nWe have a hint of a pattern. The difference between the second and first results is $20 - 11 = 9$. The difference between the third and second results is $31 - 20 = 11$, and between the fourth and third is $44 - 31 = 13$. We might be able to guess that the next term is $44 + 15 = 59$, then the next is $59 + 17 = 76$, and so on. But how do we know our pattern will always hold?\n\nAs we've done before when facing large numbers, we use a variable to represent one of the numbers in the hopes of then simplifying the resulting expression. If we let $x = 1992$, our expression is\n\n$\\sqrt{(x + 6)(x + 4)(x + 2)x + 16}$.\n\nMultiplying that out looks like a bit of a headache. Before we do so, we consider whether we might make a different variable substitution that will allow us to use one of our special factorizations. We know products like $(z - a)(z + a)$ are easy to handle, so if we let $z = 1995$, which is right in the middle of our four big numbers, we'll have something that's easier to expand:\n\n$\\sqrt{(z + 3)(z + 1)(z - 1)(z - 3) + 16} = \\sqrt{(z + 3)(z - 3)(z + 1)(z - 1) + 16}$\n$= \\sqrt{(z^2 - 9)(z^2 - 1) + 16}$\n$= \\sqrt{z^4 - 10z^2 + 9 + 16}$\n$= \\sqrt{z^4 - 10z^2 + 25}$\n\nWe recognize $z^4 - 10z^2 + 25$ as the square of $z^2 - 5$, so\n\n$\\sqrt{(z + 3)(z + 1)(z - 1)(z - 3) + 16} = \\sqrt{z^4 - 10z^2 + 25} = z^2 - 5$.\n\nFor $z = 1995$, we have\n\n$1995^2 - 5 = (2000 - 5)^2 - 5 = 2000^2 - 2(2000)(5) + 5^2 - 5 = 4000000 - 20000 + 25 - 5 = 3,980,020$.\n\nNotice our varied use of our knowledge of special factorizations throughout this problem.",
+      "source_images": ["image432.png", "image433.png", "image434.png", "image435.png", "image436.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "EXERCISE 8G\n\n1. Fully factorise:\n\n(a) $2x^2 + 5x + 3$\n\n(b) $2x^2 + 7x + 5$\n\n(c) $7x^2 + 9x + 2$\n\n(d) $3x^2 + 7x + 4$\n\n(e) $3x^2 + 13x + 4$\n\n(f) $3x^2 + 8x + 4$\n\n(g) $8x^2 + 14x + 3$\n\n(h) $21x^2 + 17x + 2$\n\n(i) $6x^2 + 5x + 1$\n\n(j) $6x^2 + 19x + 3$\n\n(k) $10x^2 + 17x + 3$\n\n(l) $14x^2 + 37x + 5$\n\n2. Fully factorise:\n\n(a) $2x^2 - 9x - 5$\n\n(b) $3x^2 + 5x - 2$\n\n(c) $3x^2 - 5x - 2$\n\n(d) $2x^2 + 3x - 2$\n\n(e) $2x^2 + 3x - 5$\n\n(f) $5x^2 - 14x - 3$\n\n(g) $5x^2 - 8x + 3$\n\n(h) $11x^2 - 9x - 2$\n\n(i) $3x^2 - 7x - 6$\n\n(j) $2x^2 - 3x - 9$\n\n(k) $3x^2 - 17x + 10$\n\n(l) $5x^2 - 13x - 6$",
-      "source_images": ["image369.png"]
+      "content_latex": "Exercises\n\n11.2.1 Factor each of the following expressions:\n\n(a) $t^2 - 49$\n(b) $36 - 9x^2$\n(c) $121a^2b^4 - c^2$\n(d) $800x^4 - 72x^2y^2$\n\n11.2.2 Given that $55555^2 = 3086358025$, calculate $55556^2$ without a calculator. (Source: Mandelbrot)\n\n11.2.3\n\n(a) Are $3^8$ and $2^6$ perfect squares?\n(b) Find the prime factorization of $3^8 - 2^6$. Challenge: See if you can do it in your head!\n\n11.2.4 Factor $w^4 - 16$ as much as possible.\n\n11.2.5 $\\star$ In the diagram, a square of side length $b$ is cut out of the corner of the square of side length $a$. Show that $a^2 - b^2 = (a - b)(a + b)$ geometrically, by finding the area of the remaining figure in two ways. Hints: 105\n\n11.2.6 $\\star$ Find $x - y$ given that $x^4 = y^4 + 18\\sqrt{3}$, $x^2 + y^2 = 6$, and $x + y = 3$. (Source: HMMT) Hints: 141",
+      "source_images": ["image437.png"]
     },
     {
-      "type": "exercise",
-      "content_latex": "(m) $3x^2 + 10x - 8$\n\n(n) $2x^2 + 17x - 9$\n\n(o) $2x^2 + 9x - 18$\n\n(p) $2x^2 + 11x - 21$\n\n(q) $15x^2 + x - 2$\n\n(r) $21x^2 - 62x - 3$\n\n(s) $9x^2 - 12x + 4$\n\n(t) $12x^2 + 17x - 40$\n\n(u) $16x^2 + 34x - 15$",
-      "source_images": ["image370.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "3. Fully factorise by first removing $-1$ as a common factor:\n\n(a) $-3x^2 - x + 14$\n\n(b) $-5x^2 + 11x - 2$\n\n(c) $-4x^2 - 9x + 9$\n\n(d) $-9x^2 + 12x - 4$\n\n(e) $-8x^2 - 14x - 3$\n\n(f) $-12x^2 + 16x + 3$",
-      "source_images": ["image371.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "REVIEW SET 8A\n\n1. Fully factorise:\n\n(a) $3x^2 + 12x$\n\n(b) $15x - 3x^2$\n\n(c) $(x + 3)^2 - 4(x + 3)$\n\n(d) $4x^2 - 9$\n\n(e) $6x^2 - 24y^2$\n\n(f) $x^2 - 13$\n\n(g) $(x + 1)^2 - 6$\n\n(h) $x^2 + 8x + 16$\n\n(i) $x^2 - 10x + 25$\n\n2. Fully factorise:\n\n(a) $2x^2 + 8x + 6$\n\n(b) $5x^2 - 10x + 5$\n\n(c) $ax + 2a + 2b + bx$\n\n(d) $2cx - 2dx + d - c$\n\n(e) $3x^2 + 2x + 8 + 12x$\n\n(f) $6x^2 + 9x - 2x - 3$\n\n(g) $x^2 - 8x + 24 - 3x$\n\n(h) $x^2 + 4x + 4 - a^2$\n\n3. Fully factorise:\n\n(a) $2x^2 + 17x + 8$\n\n(b) $2x^2 + 15x - 8$\n\n(c) $2x^2 - 17x + 8$\n\n(d) $6x^2 - 11x - 10$\n\n(e) $12x^2 + 5x - 2$\n\n(f) $12x^2 - 8x - 15$",
-      "source_images": ["image372.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "REVIEW SET 8B\n\n1. Fully factorise:\n\n(a) $4x^2 - 8x$\n\n(b) $16x - 8x^2$\n\n(c) $(2x - 1)^2 + 2x - 1$\n\n(d) $9 - 25x^2$\n\n(e) $18 - 2a^2$\n\n(f) $x^2 - 23$\n\n(g) $(x + 2)^2 - 3$\n\n(h) $x^2 - 12x + 36$\n\n(i) $2x^2 + 8x + 8$\n\n2. Fully factorise:\n\n(a) $3x^2 - 6x - 9$\n\n(b) $7x^2 + 28x + 28$\n\n(c) $mx + nx - my - ny$\n\n(d) $3a^2 + ab - 2b^2 - 6ab$\n\n(e) $3x + 2x^2 + 8x + 12$\n\n(f) $6x + 4x^2 - 2x - 3$\n\n3. Fully factorise:\n\n(a) $3x^2 - 17x - 6$\n\n(b) $3x^2 - 19x + 6$\n\n(c) $3x^2 + 17x - 6$\n\n(d) $12x^2 + 7x + 1$\n\n(e) $12x^2 - 23x - 2$\n\n(f) $9x^2 + 12x + 4$",
-      "source_images": ["image373.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "EXERCISE 10B.2\n\n1. Simplify by factorising:\n\n(a) $\\frac{2x + 4}{2}$\n\n(b) $\\frac{3x - 6}{3}$\n\n(c) $\\frac{3x + 6}{6}$\n\n(d) $\\frac{4x - 20}{8}$\n\n(e) $\\frac{4y + 12}{12}$\n\n(f) $\\frac{6x - 30}{4}$\n\n(g) $\\frac{ax + bx}{x}$\n\n(h) $\\frac{ax + bx}{cx + dx}$",
-      "source_images": ["image374.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "3. Simplify by factorising:\n\n(a) $\\frac{3x + 6}{4x + 8}$\n\n(b) $\\frac{5x - 15}{3x - 9}$\n\n(c) $\\frac{ax + bx}{a + b}$\n\n(d) $\\frac{16x - 8}{20x - 10}$\n\n(e) $\\frac{a + b}{ay + by}$\n\n(f) $\\frac{ax + bx}{ay + by}$\n\n(g) $\\frac{4x^2 + 8x}{x + 2}$\n\n(h) $\\frac{3x^2 + 9x}{x + 3}$\n\n(i) $\\frac{5x^2 - 5xy}{7x - 7y}$\n\n(j) $\\frac{9b^2 - 9ab}{12b - 12a}$\n\n(k) $\\frac{6x^2 - 18x}{9x - 27}$\n\n(l) $\\frac{6a + 6b}{8a^3 + 4a^2b}$",
-      "source_images": ["image375.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "4. Simplify:\n\n(a) $\\frac{2x - 2y}{y - x}$\n\n(b) $\\frac{3x - 3y}{2y - 2x}$\n\n(c) $\\frac{m - n}{n - m}$\n\n(d) $\\frac{r - 2s}{4s - 2r}$\n\n(e) $\\frac{3r - 6s}{2s - r}$\n\n(f) $\\frac{2x - 2}{x - x^2}$\n\n(g) $\\frac{ab^2 - ab}{2 - 2b}$\n\n(h) $\\frac{4x^2 - 4x}{2 - 2x}$",
-      "source_images": ["image376.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "5. Simplify:\n\n(a) $\\frac{x^2 - 1}{x - 1}$\n\n(b) $\\frac{x^2 - 1}{x + 1}$\n\n(c) $\\frac{x^2 - 1}{1 - x}$\n\n(d) $\\frac{x + 2}{x^2 - 4}$\n\n(e) $\\frac{a^2 - b^2}{a + b}$\n\n(f) $\\frac{a^2 - b^2}{b - a}$\n\n(g) $\\frac{2x + 2}{x^2 - 1}$\n\n(h) $\\frac{9 - x^2}{3x - x^2}$\n\n(i) $\\frac{3x^2 - 3y^2}{2xy - 2y^2}$\n\n(j) $\\frac{2b^2 - 2a^2}{a^2 - ab}$\n\n(k) $\\frac{4xy - y^2}{16x^2 - y^2}$\n\n(l) $\\frac{4x(x - 4)}{16 - x^2}$\n\n6. Simplify:\n\n(a) $\\frac{x^2 - x - 2}{x - 2}$\n\n(b) $\\frac{x + 3}{x^2 - 2x - 15}$\n\n(c) $\\frac{2x^2 + 2x}{x^2 - 4x - 5}$\n\n(d) $\\frac{x^2 - 4}{x^2 + 4x + 4}$\n\n(e) $\\frac{x^2 - x - 12}{x^2 - 5x + 4}$\n\n(f) $\\frac{x^2 + 2x + 1}{1 - x^2}$\n\n(g) $\\frac{x^2 - x - 20}{x^2 + 7x + 12}$\n\n(h) $\\frac{2x^2 + 5x + 2}{2x^2 + 7x + 3}$\n\n(i) $\\frac{3x^2 + 7x + 2}{6x^2 - x - 1}$\n\n(j) $\\frac{8x^2 + 2x - 1}{4x^2 - 5x + 1}$\n\n(k) $\\frac{12x^2 - 5x - 3}{6x^2 + 5x + 1}$\n\n(l) $\\frac{15x^2 + 17x - 4}{5x^2 + 9x - 2}$",
-      "source_images": ["image377.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "3. Simplify:\n\n(a) $\\frac{x^2 + 3x}{x - 2} \\times \\frac{5}{2x + 6}$\n\n(b) $\\frac{t - 5}{t^2 + t} \\times \\frac{4t + 4}{3t - 15}$\n\n(c) $\\frac{4a - 28}{a} \\div \\frac{a - 7}{5}$\n\n(d) $\\frac{6k - 2}{k + 2} \\times \\frac{2k^2 + 4k}{9k - 3}$\n\n(e) $\\frac{x^2 - 2x}{x + 5} \\div \\frac{8 - 4x}{2x + 10}$\n\n(f) $\\frac{m^2 - 4m}{10m - 2} \\div \\frac{m^2 - 16}{3m + 12}$",
-      "source_images": ["image378.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "EXERCISE 10D\n\n1. Simplify by writing as a single fraction:\n\n(a) $\\frac{a}{2} + \\frac{a}{3}$\n\n(b) $\\frac{b}{5} - \\frac{b}{10}$\n\n(c) $\\frac{c}{4} + \\frac{3c}{2}$\n\n(d) $\\frac{d}{2} - \\frac{3}{5}$\n\n(e) $\\frac{5}{8} + \\frac{x}{12}$\n\n(f) $\\frac{x}{7} - \\frac{x}{2}$\n\n(g) $\\frac{a}{3} + \\frac{b}{4}$\n\n(h) $\\frac{t}{3} - \\frac{5t}{9}$\n\n(i) $\\frac{m}{7} + \\frac{2m}{21}$\n\n(j) $\\frac{5d}{6} - \\frac{d}{3}$\n\n(k) $\\frac{3p}{5} - \\frac{2p}{7}$\n\n(l) $\\frac{2t}{9} + \\frac{4t}{15}$\n\n(m) $\\frac{7k}{8} - \\frac{11k}{18}$\n\n(n) $\\frac{m}{2} + \\frac{m}{3} + \\frac{m}{6}$\n\n(o) $\\frac{a}{2} - \\frac{a}{3} + \\frac{a}{4}$\n\n(p) $\\frac{x}{4} - \\frac{x}{3} + \\frac{x}{6}$\n\n(q) $\\frac{z}{2} - \\frac{z}{5} + \\frac{z}{4}$\n\n(r) $2q - \\frac{q}{3} + \\frac{2q}{7}$",
-      "source_images": ["image379.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "2. Simplify:\n\n(a) $\\frac{7}{a} + \\frac{3}{b}$\n\n(b) $\\frac{3}{a} + \\frac{2}{c}$\n\n(c) $\\frac{4}{a} + \\frac{5}{d}$\n\n(d) $\\frac{2a}{m} - \\frac{a}{n}$\n\n(e) $\\frac{a}{x} + \\frac{b}{2x}$\n\n(f) $\\frac{3}{a} - \\frac{1}{2a}$\n\n(g) $\\frac{4}{x} - \\frac{1}{xy}$\n\n(h) $\\frac{5}{x} + \\frac{6}{5x}$\n\n(i) $\\frac{11}{3z} - \\frac{3}{4z}$\n\n(j) $\\frac{a}{b} + \\frac{c}{d}$\n\n(k) $\\frac{3}{a} + \\frac{a}{2}$\n\n(l) $\\frac{x}{y} + \\frac{2}{3}$\n\n(m) $\\frac{8}{p} - \\frac{2}{5}$\n\n(n) $\\frac{x}{6y} + \\frac{2x}{9y}$\n\n(o) $\\frac{1}{8t} - \\frac{3}{5t}$\n\n(p) $\\frac{5}{2x} + \\frac{3}{x^2}$",
-      "source_images": ["image380.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "3. Simplify by writing as a single fraction:\n\n(a) $\\frac{x}{2} + 1$\n\n(b) $\\frac{y}{3} - 1$\n\n(c) $\\frac{a}{2} + a$\n\n(d) $\\frac{b}{4} - 3$\n\n(e) $\\frac{x}{2} - 4$\n\n(f) $2 + \\frac{a}{3}$\n\n(g) $x - \\frac{x}{5}$\n\n(h) $2 + \\frac{1}{x}$\n\n(i) $5 - \\frac{2}{x}$\n\n(j) $a + \\frac{2}{a}$\n\n(k) $\\frac{3}{b} + b$\n\n(l) $\\frac{1}{x^2} - 2x$",
-      "source_images": ["image381.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "4. Write as a single fraction, and hence simplify:\n\n(a) $\\frac{x}{2} + \\frac{x + 1}{3}$\n\n(b) $\\frac{x - 1}{4} - \\frac{x}{2}$\n\n(c) $\\frac{2x}{3} + \\frac{x + 3}{4}$\n\n(d) $\\frac{x + 1}{2} + \\frac{x - 1}{3}$\n\n(e) $\\frac{x - 1}{3} + \\frac{1 - 2x}{4}$\n\n(f) $\\frac{2x + 3}{2} + \\frac{2x - 3}{3}$\n\n(g) $\\frac{x}{3} + \\frac{x + 1}{4}$\n\n(h) $\\frac{3x + 2}{4} + \\frac{x}{2}$\n\n(i) $\\frac{x}{6} + \\frac{3x - 1}{5}$\n\n(j) $\\frac{a + b}{3} + \\frac{b - a}{2}$\n\n(k) $\\frac{x + 1}{5} + \\frac{2x - 1}{4}$\n\n(l) $\\frac{x + 1}{7} + \\frac{3 - x}{2}$\n\n(m) $\\frac{x}{6} - \\frac{2 - x}{5}$\n\n(n) $\\frac{2x - 1}{5} - \\frac{x}{4}$\n\n(o) $\\frac{x}{8} - \\frac{1 - x}{4}$\n\n(p) $\\frac{x}{5} - \\frac{2 - x}{10}$\n\n(q) $\\frac{x - 1}{5} - \\frac{2x - 7}{3}$\n\n(r) $\\frac{1 - 3x}{4} - \\frac{2x + 1}{3}$",
-      "source_images": ["image382.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "5. Simplify:\n\n(a) $\\frac{3}{x} + \\frac{4}{x + 1}$\n\n(b) $\\frac{5}{x + 2} - \\frac{3}{x}$\n\n(c) $\\frac{4}{x + 1} - \\frac{3}{x - 1}$\n\n(d) $3 + \\frac{1}{x + 2}$\n\n(e) $\\frac{1}{x} + \\frac{4}{x - 4}$\n\n(f) $\\frac{2}{x + 3} - 4$\n\n(g) $\\frac{x + 1}{x - 1} + \\frac{x}{x + 1}$\n\n(h) $\\frac{5}{x} + \\frac{6}{x - 2}$\n\n(i) $\\frac{2}{x + 2} - \\frac{4}{x + 1}$\n\n(j) $\\frac{x}{x - 1} + \\frac{4}{2x + 1}$\n\n(k) $\\frac{5}{x - 1} + \\frac{x - 2}{x + 3}$\n\n(l) $\\frac{x}{x + 5} - \\frac{x}{x - 3}$\n\n(m) $\\frac{1}{x} + \\frac{1}{x + 1} + \\frac{1}{x + 2}$\n\n(n) $\\frac{2}{x} - \\frac{5}{x + 3} + \\frac{3}{x - 4}$\n\n(o) $\\frac{x}{x - 1} - \\frac{1}{x} + \\frac{1}{x + 1}$",
-      "source_images": ["image383.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "7. Write as a single fraction:\n\n(a) $\\frac{2}{x(x + 1)} + \\frac{1}{x + 1}$\n\n(b) $\\frac{2x}{x - 3} + \\frac{4}{(x + 2)(x - 3)}$\n\n(c) $\\frac{3}{(x - 2)(x + 3)} + \\frac{x}{x + 3}$\n\n(d) $\\frac{x + 5}{x - 2} - \\frac{63}{(x - 2)(x + 7)}$\n\n8. Simplify:\n\n(a) $\\frac{\\frac{x}{x-2} - 3}{x - 3}$\n\n(b) $\\frac{\\frac{3x}{x+4} - 1}{x - 2}$\n\n(c) $\\frac{\\frac{x^2}{x+2} - 1}{x + 1}$\n\n(d) $\\frac{\\frac{x^2}{2-x} + 9}{x - 3}$\n\n(e) $\\frac{\\frac{1}{x^2} - \\frac{1}{4}}{x - 2}$\n\n(f) $\\frac{\\frac{x-3}{x^2} - \\frac{1}{16}}{x - 4}$\n\n9. Simplify each of the following expressions. Hence write down a value of $x$ for which the expression is zero, and the values of $x$ for which it is undefined.\n\n(a) $\\frac{2x}{x + 1} - \\frac{4}{(x - 1)(x + 1)}$\n\n(b) $\\frac{6}{(x + 2)(x + 5)} + \\frac{x}{x + 2}$",
-      "source_images": ["image384.png"]
-    },
-    {
-      "type": "investigation",
-      "content_latex": "Expand all these expressions:\n\n$2(6 + 3x) =$\n\n$5(3a - 5) =$\n\n$10(2b + 4) =$\n\n$4(5c - 7) =$\n\n$7(4d + 5e) =$\n\n$4f(f + 2) =$\n\n$5g(2g - 6) =$\n\n$6h(h - 5) =$\n\n$5x(x^2 - x + 2) =$\n\n$3(a^2 - 18a + 4) =$\n\n$2(a + 2b) + (a - b) =$\n\n$4(c - 3d) - 3(c + 2d) =$\n\n$3(2e - f) + 2(e - 2f) =$\n\n$3x(x + 8) - x(2x - 5) =$\n\nMatch with answers:\n\n$(x + 5)(x + 1)$\n\n$(x - 7)(x - 2)$\n\n$(a + 6)(a - 4)$\n\n$(x - 3)(x + 8)$\n\n$(x - 9)(x + 9)$\n\n$(x + 6)^2$\n\n$(x + 9)(x + 4)$\n\n$(x - 12)(x + 1)$\n\n$(x + 11)(x - 5)$\n\n$(x - 15)(x - 3)$\n\n$(7 - x)(7 + x)$\n\n$(9 - x)^2$\n\n$(3x + 2)(2x - 1)$\n\n$(4x - 7)(x + 5)$",
-      "source_images": ["image385.png"]
-    },
-    {
-      "type": "investigation",
-      "content_latex": "Want extra practise? Expand all these expressions:\n\n$(x + 3)(x - 8)$\n\n$(x + 12)(x + 10)$\n\n$(x - 9)(x - 8)$\n\n$(x - 7)(x + 11)$\n\n$(x + 8)(x + 1)$\n\n$(x - 2)(x + 6)$\n\n$(x - 5)(x - 13)$\n\n$(x + 15)(x - 4)$\n\n$(x + 3)(6 - x)$\n\n$(2 - x)(3 - x)$\n\n$(10 - x)(4 + x)$\n\n$(x + 8)(5 + x)$\n\nMatch with answers:\n\n$(2x + 3)(3x + 4)$\n\n$(5x + 1)(x - 2)$\n\n$(4x - 5)(2x - 3)$\n\n$(1 - 2x)(3x + 7)$\n\n$(x - 5)(x + 5)$\n\n$(1 + 2x)(1 - 2x)$\n\n$(3 - 2x)(2x + 3)$\n\n$(x + 7)^2$\n\n$(x - 5)^2$\n\n$(3x - 1)^2$\n\n$(2 + 4x)^2$\n\n$(2x + 3y)^2$\n\n$(6x - 2y)^2$\n\n$2(3x - 5)^2$",
-      "source_images": ["image386.png"]
-    },
-    {
-      "type": "investigation",
-      "content_latex": "Factorise all these expressions!\n\n$10a - 15b =$\n\n$3xy - 12xz =$\n\n$4\\pi x - 4\\pi y =$\n\n$4a^2 + 3a =$\n\n$x^3 + x^2y =$\n\n$a^2 - 6y =$\n\n$2x^3 + 2xy^2 =$\n\n$y^2 + y^3 =$\n\n$x^2 + 2xy - x =$\n\n$36 + 6x^3 =$\n\n$2\\pi r^2 + \\pi rh =$\n\n$x^2y - xy^2 =$\n\n$6a^2 - 12a =$\n\n$5x^2 - 10xy =$\n\n$4a^2b + 8ab^2 =$\n\n$21x^3 - 14x^2 =$\n\n$t^2 + 4t =$\n\n$20x + 10x - 5y + 25y =$\n\n$14a^2b + 21ab^2 =$\n\n$3c + 6d + 12e =$\n\nMatch with answers:\n\n$14a - 21b =$\n\n$3xy + 9yz =$\n\n$2\\pi d - 2\\pi r =$\n\n$15x^2 - 20x =$\n\n$r^3 + r^2 =$\n\n$9 + 3n^2 =$\n\n$2x^2 + 2xy =$\n\n$5x^2 + 5y^2 =$\n\n$3x^3 + xy =$\n\n$4ab - 8bc =$\n\n$ax + bx + ay + by$\n\n$1 + x + y + xy$\n\n$2xy + 6y - x - 3$\n\n$a^2 + ab - ac - bc$",
-      "source_images": ["image387.png"]
-    },
-    {
-      "type": "investigation",
-      "content_latex": "Factorise all these quadratic expressions!\n\n$x^2 + 11x + 24$\n\n$x^2 + 11x + 18$\n\n$x^2 - 100$\n\n$x^2 + 9x - 36$\n\n$x^2 + 5x - 84$\n\n$x^2 + 6x - 16$\n\n$x^2 - 3x - 40$\n\n$x^2 - 11x + 18$\n\n$2x^2 - 20x + 32$\n\n$3x^2 - 24x + 48$\n\n$2x^2 - 2x - 84$\n\n$36 - x^2$\n\nMatch with answers:\n\n$4x^2 + 21x + 5$\n\n$3x^2 + 16x + 13$\n\n$2x^2 - 2x - 12$\n\n$8x^2 - 18x + 9$\n\n$2x^2 + 9x - 5$\n\n$5x^2 - 13x - 6$\n\n$6x^2 + 16x + 10$\n\n$6x^2 + 5x - 6$\n\n$10x^2 + 6x - 4$\n\n$3x^2 - 6x - 24$",
-      "source_images": ["image388.png"]
-    },
-    {
-      "type": "investigation",
-      "content_latex": "Factorise all these quadratic expressions!\n\n$3x^2 + 33x + 84$\n\n$2x^2 + 20x + 32$\n\n$4x^2 + 12x - 72$\n\n$2x^2 + 14x - 36$\n\n$2x^2 - 6x - 80$\n\n$3x^2 - 12x - 15$\n\n$2x^2 - 36x + 160$\n\n$5x^2 - 20x + 15$\n\n$4x^2 - 88x + 484$\n\n$2x^2 + 20x + 50$\n\n$4x^2 - 400$\n\n$6x^2 - 6$\n\nMatch with answers:\n\n$2x^2 + 5x + 3$\n\n$3x^2 + 8x + 4$\n\n$8x^2 + 14x + 3$\n\n$3x^2 + 5x - 2$\n\n$2x^2 + 3x - 5$\n\n$5x^2 - 8x + 3$\n\n$3x^2 - 17x + 10$\n\n$2x^2 - 3x - 9$\n\n$2x^2 + 9x - 18$\n\n$15x^2 + x - 6$",
-      "source_images": ["image389.png"]
-    },
-    {
-      "type": "investigation",
-      "content_latex": "Factorise all these quadratic expressions!\n\n$6x^2 + 14x + 4$\n\n$4x^2 + 6x + 2$\n\n$8x^2 - 10x + 3$\n\n$3x^2 + x - 2$\n\n$3x^2 + 16x + 5$\n\n$3x^2 + 11x + 10$\n\n$14x^2 + x - 3$\n\n$4x^2 - 8x - 5$\n\n$6x^2 + 13x - 28$\n\n$2x^2 + 5x + 3$\n\n$5x^2 + 12x + 4$\n\n$4x^2 - 12x - 7$\n\nMatch with answers:\n\n$2x^2 - x - 10$\n\n$6x^2 + x - 2$\n\n$8x^2 + 14x + 3$\n\n$2x^2 + 9x - 5$\n\n$2x^2 - 24x + 40$\n\n$16x^2 - 49$\n\n$2x^2 - 50$\n\n$3x^2 - 147$\n\n$4 - 36x^2$\n\nFactorise and solve to show that the solutions to the equation:\n\n$2x^2 + 4x - 48 = 0$\n\nare 2 times the solutions of the equation: $2x^2 + 2x - 12 = 0$",
-      "source_images": ["image390.png"]
-    },
-    {
-      "type": "investigation",
-      "content_latex": "Simplify all these expressions\n\n$3a + 8a =$\n\n$b + b + 5b =$\n\n$4c + 6c - 8c =$\n\n$5d - d - 3e - 2e =$\n\n$5e + 2f + 3e - 4f =$\n\n$3g - 3h + 4g - 5h =$\n\n$a \\times a \\times 5 =$\n\n$9b \\times b \\times b \\times b =$\n\n$14y \\times 2$\n\n$c \\div c =$\n\n$12d \\div 4 =$\n\n$5e \\times 6 =$\n\n$4f \\times f =$\n\n$2g \\times 8h =$\n\n$20m \\div 10m =$\n\n$15xy \\div 3 =$\n\n$6r \\times 7r =$\n\n$5g^2 \\times 4g =$\n\nMatch with answers:\n\n$2(a + 4b) =$\n\n$5(3c - 8) =$\n\n$-10(2d - 3) =$\n\n$-2(4f + 3e) =$\n\n$2(a + 2) + (a - 1)$\n\n$4(b - 1) + 2(b + 2)$\n\n$(c - d) + 6(c + 2d)$\n\n$3(e + 9) - 2e$\n\n$f(2f - 4) + 4f$\n\n$x = 3$ and $y = 4$\n\nFind the values:\n\n$2x + 3y =$\n\n$5x - 2y =$\n\n$3x^2 =$\n\n$xy^2 =$\n\n$2(x + y) =$\n\n$x^2 - y^2 =$\n\n$\\frac{6x + y}{2} =$",
-      "source_images": ["image391.png"]
-    },
-    {
-      "type": "investigation",
-      "content_latex": "Simplify:\n\n$3a + 2a - 4a =$\n\n$6b - 4b - 3b =$\n\n$2c - 3d + c - d =$\n\n$ab + ba =$\n\n$a^2 \\times a \\times 5 =$\n\n$9b \\times 6b =$\n\n$14y \\times 2$\n\n$c^2 \\div c =$\n\nMatch with answers:\n\n$a^3 \\times a^5 =$\n\n$(b^5)^2 =$\n\n$c^5 \\div c^3 =$\n\n$d^7 \\times d^7 =$\n\n$(3e^4)^3=$\n\n$f \\times f^3 \\times f^3 =$\n\n$3g^5 \\times 2g^3 =$\n\n$3h^6 \\div h^2 =$",
-      "source_images": ["image392.png"]
-    },
-    {
-      "type": "investigation",
-      "content_latex": "Simplify:\n\n$5e \\times 8e =$\n\n$4f \\times 9g =$\n\n$2g \\times 8g^2 =$\n\n$8m^3 \\div 2m^2 =$\n\n$15x^3 \\div 3x^3 =$\n\n$4d^2 + 4d^2 =$\n\n$ef + 5ef - 4ef =$\n\n$4ab \\times 4ac \\div 4bc =$\n\n$(3x^2y^3)^2 =$\n\n$\\sqrt{25r^2s^6} =$\n\nMatch with answers:\n\n$4(6b + 8c) =$\n\n$5d(d^2 - d + 2) =$\n\n$5a + (-2a) =$\n\n$b - (-2b) =$\n\n$(-5c) - (-8c) =$\n\n$(-2d) + (-2d) =$\n\n$-8y \\times 4y =$\n\n$6 \\times -4r^2 =$\n\n$-3g^2 \\times -4g^3 =$\n\n$-6x \\div -6x =$",
-      "source_images": ["image393.png"]
-    },
-    {
-      "type": "investigation",
-      "content_latex": "Simplify:\n\n$13a + (2a - 8a) =$\n\n$2b - 3c + b - 2c =$\n\n$6a^2 \\times 7 \\times a =$\n\n$9b \\times 6b^3 =$\n\n$14y \\times 2y =$\n\n$c^8 \\div c^2 =$\n\n$(8d)^2 =$\n\n$e^3 + e^3 =$\n\n$4f^2 + 4f^2 =$\n\nMatch with answers:\n\n$\\frac{12a^2b}{3ab} =$\n\n$\\frac{6cd^2}{2c^2d} =$\n\n$\\frac{10e}{3} \\quad \\frac{2e}{9}$\n\n$\\frac{d}{21} + \\frac{4d}{7}$\n\n$\\frac{3x}{8} - \\frac{x}{6} =$\n\n$\\frac{5a}{2} + \\frac{a}{10} =$\n\n$\\frac{4c}{15d} \\quad \\frac{-5e}{8}$\n\n$\\frac{3}{4e} \\div \\frac{15}{8e^2}$\n\n$\\frac{3ab}{10cd} \\quad \\frac{-2c^3}{9b^2}$",
-      "source_images": ["image394.png"]
+      "type": "concept",
+      "content_latex": "11.3 Sum and Difference of Cubes\n\n$x^3 - y^3 = (x - y)(x^2 + xy + y^2)$",
+      "source_images": ["image438.png", "image439.png"]
     }
   ]
 }

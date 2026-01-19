@@ -1,0 +1,267 @@
+{
+  "chapter": 15,
+  "part": 4,
+  "images_range": "1707-1758",
+  "items": [
+    {
+      "type": "example",
+      "content_latex": "Example 13 (continued)\n\nc Use a and b to sketch the graph of $A$ against $n$.\n\na Initially, $n = 0$ $\\therefore A = 8000 \\times 1.4^0 = 8000$ hectares\n\nb i When $n = 4$,\n$A = 8000 \\times 1.4^4 \\approx 30700$ ha\n\nii When $n = 7$,\n$A = 8000 \\times 1.4^7 \\approx 84300$ ha\n\nc [Graph showing exponential growth curve $A = 8000 \\times 1.4^n$ with points a, b i, and b ii marked]",
+      "source_images": ["image1707.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 14\n\nA scientist monitoring a grasshopper plague notices that the area affected by the grasshoppers is given by $A(n) = 1000 \\times (1.15)^n$ hectares, where $n$ is the number of weeks after the initial observation.\n\na Find the original affected area.\n\nb Find the affected area after: i 5 weeks ii 10 weeks.\n\nc Draw the graph of the affected area over time.\n\nd Use your graph or technology to find how long it will take for the affected area to reach 8000 hectares.\n\na $A(0) = 1000 \\times 1.15^0 = 1000$\n$\\therefore$ the original affected area was 1000 hectares.\n\nb i $A(5) = 1000 \\times 1.15^5 \\approx 2010$\nThe affected area is about 2010 hectares.\n\nii $A(10) = 1000 \\times 1.15^{10} \\approx 4050$\nThe affected area is about 4050 hectares.\n\nc [Graph showing exponential growth curve $A(n) = 1000 \\times (1.15)^n$ with points b i and b ii marked, reaching 8000 at approximately $n \\approx 15$]",
+      "source_images": ["image1708.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 14 (continued)\n\nd From the graph in c, it appears that it would take about 15 weeks for the affected area to reach 8000 hectares.\n\nor Using technology, the solution is $\\approx 14.9$ weeks.\n\n[Calculator screenshot showing Intersection at X=14.878453, Y=8000]",
+      "source_images": ["image1709.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 18C.1\n\n1. A local zoo starts a breeding program to ensure the survival of a species of mongoose. Using results from a previous program, the expected population in $n$ years' time is given by $P = 10 \\times 1.15^n$.\n\na What is the initial population purchased by the zoo?\n\nb Find the expected population after:\ni 3 years ii 10 years iii 30 years.\n\nc Sketch the graph of $P$ against $n$ using a and b.\n\n2. In Tasmania, a reserve is set aside for the breeding of echidnas. The expected population after $t$ years is given by $P = 50 \\times 1.24^t$.\n\na What is the initial breeding colony size?\n\nb Find the expected colony size after:\ni 3 years ii 9 years iii 20 years.\n\nc Graph $P$ against $t$ using a and b.\n\n3. In Uganda, the number of breeding females in an endangered population of gorillas is $G_0$. Biologists predict that the number of breeding females $G$ in $n$ years' time will grow according to $G = G_0 \\times 1.01^n$.\n\na There are currently 28 breeding females in the colony. Find $G_0$.\n\nb Predict the number of breeding females after:\ni 5 years ii 10 years iii 20 years.\n\nc Sketch the graph of $G$ against $n$ using a and b.",
+      "source_images": ["image1710.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. A tip contains 3000 tonnes of rubbish. The amount of rubbish in the tip increases by $5\\%$ each year.\n\na Explain why the amount of rubbish in the tip after $n$ years is given by $A(n) = 3000 \\times 1.05^n$.\n\nb Find the amount of rubbish in the tip after:\ni 5 years ii 10 years.\n\nc Sketch the graph of $A$ against $n$.",
+      "source_images": ["image1711.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5E.1\n\n1. The weight $W$ of bacteria in a culture $t$ hours after establishment is given by $W(t) = 100 \\times (1.07)^t$ grams.\n\na Find the initial weight.\n\nb Find the weight after:\ni 4 hours ii 10 hours iii 24 hours.\n\nc Sketch the graph of the bacteria weight over time using the results of a and b only.\n\nUse technology to graph $Y_1 = 100 \\times (1.07)^X$ and hence check your answers.",
+      "source_images": ["image1712.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. A breeding program to ensure the survival of pygmy possums is established with an initial population of 50 (25 pairs). From a previous program, the expected population $P$ in $n$ years' time is given by $P(n) = P_0 \\times (1.23)^n$.\n\na What is the value of $P_0$?\n\nb What is the expected population after:\ni 2 years ii 5 years iii 10 years?\n\nc Sketch the graph of the population over time using a and b only.\n\nd Hence estimate the time needed for the population to reach 500.\n\ne Use technology to graph $Y_1 = 50 \\times (1.23)^X$. Hence check your answers to d.",
+      "source_images": ["image1713.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. A species of bear is introduced to a large island off Alaska where previously there were no bears. 6 pairs of bears were introduced in 1998. It is expected that the population will increase according to $B(t) = B_0 \\times (1.13)^t$ where $t$ is the time, in years, since the introduction.\n\na Find $B_0$.\n\nb Find the expected bear population in 2018.\n\nc Find the expected percentage increase in population from 2008 to 2018.\n\nd How long will it take for the population to reach 200?",
+      "source_images": ["image1714.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. A flu virus spreads in a school. The number of people $N$ infected after $t$ days is given by $N = 4 \\times 1.332^t$, $t \\geqslant 0$.\n\na Find the number of people who were initially infected.\n\nb Calculate the number of people who were infected after 16 days.\n\nc There are 1200 people in the school. Estimate the time it will take for everybody in the school to catch the flu.\n\n5. The speed $V$ of a chemical reaction is given by $V(t) = V_0 \\times 2^{0.05t}$ where $t$ is the temperature in $^\\circ$C.\n\na Find the reaction speed at:\ni $0^\\circ$C ii $20^\\circ$C.\n\nb Find the percentage increase in reaction speed at $20^\\circ$C compared with $0^\\circ$C.\n\nc Find $\\left(\\frac{V(50) - V(20)}{V(20)}\\right) \\times 100\\%$ and explain what this calculation means.\n\n6. Kayla deposited £5000 into an account. The amount in the account increases by $10\\%$ each year.\n\na Write a formula for the amount $A(t)$ in the account after $t$ years.\n\nb Find the amount in the account after:\ni 2 years ii 5 years.\n\nc Sketch the graph of $A(t)$.\n\nd How long will it take for the amount in the account to reach £8000?",
+      "source_images": ["image1715.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. The expected value of a house in $t$ years' time is given by the exponential function $V = k \\times a^t$ dollars, where $t \\geqslant 0$. The function is graphed alongside.\n\na Find $a$ and $k$, and interpret these values.\n\nb How long will it take for the house's value to reach $550000?\n\n[Graph showing exponential growth curve $V = k \\times a^t$ with points $(1, 405000)$ and $(3, 472392)$ marked]\n\n8. A parachutist jumps from the basket of a stationary hot air balloon. His speed of descent is given by $V = c - 60 \\times 2^{kt}$ m s$^{-1}$ where $c$ and $k$ are constants, and $t$ is the time in seconds.\n\na Explain why $c = 60$.\n\nb After 5 seconds, the parachutist has speed 30 m s$^{-1}$. Find $k$.\n\nc Find the speed of the parachutist after 12 seconds.\n\nd Sketch the graph of $V$ against $t$.\n\ne Describe how the speed of the parachutist varies over time.\n\n9. The number of microorganisms in a culture doubles every 6 hours. How long will it take for the number of microorganisms to increase by 30%?",
+      "source_images": ["image1716.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "When the value of a variable decreases exponentially over time, we call it decay.\n\nExamples of decay include:\n- cooling of a cup of tea or coffee\n- radioactive decay\n- the drop in current when an electrical appliance is turned off.",
+      "source_images": ["image1717.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 6\n\nThe current $I$ flowing through the electric circuit in a fan, $t$ milliseconds after it is switched off, is given by $I = 320 \\times 0.7^t$ milliamps.\n\na Find the initial current in the circuit.\n\nb Find the current after: i 4 milliseconds ii 10 milliseconds.\n\nc Sketch the graph of $I$ against $t$ using a and b.\n\na When $t = 0$, $I = 320 \\times 0.7^0 = 320$ milliamps\n\nb i When $t = 4$,\n$I = 320 \\times 0.7^4 \\approx 76.8$ milliamps\n\nii When $t = 10$,\n$I = 320 \\times 0.7^{10} \\approx 9.04$ milliamps\n\nc [Graph showing exponential decay curve $I = 320 \\times 0.7^t$ with points a, b i, and b ii marked]",
+      "source_images": ["image1718.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Consider a radioactive substance with original weight 20 grams. It decays or reduces by $5\\%$ each year. The multiplier for this is $95\\%$ or $0.95$.\n\nIf $W_n$ is the weight after $n$ years, then:\n$W_0 = 20$ grams\n$W_1 = W_0 \\times 0.95 = 20 \\times 0.95$ grams\n$W_2 = W_1 \\times 0.95 = 20 \\times (0.95)^2$ grams\n$W_3 = W_2 \\times 0.95 = 20 \\times (0.95)^3$ grams\n$\\vdots$\n$W_{20} = 20 \\times (0.95)^{20} \\approx 7.2$ grams\n$\\vdots$\n$W_{100} = 20 \\times (0.95)^{100} \\approx 0.1$ grams.\n\n[Graph showing exponential decay curve]\n\nFrom this pattern we see that $W_n = 20 \\times (0.95)^n$, $n \\in \\mathbb{Z}$, which is again a geometric sequence.\n\nHowever, we know that radioactive decay is a continuous process, so the weight remaining will actually be given by the smooth exponential curve $W(n) = 20 \\times (0.95)^n$, $n \\in \\mathbb{R}$.",
+      "source_images": ["image1719.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 15\n\nWhen a diesel-electric generator is switched off, the current dies away according to the formula $I(t) = 24 \\times (0.25)^t$ amps, where $t$ is the time in seconds after the power is cut.\n\na Find $I(t)$ when $t = 0$, 1, 2, and 3.\n\nb What current flowed in the generator at the instant it was switched off?\n\nc Plot the graph of $I(t)$ for $t \\geqslant 0$ using the information above.\n\nd Use your graph or technology to find how long it takes for the current to reach 4 amps.\n\na $I(t) = 24 \\times (0.25)^t$ amps\n\n$I(0) = 24 \\times (0.25)^0 = 24$ amps\n$I(1) = 24 \\times (0.25)^1 = 6$ amps\n$I(2) = 24 \\times (0.25)^2 = 1.5$ amps\n$I(3) = 24 \\times (0.25)^3 = 0.375$ amps\n\nb $I(0) = 24$\nWhen the generator was switched off, 24 amps of current flowed in the circuit.\n\nc [Graph showing exponential decay curve $I(t) = 24 \\times (0.25)^t$ with time to reach 4 amps marked at approximately 1.3 seconds]\n\nd From the graph above, the time to reach 4 amps is about 1.3 seconds.\n\nor Using technology, the solution is $\\approx 1.29$ seconds.\n\n[Calculator screenshot showing X=1.29248125, Y=4]",
+      "source_images": ["image1720.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 18C.2\n\n1. Boiling water is left in a pot to cool. After $t$ minutes, its temperature is given by $T = 100 \\times 0.84^t$ $^\\circ$C.\n\na Find the initial temperature of the water.\n\nb Find the water temperature after:\ni 2 minutes ii 10 minutes iii 20 minutes.\n\nc Graph $T$ against $t$ using a and b.",
+      "source_images": ["image1721.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. The weight of radioactive material in an ore sample after $t$ years is given by $W = 2.3 \\times 0.96^t$ grams.\n\na Find the initial weight.\n\nb Find the weight after: i 20 years ii 40 years iii 60 years.\n\nc Sketch the graph of $W$ against $t$ using a and b.\n\nd What is the percentage loss in weight from $t = 0$ to $t = 20$?",
+      "source_images": ["image1722.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. There are currently 500 possums in a section of bushland. The population is expected to fall by $8\\%$ each year.\n\na Write an exponential function for the expected possum population $P$ after $t$ years.\n\nb Find the expected possum population after:\ni 1 year ii 5 years iii 10 years.\n\nc Sketch the graph of $P$ against $t$.",
+      "source_images": ["image1723.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5E.2\n\n1. The weight of a radioactive substance $t$ years after being set aside is given by $W(t) = 250 \\times (0.998)^t$ grams.\n\na How much radioactive substance was initially set aside?\n\nb Determine the weight of the substance after:\ni 400 years ii 800 years iii 1200 years.\n\nc Sketch the graph of $W(t)$ for $t \\geqslant 0$ using a and b only.\n\nd Use your graph or graphics calculator to find how long it takes for the substance to decay to 125 grams.\n\n2. The temperature $T$ of a liquid which has been placed in a refrigerator is given by $T(t) = 100 \\times (0.986)^t$ $^\\circ$C where $t$ is the time in minutes.\n\na Find the initial temperature of the liquid.\n\nb Find the temperature after:\ni 15 minutes ii 20 minutes iii 78 minutes.\n\nc Sketch the graph of $T(t)$ for $t \\geqslant 0$ using a and b only.",
+      "source_images": ["image1724.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. The weight $W$ of radioactive substance remaining after $t$ years is given by $W(t) = 1000 \\times (0.997)^t$ grams.\n\na Find the initial weight of the radioactive substance.\n\nb Find the weight remaining after: i 100 years ii 1000 years.\n\nc Graph the weight remaining over time using a and b only.\n\nd Use your graph or graphics calculator to find the time when 10 grams of the substance remain.\n\n4. An initial count of organisms in a forest found that the forest contained 400 orangutans. Since then, the destruction of their habitat has caused the population to fall by $9\\%$ each year.\n\na Write a formula for the population $P$ of orangutans $t$ years after the initial count.\n\nb Find the population of orangutans after: i 1 year ii 5 years.\n\nc Sketch the graph of the population over time.\n\nd How long will it take for the population to fall to 200?\n\n5. The intensity of light $I$ diminishes below the surface of the sea according to the formula $I = I_0 \\times (0.95)^d$ units, where $d$ is the depth in metres measured from the surface of the sea.\n\na If the intensity of light at the surface is 10 units, find the value of $I_0$.\n\nb Find the intensity of light 25 metres below the surface.\n\nc A light intensity of 4 units is considered adequate for divers to be able to see clearly. Calculate the depth corresponding to this intensity of light.\n\nd Calculate the range of depths for which the light intensity is between 1 and 3 units.\n\n6. The value of a car after $t$ years is $V = 24000 \\times r^t$ dollars, $t \\geqslant 0$.\n\na Write down the value of the car when it was first purchased.\n\nb The value of the car after 3 years was $20880. Find the value of $r$.\n\nc How long will it take for the value of the car to reduce to $8000? Give your answer to the nearest year.\n\n7. The interior of a freezer has temperature $-10^\\circ$C. When a packet of peas is placed in the freezer, its temperature after $t$ minutes is given by $T(t) = -10 + 32 \\times 0.9^t$ $^\\circ$C.\n\na What was the temperature of the packet of peas:\ni when placed in the freezer ii after 5 minutes iii after 10 minutes?\n\nb Sketch the graph of $T(t)$.\n\nc How long does it take for the temperature of the packet of peas to fall to $0^\\circ$C?\n\nd Will the temperature of the packet of peas ever reach $-10^\\circ$C? Explain your answer.\n\n8. The weight $W_t$ of a radioactive uranium-235 sample remaining after $t$ years is given by the formula $W_t = W_0 \\times 2^{-kt}$.\n\na Find the original weight.\n\nb Find the percentage weight loss after 1000 years.\n\nc How long will it take until $\\frac{1}{16}$ of the sample remains?",
+      "source_images": ["image1725.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. When scientists first observe a population of endangered marsupials, they notice two distinct groups. Group A is smaller in number, but appear to be larger and stronger individuals. Group B are more numerous, but smaller animals. The number of animals in each group over time are given by $A(t)$ and $B(t)$ respectively.\n\n[Graph showing two curves: $A(t) = k_1 \\times a^t$ (red, increasing) passing through $(2, 356)$, and $B(t) = k_2 \\times (0.8)^t + c$ (blue, decreasing) passing through $(3, 222)$]\n\na Use the graph to find the exponential function for each animal group.\n\nb Determine the time at which:\ni there are the same number of group A and group B animals\nii there are 50 less group A than group B animals\niii there are twice as many group B animals compared to group A animals.\n\n10. The half-life of a radioactive substance is the time it takes for the substance's weight to fall to half of its original value.\n\nThe radioactive isotope fermium-253 has a half-life of 3 days. The weight of fermium-253 detected $t$ days after an explosion is $W(t) = 10 \\times a^t$ mg.\n\na Interpret the value 10 in this model.\n\nb Calculate the value of $a$, correct to 4 decimal places, and interpret this value.\n\nc Find the weight of fermium-253 after 2 days.\n\nd How long will it take for the weight of fermium-253 to fall to:\ni 3 mg ii 1.25 mg?\n\n11. The half-life of nitrogen-13 is 10 minutes. How long will it take for the mass of nitrogen-13 to fall to 10% of its original value?",
+      "source_images": ["image1726.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "When you place money in a bank, you are in effect lending the money to the bank. The bank in turn uses your money to lend to other people. The bank pays you interest to encourage your custom, and they charge interest to borrowers at a higher rate. This is how the bank makes money.\n\nWhen you place money in a bank, the value in your account is called your balance. After a period of time, the interest is automatically added to your account. When this happens, the next lot of interest will be calculated on the higher balance. This creates a compounding effect on the interest as you are getting interest on interest.",
+      "source_images": ["image1727.png"]
+    },
+    {
+      "type": "definition",
+      "content_latex": "Compound interest is calculated as a percentage of the total amount at the end of the previous time period.",
+      "source_images": ["image1728.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Consider an investment of €1000 with compound interest of $6\\%$ p.a. paid each year.\n\n| After year | Interest paid | Account balance |\n|------------|---------------|------------------|\n| 0 | - | €1000.00 |\n| 1 | $6\\%$ of €1000.00 = €60.00 | €1000.00 + €60.00 = €1060.00 |\n| 2 | $6\\%$ of €1060.00 = €63.60 | €1060.00 + €63.60 = €1123.60 |\n| 3 | $6\\%$ of €1123.60 = €67.42 | €1123.60 + €67.42 = €1191.02 |\n\nEach year, the account balance becomes $(100\\% + 6\\%)$ or $106\\%$ of its previous value.\n\n$\\therefore$ the value after 3 years $= €1000 \\times 1.06 \\times 1.06 \\times 1.06$\n$= €1000 \\times (1.06)^3$\n$= €1191.02$\n\nThis suggests that if the money is left in the account for $n$ years, it will amount to €1000 $\\times (1.06)^n$.\n\nThe annual multiplier is $(1 + i)$, where $i$ is the annual interest rate expressed as a decimal.",
+      "source_images": ["image1729.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "These observations lead to the compound interest formula:\n\n$F_v = P_v(1 + i)^n$\n\nwhere $F_v$ is the future value\n$P_v$ is the present value or amount initially invested\n$i$ is the annual interest rate as a decimal\n$n$ is the number of years of investment.",
+      "source_images": ["image1730.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 7\n\na Find the future value when $5000 is invested at $8\\%$ p.a. compound interest for 2 years.\n\nb How much interest is earned?\n\na $F_v = P_v(1 + i)^n$\n$\\therefore F_v = 5000 \\times (1 + 0.08)^2$\n$= 5000 \\times (1.08)^2$\n$= \\$5832$\n\nb Interest earned\n$= \\$5832 - \\$5000$\n$= \\$832$",
+      "source_images": ["image1731.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 8\n\nI am able to invest at $8.5\\%$ p.a. compounding annually. How much should I invest now to achieve a future value of $10000 in 4 years' time?\n\n$F_v = P_v(1 + i)^n$\n\n$\\therefore 10000 = P_v \\times (1 + 0.085)^4$ $\\{8.5\\% = 0.085\\}$\n\n$\\therefore 10000 = P_v \\times (1.085)^4$\n\n$\\therefore \\frac{10000}{(1.085)^4} = P_v$\n\n$\\therefore P_v = 7215.74$\n\nI should invest $7215.74 now.",
+      "source_images": ["image1732.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 9\n\nAn investment of £3000 has grown to £3752 after 4 years. Find the annual compound interest rate.\n\n$P_v(1 + i)^n = F_v$\n\n$\\therefore 3000(1 + i)^4 = 3752$\n\n$\\therefore (1 + i)^4 = \\frac{3752}{3000}$\n\n$\\therefore 1 + i = \\sqrt[4]{\\frac{3752}{3000}}$ $\\{$finding the fourth root of both sides$\\}$\n\n$\\therefore i = \\sqrt[4]{\\frac{3752}{3000}} - 1$\n\n$\\therefore i \\approx 0.0575$\n\nThe annual interest rate is approximately $5.75\\%$.",
+      "source_images": ["image1733.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 18D\n\n1. Copy and complete the table to find the future value when €8000 is invested at $5\\%$ p.a. compound interest.\n\n| After year | Interest paid | Future value |\n|------------|---------------|---------------|\n| 0 | - | €8000 |\n| 1 | $5\\%$ of €8000 = €400 | |\n| 2 | | |\n| 3 | | |\n\n2. a Find the future value when £40000 is invested at $10\\%$ p.a. compound interest for 3 years.\nb How much interest is earned?\n\n3. a Find the future value of a ¥50000 investment at $8\\%$ p.a. compounding yearly over 3 years.\nb How much interest is earned?",
+      "source_images": ["image1734.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. I can invest money at a fixed rate of $7.5\\%$ p.a. compounding annually. How much money must I invest now to produce $20000 for a holiday in 4 years' time?\n\n5. What initial investment is required to produce a maturing amount of 15000 euros in 5 years' time, given a fixed interest rate of $5.5\\%$ p.a. compounding annually?",
+      "source_images": ["image1735.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. An investment of $4000 has grown to $4855 after 5 years. Find the annual compound interest rate.\n\n7. Julian invested £8500, and three years later his account balance was £9686.\n\na How much interest did Julian earn?\n\nb Find the annual compound interest rate.",
+      "source_images": ["image1736.png"]
+    },
+    {
+      "type": "definition",
+      "content_latex": "Depreciation describes how items diminish in value over time.",
+      "source_images": ["image1737.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Motor cars, office furniture, computers, and many other items decrease in value as they age. We call this process depreciation.\n\nItems usually depreciate because they become damaged and imperfect through use and time, or because their technology becomes superseded.\n\nThe following table shows how a computer bought for $1500 depreciates by $20\\%$ each year. Items are depreciated on their reduced value each year. This creates a compounding effect similar to what we saw with interest in the previous section.",
+      "source_images": ["image1738.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "| Age (years) | Depreciation | Value |\n|-------------|--------------|-------|\n| 0 | - | $1500 |\n| 1 | $20\\%$ of $1500 = $300 | $1500 - $300 = $1200 |\n| 2 | $20\\%$ of $1200 = $240 | $1200 - $240 = $960 |\n| 3 | $20\\%$ of $960 = $192 | $960 - $192 = $768 |",
+      "source_images": ["image1739.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "At the end of each year, the computer is only worth $100\\% - 20\\% = 80\\%$ of its previous value. Thus, we multiply by $0.8$.\n\nIts value after 1 year is $V_1 = \\$1500 \\times 0.8$,\nafter 2 years is $V_2 = V_1 \\times 0.8 = \\$1500 \\times (0.8)^2$,\nand after 3 years is $V_3 = V_2 \\times 0.8 = \\$1500 \\times (0.8)^3$.\n\nThis suggests that after $n$ years, the value will be $V_n = \\$1500 \\times (0.8)^n$.\n\nThe depreciation formula is:",
+      "source_images": ["image1740.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "$F_v = P_v(1 - i)^n$\n\nwhere $F_v$ is the future value after $n$ years\n$P_v$ is the original purchase price or present value\n$i$ is the annual depreciation rate as a decimal\n$n$ is the number of years.",
+      "source_images": ["image1741.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 10\n\nPhotocopiers depreciate in value by $15\\%$ per year. Suppose a photocopier was purchased for $18500.\n\na Find the value of the photocopier after 5 years.\n\nb By how much has its value depreciated?\n\na $P_v = 18500$\n$i = 0.15$\n$n = 5$\n\nNow $F_v = P_v(1 - i)^n$\n$\\therefore F_v = 18500(1 - 0.15)^5$\n$= 18500(0.85)^5$\n$\\approx \\$8208.55$\n\nb Depreciation $= \\$18500 - \\$8208.55 = \\$10291.45$",
+      "source_images": ["image1742.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 18E\n\n1. A car was purchased for $32500, and its value depreciated annually by $16\\%$. Find the value of the car after 10 years.\n\n2. A motorbike was purchased for £8495, and its value depreciated at $12\\%$ each year.\n\na Copy and complete the following table:\n\n| Number of years owned | Depreciation or annual loss in value | Value after n years |\n|-----------------------|-------------------------------------|---------------------|\n| 0 | - | £8495 |\n| 1 | £1019.40 | £7475.60 |\n| 2 | | |\n| 3 | | |\n| 4 | | |",
+      "source_images": ["image1743.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "b The motorbike is used for a delivery service, and so the depreciation each year can be claimed as a tax deduction. How much can be 'claimed' during the 4th year?\n\nc Find the value of the motorbike at the end of the 8th year.\n\n3. Kevin bought a truck for $38500. It depreciated at a rate of $20\\%$ p.a.\n\na Find the truck's value after 3 years.\n\nb By how much has it lost value?\n\n4. A cabin cruiser was bought for €120000 in April 2005, and was sold for €45000 in April 2013. Find the annual rate of depreciation of the boat.",
+      "source_images": ["image1744.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "We have seen that the simplest exponential functions have the form $f(x) = a^x$ where $a > 0$, $a \\neq 1$.\n\nGraphs of some of these functions are shown alongside.\n\nWe can see that for all positive values of the base $a$, the graph is always positive.\n\nHence $a^x > 0$ for all $a > 0$.\n\nThere are an infinite number of possible choices for the base number.\n\n[Graph showing exponential curves $y = (0.2)^x$, $y = (0.5)^x$, $y = (1.2)^x$, $y = 2^x$, $y = 5^x$ all passing through $(0, 1)$]",
+      "source_images": ["image1745.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "However, where exponential data is examined in science, engineering, and finance, the base $e \\approx 2.7183$ is commonly used.\n\n$e$ is a special number in mathematics. It is irrational like $\\pi$, and just as $\\pi$ is the ratio of a circle's circumference to its diameter, $e$ also has a physical meaning. We explore this meaning in the following Investigation.",
+      "source_images": ["image1746.png"]
+    },
+    {
+      "type": "investigation",
+      "content_latex": "INVESTIGATION 2: CONTINUOUS COMPOUND INTEREST\n\nA discrete formula for calculating the amount to which an investment grows under compound interest is $u_n = u_0(1 + i)^n$ where:\n\n$u_n$ is the final amount, $u_0$ is the initial amount,\n$i$ is the interest rate per compounding period,\n$n$ is the number of periods, or times the interest is compounded.\n\nWe will investigate the final value of an investment for various values of $n$, and allow $n$ to become extremely large.\n\nWhat to do:\n\n1. Suppose $1000 is invested for one year at a fixed rate of $6\\%$ per annum. Use your calculator to find the final amount or maturing value if the interest is paid:\n\na annually $(n = 1, i = 6\\% = 0.06)$\nb quarterly $(n = 4, i = \\frac{6\\%}{4} = 0.015)$\nc monthly\nd daily\ne by the second\nf by the millisecond.\n\nComment on your answers.\n\n2. If $r$ is the percentage rate per year, $t$ is the number of years, and $N$ is the number of interest payments per year, then $i = \\frac{r}{N}$ and $n = Nt$.\n\nIf we let $a = \\frac{N}{r}$, show that the growth formula becomes $u_n = u_0\\left[\\left(1 + \\frac{1}{a}\\right)^a\\right]^{rt}$.",
+      "source_images": ["image1747.png"]
+    },
+    {
+      "type": "investigation",
+      "content_latex": "INVESTIGATION 2 (continued)\n\n3. For continuous compound growth, the number of interest payments per year $N$ gets very large.\n\na Explain why $a$ gets very large as $N$ gets very large.\n\nb Copy and complete the table, giving your answers as accurately as technology permits.\n\n| $a$ | $\\left(1 + \\frac{1}{a}\\right)^a$ |\n|-----|-----------------------------|\n| 10 | |\n| 100 | |\n| 1000 | |\n| 10000 | |\n| 100000 | |\n| 1000000 | |\n| 10000000 | |\n\n4. You should have found that for very large values of $a$, $\\left(1 + \\frac{1}{a}\\right)^a \\approx 2.718281828459...$\n\nUse the $e^x$ key of your calculator to find the value of $e^1$. What do you notice?\n\n5. For continuous growth, $u_n = u_0e^{rt}$ where $u_0$ is the initial amount, $r$ is the annual percentage rate, and $t$ is the number of years.\n\nUse this formula to find the final amount if $1000 is invested for 4 years at a fixed rate of $6\\%$ per annum, where the interest is paid continuously.",
+      "source_images": ["image1748.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "If interest is paid continuously or instantaneously then the formula for calculating a compounding amount $u_n = u_0(1 + i)^n$ can be replaced by $u_n = u_0e^{rt}$, where $r$ is the percentage rate per annum and $t$ is the number of years.",
+      "source_images": ["image1749.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "HISTORICAL NOTE\n\nThe natural exponential $e$ was first described in 1683 by Swiss mathematician Jacob Bernoulli. He discovered the number while studying compound interest, just as we did in Investigation 2.\n\nThe natural exponential was first called $e$ by Swiss mathematician and physicist Leonhard Euler in a letter to the German mathematician Christian Goldbach in 1731. The number was then published with this notation in 1736.\n\nIn 1748, Euler evaluated $e$ correct to 18 decimal places.\n\nEuler also discovered some patterns in continued fraction expansions of $e$. He wrote that\n\n$\\frac{e-1}{2} = \\frac{1}{1 + \\frac{1}{6 + \\frac{1}{10 + \\frac{1}{14 + \\frac{1}{18 + ...}}}}}$ and $e - 1 = 1 + \\frac{1}{1 + \\frac{1}{2 + \\frac{1}{1 + \\frac{1}{1 + \\frac{1}{4 + \\frac{1}{1 + \\frac{1}{1 + ...}}}}}}}$\n\nOne may think that $e$ was chosen because it was the first letter of Euler's name or for the word exponential, but it is likely that it was just the next vowel available since he had already used $a$ in his work.",
+      "source_images": ["image1750.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5F\n\n1. Sketch, on the same set of axes, the graphs of $y = 2^x$, $y = e^x$, and $y = 3^x$. Comment on any observations.\n\n2. Sketch, on the same set of axes, the graphs of $y = e^x$ and $y = e^{-x}$. What is the geometric connection between these two graphs?\n\n3. For the general exponential function $y = pe^{qx}$, what is the $y$-intercept?\n\n4. Consider $y = 2e^x$.\n\na Explain why $y$ can never be negative.\n\nb Find $y$ if:\ni $x = -20$ ii $x = 20$.\n\n5. Find, to 3 significant figures, the value of:\n\na $e^2$ b $e^3$ c $e^{0.7}$ d $\\sqrt{e}$ e $e^{-1}$\n\n6. Write the following as powers of $e$:\n\na $\\sqrt{e}$ b $\\frac{1}{\\sqrt{e}}$ c $\\frac{1}{e^2}$ d $e\\sqrt{e}$\n\n7. Evaluate, to five significant figures:\n\na $e^{2.31}$ b $e^{-2.31}$ c $e^{4.829}$ d $e^{-4.829}$\ne $50e^{-0.1764}$ f $80e^{-0.6342}$ g $1000e^{1.2642}$ h $0.25e^{-3.6742}$\n\n8. Expand and simplify:\n\na $(e^x + 1)^2$ b $(1 + e^x)(1 - e^x)$ c $e^x(e^{-x} - 3)$\n\n9. Factorise:\n\na $e^{2x} + e^x$ b $e^{2x} - 16$ c $e^{2x} - 8e^x + 12$\n\n10. a On the same set of axes, sketch and clearly label the graphs of:\n$f: x \\mapsto e^x$, $g: x \\mapsto e^{x-2}$, $h: x \\mapsto e^x + 3$\n\nb State the domain and range of each function.\n\n11. a On the same set of axes, sketch and clearly label the graphs of:\n$f: x \\mapsto e^x$, $g: x \\mapsto -e^x$, $h: x \\mapsto 10 - e^x$\n\nb State the domain and range of each function.\n\nc Describe the behaviour of each function as $x \\to \\pm\\infty$.\n\n12. The weight of bacteria in a culture is given by $W(t) = 2e^{\\frac{t}{2}}$ grams where $t$ is the time in hours after the culture was set to grow.\n\na Find the weight of the culture:\ni initially ii after 30 minutes\niii after $1\\frac{1}{2}$ hours iv after 6 hours.\n\nb Hence sketch the graph of $W(t) = 2e^{\\frac{t}{2}}$.\n\n13. Solve for $x$:\n\na $e^x = \\sqrt{e}$ b $e^{\\frac{1}{2}x} = \\frac{1}{e^2}$",
+      "source_images": ["image1751.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 5A\n\n1. Evaluate:\n\na $8^{\\frac{2}{3}}$ b $27^{-\\frac{2}{3}}$ c $81^{-\\frac{1}{4}}$\n\n2. Solve for $x$:\n\na $2^{x-3} = \\frac{1}{32}$ b $9^x = 27^{2-2x}$ c $e^{2x} = \\frac{1}{\\sqrt{e}}$\n\n3. Consider the graph of $y = 3^x$ alongside.\n\na Use the graph to estimate the value of:\ni $3^{0.7}$ ii $3^{-0.5}$\n\nb Use the graph to estimate the solution to:\ni $3^x = 5$ ii $3^x = \\frac{1}{2}$\niii $6 \\times 3^x = 20$\n\n[Graph showing exponential curve $y = 3^x$]",
+      "source_images": ["image1752.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Expand and simplify:\n\na $e^x(e^{-x} + e^x)$ b $(2^x + 5)^2$ c $(x^{\\frac{1}{2}} - 7)(x^{\\frac{1}{2}} + 7)$\n\n5. Solve for $x$:\n\na $6 \\times 2^x = 192$ b $4 \\times \\left(\\frac{1}{3}\\right)^x = 324$\n\n6. The point $(1, \\sqrt{8})$ lies on the graph of $y = 2^{kx}$. Find the value of $k$.\n\n7. If $f(x) = 3 \\times 2^x$, find the value of:\n\na $f(0)$ b $f(3)$ c $f(-2)$\n\n8. On the same set of axes, draw the graphs of $y = 2^x$ and $y = 2^x - 4$. Include on your graph the $y$-intercept and the equation of the horizontal asymptote of each function.",
+      "source_images": ["image1753.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. Consider $y = 3^x - 5$.\n\na Find $y$ when $x = 0, \\pm 1, \\pm 2$.\n\nb Discuss $y$ as $x \\to \\pm\\infty$.\n\nc Sketch the graph of $y = 3^x - 5$.\n\nd State the equation of any asymptote.\n\n10. Consider $y = 3 - 2^{-x}$.\n\na Find $y$ when $x = 0, \\pm 1, \\pm 2$.\n\nb Discuss $y$ as $x \\to \\pm\\infty$.\n\nc Sketch the graph of $y = 3 - 2^{-x}$.\n\nd State the equation of any asymptote.\n\n11. a On the same set of axes, sketch and clearly label the graphs of:\n$f: x \\mapsto e^x$, $g: x \\mapsto e^{x-1}$, $h: x \\mapsto 3 - e^x$\n\nb State the domain and range of each function in a.\n\nc Describe the behaviour of each function as $x \\to \\pm\\infty$.\n\n12. The temperature of a dish $t$ minutes after it is removed from the microwave, is given by $T(t) = 80 \\times (0.913)^t$ $^\\circ$C.\n\na Find the initial temperature of the dish.\n\nb Find the temperature after:\ni 12 minutes ii 24 minutes iii 36 minutes.\n\nc Draw the graph of $T$ against $t$ for $t \\geqslant 0$, using a and b or technology.\n\nd Hence find the time taken for the temperature of the dish to fall to $25^\\circ$C.\n\n13. A phycologist investigates an algal bloom in a lake. Initially it covers 10 square metres of water. Each day after it was discovered, the area covered increases by $15\\%$.\n\na Write a formula for the area $A(t)$ covered after $t$ days.\n\nb Find the area covered after:\ni 2 days ii 5 days.\n\nc Sketch the graph of $A(t)$.\n\nd How long will it take for the affected area to reach 300 m$^2$?",
+      "source_images": ["image1754.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "14. The current flowing in an electrical circuit $t$ seconds after it is switched off is given by $I(t) = 75e^{-0.15t}$ amps.\n\na What current is still flowing in the circuit after:\ni 1 second ii 10 seconds?\n\nb Use your graphics calculator to help sketch the graph of $I(t) = 75e^{-0.15t}$.\n\nc How long will it take for the current to fall to 1 amp?\n\n15. Consider the function $f(x) = e^x$.\n\na On the same set of axes, sketch $y = f(x)$, $y = x$, and $y = f^{-1}(x)$.\n\nb State the domain and range of $f^{-1}$.\n\n16. It can be shown that $e^x = 1 + x + \\frac{1}{2}x^2 + \\frac{1}{2 \\times 3}x^3 + \\frac{1}{2 \\times 3 \\times 4}x^4 + .... = \\sum_{i=0}^{\\infty} \\frac{1}{i!}x^i$ which is an infinite polynomial expansion.\n\nCheck this statement by finding an approximation for $e^1$ using its first 20 terms.",
+      "source_images": ["image1755.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 5B\n\n1. Evaluate, correct to 3 significant figures:\n\na $3^{\\frac{5}{4}}$ b $27^{-\\frac{1}{5}}$ c $\\sqrt[4]{100}$\n\n2. Expand and simplify:\n\na $(3 - e^x)^2$ b $x^{-\\frac{1}{2}}(x^{\\frac{3}{2}} - 2x^{\\frac{1}{2}} - x^{-\\frac{1}{2}})$ c $2^{-x}(2^{2x} + 2^x)$\n\n3. Factorise:\n\na $3^{x+2} - 3^x$ b $4^x - 2^x - 12$ c $e^{2x} + 2e^x - 15$\n\n4. Solve for $x$:\n\na $2^{x+1} = 32$ b $3 \\times \\left(\\frac{1}{7}\\right)^{x+1} = 1029$ c $9^x - 10(3^x) + 9 = 0$\n\n5. Consider the graph of $y = 4^x$ alongside.\n\na Use the graph to estimate the value of:\ni $4^{0.6}$ ii $4^{-1.1}$\n\nb Use the graph to estimate the solution to $4^x = 3$.\n\n[Graph showing exponential curve $y = 4^x$]\n\n6. Suppose $f(x) = 2^{-x} + 1$.\n\na Find $f\\left(\\frac{1}{2}\\right)$.\n\nb Find $a$ such that $f(a) = 3$.\n\n7. Consider $y = 2e^{-x} + 1$.\n\na Find $y$ when $x = 0, \\pm 1, \\pm 2$.\n\nb Discuss $y$ as $x \\to \\pm\\infty$.\n\nc Sketch the graph of $y = 2e^{-x} + 1$.\n\nd State the equation of any asymptote.\n\n8. Match each equation to its corresponding graph:\n\na $y = -e^x$ b $y = 3 \\times 2^x$ c $y = e^x + 1$ d $y = 3^{-x}$ e $y = -e^{-x}$\n\n[Five graphs labeled A, B, C, D, E showing different exponential curves]",
+      "source_images": ["image1756.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. Let $f(x) = 3^x$.\n\na Write down the value of:\ni $f(4)$ ii $f(-1)$\n\nb Find the value of $k$ such that $f(x + 2) = kf(x)$, $k \\in \\mathbb{Z}$.",
+      "source_images": ["image1757.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "10. Suppose $y = a^x$. Express in terms of $y$:\n\na $a^{2x}$ b $a^{-x}$ c $\\frac{1}{\\sqrt{a^x}}$\n\n11. Answer the Opening Problem on page 120.\n\n12. The weight of a radioactive substance after $t$ years is given by $W = 1500 \\times (0.993)^t$ grams.\n\na Find the original amount of radioactive material.\n\nb Find the amount of radioactive material remaining after:\ni 400 years ii 800 years.\n\nc Sketch the graph of $W$ against $t$ for $t \\geqslant 0$.\n\nd Hence find the time taken for the weight to reduce to 100 grams.",
+      "source_images": ["image1758.png"]
+    }
+  ]
+}

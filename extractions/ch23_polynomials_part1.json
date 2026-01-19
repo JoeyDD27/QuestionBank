@@ -1,0 +1,307 @@
+{
+  "chapter": 23,
+  "part": 1,
+  "images_range": "2213-2273",
+  "items": [
+    {
+      "type": "definition",
+      "content_latex": "A polynomial is a function that can be written as the sum of terms using non-negative integer powers of the variable.\n\nFor example:\n\n- $p(x) = 3x^2 + 5x - 4$ and $q(x) = -x^7 + \\frac{1}{2}x^4 + 6x$ are polynomials.\n- $f(x) = 3x + x^{\\frac{1}{2}}$ is not a polynomial as the index in the second term is not an integer.\n- $g(x) = 3^x + 6x$ is not a polynomial because one of the terms has $x$ as the index.\n- $h(x) = 2x^2 - x + 3x^{-1}$ is not a polynomial because the last term has a negative index.\n\nThe degree of a polynomial is the highest power of the variable.",
+      "source_images": ["image2213.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "The simplest polynomials are described in the following table:\n\n| Polynomials | Degree | Name |\n|-------------|--------|------|\n| $ax + b$, $a \\neq 0$ | 1 | linear |\n| $ax^2 + bx + c$, $a \\neq 0$ | 2 | quadratic |\n| $ax^3 + bx^2 + cx + d$, $a \\neq 0$ | 3 | cubic |\n| $ax^4 + bx^3 + cx^2 + dx + e$, $a \\neq 0$ | 4 | quartic |",
+      "source_images": ["image2214.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "So, the polynomial $f(x) = 2x^3 - 7x^2 + 3x - 5$ has degree 3, and constant term $-5$.",
+      "source_images": ["image2215.png"]
+    },
+    {
+      "type": "definition",
+      "content_latex": "A polynomial is a function which can be written in the form\n\n$P(x) = a_nx^n + a_{n-1}x^{n-1} + .... + a_2x^2 + a_1x + a_0 = \\sum_{r=0}^{n} a_rx^r$ where $a_0, a_1, ...., a_n$ are constants, $a_n \\neq 0$.\n\nWe say that:\n- $x$ is the variable\n- $a_0$ is the constant term\n- $a_n$ is the leading coefficient\n- $a_r$ is the coefficient of $x^r$ for $r = 0, 1, 2, ...., n$\n- $n$ is the degree of the polynomial, being the highest power of the variable\n- $a_rx^r$ is the term of the polynomial with degree $r$.\n\nA real polynomial $P(x)$ is a polynomial for which $a_r \\in \\mathbb{R}$, $r = 0, 1, 2, ...., n$.",
+      "source_images": ["image2216.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 24A\n\n1. State whether the following functions are polynomials. If they are not, give a reason.\n\n(a) $f(x) = 3x^2 + 2$\n\n(b) $g(x) = 3x + \\frac{1}{3}x^2$\n\n(c) $h(x) = 2^x - 4x^2 - 7$\n\n(d) $p(x) = -8x^5 - 7x^4 + 1$\n\n(e) $q(x) = 4x^3 + 2x^{\\frac{3}{2}}$\n\n(f) $r(x) = 5x^2 - x - 5x^{-2}$\n\n2. Find the degree of the following polynomials:\n\n(a) $f(x) = 3x^4 - x^2 + 7x - 2$\n\n(b) $g(x) = 2 - x + \\frac{1}{5}x^2$\n\n(c) $p(x) = \\frac{2}{3}x^4 - x^5 + 6$\n\n(d) $q(x) = (x + 5)(x - 4)$\n\n(e) $r(x) = (2x + 1)(x - 2)(x + 3)$\n\n(f) $s(x) = (x^2 - 5)(x^2 + 2x - 7)$",
+      "source_images": ["image2217.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Find the constant term in the following polynomials:\n\n(a) $f(x) = 9x^4 - 13x^2 + x - 4$\n\n(b) $g(x) = 6 - x + 3x^2 - x^3$\n\n(c) $p(x) = (x - 3)(x + 4)$\n\n(d) $q(x) = x(x + 6)(x - 2)$",
+      "source_images": ["image2218.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5A\n\n1. For each of the following polynomials, state the:\n\n(i) degree\n(ii) leading coefficient\n(iii) constant term.\n\n(a) $P(x) = 2x^3 + x^2 - 2x + 5$\n\n(b) $f(x) = x^4 + 5x^2 + 3x - 2$\n\n(c) $Q(x) = -3x^5 - x^3 + 4x^2 + 1$\n\n(d) $g(x) = 5x^3 - 3x^2 + 4x$\n\n(e) $P(x) = 7 + 5x - x^4$\n\n(f) $h(x) = 2x^2 - 4x^3 + 7 - 3x$\n\n2. State the coefficient of:\n\n(a) $x^2$ in $P(x) = 4x^3 + 7x^2 - 5x + 2$\n\n(b) $x$ in $f(x) = x^4 + 2x^3 - 4x + 1$\n\n(c) $x^3$ in $Q(x) = x^5 - 3x^4 + 2x^2 - 7$\n\n(d) $x^2$ in $g(x) = \\frac{1}{3}x^3 - 2x + \\frac{1}{4}x^2 + 3$.",
+      "source_images": ["image2219.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "ADDITION AND SUBTRACTION\n\nTo add or subtract two polynomials, we collect \"like\" terms.\n\nTo make it easier to collect \"like\" terms, we often write them one above the other.",
+      "source_images": ["image2220.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 1\n\nIf $P(x) = x^3 - 2x^2 + 3x - 5$ and $Q(x) = 2x^3 + x^2 - 11$, find:\n\n(a) $P(x) + Q(x)$\n(b) $P(x) - Q(x)$\n\nSolutions:\n\n(a) $P(x) + Q(x)$\n$= x^3 - 2x^2 + 3x - 5$\n$+ 2x^3 + x^2 \\quad\\quad - 11$\n$= 3x^3 - x^2 + 3x - 16$\n\n(b) $P(x) - Q(x)$\n$= x^3 - 2x^2 + 3x - 5 - (2x^3 + x^2 - 11)$\n$= x^3 - 2x^2 + 3x - 5$\n$- 2x^3 - x^2 \\quad\\quad + 11$\n$= -x^3 - 3x^2 + 3x + 6$",
+      "source_images": ["image2221.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 1\n\nLet $p(x) = x^3 + 2x^2 - 4x + 3$ and $q(x) = 5x^2 + x - 2$.\n\nFind:\n\n(a) $p(x) + q(x)$\n(b) $p(x) - q(x)$\n\nSolutions:\n\n(a) $p(x) + q(x)$\n$= x^3 + 2x^2 - 4x + 3$\n$\\quad\\quad + 5x^2 + x - 2$\n$= x^3 + 7x^2 - 3x + 1$\n\n(b) $p(x) - q(x)$\n$= x^3 + 2x^2 - 4x + 3 - [5x^2 + x - 2]$\n$= x^3 + 2x^2 - 4x + 3 - 5x^2 - x + 2$\n$= x^3 - 3x^2 - 5x + 5$",
+      "source_images": ["image2222.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 2\n\nIf $P(x) = x^2 + 4x - 5$ and $Q(x) = 3x^3 - 6x^2 - 2$, find:\n\n(a) $2P(x)$\n(b) $-4Q(x)$\n(c) $3P(x) + 2Q(x)$\n\nSolutions:\n\n(a) $2P(x) = 2(x^2 + 4x - 5)$\n$= 2x^2 + 8x - 10$\n\n(b) $-4Q(x) = -4(3x^3 - 6x^2 - 2)$\n$= -12x^3 + 24x^2 + 8$\n\n(c) $3P(x) + 2Q(x) = 3(x^2 + 4x - 5) + 2(3x^3 - 6x^2 - 2)$\n$= 3x^2 + 12x - 15 + 6x^3 - 12x^2 - 4$\n$= 6x^3 - 9x^2 + 12x - 19$",
+      "source_images": ["image2223.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 3\n\nIf $P(x) = x^3 - 2x + 4$ and $Q(x) = 2x^2 + 3x - 5$, find $P(x)Q(x)$.\n\nSolution:\n\n$P(x)Q(x)$\n$= (x^3 - 2x + 4)(2x^2 + 3x - 5)$\n$= x^3(2x^2 + 3x - 5) - 2x(2x^2 + 3x - 5) + 4(2x^2 + 3x - 5)$\n$= 2x^5 + 3x^4 - 5x^3$\n$\\quad\\quad - 4x^3 - 6x^2 + 10x$\n$\\quad\\quad\\quad\\quad + 8x^2 + 12x - 20$\n$= 2x^5 + 3x^4 - 9x^3 + 2x^2 + 22x - 20$",
+      "source_images": ["image2224.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 3\n\nIf $p(x) = 2x^3 - x^2 + 6$ and $q(x) = x^2 - 3x + 4$, find $p(x)q(x)$.\n\nSolution:\n\n$p(x)q(x) = (2x^3 - x^2 + 6)(x^2 - 3x + 4)$\n$= 2x^3(x^2 - 3x + 4) - x^2(x^2 - 3x + 4) + 6(x^2 - 3x + 4)$\n$= 2x^5 - 6x^4 + 8x^3$\n$\\quad\\quad - x^4 + 3x^3 - 4x^2$\n$\\quad\\quad\\quad\\quad + 6x^2 - 18x + 24$\n$= 2x^5 - 7x^4 + 11x^3 + 2x^2 - 18x + 24$",
+      "source_images": ["image2225.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "We can also perform polynomial multiplication using:\n\n- synthetic multiplication where we just use the coefficients\n\n$\\begin{array}{cccc} 1 & 0 & -2 & 4 \\\\ \\times & 2 & 3 & -5 \\\\ \\hline -5 & 0 & 10 & -20 \\\\ 3 & 0 & -6 & 12 \\\\ 2 & 0 & -4 & 8 \\\\ \\hline 2 & 3 & -9 & 2 & 22 & -20 \\\\ x^5 & x^4 & x^3 & x^2 & x & \\text{constant term} \\end{array}$\n\nUnlike long multiplication with numbers, we do not \"carry\" tens, and we can have negative coefficients.\n\n$\\therefore (x^3 - 2x + 4)(2x^2 + 3x - 5)$\n$= 2x^5 + 3x^4 - 9x^3 + 2x^2 + 22x - 20$",
+      "source_images": ["image2226.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 24B.1\n\n1. For each of the following pairs of functions, find:\n\n(i) $p(x) + q(x)$\n(ii) $p(x) - q(x)$\n\n(a) $p(x) = x^2 + 1$, $q(x) = 2x^2 + 3x - 4$\n\n(b) $p(x) = x^3 - 4x^2 + 2x + 1$, $q(x) = 2x^3 - x^2 - x + 6$\n\n(c) $p(x) = -5x^4 - x^2 + x$, $q(x) = x^3 - 8x^2 - 2x - 4$\n\n(d) $p(x) = 2x^4 - x^3 + 7x - 3$, $q(x) = 8 - 5x - 3x^3$\n\n2. If $p(x) = x^2 + 3x - 2$ and $q(x) = -2x^3 + x + 4$, find:\n\n(a) $3p(x)$\n(b) $4q(x)$\n(c) $-p(x)$\n(d) $p(x) + 4q(x)$\n(e) $2p(x) - 3q(x)$\n(f) $2q(x) - p(x)$\n\n3. Find $f(x)g(x)$ for:\n\n(a) $f(x) = 3x - 1$, $g(x) = x + 2$\n\n(b) $f(x) = 2x^2 - x - 3$, $g(x) = x - 4$\n\n(c) $f(x) = 4x^3 - x^2 + 2$, $g(x) = x^2 - 5x + 4$\n\n(d) $f(x) = -2x^3 + x + 7$, $g(x) = x^4 + x^2 - 5x$\n\n4. For $p(x) = x^4 - 3x^3 + 4x - 1$ and $q(x) = 2x^3 - 3x^2 + 6$, find:\n\n(a) $3p(x)$\n(b) $-5q(x)$\n(c) $2p(x) + 3q(x)$\n(d) $4q(x) - p(x)$\n(e) $4p(x) - 2q(x)$\n(f) $p(x)q(x)$",
+      "source_images": ["image2227.png", "image2228.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5B\n\n1. If $P(x) = x^2 + 2x + 3$ and $Q(x) = 4x^2 + 5x + 6$, find in simplest form:\n\n(a) $3P(x)$\n(b) $P(x) + Q(x)$\n(c) $P(x) - 2Q(x)$\n(d) $P(x)Q(x)$\n\n2. If $f(x) = x^2 - x + 2$ and $g(x) = x^3 - 3x + 5$, find in simplest form:\n\n(a) $f(x) + g(x)$\n(b) $g(x) - f(x)$\n(c) $2f(x) + 3g(x)$\n(d) $g(x) + xf(x)$\n(e) $f(x)g(x)$\n(f) $[f(x)]^2$\n\n3. Expand and simplify:\n\n(a) $(x^2 - 2x + 3)(2x + 1)$\n(b) $(x - 1)^2(x^2 + 3x - 2)$\n(c) $(x + 2)^3$\n(d) $(2x^2 - x + 3)^2$\n(e) $(2x - 1)^4$\n(f) $(3x - 2)^2(2x + 1)(x - 4)$\n\n4. Find the following products:\n\n(a) $(2x^2 - 3x + 5)(3x - 1)$\n(b) $(4x^2 - x + 2)(2x + 5)$\n(c) $(2x^2 + 3x + 2)(5 - x)$\n(d) $(x - 2)^2(2x + 1)$\n(e) $(x^2 - 3x + 2)(2x^2 + 4x - 1)$\n(f) $(3x^2 - x + 2)(5x^2 + 2x - 3)$\n(g) $(x^2 - x + 3)^2$\n(h) $(2x^2 + x - 4)^2$\n(i) $(2x + 5)^3$\n(j) $(x^3 + x^2 - 2)^2$\n\n5. Suppose the polynomial $P(x)$ has degree 3. Find the degree of $Q(x) = (x - 1)P(x)$. Explain your answer.\n\n6. Suppose $P(x) = (x^2 - 3x + 4)Q(x)$ has degree 5. Find the degree of $Q(x)$.\n\n7. $P(x)$ has degree 2, leading coefficient 3, and constant term 5. $Q(x)$ has degree 4, leading coefficient $-5$, and constant term $-2$. Find the degree, leading coefficient, and constant term of $P(x)Q(x)$.\n\n8. If $P(x)$ and $Q(x)$ are polynomials with degrees $p$ and $q$ respectively, state possibilities for the degree of:\n\n(a) $P(x)+Q(x)$, $P(x) \\neq -Q(x)$\n(b) $kP(x)$, $k \\neq 0$\n(c) $P(x)Q(x)$\n(d) $(P(x))^2$\n\nExplain each answer.",
+      "source_images": ["image2229.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "If $P(x)$ is divided by $ax + b$ until a constant remainder $R$ is obtained, then\n\n$\\frac{P(x)}{ax + b} = Q(x) + \\frac{R}{ax + b}$ where $ax + b$ is the divisor, $D(x)$,\n$Q(x)$ is the quotient,\nand $R$ is the remainder.\n\nNotice that $P(x) = Q(x) \\times (ax + b) + R$.",
+      "source_images": ["image2230.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 4\n\nFind the quotient and remainder of $\\frac{2x^3 - 5x^2 + x + 7}{x - 3}$.\n\nSolution:\n\n$\\begin{array}{c|cccc} & 2x^2 & + x & + 4 \\\\ x - 3 & 2x^3 & - 5x^2 & + x & + 7 \\\\ & -(2x^3 & - 6x^2) & & \\\\ \\hline & & x^2 & + x & \\\\ & & -(x^2 & - 3x) & \\\\ \\hline & & & 4x & + 7 \\\\ & & & -(4x & - 12) \\\\ \\hline & & & & 19 \\end{array}$\n\n$\\therefore$ the quotient is $2x^2 + x + 4$, and the remainder is 19.",
+      "source_images": ["image2231.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 5\n\nFind $\\frac{x^4 - 17x^2 + 12x - 6}{x + 5}$.\n\nSolution:\n\n$\\begin{array}{c|ccccc} & x^3 & - 5x^2 & + 8x & - 28 \\\\ x + 5 & x^4 & + 0x^3 & - 17x^2 & + 12x & - 6 \\\\ & -(x^4 & + 5x^3) & & & \\\\ \\hline & & -5x^3 & - 17x^2 & & \\\\ & & -(-5x^3 & - 25x^2) & & \\\\ \\hline & & & 8x^2 & + 12x & \\\\ & & & -(8x^2 & + 40x) & \\\\ \\hline & & & & -28x & - 6 \\\\ & & & & -(-28x & - 140) \\\\ \\hline & & & & & 134 \\end{array}$\n\nWe insert $+0x^3$ to fill the empty spot.\n\nThe quotient is $x^3 - 5x^2 + 8x - 28$, and the remainder is 134.\n\n$\\therefore \\frac{x^4 - 17x^2 + 12x - 6}{x + 5} = x^3 - 5x^2 + 8x - 28 + \\frac{134}{x + 5}$",
+      "source_images": ["image2232.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Step 1: What do we multiply $x$ by to get $2x^3$?\nThe answer is $2x^2$, so we expand $2x^2(x + 2) = 2x^3 + 4x^2$ and write it underneath.\n\nStep 2: We then subtract $2x^3 + 4x^2$ from $2x^3 + 7x^2$. The answer is $3x^2$.\n\nStep 3: Bring down the $10x$ to obtain $3x^2 + 10x$.\n\nReturn to Step 1 with the question:\nWhat must we multiply $x$ by to get $3x^2$?\nThe answer is $3x$, and $3x(x + 2) = 3x^2 + 6x$.\n\nWe continue the process until we are left with a constant.\n\n$\\begin{array}{c|cccc} & 2x^2 & + 3x & + 4 \\\\ x + 2 & 2x^3 & + 7x^2 & + 10x & + 15 \\\\ & -(2x^3 & + 4x^2) & & \\\\ \\hline & & 3x^2 & + 10x & \\\\ & & -(3x^2 & + 6x) & \\\\ \\hline & & & 4x & + 15 \\\\ & & & -(4x & + 8) \\\\ \\hline & & & & 7 \\end{array}$\n\nWe find that $\\frac{2x^3 + 7x^2 + 10x + 15}{x + 2} = 2x^2 + 3x + 4 + \\frac{7}{x + 2}$.",
+      "source_images": ["image2233.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "The division algorithm can also be performed by leaving out the variable, as shown alongside.\n\n$\\begin{array}{c|cccc} & 2 & 3 & 4 \\\\ 1 \\quad 2 & 2 & 7 & 10 & 15 \\\\ & -(2 & 4) & & \\\\ \\hline & & 3 & 10 & \\\\ & & -(3 & 6) & \\\\ \\hline & & & 4 & 15 \\\\ & & & -(4 & 8) \\\\ \\hline & & & & 7 \\end{array}$",
+      "source_images": ["image2234.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 11\n\nPerform the division $\\frac{x^4 + 2x^2 - 1}{x + 3}$. Hence write $x^4 + 2x^2 - 1$ in the form $Q(x) \\times (x + 3) + R$.\n\nSolution:\n\n$\\begin{array}{c|ccccc} & x^3 & - 3x^2 & + 11x & - 33 \\\\ x + 3 & x^4 & + 0x^3 & + 2x^2 & + 0x & - 1 \\\\ & -(x^4 & + 3x^3) & & & \\\\ \\hline & & -3x^3 & + 2x^2 & & \\\\ & & -(-3x^3 & - 9x^2) & & \\\\ \\hline & & & 11x^2 & + 0x & \\\\ & & & -(11x^2 & + 33x) & \\\\ \\hline & & & & -33x & - 1 \\\\ & & & & -(-33x & - 99) \\\\ \\hline & & & & & 98 \\end{array}$\n\nNotice the insertion of $0x^3$ and $0x$ to keep \"like\" terms in columns.\n\n$\\therefore \\frac{x^4 + 2x^2 - 1}{x + 3} = x^3 - 3x^2 + 11x - 33 + \\frac{98}{x + 3}$\n\n$\\therefore x^4 + 2x^2 - 1 = (x^3 - 3x^2 + 11x - 33)(x + 3) + 98$",
+      "source_images": ["image2235.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 12\n\nCarry out the division, and hence factorise the numerator into linear factors:\n\n$\\frac{2x^3 - x^2 - 13x - 6}{x - 3}$\n\nSolution:\n\n$\\begin{array}{c|cccc} & 2x^2 & + 5x & + 2 \\\\ x - 3 & 2x^3 & - x^2 & - 13x & - 6 \\\\ & -(2x^3 & - 6x^2) & & \\\\ \\hline & & 5x^2 & - 13x & \\\\ & & -(5x^2 & - 15x) & \\\\ \\hline & & & 2x & - 6 \\\\ & & & -(2x & - 6) \\\\ \\hline & & & & 0 \\end{array}$\n\n$\\therefore \\frac{2x^3 - x^2 - 13x - 6}{x - 3} = 2x^2 + 5x + 2$ {the remainder is 0}\n\n$\\therefore 2x^3 - x^2 - 13x - 6 = (x - 3)(2x^2 + 5x + 2)$\n$= (x - 3)(2x + 1)(x + 2)$",
+      "source_images": ["image2236.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "SYNTHETIC DIVISION (EXTENSION)\n\nDivision of a polynomial by the linear factor $x - k$ can be performed quickly by a process called synthetic division.\n\nFor example, consider the division of $2x^3 + x^2 + 3x + 5$ by $x - 3$.\n\nStep 1: $\\begin{array}{c|cccc} 3 & 2 & 1 & 3 & 5 \\\\ & & & & \\\\ \\hline & & & & \\end{array}$ $\\leftarrow$ coefficients of $P(x)$\n\nOn dividing by $x - 3$ we write 3 here.\n\nStep 2: $\\begin{array}{c|cccc} 3 & 2 & 1 & 3 & 5 \\\\ & 0 & 6 & & \\\\ \\hline & 2 & & & \\end{array}$\n\n0 is always written here.\n\nadd $2 + 0 = 2$\n\nMultiply the shaded numbers: $2 \\times 3 = 6$\n\nStep 3: Repeat the process: $\\begin{array}{c|cccc} 3 & 2 & 1 & 3 & 5 \\\\ & 0 & 6 & 21 & 72 \\\\ \\hline & 2 & 7 & 24 & 77 \\end{array}$\n\nContinue adding then multiplying by 3 across the array.\n\nStep 4: The numbers along the bottom row are the coefficients of the quotient, and the remainder.\n\n$\\frac{2x^3 + x^2 + 3x + 5}{x - 3} = 2x^2 + 7x + 24 + \\frac{77}{x - 3}$",
+      "source_images": ["image2237.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 6\n\nFind $\\frac{4x^3 + 5x - 3}{x + 1}$.\n\nSolution:\n\n$\\begin{array}{c|cccc} -1 & 4 & 0 & 5 & -3 \\\\ & 0 & -4 & 4 & -9 \\\\ \\hline & 4 & -4 & 9 & -12 \\end{array}$\n\n$\\therefore \\frac{4x^3 + 5x - 3}{x + 1} = 4x^2 - 4x + 9 + \\frac{-12}{x + 1}$\n\n$= 4x^2 - 4x + 9 - \\frac{12}{x + 1}$",
+      "source_images": ["image2238.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 24B.2\n\n1. Find the quotient and remainder of:\n\n(a) $\\frac{x^2 + 5x + 6}{x + 4}$\n\n(b) $\\frac{2x^2 - 3x + 1}{x - 2}$\n\n(c) $\\frac{x^2 - x + 2}{x + 3}$\n\n(d) $\\frac{x^3 + 3x^2 + 5x + 11}{x + 2}$\n\n(e) $\\frac{x^3 + 2x^2 - 7x - 1}{x - 1}$\n\n(f) $\\frac{x^3 + 4x^2 - 2x + 3}{x + 4}$",
+      "source_images": ["image2239.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Find:\n\n(a) $\\frac{x^2 - 4x + 5}{x - 3}$\n\n(b) $\\frac{3x^2 + x - 5}{x + 1}$\n\n(c) $\\frac{x^2 + 9}{x - 2}$\n\n(d) $\\frac{x^3 - 9x^2 + 6x - 7}{x - 4}$\n\n(e) $\\frac{x^3 + 5x - 4}{x + 2}$\n\n(f) $\\frac{2x^4 + 5x^3 + x^2 + 2x - 4}{x + 3}$",
+      "source_images": ["image2240.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Use synthetic division to find:\n\n(a) $\\frac{x^2 - 3x + 5}{x - 1}$\n\n(b) $\\frac{x^2 + 4}{x + 3}$\n\n(c) $\\frac{2x^3 - x^2 + 4x - 3}{x - 2}$\n\n(d) $\\frac{3x^3 + x^2 - 2}{x + 1}$\n\n(e) $\\frac{2x^3 - 8x + 10}{x + 5}$\n\n(f) $\\frac{x^4 - 5x^3 + 9x^2 - 7x}{x - 3}$",
+      "source_images": ["image2241.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5E.1\n\n1. Find the quotient and remainder for the following, and hence write the division in the form $P(x) = Q(x)D(x) + R$, where $D(x)$ is the divisor.\n\n(a) $\\frac{x^2 + 2x - 3}{x + 2}$\n\n(b) $\\frac{x^2 - 5x + 1}{x - 1}$\n\n(c) $\\frac{2x^3 + 6x^2 - 4x + 3}{x - 2}$\n\n2. Perform the following divisions, and hence write the division in the form $P(x) = Q(x)D(x) + R$.\n\n(a) $\\frac{x^2 - 3x + 6}{x - 4}$\n\n(b) $\\frac{x^2 + 4x - 11}{x + 3}$\n\n(c) $\\frac{2x^2 - 7x + 2}{x - 2}$\n\n(d) $\\frac{2x^3 + 3x^2 - 3x - 2}{2x + 1}$\n\n(e) $\\frac{3x^3 + 11x^2 + 8x + 7}{3x - 1}$\n\n(f) $\\frac{2x^4 - x^3 - x^2 + 7x + 4}{2x + 3}$\n\n3. Perform the divisions:\n\n(a) $\\frac{x^2 + 5}{x - 2}$\n\n(b) $\\frac{2x^2 + 3x}{x + 1}$\n\n(c) $\\frac{3x^2 + 2x - 5}{x + 2}$\n\n(d) $\\frac{x^3 + 2x^2 - 5x + 2}{x - 1}$\n\n(e) $\\frac{2x^3 - x}{x + 4}$\n\n(f) $\\frac{x^3 + x^2 - 5}{x - 2}$",
+      "source_images": ["image2242.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Carry out the division, and hence factorise the numerator into linear factors:\n\n(a) $\\frac{3x^3 - 5x^2 - 4x + 4}{x + 1}$\n\n(b) $\\frac{2x^3 + 7x^2 - 10x - 24}{x - 2}$\n\n(c) $\\frac{4x^3 + 21x^2 + 2x - 15}{x + 5}$\n\n5. (a) Use the division process to divide $\\frac{x^3 + a^3}{x + a}$.\n\nCheck your answer by expanding and simplifying $(x^2 - ax + a^2)(x + a)$.\n\n(b) Hence factorise into two factors:\n\n(i) $x^3 + 1$\n(ii) $x^3 + 8$\n(iii) $x^3 + 125$\n\n6. (a) Carry out the following divisions:\n\n(i) $\\frac{x^2 - a^2}{x - a}$\n(ii) $\\frac{x^3 - a^3}{x - a}$\n(iii) $\\frac{x^4 - a^4}{x - a}$\n(iv) $\\frac{x^5 - a^5}{x - a}$\n\n(b) Hence deduce the factorisation of $x^n - a^n$ into two factors, one of which is linear.\n\n(c) Write as a product of two factors, one of which is linear:\n\n(i) $x^3 - 8$\n(ii) $x^4 - 1$\n(iii) $x^4 - 16$\n(iv) $x^5 - 243$",
+      "source_images": ["image2243.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "If $P(x)$ is divided by $ax^2 + bx + c$ then\n\n$\\frac{P(x)}{ax^2 + bx + c} = Q(x) + \\frac{ex + f}{ax^2 + bx + c}$ where $ax^2 + bx + c$ is the divisor,\n$Q(x)$ is the quotient,\nand $ex + f$ is the remainder.\n\nThe remainder will be linear if $e \\neq 0$, and constant if $e = 0$.",
+      "source_images": ["image2244.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 13\n\nFind the quotient and remainder for $\\frac{x^4 + 4x^3 - x + 1}{x^2 - x + 1}$.\n\nHence write $x^4 + 4x^3 - x + 1$ in the form $Q(x) \\times (x^2 - x + 1) + R(x)$.\n\nSolution:\n\n$\\begin{array}{c|ccccc} & x^2 & + 5x & + 4 \\\\ x^2 - x + 1 & x^4 & + 4x^3 & + 0x^2 & - x & + 1 \\\\ & -(x^4 & - x^3 & + x^2) & & \\\\ \\hline & & 5x^3 & - x^2 & - x & \\\\ & & -(5x^3 & - 5x^2 & + 5x) & \\\\ \\hline & & & 4x^2 & - 6x & + 1 \\\\ & & & -(4x^2 & - 4x & + 4) \\\\ \\hline & & & & -2x & - 3 \\end{array}$\n\nThe quotient is $x^2 + 5x + 4$ and the remainder is $-2x - 3$.\n\n$\\therefore x^4 + 4x^3 - x + 1 = (x^2 + 5x + 4)(x^2 - x + 1) - 2x - 3$",
+      "source_images": ["image2245.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5E.2\n\n1. Find the quotient and remainder for:\n\n(a) $\\frac{x^3 + 2x^2 + x - 3}{x^2 + x + 1}$\n\n(b) $\\frac{3x^2 - x}{x^2 - 1}$\n\n(c) $\\frac{3x^3 + x - 1}{x^2 + 1}$\n\n(d) $\\frac{x - 4}{x^2 + 2x - 1}$\n\n2. Carry out the following divisions and write each in the form $P(x) = Q(x)D(x) + R(x)$:\n\n(a) $\\frac{x^2 - x + 1}{x^2 + x + 1}$\n\n(b) $\\frac{x^3}{x^2 + 2}$\n\n(c) $\\frac{x^4 + 3x^2 + x - 1}{x^2 - x + 1}$\n\n(d) $\\frac{2x^3 - x + 6}{(x - 1)^2}$\n\n(e) $\\frac{x^4}{(x + 1)^2}$\n\n(f) $\\frac{x^4 - 2x^3 + x + 5}{(x - 1)(x + 2)}$\n\n3. Suppose $P(x) = (x - 2)(x^2 + 2x + 3) + 7$. Find the quotient and remainder when $P(x)$ is divided by $x - 2$.\n\n4. Suppose $f(x) = (x - 1)(x + 2)(x^2 - 3x + 5) + 15 - 10x$. Find the quotient and remainder when $f(x)$ is divided by $x^2 + x - 2$.",
+      "source_images": ["image2246.png"]
+    },
+    {
+      "type": "definition",
+      "content_latex": "A zero of a polynomial is a value of the variable which makes the polynomial equal to zero.\n\n$\\alpha$ is a zero of polynomial $P(x) \\Leftrightarrow P(\\alpha) = 0$.\n\nThe roots of a polynomial equation are the solutions to the equation.\n\n$\\alpha$ is a root (or solution) of $P(x) = 0 \\Leftrightarrow P(\\alpha) = 0$.\n\nThe roots of $P(x) = 0$ are the zeros of $P(x)$ and the $x$-intercepts of the graph of $y = P(x)$.\n\n$\\Leftrightarrow$ means \"if and only if\".",
+      "source_images": ["image2247.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Consider $P(x) = x^3 - 2x^2 + x - 12$\n\n$\\therefore P(3) = 3^3 - 2(3)^2 + 3 - 12 = 27 - 18 + 3 - 12 = 0$\n\nThis tells us that:\n\n- 3 is a zero of $x^3 - 2x^2 + x - 12$\n- 3 is a root of $x^3 - 2x^2 + x - 12 = 0$\n- the graph of $y = x^3 - 2x^2 + x - 12$ has the $x$-intercept 3.",
+      "source_images": ["image2248.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "FACTORISATION AND EXPANSION\n\nPolynomials can be written in factorised form or expanded form.\n\nFor example, the expansion of $(x + 1)(x - 2)(x - 4)$\n$= (x^2 - x - 2)(x - 4)$\n$= x^3 - 5x^2 + 2x + 8$\n\nIn reverse, the process of writing $x^3 - 5x^2 + 2x + 8$ as $(x + 1)(x - 2)(x - 4)$ is called factorisation.\n\n$(x + 1)(x - 2)(x - 4) \\xrightarrow{\\text{expansion}} x^3 - 5x^2 + 2x + 8$\n\nfactorised form $\\xleftarrow{\\text{factorisation}}$ expanded form",
+      "source_images": ["image2249.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "If $P(x) = (2x + 1)(x - 3)(x - 1)$, then $(2x + 1)$, $(x - 3)$, and $(x - 1)$ are its linear factors.\n\nLikewise $P(x) = (x + 2)^2(x - 1)$ has been factorised into 3 linear factors, one of which is repeated.\n\n$(x - \\alpha)$ is a linear factor of the polynomial $P(x) \\Leftrightarrow$ there exists a polynomial $Q(x)$ such that $P(x) = (x - \\alpha)Q(x)$.\n\nIf $\\alpha \\in \\mathbb{R}$ then $(x - \\alpha)$ is a real linear factor.",
+      "source_images": ["image2250.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 4\n\nFind the zeros of:\n\n(a) $x^2 - 4x + 53$\n(b) $z^3 + 3z$\n\nSolutions:\n\n(a) We wish to find $x$ such that $x^2 - 4x + 53 = 0$\n\n$\\therefore x = \\frac{4 \\pm \\sqrt{16 - 4(1)(53)}}{2}$\n\n$\\therefore x = \\frac{4 \\pm \\sqrt{-196}}{2} = \\frac{4 \\pm 14i}{2}$\n\n$\\therefore x = 2 \\pm 7i$\n\nThe zeros are $2 - 7i$ and $2 + 7i$.\n\n(b) We wish to find $z$ such that $z^3 + 3z = 0$\n\n$\\therefore z(z^2 + 3) = 0$\n\n$\\therefore z(z + i\\sqrt{3})(z - i\\sqrt{3}) = 0$\n\n$\\therefore z = 0$ or $\\pm i\\sqrt{3}$\n\nThe zeros are $-i\\sqrt{3}$, $0$, and $i\\sqrt{3}$.",
+      "source_images": ["image2251.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5C\n\n1. Decide whether:\n\n(a) 3 is a zero of $x^2 - 5x + 6$\n\n(b) $-1$ is a zero of $x^3 + 2x^2 - 4x + 3$\n\n(c) 2 is a root of $3x^2 - 5x - 4 = 0$\n\n(d) $-2$ is a root of $x^3 + 3x^2 + 5x + 6 = 0$.\n\nA polynomial has zeros.\nAn equation has roots.\n\n2. Find the zeros of:\n\n(a) $3x^2 - 2x - 5$\n(b) $x^2 + 6x + 10$\n(c) $z^2 - 6z + 6$\n(d) $x^3 - 4x$\n(e) $z^3 + 2z$\n(f) $z^4 + 4z^2 - 5$\n\n3. Find the roots of:\n\n(a) $5x^2 = 3x + 2$\n(b) $(2x + 1)(x^2 + 3) = 0$\n(c) $-2z(z^2 - 2z + 2) = 0$\n(d) $x^3 = 5x$\n(e) $z^3 + 5z = 0$\n(f) $z^4 = 3z^2 + 10$\n\n4. Use expansion to verify that:\n\n(a) $(x - 4)(x - 2)(x + 3)$ is the factorised form of $x^3 - 3x^2 - 10x + 24$\n\n(b) $(3x + 1)(x + 3)(x - 4)$ is the factorised form of $3x^3 - 2x^2 - 37x - 12$\n\n(c) $(2x + 1)(2x - 3)(x + 2)$ is the factorised form of $4x^3 + 4x^2 - 11x - 6$.",
+      "source_images": ["image2252.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 5\n\nFactorise:\n\n(a) $2x^3 + 5x^2 - 3x$\n(b) $z^2 + 4z + 9$\n\nSolutions:\n\n(a) $2x^3 + 5x^2 - 3x$\n$= x(2x^2 + 5x - 3)$\n$= x(2x - 1)(x + 3)$\n\n(b) $z^2 + 4z + 9$ is zero when $z = \\frac{-4 \\pm \\sqrt{16 - 4(1)(9)}}{2}$\n\n$\\therefore z = \\frac{-4 \\pm \\sqrt{-20}}{2}$\n\n$\\therefore z = \\frac{-4 \\pm 2i\\sqrt{5}}{2}$\n\n$\\therefore z = -2 \\pm i\\sqrt{5}$\n\n$\\therefore z^2 + 4z + 9 = (z - [-2 + i\\sqrt{5}])(z - [-2 - i\\sqrt{5}])$\n$= (z + 2 - i\\sqrt{5})(z + 2 + i\\sqrt{5})$",
+      "source_images": ["image2253.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. Factorise into the product of linear factors:\n\n(a) $2x^2 - 7x - 15$\n(b) $z^2 - 6z + 16$\n(c) $x^3 + 2x^2 - 4x$\n(d) $6z^3 - z^2 - 2z$\n(e) $z^4 - 6z^2 + 5$\n(f) $z^4 - z^2 - 2$\n\n6. Find the real linear factors and corresponding zeros of:\n\n(a) $x^2 - 6x - 16$\n(b) $2x^2 - 7x - 15$\n(c) $x^2 + 3x + 4$\n(d) $x^3 + 2x^2 - 4x$\n(e) $6z^3 - z^2 - 2z$\n(f) $z^4 + 3z^2 - 18$\n\n7. If $P(x) = a(x - \\alpha)(x - \\beta)(x - \\gamma)$ then $\\alpha$, $\\beta$, and $\\gamma$ are its zeros.\nVerify this statement by finding $P(\\alpha)$, $P(\\beta)$, and $P(\\gamma)$.\n\n8. The graph of the polynomial $P(x)$ has three $x$-intercepts, $\\alpha$, $\\beta$, and $\\gamma$.\n\n(a) State the values of $P(\\alpha)$, $P(\\beta)$, and $P(\\gamma)$.\n\n(b) Explain why $P(x)$ cannot have a factor $(x - a)$ such that $a \\neq \\alpha$, $\\beta$, or $\\gamma$.",
+      "source_images": ["image2254.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 6\n\nFind all real cubic polynomials with zeros $\\frac{1}{2}$ and $-3 \\pm 2i$.\n\nSolution:\n\nThe zeros $-3 \\pm 2i$ have sum $= -3 + 2i - 3 - 2i = -6$ and\nproduct $= (-3 + 2i)(-3 - 2i) = 13$\n\n$\\therefore$ they come from the quadratic factor $x^2 + 6x + 13$\n\n$\\frac{1}{2}$ comes from the linear factor $2x - 1$.\n\n$\\therefore P(x) = a(2x - 1)(x^2 + 6x + 13)$, $a \\neq 0$.",
+      "source_images": ["image2255.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 7\n\nFind all real quartic polynomials with zeros $2$, $-\\frac{1}{3}$, and $-1 \\pm \\sqrt{5}$.\n\nSolution:\n\nThe zeros $-1 \\pm \\sqrt{5}$ have sum $= -1 + \\sqrt{5} - 1 - \\sqrt{5} = -2$\nand product $= (-1 + \\sqrt{5})(-1 - \\sqrt{5}) = -4$\n\n$\\therefore$ they come from the quadratic factor $x^2 + 2x - 4$.\n\nThe zeros 2 and $-\\frac{1}{3}$ come from the linear factors $(x - 2)$ and $(3x + 1)$.\n\n$\\therefore P(x) = a(x - 2)(3x + 1)(x^2 + 2x - 4)$, $a \\neq 0$.",
+      "source_images": ["image2256.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. Find all real quadratic functions with zeros:\n\n(a) 0 and $-\\frac{2}{3}$\n(b) $2 \\pm \\sqrt{3}$\n(c) $-1$ and $1 - \\sqrt{2}$\n(d) $3 \\pm i$\n(e) $1 \\pm 3i$\n(f) $-2 \\pm 5i$\n(g) $-3 \\pm \\sqrt{2}$\n(h) $\\pm i\\sqrt{2}$\n(i) $\\sqrt{2} \\pm i$",
+      "source_images": ["image2257.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "10. Show that if the zeros of the quadratic function $P(x)$ are $p \\pm qi$, then the function has the form $P(x) = a(x^2 - 2px + (p^2 + q^2))$ for some constant $a \\neq 0$.",
+      "source_images": ["image2258.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "11. Find all real cubic polynomials with zeros:\n\n(a) $\\pm 2$, $3$\n(b) $-2$, $\\pm 4i$\n(c) $3$, $-1 \\pm i$\n(d) $-5$, $-3 \\pm 2i$\n(e) $-1$, $3 \\pm \\sqrt{2}$\n(f) $\\sqrt{2}$, $-2 \\pm i\\sqrt{2}$\n\n12. Find all real quartic polynomials with zeros:\n\n(a) $-2$, $0$, $1$, $5$\n(b) $\\pm 1$, $\\pm\\sqrt{2}$\n(c) $2$, $-1$, $\\pm i\\sqrt{3}$\n(d) $2 \\pm \\sqrt{3}$, $4$, $0$\n(e) $\\pm\\sqrt{3}$, $1 \\pm i$\n(f) $2 \\pm \\sqrt{5}$, $-2 \\pm 3i$\n\n13. (a) Suppose a quadratic function with rational coefficients has the irrational zero $p + q\\sqrt{n}$. Prove that the other zero must be the radical conjugate $p - q\\sqrt{n}$.\n\n(b) $1 - \\sqrt{2}$ is a zero of $x^2 + ax + b$ where $a, b \\in \\mathbb{Q}$. Find $a$ and $b$.\n\n(c) Find all real quadratic functions with rational coefficients and one zero $2 + \\sqrt{5}$.\n\n14. (a) Prove that if a real quadratic function has one zero $p + qi$, then the other zero must be complex conjugate $p - qi$.\n\n(b) $3 + i$ is a zero of $x^2 + ax + b$ where $a, b \\in \\mathbb{R}$. Find $a$ and $b$.\n\n(c) Find all real quadratic functions with one zero $\\sqrt{2} + i$.\n\n(d) $a + ai$ is a zero of $x^2 + 4x + b$ where $a, b \\in \\mathbb{R}$. Find $a$ and $b$.",
+      "source_images": ["image2259.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Two polynomials are equal if and only if they have the same degree (order) and corresponding terms have equal coefficients.\n\nIf we know two polynomials are equal, we can equate coefficients to find unknown coefficients.\n\nFor example, if $x^3 - 2x^2 + 3x + 7 = ax^3 + bx^2 + cx + d$, where $a, b, c, d \\in \\mathbb{R}$, then $a = 1$, $b = -2$, $c = 3$, and $d = 7$.",
+      "source_images": ["image2260.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 8\n\nFind constants $a$, $b$, and $c$ given that: $4x^3 + 10x^2 - x + 15 = (x + 3)(ax^2 + bx + c)$ for all $x$.\n\nSolution:\n\n$4x^3 + 10x^2 - x + 15 = (x + 3)(ax^2 + bx + c)$\n$= ax^3 + bx^2 + cx + 3ax^2 + 3bx + 3c$\n$= ax^3 + (3a + b)x^2 + (3b + c)x + 3c$\n\nSince this is true for all $x$, we equate coefficients:\n\n$\\therefore a = 4$, $3a + b = 10$, $3b + c = -1$, and $3c = 15$\n\n$x^3$s: $a = 4$\n$x^2$s: $3a + b = 10$\n$x$s: $3b + c = -1$\nconstant terms: $3c = 15$\n\n$\\therefore a = 4$ and $c = 5$\n\n$12 + b = 10$ and $3b + 5 = -1 \\Rightarrow b = -2$ in both equations.\n\nSo, $a = 4$, $b = -2$, and $c = 5$.",
+      "source_images": ["image2261.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 9\n\nFind constants $a$ and $b$ if $z^4 + 9 = (z^2 + az + 3)(z^2 + bz + 3)$ for all $z$.\n\nSolution:\n\n$z^4 + 9 = (z^2 + az + 3)(z^2 + bz + 3)$ for all $z$\n$= z^4 + bz^3 + 3z^2$\n$\\quad\\quad + az^3 + abz^2 + 3az$\n$\\quad\\quad\\quad\\quad + 3z^2 + 3bz + 9$\n$= z^4 + (a + b)z^3 + (ab + 6)z^2 + (3a + 3b)z + 9$ for all $z$\n\nEquating coefficients gives $\\begin{cases} a + b = 0 & .... (1) \\quad \\{z^3\\text{s}\\} \\\\ ab + 6 = 0 & .... (2) \\quad \\{z^2\\text{s}\\} \\\\ 3a + 3b = 0 & .... (3) \\quad \\{z\\text{s}\\} \\end{cases}$\n\nWhen simultaneously solving more equations than there are unknowns, we must check that any solutions fit all equations. If they do not, there are no solutions.\n\nFrom (1) and (3), $b = -a$\n\n$\\therefore$ in (2), $a(-a) + 6 = 0$\n$\\therefore a^2 = 6$\n$\\therefore a = \\pm\\sqrt{6}$ and so $b = \\mp\\sqrt{6}$\n\n$\\therefore a = \\sqrt{6}$, $b = -\\sqrt{6}$ or $a = -\\sqrt{6}$, $b = \\sqrt{6}$",
+      "source_images": ["image2262.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5D\n\n1. Find constants $a$, $b$, and $c$ given that:\n\n(a) $2x^2 + 4x + 5 = ax^2 + (2b - 6)x + c$ for all $x$\n\n(b) $x^3 + 2x^2 - 3x + 4 = (x - 2)(x^2 + ax + b) + c$ for all $x$\n\n(c) $2x^3 - x^2 + 6 = (x - 1)^2(2x + a) + bx + c$ for all $x$.\n\n2. Find constants $a$ and $b$ if:\n\n(a) $z^4 + 4 = (z^2 + az + 2)(z^2 + bz + 2)$ for all $z$\n\n(b) $z^4 + z^3 + z^2 - 9z - 10 = (z^2 + az + 5)(z^2 + bz - 2)$ for all $z$\n\n(c) $2z^4 + 5z^3 + 4z^2 + 7z + 6 = (z^2 + az + 2)(2z^2 + bz + 3)$ for all $z$.\n\n3. Show that $z^4 + 64$ can be factorised into two real quadratic factors of the form $z^2 + az + 8$ and $z^2 + bz + 8$, but cannot be factorised into two real quadratic factors of the form $z^2 + az + 16$ and $z^2 + bz + 4$.\n\n4. Find real numbers $a$ and $b$ such that $x^4 - 4x^2 + 8x - 4 = (x^2 + ax + 2)(x^2 + bx - 2)$.\nHence find $x \\in \\mathbb{R}$ such that $x^4 + 8x = 4x^2 + 4$.\n\n5. Find real numbers $c$ and $d$ such that $x^4 - 10x^2 + 1 = (x^2 + cx + 1)(x^2 + dx + 1)$.\nHence find $x \\in \\mathbb{R}$ such that $x^4 + 1 = 10x^2$.",
+      "source_images": ["image2263.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 10\n\n$(2x + 3)$ and $(x - 1)$ are factors of $2x^4 + ax^3 - 3x^2 + bx + 3$.\n\nFind constants $a$ and $b$, and all zeros of the polynomial.",
+      "source_images": ["image2264.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Since $(2x + 3)$ and $(x - 1)$ are factors,\n\nThe coefficient of $x^4$ is $2 \\times 1 \\times 1 = 2$\n\nThis must be $-1$ so the constant term is $3 \\times -1 \\times -1 = 3$\n\n$2x^4 + ax^3 - 3x^2 + bx + 3 = (2x + 3)(x - 1)(x^2 + cx - 1)$ for some $c$\n$= (2x^2 + x - 3)(x^2 + cx - 1)$\n$= 2x^4 + 2cx^3 - 2x^2$\n$\\quad\\quad + x^3 + cx^2 - x$\n$\\quad\\quad\\quad\\quad - 3x^2 - 3cx + 3$\n$= 2x^4 + (2c + 1)x^3 + (c - 5)x^2 + (-1 - 3c)x + 3$\n\nEquating coefficients gives $2c + 1 = a$, $c - 5 = -3$, and $-1 - 3c = b$\n\n$\\therefore c = 2$\n$\\therefore a = 5$ and $b = -7$\n\n$\\therefore P(x) = 2x^4 + 5x^3 - 3x^2 - 7x + 3$\n$= (2x + 3)(x - 1)(x^2 + 2x - 1)$\n\nNow $x^2 + 2x - 1$ has zeros $\\frac{-2 \\pm \\sqrt{4 - 4(1)(-1)}}{2} = \\frac{-2 \\pm 2\\sqrt{2}}{2} = -1 \\pm \\sqrt{2}$\n\n$\\therefore$ the zeros are $-\\frac{3}{2}$, $1$, $-1 - \\sqrt{2}$, and $-1 + \\sqrt{2}$.",
+      "source_images": ["image2265.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. (a) $(2z - 3)$ is a factor of $2z^3 + az^2 - 17z + 12$. Find $a \\in \\mathbb{R}$ and all zeros of the cubic.\n\n(b) $(3z + 2)$ is a factor of $3z^3 - z^2 + (a - 4)z + a$. Find $a \\in \\mathbb{R}$ and all the zeros of the cubic.\n\n7. (a) $(2x + 1)$ and $(x - 2)$ are factors of $P(x) = 2x^4 + ax^3 + bx^2 + 18x + 8$.\nFind constants $a$ and $b$, and all zeros of $P(x)$.\n\n(b) $(x + 3)$ and $(2x - 1)$ are factors of $2x^4 + ax^3 + bx^2 + ax + 3$.\nFind constants $a$ and $b$, and hence determine all zeros of the quartic.\n\n8. Find $k$ given that $4x^4 - 4x^3 + kx^2 - 6x + 9$ is a perfect square.\n\n9. Write $x^4 - 2x^3 - 3x^2 + 4x + 3$ in the form $a(x^2 - x)^2 + b(x^2 - x) + c$ where $a$, $b$, $c$ are constants.\nHence find all zeros of the polynomial.\n\n10. (a) $x^3 + x^2 - 16x + k$, $k \\in \\mathbb{R}$, has two identical linear factors. Find $k$, and hence factorise the cubic into linear factors.\n\n(b) $x^3 + 3x^2 - 9x + c$, $c \\in \\mathbb{R}$, has two identical linear factors. Prove that $c$ is either 5 or $-27$, and factorise the cubic into linear factors in each case.\n\n(c) $3x^3 + 4x^2 - x + m$, $m \\in \\mathbb{R}$, has two identical linear factors. Find the possible values of $m$, and find the zeros of the polynomial in each case.",
+      "source_images": ["image2266.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Consider the real cubic polynomial $P(x) = x^3 + 5x^2 - 11x + 3$.\n\nIf we divide $P(x)$ by $x - 2$, we find that\n\n$\\frac{x^3 + 5x^2 - 11x + 3}{x - 2} = x^2 + 7x + 3 + \\frac{9}{x - 2}$ $\\leftarrow$ remainder\n\nSo, when $P(x)$ is divided by $x - 2$, the remainder is 9.\n\nNotice that $P(2) = 8 + 20 - 22 + 3$\n$= 9$, which is the remainder.\n\nBy considering other examples like the one above, we formulate the Remainder theorem:\n\nA real polynomial is a polynomial with real coefficients.",
+      "source_images": ["image2267.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "When a polynomial $P(x)$ is divided by $x - k$ until a constant remainder $R$ is obtained, then $R = P(k)$.",
+      "source_images": ["image2268.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Proof: By the division algorithm, $P(x) = Q(x)(x - k) + R$\nLetting $x = k$, $P(k) = Q(k) \\times 0 + R$\n$\\therefore P(k) = R$",
+      "source_images": ["image2269.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "When using the Remainder theorem, it is important to realise that the following statements are equivalent:\n\n- $P(x) = (x - k)Q(x) + R$\n- $P(k) = R$\n- $P(x)$ divided by $x - k$ leaves a remainder of $R$.",
+      "source_images": ["image2270.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 14\n\nUse the Remainder theorem to find the remainder when $x^4 - 3x^3 + x - 4$ is divided by $x + 2$.\n\nSolution:\n\nIf $P(x) = x^4 - 3x^3 + x - 4$, then\n$P(-2) = (-2)^4 - 3(-2)^3 + (-2) - 4$\n$= 16 + 24 - 2 - 4$\n$= 34$\n\n$\\therefore$ when $x^4 - 3x^3 + x - 4$ is divided by $x + 2$, the remainder is 34. {Remainder theorem}",
+      "source_images": ["image2271.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 15\n\nWhen $x^3 + 4x^2 + ax + b$ is divided by $x - 2$ the remainder is 20, and when divided by $x + 5$ the remainder is 6. Find $a$ and $b$.\n\nSolution:\n\nLet $P(x) = x^3 + 4x^2 + ax + b$\n\n$\\therefore P(2) = 20$ and $P(-5) = 6$ {Remainder theorem}\n\nSo, $(2)^3 + 4(2)^2 + a(2) + b = 20$\n$\\therefore 8 + 16 + 2a + b = 20$\n$\\therefore 2a + b = -4$ .... (1)\n\nand $(-5)^3 + 4(-5)^2 + a(-5) + b = 6$\n$\\therefore -125 + 100 - 5a + b = 6$\n$\\therefore -5a + b = 31$ .... (2)\n\nSolving simultaneously: $2a + b = -4$ {(1)}\n$5a - b = -31$ {$-(2)$}\n\nAdding, $7a = -35$\n$\\therefore a = -5$\n\nSubstituting $a = -5$ into (1), $2(-5) + b = -4$\n$\\therefore b = 6$",
+      "source_images": ["image2272.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 16\n\nWhen $P(x)$ is divided by $x^2 - 3x + 7$, the quotient is $x^2 + x - 1$ and the remainder $R(x)$ is unknown.\n\nWhen $P(x)$ is divided by $x - 2$ the remainder is 29. When $P(x)$ is divided by $x + 1$ the remainder is $-16$.\n\nFind $R(x)$ in the form $ax + b$.\n\nSolution:\n\nWhen the divisor is $x^2 - 3x + 7$, $P(x) = \\underbrace{(x^2 + x - 1)}_{Q(x)} \\underbrace{(x^2 - 3x + 7)}_{D(x)} + \\underbrace{ax + b}_{R(x)}$.\n\nNow $P(2) = 29$ {Remainder theorem}\n\n$\\therefore (2^2 + 2 - 1)(2^2 - 6 + 7) + 2a + b = 29$\n$\\therefore (5)(5) + 2a + b = 29$\n$\\therefore 2a + b = 4$ .... (1)\n\nAlso, $P(-1) = -16$ {Remainder theorem}\n\n$\\therefore ((-1)^2 + (-1) - 1)((-1)^2 - 3(-1) + 7) + (-a + b) = -16$\n$\\therefore (-1)(11) - a + b = -16$\n$\\therefore -a + b = -5$ .... (2)\n\nSolving (1) and (2) simultaneously gives $a = 3$ and $b = -2$.\n\n$\\therefore R(x) = 3x - 2$.",
+      "source_images": ["image2273.png"]
+    }
+  ]
+}

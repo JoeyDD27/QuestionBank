@@ -1,0 +1,282 @@
+{
+  "chapter": 30,
+  "part": 1,
+  "images_range": "2671-2726",
+  "items": [
+    {
+      "type": "definition",
+      "content_latex": "Any number of the form $a + bi$ where $a, b \\in \\mathbb{R}$ and $i = \\sqrt{-1}$, is called a complex number.",
+      "source_images": ["image2671.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Notice that:\n\n- All real numbers can be written as complex numbers by simply choosing $b = 0$.\n- In the special case $a = 0$, we have a number of the form $bi$, $b \\in \\mathbb{R}$. We say this number is purely imaginary.\n\nREAL AND IMAGINARY PARTS\n\nIf $z = a + bi$ where $a, b \\in \\mathbb{R}$, then:\n\n- $a$ is the real part of $z$, written $\\Re(z)$\n- $b$ is the imaginary part of $z$, written $\\Im(z)$.",
+      "source_images": ["image2672.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "For example:\n\n- If $z = 2 + 3i$, then $\\Re(z) = 2$ and $\\Im(z) = 3$.\n- If $z = -\\sqrt{2}i$, then $\\Re(z) = 0$ and $\\Im(z) = -\\sqrt{2}$.\n\nCOMPLEX CONJUGATES\n\nSuppose $z = a + bi$ where $a, b \\in \\mathbb{R}$.\n\nThe complex conjugate of $z$ is $z^* = a - bi$.\n\n$\\Re(z^*) = \\Re(z)$ and $\\Im(z^*) = -\\Im(z)$",
+      "source_images": ["image2673.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "For example, if $z = 2 + 3i$ then $z^* = 2 - 3i$.",
+      "source_images": ["image2674.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 1\n\nWrite in terms of $i$:\n\n(a) $\\sqrt{-81}$\n\n(b) $-\\sqrt{-3}$\n\nSolutions:\n\n(a) $\\sqrt{-81}$\n$= \\sqrt{81} \\times \\sqrt{-1}$\n$= 9i$\n\n(b) $-\\sqrt{-3}$\n$= -\\sqrt{3}\\sqrt{-1}$\n$= -i\\sqrt{3}$",
+      "source_images": ["image2675.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 4A\n\n1. Copy and complete:\n\n| $z$ | $\\Re(z)$ | $\\Im(z)$ | $z^*$ |\n|-----|----------|----------|-------|\n| $3 + 2i$ | | | |\n| $5 - i$ | | | |\n| $3$ | | | |\n| $0$ | | | |\n| $-3 + 4i$ | | | |\n| $-7 - 2i$ | | | |\n| $-11i$ | | | |\n| $i\\sqrt{3}$ | | | |",
+      "source_images": ["image2676.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Write in terms of $i$:\n\n(a) $\\sqrt{-9}$\n\n(b) $\\sqrt{-64}$\n\n(c) $\\sqrt{-\\frac{1}{4}}$\n\n(d) $\\sqrt{-5}$\n\n(e) $\\sqrt{-8}$",
+      "source_images": ["image2677.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 2\n\nSolve the quadratic equations:\n\n(a) $x^2 = -4$\n\n(b) $x^2 + x + 2 = 0$\n\nSolutions:\n\n(a) $x^2 = -4$\n$\\therefore x = \\pm\\sqrt{-4}$\n$\\therefore x = \\pm\\sqrt{4}\\sqrt{-1}$\n$\\therefore x = \\pm 2i$\n\n(b) Using the quadratic formula,\n$x = \\frac{-1 \\pm \\sqrt{1^2 - 4(1)(2)}}{2(1)}$\n$\\therefore x = \\frac{-1 \\pm \\sqrt{-7}}{2}$\n$\\therefore x = \\frac{-1 \\pm i\\sqrt{7}}{2} = -\\frac{1}{2} \\pm \\frac{\\sqrt{7}}{2}i$",
+      "source_images": ["image2677.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Solve for $x$:\n\n(a) $x^2 = 25$\n\n(b) $x^2 = -25$\n\n(c) $x^2 = 5$\n\n(d) $x^2 = -5$\n\n(e) $4x^2 = 9$\n\n(f) $4x^2 = -9$",
+      "source_images": ["image2677.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Solve for $x$ using the quadratic formula:\n\n(a) $x^2 - 10x + 29 = 0$\n\n(b) $x^2 + 6x + 25 = 0$\n\n(c) $x^2 + 14x + 50 = 0$\n\n(d) $2x^2 + 5 = 6x$\n\n(e) $x^2 - 2\\sqrt{3}x + 4 = 0$\n\n(f) $2x + \\frac{1}{x} = 1$",
+      "source_images": ["image2678.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "THE SUM OF TWO SQUARES FACTORISATION\n\nWe have previously used the difference between two squares factorisation $a^2 - b^2 = (a + b)(a - b)$ extensively.\n\nHowever, without $i = \\sqrt{-1}$ we have been unable to factorise the sum of two squares.\n\nNotice that $a^2 + b^2 = a^2 - b^2i^2$ {as $i^2 = -1$}\n$= (a + bi)(a - bi)$ {the difference between two squares}\n\nThe sum of two squares factorisation is: $a^2 + b^2 = (a + bi)(a - bi)$",
+      "source_images": ["image2679.png", "image2680.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 3\n\nWrite as a product of linear factors:\n\n(a) $x^2 + 4$\n\n(b) $x^2 + 11$\n\nSolutions:\n\n(a) $x^2 + 4$\n$= x^2 - 4i^2$\n$= (x + 2i)(x - 2i)$\n\n(b) $x^2 + 11$\n$= x^2 - 11i^2$\n$= (x + i\\sqrt{11})(x - i\\sqrt{11})$",
+      "source_images": ["image2681.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 5\n\nSolve for $x$:\n\n(a) $x^3 + 2x = 0$\n\n(b) $x^4 + x^2 = 6$\n\nSolutions:\n\n(a) $x^3 + 2x = 0$\n$\\therefore x(x^2 + 2) = 0$\n$\\therefore x(x^2 - 2i^2) = 0$\n$\\therefore x(x + i\\sqrt{2})(x - i\\sqrt{2}) = 0$\n$\\therefore x = 0$ or $\\pm i\\sqrt{2}$\n\n(b) $x^4 + x^2 = 6$\n$\\therefore x^4 + x^2 - 6 = 0$\n$\\therefore (x^2 + 3)(x^2 - 2) = 0$\n$\\therefore (x + i\\sqrt{3})(x - i\\sqrt{3})(x + \\sqrt{2})(x - \\sqrt{2}) = 0$\n$\\therefore x = \\pm i\\sqrt{3}$ or $\\pm\\sqrt{2}$",
+      "source_images": ["image2682.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 4B\n\n1. Write as a product of linear factors:\n\n(a) $x^2 - 9$\n\n(b) $x^2 + 9$\n\n(c) $x^2 - 7$\n\n(d) $x^2 + 7$\n\n(e) $4x^2 - 1$\n\n(f) $4x^2 + 1$\n\n(g) $2x^2 - 9$\n\n(h) $2x^2 + 9$\n\n2. Explain why the product of the complex conjugates $a + bi$ and $a - bi$ is always real.",
+      "source_images": ["image2683.png", "image2684.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 4\n\nSolve for $x$ by factorisation:\n\n(a) $x^2 + 9 = 0$\n\n(b) $2x^2 + 3 = 0$\n\nSolutions:\n\n(a) $x^2 + 9 = 0$\n$\\therefore x^2 - 9i^2 = 0$\n$\\therefore (x + 3i)(x - 3i) = 0$\n$\\therefore x = \\pm 3i$\n\n(b) $2x^2 + 3 = 0$\n$\\therefore (\\sqrt{2}x)^2 - (i\\sqrt{3})^2 = 0$\n$\\therefore (\\sqrt{2}x + i\\sqrt{3})(\\sqrt{2}x - i\\sqrt{3}) = 0$\n$\\therefore \\sqrt{2}x = \\pm i\\sqrt{3}$\n$\\therefore x = \\pm i\\frac{\\sqrt{3}}{\\sqrt{2}}$",
+      "source_images": ["image2683.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Solve for $x$ by factorisation:\n\n(a) $x^2 + 16 = 0$\n\n(b) $36 + x^2 = 0$\n\n(c) $x^2 + 5 = 0$\n\n(d) $9x^2 + 1 = 0$\n\n(e) $4x^2 + 25 = 0$\n\n(f) $3x^2 + 2 = 0$",
+      "source_images": ["image2685.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Write as a product of linear factors:\n\n(a) $x^3 - x$\n\n(b) $x^3 + x$\n\n(c) $x^4 - 1$\n\n(d) $x^4 - 16$\n\n5. Solve for $x$:\n\n(a) $x^3 - 4x = 0$\n\n(b) $x^3 + 4x = 0$\n\n(c) $x^3 - 3x = 0$\n\n(d) $x^3 + 3x = 0$\n\n(e) $x^4 - 1 = 0$\n\n(f) $x^4 = 81$\n\n6. Solve for $x$:\n\n(a) $x^4 + 2x^2 = 3$\n\n(b) $x^4 = x^2 + 6$\n\n(c) $x^4 + 5x^2 = 36$\n\n(d) $x^4 + 9x^2 + 14 = 0$\n\n(e) $x^4 + 1 = 2x^2$\n\n(f) $x^4 + 2x^2 + 1 = 0$",
+      "source_images": ["image2686.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Operations with complex numbers are identical to those with radicals, but with $i^2 = -1$ rather than $(\\sqrt{2})^2 = 2$ or $(\\sqrt{3})^2 = 3$.\n\nFor example:\n\n- addition: $(2 + \\sqrt{3}) + (4 + 2\\sqrt{3}) = (2 + 4) + (1 + 2)\\sqrt{3} = 6 + 3\\sqrt{3}$\n$(2 + i) + (4 + 2i) = (2 + 4) + (1 + 2)i = 6 + 3i$\n\n- multiplication: $(2 + \\sqrt{3})(4 + 2\\sqrt{3}) = 8 + 4\\sqrt{3} + 4\\sqrt{3} + 2(\\sqrt{3})^2 = 8 + 8\\sqrt{3} + 6 = 14 + 8\\sqrt{3}$\n$(2 + i)(4 + 2i) = 8 + 4i + 4i + 2i^2 = 8 + 8i - 2 = 6 + 8i$\n\n$(a + bi) + (c + di) = (a + c) + (b + d)i$ addition\n$(a + bi) - (c + di) = (a - c) + (b - d)i$ subtraction\n$(a + bi)(c + di) = ac + adi + bci + bdi^2$ multiplication",
+      "source_images": ["image2687.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "When we perform division with radicals, we use the radical conjugate of the denominator to achieve a rational denominator.\n\nFor example, $\\frac{1 + 2\\sqrt{3}}{4 - \\sqrt{3}} = \\left(\\frac{1 + 2\\sqrt{3}}{4 - \\sqrt{3}}\\right)\\left(\\frac{4 + \\sqrt{3}}{4 + \\sqrt{3}}\\right) = \\frac{4 + \\sqrt{3} + 8\\sqrt{3} + 6}{16 - 3} = \\frac{10 + 9\\sqrt{3}}{13}$\n\nIn the previous Exercise we saw that multiplying a complex number by its complex conjugate also produces a real number. We can use this to achieve a real denominator.\n\nFor example, $\\frac{1 + 2i}{4 - i} = \\left(\\frac{1 + 2i}{4 - i}\\right)\\left(\\frac{4 + i}{4 + i}\\right) = \\frac{4 + i + 8i + 2i^2}{16 - i^2} = \\frac{2 + 9i}{17}$\n\n$\\frac{a + bi}{c + di} = \\left(\\frac{a + bi}{c + di}\\right)\\left(\\frac{c - di}{c - di}\\right) = \\frac{ac - adi + bci - bdi^2}{c^2 + d^2}$ division",
+      "source_images": ["image2688.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 6\n\nIf $z = 3 + 2i$ and $w = 4 - i$ find:\n\n(a) $z + w$\n\n(b) $z - w$\n\n(c) $zw$\n\n(d) $\\frac{z}{w}$\n\nSolutions:\n\n(a) $z + w$\n$= (3 + 2i) + (4 - i)$\n$= 7 + i$\n\n(b) $z - w$\n$= (3 + 2i) - (4 - i)$\n$= 3 + 2i - 4 + i$\n$= -1 + 3i$\n\n(c) $zw$\n$= (3 + 2i)(4 - i)$\n$= 12 - 3i + 8i - 2i^2$\n$= 12 + 5i + 2$\n$= 14 + 5i$\n\n(d) $\\frac{z}{w} = \\frac{3 + 2i}{4 - i}$\n$= \\left(\\frac{3 + 2i}{4 - i}\\right)\\left(\\frac{4 + i}{4 + i}\\right)$\n$= \\frac{12 + 3i + 8i + 2i^2}{16 - i^2}$\n$= \\frac{10 + 11i}{17}$\n$= \\frac{10}{17} + \\frac{11}{17}i$",
+      "source_images": ["image2689.png", "image2690.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 4C\n\n1. If $z = 5 - 2i$ and $w = 2 + i$, find in simplest form:\n\n(a) $z + w$\n\n(b) $2z$\n\n(c) $iw$\n\n(d) $z - w$\n\n(e) $2z - 3w$\n\n(f) $zw$\n\n(g) $w^2$\n\n(h) $z^2$\n\n2. For $z = 1 + i$ and $w = -2 + 3i$, find in simplest form:\n\n(a) $z + 2w$\n\n(b) $z^2$\n\n(c) $z^3$\n\n(d) $iz$\n\n(e) $w^2$\n\n(f) $zw$\n\n(g) $z^2w$\n\n(h) $izw$\n\n3. Prove that the sum of complex conjugates is always real.",
+      "source_images": ["image2691.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. (a) Simplify $i^n$ for $n = 0, 1, 2, 3, 4, 5, 6, 7, 8, 9$ and also for $n = -1, -2, -3, -4, -5$.\n\n(b) Hence simplify $i^{4n+3}$ where $n$ is any integer.\n\n5. Write $(1 + i)^4$ in simplest form. Hence find $(1 + i)^{101}$ in simplest form.\n\n6. (a) Use complex number notation to find $\\sqrt{-4} \\times \\sqrt{-9}$.\n\n(b) We have previously seen that $\\sqrt{a} \\times \\sqrt{b} = \\sqrt{ab}$ for any $a, b \\geqslant 0$.\nIs this rule also valid for negative $a$, $b$? Justify your answer.\n\n7. Suppose $z = 2 - i$ and $w = 1 + 3i$. Write in the form $a + bi$ where $a, b \\in \\mathbb{R}$ are given exactly:\n\n(a) $\\frac{z}{w}$\n\n(b) $\\frac{i}{z}$\n\n(c) $\\frac{w}{iz}$\n\n(d) $z^{-2}$\n\n8. Simplify:\n\n(a) $\\frac{i}{1 - 2i}$\n\n(b) $\\frac{i(2 - i)}{3 - 2i}$\n\n(c) $\\frac{1}{2 - i} - \\frac{2}{2 + i}$\n\n(d) $\\frac{i}{x + i} - \\frac{i}{x - i}$\n\n9. If $z = 2 + i$ and $w = -1 + 2i$, find:\n\n(a) $\\Im(4z - 3w)$\n\n(b) $\\Re(zw)$\n\n(c) $\\Im(iz^2)$\n\n(d) $\\Re\\left(\\frac{z}{w}\\right)$\n\n10. Express $z = \\left(\\frac{4}{1 + i} + 7 - 2i\\right)^2$ in the form $a + bi$ where $a, b \\in \\mathbb{Z}$.\n\n11. Express $z = \\frac{3i}{\\sqrt{2} - i} + 1$ in the form $a + bi$ where $a, b \\in \\mathbb{R}$ are given exactly.\n\n12. Suppose $w = \\frac{z - 1}{z^* + 1}$ where $z = a + bi$ for $a, b \\in \\mathbb{R}$, and $z^*$ is the complex conjugate of $z$.\n\n(a) Write $w$ in the form $x + yi$.\n\n(b) Hence determine the conditions under which $w$ is purely imaginary.\n\n13. Solve for $z$: $z^2 - (2 + i)z + 3 + i = 0$",
+      "source_images": ["image2692.png", "image2693.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Two complex numbers are equal when their real parts are equal and their imaginary parts are equal.\n\n$a + bi = c + di \\Leftrightarrow a = c$ and $b = d$.\n\nProof:\n\nSuppose $b \\neq d$. Now if $a + bi = c + di$ where $a$, $b$, $c$, and $d$ are real,\nthen $bi - di = c - a$\n$\\therefore i(b - d) = c - a$\n$\\therefore i = \\frac{c - a}{b - d}$ {as $b \\neq d$}\n\nThis is false as the RHS is real but the LHS is imaginary.\n\nThus, the supposition is false. Hence $b = d$ and furthermore $a = c$.",
+      "source_images": ["image2694.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 7\n\nFind real numbers $x$ and $y$ such that:\n\n(a) $(x + yi)(2 - i) = -i$\n\n(b) $(x + 2i)(1 - i) = 5 + yi$\n\nSolutions:\n\n(a) $(x + yi)(2 - i) = -i$\n$\\therefore x + yi = \\frac{-i}{2 - i}$\n$= \\left(\\frac{-i}{2 - i}\\right)\\left(\\frac{2 + i}{2 + i}\\right)$\n$= \\frac{-2i - i^2}{4 + 1}$\n$= \\frac{1 - 2i}{5}$\n$= \\frac{1}{5} - \\frac{2}{5}i$\n\nEquating real and imaginary parts, $x = \\frac{1}{5}$ and $y = -\\frac{2}{5}$.\n\n(b) $(x + 2i)(1 - i) = 5 + yi$\n$\\therefore x - xi + 2i + 2 = 5 + yi$\n$\\therefore (x + 2) + (2 - x)i = 5 + yi$\n\nEquating real and imaginary parts,\n$\\therefore x + 2 = 5$ and $2 - x = y$\n$\\therefore x = 3$ and $y = -1$",
+      "source_images": ["image2695.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 4D\n\n1. Find exact real numbers $x$ and $y$ such that:\n\n(a) $2x + 3yi = -x - 6i$\n\n(b) $x^2 + xi = 4 - 2i$\n\n(c) $(x + yi)(2 - i) = 8 + i$\n\n(d) $(3 + 2i)(x + yi) = -i$\n\n2. Find exact $x, y \\in \\mathbb{R}$ such that:\n\n(a) $2(x + yi) = x - yi$\n\n(b) $(x + 2i)(y - i) = -4 - 7i$\n\n(c) $(x + i)(3 - iy) = 1 + 13i$\n\n(d) $(x + yi)(2 + i) = 2x - (y + 1)i$\n\n3. The complex number $z$ satisfies the equation $3z + 17i = iz + 11$. Write $z$ in the form $a + bi$ where $a, b \\in \\mathbb{R}$ and $i = \\sqrt{-1}$.\n\n4. Find the real values of $m$ and $n$ for which $3(m + ni) = n - 2mi - (1 - 2i)$.\n\n5. Suppose $(a + bi)^2 = -16 - 30i$ where $a, b \\in \\mathbb{R}$. Find the possible values of $a$ and $b$.\n\n6. Given $z^2 = 1 + i + \\frac{58}{9(3 - 7i)}$, find $z$ in the form $a + bi$.",
+      "source_images": ["image2696.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Properties of complex conjugates:\n\n- $(z^*)^* = z$\n- $(z_1 + z_2)^* = z_1^* + z_2^*$ and $(z_1 - z_2)^* = z_1^* - z_2^*$\n- $(z_1z_2)^* = z_1^* \\times z_2^*$ and $\\left(\\frac{z_1}{z_2}\\right)^* = \\frac{z_1^*}{z_2^*}$, $z_2 \\neq 0$\n- $(z^n)^* = (z^*)^n$ for positive integers $n$\n- $z + z^*$ and $zz^*$ are real.",
+      "source_images": ["image2697.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 8\n\nShow that for all complex numbers $z_1$ and $z_2$:\n\n(a) $(z_1 + z_2)^* = z_1^* + z_2^*$\n\n(b) $(z_1z_2)^* = z_1^* \\times z_2^*$\n\nSolutions:\n\n(a) Let $z_1 = a + bi$ and $z_2 = c + di$\n$\\therefore z_1^* = a - bi$ and $z_2^* = c - di$\n\nNow $z_1 + z_2 = (a + c) + (b + d)i$\n$\\therefore (z_1 + z_2)^* = (a + c) - (b + d)i$\n$= a - bi + c - di$\n$= z_1^* + z_2^*$\n\n(b) Let $z_1 = a + bi$ and $z_2 = c + di$\n$\\therefore z_1z_2 = (a + bi)(c + di)$\n$= ac + adi + bci + bdi^2$\n$= (ac - bd) + i(ad + bc)$\n$\\therefore (z_1z_2)^* = (ac - bd) - i(ad + bc)$ .... (1)\n\nAlso, $z_1^* \\times z_2^*$\n$= (a - bi)(c - di)$\n$= ac - adi - bci + bdi^2$\n$= (ac - bd) - i(ad + bc)$ .... (2)\n\nFrom (1) and (2), $(z_1z_2)^* = z_1^* \\times z_2^*$",
+      "source_images": ["image2698.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 4E\n\n1. Show that $(z_1 - z_2)^* = z_1^* - z_2^*$ for all complex numbers $z_1$ and $z_2$.\n\n2. Simplify the expression $(w^* - z)^* - (w - 2z^*)$ using the properties of conjugates.\n\n3. Suppose $z_1 = a + bi$ and $z_2 = c + di$ are complex numbers.\n\n(a) Find $\\frac{z_1}{z_2}$ in the form $X + iY$.\n\n(b) Show that $\\left(\\frac{z_1}{z_2}\\right)^* = \\frac{z_1^*}{z_2^*}$ for all $z_1$ and $z_2 \\neq 0$.",
+      "source_images": ["image2699.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Prove that $\\left(\\frac{z_1}{z_2}\\right)^* = \\frac{z_1^*}{z_2^*}$ by starting with $\\left(\\frac{z_1}{z_2}\\right) \\times z_2^*$ and using the result \"the conjugate of a product is the product of the conjugates\" from Example 8 (b).\n\n5. Let $z = a + bi$ be a complex number. Prove:\n\n(a) If $z = z^*$, then $z$ is real.\n\n(b) If $z^* = -z$, then $z$ is purely imaginary or zero.\n\n6. Prove that for all complex numbers $z$ and $w$:\n\n(a) $zw^* + z^*w$ is always real\n\n(b) $zw^* - z^*w$ is purely imaginary or zero\n\n(c) $\\frac{z}{w} + \\frac{z^*}{w^*}$ is always real.\n\n7. (a) Given $z = a + bi$, write $z^2$ in the form $X + iY$.\nHence show that $(z^2)^* = (z^*)^2$ for all complex numbers $z$.\n\n(b) Repeat (a) with $z^3$ instead of $z^2$.\n\n8. Suppose $w = \\frac{z - 1}{z^* + 1}$ where $z = a + bi$. Find the conditions under which $w$ is:\n\n(a) real\n\n(b) purely imaginary.",
+      "source_images": ["image2700.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 4A\n\n1. Solve for $x$ using the quadratic formula:\n\n(a) $x^2 - 6x + 11 = 0$\n\n(b) $x^2 + 3 = 2\\sqrt{2}x$\n\n2. Solve for $x$ by factorisation:\n\n(a) $3x^2 + 16 = 0$\n\n(b) $x^4 + 2x^2 = 15$\n\n3. If $z = 3 + i$ and $w = -2 - i$, find in simplest form:\n\n(a) $2z - 3w$\n\n(b) $\\frac{z^*}{w}$\n\n(c) $z^3$\n\n4. Find exactly the real and imaginary parts of $z$ if $z = \\frac{3}{i + \\sqrt{3}} + \\sqrt{3}$.\n\n5. If $z = \\left(\\frac{5}{2 - i} - 3 - 2i\\right)^3$, express $z$ in the form $z = x + yi$, $x, y \\in \\mathbb{Z}$.\n\n6. Find real numbers $a$ and $b$ such that:\n\n(a) $a + ib = 4$\n\n(b) $(1 - 2i)(a + bi) = -5 - 10i$\n\n(c) $(a + 2i)(1 + bi) = 17 - 19i$\n\n7. Find a complex number $z$ such that $2z - 1 = iz - i$. Write your answer in the form $z = a + bi$ where $a, b \\in \\mathbb{R}$.\n\n8. Find rationals $a$ and $b$ such that $\\frac{2 - 3i}{2a + bi} = 3 + 2i$.",
+      "source_images": ["image2701.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. Prove that if $z$ is a complex number then both $z + z^*$ and $zz^*$ are real.\n\n10. Suppose $z = x + 2i$ and $u = 3 + iy$ where $x, y \\in \\mathbb{R}$. Find the smallest positive value of $x$ for which $\\frac{z + u}{z - u}$ is purely imaginary.",
+      "source_images": ["image2702.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 4B\n\n1. Write as a product of linear factors:\n\n(a) $x^2 + 121$\n\n(b) $3x^2 + 7$\n\n2. Solve for $x$ by factorisation: $4x^3 + x = 0$\n\n3. If $z = 4 + i$ and $w = 3 - 2i$, find $2w^* - iz$.\n\n4. $z$ and $w$ are two complex numbers such that $2z + w = i$ and $z - 3w = 7 - 10i$.\nFind $z + w$ in the form $a + bi$.\n\n5. Find $z$ if $\\sqrt{z} = \\frac{2}{3 - 2i} + 2 + 5i$.\n\n6. Given $w = \\frac{z + 1}{z^* + 1}$ where $z = a + bi$, $a, b \\in \\mathbb{R}$, write $w$ in the form $x + yi$, $x, y \\in \\mathbb{R}$.\nHence determine the conditions under which $w$ is purely imaginary.\n\n7. Find real $x$ and $y$ such that:\n\n(a) $x + iy = 0$\n\n(b) $(3 - 2i)(x + i) = 17 + yi$\n\n(c) $(x + iy)^2 = x - iy$\n\n(d) $(3x + 2yi)(1 - i) = (3y + 1)i - x$\n\n8. Without using a calculator, find $z$ if $z^2 = 5 - 12i$. Check your answer using a calculator.\n\n9. Let $z = a + bi$ be a complex number and $k$ be a real constant. Prove that $(kz)^* = kz^*$.\n\n10. $z$ and $w$ are non-real complex numbers with the property that both $z + w$ and $zw$ are real.\nProve that $z^* = w$.",
+      "source_images": ["image2703.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "We can therefore plot any complex number on a plane as a unique ordered number pair. We refer to the plane as the complex plane or the Argand plane.\n\nOn the complex plane, the $x$-axis is called the real axis and the $y$-axis is called the imaginary axis.\n\n- All real numbers with $b = 0$ lie on the real axis.\n- All purely imaginary numbers with $a = 0$ lie on the imaginary axis.\n- The origin $(0, 0)$ lies on both axes. It corresponds to $z = 0$, a real number.\n- Complex numbers that are neither real nor purely imaginary ($a$ and $b$ are both not 0) lie in one of the four quadrants.",
+      "source_images": ["image2704.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "$\\overrightarrow{\\text{OP}} = \\begin{pmatrix} x \\\\ y \\end{pmatrix}$ represents $x + yi$",
+      "source_images": ["image2705.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "For example:\n\n$\\overrightarrow{\\text{OP}} = \\begin{pmatrix} 2 \\\\ 3 \\end{pmatrix}$ represents $2 + 3i$\n\n$\\overrightarrow{\\text{OQ}} = \\begin{pmatrix} 4 \\\\ -1 \\end{pmatrix}$ represents $4 - i$\n\n$\\overrightarrow{\\text{OR}} = \\begin{pmatrix} 0 \\\\ -3 \\end{pmatrix}$ represents $-3i$\n\n$\\overrightarrow{\\text{OS}} = \\begin{pmatrix} -3 \\\\ -1 \\end{pmatrix}$ represents $-3 - i$",
+      "source_images": ["image2706.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "The complex conjugate of $z = a + bi$ is $z^* = a - bi$.\n\nIn the complex plane, $z^*$ is the reflection of $z$ in the real axis.",
+      "source_images": ["image2707.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 1\n\nIllustrate the positions of the following complex numbers on an Argand diagram:\n\n$z_1 = 3$, $z_2 = 4 + 3i$, $z_3 = 5i$, $z_4 = -4 + 2i$, $z_5 = -3 - i$, $z_6 = z_2^*$",
+      "source_images": ["image2708.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 2\n\nSuppose $z_1 = 4 + i$ and $z_2 = -1 + 2i$. Find using both algebra and vectors:\n\n(a) $z_1 + z_2$\n\n(b) $z_1 - 2z_2$\n\n(c) $2z_1 + z_2^*$\n\nSolutions:\n\n(a) $z_1 + z_2$\n$= (4 + i) + (-1 + 2i)$\n$= 4 + i - 1 + 2i$\n$= 3 + 3i$\n\n(b) $z_1 - 2z_2$\n$= (4 + i) - 2(-1 + 2i)$\n$= 4 + i + 2 - 4i$\n$= 6 - 3i$\n\n(c) $2z_1 + z_2^*$\n$= 2(4 + i) + (-1 - 2i)$\n$= 8 + 2i - 1 - 2i$\n$= 7$",
+      "source_images": ["image2709.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 3\n\nLet $z = 2 + 3i$ and $w = -3 - i$.\nFind $zw$, and illustrate $z$, $w$, and $zw$ on the same Argand diagram.\n\nSolution:\n\n$zw = (2 + 3i)(-3 - i)$\n$= -6 - 2i - 9i + 3$\n$= -3 - 11i$",
+      "source_images": ["image2710.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 14A\n\n1. On an Argand diagram, illustrate the complex numbers:\n$z_1 = 5$, $z_2 = -1 + 2i$, $z_3 = -6 - 2i$, $z_4 = -6i$, $z_5 = 2 - i$, and $z_6 = 4i$\n\n2. Illustrate on an Argand diagram:\n\n(a) $z = 3 + 2i$ and $z^* = 3 - 2i$\n\n(b) $z = -2 + 5i$ and $z^* = -2 - 5i$\n\n3. Suppose $z$ is a complex number. Explain, with illustration, how to find geometrically:\n\n(a) $3z$\n\n(b) $-2z$\n\n(c) $z + 3$\n\n(d) $3i - z$\n\n(e) $2 - z$\n\n(f) $z^* + i$\n\n(g) $\\frac{z + 2}{3}$\n\n(h) $\\frac{z - 4}{2}$\n\n4. Suppose $z = 1 + 2i$ and $w = 3 - i$. Find using both algebra and vectors:\n\n(a) $z + w$\n\n(b) $z - w$\n\n(c) $2z - w$\n\n(d) $w - 3z$\n\n5. Suppose $z_1 = 4 - i$ and $z_2 = 2 + 3i$. Find using both algebra and vectors:\n\n(a) $z_1 + 1$\n\n(b) $z_1 + 2i$\n\n(c) $z_2 + \\frac{1}{2}z_1$\n\n(d) $\\frac{z_1 + 4}{2}$\n\n6. Suppose $z_1 = -2 + 3i$ and $z_2 = 1 - 2i$. Find using both algebra and vectors:\n\n(a) $z_1 + z_2^*$\n\n(b) $2z_1^* - z_2$\n\n(c) $z_1^* - 2z_2$\n\n(d) $3z_1 + 2z_2$",
+      "source_images": ["image2711.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. Suppose $z = 2 - i$. From the diagram we can see that $z + z^* = 4$, which is real.\nExplain, with illustration, why $z + z^*$ is always real for any complex number $z$.\n\n8. Explain, with illustration, why $z - z^*$ is always purely imaginary or zero. What distinguishes these two cases?\n\n9. Using an Argand diagram, explain why for all complex numbers $z$ and $w$:\n\n(a) $(z + w)^* = z^* + w^*$\n\n(b) $(z - w)^* = z^* - w^*$",
+      "source_images": ["image2712.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "10. Find $zw$, and illustrate $z$, $w$, and $zw$ on the same Argand diagram:\n\n(a) $z = 2 - i$, $w = 1 + 2i$\n\n(b) $z = -1 + i$, $w = 3 - i$\n\n(c) $z = 3 - 2i$, $w = 3 + 2i$\n\n(d) $z = 2i$, $w = 2 + i$",
+      "source_images": ["image2713.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "MODULUS\n\nThe modulus of the complex number $z = a + bi$ is the length of the vector $\\begin{pmatrix} a \\\\ b \\end{pmatrix}$, which is the real number $|z| = \\sqrt{a^2 + b^2}$.",
+      "source_images": ["image2714.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Notice that if $z = a + bi$ then $|z|$ gives the distance of the point $(a, b)$ from the origin. This is consistent with the previous definition of modulus that $|x|$ is the distance of real number $x$ from the origin O.\n\nFor example, consider the complex number $z = 3 + 2i$.\n\nThe distance from O to P is its modulus, $|z|$.\n\n$\\therefore |z| = \\sqrt{3^2 + 2^2}$ {Pythagoras}",
+      "source_images": ["image2715.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "PROPERTIES OF MODULUS\n\n- $|z^*| = |z|$\n- $|z|^2 = zz^*$\n- $|z_1z_2| = |z_1||z_2|$\n- $\\left|\\frac{z_1}{z_2}\\right| = \\frac{|z_1|}{|z_2|}$ provided $z_2 \\neq 0$\n- $|z_1z_2z_3....z_n| = |z_1||z_2||z_3|....|z_n|$ and $|z^n| = |z|^n$ for $n \\in \\mathbb{Z}^+$.",
+      "source_images": ["image2716.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "ARGUMENT\n\nSuppose the complex number $z = a + bi$ is represented by the vector $\\overrightarrow{\\text{OP}}$.\n\nThe argument of $z$, or simply $\\arg z$, is the angle $\\theta$, where $-\\pi < \\theta \\leqslant \\pi$ is measured anticlockwise between the positive real axis and $\\overrightarrow{\\text{OP}}$.",
+      "source_images": ["image2717.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "We specify the domain restriction $-\\pi < \\theta \\leqslant \\pi$ to avoid confusion with the infinitely many possibilities for $\\theta$ which are $2\\pi$ apart. This guarantees that $z \\mapsto \\arg z = \\theta$ is a function.\n\nNotice that:\n\nReal numbers (other than zero) have argument $0$ or $\\pi$.\n\nPurely imaginary numbers have argument $\\frac{\\pi}{2}$ or $-\\frac{\\pi}{2}$.",
+      "source_images": ["image2718.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 4\n\nFind $|z|$ and $\\arg z$ for $z$ equal to:\n\n(a) $1 + 3i$\n\n(b) $-1 + 3i$\n\n(c) $-3 - i$\n\nSolutions:\n\n(a) $|z| = \\sqrt{1^2 + 3^2} = \\sqrt{10}$\n\n$\\tan \\theta = \\frac{3}{1} = 3$\n$\\therefore \\arg z \\approx 1.25$\n\n(b) $|z| = \\sqrt{(-1)^2 + 3^2} = \\sqrt{10}$\n\n$\\tan \\phi = \\frac{3}{1} = 3$\n$\\therefore \\phi \\approx 1.25$\nBut $\\theta = \\pi - \\phi$\n$\\therefore \\arg z \\approx 1.89$\n\n(c) $|z| = \\sqrt{(-3)^2 + (-1)^2} = \\sqrt{10}$\n\n$\\tan \\phi = \\frac{1}{3}$\n$\\therefore \\phi \\approx 0.322$\nBut $\\theta = -\\pi + \\phi$\n$\\therefore \\arg z \\approx -2.82$",
+      "source_images": ["image2719.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 5\n\nProve that $|z_1z_2| = |z_1||z_2|$ for all complex numbers $z_1$ and $z_2$.\n\nSolution:\n\nLet $z_1 = a + bi$ and $z_2 = c + di$ where $a$, $b$, $c$, and $d$ are real.\n\n$\\therefore z_1z_2 = (a + bi)(c + di) = [ac - bd] + i[ad + bc]$\n\nThus $|z_1z_2| = \\sqrt{(ac - bd)^2 + (ad + bc)^2}$\n$= \\sqrt{a^2c^2 - 2abcd + b^2d^2 + a^2d^2 + 2abcd + b^2c^2}$\n$= \\sqrt{a^2(c^2 + d^2) + b^2(c^2 + d^2)}$\n$= \\sqrt{(c^2 + d^2)(a^2 + b^2)}$\n$= \\sqrt{a^2 + b^2} \\times \\sqrt{c^2 + d^2}$\n$= |z_1||z_2|$",
+      "source_images": ["image2720.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 14B\n\n1. Find $|z|$ for $z$ equal to:\n\n(a) $3 - 4i$\n\n(b) $5 + 12i$\n\n(c) $-8 + 2i$\n\n(d) $3i$\n\n(e) $-4$\n\n2. Find $|z|$ and $\\arg z$ for $z$ equal to:\n\n(a) $2 + i$\n\n(b) $2 - i$\n\n(c) $-2 + i$\n\n(d) $-2 - i$\n\n3. Find $|w|$ and $\\arg w$ for $w$ equal to:\n\n(a) $3 + 2i$\n\n(b) $-3 + 2i$\n\n(c) $2 - 3i$\n\n(d) $-2 + 3i$\n\n4. Suppose $z = a - i$ where $a$ is real, and $\\arg z = -\\frac{5\\pi}{6}$. Find the exact value of $a$.\n\n5. If $z = 2 + i$ and $w = -1 + 3i$, find:\n\n(a) $|z|$\n\n(b) $|z^*|$\n\n(c) $|z^*|^2$\n\n(d) $zz^*$\n\n(e) $|zw|$\n\n(f) $|z||w|$\n\n(g) $\\left|\\frac{z}{w}\\right|$\n\n(h) $\\frac{|z|}{|w|}$\n\n(i) $|z^2|$\n\n(j) $|z|^2$\n\n(k) $|z^3|$\n\n(l) $|z|^3$",
+      "source_images": ["image2721.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. Prove that for all complex numbers $z$:\n\n(a) $|z^*| = |z|$\n\n(b) $|z|^2 = zz^*$\n\n7. Find $|z|$ given:\n\n(a) $z = \\cos\\theta + i\\sin\\theta$\n\n(b) $z = r(\\cos\\theta + i\\sin\\theta)$, $r \\in \\mathbb{R}$\n\n8. Prove that $\\left|\\frac{z}{w}\\right| = \\frac{|z|}{|w|}$ for all complex numbers $z$ and $w$, $w \\neq 0$.",
+      "source_images": ["image2722.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. (a) Prove by mathematical induction that $|z_1z_2z_3....z_n| = |z_1||z_2||z_3|....|z_n|$ for all complex numbers $z_1$, $z_2$, $z_3$, ...., $z_n$ and $n \\in \\mathbb{Z}^+$.\n\n(b) Hence prove that $|z^n| = |z|^n$ for all $n \\in \\mathbb{Z}^+$.\n\n(c) Hence find $|z^{30}|$ for $z = \\frac{3}{4} - i$.\n\n10. Given $|z| = 2$, use the rules $|zw| = |z||w|$ and $\\left|\\frac{z}{w}\\right| = \\frac{|z|}{|w|}$ to find:\n\n(a) $|3z|$\n\n(b) $|-2z|$\n\n(c) $|(2 - i)z|$\n\n(d) $|iz|$\n\n(e) $\\left|\\frac{1}{z}\\right|$\n\n(f) $\\left|\\frac{z^2}{3i}\\right|$\n\n11. Suppose $w = \\frac{z + i}{z - i}$ where $z = a + bi$, $a, b \\in \\mathbb{R}$.\n\n(a) Write $w$ in the form $X + Yi$ where $X$ and $Y$ involve $a$ and $b$.\n\n(b) If $|z| = 1$, find $\\Re(w)$.\n\n12. Find the complex number $z$ that satisfies the equation $\\frac{50}{z^*} - \\frac{10}{z} = 2 + 9i$ given $|z| = 2\\sqrt{10}$.",
+      "source_images": ["image2723.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 6\n\nFind $|z|$ given that $3|z + 1| = |z + 9|$ where $z$ is a complex number.\n\nSolution:\n\n$3|z + 1| = |z + 9|$\n$\\therefore 9|z + 1|^2 = |z + 9|^2$\n$\\therefore 9(z + 1)(z + 1)^* = (z + 9)(z + 9)^*$ {as $|z|^2 = zz^*$}\n$\\therefore 9(z + 1)(z^* + 1) = (z + 9)(z^* + 9)$ {as $(z + w)^* = z^* + w^*$}\n$\\therefore 9zz^* + 9z + 9z^* + 9 = zz^* + 9z + 9z^* + 81$\n$\\therefore 8zz^* = 72$\n$\\therefore zz^* = 9$\n$\\therefore |z|^2 = 9$\n$\\therefore |z| = 3$ {as $|z| > 0$}",
+      "source_images": ["image2724.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "13. Suppose $z$ is a complex number. Find $|z|$ if:\n\n(a) $2|z + 4| = |z + 16|$\n\n(b) $|z - 18| = 3|z - 2|$\n\n(c) $\\left|\\frac{z + 20}{z + 5}\\right| = 2$\n\n(d) $\\left|\\frac{z - 50}{z - 2}\\right| = 5$\n\n14. (a) Suppose $z$ is a complex number. Find $|z|$ if $3|z - 5| = |z - 45|$.\n\n(b) On an Argand plane, sketch the set of complex numbers $z$ which satisfy $3|z - 5| = |z - 45|$.\n\n15. Suppose $z$ and $w$ are non-zero complex numbers, and $|z + w| = |z - w|$.\n\nShow that $\\frac{z}{z^*} = -\\frac{w}{w^*}$.",
+      "source_images": ["image2725.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "16. Let $z = 1 + 3i$ and $w = 3 + 2i$.\n\n(a) Find $z + w$.\n\n(b) Hence find $|z + w|$ and $\\arg(z + w)$.\n\n(c) Use the cosine rule to find $\\theta$.\n\n(d) Hence show that $\\arg(z + w) + \\theta = \\arg z$.\n\n17. Find the Cartesian equation for the locus of points $\\text{P}(x, y)$ if $z = x + iy$ and:\n\n(a) $z^* = -iz$\n\n(b) $\\arg(z - i) = \\frac{\\pi}{6}$\n\n(c) $|z + 3| + |z - 3| = 8$",
+      "source_images": ["image2726.png"]
+    }
+  ]
+}

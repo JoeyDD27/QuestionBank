@@ -1,0 +1,232 @@
+{
+  "chapter": 7,
+  "part": 2,
+  "images_range": "641-685",
+  "items": [
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 16B\n\n1. Solve for $x$:\n\n(a) $x^2 = 169$\n\n(b) $(x + 3)^2 - 11 = 0$\n\n(c) $(x - 4)^2 + 16 = 0$",
+      "source_images": ["image641.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Solve for $x$:\n\n(a) $x^2 - 8x - 33 = 0$\n\n(b) $x^2 + 4x - 32 = 0$\n\n(c) $x^2 - 10x + 25 = 0$\n\n(d) $x^2 + 5x = 24$\n\n(e) $2x^2 - 18 = 0$\n\n(f) $8x^2 + 2x - 3 = 0$\n\n3. Solve by completing the square: $x^2 - 2x = 100$\n\n4. A rectangle has length 3 cm greater than its width. If it has an area of 108 cm$^2$, find the dimensions of the rectangle.\n\n5. When the square of a number is increased by 10, the result is seven times the original number. Find the number.\n\n6. The hypotenuse of a right angled triangle is one centimetre more than twice the length of the shortest side. The other side is 7 cm longer than the shortest side. Find the length of each side of the triangle.\n\n7. Use the quadratic formula to solve for $x$:\n\n(a) $2x^2 + 3x + 6 = 0$\n\n(b) $5x^2 - x - 5 = 0$\n\n8. A number minus 12 times its reciprocal is equal to 1. Find the number.",
+      "source_images": ["image642.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11E\n\n1. The sum of a number and its square is 110. Find the number.\n\n2. When 24 is subtracted from the square of a number, the result is five times the original number. Find the number.\n\n3. The sum of two numbers is 6, and the sum of their squares is 28. Find these numbers exactly.\n\n4. Two numbers differ by 7, and the sum of their squares is 29. Find the numbers.",
+      "source_images": ["image643.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. A rectangle has length 4 cm greater than its width. Find its width given that its area is 96 cm$^2$.\n\n6. The base of a triangle is 4 m longer than its altitude. The area of the triangle is 70 m$^2$. Find the triangle's altitude.\n\n7. A rectangular enclosure is made from 60 m of fencing. The area enclosed is 216 m$^2$. Find the dimensions of the enclosure.\n\n8. A rectangular garden bed was built against an existing brick wall. 24 m of edging was used to enclose 60 m$^2$. Find the dimensions of the garden bed to the nearest centimetre.",
+      "source_images": ["image644.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. A right angled triangle has sides 3 cm and 8 cm respectively less than its hypotenuse. Find the length of the hypotenuse to the nearest millimetre.\n\n10. ABCD is a rectangle in which $AB = 21$ cm. The square AXYD is removed and the remaining rectangle has area 80 cm$^2$. Find the length of [BC].",
+      "source_images": ["image645.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 15\n\nGiven that [AB] is 3 m shorter than [BC], find the height of the flagpole.\n\nLet the height of the flagpole be $x$ m.\n\n$\\therefore$ $BC = x$ m and $AB = (x - 3)$ m\n\nThe triangles are equiangular, so they are similar.\n\n$\\therefore \\frac{x}{2} = \\frac{(x - 3) + x}{x - 3}$\n\n$\\therefore x(x - 3) = 2(2x - 3)$\n\n$\\therefore x^2 - 3x = 4x - 6$\n\n$\\therefore x^2 - 7x + 6 = 0$\n\n$\\therefore (x - 1)(x - 6) = 0$\n\n$\\therefore x = 1$ or $6$\n\nBut $x - 3 > 0$ as lengths must be positive\n\n$\\therefore x = 6$\n\nSo, the flagpole is 6 m high.",
+      "source_images": ["image646.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "11. Find $x$ in:\n\n(a) Right triangle with sides 5 m, 6 m, $x$ m, $(x + 2)$ m\n\n(b) Triangle with sides 4 cm, $x$ cm, 5 cm, $(x + 3)$ cm\n\n(c) Triangle with sides 3 cm, $(x - 2)$ cm, $(x + 2)$ cm, $x$ cm\n\n(d) Triangle with sides $(x + 5)$ m, $x$ m, 6 m, $(x + 2)$ m\n\n(e) Triangle with sides $x$ m, $(2x - 1)$ m, $(3x - 1)$ m\n\n(f) Triangle with sides $x$ m, 5 m, 6 m",
+      "source_images": ["image647.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "12. In the figure alongside, [BC] is the same length as [BE], and [CD] is 3 cm more than twice the length of [BE]. Find the length of [BE].",
+      "source_images": ["image648.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "13. A, B, C, and D are posts on the banks of a 20 m wide canal. A and B are 2 m apart, and $OA = CD$. Find the exact distance between C and D.\n\n14. A theatre contains a central block of seats with $n$ seats per row. Blocks on either side contain 4 seats per row. The number of rows is 5 less than the total number of seats per row. In total there are 126 seats in the theatre. Find the value of $n$.\n\n15. The numerator of a fraction is 3 less than the denominator. If the numerator is increased by 6 and the denominator is increased by 5, the fraction is doubled in value. Find the original fraction.\n\n16. At a fruit market, John bought some oranges for a total of $20. When Jenny visited a different stall, she bought 10 more oranges than John for the same total amount. Given that the difference in price per orange was 10 cents, how many oranges did John purchase?\n\n17. The sum of a number and its reciprocal is $2\\frac{1}{12}$. Find the number.\n\n18. Two numbers have a sum of 4, and the sum of their reciprocals is 8. Find the numbers.\n\n19. A sheet of cardboard is 15 cm long and 10 cm wide. It is to be made into an open box with base area 66 cm$^2$, by cutting out equal squares from the four corners and then bending the edges upwards. Find the size of the squares to be cut out.\n\n20. Answer the Opening Problem on page 224.\n\n21. A circular magnet has an inner radius of $x$ cm, an outer radius 2 cm larger, and its depth is the same as the inner radius. The total volume of the magnet is $120\\pi$ cm$^3$. Find $x$.",
+      "source_images": ["image649.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "22. A rectangular swimming pool is 12 m long by 6 m wide. It is surrounded by a pavement of uniform width. The area of the pavement is $\\frac{7}{8}$ of the area of the pool.\n\n(a) If the pavement is $x$ m wide, show that the area of the pavement is $(4x^2 + 36x)$ m$^2$.\n\n(b) Hence, show that $4x^2 + 36x - 63 = 0$.\n\n(c) How wide is the pavement?\n\n23. A takeaway milkshake container is cylindrical, with a hemispherical lid on top. The height $h$ of the container is 7 cm greater than its base radius $r$. The surface area of the container and lid is $96\\pi$ cm$^2$. Find the base radius of the container.",
+      "source_images": ["image650.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "If $ax^2 + bx + c = 0$, $a \\neq 0$ and $a, b, c \\in \\mathbb{R}$, then the solutions are $x = \\frac{-b \\pm \\sqrt{\\Delta}}{2a}$ where $\\Delta = b^2 - 4ac$ is known as the discriminant.",
+      "source_images": ["image651.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "We also observed that if $\\Delta \\geq 0$, the quadratic equation has real solutions.\n\nIt is in fact possible to find solutions for the case where $\\Delta < 0$, but the solutions are not real numbers!\n\nIn 1572, Rafael Bombelli defined the imaginary number $i = \\sqrt{-1}$. It is called 'imaginary' because we cannot place it on a number line. With $i$ defined, we can write down solutions for quadratic equations with $\\Delta < 0$. They are called complex solutions because they include a real and an imaginary part.\n\nAny number of the form $a + bi$ where $a$ and $b$ are real and $i = \\sqrt{-1}$, is called a complex number.",
+      "source_images": ["image652.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 16\n\nWrite in terms of $i$:\n\n(a) $\\sqrt{-5}$\n\n(b) $\\sqrt{-16}$\n\nSolutions:\n\n(a) $\\sqrt{-5} = \\sqrt{5 \\times -1}$\n$= \\sqrt{5} \\times \\sqrt{-1}$\n$= i\\sqrt{5}$\n\n(b) $\\sqrt{-16} = \\sqrt{16 \\times -1}$\n$= \\sqrt{16} \\times \\sqrt{-1}$\n$= 4i$",
+      "source_images": ["image653.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 17\n\nSolve for $x$:\n\n(a) $x^2 = -9$\n\n(b) $x^2 = -13$\n\nSolutions:\n\n(a) $x^2 = -9$\n$\\therefore x = \\pm\\sqrt{-9}$\n$\\therefore x = \\pm\\sqrt{9}\\sqrt{-1}$\n$\\therefore x = \\pm 3i$\n\n(b) $x^2 = -13$\n$\\therefore x = \\pm\\sqrt{-13}$\n$\\therefore x = \\pm\\sqrt{13}\\sqrt{-1}$\n$\\therefore x = \\pm i\\sqrt{13}$",
+      "source_images": ["image654.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 18\n\nSolve for $x$:\n\n(a) $x^2 + 2x + 2 = 0$\n\n(b) $2x^2 - x + 3 = 0$\n\nSolutions:\n\n(a) $x^2 + 2x + 2 = 0$ has $a = 1$, $b = 2$, $c = 2$\n$\\therefore x = \\frac{-2 \\pm \\sqrt{2^2 - 4(1)(2)}}{2(1)}$\n$\\therefore x = \\frac{-2 \\pm \\sqrt{4 - 8}}{2}$\n$\\therefore x = \\frac{-2 \\pm \\sqrt{-4}}{2}$\n$\\therefore x = \\frac{-2 \\pm \\sqrt{-1}\\sqrt{4}}{2}$\n$\\therefore x = \\frac{-2 \\pm 2i}{2}$\n$\\therefore x = -1 \\pm i$\n\n(b) $2x^2 - x + 3 = 0$ has $a = 2$, $b = -1$, $c = 3$\n$\\therefore x = \\frac{-(-1) \\pm \\sqrt{(-1)^2 - 4(2)(3)}}{2(2)}$\n$\\therefore x = \\frac{1 \\pm \\sqrt{1 - 24}}{4}$\n$\\therefore x = \\frac{1 \\pm \\sqrt{-23}}{4}$\n$\\therefore x = \\frac{1 \\pm \\sqrt{-1}\\sqrt{23}}{4}$\n$\\therefore x = \\frac{1 \\pm i\\sqrt{23}}{4}$",
+      "source_images": ["image655.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11F\n\n1. Write in terms of $i$:\n\n(a) $\\sqrt{-2}$\n\n(b) $\\sqrt{-25}$\n\n(c) $\\sqrt{-11}$\n\n(d) $\\sqrt{-81}$\n\n2. Solve for $x$:\n\n(a) $x^2 = -3$\n\n(b) $x^2 = -4$\n\n(c) $x^2 = -14$\n\n(d) $x^2 + 7 = 0$\n\n(e) $3x^2 = -48$\n\n(f) $2x^2 + 15 = 3$",
+      "source_images": ["image656.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Without solving them, decide whether these equations have two real solutions, one real solution, or imaginary solutions.\n\n(a) $3x^2 + 5x - 1$\n\n(b) $x^2 - 4x + 4 = 0$\n\n(c) $2x^2 - 3x + 5 = 0$\n\n4. Solve for $x$:\n\n(a) $x^2 + x + 2 = 0$\n\n(b) $x^2 - 3x + 6 = 0$\n\n(c) $x^2 + 4x + 13 = 0$\n\n(d) $2x^2 - x + 5 = 0$\n\n(e) $-x^2 + 2x - 17 = 0$\n\n(f) $3x^2 + 5 = 3x$",
+      "source_images": ["image657.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "THE SUM AND PRODUCT OF THE ROOTS",
+      "source_images": ["image658.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "If the quadratic equation $ax^2 + bx + c = 0$ has roots $p$ and $q$, then:\n\n- the sum of the roots $p + q = -\\frac{b}{a}$\n\n- the product of the roots $pq = \\frac{c}{a}$.",
+      "source_images": ["image659.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Proof:\n\nIf $p$ and $q$ are the roots of $ax^2 + bx + c = 0$,\n\nthen $ax^2 + bx + c = a(x - p)(x - q)$\n\n$= a(x^2 - [p + q]x + pq)$\n\n$\\therefore x^2 + \\frac{b}{a}x + \\frac{c}{a} = x^2 - [p + q]x + pq$\n\nEquating coefficients,\n\n$p + q = -\\frac{b}{a}$ and $pq = \\frac{c}{a}$.",
+      "source_images": ["image660.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 19\n\nFind the sum and product of the roots of $2x^2 + 5x - 3 = 0$.\n\n$2x^2 + 5x - 3 = 0$ has $a = 2$, $b = 5$, $c = -3$.\n\n$\\therefore$ the sum of the roots is $-\\frac{b}{a} = -\\frac{5}{2}$, and the product of the roots is $\\frac{c}{a} = -\\frac{3}{2}$.",
+      "source_images": ["image661.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 11G\n\n1. (a) Find the sum and product of the roots of $3x^2 - 7x + 2 = 0$.\n\n(b) Check your answer by solving the quadratic equation.\n\n2. (a) Find the sum and product of the roots of $x^2 + 2x - 4 = 0$.\n\n(b) Check your answer by solving the quadratic equation.\n\n3. Find the sum and product of the roots of:\n\n(a) $2x^2 - 6x + 1 = 0$\n\n(b) $5x^2 + 4x - 10 = 0$\n\n(c) $-4x^2 + x - 6 = 0$",
+      "source_images": ["image662.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. $\\frac{1}{2}$ is one of the roots of $6x^2 + x - 2 = 0$. Find the other root without solving the equation directly.\n\n5. (a) Find the sum and product of the roots of $x^2 + 4x + 5 = 0$.\n\n(b) Check your answer by solving the quadratic equation.\n\nHint: $i = \\sqrt{-1}$ and so $i^2 = -1$.",
+      "source_images": ["image663.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 11A\n\n1. Solve for $x$:\n\n(a) $-x^2 + 11 = 0$\n\n(b) $7 - 2x^2 = -25$\n\n2. Solve for $x$:\n\n(a) $(x - 4)^2 = 25$\n\n(b) $(x + 1)^2 - 1 = 0$\n\n3. Solve for $x$:\n\n(a) $x^2 - 4x - 21 = 0$\n\n(b) $4x^2 - 25 = 0$\n\n(c) $6x^2 - x - 2 = 0$\n\n4. Solve for $x$:\n\n(a) $3x^2 - 6x - 72 = 0$\n\n(b) $5x^2 + 30x + 45 = 0$\n\n(c) $4x^2 - 18x + 8 = 0$",
+      "source_images": ["image664.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. Solve by completing the square: $x + 6x + 1 = 0$\n\n6. Solve for $x$:\n\n(a) $x^2 + 24x = 11$\n\n(b) $(x + 6)(x - 3) = 10x$\n\n(c) $10x^2 - 6 = 11x$\n\n7. The sum of a number and its reciprocal is $2\\frac{1}{6}$. Find the number.\n\n8. Use the quadratic formula to solve for $x$:\n\n(a) $2x^2 - 3x - 2 = 0$\n\n(b) $3x^2 + 4x - 5 = 0$\n\n(c) $\\frac{x + 4}{x - 2} = \\frac{5x}{x - 1}$\n\n9. The volume of the solid alongside is $174\\pi$ cm$^3$. Find $x$.\n\n10. A straight length of wire is 20 cm long. It is bent at right angles to form the two shorter sides of a right angled triangle.\n\n(a) If the triangle's area is 30 cm$^2$, find:\n\n(i) the length of each side\n\n(ii) the triangle's perimeter.\n\n(b) Is it possible for a right angled triangle with shorter sides made from a 20 cm length wire to have an area of 51 cm$^2$? Explain your answer.\n\n11. Solve for $x$: $\\frac{1}{x - 3} + \\frac{3}{x + 1} = 1$\n\n12. Solve for $x$:\n\n(a) $x^2 + 6 = 5$\n\n(b) $x^2 + 5x + 9 = 0$\n\n13. Find the sum and product of the roots of $3x^2 - 12x + 1 = 0$.",
+      "source_images": ["image665.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "REVIEW SET 11B\n\n1. Solve for $x$:\n\n(a) $8 - 3x^2 = -10$\n\n(b) $2x^2 - 5 = -3$\n\n2. Solve for $x$:\n\n(a) $(x + 3)^2 - 19 = 0$\n\n(b) $(3x - 1)^2 = 17$\n\n3. Solve for $x$:\n\n(a) $x^2 - 8x - 33 = 0$\n\n(b) $8x^2 + 2x - 3 = 0$\n\n4. Solve by completing the square: $x^2 - 2x = 100$\n\n5. Solve for $x$:\n\n(a) $x^2 - 45 = 4x$\n\n(b) $6x^2 + 26x = 20$\n\n6. Solve for $x$:\n\n(a) $\\frac{x}{5} = \\frac{7}{x}$\n\n(b) $\\frac{x}{3 - 2x} = \\frac{x + 1}{3 - x}$\n\n7. The hypotenuse of a right angled triangle is one centimetre more than twice the length of the shortest side. The other side is 7 cm longer than the shortest side. Find the length of each side of the triangle.\n\n8. Use the quadratic formula to solve:\n\n(a) $2x^2 + 2x - 1 = 0$\n\n(b) $\\frac{1}{x} - \\frac{1}{1 - x} = 2$\n\n9. A group of friends hires a bus for a day for $480, agreeing to share the cost equally. At the last minute, two more people decide to go on the trip, and as a result each person pays $8 less. How many people go on the trip and how much does each person pay?\n\n10. In the flag alongside, the area of the red stripes is 700 cm$^2$. Find the width of the red stripes.\n\n11. The sum of a number and its reciprocal is 5.\n\n(a) Show that $\\frac{5 + \\sqrt{21}}{2}$ is a possible value for the number.\n\n(b) Check your answer by simplifying $\\frac{5 + \\sqrt{21}}{2} + \\frac{2}{5 + \\sqrt{21}}$.\n\n12. Solve for $x$:\n\n(a) $4x^2 + 20 = 0$\n\n(b) $x^2 + 6x + 18 = 0$\n\n13. $\\frac{3}{4}$ is one of the roots of $8x^2 + 6x - 9 = 0$. Find the other root without solving the quadratic equation directly.",
+      "source_images": ["image666.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "For example, $8x$, $-10xy$, $4x^2z$ and $-17$ are all referred to as terms.\n\nA polynomial: $6x^2y + 14y^3 - 7x + 15$\n\nThe coefficient of the first term is 6.\n\nThe coefficient of the second term is 14.\n\nThe coefficient of the third term is 7.\n\nThe constant term (the term without any variable) is 15.\n\nPolynomials can be defined in a variety of ways. Two of those are the focus of the following investigation.",
+      "source_images": ["image667.png"]
+    },
+    {
+      "type": "investigation",
+      "content_latex": "Investigation 1 - Some terminology\n\n1. Look at the table below and use the examples to figure out the meaning of the words 'monomial', 'binomial', 'trinomial' and 'degree'.\n\n| Expression | Classification | Degree |\n|------------|----------------|--------|\n| $2y$ | monomial | 1 |\n| $8x + 9w$ | binomial | 1 |\n| $-12mn$ | monomial | 2 |\n| $x^2 - 4x + 2$ | trinomial | 2 |\n| $5z^6 - 4z^3 + 2z^2 - 1$ | polynomial | 6 |\n| $-7x^2y^3 + 8xy^4 - 9$ | trinomial | 5 |\n| $36x^2y^2z^3 - 14x^8y$ | binomial | 9 |\n| $76m^2n^3p^4q$ | monomial | 10 |\n| $2 + 8m - 4m^3 + 7m^2 - 9m^5$ | polynomial | 5 |\n| $-9xyz$ | monomial | 3 |\n| $\\frac{2t}{7}$ | monomial | 1 |\n| $14$ | monomial | 0 |\n| $-17g^4 - 8$ | binomial | 4 |\n| $b^2 - 5b^3 + \\pi$ | trinomial | 3 |\n| $\\frac{4x - 9}{8}$ | binomial | 1 |\n| $\\frac{5x^2 - x^3 + 8x - 1}{3}$ | polynomial | 3 |\n| $\\frac{-7x^2y^5 + 8xy + 4y}{6}$ | trinomial | 7 |",
+      "source_images": ["image668.png"]
+    },
+    {
+      "type": "investigation",
+      "content_latex": "2. Based on your results in step 1, classify each of the following polynomials and its degree.\n\n| Expression | Classification | Degree |\n|------------|----------------|--------|\n| $17x^4 - 12x^3 + 5x$ | | |\n| $\\frac{-17y^3z}{5}$ | | |\n| $14x^5 - 3\\sqrt{x} + 10$ | | |\n| $-8mn^2 + 2n^5$ | | |\n| $9m^2n^3p^4$ | | |",
+      "source_images": ["image669.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "The standard form of a polynomial is when it is written with the highest degree first and the remaining terms written in descending order of degree.\n\nThe polynomial $-3 + 3x^2 - 5x + 9x^3$ in standard form would be written as $9x^3 + 3x^2 - 5x - 3$.\n\nWhen polynomials contain only one variable, they are sometimes given a specific name.",
+      "source_images": ["image670.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "| Example | Degree | Name |\n|---------|--------|------|\n| $-4$ | 0 | constant |\n| $6x$ | 1 | linear |\n| $3x^2 - 5x + 1$ | 2 | quadratic |\n| $-2x^3 + 6x^2 - 7x + 4$ | 3 | cubic |\n| $14x^4 - 5x^2 + 2x - 1$ | 4 | quartic |\n| $-6x^5 - 8x$ | 5 | quintic |",
+      "source_images": ["image671.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Practice 1\n\n1. Copy and fill in the following table.\n\n| Expression | Name | Degree |\n|------------|------|--------|\n| $-18x^3y$ | | |\n| $-9x^2 + 2x - 21$ | | |\n| $-3y^5z^6 + 9yz^{11}$ | | |\n| $11m^4n^4 - 7k^8$ | | |\n| $\\frac{5x - 2}{3}$ | | |\n| $12y^3 + 4y + 8$ | | |\n| | binomial | 5 |\n| | polynomial | 1 |\n\n2. Write the following expressions in standard form and name each based on its degree.\n\n(a) $8x - 4x^3 + 7$\n\n(b) $-2x^2 + x^4 - 11 + 7x^3 - x$\n\n(c) $x - 1 - x^2$\n\n(d) $-3x^4 - 4x^3 + 2x^5$\n\n(e) $12 - x^2$\n\n(f) $x - 11$\n\n(g) $-2x^3 + 4 - 8x + 3x^2$\n\n(h) $-8$\n\n3. Write down an expression that meets the following characteristics:\n\n(a) a quintic that is a trinomial\n\n(b) a quadratic that is a monomial\n\n(c) a polynomial that is a quartic\n\n(d) a binomial that is linear\n\n(e) a quadratic with no constant term\n\n(f) a trinomial of degree 6",
+      "source_images": ["image672.png"]
+    },
+    {
+      "type": "investigation",
+      "content_latex": "Investigation 2 - Like terms\n\n1. First, it is important to be able to define what like terms are. Look at the following examples and determine the meaning of like terms.\n\n| Like terms | Not like terms |\n|------------|----------------|\n| $3x$ and $-6x$ | $7y$ and $9x$ |\n| $2x^2y$ and $7x^2y$ | $x^3y$ and $xy^3$ |\n| $-13$ and $-10$ | $5$ and $2i$ |\n| $8mn$ and $-12mn$ | $-3Mn$ and $6mn$ |\n| $4y^3$ and $9y^3$ | $8z^2$ and $-11z^3$ |\n| $-2g^2p^3$, $5g^2p^3$ and $g^2p^3$ | $3tw^2$, $-2t^2w$ and $7tw$ |",
+      "source_images": ["image673.png"]
+    },
+    {
+      "type": "investigation",
+      "content_latex": "Use the following examples to generalize the process for simplifying algebraic expressions.\n\n| Expression | Simplified expression |\n|------------|----------------------|\n| $3x - 6x$ | $-3x$ |\n| $2x^2y + 7x^2y$ | $9x^2y$ |\n| $2x - 13 - 5x - 10$ | $-3x - 23$ |\n| $8mn + 7 - 12mn - 2$ | $-4mn + 5$ |\n| $4y^3 + 8y^2 - 4y + 2 + 9y^3 - y + 6 - 5y^2$ | $13y^3 + 3y^2 - 5y + 8$ |\n| $-2g^2p^3 + 8pg^2 + pg - 6pg - 6 + 5g^2p^3 + g^2p^3 - 10pg^2$ | $4g^2p^3 - 2pg^2 - 5pg - 6$ |",
+      "source_images": ["image674.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 1\n\nSimplify the following expressions.\n\n(a) $n + n + 1 + n + 2 + n + 7 + n + 8 + n + 9 + n + 14 + n + 15 + n + 16$\n\n(b) $6x + 5x^2 - 2 - 8x + x^2 + 10$\n\nSolutions:\n\n(a) $n + n + 1 + n + 2 + n + 7 + n + 8 + n + 9 + n + 14 + n + 15 + n + 16$\n\nDetermine which terms are like terms (highlighted).\n\n$= 9n + 72$\n\nCombine like terms by adding/subtracting their coefficients.\n\n(b) $6x + 5x^2 - 2 - 8x + x^2 + 10$\n\nDetermine which terms are like terms (highlighted).\n\n$6x^2 - 2x + 8$\n\nCombine like terms by adding/subtracting their coefficients. Be sure to write your answer in standard form.",
+      "source_images": ["image675.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Practice 2\n\n1. For each of the groups listed, identify which term is not a like term, and justify your choice.\n\n(a) $7x$, $2x$, $2x^2$, $-3x$\n\n(b) $2y$, $6x$, $9y$, $-y$\n\n(c) $8z$, $8$, $4z$, $-8z$\n\n(d) $-13xy$, $4xy$, $2xyz$, $-8xy$\n\n2. Simplify each expression. Write your answer in standard form.\n\n(a) $7x - 2y + x - 6y$\n\n(b) $4t^3 - 6r + 9r - 10t^3 + 7 - t^3$\n\n(c) $5t - 6k + 11k - 16t$\n\n(d) $-9x^2y^2 + 2x^2y - 6xy^2 + 15x^2y - 12x^2y^2 + 7xy^2$\n\n(e) $5x + 4xy + 3 - 9x + 7xy - 12$\n\n(f) $6 - 3p + 7q - 2pq - 11q + 3p - 10$\n\n(g) $-5ab + 2ab + 3a - 8b - 7ab + 13a$\n\n(h) $x^2 + 3x - 13 - 7x^2 - 8$\n\n(i) $-4k^2 - 9k + 3k + k^2 + 17$\n\n(j) $4a^2 - 2b - 19a - 7b^2 - 10$\n\n(k) $-8pq^2 + 2pq + 5p^2 - 7p^2q - 3pq^2 + 4pq$\n\n(l) $y^2 - 5y^3 + 7y^2 - 8y^3 - 6y^2 + 3y^3 - 2y^2 + 10y^3$",
+      "source_images": ["image676.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. The following is what's known as a 'magic square' (i.e. all of the rows, columns and diagonals have the same sum).\n\n(a) Find the sum of the numbers in each row, column and diagonal.\n\n(b) How does the sum relate to the number in the middle?\n\n(c) How does the sum of all of the numbers relate to the number in the middle? Where have you seen this result before in this unit? Does this mean a calendar is a magic square?\n\n4. (a) Fill in the blanks.\n\n(b) Now create a magic square of your own (not shown here) where every row, column and diagonal adds to 15.\n\n5. You can even create magic squares that include algebraic expressions.\n\n(a) Show that each square is a magic square by showing that the rows, columns and diagonals all have the same sum.\n\n(b) Create a magic square that contains numbers by substituting $x = 1$ and $y = 2$ in each of the squares above. Verify that each is a magic square.\n\n3. Fill in the boxes with algebraic expressions to create magic squares.\n\n6. Find the missing terms in each of the following magic squares.",
+      "source_images": ["image677.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Practice 3\n\n1. Simplify the following expressions. Write your answers in standard form.\n\n(a) $2(x - 12)$\n\n(b) $5(9a - 6b)$\n\n(c) $-2(-3g + 3h)$\n\n(d) $6(2n + 3) + 8n - 1$\n\n(e) $5(2w - 9) - (3w + 7)$\n\n(f) $-1(8 - 3x)$\n\n(g) $4(k - 6) - (10 - 2k)$\n\n(h) $3s - 2(4s - 9)$\n\n(i) $8(2y + 7) + 4(2 - 4y)$\n\n(j) $3(4X + 6Y - 7) + 5(2Y - 9X + 6)$\n\n(k) $-2(3a - 6v) - (5a + 8v + 7)$\n\n(l) $2(7x^2 + 8x - 2) - 6(2x - 3x^3 + 2x^2)$\n\n(m) $3(9i + j + 3) - 4(10i + 3j + 12)$\n\n(n) $-(9x^2y + 8 - 3x^2y^2 + 13x) - 2(3x^2y^2 - 12 + 16x + 16x^2y)$",
+      "source_images": ["image678.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. (a) Show that each of the following is a magic square (i.e. all of the rows, columns and diagonals have the same sum).\n\n(b) Create magic squares with numbers by substituting $a = -1$ and $b = -2$ in each of the squares above. Verify that each is a magic square.\n\n3. Fill in the boxes with algebraic expressions to create magic squares.\n\n4. Use algebra to justify the results in the following tricks. Show your working. Call the original number that is chosen $n$.\n\n(a) Think of a number (n). Subtract 3, then multiply the result by 4. Add 32, then divide the result by 4. Finally take away the original number. The answer is 5.\n\n(b) Think of a number. Add 21. Double this result. Subtract 2. Double this result again. Add 20. Divide this number by 4. Subtract 25. You have your original number back!\n\n(c) Think of a number and add 6 to it. Multiply this sum by 6. Now add 2 and then divide this result by 2. Add 2 again. Finally, divide by 3 and then subtract the original number. The answer is 9.",
+      "source_images": ["image679.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Activity 3 - Translating into algebra\n\n1. Suppose that, during a trick, your volunteer has chosen a number. Since you don't know what it is, you will represent it as a variable. Common choices are $x$ or $n$, but you may choose whatever letter you like.\n\nTranslate the following words into algebraic expressions using the variable(s) of your choice:\n\n- twice the number\n- multiply the number by 5 and add 2\n- the next consecutive number\n- 12 minus the number\n- the number minus 12\n- add 6 to the number, then divide the sum by 3\n- 3 times the number plus a new number\n- the number of sisters plus the sum of the next two numbers of brothers\n- four more than the number of pets, minus the number of siblings\n- the sum of ten and some number, subtracted from another number\n- the difference between two numbers is divided by 4 then multiplied by -5\n- the sum of two numbers is added to their product then halved",
+      "source_images": ["image680.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Practice 4\n\n1. Write a simplified algebraic expression using each written description:\n\n(a) Twice a number, plus 6\n\n(b) The sum of three consecutive integers\n\n(c) 13 minus the number of students multiplied by 3\n\n(d) The number of boys multiplied by the number of girls",
+      "source_images": ["image681.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "(e) The sum of twelve times the number of pets and five times the number of pets\n\n(f) Half the number of cards\n\n(g) The sum of a number and 4 is multiplied by 16 then subtracted from 40\n\n(h) The product of triple a number and double a different number is added to eleven then halved",
+      "source_images": ["image682.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Create a written description that would fit these algebraic expressions:\n\n(a) $4x + 10$\n\n(b) $2x(-6)$\n\n(c) $\\frac{7x - 8y}{2}$\n\n(g) $3(x + 6)$\n\n3. Use algebra to justify the results in the following tricks. Show your working.\n\n(a) Think of your age in years. Multiply that number by 2 and then add 10. Multiply this by 5. Now add the number of siblings you have. From this result, subtract 50. The first digits of your final answer represent your age and the last digit is the number of siblings you have!\n\n(b) Ask a volunteer to multiply the first number of his or her age by 2. Tell them to add 5. Now tell them to multiply this number by 5. Finally, have the person add the second number of his or her age to the figure and then tell you their answer. Deduct 15 and you will have their age.",
+      "source_images": ["image683.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Formative assessment\n\n'Perimeter magic triangles' are triangles that contain only consecutive numbers and in which the sum of each of the sides is always the same. 'Order 3' triangles have three values per side while 'order 4' triangles have four values per side. Perimeter magic triangles can come in any order greater than or equal to 2.\n\nOrder 3 perimeter magic triangles: Side sums = 9, 12\n\nOrder 4 perimeter magic triangles: Side sum = 17",
+      "source_images": ["image684.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "1. Show that the following triangles are perimeter magic triangles.\n\n(a) Order 3 triangle with vertices $x$, $x+1$, $x+2$ and edges containing $x+3$, $x+4$, $x+5$\n\n(b) Order 3 triangle with vertices $x+1$, $x+2$, $x+3$ and edges containing $x+4$, $x$, $x+5$\n\n(c) Order 4 triangle with vertex $x+1$ at top, $x+6$ and $x+3$ below, then $x+2$ and $x+8$ in next row, finally $x+7$, $x+5$, $x$, $x+4$ at the bottom",
+      "source_images": ["image685.png"]
+    }
+  ]
+}

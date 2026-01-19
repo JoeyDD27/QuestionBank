@@ -1,0 +1,232 @@
+{
+  "chapter": 19,
+  "part": 1,
+  "images_range": "1944-1988",
+  "items": [
+    {
+      "type": "definition",
+      "content_latex": "A series is the sum of the terms of a sequence.\n\nFor a finite sequence with $n$ terms, the corresponding series is $u_1 + u_2 + u_3 + .... + u_n$.\n\nThe sum of this series is $S_n = u_1 + u_2 + u_3 + .... + u_n$ and this will always be a finite real number.\n\nFor an infinite sequence the corresponding series is $u_1 + u_2 + u_3 + .... + u_n + ....$\n\nIn many cases, the sum of an infinite series cannot be calculated. In some cases, however, it does converge to a finite number.",
+      "source_images": ["image1944.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "SIGMA NOTATION\n\n$u_1 + u_2 + u_3 + u_4 + .... + u_n$ can be written more compactly using sigma notation or summation notation.\n\nThe symbol $\\sum$ is called sigma. It is the equivalent of capital S in the Greek alphabet.\n\nWe write $u_1 + u_2 + u_3 + u_4 + .... + u_n$ as $\\displaystyle\\sum_{k=1}^{n} u_k$.\n\n$\\displaystyle\\sum_{k=1}^{n} u_k$ reads \"the sum of all numbers of the form $u_k$ where $k = 1, 2, 3, ....,$ up to $n$\".",
+      "source_images": ["image1945.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 22\n\nConsider the sequence $1, 4, 9, 16, 25, ....$\n\n(a) Write down an expression for $S_n$.\n\n(b) Find $S_n$ for $n = 1, 2, 3, 4,$ and $5$.\n\nSolutions:\n\n(a) $S_n = 1^2 + 2^2 + 3^2 + 4^2 + .... + n^2$ {all terms are squares}\n\n$= \\displaystyle\\sum_{k=1}^{n} k^2$\n\n(b) $S_1 = 1$\n\n$S_2 = 1 + 4 = 5$\n\n$S_3 = 1 + 4 + 9 = 14$\n\n$S_4 = 1 + 4 + 9 + 16 = 30$\n\n$S_5 = 1 + 4 + 9 + 16 + 25 = 55$",
+      "source_images": ["image1946.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 23\n\nExpand and evaluate:\n\n(a) $\\displaystyle\\sum_{k=1}^{7} (k+1)$\n\n(b) $\\displaystyle\\sum_{k=1}^{5} \\frac{1}{2^k}$\n\nSolutions:\n\n(a) $\\displaystyle\\sum_{k=1}^{7} (k+1) = 2 + 3 + 4 + 5 + 6 + 7 + 8 = 35$\n\n(b) $\\displaystyle\\sum_{k=1}^{5} \\frac{1}{2^k} = \\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8} + \\frac{1}{16} + \\frac{1}{32} = \\frac{31}{32}$",
+      "source_images": ["image1947.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "PROPERTIES OF SIGMA NOTATION\n\n$\\displaystyle\\sum_{k=1}^{n} (a_k + b_k) = \\sum_{k=1}^{n} a_k + \\sum_{k=1}^{n} b_k$\n\nIf $c$ is a constant, $\\displaystyle\\sum_{k=1}^{n} ca_k = c \\sum_{k=1}^{n} a_k$ and $\\displaystyle\\sum_{k=1}^{n} c = cn$.",
+      "source_images": ["image1948.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 16D\n\n1. Consider the sequence $3, 5, 8, 11, 19$. Find:\n\n(a) $u_3$\n\n(b) $S_3$\n\n(c) $u_5$\n\n(d) $S_5$.\n\n2. For each of the following sequences, find:\n\n(i) the first 4 terms of the sequence\n\n(ii) $S_4$.\n\n(a) $u_n = 2n + 3$\n\n(b) $u_n = n^2 - 6$\n\n(c) $u_n = 7 \\times 2^{n-1}$\n\n(d) $u_1 = 3$, $u_n = 3 \\times u_{n-1} - 4$, $n \\geqslant 2$\n\n3. A sequence has $S_5 = 21$ and $S_6 = 33$. Find the value of $u_6$.\n\n4. Consider a sequence with general term $u_n = \\frac{1}{n(n+1)}$. Let $S_n$ be the sum of the first $n$ terms of the sequence.\n\n(a) Find the values of $S_1$, $S_2$, $S_3$, and $S_4$ as fractions.\n\n(b) Hence conjecture the value of $\\frac{1}{1 \\times 2} + \\frac{1}{2 \\times 3} + \\frac{1}{3 \\times 4} + \\frac{1}{4 \\times 5} + .... + \\frac{1}{100 \\times 101}$.",
+      "source_images": ["image1949.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5F\n\n1. Consider the sequence of composite numbers $4, 6, 8, 9, 10, 12, 14, 15, 16, ....$\n\nFind:\n\n(a) $S_3$\n\n(b) $S_5$\n\n(c) $S_{12}$\n\n2. Suppose a sequence has $S_4 = 13$ and $S_5 = 20$. Find the value of $u_5$.\n\n3. For each of the following sequences:\n\n(i) Write down an expression for $S_n$.\n\n(ii) Find $S_5$.\n\n(a) $3, 11, 19, 27, ....$\n\n(b) $42, 37, 32, 27, ....$\n\n(c) $12, 6, 3, 1\\frac{1}{2}, ....$\n\n(d) $2, 3, 4\\frac{1}{2}, 6\\frac{3}{4}, ....$\n\n(e) $1, \\frac{1}{2}, \\frac{1}{4}, \\frac{1}{8}, ....$\n\n(f) $1, 8, 27, 64, ....$\n\n4. Expand and evaluate:\n\n(a) $\\displaystyle\\sum_{k=1}^{3} 4k$\n\n(b) $\\displaystyle\\sum_{k=1}^{6} (k+1)$\n\n(c) $\\displaystyle\\sum_{k=1}^{4} (3k-5)$\n\n(d) $\\displaystyle\\sum_{k=1}^{5} (11-2k)$\n\n(e) $\\displaystyle\\sum_{k=1}^{7} k(k+1)$\n\n(f) $\\displaystyle\\sum_{k=1}^{5} 10 \\times 2^{k-1}$\n\n5. For $u_n = 3n - 1$, write $u_1 + u_2 + u_3 + .... + u_{20}$ using sigma notation and evaluate the sum.\n\n6. Show that:\n\n(a) $\\displaystyle\\sum_{k=1}^{n} c = cn$\n\n(b) $\\displaystyle\\sum_{k=1}^{n} ca_k = c \\sum_{k=1}^{n} a_k$\n\n(c) $\\displaystyle\\sum_{k=1}^{n} (a_k + b_k) = \\sum_{k=1}^{n} a_k + \\sum_{k=1}^{n} b_k$",
+      "source_images": ["image1950.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 24\n\n(a) Expand $\\displaystyle\\sum_{k=1}^{n} 2k$ then write the expansion again underneath but with the terms in the reverse order.\n\n(b) Add the terms vertically, and hence write an expression for the sum $S_n$ of the first $n$ even integers.\n\nSolutions:\n\n(a) $\\displaystyle\\sum_{k=1}^{n} 2k = 2 + 4 + 6 + .... + (2n-2) + 2n$\n\nor $2n + (2n-2) + (2n-4) + .... + 4 + 2$\n\n(b) $2 \\displaystyle\\sum_{k=1}^{n} 2k = (2n+2) + (2n+2) + (2n+2) + .... + (2n+2) + (2n+2)$\n\n$= n(2n+2)$\n\n$= 2n(n+1)$\n\n$\\therefore \\displaystyle\\sum_{k=1}^{n} 2k = n(n+1)$",
+      "source_images": ["image1951.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "7. (a) Expand $\\displaystyle\\sum_{k=1}^{n} k$ then write the expansion again underneath with the terms in the reverse order.\n\n(b) Add the terms vertically, and hence write an expression for the sum $S_n$ of the first $n$ integers.\n\n(c) Hence find $a$ and $b$ such that $\\displaystyle\\sum_{k=1}^{n} (ak + b) = 8n^2 + 11n$ for all positive integers $n$.\n\n8. Write an expression for the sum of the first $n$ positive odd integers.",
+      "source_images": ["image1952.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "9. (a) Show that $(x+1)^3 = x^3 + 3x^2 + 3x + 1$.\n\n(b) Copy and complete:\n\n$(0+1)^3 = 0^3 + 3(0)^2 + 3(0) + 1$\n\n$(1+1)^3 = 1^3 + 3(1)^2 + 3(1) + 1$\n\n$(2+1)^3 = 2^3 + ....$\n\n$(3+1)^3 = ....$\n\n$\\vdots$\n\n$(n+1)^3 = ....$\n\n(c) Add the terms vertically, and hence show that $(n+1)^3 = 3 \\displaystyle\\sum_{k=1}^{n} k^2 + 3 \\sum_{k=1}^{n} k + (n+1)$.\n\n(d) Given that $\\displaystyle\\sum_{k=1}^{n} k = \\frac{n(n+1)}{2}$, show that $\\displaystyle\\sum_{k=1}^{n} k^2 = \\frac{n(n+1)(2n+1)}{6}$.\n\n10. Given that $\\displaystyle\\sum_{k=1}^{n} k = \\frac{n(n+1)}{2}$ and $\\displaystyle\\sum_{k=1}^{n} k^2 = \\frac{n(n+1)(2n+1)}{6}$, write $\\displaystyle\\sum_{k=1}^{n} (k+1)(k+2)$ in simplest form.\n\nCheck your answer in the case when $n = 10$.",
+      "source_images": ["image1953.png"]
+    },
+    {
+      "type": "definition",
+      "content_latex": "An arithmetic series is the sum of the terms of an arithmetic sequence.",
+      "source_images": ["image1954.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Consider the arithmetic sequence $5, 10, 15, ...., 90, 95, 100$. The first term is $u_1 = 5$ and the last term is $u_{20} = 100$.\n\nThe sum of the terms of this sequence is $S_{20} = 5 + 10 + 15 + .... + 90 + 95 + 100$\n\nHowever, we can also write $S_{20} = 100 + 95 + 90 + .... + 15 + 10 + 5$ {reversing the terms}\n\nAdding these equations gives $2 \\times S_{20} = 105 + 105 + 105 + .... + 105 + 105 + 105$ (20 of these)\n\n$\\therefore 2 \\times S_{20} = 20 \\times 105$\n\n$\\therefore S_{20} = \\frac{20}{2} \\times 105 = 1050$",
+      "source_images": ["image1955.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Rather than adding all the terms individually, we can use a formula to find the sum of a finite arithmetic series.\n\nIf the first term is $u_1$, the final term is $u_n$, and the common difference is $d$, the terms are $u_1$, $u_1 + d$, $u_1 + 2d$, ...., $(u_n - 2d)$, $(u_n - d)$, $u_n$.\n\n$\\therefore S_n = u_1 + (u_1 + d) + (u_1 + 2d) + .... + (u_n - 2d) + (u_n - d) + u_n$\n\nBut $S_n = u_n + (u_n - d) + (u_n - 2d) + .... + (u_1 + 2d) + (u_1 + d) + u_1$ {reversing them}\n\nAdding these two equations vertically, we get:\n\n$2S_n = (u_1 + u_n) + (u_1 + u_n) + (u_1 + u_n) + .... + (u_1 + u_n) + (u_1 + u_n) + (u_1 + u_n)$ ($n$ of these)\n\n$\\therefore 2S_n = n(u_1 + u_n)$\n\n$\\therefore S_n = \\frac{n}{2}(u_1 + u_n)$ where $u_n = u_1 + (n-1)d$",
+      "source_images": ["image1956.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "The sum of a finite arithmetic series with first term $u_1$, common difference $d$, and last term $u_n$, is\n\n$S_n = \\frac{n}{2}(u_1 + u_n)$ or $S_n = \\frac{n}{2}(2u_1 + (n-1)d)$.",
+      "source_images": ["image1957.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 7\n\nAn arithmetic series has 8 terms. The first term is 3 and the last term is 17. Find the sum of the series.\n\nSolution:\n\nThe series is arithmetic with $u_1 = 3$ and $u_8 = 17$.\n\nNow $S_n = \\frac{n}{2}(u_1 + u_n)$\n\n$\\therefore S_8 = \\frac{8}{2}(3 + 17)$\n\n$= 80$",
+      "source_images": ["image1958.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 8\n\nFind the sum of $1 + 5 + 9 + 13 + ....$ to 30 terms.\n\nSolution:\n\nThe series is arithmetic with $u_1 = 1$, $d = 4$, and $n = 30$.\n\nNow $S_n = \\frac{n}{2}(2u_1 + (n-1)d)$\n\n$\\therefore S_{30} = \\frac{30}{2}(2 \\times 1 + 29 \\times 4)$\n\n$= 1770$",
+      "source_images": ["image1959.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 9\n\nFind the sum of $6 + 10 + 14 + 18 + .... + 102$.\n\nSolution:\n\nThe series is arithmetic with $u_1 = 6$, $d = 4$, and $u_n = 102$.\n\nFirst we need to find $n$.\n\n$u_n = 102$\n\n$\\therefore u_1 + (n-1)d = 102$\n\n$\\therefore 6 + 4(n-1) = 102$\n\n$\\therefore 4n = 100$\n\n$\\therefore n = 25$\n\nNow $S_n = \\frac{n}{2}(u_1 + u_n)$\n\n$\\therefore S_{25} = \\frac{25}{2}(6 + 102)$\n\n$= 1350$",
+      "source_images": ["image1960.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 25\n\nFind the sum of $4 + 7 + 10 + 13 + ....$ to 50 terms.\n\nSolution:\n\nThe series is arithmetic with $u_1 = 4$, $d = 3$, and $n = 50$.\n\nNow $S_n = \\frac{n}{2}(2u_1 + (n-1)d)$\n\n$\\therefore S_{50} = \\frac{50}{2}(2 \\times 4 + 49 \\times 3)$\n\n$= 3875$",
+      "source_images": ["image1961.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 26\n\nFind the sum of $-6 + 1 + 8 + 15 + .... + 141$.\n\nSolution:\n\nThe series is arithmetic with $u_1 = -6$, $d = 7$, and $u_n = 141$.\n\nFirst we need to find $n$.\n\nNow $u_n = 141$\n\n$\\therefore u_1 + (n-1)d = 141$\n\n$\\therefore -6 + 7(n-1) = 141$\n\n$\\therefore 7(n-1) = 147$\n\n$\\therefore n - 1 = 21$\n\n$\\therefore n = 22$\n\nUsing $S_n = \\frac{n}{2}(u_1 + u_n)$,\n\n$S_{22} = \\frac{22}{2}(-6 + 141)$\n\n$= 11 \\times 135$\n\n$= 1485$",
+      "source_images": ["image1962.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 27\n\nAn arithmetic sequence has first term 8 and common difference 2. The sum of the terms of the sequence is 170. Find the number of terms in the sequence.\n\nSolution:\n\nNow $S_n = 170$, so $\\frac{n}{2}(2u_1 + (n-1)d) = 170$\n\n$\\therefore \\frac{n}{2}(16 + 2(n-1)) = 170$\n\n$\\therefore 8n + n(n-1) = 170$\n\n$\\therefore n^2 + 7n - 170 = 0$\n\n$\\therefore (n+17)(n-10) = 0$\n\n$\\therefore n = 10$ {as $n > 0$}\n\n$\\therefore$ there are 10 terms in the sequence.",
+      "source_images": ["image1963.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 16E\n\n1. Find the value of $5 + 8 + 11 + 14 + 17 + 20$:\n\n(a) by adding the terms directly\n\n(b) using $S_n = \\frac{n}{2}(u_1 + u_n)$\n\n(c) using $S_n = \\frac{n}{2}(2u_1 + (n-1)d)$.\n\n2. An arithmetic series has 12 terms. The first term is 10 and the last term is 65. Find the sum of the series.\n\n3. An arithmetic series has 20 terms. The first term is 30 and the last term is $-8$. Find the sum of the series.",
+      "source_images": ["image1964.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. Find the sum of:\n\n(a) $3 + 7 + 11 + 15 + ....$ to 10 terms\n\n(b) $40 + 35 + 30 + 25 + ....$ to 15 terms\n\n(c) $8 + 11 + 14 + 17 + ....$ to 50 terms\n\n(d) $-6 + 3 + 12 + 21 + ....$ to 40 terms\n\n(e) $21 + 19 + 17 + 15 + ....$ to 60 terms\n\n(f) $7 + 1 + (-5) + (-11) + ....$ to 30 terms\n\n(g) $5 + 5\\frac{1}{2} + 6 + 6\\frac{1}{2} + ....$ to 25 terms\n\n(h) $20 + 19\\frac{1}{2} + 19 + 18\\frac{1}{2} + ....$ to 50 terms.\n\n5. An arithmetic sequence has $S_1 = 4$ and $S_2 = 11$. Find $S_{40}$.\n\n6. Consider the series $4 + 9 + 14 + 19 + .... + 119$.\n\n(a) How many terms are in the series?\n\n(b) Find the sum of the series.\n\n7. Find the sum of:\n\n(a) $7 + 9 + 11 + 13 + .... + 55$\n\n(b) $10 + 13 + 16 + 19 + .... + 100$\n\n(c) $87 + 83 + 79 + 75 + .... + 15$\n\n(d) $-5 + 1 + 7 + 13 + .... + 109$\n\n(e) $12 + 7 + 2 + (-3) + .... + (-58)$\n\n(f) $6 + 7\\frac{1}{2} + 9 + 10\\frac{1}{2} + .... + 30$\n\n8. (a) Show that the sum of the first $n$ multiples of 4 is $2n(n+1)$.\n\n(b) Hence, find $4 + 8 + 12 + 16 + .... + 80$.\n\n9. Jim is saving money to buy a car. He puts €20 in the bank in the first week, then €25 in the second week, then €30 in the third week, and so on.\n\n(a) How much will Jim put into the bank in the 10th week?\n\n(b) How much money will Jim have saved in total after 20 weeks?\n\n10. The arrangement of numbers alongside is called a $3 \\times 3$ magic square. The numbers from 1 to 9 are placed so that the numbers in each row, column, and main diagonal all add up to the same number, known as the magic constant. For a $3 \\times 3$ magic square, the magic constant is 15.\n\nAn $n \\times n$ magic square contains the numbers from 1 to $n^2$.\n\n(a) Find, in terms of $n$, the magic constant for an $n \\times n$ magic square.\n\n(b) Check that your formula is correct for $n = 3$.\n\n(c) Find the magic constant for an $8 \\times 8$ magic square.",
+      "source_images": ["image1965.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5G\n\n1. Find the sum of:\n\n(a) $7 + 9 + 11 + 13 + ....$ to 10 terms\n\n(b) $3 + 7 + 11 + 15 + ....$ to 20 terms\n\n(c) $\\frac{1}{2} + 3 + 5\\frac{1}{2} + 8 + ....$ to 50 terms\n\n(d) $100 + 93 + 86 + 79 + ....$ to 40 terms\n\n(e) $(-31) + (-28) + (-25) + (-22) + ....$ to 15 terms\n\n(f) $50 + 48\\frac{1}{2} + 47 + 45\\frac{1}{2} + ....$ to 80 terms.\n\n2. Find the sum of:\n\n(a) $5 + 8 + 11 + 14 + .... + 101$\n\n(b) $37 + 33 + 29 + 25 + .... + 9$\n\n(c) $50 + 49\\frac{1}{2} + 49 + 48\\frac{1}{2} + .... + (-20)$\n\n(d) $8 + 10\\frac{1}{2} + 13 + 15\\frac{1}{2} + .... + 83$\n\n3. Evaluate these arithmetic series:\n\n(a) $\\displaystyle\\sum_{k=1}^{10} (2k+5)$\n\n(b) $\\displaystyle\\sum_{k=1}^{15} (k-50)$\n\n(c) $\\displaystyle\\sum_{k=1}^{20} \\left(\\frac{k+3}{2}\\right)$\n\nCheck your answers using technology.\n\n4. An arithmetic series has eleven terms. The first term is 6 and the last term is $-27$. Find the sum of the series.",
+      "source_images": ["image1966.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. A bricklayer builds a triangular wall with layers of bricks as shown. If the bricklayer uses 171 bricks, how many layers did he build?\n\n6. Vicki has 30 days to train for a swimming competition.\n\nShe swims 20 laps on the first day, then each day after that she swims two more laps than the previous day. So, she swims 22 laps on the second day, 24 laps on the third day, and so on.\n\n(a) How many laps does Vicki swim on:\n\n(i) the tenth day\n\n(ii) the final day?\n\n(b) How many laps does Vicki swim in total?\n\n7. A woman deposits $100 into her son's savings account on his first birthday. She deposits $125 on his second birthday, $150 on his third birthday, and so on.\n\n(a) Calculate the amount of money she will deposit into her son's account on his 15th birthday.\n\n(b) Find the total amount she will have deposited over the 15 years.\n\n8. A football stadium has 25 sections of seating. Each section has 44 rows of seats, with 22 seats in the first row, 23 in the second row, 24 in the third row, and so on. How many seats are there in:\n\n(a) row 44 of one section\n\n(b) each section\n\n(c) the whole stadium?\n\n9. Find the sum of:\n\n(a) the first 50 multiples of 11\n\n(b) the multiples of 7 between 0 and 1000\n\n(c) the integers from 1 to 100 which are not divisible by 3\n\n(d) the three-digit numbers which start or end with a \"4\".\n\n10. $k - 1$, $2k + 3$, and $27 - k$ are the first three terms of an arithmetic sequence.\n\n(a) Find $k$.\n\n(b) Find the sum of the first 25 terms of the sequence.\n\n11. The sixth term of an arithmetic sequence is 21, and the sum of the first seventeen terms is 0. Find the first two terms of the sequence.\n\n12. An arithmetic series has $S_3 = 9$ and $S_6 = 90$. Find $S_{10}$.",
+      "source_images": ["image1967.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "13. An arithmetic sequence has first term 4 and common difference 6. The sum of the terms of the sequence is 200. Find the number of terms in the sequence.\n\n14. An arithmetic sequence has $u_1 = 7$ and $S_2 = 17$.\n\n(a) Find the common difference of the sequence.\n\n(b) Find $n$ such that $S_n = 242$.\n\n15. Consider the arithmetic sequence $13, 21, 29, 37, ....$ How many terms are needed for the sum of the sequence terms to exceed 1000?\n\n16. Use the arithmetic sequence formula to prove that the sum of the first $n$ integers is $\\frac{n(n+1)}{2}$.\n\n17. (a) Write a formula for the $n$th odd integer.\n\n(b) Hence prove that the sum of the first $n$ odd integers is $n^2$.\n\n18. Three consecutive terms of an arithmetic sequence have a sum of 12 and a product of $-80$. Find the terms.\n\n19. The sum of the first 15 terms of an arithmetic sequence is 480. Find the 8th term of the sequence.\n\n20. Five consecutive terms of an arithmetic sequence have a sum of 40. The product of the first, middle, and last terms is 224. Find the terms of the sequence.\n\n21. The sum of the first $n$ terms of an arithmetic sequence is $\\frac{n(3n+11)}{2}$.\n\n(a) Find its first two terms.\n\n(b) Find the twentieth term of the sequence.\n\n22. Find $3 - 5 + 7 - 9 + 11 - 13 + 15 - ....$ to 80 terms.\n\n23. The sum of the first $n$ terms of a sequence is $n^2 - \\frac{9}{2}n$. Prove that the sequence is arithmetic.\n\n24. Let $u_n = 3 + 2n$.\n\n(a) For $n = 1, ...., 4$, plot the points $(n, u_n)$ on a graph, and draw rectangles with vertices $(n, u_n)$, $(n+1, u_n)$, $(n, 0)$, and $(n+1, 0)$.\n\n(b) Explain how $S_n$ relates to the areas of the rectangles.\n\n(c) Using your sketch, explain why:\n\n(i) $u_{n+1} = u_n + 2$\n\n(ii) $S_{n+1} = S_n + u_{n+1}$.\n\n25. An arithmetic sequence has common difference $d$. The series sums $S_2$, $S_5$, and $S_7$ themselves form an arithmetic sequence. Find, in terms of $d$, the common difference for this sequence.",
+      "source_images": ["image1968.png"]
+    },
+    {
+      "type": "definition",
+      "content_latex": "A geometric series is the sum of the terms of a geometric sequence.",
+      "source_images": ["image1969.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "For example: $1, 2, 4, 8, 16, ...., 1024$ is a geometric sequence.\n\n$1 + 2 + 4 + 8 + 16 + .... + 1024$ is a geometric series.",
+      "source_images": ["image1970.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "SUM OF A FINITE GEOMETRIC SERIES\n\nIf the first term is $u_1$ and the common ratio is $r$, then the terms are: $u_1$, $u_1r$, $u_1r^2$, $u_1r^3$, ...., $u_1r^{n-1}$.\n\nSo, $S_n = u_1 + u_1r + u_1r^2 + u_1r^3 + .... + u_1r^{n-2} + u_1r^{n-1}$\n\nFor a finite geometric series with $r \\neq 1$,\n\n$S_n = \\frac{u_1(r^n - 1)}{r - 1}$ or $S_n = \\frac{u_1(1 - r^n)}{1 - r}$.\n\nProof:\n\nIf $S_n = u_1 + u_1r + u_1r^2 + u_1r^3 + .... + u_1r^{n-2} + u_1r^{n-1}$ (*)\n\nthen $rS_n = (u_1r + u_1r^2 + u_1r^3 + u_1r^4 + .... + u_1r^{n-1}) + u_1r^n$\n\n$\\therefore rS_n = (S_n - u_1) + u_1r^n$ {from (*)}\n\n$\\therefore rS_n - S_n = u_1r^n - u_1$\n\n$\\therefore S_n(r - 1) = u_1(r^n - 1)$\n\n$\\therefore S_n = \\frac{u_1(r^n - 1)}{r - 1}$ or $\\frac{u_1(1 - r^n)}{1 - r}$ provided $r \\neq 1$.",
+      "source_images": ["image1971.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "In the case $r = 1$ we have a sequence in which all terms are the same. The sequence is also arithmetic (with $d = 0$), and $S_n = u_1 n$.",
+      "source_images": ["image1972.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 10\n\nFind the sum of:\n\n(a) $3 + 6 + 12 + 24 + ....$ to 10 terms\n\n(b) $8 - 4 + 2 - 1 + ....$ to 7 terms.\n\nSolutions:\n\n(a) The series is geometric with $u_1 = 3$ and $r = 2$.\n\n$S_n = \\frac{u_1(r^n - 1)}{r - 1}$\n\n$\\therefore S_{10} = \\frac{3(2^{10} - 1)}{2 - 1}$\n\n$= 3069$\n\n(b) The series is geometric with $u_1 = 8$ and $r = -\\frac{1}{2}$.\n\n$S_n = \\frac{u_1(1 - r^n)}{1 - r}$\n\n$\\therefore S_7 = \\frac{8(1 - (-\\frac{1}{2})^7)}{1 - (-\\frac{1}{2})}$\n\n$= \\frac{8(\\frac{129}{128})}{\\frac{3}{2}}$\n\n$= \\frac{43}{8}$",
+      "source_images": ["image1973.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 28\n\nFind the sum of $2 + 6 + 18 + 54 + ....$ to 12 terms.\n\nSolution:\n\nThe series is geometric with $u_1 = 2$, $r = 3$, and $n = 12$.\n\n$S_n = \\frac{u_1(r^n - 1)}{r - 1}$\n\n$\\therefore S_{12} = \\frac{2(3^{12} - 1)}{3 - 1} = 531440$",
+      "source_images": ["image1974.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 29\n\nFind a formula for $S_n$, the sum of the first $n$ terms of the series $9 - 3 + 1 - \\frac{1}{3} + ....$\n\nSolution:\n\nThe series is geometric with $u_1 = 9$ and $r = -\\frac{1}{3}$.\n\n$S_n = \\frac{u_1(1 - r^n)}{1 - r} = \\frac{9(1 - (-\\frac{1}{3})^n)}{\\frac{4}{3}}$\n\n$\\therefore S_n = \\frac{27}{4}(1 - (-\\frac{1}{3})^n)$",
+      "source_images": ["image1975.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 30\n\nA geometric sequence has first term 5 and common ratio 2. The sum of the first $n$ terms of the sequence is 635. Find $n$.\n\nSolution:\n\nThe sequence is geometric with $u_1 = 5$ and $r = 2$.\n\n$\\therefore S_n = \\frac{u_1(r^n - 1)}{r - 1} = \\frac{5(2^n - 1)}{2 - 1} = 5(2^n - 1)$\n\nTo find $n$ such that $S_n = 635$, we use a table of values with $Y_1 = 5 \\times (2^X - 1)$:\n\n[Calculator tables shown for Casio fx-CG50, TI-84 Plus CE, and HP Prime]\n\n$S_7 = 635$, so $n = 7$.",
+      "source_images": ["image1976.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 16F.1\n\n1. Find $5 + 10 + 20 + 40 + 80 + 160$:\n\n(a) by adding the terms directly\n\n(b) using $S_n = \\frac{u_1(r^n - 1)}{r - 1}$.\n\n2. Find the sum of:\n\n(a) $1 + 3 + 9 + 27 + ....$ to 8 terms\n\n(b) $2 + 10 + 50 + 250 + ....$ to 10 terms\n\n(c) $24 + 12 + 6 + 3 + ....$ to 9 terms\n\n(d) $1 + \\sqrt{2} + 2 + 2\\sqrt{2} + ....$ to 12 terms\n\n(e) $4 - 8 + 16 - 32 + ....$ to 10 terms\n\n(f) $81 - 27 + 9 - 3 + ....$ to 8 terms\n\n(g) $11\\sqrt{11} + 11 + \\sqrt{11} + 1 + ....$ to 9 terms\n\n(h) $16 - 4 + 1 - \\frac{1}{4} + ....$ to 10 terms.\n\n3. A geometric series has $S_1 = 2$ and $S_2 = 8$.\n\n(a) Find the first term $u_1$ and the common ratio $r$.\n\n(b) Find the sum of the first 10 terms of the series.\n\n4. A geometric series has first term $u_1$ and common ratio $r = -1$.\n\nShow that $S_n = \\begin{cases} u_1 & \\text{if } n \\text{ is odd} \\\\ 0 & \\text{if } n \\text{ is even} \\end{cases}$.\n\n5. Doug is marooned on a desert island with only 2000 mL of fresh water.\n\nHe drinks 500 mL on the first day, but realises he will soon run out of water if he drinks that much each day. He decides that each day he will drink $\\frac{3}{4}$ of the amount he drank the previous day.\n\n(a) How much water will Doug drink on the:\n\n(i) 5th day\n\n(ii) 10th day\n\n(iii) 15th day?\n\n(b) Describe what happens to the amount of water Doug drinks each day.\n\n(c) How much water will Doug have drunk in total after:\n\n(i) 10 days\n\n(ii) 20 days\n\n(iii) 30 days?\n\n(d) Do you think Doug will ever run out of water? Explain your answer.",
+      "source_images": ["image1977.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5H\n\n1. Find the sum of the following series:\n\n(a) $2 + 6 + 18 + 54 + ....$ to 8 terms\n\n(b) $5 + 10 + 20 + 40 + ....$ to 10 terms\n\n(c) $12 + 6 + 3 + 1.5 + ....$ to 10 terms\n\n(d) $\\sqrt{7} + 7 + 7\\sqrt{7} + 49 + ....$ to 12 terms\n\n(e) $6 - 3 + 1\\frac{1}{2} - \\frac{3}{4} + ....$ to 15 terms\n\n(f) $1 - \\frac{1}{\\sqrt{2}} + \\frac{1}{2} - \\frac{1}{2\\sqrt{2}} + ....$ to 20 terms.\n\n2. Find a formula for $S_n$, the sum of the first $n$ terms of the series:\n\n(a) $\\sqrt{3} + 3 + 3\\sqrt{3} + 9 + ....$\n\n(b) $12 + 6 + 3 + 1\\frac{1}{2} + ....$\n\n(c) $0.9 + 0.09 + 0.009 + 0.0009 + ....$\n\n(d) $20 - 10 + 5 - 2\\frac{1}{2} + ....$",
+      "source_images": ["image1978.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Evaluate these geometric series:\n\n(a) $\\displaystyle\\sum_{k=1}^{10} 3 \\times 2^{k-1}$\n\n(b) $\\displaystyle\\sum_{k=1}^{12} \\left(\\frac{1}{2}\\right)^{k-2}$\n\n(c) $\\displaystyle\\sum_{k=1}^{25} 6 \\times (-2)^k$\n\n4. At the end of each year, a salesperson is paid a bonus of $2000 which is always deposited into the same account. It earns a fixed rate of interest of 6% p.a. with interest being paid annually. The total amount in the account at the end of each year will be:\n\n$A_1 = 2000$\n\n$A_2 = A_1 \\times 1.06 + 2000$\n\n$A_3 = A_2 \\times 1.06 + 2000$ and so on.\n\n(a) Show that $A_3 = 2000 + 2000 \\times 1.06 + 2000 \\times (1.06)^2$.\n\n(b) Show that $A_4 = 2000[1 + 1.06 + (1.06)^2 + (1.06)^3]$.\n\n(c) Find the total bank balance after 10 years, assuming there are no fees or withdrawals.",
+      "source_images": ["image1979.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. Paula has started renting an apartment. She paid $5000 rent in the first year, and the rent increased by 5% each year.\n\n(a) Find, to the nearest $10, the rent paid by Paula in the 4th year.\n\n(b) Write an expression for the total rent paid by Paula during the first $n$ years.\n\n(c) How much rent did Paula pay during the first 7 years? Give your answer to the nearest $10.\n\n7. Jim initially deposits £6000 in an account which earns 5% p.a. interest paid annually. At the end of each year, Jim invests another £1000 in the account. Find the value of the account after 8 years.\n\n8. Consider $S_n = \\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8} + \\frac{1}{16} + .... + \\frac{1}{2^n}$.\n\n(a) Find $S_1$, $S_2$, $S_3$, $S_4$, and $S_5$ in fractional form.\n\n(b) Hence guess the formula for $S_n$.\n\n(c) Find $S_n$ using $S_n = \\frac{u_1(1 - r^n)}{1 - r}$.\n\n(d) Comment on $S_n$ as $n$ gets very large.\n\n(e) Explain the relationship between the given diagram and d.\n\n9. A geometric series has second term 6. The sum of its first three terms is $-14$. Find its fourth term.\n\n10. An arithmetic and a geometric sequence both have first term 1, and their second terms are equal. The 14th term of the arithmetic sequence is three times the third term of the geometric sequence. Find the twentieth term of each sequence.\n\n11. Suppose $u_1, u_2, ...., u_n$ is a geometric sequence with common ratio $r$. Show that\n\n$(u_1 + u_2)^2 + (u_2 + u_3)^2 + (u_3 + u_4)^2 + .... + (u_{n-1} + u_n)^2 = \\frac{2u_1^2(r^{2n-1} - 1)}{r - 1} - (u_1^2 + u_n^2)$.",
+      "source_images": ["image1980.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "12. A geometric sequence has first term 6 and common ratio $1.5$. The sum of the first $n$ terms of the sequence is $S_n = u_1 \\frac{(r^n - 1)}{r - 1} = 172\\frac{1}{8}$. Find $n$.\n\n13. A geometric sequence has first term 6 and common ratio $1.5$. The sum of the first $n$ terms of the sequence exceeds 75 125. Find $n$.\n\n14. Felicity is offered a new job, and is given two salary options to choose from:\n\nOption A: $41000 in the first year, and an annual increase of $1000 each subsequent year.\n\nOption B: $40000 in the first year, and an annual increase of 3% each subsequent year.\n\n(a) If Felicity believed that she would work for 3 years in this new job, explain why Option A would be best for her.\n\n(b) Find the minimum time of employment for which Option B is the better option.\n\n(c) Felicity decides that the best way to compare the two options is to consider the total income earned over $n$ years for Options A and B respectively, where $n$ is the number of years she expects to work in this job.\n\nIf at the end of the first quarter, the amount owed is $A_1$, write an expression for the amount owed at the end of the third quarter, $A_3$.\n\nGiven that $A_0 = \\$8000 \\times 1.03 - R$.\n\nAt the end of the second quarter, the amount owed is given by:\n\n$A_2 = \\$8000 \\times (1.03)^2 - 1.03R - R$\n\n$= \\$8000 \\times (1.03)^2 - (1.03 + 1)R$\n\nWrite an expression for the amount owed at the end of the third quarter, $A_3$.\n\n15. The sum of the first three terms of a convergent infinite geometric series is $\\frac{64}{3}$.\n\n16. $\\$5000$ is borrowed over a 2-year period at a rate of 12% p.a. compounded quarterly. Quarterly repayments are made and the interest is adjusted each quarter. Which option is the best, if the interest at the end of each quarter, the balance is reduced by the amount of the quarterly repayments.\n\nThere are $2 \\times 4 = 8$ repayments and the interest per quarter is $\\frac{12\\%}{4} = 3\\%$.\n\nAt the end of the first quarter, the amount owed is $A_1 = \\$5000 \\times 1.03 - R$ where $R$ is the quarterly repayment.\n\nAt the end of the repayment period, $A_8 = 0$. Find the value of $R$.",
+      "source_images": ["image1981.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Examples of infinite geometric series include $2 + 8 + 32 + 128 + ....$ and $10 + 5 + 2\\frac{1}{2} + 1\\frac{1}{4} + ....$\n\nIf $r > 1$ or $r < -1$, the terms in the series get larger and larger. The sum of the series becomes infinitely large, and cannot be found. We say that the series diverges.\n\nIf $-1 < r < 1$, the terms in the series get smaller and smaller, and the sum of the series converges to a finite value.\n\nConsider $S_n = \\frac{u_1(1 - r^n)}{1 - r}$ as $n$ gets very large.\n\nFor $-1 < r < 1$, $r^n$ approaches zero, so $S_n$ approaches the value $\\frac{u_1}{1 - r}$.",
+      "source_images": ["image1982.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 11\n\nFind the sum of $2 + 1 + \\frac{1}{2} + \\frac{1}{4} + ....$\n\nSolution:\n\nThis is an infinite geometric series with $u_1 = 2$ and $r = \\frac{1}{2}$.\n\n$-1 < r < 1$, so the series converges, and the sum is $S = \\frac{u_1}{1 - r}$\n\n$= \\frac{2}{1 - \\frac{1}{2}}$\n\n$= 4$",
+      "source_images": ["image1983.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 31\n\nWrite $0.\\overline{7}$ as a rational number.\n\nSolution:\n\n$0.\\overline{7} = \\frac{7}{10} + \\frac{7}{100} + \\frac{7}{1000} + \\frac{7}{10000} + ....$ is an infinite geometric series with $u_1 = \\frac{7}{10}$ and $r = \\frac{1}{10}$.\n\n$\\therefore S = \\frac{u_1}{1 - r} = \\frac{\\frac{7}{10}}{1 - \\frac{1}{10}} = \\frac{7}{9}$\n\n$\\therefore 0.\\overline{7} = \\frac{7}{9}$",
+      "source_images": ["image1984.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 16F.2\n\n1. Decide whether the following infinite geometric series will converge or diverge:\n\n(a) $7 + 14 + 28 + 56 + ....$\n\n(b) $6 + 3 + 1\\frac{1}{2} + \\frac{3}{4} + ....$\n\n(c) $1 - \\sqrt{3} + 3 - 3\\sqrt{3} + ....$\n\n(d) $80 - 8 + 0.8 - 0.08 + ....$\n\n2. Consider the infinite geometric series $9 + 6 + 4 + \\frac{8}{3} + ....$\n\n(a) Find:\n\n(i) $S_5$\n\n(ii) $S_{10}$\n\n(iii) $S_{20}$.\n\n(b) Predict the sum of the infinite geometric series.\n\n(c) Check your answer to b by finding the sum $S = \\frac{u_1}{1 - r}$.\n\n3. Find the sum of:\n\n(a) $16 + 8 + 4 + 2 + ....$\n\n(b) $1 + \\frac{1}{5} + \\frac{1}{25} + \\frac{1}{125} + ....$\n\n(c) $36 - 12 + 4 - \\frac{4}{3} + ....$\n\n(d) $32 + 24 + 18 + \\frac{27}{2} + ....$\n\n(e) $72 - 12 + 2 - \\frac{1}{3} + ....$\n\n(f) $0.6 + 0.06 + 0.006 + 0.0006 + ....$\n\n4. Consider a rectangle with area 1 unit$^2$.\n\nThe rectangle is divided into thirds, with one third coloured blue, and another third coloured red. The rectangle is then rotated 90°, and the process is repeated on the remaining unshaded third.\n\nSuppose this process continues indefinitely.\n\n(a) Show that the total blue shaded area $= \\frac{1}{3} + \\frac{1}{9} + \\frac{1}{27} + ....$\n\n(b) Explain why the blue shaded area = red shaded area.\n\n(c) Hence, explain why $\\frac{1}{3} + \\frac{1}{9} + \\frac{1}{27} + .... = \\frac{1}{2}$.\n\n(d) Check this fact using $S = \\frac{u_1}{1 - r}$.",
+      "source_images": ["image1985.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. (a) Without evaluating either sum, explain why $8 - 4 + 2 - 1 + \\frac{1}{2} - \\frac{1}{4} + .... = 4 + 1 + \\frac{1}{4} + ....$\n\n(b) Verify this fact by evaluating each sum.\n\n6. Find the sum of $5 + \\frac{5}{\\sqrt{2}} + \\frac{5}{2} + \\frac{5}{2\\sqrt{2}} + ....$, giving your answer in the form $a + b\\sqrt{2}$, $a, b \\in \\mathbb{Z}$.",
+      "source_images": ["image1986.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "EXERCISE 5I\n\n1. (a) Explain why $0.\\overline{3} = \\frac{3}{10} + \\frac{3}{100} + \\frac{3}{1000} + ....$ is an infinite geometric series.\n\n(b) Hence show that $0.\\overline{3} = \\frac{1}{3}$.\n\n2. Write as a rational number:\n\n(a) $0.\\overline{4}$\n\n(b) $0.\\overline{16}$\n\n(c) $0.\\overline{312}$\n\n3. Use $S = \\frac{u_1}{1 - r}$ to check your answer to Exercise 5H question 8 d.\n\n4. Find the sum of each of the following infinite geometric series:\n\n(a) $18 + 12 + 8 + \\frac{16}{3} + ....$\n\n(b) $18.9 - 6.3 + 2.1 - 0.7 + ....$\n\n5. Find:\n\n(a) $\\displaystyle\\sum_{k=1}^{\\infty} \\frac{3}{4^k}$\n\n(b) $\\displaystyle\\sum_{k=0}^{\\infty} 6\\left(-\\frac{2}{5}\\right)^k$",
+      "source_images": ["image1987.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. The sum of the first three terms of a convergent infinite geometric series is 19. The sum of the series is 27. Find the first term and the common ratio.\n\n7. The second term of a convergent infinite geometric series is $\\frac{8}{5}$. The sum of the series is 10. Show that there are two possible series, and find the first term and the common ratio in each case.\n\n8. An infinite geometric series has $S = \\frac{64}{3}$ and $S_3 = 21$. Find $S_5$.\n\n9. When dropped, a ball takes 1 second to hit the ground. It then takes 90% of this time to rebound to its new height, and this continues until the ball comes to rest.\n\n(a) Show that the total time of motion is given by $1 + 2(0.9) + 2(0.9)^2 + 2(0.9)^3 + ....$\n\n(b) Find $S_n$ for the series in a.\n\n(c) How long does it take for the ball to come to rest?\n\n10. When a ball is dropped, it rebounds 75% of its height after each bounce. If the ball travels a total distance of 490 cm, from what height was the ball dropped?\n\n11. (a) Explain why $0.\\overline{9} = 1$ exactly.\n\n(b) Show that if $u_n = \\frac{9}{10^n}$, then $S_n = 1 - \\frac{1}{10^n}$.\n\n(c) On a graph, plot the points $(n, u_n)$ and $(n, S_n)$ for $n = 1, 2, ...., 10$. Connect each set of points with a smooth curve.\n\n12. Find $x$ if $\\displaystyle\\sum_{k=1}^{\\infty} \\left(\\frac{3x}{2}\\right)^{k-1} = 4$.\n\n13. Suppose $u_1 + u_2 + u_3 + u_4 + ....$ is a convergent infinite geometric series, with $u_1, u_2, u_3, u_4, .... > 0$.\n\n(a) Explain why $u_1 - u_2 + u_3 - u_4 + ....$ and $\\sqrt{u_1} + \\sqrt{u_2} + \\sqrt{u_3} + \\sqrt{u_4} + ....$ must also be convergent infinite geometric series.\n\n(b) Given $u_1 - u_2 + u_3 - u_4 + .... = \\frac{81}{10}$ and $\\sqrt{u_1} + \\sqrt{u_2} + \\sqrt{u_3} + \\sqrt{u_4} + .... = \\frac{9}{2}$, find $u_1 + u_2 + u_3 + u_4 + ....$\n\n14. Show that $\\frac{1}{4} + \\frac{2}{8} + \\frac{3}{16} + \\frac{4}{32} + \\frac{5}{64} + .... = 1$.",
+      "source_images": ["image1988.png"]
+    }
+  ]
+}

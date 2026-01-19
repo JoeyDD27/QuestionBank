@@ -5,7 +5,7 @@
   "items": [
     {
       "type": "concept",
-      "content_latex": "The number of $x$-intercepts of a quadratic function can be determined by examining its graph:\n\n- two $x$-intercepts: parabola crosses the $x$-axis at two points\n- one $x$-intercept: parabola touches the $x$-axis at one point\n- no $x$-intercepts: parabola does not touch the $x$-axis",
+      "content_latex": "The graph of a quadratic may have:\n\n- two $x$-intercepts\n- one $x$-intercept\n- no $x$-intercepts",
       "source_images": ["image1028.png"]
     },
     {
@@ -90,32 +90,27 @@
     },
     {
       "type": "example",
-      "content_latex": "Example 12\n\nFor $y = -(x + 1)(x - 3)$ find:\n\n(a) the $x$-intercepts\n(b) the equation of the axis of symmetry\n(c) the coordinates of the vertex\n(d) the $y$-intercept.\n\nHence, sketch the function.",
-      "source_images": ["image1045.png"]
+      "content_latex": "Example 12\n\nFor $y = -(x + 1)(x - 3)$ find:\n\n(a) the $x$-intercepts\n(b) the equation of the axis of symmetry\n(c) the coordinates of the vertex\n(d) the $y$-intercept.\n\nHence, sketch the function.\n\nSolutions:\n\n$y = -(x + 1)(x - 3)$\n\n(a) The $x$-intercepts are $-1$ and $3$.\n\n(b) The axis of symmetry is $x = \\frac{-1 + 3}{2}$\ni.e., $x = 1$\n\n(c) When $x = 1$, $y = -(2)(-2) = 4$\n$\\therefore$ the vertex is at $(1, 4)$.\n\n(d) When $x = 0$, $y = -(1)(-3) = 3$\n$\\therefore$ the $y$-intercept is $3$.",
+      "source_images": ["image1045.png", "image1046.png"]
     },
     {
       "type": "example",
-      "content_latex": "$y = -(x + 1)(x - 3)$\n\n(a) The $x$-intercepts are $-1$ and $3$.\n\n(b) The axis of symmetry is $x = \\frac{-1 + 3}{2}$\ni.e., $x = 1$\n\n(c) When $x = 1$, $y = -(2)(-2) = 4$\n$\\therefore$ the vertex is at $(1, 4)$.\n\n(d) When $x = 0$, $y = -(1)(-3) = 3$\n$\\therefore$ the $y$-intercept is $3$.",
-      "source_images": ["image1046.png"]
-    },
-    {
-      "type": "example",
-      "content_latex": "Example 13\n\nFor $y = (x - 2)^2$ find:\n\n(a) the $x$-intercepts\n(b) the equation of the axis of symmetry\n(c) the coordinates of the vertex\n(d) the $y$-intercept.\n\nHence, sketch the function.\n\nSolution:\n\n$y = (x - 2)^2$\n\n(a) The $x$-intercept is $2$.\n\n(b) The axis of symmetry is $x = 2$.\n\n(c) When $x = 2$, $y = 0^2 = 0$\n$\\therefore$ the vertex is at $(2, 0)$.\n\n(d) When $x = 0$, $y = (-2)^2 = 4$\n$\\therefore$ the $y$-intercept is $4$.",
+      "content_latex": "Example 13\n\nFor $y = (x - 2)^2$ find:\n\n(a) the $x$-intercepts\n(b) the equation of the axis of symmetry\n(c) the coordinates of the vertex\n(d) the $y$-intercept.\n\nHence, sketch the function.\n\nSolutions:\n\n$y = (x - 2)^2$\n\n(a) The $x$-intercept is $2$.\n\n(b) The axis of symmetry is $x = 2$.\n\n(c) When $x = 2$, $y = 0^2 = 0$\n$\\therefore$ the vertex is at $(2, 0)$.\n\n(d) When $x = 0$, $y = (-2)^2 = 4$\n$\\therefore$ the $y$-intercept is $4$.",
       "source_images": ["image1047.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "EXERCISE 19F\n\n1. Find the equation of the axis of symmetry of:\n\n(a) [Graph with vertex at approximately $(2, -4)$ opening upwards, passing through $(0, 0)$ and $(4, 0)$]\n\n(b) [Graph with vertex at approximately $(-1, 4)$ opening downwards, passing through $(-3, 0)$ and $(1, 0)$]\n\n(c) [Graph with vertex at approximately $(3, 2)$ opening downwards, passing through $(1, 0)$ and $(5, 0)$]\n\n(d) [Graph with vertex at approximately $(-0.5, -3)$ opening upwards, passing through $(-3, 0)$ and $(2, 0)$]\n\n(e) [Graph with vertex at approximately $(-3.5, -2)$ opening downwards, passing through $(-6, 0)$ and $(-1, 0)$]\n\n(f) [Graph with vertex at approximately $(1.5, -1)$ opening upwards, passing through $(1, 0)$ and $(4, 0)$]",
+      "content_latex": "EXERCISE 19F\n\n1. Find the equation of the axis of symmetry of:\n\n(a) [Graph with vertex at $(2, \\text{min})$, passing through $(0, y)$ and $(4, y)$]\n(b) [Graph with $x$-intercepts at $-3$ and $1$]\n(c) [Graph with $x$-intercepts at $1$ and $5$]\n(d) [Graph with $x$-intercepts at $-3$ and $2$]\n(e) [Graph with $x$-intercepts at $-6$ and $-1$]\n(f) [Graph with $x$-intercepts at $-1$ and $4$]",
       "source_images": ["image1048.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "2. From the following quadratics, find:\n\n(i) the $x$-intercepts\n(ii) the equation of the axis of symmetry\n(iii) the coordinates of the vertex\n(iv) the $y$-intercept.\n\nHence sketch graphs of the functions.\n\n(a) $y = (x - 1)(x - 3)$\n(b) $y = -(x - 1)(x - 5)$\n(c) $y = x(x - 4)$\n(d) $y = -x(x + 2)$\n(e) $y = (x + 2)(x - 4)$\n(f) $y = -(x - 1)^2$\n(g) $y = (x + 4)(x - 2)$\n(h) $y = -(x + 4)(x - 2)$\n(i) $y = (x + 3)^2$\n(j) $y = -(x + 1)(x - 2)$\n(k) $y = x^2 + 2x$\n(l) $y = -x^2 - 4x - 4$\n(m) $y = x^2 + 3x$\n(n) $y = x^2 - 3x - 10$\n(o) $y = -x^2 - 7x - 6$\n\nHint: In k to o you should start by factorising the quadratic.\n\n3. What are the limitations of the method used in Examples 12 and 13 for graphing the general functions $y = x^2 + bx + c$ or $y = -x^2 + bc + c$?\n\n4. Find all $x$-intercepts of the graph of a quadratic function which:\n\n(a) cuts the $x$-axis at $2$ and has axis of symmetry $x = 4$\n(b) cuts the $x$-axis at $-1$ and has axis of symmetry $x = -3$\n(c) touches the $x$-axis at $3$.",
+      "content_latex": "2. From the following quadratics, find:\n\n(i) the $x$-intercepts\n(ii) the equation of the axis of symmetry\n(iii) the coordinates of the vertex\n(iv) the $y$-intercept.\n\nHence sketch graphs of the functions.\n\n(a) $y = (x - 1)(x - 3)$\n(b) $y = -(x - 1)(x - 5)$\n(c) $y = x(x - 4)$\n(d) $y = -x(x + 2)$\n(e) $y = (x + 2)(x - 4)$\n(f) $y = -(x - 1)^2$\n(g) $y = (x + 4)(x - 2)$\n(h) $y = -(x + 4)(x - 2)$\n(i) $y = (x + 3)^2$\n(j) $y = -(x + 1)(x - 2)$\n(k) $y = x^2 + 2x$\n(l) $y = -x^2 - 4x - 4$\n(m) $y = x^2 + 3x$\n(n) $y = x^2 - 3x - 10$\n(o) $y = -x^2 - 7x - 6$\n\nHint: In (k) to (o) you should start by factorising the quadratic.\n\n3. What are the limitations of the method used in Examples 12 and 13 for graphing the general functions $y = x^2 + bx + c$ or $y = -x^2 + bc + c$?\n\n4. Find all $x$-intercepts of the graph of a quadratic function which:\n\n(a) cuts the $x$-axis at $2$ and has axis of symmetry $x = 4$\n(b) cuts the $x$-axis at $-1$ and has axis of symmetry $x = -3$\n(c) touches the $x$-axis at $3$.",
       "source_images": ["image1049.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "EXERCISE 20D\n\n1. For each of the following graphs, find the equation of the axis of symmetry:\n\n(a) [Graph opening upwards with vertex at approximately $(2, -2)$, passing through $(0, 2)$ and $(4, 2)$]\n\n(b) [Graph opening upwards with vertex at approximately $(1, -2)$, passing through $(-1, 2)$ and $(3, 2)$]\n\n(c) [Graph opening downwards with vertex at approximately $(-2, 1)$, passing through $(-5, -2)$ and $(1, -2)$]\n\n(d) [Graph opening upwards with vertex at approximately $(1.5, -3)$, passing through $(-2, 2)$ and $(5, 2)$]\n\n(e) [Graph opening downwards with vertex at approximately $(-2.5, 1)$, passing through $(-4, -1)$ and $(-1, -1)$]\n\n(f) [Graph opening upwards with vertex at approximately $(2, 1)$, passing through $(1, 2)$ and crossing the $y$-axis]",
+      "content_latex": "EXERCISE 20D\n\n1. For each of the following graphs, find the equation of the axis of symmetry:\n\n(a) [Graph with $x$-intercepts at $0$ and $4$]\n(b) [Graph with $x$-intercepts at $-1$ and $3$, vertex at $(1, -2)$]\n(c) [Graph with $x$-intercepts at $-5$ and $1$]\n(d) [Graph with $x$-intercepts at $-2$ and $5$]\n(e) [Graph with $x$-intercepts at $-4$ and $-1$]\n(f) [Graph with vertex at $(2, 1)$]",
       "source_images": ["image1050.png"]
     },
     {
@@ -144,14 +139,14 @@
       "source_images": ["image1055.png"]
     },
     {
-      "type": "example",
-      "content_latex": "Optimisation is a very useful tool when looking at such issues as:\n\n- maximising profits\n- minimising costs\n- maximising heights reached.\n\nExample 19\n\nThe height of a rocket $t$ seconds after it is fired upwards is given by $H(t) = 100t - 5t^2$ metres, $t \\geqslant 0$.\n\n(a) How long does the rocket take to reach its maximum height?\n(b) Find the maximum height reached by the rocket.\n(c) How long does it take for the rocket to fall back to earth?\n\nSolutions:\n\n(a) $H(t) = 100t - 5t^2$\n$\\therefore H(t) = -5t^2 + 100t$\nNow $a = -5$ which is $< 0$, so the shape of the graph is $\\cap$.\n\nThe maximum height is reached when $t = \\frac{-b}{2a} = \\frac{-100}{2(-5)} = 10$\n\n$\\therefore$ the maximum height is reached after $10$ seconds.\n\n(b) $H(10) = 100(10) - 5(10)^2$\n$= 500$\n$\\therefore$ the maximum height reached is $500$ m.",
+      "type": "concept",
+      "content_latex": "Optimisation is a very useful tool when looking at such issues as:\n\n- maximising profits\n- minimising costs\n- maximising heights reached.",
       "source_images": ["image1056.png"]
     },
     {
       "type": "example",
-      "content_latex": "(c) The rocket falls back to earth when $H(t) = 0$\n$\\therefore -5t^2 + 100t = 0$\n$\\therefore -5t(t - 20) = 0$\n$\\therefore t = 0$ or $20$\n$\\therefore$ the rocket falls back to earth after $20$ seconds.",
-      "source_images": ["image1057.png"]
+      "content_latex": "Example 19\n\nThe height of a rocket $t$ seconds after it is fired upwards is given by $H(t) = 100t - 5t^2$ metres, $t \\geq 0$.\n\n(a) How long does the rocket take to reach its maximum height?\n(b) Find the maximum height reached by the rocket.\n(c) How long does it take for the rocket to fall back to earth?\n\nSolutions:\n\n(a) $H(t) = 100t - 5t^2$\n$\\therefore H(t) = -5t^2 + 100t$\nNow $a = -5$ which is $< 0$, so the shape of the graph is $\\cap$.\n\nThe maximum height is reached when $t = \\frac{-b}{2a} = \\frac{-100}{2(-5)} = 10$\n$\\therefore$ the maximum height is reached after 10 seconds.\n\n(b) $H(10) = 100(10) - 5(10)^2$\n$= 500$\n$\\therefore$ the maximum height reached is 500 m.\n\n(c) The rocket falls back to earth when $H(t) = 0$\n$\\therefore -5t^2 + 100t = 0$\n$\\therefore -5t(t - 20) = 0$\n$\\therefore t = 0$ or $20$\n$\\therefore$ the rocket falls back to earth after 20 seconds.",
+      "source_images": ["image1056.png", "image1057.png"]
     },
     {
       "type": "concept",
@@ -160,7 +155,7 @@
     },
     {
       "type": "concept",
-      "content_latex": "| Quadratic form, $a \\neq 0$ | Graph | Facts |\n|---|---|---|\n| $y = a(x - h)^2$ where $h \\in \\mathbb{R}$ | [Parabola touching x-axis at $h$] | touches $x$-axis at $h$; axis of symmetry is $x = h$; vertex is $(h, 0)$ |\n| $y = a(x - h)^2 + k$ where $h, k \\in \\mathbb{R}$ | [Parabola with vertex at $(h, k)$] | axis of symmetry is $x = h$; vertex is $(h, k)$ |",
+      "content_latex": "| Quadratic form, $a \\neq 0$ | Graph | Facts |\n|---|---|---|\n| $y = a(x - h)^2$ where $h \\in \\mathbb{R}$ | [Parabola touching x-axis at $(h, 0)$] | touches $x$-axis at $h$; axis of symmetry is $x = h$; vertex is $(h, 0)$ |\n| $y = a(x - h)^2 + k$ where $h, k \\in \\mathbb{R}$ | [Parabola with vertex at $(h, k)$] | axis of symmetry is $x = h$; vertex is $(h, k)$ |",
       "source_images": ["image1059.png"]
     },
     {
@@ -175,7 +170,7 @@
     },
     {
       "type": "exercise",
-      "content_latex": "3. A billiard table manufacturer finds that the cost per table of making $x$ tables per month is given by $C = x^2 - 16x + 67$ hundred dollars.\n\n(a) How many tables should be made per month to minimise the production cost of each?\n(b) What is the minimum cost per table?\n(c) What is the cost per table if $5$ tables are made in a month?\n\n4. A car driving along a city street has speed given by the function $s = -t^2 + 6t + 40$ km h$^{-1}$ where $0 \\leqslant t \\leqslant 10$ seconds.\n\n(a) How fast was the car travelling at time $t = 0$ seconds?\n(b) After how many seconds did the speed of the car first reach $45$ km h$^{-1}$?\n(c) At what time did the speed reach $45$ km h$^{-1}$ again?\n(d) What was the maximum speed of the car and at what time did it occur?\n\n5. A company supplies stalls which sell drinks at a festival. The profit obtained from operating $n$ stalls is given by $P = 160n - 1520 - n^2$ dollars.\n\n(a) What number of stalls gives the maximum profit?\n(b) What is the maximum profit?\n(c) How much money is lost if there is a thunderstorm and the festival is cancelled at the last minute?",
+      "content_latex": "3. A billiard table manufacturer finds that the cost per table of making $x$ tables per month is given by $C = x^2 - 16x + 67$ hundred dollars.\n\n(a) How many tables should be made per month to minimise the production cost of each?\n(b) What is the minimum cost per table?\n(c) What is the cost per table if 5 tables are made in a month?\n\n4. A car driving along a city street has speed given by the function $s = -t^2 + 6t + 40$ km h$^{-1}$ where $0 \\leq t \\leq 10$ seconds.\n\n(a) How fast was the car travelling at time $t = 0$ seconds?\n(b) After how many seconds did the speed of the car first reach 45 km h$^{-1}$?\n(c) At what time did the speed reach 45 km h$^{-1}$ again?\n(d) What was the maximum speed of the car and at what time did it occur?\n\n5. A company supplies stalls which sell drinks at a festival. The profit obtained from operating $n$ stalls is given by $P = 160n - 1520 - n^2$ dollars.\n\n(a) What number of stalls gives the maximum profit?\n(b) What is the maximum profit?\n(c) How much money is lost if there is a thunderstorm and the festival is cancelled at the last minute?",
       "source_images": ["image1062.png"]
     },
     {
@@ -185,13 +180,8 @@
     },
     {
       "type": "exercise",
-      "content_latex": "2. For each of the following quadratic functions:\n\n(i) Find the axes intercepts.\n(ii) Find the equation of the axis of symmetry.\n(iii) Find the coordinates of the vertex.\n(iv) Hence, sketch the graph of the function.",
-      "source_images": ["image1064.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "(a) $y = x^2 - 2x - 8$\n(b) $y = 4x - x^2$\n(c) $y = x^2 + 3x$\n(d) $f(x) = x^2 + 4x + 4$\n(e) $y = x^2 + 3x - 4$\n(f) $y = -x^2 + 2x - 1$\n(g) $y = 2x^2 + 5x - 3$\n(h) $f(x) = -3x^2 - 4x + 4$\n(i) $y = x^2 - 6x + 3$",
-      "source_images": ["image1065.png"]
+      "content_latex": "2. For each of the following quadratic functions:\n\n(i) Find the axes intercepts.\n(ii) Find the equation of the axis of symmetry.\n(iii) Find the coordinates of the vertex.\n(iv) Hence, sketch the graph of the function.\n\n(a) $y = x^2 - 2x - 8$\n(b) $y = 4x - x^2$\n(c) $y = x^2 + 3x$\n(d) $f(x) = x^2 + 4x + 4$\n(e) $y = x^2 + 3x - 4$\n(f) $y = -x^2 + 2x - 1$\n(g) $y = 2x^2 + 5x - 3$\n(h) $f(x) = -3x^2 - 4x + 4$\n(i) $y = x^2 - 6x + 3$",
+      "source_images": ["image1064.png", "image1065.png"]
     },
     {
       "type": "exercise",
@@ -200,32 +190,27 @@
     },
     {
       "type": "exercise",
-      "content_latex": "EXERCISE 20F\n\n1. The height of a ball $t$ seconds after it is kicked upwards is given by $H(t) = 20t - 5t^2$ metres.\n\n(a) How long does the ball take to reach its maximum height?\n(b) Find the maximum height reached by the ball.\n(c) How long does it take for the ball to hit the ground?\n\n2. A manufacturer finds that the profit $\\in P$ from assembling $x$ bicycles per day is given by $P(x) = -x^2 + 50x - 200$.\n\n(a) How many bicycles should be assembled per day to maximise the profit?\n(b) Find the maximum profit.\n(c) What is the loss made if no bicycles are assembled in a day? Suggest why this loss would be made.\n\n3. The driver of a car travelling downhill applied the brakes. The speed of the car, $t$ seconds after the brakes were applied, is given by $s(t) = -6t^2 + 12t + 60$ km h$^{-1}$.\n\n(a) How fast was the car travelling when the driver applied the brakes?\n(b) After how many seconds did the car reach its maximum speed?\n(c) Find the maximum speed reached.",
+      "content_latex": "EXERCISE 20F\n\n1. The height of a ball $t$ seconds after it is kicked upwards is given by $H(t) = 20t - 5t^2$ metres.\n\n(a) How long does the ball take to reach its maximum height?\n(b) Find the maximum height reached by the ball.\n(c) How long does it take for the ball to hit the ground?\n\n2. A manufacturer finds that the profit $€P$ from assembling $x$ bicycles per day is given by $P(x) = -x^2 + 50x - 200$.\n\n(a) How many bicycles should be assembled per day to maximise the profit?\n(b) Find the maximum profit.\n(c) What is the loss made if no bicycles are assembled in a day? Suggest why this loss would be made.\n\n3. The driver of a car travelling downhill applied the brakes. The speed of the car, $t$ seconds after the brakes were applied, is given by $s(t) = -6t^2 + 12t + 60$ km h$^{-1}$.\n\n(a) How fast was the car travelling when the driver applied the brakes?\n(b) After how many seconds did the car reach its maximum speed?\n(c) Find the maximum speed reached.",
       "source_images": ["image1067.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "4. The hourly profit obtained from operating a fleet of $n$ taxis is given by $P(n) = 120n - 200 - 2n^2$ dollars.\n\n(a) What number of taxis gives the maximum hourly profit?\n(b) Find the maximum hourly profit.\n(c) How much money is lost per hour if no taxis are on the road?",
-      "source_images": ["image1068.png"]
+      "content_latex": "4. The hourly profit obtained from operating a fleet of $n$ taxis is given by $P(n) = 120n - 200 - 2n^2$ dollars.\n\n(a) What number of taxis gives the maximum hourly profit?\n(b) Find the maximum hourly profit.\n(c) How much money is lost per hour if no taxis are on the road?\n\n5. The temperature $T^\\circ$C in a greenhouse $t$ hours after 7:00 pm is given by $T(t) = \\frac{1}{4}t^2 - 6t + 25$ for $t \\leq 20$.\n\n(a) Find the temperature in the greenhouse at 7:00 pm.\n(b) At what time is the temperature at a minimum?\n(c) Find the minimum temperature in the greenhouse for $0 \\leq t \\leq 20$.\n\n6. Answer the questions posed in the Opening Problem on page 432.",
+      "source_images": ["image1068.png", "image1069.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "5. The temperature $T^\\circ$C in a greenhouse $t$ hours after 7:00 pm is given by $T(t) = \\frac{1}{4}t^2 - 6t + 25$ for $t \\leqslant 20$.\n\n(a) Find the temperature in the greenhouse at 7:00 pm.\n(b) At what time is the temperature at a minimum?\n(c) Find the minimum temperature in the greenhouse for $0 \\leqslant t \\leqslant 20$.\n\n6. Answer the questions posed in the Opening Problem on page 432.",
-      "source_images": ["image1069.png"]
-    },
-    {
-      "type": "exercise",
-      "content_latex": "7. Infinitely many rectangles may be inscribed within the triangle ACE shown. One of them is illustrated. Suppose EF $= x$ cm.\n\n(a) Show that triangles ABF and ACE are similar.\n(b) Show that BF $= 2(1 - x)$ cm.\n(c) Show that the area of rectangle BDEF is given by $A = -2x^2 + 2x$ cm$^2$.\n(d) (i) Find $x$ such that the area of the rectangle is maximised.\n    (ii) What is the maximum area?",
+      "content_latex": "7. Infinitely many rectangles may be inscribed within the triangle ACE shown. One of them is illustrated. Suppose EF $= x$ cm.\n\n(a) Show that triangles ABF and ACE are similar.\n(b) Show that BF $= 2(1 - x)$ cm.\n(c) Show that the area of rectangle BDEF is given by $A = -2x^2 + 2x$ cm$^2$.\n(d) (i) Find $x$ such that the area of the rectangle is maximised.\n(ii) What is the maximum area?",
       "source_images": ["image1070.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "REVIEW SET 19A\n\n1. Find $a$ if the point $(a, 3)$ lies on the graph of the function $y = x^2 + 3x + 5$.\n\n2. Using a table of values from $x = -3$ to $x = 3$, draw the graph of $y = 2 - x - x^2$.\n\n3. Using a translation, sketch the graph of $y = (x - 1)^2 + 3$. State the coordinates of the vertex.\n\n4. (a) Write $y = x^2 - 4x + 3$ in the form $y = (x - h)^2 + k$ by completing the square.\n   (b) Hence, state the coordinates of the vertex of $y = x^2 - 4x + 3$.\n   (c) Sketch the graphs of $y = x^2$ and $y = x^2 - 4x + 3$ on the same set of axes.\n\n5. (a) Write $y = -x^2 - 2x + 1$ in the form $y = -(x - h)^2 + k$ by completing the square.\n   (b) Hence, state the coordinates of the vertex of $y = -x^2 - 2x + 1$.\n   (c) Sketch the graphs of $y = -x^2$ and $y = -x^2 - 2x + 1$ on the same set of axes.",
+      "content_latex": "REVIEW SET 19A\n\n1. Find $a$ if the point $(a, 3)$ lies on the graph of the function $y = x^2 + 3x + 5$.\n\n2. Using a table of values from $x = -3$ to $x = 3$, draw the graph of $y = 2 - x - x^2$.\n\n3. Using a translation, sketch the graph of $y = (x - 1)^2 + 3$. State the coordinates of the vertex.\n\n4. (a) Write $y = x^2 - 4x + 3$ in the form $y = (x - h)^2 + k$ by completing the square.\n(b) Hence, state the coordinates of the vertex of $y = x^2 - 4x + 3$.\n(c) Sketch the graphs of $y = x^2$ and $y = x^2 - 4x + 3$ on the same set of axes.\n\n5. (a) Write $y = -x^2 - 2x + 1$ in the form $y = -(x - h)^2 + k$ by completing the square.\n(b) Hence, state the coordinates of the vertex of $y = -x^2 - 2x + 1$.\n(c) Sketch the graphs of $y = -x^2$ and $y = -x^2 - 2x + 1$ on the same set of axes.",
       "source_images": ["image1071.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "6. Find the $x$-intercepts of:\n\n(a) $y = (x + 2)(x - 3)$\n(b) $y = -x^2 + x + 12$\n\n7. For the graph of the quadratic function $y = (x + 3)(x - 2)$, find:\n\n(a) the $x$-intercepts\n(b) the equation of the axis of symmetry\n(c) the coordinates of the vertex\n(d) the $y$-intercept.\n(e) Use a to d to sketch the graph of the function.",
+      "content_latex": "6. Find the $x$-intercepts of:\n\n(a) $y = (x + 2)(x - 3)$\n(b) $y = -x^2 + x + 12$\n\n7. For the graph of the quadratic function $y = (x + 3)(x - 2)$, find:\n\n(a) the $x$-intercepts\n(b) the equation of the axis of symmetry\n(c) the coordinates of the vertex\n(d) the $y$-intercept.\n(e) Use (a) to (d) to sketch the graph of the function.",
       "source_images": ["image1072.png"]
     },
     {
@@ -235,17 +220,17 @@
     },
     {
       "type": "exercise",
-      "content_latex": "REVIEW SET 19B\n\n1. If $(t, -2)$ lies on graph of the function $y = x^2 - 3x - 2$, find $t$.\n\n2. Using a table of values from $x = -3$ to $x = 3$, draw the graph of $y = x^2 - 2x + 3$.\n\n3. Using a translation, sketch the graph of $y = -(x + 1)^2 + 3$. State the coordinates of the vertex.\n\n4. (a) Write $y = x^2 + 2x + 1$ in the form $y = (x - h)^2 + k$ by completing the square.\n   (b) Hence, state the coordinates of the vertex of $y = x^2 + 2x + 1$.\n   (c) Sketch the graphs of $y = x^2$ and $y = x^2 + 2x + 1$ on the same set of axes.\n\n5. (a) Write $y = -x^2 + 4x$ in the form $y = -(x - h)^2 + k$ by completing the square.\n   (b) Hence, state the coordinates of the vertex of $y = -x^2 + 4x$.\n   (c) Sketch the graphs of $y = -x^2$ and $y = -x^2 + 4x$ on the same set of axes.\n\n6. Find the $x$-intercepts of:\n\n(a) $y = -(x + 2)(x - 5)$\n(b) $y = (x + 2)^2$\n\n7. For the graph of the quadratic function $y = -(x - 2)(x + 4)$, find:\n\n(a) the $x$-intercepts\n(b) the equation of the axis of symmetry\n(c) the coordinates of the vertex\n(d) the $y$-intercept.\n(e) Use a to d to sketch the graph of the function.\n\n8. Find the maximum or minimum value of $y$ for the function:\n\n(a) $y = x^2 - 6x + 9$\n(b) $y = -x^2 - 3x + 1$\n\n9. A rectangle has one side $x$ m long. Its perimeter is $40$ m.\n\n(a) Find the length of the other sides of the rectangle in terms of $x$.\n(b) Write the area of the rectangle $A$ in terms of $x$.\n(c) Find the maximum possible area of the rectangle. Comment on the shape of the rectangle in this case.",
+      "content_latex": "REVIEW SET 19B\n\n1. If $(t, -2)$ lies on graph of the function $y = x^2 - 3x - 2$, find $t$.\n\n2. Using a table of values from $x = -3$ to $x = 3$, draw the graph of $y = x^2 - 2x + 3$.\n\n3. Using a translation, sketch the graph of $y = -(x + 1)^2 + 3$. State the coordinates of the vertex.\n\n4. (a) Write $y = x^2 + 2x + 1$ in the form $y = (x - h)^2 + k$ by completing the square.\n(b) Hence, state the coordinates of the vertex of $y = x^2 + 2x + 1$.\n(c) Sketch the graphs of $y = x^2$ and $y = x^2 + 2x + 1$ on the same set of axes.\n\n5. (a) Write $y = -x^2 + 4x$ in the form $y = -(x - h)^2 + k$ by completing the square.\n(b) Hence, state the coordinates of the vertex of $y = -x^2 + 4x$.\n(c) Sketch the graphs of $y = -x^2$ and $y = -x^2 + 4x$ on the same set of axes.\n\n6. Find the $x$-intercepts of:\n\n(a) $y = -(x + 2)(x - 5)$\n(b) $y = (x + 2)^2$\n\n7. For the graph of the quadratic function $y = -(x - 2)(x + 4)$, find:\n\n(a) the $x$-intercepts\n(b) the equation of the axis of symmetry\n(c) the coordinates of the vertex\n(d) the $y$-intercept.\n(e) Use (a) to (d) to sketch the graph of the function.\n\n8. Find the maximum or minimum value of $y$ for the function:\n\n(a) $y = x^2 - 6x + 9$\n(b) $y = -x^2 - 3x + 1$\n\n9. A rectangle has one side $x$ m long. Its perimeter is 40 m.\n\n(a) Find the length of the other sides of the rectangle in terms of $x$.\n(b) Write the area of the rectangle $A$ in terms of $x$.\n(c) Find the maximum possible area of the rectangle. Comment on the shape of the rectangle in this case.",
       "source_images": ["image1074.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "REVIEW SET 20A\n\n1. For the quadratic function $y = x^2 - 3x - 15$, find:\n\n(a) the value of $y$ when $x = 4$\n(b) the values of $x$ when $y = 3$.\n\n2. Sketch each of the following functions on the same set of axes as $y = x^2$:\n\n(a) $y = 3x^2$\n(b) $y = (x - 2)^2 + 1$\n(c) $y = -(x + 3)^2 - 2$\n\n3. (a) Write the quadratic $y = x^2 - 4x + 10$ in the form $y = (x - h)^2 + k$.\n   (b) Hence sketch the function, stating the coordinates of the vertex.",
+      "content_latex": "REVIEW SET 20A\n\n1. For the quadratic function $y = x^2 - 3x - 15$, find:\n\n(a) the value of $y$ when $x = 4$\n(b) the values of $x$ when $y = 3$.\n\n2. Sketch each of the following functions on the same set of axes as $y = x^2$:\n\n(a) $y = 3x^2$\n(b) $y = (x - 2)^2 + 1$\n(c) $y = -(x + 3)^2 - 2$\n\n3. (a) Write the quadratic $y = x^2 - 4x + 10$ in the form $y = (x - h)^2 + k$.\n(b) Hence sketch the function, stating the coordinates of the vertex.",
       "source_images": ["image1075.png"]
     },
     {
       "type": "exercise",
-      "content_latex": "4. Find the $x$-intercepts of:\n\n(a) $y = 5x(x + 4)$\n(b) $y = 2x^2 + 6x - 56$\n\n5. Find the equation of the axis of symmetry for:\n\n(a) [Graph opening upwards with x-intercept at approximately $-3$]\n(b) [Graph opening downwards with x-intercepts at approximately $0$ and $2$]\n\n6. Consider the quadratic function $y = -2(x - 1)(x + 3)$.\n\n(a) Find the:\n(i) direction the parabola opens\n(ii) $y$-intercept\n(iii) $x$-intercepts\n(iv) equation of the axis of symmetry.\n(b) Sketch the function, showing all of the above features.\n\n7. Find the vertex of each of the following quadratic functions:\n\n(a) $y = x^2 - 8x - 3$\n(b) $y = -4x^2 + 4x - 3$\n\n8. Consider the function $y = x^2 - 2x - 15$.\n\n(a) Find the:\n(i) $y$-intercept\n(ii) $x$-intercepts\n(iii) equation of the axis of symmetry\n(iv) coordinates of the vertex.\n(b) Sketch the function, showing all of the above features.",
+      "content_latex": "4. Find the $x$-intercepts of:\n\n(a) $y = 5x(x + 4)$\n(b) $y = 2x^2 + 6x - 56$\n\n5. Find the equation of the axis of symmetry for:\n\n(a) [Graph opening downward with $x$-intercept at $-3$]\n(b) [Graph opening downward with $x$-intercept at $2$]\n\n6. Consider the quadratic function $y = -2(x - 1)(x + 3)$.\n\n(a) Find the:\n(i) direction the parabola opens\n(ii) $y$-intercept\n(iii) $x$-intercepts\n(iv) equation of the axis of symmetry.\n(b) Sketch the function, showing all of the above features.\n\n7. Find the vertex of each of the following quadratic functions:\n\n(a) $y = x^2 - 8x - 3$\n(b) $y = -4x^2 + 4x - 3$\n\n8. Consider the function $y = x^2 - 2x - 15$.\n\n(a) Find the:\n(i) $y$-intercept\n(ii) $x$-intercepts\n(iii) equation of the axis of symmetry\n(iv) coordinates of the vertex.\n(b) Sketch the function, showing all of the above features.",
       "source_images": ["image1076.png"]
     },
     {
@@ -255,7 +240,7 @@
     },
     {
       "type": "exercise",
-      "content_latex": "REVIEW SET 20B\n\n1. Find the values of $x$ for which $f(x) = x^2 + x - 12$ takes the value $30$.\n\n2. Determine whether the ordered pair $(2, 5)$ satisfies the quadratic function $f(x) = x^2 - 3x + 8$.\n\n3. Draw the graphs of $y = x^2$ and $y = (x + 2)^2 + 5$ on the same set of axes.\n\n4. Use the quadratic formula to find the $x$-intercepts of:\n\n(a) $y = 3x^2 - x - 5$\n(b) $y = -x^2 + 2x + 6$\n\n5. Draw the graph of $y = 3(x - 2)^2$, showing the axes intercepts and the coordinates of the vertex.\n\n6. Determine the equation of the axis of symmetry for the following quadratic functions:\n\n(a) $f(x) = (x + 3)(x - 5)$\n(b) $f(x) = 3x^2 - 5x + 2$\n\n7. (a) Find the vertex of the quadratic function $f(x) = -x^2 + 4x - 7$.\n   (b) Hence, find the range of the function.\n\n8. Consider the quadratic function $f(x) = (x - 1)(x - 4)$.\n\n(a) Find $f(-1)$.\n(b) Find the axes intercepts.\n(c) Find the equation of the axis of symmetry.\n(d) Find the coordinates of the vertex.\n(e) Sketch the graph of $y = f(x)$, showing all of the above features.\n\n9. Suppose $f(x) = (x + 2)(x + 6)$ and $g(x) = -x^2 - 8x - 20$.\n\n(a) Find the axes intercepts of each function.\n(b) Show that the two functions have the same vertex.\n(c) State the range of each function.\n(d) Sketch the functions on the same set of axes.\n\n10. Suppose a quadratic function $y = ax^2 + bx + c$ has $c = 0$. Explain why the graph must cut the $x$-axis at least once:\n\n(a) by considering the graphical significance of $c = 0$\n(b) using the discriminant.",
+      "content_latex": "REVIEW SET 20B\n\n1. Find the values of $x$ for which $f(x) = x^2 + x - 12$ takes the value 30.\n\n2. Determine whether the ordered pair $(2, 5)$ satisfies the quadratic function $f(x) = x^2 - 3x + 8$.\n\n3. Draw the graphs of $y = x^2$ and $y = (x + 2)^2 + 5$ on the same set of axes.\n\n4. Use the quadratic formula to find the $x$-intercepts of:\n\n(a) $y = 3x^2 - x - 5$\n(b) $y = -x^2 + 2x + 6$\n\n5. Draw the graph of $y = 3(x - 2)^2$, showing the axes intercepts and the coordinates of the vertex.\n\n6. Determine the equation of the axis of symmetry for the following quadratic functions:\n\n(a) $f(x) = (x + 3)(x - 5)$\n(b) $f(x) = 3x^2 - 5x + 2$\n\n7. (a) Find the vertex of the quadratic function $f(x) = -x^2 + 4x - 7$.\n(b) Hence, find the range of the function.\n\n8. Consider the quadratic function $f(x) = (x - 1)(x - 4)$.\n\n(a) Find $f(-1)$.\n(b) Find the axes intercepts.\n(c) Find the equation of the axis of symmetry.\n(d) Find the coordinates of the vertex.\n(e) Sketch the graph of $y = f(x)$, showing all of the above features.\n\n9. Suppose $f(x) = (x + 2)(x + 6)$ and $g(x) = -x^2 - 8x - 20$.\n\n(a) Find the axes intercepts of each function.\n(b) Show that the two functions have the same vertex.\n(c) State the range of each function.\n(d) Sketch the functions on the same set of axes.\n\n10. Suppose a quadratic function $y = ax^2 + bx + c$ has $c = 0$. Explain why the graph must cut the $x$-axis at least once:\n\n(a) by considering the graphical significance of $c = 0$\n(b) using the discriminant.",
       "source_images": ["image1078.png"]
     }
   ]

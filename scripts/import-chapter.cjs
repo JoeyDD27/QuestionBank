@@ -55,6 +55,29 @@ const IMAGES_DIR = path.join(PROJECT_ROOT, 'docx_extracted', 'word', 'media_comp
 const STORAGE_BUCKET = 'question-images';
 const STORAGE_PATH = 'algebra';
 
+/**
+ * Convert LaTeX math delimiters from $...$ to ｢...｣
+ * This avoids conflicts with currency symbols like $30,000
+ *
+ * Important: Must handle \$ (escaped dollar sign in LaTeX) correctly.
+ * \$ should NOT be treated as a delimiter.
+ */
+function convertMathDelimiters(text) {
+  if (!text) return text;
+
+  // Temporarily replace \$ with a placeholder
+  const placeholder = '\x00ESCAPED_DOLLAR\x00';
+  let result = text.replace(/\\\$/g, placeholder);
+
+  // Convert $...$ to ｢...｣
+  result = result.replace(/\$([^$]+)\$/g, '｢$1｣');
+
+  // Restore \$
+  result = result.replace(new RegExp(placeholder, 'g'), '\\$');
+
+  return result;
+}
+
 // Parse command line arguments
 function parseArgs() {
   const args = process.argv.slice(2);
@@ -328,11 +351,12 @@ async function importData(chapterNum, chapterId, imageMap, dryRun = false) {
 
       // Insert question
       if (item.content_latex) {
+        const convertedLatex = convertMathDelimiters(item.content_latex);
         const { error: qErr } = await supabase.from('questions').insert({
           item_id: dbItem.id,
           source_image_id: sourceImageId,
           label: null,
-          problem_latex: item.content_latex,
+          problem_latex: convertedLatex,
           problem_text: null,
           has_answer: false,
           answer_latex: null,
