@@ -313,23 +313,28 @@ export default async function ChapterPage({ params }: PageProps) {
                         <div className={`rounded-lg border-2 border-dashed border-gray-300 ${typeBg[item.type] || 'bg-gray-50'}`}>
                           <div className="px-3 py-1.5 border-b border-gray-200 bg-white/50">
                             <span className="text-xs font-medium text-gray-500">
-                              📷 Source Image{item.source_images.length > 1 ? 's' : ''}{item.source_images.length > 0 ? ` (${item.source_images.length})` : ''}
+                              📷 参考图片{item.source_images.length > 1 ? ` (${item.source_images.length})` : ''}
                             </span>
                           </div>
                           <div className="p-3 space-y-2">
                             {item.source_images.length > 0 ? (
-                              item.source_images.map((img, imgIdx) => (
-                                <Image
-                                  key={img.id}
-                                  src={getImageUrl(img.filename)}
-                                  alt={img.filename}
-                                  width={500}
-                                  height={350}
-                                  className="w-full h-auto rounded border bg-white"
-                                  style={{ maxHeight: "400px", objectFit: "contain" }}
-                                  loading="lazy"
-                                />
-                              ))
+                              <>
+                                {item.source_images.map((img, imgIdx) => (
+                                  <Image
+                                    key={img.id}
+                                    src={getImageUrl(img.filename)}
+                                    alt={img.filename}
+                                    width={500}
+                                    height={350}
+                                    className="w-full h-auto rounded border bg-white"
+                                    style={{ maxHeight: "400px", objectFit: "contain" }}
+                                    loading="lazy"
+                                  />
+                                ))}
+                                <p className="text-xs text-gray-400 text-center">
+                                  图片可能包含其他内容
+                                </p>
+                              </>
                             ) : (
                               <div className="text-gray-400 text-sm italic p-8 text-center">
                                 No source image linked
