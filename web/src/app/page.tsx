@@ -82,9 +82,17 @@ export default async function Home() {
   return (
     <div className="min-h-screen bg-gray-50">
       <header className="bg-white shadow-sm border-b">
-        <div className="max-w-6xl mx-auto px-4 py-6">
-          <h1 className="text-3xl font-bold text-gray-900">QuestionBank</h1>
-          <p className="text-gray-600 mt-1">Algebra Question Library</p>
+        <div className="max-w-6xl mx-auto px-4 py-6 flex items-center justify-between">
+          <div>
+            <h1 className="text-3xl font-bold text-gray-900">QuestionBank</h1>
+            <p className="text-gray-600 mt-1">Algebra Question Library</p>
+          </div>
+          <Link
+            href="/questions"
+            className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+          >
+            Browse All Questions →
+          </Link>
         </div>
       </header>
 
