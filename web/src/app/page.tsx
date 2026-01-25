@@ -1,15 +1,40 @@
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
-import { Chapter } from "@/lib/types";
+import { Chapter, Source } from "@/lib/types";
 
 export const dynamic = 'force-dynamic';
 
-async function getChapters(): Promise<Chapter[]> {
+async function getSources(): Promise<Source[]> {
   const { data, error } = await supabase
+    .from("sources")
+    .select("*")
+    .order("created_at");
+
+  if (error) {
+    console.error("Error fetching sources:", error);
+    return [];
+  }
+  return data || [];
+}
+
+function getSourceLabel(source: Source): string {
+  if (source.filename === 'Algebra full.docx') return 'Algebra';
+  if (source.subject) return source.subject;
+  return source.filename.replace(/\.docx$/i, '');
+}
+
+async function getChapters(sourceId?: string): Promise<Chapter[]> {
+  let query = supabase
     .from("chapters")
     .select("*")
     .is("parent_id", null)
     .order("order_index");
+
+  if (sourceId) {
+    query = query.eq("source_id", sourceId);
+  }
+
+  const { data, error } = await query;
 
   if (error) {
     console.error("Error fetching chapters:", error);
@@ -18,12 +43,18 @@ async function getChapters(): Promise<Chapter[]> {
   return data || [];
 }
 
-async function getChapterStats(): Promise<Record<string, { images: number; items: number; questions: number }>> {
+async function getChapterStats(sourceId?: string): Promise<Record<string, { images: number; items: number; questions: number }>> {
   // Get main chapters (no parent)
-  const { data: chapters } = await supabase
+  let query = supabase
     .from("chapters")
     .select("id")
     .is("parent_id", null);
+
+  if (sourceId) {
+    query = query.eq("source_id", sourceId);
+  }
+
+  const { data: chapters } = await query;
 
   if (!chapters) return {};
 
@@ -75,9 +106,17 @@ async function getChapterStats(): Promise<Record<string, { images: number; items
   return stats;
 }
 
-export default async function Home() {
-  const chapters = await getChapters();
-  const chapterStats = await getChapterStats();
+export default async function Home({
+  searchParams,
+}: {
+  searchParams: Promise<{ source?: string }>;
+}) {
+  const params = await searchParams;
+  const sources = await getSources();
+  const selectedSourceId = params.source || sources[0]?.id;
+  const chapters = await getChapters(selectedSourceId);
+  const chapterStats = await getChapterStats(selectedSourceId);
+  const selectedSource = sources.find(s => s.id === selectedSourceId);
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -88,7 +127,7 @@ export default async function Home() {
             <p className="text-gray-600 mt-1">Math Question Library</p>
           </div>
           <Link
-            href="/questions"
+            href={`/questions${selectedSourceId ? `?source=${selectedSourceId}` : ''}`}
             className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
           >
             Browse All Questions →
@@ -97,8 +136,29 @@ export default async function Home() {
       </header>
 
       <main className="max-w-6xl mx-auto px-4 py-8">
+        {/* Source Tabs */}
+        {sources.length > 1 && (
+          <div className="flex gap-2 mb-6">
+            {sources.map(source => (
+              <Link
+                key={source.id}
+                href={`/?source=${source.id}`}
+                className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                  selectedSourceId === source.id
+                    ? 'bg-blue-600 text-white'
+                    : 'bg-white text-gray-700 border hover:bg-gray-50'
+                }`}
+              >
+                {getSourceLabel(source)}
+              </Link>
+            ))}
+          </div>
+        )}
+
         <div className="mb-6">
-          <h2 className="text-xl font-semibold text-gray-800">Chapters</h2>
+          <h2 className="text-xl font-semibold text-gray-800">
+            {selectedSource ? getSourceLabel(selectedSource) : 'Chapters'}
+          </h2>
           <p className="text-gray-500 text-sm">{chapters.length} chapters available</p>
         </div>
 

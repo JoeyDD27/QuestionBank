@@ -5,7 +5,8 @@ node_modules/
 docx_extracted/
 year4_extracted/
 
-# Figure extraction test outputs
+# Figure extraction outputs (large binaries)
+year4_figures/
 year4_figures_test/
 year4_gdino_output/
 year4_gdino_prompt_test/

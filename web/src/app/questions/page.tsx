@@ -14,6 +14,7 @@ export const dynamic = 'force-dynamic';
 const PAGE_SIZE = 50;
 
 interface SearchParams {
+  source?: string;
   chapter?: string;
   subChapter?: string;
   difficulty?: string;
@@ -25,12 +26,38 @@ interface SearchParams {
   q?: string;
 }
 
-async function getChapters() {
+interface Source {
+  id: string;
+  filename: string;
+  subject: string | null;
+}
+
+async function getSources(): Promise<Source[]> {
   const { data } = await supabase
+    .from('sources')
+    .select('id, filename, subject')
+    .order('created_at');
+  return data || [];
+}
+
+function getSourceLabel(source: Source): string {
+  if (source.filename === 'Algebra full.docx') return 'Algebra';
+  if (source.subject) return source.subject;
+  return source.filename.replace(/\.docx$/i, '');
+}
+
+async function getChapters(sourceId?: string) {
+  let query = supabase
     .from('chapters')
     .select('id, title')
     .is('parent_id', null)
     .order('order_index');
+
+  if (sourceId) {
+    query = query.eq('source_id', sourceId);
+  }
+
+  const { data } = await query;
   return data || [];
 }
 
@@ -120,7 +147,8 @@ async function getQuestions(searchParams: SearchParams) {
         source_image_ids,
         chapter:chapters!inner(
           id,
-          title
+          title,
+          source_id
         )
       ),
       figures:question_figures(
@@ -129,6 +157,11 @@ async function getQuestions(searchParams: SearchParams) {
         order_index
       )
     `, { count: 'exact' });
+
+  // Source filter (when no specific chapter selected)
+  if (searchParams.source && !searchParams.chapter) {
+    query = query.eq('item.chapter.source_id', searchParams.source);
+  }
 
   // Chapter filter
   if (searchParams.chapter) {
@@ -207,21 +240,30 @@ async function getQuestions(searchParams: SearchParams) {
   return { questions: data || [], count: count || 0 };
 }
 
-async function getTotalCount() {
+async function getTotalCount(sourceId?: string) {
+  if (sourceId) {
+    const { count } = await supabase
+      .from('questions')
+      .select('*, item:items!inner(chapter:chapters!inner(id, source_id))', { count: 'exact', head: true })
+      .eq('item.chapter.source_id', sourceId);
+    return count || 0;
+  }
   const { count } = await supabase
     .from('questions')
     .select('*', { count: 'exact', head: true });
   return count || 0;
 }
 
-async function getLabeledCount(chapterId?: string) {
+async function getLabeledCount(chapterId?: string, sourceId?: string) {
   let query = supabase
     .from('questions')
-    .select('*, item:items!inner(chapter:chapters!inner(id))', { count: 'exact', head: true })
+    .select('*, item:items!inner(chapter:chapters!inner(id, source_id))', { count: 'exact', head: true })
     .not('metadata->difficulty', 'is', null);
 
   if (chapterId) {
     query = query.eq('item.chapter.id', chapterId);
+  } else if (sourceId) {
+    query = query.eq('item.chapter.source_id', sourceId);
   }
 
   const { count } = await query;
@@ -245,14 +287,16 @@ interface FilterCounts {
   questionTypes: Record<string, number>;
 }
 
-async function getFilterCounts(chapterId?: string): Promise<FilterCounts> {
-  // Build base query with optional chapter filter
+async function getFilterCounts(chapterId?: string, sourceId?: string): Promise<FilterCounts> {
+  // Build base query with optional chapter/source filter
   let baseQuery = supabase
     .from('questions')
-    .select('metadata, item:items!inner(type, chapter:chapters!inner(id))');
+    .select('metadata, item:items!inner(type, chapter:chapters!inner(id, source_id))');
 
   if (chapterId) {
     baseQuery = baseQuery.eq('item.chapter.id', chapterId);
+  } else if (sourceId) {
+    baseQuery = baseQuery.eq('item.chapter.source_id', sourceId);
   }
 
   const { data } = await baseQuery;
@@ -297,6 +341,7 @@ function Pagination({ currentPage, totalPages, searchParams }: {
 }) {
   const buildUrl = (page: number) => {
     const params = new URLSearchParams();
+    if (searchParams.source) params.set('source', searchParams.source);
     if (searchParams.chapter) params.set('chapter', searchParams.chapter);
     if (searchParams.subChapter) params.set('subChapter', searchParams.subChapter);
     if (searchParams.difficulty) params.set('difficulty', searchParams.difficulty);
@@ -304,6 +349,7 @@ function Pagination({ currentPage, totalPages, searchParams }: {
     if (searchParams.itemType) params.set('itemType', searchParams.itemType);
     if (searchParams.topics) params.set('topics', searchParams.topics);
     if (searchParams.labeled) params.set('labeled', searchParams.labeled);
+    if (searchParams.q) params.set('q', searchParams.q);
     params.set('page', page.toString());
     return `/questions?${params.toString()}`;
   };
@@ -382,13 +428,16 @@ export default async function QuestionsPage({
   const params = await searchParams;
   const currentPage = parseInt(params.page || '1', 10);
 
+  const sources = await getSources();
+  const selectedSourceId = params.source || sources[0]?.id;
+
   const [chapters, { questions, count: filteredCount }, totalCount, labeledCount, topics, filterCounts, subChapters] = await Promise.all([
-    getChapters(),
+    getChapters(selectedSourceId),
     getQuestions(params),
-    getTotalCount(),
-    getLabeledCount(params.chapter),
+    getTotalCount(selectedSourceId),
+    getLabeledCount(params.chapter, selectedSourceId),
     getTopics(params.chapter),
-    getFilterCounts(params.chapter),
+    getFilterCounts(params.chapter, selectedSourceId),
     getSubChapters(params.chapter),
   ]);
 
@@ -399,12 +448,31 @@ export default async function QuestionsPage({
       {/* Header */}
       <header className="bg-white shadow-sm border-b">
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-          <div>
-            <Link href="/" className="text-xl font-bold text-gray-900 hover:text-blue-600">
-              QuestionBank
-            </Link>
-            <span className="text-gray-400 mx-2">/</span>
-            <span className="text-gray-600">Questions</span>
+          <div className="flex items-center gap-4">
+            <div>
+              <Link href="/" className="text-xl font-bold text-gray-900 hover:text-blue-600">
+                QuestionBank
+              </Link>
+              <span className="text-gray-400 mx-2">/</span>
+              <span className="text-gray-600">Questions</span>
+            </div>
+            {sources.length > 1 && (
+              <div className="flex gap-1 ml-4">
+                {sources.map(source => (
+                  <Link
+                    key={source.id}
+                    href={`/questions?source=${source.id}`}
+                    className={`px-3 py-1 rounded text-xs font-medium transition-colors ${
+                      selectedSourceId === source.id
+                        ? 'bg-blue-100 text-blue-700'
+                        : 'text-gray-500 hover:bg-gray-100'
+                    }`}
+                  >
+                    {getSourceLabel(source)}
+                  </Link>
+                ))}
+              </div>
+            )}
           </div>
           <div className="flex items-center gap-4">
             <WorksheetBadge />

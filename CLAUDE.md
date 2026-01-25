@@ -284,6 +284,128 @@ Unit 1 graph 前 15 张图 (image1-15)，验证完整管道后再扩大。
 
 ---
 
+## 图表内联显示流程
+
+将全页扫描图中的图表裁切出来，内联显示在题目文字的正确位置。
+
+### 原理
+
+`content_latex` 中用 `[FIGURE:N]` 标记图片位置（N 从 0 开始，对应 `question_figures` 的 `order_index`）。前端 `ContentWithFigures` 组件解析标记，将文字和图片交错渲染。
+
+- 有标记 → 图片内联显示在文字中间，隐藏顶部缩略图
+- 无标记 → 保持原有行为（顶部缩略图 + 纯文字），Algebra 题目完全不受影响
+
+### 完整步骤（以 Year 4 ch01 为例）
+
+#### Step 1: 图表裁切
+
+用 MinerU + Grounding DINO 从全页扫描图中裁切图表：
+
+```bash
+# 使用 mineru venv
+/home/dkai/.venvs/mineru/bin/python scripts/extract_figures.py \
+  --images year4_extracted/word/media/image8.png ... \
+  --output year4_figures/unit1
+```
+
+裁切结果保存在 `year4_figures/unit1/merged/imageN/` 下。
+
+#### Step 2: LLM 评审裁切质量
+
+逐个检查裁切结果（用 Read 工具查看图片），确认：
+- 图表完整（含标题、轴标签、数据）
+- 无多余内容（不含题目文字、页码等）
+- 横向页面需先旋转再裁切（结果在 `unit1_rotated/`）
+
+对应关系示例：
+| 题目 | 源图（整页） | 裁切图（图表） |
+|------|-------------|---------------|
+| Exercise 7 | image8.png | `unit1/merged/image8/fig_00_M_figure.jpg` |
+| Exercise 12 | image13.png | `unit1/merged/image13/fig_00_M_figure.jpg` |
+| Example 13 [FIGURE:0] | image14.png | `unit1_rotated/merged/image14_rotated/fig_00_M_figure.jpg` |
+| Example 13 [FIGURE:1] | image15.png | `unit1_rotated/merged/image15_rotated/fig_00_M_figure.jpg` |
+
+概念题（item 1-6）的源图本身就是独立图表，直接使用 `year4_extracted/word/media_compressed/imageN.png`。
+
+#### Step 3: 配置上传映射
+
+编辑 `scripts/upload-figures.cjs` 中的 `FIGURE_MAP`：
+
+```js
+const FIGURE_MAP = {
+  // order_index → [{ file, label }]
+  1: [{ file: 'year4_extracted/word/media_compressed/image1.png', label: 'pictograph' }],
+  // ...
+  7: [{ file: 'year4_figures/unit1/merged/image8/fig_00_M_figure.jpg', label: 'fruit_bar_graph' }],
+  // 多图题目按顺序排列
+  13: [
+    { file: '.../fig_00_M_figure.jpg', label: 'stickers_bar_graph' },  // [FIGURE:0]
+    { file: '.../fig_00_M_figure.jpg', label: 'bar_model_before' },    // [FIGURE:1]
+  ]
+};
+```
+
+#### Step 4: 在 JSON 中添加 `[FIGURE:N]` 标记
+
+在 `extractions_year4/chXX_*.json` 的 `content_latex` 中插入标记：
+
+```
+概念题：标题后  → [FIGURE:0]
+练习题：题干后、子题前 → [FIGURE:0]
+多图题：按位置分别标记 → [FIGURE:0], [FIGURE:1], ...
+```
+
+标记规则：
+- `[FIGURE:N]` 单独占一行（前后用 `\n\n` 分隔）
+- N 与 `question_figures.order_index` 一一对应
+- 不影响 `$...$` → `｢...｣` 的转换
+- 截断显示时自动避免切断标记
+
+#### Step 5: 导入数据 + 上传图表
+
+**必须先导入数据再上传图表**（因为上传需要 question_id）：
+
+```bash
+# 1. 导入数据（生成新的 question_id）
+node scripts/import-chapter.cjs --ch=1 --source=year4 --clear --data-only
+
+# 2. 上传裁切图到 question_figures（会清除旧 figures 再重建）
+node scripts/upload-figures.cjs --source=year4 --ch=1
+```
+
+⚠️ 如果重新导入数据（`--clear`），旧 question_id 失效，**必须重新运行 upload-figures**。
+
+#### Step 6: 部署验证
+
+```bash
+cd web && npx vercel --prod
+```
+
+验证清单：
+- [ ] Year 4 题目：图表在文字正确位置内联显示
+- [ ] Algebra 题目：仍以缩略图方式显示（无 `[FIGURE:N]` 标记，不受影响）
+- [ ] 出卷预览：图表内联显示
+- [ ] Word 导出：图表在正确位置
+
+### 关键文件
+
+| 文件 | 作用 |
+|------|------|
+| `web/src/components/ContentWithFigures.tsx` | 解析 `[FIGURE:N]`，交错渲染文字和图片 |
+| `web/src/components/QuestionCard.tsx` | 有标记时用 ContentWithFigures，隐藏缩略图 |
+| `web/src/components/WorksheetPrintView.tsx` | 出卷预览内联图片 |
+| `web/src/lib/export-word.ts` | Word 导出内联图片 |
+| `scripts/upload-figures.cjs` | 上传裁切图到 question_figures |
+| `scripts/extract_figures.py` | MinerU+GDINO 图表裁切管道 |
+
+### 图片优先级
+
+`[FIGURE:N]` 的图片来源优先级：
+1. `question_figures`（裁切图，通过 upload-figures.cjs 上传）
+2. `source_images`（源图，来自 images 表）— 仅当无 question_figures 时回退
+
+---
+
 ## Agent Guidelines
 
 - **Language**: 使用中文交流

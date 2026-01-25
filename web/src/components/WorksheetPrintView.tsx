@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { WorksheetQuestion } from '@/context/WorksheetContext';
 import { MathRenderer } from './MathRenderer';
+import { ContentWithFigures, hasFigureMarkers } from './ContentWithFigures';
 import { getSourceImageUrls } from '@/lib/supabase';
 
 interface WorksheetPrintViewProps {
@@ -130,11 +131,13 @@ export function WorksheetPrintView({
   const [sourceImageCache, setSourceImageCache] = useState<SourceImageCache>({});
   const [loadingImages, setLoadingImages] = useState(true);
 
-  // Fetch source images for questions that need them
+  // Fetch source images for questions that need them (original image mode or inline figures)
   useEffect(() => {
     const fetchSourceImages = async () => {
       const questionsNeedingImages = questions.filter(
-        q => q.useOriginalImage && q.sourceImageIds && q.sourceImageIds.length > 0
+        q => q.sourceImageIds && q.sourceImageIds.length > 0 && (
+          q.useOriginalImage || hasFigureMarkers(q.problem_latex)
+        )
       );
 
       if (questionsNeedingImages.length === 0) {
@@ -161,7 +164,9 @@ export function WorksheetPrintView({
 
   // Show loading only if we have questions needing source images
   const hasQuestionsNeedingImages = questions.some(
-    q => q.useOriginalImage && q.sourceImageIds && q.sourceImageIds.length > 0
+    q => q.sourceImageIds && q.sourceImageIds.length > 0 && (
+      q.useOriginalImage || hasFigureMarkers(q.problem_latex)
+    )
   );
   if (loadingImages && hasQuestionsNeedingImages) {
     return <div className="text-center py-4 text-gray-500">加载图片中...</div>;
@@ -187,6 +192,8 @@ export function WorksheetPrintView({
 
           // Check if we should show original images instead of LaTeX
           const showOriginalImages = q.useOriginalImage && sourceImageUrls.length > 0;
+          // Check for inline figure markers
+          const hasInlineFigs = hasFigureMarkers(contentToShow);
 
           return (
             <div key={q.id} className="question-item">
@@ -207,6 +214,27 @@ export function WorksheetPrintView({
                         />
                       ))}
                       {/* Answer (only in answers mode) */}
+                      {mode === 'answers' && (
+                        q.answer_latex ? (
+                          <div className="mt-1 pl-2 border-l-2 border-emerald-300 text-emerald-800">
+                            <MathRenderer content={q.answer_latex} />
+                          </div>
+                        ) : (
+                          <div className="mt-1 pl-2 border-l-2 border-gray-300 text-gray-400 italic text-xs">
+                            （答案未录入）
+                          </div>
+                        )
+                      )}
+                    </div>
+                  ) : hasInlineFigs ? (
+                    /* Inline figure mode: [FIGURE:N] markers in content */
+                    <div>
+                      <ContentWithFigures
+                        content={contentToShow}
+                        figureUrls={(q.figureUrls && q.figureUrls.length > 0) ? q.figureUrls : sourceImageUrls}
+                        imgClassName="max-w-[60%] w-auto"
+                      />
+                      {/* Answer */}
                       {mode === 'answers' && (
                         q.answer_latex ? (
                           <div className="mt-1 pl-2 border-l-2 border-emerald-300 text-emerald-800">
@@ -289,8 +317,8 @@ export function WorksheetPrintView({
                     </>
                   )}
 
-                  {/* Figure images (always shown, regardless of original image mode) */}
-                  {q.figureUrls && q.figureUrls.length > 0 && (
+                  {/* Figure images — hidden when rendered inline via markers */}
+                  {q.figureUrls && q.figureUrls.length > 0 && !hasInlineFigs && (
                     <div className="mt-2 space-y-2">
                       {q.figureUrls.map((url, i) => (
                         <img

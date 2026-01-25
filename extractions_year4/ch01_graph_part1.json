@@ -1,0 +1,72 @@
+{
+  "chapter": 1,
+  "part": 1,
+  "images_range": "1-15",
+  "items": [
+    {
+      "type": "concept",
+      "content_latex": "Favourite Fruit (Pictograph)\n\n[FIGURE:0]\n\nA pictograph showing children's favourite fruits. Each fruit symbol represents 2 children.\n\n| Fruit | Symbols | Children |\n|-------|---------|----------|\n| Banana | 3 | 6 |\n| Grapes | 1 | 2 |\n| Apples | 2 | 4 |\n| Pears | 2 | 4 |",
+      "source_images": ["image1.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Bar Chart\n\n[FIGURE:0]\n\nA vertical bar chart with 5 coloured bars showing values on a scale from $0$ to $55$. Demonstrates the basic structure of a bar chart with gaps between bars.",
+      "source_images": ["image2.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Line Graph\n\n[FIGURE:0]\n\nA line graph showing height in cm against date.\n\nHorizontal axis: Date (1st to 17th)\nVertical axis: Height in cm ($0$ to $20$)\n\nThe graph shows a growth curve, starting near $0$ cm on the 1st and increasing to $20$ cm by the 17th. The rate of growth increases over time.",
+      "source_images": ["image3.png"]
+    },
+    {
+      "type": "definition",
+      "content_latex": "Pie Chart\n\n[FIGURE:0]\n\nA pie chart is a circular chart divided into sections. Each sector shows the relative size of each value.\n\nExample: A pie chart showing modes of transport — bikes, car, walk, bus, plane, boat, train — with each mode represented by a different coloured sector.",
+      "source_images": ["image4.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Histogram vs. Bar Chart\n\n[FIGURE:0]\n\nHistogram:\n- Bars have no gaps between them\n- Horizontal axis shows number ranges (continuous data)\n- Example: frequency of numbers in ranges $2$–$4$, $4$–$6$, $6$–$8$, etc.\n\nBar Chart:\n- Bars have gaps between them\n- Horizontal axis shows categories (discrete data)\n- Example: data for Jan, Feb, Mar, Apr, May",
+      "source_images": ["image5.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Flowers used by Meryl\n\nData table:\n\n| Kind of flower | Number of flowers |\n|---------------|------------------|\n| Rose | $1$ |\n| Tulip | $5$ |\n| Lily | $5$ |\n| Orchid | $4$ |\n| Forget-me-not | $9$ |\n| Total | $24$ |\n\n[FIGURE:0]\n\nThe same data is represented as a vertical bar graph titled \"Flowers used by Meryl\", with kinds of flowers on the horizontal axis and number of flowers ($0$ to $10$) on the vertical axis.\n\n[FIGURE:1]",
+      "source_images": ["image6.png", "image7.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Bar Graphs\n\nRead and interpret data from bar graphs.\n\nStudy the bar graphs and fill in the blanks with the correct answers.\n\n1. A fruiterer sold some fruit on one Sunday. He recorded the number of fruit he had sold in the bar graph below.\n\n[FIGURE:0]\n\n(a) ________ apples were sold.\n\n(b) The fruiterer sold the most number of ________.\n\n(c) The fruiterer sold the least number of ________.\n\n(d) He sold ________ more bananas than oranges.\n\n(e) He sold ________ more apples than watermelons.\n\n(f) The total number of fruit sold on that Sunday was ________.\n\n[6 marks]",
+      "source_images": ["image8.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. Angeline and her sister went to a park. They drew a bar graph of what they had seen at the park.\n\n[FIGURE:0]\n\n(a) They saw ________ birds.\n\n(b) There were ________ more ducks than butterflies.\n\n(c) There were ________ fewer bees than birds.\n\n(d) They saw the least number of ________.\n\n(e) They saw the most number of ________.\n\n(f) There were ________ animals altogether at the park.\n\n[6 marks]",
+      "source_images": ["image9.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. Hubert saved some money in a week. He recorded the amount of money he had saved in the bar graph below.\n\n[FIGURE:0]\n\n(a) He saved ________ cents on Friday.\n\n(b) He saved ________ cents more on Tuesday than on Monday.\n\n(c) He saved 7 times more on Saturday than on ________.\n\n(d) He saved $\\$$ ________ altogether in a week.\n\n(e) Hubert needed $\\$10$ to buy a present for his mother. He would need to save $\\$$ ________ more.\n\n[5 marks]",
+      "source_images": ["image10.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. The bar graph below illustrates the different types of instruments played by the students in a music school.\n\n[FIGURE:0]\n\n(a) ________ students play the violin.\n\n(b) ________ students play the drums.\n\n(c) ________ more students play the guitar than the trumpet.\n\n(d) ________ fewer students play the piano than the guitar.\n\n(e) There are ________ students in the music school.\n\n[5 marks]",
+      "source_images": ["image11.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. A group of friends sold flowers to raise money for charity. The bar graph below shows the amount of money they raised.\n\n[FIGURE:0]\n\n(a) Cathy raised $\\$$ ________.\n\n(b) Fiona raised $\\$$ ________.\n\n(c) ________ and ________ raised the same amount of money.\n\n(d) The difference between the highest amount of money raised and the lowest amount of money raised is $\\$$ ________.\n\n(e) Emily raised as much as ________ and ________ combined.\n\n(f) The total amount of money raised was $\\$$ ________.\n\n[6 marks]",
+      "source_images": ["image12.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. Some students help to fold paper flowers to decorate their classroom. The bar graph below shows the number of paper flowers each of them folds.\n\n[FIGURE:0]\n\n(a) Amelie folds ________ paper flowers.\n\n(b) Bryan folds ________ paper flowers.\n\n(c) Cayden folds ________ fewer paper flowers than Desiree.\n\n(d) ________ folds the most number of paper flowers.\n\n(e) ________ folds the least number of paper flowers.\n\n(f) The students fold ________ paper flowers altogether.\n\n[6 marks]",
+      "source_images": ["image13.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Unit 5: Graphs\n\nKey Terms: Bar graph, Picture graph, Scale\n\nExample 1\n\nThe graph below shows the number of stickers four boys have.\n\n[FIGURE:0]\n\n(a) Who has twice as many stickers as Eric?\n\n(b) How many stickers must Alex give Francis so that they have an equal number of stickers?\n\n(c) How many stickers will the boys have altogether after each of them collects $50$ more stickers?\n\nSolution:\n\nFirst, we observe the scale and write down the number of stickers each boy has.\nWe note that $5$ small divisions (equal to $1$ big division) stand for $250$.\nThis means each small division stands for $250 \\div 5 = 50$.\n\nNumber of stickers:\nJacob: $450$\nAlex: $750$\nEric: $375$ (halfway between $350$ and $400$)\nFrancis: $500$\n\n(a) $2 \\times 375 = 375 \\times 2 = 750$\nAlex has twice as many stickers as Eric.\n\n(b) Alex: $750$, Francis: $500$\n\nMethod 1:\nThey have $750 + 500 = 1250$ stickers altogether.\n\n[FIGURE:1]\n\n$1250 \\div 2 = 625$\nThey should have $625$ stickers each finally.\n\n[FIGURE:2]\n\n$750 - 625 = 125$\nAlex must give Francis $125$ stickers.\n\nMethod 2 (For enrichment):\nWe note that Alex has $750 - 500 = 250$ stickers more than Francis.\nIn order for both of them to have the same number of stickers, Alex must give half of the extra stickers to Francis (see the model).\n\n[FIGURE:3]\n\n$250 \\div 2 = 125$\nAlex must give Francis $125$ stickers.",
+      "source_images": ["image14.png", "image15.png"]
+    }
+  ]
+}

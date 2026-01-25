@@ -1,9 +1,10 @@
 'use client';
 
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { MathRenderer } from './MathRenderer';
+import { ContentWithFigures, hasFigureMarkers } from './ContentWithFigures';
 import { useWorksheet, WorksheetQuestion } from '@/context/WorksheetContext';
-import { uploadFigure, deleteFigure, getFigureUrl } from '@/lib/supabase';
+import { uploadFigure, deleteFigure, getFigureUrl, getSourceImageUrls } from '@/lib/supabase';
 
 interface QuestionMetadata {
   difficulty?: number;
@@ -163,10 +164,40 @@ export function QuestionCard({ question, index, onFiguresChange }: QuestionCardP
     }
   };
 
-  // Truncate long content for preview
-  const previewContent = question.problem_latex.length > 300 && !expanded
-    ? question.problem_latex.slice(0, 300) + '...'
-    : question.problem_latex;
+  // Check for inline figure markers
+  const hasInlineFigures = hasFigureMarkers(question.problem_latex);
+
+  // Figure URLs sorted by order_index (user-uploaded figures)
+  const sortedFigureUrls = localFigures
+    .sort((a, b) => a.order_index - b.order_index)
+    .map(f => getFigureUrl(f.storage_path));
+
+  // Fetch source image URLs for inline figure rendering
+  const [sourceImageUrls, setSourceImageUrls] = useState<string[]>([]);
+  const sourceImageIds = item?.source_image_ids || [];
+
+  useEffect(() => {
+    if (hasInlineFigures && sourceImageIds.length > 0) {
+      getSourceImageUrls(sourceImageIds).then(setSourceImageUrls);
+    }
+  }, [hasInlineFigures, sourceImageIds.join(',')]);
+
+  // For inline figures: prefer uploaded figures (cropped), fall back to source images
+  const inlineFigureUrls = sortedFigureUrls.length > 0
+    ? sortedFigureUrls
+    : sourceImageUrls;
+
+  // Truncate long content for preview (avoid cutting [FIGURE:N] markers)
+  let previewContent = question.problem_latex;
+  if (question.problem_latex.length > 300 && !expanded) {
+    let cut = question.problem_latex.slice(0, 300);
+    // If we're inside a [FIGURE:...] marker, back up to before it
+    const openBracket = cut.lastIndexOf('[FIGURE:');
+    if (openBracket !== -1 && !cut.slice(openBracket).includes(']')) {
+      cut = cut.slice(0, openBracket);
+    }
+    previewContent = cut + '...';
+  }
 
   return (
     <div className={`bg-white border rounded-lg p-4 hover:shadow-md transition-shadow ${selected ? 'ring-2 ring-blue-500 border-blue-500' : ''}`}>
@@ -249,10 +280,9 @@ export function QuestionCard({ question, index, onFiguresChange }: QuestionCardP
         {chapterTitle}
       </div>
 
-      {/* Figures Section */}
-      {localFigures.length > 0 && (
+      {/* Figures Section — hide thumbnails when figures are rendered inline via markers */}
+      {localFigures.length > 0 && !hasInlineFigures && (
         <div className="mb-3 flex flex-wrap items-center gap-2">
-          {/* Display uploaded figures */}
           {localFigures
             .sort((a, b) => a.order_index - b.order_index)
             .map((fig) => (
@@ -275,9 +305,18 @@ export function QuestionCard({ question, index, onFiguresChange }: QuestionCardP
         </div>
       )}
 
-      {/* Content */}
+      {/* Content — use inline figures when [FIGURE:N] markers present */}
       <div className="text-sm text-gray-800">
-        <MathRenderer content={previewContent} />
+        {hasInlineFigures ? (
+          <ContentWithFigures
+            content={previewContent}
+            figureUrls={inlineFigureUrls}
+            imgClassName="max-w-md w-auto rounded"
+            onImageClick={(url) => setLightboxUrl(url)}
+          />
+        ) : (
+          <MathRenderer content={previewContent} />
+        )}
       </div>
 
       {/* Expand/Collapse for long content */}

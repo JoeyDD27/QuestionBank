@@ -149,7 +149,8 @@ export function FilterSidebar({ chapters, totalCount, filteredCount, labeledCoun
   };
 
   const resetFilters = () => {
-    router.push('/questions');
+    const source = searchParams.get('source');
+    router.push(source ? `/questions?source=${source}` : '/questions');
   };
 
   const hasFilters = currentChapter || currentSubChapters.length > 0 || currentDifficulties.length > 0 || currentTypes.length > 0 || currentItemTypes.length > 0 || currentTopics.length > 0 || labeledOnly || currentSearch;
@@ -162,6 +163,8 @@ export function FilterSidebar({ chapters, totalCount, filteredCount, labeledCoun
   // Quick filter presets
   const applyPreset = (preset: string) => {
     const params = new URLSearchParams();
+    const source = searchParams.get('source');
+    if (source) params.set('source', source);
     switch (preset) {
       case 'exercise-medium':
         params.set('itemType', 'exercise');

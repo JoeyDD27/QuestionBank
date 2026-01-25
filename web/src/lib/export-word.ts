@@ -2,6 +2,7 @@ import { Document, Packer, Paragraph, TextRun, HeadingLevel, BorderStyle, ImageR
 import { saveAs } from 'file-saver';
 import { WorksheetQuestion } from '@/context/WorksheetContext';
 import { getSourceImageUrls } from '@/lib/supabase';
+import { hasFigureMarkers, parseFigureSegments } from '@/components/ContentWithFigures';
 
 const DIFFICULTY_LABELS: Record<number, string> = {
   1: 'Basic',
@@ -113,14 +114,19 @@ export async function exportToWord(
 
   // Pre-fetch all images needed
   const imageCache: Record<string, ImageData> = {};
+  // Map question ID → source image URLs (for inline figures and original image mode)
+  const sourceImageUrlMap: Record<string, string[]> = {};
 
   // Collect all image URLs that need to be fetched
   const urlsToFetch: string[] = [];
 
   for (const q of questions) {
-    // Source images (if useOriginalImage is true)
-    if (q.useOriginalImage && q.sourceImageIds && q.sourceImageIds.length > 0) {
-      const sourceUrls = await getSourceImageUrls(q.sourceImageIds);
+    // Source images (if useOriginalImage or inline figure markers)
+    const needsSourceImages = (q.useOriginalImage || hasFigureMarkers(q.problem_latex))
+      && q.sourceImageIds && q.sourceImageIds.length > 0;
+    if (needsSourceImages) {
+      const sourceUrls = await getSourceImageUrls(q.sourceImageIds!);
+      sourceImageUrlMap[q.id] = sourceUrls;
       urlsToFetch.push(...sourceUrls);
     }
     // Figure images
@@ -191,10 +197,7 @@ export async function exportToWord(
 
     // Check if we should use original images
     const useOriginalImages = q.useOriginalImage && q.sourceImageIds && q.sourceImageIds.length > 0;
-    let sourceImageUrls: string[] = [];
-    if (useOriginalImages) {
-      sourceImageUrls = await getSourceImageUrls(q.sourceImageIds!);
-    }
+    const sourceImageUrls = sourceImageUrlMap[q.id] || [];
 
     // Question number
     children.push(
@@ -233,37 +236,97 @@ export async function exportToWord(
       const contentToExport = hideSolutions
         ? removeSolutionsSection(q.problem_latex)
         : q.problem_latex;
-      const questionLines = cleanLatex(contentToExport).split('\n').filter(line => line.trim());
 
-      // First line
-      const firstLine = questionLines[0] || '';
-      const difficultyText = showDifficulty && q.metadata?.difficulty
-        ? ` [${DIFFICULTY_LABELS[q.metadata.difficulty]}]`
-        : '';
+      const hasInlineFigs = hasFigureMarkers(contentToExport);
+      // For inline figures: prefer uploaded figures (cropped), fall back to source images
+      const inlineFigUrls = (q.figureUrls && q.figureUrls.length > 0) ? q.figureUrls : sourceImageUrls;
 
-      children.push(
-        new Paragraph({
-          spacing: { after: 100 },
-          children: [
-            new TextRun({ text: firstLine }),
-            difficultyText ? new TextRun({ text: difficultyText, color: '999999', size: 20 }) : new TextRun({ text: '' }),
-          ],
-        })
-      );
+      if (hasInlineFigs && inlineFigUrls.length > 0) {
+        // Inline figure mode: interleave text and images
+        const segments = parseFigureSegments(contentToExport);
+        let isFirst = true;
 
-      // Remaining lines
-      questionLines.slice(1).forEach(line => {
+        for (const seg of segments) {
+          if (seg.type === 'text') {
+            const lines = cleanLatex(seg.value).split('\n').filter(l => l.trim());
+            for (const line of lines) {
+              const difficultyText = isFirst && showDifficulty && q.metadata?.difficulty
+                ? ` [${DIFFICULTY_LABELS[q.metadata.difficulty]}]`
+                : '';
+              children.push(
+                new Paragraph({
+                  spacing: { after: isFirst ? 100 : 50 },
+                  children: [
+                    new TextRun({ text: isFirst ? line : `    ${line}` }),
+                    difficultyText ? new TextRun({ text: difficultyText, color: '999999', size: 20 }) : new TextRun({ text: '' }),
+                  ],
+                })
+              );
+              isFirst = false;
+            }
+          } else {
+            // Figure segment
+            const figIdx = seg.figureIndex ?? 0;
+            const url = inlineFigUrls[figIdx];
+            if (url) {
+              const imgData = imageCache[url];
+              if (imgData) {
+                children.push(
+                  new Paragraph({
+                    children: [
+                      new ImageRun({
+                        data: imgData.buffer,
+                        transformation: {
+                          width: Math.min(imgData.width, 400),
+                          height: Math.round(imgData.height * Math.min(1, 400 / imgData.width)),
+                        },
+                        type: 'jpg',
+                      }),
+                    ],
+                    spacing: { after: 100 },
+                  })
+                );
+              }
+            }
+          }
+        }
+      } else {
+        // Standard text-only rendering
+        const questionLines = cleanLatex(contentToExport).split('\n').filter(line => line.trim());
+
+        // First line
+        const firstLine = questionLines[0] || '';
+        const difficultyText = showDifficulty && q.metadata?.difficulty
+          ? ` [${DIFFICULTY_LABELS[q.metadata.difficulty]}]`
+          : '';
+
         children.push(
           new Paragraph({
-            text: `    ${line}`,
-            spacing: { after: 50 },
+            spacing: { after: 100 },
+            children: [
+              new TextRun({ text: firstLine }),
+              difficultyText ? new TextRun({ text: difficultyText, color: '999999', size: 20 }) : new TextRun({ text: '' }),
+            ],
           })
         );
-      });
+
+        // Remaining lines
+        questionLines.slice(1).forEach(line => {
+          children.push(
+            new Paragraph({
+              text: `    ${line}`,
+              spacing: { after: 50 },
+            })
+          );
+        });
+      }
     }
 
-    // Figure images (always shown)
-    if (q.figureUrls && q.figureUrls.length > 0) {
+    // Figure images — skip when rendered inline via markers
+    const contentForCheck = hideSolutions
+      ? removeSolutionsSection(q.problem_latex)
+      : q.problem_latex;
+    if (q.figureUrls && q.figureUrls.length > 0 && !hasFigureMarkers(contentForCheck)) {
       for (const url of q.figureUrls) {
         const imgData = imageCache[url];
         if (imgData) {
@@ -273,7 +336,7 @@ export async function exportToWord(
                 new ImageRun({
                   data: imgData.buffer,
                   transformation: {
-                    width: Math.min(imgData.width, 400), // Cap figure width
+                    width: Math.min(imgData.width, 400),
                     height: Math.round(imgData.height * Math.min(1, 400 / imgData.width)),
                   },
                   type: 'jpg',

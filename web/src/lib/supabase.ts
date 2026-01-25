@@ -6,7 +6,7 @@ const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
 export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
 export const STORAGE_URL = `${supabaseUrl}/storage/v1/object/public/question-images`
-export const FIGURES_STORAGE_URL = `${supabaseUrl}/storage/v1/object/public/question-figures`
+export const FIGURES_STORAGE_URL = `${supabaseUrl}/storage/v1/object/public/question-images`
 
 export function getImageUrl(storagePath: string): string {
   return `${STORAGE_URL}/${storagePath}`
@@ -59,11 +59,11 @@ export async function uploadFigure(questionId: string, file: File): Promise<{ id
 
     // Generate unique path
     const ext = 'jpg'
-    const path = `${questionId}/${crypto.randomUUID()}.${ext}`
+    const path = `figures/${questionId}/${crypto.randomUUID()}.${ext}`
 
     // Upload to Storage
     const { error: uploadError } = await supabase.storage
-      .from('question-figures')
+      .from('question-images')
       .upload(path, compressed, {
         contentType: 'image/jpeg',
         cacheControl: '31536000',
@@ -101,7 +101,7 @@ export async function uploadFigure(questionId: string, file: File): Promise<{ id
     if (insertError) {
       console.error('Insert error:', insertError)
       // Cleanup: remove uploaded file
-      await supabase.storage.from('question-figures').remove([path])
+      await supabase.storage.from('question-images').remove([path])
       return null
     }
 
@@ -129,7 +129,7 @@ export async function deleteFigure(figureId: string): Promise<boolean> {
 
     // Delete from Storage
     const { error: storageError } = await supabase.storage
-      .from('question-figures')
+      .from('question-images')
       .remove([data.storage_path])
 
     if (storageError) {
