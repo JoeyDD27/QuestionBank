@@ -1,0 +1,77 @@
+{
+  "chapter": 2,
+  "part": 1,
+  "images_range": "52-65",
+  "items": [
+    {
+      "type": "concept",
+      "content_latex": "Odd and Even Numbers\n\n[FIGURE:0]\n\n| Operation | Rule |\n|-----------|------|\n| Addition | even + even = even |\n| | odd + odd = even |\n| | even + odd = odd |\n| | odd + even = odd |\n| Subtraction | even − even = even |\n| | odd − odd = even |\n| | even − odd = odd |\n| | odd − even = odd |\n| Multiplication | even × even = even |\n| | odd × odd = odd |\n| | even × odd = even |\n| | odd × even = even |",
+      "source_images": ["image52.jpeg"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "(B) Write the correct value of each digit in its respective box.\n\n[50 marks]\n\n**Example:**\n\n$15\\,326$\n\n| Digit | Value | Ten thousands | Thousands | Hundreds | Tens | Ones |\n|-------|-------|---------------|-----------|----------|------|------|\n| 6 | 6 | | | | | |\n| 20 | 20 | | | | | |\n| 300 | 300 | 1 | 5 | 3 | 2 | 6 |\n| 5000 | 5000 | 10 000 | 5000 | 300 | 20 | 6 |\n| 10 000 | 10 000 | | | | | |\n\n1. $78\\,035$\n\n2. $58\\,217$\n\n3. $81\\,420$\n\n4. $24\\,608$",
+      "source_images": ["image53.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Rounding Rules\n\n[FIGURE:0]\n\nRounding is used to make numbers easier to work with.\n\nExample: $268$\n\n1. Mark your place\n2. Look next door\n3. $5$ or greater, add one more\n4. Numbers in front stay the same\n5. Numbers behind, zeros their name\n\nResult: $268 \\to 270$\n\nRound Down: $0, 1, 2, 3, 4$\nRound Up: $5, 6, 7, 8, 9$",
+      "source_images": ["image54.jpeg"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "(E) Round off the following numbers and estimate their values.\n\n[12 marks]\n\n| | Expression | Nearest Ten | Nearest Hundred |\n|---|------------|-------------|------------------|\n| 1. | $234 + 345 + 567$ | | |\n| 2. | $151 + 262 + 435$ | | |\n| 3. | $867 + 678 + 786$ | | |\n| 4. | $745 - 354 - 163$ | | |\n| 5. | $850 - 425 - 215$ | | |\n| 6. | $924 - 501 - 343$ | | |",
+      "source_images": ["image55.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "3. $36 = $ ________ $\\times$ ________\n\n$36 = $ ________ $\\times$ ________\n\n$36 = $ ________ $\\times$ ________\n\n$36 = $ ________ $\\times$ ________\n\n$36 = $ ________ $\\times$ ________\n\nThe factors of $36$ are ________, ________, ________, ________, ________, ________, ________, ________ and ________.\n\n[6 marks]\n\n**(B) Fill in each blank with the correct answer.**\n\n[9 marks]\n\n**Example:**\n\n(a) The factors of $4$ are $1, 2, 4$.\n\n(b) The factors of $6$ are $1, 2, 3, 6$.\n\n(c) The common factors of $4$ and $6$ are $1, 2$.\n\n1. (a) The factors of $8$ are ________.\n\n(b) The factors of $16$ are ________.\n\n(c) The common factors of $8$ and $16$ are ________.\n\n2. (a) The factors of $14$ are ________.\n\n(b) The factors of $28$ are ________.\n\n(c) The common factors of $14$ and $28$ are ________.\n\n3. (a) The factors of $9$ are ________.\n\n(b) The factors of $18$ are ________.\n\n(c) The common factors of $9$ and $18$ are ________.",
+      "source_images": ["image56.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "HCF and LCM\n\n[FIGURE:0]\n\nFind the HCF and LCM of $24$ and $36$.\n\nPrime factorization:\n\n$24 = 2 \\times 2 \\times 2 \\times 3$\n\n$36 = 2 \\times 2 \\times 3 \\times 3$\n\nUsing Venn diagram:\n- Common factors: $2, 2, 3$\n- Unique to $24$: $2$\n- Unique to $36$: $3$\n\nHCF: $2 \\times 2 \\times 3 = 12$\n\nLCM: $2 \\times 2 \\times 2 \\times 3 \\times 3 = 72$",
+      "source_images": ["image57.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "LCM and HCF using Repeated Division\n\n[FIGURE:0]\n\n**LCM using Repeated Division**\n\nFind the LCM of $24$ and $36$.\n\n| | 24 | 36 |\n|---|----|----|----|\n| 2 | 12 | 18 |\n| 2 | 6 | 9 |\n| 3 | 2 | 3 |\n\nLCM: $2 \\times 2 \\times 3 \\times 2 \\times 3 = 72$\n\n**HCF using Repeated Division**\n\nFind the HCF of $24$ and $36$.\n\n| | 24 | 36 |\n|---|----|----|----|\n| 2 | 12 | 18 |\n| 2 | 6 | 9 |\n| 3 | 2 | 3 |\n\nHCF: $2 \\times 2 \\times 3 = 12$",
+      "source_images": ["image58.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 2\n\nThere are $12$ more men than women in a hall. The number of children is $10$ fewer than the number of men. There are $43$ children in the hall. How many women are there?\n\n**Solution:**\n\nWe draw a model first — this makes the facts visual and clear. Since the number of children is given, we start with it. There are $10$ more men than children.\n\n[FIGURE:0]\n\nNumber of men $= 43 + 10 = 53$\n\nSince the number of women is $12$ fewer than $53$, the number of women is $53 - 12 = 41$.\n\nExample 3\n\nJohn gave $25$ of his stamps to a friend. Later, he received another $32$ stamps from his brother. He had $49$ stamps in the end. How many stamps did John have at first?\n\n**Solution:**\n\nJohn had $49$ stamps at the end.\n\nNow, we work backwards:\n\n$49 - 32 = 17$\n\nJohn had $17$ stamps before his brother gave him another $32$ stamps.\n\n$17 + 25 = 42$\n\nJohn had $42$ stamps at first.",
+      "source_images": ["image59.png"]
+    },
+    {
+      "type": "concept",
+      "content_latex": "Take Note\n\nThis means John had $17$ stamps after giving $25$ stamps to his friend.\n\n$17 + 25 = 42$\n\nJohn had $42$ stamps at first.\n\n**Take Note**\n\n1. Even numbers end with $2, 4, 6, 8$ or $0$. All even numbers are divisible by $2$. Numbers that are not even are odd.\n\n2. Ascending order means increasing order.\n   Descending order means decreasing order.\n\n3. These statements do not have the same meaning:\n   (a) A and B have $20$ marbles. Meaning: The total is $20$ marbles.\n   (b) B has $20$ marbles each. Meaning: A has $20$ marbles. The total is $40$ marbles.\n\n4. In questions involving \"more than\" or \"less than\", fill in your answer and read the statement again to make sure it is correct.\n\n5. Drawing models is not compulsory unless instructed to. However, it is important to learn the technique, as it will be useful in solving challenging problems. Hence, teachers generally recommend drawing models for all long answer word problems (or problem sums).",
+      "source_images": ["image60.png"]
+    },
+    {
+      "type": "example",
+      "content_latex": "Example 2\n\nA, B and C have a total amount of $\\$129$. A has $\\$16$ more than B and C has $3$ times as much money as A. How much money does A have?\n\n**Solution:**\n\nWe first draw a model.\n\n[FIGURE:0]\n\n$4 \\times \\$16 = \\$64$\n\n$\\$129 - \\$64 = \\$65$\n\n$5$ units $= \\$65$\n\n$1$ unit $= \\$65 \\div 5 = \\$13$\n\n$\\$13 + \\$16 = \\$29$\n\nA has $\\$29$.",
+      "source_images": ["image61.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercise 1\n\n**SECTION A**\n\nSelect your answer from the options given and write its number $(1, 2, 3 \\text{ or } 4)$ in the brackets provided.\n\n1. $20$ tens less than $5792$ is ________.\n\n(1) $5592$\n(2) $5772$\n(3) $3792$\n(4) $5572$\n\n( )\n\n2. The difference in the values of $6$ and $7$ in the number $6375$ is ________.\n\n(1) $1$\n(2) $5930$\n(3) $5370$\n(4) $6070$\n\n( )\n\n3. The numbers are arranged in decreasing order. $7542$, ________, $5381$\n\n(1) $6725$\n(2) $7846$\n(3) $7098$\n(4) $6791$\n\n( )\n\n4. $8692 + 358$ is smaller than ________. The smallest number that can fill the blank is ________.\n\n(1) $63$\n(2) $9050$\n(3) $9051$\n(4) $9052$\n\n( )\n\n5. Write down the sum and difference of $4$ and $17$. There are ________ odd numbers between the two resulting numbers. The number in the blank is ________.\n\n(1) $1$\n(2) $5$\n(3) $6$\n(4) $8$\n\n( )",
+      "source_images": ["image62.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "6. In which of the following can we find both odd and even numbers?\n\n(1) Multiplication table of $2$\n(2) Multiplication table of $4$\n(3) Multiplication table of $5$\n(4) In the series $1000, 2000, 3000, 4000, ...$\n\n( )\n\n7. $38$ hundreds $15$ tens $=$ ________.\n\n(1) $3950$\n(2) $3850$\n(3) $3815$\n(4) $395$\n\n( )\n\n8. The sum of two numbers is $8319$. The smaller number is $568$. What is the bigger number?\n\n(1) $8751$\n(2) $7751$\n(3) $2639$\n(4) $2739$\n\n( )\n\n9. Jim is $19$ years old. Jim's brother is $12$ years older than Jim. What will be their total age $8$ years from now?\n\n(1) $31$ years\n(2) $39$ years\n(3) $58$ years\n(4) $66$ years\n\n( )\n\n10. ○ + □ + ○ = $12$\n\n□ + ☆ + ○ = $11$\n\n☆ + ○ + ○ = $18$\n\nThe value of ☆ is ________.\n\n(1) $1$\n(2) $5$\n(3) $6$\n(4) $7$\n\n( )",
+      "source_images": ["image63.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "**SECTION B**\n\nWrite your answers to the questions in the blanks provided.\n\n1. Fill in the blanks.\n\n(a) $3728 = 2$ thousands $+$ ________ hundreds $+ 2$ tens $+ 8$ ones\n\n(b) $9874 = 9000 +$ ________ hundreds $+ 2$ tens\n\n(c) $4350 =$ ________ $+ 23$ hundreds $+ 5$ tens\n\n2. (a) The value of the digit $6$ in the sum of $7892$ and $756$ is ________.\n\n(b) The place value of $4$ in the difference between $5643$ and $10\\,000$ is ________.\n\n3. (a) What must be added to the difference of $4729$ and $768$ to get $10\\,000$?\n\n(b) What must be subtracted from the sum of $4505$ and $697$ to get $4800$?\n\n4. (a) $924$ is $186$ more than ________.\n\n(b) $5639$ is $90$ tens less than ________.",
+      "source_images": ["image64.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "5. Fill in the missing numbers to complete the number patterns.\n\n(a) $118, 119, 122, 127$, ________, ________\n\n(b) $6827, 6717, 6607$, ________, ________, $6387$, ________, ________\n\n(c) $12, 24, 48, 96$, ________, ________, ________\n\n6. (a) (i) Write down the values of A, B and C on the number line below.\n\n[FIGURE:0]\n\nA = ________, B = ________, C = ________\n\n(ii) Fill in the boxes below with the values of A, B or C to make true statements.\n\n□ > □\n\n□ < □\n\n(b) (i) Work out the following values of P, Q and R.\n\nP $= 2300 + 1700 =$ ________\n\nQ $= 6000 - 1100 =$ ________\n\nR $= 3500 + 800 =$ ________",
+      "source_images": ["image65.png"]
+    }
+  ]
+}

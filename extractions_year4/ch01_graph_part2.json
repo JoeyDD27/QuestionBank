@@ -1,0 +1,67 @@
+{
+  "chapter": 1,
+  "part": 2,
+  "images_range": "16-27",
+  "items": [
+    {
+      "type": "example",
+      "content_latex": "Example 1 (continued)\n\n(c) Total number of stickers the boys collect:\n$= 450 + 750 + 375 + 500$\n$= 2075$\n\nTotal number of stickers after each of them collects $50$ more:\n$= 2075 + 200$\n$= 2275$ stickers\n\nAlternatively:\n$= 2075 + 4 \\times 50$\n$= 2075 + 200$\n$= 2275$\n\nThe boys will have $2275$ stickers altogether.\n\n**Take Note**\n\n1. It is important to note the scale carefully for each graph and consider the values accordingly.\n\n2. Write down the value of each \"bar\" to start with. This will come in useful later. It will save you a lot of time in working out the answers.\n\n3. If a question contains more than one part, often the solution of parts (a) and (b) can help you work out parts (c) and (d) more quickly.",
+      "source_images": ["image16.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Exercise 5\n\n**SECTION A**\n\nSelect your answer from the options given and write its number $(1, 2, 3 \\text{ or } 4)$ in the brackets provided.\n\n1. If $\\bigstar \\bigstar \\bigstar \\bigstar$ stands for $75$, what does $\\bigstar \\bigstar \\bigstar \\bigstar \\bigstar \\bigstar \\bigstar$ stand for?\n\n(1) $45$\n(2) $125$\n(3) $225$\n(4) $375$\n\n( )\n\n[FIGURE:0]\n\n2. Observe the figures carefully. If the shaded portion in Figure A stands for $200$, the shaded portion (X) in Figure B stands for ________.\n\n(1) $200$\n(2) $150$\n(3) $100$\n(4) $75$\n\n( )\n\n3. The value represented by P in the figure is ________.\n\n(1) $335$\n(2) $370$\n(3) $380$\n(4) $385$\n\n( )",
+      "source_images": ["image17.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "Five children saved some amount from their pocket money every week. The graph below shows their savings in a certain week. Use the information in the graph to answer questions 4 to 8.\n\n[FIGURE:0]\n\n4. Who saved $\\$4$ less than Kumari?\n\n(1) Only Weirong\n(2) Only Richard\n(3) Ali and Siti\n(4) Weirong and Ali\n\n( )\n\n5. Ali spent as much money as he saved for the week. How much pocket money did Ali receive that week?\n\n(1) $\\$14$\n(2) $\\$24$\n(3) $\\$28$\n(4) $\\$98$\n\n( )\n\n6. Kumari received $\\$38$ as pocket money that week. How much did she spend?\n\n(1) $\\$28$\n(2) $\\$24$\n(3) $\\$20$\n(4) $\\$18$\n\n( )\n\n7. If Siti had saved ________ more, she would have saved twice as much as Richard.\n\n(1) $\\$4$\n(2) $\\$6$\n(3) $\\$8$\n(4) $\\$16$\n\n( )",
+      "source_images": ["image18.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "8. ________ saved $\\$2$ less than Kumari, but $\\$4$ more than ________.\n\n(1) Weirong, Richard\n(2) Siti, Ali\n(3) Ali, Siti\n(4) Siti, Richard\n\n( )\n\n**SECTION B**\n\nWrite your answers to the questions in the blanks provided.\n\n1. If 🐚🐚🐚🐚🐚🐚🐚 stands for $350$, then the value of 🐚🐚🐚🐚 is ________ less than $350$.\n\nThe graph below shows the number of pets different families have in a housing estate. Use the information in the graph to answer questions 2 to 4.\n\n[FIGURE:0]\n\n2. ________ families have no pets.\n\n3. ________ families have 2 or more pets.",
+      "source_images": ["image19.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. There are (a)________ families in the estate and the total number of pets they have is (b)________.\n\nThe graph below shows the number of people who visited a library during a week. Use the information in the graph to answer questions 5 to 8.\n\n[FIGURE:0]\n\n5. The total number of people who visited the library on Monday and Thursday is the same as the total number of people who visited on Friday and ________.",
+      "source_images": ["image20.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "**SECTION C**\n\nSolve the following questions. Show all the steps clearly.\n\n1. Alice collected money for charity by selling artificial flowers. The graph below represents the number of flowers she sold on three days.\n\n[FIGURE:0]\n\n(a) The number of flowers sold on Saturday was ________ more than twice the number of flowers sold on Friday.\n\n(b) $8$ fewer flowers were sold on Sunday than on Saturday. Show this on the graph.",
+      "source_images": ["image21.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "2. The graph below shows the number of pupils in four Primary 3 classes who walk to school from home. The total number of pupils in each class is $40$.\n\n[FIGURE:0]\n\n(a) How many pupils in class 3C do not walk to school?\n\n(b) Classes ________ and ________ have an equal number of boys walking to school and the number of girls walking to school is ________.\n\n(c) $2$ more boys than girls of class ________ walk to school. Which class is this?",
+      "source_images": ["image22.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "(d) There are $19$ girls in class 3A. How many boys in that class do not walk to school?\n\n(e) Are there more girls or more boys who walk to school in the 4 classes? How many more?\n\n3. The graph below shows the number of patients who visited a clinic from Monday to Saturday.\n\n[FIGURE:0]",
+      "source_images": ["image23.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "4. The graph below shows the number of books in different languages in a library.\n\n[FIGURE:0]\n\n(a) The number of books in ________ and ________ are less than $400$ each.\n\n(b) There are $423$ fiction books in English and $198$ fewer fiction books in Chinese than in English. How many non-fiction Chinese books are there?\n\n(c) The number of (i) ________ books is twice the number of (ii) ________ books.",
+      "source_images": ["image24.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "(d) If $20$ more Tamil books are added to the collection in the library, there will be ________ more English books than Tamil books in the library.\n\n5. The picture graph below shows the number of shells collected by four children at a beach. Answer the questions below given that Sheela collected $40$ shells more than Tina.\n\n[FIGURE:0]\n\n(a) How many shells does each (shell symbol) stand for?",
+      "source_images": ["image25.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "(b) Using the picture graph and the answer in (a), complete the bar graph below.\n\n[FIGURE:0]\n\n(c) How many shells must Sheela give to Tom so that they have the same number of shells each?\n\n(d) The children pooled all their shells together and shared them with 2 other friends equally. How many shells did the 2 friends receive in total?",
+      "source_images": ["image26.png"]
+    },
+    {
+      "type": "exercise",
+      "content_latex": "**Creative Thinking Skills**\n\n1. (a) What is the value of $\\circ + \\bigstar$?\n\n$\\circ + \\circ + \\circ + \\circ + \\bigstar + \\bigstar + \\bigstar + \\bigstar + \\bigstar + \\bigstar$ give $260$.\n\n$\\circ + \\circ + \\circ + \\bigstar + \\bigstar + \\bigstar + \\bigstar + \\bigstar$ give $205$.\n\n(b) If the value of $\\bigstar$ is $25$ more than the value of $\\circ$, find the value of $\\circ + \\circ + \\circ + \\circ + \\circ$.\n\n2. The graph shows the number of marbles Alex and Ben have. However, it is not given how much each division stands for. If Ben has $150$ fewer marbles than Alex, how many marbles does Alex have?\n\n[FIGURE:0]",
+      "source_images": ["image27.png"]
+    }
+  ]
+}

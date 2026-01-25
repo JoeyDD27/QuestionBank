@@ -19,6 +19,10 @@
 const { createClient } = require('@supabase/supabase-js');
 const fs = require('fs');
 const path = require('path');
+const { execSync } = require('child_process');
+
+// Max image dimension for API requests (Claude limit is 2000px for multi-image)
+const MAX_IMAGE_DIMENSION = 1800;
 
 const PROJECT_ROOT = path.join(__dirname, '..');
 
@@ -199,6 +203,107 @@ async function getImageRecords(chapterId) {
   return map;
 }
 
+/**
+ * Get image dimensions using Python PIL
+ * Returns { width, height } or null if failed
+ */
+function getImageDimensions(imagePath) {
+  try {
+    const script = `
+from PIL import Image
+img = Image.open("${imagePath.replace(/"/g, '\\"')}")
+print(f"{img.size[0]}x{img.size[1]}")
+`;
+    const result = execSync(`/home/dkai/.venvs/mineru/bin/python -c '${script}'`, {
+      encoding: 'utf-8',
+      timeout: 10000
+    }).trim();
+    const [w, h] = result.split('x').map(Number);
+    return { width: w, height: h };
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Compress image if dimensions exceed MAX_IMAGE_DIMENSION
+ * Saves to compressed directory, returns the path to use
+ */
+function ensureImageCompressed(sourceConfig, filename) {
+  // Determine raw and compressed paths
+  const rawDir = sourceConfig.imagesDir.replace('_compressed', '');
+  const compressedDir = sourceConfig.imagesDir;
+  const rawPath = path.join(rawDir, filename);
+  const compressedPath = path.join(compressedDir, filename);
+
+  // If compressed already exists, check if it needs re-compression
+  if (fs.existsSync(compressedPath)) {
+    const dims = getImageDimensions(compressedPath);
+    if (dims && dims.width <= MAX_IMAGE_DIMENSION && dims.height <= MAX_IMAGE_DIMENSION) {
+      return compressedPath; // Already properly compressed
+    }
+    // Existing file is too large, will re-compress from raw
+    console.log(`  Re-compressing ${filename} (existing: ${dims?.width}x${dims?.height})`);
+  }
+
+  // If raw doesn't exist, nothing to do
+  if (!fs.existsSync(rawPath)) {
+    return null;
+  }
+
+  // Ensure compressed directory exists
+  if (!fs.existsSync(compressedDir)) {
+    fs.mkdirSync(compressedDir, { recursive: true });
+  }
+
+  // Check dimensions
+  const dims = getImageDimensions(rawPath);
+  if (!dims) {
+    // Can't read dimensions, just copy
+    fs.copyFileSync(rawPath, compressedPath);
+    return compressedPath;
+  }
+
+  const { width, height } = dims;
+  if (width <= MAX_IMAGE_DIMENSION && height <= MAX_IMAGE_DIMENSION) {
+    // Already small enough, just copy
+    fs.copyFileSync(rawPath, compressedPath);
+    console.log(`  Copied ${filename} (${width}x${height})`);
+    return compressedPath;
+  }
+
+  // Need to resize
+  const ratio = Math.min(MAX_IMAGE_DIMENSION / width, MAX_IMAGE_DIMENSION / height);
+  const newW = Math.floor(width * ratio);
+  const newH = Math.floor(height * ratio);
+
+  console.log(`  Resizing ${filename}: ${width}x${height} -> ${newW}x${newH}`);
+
+  // Determine output format based on extension
+  const isJpeg = filename.toLowerCase().endsWith('.jpeg') || filename.toLowerCase().endsWith('.jpg');
+  const saveFormat = isJpeg ? 'JPEG' : 'PNG';
+  const saveOptions = isJpeg ? 'quality=85' : 'optimize=True';
+
+  try {
+    // Use heredoc to avoid quote escaping issues
+    const script = `
+from PIL import Image
+img = Image.open("${rawPath.replace(/"/g, '\\"')}")
+if img.mode == 'RGBA' and "${saveFormat}" == "JPEG":
+    img = img.convert('RGB')
+img_resized = img.resize((${newW}, ${newH}), Image.LANCZOS)
+img_resized.save("${compressedPath.replace(/"/g, '\\"')}", "${saveFormat}", ${saveOptions})
+`;
+    execSync(`/home/dkai/.venvs/mineru/bin/python << 'PYEOF'${script}PYEOF`, { timeout: 30000 });
+    return compressedPath;
+  } catch (e) {
+    console.log(`  Resize failed: ${e.message}`);
+    // Fallback: copy original
+    fs.copyFileSync(rawPath, compressedPath);
+    return compressedPath;
+  }
+}
+
 // Upload images to Storage
 async function uploadImages(chapterNum, chapterInfo, sourceConfig, dryRun = false) {
   const { start, end } = chapterInfo;
@@ -209,15 +314,29 @@ async function uploadImages(chapterNum, chapterInfo, sourceConfig, dryRun = fals
   let failed = 0;
 
   for (let i = start; i <= end; i++) {
-    const filename = `image${i}.png`;
-    const localPath = path.join(sourceConfig.imagesDir, filename);
-    const storagePath = `${sourceConfig.storagePath}/${filename}`;
+    // Try multiple extensions (png, jpeg, jpg)
+    const extensions = ['png', 'jpeg', 'jpg'];
+    let filename = null;
+    let localPath = null;
 
-    if (!fs.existsSync(localPath)) {
-      console.log(`  MISSING: ${filename}`);
+    for (const ext of extensions) {
+      const tryFilename = `image${i}.${ext}`;
+      const tryPath = ensureImageCompressed(sourceConfig, tryFilename);
+      if (tryPath) {
+        filename = tryFilename;
+        localPath = tryPath;
+        break;
+      }
+    }
+
+    if (!localPath) {
+      console.log(`  MISSING: image${i}.(png|jpeg|jpg)`);
       failed++;
       continue;
     }
+
+    const storagePath = `${sourceConfig.storagePath}/${filename}`;
+    const contentType = filename.endsWith('.png') ? 'image/png' : 'image/jpeg';
 
     if (dryRun) {
       console.log(`  [DRY RUN] Would upload: ${filename}`);
@@ -229,7 +348,7 @@ async function uploadImages(chapterNum, chapterInfo, sourceConfig, dryRun = fals
     const { error } = await supabase.storage
       .from(STORAGE_BUCKET)
       .upload(storagePath, fileBuffer, {
-        contentType: 'image/png',
+        contentType: contentType,
         upsert: true
       });
 
@@ -258,7 +377,24 @@ async function createImageRecords(chapterNum, chapterInfo, chapterId, sourceConf
   let existing = 0;
 
   for (let i = start; i <= end; i++) {
-    const filename = `image${i}.png`;
+    // Find actual filename with correct extension
+    const rawDir = sourceConfig.imagesDir.replace('_compressed', '');
+    const extensions = ['png', 'jpeg', 'jpg'];
+    let filename = null;
+
+    for (const ext of extensions) {
+      const tryFilename = `image${i}.${ext}`;
+      if (fs.existsSync(path.join(rawDir, tryFilename)) ||
+          fs.existsSync(path.join(sourceConfig.imagesDir, tryFilename))) {
+        filename = tryFilename;
+        break;
+      }
+    }
+
+    if (!filename) {
+      continue; // Skip missing images
+    }
+
     const storagePath = `${sourceConfig.storagePath}/${filename}`;
 
     if (dryRun) {

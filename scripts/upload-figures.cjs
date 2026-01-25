@@ -96,6 +96,41 @@ const FIGURE_MAP = {
     { file: 'year4_figures/unit1_rotated/merged/image15_rotated/fig_00_M_figure.jpg', label: 'bar_model_before' },
     { file: 'year4_figures/unit1_rotated/merged/image15_rotated/fig_01_M_figure.jpg', label: 'bar_model_after' },
     { file: 'year4_figures/unit1_rotated/merged/image15_rotated/fig_02_M_figure.jpg', label: 'bar_model_method2' }
+  ],
+  // #14 (image16) has no figures - just text
+  15: [
+    { file: 'year4_figures/unit1_part2/merged/image17_rotated/fig_00_M_figure.jpg', label: 'figure_a_200' },
+    { file: 'year4_figures/unit1_part2/merged/image17_rotated/fig_01_M_figure.jpg', label: 'figure_b_x' }
+  ],
+  16: [
+    { file: 'year4_figures/unit1_part2/merged/image18_rotated/fig_00_M_figure.jpg', label: 'savings_bar_graph' }
+  ],
+  17: [
+    { file: 'year4_figures/unit1_part2/merged/image19_rotated/fig_00_M_figure.jpg', label: 'pets_bar_graph' }
+  ],
+  18: [
+    { file: 'year4_figures/unit1_part2/merged/image20_rotated/fig_00_M_figure.jpg', label: 'library_visitors' }
+  ],
+  19: [
+    { file: 'year4_figures/unit1_part2/merged/image21_rotated/fig_00_M_figure.jpg', label: 'flowers_sales' }
+  ],
+  20: [
+    { file: 'year4_figures/unit1_part2/merged/image22_rotated/fig_00_M_figure.jpg', label: 'pupils_walk_school' }
+  ],
+  21: [
+    { file: 'year4_figures/unit1_part2/merged/image23_rotated/fig_00_M_figure.jpg', label: 'clinic_patients' }
+  ],
+  22: [
+    { file: 'year4_figures/unit1_part2/merged/image24_rotated/fig_00_M_figure.jpg', label: 'library_books' }
+  ],
+  23: [
+    { file: 'year4_figures/unit1_part2/merged/image25_rotated/fig_04_G_chart_diagram.jpg', label: 'shells_pictograph' }
+  ],
+  24: [
+    { file: 'year4_figures/unit1_part2/merged/image26_rotated/fig_00_M_figure.jpg', label: 'shells_bar_graph' }
+  ],
+  25: [
+    { file: 'year4_figures/unit1_part2/merged/image27_rotated/fig_00_M_figure.jpg', label: 'marbles_bar_graph' }
   ]
 };
 

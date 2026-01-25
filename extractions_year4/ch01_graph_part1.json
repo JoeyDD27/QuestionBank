@@ -55,7 +55,7 @@
     },
     {
       "type": "exercise",
-      "content_latex": "5. A group of friends sold flowers to raise money for charity. The bar graph below shows the amount of money they raised.\n\n[FIGURE:0]\n\n(a) Cathy raised $\\$$ ________.\n\n(b) Fiona raised $\\$$ ________.\n\n(c) ________ and ________ raised the same amount of money.\n\n(d) The difference between the highest amount of money raised and the lowest amount of money raised is $\\$$ ________.\n\n(e) Emily raised as much as ________ and ________ combined.\n\n(f) The total amount of money raised was $\\$$ ________.\n\n[6 marks]",
+      "content_latex": "5. A group of friends sold flowers to raise money for charity. The bar graph below shows the amount of money they raised.\n\n[FIGURE:0]\n\n(a) Cathy raised ________.\n\n(b) Fiona raised ________.\n\n(c) ________ and ________ raised the same amount of money.\n\n(d) The difference between the highest amount of money raised and the lowest amount of money raised is ________.\n\n(e) Emily raised as much as ________ and ________ combined.\n\n(f) The total amount of money raised was ________.\n\n[6 marks]",
       "source_images": ["image12.png"]
     },
     {
