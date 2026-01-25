@@ -3,10 +3,11 @@
  * Import chapter data into Supabase
  *
  * Usage:
- *   node scripts/import-chapter.cjs --ch=N [options]
+ *   node scripts/import-chapter.cjs --ch=N [--source=<name>] [options]
  *
  * Options:
  *   --ch=N          Chapter number (required)
+ *   --source=NAME   Source name: algebra (default) or year4
  *   --clear         Clear existing data before import
  *   --images-only   Only upload images to Storage
  *   --data-only     Only import data (images already exist)
@@ -50,10 +51,32 @@ if (!SUPABASE_KEY) {
 }
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
-const EXTRACTIONS_DIR = path.join(PROJECT_ROOT, 'extractions');
-const IMAGES_DIR = path.join(PROJECT_ROOT, 'docx_extracted', 'word', 'media_compressed');
 const STORAGE_BUCKET = 'question-images';
-const STORAGE_PATH = 'algebra';
+
+// Source configurations
+const SOURCE_CONFIGS = {
+  algebra: {
+    extractionsDir: path.join(PROJECT_ROOT, 'extractions'),
+    imagesDir: path.join(PROJECT_ROOT, 'docx_extracted', 'word', 'media_compressed'),
+    storagePath: 'algebra',
+    rangesFile: path.join(PROJECT_ROOT, 'chapter_image_ranges.json'),
+  },
+  year4: {
+    extractionsDir: path.join(PROJECT_ROOT, 'extractions_year4'),
+    imagesDir: path.join(PROJECT_ROOT, 'year4_extracted', 'word', 'media_compressed'),
+    storagePath: 'year4',
+    rangesFile: path.join(PROJECT_ROOT, 'configs', 'year4', 'chapter_image_ranges.json'),
+  },
+};
+
+function getSourceConfig(sourceName) {
+  const config = SOURCE_CONFIGS[sourceName];
+  if (!config) {
+    console.error(`Unknown source: ${sourceName}. Available: ${Object.keys(SOURCE_CONFIGS).join(', ')}`);
+    process.exit(1);
+  }
+  return config;
+}
 
 /**
  * Convert LaTeX math delimiters from $...$ to ｢...｣
@@ -83,6 +106,7 @@ function parseArgs() {
   const args = process.argv.slice(2);
   const result = {
     chapter: null,
+    source: 'algebra',
     clear: false,
     imagesOnly: false,
     dataOnly: false,
@@ -92,6 +116,8 @@ function parseArgs() {
   for (const arg of args) {
     if (arg.startsWith('--ch=')) {
       result.chapter = parseInt(arg.replace('--ch=', ''), 10);
+    } else if (arg.startsWith('--source=')) {
+      result.source = arg.replace('--source=', '');
     } else if (arg === '--clear') {
       result.clear = true;
     } else if (arg === '--images-only') {
@@ -106,26 +132,49 @@ function parseArgs() {
   return result;
 }
 
-// Load chapter ranges
-function loadChapterRanges() {
-  const rangesPath = path.join(PROJECT_ROOT, 'chapter_image_ranges.json');
-  return JSON.parse(fs.readFileSync(rangesPath, 'utf-8'));
+// Load chapter ranges for a source
+function loadChapterRanges(sourceConfig) {
+  return JSON.parse(fs.readFileSync(sourceConfig.rangesFile, 'utf-8'));
 }
 
 // Get chapter info from ranges
-function getChapterInfo(chapterNum) {
-  const ranges = loadChapterRanges();
+function getChapterInfo(chapterNum, sourceConfig) {
+  const ranges = loadChapterRanges(sourceConfig);
   const key = `ch${chapterNum.toString().padStart(2, '0')}`;
   return ranges[key] || null;
 }
 
-// Get chapter from database by order_index
-async function getChapterFromDB(chapterNum) {
+// Get source record from database by filename pattern
+async function getSourceFromDB(sourceName) {
+  const filenamePatterns = {
+    algebra: 'Algebra full.docx',
+    year4: 'Year 4 math.docx',
+  };
+  const filename = filenamePatterns[sourceName];
+  if (!filename) return null;
+
   const { data, error } = await supabase
-    .from('chapters')
-    .select('id, title, order_index')
-    .eq('order_index', chapterNum)
+    .from('sources')
+    .select('id, filename')
+    .eq('filename', filename)
     .single();
+
+  if (error) return null;
+  return data;
+}
+
+// Get chapter from database by order_index, optionally filtered by source_id
+async function getChapterFromDB(chapterNum, sourceId) {
+  let query = supabase
+    .from('chapters')
+    .select('id, title, order_index, source_id')
+    .eq('order_index', chapterNum);
+
+  if (sourceId) {
+    query = query.eq('source_id', sourceId);
+  }
+
+  const { data, error } = await query.single();
 
   if (error) return null;
   return data;
@@ -151,7 +200,7 @@ async function getImageRecords(chapterId) {
 }
 
 // Upload images to Storage
-async function uploadImages(chapterNum, chapterInfo, dryRun = false) {
+async function uploadImages(chapterNum, chapterInfo, sourceConfig, dryRun = false) {
   const { start, end } = chapterInfo;
   console.log(`\nUploading images ${start}-${end} to Storage...`);
 
@@ -161,8 +210,8 @@ async function uploadImages(chapterNum, chapterInfo, dryRun = false) {
 
   for (let i = start; i <= end; i++) {
     const filename = `image${i}.png`;
-    const localPath = path.join(IMAGES_DIR, filename);
-    const storagePath = `${STORAGE_PATH}/${filename}`;
+    const localPath = path.join(sourceConfig.imagesDir, filename);
+    const storagePath = `${sourceConfig.storagePath}/${filename}`;
 
     if (!fs.existsSync(localPath)) {
       console.log(`  MISSING: ${filename}`);
@@ -201,7 +250,7 @@ async function uploadImages(chapterNum, chapterInfo, dryRun = false) {
 }
 
 // Create image records in database
-async function createImageRecords(chapterNum, chapterInfo, chapterId, dryRun = false) {
+async function createImageRecords(chapterNum, chapterInfo, chapterId, sourceConfig, dryRun = false) {
   const { start, end } = chapterInfo;
   console.log(`\nCreating image records in database...`);
 
@@ -210,7 +259,7 @@ async function createImageRecords(chapterNum, chapterInfo, chapterId, dryRun = f
 
   for (let i = start; i <= end; i++) {
     const filename = `image${i}.png`;
-    const storagePath = `${STORAGE_PATH}/${filename}`;
+    const storagePath = `${sourceConfig.storagePath}/${filename}`;
 
     if (dryRun) {
       console.log(`  [DRY RUN] Would create: ${filename}`);
@@ -280,9 +329,9 @@ async function clearChapterData(chapterId, dryRun = false) {
 }
 
 // Import data from extraction files
-async function importData(chapterNum, chapterId, imageMap, dryRun = false) {
+async function importData(chapterNum, chapterId, imageMap, sourceConfig, dryRun = false) {
   const chapterPrefix = `ch${chapterNum.toString().padStart(2, '0')}_`;
-  const files = fs.readdirSync(EXTRACTIONS_DIR)
+  const files = fs.readdirSync(sourceConfig.extractionsDir)
     .filter(f => f.startsWith(chapterPrefix) && f.endsWith('.json'))
     .sort();
 
@@ -300,7 +349,7 @@ async function importData(chapterNum, chapterId, imageMap, dryRun = false) {
 
   for (const file of files) {
     console.log(`\n  Processing ${file}`);
-    const filePath = path.join(EXTRACTIONS_DIR, file);
+    const filePath = path.join(sourceConfig.extractionsDir, file);
 
     let content;
     try {
@@ -379,15 +428,16 @@ async function main() {
   const args = parseArgs();
 
   if (!args.chapter) {
-    console.error('Usage: node scripts/import-chapter.cjs --ch=N [--clear] [--images-only] [--data-only] [--dry-run]');
+    console.error('Usage: node scripts/import-chapter.cjs --ch=N [--source=NAME] [--clear] [--images-only] [--data-only] [--dry-run]');
     process.exit(1);
   }
 
   const chapterNum = args.chapter;
   const chapterPadded = chapterNum.toString().padStart(2, '0');
+  const sourceConfig = getSourceConfig(args.source);
 
   console.log('='.repeat(50));
-  console.log(`QuestionBank Chapter Import - ch${chapterPadded}`);
+  console.log(`QuestionBank Chapter Import - ch${chapterPadded} [source: ${args.source}]`);
   console.log('='.repeat(50));
 
   if (args.dryRun) {
@@ -404,19 +454,31 @@ async function main() {
   }
 
   // Get chapter info from ranges
-  const chapterInfo = getChapterInfo(chapterNum);
+  const chapterInfo = getChapterInfo(chapterNum, sourceConfig);
   if (!chapterInfo) {
-    console.error(`Chapter ${chapterNum} not found in chapter_image_ranges.json`);
+    console.error(`Chapter ${chapterNum} not found in ${sourceConfig.rangesFile}`);
     process.exit(1);
   }
 
   console.log(`\nChapter: ${chapterInfo.title}`);
   console.log(`Images: ${chapterInfo.start} - ${chapterInfo.end} (${chapterInfo.end - chapterInfo.start + 1} images)`);
 
+  // Get source from database (for non-algebra sources)
+  let sourceId = null;
+  if (args.source !== 'algebra') {
+    const source = await getSourceFromDB(args.source);
+    if (!source) {
+      console.error(`Source "${args.source}" not found in database. Run setup-year4.cjs first.`);
+      process.exit(1);
+    }
+    sourceId = source.id;
+    console.log(`Source: ${source.filename} (${source.id.slice(0, 8)}...)`);
+  }
+
   // Get chapter from database
-  const chapter = await getChapterFromDB(chapterNum);
+  const chapter = await getChapterFromDB(chapterNum, sourceId);
   if (!chapter) {
-    console.error(`Chapter ${chapterNum} not found in database`);
+    console.error(`Chapter ${chapterNum} not found in database${sourceId ? ' for source ' + args.source : ''}`);
     process.exit(1);
   }
 
@@ -429,15 +491,15 @@ async function main() {
 
   // Upload images if not data-only
   if (!args.dataOnly) {
-    await uploadImages(chapterNum, chapterInfo, args.dryRun);
-    await createImageRecords(chapterNum, chapterInfo, chapter.id, args.dryRun);
+    await uploadImages(chapterNum, chapterInfo, sourceConfig, args.dryRun);
+    await createImageRecords(chapterNum, chapterInfo, chapter.id, sourceConfig, args.dryRun);
   }
 
   // Import data if not images-only
   if (!args.imagesOnly) {
     const imageMap = await getImageRecords(chapter.id);
     console.log(`\nLoaded ${Object.keys(imageMap).length} image records`);
-    await importData(chapterNum, chapter.id, imageMap, args.dryRun);
+    await importData(chapterNum, chapter.id, imageMap, sourceConfig, args.dryRun);
   }
 
   console.log('\n' + '='.repeat(50));

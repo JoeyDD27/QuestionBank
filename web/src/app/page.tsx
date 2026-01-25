@@ -85,7 +85,7 @@ export default async function Home() {
         <div className="max-w-6xl mx-auto px-4 py-6 flex items-center justify-between">
           <div>
             <h1 className="text-3xl font-bold text-gray-900">QuestionBank</h1>
-            <p className="text-gray-600 mt-1">Algebra Question Library</p>
+            <p className="text-gray-600 mt-1">Math Question Library</p>
           </div>
           <Link
             href="/questions"

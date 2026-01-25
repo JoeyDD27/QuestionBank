@@ -8,8 +8,8 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 export const STORAGE_URL = `${supabaseUrl}/storage/v1/object/public/question-images`
 export const FIGURES_STORAGE_URL = `${supabaseUrl}/storage/v1/object/public/question-figures`
 
-export function getImageUrl(filename: string): string {
-  return `${STORAGE_URL}/algebra/${filename}`
+export function getImageUrl(storagePath: string): string {
+  return `${STORAGE_URL}/${storagePath}`
 }
 
 export function getFigureUrl(storagePath: string): string {
@@ -161,10 +161,10 @@ export async function getSourceImageUrls(imageIds: string[]): Promise<string[]> 
 
   const { data, error } = await supabase
     .from('images')
-    .select('filename')
+    .select('storage_path')
     .in('id', imageIds)
 
   if (error || !data) return []
 
-  return data.map(img => getImageUrl(img.filename))
+  return data.map(img => getImageUrl(img.storage_path))
 }

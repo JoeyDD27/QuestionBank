@@ -322,7 +322,7 @@ export default async function ChapterPage({ params }: PageProps) {
                                 {item.source_images.map((img, imgIdx) => (
                                   <Image
                                     key={img.id}
-                                    src={getImageUrl(img.filename)}
+                                    src={getImageUrl(img.storage_path)}
                                     alt={img.filename}
                                     width={500}
                                     height={350}
@@ -407,7 +407,7 @@ export default async function ChapterPage({ params }: PageProps) {
                     {section.images.map((img) => (
                       <div key={img.id} className="bg-gray-50 rounded border overflow-hidden">
                         <Image
-                          src={getImageUrl(img.filename)}
+                          src={getImageUrl(img.storage_path)}
                           alt={img.filename}
                           width={200}
                           height={150}
