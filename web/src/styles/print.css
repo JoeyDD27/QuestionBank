@@ -1,0 +1,111 @@
+/* Print styles for worksheet */
+
+@media print {
+  /* Hide non-print elements */
+  header,
+  nav,
+  aside,
+  footer,
+  button,
+  .no-print {
+    display: none !important;
+  }
+
+  /* Reset body styles for print */
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  /* Container styles */
+  .print-container {
+    margin: 0;
+    padding: 0;
+    max-width: none;
+  }
+
+  /* Page settings - margin applies to every page */
+  @page {
+    size: A4;
+    margin: 1.5cm; /* same margin on all sides for every page */
+  }
+
+  /* Question item styling */
+  .question-item {
+    page-break-inside: avoid;
+    margin-bottom: 1.5em;
+  }
+
+  /* Force page break before each question if needed */
+  .question-item.page-break-before {
+    page-break-before: always;
+  }
+
+  /* Title styling */
+  .print-view h1 {
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.5cm;
+  }
+
+  /* Math rendering - ensure KaTeX displays properly */
+  .katex {
+    font-size: 1.1em;
+  }
+
+  /* Ensure images print */
+  img {
+    max-width: 100%;
+    page-break-inside: avoid;
+  }
+
+  /* Remove link decorations */
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  /* Answer section styling for print */
+  .print-view .border-l-2 {
+    border-left: 2pt solid #10b981;
+    padding-left: 0.5cm;
+    margin-top: 0.3cm;
+  }
+
+  /* Spacing between questions - standard layout */
+  .print-view .space-y-3 > * + * {
+    margin-top: 0.5cm;
+  }
+
+  /* Compact grid layout */
+  .print-view .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.3cm 0.5cm;
+  }
+
+  .print-view .col-span-2 {
+    grid-column: span 2;
+  }
+
+  /* Name/date line */
+  .print-view .border-b {
+    border-bottom: 1pt solid #ccc;
+    padding-bottom: 0.3cm;
+    margin-bottom: 0.5cm;
+  }
+}
+
+/* Screen preview styles (to match print appearance) */
+@media screen {
+  .print-view {
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .print-view h1 {
+    font-family: inherit;
+  }
+}

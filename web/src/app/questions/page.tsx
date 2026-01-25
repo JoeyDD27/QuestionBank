@@ -3,6 +3,11 @@ import { Suspense } from 'react';
 import { supabase } from '@/lib/supabase';
 import { FilterSidebar } from '@/components/FilterSidebar';
 import { QuestionCard } from '@/components/QuestionCard';
+import { QuestionsList } from '@/components/QuestionsList';
+import { WorksheetSidebar } from '@/components/WorksheetSidebar';
+import { SelectAllButton } from '@/components/SelectAllButton';
+import { WorksheetBadge } from '@/components/WorksheetBadge';
+import { KeyboardHints } from '@/components/KeyboardHints';
 
 export const dynamic = 'force-dynamic';
 
@@ -10,10 +15,14 @@ const PAGE_SIZE = 50;
 
 interface SearchParams {
   chapter?: string;
+  subChapter?: string;
   difficulty?: string;
   type?: string;
   itemType?: string;
+  topics?: string;
+  labeled?: string;
   page?: string;
+  q?: string;
 }
 
 async function getChapters() {
@@ -23,6 +32,73 @@ async function getChapters() {
     .is('parent_id', null)
     .order('order_index');
   return data || [];
+}
+
+// Sub-chapter config for ordering
+import subChaptersConfig from '@/data/sub-chapters.json';
+
+async function getSubChapters(chapterId?: string) {
+  if (!chapterId) return [];
+
+  const normalizeTitle = (value: string) => value.toLowerCase().replace(/\s+/g, ' ').trim();
+
+  // Get distinct sub_chapter values for items in this chapter
+  const { data } = await supabase
+    .from('items')
+    .select('sub_chapter, chapter:chapters!inner(id, order_index)')
+    .eq('chapter.id', chapterId)
+    .not('sub_chapter', 'is', null);
+
+  if (!data) return [];
+
+  // Count items per sub_chapter
+  const counts: Record<string, number> = {};
+  const normalizedCounts: Record<string, number> = {};
+  const normalizedNames: Record<string, string> = {};
+  let chapterOrderIndex = 1;
+
+  for (const item of data) {
+    const sub = item.sub_chapter;
+    if (sub) {
+      counts[sub] = (counts[sub] || 0) + 1;
+      const key = normalizeTitle(sub);
+      normalizedCounts[key] = (normalizedCounts[key] || 0) + 1;
+      if (!normalizedNames[key]) {
+        normalizedNames[key] = sub;
+      }
+    }
+    // Get chapter order_index
+    const chapter = Array.isArray(item.chapter) ? item.chapter[0] : item.chapter;
+    if (chapter?.order_index) {
+      chapterOrderIndex = chapter.order_index;
+    }
+  }
+
+  // Get order from config
+  const chapterKey = `ch${String(chapterOrderIndex).padStart(2, '0')}` as keyof typeof subChaptersConfig;
+  const configChapter = subChaptersConfig[chapterKey];
+  const ordered: { name: string; count: number }[] = [];
+  const seen = new Set<string>();
+
+  if (configChapter?.subChapters) {
+    for (const sub of configChapter.subChapters) {
+      const key = normalizeTitle(sub.title);
+      const count = normalizedCounts[key];
+      if (count !== undefined) {
+        ordered.push({ name: sub.title, count });
+        seen.add(key);
+      }
+    }
+  }
+
+  // Append any remaining sub-chapters not in config
+  for (const [key, count] of Object.entries(normalizedCounts)) {
+    if (!seen.has(key)) {
+      ordered.push({ name: normalizedNames[key] ?? key, count });
+    }
+  }
+
+  return ordered;
 }
 
 async function getQuestions(searchParams: SearchParams) {
@@ -40,16 +116,29 @@ async function getQuestions(searchParams: SearchParams) {
       metadata,
       item:items!inner(
         type,
+        sub_chapter,
+        source_image_ids,
         chapter:chapters!inner(
           id,
           title
         )
+      ),
+      figures:question_figures(
+        id,
+        storage_path,
+        order_index
       )
     `, { count: 'exact' });
 
   // Chapter filter
   if (searchParams.chapter) {
     query = query.eq('item.chapter.id', searchParams.chapter);
+  }
+
+  // Sub-chapter filter
+  if (searchParams.subChapter) {
+    const subChapters = searchParams.subChapter.split(',');
+    query = query.in('item.sub_chapter', subChapters);
   }
 
   // Item type filter
@@ -82,6 +171,27 @@ async function getQuestions(searchParams: SearchParams) {
     }
   }
 
+  // Topics filter (JSONB array) - filter questions containing any of the selected topics
+  if (searchParams.topics) {
+    const topics = searchParams.topics.split(',');
+    if (topics.length === 1) {
+      query = query.contains('metadata', { topics: [topics[0]] });
+    } else {
+      const orConditions = topics.map(t => `metadata.cs.{"topics":["${t}"]}`).join(',');
+      query = query.or(orConditions);
+    }
+  }
+
+  // Labeled only filter
+  if (searchParams.labeled === '1') {
+    query = query.not('metadata->difficulty', 'is', null);
+  }
+
+  // Search filter (search in problem_latex)
+  if (searchParams.q) {
+    query = query.ilike('problem_latex', `%${searchParams.q}%`);
+  }
+
   // Order and pagination
   query = query
     .order('created_at', { ascending: true })
@@ -104,6 +214,82 @@ async function getTotalCount() {
   return count || 0;
 }
 
+async function getLabeledCount(chapterId?: string) {
+  let query = supabase
+    .from('questions')
+    .select('*, item:items!inner(chapter:chapters!inner(id))', { count: 'exact', head: true })
+    .not('metadata->difficulty', 'is', null);
+
+  if (chapterId) {
+    query = query.eq('item.chapter.id', chapterId);
+  }
+
+  const { count } = await query;
+  return count || 0;
+}
+
+async function getTopics(chapterId?: string) {
+  // If chapter is selected, get topics only from that chapter
+  if (chapterId) {
+    const { data } = await supabase.rpc('get_topic_counts_by_chapter', { p_chapter_id: chapterId });
+    if (data) return data;
+  }
+  // Fallback to all topics
+  const { data } = await supabase.rpc('get_topic_counts');
+  return data || [];
+}
+
+interface FilterCounts {
+  itemTypes: Record<string, number>;
+  difficulties: Record<string, number>;
+  questionTypes: Record<string, number>;
+}
+
+async function getFilterCounts(chapterId?: string): Promise<FilterCounts> {
+  // Build base query with optional chapter filter
+  let baseQuery = supabase
+    .from('questions')
+    .select('metadata, item:items!inner(type, chapter:chapters!inner(id))');
+
+  if (chapterId) {
+    baseQuery = baseQuery.eq('item.chapter.id', chapterId);
+  }
+
+  const { data } = await baseQuery;
+
+  const counts: FilterCounts = {
+    itemTypes: {},
+    difficulties: {},
+    questionTypes: {},
+  };
+
+  if (!data) return counts;
+
+  for (const q of data) {
+    // Item type - q.item is an array due to join, get first element
+    const item = Array.isArray(q.item) ? q.item[0] : q.item;
+    const itemType = (item as { type: string } | null)?.type;
+    if (itemType) {
+      counts.itemTypes[itemType] = (counts.itemTypes[itemType] || 0) + 1;
+    }
+
+    // Difficulty
+    const metadata = q.metadata as { difficulty?: number; question_type?: string } | null;
+    const difficulty = metadata?.difficulty;
+    if (difficulty) {
+      counts.difficulties[String(difficulty)] = (counts.difficulties[String(difficulty)] || 0) + 1;
+    }
+
+    // Question type
+    const qType = metadata?.question_type;
+    if (qType) {
+      counts.questionTypes[qType] = (counts.questionTypes[qType] || 0) + 1;
+    }
+  }
+
+  return counts;
+}
+
 function Pagination({ currentPage, totalPages, searchParams }: {
   currentPage: number;
   totalPages: number;
@@ -112,9 +298,12 @@ function Pagination({ currentPage, totalPages, searchParams }: {
   const buildUrl = (page: number) => {
     const params = new URLSearchParams();
     if (searchParams.chapter) params.set('chapter', searchParams.chapter);
+    if (searchParams.subChapter) params.set('subChapter', searchParams.subChapter);
     if (searchParams.difficulty) params.set('difficulty', searchParams.difficulty);
     if (searchParams.type) params.set('type', searchParams.type);
     if (searchParams.itemType) params.set('itemType', searchParams.itemType);
+    if (searchParams.topics) params.set('topics', searchParams.topics);
+    if (searchParams.labeled) params.set('labeled', searchParams.labeled);
     params.set('page', page.toString());
     return `/questions?${params.toString()}`;
   };
@@ -193,10 +382,14 @@ export default async function QuestionsPage({
   const params = await searchParams;
   const currentPage = parseInt(params.page || '1', 10);
 
-  const [chapters, { questions, count: filteredCount }, totalCount] = await Promise.all([
+  const [chapters, { questions, count: filteredCount }, totalCount, labeledCount, topics, filterCounts, subChapters] = await Promise.all([
     getChapters(),
     getQuestions(params),
     getTotalCount(),
+    getLabeledCount(params.chapter),
+    getTopics(params.chapter),
+    getFilterCounts(params.chapter),
+    getSubChapters(params.chapter),
   ]);
 
   const totalPages = Math.ceil(filteredCount / PAGE_SIZE);
@@ -213,12 +406,15 @@ export default async function QuestionsPage({
             <span className="text-gray-400 mx-2">/</span>
             <span className="text-gray-600">Questions</span>
           </div>
-          <Link
-            href="/"
-            className="text-sm text-blue-600 hover:text-blue-800"
-          >
-            ← Back to Chapters
-          </Link>
+          <div className="flex items-center gap-4">
+            <WorksheetBadge />
+            <Link
+              href="/"
+              className="text-sm text-blue-600 hover:text-blue-800"
+            >
+              ← Back to Chapters
+            </Link>
+          </div>
         </div>
       </header>
 
@@ -230,31 +426,38 @@ export default async function QuestionsPage({
             chapters={chapters}
             totalCount={totalCount}
             filteredCount={filteredCount}
+            labeledCount={labeledCount}
+            topics={topics}
+            filterCounts={filterCounts}
+            subChapters={subChapters}
           />
         </Suspense>
 
         {/* Questions list */}
         <main className="flex-1 p-6 overflow-y-auto">
-          {/* Stats */}
+          {/* Stats & Select All */}
           <div className="mb-4 flex items-center justify-between">
-            <p className="text-sm text-gray-600">
-              Showing {((currentPage - 1) * PAGE_SIZE) + 1}-{Math.min(currentPage * PAGE_SIZE, filteredCount)} of {filteredCount} questions
-            </p>
-            <p className="text-xs text-gray-400">
-              Page {currentPage} of {totalPages}
-            </p>
+            <div className="flex items-center gap-4">
+              <p className="text-sm text-gray-600">
+                Showing {((currentPage - 1) * PAGE_SIZE) + 1}-{Math.min(currentPage * PAGE_SIZE, filteredCount)} of {filteredCount} questions
+              </p>
+              {questions.length > 0 && (
+                <SelectAllButton questions={questions} />
+              )}
+            </div>
+            <div className="flex items-center gap-4">
+              <KeyboardHints />
+              <p className="text-xs text-gray-400">
+                Page {currentPage} of {totalPages}
+              </p>
+            </div>
           </div>
 
           {/* Question cards */}
-          <div className="space-y-4">
-            {questions.map((q, idx) => (
-              <QuestionCard
-                key={q.id}
-                question={q}
-                index={(currentPage - 1) * PAGE_SIZE + idx}
-              />
-            ))}
-          </div>
+          <QuestionsList
+            questions={questions}
+            startIndex={(currentPage - 1) * PAGE_SIZE}
+          />
 
           {questions.length === 0 && (
             <div className="text-center py-12 text-gray-500">
@@ -269,6 +472,9 @@ export default async function QuestionsPage({
             searchParams={params}
           />
         </main>
+
+        {/* Worksheet Sidebar */}
+        <WorksheetSidebar />
       </div>
     </div>
   );
