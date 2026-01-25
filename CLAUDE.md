@@ -1,5 +1,45 @@
 # QuestionBank 项目规范
 
+## 当前状态 (2026-01-21)
+
+**Phase 3: 出卷功能 - ✅ 完成**
+
+### 出卷核心功能
+- 题目勾选: `/questions` 页面可勾选单题或全选当前页
+- 工作区侧边栏: 右侧显示已选题目列表（可折叠，有题目时自动展开）
+- 出卷预览: `/worksheet` 页面支持拖拽排序、预览题目卷/答案卷
+- 打印 PDF: 浏览器打印，KaTeX 矢量渲染，质量清晰
+- Word 导出: 支持导出题目卷/答案卷为 .docx 文件
+- Compact 模式: 小题 (a)(b)(c)... 自动排列为 2 列，节省纸张
+- 无答案提示: 答案卷显示"答案未录入"，题目卡片显示"无答案"标签
+
+### 筛选页 UX 改进
+- 搜索框: 支持搜索题目内容，500ms 防抖
+- 快速筛选: Easy / Medium / Hard / Examples 一键预设
+- 筛选器折叠: Item Type / Difficulty 默认展开，其他折叠
+- Topics 搜索: 输入框过滤 topics
+- Topics 按章节过滤: 选择章节后只显示该章节的 topics
+- Labeled count 联动: 选择章节后显示该章节的已标注数
+- Header 徽章: 显示已选数量，点击跳转 worksheet
+- 键盘快捷键: j/k 上下，Space 选中，Enter 去 worksheet
+- 偏好记忆: 折叠状态保存到 localStorage
+
+### 技术栈
+- React Context + localStorage (状态管理)
+- @dnd-kit/sortable (拖拽排序)
+- window.print() (零依赖 PDF 生成)
+- docx + file-saver (Word 导出)
+
+### Phase 2 标注统计 (已完成)
+
+| 指标 | 值 |
+|------|-----|
+| Questions | 2609 (100%) |
+| Subquestions | 1633 (100%) |
+| 方案 | `docs/labeling-schema-v2.md` |
+
+---
+
 ## 项目概述
 
 **QuestionBank** 是 IB/IGCSE 数学题库系统。从 Word 文档图片提取数学题目，存入 Supabase，通过 Web 展示。
@@ -20,8 +60,21 @@
 | 阶段 | 目标 | 状态 |
 |------|------|------|
 | **阶段1** | 基础提取：完整准确地从图片提取内容 | ✅ 完成 |
-| **阶段2** | 结构化：添加 section/topic 层级、合并相关 items、知识点标签 | ⏳ 待开始 |
-| **阶段3** | 出卷功能：勾选题目、生成 PDF | ⏳ 待开始 |
+| **阶段2** | 结构化：添加 metadata、知识点标签、难度分类 | ✅ 完成 |
+| **阶段3** | 出卷功能：勾选题目、生成 PDF | ✅ 完成 |
+
+### Phase 2 进度
+
+| Step | 任务 | 状态 |
+|------|------|------|
+| 1 | 建表 migration (metadata, tag_definitions, chapter_topic_mapping) | ✅ |
+| 2 | 导入标签词汇表 (90 条) | ✅ |
+| 3 | 章节与 IB Topic 映射 (46 条) | ✅ |
+| 4 | 规则预处理 (2609 题 metadata 基础字段) | ✅ |
+| 5 | AI 标注 (difficulty, skills, topics 等) | ✅ 2609 questions + 1633 subquestions |
+| 6 | 前端筛选 UI | ✅ 基础版完成 |
+
+**Step 5 方案**: `docs/labeling-schema-v2.md`
 
 ### 线上地址
 
@@ -37,7 +90,8 @@ cd web && vercel --prod
 ## 当前状态
 
 - **阶段1完成**: 33 章，2609 items，2952 图片
-- **详细记录**: [docs/phase1-notes.md](docs/phase1-notes.md)
+- **阶段1记录**: [docs/phase1-notes.md](docs/phase1-notes.md)
+- **阶段2方案**: [docs/phase2-classification-design.md](docs/phase2-classification-design.md)
 
 ---
 
@@ -73,6 +127,26 @@ QuestionBank/
 验证: https://web-plum-zeta-69.vercel.app
 
 **Skill 路径**: `~/.claude/skills/questionbank-chapter-processor/skill.md`
+
+---
+## 子章节映射与筛选（必须保持与 Word 顺序一致）
+
+当新增/替换 Word 或 PDF 文件时，必须同步更新子章节映射与筛选顺序，确保：
+1. `items.sub_chapter` 映射与 Word 章节顺序一致
+2. `/questions` 子章节筛选列表按 Word 顺序显示
+
+流程：
+1. 以 `section_index.json` 为权威索引（来自 Word/PDF 的 TOC/结构解析）。
+2. 生成并更新以下配置：
+   - `sub_chapters.json`（根目录）
+   - `web/src/data/sub-chapters.json`
+3. 运行脚本回填数据库：
+   ```bash
+   node scripts/import-sub-chapters.cjs
+   ```
+4. 线上验证：`/questions` 选择章节，检查子章节顺序与题目归属是否正确。
+
+若出现顺序异常，优先检查 `sub_chapters.json` 是否与 `section_index.json` 一致，再确认前端已部署。
 
 ---
 
