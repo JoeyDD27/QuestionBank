@@ -3,6 +3,13 @@ node_modules/
 
 # Large extracted files (not needed for deployment)
 docx_extracted/
+year4_extracted/
+
+# Figure extraction test outputs
+year4_figures_test/
+year4_gdino_output/
+year4_gdino_prompt_test/
+year4_mineru_output/
 
 # Large source files
 *.docx
@@ -10,6 +17,9 @@ docx_extracted/
 # Environment files
 .env*
 !.env.example
+
+# Claude Code
+.claude/
 
 # IDE
 .idea/
