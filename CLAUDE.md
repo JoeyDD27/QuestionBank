@@ -116,7 +116,59 @@ QuestionBank/
 └── .env                            # Supabase 密钥
 ```
 
-## 章节处理流程
+## 章节处理流程（Year 4 完整流程）
+
+### 完整工作流程
+
+**每个章节/Part 必须按顺序执行以下步骤**：
+
+#### 1. 读取图片范围
+```bash
+# 查看 configs/year4/chapter_image_ranges.json
+```
+
+#### 2. 识别需要裁切的图片
+- 读取该 Part 的所有图片
+- 判断哪些图片包含需要内联显示的图表
+
+#### 3. 执行图表裁切（如有需要）
+```bash
+/home/dkai/.venvs/mineru/bin/python scripts/extract_figures.py \
+  --images year4_extracted/word/media/imageXX.png ... \
+  --output year4_figures/unitN
+```
+- **必须执行 LLM 4 轮评审**（见"图表裁切执行流程"）
+
+#### 4. 提取内容到 JSON
+- 创建 `extractions_year4/chXX_*_partN.json`
+- 在需要的位置添加 `[FIGURE:N]` 标记
+
+#### 5. 执行内容质量自检（必须）
+- **逐题核对**：同时打开原图和 JSON，逐字对照
+- 检查：题号、公式、文字、选项、特殊符号
+- 记录：`✅ 内容自检完成：X 道题目，Y 张图表，逐字核对无误`
+
+#### 6. 导入数据库
+```bash
+node scripts/import-chapter.cjs --ch=N --source=year4 [--clear]
+```
+
+#### 7. 上传裁切图（如有）
+```bash
+# 先配置 scripts/upload-figures.cjs 的 FIGURE_MAP
+node scripts/upload-figures.cjs --source=year4 --ch=N
+```
+
+#### 8. 部署验证
+```bash
+cd web && vercel --prod
+```
+
+验证: https://web-plum-zeta-69.vercel.app
+
+---
+
+### Algebra 章节处理（简化流程）
 
 使用 `questionbank-chapter-processor` skill:
 
@@ -124,15 +176,59 @@ QuestionBank/
 "提取 ch02" 或 "process chapter 2"
 ```
 
-自动执行:
-1. 读取 chapter_image_ranges.json 获取图片范围
-2. 分 part 读图提取内容 → JSON
-3. 运行 `node scripts/import-chapter.cjs --ch=N`
-4. 上传图片 + 导入数据库
-
-验证: https://web-plum-zeta-69.vercel.app
+Algebra 源图已是独立题目，不需要图表裁切。
 
 **Skill 路径**: `~/.claude/skills/questionbank-chapter-processor/skill.md`
+
+---
+
+## 内容提取质量检查（必须执行）
+
+**重要**: 每次提取内容后，必须自己严格执行以下检查流程，不依赖用户确认。
+
+### 检查流程
+
+#### 1. 文字内容检查（逐题核对）
+
+对每道题目，必须同时打开：
+- 原始图片（source image）
+- 提取的 JSON 内容
+
+逐字核对以下内容：
+- [ ] 题目编号是否正确（1, 2, 3... 或 (a), (b), (c)...）
+- [ ] 数学公式是否完整（检查每个符号、数字、运算符）
+- [ ] 文字描述是否准确（不能凭印象，必须逐字对照）
+- [ ] 选项内容是否正确（选择题的每个选项）
+- [ ] 特殊符号是否正确（★, ○, □ 等符号的数量和位置）
+
+#### 2. 图表裁切检查
+
+对每张裁切的图表：
+- [ ] 图表是否完整（标题、轴标签、数据都在）
+- [ ] 是否裁切了正确的图表（不是页码、装饰图案等）
+- [ ] 多图题目是否裁切了所有需要的图表
+
+#### 3. 映射关系检查
+
+- [ ] `[FIGURE:N]` 标记位置是否正确
+- [ ] `source_images` 是否指向正确的图片
+- [ ] FIGURE_MAP 中的 order_index 是否与题目对应
+
+### 常见错误类型
+
+| 错误类型 | 示例 | 预防方法 |
+|---------|------|---------|
+| 符号数量错误 | 4个★写成3个★ | 逐个数符号 |
+| 公式不完整 | 漏掉 $\circ +$ | 逐字符对照 |
+| 数字抄错 | 260 写成 206 | 重复核对数字 |
+| 问题理解错 | "○ + ★" 写成 "★" | 仔细读题 |
+
+### 自检记录
+
+完成检查后，在 commit message 或输出中注明：
+```
+✅ 内容自检完成：X 道题目，Y 张图表，逐字核对无误
+```
 
 ---
 ## 子章节映射与筛选（必须保持与 Word 顺序一致）
@@ -234,11 +330,17 @@ QuestionBank/
 node scripts/import-chapter.cjs --ch=N [options]
 
 选项:
+  --source=NAME   数据源: algebra (默认) 或 year4
   --clear         清除已有数据
   --images-only   仅上传图片
   --data-only     仅导入数据
   --dry-run       预览模式
 ```
+
+**自动图片压缩**: 脚本会自动检测超大图片（>1800px），使用 PIL 压缩后再上传。
+- 原始图片: `media/` 目录
+- 压缩图片: `media_compressed/` 目录（自动创建）
+- 避免 Claude API 400 错误（多图请求限制 2000px）
 
 从 `.env` 读取 `SUPABASE_ANON_KEY`。
 
@@ -263,21 +365,84 @@ node scripts/scan_format_issues.cjs
 - **详细分析**: [docs/year4-analysis.md](docs/year4-analysis.md)
 
 ### 图表裁切方案：MinerU + Grounding DINO 组合 + LLM 4轮闭环
+
+**工具说明**:
 - **MinerU** (`/home/dkai/.venvs/mineru/bin/magic-pdf` v1.3.12): 切大图表（柱状图含标题轴标签）
 - **Grounding DINO** (`IDEA-Research/grounding-dino-base`，mineru venv): 切小图形（几何形状等）
-- **LLM 闭环**: Claude 评估裁切完整性 → 生成定向 GDINO prompt → 重跑，最多 4 轮
-- **合并脚本**: `scripts/extract_figures.py`（已实现 MinerU+GDINO 合并，未含 LLM 闭环）
-- **IoU 去重阈值**: 0.3，整页误检过滤: 面积 > 60%
+- **合并脚本**: `scripts/extract_figures.py`（MinerU+GDINO 合并）
+- **去重规则**: IoU > 0.3 去重，面积 > 60% 整页误检过滤
 
-### 当前试验范围
-Unit 1 graph 前 15 张图 (image1-15)，验证完整管道后再扩大。
+---
 
-### 待执行
-1. 管道多源化改造（import 脚本 --source 参数 + web 前端多源支持）
-2. 压缩图片 + 建立 chapter_image_ranges
-3. 图表裁切（MinerU + GDINO 组合）
-4. 内容提取（LLM 读图 → LaTeX）
-5. 导入数据库 + 验证 Web 效果
+## 图表裁切执行流程（必须执行）
+
+**重要**: 对于包含图表的图片，必须执行以下完整流程，不能跳过。
+
+### Step 1: 识别需要裁切的图片
+
+读取图片后，判断是否包含需要内联显示的图表：
+- 柱状图、折线图、饼图
+- 数轴、数线
+- Venn 图、集合图
+- 称重天平、容器图
+- 几何图形
+- 表格（如果需要单独显示）
+
+**纯文字/公式题目不需要裁切**。
+
+### Step 2: MinerU + GDINO 裁切
+
+```bash
+# 使用 mineru venv
+/home/dkai/.venvs/mineru/bin/python scripts/extract_figures.py \
+  --images year4_extracted/word/media/imageXX.png [imageYY.png ...] \
+  --output year4_figures/unitN
+```
+
+裁切结果保存在 `year4_figures/unitN/merged/imageXX/` 下。
+
+### Step 3: LLM 评审裁切质量（最多 4 轮）
+
+**第 1 轮: 检查裁切结果**
+
+用 Read 工具查看每个裁切结果，检查：
+- [ ] 图表是否完整（标题、轴标签、数据、图例都在）
+- [ ] 是否包含多余内容（题目文字、页码、装饰元素）
+- [ ] 横向页面是否需要先旋转
+
+**第 2-4 轮: 定向修复（如需要）**
+
+如果裁切不完整或包含多余内容：
+
+1. 分析问题原因
+2. 生成定向 GDINO prompt，例如：
+   - "bar chart with title and axis labels"
+   - "number line from 0 to 100"
+   - "Venn diagram with two circles"
+3. 重新运行裁切脚本
+4. 再次检查结果
+
+**最多重复 4 轮**，如果仍无法满意，记录问题并手动处理。
+
+### Step 4: 记录裁切结果
+
+完成后记录：
+```
+✅ 图表裁切完成：X 张图片，Y 个图表，质量检查通过
+问题图片（如有）：imageXX - 原因
+```
+
+### 常见裁切问题
+
+| 问题 | 解决方案 |
+|------|---------|
+| 图表被切割不完整 | 调整 GDINO prompt，扩大检测范围 |
+| 包含题目文字 | 使用更精确的 prompt，如 "chart only" |
+| 横向页面方向错误 | 先旋转图片再裁切 |
+| 检测到整页 | 已自动过滤（面积 > 60%） |
+| 重复检测 | 已自动去重（IoU > 0.3） |
+
+---
 
 ### 硬编码改造清单
 见 [docs/year4-analysis.md](docs/year4-analysis.md) 第 3 节
