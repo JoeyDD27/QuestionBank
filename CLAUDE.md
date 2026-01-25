@@ -89,8 +89,9 @@ cd web && vercel --prod
 
 ## 当前状态
 
-- **阶段1完成**: 33 章，2609 items，2952 图片
-- **阶段1记录**: [docs/phase1-notes.md](docs/phase1-notes.md)
+- **Algebra 阶段1完成**: 33 章，2609 items，2952 图片
+- **Year 4 math 处理中**: 文档已解压分析，PoC 验证通过
+- **详细记录**: [docs/phase1-notes.md](docs/phase1-notes.md), [docs/year4-analysis.md](docs/year4-analysis.md)
 - **阶段2方案**: [docs/phase2-classification-design.md](docs/phase2-classification-design.md)
 
 ---
@@ -99,14 +100,19 @@ cd web && vercel --prod
 
 ```
 QuestionBank/
-├── chapter_image_ranges.json       # 章节图片范围
+├── chapter_image_ranges.json       # Algebra 章节图片范围
 ├── extractions/                    # 提取的 JSON 文件
-├── docx_extracted/word/media_compressed/  # 源图片
+├── docx_extracted/word/media_compressed/  # Algebra 源图片
+├── year4_extracted/word/media/     # Year 4 源图片 (366张)
+├── Year 4 math.docx               # Year 4 原始文档
 ├── scripts/
 │   ├── import-chapter.cjs          # 章节导入脚本
+│   ├── extract_figures.py          # MinerU+GDINO 图表裁切
 │   └── scan_format_issues.cjs      # 格式检查
 ├── web/                            # Next.js 前端 (Vercel)
 ├── docs/                           # 归档文档
+│   ├── phase1-notes.md             # Algebra Phase 1 记录
+│   └── year4-analysis.md           # Year 4 分析与方案
 └── .env                            # Supabase 密钥
 ```
 
@@ -245,6 +251,36 @@ node scripts/scan_format_issues.cjs
 ```
 
 检查项: JSON 语法、星号污染、内容完整性
+
+---
+
+## Year 4 Math 处理
+
+### 文档分析结论
+- **文件**: `Year 4 math.docx` (604MB)，已解压到 `year4_extracted/`
+- **性质**: 混合文档 — 293 张全页截图 + 33 张小图 + 原生文本
+- **5 个 Unit**: graph(51图), numbers(38图), fraction(92图), decimal(35图), geometry(150图)
+- **详细分析**: [docs/year4-analysis.md](docs/year4-analysis.md)
+
+### 图表裁切方案：MinerU + Grounding DINO 组合 + LLM 4轮闭环
+- **MinerU** (`/home/dkai/.venvs/mineru/bin/magic-pdf` v1.3.12): 切大图表（柱状图含标题轴标签）
+- **Grounding DINO** (`IDEA-Research/grounding-dino-base`，mineru venv): 切小图形（几何形状等）
+- **LLM 闭环**: Claude 评估裁切完整性 → 生成定向 GDINO prompt → 重跑，最多 4 轮
+- **合并脚本**: `scripts/extract_figures.py`（已实现 MinerU+GDINO 合并，未含 LLM 闭环）
+- **IoU 去重阈值**: 0.3，整页误检过滤: 面积 > 60%
+
+### 当前试验范围
+Unit 1 graph 前 15 张图 (image1-15)，验证完整管道后再扩大。
+
+### 待执行
+1. 管道多源化改造（import 脚本 --source 参数 + web 前端多源支持）
+2. 压缩图片 + 建立 chapter_image_ranges
+3. 图表裁切（MinerU + GDINO 组合）
+4. 内容提取（LLM 读图 → LaTeX）
+5. 导入数据库 + 验证 Web 效果
+
+### 硬编码改造清单
+见 [docs/year4-analysis.md](docs/year4-analysis.md) 第 3 节
 
 ---
 
