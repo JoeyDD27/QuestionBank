@@ -1,0 +1,1541 @@
+{
+  "ch01": {
+    "title": "Algebra (middle and high school)",
+    "start": 1,
+    "end": 194,
+    "subChapters": [
+      {
+        "title": "Unit 1 expression",
+        "start": 1,
+        "end": 7,
+        "order": 1
+      },
+      {
+        "title": "Key words in algebra",
+        "start": 8,
+        "end": 23,
+        "order": 2
+      },
+      {
+        "title": "Changing words to symbols",
+        "start": 24,
+        "end": 33,
+        "order": 3
+      },
+      {
+        "title": "Generalizing arithmetic",
+        "start": 34,
+        "end": 37,
+        "order": 4
+      },
+      {
+        "title": "Algebraic substitutions",
+        "start": 38,
+        "end": 46,
+        "order": 5
+      },
+      {
+        "title": "Algebraic products and quotients in index notation",
+        "start": 47,
+        "end": 60,
+        "order": 6
+      },
+      {
+        "title": "Significant figures",
+        "start": 61,
+        "end": 72,
+        "order": 7
+      },
+      {
+        "title": "Scientific notation",
+        "start": 73,
+        "end": 87,
+        "order": 8
+      },
+      {
+        "title": "Negative bases",
+        "start": 88,
+        "end": 93,
+        "order": 9
+      },
+      {
+        "title": "Index laws",
+        "start": 94,
+        "end": 118,
+        "order": 10
+      },
+      {
+        "title": "Square roots",
+        "start": 119,
+        "end": 124,
+        "order": 11
+      },
+      {
+        "title": "Rules for square rules",
+        "start": 125,
+        "end": 159,
+        "order": 12
+      },
+      {
+        "title": "More exercise",
+        "start": 160,
+        "end": 194,
+        "order": 13
+      }
+    ]
+  },
+  "ch02": {
+    "title": "Expansion and Factorisation",
+    "start": 195,
+    "end": 242,
+    "subChapters": [
+      {
+        "title": "THE DISTRIBUTIVE LAW",
+        "start": 195,
+        "end": 218,
+        "order": 1
+      },
+      {
+        "title": "The product (a+b)(c+d)",
+        "start": 219,
+        "end": 227,
+        "order": 2
+      },
+      {
+        "title": "Perfect squares",
+        "start": 228,
+        "end": 242,
+        "order": 3
+      }
+    ]
+  },
+  "ch03": {
+    "title": "Simplifying algebraic fractions",
+    "start": 243,
+    "end": 288,
+    "subChapters": [
+      {
+        "title": "Simplifying algebraic fractions",
+        "start": 243,
+        "end": 268,
+        "order": 1
+      },
+      {
+        "title": "Algebraic fractions",
+        "start": 269,
+        "end": 281,
+        "order": 2
+      },
+      {
+        "title": "More complicated fractions",
+        "start": 282,
+        "end": 288,
+        "order": 3
+      }
+    ]
+  },
+  "ch04": {
+    "title": "Expansion of radical expressions",
+    "start": 289,
+    "end": 304,
+    "subChapters": [
+      {
+        "title": "Expansion of radical expressions",
+        "start": 289,
+        "end": 304,
+        "order": 1
+      }
+    ]
+  },
+  "ch05": {
+    "title": "Factorization and simplication",
+    "start": 305,
+    "end": 481,
+    "subChapters": [
+      {
+        "title": "Common factors",
+        "start": 305,
+        "end": 347,
+        "order": 1
+      },
+      {
+        "title": "Factorizing quadratic trinomials",
+        "start": 348,
+        "end": 361,
+        "order": 2
+      },
+      {
+        "title": "Miscellaneous factorization",
+        "start": 362,
+        "end": 396,
+        "order": 3
+      },
+      {
+        "title": "Special factorization",
+        "start": 397,
+        "end": 481,
+        "order": 4
+      }
+    ]
+  },
+  "ch06": {
+    "title": "Solving equations",
+    "start": 482,
+    "end": 595,
+    "subChapters": [
+      {
+        "title": "Solving equations",
+        "start": 482,
+        "end": 482,
+        "order": 1
+      },
+      {
+        "title": "Linear equations",
+        "start": 483,
+        "end": 507,
+        "order": 2
+      },
+      {
+        "title": "Rational equations",
+        "start": 508,
+        "end": 519,
+        "order": 3
+      },
+      {
+        "title": "Power equations",
+        "start": 520,
+        "end": 529,
+        "order": 4
+      },
+      {
+        "title": "Quadratic equations",
+        "start": 530,
+        "end": 595,
+        "order": 5
+      }
+    ]
+  },
+  "ch07": {
+    "title": "Problem solving with algebra",
+    "start": 596,
+    "end": 728,
+    "subChapters": [
+      {
+        "title": "Problem solving with algebra",
+        "start": 596,
+        "end": 628,
+        "order": 1
+      },
+      {
+        "title": "Problem solving with quadratic equations",
+        "start": 629,
+        "end": 650,
+        "order": 2
+      },
+      {
+        "title": "Quadratic equations with",
+        "start": 651,
+        "end": 666,
+        "order": 3
+      },
+      {
+        "title": "Algebraic expressions and equations  puzzles and tricks",
+        "start": 667,
+        "end": 687,
+        "order": 4
+      },
+      {
+        "title": "Writing equations",
+        "start": 688,
+        "end": 691,
+        "order": 5
+      },
+      {
+        "title": "Exercise for expression",
+        "start": 692,
+        "end": 701,
+        "order": 6
+      },
+      {
+        "title": "Exercise for equation",
+        "start": 702,
+        "end": 713,
+        "order": 7
+      },
+      {
+        "title": "Challenge problems",
+        "start": 714,
+        "end": 728,
+        "order": 8
+      }
+    ]
+  },
+  "ch08": {
+    "title": "Simultaneous equations",
+    "start": 729,
+    "end": 829,
+    "subChapters": [
+      {
+        "title": "Simultaneous equations",
+        "start": 729,
+        "end": 732,
+        "order": 1
+      },
+      {
+        "title": "Solution by substitution",
+        "start": 733,
+        "end": 741,
+        "order": 2
+      },
+      {
+        "title": "Solution by elimination",
+        "start": 742,
+        "end": 749,
+        "order": 3
+      },
+      {
+        "title": "Problem solving with simultaneous equations",
+        "start": 750,
+        "end": 776,
+        "order": 4
+      },
+      {
+        "title": "Non-linear simultaneous equations",
+        "start": 777,
+        "end": 790,
+        "order": 5
+      },
+      {
+        "title": "More linear equations in disguise",
+        "start": 791,
+        "end": 802,
+        "order": 6
+      },
+      {
+        "title": "More variables for system equations",
+        "start": 803,
+        "end": 829,
+        "order": 7
+      }
+    ]
+  },
+  "ch09": {
+    "title": "Inequalities",
+    "start": 830,
+    "end": 883,
+    "subChapters": [
+      {
+        "title": "Interval notation",
+        "start": 830,
+        "end": 839,
+        "order": 1
+      },
+      {
+        "title": "Linear inequalities",
+        "start": 840,
+        "end": 855,
+        "order": 2
+      },
+      {
+        "title": "Sign diagrams",
+        "start": 856,
+        "end": 867,
+        "order": 3
+      },
+      {
+        "title": "Non-linear inequalities",
+        "start": 868,
+        "end": 883,
+        "order": 4
+      }
+    ]
+  },
+  "ch10": {
+    "title": "Straight line",
+    "start": 884,
+    "end": 976,
+    "subChapters": [
+      {
+        "title": "Cartesian plane",
+        "start": 884,
+        "end": 884,
+        "order": 1
+      },
+      {
+        "title": "Propertities of a line",
+        "start": 885,
+        "end": 911,
+        "order": 2
+      },
+      {
+        "title": "Parallel and perpendicular lines",
+        "start": 912,
+        "end": 928,
+        "order": 3
+      },
+      {
+        "title": "Graphing a straight line",
+        "start": 929,
+        "end": 939,
+        "order": 4
+      },
+      {
+        "title": "Perpendicular bisectors",
+        "start": 940,
+        "end": 976,
+        "order": 5
+      }
+    ]
+  },
+  "ch11": {
+    "title": "Quadratic function",
+    "start": 977,
+    "end": 1178,
+    "subChapters": [
+      {
+        "title": "Quadratic function",
+        "start": 977,
+        "end": 994,
+        "order": 1
+      },
+      {
+        "title": "Graphs of quadratic functions",
+        "start": 995,
+        "end": 1037,
+        "order": 2
+      },
+      {
+        "title": "The discriminant and the quadratic graph",
+        "start": 1038,
+        "end": 1051,
+        "order": 3
+      },
+      {
+        "title": "vertex",
+        "start": 1052,
+        "end": 1078,
+        "order": 4
+      },
+      {
+        "title": "Sketching quadratics in the general form",
+        "start": 1079,
+        "end": 1097,
+        "order": 5
+      },
+      {
+        "title": "Finding a quadratic from its graph",
+        "start": 1098,
+        "end": 1106,
+        "order": 6
+      },
+      {
+        "title": "The intersection of graphs",
+        "start": 1107,
+        "end": 1115,
+        "order": 7
+      },
+      {
+        "title": "Problem solving with quadratic",
+        "start": 1116,
+        "end": 1127,
+        "order": 8
+      },
+      {
+        "title": "Quadratic inequalities",
+        "start": 1128,
+        "end": 1178,
+        "order": 9
+      }
+    ]
+  },
+  "ch12": {
+    "title": "sets",
+    "start": 1179,
+    "end": 1231,
+    "subChapters": [
+      {
+        "title": "set notation",
+        "start": 1179,
+        "end": 1192,
+        "order": 1
+      },
+      {
+        "title": "Special number sets",
+        "start": 1193,
+        "end": 1207,
+        "order": 2
+      },
+      {
+        "title": "Interval notation",
+        "start": 1208,
+        "end": 1210,
+        "order": 3
+      },
+      {
+        "title": "Subsets and complement",
+        "start": 1211,
+        "end": 1231,
+        "order": 4
+      }
+    ]
+  },
+  "ch13": {
+    "title": "Venn diagrams",
+    "start": 1232,
+    "end": 1358,
+    "subChapters": [
+      {
+        "title": "Venn diagrams",
+        "start": 1232,
+        "end": 1240,
+        "order": 1
+      },
+      {
+        "title": "Union and intersection",
+        "start": 1241,
+        "end": 1271,
+        "order": 2
+      },
+      {
+        "title": "Using venn diagrams to illustrate regions",
+        "start": 1272,
+        "end": 1286,
+        "order": 3
+      },
+      {
+        "title": "Numbers in regions",
+        "start": 1287,
+        "end": 1290,
+        "order": 4
+      },
+      {
+        "title": "Problem solving with venn diagrams",
+        "start": 1291,
+        "end": 1299,
+        "order": 5
+      },
+      {
+        "title": "The algebra of sets",
+        "start": 1300,
+        "end": 1303,
+        "order": 6
+      },
+      {
+        "title": "Finding probabilities from venn diagrams",
+        "start": 1304,
+        "end": 1358,
+        "order": 7
+      }
+    ]
+  },
+  "ch14": {
+    "title": "Functions",
+    "start": 1359,
+    "end": 1541,
+    "subChapters": [
+      {
+        "title": "Relations and functions",
+        "start": 1359,
+        "end": 1371,
+        "order": 1
+      },
+      {
+        "title": "Function notation",
+        "start": 1372,
+        "end": 1382,
+        "order": 2
+      },
+      {
+        "title": "Domain and range",
+        "start": 1383,
+        "end": 1396,
+        "order": 3
+      },
+      {
+        "title": "Composite functions",
+        "start": 1397,
+        "end": 1407,
+        "order": 4
+      },
+      {
+        "title": "Inverse function",
+        "start": 1408,
+        "end": 1423,
+        "order": 5
+      },
+      {
+        "title": "Rational functions",
+        "start": 1424,
+        "end": 1438,
+        "order": 6
+      },
+      {
+        "title": "Absolute value functions",
+        "start": 1439,
+        "end": 1452,
+        "order": 7
+      },
+      {
+        "title": "Where functions meet",
+        "start": 1453,
+        "end": 1477,
+        "order": 8
+      },
+      {
+        "title": "More functions",
+        "start": 1478,
+        "end": 1490,
+        "order": 9
+      },
+      {
+        "title": "Combining functions",
+        "start": 1491,
+        "end": 1494,
+        "order": 10
+      },
+      {
+        "title": "Composite function",
+        "start": 1495,
+        "end": 1501,
+        "order": 11
+      },
+      {
+        "title": "Inverse functions",
+        "start": 1502,
+        "end": 1515,
+        "order": 12
+      },
+      {
+        "title": "Problem solving with functions",
+        "start": 1516,
+        "end": 1530,
+        "order": 13
+      },
+      {
+        "title": "operations",
+        "start": 1531,
+        "end": 1541,
+        "order": 14
+      }
+    ]
+  },
+  "ch15": {
+    "title": "Transformation of functions",
+    "start": 1542,
+    "end": 1758,
+    "subChapters": [
+      {
+        "title": "translations",
+        "start": 1542,
+        "end": 1545,
+        "order": 1
+      },
+      {
+        "title": "stretches",
+        "start": 1546,
+        "end": 1554,
+        "order": 2
+      },
+      {
+        "title": "reflections",
+        "start": 1555,
+        "end": 1576,
+        "order": 3
+      },
+      {
+        "title": "Even and odd functions",
+        "start": 1577,
+        "end": 1584,
+        "order": 4
+      },
+      {
+        "title": "The graph of y=",
+        "start": 1585,
+        "end": 1589,
+        "order": 5
+      },
+      {
+        "title": "Absolute value functions",
+        "start": 1590,
+        "end": 1598,
+        "order": 6
+      },
+      {
+        "title": "Modulus equations",
+        "start": 1599,
+        "end": 1612,
+        "order": 7
+      },
+      {
+        "title": "Rational functions",
+        "start": 1613,
+        "end": 1623,
+        "order": 8
+      },
+      {
+        "title": "Partial fractions",
+        "start": 1624,
+        "end": 1642,
+        "order": 9
+      },
+      {
+        "title": "Exponential functions",
+        "start": 1643,
+        "end": 1665,
+        "order": 10
+      },
+      {
+        "title": "Exponential equations",
+        "start": 1666,
+        "end": 1676,
+        "order": 11
+      },
+      {
+        "title": "Exponential functions",
+        "start": 1675,
+        "end": 1701,
+        "order": 12
+      },
+      {
+        "title": "Growth and decay",
+        "start": 1702,
+        "end": 1716,
+        "order": 13
+      },
+      {
+        "title": "decay",
+        "start": 1717,
+        "end": 1726,
+        "order": 14
+      },
+      {
+        "title": "Compound interest",
+        "start": 1727,
+        "end": 1736,
+        "order": 15
+      },
+      {
+        "title": "depreciation",
+        "start": 1737,
+        "end": 1744,
+        "order": 16
+      },
+      {
+        "title": "The natural exponential",
+        "start": 1745,
+        "end": 1758,
+        "order": 17
+      }
+    ]
+  },
+  "ch16": {
+    "title": "logarithms",
+    "start": 1759,
+    "end": 1862,
+    "subChapters": [
+      {
+        "title": "logarithms",
+        "start": 1759,
+        "end": 1759,
+        "order": 1
+      },
+      {
+        "title": "Logarithms in base 10",
+        "start": 1760,
+        "end": 1771,
+        "order": 2
+      },
+      {
+        "title": "Logarithms in base a",
+        "start": 1772,
+        "end": 1780,
+        "order": 3
+      },
+      {
+        "title": "Laws of logarithms",
+        "start": 1781,
+        "end": 1791,
+        "order": 4
+      },
+      {
+        "title": "Natural logarithms",
+        "start": 1792,
+        "end": 1803,
+        "order": 5
+      },
+      {
+        "title": "Logarithmic equations",
+        "start": 1804,
+        "end": 1808,
+        "order": 6
+      },
+      {
+        "title": "The change of base rule",
+        "start": 1809,
+        "end": 1811,
+        "order": 7
+      },
+      {
+        "title": "Solving exponential equations using logarithms",
+        "start": 1812,
+        "end": 1825,
+        "order": 8
+      },
+      {
+        "title": "Logarithmic functions",
+        "start": 1826,
+        "end": 1862,
+        "order": 9
+      }
+    ]
+  },
+  "ch17": {
+    "title": "summary",
+    "start": 1863,
+    "end": 1870,
+    "subChapters": [
+      {
+        "title": "summary",
+        "start": 1863,
+        "end": 1870,
+        "order": 1
+      }
+    ]
+  },
+  "ch18": {
+    "title": "Number sequences",
+    "start": 1871,
+    "end": 1943,
+    "subChapters": [
+      {
+        "title": "Geometric patterns",
+        "start": 1871,
+        "end": 1878,
+        "order": 1
+      },
+      {
+        "title": "Using patterns",
+        "start": 1879,
+        "end": 1882,
+        "order": 2
+      },
+      {
+        "title": "Practical problems",
+        "start": 1883,
+        "end": 1884,
+        "order": 3
+      },
+      {
+        "title": "Number sequences",
+        "start": 1885,
+        "end": 1901,
+        "order": 4
+      },
+      {
+        "title": "Arithmetic sequences",
+        "start": 1902,
+        "end": 1927,
+        "order": 5
+      },
+      {
+        "title": "Geometric sequences",
+        "start": 1928,
+        "end": 1943,
+        "order": 6
+      }
+    ]
+  },
+  "ch19": {
+    "title": "series",
+    "start": 1944,
+    "end": 1988,
+    "subChapters": [
+      {
+        "title": "series",
+        "start": 1944,
+        "end": 1944,
+        "order": 1
+      },
+      {
+        "title": "Sigma notation",
+        "start": 1945,
+        "end": 1953,
+        "order": 2
+      },
+      {
+        "title": "Arithmetic series",
+        "start": 1954,
+        "end": 1968,
+        "order": 3
+      },
+      {
+        "title": "Finite geometric series",
+        "start": 1969,
+        "end": 1981,
+        "order": 4
+      },
+      {
+        "title": "Infinite geometric series",
+        "start": 1982,
+        "end": 1988,
+        "order": 5
+      }
+    ]
+  },
+  "ch20": {
+    "title": "Applications of geometric sequences",
+    "start": 1989,
+    "end": 2048,
+    "subChapters": [
+      {
+        "title": "growth and decay",
+        "start": 1989,
+        "end": 1991,
+        "order": 1
+      },
+      {
+        "title": "Compound interest",
+        "start": 1992,
+        "end": 1998,
+        "order": 2
+      },
+      {
+        "title": "inflation",
+        "start": 1999,
+        "end": 2002,
+        "order": 3
+      },
+      {
+        "title": "depreciation",
+        "start": 2003,
+        "end": 2048,
+        "order": 4
+      }
+    ]
+  },
+  "ch21": {
+    "title": "Number",
+    "start": 2049,
+    "end": 2173,
+    "subChapters": [
+      {
+        "title": "Index notation",
+        "start": 2049,
+        "end": 2052,
+        "order": 1
+      },
+      {
+        "title": "Rules for order of operations",
+        "start": 2053,
+        "end": 2066,
+        "order": 2
+      },
+      {
+        "title": "Even and odd numbers",
+        "start": 2067,
+        "end": 2075,
+        "order": 3
+      },
+      {
+        "title": "Prime factors",
+        "start": 2076,
+        "end": 2078,
+        "order": 4
+      },
+      {
+        "title": "HCF",
+        "start": 2079,
+        "end": 2084,
+        "order": 5
+      },
+      {
+        "title": "LCM",
+        "start": 2085,
+        "end": 2094,
+        "order": 6
+      },
+      {
+        "title": "INTEGERS",
+        "start": 2095,
+        "end": 2105,
+        "order": 7
+      },
+      {
+        "title": "Combined operations",
+        "start": 2106,
+        "end": 2108,
+        "order": 8
+      },
+      {
+        "title": "Square roots",
+        "start": 2109,
+        "end": 2109,
+        "order": 9
+      },
+      {
+        "title": "Cube roots",
+        "start": 2110,
+        "end": 2132,
+        "order": 10
+      },
+      {
+        "title": "Rational numbers",
+        "start": 2133,
+        "end": 2152,
+        "order": 11
+      },
+      {
+        "title": "Ratio",
+        "start": 2153,
+        "end": 2170,
+        "order": 12
+      },
+      {
+        "title": "Divisibility tests",
+        "start": 2171,
+        "end": 2173,
+        "order": 13
+      }
+    ]
+  },
+  "ch22": {
+    "title": "matrices",
+    "start": 2174,
+    "end": 2212,
+    "subChapters": [
+      {
+        "title": "matrix size and construction",
+        "start": 2174,
+        "end": 2182,
+        "order": 1
+      },
+      {
+        "title": "Matrix equality",
+        "start": 2183,
+        "end": 2185,
+        "order": 2
+      },
+      {
+        "title": "Addition and subtraction of matrices",
+        "start": 2186,
+        "end": 2193,
+        "order": 3
+      },
+      {
+        "title": "Scalar multiplication",
+        "start": 2194,
+        "end": 2198,
+        "order": 4
+      },
+      {
+        "title": "Matrix multiplication",
+        "start": 2199,
+        "end": 2212,
+        "order": 5
+      }
+    ]
+  },
+  "ch23": {
+    "title": "polynomials",
+    "start": 2213,
+    "end": 2333,
+    "subChapters": [
+      {
+        "title": "notation of polynomials",
+        "start": 2213,
+        "end": 2219,
+        "order": 1
+      },
+      {
+        "title": "Operations with polynomials",
+        "start": 2220,
+        "end": 2229,
+        "order": 2
+      },
+      {
+        "title": "Polynomial division",
+        "start": 2230,
+        "end": 2236,
+        "order": 3
+      },
+      {
+        "title": "Synthetic division",
+        "start": 2237,
+        "end": 2243,
+        "order": 4
+      },
+      {
+        "title": "Division by quadratics",
+        "start": 2244,
+        "end": 2246,
+        "order": 5
+      },
+      {
+        "title": "Zeros, roots, and factors",
+        "start": 2247,
+        "end": 2259,
+        "order": 6
+      },
+      {
+        "title": "Polynomial equality",
+        "start": 2260,
+        "end": 2266,
+        "order": 7
+      },
+      {
+        "title": "The remainder theorem",
+        "start": 2267,
+        "end": 2281,
+        "order": 8
+      },
+      {
+        "title": "The factor theorem",
+        "start": 2282,
+        "end": 2296,
+        "order": 9
+      },
+      {
+        "title": "The fundamental theorem of algebra",
+        "start": 2297,
+        "end": 2302,
+        "order": 10
+      },
+      {
+        "title": "Sum and products of roots theorem",
+        "start": 2303,
+        "end": 2309,
+        "order": 11
+      },
+      {
+        "title": "Graphing cubic functions",
+        "start": 2310,
+        "end": 2322,
+        "order": 12
+      },
+      {
+        "title": "Graphing quartic functions",
+        "start": 2323,
+        "end": 2333,
+        "order": 13
+      }
+    ]
+  },
+  "ch24": {
+    "title": "Polynomial equations",
+    "start": 2334,
+    "end": 2352,
+    "subChapters": [
+      {
+        "title": "Polynomial equations",
+        "start": 2334,
+        "end": 2337,
+        "order": 1
+      },
+      {
+        "title": "Cubic inequalities",
+        "start": 2338,
+        "end": 2352,
+        "order": 2
+      }
+    ]
+  },
+  "ch25": {
+    "title": "Percentage",
+    "start": 2353,
+    "end": 2454,
+    "subChapters": [
+      {
+        "title": "Percentage",
+        "start": 2353,
+        "end": 2384,
+        "order": 1
+      },
+      {
+        "title": "Percentage increase or decrease",
+        "start": 2385,
+        "end": 2389,
+        "order": 2
+      },
+      {
+        "title": "Percentage change",
+        "start": 2390,
+        "end": 2396,
+        "order": 3
+      },
+      {
+        "title": "Profit and loss",
+        "start": 2397,
+        "end": 2411,
+        "order": 4
+      },
+      {
+        "title": "discount",
+        "start": 2412,
+        "end": 2422,
+        "order": 5
+      },
+      {
+        "title": "Simple interest",
+        "start": 2423,
+        "end": 2436,
+        "order": 6
+      },
+      {
+        "title": "Compound interest",
+        "start": 2437,
+        "end": 2454,
+        "order": 7
+      }
+    ]
+  },
+  "ch26": {
+    "title": "Ratio and proportion",
+    "start": 2455,
+    "end": 2507,
+    "subChapters": [
+      {
+        "title": "Ratio and proportion",
+        "start": 2455,
+        "end": 2471,
+        "order": 1
+      },
+      {
+        "title": "proportions",
+        "start": 2472,
+        "end": 2476,
+        "order": 2
+      },
+      {
+        "title": "Using ratios to divide quantities",
+        "start": 2477,
+        "end": 2482,
+        "order": 3
+      },
+      {
+        "title": "Scale diagrams",
+        "start": 2483,
+        "end": 2498,
+        "order": 4
+      },
+      {
+        "title": "Gradient of slope",
+        "start": 2499,
+        "end": 2507,
+        "order": 5
+      }
+    ]
+  },
+  "ch27": {
+    "title": "rates",
+    "start": 2508,
+    "end": 2547,
+    "subChapters": [
+      {
+        "title": "rates",
+        "start": 2508,
+        "end": 2512,
+        "order": 1
+      },
+      {
+        "title": "Comparing prices",
+        "start": 2513,
+        "end": 2515,
+        "order": 2
+      },
+      {
+        "title": "Using rates",
+        "start": 2516,
+        "end": 2521,
+        "order": 3
+      },
+      {
+        "title": "Average speed",
+        "start": 2522,
+        "end": 2526,
+        "order": 4
+      },
+      {
+        "title": "density",
+        "start": 2527,
+        "end": 2532,
+        "order": 5
+      },
+      {
+        "title": "Converting rates",
+        "start": 2533,
+        "end": 2547,
+        "order": 6
+      }
+    ]
+  },
+  "ch28": {
+    "title": "Problem solving",
+    "start": 2548,
+    "end": 2598,
+    "subChapters": [
+      {
+        "title": "Writing equations using symbols",
+        "start": 2548,
+        "end": 2558,
+        "order": 1
+      },
+      {
+        "title": "Measurement problems",
+        "start": 2559,
+        "end": 2564,
+        "order": 2
+      },
+      {
+        "title": "Money problems",
+        "start": 2565,
+        "end": 2568,
+        "order": 3
+      },
+      {
+        "title": "Miscellaneous problem solving",
+        "start": 2569,
+        "end": 2577,
+        "order": 4
+      },
+      {
+        "title": "Problem solving by search",
+        "start": 2578,
+        "end": 2585,
+        "order": 5
+      },
+      {
+        "title": "Problem solving by working backwards",
+        "start": 2586,
+        "end": 2598,
+        "order": 6
+      }
+    ]
+  },
+  "ch29": {
+    "title": "Financial mathematics",
+    "start": 2599,
+    "end": 2670,
+    "subChapters": [
+      {
+        "title": "Business calculations",
+        "start": 2599,
+        "end": 2629,
+        "order": 1
+      },
+      {
+        "title": "appreciation",
+        "start": 2630,
+        "end": 2640,
+        "order": 2
+      },
+      {
+        "title": "depreciation",
+        "start": 2641,
+        "end": 2650,
+        "order": 3
+      },
+      {
+        "title": "borrowing",
+        "start": 2651,
+        "end": 2670,
+        "order": 4
+      }
+    ]
+  },
+  "ch30": {
+    "title": "Complex numbers",
+    "start": 2671,
+    "end": 2726,
+    "subChapters": [
+      {
+        "title": "Complex numbers",
+        "start": 2671,
+        "end": 2686,
+        "order": 1
+      },
+      {
+        "title": "Operations with complex numbers",
+        "start": 2687,
+        "end": 2693,
+        "order": 2
+      },
+      {
+        "title": "Equality of complex numbers",
+        "start": 2694,
+        "end": 2696,
+        "order": 3
+      },
+      {
+        "title": "Properties of complex conjugates",
+        "start": 2697,
+        "end": 2703,
+        "order": 4
+      },
+      {
+        "title": "The complex plane",
+        "start": 2704,
+        "end": 2713,
+        "order": 5
+      },
+      {
+        "title": "Modulus and argument",
+        "start": 2714,
+        "end": 2726,
+        "order": 6
+      }
+    ]
+  },
+  "ch31": {
+    "title": "Geometry in the complex plane",
+    "start": 2727,
+    "end": 2795,
+    "subChapters": [
+      {
+        "title": "Geometry in the complex plane",
+        "start": 2727,
+        "end": 2727,
+        "order": 1
+      },
+      {
+        "title": "distance",
+        "start": 2728,
+        "end": 2729,
+        "order": 2
+      },
+      {
+        "title": "midpoint",
+        "start": 2730,
+        "end": 2733,
+        "order": 3
+      },
+      {
+        "title": "Polar form",
+        "start": 2734,
+        "end": 2741,
+        "order": 4
+      },
+      {
+        "title": "Properties of cis",
+        "start": 2742,
+        "end": 2750,
+        "order": 5
+      },
+      {
+        "title": "Multiplication of complex numbers",
+        "start": 2751,
+        "end": 2768,
+        "order": 6
+      },
+      {
+        "title": "De movire’s theorem",
+        "start": 2769,
+        "end": 2775,
+        "order": 7
+      },
+      {
+        "title": "Roots of complex numbers",
+        "start": 2776,
+        "end": 2795,
+        "order": 8
+      }
+    ]
+  },
+  "ch32": {
+    "title": "The binomial theorem",
+    "start": 2796,
+    "end": 2840,
+    "subChapters": [
+      {
+        "title": "The binomial theorem",
+        "start": 2796,
+        "end": 2796,
+        "order": 1
+      },
+      {
+        "title": "Factorial notation",
+        "start": 2797,
+        "end": 2802,
+        "order": 2
+      },
+      {
+        "title": "Binomial expansions",
+        "start": 2803,
+        "end": 2811,
+        "order": 3
+      },
+      {
+        "title": "The binomal theorem",
+        "start": 2812,
+        "end": 2831,
+        "order": 4
+      },
+      {
+        "title": "The binomial theoren for nQ",
+        "start": 2832,
+        "end": 2840,
+        "order": 5
+      }
+    ]
+  },
+  "ch33": {
+    "title": "Reasoning and proof",
+    "start": 2841,
+    "end": 2952,
+    "subChapters": [
+      {
+        "title": "Reasoning and proof",
+        "start": 2841,
+        "end": 2846,
+        "order": 1
+      },
+      {
+        "title": "Logical connectives",
+        "start": 2847,
+        "end": 2852,
+        "order": 2
+      },
+      {
+        "title": "Proof by deduction",
+        "start": 2853,
+        "end": 2857,
+        "order": 3
+      },
+      {
+        "title": "Proof by equivalence",
+        "start": 2858,
+        "end": 2866,
+        "order": 4
+      },
+      {
+        "title": "definitions",
+        "start": 2867,
+        "end": 2873,
+        "order": 5
+      },
+      {
+        "title": "Proof by exhaustion",
+        "start": 2874,
+        "end": 2878,
+        "order": 6
+      },
+      {
+        "title": "Proof by counter example",
+        "start": 2879,
+        "end": 2882,
+        "order": 7
+      },
+      {
+        "title": "Proof by contrapositive",
+        "start": 2883,
+        "end": 2905,
+        "order": 8
+      },
+      {
+        "title": "Proof by mathematical induction",
+        "start": 2906,
+        "end": 2952,
+        "order": 9
+      }
+    ]
+  }
+}
